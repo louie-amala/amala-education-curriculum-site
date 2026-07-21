@@ -52,11 +52,16 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
       <section className="mt-8 grid gap-4 sm:grid-cols-3">
         <div className="rounded-lg border border-cool-grey/20 bg-white p-4">
           <h2 className="text-xs font-semibold uppercase tracking-wide text-cool-grey">Builds agency</h2>
-          <ul className="mt-2 space-y-1 text-sm text-dark-navy">
+          <ul className="mt-2 space-y-1 text-sm font-medium text-dark-navy">
             {m.agencyContribution.indicators.map((i) => (
               <li key={i}>{INDICATOR_LABEL[i] ?? i}</li>
             ))}
           </ul>
+          {m.agencyContribution.how && (
+            <p className="mt-2 border-t border-cool-grey/15 pt-2 text-sm text-dark-navy/80">
+              {m.agencyContribution.how}
+            </p>
+          )}
         </div>
         <div className="rounded-lg border border-cool-grey/20 bg-white p-4">
           <h2 className="text-xs font-semibold uppercase tracking-wide text-cool-grey">Foregrounds principles</h2>
@@ -83,9 +88,6 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
           </ul>
         </div>
       </section>
-      {m.agencyContribution.how && (
-        <p className="mt-3 text-sm italic text-cool-grey">{m.agencyContribution.how}</p>
-      )}
 
       {/* Content faces */}
       {m.learnerContent && (
