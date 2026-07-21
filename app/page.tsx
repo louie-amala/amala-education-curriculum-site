@@ -1,22 +1,24 @@
-import { getDatasetSummary } from "@/lib/content";
+import Link from "next/link";
+import { areas, competencies, courses, principles, programmes } from "@/lib/content";
 
 export default function Home() {
-  const s = getDatasetSummary();
+  const objectives = courses.reduce((n, c) => n + c.objectives.length, 0);
+  const links = courses.reduce(
+    (n, c) => n + c.objectives.reduce((m, o) => m + o.competencyEvidence.length, 0),
+    0,
+  );
 
-  const stats: { label: string; value: number; accent: string }[] = [
-    { label: "Programme", value: s.programmes, accent: "text-navy" },
-    { label: "Courses", value: s.courses, accent: "text-teal" },
-    { label: "Competency areas", value: s.areas, accent: "text-olive" },
-    { label: "Competencies", value: s.competencies, accent: "text-orange" },
-    { label: "Principles", value: s.principles, accent: "text-plum" },
-    { label: "Objectives", value: s.objectives, accent: "text-aqua" },
-    { label: "Competency links", value: s.evidenceLinks, accent: "text-terracotta" },
+  const entries = [
+    { href: "/programmes/gsd", title: "Global Secondary Diploma", desc: "The flagship programme: five streams, ten courses, PIP and Pathways.", accent: "border-navy" },
+    { href: "/competencies", title: "Competencies", desc: `${competencies.length} competencies across ${areas.length} areas. See what each one evidences.`, accent: "border-orange" },
+    { href: "/courses", title: "Courses", desc: `${courses.length} courses, their objectives, and the competencies they build.`, accent: "border-teal" },
+    { href: "/foundations", title: "Learning Foundations", desc: "Agency for positive change and the nine principles that guide design.", accent: "border-olive" },
   ];
 
   return (
-    <main className="min-h-screen bg-white">
-      <header className="bg-navy px-6 py-16 text-white sm:px-12">
-        <div className="mx-auto max-w-4xl">
+    <main>
+      <section className="bg-navy px-6 py-16 text-white">
+        <div className="mx-auto max-w-5xl">
           <p className="font-heading text-sm uppercase tracking-widest text-aqua">
             Amala — Education for Change
           </p>
@@ -29,32 +31,27 @@ export default function Home() {
             deliver.
           </p>
         </div>
-      </header>
+      </section>
 
-      <section className="px-6 py-14 sm:px-12">
-        <div className="mx-auto max-w-4xl">
-          <h2 className="font-heading text-xl font-semibold text-dark-navy">
-            Curriculum dataset
-          </h2>
-          <p className="mt-2 text-cool-grey">
-            Live counts read from the verified content source at build time.
-          </p>
-          <dl className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">
-            {stats.map((stat) => (
-              <div
-                key={stat.label}
-                className="rounded-lg border border-cool-grey/25 bg-white p-5 shadow-sm"
+      <section className="px-6 py-14">
+        <div className="mx-auto max-w-5xl">
+          <div className="grid gap-4 sm:grid-cols-2">
+            {entries.map((e) => (
+              <Link
+                key={e.href}
+                href={e.href}
+                className={`block rounded-lg border-l-4 ${e.accent} border-y border-r border-cool-grey/20 bg-white p-6 shadow-sm transition hover:shadow-md`}
               >
-                <dt className="text-sm font-medium text-cool-grey">{stat.label}</dt>
-                <dd className={`mt-1 font-heading text-3xl font-bold ${stat.accent}`}>
-                  {stat.value}
-                </dd>
-              </div>
+                <h2 className="font-heading text-xl font-semibold text-dark-navy">{e.title}</h2>
+                <p className="mt-2 text-cool-grey">{e.desc}</p>
+              </Link>
             ))}
-          </dl>
-          <p className="mt-10 rounded-lg bg-olive/10 p-4 text-sm text-dark-navy">
-            Phase 0 scaffold. Next: Zod schemas, the build-time validation harness, and the
-            navigable relational web (competencies → objectives → courses).
+          </div>
+
+          <p className="mt-10 text-sm text-cool-grey">
+            {programmes.length} programme · {courses.length} courses · {areas.length} competency
+            areas · {competencies.length} competencies · {principles.length} principles ·{" "}
+            {objectives} objectives · {links} competency links — all validated at build time.
           </p>
         </div>
       </section>

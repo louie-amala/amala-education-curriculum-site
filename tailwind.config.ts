@@ -2,7 +2,7 @@ import type { Config } from "tailwindcss";
 
 // Brand palette — Build Specification §9.1 (hex is authoritative for digital).
 const config: Config = {
-  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
+  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./lib/**/*.{ts,tsx}"],
   theme: {
     extend: {
       colors: {
