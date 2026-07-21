@@ -1,0 +1,193 @@
+# Intermediate extraction — mirrors spec §4.1 Course/Objective interfaces.
+# Source: "Economics for Positive Change Course Guide - 2025 Onwards.txt"
+# Verbatim from source; issues recorded, not corrected.
+id: economics-for-positive-change
+slug: economics-for-positive-change
+access: public
+title: Economics for Positive Change
+strapline: null            # not present in guide — to author
+programmes: [gsd]          # placeholder — programme membership to confirm
+testimonial:
+  quote: >-
+    I've always been curious about economics, but I never had the opportunity to
+    learn about it in depth until now. This course has helped me build a solid
+    foundation of economic knowledge and so much more. 100% recommended.
+  attribution: Amala student in Jordan
+purpose: >-
+  Economies are human designed systems that shape how people meet their needs and
+  how communities relate to the Earth's life-support systems. This course supports
+  learners to explore how local economies function and to imagine and design ways
+  they could work better, meeting human needs while caring for the planet. Learners
+  engage with ideas from regenerative and ecological economics to understand
+  economies as living systems that can restore, rather than deplete, the social and
+  natural foundations of life. Through inquiry, experimentation, and collaboration,
+  they begin to reimagine economic activity as a force for wellbeing and
+  regeneration.
+requirements:
+  structuredHours: 100
+  durationWeeks: 10          # "minimum of 10 weeks"
+  cadence: 10+ weeks
+  liveIndependentSplit: null # not stated in guide
+  notes: >-
+    Structured learning should include both live sessions (individual and/or group)
+    and independent learning (individual and/or group tasks).
+
+objectives:
+  - statement: Contribute to the collective understanding of local economic systems.
+    supportedTo:
+      - Understand the economy as a system embedded within society and Earth's life-support systems.
+      - Explore how people meet their needs through households, markets, the state, and the commons.
+      - Recognise how culture, values, and worldviews shape economic choices and relationships.
+      - Identify where local practices support or undermine regeneration.
+      - Create and share representations that communicate collective understanding of the local economy.
+    furtherDetails:
+      concepts:
+        - Regenerative Economics visuals such as Embedded Economy, Care Diamond, or Doughnut Diagrams
+        - Doughnut Economics framework (safe and just space)
+      activities:
+        - Create a local embedded-economy map showing flows of goods, services, care, and energy
+        - Conduct short interviews about how people meet basic needs (e.g. food, housing, energy, care)
+        - Compare findings with the Doughnut Economics framework and discuss where local life sits within or beyond the safe and just space
+        - Facilitate a short group discussion or forum to share findings and refine the collective map
+    competencyEvidence:
+      - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners analyse interactions within local economic systems." }
+      - { code: FPS3, citedTitle: Identifying contributing factors, condition: "If learners have problems in local economic activity." }
+      - { code: FSL3, citedTitle: Engaging in continuous learning, condition: "If learners build understanding through inquiry and dialogue." }
+      - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners engage others in building shared understanding." }
+
+  - statement: >-
+      Develop and test initiatives to shape local economic systems to better meet
+      human needs within the means of the planet.
+    supportedTo:
+      - Explore Regenerative Economics principles and their relevance to local challenges.
+      - Identify unmet needs or extractive patterns in the local economy.
+      - Design and prototype small-scale initiatives that embody regenerative principles such as circularity, care, reciprocity, and sufficiency.
+      - Test or simulate these initiatives and evaluate what changes occur.
+      - Reflect on what feedback suggests about leverage points for transformation.
+    furtherDetails:
+      concepts:
+        - "Regenerative Economics principle: Circularity - designing out waste and keeping resources in use for as long as possible."
+        - "Regenerative Economics principle: Care - prioritising wellbeing, relationships, and the maintenance of life over extraction or profit."
+        - "Regenerative Economics principle: Reciprocity - ensuring exchanges are fair, mutual, and beneficial for all parties (including ecosystems)."
+        - "Regenerative Economics principle: Sufficiency - recognising what is \"enough\" and avoiding overconsumption."
+      activities:
+        - Use systems-mapping tools to analyse where change is possible and identify leverage points
+        - Develop a mini-project such as a repair café, community sharing platform, skill-exchange, or needs-mapping campaign
+        - Document learning through journals, photos, or short videos and link reflections to regenerative principles
+        - Facilitate peer feedback sessions to evaluate how well initiatives address human needs within ecological limits
+    competencyEvidence:
+      - { code: FSI3, citedTitle: Pilot sustainable solutions(F), condition: "If learners design, prototype, and test initiatives for regenerative change." }
+      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners use data and feedback to improve initiatives." }
+      - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners take deliberate action to achieve sustainable outcomes." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners design solutions that balance human wellbeing and planetary health." }
+
+  - statement: >-
+      Engage and convince others to support, collaborate on, and/or co-create
+      initiatives to shape local economic systems to better meet human needs within
+      the means of the planet
+    supportedTo:
+      - Communicate findings and proposals clearly using stories, visuals, and evidence.
+      - Develop persuasive, values-based arguments for regenerative change.
+      - Facilitate dialogue, listen actively, and adapt plans collaboratively.
+      - Mobilise others to participate in shaping fairer, more sustainable systems.
+      - Reflect on how influence and collaboration can strengthen community agency.
+    furtherDetails:
+      concepts:
+        - Behavioural economics ideas such as incentives, nudges, and framing effects
+        - Communication and storytelling for systems change
+        - Doughnut model / local wellbeing goals
+      activities:
+        - Prepare a community presentation, exhibit, or digital story linking their initiative to the Doughnut model or local wellbeing goals
+        - Create communication materials (poster, video, or social-media post) using regenerative-economics visuals and concepts
+        - Host a dialogue circle or World Café inviting others to contribute ideas and commitments
+        - Share a final reflection on what collective action can achieve and how values shape influence
+    competencyEvidence:
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners communicate effectively to mobilise others." }
+      - { code: ALC2, citedTitle: Facilitating collaborative decision making, condition: "If learners support constructive cooperation among stakeholders." }
+      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners use reasoning and data to strengthen their case for support." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners advocate transparently and responsibly." }
+      - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners strengthen community ownership of change." }
+
+principleMappings:
+  # Guide lists 8 principles (see sourceIssues). Stored in guide order.
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners connect global economic ideas to their own communities, livelihoods, and lived experiences.
+      - Educators use local examples of production, exchange, and care to ground systems thinking.
+      - Activities acknowledge and value diverse economic practices — including informal, household, cooperative, and community-based forms of exchange.
+  - principle: collaboration
+    inThisCourse:
+      - Learners collaborate with peers and community members to map and understand their local economies.
+      - Partnerships with local businesses, cooperatives, or social enterprises provide real-world perspectives.
+      - Facilitators model collaborative inquiry and encourage learners to co-design initiatives for economic wellbeing and regeneration.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Learners build economic literacy that helps them understand and influence systems that shape their lives.
+      - Learners develop problem-solving, design, and communication skills relevant for sustainable livelihoods and community innovation.
+      - The course nurtures mindsets of curiosity, interdependence, and responsibility for both people and planet.
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners apply regenerative and systems-thinking principles to identify unmet needs or extractive patterns in their local economy.
+      - They design and test small-scale initiatives that address these challenges ethically and sustainably.
+      - Facilitators guide learners to use reflection and feedback to improve initiatives and assess their impact.
+  - principle: responsible-action
+    inThisCourse:
+      - Learners explore trade-offs between growth, fairness, and ecological limits.
+      - Activities promote ethical reasoning about resource use, equity, and responsibility.
+      - Facilitators model balanced decision-making that considers wellbeing and sustainability together.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Learners document and share how their actions contribute to more regenerative and inclusive economies.
+      - They use storytelling, data, and visuals to explain the impact of their initiatives.
+      - Educators celebrate both the learning process and the positive ripple effects learners create in their communities.
+  - principle: feedback-and-data
+    inThisCourse:
+      - Learners collect data from pilot projects and stakeholder feedback to evaluate outcomes.
+      - Facilitators analyse reflections, feedback, and local indicators of wellbeing to adapt learning experiences.
+      - Programmes evolve based on evidence of what best helps learners understand and influence economic systems.
+  - principle: safe-spaces
+    inThisCourse:
+      - Facilitators establish norms for respectful dialogue about sensitive topics such as inequality, privilege, and resource use.
+      - Learners engage with diverse worldviews about value, success, and wellbeing in open and non-judgmental ways.
+      - Activities foster trust, inclusion, and curiosity — helping learners feel safe to challenge dominant economic ideas and imagine alternatives.
+
+designChecklist:
+  - My course design includes ~100 hours of learning experiences/tasks.
+  - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).
+  - My course design is mostly aligned with Amala's principles for transformative education (and where the course is not aligned, I have reflected on how I can improve alignment in the future).
+  - Course design supports learners in making progress towards all of the course objectives.
+  - Opportunities for learners to generate and submit evidence that can be used to evaluate their proficiency in the Amala competencies are built in to the course design.
+
+sourceIssues:
+  - type: cross-course-copy-paste
+    detail: >-
+      Course Learning Design Checklist intro reads "Meets the time and
+      contextualisation requirements for the Social Entrepreneurship course" — should
+      reference Economics for Positive Change. Same error appears in multiple guides.
+  - type: missing-principle
+    detail: >-
+      Guide lists 8 principles and omits connect-to-futures ("connect learning to the
+      futures they are building") — no inThisCourse mapping present.
+  - type: miscited-competency
+    detail: >-
+      Objective 1 cites "FSL3 – Engaging in continuous learning"; authoritative title
+      for FSL3 is "Engage in continuous learning". Cited value preserved, not corrected.
+  - type: miscited-competency
+    detail: >-
+      Objectives 2 and 3 cite "APS2 – Evidence-informed decision making" (hyphenated);
+      authoritative title for APS2 is "Evidence informed decision making" (no hyphen).
+      Cited value preserved, not corrected.
+  - type: other
+    detail: >-
+      Objective 2 cites "FSI3 – Pilot sustainable solutions(F)" — the trailing "(F)"
+      (credit-level marker) is appended to the title in the source. Code FSI3 and
+      title "Pilot sustainable solutions" are otherwise correct. Preserved verbatim.
+  - type: other
+    detail: >-
+      Objective 1, FPS3 condition reads "If learners have problems in local economic
+      activity." — appears garbled/incomplete in the source (likely "identify problems").
+      Preserved verbatim.
+  - type: strapline-missing
+    detail: No strapline in source; needs authoring.
+  - type: programme-membership-to-confirm
+    detail: programmes set to [gsd] as placeholder; confirm against programme-level docs.

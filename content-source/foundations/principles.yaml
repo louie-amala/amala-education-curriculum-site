@@ -1,0 +1,161 @@
+# The nine Learning Foundations principles (spec §5.2).
+# Source: Amala Learning Foundations, Draft VS14. Authoritative over the course guides,
+# which carry only 8 (they omit principle 7 — see NOTES.md).
+# Each principle: generic markers from the Foundations. Per-course "inThisCourse"
+# mappings live on each course (from the course guides).
+- id: builds-on-identities
+  number: 1
+  statement: Learning builds on learners' identities, experiences, and communities.
+  gloss: >-
+    Every learner arrives with knowledge, perspectives, and lived experience that matter.
+    Transformative learning begins by valuing what learners bring and making their world
+    visible in the learning itself.
+  designLooksLike:
+    - Context mapping shaping how a programme is designed
+    - Learners' knowledge and lived experience treated as curriculum content, not background
+    - Personal perspectives invited into every session
+    - Knowledge, skills, and dispositions developed that matter in the lives learners are actually leading
+  workingWhen:
+    - Learners recognise themselves and their communities in what they are learning
+    - Learners bring their full selves into the learning space
+    - Programmes reflect the realities of the contexts they run in
+
+- id: collaboration
+  number: 2
+  statement: Learning is shaped through collaboration with and between learners, educators, and communities.
+  gloss: >-
+    Amala's transformative education is not delivered to learners; it is built with and
+    between them and the people around them. Ownership is distributed, and learning extends
+    beyond the classroom into the communities, workplaces, and institutions learners are part of.
+  designLooksLike:
+    - Learning experiences co-designed with learners, educators, and community members
+    - Local businesses, organisations, and professionals hosting internships, mentoring, site visits, and guest sessions
+    - Significant adults, partners, and community voices drawn on as collaborators throughout
+    - Cycles of reflection and adjustment built into every programme
+    - Learners recognised as contributors to the programme, not only recipients of it
+  workingWhen:
+    - Learners, educators, and community members feel genuine ownership of the programme
+    - Learning happens inside the community, not only in the classroom
+    - The programme changes shape in response to what learners and communities contribute
+    - Partnerships with community members are active, not symbolic
+
+- id: lifeworthy-competencies
+  number: 3
+  statement: Learning develops lifeworthy competencies.
+  gloss: >-
+    Amala focuses on competencies that matter in the lives learners lead now and in the
+    future, not on content for its own sake. A competency is a lifeworthy goal that integrates
+    knowledge, skills, and dispositions, is demonstrated through applied performance, and can
+    be shown in a variety of contexts. The Amala Competency Framework sets out the full set.
+  note: Enforced by the competency cross-reference machinery, not authored separately (spec §5.2).
+  designLooksLike:
+    - Programmes designed around competencies rather than topics
+    - Learners given repeated opportunities to apply competencies in real contexts
+    - Transferable skills developed that learners can carry between contexts
+    - Competencies integrated across subjects and activities rather than taught in isolation
+  workingWhen:
+    - Learners can demonstrate competencies in authentic situations
+    - Competencies show up in learners' work across different contexts
+    - Learners develop fluency in using competencies, not just familiarity with them
+
+- id: authentic-challenges
+  number: 4
+  statement: Learners engage with authentic challenges that create impact.
+  gloss: >-
+    Transformative learning happens when learners act on things that matter. Amala programmes
+    are built around real challenges in learners' own lives and communities.
+  designLooksLike:
+    - Programmes designed around genuine community-identified issues
+    - Learners taking action, not just analysing
+    - Community partners with a stake in what learners produce
+    - Small-scale, imperfect action treated as legitimate learning
+  workingWhen:
+    - Learners make tangible contributions to their communities through the programme
+    - Learners are recognised by others as contributors and leaders
+    - The programme's work is visible beyond the classroom
+
+- id: responsible-action
+  number: 5
+  statement: Learning promotes responsible, values-driven action.
+  gloss: >-
+    Transformative education is not neutral. Amala holds that acting ethically, sustainably,
+    and with awareness of consequence is part of what it means to be educated.
+  designLooksLike:
+    - The ethical dimensions of every challenge made an explicit part of the learning
+    - Sustainability and inclusion used as design criteria, not afterthoughts
+    - Responsible decision-making modelled in how the programme itself is run
+    - Learners supported to identify the values guiding their choices
+  workingWhen:
+    - Learners weigh ethical, social, and environmental considerations in the decisions they make
+    - Programmes operate in ways that are visibly responsible to learners, communities, and the environment
+    - Learners articulate the values behind their work
+
+- id: recognise-communicate-growth
+  number: 6
+  statement: Learners recognise and communicate their own growth and impact.
+  gloss: >-
+    Learning becomes transformative when learners can see how they have changed and tell the
+    story of it. Amala equips learners to be evidence-based narrators of their own development.
+  designLooksLike:
+    - Structured reflection built into every stage of a programme
+    - Learners supported to collect and reflect upon evidence of their learning and impact
+    - Repeated practice in sharing growth with different audiences
+    - Learners' accounts of their own growth treated as legitimate evidence
+  workingWhen:
+    - Learners can articulate what they have learned and how they have changed, with evidence
+    - Learners can describe the impact of their work on others
+    - Learners' stories of growth are shared beyond the programme
+
+- id: connect-to-futures
+  number: 7
+  statement: Learners connect their learning to the futures they are building.
+  gloss: >-
+    Learning becomes agency when learners can see how what they are doing now connects to
+    where they are going. Amala supports learners to make that connection actively, so they
+    leave each programme with a clearer sense of their own next step and the part this learning
+    plays in it.
+  note: >-
+    Not present as a distinct row in any 2025 course guide's principle table. Per-course
+    "inThisCourse" mappings therefore missing everywhere — see NOTES.md.
+  designLooksLike:
+    - Learners supported to articulate the pathways they are working towards
+    - Explicit conversations about how competencies being developed transfer into further education, work, and enterprise
+    - Exposure to people, institutions, and opportunities relevant to learners' chosen pathways
+    - Space for learners' aspirations to shape what and how they learn
+  workingWhen:
+    - Learners can describe how their learning connects to what they want to do next
+    - Learners take concrete steps towards the pathways they are building
+    - Learners' choices about their own futures are informed and deliberate
+
+- id: feedback-and-data
+  number: 8
+  statement: Learning is shaped by ongoing feedback and data.
+  gloss: >-
+    Programmes improve when they listen. Amala treats feedback and data as the engine of
+    continuous improvement — at the level of a single session, a single programme, and the
+    model as a whole.
+  designLooksLike:
+    - Input gathered from learners, educators, community members, and other stakeholders
+    - Qualitative and quantitative data used together
+    - Feedback acted on transparently, with the loop closed back to those who gave it
+    - Programme design iterated based on what is and isn't working
+  workingWhen:
+    - Programmes visibly change in response to feedback
+    - Stakeholders recognise their input in the programme's direction
+    - Improvement is continuous, not episodic
+
+- id: safe-spaces
+  number: 9
+  statement: Learning spaces support wellbeing, belonging, and growth.
+  gloss: >-
+    Learners cannot develop agency in spaces that feel unsafe. Amala's learning spaces are
+    built to hold the full emotional and social reality of learning, not only its cognitive content.
+  designLooksLike:
+    - Norms co-created with learners rather than imposed
+    - Inclusive and trauma-aware approaches used throughout
+    - Multilingual learning supported, including translanguaging
+    - Difficult topics held with sensitivity to context and identity
+  workingWhen:
+    - Learners take intellectual and emotional risks
+    - Learners engage across languages and identities
+    - Learners describe the learning space as one where they belong

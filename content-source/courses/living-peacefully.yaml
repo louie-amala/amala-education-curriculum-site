@@ -1,0 +1,172 @@
+# Intermediate extraction — mirrors spec §4.1 Course/Objective interfaces.
+# Source: "Living Peacefully Course Guide - 2025 Onwards.docx"
+# Verbatim from source; issues recorded, not corrected.
+id: living-peacefully
+slug: living-peacefully
+access: public
+title: Living Peacefully
+strapline: null            # not present in guide — to author
+programmes: [gsd]          # to confirm against programme-level docs
+testimonial:
+  quote: >-
+    It provided valuable insights into how to manage stress, practice
+    mindfulness, and build healthier relationships. The course helped me develop
+    better emotional intelligence and self-awareness.
+  attribution: Amala student in Jordan
+purpose: >-
+  Peace begins within individuals and extends outward through relationships and
+  communities. This course supports learners to understand and practise what it
+  means to live peacefully - with themselves, with others, and in their
+  communities. Through reflection, communication, and action, learners explore
+  how emotions, values, and beliefs shape behaviour, and how constructive choices
+  can promote wellbeing and understanding across differences.
+requirements:
+  structuredHours: 100
+  durationWeeks: 10          # "minimum of 10 weeks"
+  cadence: 10+ weeks
+  liveIndependentSplit: null   # not stated in this guide
+  notes: >-
+    Structured learning should include both live sessions (individual and/or
+    group) and independent learning (individual and/or group tasks).
+
+objectives:
+  - statement: Have more constructive interactions with self.
+    supportedTo:
+      - Notice, name, and understand their emotions, thoughts, and values.
+      - Recognise how beliefs, experiences, and external influences shape their responses.
+      - Explore the usefulness of understanding basic neuroscience in having more constructive interactions with self.
+      - Explore the usefulness of understanding basic psychology in having more constructive interactions with self.
+      - Practise strategies for regulating emotions, reducing stress, and maintaining calm in challenging situations.
+      - Reflect on how choices, habits, and values influence personal peace and integrity.
+    furtherDetails:
+      concepts:
+        - Basic neuroscience concepts and theories such as amygdala–prefrontal cortex roles in regulation, neuroplasticity, and stress response systems, to understand how the brain and body interact during stress and calm.
+        - Basic psychology concepts such as cognitive–behavioural links between thoughts, feelings, and actions, self-talk and reframing, and emotional intelligence frameworks, to improve self-awareness and decision-making.
+      activities:
+        - Practise and evaluate strategies such as journalling, grounding, and breathing exercises to manage emotions and reactions.
+        - Discuss how culture and social norms influence emotional expression and coping strategies.
+        - Develop a personal peace plan identifying triggers, early warning signs, and actions for maintaining calm and living according to their values.
+    competencyEvidence:
+      - { code: FSL1, citedTitle: Self-reflection, condition: "If learners analyse their emotions, thoughts, and behaviours." }
+      - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners set and act on intentions to strengthen wellbeing." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners make choices aligned with personal values." }
+      - { code: FUS1, citedTitle: Developing self-awareness, condition: "If learners recognise how experiences and identity shape perspectives." }
+      - { code: FTS3, citedTitle: Science Communication, condition: "If learners use their understanding of basic neuroscience to positively influence the behaviour of others." }
+
+  - statement: Build more constructive relationships with people who have differing beliefs and/or backgrounds.
+    supportedTo:
+      - Practise empathy, active listening, and perspective-taking to understand others' experiences.
+      - Communicate respectfully and clearly, especially during disagreement or misunderstanding.
+      - Explore the usefulness of understanding social neuroscience in building more constructive relationships with people who have differing beliefs and/or backgrounds.
+      - Explore the usefulness of understanding social and cognitive psychology in building more constructive relationships with people who have differing beliefs and/or backgrounds.
+      - Identify and apply shared values and strategies that support trust and cooperation across difference.
+      - Reflect on how personal assumptions or social factors can influence communication and connection.
+    furtherDetails:
+      concepts:
+        - Social neuroscience concepts such as mirror neurons and empathy, oxytocin and trust, and the brain's reward response to cooperation, to understand how connection is built.
+        - Social and cognitive psychology concepts such as in-group/out-group bias, nonviolent communication, attribution theory, and the contact hypothesis, to improve empathy and manage conflict.
+      activities:
+        - Practise empathy-building activities such as listening pairs, empathy circles, and "walk-in-my-shoes" reflections.
+        - Role-play dialogue and disagreement using nonviolent communication principles.
+        - Analyse examples of cooperation or dialogue between people or groups with differing beliefs.
+        - Produce a short guide, infographic, or skit that demonstrates effective listening and constructive dialogue.
+    competencyEvidence:
+      - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners build inclusive relationships." }
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners communicate effectively and respectfully." }
+      - { code: FUS2, citedTitle: Understanding other people, condition: "If learners demonstrate empathy and perspective-taking." }
+      - { code: AUS2, citedTitle: Intercultural understanding, condition: "If learners recognise and navigate cultural and belief-based differences." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners act with integrity and fairness when faced with conflict." }
+
+  - statement: Contribute to more constructive relationships between other individuals and groups who have differing beliefs and/or backgrounds.
+    supportedTo:
+      - Identify opportunities to reduce tension and promote dialogue among others.
+      - Model inclusive and respectful behaviour in group settings.
+      - Explore the usefulness of understanding conflict transformation theory in contributing to more constructive relationships between other individuals and groups who have differing beliefs and/or backgrounds.
+      - Explore the usefulness of understanding group dynamics and moral development theories in contributing to more constructive relationships between other individuals and groups who have differing beliefs and/or backgrounds.
+      - Plan or take actions that bring people together around shared values and goals.
+      - Reflect on how constructive interactions contribute to peaceful and supportive communities.
+    furtherDetails:
+      concepts:
+        - Conflict transformation theory concepts such as Lederach's peacebuilding pyramid, restorative practices, and dialogue versus debate approaches, to support sustainable cooperation.
+        - Group dynamics and moral development theories such as Kohlberg's stages of moral reasoning, Gilligan's ethics of care, and social identity theory, to understand how values, belonging, and power influence group behaviour.
+      activities:
+        - Facilitate or co-facilitate activities that promote understanding and cooperation across difference.
+        - Analyse examples of initiatives that have successfully strengthened relationships between divided groups.
+        - Design and implement a small collective action (e.g., art project, service activity, shared dialogue) that strengthens relationships and shared purpose.
+        - Produce a reflection or presentation analysing the effects of their action on understanding and cooperation.
+    competencyEvidence:
+      - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners help create inclusive environments." }
+      - { code: ALC2, citedTitle: Facilitating collaborative decision making, condition: "If learners support dialogue and cooperation between others." }
+      - { code: AUS2, citedTitle: Intercultural understanding, condition: "If learners apply understanding to strengthen cooperation across difference." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners take action guided by fairness, compassion, and shared values." }
+      - { code: APS1, citedTitle: Addressing unintended consequences, condition: "If learners consider the effects of their actions on relationships and communities." }
+
+principleMappings:
+  # Guide lists 8 principles (see sourceIssues). Stored in guide order.
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners connect ideas of peace and wellbeing to their own experiences, emotions, and relationships.
+      - Educators invite learners to share personal and cultural understandings of peace and how these influence expression and behaviour.
+      - Activities recognise multiple ways of knowing and being peaceful, including community, cultural, and faith-based approaches.
+  - principle: collaboration
+    inThisCourse:
+      - Learners co-create shared agreements for dialogue, reflection, and emotional safety.
+      - Facilitators model openness and empathy while guiding learners through sensitive discussions.
+      - Where appropriate, community members or mentors may be invited to share experiences of resolving conflict or promoting wellbeing.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Learners build practical skills such as emotion regulation, active listening, and respectful communication that strengthen both relationships and employability.
+      - Learners develop confidence in managing stress and engaging constructively with others across differences.
+      - The course fosters self-awareness, resilience, and interpersonal skills that support personal and professional growth.
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners apply concepts from neuroscience, psychology, and communication theory to real situations in their lives.
+      - They identify challenges within relationships or groups and explore actions that promote understanding and cooperation.
+      - Facilitators support learners to transfer what they practise in class into their daily interactions.
+  - principle: responsible-action
+    inThisCourse:
+      - Learners reflect on how ethical decision-making and integrity contribute to peace and trust.
+      - Activities encourage compassion, fairness, and responsibility in how learners treat themselves and others.
+      - Facilitators model ethical behaviour when managing sensitive topics or interpersonal tensions.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Learners share reflections on how changes in their self-awareness or relationships have influenced their wellbeing and that of others.
+      - They document or present examples of constructive actions that have strengthened trust and understanding.
+      - Educators highlight and celebrate everyday acts of peacebuilding, empathy, and cooperation.
+  - principle: feedback-and-data
+    inThisCourse:
+      - Learners provide feedback on which activities most help them manage emotions and relationships.
+      - Facilitators use reflections and observations to refine how they introduce and sequence emotionally sensitive content.
+      - Programmes evolve based on evidence of what most effectively supports peaceful relationships and wellbeing.
+  - principle: safe-spaces
+    inThisCourse:
+      - Facilitators establish and maintain safe conditions for emotional expression, confidentiality, and respectful listening.
+      - Learners develop shared norms for empathy, trust, and kindness.
+      - Educators are attentive to signs of emotional distress and respond using trauma-informed and culturally sensitive practices.
+
+designChecklist:
+  - My course design includes ~100 hours of learning experiences/tasks.
+  - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).
+  - My course design is mostly aligned with Amala's principles for transformative education (and where the course is not aligned, I have reflected on how I can improve alignment in the future).
+  - Course design supports learners in making progress towards all of the course objectives.
+  - Opportunities for learners to generate and submit evidence that can be used to evaluate their proficiency in the Amala competencies are built in to the course design.
+
+sourceIssues:
+  - type: cross-course-copy-paste
+    detail: >-
+      Design checklist reads "Meets the time and contextualisation requirements for the
+      Social Entrepreneurship course" — should reference Living Peacefully. Same error
+      appears in multiple guides.
+  - type: miscited-competency
+    detail: >-
+      Objective 1 cites "FTS3 - Science Communication". Per competencies.yaml, FTS3 is
+      "Gather and organise data"; "Science communication" is the title of ATS2. Cited
+      code and title preserved verbatim in competencyEvidence.
+  - type: missing-principle
+    detail: >-
+      Guide lists 8 principles and omits connect-to-futures ("connect learning to the
+      futures they are building"); it has no inThisCourse mapping.
+  - type: strapline-missing
+    detail: No strapline in source; needs authoring.
+  - type: programme-membership-to-confirm
+    detail: programmes set to [gsd] as placeholder; confirm against programme-level docs.

@@ -1,0 +1,171 @@
+# Intermediate extraction — mirrors spec §4.1 Course/Objective interfaces.
+# Source: "Science Informed Action Course Guide - 2025 Onwards.txt"
+# Verbatim from source; issues recorded, not corrected.
+id: science-informed-action
+slug: science-informed-action
+access: public
+title: Science Informed Action
+strapline: null            # not present in guide — to author
+programmes: [gsd]          # placeholder — to confirm against programme-level docs
+testimonial:
+  quote: >-
+    It gives the opportunity to understand the important concepts in science that
+    are related to your community and gives you the scientific knowledge to help
+    your community with it.
+  attribution: Amala student in Jordan
+purpose: >-
+  Science helps us understand how the world works and how our actions affect it.
+  Through this course, learners explore how scientific reasoning and evidence can
+  guide decisions that improve lives and protect our shared environment. They build
+  confidence in using scientific methods to investigate questions, evaluate claims,
+  and act responsibly in situations that involve uncertainty or risk. Learners also
+  practise communicating science in clear and accessible ways so that others can
+  make informed and ethical decisions. By developing scientific literacy, they
+  become more capable of questioning information, solving problems, and using
+  evidence to create positive change.
+requirements:
+  structuredHours: 100       # "at least 100 hours of structured learning"
+  durationWeeks: 10          # "minimum of 10 weeks"
+  cadence: 10+ weeks
+  liveIndependentSplit: null # not stated in this guide
+  notes: >-
+    Structured learning should include both live sessions (individual and/or group)
+    and independent learning (individual and/or group tasks).
+
+objectives:
+  - statement: >-
+      Develop and apply scientific literacy to understand and question the world.
+    supportedTo:
+      - Build understanding of what makes knowledge scientific - how evidence is gathered, tested, and reviewed through investigation and experimentation.
+      - Use the scientific method to ask testable questions, make predictions, and analyse results.
+      - Apply scientific reasoning to explain natural, environmental, and technological phenomena in everyday life.
+      - Evaluate the reliability of scientific sources and distinguish evidence-based claims from misinformation or opinion.
+      - Reflect on how scientific understanding helps explain uncertainty, change, and complexity in the natural world.
+    furtherDetails:            # raw seeds → future concepts/tools/activities (NOT yet authored materials)
+      concepts: []             # guide names no distinct theories/frameworks for this objective
+      activities:
+        - Conduct small-scale investigations using observation, fair testing, and data collection (e.g. plant growth, water filtration, material strength).
+        - Mini scientific inquiries into phenomena relevant to learners' lives (e.g. food spoilage, water filtration, waste decomposition).
+        - Analyse real examples of scientific studies or news stories to understand how scientists collect and interpret evidence.
+        - Compare scientific explanations for local or global issues (e.g. climate change, disease prevention, renewable energy).
+        - Write short reflections or reports explaining how scientific reasoning changes their understanding of an everyday issue.
+    competencyEvidence:
+      - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners apply scientific methods to explore questions about the world." }
+      - { code: FPS2, citedTitle: Evaluating sources, condition: "If learners assess scientific data or publications for credibility and accuracy." }
+      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners use scientific evidence to support conclusions." }
+      - { code: FSL3, citedTitle: Engage in continuous learning, condition: "If learners show curiosity in applying science to new or unfamiliar contexts." }
+
+  - statement: >-
+      Make informed decisions and take responsible action based on scientific
+      understanding.
+    supportedTo:
+      - Apply scientific evidence and reasoning to evaluate options and make decisions about issues such as health, environment, or technology use.
+      - Use scientific understanding to assess potential risks, benefits, and trade-offs of different actions.
+      - Interpret and apply findings from scientific research to design practical, ethical, and sustainable actions.
+      - Use scientific reasoning to predict likely outcomes and identify possible unintended consequences of chosen actions.
+      - Reflect on how using science to inform decisions can contribute to positive personal and community outcomes.
+    furtherDetails:
+      concepts: []
+      activities:
+        - Case studies of science-informed decisions (e.g. vaccination choices, waste management, food security, or renewable energy).
+        - Analysing real datasets or experimental results to guide an environmental or health-related action.
+        - Developing evidence-based plans or recommendations for addressing local scientific issues (e.g. water quality, air pollution, nutrition).
+        - Written or video reflections showing how science shaped their decision-making process.
+    competencyEvidence:
+      - { code: FTS2, citedTitle: Science informed action, condition: "If learners use scientific understanding to make better-informed decisions." }
+      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners base their choices on reliable scientific findings." }
+      - { code: APS1, citedTitle: Addressing unintended consequences, condition: "If learners anticipate outcomes using scientific reasoning." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners apply scientific evidence to act safely, ethically, and sustainably." }
+      - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners take sustained, science-based action toward a clear aim." }
+
+  - statement: >-
+      Communicate scientific ideas and evidence in ways that help others make
+      informed and responsible decisions.
+    supportedTo:
+      - Translate complex scientific ideas into clear, accurate, and accessible explanations for different audiences.
+      - Use scientific language, visuals, and data to communicate findings and their implications.
+      - Present scientific evidence responsibly, showing both what is known and where uncertainty remains.
+      - Identify misinformation or misconceptions about science and communicate evidence-based corrections respectfully.
+      - Reflect on how effective communication of science can help others understand issues and make better decisions.
+    furtherDetails:
+      concepts: []
+      activities:
+        - Designing infographics or short presentations explaining a scientific concept (e.g. how vaccines work, how solar panels generate electricity).
+        - Creating "myth-busting" resources that clarify common misunderstandings about scientific issues (e.g. climate change, nutrition, or health).
+        - Preparing a simple scientific brief, video, or radio segment aimed at informing community decisions.
+        - Peer or public presentations explaining the science behind a project or everyday problem.
+    competencyEvidence:
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners use scientific communication to inform others' decisions." }
+      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners share accurate data to support reasoning in others." }
+      - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners promote dialogue about science within their communities." }
+      - { code: AUS2, citedTitle: Intercultural understanding, condition: "If learners respect cultural perspectives while communicating scientific ideas." }
+
+principleMappings:
+  # Guide lists 8 principles (see sourceIssues). Stored in guide order.
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners connect scientific ideas to their own experiences, questions, and observations of the world.
+      - Activities invite learners to explore how science relates to local contexts — such as food, health, water, energy, or climate.
+      - Facilitators acknowledge and respect community knowledge, showing how scientific and traditional understandings can complement each other.
+  - principle: collaboration
+    inThisCourse:
+      - Learners co-design investigations or inquiries based on questions that matter in their community.
+      - Educators and mentors guide learners in applying safe and ethical scientific practices.
+      - Scientists, health professionals, or environmental organisations can be invited to share expertise and connect science learning to real-world work.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Learners build scientific reasoning skills they can apply to decisions about health, environment, and technology.
+      - The course nurtures curiosity, evidence-based thinking, and confidence in evaluating information — skills essential for further study and everyday decision making.
+      - Learners recognise how scientific literacy supports personal wellbeing and community resilience.
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners use scientific methods to investigate and propose solutions to real issues (e.g. clean water, waste management, or energy access).
+      - They design and test ideas that are feasible, ethical, and safe.
+      - Facilitators support learners to interpret results and apply findings to improve their projects or daily practices.
+  - principle: responsible-action
+    inThisCourse:
+      - Learners discuss ethical aspects of scientific work — such as consent, safety, and impact on people and the planet.
+      - Activities highlight how science can be used responsibly to address problems without causing harm.
+      - Facilitators model ethical decision making, especially in contexts involving experiments or data use.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Learners document how scientific understanding informed their actions and decisions.
+      - They share their findings with peers and community members, explaining evidence and implications clearly.
+      - Reflection and communication activities emphasise how sharing science responsibly can inspire others to act.
+  - principle: feedback-and-data
+    inThisCourse:
+      - Learners use data from their investigations and community responses to evaluate impact.
+      - Facilitators gather feedback from learners to improve how scientific inquiry and communication are supported.
+      - Courses evolve based on evidence about what learning experiences most effectively build scientific understanding and agency.
+  - principle: safe-spaces
+    inThisCourse:
+      - Facilitators ensure all science investigations are conducted safely, following ethical and safeguarding guidelines.
+      - Learners feel confident to ask questions, share misconceptions, and learn through trial and error.
+      - Facilitators respect cultural and religious perspectives when discussing scientific ideas, helping learners see connections rather than conflict.
+
+designChecklist:
+  - My course design includes ~100 hours of learning experiences/tasks
+  - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).
+  - My course design is mostly aligned with Amala's principles for transformative education (and where the course is not aligned, I have reflected on how I can improve alignment in the future).
+  - Course design supports learners in making progress towards all of the course objectives.
+  - Opportunities for learners to generate and submit evidence that can be used to evaluate their proficiency in the Amala competencies are built in to the course design.
+
+sourceIssues:
+  - type: cross-course-copy-paste
+    detail: >-
+      Design checklist reads "Meets the time and contextualisation requirements for the
+      Social Entrepreneurship course" — should reference Science Informed Action. Same
+      error appears in multiple guides.
+  - type: missing-principle
+    detail: >-
+      Guide lists 8 principles; connect-to-futures ("connect learning to the futures they
+      are building") has no distinct row and therefore no inThisCourse mapping.
+  - type: miscited-competency
+    detail: >-
+      APS2 is cited as "Evidence-informed decision making" (hyphenated) in all three
+      objectives, but the authoritative competency title is "Evidence informed decision
+      making" (no hyphen). Cited value preserved, not corrected.
+  - type: programme-membership-to-confirm
+    detail: programmes set to [gsd] as a placeholder; confirm against programme-level docs.
+  - type: strapline-missing
+    detail: No strapline in source; needs authoring.

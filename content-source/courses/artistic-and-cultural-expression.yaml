@@ -1,0 +1,177 @@
+# Intermediate extraction — mirrors spec §4.1 Course/Objective interfaces.
+# Source: "Artistic and Cultural Expression Course Guide - 2025 Onwards.txt"
+# Verbatim from source; issues recorded, not corrected.
+id: artistic-and-cultural-expression
+slug: artistic-and-cultural-expression
+access: public
+title: Artistic and Cultural Expression
+strapline: null            # not present in guide — to author
+programmes: [gsd]          # placeholder — programme membership to confirm
+testimonial:
+  quote: >-
+    Looking into life from the art perspective is amazing and fascinating. I
+    didn't know that everything surrounding us, including our lives and our
+    culture is art, and art can be used in different ways. Art can be used to
+    change politics. Art can be used to change your mind. Art can be used to tell
+    others about everything you see. And also art can used to deliver your voice
+    to make your voice heard.
+  attribution: Amala student in Jordan
+purpose: >-
+  Art connects people to themselves, to one another, and to the world around
+  them. This course invites learners to explore how artistic and cultural
+  expression communicate identity, emotion, and values, and how creativity in the
+  arts can foster understanding across differences. Learners engage with diverse
+  art forms and cultural practices, create original or adapted works that express
+  personal and collective stories, and use the arts as a medium for dialogue,
+  empathy, and transformation.
+requirements:
+  structuredHours: 100
+  durationWeeks: 10          # "minimum of 10 weeks"
+  cadence: 10+ weeks
+  liveIndependentSplit: null   # not stated in guide
+  notes: >-
+    Structured learning should include both live sessions (individual and/or
+    group) and independent learning (individual and/or group tasks). Learners
+    must be supported to make and demonstrate progress towards each course
+    objective and must have opportunities to explore the ideas and practices
+    described in the "To meet this objective, learners are supported to…" column.
+
+objectives:
+  - statement: >-
+      Explore and interpret how artistic expression reflects and shapes
+      individual and cultural identities.
+    supportedTo:
+      - Engage with and analyse diverse examples of art, music, literature, or performance from multiple cultures and time periods, including their own communities
+      - Explore the usefulness of art theory concepts such as form, content, symbolism, and context in analysing works of art.
+      - Discuss how culture, history, and worldview influence creative choices and the messages artworks communicate.
+      - Reflect on how personal experiences and identity influence artistic interpretation.
+    furtherDetails:            # raw seeds → future concepts/activities (NOT yet authored materials)
+      concepts: []
+      activities:
+        - Learners could curate a small collection of artworks from different cultures that communicate identity or emotion, explaining their choices in writing or orally.
+        - Learners could interview artists or community members about the role of art in expressing identity or cultural continuity.
+        - Learners could keep a reflective journal on how engaging with art changes their perceptions of self and others.
+    competencyEvidence:
+      - { code: FUS2, citedTitle: Understanding other people, condition: "If learners interpret others' experiences through art." }
+      - { code: AUS2, citedTitle: Intercultural understanding, condition: "If learners demonstrate understanding of how culture and worldview influence artistic expression." }
+      - { code: FSL3, citedTitle: Engaging in continuous learning, condition: "If learners extend their understanding through exploration and dialogue." }
+      - { code: FUS1, citedTitle: Developing self-awareness, condition: "If learners reflect on how their identity shapes interpretation." }
+
+  - statement: >-
+      Create or adapt artistic work to communicate identity, values, or
+      perspectives.
+    supportedTo:
+      - Explore the usefulness of understanding artistic processes and techniques in expressing meaning effectively.
+      - Develop skills in a chosen artistic medium (e.g. visual, musical, dramatic, literary, or digital).
+      - Design, create, or adapt an artwork that communicates aspects of self, community, or culture.
+      - Experiment with materials, techniques, and ideas to refine expression.
+      - Reflect on how choices of medium, form, and symbolism communicate meaning.
+    furtherDetails:
+      concepts:
+        - Creative-process models such as imagine–experiment–refine–share
+      activities:
+        - Learners could study examples of artists who address identity, justice, or belonging in their work.
+        - Learners could produce original or adapted works such as visual art pieces, performances, short films, poems, songs, or multimedia projects.
+        - Learners could exhibit or perform their work and discuss audience responses.
+        - Learners could document their process through an artist statement, journal, or presentation connecting creative choices to meaning.
+    competencyEvidence:
+      - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners develop and refine an artistic idea through sustained effort." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners show respect, attribution, and sensitivity when drawing on others' cultures or stories." }
+      - { code: AUS2, citedTitle: Intercultural understanding, condition: "If learners communicate ideas that bridge cultural perspectives." }
+
+  - statement: >-
+      Use the arts to build understanding or connection across different
+      identities, values, or perspectives.
+    supportedTo:
+      - Collaborate with others to design or deliver an artistic experience that encourages dialogue, mutual respect, or collective reflection.
+      - Curate or facilitate artistic experiences that invite audiences or participants to engage with diverse perspectives.
+      - Reflect on how creative expression can build bridges, challenge stereotypes, and promote shared understanding.
+    furtherDetails:
+      concepts:
+        - Participatory and community arts practices that use creativity to build empathy, inclusion, or peace (e.g. Playback Theatre, forum theatre, community murals, storytelling circles)
+      activities:
+        - Learners could co-create a performance, exhibition, or event that features stories, artworks, or performances from multiple identities or cultures.
+        - Learners could host a community showcase, dialogue event, or digital gallery featuring their work and that of others, using art as a conversation starter.
+        - Learners could facilitate an arts-based dialogue or workshop on shared themes such as belonging, hope, or justice.
+        - Learners could record or present reflections on how art supported understanding or changed perceptions within the group or audience.
+    competencyEvidence:
+      - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners use art to strengthen community relationships." }
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners communicate ideas effectively through creative forms." }
+      - { code: ALC2, citedTitle: Facilitating collaborative decision making, condition: "If learners work collaboratively to co-create artistic experiences." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners use art responsibly to promote empathy and inclusion." }
+      - { code: AUS2, citedTitle: Intercultural understanding, condition: "If learners apply cultural understanding to creative collaboration." }
+
+principleMappings:
+  # Guide lists 8 principles (see sourceIssues). Stored in guide order.
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners' creative work is rooted in their lived experiences, traditions, and perspectives.
+      - Educators invite learners to share artistic forms, stories, and symbols from their own cultures and communities.
+      - The course honours multiple ways of knowing, feeling, and expressing — including oral, visual, performative, and embodied forms.
+  - principle: collaboration
+    inThisCourse:
+      - Learners co-design projects and exhibitions that celebrate community identity and diversity.
+      - Artists, elders, and cultural practitioners may be invited to share processes and traditions.
+      - Facilitators model collaborative creativity — listening, improvising, and learning alongside students.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Learners gain artistic, communicative, and reflective skills that enrich personal and professional growth.
+      - Learners develop confidence in expressing their ideas and values through creative means.
+      - The course nurtures curiosity, empathy, and respect for cultural diversity — qualities essential for global citizenship and creative industries.
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners use the arts to explore issues that affect their communities, such as belonging, identity, or justice.
+      - They design creative responses — performances, installations, or digital works — that express insights and propose new ways of seeing.
+      - Facilitators help learners reflect on how their art can inspire dialogue or contribute to community wellbeing.
+  - principle: responsible-action
+    inThisCourse:
+      - Learners discuss ethical questions in art-making, such as cultural appropriation, authorship, and representation.
+      - Activities encourage the use of sustainable materials and processes.
+      - Facilitators model ethical practice in feedback, attribution, and collaboration.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Learners share their creative work through performances, exhibitions, or online showcases that communicate insight or emotion.
+      - Reflection and discussion focus on how art can transform understanding, relationships, or community narratives.
+      - Educators help learners identify and celebrate growth in both creative skill and social awareness.
+  - principle: feedback-and-data
+    inThisCourse:
+      - Learners and facilitators gather audience or peer feedback on how artworks were interpreted or received.
+      - Educators document shifts in learners' confidence, perspective-taking, and collaboration.
+      - The course evolves through reflection on what types of creative practice most effectively foster understanding and connection.
+  - principle: safe-spaces
+    inThisCourse:
+      - Facilitators establish an environment of trust, respect, and openness where diverse identities and expressions are valued.
+      - Learners co-create community agreements for giving and receiving feedback sensitively.
+      - Educators approach artistic and cultural discussion with awareness of power, trauma, and belonging.
+
+designChecklist:
+  - My course design includes ~100 hours of learning experiences/tasks
+  - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).
+  - My course design is mostly aligned with Amala's principles for transformative education (and where the course is not aligned, I have reflected on how I can improve alignment in the future).
+  - Course design supports learners in making progress towards all of the course objectives.
+  - Opportunities for learners to generate and submit evidence that can be used to evaluate their proficiency in the Amala competencies are built in to the course design.
+
+sourceIssues:
+  - type: cross-course-copy-paste
+    detail: >-
+      Course Learning Design Checklist reads "Meets the time and contextualisation
+      requirements for the Social Entrepreneurship course" — should reference the
+      Artistic and Cultural Expression course. Same error appears in multiple guides.
+  - type: miscited-competency
+    detail: >-
+      Objective 1 cites "FSL3 – Engaging in continuous learning"; the authoritative
+      title in competencies.yaml is "Engage in continuous learning". Cited value
+      preserved as written.
+  - type: missing-principle
+    detail: >-
+      Guide lists 8 principles and omits connect-to-futures ("connect learning to the
+      futures they are building"); it has no inThisCourse mapping.
+  - type: naming-inconsistency
+    detail: >-
+      Cover/title reads "Artistic and Cultural Expression" but the Purpose of this
+      Document section refers to "the Arts and Cultural Expression course". Both
+      preserved as written.
+  - type: strapline-missing
+    detail: No strapline in source; needs authoring.
+  - type: programme-membership-to-confirm
+    detail: programmes set to [gsd] as placeholder; confirm against programme-level docs.

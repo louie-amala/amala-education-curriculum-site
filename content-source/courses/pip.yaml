@@ -1,0 +1,258 @@
+# Intermediate extraction — mirrors spec §4.1 Course/Objective interfaces.
+# Source: "Personal Interest Project (PIP) Course Guide - 2025 Onwards"
+# Verbatim from source; issues recorded, not corrected.
+id: pip
+slug: pip
+access: public
+title: Personal Interest Project (PIP)
+strapline: null            # not present in guide — to author
+programmes: [gsd]          # to confirm against programme-level docs
+testimonial:
+  quote: >-
+    The Personal Interest Project allowed me to explore topics I am passionate
+    about and apply my learning in a way that is meaningful to me. It encouraged
+    creativity, independence, and critical thinking, which helped me grow both
+    personally and academically. I believe this project is a great opportunity to
+    develop important skills while pursuing your own interests.
+  attribution: Amala student in Kakuma Refugee Camp
+purpose: >-
+  The Personal Interest Project (PIP) is an extended opportunity for learners to
+  design and lead their own learning journey. It allows them to engage deeply with
+  something that matters to them - a topic, challenge, question, or skill that
+  connects to their personal interests, future pathways, or community needs.
+  Through sustained inquiry, action, and reflection, learners strengthen their
+  agency to influence their own lives and the world around them.
+
+
+  Each learner's project will look different. Some may focus on developing a
+  personal skill or preparing for a future pathway, while others may explore a
+  question, conduct research, or create change in their community. Regardless of
+  focus, every PIP is an authentic process of learning by doing - setting goals,
+  taking action, adapting through feedback, and reflecting on what works and why.
+requirements:
+  structuredHours: 50
+  durationWeeks: 40          # "PIP lasting at least 40 weeks"
+  cadence: 40+ weeks
+  liveIndependentSplit: null   # hours can include live and independent; no ratio stated
+  notes: >-
+    Students can work as individuals or as a group; if working as a group, each
+    group member must make their own final submission that reflects their
+    contribution to the project. At least 50 hours of structured learning, which
+    can include live sessions (group and/or individual) and independent work
+    (group and/or individual), and must be interspersed throughout the broader
+    Global Secondary Diploma (GSD) learning programme, with the PIP lasting at
+    least 40 weeks to ensure sustained and in-depth engagement. Each learner or
+    group is supported by a PIP mentor (typically a facilitator or educator from
+    the delivery partner's team); mentors must meet with learners at least three
+    times to discuss progress, challenges, and next steps, guide reflection,
+    provide feedback, and connect learners with relevant resources — where
+    appropriate a specialist or industry mentor may also be involved, provided
+    safeguarding procedures are followed. Each learner makes a final PIP
+    submission that clearly communicates what they did (a clear summary of the
+    actions they took, steps they followed, and how their project unfolded), what
+    impact it had (evidence of progress, outcomes, or influence — personal,
+    academic, or community-based), and what they learned (reflections on new
+    knowledge, skills, values, challenges, and next steps for growth or pathways).
+    Acceptable formats include a slide deck, written report, portfolio, recorded
+    presentation, or creative product with an explanatory note; a presentation at
+    a culminating event may satisfy the requirement if accompanied by supporting
+    documentation. Completion is confirmed by the PIP mentor when there is clear
+    evidence all requirements are met, and completion of the PIP is a graduation
+    requirement for the Amala Global Secondary Diploma.
+
+objectives:
+  - statement: >-
+      Identify a meaningful focus area that connects to their personal interests,
+      aspirations, or the needs of their community.
+    supportedTo:
+      - Reflect on their personal interests, skills, values, and future aspirations.
+      - Explore challenges, opportunities, or questions that matter to them or their community.
+      - Identify possible project ideas and evaluate which are most meaningful and realistic.
+      - Define a clear and purposeful focus for their PIP.
+      - Articulate why this focus is important and what they hope to achieve or learn through it.
+    furtherDetails:
+      concepts: []
+      activities:
+        - Self-reflection activities on personal interests, strengths, and goals.
+        - Brainstorming sessions to generate ideas across personal, community, and global contexts.
+        - Peer or mentor discussions to clarify and refine the project focus.
+        - Completion of a PIP planning template outlining the chosen focus, rationale, and intended direction.
+        - Submission or sharing of a short "Project Focus Statement."
+    competencyEvidence:
+      - { code: FSL1, citedTitle: Self-reflection, condition: "If learners identify and analyse their interests, strengths, and goals." }
+      - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners explore challenges or opportunities relevant to themselves or their community." }
+      - { code: FR1, citedTitle: Identifying resources, condition: "If learners identify people, materials, or opportunities that could support their PIP." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners consider whether their chosen focus is responsible and appropriate for their context." }
+
+  - statement: >-
+      Investigate the chosen focus area to build understanding and identify
+      opportunities for growth, contribution, or improvement.
+    supportedTo:
+      - Use research, practice, or observation to deepen their understanding of their focus area.
+      - Seek insights from relevant people, experts, or community members.
+      - Analyse and interpret information to identify opportunities for action or learning.
+      - Reflect on how the findings inform their next steps.
+      - Consider ethical implications in how information is collected and represented.
+    furtherDetails:
+      concepts: []
+      activities:
+        - Conducting primary and/or secondary research (e.g. interviews, surveys, literature review).
+        - Practising relevant skills or testing approaches to gain first-hand insight.
+        - Analysing findings using visual tools, notes, or reports.
+        - Sharing insights in group discussions or progress updates.
+        - Documenting learning through a research summary or reflective journal entry.
+    competencyEvidence:
+      - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners conduct structured research or inquiry." }
+      - { code: FPS2, citedTitle: Evaluating sources, condition: "If learners assess the credibility of information or perspectives." }
+      - { code: FUS2, citedTitle: Understanding other people, condition: "If learners consider perspectives or experiences of others." }
+      - { code: FSL3, citedTitle: Engage in continuous learning, condition: "If learners demonstrate curiosity and persistence in developing understanding." }
+
+  - statement: >-
+      Develop and plan a purposeful approach for taking action or making progress
+      in their chosen focus area.
+    supportedTo:
+      - Generate multiple ideas or strategies that could lead to growth, contribution, or improvement.
+      - Evaluate the feasibility and potential impact of different approaches.
+      - Select one or more approaches to take forward.
+      - Plan specific steps, timelines, and resources required for implementation.
+      - Identify potential challenges and ways to address them.
+    furtherDetails:
+      concepts: []
+      activities:
+        - Ideation workshops or mind-mapping of possible actions or learning approaches.
+        - Peer or mentor feedback on proposed plans.
+        - Development of an action plan or learning plan.
+        - Risk and ethics discussions to assess appropriateness and feasibility.
+        - Updating and submitting a refined project plan.
+    competencyEvidence:
+      - { code: FSI2, citedTitle: Ideate sustainable solutions, condition: "If learners generate and evaluate ideas to guide their project." }
+      - { code: FR2, citedTitle: Utilising resources, condition: "If learners plan effective and ethical use of available resources." }
+      - { code: FPS1, citedTitle: Adaptable thinking, condition: "If learners consider multiple possible paths forward." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners design their approach responsibly and safely." }
+
+  - statement: >-
+      Take action, test their approach, and adapt through reflection and feedback.
+    supportedTo:
+      - Implement their plan or take deliberate steps toward their goal.
+      - Gather evidence of their actions, progress, and outcomes.
+      - Seek feedback from mentors, peers, or others involved.
+      - Reflect on what is working well and what could be improved.
+      - Adapt and refine their approach based on reflection, feedback, and experience.
+    furtherDetails:
+      concepts: []
+      activities:
+        - Action logs, journals, or progress reports documenting what was done and learned.
+        - Structured check-in meetings with a mentor to discuss progress.
+        - Feedback sessions or peer consultations.
+        - Midpoint reflection or presentation to share learning so far.
+        - Updates to the project plan showing adjustments made.
+    competencyEvidence:
+      - { code: FSI3, citedTitle: Pilot sustainable solutions, condition: "If learners test and adapt parts of their approach." }
+      - { code: ASL1, citedTitle: Using feedback, condition: "If learners reflect on and apply input from others." }
+      - { code: AR3, citedTitle: Resilience, condition: "If learners persist and adjust when faced with obstacles." }
+      - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners take sustained action toward their goals." }
+      - { code: APS1, citedTitle: Addressing unintended consequences, condition: "If learners identify and respond to unanticipated outcomes." }
+
+  - statement: >-
+      Evaluate their progress and communicate their learning, growth, and outcomes
+      to others.
+    supportedTo:
+      - Analyse what they achieved and what they learned from the process.
+      - Evaluate how effectively their approach met their aims or contributed to their learning or community.
+      - Identify strengths, challenges, and areas for future growth.
+      - Communicate their journey and insights clearly and authentically through their presentation, reflection, and artefact.
+    furtherDetails:
+      concepts: []
+      activities:
+        - End-of-project self-evaluation or reflection workshop.
+        - Completion of a reflective journal entry or video reflection.
+        - Creation of a final artefact (e.g. report, creative work, demonstration, or portfolio).
+        - Preparation and delivery of a PIP presentation to an authentic audience.
+        - Peer or mentor review sessions to celebrate and discuss growth.
+    competencyEvidence:
+      - { code: ASL2, citedTitle: Managing time, priorities, and wellbeing, condition: "If learners balance responsibilities to complete their project successfully." }
+      - { code: ASL4, citedTitle: Actualising pathways, condition: "If learners use their PIP to advance education, career, or personal goals." }
+      - { code: FSL1, citedTitle: Self-reflection, condition: "If learners analyse their learning, decisions, and growth." }
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners communicate their process and insights clearly to others." }
+      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners evaluate their results using evidence and reasoning." }
+
+principleMappings:
+  # Guide lists 8 principles (see sourceIssues). Stored in guide order.
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners select PIP topics based on what matters most to them - their personal experiences, goals, values, and community realities.
+      - Facilitators encourage learners to explore how their backgrounds, cultures, and aspirations shape their choices.
+      - Learners connect their project focus to their own stories or the communities they care about.
+  - principle: collaboration
+    inThisCourse:
+      - Each learner is supported by a PIP mentor who guides and challenges them through reflection, planning, and action.
+      - Learners engage with mentors, peers, and external partners for advice, feedback, and expertise.
+      - Collaboration is personalised - learners choose who to involve and how, depending on the nature of their project.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Learners strengthen transferable skills such as planning, research, communication, self-management, and critical reflection.
+      - Each PIP connects to future pathways - personal growth, academic study, employment, entrepreneurship, or community engagement.
+      - Facilitators help learners recognise how skills developed in the PIP support their future aspirations.
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners explore questions, challenges, or opportunities grounded in their lived contexts.
+      - Some PIPs address community challenges (e.g. social, environmental, or cultural issues).
+      - Others focus on personal development (e.g. language learning, creative exploration, or career readiness).
+      - All learners apply learning to authentic situations that matter to them.
+  - principle: responsible-action
+    inThisCourse:
+      - Learners discuss what ethical and responsible action means in their specific project.
+      - Facilitators help learners consider safety, consent, and potential unintended consequences of their work.
+      - Learners reflect on the broader impact of their project choices on people, communities, and the planet.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Learners use reflection journals and mentor check-ins to track growth and learning over time.
+      - Projects culminate in a presentation and artefact that communicate learning, development, and outcomes.
+      - Learners celebrate progress - both personal growth and positive contributions to others.
+  - principle: feedback-and-data
+    inThisCourse:
+      - Learners gather feedback from mentors, peers, and community members throughout their projects.
+      - Facilitators use reflection and check-in data to adapt PIP structures and supports for future cohorts.
+      - Feedback is seen as evidence of growth, not evaluation of worth.
+  - principle: safe-spaces
+    inThisCourse:
+      - Facilitators create trust-based relationships where learners feel safe to take initiative, make mistakes, and learn from them.
+      - Individual projects are respected as personal journeys; facilitators ensure sensitivity where appropriate.
+      - Learners are encouraged to take risks within safe boundaries and reflect honestly on their experiences.
+
+designChecklist:
+  - Covers all content outlined in the course syllabus.
+  - Generates evidence that can be used to evaluate proficiency in Amala competencies.
+  - Meets the time and contextualisation requirements for the Social Entrepreneurship course.
+  - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).
+  - My course design is mostly aligned with Amala's principles for transformative education (and where the course is not aligned, I have reflected on how I can improve alignment in the future).
+  - Course design supports learners in making progress towards all of the course objectives.
+  - Opportunities for learners to generate and submit evidence that can be used to evaluate their proficiency in the Amala competencies are built into the course design.
+
+sourceIssues:
+  - type: cross-course-copy-paste
+    detail: >-
+      Course Learning Design Checklist reads "Meets the time and contextualisation
+      requirements for the Social Entrepreneurship course" — should reference the
+      Personal Interest Project (PIP). Same error appears in multiple guides.
+  - type: missing-principle
+    detail: >-
+      Guide lists 8 principles; connect-to-futures ("…connect learning to the
+      futures they are building") has no distinct row / inThisCourse mapping.
+  - type: miscited-competency
+    detail: >-
+      Objective 5 cites "ASL2 – Managing time, priorities, and wellbeing"; the
+      authoritative title is "Managing time, priorities and wellbeing" (no comma
+      before "and"). Cited value preserved verbatim.
+  - type: miscited-competency
+    detail: >-
+      Objective 5 cites "APS2 – Evidence-informed decision making"; the
+      authoritative title is "Evidence informed decision making" (no hyphen).
+      Cited value preserved verbatim.
+  - type: strapline-missing
+    detail: No strapline in source; needs authoring.
+  - type: programme-membership-to-confirm
+    detail: >-
+      programmes set to [gsd] as placeholder; PIP is described as a GSD graduation
+      requirement but programme membership should be confirmed against
+      programme-level docs.

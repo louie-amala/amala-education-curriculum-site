@@ -1,0 +1,167 @@
+# Intermediate extraction — mirrors spec §4.1 Course/Objective interfaces.
+# Source: "Powerful Narratives Course Guide - 2025 Onwards.txt"
+# Verbatim from source; issues recorded, not corrected.
+id: powerful-narratives
+slug: powerful-narratives
+access: public
+title: Powerful Narratives
+strapline: null            # not present in guide — to author
+programmes: [gsd]          # to confirm against programme-level docs
+testimonial:
+  quote: >-
+    This course is among the most remarkable I've ever taken. It's insightful, and
+    I've learned the significance of stories in shaping values and beliefs. The
+    emphasis on the importance of narratives in molding our values and beliefs has
+    been particularly impactful.
+  attribution: Amala student in Jordan
+purpose: >-
+  Stories shape how people see themselves, each other, and the world. This course
+  supports learners to explore the power of narratives to influence thought,
+  emotion, and action, both positively and negatively. Learners analyse how stories
+  shape human behaviour and social systems, create narratives that communicate truth
+  and empathy, and use storytelling to build understanding across differences.
+  Through this process, they develop critical awareness of narrative power and the
+  skills to use it ethically and effectively to foster change.
+requirements:
+  structuredHours: 100       # "at least 100 hours of structured learning"
+  durationWeeks: 10          # "minimum of 10 weeks"
+  cadence: 10+ weeks
+  liveIndependentSplit: null # not stated in this guide
+  notes: >-
+    Structured learning should include both live sessions (individual and/or group)
+    and independent learning (individual and/or group tasks).
+
+objectives:
+  - statement: >-
+      Recognise and analyse how narratives influence human thinking, relationships,
+      and behaviour.
+    supportedTo:
+      - Explore the usefulness of understanding narrative theory (e.g. framing, perspective, and archetypes) in analysing how stories influence attitudes and actions.
+      - Identify how personal, cultural, and societal stories shape beliefs, values, and identities.
+      - Examine how narratives can empower or marginalise, unite or divide.
+      - Reflect on how their own assumptions and experiences shape the stories they tell and believe.
+    furtherDetails:            # raw seeds → future concepts/tools/activities (NOT yet authored materials)
+      concepts:
+        - Narrative frameworks such as the hero's journey, framing theory, and narrative bias to understand how structure shapes impact.
+      activities:
+        - Analyse examples from news media, literature, film, or oral storytelling to identify patterns and intentions.
+        - Collect and compare short stories or community anecdotes that reveal how narratives reinforce or challenge dominant ideas.
+        - Produce a short written or visual analysis showing how one narrative influences perception or behaviour.
+    competencyEvidence:
+      - { code: APS1, citedTitle: Addressing unintended consequences, condition: "If learners recognise how stories can produce harm or misunderstanding." }
+      - { code: FUS1, citedTitle: Developing self-awareness, condition: "If learners reflect on how personal experiences influence their interpretation of stories." }
+      - { code: FUS2, citedTitle: Understanding other people, condition: "If learners demonstrate empathy through analysing diverse perspectives." }
+
+  - statement: >-
+      Create or adapt narratives that aim to positively influence how others think,
+      feel, or act.
+    supportedTo:
+      - Explore the usefulness of understanding story structure, point of view, and character development in shaping emotional impact and meaning.
+      - Develop narrative techniques (e.g. pacing, tone, imagery, dialogue) suited to their chosen form and audience.
+      - Create or adapt a story, performance, or media piece that aims to foster empathy, reflection, or action on an issue of importance.
+      - Test and refine their narrative based on feedback and audience response.
+      - Reflect on how creative choices support authenticity, credibility, and ethical responsibility in storytelling.
+    furtherDetails:
+      concepts:
+        - Story-craft frameworks such as conflict–resolution arcs, narrative voice, and emotional resonance to strengthen impact.
+      activities:
+        - Analyse examples of social impact storytelling (e.g. advocacy campaigns, documentaries, spoken-word, or community theatre).
+        - Write, record, perform, or illustrate original or adapted narratives across mediums such as prose, film, podcast, poetry, or visual art.
+        - Seek feedback through peer review, focus groups, or live sharing events.
+        - Produce an artist statement or storyteller reflection explaining their intent, audience, and desired impact.
+    competencyEvidence:
+      - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners refine and complete a sustained storytelling project." }
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners craft narratives that effectively influence or inspire audiences." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners tell stories responsibly and with respect for others' experiences." }
+
+  - statement: >-
+      Use narratives to build understanding or connection across different
+      identities, values, or perspectives.
+    supportedTo:
+      - Explore the usefulness of understanding narrative empathy and dialogue as tools for bridging divides.
+      - Listen actively to others' stories to uncover shared experiences or values.
+      - Collaborate with peers or community members to co-create stories that represent multiple voices.
+      - Facilitate storytelling experiences that encourage reflection, empathy, or cooperation among audiences or groups.
+      - Reflect on how narratives can strengthen relationships, challenge stereotypes, or foster collective meaning.
+    furtherDetails:
+      concepts:
+        - Narrative empathy and restorative storytelling practices, such as story circles, digital storytelling, or participatory theatre.
+      activities:
+        - Host storytelling events, podcasts, or exhibitions that highlight voices and experiences from different backgrounds.
+        - Co-author or co-perform narratives that combine differing viewpoints or cultural perspectives.
+        - Facilitate dialogues or workshops using stories as entry points for discussing identity, inclusion, or shared futures.
+        - Document or present reflections on how storytelling fostered understanding or changed relationships within their group or community.
+    competencyEvidence:
+      - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners use storytelling to strengthen relationships and shared identity." }
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners communicate ideas effectively to build empathy." }
+      - { code: ALC2, citedTitle: Facilitating collaborative decision making, condition: "If learners co-create or host collaborative storytelling experiences." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners handle sensitive stories with care and consent." }
+      - { code: AUS2, citedTitle: Intercultural understanding, condition: "If learners use storytelling to connect across cultural or value differences." }
+
+principleMappings:
+  # Guide lists 8 principles (see sourceIssues). Stored in guide order.
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners' stories are grounded in their lived experiences, identities, and perspectives.
+      - Educators invite learners to share personal, cultural, and community narratives that shape who they are and how they see the world.
+      - Activities acknowledge that storytelling can be vulnerable, emotional, and powerful — and that every voice carries value and meaning.
+  - principle: collaboration
+    inThisCourse:
+      - Learners share stories within supportive groups and co-create shared spaces for listening and reflection.
+      - Community members, mentors, or guest storytellers may be invited to share experiences that broaden learners' perspectives.
+      - Facilitators model active listening, empathy, and curiosity — demonstrating the qualities of ethical storytelling and audience engagement.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Learners build confidence and skill in communication, critical thinking, and self-expression.
+      - Learners practise crafting messages that are authentic, ethical, and impactful — valuable across education, leadership, and work contexts.
+      - The course nurtures empathy, discernment, and storytelling as tools for influence and positive change.
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners explore how stories contribute to conflict or misunderstanding — and how they can be reimagined to promote fairness, inclusion, or hope.
+      - They apply storytelling to raise awareness, inspire action, or build bridges around community challenges.
+      - Facilitators guide learners to test and refine stories with real audiences, reflecting on the impact of their narratives.
+  - principle: responsible-action
+    inThisCourse:
+      - Learners discuss ethical storytelling — including issues of representation, consent, and truth.
+      - Activities encourage careful consideration of whose stories are told, by whom, and for what purpose.
+      - Facilitators model respect, attribution, and sensitivity when handling personal or community narratives.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Learners share narratives that highlight acts of courage, resilience, or compassion within their communities.
+      - Reflection activities help learners identify the influence of their own storytelling on themselves and others.
+      - Educators highlight how narrative work can shape more just and empathetic societies.
+  - principle: feedback-and-data
+    inThisCourse:
+      - Learners and facilitators collect audience feedback or responses to understand how stories are received.
+      - Educators evaluate growth in learners' confidence, ethical awareness, and influence.
+      - Programmes evolve based on what most effectively helps learners use storytelling as a force for understanding and change.
+  - principle: safe-spaces
+    inThisCourse:
+      - Facilitators establish clear agreements around confidentiality, consent, and respectful listening.
+      - Learners are supported to share only what feels appropriate, and to listen to others without judgment.
+      - Educators respond with sensitivity to the emotional nature of personal storytelling, ensuring learners feel heard and safe.
+
+designChecklist:
+  - Covers all content outlined in the course syllabus
+  - Generates evidence that can be used to evaluate proficiency in Amala competencies
+  - Meets the time and contextualisation requirements for the Social Entrepreneurship course.
+  - My course design includes ~100 hours of learning experiences/tasks
+  - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).
+  - My course design is mostly aligned with Amala's principles for transformative education (and where the course is not aligned, I have reflected on how I can improve alignment in the future).
+  - Course design supports learners in making progress towards all of the course objectives.
+  - Opportunities for learners to generate and submit evidence that can be used to evaluate their proficiency in the Amala competencies are built in to the course design.
+
+sourceIssues:
+  - type: cross-course-copy-paste
+    detail: >-
+      Design checklist reads "Meets the time and contextualisation requirements for the
+      Social Entrepreneurship course" — should reference Powerful Narratives. Same error
+      appears in multiple guides.
+  - type: missing-principle
+    detail: >-
+      Guide lists 8 principles; connect-to-futures ("connect learning to the futures they
+      are building") is not present as a distinct row and has no inThisCourse mapping.
+  - type: strapline-missing
+    detail: No strapline in source; needs authoring.
+  - type: programme-membership-to-confirm
+    detail: programmes set to [gsd] as placeholder; confirm against programme-level docs.

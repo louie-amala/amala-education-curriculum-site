@@ -1,0 +1,95 @@
+- id: sustainable-innovation
+  title: Sustainable Innovation
+  gloss: Understanding the nature of sustainable innovation
+  description: By developing the competencies in this area, learners will be able to create, build upon
+    and improve ideas that address local and global challenges without compromising the ability of life
+    to thrive now and in the future.
+  competencyIds:
+  - fsi1
+  - fsi2
+  - fsi3
+  - asi1
+  - asi2
+  - asi3
+  - asi4
+- id: resourcefulness
+  title: Resourcefulness
+  gloss: Making the most of what you have to work with
+  description: By developing the competencies in this area, learners will be able to identify and use
+    the resources available to them in order to contribute towards a positive impact on their lives and
+    the lives of people within their communities.
+  competencyIds:
+  - fr1
+  - fr2
+  - fr3
+  - ar1
+  - ar2
+  - ar3
+- id: leading-change
+  title: Leading Change
+  gloss: The nature of leadership in bringing about change
+  description: By developing the competencies in this area, learners will be able to positively influence
+    the thinking, behaviours and ability of other people, so that they make greater positive change in
+    their own lives and in their communities.
+  competencyIds:
+  - flc1
+  - flc2
+  - flc3
+  - alc1
+  - alc2
+  - alc3
+  - alc4
+- id: self-navigated-learning
+  title: Self-navigated Learning
+  gloss: Taking responsibility for your own learning journey
+  description: By developing the competencies in this area, learners will be able to take ownership over
+    and responsibility for their personal growth and journey to further education, employment and entrepreneurship.
+  competencyIds:
+  - fsl1
+  - fsl2
+  - fsl3
+  - asl1
+  - asl2
+  - asl3
+  - asl4
+- id: understanding-self-others-cultures
+  title: Understanding self, other people and cultures
+  gloss: Knowing myself will help me to understand others
+  description: By developing the competencies in this area, learners will better understand the factors
+    influencing human thought and behavior, enabling them to foster positive interactions within and across
+    cultures.
+  competencyIds:
+  - fus1
+  - fus2
+  - fus3
+  - aus1
+  - aus2
+  - aus3
+  - aus4
+- id: technical-scientific-numerical-literacy
+  title: Technical, Scientific and Numerical Literacy
+  gloss: Using evidence to inform the decisions I make
+  description: By developing the competencies in this area, learners will be able to use technology, scientific
+    understanding, and data analysis to make informed decisions and develop solutions that address challenges
+    facing people and the planet.
+  competencyIds:
+  - fts1
+  - fts2
+  - fts3
+  - ats1
+  - ats2
+  - ats3
+- id: problem-solving-critical-thinking
+  title: Problem Solving and Critical Thinking
+  gloss: Developing a range of thinking skills and routines to solve problems
+  description: By developing the competencies in this area, Learners will be able to analyze complex issues,
+    assess the reliability of information, and make evidence-based decisions to address challenges affecting
+    local and global communities.
+  competencyIds:
+  - fps1
+  - fps2
+  - fps3
+  - aps1
+  - aps2
+  - aps3
+  - aps4

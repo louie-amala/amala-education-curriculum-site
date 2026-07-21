@@ -1,0 +1,203 @@
+# Intermediate extraction — mirrors spec §4.1 Course/Objective interfaces.
+# Source: "Peace Building Course Guide - 2025 Onwards.docx"
+# Verbatim from source; issues recorded, not corrected.
+id: peacebuilding
+slug: peacebuilding
+access: public
+title: Peacebuilding
+strapline: null            # not present in guide — to author
+programmes: [gsd]          # to confirm against programme-level docs
+testimonial:
+  quote: >-
+    The Peace-building course taught me important skills to solve conflicts,
+    understand other people, and work better in my community. It also helped me
+    understand the meaning of conflict more deeply and how to solve it from the roots.
+  attribution: Amala student in Jordan
+purpose: >-
+  Peacebuilding is both a mindset and a practice. It involves understanding the
+  complex causes of violence and injustice, and working collectively to transform
+  them into conditions that make peace more possible and sustainable. This course
+  supports learners to investigate real-world contexts of violence, listen to
+  multiple perspectives, and engage in dialogue and collaboration that build trust
+  and shared understanding. Through research, reflection, and creative
+  problem-solving, learners identify and test small-scale ideas that could
+  contribute to reducing violence or strengthening peace in their communities. They
+  also examine the personal and collective actions that make peacebuilding an
+  ongoing process rather than a single event. By the end of the course, learners
+  develop the knowledge, skills, and mindsets needed to act as constructive
+  contributors to peace, able to recognise complexity, work ethically with others,
+  and influence positive change in their own contexts.
+requirements:
+  structuredHours: 100
+  durationWeeks: 10          # "minimum of 10 weeks"
+  cadence: 10+ weeks
+  liveIndependentSplit: ~60 live / ~40 independent   # from design checklist
+  notes: >-
+    Structured learning includes both live sessions (individual and/or group) and
+    independent learning (individual and/or group tasks).
+
+objectives:
+  - statement: >-
+      Contribute to the collective understanding of the causes of violence in a
+      particular context.
+    supportedTo:
+      - Explore causes of violence in case studies and literature.
+      - Identify and investigate the contributing causes of violence in a chosen context through primary and secondary research.
+      - Share and compare findings with peers to build a broader collective picture.
+      - Listen to and consider multiple perspectives, especially those of people directly affected by violence.
+      - Identify local actions and interactions that are contributing towards violence.
+      - Reflect on how their own perspectives and experiences influence their understanding of violence.
+    furtherDetails:            # raw seeds → future concepts/tools/activities (NOT yet authored materials)
+      concepts:
+        - Beliefs around human nature and whether violence is inevitable
+        - Complexity science applied to how violence emerges
+        - Causes of violence (resource conflict, identity clashes, fear, etc.)
+        - The Hobbesian Trap and Security Dilemma
+        - Galtung's Dualism-Manichaeism-Armageddon and Chosen-Glory-Trauma frameworks
+        - Galtung's Violence Triangle
+        - Positive peace and the positive peace framework
+      activities:
+        - Research tasks (interviews, surveys, articles, reports on violence contexts)
+        - World café style dialogues to compare findings
+        - Visual mapping (problem trees, systems maps, fishbone diagrams)
+        - Case study analysis of violence or peacebuilding initiatives
+        - Reflective writing on how identity shapes understanding of violence
+        - Collaborative presentation synthesising collective understanding
+    competencyEvidence:
+      - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners conduct primary and secondary research into the causes of violence in a particular context." }
+      - { code: FPS3, citedTitle: Identifying contributing factors, condition: "If learners establish, with evidence, the people, activities, and/or systems that contribute to violence." }
+      - { code: FUS2, citedTitle: Understanding other people, condition: "If learners identify factors influencing the behaviour of others in contexts of violence." }
+      - { code: FUS3, citedTitle: Exploring other cultures, condition: "If learners explore cultural beliefs, values, or behaviours that help explain causes of violence." }
+      - { code: FSL1, citedTitle: Self-reflection, condition: "If learners explain how their own perspectives and experiences influence their understanding of violence." }
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners contribute effectively to group dialogue to build a collective understanding." }
+
+  - statement: >-
+      Develop, test, and refine ideas that attempt to address one or more causes of
+      violence in a particular context, whilst considering the ethical implications
+      of each idea.
+    supportedTo:
+      - Generate multiple possible ideas for addressing causes of violence in their chosen context.
+      - Seek out perspectives from people directly impacted by, or contributing to, the violence, and use these to shape their own ideas.
+      - Evaluate the potential benefits, risks, and ethical implications of each idea.
+      - Select one or more ideas to test at a small scale (role play, pilot activity, or feedback session).
+      - Gather feedback and evidence on whether the idea(s) could contribute to reducing violence.
+      - Refine and adapt their ideas in response to evidence, feedback, and ethical reflection.
+      - Document the process of iteration and what was learned through testing.
+    furtherDetails:
+      concepts:
+        - Ethical frameworks for decision making
+        - Local approaches to peacebuilding
+        - Positive peace framework (areas to make violence less likely)
+        - Kant's theories on Perpetual Peace
+        - Fiske's Relational Model Theories and their application to sustainable peace
+      activities:
+        - Community inquiry (structured interviews, focus groups, story collection)
+        - Brainstorming sessions comparing ideas with community insights
+        - Ethical inquiry activities (debates, dilemma discussions, impact analysis)
+        - Prototyping (role plays, storyboards, simulations, small-scale pilots)
+        - Peer and community feedback sessions
+        - Reflection journals / video logs on community influence
+        - Final "idea profile" or portfolio entry
+    competencyEvidence:
+      - { code: FSI2, citedTitle: Ideate sustainable solutions, condition: "If learners generate and develop multiple ideas to address causes of violence." }
+      - { code: FSI3, citedTitle: Pilot sustainable solutions, condition: "If learners test elements of their ideas on a small scale and gather data for improvements." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners demonstrate consideration of ethical implications in the development and testing of ideas." }
+      - { code: ASL1, citedTitle: Using feedback, condition: "If learners refine their ideas by applying relevant feedback and insights, especially from community members." }
+      - { code: FPS1, citedTitle: Adaptable thinking, condition: "If learners adjust their approaches when ideas don't work as expected." }
+      - { code: FPS2, citedTitle: Evaluating sources, condition: "If learners assess the credibility and usefulness of perspectives from different stakeholders." }
+      - { code: FUS2, citedTitle: Understanding other people, condition: "If learners draw on perspectives of those affected by, or contributing to, violence to shape their ideas." }
+      - { code: APS1, citedTitle: Addressing unintended consequences, condition: "If learners identify and respond to possible negative impacts of their ideas." }
+
+  - statement: >-
+      Work with others to explore, communicate, and refine ideas in ways that build
+      understanding, trust, and support for addressing causes of violence in a
+      particular context.
+    supportedTo:
+      - Identify and engage with diverse stakeholders, including those impacted by or contributing to violence.
+      - Present their ideas clearly and respectfully, adapting communication for different audiences.
+      - Facilitate dialogue that invites questions, concerns, and alternative perspectives.
+      - Respond constructively to feedback, refining ideas to strengthen trust and relevance.
+      - Demonstrate ethical communication by being transparent about intentions, limitations, and possible impacts.
+      - Reflect on the quality of their interactions and relationships during the process.
+    furtherDetails:
+      concepts:
+        - Rosenberg's Non-Violent Communication approach
+      activities:
+        - Role-play presenting ideas to different audiences
+        - Community dialogue sessions (real or simulated)
+        - Stakeholder mapping exercises
+        - Peer feedback cycles
+        - Ethical communication workshops (respect, inclusion, transparency)
+        - Final "support pitch" (poster, speech, community forum, or video)
+    competencyEvidence:
+      - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners create conditions where others feel included in dialogue about addressing violence." }
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners generate enthusiasm and commitment for their ideas in an ethical way." }
+      - { code: ALC2, citedTitle: Facilitating collaborative decision making, condition: "If learners enable others to contribute to shaping or refining the idea." }
+      - { code: ASL1, citedTitle: Using feedback, condition: "If learners respond to and apply input from stakeholders to improve their ideas." }
+      - { code: FUS2, citedTitle: Understanding other people, condition: "If learners recognise and incorporate the perspectives of others into their communication." }
+      - { code: AUS2, citedTitle: Intercultural understanding, condition: "If learners adapt communication to work constructively across cultural differences." }
+
+principleMappings:
+  # Guide lists 8 principles (see sourceIssues). Stored in guide order.
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners share experiences of conflict, displacement, or peace efforts from their own lives and communities.
+      - Activities highlight cultural traditions, stories, and knowledge systems that shape understanding of peace and violence.
+      - Facilitators validate and incorporate learners' perspectives into discussions and projects.
+  - principle: collaboration
+    inThisCourse:
+      - Learners co-design inquiry questions and projects with facilitators.
+      - Community members, mentors, or peace practitioners are invited to share perspectives.
+      - Educators adapt activities based on learners' feedback and emerging needs.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Learners practise dialogue, negotiation, and ethical decision-making in role plays and projects.
+      - Activities develop transferable skills such as research, critical thinking, and collaboration.
+      - Learners connect peacebuilding skills to future education, civic roles, and livelihood opportunities.
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners identify and analyse causes of violence in their own context.
+      - Projects focus on realistic peacebuilding actions that could make a tangible difference.
+      - Learners test and refine ideas in ways that respond to actual community needs.
+  - principle: responsible-action
+    inThisCourse:
+      - Learners assess the ethical implications of their peacebuilding ideas.
+      - Activities highlight possible unintended harms and strategies to mitigate them.
+      - Learners evaluate whether proposed actions are safe, inclusive, and sustainable.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Learners reflect on their contributions to peacebuilding through journals, portfolios, or showcases.
+      - Presentations highlight how collaboration with others built trust and support.
+      - Learners acknowledge both small-scale and larger contributions towards peace.
+  - principle: feedback-and-data
+    inThisCourse:
+      - Learners gather feedback from peers, educators, and community members on their ideas.
+      - Iteration cycles are built into projects to improve ideas over time.
+      - Facilitators collect learner feedback on activities to adapt future sessions.
+  - principle: safe-spaces
+    inThisCourse:
+      - Facilitators co-create ground rules that ensure respectful dialogue.
+      - Activities provide safe options for learners to share sensitive experiences.
+      - Educators respond sensitively to strong emotions and safeguard confidentiality where appropriate.
+      - Inclusive practices ensure cultural and gender norms are respected.
+      - Facilitators consider trauma sensitivity when discussing sensitive topics.
+
+designChecklist:
+  - My course design includes ~100 hours of learning experiences/tasks (approx. 60 hours live, 40 hours independent/asynchronous).
+  - My course design is appropriate for my context (relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).
+  - My course design is mostly aligned with Amala's principles for transformative education (and where not aligned, I have reflected on how to improve).
+  - Course design supports learners in making progress towards all course objectives.
+  - Opportunities for learners to generate and submit evidence for the Amala competencies are built into the design.
+
+sourceIssues:
+  - type: cross-course-copy-paste
+    detail: >-
+      Design checklist reads "Meets the time and contextualisation requirements for the
+      Social Entrepreneurship course" — should reference Peacebuilding. Same error appears
+      in multiple guides.
+  - type: framework-mismatch
+    detail: >-
+      Guide lists 8 principles; framework/spec lists 9. Principle 7 ("connect learning to
+      the futures they are building") not present as a distinct row.
+  - type: strapline-missing
+    detail: No strapline in source; needs authoring.

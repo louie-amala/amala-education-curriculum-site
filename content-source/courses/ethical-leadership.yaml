@@ -1,0 +1,173 @@
+# Intermediate extraction — mirrors spec §4.1 Course/Objective interfaces.
+# Source: "Ethical Leadership Course Guide - 2025 Onwards.txt"
+# Verbatim from source; issues recorded, not corrected.
+id: ethical-leadership
+slug: ethical-leadership
+access: public
+title: Ethical Leadership
+strapline: null            # not present in guide — to author
+programmes: [gsd]          # placeholder — to confirm against programme-level docs
+testimonial:
+  quote: >-
+    Through the Ethical Leadership Course, I gained valuable skills in
+    communication, empathy, and decision-making, which I applied to positively
+    influence my community. For example, in an entrepreneurship program, I used
+    these skills to mentor youth and women, fostering a collaborative environment
+    and helping them build confidence in starting small businesses. This approach
+    created a supportive network that reduced unemployment and promoted financial
+    independence.
+  attribution: Amala student in Kakuma Refugee Camp, Kenya
+purpose: >-
+  Ethical Leadership explores how individuals can act with integrity and
+  influence others to do the same in their communities and beyond. The course
+  supports learners to understand what ethical leadership looks like in diverse
+  contexts and to apply ethical principles in practice. Through reflection,
+  dialogue, and action, learners examine how personal values, cultural
+  perspectives, and power dynamics shape decision-making and relationships. They
+  learn to lead in ways that are fair, inclusive, and guided by moral
+  purpose.Throughout the course, learners apply ethical leadership principles to
+  real scenarios, both personal and collective, developing the ability to make
+  responsible decisions and to inspire ethical behaviour in others. By the end of
+  the course, learners should have developed a deeper understanding of themselves
+  as moral agents and contributors to positive change in their communities.
+requirements:
+  structuredHours: 100
+  durationWeeks: 10          # "minimum of 10 weeks"
+  cadence: 10+ weeks
+  liveIndependentSplit: null   # not stated as a split in this guide
+  notes: >-
+    Structured learning should include both live sessions (individual and/or
+    group) and independent learning (individual and/or group tasks).
+
+objectives:
+  - statement: >-
+      Develop a set of moral principles that are used to guide personal behaviour
+      and leadership.
+    supportedTo:
+      - Explore examples of moral principles from different cultures, philosophies, and leaders.
+      - Reflect on personal experiences and values that shape their sense of right and wrong.
+      - Draft, test, and refine their own set of moral principles through discussion and feedback.
+      - Apply their moral principles to real scenarios.
+    furtherDetails:
+      concepts: []
+      activities:
+        - Case study analysis of leaders who demonstrated strong or weak moral principles.
+        - Group discussions comparing cultural perspectives on ethics and leadership.
+        - Personal reflection journals leading to a written or visual "Code of Principles."
+        - Role-play scenarios where learners test their principles in action (e.g., conflict resolution, decision-making).
+        - Examples of final products include a personal leadership statement or principles poster to display or share.
+    competencyEvidence:
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners demonstrate their ability to define and apply moral principles in decision-making." }
+      - { code: FSL1, citedTitle: Self-reflection, condition: "If learners reflect on how their personal experiences, values, and influences shape their principles." }
+      - { code: FUS1, citedTitle: Developing self-awareness, condition: "If learners show growth in recognising factors that influence their own behaviour." }
+
+  - statement: >-
+      Advance a personal or community project using ethical leadership principles
+      and practices.
+    supportedTo:
+      - Identify a personal or community project they can lead or contribute to.
+      - Plan actions for the project that align with their personal moral principles.
+      - Apply actions that align with their personal moral principles while carrying out the project.
+      - Monitor and reflect on how acting in alignment with personal moral principles influences project outcomes.
+    furtherDetails:
+      concepts: []
+      activities:
+        - Activities might include leading a small group activity, community campaign, or school initiative.
+        - Learners gather feedback from peers or community members on their leadership approach.
+        - Final products could include project reports, reflection logs, or community presentations highlighting both results and ethical processes.
+    competencyEvidence:
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners demonstrate consistent application of their moral principles in the project." }
+      - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners create conditions where others feel respected and included in the project." }
+      - { code: ALC2, citedTitle: Facilitating collaborative decision-making, condition: "If learners design inclusive processes for project-related decisions." }
+      - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners plan and follow through on project milestones." }
+
+  - statement: >-
+      Positively influence the ability of others to behave and lead more
+      ethically.
+    supportedTo:
+      - Explore psychological and social factors that influence ethical decision-making.
+      - Analyse what influences ethical or unethical behaviour in individuals and groups.
+      - Develop strategies to model, encourage, and support ethical behaviour in others.
+      - Practise influential communication to motivate peers towards ethical action.
+      - Reflect on successes and challenges in influencing others' behaviour.
+    furtherDetails:
+      concepts: []
+      activities:
+        - Peer mentoring or buddy systems where learners practise encouraging ethical choices.
+        - Design and run a short workshop, campaign, or awareness activity promoting ethical leadership.
+        - Products could include campaign materials, workshop resources, or video testimonials from peers.
+    competencyEvidence:
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners use persuasive and responsible communication to encourage ethical behaviour." }
+      - { code: ALC1, citedTitle: Empowering others to lead, condition: "If learners equip peers with confidence and skills to take leadership roles." }
+      - { code: ALC3, citedTitle: Conflict transformation, condition: "If learners model ethical approaches to resolving disagreements." }
+      - { code: ALC4, citedTitle: Inspiring others, condition: "If learners motivate peers to take ethical action." }
+      - { code: FUS2, citedTitle: Understanding other people, condition: "If learners demonstrate insight into what influences others' behaviour and use this to support ethical growth." }
+
+principleMappings:
+  # Guide lists 8 principles (see sourceIssues). Stored in guide order.
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners reflect on cultural, community, and personal influences on their moral principles.
+      - Facilitators encourage use of local stories, role models, and traditions that highlight ethical leadership.
+      - Learners share examples of ethical dilemmas from their own contexts to ground discussions.
+  - principle: collaboration
+    inThisCourse:
+      - Learners interview local leaders, elders, or mentors about their approaches to ethical leadership.
+      - Community partners are invited as guest speakers to share leadership experiences.
+      - Learners engage in collaborative group projects that require ethical decision-making together.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Learners practise core leadership skills such as active listening, inclusive decision-making, and fair conflict resolution.
+      - Skills developed are directly linked to leadership roles learners might hold in their schools, families, or communities.
+      - Facilitators connect learning to pathways such as youth leadership programmes, community initiatives, or further education.
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners design and lead a small-scale project (personal or community) guided by ethical principles.
+      - Case studies of real-world ethical dilemmas give learners the chance to practise applying their principles to authentic problems.
+      - Learners reflect on how their leadership actions made a difference in addressing challenges.
+  - principle: responsible-action
+    inThisCourse:
+      - Ethical dimensions of leadership are made explicit in each activity (e.g., fairness, transparency, responsibility).
+      - Learners are prompted to consider unintended consequences of their leadership actions.
+      - Facilitators model ethical behaviour by creating fair and inclusive classroom environments.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Learners collect feedback from peers and community members on their leadership approach.
+      - Reflection journals and group debriefs help learners identify growth in their leadership practice.
+      - Learners share stories of their impact in presentations, digital portfolios, or community showcases.
+  - principle: feedback-and-data
+    inThisCourse:
+      - Learners use peer and mentor feedback to refine their projects and leadership style.
+      - Facilitators adjust activities based on learner reflections and needs.
+      - Course delivery is adapted iteratively based on evidence of what supports ethical growth most effectively.
+  - principle: safe-spaces
+    inThisCourse:
+      - Facilitators co-create group agreements that ensure respect, confidentiality, and inclusion.
+      - Ethical dilemmas are discussed with sensitivity to cultural and religious perspectives.
+      - Learners are supported to share personal stories without pressure, and alternative ways to contribute are offered.
+
+designChecklist:
+  - My course design includes ~100 hours of learning experiences/tasks
+  - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).
+  - My course design is mostly aligned with Amala's principles for transformative education (and where the course is not aligned, I have reflected on how I can improve alignment in the future).
+  - Course design supports learners in making progress towards all of the course objectives.
+  - Opportunities for learners to generate and submit evidence that can be used to evaluate their proficiency in the Amala competencies are built in to the course design.
+
+sourceIssues:
+  - type: cross-course-copy-paste
+    detail: >-
+      Course Learning Design Checklist reads "Meets the time and contextualisation
+      requirements for the Social Entrepreneurship course" — should reference Ethical
+      Leadership. Same error appears in multiple guides.
+  - type: missing-principle
+    detail: >-
+      Guide lists 8 principles and omits "connect-to-futures" (connect learning to the
+      futures learners are building); it has no inThisCourse mapping.
+  - type: strapline-missing
+    detail: No strapline in source; needs authoring.
+  - type: programme-membership-to-confirm
+    detail: programmes set to [gsd] as placeholder; confirm against programme-level docs.
+  - type: source-typo
+    detail: >-
+      Syllabus intro has a missing space between sentences ("guided by moral
+      purpose.Throughout the course"). Preserved verbatim in purpose.

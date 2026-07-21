@@ -1,0 +1,328 @@
+- id: fsi1
+  code: FSI1
+  areaId: sustainable-innovation
+  creditLevel: Foundational
+  title: Investigate real-world issues
+  goal: The learner can conduct primary and secondary research into challenges affecting people and the
+    planet to develop actionable insights.
+- id: fsi2
+  code: FSI2
+  areaId: sustainable-innovation
+  creditLevel: Foundational
+  title: Ideate sustainable solutions
+  goal: The learner can create or refine ideas that address local and global challenges without compromising
+    the ability of life to thrive now and in the future.
+- id: fsi3
+  code: FSI3
+  areaId: sustainable-innovation
+  creditLevel: Foundational
+  title: Pilot sustainable solutions
+  goal: The learner can test elements of a sustainable solution on a small scale, gathering data that
+    can be used to inform improvements.
+- id: asi1
+  code: ASI1
+  areaId: sustainable-innovation
+  creditLevel: Advanced
+  title: Measure impact of sustainable solutions
+  goal: The learner can evaluate the effectiveness of a solution idea in addressing local and global challenges
+    without compromising the ability of life to thrive now and in the future.
+- id: asi2
+  code: ASI2
+  areaId: sustainable-innovation
+  creditLevel: Advanced
+  title: Strengthen sustainable solutions
+  goal: The learner can use data and feedback to improve a sustainable solution's long-term effectiveness
+    in addressing local and global challenges without compromising the ability of life to thrive now and
+    in the future.
+- id: asi3
+  code: ASI3
+  areaId: sustainable-innovation
+  creditLevel: Advanced
+  title: Attract support and investment
+  goal: The learner can persuade individuals or organizations to provide resources to support a sustainable
+    solution.
+- id: asi4
+  code: ASI4
+  areaId: sustainable-innovation
+  creditLevel: Advanced
+  title: Scale sustainable solutions
+  goal: The learner can increase the reach of a sustainable solution whilst maintaining or increasing
+    its effectiveness.
+- id: fr1
+  code: FR1
+  areaId: resourcefulness
+  creditLevel: Foundational
+  title: Identifying resources
+  goal: The learner can find people, materials, and opportunities that can contribute to meaningful progress
+    in personal or community initiatives.
+- id: fr2
+  code: FR2
+  areaId: resourcefulness
+  creditLevel: Foundational
+  title: Utilising resources
+  goal: The learner can make effective and ethical use of available people, materials, and opportunities
+    in a responsible manner to achieve beneficial outcomes for personal or community initiatives.
+- id: fr3
+  code: FR3
+  areaId: resourcefulness
+  creditLevel: Foundational
+  title: Resource prioritisation
+  goal: The learner can allocate their available resources to activities that will have the greatest positive
+    impact on personal or community initiatives.
+- id: ar1
+  code: AR1
+  areaId: resourcefulness
+  creditLevel: Advanced
+  title: Expanding resources
+  goal: The learner can grow networks and opportunities to increase what is available to them for the
+    benefit of personal and community initiatives.
+- id: ar2
+  code: AR2
+  areaId: resourcefulness
+  creditLevel: Advanced
+  title: Innovating with limited resources
+  goal: The learner can find new ways to use people, materials, and opportunities for the benefit of personal
+    and community initiatives.
+- id: ar3
+  code: AR3
+  areaId: resourcefulness
+  creditLevel: Advanced
+  title: Resilience
+  goal: The learner can explore alternative approaches for achieving their goals when faced with barriers
+    and blockers, rather than giving up.
+- id: flc1
+  code: FLC1
+  areaId: leading-change
+  creditLevel: Foundational
+  title: Ethical actions
+  goal: The learner can take actions that are guided by personal moral principles that enable positive
+    change.
+- id: flc2
+  code: FLC2
+  areaId: leading-change
+  creditLevel: Foundational
+  title: Fostering connection and belonging
+  goal: The learner can cultivate the conditions that enable people to feel part of a community working
+    towards a shared goal for positive change.
+- id: flc3
+  code: FLC3
+  areaId: leading-change
+  creditLevel: Foundational
+  title: Influential communication
+  goal: The learner can generate enthusiasm for and commitment to initiatives for positive change that
+    they are involved in.
+- id: alc1
+  code: ALC1
+  areaId: leading-change
+  creditLevel: Advanced
+  title: Empowering others to lead
+  goal: The learner can equip others with the confidence, skills, and opportunities to take on leadership
+    roles and drive positive change independently.
+- id: alc2
+  code: ALC2
+  areaId: leading-change
+  creditLevel: Advanced
+  title: Facilitating collaborative decision making
+  goal: The learner can create inclusive processes that empower others to contribute ideas for positive
+    change.
+- id: alc3
+  code: ALC3
+  areaId: leading-change
+  creditLevel: Advanced
+  title: Conflict transformation
+  goal: The learner can cultivate mutually beneficial outcomes when there are disagreements between people
+    and/or groups of people.
+- id: alc4
+  code: ALC4
+  areaId: leading-change
+  creditLevel: Advanced
+  title: Inspiring others
+  goal: The learner can motivate others to take meaningful action toward making positive change.
+- id: fsl1
+  code: FSL1
+  areaId: self-navigated-learning
+  creditLevel: Foundational
+  title: Self-reflection
+  goal: The learner can identify and exemplify their knowledge, skills, expertise and areas for development,
+    using this to support progress towards goals.
+- id: fsl2
+  code: FSL2
+  areaId: self-navigated-learning
+  creditLevel: Foundational
+  title: Set and pursue goals
+  goal: The learner can establish clear objectives for learning and growth and take deliberate steps to
+    make progress towards them.
+- id: fsl3
+  code: FSL3
+  areaId: self-navigated-learning
+  creditLevel: Foundational
+  title: Engage in continuous learning
+  goal: The learner can seek out and participate in formal and informal learning experiences that expand
+    their knowledge, skills and worldview and/or support them in making progress towards goals.
+- id: asl1
+  code: ASL1
+  areaId: self-navigated-learning
+  creditLevel: Advanced
+  title: Using feedback
+  goal: The learner can assess the usefulness of input from others and apply relevant insights to improve
+    outcomes.
+- id: asl2
+  code: ASL2
+  areaId: self-navigated-learning
+  creditLevel: Advanced
+  title: Managing time, priorities and wellbeing
+  goal: The learner can balance responsibilities and self-care to sustain long-term health, motivation
+    and effectiveness.
+- id: asl3
+  code: ASL3
+  areaId: self-navigated-learning
+  creditLevel: Advanced
+  title: Leverage networks and relationships
+  goal: The learner can seek guidance from mentors, peers, and industry professionals to support personal
+    and professional growth.
+- id: asl4
+  code: ASL4
+  areaId: self-navigated-learning
+  creditLevel: Advanced
+  title: Actualising pathways
+  goal: The learner can access further education and/or meaningful employment, and/or develop an enterprise.
+- id: fus1
+  code: FUS1
+  areaId: understanding-self-others-cultures
+  creditLevel: Foundational
+  title: Developing self-awareness
+  goal: The learner can identify factors that influence their own thoughts and behaviors and use this
+    understanding to improve their interactions with themselves and others.
+- id: fus2
+  code: FUS2
+  areaId: understanding-self-others-cultures
+  creditLevel: Foundational
+  title: Understanding other people
+  goal: The learner can identify factors that influence the behaviour of other people, using this understanding
+    to foster more positive interactions with and between other people.
+- id: fus3
+  code: FUS3
+  areaId: understanding-self-others-cultures
+  creditLevel: Foundational
+  title: Exploring other cultures
+  goal: The learner can explore the beliefs, values, customs, and behaviors of cultures different from
+    their own, generating insights into how these factors influence thought and action.
+- id: aus1
+  code: AUS1
+  areaId: understanding-self-others-cultures
+  creditLevel: Advanced
+  title: Addressing bias and negative stereotypes
+  goal: The learner can help individuals and groups of people to recognise and overcome unfair perspectives
+    they might hold against other individuals and groups of people.
+- id: aus2
+  code: AUS2
+  areaId: understanding-self-others-cultures
+  creditLevel: Advanced
+  title: Intercultural understanding
+  goal: The learner can use their understanding of shared beliefs, values, customs and behaviours of societies
+    and groups other than their own in order to foster more positive interpersonal interactions.
+- id: aus3
+  code: AUS3
+  areaId: understanding-self-others-cultures
+  creditLevel: Advanced
+  title: Facilitating intercultural understanding
+  goal: The learner can use their understanding of shared beliefs, values, customs and behaviours of societies
+    and groups other than their own in order to foster more positive interpersonal interactions between
+    people from different backgrounds.
+- id: aus4
+  code: AUS4
+  areaId: understanding-self-others-cultures
+  creditLevel: Advanced
+  title: Creating cultural artefacts
+  goal: The learner can create original work, such as art, literature and media, that reflects personal
+    or cultural perspectives to foster awareness, connection, or dialogue.
+- id: fts1
+  code: FTS1
+  areaId: technical-scientific-numerical-literacy
+  creditLevel: Foundational
+  title: Utilising Technology
+  goal: The learner can use technology to solve problems in their own lives or the world around them.
+- id: fts2
+  code: FTS2
+  areaId: technical-scientific-numerical-literacy
+  creditLevel: Foundational
+  title: Science informed action
+  goal: The learner can use their scientific understanding of how the natural world and/or human societies
+    work in order to make informed decisions in their own lives.
+- id: fts3
+  code: FTS3
+  areaId: technical-scientific-numerical-literacy
+  creditLevel: Foundational
+  title: Gather and organise data
+  goal: The learner can collect and categorize primary, secondary, qualitative, and quantitative data
+    in order to better understand a problem or challenge.
+- id: ats1
+  code: ATS1
+  areaId: technical-scientific-numerical-literacy
+  creditLevel: Advanced
+  title: Analyze and Interpret Data
+  goal: The learner can examine and visualize data to uncover patterns, generate insights, and inform
+    decision-making.
+- id: ats2
+  code: ATS2
+  areaId: technical-scientific-numerical-literacy
+  creditLevel: Advanced
+  title: Science communication
+  goal: The learner can use their understanding of the natural world and/or human societies in order to
+    positively influence the thinking and behaviour of other people.
+- id: ats3
+  code: ATS3
+  areaId: technical-scientific-numerical-literacy
+  creditLevel: Advanced
+  title: Technological innovation
+  goal: The learner can use scientific principles and understanding to develop new solutions for problems
+    facing people and the world.
+- id: fps1
+  code: FPS1
+  areaId: problem-solving-critical-thinking
+  creditLevel: Foundational
+  title: Adaptable thinking
+  goal: The learner can apply and/or adjust suitable knowledge, skills and approaches to meet the needs
+    of a challenge, environment, or audience.
+- id: fps2
+  code: FPS2
+  areaId: problem-solving-critical-thinking
+  creditLevel: Foundational
+  title: Evaluating sources
+  goal: The learner can assess the credibility and reliability of people and organisations that provide
+    information and data in order to make more informed decisions about whether to trust the data and
+    information they provide.
+- id: fps3
+  code: FPS3
+  areaId: problem-solving-critical-thinking
+  creditLevel: Foundational
+  title: Identifying contributing factors
+  goal: The learner can establish, with evidence, the people, activities and/or systems that are playing
+    a part in creating a problem and/or challenge facing living things and/or the planet.
+- id: aps1
+  code: APS1
+  areaId: problem-solving-critical-thinking
+  creditLevel: Advanced
+  title: Addressing unintended consequences
+  goal: The learner can identify unexpected outcomes of actions or solutions and adjust approaches accordingly
+    to maximize benefits and minimize harm.
+- id: aps2
+  code: APS2
+  areaId: problem-solving-critical-thinking
+  creditLevel: Advanced
+  title: Evidence informed decision making
+  goal: The learners can use information from multiple reliable sources to justify their choices and actions.
+- id: aps3
+  code: APS3
+  areaId: problem-solving-critical-thinking
+  creditLevel: Advanced
+  title: Pattern identification
+  goal: The learner can identify trends, behaviors, or relationships in data to make predictions and plan
+    solutions.
+- id: aps4
+  code: APS4
+  areaId: problem-solving-critical-thinking
+  creditLevel: Advanced
+  title: Solution analysis
+  goal: The learner can compare different approaches to a problem, considering feasibility, effectiveness,
+    and impact in order to make an evidence-informed decision on a particular course of action.

@@ -1,0 +1,36 @@
+progressionAxes: articulation → action → achievement → evidenced self-critique → breadth and sustained
+  improvement
+levels:
+- id: none
+  title: No Level Awarded
+  gpa: 0.0
+  creditAwarded: false
+  genericDescriptor: Does not have a rationale for what they would do to achieve the goal described by
+    the competency in at least one scenario.
+- id: theorist
+  title: Theorist
+  gpa: 2.0
+  creditAwarded: false
+  genericDescriptor: Has a rationale for what they would do to achieve the goal described by the competency
+    in at least one scenario.
+- id: practitioner
+  title: Practitioner
+  gpa: 3.0
+  creditAwarded: true
+  genericDescriptor: Has attempted to achieve the goal described by the competency in at least one scenario
+    and has a clear rationale for their actions.
+- id: reflective
+  title: Reflective Practitioner
+  gpa: 3.5
+  creditAwarded: true
+  genericDescriptor: Has achieved the goal described by the competency in at least one scenario and has
+    a clear rationale for their actions. Has identified strengths, weaknesses and improvements they would
+    make in their approach in at least one scenario, supporting their claims with evidence.
+- id: expert
+  title: Expert Practitioner
+  gpa: 4.0
+  creditAwarded: true
+  genericDescriptor: Has achieved the goal described by the competency in two or more scenarios and has
+    a clear rationale for their actions. Has identified strengths, weaknesses and improvements across
+    two or more scenarios, supported with evidence, and has implemented improvements demonstrating growth
+    over time.

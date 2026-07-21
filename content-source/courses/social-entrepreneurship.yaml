@@ -1,0 +1,182 @@
+# Intermediate extraction — mirrors spec §4.1 Course/Objective interfaces.
+# Source: "Social Entrepreneurship Course Guide - 2025 Onwards.txt"
+# Verbatim from source; issues recorded, not corrected.
+id: social-entrepreneurship
+slug: social-entrepreneurship
+access: public
+title: Social Entrepreneurship
+strapline: null            # not present in guide — to author
+programmes: [gsd]          # to confirm against programme-level docs
+testimonial:
+  quote: >-
+    The Social Entrepreneurship course was very inspiring and practical. It helped
+    me understand how to create positive change in my community and gave me the
+    skills to start my own project. This course motivated me to take real action and
+    believe in my ability to help others.
+  attribution: Amala student in Jordan
+purpose: >-
+  Social entrepreneurship involves developing revenue generating products or
+  services that either directly or indirectly address social or environmental
+  challenges. This reduces reliance on donations and fundraising (although this can
+  still be one source of income for a social enterprise. Developing a social
+  enterprise not only contributes to addressing social or environmental challenges,
+  but also creates livelihoods and purpose.
+requirements:
+  structuredHours: 100
+  durationWeeks: 10          # "minimum of 10 weeks"
+  cadence: 10+ weeks
+  liveIndependentSplit: null   # not stated in guide
+  notes: >-
+    Structured learning should include both live sessions (individual and/or group)
+    and independent learning (individual and/or group tasks).
+
+objectives:
+  - statement: >-
+      Contribute to the collective understanding of a social or environmental
+      challenge, making the development of solution ideas more likely.
+    supportedTo:
+      - Develop a working definition of a social or environmental challenge.
+      - Explore local challenges and identify one to investigate further.
+      - Build their understanding of primary and secondary research methods.
+      - Conduct research to identify contributing factors to the chosen challenge.
+      - Communicate findings clearly to peers and wider audiences.
+    furtherDetails:            # raw seeds → future concepts/tools/activities (NOT yet authored materials)
+      concepts:
+        - Case studies of "wicked problems" to introduce complexity thinking.
+      activities:
+        - Community mapping, interviews, and surveys to gather local perspectives.
+        - Annotated bibliographies or evidence logs to practise evaluating sources.
+        - Learners prepare a research report or presentation and share it with classmates or community members.
+        - Products could include posters, infographics, presentations or short videos summarising research findings.
+    competencyEvidence:
+      - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners conduct primary and secondary research into a social or environmental challenge." }
+      - { code: FPS2, citedTitle: Evaluating sources, condition: "If learners assess the credibility and reliability of sources during their research." }
+      - { code: FPS3, citedTitle: Identifying contributing factors, condition: "If learners identify, with evidence, the people, systems, and activities contributing to the challenge." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners consider the ethics of their primary research methods." }
+      - { code: FTS3, citedTitle: Gather and organise data, condition: "If learners collect and structure data to better understand the challenge." }
+      - { code: APS3, citedTitle: Pattern identification, condition: "If learners recognise patterns or trends from the data they have collected." }
+      - { code: ATS1, citedTitle: Analyze and interpret data, condition: "If learners analyse and interpret data to generate insights into the challenge." }
+
+  - statement: >-
+      Develop an ethical revenue generating (social enterprise) concept (product
+      and/or service) that directly or indirectly attempts to address a social or
+      environmental challenge.
+    supportedTo:
+      - Analyse examples of existing social enterprises and their business models.
+      - Distinguish between social enterprises, traditional businesses, charities, and NGOs.
+      - Generate and prioritise initial ideas using tools such as an effort/impact matrix.
+      - Explore basic business concepts like revenue, cost, and profit.
+      - Test ideas for effectiveness with potential users and refine based on feedback.
+    furtherDetails:
+      concepts: []
+      activities:
+        - Guest talks or video case studies of social entrepreneurs.
+        - Idea generation sessions, followed by structured prioritisation.
+        - Market research tasks such as online research, observations, simple surveys, interviews, or prototype testing.
+        - Drafting a "concept note" that explains how their idea addresses the challenge ethically and sustainably whilst generating revenue.
+        - Refinement cycles leading to a clear social enterprise concept statement or prototype.
+        - Participants might also explore how they can contribute effectively to existing social enterprises.
+    competencyEvidence:
+      - { code: FSI2, citedTitle: Ideate sustainable solutions, condition: "If learners generate ideas for revenue-generating products or services that address a challenge." }
+      - { code: FSI3, citedTitle: Pilot sustainable solutions, condition: "If learners test elements of their proposed social enterprise with potential users." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners explain how their enterprise concept is ethical and responsible." }
+      - { code: FTS1, citedTitle: Utilising technology, condition: "If learners make use of existing technology to develop their enterprise." }
+      - { code: FTS2, citedTitle: Science informed action, condition: "If learners apply scientific understanding to inform their enterprise idea." }
+      - { code: ATS3, citedTitle: Technological innovation, condition: "If learners create or adapt a new technological solution for their enterprise." }
+      - { code: APS4, citedTitle: Solution analysis, condition: "If learners compare possible solutions and justify their chosen enterprise approach." }
+
+  - statement: >-
+      Convince others to invest in and/or adopt an ethical revenue generating
+      (social enterprise) concept (product and/or service) that directly or
+      indirectly attempts to address a social or environmental challenge.
+    supportedTo:
+      - Create documentation that explains and supports their enterprise concept (e.g., pitch deck, business plan).
+      - Build an evidence base for the effectiveness of their concept.
+      - Identify and engage potential supporters, partners, or investors.
+      - Practise persuasive communication tailored to different audiences.
+      - Reflect on feedback and adapt their approach to strengthen support.
+    furtherDetails:
+      concepts: []
+      activities:
+        - Learners develop a simple pitch deck, 1-page concept brief, or elevator pitch.
+        - Simulated pitch sessions with peers, facilitators, or invited mentors.
+        - Exploration of funding options such as prizes, accelerators, or grants.
+        - Learners trial networking approaches, such as outreach emails or short meetings.
+        - Final showcase where learners pitch their idea to an external or community audience.
+    competencyEvidence:
+      - { code: FR1, citedTitle: Identifying resources, condition: "If learners identify the types of support, people, and opportunities needed to advance their enterprise." }
+      - { code: FR2, citedTitle: Utilising resources, condition: "If learners make effective and ethical use of networks, partnerships, and resources to promote their enterprise." }
+      - { code: AR1, citedTitle: Expanding resources, condition: "If learners expand their networks to reach new supporters or investors." }
+      - { code: ASI3, citedTitle: Attract support and investment, condition: "If learners successfully persuade individuals or organisations to support their enterprise." }
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners adapt their communication to persuade different audiences." }
+      - { code: FPS1, citedTitle: Adaptable thinking, condition: "If learners demonstrate flexibility in how they pitch or refine their enterprise concept." }
+      - { code: ALC4, citedTitle: Inspiring others, condition: "If learners motivate others to commit to or champion their enterprise." }
+      - { code: ATS2, citedTitle: Science communication, condition: "If learners use scientific understanding to strengthen their persuasive arguments." }
+
+principleMappings:
+  # Guide lists 8 principles (see sourceIssues). Stored in guide order.
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners choose a social or environmental challenge that matters to them and their community.
+      - They investigate it using tools that help surface their own knowledge and local perspectives.
+      - Facilitators encourage use of local examples, experiences, and culturally grounded definitions of sustainability and impact.
+  - principle: collaboration
+    inThisCourse:
+      - Learners conduct interviews, surveys, and other primary research involving community members.
+      - They seek feedback on their ideas and pilots from peers and trusted adults.
+      - Local entrepreneurs, mentors, or guest speakers are invited to share insights and help refine students' social enterprise ideas.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Learners explore different models of social enterprise and practise transferable skills like research, idea generation, persuasive communication, and ethical decision-making.
+      - They connect their learning to future goals - such as starting a social enterprise, contributing to community initiatives, or pursuing further education in related fields.
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners identify real problems through research and analysis, then develop and test tangible solutions.
+      - These pilots or prototypes give them first-hand experience of acting on a real-world challenge, even at a small scale.
+  - principle: responsible-action
+    inThisCourse:
+      - Facilitators prompt students to reflect on the ethical dimensions of their enterprise ideas.
+      - Learners are supported to consider how to conduct ethical research.
+      - Learners are supported to define what makes their idea sustainable and to use criteria (e.g. sustainability, inclusion, affordability) to guide design decisions.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Learners plan how to measure the impact of their idea and collect feedback or data from pilot activities.
+      - They reflect on what worked, what didn't, and how their idea could be improved.
+      - They practise sharing this journey through pitches or presentations.
+  - principle: feedback-and-data
+    inThisCourse:
+      - Learners collect and reflect on feedback during each stage - research, ideation, piloting.
+      - Facilitators use learner reflections and outcomes to improve future delivery of the course.
+      - Programme design is iterated over time based on what learners are struggling with or excelling at.
+  - principle: safe-spaces
+    inThisCourse:
+      - Facilitators co-create group agreements and foster a collaborative, inclusive environment.
+      - Learners choose challenges and actions that feel meaningful but safe for them.
+      - Difficult topics (e.g. injustice, inequality) are explored with sensitivity to context and identity.
+
+designChecklist:
+  - My course design includes ~100 hours of learning experiences/tasks.
+  - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).
+  - My course design is mostly aligned with Amala's principles for transformative education (and where the course is not aligned, I have reflected on how I can improve alignment in the future).
+  - Course design supports learners in making progress towards all of the course objectives.
+  - Opportunities for learners to generate and submit evidence that can be used to evaluate their proficiency in the Amala competencies are built into the course design.
+
+sourceIssues:
+  - type: missing-principle
+    detail: >-
+      Guide lists 8 principles and omits connect-to-futures ("connect learning to the
+      futures they are building") as a distinct row; it has no inThisCourse mapping.
+  - type: miscited-competency
+    detail: >-
+      Objective 1 cites ATS1 as "Analyze and interpret data"; authoritative title is
+      "Analyze and Interpret Data" (capitalisation only). Code is valid; cited value
+      preserved verbatim.
+  - type: miscited-competency
+    detail: >-
+      Objective 2 cites FTS1 as "Utilising technology"; authoritative title is
+      "Utilising Technology" (capitalisation only). Code is valid; cited value
+      preserved verbatim.
+  - type: programme-membership-to-confirm
+    detail: programmes set to [gsd] as placeholder; confirm against programme-level docs.
+  - type: strapline-missing
+    detail: No strapline in source; needs authoring.
