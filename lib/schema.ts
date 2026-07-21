@@ -184,6 +184,16 @@ export const AgencyContributionSchema = z.object({
   how: z.string(),
 });
 
+// A single facilitation step (activities), modelled on the v1 site's rich step structure.
+export const ActivityStepSchema = z.object({
+  title: z.string(),
+  duration: z.string().nullable().optional(),
+  guidance: z.string(),
+  keyPrompts: z.array(z.string()).default([]),
+  watchOuts: z.array(z.string()).default([]),
+  adaptation: z.string().nullable().optional(), // low-bandwidth / async / pre-work note (🏠)
+});
+
 export const FacilitationMaterialSchema = z.object({
   id: z.string(),
   slug: z.string(),
@@ -193,6 +203,14 @@ export const FacilitationMaterialSchema = z.object({
   summary: z.string().nullable().optional(),
   facilitationContext: z.array(FacilitationContextSchema).default([]),
   toolsFacet: z.enum(["analytical", "facilitation", "both"]).optional(),
+  // running detail (mainly activities)
+  duration: z.string().nullable().optional(),
+  grouping: z.string().nullable().optional(),
+  whatLearnersDo: z.array(z.string()).default([]),
+  materialsAndPreparation: z.array(z.string()).default([]),
+  facilitationNotes: z.string().nullable().optional(),
+  steps: z.array(ActivityStepSchema).default([]),
+  closing: z.string().nullable().optional(),
   educatorContent: z.string().nullable().optional(),
   learnerContent: z.string().nullable().optional(),
   agencyContribution: AgencyContributionSchema,

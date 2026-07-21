@@ -42,11 +42,13 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
       </span>
       <h1 className="mt-2 font-heading text-3xl font-bold text-navy">{m.title}</h1>
       {m.summary && <p className="mt-2 text-lg text-dark-navy">{m.summary}</p>}
-      {m.facilitationContext.length > 0 && (
-        <p className="mt-3 text-sm text-cool-grey">
-          For: {m.facilitationContext.map((c) => CONTEXT_LABEL[c] ?? c).join(" · ")}
-        </p>
-      )}
+      <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm text-cool-grey">
+        {m.duration && <span>⏱ {m.duration}</span>}
+        {m.grouping && <span>👥 {m.grouping}</span>}
+        {m.facilitationContext.length > 0 && (
+          <span>For: {m.facilitationContext.map((c) => CONTEXT_LABEL[c] ?? c).join(" · ")}</span>
+        )}
+      </p>
 
       {/* Pedagogical spine */}
       <section className="mt-8 grid gap-4 sm:grid-cols-3">
@@ -89,7 +91,103 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </div>
       </section>
 
-      {/* Content faces */}
+      {/* What learners do */}
+      {m.whatLearnersDo.length > 0 && (
+        <section className="mt-10">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">What learners do</h2>
+          <ul className="mt-3 list-disc space-y-1 rounded-lg border-l-4 border-aqua bg-aqua/5 p-5 pl-9 text-dark-navy/90">
+            {m.whatLearnersDo.map((t, i) => (
+              <li key={i}>{t}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {/* Materials and preparation */}
+      {m.materialsAndPreparation.length > 0 && (
+        <section className="mt-8">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">Materials and preparation</h2>
+          <ul className="mt-3 list-disc space-y-1 pl-5 text-dark-navy/90">
+            {m.materialsAndPreparation.map((t, i) => (
+              <li key={i}>{t}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {/* Facilitation notes */}
+      {m.facilitationNotes && (
+        <section className="mt-8">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">Facilitation notes</h2>
+          <div className="mt-3 rounded-lg border border-cool-grey/20 bg-white p-5">
+            <Prose text={m.facilitationNotes} />
+          </div>
+        </section>
+      )}
+
+      {/* Step-by-step flow */}
+      {m.steps.length > 0 && (
+        <section className="mt-8">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">Step by step</h2>
+          <ol className="mt-4 space-y-5">
+            {m.steps.map((step, i) => (
+              <li key={i} className="rounded-lg border border-cool-grey/20 bg-white p-5 shadow-sm">
+                <div className="flex items-baseline justify-between gap-3">
+                  <h3 className="font-heading font-semibold text-navy">
+                    <span className="text-cool-grey">Step {i + 1}.</span> {step.title}
+                  </h3>
+                  {step.duration && (
+                    <span className="shrink-0 text-xs text-cool-grey">{step.duration}</span>
+                  )}
+                </div>
+                {step.guidance && (
+                  <div className="mt-2 text-sm">
+                    <Prose text={step.guidance} />
+                  </div>
+                )}
+                {step.keyPrompts.length > 0 && (
+                  <div className="mt-3">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-teal">Key prompts</p>
+                    <ul className="mt-1 list-disc space-y-0.5 pl-5 text-sm text-dark-navy/90">
+                      {step.keyPrompts.map((p, j) => (
+                        <li key={j}>{p}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {step.watchOuts.length > 0 && (
+                  <div className="mt-3">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-terracotta">Watch-outs</p>
+                    <ul className="mt-1 list-disc space-y-0.5 pl-5 text-sm text-dark-navy/90">
+                      {step.watchOuts.map((w, j) => (
+                        <li key={j}>{w}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {step.adaptation && (
+                  <div className="mt-3 rounded-md bg-olive/10 p-3 text-sm text-dark-navy/90">
+                    <span className="font-semibold text-olive">Low-bandwidth / async: </span>
+                    {step.adaptation}
+                  </div>
+                )}
+              </li>
+            ))}
+          </ol>
+        </section>
+      )}
+
+      {/* Closing */}
+      {m.closing && (
+        <section className="mt-8">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">Closing the activity</h2>
+          <div className="mt-3 rounded-lg border-l-4 border-gold bg-gold/5 p-5">
+            <Prose text={m.closing} />
+          </div>
+        </section>
+      )}
+
+      {/* Fallback content faces (concepts, tools, resources, case studies) */}
       {m.learnerContent && (
         <section className="mt-10">
           <h2 className="font-heading text-xl font-semibold text-dark-navy">For learners</h2>

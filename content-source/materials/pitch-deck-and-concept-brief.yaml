@@ -7,48 +7,107 @@ summary: >-
   Learners build the materials that carry their idea to an audience: a short pitch deck,
   a one-page concept brief and an elevator pitch, each with a clear ask.
 facilitationContext: [group, independent]
-educatorContent: |
-  This activity opens the third objective by turning a refined concept into persuasive
-  materials. It follows naturally from the concept note and business-plan work, so
-  learners should already have the substance; here they shape it for an audience.
-
-  Start by building a shared understanding of what makes a pitch work. Watching a couple
-  of real social-enterprise pitches and drawing out the ingredients together is
-  effective. Aim to surface a structure the class can name in their own words, covering:
-  the problem and why it matters; the solution and how it works; evidence of testing or
-  traction; the vision for impact; and the ask (what support would help them move
-  forward, whether time, connections, mentoring or funding). The ask is the part
-  learners most often forget, so make it explicit and specific.
-
-  Then have learners produce three linked formats from the same core content: a short
-  pitch deck, a one-page concept brief they can leave behind, and a spoken elevator
-  pitch of about a minute. Encourage clear, audience-focused language and a genuine
-  story or personal connection. Where a project depends on scientific or environmental
-  understanding, coach learners to communicate that clearly and accurately to a
-  non-expert audience rather than assuming or overstating it.
-
-  Watch for decks heavy on description but light on the ask, for jargon, and for
-  evidence claims that go beyond what testing showed. Keep it honest and concrete.
-  Timing: around three to four hours, with independent time to build the materials.
-learnerContent: |
-  You are ready to communicate your idea to others. In this activity you will build the
-  materials you need to do that well.
-
-  **Learn what makes a pitch work.** A strong pitch usually covers:
-  - **The problem and why it matters** - what is the issue and why should anyone care?
-  - **The solution and how it works** - what are you doing about it?
-  - **Evidence** - what have you tested, and what did you learn?
-  - **The vision** - what change do you want to create?
-  - **The ask** - what support would help you take the next step? Be specific: time,
-    connections, mentoring, or funding.
-
-  **Build three versions of your pitch from the same core:**
-  - A short **pitch deck** (a few clear slides).
-  - A **one-page concept brief** you can hand or send to someone.
-  - An **elevator pitch** of about one minute that you can deliver from memory.
-
-  Keep your language clear and aimed at your audience. Include a real story or personal
-  connection where you can, and make sure every version ends with your ask.
+duration: About 3 to 4 hours, with independent time to build the materials
+grouping: Individual or in enterprise teams; works with 15 to 35 learners
+whatLearnersDo:
+  - Study a couple of real social enterprise pitches and name what makes them work.
+  - Pull their existing concept and business-plan work into a single pitch storyline.
+  - Build a short pitch deck, a one-page concept brief and a one-minute elevator pitch.
+  - Make sure every version ends with a clear, specific ask.
+materialsAndPreparation:
+  - One or two short social enterprise pitch videos queued up (download in advance if connectivity is unreliable).
+  - Learners' concept notes and business plans to hand, so they build from existing content rather than starting over.
+  - A pitch planning template or blank storyline sheet (problem, solution, evidence, vision, ask).
+  - Slide software or paper and card for those without devices; printing for the one-page brief.
+  - A visible list of the five pitch ingredients for learners to refer back to.
+facilitationNotes: |
+  The substance already exists from the concept and business-plan work; this activity is about
+  shaping it for an audience. The one thing to get right is the ask. Learners describe their idea
+  well and then forget to say what support they actually want, so hold them to naming something
+  specific (time, connections, mentoring or funding) in every version they produce.
+steps:
+  - title: Dissect a real pitch and name the ingredients
+    duration: 40 min
+    guidance: |
+      Watch one or two short social enterprise pitches together. Rather than lecturing on structure,
+      draw the ingredients out of the class and record them in learners' own words. Aim to surface the
+      five that recur: the problem and why it matters; the solution and how it works; evidence of
+      testing or traction; the vision for impact; and the ask. Leave this list on display for the rest
+      of the activity.
+    keyPrompts:
+      - What made that pitch compelling or memorable for you?
+      - How clearly did they explain the problem, and then the solution?
+      - Was there a story or personal connection, and did it help?
+      - What exactly did they ask the audience for, and how did they phrase it?
+    watchOuts:
+      - Learners praise slick delivery and miss the structure. Ask them to replay the pitch in their heads and list what was said in what order, so they separate content from performance.
+    adaptation: |
+      With no reliable connectivity, use a short transcript or a written pitch example instead of video,
+      or describe a pitch you have seen. As pre-work, learners can watch a pitch at home and bring their
+      list of ingredients to the session.
+  - title: Build the pitch storyline from existing work
+    duration: 45 min
+    guidance: |
+      Have learners lay their concept note and business plan alongside the five ingredients and map what
+      they already have against each one. The point is to reuse their thinking, not invent new material.
+      Where a project relies on scientific or environmental understanding, coach them to state it plainly
+      and accurately for a non-expert audience.
+    keyPrompts:
+      - Which parts of your business plan answer each of the five ingredients?
+      - Where is your evidence thin, and what did your testing actually show?
+      - What is the one sentence that makes someone care about this problem?
+    watchOuts:
+      - Learners claim more evidence than their pilot supports. Push them back to what they tested and observed, and have them phrase it as what they learned rather than what they proved.
+    adaptation: |
+      Learners short on device time can do this mapping on paper as homework, filling a five-box grid
+      before the build sessions so class time goes on making the materials.
+  - title: Build the pitch deck
+    duration: 45 min
+    guidance: |
+      Learners turn the storyline into a short deck of a few clear slides, one idea per slide, following
+      the order the class agreed. Keep language plain and audience-focused. Remind them the deck supports
+      the spoken pitch rather than replacing it, so slides carry little text.
+    keyPrompts:
+      - If someone saw only your slides with no voiceover, what would they understand?
+      - Which slide carries your ask, and is it specific?
+    watchOuts:
+      - Slides fill with dense paragraphs read aloud word for word. Set a rough limit on words per slide and have learners move detail into what they say.
+    adaptation: |
+      Without devices, learners build the deck on card, one sheet per slide, which also rehearses well
+      because they hold up each sheet in turn.
+  - title: Write the one-page concept brief
+    duration: 30 min
+    guidance: |
+      Learners condense the same content into a single page they can hand over or send afterwards. This
+      is the leave-behind that carries the idea when they are not in the room, so it must stand on its own
+      and still end with the ask and a way to make contact.
+    keyPrompts:
+      - Could a stranger read this page and know what you do, why it matters and what you want?
+      - How would someone reach you if this page interested them?
+    watchOuts:
+      - The brief becomes a shrunken copy of the deck. Remind learners it is read, not presented, so it needs full sentences and enough context to make sense alone.
+    adaptation: |
+      A handwritten single page is fine where printing or devices are limited; what matters is that it is
+      self-contained and legible.
+  - title: Craft and rehearse the elevator pitch
+    duration: 30 min
+    guidance: |
+      Learners write and practise a spoken pitch of about one minute they can deliver from memory. Have
+      them say it aloud to a partner at least twice and cut anything that does not earn its place. Every
+      run must finish on the ask.
+    keyPrompts:
+      - Can you give the whole thing in about a minute without notes?
+      - Did you end on your ask, and was it specific?
+      - Where did you lose your listener, and what can you drop?
+    watchOuts:
+      - Learners memorise a script and freeze when they lose their place. Encourage them to learn the shape and key phrases rather than word-for-word text, so they can recover naturally.
+    adaptation: |
+      Pairs can rehearse over a phone call or voice note where meeting in person is hard, and send each
+      other one piece of feedback in reply.
+closing: |
+  Ask a few learners to deliver their elevator pitch to the group and invite one specific reaction each:
+  what was clear, and whether the ask landed. Have everyone save all three versions (deck, one-page brief
+  and elevator pitch) together, since these feed directly into the simulated pitch and the final showcase.
 agencyContribution:
   indicators: [control-of-future-pathways]
   how: >-
@@ -60,8 +119,9 @@ objectiveIds: [social-entrepreneurship--o3]
 relatedSlugs: [pitch-deck-elevator-pitch, concept-note-and-refinement, simulated-pitch-and-feedback, final-showcase-pitch]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
-  Grounded in the 2025 course planner (Part 5 producing a business plan, what makes a
-  powerful pitch, developing the pitch) and the SE course guide objective 3
-  furtherDetails (pitch deck, one-page concept brief, elevator pitch). ATS2 applies only
-  where learners use scientific understanding in their argument [to verify per learner
-  project].
+  Enriched into a structured facilitation flow (steps, prompts, watch-outs, adaptations)
+  replacing the earlier prose educator and learner notes. Grounded in the 2025 course
+  planner (5.2 producing a business plan, 5.3 what makes a powerful pitch, 5.4 developing
+  the pitch) and the SE course guide objective 3 furtherDetails (pitch deck, one-page
+  concept brief, elevator pitch). ATS2 applies only where learners use scientific
+  understanding in their argument [to verify per learner project].

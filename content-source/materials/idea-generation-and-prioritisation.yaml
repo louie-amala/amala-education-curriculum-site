@@ -7,55 +7,109 @@ summary: >-
   Learners generate a wide range of possible enterprise ideas in response to their
   challenge, then use structured criteria to prioritise the ones worth testing.
 facilitationContext: [group]
-educatorContent: |
-  This activity opens the second objective, moving learners from understanding a problem
-  to imagining ways to act on it. It works best once learners have done enough research
-  to know where change might be possible, so it pairs naturally with earlier work on
-  leverage points and the circle of influence.
-
-  Run it in two clear phases. First, diverge: ask learners to generate a long list of
-  ideas without judgement. Use prompts such as "what small action could you take this
-  week?", "what have you seen work elsewhere?" and "what could you try with no budget?".
-  Encourage quantity and unusual ideas at this stage. Remind them their idea should aim
-  to address the challenge and also generate some revenue, which is what makes it a
-  social enterprise rather than a one-off action.
-
-  Second, converge: introduce structured prioritisation. An effort or impact matrix
-  works well (plot each idea by how much effort it takes against how much impact it
-  might have) alongside a safe-to-fail check: is it safe to fail, can I test it soon,
-  and can I test a small version with what I already have? Ask learners to justify their
-  choices against these criteria rather than simply picking a favourite. Prompt them to
-  weigh ethics and sustainability too: is the idea responsible, inclusive and affordable
-  in their context?
-
-  Watch for premature attachment to the first idea, for filtering that is really just
-  personal preference, and for ideas so large they cannot be tested. Steer learners
-  towards a shortlist of small, testable candidates. Timing: about two hours, split
-  between generating and prioritising.
-learnerContent: |
-  Now that you understand your challenge, it is time to imagine ways you could act on it
-  and build a social enterprise idea.
-
-  **Part 1: Generate lots of ideas.** In your group, list as many ideas as you can for
-  how you might address the challenge and generate some income to sustain the work. Do
-  not judge the ideas yet. Use these prompts:
-  - What small action could you take this week?
-  - What have you seen work somewhere else?
-  - What could you try with little or no budget?
-
-  Aim for quantity. Unusual ideas are welcome.
-
-  **Part 2: Prioritise.** Now filter your list. For each promising idea, consider:
-  - **Impact and effort:** how much difference could it make, and how much effort or
-    resource would it take? Plot your ideas so you can compare them.
-  - **Safe to fail:** if it does not work, will little or no harm be done?
-  - **Testable soon:** could you try it, or a small version of it, in the next few weeks
-    with what you already have?
-  - **Ethical and sustainable:** is it responsible, inclusive and affordable in your
-    context?
-
-  Choose a shortlist of ideas worth testing, and be ready to explain why you picked them
-  over the others.
+duration: About 2 hours
+grouping: Small groups of 3 to 5; works with 15 to 35 learners
+whatLearnersDo:
+  - Generate a long list of possible enterprise ideas in response to their challenge, without judging them yet.
+  - Push for quantity and unusual ideas, including ones they could try with little or no budget.
+  - "Filter the list against clear criteria: impact and effort, safe to fail, testable soon, and ethical and sustainable."
+  - Choose a shortlist of small, testable ideas and prepare to explain why they picked them.
+materialsAndPreparation:
+  - Sticky notes or cards and markers, or a shared online board, for the idea generation phase.
+  - Large paper or board space to draw an effort and impact matrix (effort on one axis, impact on the other).
+  - The safe-to-fail checklist (safe to fail, testable soon, doable with what you already have) printed or on a slide.
+  - Learners' earlier research, leverage points and circle of influence work to hand, so ideas connect to where change is possible.
+facilitationNotes: |
+  The whole point of this activity is to keep two phases genuinely separate: first diverge (generate
+  ideas freely, without judgement), then converge (prioritise against criteria). The one thing to get
+  right is holding off evaluation during generation, and then, when prioritising, making learners
+  justify their choices against the criteria rather than simply defending a favourite. Keep reminding
+  them that a strong candidate both addresses the challenge and brings in some revenue: that is what
+  makes it a social enterprise rather than a one-off good deed.
+steps:
+  - title: Set up the challenge and reconnect the research
+    duration: 10-15 min
+    guidance: |
+      Remind learners of the challenge they have been investigating and where change looked possible in
+      their earlier work on leverage points and the circle of influence. Make the aim explicit: they are
+      looking for an idea that addresses the challenge and also generates some income, because that
+      combination is what makes it a social enterprise.
+    keyPrompts:
+      - What is the specific problem you are trying to act on?
+      - Which parts of it sit inside your circle of influence or control?
+      - Where in the system might a small change make a real difference?
+    watchOuts:
+      - "Learners arrive already fixed on one pet idea. Park it on a note straight away and tell them they must generate alternatives first; they can return to it during prioritisation."
+    adaptation: |
+      For low-bandwidth or async delivery, set this as pre-work: ask learners to re-read their research
+      notes and write their challenge in a single sentence before the session, so class time goes
+      straight into generating ideas.
+  - title: Generate ideas without judgement
+    duration: 30-35 min
+    guidance: |
+      Run a divergent brainstorm: one idea per note, quantity over quality, unusual ideas welcome. Use
+      the prompts to keep ideas flowing, and remind learners that each idea should aim both to address
+      the challenge and to generate some income to sustain the work.
+    keyPrompts:
+      - What small action could you take this week?
+      - What have you seen work somewhere else?
+      - What could you try with little or no budget?
+      - How could this idea also bring in some income?
+    watchOuts:
+      - "Learners start critiquing ideas as they surface, which shuts down the flow. State a clear no-judgement rule, capture every idea however rough, and defer all evaluation to the next phase."
+    adaptation: |
+      For large groups, brainstorm in small groups first and then pool everything onto one shared wall.
+      For async delivery, collect ideas on a shared document or board over a day, which also gives
+      quieter learners room to contribute.
+  - title: Sort ideas on an effort and impact matrix
+    duration: 25-30 min
+    guidance: |
+      Move into convergence. Draw an effort axis and an impact axis and ask learners to plot each idea.
+      Ideas in the high-impact, low-effort corner are the strongest candidates. The goal is to compare
+      ideas against each other, not to pick a favourite.
+    keyPrompts:
+      - How much difference could this idea make to the challenge?
+      - How much effort, time or resource would it take?
+      - Which of your ideas sit in the high-impact, low-effort corner?
+    watchOuts:
+      - "Learners rate ideas by personal preference dressed up as impact. Ask for the evidence or reasoning behind each placement, pointing them back to their research."
+    adaptation: |
+      With no wall space or when offline, draw the two-by-two grid on paper or in a notebook and simply
+      list ideas in each quadrant instead of plotting notes.
+  - title: Apply the safe-to-fail check
+    duration: 20-25 min
+    guidance: |
+      Run the shortlisted ideas through the safe-to-fail checklist: is it safe to fail (little or no
+      harm), can it be tested soon, and is it doable with what you already have (or a smaller version of
+      it). Prompt learners to weigh ethics and sustainability too: is the idea responsible, inclusive and
+      affordable in their context.
+    keyPrompts:
+      - If this idea does not work, will any real harm be done?
+      - Could you test it, or a small version of it, in the next few weeks with what you have?
+      - Is it responsible, inclusive and affordable in your context?
+    watchOuts:
+      - "Ideas are too big to test, because learners want to trial the whole enterprise at once. Help them carve out the smallest testable slice rather than discarding the idea altogether."
+    adaptation: |
+      Give the checklist as a short homework worksheet that learners complete on their top few ideas,
+      then bring their answers to the next session for discussion.
+  - title: Choose and justify a shortlist
+    duration: 15-20 min
+    guidance: |
+      Each group chooses a shortlist of small, testable candidates and prepares to explain why they
+      picked those over the others. This is the handover into the prototype testing phase, so keep the
+      shortlist concrete.
+    keyPrompts:
+      - Which ideas are you carrying forward, and why these rather than the rest?
+      - What is the very first small test you could run on the strongest one?
+    watchOuts:
+      - "Learners pick by silent vote with no rationale. Require a one-line justification for each shortlisted idea against the criteria they have just used."
+    adaptation: |
+      For async delivery, learners post their shortlist and justifications to a shared board so the
+      facilitator and peers can comment before the next session.
+closing: |
+  Close with a short share-out: each group names one shortlisted idea and the first small test they
+  could run on it. Ask learners to keep both the shortlist and the effort and impact matrix, as these
+  become the starting point for prototype testing with users.
 agencyContribution:
   indicators: [control-of-future-pathways]
   how: >-
@@ -70,4 +124,5 @@ provenanceNote: >-
   Grounded in the 2025 course planner (Part 4 developing and testing safe-to-fail ideas,
   leverage points and circle of influence) and the SE course guide objective 2
   furtherDetails (idea generation followed by structured prioritisation, effort/impact
-  matrix).
+  matrix). Enriched from the original prose blobs into a structured facilitation flow
+  (whatLearnersDo, materials, steps with prompts, watch-outs and adaptations, closing).

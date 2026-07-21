@@ -3,76 +3,146 @@ slug: community-mapping-and-empathy-interviews
 access: public
 type: activity
 title: Community mapping and empathy interviews
-summary: >-
-  Learners go into their community to observe, listen and map who is affected by
-  and connected to a challenge, gathering first-hand perspectives through empathy
-  walks, interviews and conversations.
-facilitationContext: [group, independent]
-educatorContent: |
-  This is the primary-research heart of the first objective. Learners have already
-  chosen a challenge that matters to them; here they leave the classroom to build a
-  grounded, human understanding of it.
-
-  Sequence it over more than one session. In class, prepare learners: define empathy
-  together, model an empathy walk and a short empathy interview, and co-create a
-  checklist for ethical and safe research (informed consent, privacy, respect, do no
-  harm, and personal safety such as telling someone where you are going and meeting in
-  public or online). Do not let anyone begin fieldwork until they have thought through
-  an ethical and risk check for their plan. If learners cannot find community members
-  to speak to, they can interview each other or people they already know.
-
-  Assign the fieldwork itself to non-class (independent) time, since it happens out in
-  the community. Ask learners to record what they notice through notes, sketches or
-  voice memos, and to capture who says what and where the information came from. On
-  return, run an ecosystem-mapping session: each learner places their chosen challenge
-  at the centre and maps the people, groups, institutions, cultural influences and
-  natural systems connected to it, drawing labelled links to show relationships (for
-  example "provides funding", "is negatively affected by"). Prompt them to mark, in a
-  different colour, the parts they are only assuming and still need to check.
-
-  Watch for learners treating interviews as a checklist rather than a conversation, for
-  leading or judgemental questions, and for anyone straying into unsafe or intrusive
-  situations. Emphasise curiosity over extracting answers. Timing: roughly one to two
-  hours of class preparation, several hours of independent fieldwork, and one hour to
-  map and debrief.
-learnerContent: |
-  You are going to build a real understanding of the challenge you have chosen by
-  observing and listening to the people connected to it.
-
-  **Before you go out**
-  - Agree with your group what counts as ethical and safe research. As a minimum: ask
-    permission, keep what people share private if they want you to, be respectful, and
-    do not put yourself or anyone else at risk.
-  - Plan where you will go, who or what you will observe or speak to, and how you will
-    record what you notice.
-
-  **Empathy walk.** Go to a place in your community and slow down. Notice what people
-  seem to be needing, feeling or struggling with. Be discreet and respectful: this is
-  about awareness, not staring or photographing people without permission.
-
-  **Empathy interviews and conversations.** Have one-to-one conversations with people
-  who experience or work on the challenge. Ask open questions ("Can you tell me more
-  about...?"), listen more than you speak, and let the person guide the story. Note who
-  you spoke to and what you learned.
-
-  **Map the system.** Put your challenge in the centre of a page or board. Around it,
-  add every person, group, organisation, institution, cultural influence and natural
-  system connected to it. Draw links and write on each link what the relationship is.
-  Mark in a different colour anything you are only guessing and still need to research.
-
-  Bring your notes, your map and one thing that surprised you to share with the group.
+summary: Learners go into their community to observe, listen and map who is affected by and connected
+  to a challenge, gathering first-hand perspectives through empathy walks, interviews and conversations.
+facilitationContext:
+- group
+- independent
+duration: About 3 hours of class time, plus several hours of independent fieldwork
+grouping: Individual or pairs; works with 15-35 learners
+whatLearnersDo:
+- Agree together what makes research ethical and safe before anyone goes out.
+- Go on an empathy walk to observe a place in your community closely and respectfully.
+- Hold empathy interviews and informal conversations with people connected to the challenge.
+- Map everyone and everything connected to the challenge, marking what you are still only assuming.
+- Bring your notes, your map and one thing that surprised you back to share with the group.
+materialsAndPreparation:
+- Large paper, sticky notes and coloured pens, or a shared digital board such as Miro, for the ecosystem
+  map.
+- 'A short empathy-walk clip or your own worked example so you can model the technique in class. "[to
+  verify: the 2025 planner links a specific empathy-walk video]"'
+- A co-created checklist for ethical and safe research covering consent, privacy, respect, do no harm
+  and personal safety.
+- An ethics and risk check each learner completes and you review before any fieldwork begins.
+- 'A way for learners to record what they notice: notebooks, sketching paper, or a phone for notes and
+  voice memos.'
+facilitationNotes: |
+  This is the primary-research heart of the first objective: learners have already chosen a
+  challenge that matters to them, and here they leave the classroom to build a grounded,
+  human understanding of it. The one thing to get right is stance. Learners should approach
+  people with curiosity, not as a checklist to complete, and should treat what community
+  members say as the centre of the work rather than a garnish on their own assumptions. Do
+  not let anyone begin fieldwork until they have thought through the ethics and safety of
+  their plan.
+steps:
+- title: Define empathy and agree the ground rules
+  duration: 30-40 min
+  guidance: |
+    Open by building a shared meaning of empathy, then co-create the rules for ethical and
+    safe research. As a minimum the class should agree to ask permission, keep private
+    anything a person wants kept private, be respectful, and avoid putting themselves or
+    anyone else at risk (for example telling someone where they are going and meeting in a
+    public place or online). Capture the agreement as a visible checklist learners can carry
+    with them.
+  keyPrompts:
+  - What does empathy actually mean to you, and can you give an example and a non-example?
+  - What would make someone feel uncomfortable or unsafe if we spoke to them?
+  - What is the minimum we all promise to do to keep people, and ourselves, safe?
+  watchOuts:
+  - Learners rush past the ethics as a formality; refuse to sign off any fieldwork plan until each learner
+    can say what consent looks like for their specific situation.
+  adaptation: |
+    With no reliable connectivity, skip any video and model empathy with a two-minute
+    spoken story of your own, then run the discussion on paper. The checklist can be
+    built on a board and photographed rather than shared online.
+- title: Model and plan the empathy walk
+  duration: 20-30 min
+  guidance: |
+    Show what an empathy walk is: going to a place in the community with the specific
+    intention of noticing what people seem to be needing, feeling or struggling with.
+    Model it briefly, then give learners quiet time to plan their own: where they will
+    go, who or what they will observe, and how they will record what they notice.
+  keyPrompts:
+  - Where in your community would be a good place to slow down and pay attention?
+  - 'What kinds of things do you want to notice: signs of struggle, moments of connection, access to services?'
+  - How will you record what you see without staring at people or photographing them without permission?
+  watchOuts:
+  - Learners plan to observe people intrusively or covertly; redirect them towards awareness of a place
+    and its patterns, not surveillance of individuals.
+  adaptation: |
+    If learners cannot get out into a new setting, an empathy walk can be done in a place
+    they already pass through daily, or replaced with close observation of their own
+    household or Amala centre, recorded as homework between sessions.
+- title: Run the empathy walk, interviews and conversations
+  duration: Independent, several hours
+  guidance: |
+    Assign the fieldwork to non-class time, since it happens out in the community. Learners
+    carry out their empathy walk, then have one-to-one empathy interviews and informal
+    conversations with people who experience or work on the challenge. Ask them to lead with
+    open questions, listen far more than they speak, and record who said what and where the
+    information came from through notes, sketches or voice memos.
+  keyPrompts:
+  - Can you tell me more about what a normal day is like for you?
+  - What is the hardest part of this for you, and what have you tried?
+  - Who else do you think I should be listening to about this?
+  watchOuts:
+  - Learners fire leading or judgemental questions and treat the interview as extracting answers; before
+    they go out, have them rehearse turning a leading question into an open one and practise staying quiet
+    after asking.
+  adaptation: |
+    If learners cannot find community members to speak to, they can interview each other or
+    people they already know, or run the conversation by phone or voice note. Keep a record
+    of who could not be reached so gaps in the evidence are visible later.
+- title: Map the ecosystem around the challenge
+  duration: 40-60 min
+  guidance: |
+    Back in class, each learner places their chosen challenge at the centre of a page or
+    board and maps the people, groups, institutions, cultural influences and natural systems
+    connected to it. They draw labelled links showing the relationship (for example "provides
+    funding" or "is negatively affected by"). Ask them to mark, in a different colour,
+    anything they are only assuming and still need to check.
+  keyPrompts:
+  - Who is directly affected, and who has the power to influence this?
+  - 'What does each link actually represent: money, rules, harm, support?'
+  - Which parts of this map are things you know, and which are things you are guessing?
+  watchOuts:
+  - Maps become tidy lists of names with no relationships; push learners to write on every line what the
+    connection is, and to name at least one assumption they need to verify.
+  adaptation: |
+    Sticky notes and string, or hand-drawn nodes on a single large sheet, work as well as
+    any digital tool. For asynchronous groups, each learner photographs their map and the
+    group compares them in a shared folder.
+closing: |
+  Bring the group back together and ask each learner to share their map and one thing that
+  genuinely surprised them. Draw out where different learners heard conflicting things, and
+  where the biggest gaps and assumptions still sit, since these become the questions that
+  drive the next stage of research. Learners keep their notes and their map: both are
+  living documents they will return to and update as their understanding grows.
 agencyContribution:
-  indicators: [contribution-to-community]
-  how: >-
-    Learners centre the lived experience of community members in defining a challenge,
-    so the understanding they build belongs to and reflects the community rather than
-    their assumptions.
-principlesForegrounded: [authentic-challenges, collaboration, responsible-action]
-competencyCodes: [FSI1, FPS3, FLC1, FTS3]
-objectiveIds: [social-entrepreneurship--o1]
-relatedSlugs: [stakeholder-community-mapping, iceberg-model, evidence-log-and-source-evaluation, challenge-research-report-and-presentation]
-sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
-provenanceNote: >-
-  Grounded in the 2025 course planner (Part 2 empathy walks, interviews and
-  conversations; Part 3 ecosystem mapping and ethics of primary research) and the SE
-  course guide objective 1 furtherDetails.
+  indicators:
+  - contribution-to-community
+  how: Learners centre the lived experience of community members in defining a challenge, so the understanding
+    they build belongs to and reflects the community rather than their assumptions.
+principlesForegrounded:
+- authentic-challenges
+- collaboration
+- responsible-action
+competencyCodes:
+- FSI1
+- FPS3
+- FLC1
+- FTS3
+objectiveIds:
+- social-entrepreneurship--o1
+relatedSlugs:
+- stakeholder-community-mapping
+- iceberg-model
+- evidence-log-and-source-evaluation
+- challenge-research-report-and-presentation
+sourceRefs:
+- planner-new.txt
+- social-entrepreneurship.yaml
+provenanceNote: Enriched into a structured facilitation flow (duration, grouping, steps with prompts,
+  watch-outs and low-bandwidth adaptations) from the earlier prose version. Grounded in the 2025 course
+  planner (2.4 empathy walks, 2.5 empathy interviews, 2.6 conversations, 3.4 ecosystems mapping and 3.8
+  ethics and personal safety in primary research) and the SE course guide objective 1 furtherDetails.
