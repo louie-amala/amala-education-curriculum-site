@@ -8,56 +8,97 @@ summary: >-
   judging each source's credibility and recording what it tells them and where it came
   from.
 facilitationContext: [independent, group]
-educatorContent: |
-  This activity develops the desk-research and source-evaluation side of the first
-  objective. It runs alongside the fieldwork rather than after it, and the log becomes
-  the raw material learners later synthesise into a report or presentation.
-
-  Start by clarifying the difference between primary and secondary sources with a short
-  example or video. Then focus on credibility: introduce the idea that not all sources
-  are equally trustworthy and give learners a structured lens such as the CRAAP test
-  (Currency, Relevance, Authority, Accuracy, Purpose). A strong in-class exercise is to
-  give small groups three sources on the same topic at clearly different credibility
-  levels (for example a personal blog post, a peer-reviewed or UN-backed report, and an
-  uncited social-media infographic) and ask them to rank and justify. This makes the
-  criteria concrete before learners apply them to their own topic.
-
-  Then set up the log. For each source, learners record the title, author or
-  organisation, date and link; a short summary of the key information; and a credibility
-  note based on the CRAAP test. If AI tools are available, model using them to explore
-  ideas and generate search terms, and stress that AI output must be cross-checked
-  against credible sources and does not count as a citation. Introduce basic referencing
-  so learners can credit sources honestly.
-
-  The log is an ongoing artefact: build in short check-ins where learners add to it and
-  swap one source with a partner. Watch for uncritical acceptance of the first search
-  result, over-reliance on a single source or on AI, and for logs that record links but
-  no evaluation. Timing: about two hours to introduce sources, credibility and
-  referencing, then recurring independent time to maintain the log.
-learnerContent: |
-  As you research your challenge, keep a running evidence log of the sources you use so
-  that your understanding is built on information you can trust and other people can
-  check.
-
-  **Judge each source before you rely on it.** Use the CRAAP test:
-  - **Currency** - is it up to date?
-  - **Relevance** - is it about your challenge?
-  - **Authority** - who wrote it, and are they trustworthy?
-  - **Accuracy** - is it backed by evidence?
-  - **Purpose** - is it there to inform, to persuade, to sell or to entertain?
-
-  **For every source, record in your log:**
-  - Title, author or organisation, date, and link.
-  - A short summary of what it tells you about your challenge.
-  - A credibility note: how it scores on the CRAAP test and whether you trust it.
-
-  You can use AI tools to explore ideas or suggest search terms, but always cross-check
-  what they tell you against credible sources, and never treat an AI answer as a
-  citation.
-
-  Reference your sources properly so you give credit and so others can follow your
-  evidence. Keep adding to the log as you go, and be ready to explain why you trust the
-  sources you have chosen.
+duration: About 2 hours to introduce, then recurring independent time to maintain the log
+grouping: Individual work, with small groups for the ranking exercise; works with 15-35 learners
+whatLearnersDo:
+  - Keep a running log of every source you use to understand your challenge.
+  - Judge each source with the CRAAP test before you rely on it.
+  - Record what each source tells you, and how far you trust it and why.
+  - Reference your sources so other people can follow and check your evidence.
+  - Use AI tools to explore ideas, but cross-check everything and never treat an answer as a citation.
+materialsAndPreparation:
+  - A source evaluation log template per learner, with space for source details, a short summary, and a credibility note.
+  - A CRAAP test reference card per learner (link a suitable one from the Resources section).
+  - Three prepared sources on one topic at clearly different credibility levels, for the ranking exercise (for example a personal blog post, a UN-backed report, and an uncited social-media infographic).
+  - Devices with internet access, or a folder of printed sources prepared in advance for low-connectivity settings.
+  - A short, plain referencing guide appropriate to your context.
+facilitationNotes: |
+  This activity develops the desk-research side of the first objective, and it runs alongside
+  the fieldwork rather than after it. The real goal is not to complete a checklist on a few
+  sources; it is to change how learners habitually approach information, so they never rely on
+  a source again without asking who made it and why. Spend the most time on Authority and
+  Purpose, the two criteria that most reliably reveal bias and are most often skipped. Treat the
+  log as a living artefact learners keep adding to, not a one-off worksheet.
+steps:
+  - title: Tell primary and secondary sources apart
+    duration: 15-20 min
+    guidance: |
+      Open with a short, concrete distinction between primary sources (things learners gather
+      themselves, like interviews and observations) and secondary sources (things others have
+      already produced, like reports and articles). Connect it to the fieldwork learners are
+      already doing, so the two strands feel like one investigation.
+    keyPrompts:
+      - Which of the sources you already have are primary, and which are secondary?
+      - What can a report tell you that an interview cannot, and the other way round?
+    watchOuts:
+      - Learners treat secondary research as just searching online; remind them it also includes books, local records, radio, and people who hold knowledge in the community.
+    adaptation: |
+      With no connectivity, provide a small folder of printed or offline sources so learners can
+      still practise, and set online searching as optional homework for those who have access.
+  - title: Learn the CRAAP test by ranking three sources
+    duration: 30-40 min
+    guidance: |
+      Give small groups the three prepared sources on one topic and ask them to rank them from
+      most to least trustworthy, justifying each call. Only then introduce the CRAAP test
+      (Currency, Relevance, Authority, Accuracy, Purpose) as the shared language for what they
+      were already sensing. Using a topic learners do not personally care about lets them focus
+      on the method rather than the content.
+    keyPrompts:
+      - Who published this, and how do you actually know that?
+      - What would the person or organisation behind this gain from you believing it?
+      - How current does this need to be for your particular challenge?
+    watchOuts:
+      - Learners treat the CRAAP score as a final verdict rather than a set of questions; reinforce that a low-authority source can still hold a useful fact, and a high-authority one can still be biased.
+      - Groups rush to consensus; the disagreements about ranking are where the learning is, so draw them out rather than smoothing them over.
+    adaptation: |
+      The ranking exercise works on paper with printed sources and needs no devices, so it is a
+      strong option when connectivity is limited.
+  - title: Set up and keep your evidence log
+    duration: 20-30 min, then recurring
+    guidance: |
+      Have each learner start a log for their own challenge. For every source they record the
+      title, author or organisation, date and link; a short summary of what it tells them; and a
+      credibility note based on the CRAAP test. Build in short recurring check-ins where learners
+      add to the log and swap one source with a partner.
+    keyPrompts:
+      - What does this source actually add to your understanding that you did not already have?
+      - If someone challenged this source, how would you defend keeping it or decide to drop it?
+    watchOuts:
+      - Logs record links but no evaluation; require a credibility note for every entry, however short.
+      - Learners find one good source and stop; insist on a spread of source types.
+    adaptation: |
+      The log can live in a notebook or a shared document. For asynchronous groups, learners
+      maintain it independently and bring it to each check-in.
+  - title: Reference honestly and use AI critically
+    duration: 20-25 min
+    guidance: |
+      Introduce basic referencing so learners can credit sources and others can retrace their
+      evidence. If AI tools are available, model using them to explore ideas and generate search
+      terms, and be explicit that AI output must be cross-checked against credible sources and
+      never counts as a citation.
+    keyPrompts:
+      - How would someone else find exactly the source you used from your log entry?
+      - When an AI tool gives you a claim, what do you do before you rely on it?
+    watchOuts:
+      - Learners paste AI output as fact; ask them to find and log the credible source behind any claim they want to keep.
+    adaptation: |
+      Where AI tools are unavailable, this step focuses on referencing alone, which needs no
+      technology.
+closing: |
+  Have learners swap logs with a partner and pose one credibility challenge on a single entry,
+  then revise it. Close by asking each learner to name the biggest gap still in their evidence,
+  the thing none of their sources yet tell them, since that gap is often where the most valuable
+  primary research will happen next. Learners keep the log as a living document they return to.
 agencyContribution:
   indicators: [power-over-wellbeing-and-self-direction]
   how: >-
@@ -69,7 +110,8 @@ objectiveIds: [social-entrepreneurship--o1]
 relatedSlugs: [craap-test, community-mapping-and-empathy-interviews, challenge-research-report-and-presentation]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
-  Grounded in the 2025 course planner (Part 2 primary and secondary sources; Part 3
-  evaluating credibility with the CRAAP test, academic referencing and the research
-  log) and the SE course guide objective 1 furtherDetails (annotated bibliographies /
-  evidence logs).
+  Enriched into a structured facilitation flow (duration, grouping, steps with prompts,
+  watch-outs and low-bandwidth adaptations) from the earlier prose version. Grounded in the
+  2025 course planner (Part 2 primary and secondary sources; Part 3 evaluating credibility with
+  the CRAAP test, referencing and the research log) and the SE course guide objective 1
+  furtherDetails (annotated bibliographies and evidence logs).
