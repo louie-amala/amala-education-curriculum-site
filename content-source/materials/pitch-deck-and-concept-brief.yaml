@@ -1,0 +1,67 @@
+id: pitch-deck-and-concept-brief
+slug: pitch-deck-and-concept-brief
+access: public
+type: activity
+title: Pitch deck and concept brief
+summary: >-
+  Learners build the materials that carry their idea to an audience: a short pitch deck,
+  a one-page concept brief and an elevator pitch, each with a clear ask.
+facilitationContext: [group, independent]
+educatorContent: |
+  This activity opens the third objective by turning a refined concept into persuasive
+  materials. It follows naturally from the concept note and business-plan work, so
+  learners should already have the substance; here they shape it for an audience.
+
+  Start by building a shared understanding of what makes a pitch work. Watching a couple
+  of real social-enterprise pitches and drawing out the ingredients together is
+  effective. Aim to surface a structure the class can name in their own words, covering:
+  the problem and why it matters; the solution and how it works; evidence of testing or
+  traction; the vision for impact; and the ask (what support would help them move
+  forward, whether time, connections, mentoring or funding). The ask is the part
+  learners most often forget, so make it explicit and specific.
+
+  Then have learners produce three linked formats from the same core content: a short
+  pitch deck, a one-page concept brief they can leave behind, and a spoken elevator
+  pitch of about a minute. Encourage clear, audience-focused language and a genuine
+  story or personal connection. Where a project depends on scientific or environmental
+  understanding, coach learners to communicate that clearly and accurately to a
+  non-expert audience rather than assuming or overstating it.
+
+  Watch for decks heavy on description but light on the ask, for jargon, and for
+  evidence claims that go beyond what testing showed. Keep it honest and concrete.
+  Timing: around three to four hours, with independent time to build the materials.
+learnerContent: |
+  You are ready to communicate your idea to others. In this activity you will build the
+  materials you need to do that well.
+
+  **Learn what makes a pitch work.** A strong pitch usually covers:
+  - **The problem and why it matters** - what is the issue and why should anyone care?
+  - **The solution and how it works** - what are you doing about it?
+  - **Evidence** - what have you tested, and what did you learn?
+  - **The vision** - what change do you want to create?
+  - **The ask** - what support would help you take the next step? Be specific: time,
+    connections, mentoring, or funding.
+
+  **Build three versions of your pitch from the same core:**
+  - A short **pitch deck** (a few clear slides).
+  - A **one-page concept brief** you can hand or send to someone.
+  - An **elevator pitch** of about one minute that you can deliver from memory.
+
+  Keep your language clear and aimed at your audience. Include a real story or personal
+  connection where you can, and make sure every version ends with your ask.
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: >-
+    Being able to communicate an idea and make a clear ask equips learners to draw
+    support towards initiatives they choose to lead.
+principlesForegrounded: [recognise-communicate-growth, lifeworthy-competencies, connect-to-futures]
+competencyCodes: [FLC3, ATS2, FR1]
+objectiveIds: [social-entrepreneurship--o3]
+relatedSlugs: [pitch-deck-elevator-pitch, concept-note-and-refinement, simulated-pitch-and-feedback, final-showcase-pitch]
+sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 5 producing a business plan, what makes a
+  powerful pitch, developing the pitch) and the SE course guide objective 3
+  furtherDetails (pitch deck, one-page concept brief, elevator pitch). ATS2 applies only
+  where learners use scientific understanding in their argument [to verify per learner
+  project].

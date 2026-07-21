@@ -1,0 +1,40 @@
+id: business-model-canvas-concept-note
+slug: business-model-canvas-concept-note
+access: public
+type: tools-approaches
+title: Business Model Canvas or concept note
+summary: A single-page structure for setting out how an enterprise idea creates value, who it serves, and how it sustains itself.
+facilitationContext: [group, independent, one-to-one-mentoring]
+toolsFacet: analytical
+educatorContent: |
+  This tool helps learners pull the pieces of their idea together into one place they can see, test and share. Two forms serve the same purpose at different levels of detail. A concept note is a short written statement of how an idea addresses a challenge ethically and sustainably while generating revenue. The Social Business Model Canvas is a one-page grid that lays the same thinking out in sections so gaps become obvious.
+
+  Introduce it once learners have an idea worth structuring, typically after piloting has begun. Emphasise that by this point they already hold most of the content, from earlier work on problem identification, stakeholder mapping, financial modelling and testing; the canvas just organises it. Core sections to complete:
+  - Problem and solution fit: does the idea still respond to the core problem, and has the problem changed?
+  - Value proposition: what social or environmental benefit is delivered, and to whom?
+  - Key stakeholders and partners: who must be involved for it to work?
+  - Revenue streams and cost structure: what will it cost, and how will income or resources come in?
+
+  Facilitate with plenty of working time in pairs or teams, circulating to help learners connect sections back to earlier activities ("you already explored this in your ecosystem map"). Provide sentence starters and examples for learners who stall. Then run structured peer feedback: is it clear what this enterprise does and why it matters, what is strong, what is confusing or missing, and would you want to get involved?
+
+  Watch for canvases that are impressive on the value proposition but silent on how the idea pays for itself, or the reverse. The point of a single page is that these tensions sit side by side. Keep reminding learners it is both a thinking process and a communication product, and that it feeds directly into the business plan and the pitch.
+learnerContent: |
+  Bring your idea together on a single page. You can write a short concept note (a few paragraphs) or fill in a business model canvas grid. Either way, cover:
+  - Problem and solution fit: what problem does your idea address, and does it still fit now you have researched and tested?
+  - Value proposition: what social or environmental benefit do you deliver, and for whom?
+  - Key stakeholders and partners: who needs to be involved for this to work?
+  - Revenue and costs: what will it cost to run, and how will money or resources come in?
+
+  Most of this you already worked out in earlier activities. Pull it into one place so the gaps show up.
+
+  Then swap with a peer and ask: is it clear what my enterprise does and why it matters? What is confusing or missing? Would this make you want to get involved?
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: Setting the whole idea on one page gives learners a concrete plan they own and can act on, refine and put in front of others.
+principlesForegrounded: [responsible-action, feedback-and-data]
+competencyCodes: [FSI2, APS4, FLC1]
+objectiveIds: [social-entrepreneurship--o2]
+relatedSlugs: [social-enterprise-triple-bottom-line, pitch-deck-elevator-pitch, leverage-points]
+sourceRefs: ["planner-new.txt", "social-entrepreneurship.yaml"]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 5.1 "Social Business Model Canvas") and the course guide's objective 2, which suggests learners draft a "concept note". The named "Social Business Model Canvas" is referenced in the planner; the concept note is the guide's own term.

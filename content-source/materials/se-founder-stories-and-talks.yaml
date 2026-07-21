@@ -1,0 +1,58 @@
+id: se-founder-stories-and-talks
+slug: se-founder-stories-and-talks
+access: public
+type: resource
+title: Founder stories and social enterprise talks (viewing list)
+summary: A curated list of talks and founder stories that learners watch to see how real people build social enterprises and what makes them work.
+facilitationContext: [group, independent]
+educatorContent: |
+  This is a viewing list, not an activity. It gathers the founder stories and talks
+  named in the course planner so learners can see how real people identify a problem,
+  build a response, and sustain it. Use it to enrich the early sessions on what a social
+  enterprise is and what makes one successful, and to give learners models to compare
+  when they start shaping their own concept.
+
+  The talks and videos referenced in the planner include:
+  - Muhammad Yunus, "The Power of Social Business" (roughly 15 minutes). Introduces
+    business as a force for social good; useful for discussing the difference between
+    charity, traditional business, and social enterprise, using the Grameen Bank model
+    as a reference point.
+  - William Kamkwamba, "How I Harnessed the Wind" (TED, roughly 6 minutes). A story of
+    resilience and local problem solving by a young changemaker.
+  - Walid Isse, "Entrust Our Future to Our Youth" (via UNHCR, roughly 15 minutes). A
+    call to action from a refugee youth leader; useful for looking at how a speaker
+    builds a persuasive message.
+  - Yamin Ohnmar, Kanthari Dream Speech (roughly 9 minutes). A vision for change rooted
+    in lived experience.
+  - Dr Alice de Koning, "Social Enterprise Models That Work" (webinar, roughly 90
+    minutes). Watch a 10 to 15 minute segment and ask learners which model fits their
+    context.
+  - UNHCR TED Talk collection on refugee resilience. Works well as gallery-walk stations
+    where learners rotate and record takeaways.
+
+  Suggested use in a group session: pick one or two talks, watch together, then discuss
+  what problem the founder is addressing, how their model works or makes money, and which
+  traits helped them succeed. For independent work, let each learner choose one talk and
+  write a short reflection connecting it to their own idea or context, or compare two
+  founders' models on impact, funding, and sustainability.
+
+  Access note for facilitators: the exact links live in the course planner and may
+  change over time. Confirm each video is available and appropriate before assigning it,
+  and prepare an offline alternative (for example, reading a short written profile aloud)
+  in case connectivity is limited. Titles, presenters, and running times are recorded
+  from the planner and marked [to verify] because the specific URLs were not confirmed
+  here.
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: Seeing a range of founders (including refugee and youth changemakers) build real enterprises helps learners picture themselves taking similar action.
+principlesForegrounded: [builds-on-identities, connect-to-futures]
+competencyCodes: [APS4, FSI2]
+objectiveIds: [social-entrepreneurship--o2]
+relatedSlugs: [se-start-your-social-enterprise-guide, se-case-study-fair-for-you, se-case-study-hisbe-food]
+sourceRefs: [planner-new.txt]
+provenanceNote: >-
+  Grounded in the 2025 course planner, which lists these talks as additional resources
+  for the early sessions on understanding social enterprise. Presenters, titles, and
+  approximate running times are taken from the planner; specific URLs are not reproduced
+  and each source is marked [to verify]. Do not treat the descriptions as endorsements
+  of current availability.

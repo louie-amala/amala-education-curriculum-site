@@ -1,0 +1,73 @@
+id: se-case-study-fair-for-you
+slug: se-case-study-fair-for-you
+access: public
+type: case-study
+title: "Case study: Fair for You (affordable credit)"
+summary: Learners examine a real social enterprise that offers affordable credit to low-income households, and analyse how its model links revenue to social impact.
+facilitationContext: [group, independent]
+educatorContent: |
+  This case study introduces Fair for You, a social enterprise profiled in the Social
+  Enterprise UK guide. Use it once learners understand what a social enterprise is and
+  are starting to analyse existing models before shaping their own concept. It is a
+  clear illustration of an enterprise whose commercial activity (lending) is also the
+  mechanism for its social impact, which makes it a good example for the discussion
+  about not confusing social need with commercial opportunity.
+
+  Run it as a short analysis task. Give learners the profile below, or ask them to read
+  it individually first, then work in pairs or small groups through the questions in the
+  learner content. Draw out two ideas in the debrief: first, how the founder's own
+  background and the stories she heard shaped the solution (a link back to primary
+  research and empathy); second, how the enterprise earns money and reinvests through its
+  legal ownership by a charity. Invite learners to compare it with another example (for
+  instance the hiSbe Food case study) to notice different revenue models.
+
+  Accuracy note for facilitators: the profile is grounded in the Social Enterprise UK
+  guide, which was published some years ago. Treat specific figures and current-status
+  claims (for example, that a share of customers reported improved child health, or that
+  the enterprise is growing) as accurate at the time of the guide and mark them for
+  learners as details to verify against the organisation's current reporting before
+  citing them. Do not add figures or quotes beyond what the profile states.
+learnerContent: |
+  Read this profile, then discuss the questions with your group.
+
+  Fair for You was founded by Angela Clements, who spent about five years leading a large
+  community-based credit union in the Midlands (UK) after an early career as a banker.
+  Listening to credit union members describe their experiences with high-cost lenders,
+  she saw that some lenders had built models that targeted vulnerable households, and
+  that a different approach was needed. The enterprise grew out of extensive listening to
+  people in low-income households, especially parents of young children.
+
+  Fair for You is set up as a Community Interest Company that is wholly owned by a
+  charity. It earns revenue by providing credit that is affordable and structured around
+  its customers' real borrowing needs. That same activity creates its social impact: it
+  helps families afford essential appliances such as washing machines and refrigerators,
+  spread the cost fairly, and reduce financial stress. According to the guide, around a
+  third of customers reported that their children's health improved as well. [to verify]
+  The enterprise reports on its social impact regularly.
+
+  Questions to explore:
+  - What social problem is Fair for You responding to, and how did the founder come to
+    understand it?
+  - How does the enterprise make its money, and how is earning money connected to the
+    good it does? (Notice that the two are the same activity here.)
+  - How does its legal structure (a Community Interest Company owned by a charity) help
+    keep it focused on its mission?
+  - What knowledge, skills, or values did the founder bring, and where might they have
+    faced difficulty?
+  - Why would you class this as a social enterprise rather than a charity or an ordinary
+    business?
+  - What could you borrow from this model for a challenge you care about, and what would
+    have to be different in your own context?
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: Analysing how one founder turned a problem she witnessed into a working enterprise gives learners a concrete pathway model they can adapt to their own idea.
+principlesForegrounded: [authentic-challenges, responsible-action]
+competencyCodes: [APS4, FLC1]
+objectiveIds: [social-entrepreneurship--o2]
+relatedSlugs: [se-case-study-hisbe-food, se-start-your-social-enterprise-guide]
+sourceRefs: [Start-your-social-enterprise-guide-1.pdf]
+provenanceNote: >-
+  Grounded in the Fair for You profile in the Social Enterprise UK guide "Start Your
+  Social Enterprise" (as provided). No details, figures, or quotes have been added beyond
+  that profile. The reported child-health figure and current-status claims are marked
+  [to verify] because the guide predates the current date and these may have changed.

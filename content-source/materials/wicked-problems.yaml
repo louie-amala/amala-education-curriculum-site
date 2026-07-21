@@ -1,0 +1,34 @@
+id: wicked-problems
+slug: wicked-problems
+access: public
+type: concept
+title: Wicked problems
+summary: A way of naming the hardest social and environmental challenges, those with no agreed definition and no single, testable solution.
+facilitationContext: [group, independent]
+educatorContent: |
+  Use this concept once learners have started sorting problems as simple, complicated or complex, to name a fourth kind that sits beyond complex. A wicked problem is one where the problem itself shifts depending on how you frame it, where there is no clear point at which it is "solved", and where an attempt to fix one part can create new problems elsewhere.
+
+  Introduce it briefly and honestly: "Some complex problems are even harder. They do not have one right answer, and people disagree about what the real problem even is. We call these wicked problems." Resist the urge to make wickedness sound hopeless. The point is not that wicked problems cannot be acted on, but that they call for humility, ongoing learning, and small tested steps rather than one grand fix.
+
+  The clearest way to make the idea concrete is the wicked problems self-assessment (see the "How wicked is your problem?" worksheet). Ask learners to run a candidate problem through its seven questions, which probe whether consequences are knowable, whether the problem has an agreed formulation, whether a best course of action can be known before acting, and whether decisions are reversible. Mostly "a" answers indicate an extremely wicked problem, mostly "c" answers a tame one. This gives learners a shared, defensible reason for judging how hard their chosen challenge is.
+
+  Watch for two failure modes. Some learners will label everything wicked and feel paralysed; steer them towards the parts they can influence. Others will flatten a genuinely wicked problem into a simple one so it feels solvable; press them with the self-assessment questions to surface the disagreement and uncertainty they are glossing over. Handle emotive challenges (injustice, displacement, inequality) with care, keeping the focus on understanding rather than blame.
+learnerContent: |
+  Not all problems are the same. Some are simple (one clear cause, one clear fix). Some are complicated (many steps, but solvable if you plan). Some are complex (many causes, hard to solve). A few are wicked.
+
+  A wicked problem is one where:
+  - people describe the problem differently, so there is no single agreed definition;
+  - there is no clear way to know the best course of action, even after you act;
+  - you cannot tell when it has been fully solved;
+  - trying to fix one part can create new problems.
+
+  Take a problem you care about and test how wicked it is using the self-assessment questions. Then note: which parts of this problem could you still act on, even though the whole thing may never be "solved"?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: Naming a challenge honestly as wicked helps learners contribute realistic, well-judged understanding to their community rather than over-promising a single fix.
+principlesForegrounded: [authentic-challenges, responsible-action]
+competencyCodes: [FPS3]
+objectiveIds: [social-entrepreneurship--o1]
+relatedSlugs: [systems-thinking-iceberg-model, iceberg-model, leverage-points]
+sourceRefs: ["Wicked Problems Self-Assessment.pdf", "planner-new.txt"]
+provenanceNote: Grounded in the 2025 course planner (Part 2.1 categorising problems; Part 3.1 complexity) and the "How wicked is your problem?" self-assessment worksheet. The self-assessment worksheet is credited to the Raymond A. Mason School of Business.

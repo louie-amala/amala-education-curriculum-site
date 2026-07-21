@@ -1,0 +1,75 @@
+id: final-showcase-pitch
+slug: final-showcase-pitch
+access: public
+type: activity
+title: Final showcase pitch
+summary: >-
+  Learners deliver their social enterprise pitch to an external or community audience,
+  making a clear ask and following up with people who offer support.
+facilitationContext: [group]
+educatorContent: |
+  This is the culminating performance of the course and the significant product against
+  which several competencies are assessed. Learners pitch their refined concept to a
+  real audience, tell the story of their journey from problem to tested solution, and
+  invite others to get involved. Learners submit a pitch deck ahead of time; where a
+  group pitches together, make each member's individual contribution clear in a
+  supporting document.
+
+  Plan the event deliberately. Clarify its purpose (celebration, call to action,
+  recruitment of support, or all three) and curate an audience who can add value: local
+  social entrepreneurs, mentors, potential funders or partners, Amala community members,
+  and the significant adults in learners' lives. A small panel of local professionals
+  can ask questions and surface real opportunities, but brief them to be encouraging
+  rather than competitive. Put safeguarding first: consent for photography and
+  recording, supervision, and clear responsibility for wellbeing and privacy. Collect
+  decks in advance into one file so the day runs smoothly.
+
+  On the day, keep pitches to around three to five minutes with short Q&A, and invite
+  the audience to respond with questions, encouragement, ideas, connections, or offers
+  of time and support. Afterwards, this is where the objective is truly met: help
+  learners follow up. Support them to identify who to reach out to, to thank people who
+  showed interest, and to name one concrete next step. Connect interested guests with
+  the learners whose ideas they responded to.
+
+  Watch for pitches that inform but never ask, and for the follow-up being skipped once
+  the event is over. Celebrate courage and voice even where an idea will not go further.
+  Timing: three or more hours for the event, plus preparation and follow-up.
+learnerContent: |
+  This is your moment to share your social enterprise idea with a real audience and
+  invite them to support it.
+
+  **Before the day.** Submit your pitch deck by the deadline. If you are pitching as a
+  group, make clear in a short supporting document what each person contributed. Think
+  about who you would like to invite and send them a personal invitation.
+
+  **Your pitch (about 3 to 5 minutes).** Tell the story of your journey and cover:
+  - The problem and why it matters.
+  - Your solution and how it works.
+  - What you tested and learned.
+  - The change you want to create.
+  - Your ask: exactly what support would help you take the next step.
+
+  Be ready for questions from the audience.
+
+  **After the day.** This is where support becomes real:
+  - Note who offered help, interest or connections.
+  - Thank the people who engaged with your idea.
+  - Decide on one concrete next step, and who you need to reach out to.
+
+  Whatever happens next with your idea, the way you communicated it and the connections
+  you made are real achievements. Capture them as evidence of what you can do.
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: >-
+    Learners put a solution to a community challenge in front of people who can back it,
+    and take real steps to attract the support needed to carry their own idea forward.
+principlesForegrounded: [connect-to-futures, collaboration, recognise-communicate-growth]
+competencyCodes: [ASI3, FR1, FR2, AR1, ALC4, FLC3]
+objectiveIds: [social-entrepreneurship--o3]
+relatedSlugs: [pitch-deck-and-concept-brief, simulated-pitch-and-feedback, identifying-mentors]
+sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Significant Performances and Products, the Social
+  Enterprise Idea Pitch rubric, and Part 5 Pitch Day and follow-up) and the SE course
+  guide objective 3 furtherDetails (final showcase pitch to an external or community
+  audience; networking and follow-up).

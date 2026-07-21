@@ -1,0 +1,65 @@
+id: simulated-pitch-and-feedback
+slug: simulated-pitch-and-feedback
+access: public
+type: activity
+title: Simulated pitch and feedback
+summary: >-
+  Learners rehearse their pitch in practice rounds with peers, facilitators or invited
+  mentors, then adapt it in response to the feedback they receive.
+facilitationContext: [group]
+educatorContent: |
+  This activity sits between building pitch materials and delivering the final pitch. It
+  gives learners repeated, low-stakes practice and, crucially, cycles of feedback and
+  revision so that the final showcase is not their first attempt.
+
+  Structure it as several short rounds rather than one long rehearsal. Options that work
+  well: paired feedback swaps, rotating small-group pitch circles, practising to camera
+  and reflecting on the recording, and scheduled checkpoints with you or another
+  educator. Inviting a local entrepreneur or mentor to sit in on a practice round raises
+  the stakes helpfully and exposes learners to an outside perspective.
+
+  Give feedback structure. Useful prompts: what was clear and compelling? What could be
+  clarified or strengthened? Was the ask realistic and specific? Did the pitch generate
+  interest, and what helped or got in the way? A protocol such as the ladder of feedback
+  keeps it constructive. The essential move is that learners then revise: build in time
+  after each round to change the pitch, and encourage flexibility rather than defending
+  the first version.
+
+  Watch for feedback that stays vague or only positive, for learners who rehearse
+  without changing anything, and for nerves that flatten delivery. Normalise adapting
+  the pitch as a strength, not a sign the idea was wrong. Timing: fold into the roughly
+  ten hours of pitch development, running practice-and-revise cycles throughout.
+learnerContent: |
+  Your pitch gets stronger every time you practise it and act on feedback. In this
+  activity you will rehearse and improve before the real thing.
+
+  **Practise in rounds.** Deliver your pitch more than once, in different ways:
+  - Swap pitches with another person or group and give each other feedback.
+  - Take turns in small pitch circles.
+  - Record yourself and watch it back.
+  - Book a checkpoint with your facilitator or an invited mentor.
+
+  **Ask for focused feedback.** After each round, get answers to:
+  - What was clear and compelling?
+  - What could be clearer or stronger?
+  - Was my ask realistic and specific?
+  - Did it make you interested in the idea? What helped, and what got in the way?
+
+  **Adapt.** After each round, change something. Rework the parts that were unclear,
+  tighten your ask, and adjust your delivery. Being willing to change your pitch in
+  response to feedback is a strength, not a weakness. Keep going until your pitch feels
+  clear, confident and convincing.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Repeated practice and acting on feedback build learners' confidence and voice, so
+    they can speak up for their ideas in front of others.
+principlesForegrounded: [feedback-and-data, safe-spaces, recognise-communicate-growth]
+competencyCodes: [FLC3, FPS1, ALC4]
+objectiveIds: [social-entrepreneurship--o3]
+relatedSlugs: [ladder-of-feedback, pitch-deck-and-concept-brief, final-showcase-pitch]
+sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 5 developing the pitch, practice rounds and
+  feedback protocols) and the SE course guide objective 3 furtherDetails (simulated
+  pitch sessions with peers, facilitators or invited mentors).

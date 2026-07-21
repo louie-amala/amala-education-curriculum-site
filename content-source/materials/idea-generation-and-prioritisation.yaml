@@ -1,0 +1,73 @@
+id: idea-generation-and-prioritisation
+slug: idea-generation-and-prioritisation
+access: public
+type: activity
+title: Idea generation and prioritisation
+summary: >-
+  Learners generate a wide range of possible enterprise ideas in response to their
+  challenge, then use structured criteria to prioritise the ones worth testing.
+facilitationContext: [group]
+educatorContent: |
+  This activity opens the second objective, moving learners from understanding a problem
+  to imagining ways to act on it. It works best once learners have done enough research
+  to know where change might be possible, so it pairs naturally with earlier work on
+  leverage points and the circle of influence.
+
+  Run it in two clear phases. First, diverge: ask learners to generate a long list of
+  ideas without judgement. Use prompts such as "what small action could you take this
+  week?", "what have you seen work elsewhere?" and "what could you try with no budget?".
+  Encourage quantity and unusual ideas at this stage. Remind them their idea should aim
+  to address the challenge and also generate some revenue, which is what makes it a
+  social enterprise rather than a one-off action.
+
+  Second, converge: introduce structured prioritisation. An effort or impact matrix
+  works well (plot each idea by how much effort it takes against how much impact it
+  might have) alongside a safe-to-fail check: is it safe to fail, can I test it soon,
+  and can I test a small version with what I already have? Ask learners to justify their
+  choices against these criteria rather than simply picking a favourite. Prompt them to
+  weigh ethics and sustainability too: is the idea responsible, inclusive and affordable
+  in their context?
+
+  Watch for premature attachment to the first idea, for filtering that is really just
+  personal preference, and for ideas so large they cannot be tested. Steer learners
+  towards a shortlist of small, testable candidates. Timing: about two hours, split
+  between generating and prioritising.
+learnerContent: |
+  Now that you understand your challenge, it is time to imagine ways you could act on it
+  and build a social enterprise idea.
+
+  **Part 1: Generate lots of ideas.** In your group, list as many ideas as you can for
+  how you might address the challenge and generate some income to sustain the work. Do
+  not judge the ideas yet. Use these prompts:
+  - What small action could you take this week?
+  - What have you seen work somewhere else?
+  - What could you try with little or no budget?
+
+  Aim for quantity. Unusual ideas are welcome.
+
+  **Part 2: Prioritise.** Now filter your list. For each promising idea, consider:
+  - **Impact and effort:** how much difference could it make, and how much effort or
+    resource would it take? Plot your ideas so you can compare them.
+  - **Safe to fail:** if it does not work, will little or no harm be done?
+  - **Testable soon:** could you try it, or a small version of it, in the next few weeks
+    with what you already have?
+  - **Ethical and sustainable:** is it responsible, inclusive and affordable in your
+    context?
+
+  Choose a shortlist of ideas worth testing, and be ready to explain why you picked them
+  over the others.
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: >-
+    Learners generate and choose between their own solution ideas, taking ownership of
+    the direction their enterprise will take rather than being handed one.
+principlesForegrounded: [authentic-challenges, responsible-action, lifeworthy-competencies]
+competencyCodes: [FSI2, APS4, FLC1]
+objectiveIds: [social-entrepreneurship--o2]
+relatedSlugs: [effort-impact-matrix, leverage-points, circle-of-influence, safe-to-fail-experiments, prototype-testing-with-users]
+sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 4 developing and testing safe-to-fail ideas,
+  leverage points and circle of influence) and the SE course guide objective 2
+  furtherDetails (idea generation followed by structured prioritisation, effort/impact
+  matrix).

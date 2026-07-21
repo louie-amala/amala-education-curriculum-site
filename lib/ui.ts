@@ -23,6 +23,32 @@ export function areaStyle(areaId: string): AreaStyle {
   return AREA_STYLES[areaId] ?? FALLBACK;
 }
 
+// Material type encoding (label + colour), Build Spec §9.1 (colour by content type).
+export interface TypeMeta {
+  label: string;
+  border: string;
+  text: string;
+  bg: string;
+}
+
+const TYPE_META: Record<string, TypeMeta> = {
+  activity: { label: "Activity", border: "border-navy", text: "text-navy", bg: "bg-navy/10" },
+  "case-study": { label: "Case study", border: "border-olive", text: "text-olive", bg: "bg-olive/10" },
+  "tools-approaches": { label: "Tool or approach", border: "border-teal", text: "text-teal", bg: "bg-teal/10" },
+  concept: { label: "Concept or theory", border: "border-plum", text: "text-plum", bg: "bg-plum/10" },
+  resource: { label: "Resource", border: "border-cool-grey", text: "text-cool-grey", bg: "bg-cool-grey/10" },
+};
+
+export function typeMeta(type: string): TypeMeta {
+  return TYPE_META[type] ?? TYPE_META.resource;
+}
+
+export const CONTEXT_LABEL: Record<string, string> = {
+  group: "Group",
+  "one-to-one-mentoring": "One-to-one mentoring",
+  independent: "Independent",
+};
+
 export function creditBadge(level: string): string {
   return level === "Foundational"
     ? "bg-navy/10 text-navy"

@@ -1,0 +1,45 @@
+id: pitch-deck-elevator-pitch
+slug: pitch-deck-elevator-pitch
+access: public
+type: tools-approaches
+title: Pitch deck and elevator pitch
+summary: Short, structured ways to communicate an enterprise idea so others understand it, believe in it, and offer support.
+facilitationContext: [group, one-to-one-mentoring]
+toolsFacet: facilitation
+educatorContent: |
+  A pitch is a short, structured message that explains an idea and invites support. The pitch deck is the slide set that carries it; the elevator pitch is the same idea compressed to under a minute for a chance encounter. Both are the culmination of the course, where learners turn everything they have understood, developed and tested into a call to action.
+
+  Set expectations honestly: the aim is not usually to walk away with funding, but to practise influencing others and to attract future collaborators, mentors and supporters. Start by analysing strong pitches together (the planner suggests social enterprise pitch videos), drawing out what made each compelling before learners build their own.
+
+  Co-create the key ingredients with the class rather than dictating them. Aim to surface five components:
+  - The problem and why it matters.
+  - The solution and how it works.
+  - Evidence of traction or testing: what they have tried and what is working.
+  - The vision for impact: what change they want to create.
+  - The ask: the specific support that would help them move forward, whether time, connections, mentoring or funding.
+
+  Delivery matters as much as content. Give learners repeated low-stakes practice: pitch circles, feedback swaps, practising to camera, checkpoints with an educator, and a full practice run before pitch day. Use consistent feedback prompts: what was clear and compelling, what could be strengthened, was the ask realistic and specific, and did the pitch generate genuine interest. Build in time to revise after each round.
+
+  The single most common weakness is a vague ask, so press hard on making it concrete. The elevator pitch is worth drilling separately: it forces learners to name the problem, the solution and the ask in one or two sentences, which sharpens the full pitch too. Tailoring to different audiences (a mentor, a funder, a community member) develops adaptable communication and should be practised explicitly.
+learnerContent: |
+  Your pitch is how you get others to understand your idea and offer support. Build two versions: a pitch deck (your slides) and an elevator pitch (the same idea in under a minute, for when you meet someone by chance).
+
+  A strong pitch usually covers five things:
+  - The problem and why it matters.
+  - Your solution and how it works.
+  - Evidence: what you have tried and what is working.
+  - Your vision: the change you want to create.
+  - The ask: exactly what support would help you next (time, advice, connections, funding).
+
+  The ask is where most pitches are weak, so make yours specific.
+
+  Practise out loud, more than feels comfortable: to a partner, to camera, in small groups. After each go, ask: was it clear and compelling? Was the ask realistic and specific? Did it make you want to help? Then adjust for who you are speaking to, because a mentor, a funder and a neighbour each need it framed slightly differently.
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways, power-over-wellbeing-and-self-direction]
+  how: Learning to make a clear, confident ask gives learners a voice to attract real support and advance an idea they care about.
+principlesForegrounded: [connect-to-futures, recognise-communicate-growth, collaboration]
+competencyCodes: [FLC3, ASI3, ALC4, FPS1]
+objectiveIds: [social-entrepreneurship--o3]
+relatedSlugs: [business-model-canvas-concept-note]
+sourceRefs: ["planner-new.txt", "social-entrepreneurship.yaml"]
+provenanceNote: Grounded in the 2025 course planner (Part 5.3 "What Makes a Powerful Pitch?", 5.4 "Developing The Pitch", 5.5 "Pitch Day") and the course guide's objective 3 and Social Enterprise Idea Pitch rubric.

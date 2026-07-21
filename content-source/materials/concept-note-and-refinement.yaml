@@ -1,0 +1,76 @@
+id: concept-note-and-refinement
+slug: concept-note-and-refinement
+access: public
+type: activity
+title: Concept note and refinement
+summary: >-
+  Learners draft a short concept note explaining how their idea addresses the challenge
+  ethically and sustainably while generating revenue, then refine it into a clear
+  concept statement using feedback and testing.
+facilitationContext: [group, one-to-one-mentoring]
+educatorContent: |
+  This activity consolidates the second objective. After testing, learners pin their
+  thinking down in writing: a concept note that explains what their enterprise does, why
+  it matters, how it addresses the challenge, and how it stays ethical, sustainable and
+  financially viable. The note is both a thinking tool and a foundation for the pitch
+  work that follows.
+
+  Give learners a clear structure to draft against. A social business model canvas is a
+  useful frame: problem and solution fit, value proposition (the social or environmental
+  benefit), key stakeholders and partners, and a simple revenue and cost picture. Draw on
+  the earlier money-making versus problem-solving and financial-modelling work so
+  learners can say, at least roughly, how income would come in and what it would cost to
+  run. Where a project rests on scientific or environmental understanding, encourage
+  learners to use that understanding to justify why the idea should work.
+
+  Treat this as iterative, not one-and-done. Run structured peer feedback (what is
+  strong and clear, what is unclear, what would you ask as a supporter, does it make you
+  want to get involved) and, where possible, light one-to-one mentoring to help each
+  group tighten their concept. Learners then revise towards a clear concept statement or
+  refined prototype.
+
+  Watch for concept notes that describe a nice activity but never explain the revenue
+  model, for vague value propositions, and for claims of impact with no grounding in
+  their testing. Push for honesty about tradeoffs and for language a non-expert could
+  follow. Timing: about two to four hours across drafting, feedback and revision.
+learnerContent: |
+  It is time to put your idea into words. You will write a short concept note, then
+  refine it into a clear statement of what your social enterprise is.
+
+  **Draft your concept note.** Explain, clearly enough for someone new to follow:
+  - **The challenge and who it affects**, based on your research.
+  - **Your solution:** what your enterprise does, and how it addresses the challenge.
+  - **The benefit:** what social or environmental good it creates (your value
+    proposition).
+  - **Who is involved:** the key people, partners or stakeholders you need.
+  - **How it sustains itself:** roughly how money or resources would come in, and what
+    it would cost to run.
+  - **Why it is responsible:** how it stays ethical, inclusive and sustainable.
+
+  You can organise this using a social business model canvas.
+
+  **Get feedback and refine.** Share your draft with peers or a mentor and ask:
+  - What is strong and clear?
+  - What is unclear or missing?
+  - As a possible supporter, what would you want to know?
+
+  Use the feedback, and what you learned from testing, to revise your note into a clear
+  concept statement: a short, confident description of your enterprise that you could
+  build a pitch around.
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: >-
+    Articulating and refining their own concept helps learners take ownership of an idea
+    they could carry forward beyond the course.
+principlesForegrounded: [responsible-action, recognise-communicate-growth, lifeworthy-competencies]
+competencyCodes: [FSI2, FLC1, APS4, FTS2]
+objectiveIds: [social-entrepreneurship--o2]
+relatedSlugs: [business-model-canvas-concept-note, financial-modelling, prototype-testing-with-users, pitch-deck-and-concept-brief]
+sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 4 money-making vs problem-solving and
+  financial modelling; Part 5 refining the concept with the social business model
+  canvas) and the SE course guide objective 2 furtherDetails (drafting a concept note;
+  refinement cycles to a concept statement or prototype). FTS2 applies only where
+  learners draw on scientific understanding to justify the idea [to verify per learner
+  project].

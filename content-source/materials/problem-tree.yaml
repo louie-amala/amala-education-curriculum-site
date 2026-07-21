@@ -1,0 +1,35 @@
+id: problem-tree
+slug: problem-tree
+access: public
+type: tools-approaches
+title: Problem tree
+summary: A diagram that separates a problem's root causes (the roots) from its effects (the branches), with the core problem as the trunk.
+facilitationContext: [group, independent]
+toolsFacet: analytical
+educatorContent: |
+  The problem tree is a simple visual for pulling a challenge apart into causes and effects. Learners write the core problem on the trunk, its underlying causes on the roots below, and its visible effects on the branches above. It is a natural companion to the iceberg: the roots do the same job as the lower iceberg bands, surfacing what lies beneath a visible issue, while the branches map the consequences that spread outward.
+
+  The planner references the problem tree as an activity learners may already have met, and uses it as a bridge into the iceberg ("the roots represent underlying causes; the iceberg goes even deeper"). Treat it, then, as a familiar on-ramp to systems thinking, or as a lighter alternative where the full iceberg feels too abstract.
+
+  To facilitate: state the problem as a clear, single sentence on the trunk first, since a vague trunk produces a vague tree. Then ask repeatedly "why does this happen?" to grow the roots downward, and "so what does this lead to?" to grow the branches upward. Work on paper or sticky notes so items can be moved as thinking develops. In groups, disagreement about whether something is a cause or an effect is productive; let learners argue it out.
+
+  Watch for learners listing causes and effects that are really the same thing restated, and for trees that stop at the first layer of causes. Push for a second and third "why". Close by asking which root causes, if addressed, would do most to weaken the trunk, which sets up later work on leverage points and on where a solution should act.
+learnerContent: |
+  Draw a tree for the problem you are exploring:
+  - Trunk: the core problem, written as one clear sentence.
+  - Roots: the causes beneath it. For each cause, keep asking "but why does that happen?" to go deeper.
+  - Branches: the effects and consequences. For each, ask "so what does this lead to?"
+
+  Use sticky notes so you can move things around as your thinking changes. It is fine to argue about whether something is a cause or an effect.
+
+  When your tree is full, look at the roots. Which one or two causes, if you could weaken them, would do the most to shrink the whole problem?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: Separating causes from effects helps learners explain a community problem clearly to others and target its roots rather than its symptoms.
+principlesForegrounded: [authentic-challenges]
+competencyCodes: [FPS3, APS3]
+objectiveIds: [social-entrepreneurship--o1]
+relatedSlugs: [iceberg-model, systems-thinking-iceberg-model, stakeholder-community-mapping]
+sourceRefs: ["planner-new.txt"]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 3.2), which references a problem tree activity as a prior step that connects to the iceberg model. The planner refers to it rather than fully specifying it, so the facilitation detail here draws on standard problem tree practice. [to verify] against any dedicated Amala problem tree worksheet.

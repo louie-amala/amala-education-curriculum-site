@@ -1,0 +1,69 @@
+id: se-case-study-hisbe-food
+slug: se-case-study-hisbe-food
+access: public
+type: case-study
+title: "Case study: hiSbe Food (a fairer supermarket)"
+summary: Learners examine a real social enterprise supermarket and analyse how it raised start-up funding and built a mission-led food business.
+facilitationContext: [group, independent]
+educatorContent: |
+  This case study introduces hiSbe Food, a social enterprise profiled in the Social
+  Enterprise UK guide. Use it alongside or after the Fair for You case study so learners
+  can compare two different revenue models: one built on lending, one on retail. hiSbe is
+  useful for discussing how a founder tests and funds a new idea, since the profile
+  describes a crowdfunding campaign and support from social investors before the store
+  opened.
+
+  Run it as a short analysis and comparison task. Give learners the profile below, ask
+  them to work through the questions in pairs or small groups, then debrief on how the
+  founders proved their idea was viable, how they raised money to start, and how they
+  keep a social mission at the centre of an everyday business. If you are also using the
+  Fair for You case study, ask learners to note one similarity and one clear difference
+  between the two models (for example, how each earns revenue and who its customers are).
+
+  Accuracy note for facilitators: the profile is grounded in the Social Enterprise UK
+  guide, which was published some years ago. Treat the funding figure and current-status
+  claims (for example, that the pilot store became commercially viable or that the team
+  was seeking to scale) as accurate at the time of the guide, and ask learners to verify
+  them against current sources before citing them. Do not add details or quotes beyond
+  what the profile states.
+learnerContent: |
+  Read this profile, then discuss the questions with your group.
+
+  hiSbe Food grew out of Ruth and Amy Anslow's discontent, from around 2010, with the way
+  large supermarkets did business. Inspired by ethical consumerism and the fair trade
+  movement, they wanted a way of supplying food that put the health and wellbeing of
+  people and local communities first. To prove the idea could work, they ran a
+  crowdfunding campaign that raised over £30,000, alongside money from various funds and
+  social investors. [to verify] In December 2013 the sisters, with their friend Jack
+  Simmonds, opened the hiSbe Food pilot store in Brighton (UK). The name stands for "how
+  it Should be".
+
+  hiSbe aims to trade fairly, responsibly and sustainably, and to put people before
+  profit while still making a fair profit that supports the local economy. According to
+  the guide, the pilot store became commercially viable and was delivering measurable
+  social impact, and the founders were looking to scale the model to other areas with
+  support from several social investors. [to verify]
+
+  Questions to explore:
+  - What problem with the existing food system were the founders reacting to?
+  - How did they test whether people wanted this and fund the first store? What does
+    crowdfunding tell you about demand and support?
+  - How does hiSbe try to make a fair profit while keeping its mission central? Who are
+    its customers?
+  - What might make a mission-led supermarket harder to run than an ordinary one?
+  - Why would you class this as a social enterprise rather than an ordinary shop?
+  - Compare hiSbe with another example you have studied. What is similar, and what is
+    genuinely different about how each one earns money and creates impact?
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: Seeing how founders proved and funded a new idea before launching gives learners a realistic, low-risk model for testing their own concept.
+principlesForegrounded: [authentic-challenges, responsible-action]
+competencyCodes: [APS4, FSI2]
+objectiveIds: [social-entrepreneurship--o2]
+relatedSlugs: [se-case-study-fair-for-you, se-start-your-social-enterprise-guide]
+sourceRefs: [Start-your-social-enterprise-guide-1.pdf]
+provenanceNote: >-
+  Grounded in the hiSbe Food profile in the Social Enterprise UK guide "Start Your Social
+  Enterprise" (as provided). No details, figures, or quotes have been added beyond that
+  profile. The funding figure and current-status claims are marked [to verify] because
+  the guide predates the current date and these may have changed.

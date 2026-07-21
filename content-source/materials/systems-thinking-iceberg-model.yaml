@@ -1,0 +1,42 @@
+id: systems-thinking-iceberg-model
+slug: systems-thinking-iceberg-model
+access: public
+type: concept
+title: Systems thinking and the iceberg model
+summary: The idea that visible events sit on top of hidden patterns, structures and mental models that keep a problem in place.
+facilitationContext: [group, independent]
+educatorContent: |
+  This concept underpins much of the research phase of the course. Systems thinking asks learners to look past single events and ask what keeps producing them. The iceberg is the simplest way to hold that idea: only the tip (the events we see) is above the water, while most of what drives the system is below the surface.
+
+  Introduce the four levels from top to bottom:
+  - Events: what happened? The visible, one-off occurrences.
+  - Patterns of behaviour: what has been happening over time? The trends and repeated occurrences beneath the events.
+  - Structure of the system: what is influencing those patterns? The policies, laws, physical structures and relationships among the parts.
+  - Mental models: what assumptions, beliefs and values do people hold that keep the structure in place?
+
+  The teaching move that matters is direction of travel. Learners naturally describe events; your job is to keep asking "and what sits beneath that?" until they reach beliefs and assumptions. A useful framing: the deeper you go, the more leverage you have to change the system, but the harder it is to see and to shift. This sets up the leverage points concept later.
+
+  This is a concept for understanding a challenge, not for solving it yet. Keep learners in inquiry: the output is better questions and a clearer map of what they do not yet know, which then guides their primary and secondary research. It pairs directly with the iceberg model as a tool (they learn the idea here, then apply the structure there) and connects to problem tree work, where roots stand for underlying causes.
+
+  Watch for learners treating the lower levels as guesses to be filled in once and forgotten. Encourage them to return to their iceberg after research and revise it with evidence.
+learnerContent: |
+  When we look at a problem, we usually notice the events on the surface, like an iceberg where only the tip shows above the water. Most of what causes the problem is hidden below.
+
+  Try thinking in four layers:
+  - Events: what happened?
+  - Patterns: what keeps happening over time?
+  - Structures: what policies, systems or relationships shape those patterns?
+  - Mental models: what beliefs or assumptions keep the whole thing in place?
+
+  The lower you go, the more powerfully you could change the system, but the harder those things are to see and to shift. As you research your problem, keep asking "what sits beneath this?" and write down the questions you still cannot answer.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: Seeing the hidden structures behind a community problem lets learners contribute deeper understanding, not just descriptions of symptoms.
+principlesForegrounded: [authentic-challenges, lifeworthy-competencies]
+competencyCodes: [FPS3, APS3, ATS1]
+objectiveIds: [social-entrepreneurship--o1]
+relatedSlugs: [iceberg-model, wicked-problems, leverage-points, stakeholder-community-mapping]
+sourceRefs: ["iceberg-graphics-questions.pdf", "planner-new.txt"]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 3.1 complexity; 3.2 and "Iceberg Analysis Take 2")
+  and the Waters Center for Systems Thinking "Iceberg: Seeing What's Below the Surface" graphic.

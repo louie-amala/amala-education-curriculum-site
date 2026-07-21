@@ -1,0 +1,75 @@
+id: evidence-log-and-source-evaluation
+slug: evidence-log-and-source-evaluation
+access: public
+type: activity
+title: Evidence log and source evaluation
+summary: >-
+  Learners build a running research log of secondary sources on their challenge,
+  judging each source's credibility and recording what it tells them and where it came
+  from.
+facilitationContext: [independent, group]
+educatorContent: |
+  This activity develops the desk-research and source-evaluation side of the first
+  objective. It runs alongside the fieldwork rather than after it, and the log becomes
+  the raw material learners later synthesise into a report or presentation.
+
+  Start by clarifying the difference between primary and secondary sources with a short
+  example or video. Then focus on credibility: introduce the idea that not all sources
+  are equally trustworthy and give learners a structured lens such as the CRAAP test
+  (Currency, Relevance, Authority, Accuracy, Purpose). A strong in-class exercise is to
+  give small groups three sources on the same topic at clearly different credibility
+  levels (for example a personal blog post, a peer-reviewed or UN-backed report, and an
+  uncited social-media infographic) and ask them to rank and justify. This makes the
+  criteria concrete before learners apply them to their own topic.
+
+  Then set up the log. For each source, learners record the title, author or
+  organisation, date and link; a short summary of the key information; and a credibility
+  note based on the CRAAP test. If AI tools are available, model using them to explore
+  ideas and generate search terms, and stress that AI output must be cross-checked
+  against credible sources and does not count as a citation. Introduce basic referencing
+  so learners can credit sources honestly.
+
+  The log is an ongoing artefact: build in short check-ins where learners add to it and
+  swap one source with a partner. Watch for uncritical acceptance of the first search
+  result, over-reliance on a single source or on AI, and for logs that record links but
+  no evaluation. Timing: about two hours to introduce sources, credibility and
+  referencing, then recurring independent time to maintain the log.
+learnerContent: |
+  As you research your challenge, keep a running evidence log of the sources you use so
+  that your understanding is built on information you can trust and other people can
+  check.
+
+  **Judge each source before you rely on it.** Use the CRAAP test:
+  - **Currency** - is it up to date?
+  - **Relevance** - is it about your challenge?
+  - **Authority** - who wrote it, and are they trustworthy?
+  - **Accuracy** - is it backed by evidence?
+  - **Purpose** - is it there to inform, to persuade, to sell or to entertain?
+
+  **For every source, record in your log:**
+  - Title, author or organisation, date, and link.
+  - A short summary of what it tells you about your challenge.
+  - A credibility note: how it scores on the CRAAP test and whether you trust it.
+
+  You can use AI tools to explore ideas or suggest search terms, but always cross-check
+  what they tell you against credible sources, and never treat an AI answer as a
+  citation.
+
+  Reference your sources properly so you give credit and so others can follow your
+  evidence. Keep adding to the log as you go, and be ready to explain why you trust the
+  sources you have chosen.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Learning to judge which sources to trust gives learners the means to reach their own
+    informed conclusions rather than accepting whatever they are told.
+principlesForegrounded: [responsible-action, feedback-and-data, lifeworthy-competencies]
+competencyCodes: [FPS2, FSI1, FTS3, APS3]
+objectiveIds: [social-entrepreneurship--o1]
+relatedSlugs: [craap-test, community-mapping-and-empathy-interviews, challenge-research-report-and-presentation]
+sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 2 primary and secondary sources; Part 3
+  evaluating credibility with the CRAAP test, academic referencing and the research
+  log) and the SE course guide objective 1 furtherDetails (annotated bibliographies /
+  evidence logs).

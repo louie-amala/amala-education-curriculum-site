@@ -1,0 +1,39 @@
+id: iceberg-model
+slug: iceberg-model
+access: public
+type: tools-approaches
+title: Iceberg model
+summary: A four-level template for mapping a problem's visible events down to the hidden patterns, structures and beliefs beneath it.
+facilitationContext: [group, independent]
+toolsFacet: analytical
+educatorContent: |
+  The iceberg is the practical tool that puts systems thinking to work on a specific problem. Where the concept explains why hidden layers matter, the tool gives learners a structure to fill in. Provide the diagram (a template in the workbook, projected, or drawn on paper) with four stacked bands: Events at the tip above the waterline, then Patterns of behaviour, Structure of the system, and Mental models at the base.
+
+  Run it in two passes across the course, as the planner does. Take 1 comes early, before deep research: learners complete each band from what they already know, and it is fine that the lower bands are thin. The value is the questions it raises. Take 2 comes after primary and secondary research: learners revisit the same iceberg and revise it with evidence, ideally in a different colour so growth is visible.
+
+  Guiding prompts for each band:
+  - Events: what happened? What did you or others observe?
+  - Patterns: what has been happening over time? What are the trends?
+  - Structure: what policies, laws, physical structures or relationships influence those patterns?
+  - Mental models: what assumptions, beliefs and values keep the structure in place?
+
+  Facilitation notes: allow around an hour per pass. Learners work individually, in pairs or in project groups. Push gently downward, since most will stall at events and patterns. After completing it, ask each learner for one surprising insight and which band was hardest and why. Close by having them keep the model, as it feeds directly into stakeholder mapping and later into identifying leverage points. The lower bands are where the strongest leverage tends to sit, so a well-developed base makes the leverage points work far richer.
+learnerContent: |
+  Draw or use an iceberg split into four levels, from the tip down:
+  - Events (the tip, above the water): what happened?
+  - Patterns: what has been happening over time?
+  - Structure: what policies, systems or relationships shape those patterns?
+  - Mental models (the base): what beliefs or assumptions keep it all in place?
+
+  Fill in each level for the problem you are exploring. Do not worry if the lower levels are hard at first, that is normal. Write down the questions each level raises.
+
+  Later, after you have done your research, come back to the same iceberg and add what you have learned in a different colour. Then reflect: what is the most important thing you now understand about what lies beneath the surface, and how might it shape the kind of solution you build?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: The tool lets learners produce a clear, shareable map of a community problem's deeper causes that others can build on.
+principlesForegrounded: [authentic-challenges, feedback-and-data]
+competencyCodes: [FPS3, APS3, ATS1]
+objectiveIds: [social-entrepreneurship--o1]
+relatedSlugs: [systems-thinking-iceberg-model, problem-tree, stakeholder-community-mapping, leverage-points]
+sourceRefs: ["iceberg-graphics-questions.pdf", "planner-new.txt"]
+provenanceNote: Grounded in the 2025 course planner (Part 3.2 "Iceberg Model Take 1" and "Iceberg Analysis Take 2") and the Waters Center for Systems Thinking iceberg graphic. Paired with the concept material systems-thinking-iceberg-model.

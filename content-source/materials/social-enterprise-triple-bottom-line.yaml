@@ -1,0 +1,31 @@
+id: social-enterprise-triple-bottom-line
+slug: social-enterprise-triple-bottom-line
+access: public
+type: concept
+title: Social enterprise and the triple bottom line
+summary: The idea that a social enterprise is judged on social and environmental benefit as well as money, not money alone.
+facilitationContext: [group, independent]
+educatorContent: |
+  Use this concept early, as learners build a working definition of a social enterprise, and return to it whenever they weigh an idea. A social enterprise trades like a business but exists for a social or environmental purpose, and reinvests most of its profit into that mission. The useful mental model is that it answers to more than one bottom line: financial sustainability, social benefit, and environmental benefit together, sometimes summarised as people, planet and profit.
+
+  Build the definition from the sources rather than handing it down. The planner offers several real definitions (from Social Enterprise UK, the OECD, tools4dev and others) and asks learners to find what they share: a purpose beyond profit, reinvestment of surplus, and benefit to people and the planet. Draw out that there is no single legal definition, and that it varies by country. In some contexts there is no legal framework for social enterprise at all, which is worth naming honestly.
+
+  The concept becomes practical through the money-making versus problem-solving spectrum. Draw a line from profit-focused at one end to impact-focused at the other, and have learners place real enterprises, then their own idea, on it. This surfaces the central tension of the course: an idea that makes no money cannot sustain itself, and an idea that abandons its mission for profit is no longer a social enterprise. The triple bottom line gives learners language for holding both.
+
+  Watch for two drifts. Some learners treat any small business as a social enterprise; press them on where the social or environmental purpose and the reinvestment sit. Others treat it as charity; remind them revenue and viability are part of the point. Keep the ethical dimension live: what makes their idea responsible, inclusive and sustainable, not just profitable.
+learnerContent: |
+  A social enterprise is a business that exists for a social or environmental purpose, and puts most of its profit back into that purpose. Unlike a normal business, it is not judged on money alone. People sometimes describe this as three bottom lines: people, planet and profit.
+
+  There is no single, worldwide definition, and the rules differ from country to country. Look at several real definitions and ask what they share.
+
+  Then place your own idea on a line from "money-making" (profit-focused) to "problem-solving" (impact-focused). An idea that makes no money cannot keep going. An idea that drops its mission to chase profit is no longer a social enterprise. Where does yours sit, and where do you want it to sit?
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: Understanding how impact and income fit together helps learners design an idea that could actually sustain itself and give them a viable pathway.
+principlesForegrounded: [responsible-action, lifeworthy-competencies]
+competencyCodes: [FLC1, FSI2]
+objectiveIds: [social-entrepreneurship--o2]
+relatedSlugs: [business-model-canvas-concept-note, leverage-points]
+sourceRefs: ["planner-new.txt", "social-entrepreneurship.yaml"]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 1.1 definitions of social enterprise and "Creating Shared Value"; Part 4 "Money-Making vs Problem-Solving"). The specific label "triple bottom line" (people, planet, profit) is a common framing of these ideas and is not used verbatim in the planner. [to verify] whether Amala wishes to use this named framework in learner-facing materials.

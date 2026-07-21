@@ -6,7 +6,9 @@ import {
   getCompetencyByCode,
   getCourse,
   getCourseCompetencies,
+  getCourseObjectives,
   getCourseStream,
+  getMaterialsForObjective,
   getPrinciple,
 } from "@/lib/content";
 import { areaStyle, creditBadge } from "@/lib/ui";
@@ -89,9 +91,23 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
           Objectives ({course.objectives.length})
         </h2>
         <ol className="mt-4 space-y-6">
-          {course.objectives.map((obj, i) => (
-            <li key={i} className="rounded-lg border border-cool-grey/20 bg-white p-5 shadow-sm">
-              <h3 className="font-heading font-semibold text-dark-navy">{obj.statement}</h3>
+          {getCourseObjectives(course).map(({ id, index, objective: obj }) => {
+            const materialCount = getMaterialsForObjective(id).length;
+            return (
+            <li key={id} className="rounded-lg border border-cool-grey/20 bg-white p-5 shadow-sm">
+              <Link href={`/objectives/${id}`} className="group block">
+                <span className="text-xs font-semibold uppercase tracking-wide text-cool-grey">
+                  Objective {index}
+                </span>
+                <h3 className="font-heading font-semibold text-navy group-hover:underline">
+                  {obj.statement}
+                </h3>
+              </Link>
+              <p className="mt-1 text-xs text-cool-grey">
+                {materialCount > 0
+                  ? `${materialCount} material${materialCount === 1 ? "" : "s"} · view objective for activities, tools and resources`
+                  : "View objective"}
+              </p>
 
               {obj.supportedTo.length > 0 && (
                 <div className="mt-3">
@@ -136,7 +152,8 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                 </div>
               )}
             </li>
-          ))}
+            );
+          })}
         </ol>
       </section>
 

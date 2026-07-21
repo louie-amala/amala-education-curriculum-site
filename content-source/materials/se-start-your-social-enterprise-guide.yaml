@@ -1,0 +1,64 @@
+id: se-start-your-social-enterprise-guide
+slug: se-start-your-social-enterprise-guide
+access: public
+type: resource
+title: "Start Your Social Enterprise: a practical guide (reading)"
+summary: A step-by-step reading that walks learners through the practical decisions involved in setting up a social enterprise, from mission to business plan.
+facilitationContext: [group, independent]
+educatorContent: |
+  This is a learner-facing reading resource, "Start Your Social Enterprise: The
+  Social Enterprise Guide", published by Social Enterprise UK. It works through the
+  practical building blocks of a social enterprise in ten short sections: Mission,
+  Market, Money, Social Impact, People, Sales/Marketing/Branding, Legal Structure,
+  The Business Plan, Looking After Yourself, and a Summary. A single running example
+  (a fictional furniture recycling company) is used to translate each idea into
+  practice, alongside short profiles of real enterprises.
+
+  Use it to support learners as they move from understanding what a social enterprise
+  is towards developing their own concept. It pairs well with the sessions on
+  processes for developing a social enterprise and on legal requirements, and it gives
+  learners a shared vocabulary (mission, customers, revenue, social impact, legal
+  structure) for later concept and pitch work.
+
+  How to use it in a group session: assign one section per small group, ask each group
+  to summarise their section in their own words and relate it to the roadmap or concept
+  they are building, then pool the summaries so the whole class has a working overview.
+  For independent work, ask learners to read one section and answer a focused prompt,
+  for example: which step would be most challenging for you in your context, and why?
+
+  Important localisation note for facilitators: the guide is written for the UK and
+  its section on legal structure describes UK-specific forms (for example the Community
+  Interest Company). Treat the legal and financial specifics as an illustration of the
+  kinds of questions to ask, not as instructions for your own context. Direct learners
+  to the local legal-requirements session and any country-specific sources you hold so
+  they research the structures and registration steps that actually apply where they are.
+  The mission, market, money and social-impact thinking transfers well across contexts;
+  the legal and tax detail does not.
+learnerContent: |
+  Read the guide "Start Your Social Enterprise" (Social Enterprise UK). It walks through
+  the main decisions behind setting up a social enterprise, one section at a time, using
+  a worked example to show how each idea plays out in practice.
+
+  As you read, keep notes on three things:
+  - Which questions in the guide you could already answer for your own idea, and which
+    you cannot answer yet.
+  - One decision from the guide that feels most relevant to a challenge you care about.
+  - Anything that would work differently in your own country or community, especially
+    around money and the law.
+
+  Remember the legal and tax detail is written for the UK. Focus on the underlying
+  questions the guide is asking rather than the specific forms it names, and check the
+  rules that apply where you live.
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: Learners gain a concrete, sequenced picture of the decisions involved in starting an enterprise, which makes acting on their own idea feel more achievable.
+principlesForegrounded: [responsible-action, lifeworthy-competencies]
+competencyCodes: [FSI2, FLC1]
+objectiveIds: [social-entrepreneurship--o2]
+relatedSlugs: [se-case-study-fair-for-you, se-case-study-hisbe-food, se-founder-stories-and-talks]
+sourceRefs: [Start-your-social-enterprise-guide-1.pdf]
+provenanceNote: >-
+  Grounded in the Social Enterprise UK guide "Start Your Social Enterprise" (as
+  provided) and the 2025 course planner, which lists this guide as a reading resource
+  supporting the processes and legal-requirements sessions. UK-specific legal and
+  financial detail flagged for localisation.

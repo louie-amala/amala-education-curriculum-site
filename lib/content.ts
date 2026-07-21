@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 import {
@@ -6,6 +6,7 @@ import {
   AreaSchema,
   CompetencySchema,
   CourseSchema,
+  FacilitationMaterialSchema,
   PrincipleSchema,
   ProficiencyScaleSchema,
   ProgrammeSchema,
@@ -13,6 +14,7 @@ import {
   type Area,
   type Competency,
   type Course,
+  type FacilitationMaterial,
   type Objective,
   type Principle,
   type ProficiencyScale,
@@ -83,8 +85,47 @@ export const agency: Agency = parseWith(
   "foundations/agency.yaml",
   readYaml("foundations", "agency.yaml"),
 );
+function loadMaterials(): FacilitationMaterial[] {
+  if (!existsSync(join(ROOT, "materials"))) return [];
+  return listYaml("materials").map((f) =>
+    parseWith(FacilitationMaterialSchema, `materials/${f}`, readYaml("materials", f)),
+  );
+}
+
 export const courses: Course[] = loadCourses();
 export const programmes: Programme[] = loadProgrammes();
+export const materials: FacilitationMaterial[] = loadMaterials();
+
+// ---- objectives as addressable entities (id = `<courseId>--o<n>`) ----
+export interface ObjectiveEntity {
+  id: string;
+  index: number;
+  course: Course;
+  objective: Objective;
+}
+
+const objectiveEntities: ObjectiveEntity[] = courses.flatMap((course) =>
+  course.objectives.map((objective, i) => ({
+    id: `${course.id}--o${i + 1}`,
+    index: i + 1,
+    course,
+    objective,
+  })),
+);
+const objectiveById = new Map(objectiveEntities.map((o) => [o.id, o]));
+
+export function getAllObjectives(): ObjectiveEntity[] {
+  return objectiveEntities;
+}
+export function getObjectiveById(id: string) {
+  return objectiveById.get(id);
+}
+export function getCourseObjectives(course: Course): ObjectiveEntity[] {
+  return objectiveEntities.filter((o) => o.course.id === course.id);
+}
+export function objectiveId(courseId: string, index1: number) {
+  return `${courseId}--o${index1}`;
+}
 
 // ---- lookup maps ----
 const competencyByCode = new Map(competencies.map((c) => [c.code, c]));
@@ -175,6 +216,31 @@ export function getCourseStream(courseId: string) {
   return undefined;
 }
 
+// ---- materials indexes ----
+const materialBySlug = new Map(materials.map((m) => [m.slug, m]));
+const materialsByObjectiveId = new Map<string, FacilitationMaterial[]>();
+for (const m of materials) {
+  for (const oid of m.objectiveIds) {
+    const list = materialsByObjectiveId.get(oid) ?? [];
+    list.push(m);
+    materialsByObjectiveId.set(oid, list);
+  }
+}
+
+export function getMaterial(slug: string) {
+  return materialBySlug.get(slug);
+}
+export function getMaterialsForObjective(objectiveIdValue: string): FacilitationMaterial[] {
+  return materialsByObjectiveId.get(objectiveIdValue) ?? [];
+}
+export function getMaterialsForCourse(course: Course): FacilitationMaterial[] {
+  const ids = new Set(getCourseObjectives(course).map((o) => o.id));
+  return materials.filter((m) => m.objectiveIds.some((oid) => ids.has(oid)));
+}
+export function getMaterialsForCompetencyCode(code: string): FacilitationMaterial[] {
+  return materials.filter((m) => m.competencyCodes.includes(code));
+}
+
 // ---- cross-reference validation (build-time gate) ----
 export interface ValidationReport {
   errors: string[];
@@ -232,6 +298,33 @@ export function validateGraph(): ValidationReport {
       if (!courseById.has(cid)) {
         errors.push(`Programme "${prog.id}" references unknown course "${cid}".`);
       }
+    }
+  }
+
+  const materialSlugs = new Set(materials.map((m) => m.slug));
+  for (const m of materials) {
+    for (const code of m.competencyCodes) {
+      if (!competencyByCode.has(code)) {
+        errors.push(`Material "${m.slug}" cites unknown competency code "${code}".`);
+      }
+    }
+    for (const oid of m.objectiveIds) {
+      if (!objectiveById.has(oid)) {
+        errors.push(`Material "${m.slug}" references unknown objective "${oid}".`);
+      }
+    }
+    for (const pid of m.principlesForegrounded) {
+      if (!validPrincipleIds.has(pid)) {
+        errors.push(`Material "${m.slug}" foregrounds unknown principle "${pid}".`);
+      }
+    }
+    for (const rel of m.relatedSlugs) {
+      if (!materialSlugs.has(rel)) {
+        warnings.push(`Material "${m.slug}" links unresolved related material "${rel}".`);
+      }
+    }
+    if (m.type === "tools-approaches" && !m.toolsFacet) {
+      warnings.push(`Tools material "${m.slug}" has no toolsFacet.`);
     }
   }
 

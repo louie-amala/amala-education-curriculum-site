@@ -158,6 +158,56 @@ export const ProgrammeSchema = z.object({
   sourceNotes: z.array(z.string()).optional(),
 });
 
+// ---- Facilitation materials (§4.3) ----
+export const FacilitationContextSchema = z.enum([
+  "group",
+  "one-to-one-mentoring",
+  "independent",
+]);
+
+export const MaterialTypeSchema = z.enum([
+  "activity",
+  "case-study",
+  "tools-approaches",
+  "concept",
+  "resource",
+]);
+
+export const AgencyIndicatorSchema = z.enum([
+  "contribution-to-community",
+  "control-of-future-pathways",
+  "power-over-wellbeing-and-self-direction",
+]);
+
+export const AgencyContributionSchema = z.object({
+  indicators: z.array(AgencyIndicatorSchema).min(1),
+  how: z.string(),
+});
+
+export const FacilitationMaterialSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  access: AccessSchema.optional(),
+  type: MaterialTypeSchema,
+  title: z.string(),
+  summary: z.string().nullable().optional(),
+  facilitationContext: z.array(FacilitationContextSchema).default([]),
+  toolsFacet: z.enum(["analytical", "facilitation", "both"]).optional(),
+  educatorContent: z.string().nullable().optional(),
+  learnerContent: z.string().nullable().optional(),
+  agencyContribution: AgencyContributionSchema,
+  principlesForegrounded: z.array(z.string()).default([]),
+  competencyCodes: z.array(z.string()).default([]),
+  objectiveIds: z.array(z.string()).default([]),
+  relatedSlugs: z.array(z.string()).default([]),
+  sourceRefs: z.array(z.string()).optional(),
+  provenanceNote: z.string().nullable().optional(),
+});
+
+export type FacilitationContext = z.infer<typeof FacilitationContextSchema>;
+export type MaterialType = z.infer<typeof MaterialTypeSchema>;
+export type FacilitationMaterial = z.infer<typeof FacilitationMaterialSchema>;
+
 export type Area = z.infer<typeof AreaSchema>;
 export type Competency = z.infer<typeof CompetencySchema>;
 export type ProficiencyLevel = z.infer<typeof ProficiencyLevelSchema>;

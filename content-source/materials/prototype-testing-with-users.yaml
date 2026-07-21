@@ -1,0 +1,73 @@
+id: prototype-testing-with-users
+slug: prototype-testing-with-users
+access: public
+type: activity
+title: Prototype testing with users
+summary: >-
+  Learners run small, safe-to-fail tests of their idea with potential users, gathering
+  feedback and simple evidence to see what works and what to change.
+facilitationContext: [group, independent]
+educatorContent: |
+  This is the piloting phase of the second objective, where an idea meets reality. It
+  runs over several sessions and mixes in-class planning and reflection with independent
+  time to actually test in the world. Expect learners to loop back to research or
+  regeneration of ideas as they learn, and structure the time so they keep moving
+  forward.
+
+  Help each group turn a shortlisted idea into something small and testable: a simple
+  prototype, a mock service, a survey, an interview round, or an observation. Existing
+  technology is useful here, for example a Google Form to collect responses, a phone to
+  record feedback, or a basic digital mock-up, and some groups may design or adapt a new
+  technological solution as their prototype. Before any test, make sure the plan is
+  safe-to-fail: low risk, testable soon, and doable with available resources.
+
+  Emphasise that evidence does not have to be perfect, it has to be real: quotes from
+  testers, photos or screenshots, simple counts ("5 people said...", "only 2
+  responded"), and observations of what changed. Build in regular check-ins where
+  learners report what they did and why, what worked and how they know, what did not,
+  and what they will change. Use a feedback protocol such as the ladder of feedback
+  (clarify, value, ask concerns, suggest) for peer rounds.
+
+  Watch for tests that are too big to run, for learners defending the idea instead of
+  learning from it, and for feedback gathered but never acted on. Keep steering them
+  towards small changes grounded in what testers actually said or did. Timing: this is a
+  multi-session phase, roughly ten to twenty hours across class and independent time.
+learnerContent: |
+  Your idea only becomes real when you test it. In this phase you will try a small part
+  of your idea with real people and learn from what happens.
+
+  **Design a small test.** Turn your idea into something you can try quickly and safely.
+  It might be a simple prototype, a mock version of your service, a survey, a round of
+  interviews, or an observation. Before you start, check that your test is:
+  - Safe to fail (little or no harm if it does not work).
+  - Something you can try soon.
+  - Doable with the resources you already have.
+
+  Use whatever tools help, for example a Google Form to gather responses, a phone to
+  record feedback, or a simple mock-up of your product or service.
+
+  **Gather real evidence.** Your evidence does not need to be perfect, it needs to be
+  real:
+  - Quotes from the people who tested it.
+  - Photos or screenshots.
+  - Simple numbers ("5 people said...", "only 2 responded").
+  - What you noticed changing, or not changing.
+
+  **Learn and adjust.** After each test, ask: what did I do and why? What worked, and
+  how do I know? What did not work? What will I change next? Share short updates with
+  your group and use their feedback to improve your idea.
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: >-
+    Testing with the people a solution is meant to serve gives them a real say in
+    shaping it, and gives learners evidence to steer their own idea forward.
+principlesForegrounded: [feedback-and-data, authentic-challenges, responsible-action]
+competencyCodes: [FSI3, FSI2, FTS1, ATS3]
+objectiveIds: [social-entrepreneurship--o2]
+relatedSlugs: [safe-to-fail-experiments, ladder-of-feedback, idea-generation-and-prioritisation, concept-note-and-refinement]
+sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 4 developing and testing safe-to-fail ideas,
+  piloting and testing) and the SE course guide objective 2 furtherDetails (market
+  research and prototype testing; refinement cycles). ATS3 applies only where learners
+  create or adapt a new technological solution [to verify per learner project].

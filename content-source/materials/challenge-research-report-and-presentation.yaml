@@ -1,0 +1,72 @@
+id: challenge-research-report-and-presentation
+slug: challenge-research-report-and-presentation
+access: public
+type: activity
+title: Challenge research report and presentation
+summary: >-
+  Learners pull together their primary and secondary research into a clear report or
+  presentation on their challenge and share it with peers or community members.
+facilitationContext: [group, independent]
+educatorContent: |
+  This activity closes the first objective. Learners have gathered fieldwork and
+  desk-research evidence; now they make sense of it, find the patterns, and communicate
+  what they have learned so their understanding contributes to a wider conversation.
+
+  Begin with synthesis before presentation. A strong route is affinity mapping: learners
+  write each piece of research (a quote, a statistic, an observation) on a separate note,
+  then group related notes to surface themes. Ask them to name each cluster, notice
+  outliers, and write insight statements such as "A lot of people mentioned..., which
+  might tell us that...". This is where the analysis happens, so give it real time and
+  push learners to support claims with evidence rather than opinion. Encourage them to
+  revisit and update their systems map or iceberg with anything new.
+
+  Then support learners to turn their insights into a product suited to their audience:
+  a short report, a presentation, a poster, an infographic or a short video. The key
+  requirement is that it states the challenge clearly, is grounded in cited evidence,
+  and is genuinely shared, with classmates as a minimum and with community members where
+  possible. Build in a peer feedback round using prompts such as what stood out, what
+  questions remain, and what we can learn from this.
+
+  Watch for products that describe sources without drawing conclusions, and for claims
+  that outrun the evidence. Remind learners that this is a checkpoint in their
+  understanding, not the final word, and that it feeds directly into developing a
+  solution idea. Timing: roughly two hours to synthesise and one to two hours to
+  produce and share, plus independent production time.
+learnerContent: |
+  You have gathered a lot of research about your challenge. Now bring it together, work
+  out what it is telling you, and share it.
+
+  **Make sense of your research.** Write each piece of evidence you have gathered (a
+  quote, a fact, an observation) on its own note. Group the notes that belong together
+  and give each group a name. Look for patterns and for anything that does not fit. Then
+  write a few insight statements, for example:
+  - "A lot of people mentioned..., which might tell us that..."
+  - "It seems like a key issue is... because..."
+
+  Update your systems map or iceberg with anything new you now understand.
+
+  **Create your report or presentation.** Turn your insights into something you can
+  share: a short written report, a slide presentation, a poster, an infographic or a
+  short video. Whatever the format, it should:
+  - State clearly what the challenge is and who it affects.
+  - Explain what you found and what it means, backed by your evidence.
+  - Cite your sources so people can trust and check your findings.
+
+  **Share it.** Present it to your classmates, and to community members where you can.
+  Invite questions and note what people are curious about, as this will help shape the
+  solution you develop next.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    By researching a real local challenge and sharing what they learn back with peers
+    and community members, learners add to the collective understanding of a problem
+    that affects people around them.
+principlesForegrounded: [authentic-challenges, recognise-communicate-growth, collaboration]
+competencyCodes: [FSI1, ATS1, APS3, FTS3]
+objectiveIds: [social-entrepreneurship--o1]
+relatedSlugs: [affinity-mapping, iceberg-model, stakeholder-community-mapping, community-mapping-and-empathy-interviews, evidence-log-and-source-evaluation]
+sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 3 affinity mapping and the literature-review
+  write-up) and the SE course guide objective 1 furtherDetails (research report or
+  presentation shared with classmates or community; posters, infographics, videos).

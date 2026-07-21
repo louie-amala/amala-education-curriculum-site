@@ -1,0 +1,78 @@
+id: community-mapping-and-empathy-interviews
+slug: community-mapping-and-empathy-interviews
+access: public
+type: activity
+title: Community mapping and empathy interviews
+summary: >-
+  Learners go into their community to observe, listen and map who is affected by
+  and connected to a challenge, gathering first-hand perspectives through empathy
+  walks, interviews and conversations.
+facilitationContext: [group, independent]
+educatorContent: |
+  This is the primary-research heart of the first objective. Learners have already
+  chosen a challenge that matters to them; here they leave the classroom to build a
+  grounded, human understanding of it.
+
+  Sequence it over more than one session. In class, prepare learners: define empathy
+  together, model an empathy walk and a short empathy interview, and co-create a
+  checklist for ethical and safe research (informed consent, privacy, respect, do no
+  harm, and personal safety such as telling someone where you are going and meeting in
+  public or online). Do not let anyone begin fieldwork until they have thought through
+  an ethical and risk check for their plan. If learners cannot find community members
+  to speak to, they can interview each other or people they already know.
+
+  Assign the fieldwork itself to non-class (independent) time, since it happens out in
+  the community. Ask learners to record what they notice through notes, sketches or
+  voice memos, and to capture who says what and where the information came from. On
+  return, run an ecosystem-mapping session: each learner places their chosen challenge
+  at the centre and maps the people, groups, institutions, cultural influences and
+  natural systems connected to it, drawing labelled links to show relationships (for
+  example "provides funding", "is negatively affected by"). Prompt them to mark, in a
+  different colour, the parts they are only assuming and still need to check.
+
+  Watch for learners treating interviews as a checklist rather than a conversation, for
+  leading or judgemental questions, and for anyone straying into unsafe or intrusive
+  situations. Emphasise curiosity over extracting answers. Timing: roughly one to two
+  hours of class preparation, several hours of independent fieldwork, and one hour to
+  map and debrief.
+learnerContent: |
+  You are going to build a real understanding of the challenge you have chosen by
+  observing and listening to the people connected to it.
+
+  **Before you go out**
+  - Agree with your group what counts as ethical and safe research. As a minimum: ask
+    permission, keep what people share private if they want you to, be respectful, and
+    do not put yourself or anyone else at risk.
+  - Plan where you will go, who or what you will observe or speak to, and how you will
+    record what you notice.
+
+  **Empathy walk.** Go to a place in your community and slow down. Notice what people
+  seem to be needing, feeling or struggling with. Be discreet and respectful: this is
+  about awareness, not staring or photographing people without permission.
+
+  **Empathy interviews and conversations.** Have one-to-one conversations with people
+  who experience or work on the challenge. Ask open questions ("Can you tell me more
+  about...?"), listen more than you speak, and let the person guide the story. Note who
+  you spoke to and what you learned.
+
+  **Map the system.** Put your challenge in the centre of a page or board. Around it,
+  add every person, group, organisation, institution, cultural influence and natural
+  system connected to it. Draw links and write on each link what the relationship is.
+  Mark in a different colour anything you are only guessing and still need to research.
+
+  Bring your notes, your map and one thing that surprised you to share with the group.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners centre the lived experience of community members in defining a challenge,
+    so the understanding they build belongs to and reflects the community rather than
+    their assumptions.
+principlesForegrounded: [authentic-challenges, collaboration, responsible-action]
+competencyCodes: [FSI1, FPS3, FLC1, FTS3]
+objectiveIds: [social-entrepreneurship--o1]
+relatedSlugs: [stakeholder-community-mapping, iceberg-model, evidence-log-and-source-evaluation, challenge-research-report-and-presentation]
+sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 2 empathy walks, interviews and
+  conversations; Part 3 ecosystem mapping and ethics of primary research) and the SE
+  course guide objective 1 furtherDetails.

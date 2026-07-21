@@ -1,0 +1,33 @@
+id: stakeholder-community-mapping
+slug: stakeholder-community-mapping
+access: public
+type: tools-approaches
+title: Stakeholder and community mapping
+summary: A visual map of the people, groups and organisations connected to a problem, showing who is affected, who has influence, and how they relate.
+facilitationContext: [group, independent]
+toolsFacet: analytical
+educatorContent: |
+  Stakeholder mapping (called ecosystem mapping in the planner) turns a problem into a picture of the people and organisations around it. Learners place the problem at the centre, add a node for each stakeholder (individuals, community groups, businesses, institutions, and even natural systems), and draw lines between them, labelling each line with what the relationship is, for example "provides funding", "runs workshops together" or "amplifies their work".
+
+  It serves two purposes across the course. Early on it deepens understanding of the challenge by showing who contributes to it and who is affected. Later it becomes a resource for action, since the same map reveals potential collaborators, advisors and sources of insight for a learner's enterprise idea. A related version appears at the start of the course, mapping the local social entrepreneurship landscape to spot partners and gaps.
+
+  Run it, like the iceberg, in two passes. Take 1 comes before deep research, from what learners already know, with unknowns marked in a distinct colour or symbol. Take 2 comes after interviews and surveys, when learners revise the map with new stakeholders and relationships they have discovered. Affinity mapping (grouping sticky notes by theme) can help organise what primary research surfaces before it goes onto the map.
+
+  Facilitation notes: sticky notes or a digital board (Miro, Canva, Google Drawings) both work; allow about an hour. Good prompts are: who is affected by this problem, who has power to influence it, who benefits from things staying the same, and where are the missing or weak connections. Close with discussion: where is the most energy in your map, where are the gaps, and who might you approach as you develop your idea? This connects directly to identifying leverage points and, later, to identifying mentors and partners.
+learnerContent: |
+  Put your problem in the centre of a large sheet or digital board. Around it, add a node for every stakeholder connected to it: individuals, community groups, organisations, businesses, institutions, even natural systems like a river or forest.
+
+  Draw lines between the nodes that are connected, and write on each line what the connection is (for example "provides funding", "shares volunteers", "is harmed by"). Use a different colour to mark any part you are unsure about or need to research.
+
+  Ask yourself: who is affected by this problem? Who has power to influence it? Who benefits from nothing changing? Where are the gaps?
+
+  After you have done interviews and research, come back and update the map. Then note anyone on it who could become a collaborator, advisor or supporter for your idea.
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: Mapping who holds influence and who is affected helps learners understand their community's system and spot real relationships they can build on.
+principlesForegrounded: [authentic-challenges, collaboration]
+competencyCodes: [FPS3, FTS3, FSI1]
+objectiveIds: [social-entrepreneurship--o1]
+relatedSlugs: [iceberg-model, systems-thinking-iceberg-model, leverage-points, problem-tree]
+sourceRefs: ["planner-new.txt"]
+provenanceNote: Grounded in the 2025 course planner (Part 1.5 mapping the local ecosystem; Part 3.4 "Ecosystems Mapping Take 1"; "Affinity Mapping"; "Ecosystem Mapping Take 2").

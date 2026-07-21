@@ -1,0 +1,36 @@
+id: leverage-points
+slug: leverage-points
+access: public
+type: concept
+title: Leverage points in a system
+summary: The idea that some places in a system are far more powerful to intervene in than others, and that the strongest are often the least obvious.
+facilitationContext: [group, independent]
+educatorContent: |
+  Introduce this concept once learners have mapped their problem as a system (through the iceberg and stakeholder mapping) and are moving from understanding the challenge to shaping a solution. A leverage point is a place in a system where a small, well-chosen shift can produce a large change. Donella Meadows' insight is twofold: leverage points exist, and people routinely push on them in the wrong direction, or focus on the weakest ones.
+
+  Give learners the ordered list rather than treating all interventions as equal. Meadows ranks twelve places to intervene, from least to most powerful. The lower-leverage end covers numbers and parameters (subsidies, taxes, standards), buffer sizes and physical stocks and flows. The middle covers feedback loops and information flows. The higher-leverage end covers the rules of the system, the power to self-organise, the goals of the system, and, most powerful of all, the mindset or paradigm the system arises from. The counterintuitive lesson is that changing a number (say, a price or a quota) feels active but rarely changes behaviour, whereas changing a rule, a goal or a shared belief can transform the whole system.
+
+  Facilitate by having groups return to their ecosystem maps and icebergs and ask: where are the patterns, structures and beliefs keeping this problem going? What would need to shift to move it in a better direction? Then locate candidate leverage points and name where each sits on Meadows' scale. Ask each group to explain what part of the system a point connects to, why it is powerful, and what kind of enterprise idea might act on it.
+
+  Two cautions. First, high-leverage points (goals, paradigms) are powerful but slow and hard to move; pair this concept with the circle of influence so learners choose points they can realistically act on. Second, keep the tone humble: Meadows herself framed the list as a work in progress, an invitation to think broadly, not a formula.
+learnerContent: |
+  Some places in a system are far more powerful to change than others. A leverage point is a spot where a small, well-aimed shift makes a big difference.
+
+  Donella Meadows ranked twelve places to intervene, from weakest to strongest. Roughly:
+  - Weaker: adjusting numbers such as prices, taxes or quotas; changing buffers and physical structures.
+  - Middle: strengthening feedback loops; improving who has access to information.
+  - Stronger: changing the rules; allowing the system to reorganise itself; changing the system's goal; and, strongest of all, shifting the mindset or belief the system rests on.
+
+  The surprising part: changing a number feels like action but rarely changes much, while changing a rule, a goal or a shared belief can transform everything. Look back at your iceberg and your stakeholder map. Where are the points that keep the problem going? Which one could your idea realistically act on?
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: Choosing where to intervene helps learners direct limited effort towards changes that could genuinely improve their community rather than surface fixes.
+principlesForegrounded: [authentic-challenges, responsible-action]
+competencyCodes: [FPS3, APS4, FSI2]
+objectiveIds: [social-entrepreneurship--o1, social-entrepreneurship--o2]
+relatedSlugs: [systems-thinking-iceberg-model, iceberg-model, stakeholder-community-mapping]
+sourceRefs: ["Leverage_Points in a System.pdf", "leverage-points-summary.txt", "planner-new.txt"]
+provenanceNote: >-
+  Grounded in the 2025 course planner (Part 4 "Identifying Leverage Points" and "Circle of
+  Influence") and Donella Meadows' essay "Leverage Points: Places to Intervene in a System"
+  (Sustainability Institute, 1999) with its summary.
