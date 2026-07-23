@@ -176,6 +176,35 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </section>
       )}
 
+      {/* Running this in different settings — the delivery-mode axis */}
+      {m.deliveryAdaptations.length > 0 && (
+        <section className="mt-8">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">
+            Running this in different settings
+          </h2>
+          <ul className="mt-3 divide-y divide-cool-grey/15 overflow-hidden rounded-xl border border-cool-grey/20 bg-white">
+            {m.deliveryAdaptations.map((d) => {
+              const isPrimary = m.primaryContext === d.context;
+              return (
+                <li key={d.context} className="p-4">
+                  <p className="flex flex-wrap items-center gap-2">
+                    <span className="font-heading font-semibold text-dark-navy">
+                      {CONTEXT_LABEL[d.context] ?? d.context}
+                    </span>
+                    {isPrimary && (
+                      <span className="rounded-full bg-teal/15 px-2 py-0.5 text-xs font-medium text-teal">
+                        designed for this
+                      </span>
+                    )}
+                  </p>
+                  <p className="mt-1 text-sm text-dark-navy/80">{d.how}</p>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
+
       {/* Facilitation notes */}
       {m.facilitationNotes && (
         <section className="mt-8">

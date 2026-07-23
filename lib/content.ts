@@ -480,6 +480,23 @@ export function validateGraph(): ValidationReport {
         errors.push(`Material "${m.slug}" develops unknown competency code "${cd.code}".`);
       }
     }
+    for (const da of m.deliveryAdaptations) {
+      if (!m.facilitationContext.includes(da.context)) {
+        errors.push(
+          `Material "${m.slug}" has a delivery adaptation for "${da.context}", which is not in its facilitationContext.`,
+        );
+      }
+    }
+    if (m.primaryContext && !m.facilitationContext.includes(m.primaryContext)) {
+      errors.push(
+        `Material "${m.slug}" has primaryContext "${m.primaryContext}" not in its facilitationContext.`,
+      );
+    }
+    for (const ctx of m.facilitationContext) {
+      if (m.deliveryAdaptations.length > 0 && !m.deliveryAdaptations.some((d) => d.context === ctx)) {
+        warnings.push(`Material "${m.slug}" lists context "${ctx}" with no delivery adaptation.`);
+      }
+    }
     for (const rel of m.relatedSlugs) {
       if (!materialSlugs.has(rel)) {
         warnings.push(`Material "${m.slug}" links unresolved related material "${rel}".`);

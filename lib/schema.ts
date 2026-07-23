@@ -202,6 +202,13 @@ export const FacilitationMaterialSchema = z.object({
   title: z.string(),
   summary: z.string().nullable().optional(),
   facilitationContext: z.array(FacilitationContextSchema).default([]),
+  // The delivery mode the material is designed around; the others read as adaptations.
+  primaryContext: FacilitationContextSchema.optional(),
+  // How to run this material in each delivery mode it supports (mode axis). Distinct from a
+  // step's `adaptation`, which handles the constraint axis (low bandwidth, time, attendance).
+  deliveryAdaptations: z
+    .array(z.object({ context: FacilitationContextSchema, how: z.string() }))
+    .default([]),
   toolsFacet: z.enum(["analytical", "facilitation", "both"]).optional(),
   // running detail (mainly activities)
   duration: z.string().nullable().optional(),

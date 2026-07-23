@@ -7,57 +7,156 @@ summary: >-
   Learners deliver their social enterprise pitch to an external or community audience,
   making a clear ask and following up with people who offer support.
 facilitationContext: [group]
-educatorContent: |
+duration: Three or more hours for the event, plus preparation in the weeks before and follow-up afterwards
+grouping: Individuals or project groups pitching to an invited audience; works with 15-35 learners
+whatLearnersDo:
+  - Submit your pitch deck by the deadline, making each person's contribution clear if you pitch as a group.
+  - Invite the people you want in the room and tell them why you want them there.
+  - Pitch your idea in about three to five minutes and take questions.
+  - Make a specific ask, so the audience knows exactly how they could help.
+  - Note who offered support, thank them, and decide your one next step.
+materialsAndPreparation:
+  - A confirmed venue or online platform, tested in advance with the audio, screen or video links that will be used.
+  - A run of show with timings, the running order, breaks and buffer time, shared with learners and guests.
+  - An invited audience curated for value, including local social entrepreneurs, mentors, potential supporters or partners, Amala community members, and the significant adults in learners' lives.
+  - All pitch decks collected ahead of the day and combined into one file on one device.
+  - Supporting documents showing individual contribution for any group pitch.
+  - An audience feedback mechanism, such as a short form, cards or a live board where connectivity allows.
+  - Safeguarding arrangements in place, covering consent for photography and recording, supervision, and named responsibility for wellbeing and privacy.
+  - Optional panel of two to four local professionals, briefed in advance to be encouraging rather than competitive.
+facilitationNotes: |
   This is the culminating performance of the course and the significant product against
   which several competencies are assessed. Learners pitch their refined concept to a
   real audience, tell the story of their journey from problem to tested solution, and
-  invite others to get involved. Learners submit a pitch deck ahead of time; where a
-  group pitches together, make each member's individual contribution clear in a
-  supporting document.
-
-  Plan the event deliberately. Clarify its purpose (celebration, call to action,
-  recruitment of support, or all three) and curate an audience who can add value: local
-  social entrepreneurs, mentors, potential funders or partners, Amala community members,
-  and the significant adults in learners' lives. A small panel of local professionals
-  can ask questions and surface real opportunities, but brief them to be encouraging
-  rather than competitive. Put safeguarding first: consent for photography and
-  recording, supervision, and clear responsibility for wellbeing and privacy. Collect
-  decks in advance into one file so the day runs smoothly.
-
-  On the day, keep pitches to around three to five minutes with short Q&A, and invite
-  the audience to respond with questions, encouragement, ideas, connections, or offers
-  of time and support. Afterwards, this is where the objective is truly met: help
-  learners follow up. Support them to identify who to reach out to, to thank people who
-  showed interest, and to name one concrete next step. Connect interested guests with
-  the learners whose ideas they responded to.
-
-  Watch for pitches that inform but never ask, and for the follow-up being skipped once
-  the event is over. Celebrate courage and voice even where an idea will not go further.
-  Timing: three or more hours for the event, plus preparation and follow-up.
-learnerContent: |
-  This is your moment to share your social enterprise idea with a real audience and
-  invite them to support it.
-
-  **Before the day.** Submit your pitch deck by the deadline. If you are pitching as a
-  group, make clear in a short supporting document what each person contributed. Think
-  about who you would like to invite and send them a personal invitation.
-
-  **Your pitch (about 3 to 5 minutes).** Tell the story of your journey and cover:
-  - The problem and why it matters.
-  - Your solution and how it works.
-  - What you tested and learned.
-  - The change you want to create.
-  - Your ask: exactly what support would help you take the next step.
-
-  Be ready for questions from the audience.
-
-  **After the day.** This is where support becomes real:
-  - Note who offered help, interest or connections.
-  - Thank the people who engaged with your idea.
-  - Decide on one concrete next step, and who you need to reach out to.
-
-  Whatever happens next with your idea, the way you communicated it and the connections
-  you made are real achievements. Capture them as evidence of what you can do.
+  invite others to get involved. Two things decide whether it works. The first is the
+  audience, since a pitch to people who can genuinely offer time, advice or connections
+  is a different experience from a pitch to an empty room, and curating that audience is
+  weeks of quiet work before the day. The second is the follow-up, because the objective
+  is met not when learners pitch but when support is actually taken up, and everyone is
+  tired enough afterwards to let that slide.
+steps:
+  - title: Plan the event and curate the audience
+    duration: Several weeks ahead, allow 1-2 hours of planning
+    guidance: |
+      Decide first what the day is for, whether celebration, a call to action, recruiting
+      real support, or all three, since that decides who should be in the room. Invite
+      people who can add value and ask learners who they want present, then support them
+      to send personal invitations. Secure the venue or platform, set the schedule
+      including breaks and buffer time, and put safeguarding arrangements in place before
+      anything is publicised.
+    keyPrompts:
+      - Who in your community could actually help you take the next step?
+      - Who do you want in the room because their opinion matters to you?
+      - What would make this day feel worth it for you?
+    watchOuts:
+      - The audience ends up being only staff and classmates, so the pitches have nowhere to go; start inviting external guests several weeks out and accept that some will decline.
+      - Photography, recording and consent are dealt with on the morning; settle them in advance, since some learners will not want to be filmed and should not have to say so publicly.
+    adaptation: |
+      Where guests cannot travel, run the event online or hybrid, or invite a smaller
+      number of local guests to a simpler session. Where an event is not possible at all,
+      learners can pitch individually to one or two invited people, in person or by
+      phone, over the course of a week.
+  - title: Prepare learners and collect the decks
+    duration: 45-60 min, plus a submission deadline before the day
+    guidance: |
+      Make the format and expectations explicit, including pitch length, whether there
+      will be questions, and what has to be submitted and by when. Collect every deck
+      ahead of the deadline and combine them into a single file on one device, so no time
+      is lost swapping laptops. For group pitches, make sure a supporting document sets
+      out what each member contributed, since competencies are recognised individually.
+    keyPrompts:
+      - What are you bringing on the day, and what needs to be sent in advance?
+      - Which part of this is yours to speak to?
+      - What would you want a supporter to leave holding?
+    watchOuts:
+      - Decks arrive late or in formats that will not open; set the deadline several days early and test each file when it arrives.
+      - Group pitches leave the individual contribution invisible; ask for the supporting document at the same time as the deck, not afterwards.
+    adaptation: |
+      Learners with no reliable device can pitch from a printed poster or a single sheet
+      of notes, which should be treated as a legitimate format rather than a fallback.
+      Where files cannot be shared online, collect them on a memory stick or in printed
+      form.
+  - title: Set up and open the day
+    duration: 60 min before the pitches
+    guidance: |
+      Set up the space or platform and test the technology with the actual file that will
+      be used. Welcome guests, share the agenda, and have a host introduce each learner
+      or group. Make the running order visible so nobody is caught unprepared. If there
+      is a panel, remind them briefly of the tone before the first pitch.
+    keyPrompts:
+      - Do you know when you are on, and where you will stand?
+      - What do you need in the next ten minutes to feel ready?
+    watchOuts:
+      - Technology is tested only in principle and fails on the day; open the combined file on the actual device and screen before guests arrive.
+      - Nerves peak in the waiting; give learners something to do, such as setting up a display of posters, photographs or plans.
+    adaptation: |
+      Online, open the room early for a technical check with every presenter, and assign
+      an educator to manage the running order and admit guests so presenters can focus.
+  - title: Run the pitches and the questions
+    duration: 2-3 hours, depending on numbers
+    guidance: |
+      Keep each pitch to around three to five minutes, followed by short questions or
+      audience comments. Hold the timings, since an event that overruns loses the
+      audience the last pitches most need. Invite the audience to respond with clarifying
+      questions, encouragement, ideas, connections, or offers of time and support, and
+      make sure someone is capturing those offers as they are made.
+    keyPrompts:
+      - What support would make the biggest difference to you right now?
+      - What have you tested so far, and what did it tell you?
+      - Who else should they be talking to about this?
+    watchOuts:
+      - Pitches inform beautifully and never ask for anything; check every group has a specific ask before they present, and prompt for it in questions if it is missing.
+      - Questions from a panel drift into critique; redirect towards what would help the learner take a next step.
+      - Offers of help are made in the room and lost by the evening; assign someone to write down every offer with the name of who made it.
+    adaptation: |
+      With many pitches, run parallel rooms with a guest in each, or spread the pitches
+      across two shorter sessions. Online, use short randomised breakout rooms for
+      responses, with an educator present in each for safeguarding.
+  - title: Make space for connection
+    duration: 30-45 min
+    guidance: |
+      Build in unstructured time for learners and guests to talk, over refreshments in
+      person or in breakout rooms online. This is where most real offers are made, so
+      treat it as part of the event rather than a nicety. A display area with posters,
+      photographs, testing logs or business plans gives people something to gather
+      around.
+    keyPrompts:
+      - Which two people do you want to speak to before they leave?
+      - How will you get their contact details, and what will you say you will send them?
+    watchOuts:
+      - Learners cluster together and talk only to each other; give each learner a small, specific goal, such as speaking to two guests they do not know.
+      - Contact details are exchanged verbally and forgotten; have paper or a shared sheet ready for names and follow-up notes.
+    adaptation: |
+      Where mingling is not possible, guests can leave written comments and contact
+      offers on cards or a shared board, which learners collect afterwards.
+  - title: Reflect and follow up
+    duration: 45-60 min in the following session
+    guidance: |
+      This is where the objective is actually met. Support learners to reflect on what
+      they are proud of, what feedback stood out and what they will do next, then to act
+      on the connections made. Help them thank the people who engaged, reach out to
+      anyone who offered support, and commit to one concrete next step. On your side,
+      thank the audience, share highlights, and connect interested guests with the
+      learners whose ideas they responded to.
+    keyPrompts:
+      - Who offered something, and what exactly did they offer?
+      - What will you send them, and by when?
+      - What is the one action you will take because of what you heard?
+    watchOuts:
+      - Follow-up is postponed once the event is over and the offers quietly expire; hold the follow-up session within a few days and make the outreach message itself the task.
+      - Learners whose idea will not go further feel the day was pointless; name clearly that the communication, the evidence and the connections are achievements in their own right and are worth capturing as evidence of competence.
+    adaptation: |
+      Outreach can be a message, a voice note or a phone call rather than an email.
+      Where learners cannot contact guests directly, an educator can pass on thanks and
+      questions on their behalf, with the learner drafting the words.
+closing: |
+  Close by asking each learner to name one thing they are proud of and one action they
+  will take in the next week, and record those actions somewhere they will be revisited.
+  Celebrate courage and voice, including for the ideas that will not go further, and
+  make sure every learner leaves with their pitch, their deck and their reflection
+  captured as evidence of what they can do. Where guests showed interest, put them in
+  touch with the learners concerned rather than waiting for either side to make the
+  first move.
 agencyContribution:
   indicators: [contribution-to-community, control-of-future-pathways]
   how: >-
@@ -69,7 +168,9 @@ objectiveIds: [social-entrepreneurship--o3]
 relatedSlugs: [pitch-deck-and-concept-brief, simulated-pitch-and-feedback, identifying-mentors]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
-  Grounded in the 2025 course planner (Significant Performances and Products, the Social
-  Enterprise Idea Pitch rubric, and Part 5 Pitch Day and follow-up) and the SE course
-  guide objective 3 furtherDetails (final showcase pitch to an external or community
-  audience; networking and follow-up).
+  Enriched into a structured facilitation flow (duration, grouping, steps with prompts,
+  watch-outs and low-bandwidth adaptations) from the earlier prose version. Grounded in
+  the 2025 course planner (Significant Performances and Products, the Social Enterprise
+  Idea Pitch rubric, and Part 5.5 Pitch Day planning, running the event and follow-up)
+  and the SE course guide objective 3 furtherDetails (final showcase pitch to an
+  external or community audience; networking and follow-up).
