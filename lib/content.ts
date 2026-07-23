@@ -158,6 +158,7 @@ export interface EvidenceRef {
   courseId: string;
   courseTitle: string;
   courseSlug: string;
+  objectiveId: string;
   objectiveStatement: string;
   condition: string;
   citedTitle?: string | null;
@@ -165,20 +166,21 @@ export interface EvidenceRef {
 
 const evidenceByCompetencyCode = new Map<string, EvidenceRef[]>();
 for (const course of courses) {
-  for (const obj of course.objectives) {
+  course.objectives.forEach((obj, i) => {
     for (const ev of obj.competencyEvidence) {
       const list = evidenceByCompetencyCode.get(ev.code) ?? [];
       list.push({
         courseId: course.id,
         courseTitle: course.title,
         courseSlug: course.slug,
+        objectiveId: `${course.id}--o${i + 1}`,
         objectiveStatement: obj.statement,
         condition: ev.condition,
         citedTitle: ev.citedTitle,
       });
       evidenceByCompetencyCode.set(ev.code, list);
     }
-  }
+  });
 }
 export function getEvidenceForCompetency(code: string): EvidenceRef[] {
   return evidenceByCompetencyCode.get(code) ?? [];
@@ -239,6 +241,25 @@ export function getMaterialsForCourse(course: Course): FacilitationMaterial[] {
 }
 export function getMaterialsForCompetencyCode(code: string): FacilitationMaterial[] {
   return materials.filter((m) => m.competencyCodes.includes(code));
+}
+
+// For a material, the "if learners…" conditions (from the objectives it serves) that explain
+// HOW it evidences each competency code it claims.
+export function getEvidenceConditionsForMaterial(
+  material: FacilitationMaterial,
+): Map<string, string[]> {
+  const byCode = new Map<string, string[]>();
+  for (const oid of material.objectiveIds) {
+    const oe = objectiveById.get(oid);
+    if (!oe) continue;
+    for (const ev of oe.objective.competencyEvidence) {
+      if (!material.competencyCodes.includes(ev.code)) continue;
+      const arr = byCode.get(ev.code) ?? [];
+      if (!arr.includes(ev.condition)) arr.push(ev.condition);
+      byCode.set(ev.code, arr);
+    }
+  }
+  return byCode;
 }
 
 // ---- cross-reference validation (build-time gate) ----

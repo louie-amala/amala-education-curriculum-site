@@ -36,7 +36,11 @@ export default function FoundationsPage() {
           <p className="mt-2 max-w-3xl text-cool-grey">{agency.placement}</p>
           <div className="mt-6 space-y-5">
             {principles.map((p) => (
-              <div key={p.id} className="rounded-lg border border-cool-grey/20 bg-white p-5 shadow-sm">
+              <div
+                key={p.id}
+                id={p.id}
+                className="scroll-mt-24 rounded-lg border border-cool-grey/20 bg-white p-5 shadow-sm"
+              >
                 <div className="flex items-baseline gap-3">
                   <span className="font-heading text-2xl font-bold text-olive">{p.number}</span>
                   <h3 className="font-heading text-lg font-semibold text-dark-navy">{p.statement}</h3>

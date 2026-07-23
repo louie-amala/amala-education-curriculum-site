@@ -75,28 +75,43 @@ export default async function CompetencyPage({ params }: { params: Promise<{ cod
         </ol>
       </section>
 
-      {/* Reverse web: where this competency is evidenced */}
+      {/* Reverse web: where learners develop and demonstrate this competency */}
       <section className="mt-10">
         <h2 className="font-heading text-xl font-semibold text-dark-navy">
-          Evidenced in {evidence.length} {evidence.length === 1 ? "objective" : "objectives"}
+          Where learners develop and demonstrate this
         </h2>
         {evidence.length === 0 ? (
-          <p className="mt-2 text-cool-grey">No course objective currently evidences this competency.</p>
+          <p className="mt-2 text-cool-grey">
+            No course objective currently offers an opportunity to develop this competency.
+          </p>
         ) : (
-          <ul className="mt-4 space-y-4">
-            {evidence.map((e, i) => (
-              <li key={i} className="rounded-lg border border-cool-grey/20 bg-white p-4 shadow-sm">
-                <Link
-                  href={`/courses/${e.courseSlug}`}
-                  className="font-heading font-semibold text-navy hover:underline"
-                >
-                  {e.courseTitle}
-                </Link>
-                <p className="mt-1 text-sm font-medium text-dark-navy">{e.objectiveStatement}</p>
-                <p className="mt-1 text-sm text-cool-grey">{e.condition}</p>
-              </li>
-            ))}
-          </ul>
+          <>
+            <p className="mt-1 max-w-2xl text-sm text-dark-navy/70">
+              Working towards these {evidence.length}{" "}
+              {evidence.length === 1 ? "objective" : "objectives"} gives learners an opportunity to
+              develop and demonstrate proficiency in this competency. The clause shown is what would
+              generate evidence of it.
+            </p>
+            <ul className="mt-4 space-y-3">
+              {evidence.map((e, i) => (
+                <li key={i} className="rounded-lg border border-cool-grey/20 bg-white p-4 shadow-sm">
+                  <Link
+                    href={`/objectives/${e.objectiveId}`}
+                    className="font-medium text-dark-navy hover:text-navy hover:underline"
+                  >
+                    {e.objectiveStatement}
+                  </Link>
+                  <p className="mt-1 text-sm text-dark-navy/70">{e.condition}</p>
+                  <Link
+                    href={`/courses/${e.courseSlug}`}
+                    className="mt-1 inline-block text-xs font-medium uppercase tracking-wide text-cool-grey hover:text-navy hover:underline"
+                  >
+                    {e.courseTitle}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </>
         )}
       </section>
     </main>

@@ -98,7 +98,13 @@ export default async function ObjectivePage({ params }: { params: Promise<{ id: 
       {/* Competencies this objective may evidence */}
       {objective.competencyEvidence.length > 0 && (
         <section className="mt-10">
-          <h2 className="font-heading text-xl font-semibold text-dark-navy">May evidence</h2>
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">
+            Develop and demonstrate proficiency in
+          </h2>
+          <p className="mt-1 max-w-2xl text-sm text-dark-navy/70">
+            Working towards this objective gives learners an opportunity to develop and demonstrate
+            proficiency in these competencies. The clause shown is what would generate evidence of it.
+          </p>
           <ul className="mt-3 space-y-2">
             {objective.competencyEvidence.map((ev, i) => {
               const c = getCompetencyByCode(ev.code);

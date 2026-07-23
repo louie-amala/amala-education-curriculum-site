@@ -5,6 +5,7 @@ import { Prose } from "@/components/Prose";
 import {
   agency as agencyDoc,
   getCompetencyByCode,
+  getEvidenceConditionsForMaterial,
   getMaterial,
   getObjectiveById,
   getPrinciple,
@@ -29,6 +30,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
   const m = getMaterial(slug);
   if (!m) notFound();
   const t = typeMeta(m.type);
+  const conditions = getEvidenceConditionsForMaterial(m);
 
   return (
     <main className="mx-auto max-w-4xl px-6 py-12">
@@ -50,43 +52,78 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         )}
       </p>
 
-      {/* Pedagogical spine */}
-      <section className="mt-8 grid gap-4 sm:grid-cols-3">
-        <div className="rounded-lg border border-cool-grey/20 bg-white p-4">
-          <h2 className="text-xs font-semibold uppercase tracking-wide text-cool-grey">Builds agency</h2>
-          <ul className="mt-2 space-y-1 text-sm font-medium text-dark-navy">
+      {/* Why this material earns its place — each link explained */}
+      <section className="mt-8 divide-y divide-cool-grey/15 overflow-hidden rounded-xl border border-cool-grey/20 bg-white">
+        <div className="p-5">
+          <p className="text-xs font-semibold uppercase tracking-widest text-orange">
+            Builds agency for positive change
+          </p>
+          <div className="mt-2 flex flex-wrap gap-2">
             {m.agencyContribution.indicators.map((i) => (
-              <li key={i}>{INDICATOR_LABEL[i] ?? i}</li>
+              <span
+                key={i}
+                className="rounded-full bg-orange/10 px-3 py-1 text-sm font-medium text-dark-navy"
+              >
+                {INDICATOR_LABEL[i] ?? i}
+              </span>
             ))}
-          </ul>
+          </div>
           {m.agencyContribution.how && (
-            <p className="mt-2 border-t border-cool-grey/15 pt-2 text-sm text-dark-navy/80">
-              {m.agencyContribution.how}
-            </p>
+            <p className="mt-3 text-sm leading-relaxed text-dark-navy/75">{m.agencyContribution.how}</p>
           )}
         </div>
-        <div className="rounded-lg border border-cool-grey/20 bg-white p-4">
-          <h2 className="text-xs font-semibold uppercase tracking-wide text-cool-grey">Foregrounds principles</h2>
-          <ul className="mt-2 space-y-1 text-sm text-dark-navy">
+
+        <div className="p-5">
+          <p className="text-xs font-semibold uppercase tracking-widest text-plum">
+            Foregrounds principles
+          </p>
+          <ul className="mt-3 space-y-3">
             {m.principlesForegrounded.map((pid) => {
               const p = getPrinciple(pid);
-              return <li key={pid}>{p ? p.statement : pid}</li>;
+              if (!p) return <li key={pid}>{pid}</li>;
+              return (
+                <li key={pid}>
+                  <Link
+                    href={`/foundations#${pid}`}
+                    className="font-medium text-dark-navy hover:text-plum hover:underline"
+                  >
+                    {p.statement}
+                  </Link>
+                  <p className="mt-0.5 text-sm text-dark-navy/70">{p.gloss}</p>
+                </li>
+              );
             })}
           </ul>
         </div>
-        <div className="rounded-lg border border-cool-grey/20 bg-white p-4">
-          <h2 className="text-xs font-semibold uppercase tracking-wide text-cool-grey">May evidence</h2>
-          <ul className="mt-2 flex flex-wrap gap-1">
-            {m.competencyCodes.map((code) => (
-              <li key={code}>
-                <Link
-                  href={`/competencies/${code.toLowerCase()}`}
-                  className="rounded bg-navy/10 px-1.5 py-0.5 font-mono text-xs text-navy hover:underline"
-                >
-                  {code}
-                </Link>
-              </li>
-            ))}
+
+        <div className="p-5">
+          <p className="text-xs font-semibold uppercase tracking-widest text-navy">
+            Develop and demonstrate proficiency in
+          </p>
+          <p className="mt-1 text-sm text-dark-navy/70">
+            Working towards this material&rsquo;s objectives gives learners an opportunity to develop
+            and demonstrate proficiency in these competencies.
+          </p>
+          <ul className="mt-3 space-y-3">
+            {m.competencyCodes.map((code) => {
+              const c = getCompetencyByCode(code);
+              const conds = conditions.get(code) ?? [];
+              return (
+                <li key={code}>
+                  <Link
+                    href={`/competencies/${code.toLowerCase()}`}
+                    className="font-medium text-dark-navy hover:text-navy hover:underline"
+                  >
+                    <span className="font-mono text-xs text-cool-grey">{code}</span> {c?.title ?? code}
+                  </Link>
+                  {conds.map((cond, j) => (
+                    <p key={j} className="mt-0.5 text-sm text-dark-navy/70">
+                      {cond}
+                    </p>
+                  ))}
+                </li>
+              );
+            })}
           </ul>
         </div>
       </section>
@@ -245,11 +282,6 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         )}
       </section>
 
-      {m.provenanceNote && (
-        <p className="mt-10 border-t border-cool-grey/20 pt-4 text-xs text-cool-grey">
-          {m.provenanceNote}
-        </p>
-      )}
     </main>
   );
 }
