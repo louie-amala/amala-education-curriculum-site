@@ -1,0 +1,18 @@
+id: moderation
+slug: moderation
+access: public
+term: Moderation
+category: assessment
+matchPhrases:
+  - moderation
+definition: >-
+  The process by which educators compare and agree their judgements of learner proficiency, so that a
+  level means the same thing across different educators, cohorts, and delivery partners.
+examples:
+  - Two facilitators independently judging the same evidence, then discussing where they differed
+nonExamples:
+  - One educator deciding a level alone and never checking it against anyone else
+useInContext: >-
+  Shared definitions matter most in moderation, where a difference in what a word means becomes a
+  difference in the level a learner is awarded.
+relatedTermIds: [proficiency, scenario]

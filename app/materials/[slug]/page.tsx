@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { GlossedText } from "@/components/GlossedText";
 import { Prose } from "@/components/Prose";
 import {
   agency as agencyDoc,
+  findGlossaryMatches,
   getCompetencyByCode,
   getEvidenceConditionsForMaterial,
   getMaterial,
@@ -32,6 +34,17 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
   const t = typeMeta(m.type);
   const conditions = getEvidenceConditionsForMaterial(m);
 
+  // Plan glossary marking in reading order so each term links once per page.
+  const usedTerms = new Set<string>();
+  const takeSkip = (s?: string | null) => {
+    const snapshot = [...usedTerms];
+    if (s) findGlossaryMatches(s, usedTerms).forEach((g) => usedTerms.add(g.slug));
+    return snapshot;
+  };
+  const summarySkip = takeSkip(m.summary);
+  const notesSkip = takeSkip(m.facilitationNotes);
+  const stepSkips = m.steps.map((s) => takeSkip(s.guidance));
+
   return (
     <main className="mx-auto max-w-4xl px-6 py-12">
       <nav className="text-sm text-cool-grey">
@@ -43,7 +56,11 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         {m.toolsFacet ? ` · ${m.toolsFacet}` : ""}
       </span>
       <h1 className="mt-2 font-heading text-3xl font-bold text-navy">{m.title}</h1>
-      {m.summary && <p className="mt-2 text-lg text-dark-navy">{m.summary}</p>}
+      {m.summary && (
+        <p className="mt-2 text-lg text-dark-navy">
+          <GlossedText text={m.summary} skip={summarySkip} />
+        </p>
+      )}
       <p className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm text-cool-grey">
         {m.duration && <span>⏱ {m.duration}</span>}
         {m.grouping && <span>👥 {m.grouping}</span>}
@@ -75,10 +92,16 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
 
         <div className="p-5">
           <p className="text-xs font-semibold uppercase tracking-widest text-plum">
-            Foregrounds principles
+            Principles in the learning design
+          </p>
+          <p className="mt-1 text-sm text-dark-navy/70">
+            How the design of this {t.label.toLowerCase()} puts Amala&rsquo;s principles into practice.
           </p>
           <ul className="mt-3 space-y-3">
-            {m.principlesForegrounded.map((pid) => {
+            {(m.principleAlignment.length > 0
+              ? m.principleAlignment
+              : m.principlesForegrounded.map((pid) => ({ principle: pid, how: "" }))
+            ).map(({ principle: pid, how }) => {
               const p = getPrinciple(pid);
               if (!p) return <li key={pid}>{pid}</li>;
               return (
@@ -89,7 +112,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
                   >
                     {p.statement}
                   </Link>
-                  <p className="mt-0.5 text-sm text-dark-navy/70">{p.gloss}</p>
+                  <p className="mt-0.5 text-sm text-dark-navy/70">{how || p.gloss}</p>
                 </li>
               );
             })}
@@ -101,13 +124,16 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
             Develop and demonstrate proficiency in
           </p>
           <p className="mt-1 text-sm text-dark-navy/70">
-            Working towards this material&rsquo;s objectives gives learners an opportunity to develop
-            and demonstrate proficiency in these competencies.
+            How this {t.label.toLowerCase()} gives learners the chance to build proficiency, and to
+            show it.
           </p>
           <ul className="mt-3 space-y-3">
-            {m.competencyCodes.map((code) => {
+            {(m.competencyDevelopment.length > 0
+              ? m.competencyDevelopment
+              : m.competencyCodes.map((code) => ({ code, how: "" }))
+            ).map(({ code, how }) => {
               const c = getCompetencyByCode(code);
-              const conds = conditions.get(code) ?? [];
+              const fallback = (conditions.get(code) ?? [])[0] ?? "";
               return (
                 <li key={code}>
                   <Link
@@ -116,11 +142,9 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
                   >
                     <span className="font-mono text-xs text-cool-grey">{code}</span> {c?.title ?? code}
                   </Link>
-                  {conds.map((cond, j) => (
-                    <p key={j} className="mt-0.5 text-sm text-dark-navy/70">
-                      {cond}
-                    </p>
-                  ))}
+                  {(how || fallback) && (
+                    <p className="mt-0.5 text-sm text-dark-navy/70">{how || fallback}</p>
+                  )}
                 </li>
               );
             })}
@@ -157,7 +181,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         <section className="mt-8">
           <h2 className="font-heading text-xl font-semibold text-dark-navy">Facilitation notes</h2>
           <div className="mt-3 rounded-lg border border-cool-grey/20 bg-white p-5">
-            <Prose text={m.facilitationNotes} />
+            <Prose text={m.facilitationNotes} gloss skip={notesSkip} />
           </div>
         </section>
       )}
@@ -179,7 +203,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
                 </div>
                 {step.guidance && (
                   <div className="mt-2 text-sm">
-                    <Prose text={step.guidance} />
+                    <Prose text={step.guidance} gloss skip={stepSkips[i]} />
                   </div>
                 )}
                 {step.keyPrompts.length > 0 && (

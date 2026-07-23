@@ -7,54 +7,157 @@ summary: >-
   Learners pull together their primary and secondary research into a clear report or
   presentation on their challenge and share it with peers or community members.
 facilitationContext: [group, independent]
-educatorContent: |
-  This activity closes the first objective. Learners have gathered fieldwork and
-  desk-research evidence; now they make sense of it, find the patterns, and communicate
-  what they have learned so their understanding contributes to a wider conversation.
-
-  Begin with synthesis before presentation. A strong route is affinity mapping: learners
-  write each piece of research (a quote, a statistic, an observation) on a separate note,
-  then group related notes to surface themes. Ask them to name each cluster, notice
-  outliers, and write insight statements such as "A lot of people mentioned..., which
-  might tell us that...". This is where the analysis happens, so give it real time and
-  push learners to support claims with evidence rather than opinion. Encourage them to
-  revisit and update their systems map or iceberg with anything new.
-
-  Then support learners to turn their insights into a product suited to their audience:
-  a short report, a presentation, a poster, an infographic or a short video. The key
-  requirement is that it states the challenge clearly, is grounded in cited evidence,
-  and is genuinely shared, with classmates as a minimum and with community members where
-  possible. Build in a peer feedback round using prompts such as what stood out, what
-  questions remain, and what we can learn from this.
-
-  Watch for products that describe sources without drawing conclusions, and for claims
-  that outrun the evidence. Remind learners that this is a checkpoint in their
-  understanding, not the final word, and that it feeds directly into developing a
-  solution idea. Timing: roughly two hours to synthesise and one to two hours to
-  produce and share, plus independent production time.
-learnerContent: |
-  You have gathered a lot of research about your challenge. Now bring it together, work
-  out what it is telling you, and share it.
-
-  **Make sense of your research.** Write each piece of evidence you have gathered (a
-  quote, a fact, an observation) on its own note. Group the notes that belong together
-  and give each group a name. Look for patterns and for anything that does not fit. Then
-  write a few insight statements, for example:
-  - "A lot of people mentioned..., which might tell us that..."
-  - "It seems like a key issue is... because..."
-
-  Update your systems map or iceberg with anything new you now understand.
-
-  **Create your report or presentation.** Turn your insights into something you can
-  share: a short written report, a slide presentation, a poster, an infographic or a
-  short video. Whatever the format, it should:
-  - State clearly what the challenge is and who it affects.
-  - Explain what you found and what it means, backed by your evidence.
-  - Cite your sources so people can trust and check your findings.
-
-  **Share it.** Present it to your classmates, and to community members where you can.
-  Invite questions and note what people are curious about, as this will help shape the
-  solution you develop next.
+duration: About 4 hours of class time, plus independent production time
+grouping: Individual or in project groups; works with 15-35 learners
+whatLearnersDo:
+  - Lay out everything you have gathered so you can see all your research in one place.
+  - Group related pieces of evidence and name the themes that emerge.
+  - Write insight statements that say what your evidence means, not just what it says.
+  - Update your systems map and iceberg with what you now understand.
+  - Turn your insights into a report, presentation, poster, infographic or short video, and share it.
+materialsAndPreparation:
+  - Sticky notes and large paper or wall space, or a shared digital board, for the affinity map.
+  - Every learner's full research materials to hand, including interview notes, survey responses, field notes and their evidence log.
+  - Learners' earlier ecosystem maps and iceberg models, so they can be updated rather than redrawn.
+  - Pens in at least two colours, so additions and changes stay visible.
+  - A short worked example of an insight statement built from three or four pieces of evidence.
+  - Whatever production tools are realistically available, from poster paper and marker pens to slides or a phone camera.
+  - An audience arranged for the sharing session, classmates as a minimum and community members where possible.
+facilitationNotes: |
+  This activity closes the first objective, and its real work is analysis rather than
+  presentation. Learners arrive with a pile of interviews, survey responses, notes and
+  sources; the point is that they make sense of it before they make anything out of it.
+  The one thing to get right is the move from theme to insight. Naming a cluster
+  "transport" is sorting, not thinking; saying what the pattern in that cluster tells
+  them about the challenge, and pointing at the evidence behind it, is the analysis this
+  objective is assessed on. Protect the synthesis time even if the product ends up
+  simpler than learners hoped, and keep reminding them this is a checkpoint in their
+  understanding rather than the final word on the challenge.
+steps:
+  - title: Lay out everything you have gathered
+    duration: 20-30 min
+    guidance: |
+      Ask learners to work back through every interview note, survey response,
+      observation and source summary, writing one piece of information per note: a
+      direct quote, a statistic, a fact, a field observation. Notes should be short
+      enough to read at a glance and must carry a marker showing where the information
+      came from, so any claim can be traced back later. Expect this to feel slow; it is
+      the last point at which forgotten evidence can be recovered.
+    keyPrompts:
+      - Which parts of your research have you not looked at since the day you collected them?
+      - Reading this note on its own, could you say where it came from?
+      - Is this one idea, or three ideas that need separating?
+    watchOuts:
+      - Learners summarise a whole interview on a single note; ask them to split it so each note holds one idea that can be moved and grouped on its own.
+      - Only the tidy evidence makes it onto the wall, and awkward or contradictory findings quietly disappear; ask specifically for the things that did not fit expectations.
+    adaptation: |
+      This step needs paper and pens and nothing else, so it works fully offline. Where
+      class time is short, learners can write their notes at home and bring them to the
+      session ready to sort.
+  - title: Cluster the notes and name the themes
+    duration: 30-40 min
+    guidance: |
+      Learners group related notes without deciding the categories in advance, letting
+      clusters form, break up and re-form as they go. Once the groups settle, each
+      cluster gets a name that says what unites it. Give real attention to the notes
+      that refuse to sit anywhere, because outliers often point at something the rest of
+      the evidence is hiding.
+    keyPrompts:
+      - In one sentence, what actually unites the notes in this cluster?
+      - Which notes fit nowhere, and what might that be telling you?
+      - Whose voice is missing from this whole map?
+    watchOuts:
+      - Learners sort notes into the categories they already had in mind, so the map only confirms their assumptions; ask them to build at least one cluster they did not expect, or to re-sort one group by a completely different logic.
+      - Groups rush to tidy the wall; slow them down, since the arguing about where a note belongs is the thinking.
+    adaptation: |
+      Sticky notes on a wall, cards on a table or a notebook page per theme all work
+      equally well, so no digital board is needed. Learners working alone can do this on
+      a floor or a table and photograph the result to share.
+  - title: Turn clusters into insight statements
+    duration: 30-40 min
+    guidance: |
+      This is where the analysis happens, so give it more time than feels comfortable.
+      Model an insight built openly from three or four notes, then ask learners to write
+      several of their own using sentence starters such as "A lot of people mentioned
+      ... which might tell us that ..." or "It seems like a key issue is ... because
+      ...". Every insight must point at the specific notes behind it. Where sources
+      disagree, the disagreement goes into the insight rather than being smoothed away.
+    keyPrompts:
+      - Which notes is this insight built on, and how many of them are there?
+      - What is the strongest argument against the insight you have just written?
+      - Where did two sources tell you different things, and what do you make of that?
+    watchOuts:
+      - Insights restate the theme name instead of saying what it means; push learners from naming that people talked about transport to saying what that pattern implies about the challenge.
+      - Claims outrun the evidence, and three responses become "everyone says"; ask learners to write the number of sources behind each claim next to it.
+    adaptation: |
+      This step needs thinking time rather than materials, so it works well as
+      independent work between sessions, with learners bringing draft insights back for
+      the group to challenge.
+  - title: Update your systems map and iceberg
+    duration: 20-30 min
+    guidance: |
+      Learners return to the ecosystem map and iceberg they built earlier and add what
+      the research has changed, using a second colour so every change stays visible.
+      Some assumptions will now be confirmed, some contradicted, and new stakeholders or
+      deeper causes will have appeared. Ask them to keep the earlier version rather than
+      redrawing from scratch.
+    keyPrompts:
+      - What did you assume at the start that your research has now shown to be wrong?
+      - What sits below the surface of this challenge that you could not see before?
+      - Which parts of this map are still guesses you have never checked?
+    watchOuts:
+      - Learners produce a neat new map and lose the record of what changed; insist the old version is kept alongside it, since the change itself is evidence of their learning.
+    adaptation: |
+      Maps can be updated on the original paper and photographed. For asynchronous
+      groups, learners post before-and-after photographs to a shared folder or group chat
+      with one line on what changed.
+  - title: Build the report or presentation
+    duration: 60-90 min, plus independent production time
+    guidance: |
+      Learners choose a format that suits their audience and the tools they actually
+      have: a short written report, slides, a poster, an infographic or a short video.
+      Whatever the format, it must state clearly what the challenge is and who it
+      affects, explain what they found and what it means, and cite its sources so
+      others can check the evidence. Keep pushing for the meaning to arrive early rather
+      than being buried at the end.
+    keyPrompts:
+      - Who is your audience, and what do you want them to understand or do afterwards?
+      - If someone read or heard only your opening, what would they take away?
+      - Which claim in here would a sceptical listener challenge first, and what backs it up?
+    watchOuts:
+      - Products walk through the sources one by one and never draw a conclusion; require a plain statement of what the research means near the start.
+      - Learners choose a format they cannot finish, such as a video needing editing software they do not have; agree the format against the time, tools and connectivity actually available.
+    adaptation: |
+      A poster, or a spoken report supported by one sheet of notes, needs no devices at
+      all and can be produced entirely offline. Where the group meets rarely, production
+      happens between sessions and only the sharing needs everyone present.
+  - title: Share it and collect the questions
+    duration: 40-60 min
+    guidance: |
+      Learners present to classmates as a minimum, and to community members, family or
+      staff where that can be arranged. Give listeners a specific job rather than leaving
+      feedback open, and ask presenters to write down every question they are asked,
+      since those questions shape what they investigate or design next.
+    keyPrompts:
+      - What stood out to you in this, and why?
+      - What questions do you still have about this challenge?
+      - What would you need to know before you believed this finding?
+    watchOuts:
+      - Feedback stays polite and general; give each listener one required contribution, for example a question they still have and one claim they would want more evidence for.
+      - Presenters answer every question defensively; remind them that an unanswerable question is a useful research finding, not a failure.
+    adaptation: |
+      Where the group cannot gather, learners share recordings, voice notes or
+      photographs of posters in a shared folder or group chat, and each learner comments
+      on two others. Where community members cannot attend, a single printed copy left
+      with a local organisation, or a short conversation with one community member, still
+      counts as sharing beyond the classroom.
+closing: |
+  Ask each learner to name the one insight they are most confident in and the one
+  question their research still cannot answer. Collect the unanswered questions
+  somewhere visible, because they are the starting point for developing a solution
+  idea in the next objective. Close by reminding learners that this report is a
+  checkpoint in their understanding rather than the final word, and that they will keep
+  returning to their evidence, their map and their iceberg as the work continues.
 agencyContribution:
   indicators: [contribution-to-community]
   how: >-
@@ -67,6 +170,9 @@ objectiveIds: [social-entrepreneurship--o1]
 relatedSlugs: [affinity-mapping, iceberg-model, stakeholder-community-mapping, community-mapping-and-empathy-interviews, evidence-log-and-source-evaluation]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
-  Grounded in the 2025 course planner (Part 3 affinity mapping and the literature-review
-  write-up) and the SE course guide objective 1 furtherDetails (research report or
-  presentation shared with classmates or community; posters, infographics, videos).
+  Enriched into a structured facilitation flow (duration, grouping, steps with prompts,
+  watch-outs and low-bandwidth adaptations) from the earlier prose version. Grounded in
+  the 2025 course planner (Part 3 affinity mapping, the literature-review write-up, and
+  ecosystem and iceberg take 2) and the SE course guide objective 1 furtherDetails
+  (research report or presentation shared with classmates or community; posters,
+  infographics, presentations or short videos).

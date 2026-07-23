@@ -1,0 +1,17 @@
+id: systems-thinking
+slug: systems-thinking
+access: public
+term: Systems thinking
+category: content
+matchPhrases:
+  - systems thinking
+definition: >-
+  A way of looking at a problem that focuses on the relationships, patterns, structures, and beliefs
+  behind visible events, rather than treating each event on its own.
+examples:
+  - Asking why a shortage keeps recurring rather than only responding to this month's shortage
+nonExamples:
+  - Treating each incident as an isolated one-off
+useInContext: >-
+  The iceberg model is a common tool for putting systems thinking into practice.
+relatedTermIds: [wicked-problem, leverage-point, stakeholder-mapping]

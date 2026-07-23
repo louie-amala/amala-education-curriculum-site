@@ -8,55 +8,136 @@ summary: >-
   ethically and sustainably while generating revenue, then refine it into a clear
   concept statement using feedback and testing.
 facilitationContext: [group, one-to-one-mentoring]
-educatorContent: |
+duration: About 3 to 4 hours across drafting, feedback and revision
+grouping: Project groups or individuals, with one-to-one mentoring where it can be arranged; works with 15-35 learners
+whatLearnersDo:
+  - Look back at what your testing actually showed before you write anything down.
+  - Map your idea onto a social business model canvas so the gaps become visible.
+  - Draft a short concept note that a stranger could read and understand.
+  - Explain how the idea sustains itself financially and how it stays ethical.
+  - Take structured feedback and cut the note down to one clear concept statement.
+materialsAndPreparation:
+  - A social business model canvas per group, printed or drawn on large paper.
+  - A concept note structure or template with headings, so learners are shaping content rather than inventing a format.
+  - Each group's testing log, evidence and earlier financial modelling work to hand.
+  - Feedback prompts printed for the peer round, so listeners have a fixed job.
+  - Mentoring slots booked in advance where mentors or additional educators are available.
+  - A short worked example of a weak concept statement alongside a strong one, for comparison.
+facilitationNotes: |
   This activity consolidates the second objective. After testing, learners pin their
-  thinking down in writing: a concept note that explains what their enterprise does, why
-  it matters, how it addresses the challenge, and how it stays ethical, sustainable and
-  financially viable. The note is both a thinking tool and a foundation for the pitch
-  work that follows.
-
-  Give learners a clear structure to draft against. A social business model canvas is a
-  useful frame: problem and solution fit, value proposition (the social or environmental
-  benefit), key stakeholders and partners, and a simple revenue and cost picture. Draw on
-  the earlier money-making versus problem-solving and financial-modelling work so
-  learners can say, at least roughly, how income would come in and what it would cost to
-  run. Where a project rests on scientific or environmental understanding, encourage
-  learners to use that understanding to justify why the idea should work.
-
-  Treat this as iterative, not one-and-done. Run structured peer feedback (what is
-  strong and clear, what is unclear, what would you ask as a supporter, does it make you
-  want to get involved) and, where possible, light one-to-one mentoring to help each
-  group tighten their concept. Learners then revise towards a clear concept statement or
-  refined prototype.
-
-  Watch for concept notes that describe a nice activity but never explain the revenue
-  model, for vague value propositions, and for claims of impact with no grounding in
-  their testing. Push for honesty about tradeoffs and for language a non-expert could
-  follow. Timing: about two to four hours across drafting, feedback and revision.
-learnerContent: |
-  It is time to put your idea into words. You will write a short concept note, then
-  refine it into a clear statement of what your social enterprise is.
-
-  **Draft your concept note.** Explain, clearly enough for someone new to follow:
-  - **The challenge and who it affects**, based on your research.
-  - **Your solution:** what your enterprise does, and how it addresses the challenge.
-  - **The benefit:** what social or environmental good it creates (your value
-    proposition).
-  - **Who is involved:** the key people, partners or stakeholders you need.
-  - **How it sustains itself:** roughly how money or resources would come in, and what
-    it would cost to run.
-  - **Why it is responsible:** how it stays ethical, inclusive and sustainable.
-
-  You can organise this using a social business model canvas.
-
-  **Get feedback and refine.** Share your draft with peers or a mentor and ask:
-  - What is strong and clear?
-  - What is unclear or missing?
-  - As a possible supporter, what would you want to know?
-
-  Use the feedback, and what you learned from testing, to revise your note into a clear
-  concept statement: a short, confident description of your enterprise that you could
-  build a pitch around.
+  thinking down in writing: what the enterprise does, why it matters, how it addresses
+  the challenge, and how it stays ethical, sustainable and financially viable. The note
+  is a thinking tool first and a document second, and it becomes the foundation for the
+  pitch work that follows. The one thing to get right is the money. Learners write
+  warmly about impact and then go quiet about how anything is paid for, so hold the line
+  that a social enterprise concept is incomplete until it says, at least roughly, where
+  income or resources come in and what it costs to run. Treat the note as iterative
+  rather than a single submission, and judge it on whether someone new to the idea could
+  follow it.
+steps:
+  - title: Take stock of what testing changed
+    duration: 20-30 min
+    guidance: |
+      Before any drafting, each group reviews its testing log and answers what they
+      tested, what worked and why, what did not, and what feedback they received from
+      users, peers and mentors. Then they sort their thinking into what to continue,
+      what to stop and what to adapt. This keeps the concept note anchored in evidence
+      rather than in the version of the idea they started with.
+    keyPrompts:
+      - What do you now know that you did not know before you tested?
+      - Which part of the original idea has quietly disappeared, and should it?
+      - Has your understanding of the problem itself changed?
+    watchOuts:
+      - Groups write the concept note from memory and never open the testing log; require at least three specific findings to be named before drafting begins.
+    adaptation: |
+      This works as a short written reflection set as independent work, with the sorting
+      into continue, stop and adapt done at the start of the next session.
+  - title: Work through a social business model canvas
+    duration: 45-60 min
+    guidance: |
+      Introduce the canvas as a way of seeing the whole idea at once, then give groups
+      real time to fill it in. Focus on the sections that matter most here: whether the
+      idea still fits the problem, the value proposition and the social or environmental
+      benefit it delivers, the key stakeholders and partners needed for it to work, and a
+      first picture of costs and income. The empty boxes are the point, because they show
+      where the thinking has not happened yet.
+    keyPrompts:
+      - Who exactly benefits, and what changes for them?
+      - Who has to say yes for this to be possible at all?
+      - Which box is empty because it is genuinely uncertain, and which because you have avoided it?
+    watchOuts:
+      - Learners fill every box with something plausible so it looks finished; praise honest blanks and ask what they would need to find out to fill them.
+      - The value proposition is written as an activity rather than a benefit, for example running workshops instead of what changes because the workshops happen.
+    adaptation: |
+      The canvas can be drawn on a single sheet of paper or in a notebook and needs no
+      digital tool. Groups working apart can each complete a copy and compare
+      photographs, which usefully exposes where members disagree.
+  - title: Draft the concept note
+    duration: 45-60 min
+    guidance: |
+      Learners turn the canvas into a short piece of continuous writing covering the
+      challenge and who it affects, what the enterprise does and how it addresses that
+      challenge, the benefit it creates, who needs to be involved, how it sustains itself
+      financially, and how it stays ethical, inclusive and responsible. Draw directly on
+      the earlier money-making versus problem-solving and financial modelling work so the
+      revenue section has some grounding. Insist on language a non-expert could follow.
+    keyPrompts:
+      - Where does the money or the resource come from, in one sentence?
+      - What does this cost to run for a month, roughly?
+      - Could someone who has never met you read this and explain it back to you?
+      - Who could be harmed or left out by this idea, and what would you do about that?
+    watchOuts:
+      - The note describes a worthwhile activity but never explains the revenue model; treat it as unfinished until income and costs appear, however rough the numbers.
+      - Impact claims outrun the testing, so a single positive conversation becomes proof of demand; ask which line of the testing log supports each claim.
+      - Learners hide uncertainty behind vague wording; make it explicit that naming what is still unknown reads as strength rather than weakness.
+    adaptation: |
+      Drafting is well suited to independent work between sessions. Where writing at
+      length is a barrier, learners can record the note as a spoken explanation and
+      transcribe the key points into the structure afterwards.
+  - title: Run a structured feedback round
+    duration: 40-50 min
+    guidance: |
+      Groups share their draft with peers, and with a mentor or educator one to one where
+      that is possible. Give listeners fixed prompts rather than open comment: what is
+      strong and clear, what is unclear or missing, what they would want to know as a
+      potential supporter, and whether it makes them want to get involved. Ask each group
+      to write the feedback down as it comes, since they will not remember it accurately
+      afterwards.
+    keyPrompts:
+      - What did you understand this enterprise to actually do?
+      - What question would you ask before you gave them any time or money?
+      - What did you not believe, and what would change your mind?
+    watchOuts:
+      - Groups explain their idea verbally so well that the note is never really tested; have listeners read the note first, in silence, before anyone speaks.
+      - Feedback is collected and immediately argued with; ask the receiving group to only ask clarifying questions during the round, and to decide what to act on afterwards.
+    adaptation: |
+      Where mentors cannot attend, a mentor can read one or two notes and reply by voice
+      note or message. Between-session feedback can be run by passing printed notes
+      around with a comment sheet attached.
+  - title: Cut it down to a clear concept statement
+    duration: 30-40 min
+    guidance: |
+      Learners revise the note using the feedback and what testing taught them, then
+      distil it into a short concept statement: a confident description of what the
+      enterprise is, who it serves, what it changes and how it sustains itself, in a few
+      sentences. This statement is what the pitch will be built on, so it should be
+      sayable out loud without reading.
+    keyPrompts:
+      - Can you say what this is in three sentences, without notes?
+      - Which words in here would a person outside this course not understand?
+      - What did you cut, and are you sure it was not the most important part?
+    watchOuts:
+      - The statement becomes a slogan with no substance; check it still names the problem, the users and the way the enterprise keeps going.
+      - Groups treat this as final; make clear the statement will keep changing as the pitch work continues.
+    adaptation: |
+      Learners can test the statement by saying it to someone outside the course, in
+      person or by phone, and reporting back what that person understood it to mean.
+closing: |
+  Ask each group to read their concept statement aloud and to name one thing about the
+  idea they are still unsure of. Collect those uncertainties, since several of them will
+  become the questions the pitch audience asks. Learners keep the concept note as a
+  living document, updating it as their thinking changes, and carry both the note and
+  the statement forward as the raw material for the pitch deck and concept brief.
 agencyContribution:
   indicators: [control-of-future-pathways]
   how: >-
@@ -68,9 +149,11 @@ objectiveIds: [social-entrepreneurship--o2]
 relatedSlugs: [business-model-canvas-concept-note, financial-modelling, prototype-testing-with-users, pitch-deck-and-concept-brief]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
-  Grounded in the 2025 course planner (Part 4 money-making vs problem-solving and
-  financial modelling; Part 5 refining the concept with the social business model
-  canvas) and the SE course guide objective 2 furtherDetails (drafting a concept note;
-  refinement cycles to a concept statement or prototype). FTS2 applies only where
-  learners draw on scientific understanding to justify the idea [to verify per learner
-  project].
+  Enriched into a structured facilitation flow (duration, grouping, steps with prompts,
+  watch-outs and low-bandwidth adaptations) from the earlier prose version. Grounded in
+  the 2025 course planner (Part 4 money-making vs problem-solving and financial
+  modelling; Part 5.1 refining the concept with the social business model canvas and
+  5.2 producing a business plan) and the SE course guide objective 2 furtherDetails
+  (drafting a concept note; refinement cycles to a concept statement or prototype).
+  FTS2 applies only where learners draw on scientific understanding to justify the idea
+  [to verify per learner project].

@@ -1,0 +1,21 @@
+id: wicked-problem
+slug: wicked-problem
+access: public
+term: Wicked problem
+category: content
+matchPhrases:
+  - wicked problems
+  - wicked problem
+definition: >-
+  A problem that is hard to define, has many interconnected causes, has no single correct solution,
+  and changes as you act on it. Most social and environmental challenges are wicked problems.
+examples:
+  - Youth unemployment in a region
+  - Access to clean water in a settlement
+nonExamples:
+  - A puzzle with one right answer
+  - Fixing a broken tap
+useInContext: >-
+  Learners use complexity thinking to investigate a wicked problem rather than looking for a single
+  fix.
+relatedTermIds: [systems-thinking, leverage-point]

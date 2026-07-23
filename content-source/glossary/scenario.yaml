@@ -1,0 +1,19 @@
+id: scenario
+slug: scenario
+access: public
+term: Scenario
+category: assessment
+matchPhrases:
+  - scenario
+definition: >-
+  A real situation in which a learner attempts or achieves the goal described by a competency. The
+  proficiency scale counts scenarios, so demonstrating the same competency across two or more
+  different situations is what separates the higher levels from the lower ones.
+examples:
+  - Running a community consultation, then later negotiating with a supplier, as two scenarios for the same competency
+nonExamples:
+  - Repeating the same task twice in the same context
+useInContext: >-
+  Expert Practitioner requires achieving the goal in two or more scenarios with evidenced
+  self-critique across them.
+relatedTermIds: [proficiency, moderation]

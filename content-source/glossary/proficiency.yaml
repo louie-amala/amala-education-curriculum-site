@@ -1,0 +1,20 @@
+id: proficiency
+slug: proficiency
+access: public
+term: Proficiency
+category: assessment
+matchPhrases:
+  - proficiency
+definition: >-
+  How far a learner can achieve the goal described by a competency, judged against the shared
+  five-level scale (No Level Awarded, Theorist, Practitioner, Reflective Practitioner, Expert
+  Practitioner) rather than against a mark or percentage.
+examples:
+  - A learner judged Reflective Practitioner because they achieved the goal and critiqued their approach with evidence
+nonExamples:
+  - A score out of ten for a finished piece of work
+  - A judgement about how hard a learner tried
+useInContext: >-
+  Objectives create opportunities for learners to develop and demonstrate proficiency in particular
+  competencies.
+relatedTermIds: [scenario, moderation, lifeworthy-competency]

@@ -214,8 +214,16 @@ export const FacilitationMaterialSchema = z.object({
   educatorContent: z.string().nullable().optional(),
   learnerContent: z.string().nullable().optional(),
   agencyContribution: AgencyContributionSchema,
+  // Legacy flat lists (still valid). Preferred are the explained forms below, which say HOW this
+  // specific material connects to each principle and competency.
   principlesForegrounded: z.array(z.string()).default([]),
   competencyCodes: z.array(z.string()).default([]),
+  principleAlignment: z
+    .array(z.object({ principle: z.string(), how: z.string() }))
+    .default([]),
+  competencyDevelopment: z
+    .array(z.object({ code: z.string(), how: z.string() }))
+    .default([]),
   objectiveIds: z.array(z.string()).default([]),
   relatedSlugs: z.array(z.string()).default([]),
   sourceRefs: z.array(z.string()).optional(),

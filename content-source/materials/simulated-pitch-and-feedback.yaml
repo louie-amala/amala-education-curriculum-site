@@ -7,48 +7,148 @@ summary: >-
   Learners rehearse their pitch in practice rounds with peers, facilitators or invited
   mentors, then adapt it in response to the feedback they receive.
 facilitationContext: [group]
-educatorContent: |
-  This activity sits between building pitch materials and delivering the final pitch. It
-  gives learners repeated, low-stakes practice and, crucially, cycles of feedback and
-  revision so that the final showcase is not their first attempt.
-
-  Structure it as several short rounds rather than one long rehearsal. Options that work
-  well: paired feedback swaps, rotating small-group pitch circles, practising to camera
-  and reflecting on the recording, and scheduled checkpoints with you or another
-  educator. Inviting a local entrepreneur or mentor to sit in on a practice round raises
-  the stakes helpfully and exposes learners to an outside perspective.
-
-  Give feedback structure. Useful prompts: what was clear and compelling? What could be
-  clarified or strengthened? Was the ask realistic and specific? Did the pitch generate
-  interest, and what helped or got in the way? A protocol such as the ladder of feedback
-  keeps it constructive. The essential move is that learners then revise: build in time
-  after each round to change the pitch, and encourage flexibility rather than defending
-  the first version.
-
-  Watch for feedback that stays vague or only positive, for learners who rehearse
-  without changing anything, and for nerves that flatten delivery. Normalise adapting
-  the pitch as a strength, not a sign the idea was wrong. Timing: fold into the roughly
-  ten hours of pitch development, running practice-and-revise cycles throughout.
-learnerContent: |
-  Your pitch gets stronger every time you practise it and act on feedback. In this
-  activity you will rehearse and improve before the real thing.
-
-  **Practise in rounds.** Deliver your pitch more than once, in different ways:
-  - Swap pitches with another person or group and give each other feedback.
-  - Take turns in small pitch circles.
-  - Record yourself and watch it back.
-  - Book a checkpoint with your facilitator or an invited mentor.
-
-  **Ask for focused feedback.** After each round, get answers to:
-  - What was clear and compelling?
-  - What could be clearer or stronger?
-  - Was my ask realistic and specific?
-  - Did it make you interested in the idea? What helped, and what got in the way?
-
-  **Adapt.** After each round, change something. Rework the parts that were unclear,
-  tighten your ask, and adjust your delivery. Being willing to change your pitch in
-  response to feedback is a strength, not a weakness. Keep going until your pitch feels
-  clear, confident and convincing.
+duration: About 3 to 4 hours of practice rounds, spread across the pitch development time
+grouping: Pairs, small circles and whole group; works with 15-35 learners
+whatLearnersDo:
+  - Agree with the group what a strong pitch actually contains before anyone rehearses.
+  - Deliver your pitch several times, in different formats and to different listeners.
+  - Ask for specific feedback rather than general encouragement.
+  - Change something after every round, including your ask and your timing.
+  - Arrive at the final pitch having already made your first mistakes in private.
+materialsAndPreparation:
+  - A shared list of the ingredients of a strong pitch, co-created with the group and displayed where everyone can see it.
+  - A pitch feedback form or set of fixed prompts, one per listener per round.
+  - A timer, and a clear time limit matching the final pitch format.
+  - A phone or camera for learners who want to record and review their delivery, where devices allow.
+  - Mentors, other educators or staff invited in advance for at least one round.
+  - A booking sheet for checkpoint slots, so every group gets one.
+  - The room set up for the format learners will actually face on the day, including standing space and any screen.
+facilitationNotes: |
+  This activity sits between building pitch materials and delivering the final pitch,
+  and its purpose is that the showcase is not the first time anyone hears the pitch out
+  loud. Run it as several short rounds threaded through the pitch development time
+  rather than one long rehearsal session. The one thing to get right is that revision
+  actually happens between rounds. Learners will happily rehearse the same flawed pitch
+  five times and call it practice, so build in protected time to change something after
+  every round and treat adapting the pitch as a strength rather than an admission that
+  the idea was wrong.
+steps:
+  - title: Agree what you are listening for
+    duration: 20-30 min
+    guidance: |
+      Before any rehearsal, build a shared list of what a strong pitch contains, letting
+      the group use their own words first. Draw out the problem and why it matters, the
+      solution and how it works, evidence from what they have tested, the change they
+      want to create, and the ask. Turn the list into the feedback prompts that will be
+      used in every round, so listeners have a job rather than an opinion.
+    keyPrompts:
+      - What made the strongest pitch you have ever heard work?
+      - Which of these ingredients is hardest to do well, and why?
+      - What does a good ask sound like, as opposed to a vague one?
+    watchOuts:
+      - The group produces a list of delivery tips only, about eye contact and confidence, and skips substance; make sure evidence and the ask are on the list before rehearsal starts.
+    adaptation: |
+      Where video examples cannot be shown, use a two-minute pitch of your own, or a
+      deliberately weak one for the group to improve, and build the list from discussion
+      alone.
+  - title: Run a first low-stakes paired round
+    duration: 30-40 min
+    guidance: |
+      Pair up groups and have them pitch to each other, timed, with no audience beyond
+      the pair. Keep the stakes deliberately low, since the aim is to find out what falls
+      apart when the pitch is spoken rather than written. Listeners respond using the
+      agreed prompts and write their feedback down so it survives the conversation.
+    keyPrompts:
+      - What did you understand the idea to be, in your own words?
+      - Where did you lose the thread?
+      - What did they ask you for, and was it clear enough to act on?
+    watchOuts:
+      - Presenters read their notes word for word and never look up; ask for the second attempt to be given with the notes face down, however rough it comes out.
+      - Pairs run over time and only the first half of the pitch is ever practised; keep the timer visible and stop pitches at the limit.
+    adaptation: |
+      Pairs can rehearse by phone or voice note where meeting is difficult, with feedback
+      returned as a short written or recorded reply against the same prompts.
+  - title: Change something before the next round
+    duration: 20-30 min
+    guidance: |
+      Give protected time immediately after the round for revision. Each group decides
+      what to change and makes the change there and then, rather than noting it for
+      later. Small structural moves usually matter most, such as putting the problem
+      first, cutting a section that lost the listener, or sharpening the ask.
+    keyPrompts:
+      - What is the one change that would make the biggest difference?
+      - What are you keeping only because you already made the slide?
+      - What could you cut entirely and lose nothing?
+    watchOuts:
+      - Groups agree the feedback was useful and change nothing; ask each group to name the specific change before they are allowed into the next round.
+      - Learners add material to answer every criticism until the pitch is far too long; for each addition, ask what comes out.
+    adaptation: |
+      Revision can be set as independent work between sessions, with each group posting
+      one line describing what they changed and why.
+  - title: Rotate through pitch circles or practise to camera
+    duration: 40-50 min
+    guidance: |
+      Raise the difficulty in the second round. Rotating small-group circles let each
+      group pitch to fresh listeners several times in one session, which quickly shows
+      which parts land consistently. Where devices allow, recording and watching the
+      pitch back is uncomfortable and unusually effective, particularly for pace and
+      filler words. Add unscripted questions at the end of each pitch so learners
+      practise answering rather than only presenting.
+    keyPrompts:
+      - How do you know that will work, and what evidence do you have?
+      - What happens if nobody pays for this?
+      - What would you do first if someone offered support tomorrow?
+    watchOuts:
+      - Question time becomes defensive; coach learners to say what they do not yet know and what they would do to find out, which reads as credible rather than weak.
+      - Learners watching their own recording focus only on appearance; give them two things to listen for, such as pace and whether the ask is audible.
+    adaptation: |
+      With no devices, replace the recording with a listener whose only job is to note
+      pace, volume and filler words. Circles work with as few as three groups, or can be
+      run as a single whole-group round in a small class.
+  - title: Book a checkpoint with a facilitator or mentor
+    duration: 15-20 min per group, scheduled across the phase
+    guidance: |
+      Schedule a short formative checkpoint for every group with you, another educator,
+      or an invited mentor such as a local entrepreneur or an Amala staff member. An
+      outside listener changes the stakes helpfully and often asks the practical
+      questions peers do not think of. Brief any guest to be encouraging and specific
+      rather than competitive.
+    keyPrompts:
+      - What would you need to see to take this seriously as a supporter?
+      - Which claim here needs more evidence behind it?
+      - Is the ask something you could actually say yes to?
+    watchOuts:
+      - Checkpoints turn into the educator rewriting the pitch; keep to questions and observations so the pitch stays the learners' own.
+      - Only the confident groups book a slot; assign times rather than inviting volunteers.
+    adaptation: |
+      A mentor can hear a recorded pitch and reply by voice note or message where they
+      cannot attend live. A single mentor can be shared across several groups by
+      listening to shortened versions.
+  - title: Final revision and delivery run
+    duration: 30-40 min
+    guidance: |
+      Close with a last pass focused on delivery and timing in the format learners will
+      actually face. Run the pitch once to time, standing where they will stand, using
+      the technology they will use. Then agree what each person will do if something goes
+      wrong, such as the screen failing or a question they cannot answer.
+    keyPrompts:
+      - Does it fit in the time when you say it slowly?
+      - What will you say if you are asked something you do not know?
+      - Who says what, and who handles the questions?
+    watchOuts:
+      - Nerves flatten delivery into a monotone rush; practise just the opening thirty seconds several times, since getting the start right steadies the rest.
+      - Group pitches leave one member with nothing to say; make sure every member has a defined part, which also matters for evidencing individual contribution.
+    adaptation: |
+      Where the final pitch will be online, run this rehearsal online with cameras and
+      screen sharing, since the delivery problems are different from those in a room.
+closing: |
+  Ask each group to say one thing that improved across the rounds and one thing they are
+  still working on, then have each learner name the single change they are most glad
+  they made. Keep the feedback forms, because they are evidence of how the pitch
+  developed and are useful in the reflection that follows the showcase. Remind learners
+  that adapting a pitch in response to feedback is exactly the flexibility this
+  objective looks for, and that no version is ever finished, only ready enough for the
+  next audience.
 agencyContribution:
   indicators: [power-over-wellbeing-and-self-direction]
   how: >-
@@ -60,6 +160,9 @@ objectiveIds: [social-entrepreneurship--o3]
 relatedSlugs: [ladder-of-feedback, pitch-deck-and-concept-brief, final-showcase-pitch]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
-  Grounded in the 2025 course planner (Part 5 developing the pitch, practice rounds and
-  feedback protocols) and the SE course guide objective 3 furtherDetails (simulated
-  pitch sessions with peers, facilitators or invited mentors).
+  Enriched into a structured facilitation flow (duration, grouping, steps with prompts,
+  watch-outs and low-bandwidth adaptations) from the earlier prose version. Grounded in
+  the 2025 course planner (Part 5.3 what makes a powerful pitch and 5.4 developing the
+  pitch, including practice rounds, pitch circles, checkpoints and feedback protocols)
+  and the SE course guide objective 3 furtherDetails (simulated pitch sessions with
+  peers, facilitators or invited mentors).

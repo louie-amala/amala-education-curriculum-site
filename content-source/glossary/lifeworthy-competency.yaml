@@ -1,0 +1,21 @@
+id: lifeworthy-competency
+slug: lifeworthy-competency
+access: public
+term: Lifeworthy competency
+category: curriculum-system
+matchPhrases:
+  - lifeworthy competencies
+  - lifeworthy competency
+  - lifeworthy
+definition: >-
+  A competency that matters in the life a learner actually leads, now and in the future, rather than
+  content learned for its own sake. It integrates knowledge, skills, and dispositions, is shown
+  through applied performance, and can be demonstrated across a variety of contexts.
+examples:
+  - Adaptable thinking, which transfers to work, study, and family life
+  - Influential communication, used in a pitch, an interview, or a community meeting
+nonExamples:
+  - Memorising a list of definitions for a test
+useInContext: >-
+  The Amala Competency Framework sets out the full set of lifeworthy competencies learners develop.
+relatedTermIds: [proficiency, agency-for-positive-change]

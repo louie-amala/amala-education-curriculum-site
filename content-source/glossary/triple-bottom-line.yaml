@@ -1,0 +1,17 @@
+id: triple-bottom-line
+slug: triple-bottom-line
+access: public
+term: Triple bottom line
+category: content
+matchPhrases:
+  - triple bottom line
+definition: >-
+  The idea that an enterprise should account for its social and environmental results alongside its
+  financial ones, often summarised as people, planet, and profit.
+examples:
+  - Reporting jobs created and waste avoided next to revenue
+nonExamples:
+  - Judging success on income alone
+useInContext: >-
+  Learners weigh their enterprise idea against all three parts of the triple bottom line.
+relatedTermIds: [social-enterprise]

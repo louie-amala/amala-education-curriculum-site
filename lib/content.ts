@@ -339,12 +339,13 @@ export interface GlossaryMatch {
   definition: string;
 }
 
-// First mention per term, non-overlapping, longest phrase wins. Explicit selective marking.
-export function findGlossaryMatches(text: string): GlossaryMatch[] {
+// First mention per term, non-overlapping, longest phrase wins. Pass `skip` with terms already
+// marked earlier on the page so a term links once per page, not once per block.
+export function findGlossaryMatches(text: string, skip?: Iterable<string>): GlossaryMatch[] {
   if (!text || phraseIndex.length === 0) return [];
   const lower = text.toLowerCase();
   const raw: GlossaryMatch[] = [];
-  const usedSlug = new Set<string>();
+  const usedSlug = new Set<string>(skip ?? []);
   for (const p of phraseIndex) {
     if (usedSlug.has(p.slug)) continue;
     const idx = firstBoundedIndex(lower, text, p.detect);
@@ -467,6 +468,16 @@ export function validateGraph(): ValidationReport {
     for (const pid of m.principlesForegrounded) {
       if (!validPrincipleIds.has(pid)) {
         errors.push(`Material "${m.slug}" foregrounds unknown principle "${pid}".`);
+      }
+    }
+    for (const pa of m.principleAlignment) {
+      if (!validPrincipleIds.has(pa.principle)) {
+        errors.push(`Material "${m.slug}" aligns to unknown principle "${pa.principle}".`);
+      }
+    }
+    for (const cd of m.competencyDevelopment) {
+      if (!competencyByCode.has(cd.code)) {
+        errors.push(`Material "${m.slug}" develops unknown competency code "${cd.code}".`);
       }
     }
     for (const rel of m.relatedSlugs) {

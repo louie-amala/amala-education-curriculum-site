@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { GlossedText } from "@/components/GlossedText";
 import { MaterialCard } from "@/components/MaterialCard";
 import {
   getAllObjectives,
@@ -49,7 +50,9 @@ export default async function ObjectivePage({ params }: { params: Promise<{ id: 
       <p className="mt-3 text-sm font-semibold uppercase tracking-wide text-cool-grey">
         Objective {index}
       </p>
-      <h1 className="mt-1 font-heading text-2xl font-bold text-navy">{objective.statement}</h1>
+      <h1 className="mt-1 font-heading text-2xl font-bold text-navy">
+        <GlossedText text={objective.statement} />
+      </h1>
 
       {objective.supportedTo.length > 0 && (
         <section className="mt-6">

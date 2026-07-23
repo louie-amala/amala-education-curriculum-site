@@ -3,8 +3,8 @@ import { findGlossaryMatches } from "@/lib/content";
 
 // Renders plain text, marking the first mention of each glossary term as an interactive Term.
 // Returns inline nodes only, so it is safe inside a <p>.
-export function GlossedText({ text }: { text: string }) {
-  const matches = findGlossaryMatches(text);
+export function GlossedText({ text, skip }: { text: string; skip?: string[] }) {
+  const matches = findGlossaryMatches(text, skip);
   if (matches.length === 0) return <>{text}</>;
 
   const parts: React.ReactNode[] = [];

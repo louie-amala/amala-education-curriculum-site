@@ -7,55 +7,157 @@ summary: >-
   Learners run small, safe-to-fail tests of their idea with potential users, gathering
   feedback and simple evidence to see what works and what to change.
 facilitationContext: [group, independent]
-educatorContent: |
-  This is the piloting phase of the second objective, where an idea meets reality. It
-  runs over several sessions and mixes in-class planning and reflection with independent
-  time to actually test in the world. Expect learners to loop back to research or
-  regeneration of ideas as they learn, and structure the time so they keep moving
-  forward.
-
-  Help each group turn a shortlisted idea into something small and testable: a simple
-  prototype, a mock service, a survey, an interview round, or an observation. Existing
-  technology is useful here, for example a Google Form to collect responses, a phone to
-  record feedback, or a basic digital mock-up, and some groups may design or adapt a new
-  technological solution as their prototype. Before any test, make sure the plan is
-  safe-to-fail: low risk, testable soon, and doable with available resources.
-
-  Emphasise that evidence does not have to be perfect, it has to be real: quotes from
-  testers, photos or screenshots, simple counts ("5 people said...", "only 2
-  responded"), and observations of what changed. Build in regular check-ins where
-  learners report what they did and why, what worked and how they know, what did not,
-  and what they will change. Use a feedback protocol such as the ladder of feedback
-  (clarify, value, ask concerns, suggest) for peer rounds.
-
-  Watch for tests that are too big to run, for learners defending the idea instead of
-  learning from it, and for feedback gathered but never acted on. Keep steering them
-  towards small changes grounded in what testers actually said or did. Timing: this is a
-  multi-session phase, roughly ten to twenty hours across class and independent time.
-learnerContent: |
-  Your idea only becomes real when you test it. In this phase you will try a small part
-  of your idea with real people and learn from what happens.
-
-  **Design a small test.** Turn your idea into something you can try quickly and safely.
-  It might be a simple prototype, a mock version of your service, a survey, a round of
-  interviews, or an observation. Before you start, check that your test is:
-  - Safe to fail (little or no harm if it does not work).
-  - Something you can try soon.
-  - Doable with the resources you already have.
-
-  Use whatever tools help, for example a Google Form to gather responses, a phone to
-  record feedback, or a simple mock-up of your product or service.
-
-  **Gather real evidence.** Your evidence does not need to be perfect, it needs to be
-  real:
-  - Quotes from the people who tested it.
-  - Photos or screenshots.
-  - Simple numbers ("5 people said...", "only 2 responded").
-  - What you noticed changing, or not changing.
-
-  **Learn and adjust.** After each test, ask: what did I do and why? What worked, and
-  how do I know? What did not work? What will I change next? Share short updates with
-  your group and use their feedback to improve your idea.
+duration: A multi-session phase of roughly 10-20 hours across class time and independent time
+grouping: Project groups of up to five, or individuals; works with 15-35 learners
+whatLearnersDo:
+  - Shrink your idea down to one small part you can actually test soon.
+  - Check the test is safe to fail before you run it, and decide what would count as it working.
+  - Try it with real people outside your group and see what happens.
+  - Keep a testing log of what you did, what you found and where the evidence came from.
+  - Change the idea based on what testers said and did, then test again.
+materialsAndPreparation:
+  - A testing log template per group, with space for the test, the date, what happened, the evidence and the decision that followed.
+  - A safe-to-fail checklist covering harm, speed and resources, agreed with the group before any testing starts.
+  - Simple prototyping materials such as paper, card, pens and whatever local materials suit the ideas in the room.
+  - Access to a survey or form tool where connectivity allows, or printed response sheets where it does not.
+  - A way to record feedback with permission, such as a phone for voice notes, alongside paper for notes.
+  - The ethics and safety agreement from the research phase, reused here because testing also involves other people.
+  - A regular slot in the timetable for check-ins and peer feedback rounds across the whole phase.
+facilitationNotes: |
+  This is the piloting phase of the second objective, where an idea first meets reality.
+  It runs across several sessions and mixes short in-class planning, reflection and
+  feedback with independent time to actually test in the world. The one thing to get
+  right is the size of the test. Learners consistently plan something far too big, run
+  out of time, and end up with opinions rather than evidence; your main job is to keep
+  shrinking the test until it can be run this week with what they already have. Expect
+  loops backwards into research or fresh idea generation as they learn, and treat that
+  as progress rather than drift. Evidence here does not have to be impressive, it has to
+  be real.
+steps:
+  - title: Shrink the idea to one testable piece
+    duration: 45-60 min
+    guidance: |
+      Start from each group's shortlisted idea and ask what single part of it could be
+      tried on a small scale. A test might be a rough prototype, a mock version of the
+      service run once, a short survey, a round of interviews, or an observation of what
+      people currently do. Apply a safe-to-fail check together: if it does not work,
+      little or no harm is done; it can be tried within days or weeks; and it does not
+      need resources the group cannot get. If the answer to the last point is no, help
+      them find a smaller version of the same test.
+    keyPrompts:
+      - What is the smallest version of this you could try before we next meet?
+      - If this test fails completely, who is affected and how badly?
+      - What are you assuming here that this test could actually check?
+    watchOuts:
+      - Groups plan a full launch rather than a test, needing money, permissions or partners they do not have; keep asking what one part could be tried this week with what is already in the room.
+      - Learners test the idea on each other only, because it is easier; agree from the start that at least some testers must be outside the group.
+    adaptation: |
+      Where learners cannot get out to test with the wider community, a test can run with
+      family, neighbours or other learners at the centre, as long as the group records
+      who they could not reach so the gap in the evidence stays visible.
+  - title: Decide what would count as evidence
+    duration: 30-45 min
+    guidance: |
+      Before anything is tried, each group writes down what they expect to happen, what
+      would tell them the idea is working, and what would tell them it is failing.
+      Doing this in advance is what stops learners reinterpreting the result afterwards
+      to protect the idea. Agree how they will record what happens and how they will ask
+      permission from anyone taking part.
+    keyPrompts:
+      - What exactly do you expect people to say or do?
+      - What result would make you change or abandon this idea?
+      - How will you ask permission, and what will you tell people you are doing?
+    watchOuts:
+      - Success criteria are written so loosely that any outcome counts as a win; ask for something countable or observable, however small.
+      - Learners skip consent because the test feels informal; reuse the ethics agreement from the research phase and check it applies here too.
+    adaptation: |
+      This step is a short piece of writing and works on paper or as homework. Groups who
+      cannot meet can agree their expectations by message and bring them to the next
+      check-in.
+  - title: Run the test with real people
+    duration: Independent, spread across several weeks
+    guidance: |
+      Assign the testing itself to non-class time, since it happens where the users are.
+      Learners run the test, stay closer to observing than to selling, and record what
+      actually happened rather than what they hoped would happen. Encourage more than one
+      round: a first test almost always reveals that the wrong thing was being tested.
+    keyPrompts:
+      - What did you notice that you were not expecting?
+      - Did people do what they said they would do?
+      - What did the people who were not interested tell you?
+    watchOuts:
+      - Learners explain and defend the idea until testers agree with them, so the test only measures politeness; coach them to say less, ask what the person currently does, and let silences sit.
+      - Only enthusiastic friends are asked; push each group to include at least one person likely to say no.
+    adaptation: |
+      Tests can run by phone, voice note or messaging where meeting in person is
+      difficult, and a paper response sheet works wherever a digital form does not. If a
+      round cannot happen at all, the group records why and tests a smaller element in
+      the centre instead.
+  - title: Keep a testing log as you go
+    duration: 15-20 min after each test, recurring
+    guidance: |
+      Each group keeps a running log with one entry per test: what they did and why,
+      what happened, the evidence, and the decision that followed. Make clear that
+      evidence does not need to be perfect, it needs to be real. Quotes from testers,
+      photographs or screenshots, simple counts such as five people saying the same
+      thing or only two replying, and notes on what changed all count.
+    keyPrompts:
+      - What is your evidence for that, and where is it written down?
+      - How many people actually said this?
+      - What would someone who doubted your conclusion want to see?
+    watchOuts:
+      - Logs record what learners felt about the test rather than what happened; ask for the quote, the number or the photograph that sits behind each statement.
+      - Testing happens but is never written up, so nothing survives to the pitch; make the log the thing that is checked at every group check-in.
+    adaptation: |
+      A notebook works as well as a shared document. Where groups rarely meet, each
+      member logs their own tests and brings the log to the check-in, with photographs
+      shared to a group chat as backup.
+  - title: Run a structured peer feedback round
+    duration: 45-60 min per round
+    guidance: |
+      Hold short feedback rounds through the phase rather than one at the end. Each group
+      gives a brief update covering what they did and why, what worked and how they know,
+      what did not, and what they will change. Use a protocol such as the ladder of
+      feedback so listeners clarify first, then say what they value, then raise concerns,
+      then suggest. A peer support noticeboard, physical or online, lets groups post what
+      they need help with and what they can offer.
+    keyPrompts:
+      - What is the strongest evidence you have heard so far, and what is the weakest?
+      - Which part of this test would you not have believed, and why?
+      - What could they try next that would take a week or less?
+    watchOuts:
+      - Feedback is warm and useless; hold the protocol firmly so concerns are actually voiced, and ask each listener for one concern and one suggestion.
+      - Groups present the idea rather than the test result; keep the update format fixed so the evidence has to appear.
+    adaptation: |
+      Feedback rounds work in pairs, in small circles, or asynchronously with each group
+      posting a short voice note or written update and two peers replying using the same
+      four prompts.
+  - title: Decide what changes, then test again
+    duration: 45-60 min
+    guidance: |
+      Close each cycle with a decision, not a discussion. Groups pick two or three
+      learnings from the log that matter most and say what they will keep, change, drop
+      or try next, tying each decision to specific evidence. Then they plan the next
+      small test. Over the phase this is what turns a rough idea into a concept that has
+      been shaped by real feedback.
+    keyPrompts:
+      - Which piece of evidence is driving this change?
+      - What are you keeping only because you are attached to it?
+      - What is the next thing you need to find out, and how small can that test be?
+    watchOuts:
+      - Feedback is gathered and then ignored, and the next version looks identical; ask each group to name one thing they have changed and point at the evidence for it.
+      - Learners abandon the whole idea at the first negative result; separate the part that failed from the problem it was addressing, and test a different response to the same problem.
+    adaptation: |
+      Where sessions are short, this can be a ten-minute stand-up per group at the start
+      of each meeting, with the decision written into the testing log rather than
+      discussed at length.
+closing: |
+  End the phase by asking each group to complete three sentences aloud: our updated idea
+  is to, the testing showed that, and we plan to improve it by. Ask them to name the
+  single test that changed their thinking most, and what it cost them to find that out.
+  Keep the testing log intact, since it is the evidence base for the concept note and
+  the pitch that follow, and remind learners that a test which disproved an assumption
+  early has saved them far more than one that simply confirmed what they hoped.
 agencyContribution:
   indicators: [contribution-to-community, control-of-future-pathways]
   how: >-
@@ -67,7 +169,10 @@ objectiveIds: [social-entrepreneurship--o2]
 relatedSlugs: [safe-to-fail-experiments, ladder-of-feedback, idea-generation-and-prioritisation, concept-note-and-refinement]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
-  Grounded in the 2025 course planner (Part 4 developing and testing safe-to-fail ideas,
-  piloting and testing) and the SE course guide objective 2 furtherDetails (market
-  research and prototype testing; refinement cycles). ATS3 applies only where learners
-  create or adapt a new technological solution [to verify per learner project].
+  Enriched into a structured facilitation flow (duration, grouping, steps with prompts,
+  watch-outs and low-bandwidth adaptations) from the earlier prose version. Grounded in
+  the 2025 course planner (Part 4 developing and testing safe-to-fail ideas, piloting and
+  testing, and reflection on piloting and testing) and the SE course guide objective 2
+  furtherDetails (market research and prototype testing; refinement cycles). ATS3 applies
+  only where learners create or adapt a new technological solution [to verify per learner
+  project].

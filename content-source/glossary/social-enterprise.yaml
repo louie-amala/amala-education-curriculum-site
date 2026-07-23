@@ -1,0 +1,19 @@
+id: social-enterprise
+slug: social-enterprise
+access: public
+term: Social enterprise
+category: content
+matchPhrases:
+  - social enterprise
+definition: >-
+  An organisation that trades to generate revenue while pursuing a social or environmental purpose,
+  reinvesting much of what it earns into that purpose rather than distributing it as private profit.
+examples:
+  - A bakery that trains and employs people who face barriers to work
+nonExamples:
+  - A charity funded only by donations, with no trading
+  - A business whose only aim is to maximise profit
+useInContext: >-
+  Learners develop an ethical, revenue-generating social enterprise concept that addresses a
+  challenge they have investigated.
+relatedTermIds: [triple-bottom-line, concept-note]

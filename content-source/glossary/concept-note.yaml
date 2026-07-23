@@ -1,0 +1,17 @@
+id: concept-note
+slug: concept-note
+access: public
+term: Concept note
+category: content
+matchPhrases:
+  - concept note
+definition: >-
+  A short written summary of an enterprise idea, setting out the challenge it addresses, what it
+  offers and to whom, how it works ethically and sustainably, and how it generates revenue.
+examples:
+  - A one-page summary taken into a pitch or a mentor conversation
+nonExamples:
+  - A full business plan with detailed financial modelling
+useInContext: >-
+  Learners draft a concept note, then refine it using feedback and testing.
+relatedTermIds: [social-enterprise, prototype]

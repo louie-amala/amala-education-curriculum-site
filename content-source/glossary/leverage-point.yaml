@@ -1,0 +1,20 @@
+id: leverage-point
+slug: leverage-point
+access: public
+term: Leverage point
+category: content
+matchPhrases:
+  - leverage points
+  - leverage point
+definition: >-
+  A place in a system where a small, well-chosen change can produce a large effect. The most powerful
+  leverage points are often the least obvious, such as the goals or beliefs that hold a system in
+  place.
+examples:
+  - Changing who gets to make a decision, rather than adjusting the budget for it
+nonExamples:
+  - Adding more of the same resource and hoping the outcome shifts
+useInContext: >-
+  After mapping a system, learners look for leverage points where their idea could realistically make
+  a difference.
+relatedTermIds: [systems-thinking, wicked-problem]

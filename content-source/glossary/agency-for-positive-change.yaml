@@ -1,0 +1,21 @@
+id: agency-for-positive-change
+slug: agency-for-positive-change
+access: public
+term: Agency for positive change
+category: curriculum-system
+matchPhrases:
+  - agency for positive change
+definition: >-
+  The ability and will to make informed, intentional, and impactful decisions that improve one's own
+  life and contribute to positive change in the wider community and world. It is the outcome every
+  Amala programme works towards, and the thing programmes are judged on.
+examples:
+  - A learner who identifies a problem in their community and takes a concrete step to address it
+  - A learner who makes a deliberate, informed choice about their next education or work pathway
+nonExamples:
+  - Knowing a lot about a topic without being able to act on it
+  - Completing tasks well because they were instructed, without owning the decision
+useInContext: >-
+  Every facilitation material declares how it builds agency for positive change, naming at least one
+  of the three indicators.
+relatedTermIds: [lifeworthy-competency, proficiency]

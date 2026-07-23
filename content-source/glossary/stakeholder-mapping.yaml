@@ -1,0 +1,18 @@
+id: stakeholder-mapping
+slug: stakeholder-mapping
+access: public
+term: Stakeholder mapping
+category: content
+matchPhrases:
+  - stakeholder mapping
+  - stakeholder map
+definition: >-
+  A visual map of the people, groups, and organisations connected to a challenge, showing who is
+  affected, who holds influence, and how they relate to one another.
+examples:
+  - Placing a challenge at the centre of a page and drawing labelled links to everyone connected to it
+nonExamples:
+  - A list of names with no relationships shown
+useInContext: >-
+  Stakeholder mapping shows learners whose perspective is missing from their research.
+relatedTermIds: [systems-thinking, empathy-interview]

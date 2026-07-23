@@ -1,0 +1,19 @@
+id: prototype
+slug: prototype
+access: public
+term: Prototype
+category: content
+matchPhrases:
+  - prototyping
+  - prototype
+definition: >-
+  A rough, early version of an idea, made cheaply and quickly so it can be tested with real people
+  before significant time or money is committed to it.
+examples:
+  - A paper mock-up of a product
+  - A role play of a service before it is offered for real
+nonExamples:
+  - A finished product launched without testing
+useInContext: >-
+  Learners test a prototype at small scale and gather evidence before refining their concept.
+relatedTermIds: [concept-note, actionable-insights]

@@ -1,0 +1,19 @@
+id: empathy-interview
+slug: empathy-interview
+access: public
+term: Empathy interview
+category: content
+matchPhrases:
+  - empathy interviews
+  - empathy interview
+definition: >-
+  A one-to-one conversation whose purpose is to understand another person's experience in their own
+  words, using open questions and far more listening than speaking.
+examples:
+  - Asking someone to describe a normal day, then following their story where it leads
+nonExamples:
+  - Running through a fixed questionnaire
+  - Asking leading questions that suggest the answer you want
+useInContext: >-
+  Learners gather first-hand perspectives through empathy interviews before defining a challenge.
+relatedTermIds: [primary-research, stakeholder-mapping]
