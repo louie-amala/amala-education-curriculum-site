@@ -5,6 +5,18 @@ type: case-study
 title: "Case study: hiSbe Food (a fairer supermarket)"
 summary: Learners examine a real social enterprise supermarket and analyse how it raised start-up funding and built a mission-led food business.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Read the profile, work the questions in pairs or small groups, then debrief on
+      how the founders proved the idea was wanted and raised the money to start. The comparison
+      with Fair for You is the part that most needs more than one reading in the room.
+  - context: independent
+    how: >-
+      Reading and answering alone works, and suits a between-sessions task, but the comparison
+      question loses most of its value with only one case in view. Have the learner read both
+      profiles and write the comparison out explicitly, then test it with a peer or mentor.
 educatorContent: |
   This case study introduces hiSbe Food, a social enterprise profiled in the Social
   Enterprise UK guide. Use it alongside or after the Fair for You case study so learners
@@ -56,9 +68,39 @@ learnerContent: |
     genuinely different about how each one earns money and creates impact?
 agencyContribution:
   indicators: [control-of-future-pathways]
-  how: Seeing how founders proved and funded a new idea before launching gives learners a realistic, low-risk model for testing their own concept.
+  how: >-
+    Following how the founders used a crowdfunding campaign and social investors to show there was
+    demand and to raise money before the pilot store opened makes clear that a new idea can be
+    tested before anyone commits everything to it. Starting something then looks like a sequence of
+    manageable steps rather than a leap, which is what brings a pathway of this kind within reach
+    for learners deciding what to do next.
 principlesForegrounded: [authentic-challenges, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The case is a real trading business with real money at stake, and one of the questions asks
+      what makes a mission-led supermarket harder to run than an ordinary one, so the difficulty
+      stays in the material instead of being edited out of it.
+  - principle: responsible-action
+    how: >-
+      Learners look at how hiSbe holds a fair profit and a social mission together in everyday
+      retail, which keeps the cost of trading responsibly in view rather than assuming it is free.
+      The facilitator note also has them treat the funding figure and status claims as dated and
+      check them before using them.
 competencyCodes: [APS4, FSI2]
+competencyDevelopment:
+  - code: APS4
+    how: >-
+      The final question sets hiSbe against another example and asks what is genuinely different
+      about how each earns and creates impact, which is a comparison of two live models rather than
+      a checklist. The case builds that habit of comparison; learners demonstrate it when choosing
+      between options for their own idea.
+  - code: FSI2
+    how: >-
+      Seeing an idea travel from discontent with the food system to a working pilot store shows
+      learners what a viable idea has to answer for, especially the step of proving demand before
+      building anything. The ideas themselves are generated and refined in later activities, so
+      what the case contributes is the standard rather than the practice.
 objectiveIds: [social-entrepreneurship--o2]
 relatedSlugs: [se-case-study-fair-for-you, se-start-your-social-enterprise-guide]
 sourceRefs: [Start-your-social-enterprise-guide-1.pdf]

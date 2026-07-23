@@ -8,6 +8,20 @@ summary: >-
   ethically and sustainably while generating revenue, then refine it into a clear
   concept statement using feedback and testing.
 facilitationContext: [group, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The feedback round is what does the work, so have listeners read the draft in
+      silence before anyone speaks and hold the receiving group to clarifying questions only. Where
+      a group drafts together, make sure one person is actually writing, or the note never gets past
+      discussion.
+  - context: one-to-one-mentoring
+    how: >-
+      Strong for drafting and revision, because a mentor will press on the revenue section harder
+      than peers usually do, but the learner loses the spread of readers a peer round gives them.
+      Book the slot once a first draft exists rather than before, and still have at least one person
+      outside the course hear the concept statement and say back what they understood by it.
 duration: About 3 to 4 hours across drafting, feedback and revision
 grouping: Project groups or individuals, with one-to-one mentoring where it can be arranged; works with 15-35 learners
 whatLearnersDo:
@@ -141,10 +155,51 @@ closing: |
 agencyContribution:
   indicators: [control-of-future-pathways]
   how: >-
-    Articulating and refining their own concept helps learners take ownership of an idea
-    they could carry forward beyond the course.
+    Getting the whole idea into writing, with the money, the risks and the unknowns named, leaves
+    learners holding a plan they own and can hand to somebody else. That makes it far more likely
+    the idea travels beyond the course, whether they go on to run it, seek support for it, or use
+    it as evidence of what they can do on the pathway they pick next.
 principlesForegrounded: [responsible-action, recognise-communicate-growth, lifeworthy-competencies]
+principleAlignment:
+  - principle: responsible-action
+    how: >-
+      The note counts as unfinished until it says how the idea stays ethical and inclusive, who
+      could be harmed or left out, and where the income and costs sit. Drafting responsibility and
+      viability in the same document stops either one becoming an appendix to the other.
+  - principle: recognise-communicate-growth
+    how: >-
+      Groups must reopen their testing log and name at least three findings before drafting, so the
+      note records what changed rather than the idea they arrived with. The final statement then has
+      to be sayable out loud to someone outside the course who can repeat back what they understood.
+  - principle: lifeworthy-competencies
+    how: >-
+      Writing so a stranger can follow it, receiving fixed-prompt feedback without arguing back, and
+      cutting the whole thing to three sentences are all transferable. Treating the note as a living
+      document that keeps changing is how such documents actually behave outside the course.
 competencyCodes: [FSI2, FLC1, APS4, FTS2]
+competencyDevelopment:
+  - code: FSI2
+    how: >-
+      This is where an idea is refined rather than invented: the canvas exposes which parts have not
+      been thought through, and the note has to show the idea still fits the problem and can sustain
+      itself. The distance between the pre-testing version and the final concept statement is what
+      learners can show.
+  - code: FLC1
+    how: >-
+      Learners are asked directly who could be harmed or left out by the idea and what they would do
+      about it, and to state how the enterprise stays inclusive and responsible. Writing honest
+      uncertainty into the note instead of hiding it behind vague wording is part of what is judged.
+  - code: APS4
+    how: >-
+      Sorting what to continue, stop and adapt after testing, then defending the resulting model
+      against listeners working from fixed prompts, is a comparison of options on feasibility and
+      likely effect. The evidence is the line of the testing log behind each claim, together with a
+      rough picture of what it costs to run and where income comes from.
+  - code: FTS2
+    how: >-
+      This applies only where the idea rests on scientific understanding, for example a claim about
+      health, waste or an environmental effect. Those learners show it by explaining in the note why
+      the intervention should work, rather than asserting that it does.
 objectiveIds: [social-entrepreneurship--o2]
 relatedSlugs: [business-model-canvas-concept-note, financial-modelling, prototype-testing-with-users, pitch-deck-and-concept-brief]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]

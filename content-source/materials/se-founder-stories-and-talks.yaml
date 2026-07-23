@@ -5,6 +5,20 @@ type: resource
 title: Founder stories and social enterprise talks (viewing list)
 summary: A curated list of talks and founder stories that learners watch to see how real people build social enterprises and what makes them work.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Pick one or two talks, watch them together, then discuss what problem the
+      founder is addressing, how their model works or earns, and which traits carried them. The
+      UNHCR collection also runs as gallery-walk stations with learners rotating and recording
+      takeaways.
+  - context: independent
+    how: >-
+      Each learner picks one talk and writes a short reflection linking it to their own idea, which
+      suits self-paced work and lets them choose the founder they recognise something of themselves
+      in. What is lost is hearing what someone else took from a different talk, so pool the
+      reflections afterwards, or ask for a comparison of two founders rather than one.
 educatorContent: |
   This is a viewing list, not an activity. It gathers the founder stories and talks
   named in the course planner so learners can see how real people identify a problem,
@@ -44,9 +58,39 @@ educatorContent: |
   here.
 agencyContribution:
   indicators: [control-of-future-pathways]
-  how: Seeing a range of founders (including refugee and youth changemakers) build real enterprises helps learners picture themselves taking similar action.
+  how: >-
+    Hearing founders describe how they started, among them a refugee youth leader and speakers
+    whose vision comes out of their own lived experience, puts recognisable people in front of
+    learners doing the thing the course is asking them to attempt. Each suggested use ends by
+    asking which model fits their own context, so the talks give them routes to compare when they
+    choose their own future pathway rather than admiration for other people's.
 principlesForegrounded: [builds-on-identities, connect-to-futures]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The list is chosen so learners see founders whose starting points are close to their own,
+      including a refugee youth leader and a young changemaker solving a problem locally, and the
+      reflection asks them to connect the talk to their own context and idea rather than summarise
+      what was said.
+  - principle: connect-to-futures
+    how: >-
+      Each suggested use turns back to the learner's next step, whether that is naming which model
+      would fit where they are or comparing two founders on impact, funding and sustainability, so
+      the talks function as examples of routes people actually took.
 competencyCodes: [APS4, FSI2]
+competencyDevelopment:
+  - code: APS4
+    how: >-
+      Comparing two founders on how their model works, how it was funded and whether it can keep
+      going is analysis of real approaches, and the webinar segment asks outright which model fits
+      the learner's context. The talks give them cases to reason from; the judgement itself is
+      shown when they pick an approach for their own enterprise.
+  - code: FSI2
+    how: >-
+      The spread of models on the list, from business run deliberately as a force for social good
+      through to small-scale local problem solving, widens what learners think an enterprise can be
+      before they generate their own ideas. As a viewing list it feeds ideation rather than
+      producing an idea, which happens in the idea generation and concept work.
 objectiveIds: [social-entrepreneurship--o2]
 relatedSlugs: [se-start-your-social-enterprise-guide, se-case-study-fair-for-you, se-case-study-hisbe-food]
 sourceRefs: [planner-new.txt]

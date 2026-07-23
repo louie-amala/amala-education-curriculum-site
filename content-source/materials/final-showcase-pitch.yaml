@@ -7,6 +7,15 @@ summary: >-
   Learners deliver their social enterprise pitch to an external or community audience,
   making a clear ask and following up with people who offer support.
 facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, and this is the one piece of the course that cannot quietly become individual
+      work: the questions, offers and introductions all depend on an external audience assembled in
+      one place. Where a single event cannot be assembled, keep the external listeners rather than
+      the ceremony, and still run the follow-up session with everyone together so learners hear what
+      came of each other's asks.
 duration: Three or more hours for the event, plus preparation in the weeks before and follow-up afterwards
 grouping: Individuals or project groups pitching to an invited audience; works with 15-35 learners
 whatLearnersDo:
@@ -160,10 +169,63 @@ closing: |
 agencyContribution:
   indicators: [contribution-to-community, control-of-future-pathways]
   how: >-
-    Learners put a solution to a community challenge in front of people who can back it,
-    and take real steps to attract the support needed to carry their own idea forward.
+    Learners put a tested response to a community challenge in front of people who could genuinely
+    back it, then follow up on every offer with thanks and one committed next step. That is an
+    impactful contribution to their community in itself, and because the offers are of time,
+    mentoring and connections the learners chose to ask for, it also widens the future pathways
+    actually open to them.
 principlesForegrounded: [connect-to-futures, collaboration, recognise-communicate-growth]
+principleAlignment:
+  - principle: connect-to-futures
+    how: >-
+      The audience is curated over weeks so the room holds people who can offer mentoring,
+      connections or support, and learners invite the guests whose opinion matters to them. The
+      follow-up session then turns those offers into named contacts and one committed action, which
+      is where a course project starts pointing at something beyond the course.
+  - principle: collaboration
+    how: >-
+      Guests are invited as people who might work with learners rather than judge them, and the
+      unstructured connection time is protected as part of the event because that is where most real
+      offers are made. Educators broker the introductions afterwards instead of leaving learners and
+      interested guests each waiting for the other to move.
+  - principle: recognise-communicate-growth
+    how: >-
+      Learners tell the story of the journey from problem to tested solution, not only the polished
+      idea, and everyone leaves with their deck, pitch and reflection captured. The closing names
+      communication, evidence and courage as achievements in their own right, including for the
+      ideas that will go no further.
 competencyCodes: [ASI3, FR1, FR2, AR1, ALC4, FLC3]
+competencyDevelopment:
+  - code: ASI3
+    how: >-
+      This is the competency under live conditions: a real audience, a specific ask, and offers that
+      either come or do not. The record of who offered what, and what the learner did with it in the
+      follow-up session, is the evidence.
+  - code: FR1
+    how: >-
+      Choosing who to invite is the identifying work, since learners have to name the people in
+      their community who could actually help them take a next step and say why. Their invitation
+      list and their reasons for it show the thinking.
+  - code: FR2
+    how: >-
+      Offers made in the room count for nothing until they are used, so the follow-up session makes
+      the outreach itself the task: thank the person, say what you will send and by when. Whether an
+      offer became an arranged conversation is what demonstrates the skill.
+  - code: AR1
+    how: >-
+      The connection time exists so learners speak to guests they do not know, with a small specific
+      goal and contact details written down rather than remembered. The new contacts they leave
+      holding, and any onward introduction that follows, are the visible growth in their network.
+  - code: ALC4
+    how: >-
+      Learners have to make an audience care enough to offer something, which is a harder test than
+      simply being understood. The questions asked, the reactions in the room and the offers
+      themselves show whether it moved anyone.
+  - code: FLC3
+    how: >-
+      Three to five minutes to an external audience, followed by unscripted questions, is the
+      communication done under real conditions rather than rehearsal ones. The pitch, the deck and
+      the audience feedback captured on the day are the evidence.
 objectiveIds: [social-entrepreneurship--o3]
 relatedSlugs: [pitch-deck-and-concept-brief, simulated-pitch-and-feedback, identifying-mentors]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]

@@ -5,6 +5,19 @@ type: concept
 title: Leverage points in a system
 summary: The idea that some places in a system are far more powerful to intervene in than others, and that the strongest are often the least obvious.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Groups bring the ecosystem map and iceberg they already built and argue about
+      where each candidate point sits on Meadows' scale, which is what exposes the pull towards
+      the convenient, low-leverage fix.
+  - context: independent
+    how: >-
+      A learner can place their own candidates on the list alone, but with nobody arguing they tend
+      to settle on either the easiest number to change or a paradigm shift far outside their reach.
+      Ask them to write the strongest objection to their chosen point and to test it against the
+      circle of influence before any idea is built on it.
 educatorContent: |
   Introduce this concept once learners have mapped their problem as a system (through the iceberg and stakeholder mapping) and are moving from understanding the challenge to shaping a solution. A leverage point is a place in a system where a small, well-chosen shift can produce a large change. Donella Meadows' insight is twofold: leverage points exist, and people routinely push on them in the wrong direction, or focus on the weakest ones.
 
@@ -24,9 +37,42 @@ learnerContent: |
   The surprising part: changing a number feels like action but rarely changes much, while changing a rule, a goal or a shared belief can transform everything. Look back at your iceberg and your stakeholder map. Where are the points that keep the problem going? Which one could your idea realistically act on?
 agencyContribution:
   indicators: [contribution-to-community, control-of-future-pathways]
-  how: Choosing where to intervene helps learners direct limited effort towards changes that could genuinely improve their community rather than surface fixes.
+  how: >-
+    Ranking candidate interventions and then testing them against the circle of influence means
+    learners aim scarce time and effort at a place in the system where change can actually move,
+    instead of at the most visible symptom, so their contribution to the community counts for more.
+    It also puts the choice of what to work on in their own hands, which is the point at which the
+    enterprise idea becomes a pathway they have chosen rather than one handed to them.
 principlesForegrounded: [authentic-challenges, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      Learners apply the ranking to the ecosystem map and iceberg of their own challenge, and the
+      circle of influence pushes them towards a point they could realistically act on, so the
+      output is a candidate intervention in a real place rather than a general critique.
+  - principle: responsible-action
+    how: >-
+      Choosing where to intervene is treated as a decision with consequences. Learners have to say
+      what a point would change and what it would not, and the concept is taught with Meadows' own
+      caution that people often push the right lever in the wrong direction.
 competencyCodes: [FPS3, APS4, FSI2]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Finding a leverage point means first naming which patterns, structures and beliefs are
+      keeping the problem going, and now also judging which of them carries weight. What learners
+      can show is the reasoning that connects a named factor to the point they picked.
+  - code: APS4
+    how: >-
+      The ordered list gives learners a basis for comparing candidate interventions instead of
+      taking the first, and the circle of influence adds feasibility alongside likely effect. They
+      demonstrate the analysis by explaining why one point was chosen over the others considered,
+      an argument that then has to survive idea prioritisation and the concept note.
+  - code: FSI2
+    how: >-
+      Each group is asked what kind of enterprise could act on the point they chose, so this is
+      where an idea acquires its aim. Being a concept, it supplies the direction rather than the
+      idea; the ideas themselves are generated, tested and refined in the activities that follow.
 objectiveIds: [social-entrepreneurship--o1, social-entrepreneurship--o2]
 relatedSlugs: [systems-thinking-iceberg-model, iceberg-model, stakeholder-community-mapping]
 sourceRefs: ["Leverage_Points in a System.pdf", "leverage-points-summary.txt", "planner-new.txt"]

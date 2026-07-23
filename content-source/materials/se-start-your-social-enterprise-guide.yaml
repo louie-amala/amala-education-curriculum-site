@@ -5,6 +5,20 @@ type: resource
 title: "Start Your Social Enterprise: a practical guide (reading)"
 summary: A step-by-step reading that walks learners through the practical decisions involved in setting up a social enterprise, from mission to business plan.
 facilitationContext: [group, independent]
+primaryContext: independent
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Works as a jigsaw. Give one section to each small group, ask them to put it in their own
+      words and relate it to the concept they are building, then pool the summaries so everyone
+      has the overview. Watch that a learner does not end up with only a second-hand account of
+      the section their own idea most depends on.
+  - context: independent
+    how: >-
+      As intended. The learner reads section by section against their own idea, noting which
+      questions they can already answer and which they cannot, with a focused prompt such as which
+      step would be hardest in their context. Timetable a point where those notes are discussed,
+      or the unanswerable questions quietly stay unanswered.
 educatorContent: |
   This is a learner-facing reading resource, "Start Your Social Enterprise: The
   Social Enterprise Guide", published by Social Enterprise UK. It works through the
@@ -51,9 +65,39 @@ learnerContent: |
   rules that apply where you live.
 agencyContribution:
   indicators: [control-of-future-pathways]
-  how: Learners gain a concrete, sequenced picture of the decisions involved in starting an enterprise, which makes acting on their own idea feel more achievable.
+  how: >-
+    The ten sections lay out the decisions behind starting an enterprise in order, from mission and
+    market through money and legal structure to the business plan, with one running example showing
+    what each looks like in practice. Knowing that order, and which questions they can already
+    answer for their own idea, turns starting something from a vague ambition into a future pathway
+    with a first step they can take.
 principlesForegrounded: [responsible-action, lifeworthy-competencies]
+principleAlignment:
+  - principle: responsible-action
+    how: >-
+      The reading is set with an explicit instruction not to transplant it. The legal and tax
+      detail is written for the UK, so learners are told to treat those sections as the questions
+      to ask and to find out what actually applies where they live, which is where the guide could
+      otherwise lead someone into a false step.
+  - principle: lifeworthy-competencies
+    how: >-
+      Learners read against their own idea rather than for coverage, recording what they can and
+      cannot yet answer, so the reading leaves them with working vocabulary (mission, customers,
+      revenue, social impact, legal structure) that they use directly in the concept and pitch work.
 competencyCodes: [FSI2, FLC1]
+competencyDevelopment:
+  - code: FSI2
+    how: >-
+      Holding each section against their own idea is what exposes where it is thin, usually on
+      market and on money, and that is how a rough idea becomes a workable one. Being a reading, it
+      supplies the criteria rather than the practice; the ideas themselves are shaped and evidenced
+      in the concept note and pitch.
+  - code: FLC1
+    how: >-
+      The mission and social impact sections make learners say what the enterprise is for and how
+      benefit would be shown, and the localisation instruction asks them to be honest about what
+      they do not yet know about the rules where they are. The values are demonstrated later, in
+      the decisions they make about their own enterprise.
 objectiveIds: [social-entrepreneurship--o2]
 relatedSlugs: [se-case-study-fair-for-you, se-case-study-hisbe-food, se-founder-stories-and-talks]
 sourceRefs: [Start-your-social-enterprise-guide-1.pdf]

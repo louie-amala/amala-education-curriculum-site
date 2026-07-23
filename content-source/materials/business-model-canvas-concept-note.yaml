@@ -5,6 +5,24 @@ type: tools-approaches
 title: Business Model Canvas or concept note
 summary: A single-page structure for setting out how an enterprise idea creates value, who it serves, and how it sustains itself.
 facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners fill the page in pairs or teams with an educator circulating to link
+      sections back to their earlier work, then run the structured peer round, which is what catches
+      the section someone has quietly left blank.
+  - context: independent
+    how: >-
+      Usable alone, and the single page does much of the work by making gaps visible, but nothing
+      tests whether it reads clearly to anyone else. Have the learner send the finished page to one
+      peer or mentor with the three feedback questions attached; a canvas nobody has read only
+      proves it made sense to the person who wrote it.
+  - context: one-to-one-mentoring
+    how: >-
+      A good fit, because a mentor can press on the weak section straight away and ask the cost and
+      revenue questions peers tend to be polite about. The thing to watch is the mentor ending up
+      writing the page, so keep the mentor to questions and leave the pen with the learner.
 toolsFacet: analytical
 educatorContent: |
   This tool helps learners pull the pieces of their idea together into one place they can see, test and share. Two forms serve the same purpose at different levels of detail. A concept note is a short written statement of how an idea addresses a challenge ethically and sustainably while generating revenue. The Social Business Model Canvas is a one-page grid that lays the same thinking out in sections so gaps become obvious.
@@ -30,9 +48,45 @@ learnerContent: |
   Then swap with a peer and ask: is it clear what my enterprise does and why it matters? What is confusing or missing? Would this make you want to get involved?
 agencyContribution:
   indicators: [control-of-future-pathways]
-  how: Setting the whole idea on one page gives learners a concrete plan they own and can act on, refine and put in front of others.
+  how: >-
+    Pulling problem fit, value proposition, partners, costs and income onto one page turns a set of
+    course activities into a plan the learner owns, can hand to someone and can keep revising as
+    the idea changes. Holding a plan at that level of detail is what makes it possible to carry the
+    enterprise on after the course, or to use it as the case for the study, work or funding they
+    choose to pursue next.
 principlesForegrounded: [responsible-action, feedback-and-data]
+principleAlignment:
+  - principle: responsible-action
+    how: >-
+      The single page forces the money questions to sit alongside the social benefit, so a learner
+      cannot claim impact without also saying what it costs, who has to be involved and where income
+      comes from. That is the point at which a good intention becomes something that could actually
+      be run without harm.
+  - principle: feedback-and-data
+    how: >-
+      Every section is meant to be filled from work already done in problem research, ecosystem
+      mapping, financial modelling and testing, so learners are justifying from their own evidence
+      rather than inventing. The structured peer round then supplies the outside read: what is
+      strong, what is missing, and whether anyone would want to get involved.
 competencyCodes: [FSI2, APS4, FLC1]
+competencyDevelopment:
+  - code: FSI2
+    how: >-
+      Refining the idea happens in the gaps the page exposes, typically a confident value
+      proposition sitting next to an empty revenue section. The completed canvas, and specifically
+      what the learner changed after the peer round, is what shows the idea being developed rather
+      than restated.
+  - code: APS4
+    how: >-
+      Feasibility, cost and benefit sit side by side on one sheet, which makes learners judge
+      whether the idea holds up rather than whether it sounds good. Their answer on problem and
+      solution fit, particularly where the problem itself has shifted since they started, is where
+      that judgement is visible.
+  - code: FLC1
+    how: >-
+      Naming the benefit and who receives it, and naming who must be involved for it to work, makes
+      learners state whose interests the enterprise serves. How they answer a peer who asks who
+      carries the cost, or who is left out, is the evidence of the principles guiding their choices.
 objectiveIds: [social-entrepreneurship--o2]
 relatedSlugs: [social-enterprise-triple-bottom-line, pitch-deck-elevator-pitch, leverage-points]
 sourceRefs: ["planner-new.txt", "social-entrepreneurship.yaml"]

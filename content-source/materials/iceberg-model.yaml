@@ -5,6 +5,19 @@ type: tools-approaches
 title: Iceberg model
 summary: A four-level template for mapping a problem's visible events down to the hidden patterns, structures and beliefs beneath it.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Most learners stall at events and patterns, and hearing how another pair filled
+      in the structure and mental models bands is what gets them below the waterline. Keep the
+      closing round where each learner names one surprising insight and the band they found hardest.
+  - context: independent
+    how: >-
+      The template works alone and the two-pass structure holds it together, but nobody is there to
+      push the learner past the top two bands. Give the guiding questions for structure and mental
+      models in writing, and ask for both versions of the iceberg plus a note on what changed, so a
+      thin base can still be challenged.
 toolsFacet: analytical
 educatorContent: |
   The iceberg is the practical tool that puts systems thinking to work on a specific problem. Where the concept explains why hidden layers matter, the tool gives learners a structure to fill in. Provide the diagram (a template in the workbook, projected, or drawn on paper) with four stacked bands: Events at the tip above the waterline, then Patterns of behaviour, Structure of the system, and Mental models at the base.
@@ -30,9 +43,40 @@ learnerContent: |
   Later, after you have done your research, come back to the same iceberg and add what you have learned in a different colour. Then reflect: what is the most important thing you now understand about what lies beneath the surface, and how might it shape the kind of solution you build?
 agencyContribution:
   indicators: [contribution-to-community]
-  how: The tool lets learners produce a clear, shareable map of a community problem's deeper causes that others can build on.
+  how: >-
+    Working down from visible events to the beliefs holding a problem in place gives learners an
+    evidenced account of why it persists, on one page they can show to other people. Understanding a
+    community problem at that depth is what makes their contribution to it impactful rather than a
+    response aimed at the symptom.
 principlesForegrounded: [authentic-challenges, feedback-and-data]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The template is only ever filled in against the real problem a learner is investigating, never
+      a worked example, so the thin lower bands in Take 1 are an honest picture of what they do not
+      yet know rather than a wrong answer to be corrected.
+  - principle: feedback-and-data
+    how: >-
+      The tool is used twice, once from existing knowledge and again after primary and secondary
+      research, with the second pass added in a different colour. The gap between the two versions
+      is a visible record of what the evidence actually changed.
 competencyCodes: [FPS3, APS3, ATS1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The structure band is this competency directly: naming the policies, laws, physical structures
+      and relationships playing a part in the problem. Take 2 is where it is demonstrated, because
+      learners have to attach research evidence to each factor rather than assert it.
+  - code: APS3
+    how: >-
+      The patterns band forces the question of what has been happening over time rather than what
+      happened once, which is where trend-spotting is practised. What learners write in that band,
+      and how much it changes between the two passes, shows how well they can do it.
+  - code: ATS1
+    how: >-
+      In Take 2 learners bring research findings back to the template and decide which band each
+      piece of evidence belongs in, which is interpretation rather than collection. The revised
+      iceberg and their answer on which band was hardest and why are the evidence.
 objectiveIds: [social-entrepreneurship--o1]
 relatedSlugs: [systems-thinking-iceberg-model, problem-tree, stakeholder-community-mapping, leverage-points]
 sourceRefs: ["iceberg-graphics-questions.pdf", "planner-new.txt"]

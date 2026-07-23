@@ -7,6 +7,19 @@ summary: >-
   Learners pull together their primary and secondary research into a clear report or
   presentation on their challenge and share it with peers or community members.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Keep the clustering and the insight writing in the room, since the arguing about
+      where a note belongs is the thinking, and let production happen between sessions. Do not let
+      the sharing step shrink to nothing: classmates are the minimum audience.
+  - context: independent
+    how: >-
+      Possible, because the analysis is individual work anyway, but the learner loses the argument
+      over the clusters and the questions an audience asks. Ask them to write the strongest
+      counter-argument to each of their own insights, and arrange at least one real listener, a
+      family or community member, who will hear the report and put questions to them.
 duration: About 4 hours of class time, plus independent production time
 grouping: Individual or in project groups; works with 15-35 learners
 whatLearnersDo:
@@ -161,11 +174,53 @@ closing: |
 agencyContribution:
   indicators: [contribution-to-community]
   how: >-
-    By researching a real local challenge and sharing what they learn back with peers
-    and community members, learners add to the collective understanding of a problem
-    that affects people around them.
+    Learners turn their own research into a clear, sourced account of a local challenge and put it
+    in front of peers and, where it can be arranged, community members. Adding an honest picture of
+    a shared problem to what the community already knows is itself an impactful contribution, and
+    the questions it draws back shape what learners do about the challenge next.
 principlesForegrounded: [authentic-challenges, recognise-communicate-growth, collaboration]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The evidence being analysed is learners' own, gathered on a live local challenge, and the
+      product has to leave the classroom: presented to community members where possible, or at
+      least left with a local organisation, so it meets people with a stake in it.
+  - principle: recognise-communicate-growth
+    how: >-
+      The earlier ecosystem map and iceberg are updated in a second colour with the old version
+      kept alongside, so learners can see exactly what their research changed in their own
+      thinking. The closing makes them state one insight they now trust and one question they
+      still cannot answer.
+  - principle: collaboration
+    how: >-
+      Clusters and insights are argued over rather than settled privately, and every listener at
+      the sharing has a required contribution, a question they still have or a claim they want more
+      evidence for, so the audience works on the analysis rather than applauding it.
 competencyCodes: [FSI1, ATS1, APS3, FTS3]
+competencyDevelopment:
+  - code: FSI1
+    how: >-
+      This is where research becomes an actionable insight rather than a pile of notes: learners
+      work back through every interview, survey response and source, then write statements saying
+      what the evidence means. The report or presentation, with its sources cited, is the evidence
+      of the whole investigation.
+  - code: ATS1
+    how: >-
+      Building each insight openly from three or four specific notes, and putting disagreement
+      between sources into the insight instead of smoothing it away, is the interpretation work.
+      The affinity map, the updated iceberg and the number of sources written beside each claim
+      show whether the interpretation is proportionate to the data.
+  - code: APS3
+    how: >-
+      Themes are allowed to form from the notes rather than being decided in advance, and the notes
+      that fit nowhere are treated as signals rather than waste. Naming what unites each cluster,
+      and what the outliers and contradictions imply, is the pattern-reading learners can be judged
+      on.
+  - code: FTS3
+    how: >-
+      Every piece of evidence is broken down to one idea per note and marked with where it came
+      from, so the whole body of research can be sorted, re-sorted and traced back. That organised,
+      traceable set is what makes citing sources in the final product possible at all.
 objectiveIds: [social-entrepreneurship--o1]
 relatedSlugs: [affinity-mapping, iceberg-model, stakeholder-community-mapping, community-mapping-and-empathy-interviews, evidence-log-and-source-evaluation]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]

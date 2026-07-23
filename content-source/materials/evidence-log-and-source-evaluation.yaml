@@ -8,6 +8,19 @@ summary: >-
   judging each source's credibility and recording what it tells them and where it came
   from.
 facilitationContext: [independent, group]
+primaryContext: group
+deliveryAdaptations:
+  - context: independent
+    how: >-
+      The log is kept independently in any case, so this holds, but the learner loses the argument
+      over the ranking in step 2 and the partner's credibility challenge at the close. Ask them to
+      write the case for and against each of the three prepared sources before committing to an
+      order, and to find one person who will challenge a log entry, even by message.
+  - context: group
+    how: >-
+      As designed. Keep the ranking in small groups and do not let them settle quickly, since the
+      disagreement about the order is the teaching; then protect the short recurring check-ins in
+      class time, or the log stops being updated once the introduction is over.
 duration: About 2 hours to introduce, then recurring independent time to maintain the log
 grouping: Individual work, with small groups for the ranking exercise; works with 15-35 learners
 whatLearnersDo:
@@ -102,10 +115,50 @@ closing: |
 agencyContribution:
   indicators: [power-over-wellbeing-and-self-direction]
   how: >-
-    Learning to judge which sources to trust gives learners the means to reach their own
-    informed conclusions rather than accepting whatever they are told.
+    Learners come away with a habit of asking who made a source and what they gain from it, and a
+    log that records what they trust and why. Being able to judge information for themselves is
+    what gives them power over their own decisions, rather than depending on whoever happens to be
+    telling them something.
 principlesForegrounded: [responsible-action, feedback-and-data, lifeworthy-competencies]
+principleAlignment:
+  - principle: responsible-action
+    how: >-
+      Every entry has to carry a credibility note and a reference someone else could follow, so
+      learners are accountable for what they claim. AI tools are held to the same standard in step
+      4: useful for exploring ideas, never acceptable as a citation.
+  - principle: feedback-and-data
+    how: >-
+      The log is designed to be revisited rather than handed in. Learners add to it at recurring
+      check-ins, swap sources with a partner, and in the closing revise an entry after someone has
+      challenged its credibility.
+  - principle: lifeworthy-competencies
+    how: >-
+      The CRAAP questions are first practised on a topic learners have no stake in, so the method
+      rather than the content is what sticks, and only then turned on their own challenge. The
+      target is a habit they apply to any information they meet, not a worksheet completed once.
 competencyCodes: [FPS2, FSI1, FTS3, APS3]
+competencyDevelopment:
+  - code: FPS2
+    how: >-
+      Ranking three sources of clearly different quality and having to justify the order is where
+      the judgement is built, and the credibility note on every log entry is what makes that
+      judgement visible enough for a partner to challenge and the learner to defend or drop.
+  - code: FSI1
+    how: >-
+      This is the secondary-research half of the investigation, run alongside the fieldwork rather
+      than after it. What learners can show is a log covering a spread of source types, each
+      summarised for what it adds to their understanding of the challenge.
+  - code: FTS3
+    how: >-
+      Sources are gathered deliberately across formats (reports, books, local records, radio,
+      people who hold knowledge in the community) and organised in one log with the same fields
+      every time: source details, summary, credibility note. That consistency is what makes the
+      collection usable later.
+  - code: APS3
+    how: >-
+      Holding many sources side by side in one log is what lets learners see where accounts agree,
+      where they conflict and what none of them covers. Naming the biggest remaining gap in the
+      closing is the demonstration, and it sets the direction for the next round of research.
 objectiveIds: [social-entrepreneurship--o1]
 relatedSlugs: [craap-test, community-mapping-and-empathy-interviews, challenge-research-report-and-presentation]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]

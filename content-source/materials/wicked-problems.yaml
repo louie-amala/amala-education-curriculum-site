@@ -5,6 +5,19 @@ type: concept
 title: Wicked problems
 summary: A way of naming the hardest social and environmental challenges, those with no agreed definition and no single, testable solution.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Disagreement in the room is the teaching point, because a wicked problem is
+      one people define differently, so put learners with competing framings of the same problem
+      together when they run the self-assessment and compare answers.
+  - context: independent
+    how: >-
+      A learner can run the seven questions on their own problem alone, but they lose the
+      disagreement that makes wickedness visible and tend to answer consistently in one direction.
+      Ask them to also write the answers someone who sees the problem differently would give, and
+      to bring both versions back for comparison.
 educatorContent: |
   Use this concept once learners have started sorting problems as simple, complicated or complex, to name a fourth kind that sits beyond complex. A wicked problem is one where the problem itself shifts depending on how you frame it, where there is no clear point at which it is "solved", and where an attempt to fix one part can create new problems elsewhere.
 
@@ -25,9 +38,32 @@ learnerContent: |
   Take a problem you care about and test how wicked it is using the self-assessment questions. Then note: which parts of this problem could you still act on, even though the whole thing may never be "solved"?
 agencyContribution:
   indicators: [contribution-to-community]
-  how: Naming a challenge honestly as wicked helps learners contribute realistic, well-judged understanding to their community rather than over-promising a single fix.
+  how: >-
+    Running a challenge they care about through the seven self-assessment questions gives learners
+    a defensible judgement of how hard it really is, and a shortlist of the parts they can still
+    act on. That is what makes their contribution to the community an impactful one, because they
+    put effort into a piece that can move rather than promising a single fix that will not hold.
 principlesForegrounded: [authentic-challenges, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The concept is applied to a problem the learner has chosen from their own life or community,
+      not a worked example, and the self-assessment ends by asking which parts of it they could
+      still act on, so naming a problem as hard does not become a reason to stop.
+  - principle: responsible-action
+    how: >-
+      The design puts an explicit brake on over-claiming. Learners have to record where people
+      disagree about the problem and where fixing one part could create new problems elsewhere,
+      which is treated as part of judging it well rather than as a caveat added at the end.
 competencyCodes: [FPS3]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Sorting a challenge as simple, complicated, complex or wicked forces learners to say who and
+      what is keeping it going and where that account is contested, which is the thinking behind
+      identifying contributing factors. As a concept it mainly builds that judgement; the completed
+      self-assessment with reasons attached is the first evidence of it, and learners demonstrate it
+      properly in the problem tree, iceberg and research work that follows.
 objectiveIds: [social-entrepreneurship--o1]
 relatedSlugs: [systems-thinking-iceberg-model, iceberg-model, leverage-points]
 sourceRefs: ["Wicked Problems Self-Assessment.pdf", "planner-new.txt"]

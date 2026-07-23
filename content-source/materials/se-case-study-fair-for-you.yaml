@@ -5,6 +5,19 @@ type: case-study
 title: "Case study: Fair for You (affordable credit)"
 summary: Learners examine a real social enterprise that offers affordable credit to low-income households, and analyse how its model links revenue to social impact.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners read the profile first, then work the questions in pairs or small
+      groups, and the debrief is where the link between how the enterprise earns and how it helps
+      gets made. Running it alongside the hiSbe Food case gives the comparison something to bite on.
+  - context: independent
+    how: >-
+      The profile reads well alone and the questions can be answered in writing, but the comparison
+      question and the argument about whether this is really a social enterprise both need someone
+      to push back. Ask the learner to read the hiSbe Food profile as well so the comparison is
+      still possible, and to take their answers to a peer or mentor afterwards.
 educatorContent: |
   This case study introduces Fair for You, a social enterprise profiled in the Social
   Enterprise UK guide. Use it once learners understand what a social enterprise is and
@@ -60,9 +73,39 @@ learnerContent: |
     have to be different in your own context?
 agencyContribution:
   indicators: [control-of-future-pathways]
-  how: Analysing how one founder turned a problem she witnessed into a working enterprise gives learners a concrete pathway model they can adapt to their own idea.
+  how: >-
+    Tracing the route from listening to credit union members to running a lending enterprise, and
+    seeing how the ownership structure keeps it on mission, gives learners a worked example of a
+    problem turning into something that pays for itself. The last question asks what they would
+    borrow and what would have to be different where they live, so the case widens the set of
+    future pathways they can picture for themselves rather than staying an admirable story.
 principlesForegrounded: [authentic-challenges, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The material is a real enterprise built by a founder out of what she heard from people in
+      low-income households, and the questions close by asking learners what they would take from
+      it into a challenge they care about, so the analysis points back at their own work.
+  - principle: responsible-action
+    how: >-
+      The questions go at the mechanism rather than the intention, asking how ownership by a
+      charity holds the mission in place and why lending to households other lenders target is a
+      different proposition. Learners are also shown which claims carry a to-verify mark and asked
+      to check them before repeating them.
 competencyCodes: [APS4, FLC1]
+competencyDevelopment:
+  - code: APS4
+    how: >-
+      Learners work out how one model ties revenue and impact into the same activity, and the
+      prompt to set it beside hiSbe Food turns that into a comparison of two quite different ways
+      of earning while doing good. The case builds the eye for that comparison; learners show the
+      competency when they weigh options for their own idea.
+  - code: FLC1
+    how: >-
+      Arguing why this counts as a social enterprise rather than a charity or an ordinary lender
+      makes learners state the ethical line they are drawing, and the legal-structure question
+      shows one way a founder builds that line into how the organisation is owned. What they take
+      away is a test to apply to their own decisions later.
 objectiveIds: [social-entrepreneurship--o2]
 relatedSlugs: [se-case-study-hisbe-food, se-start-your-social-enterprise-guide]
 sourceRefs: [Start-your-social-enterprise-guide-1.pdf]

@@ -7,6 +7,14 @@ summary: >-
   Learners rehearse their pitch in practice rounds with peers, facilitators or invited
   mentors, then adapt it in response to the feedback they receive.
 facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, and it does not survive being run any other way: the value comes from real
+      listeners, fresh ones each round, and from an outside voice at the checkpoint. With a small
+      class, replace rotating circles with a single whole-group round and share one mentor across
+      groups using shortened pitches, but never drop the rule that something changes between rounds.
 duration: About 3 to 4 hours of practice rounds, spread across the pitch development time
 grouping: Pairs, small circles and whole group; works with 15-35 learners
 whatLearnersDo:
@@ -152,10 +160,49 @@ closing: |
 agencyContribution:
   indicators: [power-over-wellbeing-and-self-direction]
   how: >-
-    Repeated practice and acting on feedback build learners' confidence and voice, so
-    they can speak up for their ideas in front of others.
+    Pitching several times in low-stakes rounds means the first mistakes happen in private, and
+    learners themselves decide what to change before the next one. Directing their own revisions,
+    and discovering they can hold their nerve through a question they cannot answer, gives learners
+    real power over how their idea is heard and over how they handle the day itself.
 principlesForegrounded: [feedback-and-data, safe-spaces, recognise-communicate-growth]
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      Listeners work from prompts the group wrote itself and write their responses down, so feedback
+      is a job rather than an opinion and survives the conversation. Revision time is protected
+      straight after each round and no group enters the next round until it has named the change it
+      is making, which is what stops feedback being agreed with and ignored.
+  - principle: safe-spaces
+    how: >-
+      The rounds are sequenced from a timed pitch to one pair with nobody else listening, up through
+      circles, cameras and finally an outside mentor. Guests are briefed to be specific and
+      encouraging rather than competitive, and changing the pitch is treated as a strength, so
+      admitting that something did not work costs a learner nothing.
+  - principle: recognise-communicate-growth
+    how: >-
+      Feedback forms are kept deliberately as a record of how the pitch developed round by round,
+      and the closing asks each group to name one thing that improved and one thing still unfinished.
+      Learners end up describing their own progress in specifics rather than being judged only on
+      the final performance.
 competencyCodes: [FLC3, FPS1, ALC4]
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      Influential communication is built by saying the same pitch to different listeners and finding
+      out which parts create interest and which lose people. The distance between the first paired
+      round and the final timed run, tracked in the listeners' notes against the agreed prompts, is
+      what shows the skill developing.
+  - code: FPS1
+    how: >-
+      Adaptable thinking is what the rounds are for: the same idea delivered to a partner, to a
+      rotating circle, to a camera and to an outside mentor, each with unscripted questions at the
+      end. The evidence is the specific change made after each round and how a learner handles a
+      question they did not prepare for.
+  - code: ALC4
+    how: >-
+      Learners work directly on the parts of a pitch that make someone want to act, mainly why the
+      problem matters and what the ask would make possible. Whether a mentor says the ask is
+      something they could say yes to is the clearest evidence available here.
 objectiveIds: [social-entrepreneurship--o3]
 relatedSlugs: [ladder-of-feedback, pitch-deck-and-concept-brief, final-showcase-pitch]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]

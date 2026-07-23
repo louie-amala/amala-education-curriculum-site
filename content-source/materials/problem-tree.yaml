@@ -5,6 +5,19 @@ type: tools-approaches
 title: Problem tree
 summary: A diagram that separates a problem's root causes (the roots) from its effects (the branches), with the core problem as the trunk.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The arguments about whether an item belongs in the roots or the branches are the
+      most useful part of the tool, so work on sticky notes that can be moved and let the
+      disagreement run instead of settling it from the front.
+  - context: independent
+    how: >-
+      The diagram works alone and the repeated why questions still do their job, but with nobody
+      arguing back the tree usually stops at the first layer of causes. Set a minimum of three whys
+      per root, and have the learner walk the finished tree through with one other person whose only
+      task is to ask whether each root is genuinely different from the one above it.
 toolsFacet: analytical
 educatorContent: |
   The problem tree is a simple visual for pulling a challenge apart into causes and effects. Learners write the core problem on the trunk, its underlying causes on the roots below, and its visible effects on the branches above. It is a natural companion to the iceberg: the roots do the same job as the lower iceberg bands, surfacing what lies beneath a visible issue, while the branches map the consequences that spread outward.
@@ -25,9 +38,31 @@ learnerContent: |
   When your tree is full, look at the roots. Which one or two causes, if you could weaken them, would do the most to shrink the whole problem?
 agencyContribution:
   indicators: [contribution-to-community]
-  how: Separating causes from effects helps learners explain a community problem clearly to others and target its roots rather than its symptoms.
+  how: >-
+    Stating the problem in one sentence and then digging down through repeated why questions leaves
+    learners able to say what is really driving an issue in their community and which roots are
+    worth going after. Acting on a root cause rather than a visible symptom is the difference
+    between a contribution that shifts something and one that tidies the surface.
 principlesForegrounded: [authentic-challenges]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The tree can only be grown from the learner's own problem, and the tool exposes any vagueness
+      immediately, since a loosely worded trunk produces roots and branches that say nothing. That
+      pressure to define the real challenge precisely is doing the work here.
 competencyCodes: [FPS3, APS3]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Growing the roots by asking why two and three layers down is exactly the work of establishing
+      what is playing a part in a problem. The depth of the root system, and whether each layer is a
+      different cause rather than the one above restated, is what shows how well it was done.
+  - code: APS3
+    how: >-
+      Building the branches means tracing how one problem produces consequences that spread outward,
+      which is reading relationships rather than listing them. The closing judgement, on which one
+      or two roots would do most to shrink the whole problem, is where a learner demonstrates they
+      can read the structure they have drawn.
 objectiveIds: [social-entrepreneurship--o1]
 relatedSlugs: [iceberg-model, systems-thinking-iceberg-model, stakeholder-community-mapping]
 sourceRefs: ["planner-new.txt"]

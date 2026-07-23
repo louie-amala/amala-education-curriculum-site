@@ -8,6 +8,19 @@ summary: Learners go into their community to observe, listen and map who is affe
 facilitationContext:
 - group
 - independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. The co-created ethics checklist in step 1 and the comparison of maps in the
+    closing both need the whole class present, so keep those in the room; the fieldwork itself
+    stays individual or in pairs so every learner brings back their own encounters.
+- context: independent
+  how: >-
+    Workable, since the fieldwork is solo anyway, but the learner loses the shared ground rules
+    and the moment where different maps contradict each other. Walk through the ethics and risk
+    check with them directly before they go out, and pair them with at least one other person to
+    swap maps and surprises afterwards, even asynchronously.
 duration: About 3 hours of class time, plus several hours of independent fieldwork
 grouping: Individual or pairs; works with 15-35 learners
 whatLearnersDo:
@@ -121,17 +134,59 @@ closing: |
 agencyContribution:
   indicators:
   - contribution-to-community
-  how: Learners centre the lived experience of community members in defining a challenge, so the understanding
-    they build belongs to and reflects the community rather than their assumptions.
+  how: >-
+    Learners gather first-hand accounts from people living with the challenge and map who else is
+    connected to it, so the problem gets defined from community perspectives rather than from what
+    learners assumed at the start. Contributions built on that grounding are far more likely to be
+    impactful for the community, because they address what people actually said they need.
 principlesForegrounded:
 - authentic-challenges
 - collaboration
 - responsible-action
+principleAlignment:
+- principle: authentic-challenges
+  how: >-
+    The research happens out in the community on a challenge learners have already chosen, not on a
+    case study, so the people affected have a stake in what learners find and the findings have to
+    survive contact with a real place.
+- principle: collaboration
+  how: >-
+    The understanding is assembled with community members through interviews and informal
+    conversations, then brought back into the group in the closing, where conflicting accounts from
+    different learners are surfaced rather than smoothed over.
+- principle: responsible-action
+  how: >-
+    No one starts fieldwork until the class has written its own consent, privacy, respect and safety
+    checklist and the facilitator has reviewed each learner's ethics and risk check, so the ethics
+    of researching real people gates the work instead of following it.
 competencyCodes:
 - FSI1
 - FPS3
 - FLC1
 - FTS3
+competencyDevelopment:
+- code: FSI1
+  how: >-
+    Planning and running their own empathy walk, interviews and conversations is where the primary
+    research skill is built, and the field notes, the ecosystem map and the surprise each learner
+    reports back are what show how well they did it.
+- code: FPS3
+  how: >-
+    Mapping the people, groups, institutions, cultural influences and natural systems around the
+    challenge, with every link labelled for what it actually carries, is how learners establish what
+    is playing a part in the problem. The labelled links, and the assumptions marked in a second
+    colour, show whether each claim is evidenced or still a guess.
+- code: FLC1
+  how: >-
+    Learners set the moral principles for their own fieldwork and then have to hold to them in front
+    of real people, asking permission, keeping confidences and observing places rather than
+    individuals. Their signed-off ethics and risk check, and their account of how consent worked in
+    practice, are the evidence.
+- code: FTS3
+  how: >-
+    Qualitative data is collected first-hand through notes, sketches and voice memos, then organised
+    onto one ecosystem map that separates what is known from what is assumed. The map and the notes
+    behind it are the artefact learners can show.
 objectiveIds:
 - social-entrepreneurship--o1
 relatedSlugs:

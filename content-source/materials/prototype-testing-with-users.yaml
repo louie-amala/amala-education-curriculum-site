@@ -7,6 +7,20 @@ summary: >-
   Learners run small, safe-to-fail tests of their idea with potential users, gathering
   feedback and simple evidence to see what works and what to change.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The recurring check-ins and peer feedback rounds are what keep tests small and
+      stop a group quietly ignoring its own results, so protect that timetable slot even when the
+      testing itself is running late. Keep project groups to five or fewer, or the quieter members
+      end up watching rather than testing.
+  - context: independent
+    how: >-
+      One learner can run the full cycle alone, but loses the peer feedback round, which is the main
+      defence against believing your own idea. Pair them with a peer or mentor for a short update
+      each cycle using the same four questions, and hold the line that testers must come from
+      outside their own household.
 duration: A multi-session phase of roughly 10-20 hours across class time and independent time
 grouping: Project groups of up to five, or individuals; works with 15-35 learners
 whatLearnersDo:
@@ -161,10 +175,54 @@ closing: |
 agencyContribution:
   indicators: [contribution-to-community, control-of-future-pathways]
   how: >-
-    Testing with the people a solution is meant to serve gives them a real say in
-    shaping it, and gives learners evidence to steer their own idea forward.
+    Testing with the people the idea is meant to serve, and changing it in response, means what
+    learners eventually offer is shaped with the community rather than aimed at it, which is what
+    makes the contribution likely to land. The testing log also puts the evidence for what to keep,
+    change or drop in learners' own hands, so the direction of the idea, and of what they do with
+    it after the course, stays theirs to steer.
 principlesForegrounded: [feedback-and-data, authentic-challenges, responsible-action]
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      Each group writes down what would count as working and what would count as failing before
+      anything is tried, so results cannot be reinterpreted afterwards to protect the idea. Every
+      cycle ends with a decision tied to a named entry in the testing log, and peer feedback rounds
+      run through the phase rather than once at the end.
+  - principle: authentic-challenges
+    how: >-
+      Testing happens where the users are, with at least some testers from outside the group, and
+      the whole phase is sized to what can be tried in days or weeks with what learners already
+      have. A rough test that produced real evidence counts as the work.
+  - principle: responsible-action
+    how: >-
+      The ethics and safety agreement from the research phase is deliberately carried over, because
+      testing also involves other people. Nothing runs until the group has checked that failure
+      would do little or no harm and has agreed how it will ask permission and explain what it is
+      doing.
 competencyCodes: [FSI3, FSI2, FTS1, ATS3]
+competencyDevelopment:
+  - code: FSI3
+    how: >-
+      This is the pilot itself: shrinking the idea to one part, trying it with real people, and
+      recording what happened rather than what was hoped for. The testing log, one entry per test
+      with the evidence and the decision that followed, is what learners can show for it.
+  - code: FSI2
+    how: >-
+      Ideas are refined here rather than invented. Each cycle closes by naming what to keep, change,
+      drop or try next against a specific piece of evidence, so the gap between the first version of
+      the idea and the one that survives testing is the demonstration.
+  - code: FTS1
+    how: >-
+      Where the tools exist, learners put them to practical use: a survey or form tool to collect
+      responses, a phone for consented voice notes and photographs of the prototype, messaging to
+      reach testers who cannot meet in person. Judging which tool actually works in their setting,
+      and dropping back to paper response sheets when none does, is part of the skill.
+  - code: ATS3
+    how: >-
+      This only applies to groups whose prototype is itself technical, where they build or adapt
+      something and test whether it works. For those learners the successive versions of the
+      prototype, and the log of what each round of testing changed in it, are the evidence; other
+      projects will not develop this competency here.
 objectiveIds: [social-entrepreneurship--o2]
 relatedSlugs: [safe-to-fail-experiments, ladder-of-feedback, idea-generation-and-prioritisation, concept-note-and-refinement]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]

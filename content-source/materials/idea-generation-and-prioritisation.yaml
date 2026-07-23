@@ -7,6 +7,14 @@ summary: >-
   Learners generate a wide range of possible enterprise ideas in response to their
   challenge, then use structured criteria to prioritise the ones worth testing.
 facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, and it leans on the group in two places: the no-judgement brainstorm needs enough
+      people for ideas to build on each other, and the argument over where an idea sits on the
+      matrix is what stops learners scoring a favourite as high impact. Keep groups at three to five
+      and pool everything onto one wall before converging, so nobody prioritises from a thin list.
 duration: About 2 hours
 grouping: Small groups of 3 to 5; works with 15 to 35 learners
 whatLearnersDo:
@@ -113,10 +121,46 @@ closing: |
 agencyContribution:
   indicators: [control-of-future-pathways]
   how: >-
-    Learners generate and choose between their own solution ideas, taking ownership of
-    the direction their enterprise will take rather than being handed one.
+    Learners produce their own list of options and then decide, against criteria they have applied
+    themselves, which ideas to carry forward and why. Choosing the direction of their own enterprise
+    rather than being handed a project is what gives them control over the pathway they take next,
+    and the same filtering habit applies to choices well beyond this course.
 principlesForegrounded: [authentic-challenges, responsible-action, lifeworthy-competencies]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      Ideas are generated against the specific challenge learners researched, and filtered for what
+      could be tested within weeks using what they already have, so what leaves the session is a
+      small real action rather than a hypothetical enterprise.
+  - principle: responsible-action
+    how: >-
+      The safe-to-fail check asks directly whether an idea could do harm and whether it is
+      responsible, inclusive and affordable in the learners' own context, so ethics is one of the
+      filters that decides the shortlist rather than a comment made afterwards.
+  - principle: lifeworthy-competencies
+    how: >-
+      Holding divergence and convergence apart, then requiring a justification against stated
+      criteria instead of a silent vote, is a way of deciding that learners can reuse on any choice
+      they face, not a routine that only works on enterprise ideas.
 competencyCodes: [FSI2, APS4, FLC1]
+competencyDevelopment:
+  - code: FSI2
+    how: >-
+      The brainstorm is where ideation is actually practised, under a no-judgement rule and with
+      every idea expected both to address the challenge and to bring in some income. The long list
+      and the shortlist drawn from it are what learners can show for it.
+  - code: APS4
+    how: >-
+      Plotting ideas on effort against impact, then putting the survivors through the safe-to-fail
+      check, is a structured comparison of options on feasibility, effort and likely impact. The
+      one-line justification for each shortlisted idea, argued against the criteria rather than by
+      preference, is the evidence.
+  - code: FLC1
+    how: >-
+      Learners have to ask whether an idea could harm anyone and whether it is responsible and
+      inclusive before it goes any further, which means an idea can be dropped on ethical grounds
+      alone. How they defend or discard an idea on those grounds shows whether the principle is
+      being applied or recited.
 objectiveIds: [social-entrepreneurship--o2]
 relatedSlugs: [effort-impact-matrix, leverage-points, circle-of-influence, safe-to-fail-experiments, prototype-testing-with-users]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]

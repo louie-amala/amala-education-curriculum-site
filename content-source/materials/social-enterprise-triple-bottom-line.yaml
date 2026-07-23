@@ -5,6 +5,19 @@ type: concept
 title: Social enterprise and the triple bottom line
 summary: The idea that a social enterprise is judged on social and environmental benefit as well as money, not money alone.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Comparing several real definitions and placing enterprises on the money-making
+      to problem-solving line works because learners put them in different places, so keep the line
+      visible and ask groups to defend a position rather than settle quickly on one.
+  - context: independent
+    how: >-
+      The definitions read well alone and a learner can place their own idea on the spectrum, but
+      without other placements to argue with the tension between income and mission stays abstract.
+      Set a written prompt asking them to argue for their placement and then against it, and bring
+      it into a group or mentor conversation before it hardens.
 educatorContent: |
   Use this concept early, as learners build a working definition of a social enterprise, and return to it whenever they weigh an idea. A social enterprise trades like a business but exists for a social or environmental purpose, and reinvests most of its profit into that mission. The useful mental model is that it answers to more than one bottom line: financial sustainability, social benefit, and environmental benefit together, sometimes summarised as people, planet and profit.
 
@@ -21,9 +34,38 @@ learnerContent: |
   Then place your own idea on a line from "money-making" (profit-focused) to "problem-solving" (impact-focused). An idea that makes no money cannot keep going. An idea that drops its mission to chase profit is no longer a social enterprise. Where does yours sit, and where do you want it to sit?
 agencyContribution:
   indicators: [control-of-future-pathways]
-  how: Understanding how impact and income fit together helps learners design an idea that could actually sustain itself and give them a viable pathway.
+  how: >-
+    Placing real enterprises, and then their own idea, on the line from money-making to
+    problem-solving forces learners to say where the income comes from as well as what good the
+    idea does. An idea that can pay for itself is one they can keep running after the course ends,
+    so this is where an interest starts to become a future pathway they have some control over.
 principlesForegrounded: [responsible-action, lifeworthy-competencies]
+principleAlignment:
+  - principle: responsible-action
+    how: >-
+      The design refuses to separate ethics from viability. Learners have to place their own idea
+      on the spectrum and defend the position, which puts reinvestment, who benefits and who could
+      be left out inside the judgement of the idea rather than alongside it.
+  - principle: lifeworthy-competencies
+    how: >-
+      Learners assemble the definition themselves from several real ones and work out what they
+      share, and are told honestly that there is no single legal definition and in some countries
+      no legal framework at all. What they keep is a way of interrogating any enterprise they meet,
+      not a definition to recite.
 competencyCodes: [FLC1, FSI2]
+competencyDevelopment:
+  - code: FLC1
+    how: >-
+      Deciding where an idea sits on the spectrum is where learners have to state which values they
+      will trade and which they will not, for instance how much surplus goes back into the mission.
+      The concept supplies the language for that; the ethical commitments become visible as evidence
+      later, in the concept note and in the choices they make about their own enterprise.
+  - code: FSI2
+    how: >-
+      Holding social benefit, environmental benefit and financial sustainability together sets the
+      standard their own ideas are judged against, which is what stops ideation at what merely
+      sounds good. Learners show the competency in the ideas they generate and refine afterwards
+      rather than here.
 objectiveIds: [social-entrepreneurship--o2]
 relatedSlugs: [business-model-canvas-concept-note, leverage-points]
 sourceRefs: ["planner-new.txt", "social-entrepreneurship.yaml"]

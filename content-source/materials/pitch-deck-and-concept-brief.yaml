@@ -7,6 +7,19 @@ summary: >-
   Learners build the materials that carry their idea to an audience: a short pitch deck,
   a one-page concept brief and an elevator pitch, each with a clear ask.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Step 1 works because the class names the pitch ingredients together and that list
+      stays on display, and steps 5 and the closing need live listeners to rehearse on. Protect the
+      time for learners to hear each other, since that is where the ask gets sharpened.
+  - context: independent
+    how: >-
+      Workable, because the building is individual anyway, but the learner loses the class-generated
+      ingredient list and any audience. Give them the five ingredients directly, and have them record
+      the elevator pitch and send it to a peer or mentor for one specific reaction; a pitch never
+      spoken to a listener does not survive contact with one.
 duration: About 3 to 4 hours, with independent time to build the materials
 grouping: Individual or in enterprise teams; works with 15 to 35 learners
 whatLearnersDo:
@@ -111,10 +124,46 @@ closing: |
 agencyContribution:
   indicators: [control-of-future-pathways]
   how: >-
-    Being able to communicate an idea and make a clear ask equips learners to draw
-    support towards initiatives they choose to lead.
+    Learners leave with three ways to put their idea in front of someone (a deck, a one-page brief
+    and a spoken minute), each ending with a specific ask for time, connections, mentoring or
+    funding. Being able to state an idea and name the help it needs is how learners pull support
+    towards the future pathways they choose, instead of waiting for one to be offered.
 principlesForegrounded: [recognise-communicate-growth, lifeworthy-competencies, connect-to-futures]
+principleAlignment:
+  - principle: recognise-communicate-growth
+    how: >-
+      The activity is entirely about turning work learners already did into something another person
+      can follow and respond to. Rehearsing aloud and taking one specific reaction in the closing
+      means they hear how their own progress reads to an outsider.
+  - principle: lifeworthy-competencies
+    how: >-
+      Writing a one-page leave-behind, holding a room for a minute and asking clearly for what you
+      need are the same moves used in funding conversations, job interviews and partnership
+      approaches, so the practice keeps its value well outside this course.
+  - principle: connect-to-futures
+    how: >-
+      Insisting that every version ends on a named ask makes learners identify the specific people
+      and next steps that could carry the idea on, which is the point at which a course project
+      starts to look like a route they could actually take.
 competencyCodes: [FLC3, ATS2, FR1]
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      Learners build influential communication by shaping one set of content three ways for an
+      audience and rehearsing the spoken version until it holds a listener for a minute. The deck,
+      the brief and the delivered pitch are the evidence, together with whether the ask lands when
+      the group reacts in the closing.
+  - code: ATS2
+    how: >-
+      Where a project rests on scientific or environmental understanding, step 2 asks learners to
+      state that understanding plainly and accurately for a non-expert audience. How that
+      explanation reads on the page and sounds in the pitch is what shows whether they can stay
+      accurate and still be understood.
+  - code: FR1
+    how: >-
+      Naming a specific ask forces learners to work out which people, funds or support the idea
+      actually needs next. The precision of that ask is the evidence: a named kind of help from a
+      named kind of person, rather than general encouragement.
 objectiveIds: [social-entrepreneurship--o3]
 relatedSlugs: [pitch-deck-elevator-pitch, concept-note-and-refinement, simulated-pitch-and-feedback, final-showcase-pitch]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]

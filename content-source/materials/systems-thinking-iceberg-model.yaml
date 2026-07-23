@@ -5,6 +5,19 @@ type: concept
 title: Systems thinking and the iceberg model
 summary: The idea that visible events sit on top of hidden patterns, structures and mental models that keep a problem in place.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The move that does the work is someone repeatedly asking "and what sits beneath
+      that?", so run it as a live dig with the facilitator holding the direction of travel downwards
+      and learners supplying the layers.
+  - context: independent
+    how: >-
+      A learner can build an iceberg alone and it works well as preparation, but with nobody
+      pressing they usually stop at patterns and leave the mental models thin. Give them the four
+      questions in writing with a required entry at every layer, and have the lower two layers
+      questioned by a peer or educator before they turn the gaps into research questions.
 educatorContent: |
   This concept underpins much of the research phase of the course. Systems thinking asks learners to look past single events and ask what keeps producing them. The iceberg is the simplest way to hold that idea: only the tip (the events we see) is above the water, while most of what drives the system is below the surface.
 
@@ -31,9 +44,42 @@ learnerContent: |
   The lower you go, the more powerfully you could change the system, but the harder those things are to see and to shift. As you research your problem, keep asking "what sits beneath this?" and write down the questions you still cannot answer.
 agencyContribution:
   indicators: [contribution-to-community]
-  how: Seeing the hidden structures behind a community problem lets learners contribute deeper understanding, not just descriptions of symptoms.
+  how: >-
+    Pushing past the events they can see to the patterns, structures and beliefs underneath gives
+    learners an account of why a problem in their community keeps happening, plus a written list of
+    what they still cannot answer. A contribution built on that account holds up when other people
+    question it, which is what makes it impactful rather than only well meant.
 principlesForegrounded: [authentic-challenges, lifeworthy-competencies]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      Learners build the four layers around the challenge they are actually researching, and the
+      blanks in their iceberg become the questions they take into primary and secondary research,
+      so the concept sends them out to the community rather than keeping them in analysis.
+  - principle: lifeworthy-competencies
+    how: >-
+      The iceberg is taught as a question learners keep asking, not as content to recall, and they
+      are expected to return and revise it once evidence arrives. What is being practised is a
+      habit of looking beneath a situation that works on any problem they meet later.
 competencyCodes: [FPS3, APS3, ATS1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Moving from events down to structures and mental models is the move from symptom to
+      contributing factor. The four-layer iceberg they produce, and then revise against what
+      research shows, is the evidence of how far past the surface they managed to get.
+  - code: APS3
+    how: >-
+      The patterns layer makes learners state what has been recurring over time rather than what
+      happened once, which is where this concept builds the eye for a pattern. Being a concept, it
+      can only start that off; learners demonstrate it on their own collected data later in the
+      research and evidence work.
+  - code: ATS1
+    how: >-
+      The four layers give learners a structure for interpreting findings rather than just
+      collecting them, since every finding has to be placed at a level and may force the iceberg to
+      be redrawn. The interpretation itself is shown elsewhere, in the evidence log and the research
+      report, where the revised iceberg is what they have to justify.
 objectiveIds: [social-entrepreneurship--o1]
 relatedSlugs: [iceberg-model, wicked-problems, leverage-points, stakeholder-community-mapping]
 sourceRefs: ["iceberg-graphics-questions.pdf", "planner-new.txt"]

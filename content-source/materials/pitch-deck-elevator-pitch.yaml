@@ -5,6 +5,20 @@ type: tools-approaches
 title: Pitch deck and elevator pitch
 summary: Short, structured ways to communicate an enterprise idea so others understand it, believe in it, and offer support.
 facilitationContext: [group, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Co-creating the five ingredients, pitch circles and feedback swaps all need a
+      room of people, and the sheer volume of low-stakes practice is what makes the tool work.
+      Protect the revision time between rounds, or learners simply repeat the same pitch more
+      fluently.
+  - context: one-to-one-mentoring
+    how: >-
+      Strong for pressure-testing the ask, since a mentor will say plainly whether it is something
+      they could act on, and for practising how the framing changes for a different listener. What
+      is missing is the variety and volume of audiences, so use mentoring for one or two sharpening
+      sessions rather than as the whole rehearsal.
 toolsFacet: facilitation
 educatorContent: |
   A pitch is a short, structured message that explains an idea and invites support. The pitch deck is the slide set that carries it; the elevator pitch is the same idea compressed to under a minute for a chance encounter. Both are the culmination of the course, where learners turn everything they have understood, developed and tested into a call to action.
@@ -36,9 +50,53 @@ learnerContent: |
   Practise out loud, more than feels comfortable: to a partner, to camera, in small groups. After each go, ask: was it clear and compelling? Was the ask realistic and specific? Did it make you want to help? Then adjust for who you are speaking to, because a mentor, a funder and a neighbour each need it framed slightly differently.
 agencyContribution:
   indicators: [contribution-to-community, control-of-future-pathways, power-over-wellbeing-and-self-direction]
-  how: Learning to make a clear, confident ask gives learners a voice to attract real support and advance an idea they care about.
+  how: >-
+    Being able to explain an idea and name exactly the help it needs lets a learner put a community
+    problem in front of people who might act on it, and lets them pull in the mentors, collaborators
+    and support that shape what they can do next. Making that ask repeatedly, and finding it can be
+    made and survived, is also where the nerve to speak for their own ideas comes from.
 principlesForegrounded: [connect-to-futures, recognise-communicate-growth, collaboration]
+principleAlignment:
+  - principle: connect-to-futures
+    how: >-
+      The ask is a required part of the structure and has to name a specific kind of support, not a
+      general hope. Reframing the same pitch for a mentor, a funder and a community member makes
+      learners think concretely about which of those routes they are actually trying to open.
+  - principle: recognise-communicate-growth
+    how: >-
+      The evidence component obliges learners to say what they have tried and what is working, so
+      they report real progress rather than promises. Running repeated rounds against the same
+      feedback prompts, with revision in between, lets them see their own communication improving
+      attempt by attempt.
+  - principle: collaboration
+    how: >-
+      The ingredients of a strong pitch are drawn out of the class rather than handed down, and the
+      practice runs on feedback swaps, circles and checkpoints. The pitch itself invites people in,
+      so the audience is treated as possible collaborators rather than as judges.
 competencyCodes: [FLC3, ASI3, ALC4, FPS1]
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      The five components give learners a working structure for generating interest, and the
+      elevator version drills it hardest by squeezing problem, solution and ask into a sentence or
+      two. The deck, the spoken minute and the listener responses on what was clear and compelling
+      are the evidence.
+  - code: ASI3
+    how: >-
+      The ask is the part of the tool pointed straight at this competency, and the test is whether
+      it is specific and realistic enough for someone to say yes to. Whether the pitch generated
+      genuine interest, and what was actually offered afterwards, is what shows it.
+  - code: ALC4
+    how: >-
+      The vision component asks what change the learner wants to create, which is the part that
+      moves an audience rather than merely informing it. Listeners answering whether the pitch made
+      them want to help is the honest measure of it.
+  - code: FPS1
+    how: >-
+      Retelling one idea for a mentor, a funder and a neighbour, and compressing a full deck into
+      under a minute, is direct practice at adjusting to audience and format. How much the framing
+      genuinely changes between versions, rather than just the length, is what shows the adjustment
+      is real.
 objectiveIds: [social-entrepreneurship--o3]
 relatedSlugs: [business-model-canvas-concept-note]
 sourceRefs: ["planner-new.txt", "social-entrepreneurship.yaml"]

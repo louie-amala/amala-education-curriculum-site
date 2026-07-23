@@ -5,6 +5,20 @@ type: tools-approaches
 title: Stakeholder and community mapping
 summary: A visual map of the people, groups and organisations connected to a problem, showing who is affected, who has influence, and how they relate.
 facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. A shared board means the map is assembled from several people's knowledge of the
+      same place, which is where the unexpected stakeholders come from, and the closing discussion
+      about gaps and energy is sharper when people disagree about who matters.
+  - context: independent
+    how: >-
+      The map is straightforward to build alone on paper or a digital board, but it will only ever
+      show one person's view of the community, with blind spots the learner cannot see from inside.
+      Have them show Take 1 to at least one person who knows the area and add whatever that person
+      names, and keep the different colour for unknowns, since it carries more weight when nobody
+      else is filling gaps.
 toolsFacet: analytical
 educatorContent: |
   Stakeholder mapping (called ecosystem mapping in the planner) turns a problem into a picture of the people and organisations around it. Learners place the problem at the centre, add a node for each stakeholder (individuals, community groups, businesses, institutions, and even natural systems), and draw lines between them, labelling each line with what the relationship is, for example "provides funding", "runs workshops together" or "amplifies their work".
@@ -24,9 +38,43 @@ learnerContent: |
   After you have done interviews and research, come back and update the map. Then note anyone on it who could become a collaborator, advisor or supporter for your idea.
 agencyContribution:
   indicators: [contribution-to-community, control-of-future-pathways]
-  how: Mapping who holds influence and who is affected helps learners understand their community's system and spot real relationships they can build on.
+  how: >-
+    Mapping who is affected, who holds influence and who benefits from nothing changing shows
+    learners where a problem is actually held in place, so the action they take can be aimed at the
+    part of the system that decides the outcome rather than at the nearest symptom. The same map
+    names real people they could approach as collaborators, advisors or supporters, which is a set
+    of live connections they can use to steer what they do next.
 principlesForegrounded: [authentic-challenges, collaboration]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The map is built around a problem in the learner's own community and Take 2 depends on people
+      they have actually interviewed, so how good the map is depends on how well they know the
+      place, not on how neatly they follow the template.
+  - principle: collaboration
+    how: >-
+      Learners have to label the relationship on every line rather than just listing names, and the
+      map closes by asking who they might approach as they develop their idea. The Take 2 revision
+      brings back what community members themselves said, so the picture is built with them rather
+      than about them.
 competencyCodes: [FPS3, FTS3, FSI1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The prompt about who benefits from things staying the same pushes learners past the
+      sympathetic actors to the people and organisations keeping the problem in place. Which nodes
+      appear at that point, and what they write on the lines connecting them, is the evidence.
+  - code: FTS3
+    how: >-
+      Between the two passes learners have to take everything interviews and surveys threw up,
+      usually grouped by theme first, and place each piece on the map as a node or a labelled
+      relationship. Turning loose research into a structure that still holds together is the skill
+      being practised.
+  - code: FSI1
+    how: >-
+      The unknowns marked in a distinct colour in Take 1 set the research agenda, and Take 2 records
+      what the investigation actually found. Holding the two versions of the map side by side is the
+      clearest evidence of whether the research answered the questions the learner set themselves.
 objectiveIds: [social-entrepreneurship--o1]
 relatedSlugs: [iceberg-model, systems-thinking-iceberg-model, leverage-points, problem-tree]
 sourceRefs: ["planner-new.txt"]
