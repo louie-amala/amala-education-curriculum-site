@@ -4,7 +4,9 @@ access: public
 term: Primary research
 category: content
 matchPhrases:
-  - primary and secondary research
+  # Square brackets mark the span that becomes the link, so in "primary and secondary research"
+  # only "primary" links here and "secondary research" is left for its own term.
+  - "[primary] and secondary research"
   - primary research
 definition: >-
   Research in which learners gather new information themselves, directly from the source, rather

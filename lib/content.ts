@@ -279,14 +279,41 @@ export function getGlossaryTerm(slug: string) {
 }
 
 interface PhraseEntry {
-  phrase: string;
+  detect: string; // full phrase to look for (lowercase, brackets stripped)
+  linkOffset: number; // where the linked span starts within the detected phrase
+  linkLength: number; // how much of it becomes the link
   slug: string;
   definition: string;
 }
+
+// A match phrase may wrap part of itself in [brackets] to mark the span that becomes the link.
+// "[primary] and secondary research" detects the whole phrase but links only "primary", leaving
+// "secondary research" free to match its own term.
+function parsePhrase(raw: string): { detect: string; linkOffset: number; linkLength: number } {
+  const open = raw.indexOf("[");
+  const close = raw.indexOf("]");
+  if (open === -1 || close === -1 || close < open) {
+    return { detect: raw, linkOffset: 0, linkLength: raw.length };
+  }
+  const detect = raw.slice(0, open) + raw.slice(open + 1, close) + raw.slice(close + 1);
+  return { detect, linkOffset: open, linkLength: close - open - 1 };
+}
+
 // longest phrases first, so a term's most specific phrase wins
 const phraseIndex: PhraseEntry[] = glossaryTerms
-  .flatMap((t) => t.matchPhrases.map((p) => ({ phrase: p.toLowerCase(), slug: t.slug, definition: t.definition })))
-  .sort((a, b) => b.phrase.length - a.phrase.length);
+  .flatMap((t) =>
+    t.matchPhrases.map((p) => {
+      const { detect, linkOffset, linkLength } = parsePhrase(p);
+      return {
+        detect: detect.toLowerCase(),
+        linkOffset,
+        linkLength,
+        slug: t.slug,
+        definition: t.definition,
+      };
+    }),
+  )
+  .sort((a, b) => b.detect.length - a.detect.length);
 
 function firstBoundedIndex(haystackLower: string, haystack: string, needleLower: string): number {
   let from = 0;
@@ -320,9 +347,11 @@ export function findGlossaryMatches(text: string): GlossaryMatch[] {
   const usedSlug = new Set<string>();
   for (const p of phraseIndex) {
     if (usedSlug.has(p.slug)) continue;
-    const idx = firstBoundedIndex(lower, text, p.phrase);
+    const idx = firstBoundedIndex(lower, text, p.detect);
     if (idx >= 0) {
-      raw.push({ start: idx, end: idx + p.phrase.length, slug: p.slug, text: text.slice(idx, idx + p.phrase.length), definition: p.definition });
+      const start = idx + p.linkOffset;
+      const end = start + p.linkLength;
+      raw.push({ start, end, slug: p.slug, text: text.slice(start, end), definition: p.definition });
       usedSlug.add(p.slug);
     }
   }
@@ -343,7 +372,7 @@ export interface ExploredIn {
   materials: { slug: string; title: string; type: string }[];
 }
 export function getExploredIn(term: GlossaryTerm): ExploredIn {
-  const phrases = term.matchPhrases.map((p) => p.toLowerCase());
+  const phrases = term.matchPhrases.map((p) => parsePhrase(p).detect.toLowerCase());
   const has = (s?: string | null) =>
     !!s && phrases.some((p) => firstBoundedIndex(s.toLowerCase(), s, p) >= 0);
   const comps = competencies
