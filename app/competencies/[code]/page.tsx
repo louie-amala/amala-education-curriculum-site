@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { GlossedText } from "@/components/GlossedText";
 import {
   competencies,
   getArea,
@@ -45,7 +46,11 @@ export default async function CompetencyPage({ params }: { params: Promise<{ cod
         </span>
       </div>
       <h1 className={`mt-2 font-heading text-3xl font-bold ${s.text}`}>{comp.title}</h1>
-      {comp.goal && <p className="mt-4 text-lg text-dark-navy">{comp.goal}</p>}
+      {comp.goal && (
+        <p className="mt-4 text-lg text-dark-navy">
+          <GlossedText text={comp.goal} />
+        </p>
+      )}
 
       {/* Proficiency scale, read through this competency's goal */}
       <section className="mt-10">

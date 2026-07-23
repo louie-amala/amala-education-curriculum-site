@@ -1,0 +1,23 @@
+id: primary-research
+slug: primary-research
+access: public
+term: Primary research
+category: content
+matchPhrases:
+  - primary and secondary research
+  - primary research
+definition: >-
+  Research in which learners gather new information themselves, directly from the source, rather
+  than relying on what others have already produced. Interviews, surveys, observations, and
+  experiments are all forms of primary research.
+examples:
+  - Interviewing shopkeepers about how a change affected their trade
+  - Running a short survey of people affected by a challenge
+  - Observing how people actually use a public space over a week
+nonExamples:
+  - Reading a news article about the topic (that is secondary research)
+  - Summarising a published report someone else wrote
+useInContext: >-
+  Learners conduct primary research when they collect first-hand evidence about the challenge they
+  are investigating, for example through empathy interviews and community observation.
+relatedTermIds: [secondary-research, actionable-insights]

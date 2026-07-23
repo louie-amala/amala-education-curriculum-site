@@ -6,6 +6,7 @@ const NAV = [
   { href: "/materials", label: "Materials" },
   { href: "/competencies", label: "Competencies" },
   { href: "/foundations", label: "Foundations" },
+  { href: "/glossary", label: "Glossary" },
 ];
 
 export function SiteHeader() {

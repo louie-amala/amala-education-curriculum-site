@@ -226,6 +226,26 @@ export type FacilitationContext = z.infer<typeof FacilitationContextSchema>;
 export type MaterialType = z.infer<typeof MaterialTypeSchema>;
 export type FacilitationMaterial = z.infer<typeof FacilitationMaterialSchema>;
 
+// ---- Glossary (§4.4) ----
+export const GlossaryCategorySchema = z.enum(["curriculum-system", "content", "assessment"]);
+
+export const GlossaryTermSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  access: AccessSchema.optional(),
+  term: z.string(),
+  category: GlossaryCategorySchema,
+  definition: z.string(),
+  matchPhrases: z.array(z.string()).default([]),
+  examples: z.array(z.string()).default([]),
+  nonExamples: z.array(z.string()).default([]),
+  useInContext: z.string().nullable().optional(),
+  relatedTermIds: z.array(z.string()).default([]),
+});
+
+export type GlossaryCategory = z.infer<typeof GlossaryCategorySchema>;
+export type GlossaryTerm = z.infer<typeof GlossaryTermSchema>;
+
 export type Area = z.infer<typeof AreaSchema>;
 export type Competency = z.infer<typeof CompetencySchema>;
 export type ProficiencyLevel = z.infer<typeof ProficiencyLevelSchema>;

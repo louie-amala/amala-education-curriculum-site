@@ -1,0 +1,22 @@
+id: secondary-research
+slug: secondary-research
+access: public
+term: Secondary research
+category: content
+matchPhrases:
+  - secondary research
+definition: >-
+  Research that draws on information other people have already gathered and published, such as
+  reports, articles, books, datasets, and documentaries. The learner analyses and interprets
+  existing sources rather than collecting new data.
+examples:
+  - Reviewing a published report on youth unemployment in the region
+  - Comparing several news articles about the same event
+  - Using a public dataset to understand a trend
+nonExamples:
+  - Interviewing people yourself (that is primary research)
+  - Running your own survey
+useInContext: >-
+  Learners use secondary research to build background understanding of a challenge before and
+  alongside their own first-hand investigation.
+relatedTermIds: [primary-research, actionable-insights]

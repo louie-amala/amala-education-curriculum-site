@@ -1,0 +1,22 @@
+id: actionable-insights
+slug: actionable-insights
+access: public
+term: Actionable insights
+category: content
+matchPhrases:
+  - actionable insights
+  - actionable insight
+definition: >-
+  Conclusions from research that are specific and useful enough to act on, rather than general
+  observations. An actionable insight points clearly towards a decision, design choice, or next
+  step.
+examples:
+  - Young people avoid the clinic because it only opens during school hours, which points to changing the opening times
+  - Most food waste happens at the market at closing time, which points to a redistribution idea
+nonExamples:
+  - Health is important to the community (true, but too general to act on)
+  - People care about the environment (an observation, not yet an insight)
+useInContext: >-
+  Learners turn what they find in their research into actionable insights that shape the solution
+  they go on to develop.
+relatedTermIds: [primary-research, secondary-research]

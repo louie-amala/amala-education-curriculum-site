@@ -7,6 +7,7 @@ import {
   CompetencySchema,
   CourseSchema,
   FacilitationMaterialSchema,
+  GlossaryTermSchema,
   PrincipleSchema,
   ProficiencyScaleSchema,
   ProgrammeSchema,
@@ -15,6 +16,7 @@ import {
   type Competency,
   type Course,
   type FacilitationMaterial,
+  type GlossaryTerm,
   type Objective,
   type Principle,
   type ProficiencyScale,
@@ -92,9 +94,17 @@ function loadMaterials(): FacilitationMaterial[] {
   );
 }
 
+function loadGlossary(): GlossaryTerm[] {
+  if (!existsSync(join(ROOT, "glossary"))) return [];
+  return listYaml("glossary").map((f) =>
+    parseWith(GlossaryTermSchema, `glossary/${f}`, readYaml("glossary", f)),
+  );
+}
+
 export const courses: Course[] = loadCourses();
 export const programmes: Programme[] = loadProgrammes();
 export const materials: FacilitationMaterial[] = loadMaterials();
+export const glossaryTerms: GlossaryTerm[] = loadGlossary();
 
 // ---- objectives as addressable entities (id = `<courseId>--o<n>`) ----
 export interface ObjectiveEntity {
@@ -262,6 +272,97 @@ export function getEvidenceConditionsForMaterial(
   return byCode;
 }
 
+// ---- glossary + term matching (§4.4) ----
+const termBySlug = new Map(glossaryTerms.map((t) => [t.slug, t]));
+export function getGlossaryTerm(slug: string) {
+  return termBySlug.get(slug);
+}
+
+interface PhraseEntry {
+  phrase: string;
+  slug: string;
+  definition: string;
+}
+// longest phrases first, so a term's most specific phrase wins
+const phraseIndex: PhraseEntry[] = glossaryTerms
+  .flatMap((t) => t.matchPhrases.map((p) => ({ phrase: p.toLowerCase(), slug: t.slug, definition: t.definition })))
+  .sort((a, b) => b.phrase.length - a.phrase.length);
+
+function firstBoundedIndex(haystackLower: string, haystack: string, needleLower: string): number {
+  let from = 0;
+  let idx = haystackLower.indexOf(needleLower, from);
+  while (idx !== -1) {
+    const before = idx === 0 ? "" : haystack[idx - 1];
+    const afterPos = idx + needleLower.length;
+    const after = afterPos >= haystack.length ? "" : haystack[afterPos];
+    const okBefore = before === "" || /[^A-Za-z0-9]/.test(before);
+    const okAfter = after === "" || /[^A-Za-z0-9]/.test(after);
+    if (okBefore && okAfter) return idx;
+    from = idx + 1;
+    idx = haystackLower.indexOf(needleLower, from);
+  }
+  return -1;
+}
+
+export interface GlossaryMatch {
+  start: number;
+  end: number;
+  slug: string;
+  text: string;
+  definition: string;
+}
+
+// First mention per term, non-overlapping, longest phrase wins. Explicit selective marking.
+export function findGlossaryMatches(text: string): GlossaryMatch[] {
+  if (!text || phraseIndex.length === 0) return [];
+  const lower = text.toLowerCase();
+  const raw: GlossaryMatch[] = [];
+  const usedSlug = new Set<string>();
+  for (const p of phraseIndex) {
+    if (usedSlug.has(p.slug)) continue;
+    const idx = firstBoundedIndex(lower, text, p.phrase);
+    if (idx >= 0) {
+      raw.push({ start: idx, end: idx + p.phrase.length, slug: p.slug, text: text.slice(idx, idx + p.phrase.length), definition: p.definition });
+      usedSlug.add(p.slug);
+    }
+  }
+  raw.sort((a, b) => a.start - b.start || b.end - b.start - (a.end - a.start));
+  const out: GlossaryMatch[] = [];
+  let lastEnd = -1;
+  for (const m of raw) {
+    if (m.start >= lastEnd) {
+      out.push(m);
+      lastEnd = m.end;
+    }
+  }
+  return out;
+}
+
+export interface ExploredIn {
+  competencies: { code: string; title: string }[];
+  materials: { slug: string; title: string; type: string }[];
+}
+export function getExploredIn(term: GlossaryTerm): ExploredIn {
+  const phrases = term.matchPhrases.map((p) => p.toLowerCase());
+  const has = (s?: string | null) =>
+    !!s && phrases.some((p) => firstBoundedIndex(s.toLowerCase(), s, p) >= 0);
+  const comps = competencies
+    .filter((c) => has(c.goal))
+    .map((c) => ({ code: c.code, title: c.title }));
+  const mats = materials
+    .filter(
+      (m) =>
+        has(m.summary) ||
+        has(m.facilitationNotes) ||
+        has(m.educatorContent) ||
+        has(m.learnerContent) ||
+        has(m.whatLearnersDo.join(" ")) ||
+        has(m.steps.map((s) => `${s.guidance} ${s.keyPrompts.join(" ")}`).join(" ")),
+    )
+    .map((m) => ({ slug: m.slug, title: m.title, type: m.type }));
+  return { competencies: comps, materials: mats };
+}
+
 // ---- cross-reference validation (build-time gate) ----
 export interface ValidationReport {
   errors: string[];
@@ -346,6 +447,18 @@ export function validateGraph(): ValidationReport {
     }
     if (m.type === "tools-approaches" && !m.toolsFacet) {
       warnings.push(`Tools material "${m.slug}" has no toolsFacet.`);
+    }
+  }
+
+  const termSlugs = new Set(glossaryTerms.map((t) => t.slug));
+  for (const t of glossaryTerms) {
+    for (const rel of t.relatedTermIds) {
+      if (!termSlugs.has(rel)) {
+        errors.push(`Glossary term "${t.slug}" links unknown related term "${rel}".`);
+      }
+    }
+    if (t.matchPhrases.length === 0) {
+      warnings.push(`Glossary term "${t.slug}" has no matchPhrases (it will never be marked in text).`);
     }
   }
 
