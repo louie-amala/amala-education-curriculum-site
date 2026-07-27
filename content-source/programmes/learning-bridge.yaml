@@ -1,0 +1,203 @@
+# Learning Bridge — programme structure (spec §4.1 Programme).
+# Source: "Learning Bridge Programme Overview for Delivery Partners" (Amala).
+# Unlike the GSD, Learning Bridge is COMPONENT-based, not course-based: its structure is a set of
+# bespoke components (Research Project, Agency in Learning, Mentoring and Wellbeing, English Language
+# Development), none of which are GSD Changemaker Courses. It therefore uses the component-based
+# programme fields (components/versions/…) rather than streams/ongoingComponents, which stay empty.
+id: learning-bridge
+slug: learning-bridge
+access: public
+title: Learning Bridge
+shortName: Learning Bridge
+tagline: >-
+  A preparatory programme that builds the foundational competencies, habits, and confidence young
+  people need to enter upper secondary transformative education.
+summary: >-
+  Learning Bridge is a preparatory programme designed for young people aged 14 to 16 who are
+  preparing to enter upper secondary transformative education. It develops the foundational
+  competencies, habits, and confidence that learners need to participate fully in Amala programmes.
+  The programme is built around three core components — a structured Research Project in which
+  students investigate a real-world challenge together, an Agency in Learning component that develops
+  self-directed learning habits, and Mentoring and Wellbeing support to ensure each learner makes
+  sustained progress. For learners below B1 English proficiency, an optional English Language
+  Development component of 50 hours is available.
+targetContext: >-
+  Young people aged 14 to 16 preparing to enter upper secondary transformative education. There is
+  no minimum English proficiency requirement for entry; the optional English Language Development
+  component is the mechanism for supporting learners who need it.
+structure: >-
+  The core programme is 150 hours across three components (Research Project, Agency in Learning, and
+  Mentoring and Wellbeing), each 50 hours. With the optional English Language Development component,
+  the total is 200 hours. The programme must run for a minimum of 10 weeks; partners may extend this
+  to suit their context, and assessment points on Learning Bridge+ typically extend it further.
+ageRange: "14–16"
+minDurationWeeks: 10
+totalStructuredHoursMin: 150
+
+# Two versions of the same programme; the components are identical across both.
+versions:
+  - name: Learning Bridge
+    summary: >-
+      The base programme. Learners complete all components and develop the competencies, but there
+      is no formal assessment or certification requirement. Suitable for partners where certification
+      infrastructure is not yet in place or is not a priority.
+  - name: Learning Bridge+
+    summary: >-
+      The base programme with the addition of formal competency assessment, Amala moderation, and a
+      certificated outcome for students. This requires additional educator training and Amala
+      moderation infrastructure, and involves a higher cost to partners.
+
+studentGains:
+  - The ability to investigate a real-world challenge using primary and secondary research, and to develop evidence-based insights.
+  - Self-directed learning habits including goal-setting, planning, tracking progress, and reflecting on growth.
+  - Stronger English language skills for learning, research, and communication (if the English Language Development component is included).
+  - A foundation of confidence and competence that prepares them for the demands of upper secondary education.
+
+# The Research Project is deliberately a single shared challenge for the whole cohort: working on a
+# shared inquiry builds collective knowledge, enables peer support, and is developmentally
+# appropriate for this age group. The challenge should be relevant, safe to research locally, and
+# connected to students' lives.
+components:
+  - title: Research Project
+    summary: All students investigate the same shared real-world challenge.
+    structuredHours: 50
+    facilitatedHours: 30
+    independentHours: 20
+    deliveryOptions:
+      - Standard (ready-made guide and resources)
+      - Co-designed with Amala (additional cost)
+  - title: Agency in Learning
+    summary: Students develop self-directed learning habits.
+    structuredHours: 50
+    facilitatedHours: 30
+    independentHours: 20
+    deliveryOptions:
+      - Standard (ready-made guide and resources)
+      - Co-designed with Amala (additional cost)
+  - title: Mentoring and Wellbeing
+    summary: Structured 1:1 support for progress and wellbeing.
+    structuredHours: 50
+    facilitatedHours: 30
+    independentHours: 20
+    deliveryOptions:
+      - Standard
+  - title: English Language Development
+    summary: Optional. For learners below B1 proficiency.
+    structuredHours: 50
+    facilitatedHours: 30
+    independentHours: 20
+    deliveryOptions:
+      - Standard
+    optional: true
+
+versionComparison:
+  - aspect: Programme components
+    detail: Identical across both versions.
+  - aspect: Formal assessment
+    detail: >-
+      Not required on Learning Bridge. Required on Learning Bridge+ at two points: midway
+      (formative) and end of programme (summative).
+  - aspect: Moderation
+    detail: >-
+      Not applicable on Learning Bridge. Learning Bridge+ includes three moderation sessions
+      facilitated or conducted by Amala staff.
+  - aspect: Educator training
+    detail: >-
+      20 hours on Learning Bridge (10 live, 10 independent). 28 hours on Learning Bridge+ (14 live,
+      14 independent), including assessment and moderation training.
+  - aspect: Certificated outcome
+    detail: >-
+      No formal certificate on Learning Bridge. Learning Bridge+ awards Pass, Merit, or Distinction
+      based on assessed proficiency levels.
+  - aspect: Cost to partner
+    detail: >-
+      Learning Bridge is the lower-cost option. Learning Bridge+ involves additional Amala staff
+      time for training and moderation, and is priced accordingly.
+
+delivery:
+  - title: Staffing
+    detail: >-
+      Plan for approximately 1.5 educators per 25 students. This reflects the combined teaching and
+      mentoring load. Partners may allocate mentoring responsibilities across their team in whatever
+      way works best for their context, as long as each student has a designated mentor.
+  - title: The Programme Coordinator
+    detail: >-
+      Every delivery requires a designated Programme Coordinator: a dedicated point person
+      responsible for ensuring the programme runs smoothly and that Amala's requirements are met. The
+      coordinator does not need to be an educator, but must be reliable, organised, and available
+      throughout the programme. Indicative time commitment: approximately 20 hours across the
+      programme for Learning Bridge, and 30 hours for Learning Bridge+.
+    items:
+      - Liaising with Amala before, during, and after the programme
+      - Managing the programme timetable and ensuring scheduled hours are delivered
+      - Coordinating access to Amala resources and ensuring educators have what they need
+      - Tracking student participation and flagging concerns to Amala
+      - "On Learning Bridge+: coordinating the logistics of assessment points, moderation sessions, and results processes"
+  - title: Educator Training
+    detail: >-
+      All educators new to the programme must complete Amala's initial educator training before
+      delivery begins, delivered by an Amala Trainer. This is 20 hours total on Learning Bridge (10
+      live, 10 independent) and 28 hours on Learning Bridge+ (14 live, 14 independent, including
+      assessment and moderation training).
+  - title: Assessment Time (Learning Bridge+ only)
+    detail: >-
+      On Learning Bridge+, formal assessment takes place at two points: midway through the programme
+      (formative) and at the end (summative). At each point, educators need a minimum of 30 minutes
+      off timetable per student they teach or mentor to complete the assessment process — for
+      example, an educator teaching 25 students and mentoring 10 of them assesses 35 students, or
+      about 17.5 hours off timetable per assessment point. Partners must build this time into their
+      schedule; it often means the programme runs for longer than 10 weeks in practice.
+
+support:
+  - title: Ongoing Support
+    detail: >-
+      All partners have access to a named Amala contact throughout delivery, available to respond to
+      queries and provide guidance. Partners who want more hands-on support may opt to work with a
+      Learning Bridge Coach — an additional paid service scoped to the partner's needs.
+  - title: Resources
+    detail: >-
+      Amala provides ready-made, contextually adaptable course guides and resources for the Research
+      Project, Agency in Learning, and English Language Development components, available to all
+      partners. For a higher degree of contextualisation, Amala offers a co-design service for the
+      Research Project and Agency in Learning components, working with key stakeholders from the
+      partner context — an additional paid service scoped per partner.
+  - title: Moderation (Learning Bridge+ only)
+    detail: >-
+      Learning Bridge+ includes three moderation sessions: two formative sessions facilitated by an
+      Amala Trainer (early calibration feedback, then preparation for summative assessment), and one
+      summative session conducted by two Amala-trained moderators, who reach a formal decision on the
+      validity of the assessment process and, where necessary, moderate decisions up or down before
+      results are released to students.
+
+# Grading applies to Learning Bridge+ only. Students are assessed against Amala's Proficiency Scale.
+grading:
+  intro: >-
+    On Learning Bridge+, students are formally assessed in two competencies against Amala's
+    Proficiency Scale. The grade awarded is based on the proficiency level achieved in each.
+  assessedCompetencies:
+    - title: Investigate Real World Issues
+      description: >-
+        The ability to conduct primary and secondary research into challenges affecting people and
+        the planet to develop actionable insights.
+    - title: Set and Pursue Goals
+      description: >-
+        The ability to establish clear objectives for learning and growth and take deliberate steps
+        to make progress towards them.
+  scale:
+    - grade: Pass
+      requirement: Practitioner in both competencies.
+    - grade: Merit
+      requirement: Reflective Practitioner in one competency, Practitioner in the other.
+    - grade: Distinction
+      requirement: Reflective Practitioner in both competencies.
+  note: >-
+    Students who do not reach Practitioner level in both competencies do not receive a certificate.
+    Educators receive feedback to support these students in continuing to develop. Formal assessment
+    also introduces students and educators to Amala's competency-based assessment model, building
+    familiarity with the approach they will encounter throughout upper secondary programmes.
+
+sourceNotes:
+  - Source is the "Learning Bridge Programme Overview for Delivery Partners" document.
+  - Learning Bridge is component-based, not course-based; its components are not GSD Changemaker Courses, so streams and ongoingComponents are intentionally empty.
+  - Grading, moderation, and formal assessment apply to Learning Bridge+ only.
+  - The two assessed competencies (Investigate Real World Issues, Set and Pursue Goals) are named in the source but not yet cross-linked to framework competency codes.

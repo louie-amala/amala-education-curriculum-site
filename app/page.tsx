@@ -10,6 +10,7 @@ export default function Home() {
 
   const entries = [
     { href: "/programmes/gsd", title: "Global Secondary Diploma", desc: "The flagship programme: five streams, ten courses, PIP and Pathways.", accent: "border-navy" },
+    { href: "/programmes/learning-bridge", title: "Learning Bridge", desc: "The preparatory programme for ages 14–16: Research Project, Agency in Learning, and Mentoring.", accent: "border-plum" },
     { href: "/competencies", title: "Competencies", desc: `${competencies.length} competencies across ${areas.length} areas. See what each one evidences.`, accent: "border-orange" },
     { href: "/courses", title: "Courses", desc: `${courses.length} courses, their objectives, and the competencies they build.`, accent: "border-teal" },
     { href: "/foundations", title: "Learning Foundations", desc: "Agency for positive change and the nine principles that guide design.", accent: "border-olive" },
@@ -49,7 +50,7 @@ export default function Home() {
           </div>
 
           <p className="mt-10 text-sm text-cool-grey">
-            {programmes.length} programme · {courses.length} courses · {areas.length} competency
+            {programmes.length} programmes · {courses.length} courses · {areas.length} competency
             areas · {competencies.length} competencies · {principles.length} principles ·{" "}
             {objectives} objectives · {links} competency links — all validated at build time.
           </p>

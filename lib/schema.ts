@@ -156,6 +156,63 @@ export const ProgrammeSchema = z.object({
   graduationCriteria: z.array(z.string()).default([]),
   assessment: z.any().optional(),
   sourceNotes: z.array(z.string()).optional(),
+
+  // ---- Component-based programme shape (e.g. Learning Bridge) ----
+  // The GSD is course-based (streams above); a preparatory programme like Learning Bridge is built
+  // from bespoke components that are not GSD Changemaker Courses. These optional fields carry that
+  // shape. All are optional, so course-based programmes are unaffected.
+  ageRange: z.string().optional(),
+  minDurationWeeks: z.number().optional(),
+  // Named variants of the same programme (e.g. Learning Bridge / Learning Bridge+).
+  versions: z
+    .array(z.object({ name: z.string(), summary: z.string() }))
+    .default([]),
+  studentGains: z.array(z.string()).default([]),
+  // Programme components (not courses). Hours split into facilitated/independent where known.
+  components: z
+    .array(
+      z.object({
+        title: z.string(),
+        summary: z.string().nullable().optional(),
+        structuredHours: z.number().optional(),
+        facilitatedHours: z.number().optional(),
+        independentHours: z.number().optional(),
+        deliveryOptions: z.array(z.string()).default([]),
+        optional: z.boolean().optional(),
+      }),
+    )
+    .default([]),
+  // Row-per-aspect comparison of the versions (e.g. LB vs LB+); `detail` describes both.
+  versionComparison: z
+    .array(z.object({ aspect: z.string(), detail: z.string() }))
+    .default([]),
+  // "What it takes to deliver" — staffing, coordinator, training, assessment-time notes.
+  delivery: z
+    .array(
+      z.object({
+        title: z.string(),
+        detail: z.string().nullable().optional(),
+        items: z.array(z.string()).default([]),
+      }),
+    )
+    .default([]),
+  // "What Amala provides" — support, resources, moderation.
+  support: z
+    .array(z.object({ title: z.string(), detail: z.string() }))
+    .default([]),
+  // Grading/certification (e.g. Learning Bridge+): assessed competencies + grade scale.
+  grading: z
+    .object({
+      intro: z.string().nullable().optional(),
+      assessedCompetencies: z
+        .array(z.object({ title: z.string(), description: z.string() }))
+        .default([]),
+      scale: z
+        .array(z.object({ grade: z.string(), requirement: z.string() }))
+        .default([]),
+      note: z.string().nullable().optional(),
+    })
+    .optional(),
 });
 
 // ---- Facilitation materials (§4.3) ----

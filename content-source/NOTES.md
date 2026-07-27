@@ -114,7 +114,15 @@ educator/learner dual-face and the assessment layer should work.
   learners, and per-course end-of-course tasks. The `programme-membership-to-confirm` flag on each
   course is now resolved: all 12 courses belong to the GSD. Stream membership is owned by gsd.yaml
   (courses do not hardcode it). **The curriculum skeleton is now complete.**
-- **Learning Bridge** — the other programme (low-bandwidth audience) is still not sourced.
+- **Learning Bridge — DONE.** `programmes/learning-bridge.yaml` holds the preparatory programme
+  (ages 14–16) from the "Learning Bridge Programme Overview for Delivery Partners" document. Unlike
+  the GSD, it is **component-based, not course-based**: its components (Research Project, Agency in
+  Learning, Mentoring and Wellbeing, and optional English Language Development) are not GSD
+  Changemaker Courses, so `streams`/`ongoingComponents` stay empty and the component-based programme
+  fields (`components`, `versions`, `versionComparison`, `delivery`, `support`, `grading`) carry the
+  structure. Two versions: Learning Bridge and Learning Bridge+ (adds formal assessment, Amala
+  moderation, and certification). Open item: the two assessed competencies (Investigate Real World
+  Issues, Set and Pursue Goals) are named in the source but not yet cross-linked to framework codes.
 - **Facilitation materials** — the large authoring lift. Course guides name ~40-60 concepts/tools/
   activities (captured per objective under `furtherDetails.concepts` / `.activities`) but contain none
   of their content. The Social Entrepreneurship planners + workbook + concept PDFs (iceberg, leverage
