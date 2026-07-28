@@ -72,6 +72,7 @@ components:
     structuredHours: 50
     facilitatedHours: 30
     independentHours: 20
+    courseSlug: agency-in-learning
     deliveryOptions:
       - Standard (ready-made guide and resources)
       - Co-designed with Amala (additional cost)

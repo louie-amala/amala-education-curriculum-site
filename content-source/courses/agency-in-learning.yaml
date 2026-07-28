@@ -1,0 +1,200 @@
+# Agency in Learning — course guide for the Learning Bridge programme.
+# AUTHORED (not a verbatim extraction): designed backward from the anchor competency
+# FSL2 "Set and pursue goals". No dedicated source guide was supplied; content is derived from the
+# Learning Bridge Programme Overview's description of the Agency in Learning component (self-directed
+# learning habits: goal-setting, planning, tracking progress, reflecting on growth).
+# Spec §4.1 Course/Objective. Competency codes verified against framework/competencies.yaml.
+id: agency-in-learning
+slug: agency-in-learning
+access: public
+title: Agency in Learning
+strapline: Take hold of your own learning — set a goal, and make deliberate progress towards it.
+programmes: [learning-bridge]
+testimonial: null
+
+purpose: >-
+  Agency in Learning develops the self-directed learning habits that let a young person take
+  ownership of their own growth. Learners come to understand themselves as learners, set clear and
+  meaningful goals, plan and take deliberate steps towards them, and track and reflect on their
+  progress. It is the course through which learners develop and demonstrate the competency Set and
+  pursue goals (FSL2) — the engine of self-direction they will rely on across upper secondary
+  transformative education and beyond.
+
+# The narrative spine of the course: agency for positive change → FSL2 → the objectives.
+throughline:
+  anchorCompetency: FSL2
+  fromAgency: >-
+    Agency for positive change is the ability and will to make informed, intentional, and impactful
+    decisions that improve one's own life and contribute to positive change in the community. Self-
+    direction is its engine: agency is only real when a learner can decide what they want to grow
+    towards and take deliberate steps to get there. Setting and pursuing goals (FSL2) is the
+    competency by which a learner takes hold of their own learning and future — turning intention
+    into tracked, deliberate action. It maps directly onto two markers of agency: power over
+    wellbeing and self-direction, and control of and access to future pathways. A learner who can
+    set and pursue their own goals is a learner who can direct their own path.
+  toObjectives: >-
+    The four objectives sequence the self-directed learning cycle so learners both develop and
+    demonstrate FSL2: they come to understand themselves as learners, set clear and meaningful goals,
+    plan and take deliberate steps, and track progress, use feedback, and reflect on their growth.
+    FSL2 is foregrounded in every objective; the supporting competencies — self-reflection, continuous
+    learning, managing time and wellbeing, using feedback, and adaptable thinking — are the
+    scaffolding that makes the anchor competency demonstrable.
+
+requirements:
+  structuredHours: 50
+  durationWeeks: 10          # "minimum of 10 weeks"
+  cadence: 10+ weeks
+  liveIndependentSplit: 30 live / 20 independent
+  notes: >-
+    Structured learning combines live sessions (individual and/or group) with independent tasks.
+    Learners maintain a personal goal-setting and reflection practice throughout the course, often
+    supported by the 1:1 mentoring that runs alongside it in the Learning Bridge programme.
+
+objectives:
+  - statement: >-
+      Understand yourself as a learner as the basis for setting goals.
+    supportedTo:
+      - Identify their own strengths, interests, and areas for development as a learner.
+      - Reflect on past learning experiences — what has helped them learn and what has held them back.
+      - Recognise the conditions, habits, and strategies that support their own learning.
+      - Articulate what they want to grow in and why it matters to them.
+    furtherDetails:
+      concepts:
+        - Self-awareness as the starting point for self-directed learning.
+        - The difference between a fixed and a growth view of one's own ability.
+      activities:
+        - A personal "learner profile" capturing strengths, interests, and areas to develop.
+        - Structured reflection on a past success and a past struggle in learning.
+        - Peer conversations to surface strengths others notice in them.
+    competencyEvidence:
+      - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners use an understanding of themselves as learners to decide what to work towards." }
+      - { code: FSL1, citedTitle: Self-reflection, condition: "If learners identify their knowledge, skills, and areas for development to inform their goals." }
+
+  - statement: >-
+      Set clear, meaningful learning goals.
+    supportedTo:
+      - Distinguish a vague wish from a clear, specific goal.
+      - Write goals that are specific, realistic, and achievable within the course.
+      - Connect their goals to what matters to them and to the future they are building.
+      - Break a larger goal into smaller, trackable milestones.
+    furtherDetails:
+      concepts:
+        - What makes a goal clear and achievable (e.g. specific, time-bound, within reach).
+        - Milestones — breaking a goal into steps you can track.
+      activities:
+        - Drafting one or more personal learning goals and refining them with feedback.
+        - Turning a broad aspiration into a specific goal with milestones.
+        - A simple goal-setting canvas kept and revisited across the course.
+    competencyEvidence:
+      - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners establish clear objectives for their own learning and growth." }
+      - { code: FSL1, citedTitle: Self-reflection, condition: "If learners ground their goals in an honest assessment of where they are now." }
+
+  - statement: >-
+      Plan and take deliberate steps towards your goals.
+    supportedTo:
+      - Create a simple plan with steps and timeframes for reaching a goal.
+      - Identify resources, people, and learning experiences that support the goal.
+      - Manage their time and priorities to make consistent progress.
+      - Take deliberate action between sessions, not only during them.
+    furtherDetails:
+      concepts:
+        - Planning backwards from a goal to the next concrete step.
+        - Seeking out learning experiences and resources that move a goal forward.
+      activities:
+        - Building a step-by-step action plan for a personal goal.
+        - A weekly planning-and-priorities routine maintained across the course.
+        - Identifying and using a learning resource or opportunity to advance a goal.
+    competencyEvidence:
+      - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners take deliberate, planned steps to make progress towards their goals." }
+      - { code: FSL3, citedTitle: Engage in continuous learning, condition: "If learners seek out learning experiences that support progress towards their goals." }
+      - { code: ASL2, citedTitle: Managing time, priorities and wellbeing, condition: "If learners balance their time and priorities to sustain progress." }
+
+  - statement: >-
+      Track progress, use feedback, and reflect on your growth.
+    supportedTo:
+      - Monitor their progress against their goals and milestones.
+      - Seek out and make use of feedback from peers, mentors, and educators.
+      - Adapt their goals or plans when circumstances or evidence change.
+      - Reflect on what they have learned and how they have grown, and recognise their progress.
+    furtherDetails:
+      concepts:
+        - Using progress and feedback as data to adjust a plan.
+        - Reflection as a habit, not a one-off event.
+      activities:
+        - Keeping a simple progress tracker or learning journal across the course.
+        - A feedback conversation with a mentor, and acting on what is discussed.
+        - An end-of-course reflection on growth against the original goals.
+    competencyEvidence:
+      - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners track progress and sustain deliberate steps towards their goals over time." }
+      - { code: FSL1, citedTitle: Self-reflection, condition: "If learners reflect on their growth and use it to plan further progress." }
+      - { code: ASL1, citedTitle: Using feedback, condition: "If learners assess feedback from others and apply relevant insights to improve." }
+      - { code: FPS1, citedTitle: Adaptable thinking, condition: "If learners adjust their goals or plans in response to progress and feedback." }
+
+principleMappings:
+  # All 9 principles mapped, including connect-to-futures (which the legacy GSD guides omit).
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners set goals rooted in their own interests, experiences, and aspirations.
+      - Learning starts from each learner's own starting point rather than a fixed benchmark.
+      - Facilitators help learners draw on their identities and communities when deciding what growth matters to them.
+  - principle: collaboration
+    inThisCourse:
+      - Learners share goals and progress with peers and mentors, giving and receiving support.
+      - Mentoring conversations help learners refine goals and stay accountable.
+      - A supportive learning community sustains each learner's individual journey.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Learners practise self-direction — goal-setting, planning, time management, and reflection.
+      - These are habits learners will reuse throughout study, work, and life, underpinning every other Amala programme.
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners pursue real goals that matter to them, not abstract exercises.
+      - Progress is measured against their own meaningful aims.
+  - principle: responsible-action
+    inThisCourse:
+      - Learners take ownership of their own learning and act with intention and integrity.
+      - Learners are supported to set goals that are honest and achievable, and to sustain their wellbeing while pursuing them.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Learners track and communicate their own progress and growth.
+      - They reflect on what they have achieved and articulate how they have developed.
+  - principle: connect-to-futures
+    inThisCourse:
+      - Learners connect their goals to the futures they are building — further study, work, and personal aspirations.
+      - Goal-setting is framed as a lifelong tool for shaping one's own path.
+  - principle: feedback-and-data
+    inThisCourse:
+      - Learners use feedback and their own progress data to adjust goals and plans.
+      - Facilitators use learner reflections to improve support and future delivery of the course.
+  - principle: safe-spaces
+    inThisCourse:
+      - Facilitators create a supportive space where learners can be honest about struggles and setbacks.
+      - Learners set goals that stretch them while protecting their wellbeing.
+      - Mentoring conversations are confidential and supportive.
+
+designChecklist:
+  - My course design includes ~50 hours of learning experiences/tasks.
+  - My course design is appropriate for my context (e.g. safe and meaningful goals, resource-optimised, culturally and linguistically accessible).
+  - My course design is mostly aligned with Amala's principles for transformative education (and where it is not aligned, I have reflected on how I can improve alignment in the future).
+  - Course design supports learners in making progress towards all of the course objectives.
+  - Opportunities for learners to generate and submit evidence that can be used to evaluate their proficiency in the Amala competencies — especially the anchor competency FSL2 — are built into the course design.
+
+sourceIssues:
+  - type: authored-not-extracted
+    detail: >-
+      Unlike the GSD course guides (verbatim source extractions), this course is authored. It is
+      designed backward from the anchor competency FSL2 (Set and pursue goals) for the Learning
+      Bridge programme. No dedicated source guide was supplied; content is derived from the Learning
+      Bridge Programme Overview's description of the Agency in Learning component.
+  - type: assessment-context
+    detail: >-
+      On Learning Bridge+, FSL2 (Set and Pursue Goals) is one of the two certificated competencies
+      and this course is its primary vehicle; the Research Project course is the vehicle for the
+      other (FSI1). The two assessed LB+ competencies are not yet cross-linked to framework codes in
+      programmes/learning-bridge.yaml.
+  - type: strapline-authored
+    detail: Strapline authored; no source strapline exists.
+  - type: stretch-competencies
+    detail: >-
+      Objectives 3–4 cite Advanced competencies (ASL2, ASL1) as stretch evidence appropriate for a
+      preparatory cohort; the course's required spine is the Foundational competencies, led by FSL2.

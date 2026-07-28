@@ -114,7 +114,7 @@ educator/learner dual-face and the assessment layer should work.
   learners, and per-course end-of-course tasks. The `programme-membership-to-confirm` flag on each
   course is now resolved: all 12 GSD course guides belong to the GSD. Stream membership is owned by
   gsd.yaml (courses do not hardcode it). **The curriculum skeleton is now complete.** (There are now
-  13 courses in total — the 12 GSD guides plus the Learning Bridge Research Project course below.)
+  14 courses in total — the 12 GSD guides plus the two authored Learning Bridge courses below.)
 - **Learning Bridge — DONE.** `programmes/learning-bridge.yaml` holds the preparatory programme
   (ages 14–16) from the "Learning Bridge Programme Overview for Delivery Partners" document. Unlike
   the GSD, it is **component-based, not course-based**: its components (Research Project, Agency in
@@ -131,6 +131,12 @@ educator/learner dual-face and the assessment layer should work.
   Research Project component (linked via `component.courseSlug`) and covers all **9** principles
   (including connect-to-futures, which the legacy GSD guides omit). The supplied draft was largely a
   Social Entrepreneurship copy; see the file's `sourceIssues`.
+- **Agency in Learning course — DONE (authored).** `courses/agency-in-learning.yaml`, the second
+  authored Learning Bridge course, anchored on **FSL2 "Set and pursue goals"** — the other LB+
+  certificated competency (Research Project is the vehicle for FSI1). Same pattern: `throughline`
+  (agency → FSL2 → objectives), a 4-objective self-directed-learning arc (understand yourself → set
+  goals → plan & act → track/reflect), all 9 principles, linked from the LB component. No dedicated
+  source guide existed; authored from the Learning Bridge Programme Overview's component description.
 - **Facilitation materials** — the large authoring lift. Course guides name ~40-60 concepts/tools/
   activities (captured per objective under `furtherDetails.concepts` / `.activities`) but contain none
   of their content. The Social Entrepreneurship planners + workbook + concept PDFs (iceberg, leverage

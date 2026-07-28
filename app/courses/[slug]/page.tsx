@@ -36,6 +36,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
   const anchor = course.throughline
     ? getCompetencyByCode(course.throughline.anchorCompetency)
     : undefined;
+  const supportingComps = anchor ? courseComps.filter((c) => c.code !== anchor.code) : [];
 
   return (
     <main className="mx-auto max-w-4xl px-6 py-12">
@@ -117,25 +118,84 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
         </section>
       )}
 
-      {/* Competency map */}
-      <section className="mt-10">
-        <h2 className="font-heading text-xl font-semibold text-dark-navy">
-          Competency map ({courseComps.length})
-        </h2>
-        <ul className="mt-3 flex flex-wrap gap-2">
-          {courseComps.map((c) => (
-            <li key={c.id}>
+      {/* Competencies — anchored layout when the course has a throughline, else a flat map */}
+      {anchor ? (
+        <section className="mt-10">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">Competencies</h2>
+
+          {/* The main competency this course develops and demonstrates */}
+          <div className={`mt-4 rounded-lg border-l-4 ${areaStyle(anchor.areaId).border} border-y border-r border-cool-grey/20 bg-white p-5 shadow-sm`}>
+            <p className="text-xs font-semibold uppercase tracking-wide text-cool-grey">
+              This course develops and demonstrates
+            </p>
+            <div className="mt-1 flex flex-wrap items-baseline gap-x-2 gap-y-1">
               <Link
-                href={`/competencies/${c.code.toLowerCase()}`}
-                className={`inline-flex items-center gap-2 rounded-full border px-3 py-1 text-sm ${areaStyle(c.areaId).border} bg-white hover:shadow-sm`}
+                href={`/competencies/${anchor.code.toLowerCase()}`}
+                className="font-mono text-sm font-semibold text-navy hover:underline"
               >
-                <span className="font-mono text-xs text-cool-grey">{c.code}</span>
-                <span className="text-dark-navy">{c.title}</span>
+                {anchor.code}
               </Link>
-            </li>
-          ))}
-        </ul>
-      </section>
+              <span className="font-heading text-lg font-semibold text-dark-navy">{anchor.title}</span>
+              <span className={`rounded px-1.5 py-0.5 text-[10px] font-medium ${creditBadge(anchor.creditLevel)}`}>
+                {anchor.creditLevel}
+              </span>
+            </div>
+            {anchor.goal && <p className="mt-2 text-sm text-dark-navy/90">{anchor.goal}</p>}
+          </div>
+
+          {/* The supporting competencies, each explained */}
+          {supportingComps.length > 0 && (
+            <>
+              <p className="mt-6 text-sm text-dark-navy">
+                In addition to developing{" "}
+                <span className="font-semibold">{anchor.title}</span>, students might also develop and
+                demonstrate proficiency in:
+              </p>
+              <ul className="mt-3 space-y-2">
+                {supportingComps.map((c) => (
+                  <li
+                    key={c.id}
+                    className={`rounded-lg border-l-4 ${areaStyle(c.areaId).border} border-y border-r border-cool-grey/20 bg-white p-4 shadow-sm`}
+                  >
+                    <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+                      <Link
+                        href={`/competencies/${c.code.toLowerCase()}`}
+                        className="font-mono text-xs font-semibold text-navy hover:underline"
+                      >
+                        {c.code}
+                      </Link>
+                      <span className="font-medium text-dark-navy">{c.title}</span>
+                      <span className={`rounded px-1.5 py-0.5 text-[10px] font-medium ${creditBadge(c.creditLevel)}`}>
+                        {c.creditLevel}
+                      </span>
+                    </div>
+                    {c.goal && <p className="mt-1 text-sm text-cool-grey">{explainGoal(c.goal)}</p>}
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+        </section>
+      ) : (
+        <section className="mt-10">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">
+            Competency map ({courseComps.length})
+          </h2>
+          <ul className="mt-3 flex flex-wrap gap-2">
+            {courseComps.map((c) => (
+              <li key={c.id}>
+                <Link
+                  href={`/competencies/${c.code.toLowerCase()}`}
+                  className={`inline-flex items-center gap-2 rounded-full border px-3 py-1 text-sm ${areaStyle(c.areaId).border} bg-white hover:shadow-sm`}
+                >
+                  <span className="font-mono text-xs text-cool-grey">{c.code}</span>
+                  <span className="text-dark-navy">{c.title}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {/* Objectives */}
       <section className="mt-10">
@@ -145,6 +205,12 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
         <ol className="mt-4 space-y-6">
           {getCourseObjectives(course).map(({ id, index, objective: obj }) => {
             const materialCount = getMaterialsForObjective(id).length;
+            const anchorEvidence = anchor
+              ? obj.competencyEvidence.filter((ev) => ev.code === anchor.code)
+              : [];
+            const otherEvidence = anchor
+              ? obj.competencyEvidence.filter((ev) => ev.code !== anchor.code)
+              : obj.competencyEvidence;
             return (
             <li key={id} className="rounded-lg border border-cool-grey/20 bg-white p-5 shadow-sm">
               <Link href={`/objectives/${id}`} className="group block">
@@ -174,32 +240,31 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                 </div>
               )}
 
-              {obj.competencyEvidence.length > 0 && (
-                <div className="mt-4">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-cool-grey">
-                    May evidence
+              {/* Anchored courses lead with how the main competency is developed here */}
+              {anchor && anchorEvidence.length > 0 && (
+                <div className="mt-4 rounded-md border border-navy/15 bg-navy/[0.03] p-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-navy">
+                    Develops &amp; demonstrates the main competency
                   </p>
                   <ul className="mt-2 space-y-2">
-                    {obj.competencyEvidence.map((ev, j) => {
-                      const comp = getCompetencyByCode(ev.code);
-                      return (
-                        <li key={j} className="text-sm">
-                          <Link
-                            href={`/competencies/${ev.code.toLowerCase()}`}
-                            className="font-mono text-xs font-semibold text-navy hover:underline"
-                          >
-                            {ev.code}
-                          </Link>{" "}
-                          <span className="text-dark-navy">{comp?.title ?? ev.citedTitle}</span>
-                          {comp && (
-                            <span className={`ml-2 rounded px-1.5 py-0.5 text-[10px] font-medium ${creditBadge(comp.creditLevel)}`}>
-                              {comp.creditLevel}
-                            </span>
-                          )}
-                          <span className="mt-0.5 block text-cool-grey">{ev.condition}</span>
-                        </li>
-                      );
-                    })}
+                    {anchorEvidence.map((ev, j) => (
+                      <EvidenceRow key={j} ev={ev} emphasise />
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {otherEvidence.length > 0 && (
+                <div className="mt-4">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-cool-grey">
+                    {anchor
+                      ? "Additional competencies that might be developed & demonstrated"
+                      : "May evidence"}
+                  </p>
+                  <ul className="mt-2 space-y-2">
+                    {otherEvidence.map((ev, j) => (
+                      <EvidenceRow key={j} ev={ev} />
+                    ))}
                   </ul>
                 </div>
               )}
@@ -238,6 +303,46 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
       )}
     </main>
   );
+}
+
+// One competency-evidence row inside an objective: the code, title, credit level, and the
+// "If learners…" condition describing how this objective develops/demonstrates it.
+function EvidenceRow({
+  ev,
+  emphasise = false,
+}: {
+  ev: { code: string; citedTitle?: string | null; condition: string };
+  emphasise?: boolean;
+}) {
+  const comp = getCompetencyByCode(ev.code);
+  return (
+    <li className="text-sm">
+      <Link
+        href={`/competencies/${ev.code.toLowerCase()}`}
+        className="font-mono text-xs font-semibold text-navy hover:underline"
+      >
+        {ev.code}
+      </Link>{" "}
+      <span className={emphasise ? "font-semibold text-dark-navy" : "text-dark-navy"}>
+        {comp?.title ?? ev.citedTitle}
+      </span>
+      {comp && (
+        <span className={`ml-2 rounded px-1.5 py-0.5 text-[10px] font-medium ${creditBadge(comp.creditLevel)}`}>
+          {comp.creditLevel}
+        </span>
+      )}
+      <span className={`mt-0.5 block ${emphasise ? "text-dark-navy/90" : "text-cool-grey"}`}>
+        {ev.condition}
+      </span>
+    </li>
+  );
+}
+
+// Competency goals read "The learner can …"; strip that lead-in so the goal reads as a plain
+// explanation ("Assess the credibility …") in the supporting-competency list.
+function explainGoal(goal: string): string {
+  const stripped = goal.replace(/^The learner can\s+/i, "").trim();
+  return stripped.charAt(0).toUpperCase() + stripped.slice(1);
 }
 
 function Stat({ label, value }: { label: string; value: string }) {
