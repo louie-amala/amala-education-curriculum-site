@@ -1,0 +1,151 @@
+id: dc-importance-of-research
+slug: dc-importance-of-research
+access: public
+type: activity
+title: Why research matters
+summary: Learners explore why conducting research matters, drawing on a short stimulus and their own
+  experience to see how primary and secondary research leads to solutions that work rather than to
+  guesses about a problem.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners react to a short stimulus, then argue out in breakout groups why research
+    matters before a whole-class consolidation. The group debate is where the value sits, because
+    hearing peers name real costs of guessing shifts research from a chore to a necessity, so keep the
+    breakout step even if you shorten the stimulus.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit before a learner plans their own investigation. A mentor connects the stimulus to the
+    learner's specific challenge and presses on where they are about to assume rather than find out,
+    though the learner loses the range of examples a group generates.
+- context: independent
+  how: >-
+    Workable for reflection, weaker for debate. A learner alone tends to accept the point too quickly;
+    have them write down two decisions in their own life that went wrong on a guess, and review these
+    with you before they start planning research.
+duration: 25-35 min facilitated
+grouping: Breakout groups of 3-5, then whole class; works with 10-35 learners
+whatLearnersDo:
+- Watch or read a short stimulus about the cost of acting on assumptions rather than evidence.
+- Connect it to a time in your own life when a guess turned out to be wrong.
+- In your group, discuss why primary and secondary research matters when solving a real problem.
+- Present your group's thinking to the class and agree why research leads to solutions that work.
+materialsAndPreparation:
+- A short stimulus that shows the cost of acting on assumptions instead of evidence (the source activity uses the opening minutes of a TED talk); have a no-connectivity alternative, such as a told story, ready.
+- A way for each breakout group to record its discussion and a nominated scribe.
+- A simple reminder of the difference between primary research (evidence you gather yourself) and secondary research (evidence others have gathered), for learners who have not met the terms.
+facilitationNotes: |
+  This activity sets up every later research step by answering "why bother?" before learners are asked
+  to do it. The one thing to get right is that the case for research comes from the learners, not from
+  you: they should leave able to say, in their own words, that a solution built on a guess about a
+  problem tends to fail, and that primary and secondary research is how you find out what the problem
+  actually is. Keep it concrete and personal. A remembered example of a wrong assumption convinces far
+  faster than any definition of research.
+steps:
+- title: React to a short stimulus on assuming versus finding out
+  duration: 8-12 min
+  guidance: |
+    Share a short stimulus that shows what happens when someone acts on an assumption instead of
+    evidence, then ask learners what it reminds them of. The aim is to make the cost of guessing
+    concrete before you name research at all: a learner who remembers a decision that went wrong on a
+    hunch already understands why you would want to find out first.
+  keyPrompts:
+  - Does this remind you of anything from your own life, and what was the result?
+  - When have you, or someone you know, acted on a guess about a problem and got it wrong?
+  - What might have gone differently if they had found out first instead of assuming?
+  watchOuts:
+  - Learners stay abstract and agree research is "good" without feeling why; press for one real, specific memory of a guess that cost something so the point lands personally.
+  adaptation: |
+    With no connectivity, tell a short true story or describe the scenario aloud instead of playing a
+    video, then run the same reflection on paper. No device is needed.
+- title: Debate why primary and secondary research matters
+  duration: 10-15 min
+  guidance: |
+    In breakout groups, move from the personal example to the project. Ask why it matters to research
+    a problem before designing a solution for it, and draw out the two kinds of evidence: primary,
+    which learners gather themselves, and secondary, which others have already gathered. Push them to
+    say what each kind gives you that a guess cannot, and to capture their reasons as a scribe records.
+  keyPrompts:
+  - Why is it risky to design a solution before you have researched the problem?
+  - What can primary research tell you that secondary research cannot, and the other way round?
+  - Whose knowledge about this problem would you be missing if you only used your own assumptions?
+  watchOuts:
+  - Groups treat research as proving an idea they already like; steer them back to research as finding out what is true, including evidence that their first idea is wrong.
+- title: Present and agree why research leads to solutions that work
+  duration: 7-10 min
+  guidance: |
+    Bring the groups together and have a representative from each share their strongest reason. Draw
+    the threads into a shared statement the class can carry forward: solutions built on real research
+    fit the actual problem, while solutions built on guesses tend to solve a problem no one has.
+    Confirm this is why the research steps ahead are worth the effort.
+  keyPrompts:
+  - What is the single most convincing reason your group found for doing research?
+  - How would you explain to someone why a well-researched solution is more likely to work?
+  - What will you now want to find out before you commit to a solution?
+  watchOuts:
+  - The consolidation becomes a lecture with you supplying the answer; keep it in the learners' words, since the case for research only motivates them if they are the ones who made it.
+closing: |
+  Confirm the shared conclusion: research is how you understand a problem well enough to solve it, and
+  a solution built on evidence beats one built on a guess. Point ahead to the research steps to come,
+  so learners meet them as a decision they have already argued for rather than a task imposed on them.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    A solution built on real research actually helps the community it is meant for, while one built on
+    a guess can miss or misjudge what people need. Understanding why research matters is what keeps a
+    learner's contribution grounded in the community's real situation rather than in their assumptions
+    about it.
+principlesForegrounded:
+- authentic-challenges
+- lifeworthy-competencies
+- feedback-and-data
+principleAlignment:
+- principle: authentic-challenges
+  how: >-
+    The activity frames research as the route into a real problem learners will go on to investigate,
+    so they meet research as the way to understand an actual challenge rather than as an academic
+    exercise detached from any purpose.
+- principle: lifeworthy-competencies
+  how: >-
+    Knowing when to find out rather than assume is a habit learners will reuse in any decision, at work
+    or in their community, long after this project, which is what makes it worth building deliberately
+    here.
+- principle: feedback-and-data
+  how: >-
+    The whole point learners reach is that research gives you data about a problem, so a solution can
+    rest on evidence and feedback from the real world instead of on a guess that has never been tested
+    against it.
+competencyCodes:
+- FSI1
+- FPS2
+competencyDevelopment:
+- code: FSI1
+  how: >-
+    Understanding why a problem must be researched before it is solved is the foundation for
+    investigating real-world issues; this activity builds the motivation and the primary-versus-
+    secondary distinction that the later investigation steps depend on.
+- code: FPS2
+  how: >-
+    Recognising that evidence beats assumption, and starting to ask where knowledge about a problem
+    comes from, is the disposition that evaluating sources rests on; learners begin to value evidence
+    by its origin rather than accepting a guess.
+objectiveIds:
+- research-project--o1
+relatedSlugs:
+- dc-secondary-research-methods
+- dc-designing-survey-questions
+sourceRefs:
+- "Design Challenge - Activity Guides/[30 mins] Importance of conducting research - Activity Guide_.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations and
+  delivery modes) from the Design Challenge activity guide, which supplied the purpose, the stimulus
+  and the breakout discussion questions. The source Design Challenge investigates the mental health
+  and wellbeing of Afghan females; this material is written to generalise to any real-world challenge.
+  Linked to Research Project objective 1 (framing a real-world challenge).

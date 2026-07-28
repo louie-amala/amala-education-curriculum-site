@@ -1,0 +1,144 @@
+id: dc-how-might-we-questions
+slug: dc-how-might-we-questions
+access: public
+type: activity
+title: Generating "How Might We" questions
+summary: Learners turn what their research taught them into a set of open "How Might We" questions that
+  reframe the problem as an invitation to ideas, opening up a wider range of possible solutions.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Groups read a short guide, then generate and sharpen "How Might We" questions
+    together. The generative energy of a group is the point, since one learner's phrasing sparks
+    another's, so keep the shared generation step even if you shorten the reading.
+- context: one-to-one-mentoring
+  how: >-
+    Works well for sharpening. A mentor helps a learner move from a vague or solution-shaped question
+    towards several genuinely open ones grounded in their own research, but the learner loses the
+    volume a group produces, so ask them to draft widely before the session.
+- context: independent
+  how: >-
+    Workable for drafting, weaker for range. A learner alone tends to circle one framing; have them
+    write at least five "How Might We" questions and then get another person to add two more.
+duration: 25-35 min facilitated
+grouping: Project groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Read a short guide to writing "How Might We" questions.
+- Turn insights from your research into several "How Might We" questions.
+- "Test each question: is it open, focused on the problem, and not hiding a single solution?"
+- Choose the questions your group is most excited to generate ideas for.
+materialsAndPreparation:
+- A short guide or examples of strong and weak "How Might We" questions, adapted to your context.
+- The insight statements or research findings the group produced earlier, to draw from.
+- A shared surface (board, paper or digital) to write and sort the questions, and a scribe per group.
+facilitationNotes: |
+  A "How Might We" question reframes a problem as an open invitation to ideas: broad enough to allow
+  many answers, focused enough to be useful. The one thing to get right is that these questions come
+  from the learners' research, not from thin air, and that they stay open. Learners' most common
+  mistake is to smuggle a solution into the question ("How might we build an app…"), which closes down
+  ideation before it starts. Keep steering them back to the problem and the people, and let the range
+  of ideas be the reward for a well-framed question.
+steps:
+- title: See what makes a "How Might We" question work
+  duration: 8-10 min
+  guidance: |
+    Introduce the "How Might We" format and contrast strong and weak examples. Draw out the pattern:
+    a good question is open (invites many ideas), grounded in a real insight about people, and free of
+    a baked-in solution. Use one example tied to the challenge learners are working on so the move
+    from insight to question is concrete.
+  keyPrompts:
+  - What makes this "How Might We" question open, and this other one closed?
+  - Which of these already contains a solution rather than inviting one?
+  - Why might a question that is too broad be as unhelpful as one that is too narrow?
+  watchOuts:
+  - Learners latch onto the phrasing and forget the point; keep returning to the test "does this open up ideas, and is it about the problem rather than one answer?".
+  adaptation: |
+    No connectivity needed: a few printed or written example questions and a discussion of why each
+    works or fails is enough to run this step.
+- title: Turn your insights into questions
+  duration: 10-15 min
+  guidance: |
+    Groups take the insights from their research and generate "How Might We" questions from each. Push
+    for quantity first: several questions per insight, different angles on the same problem. Remind
+    them to phrase for people and needs ("How might we help…") rather than for a product they already
+    have in mind.
+  keyPrompts:
+  - What did your research tell you that a "How Might We" question could open up?
+  - Can you write three different questions from the same insight?
+  - Who is at the centre of this question, and what do they actually need?
+  watchOuts:
+  - Groups write one or two safe questions and stop; set a target number and a short time limit so they push past the obvious into the interesting.
+- title: Sharpen and choose
+  duration: 7-10 min
+  guidance: |
+    Groups review their questions against the test (open, focused, no hidden solution), rewrite the
+    weak ones, and choose the few they are most excited to generate ideas for. This gives the next
+    stage, ideation, a strong and deliberate starting point rather than a random one.
+  keyPrompts:
+  - Which of these questions would give you the widest range of interesting ideas?
+  - Is there a solution hiding in any of these that we should take back out?
+  - Which two or three questions is this group most excited to answer?
+  watchOuts:
+  - Groups keep every question; make them choose, since a smaller set of strong questions produces better ideation than a long list of weak ones.
+closing: |
+  Have each group read out the one or two questions they will take into ideation. Point out how a
+  single well-framed "How Might We" question can hold many possible solutions: that openness is
+  exactly what they want as they move into generating ideas.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Reframing a community problem as an open question is what lets learners move from understanding an
+    issue to generating real ideas for it. A good "How Might We" question keeps the community's actual
+    needs at the centre of the solutions they go on to design.
+principlesForegrounded:
+- lifeworthy-competencies
+- authentic-challenges
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Reframing problems as open questions is a transferable design and problem-solving skill learners
+    will reuse well beyond this project whenever they move from understanding an issue to acting on it.
+- principle: authentic-challenges
+  how: >-
+    The questions are built from the learners' own research into a real challenge, so ideation starts
+    from genuine insight about real people rather than from a hypothetical brief.
+- principle: connect-to-futures
+  how: >-
+    A "How Might We" question is the bridge from investigating a problem to shaping a solution, moving
+    learners from understanding towards the change they want to help build.
+competencyCodes:
+- FSI2
+- FPS1
+competencyDevelopment:
+- code: FSI2
+  how: >-
+    Turning research insights into open questions is the first move in ideating solutions; the set of
+    "How Might We" questions a group produces is early evidence of their ability to generate ideas
+    that address a challenge.
+- code: FPS1
+  how: >-
+    Reframing the same insight into several different questions, and adjusting phrasing to keep a
+    question open and useful, is direct practice in adaptable thinking.
+objectiveIds:
+- social-entrepreneurship--o2
+relatedSlugs:
+- dc-creating-insight-statements
+- dc-brainstorm-rules
+- dc-defining-the-problem
+- idea-generation-and-prioritisation
+sourceRefs:
+- "Design Challenge - Activity Guides/[25 mins] Generating _How Might We_ Questions - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations and
+  delivery modes) from the Design Challenge activity guide, which supplied the purpose and the
+  discussion questions. Written to generalise to any design challenge; the source project investigates
+  the mental health and wellbeing of Afghan females. Linked to Social Entrepreneurship objective 2
+  (developing a solution concept).

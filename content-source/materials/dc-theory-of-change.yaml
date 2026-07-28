@@ -1,0 +1,159 @@
+id: dc-theory-of-change
+slug: dc-theory-of-change
+access: public
+type: activity
+title: Theory of change
+summary: Learners build a simple theory of change, mapping how their proposed activities are meant to
+  lead to the impact they want, so their solution is logically connected to the change it claims to make.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners each read a short resource, then build and pressure-test a theory of change
+    in mixed breakout groups. The group step is where the value sits, because a peer who cannot follow
+    the logic from activity to impact exposes a gap the author cannot see, so keep the shared critique
+    step even if you shorten the reading.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for tightening one learner's logic. A mentor walks the chain from the learner's actual
+    activities to their intended impact and presses on each link, but the learner loses the range of
+    challenge a group gives, so ask them to draft the full chain before the session.
+- context: independent
+  how: >-
+    Workable for a first draft, weaker for testing the logic. A learner alone tends to accept their own
+    reasoning; have them write the full chain from activities to impact and then get at least one other
+    person to try to break the link before they rely on it.
+duration: 40-50 min facilitated
+grouping: Individual reading, then mixed breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Read a short resource on theory of change and impact, and note its key features.
+- Share one key point with your group and discuss why measuring impact matters.
+- Map the chain from your proposed activities through to the change you want to see.
+- "Test the logic: does each step plausibly lead to the next, and is anything missing?"
+materialsAndPreparation:
+- A short, accessible resource or worked example explaining a theory of change and how impact is measured, adapted to your context.
+- A simple theory of change template or blank chain (activities, outputs, outcomes, impact) for each group, on paper or a shared surface.
+- The solution concept and research insights the group produced earlier, to build the chain from.
+facilitationNotes: |
+  A theory of change is the reasoning that connects what learners plan to do to the change they want
+  to cause: activities lead to outputs, outputs to outcomes, outcomes to the impact. The one thing to
+  get right is that the chain is honest and unbroken. Learners' most common mistake is to leap from a
+  small activity straight to a large impact with no plausible steps between, or to assume good
+  intentions guarantee results. Keep pressing on each link, "why would this actually lead to that?",
+  and treat a broken link as useful evidence about the solution, not a failure.
+steps:
+- title: Understand what a theory of change is for
+  duration: 15-20 min
+  guidance: |
+    Give learners time to read a short resource on theory of change and impact, then draw out the
+    purpose together: it makes the assumed path from action to impact explicit, so weak assumptions
+    become visible before effort is spent. Surface the key features, activities, outcomes and the
+    impact, and why naming each matters. Keep it concrete by tying one example to the challenge the
+    learners are working on.
+  keyPrompts:
+  - Why is it important to measure the impact of your work, rather than assume it?
+  - What is a theory of change actually for, and what does it help you avoid?
+  - Which features of a theory of change matter most, and why?
+  watchOuts:
+  - Learners treat a theory of change as paperwork to complete; anchor it in a real example where a well-meaning activity did not produce the change intended, so the point lands as a way to avoid wasted effort.
+  adaptation: |
+    With no connectivity, paraphrase the key ideas or read a short printed extract aloud, then run the
+    discussion on paper. No device is needed.
+- title: Map your chain from activity to impact
+  duration: 15-20 min
+  guidance: |
+    In groups, learners take their solution concept and lay out the chain: what they will do
+    (activities), what that directly produces (outputs), the changes in people that follow (outcomes),
+    and the wider impact they are aiming at. Push them to write each link explicitly rather than
+    jumping from a first activity to the final impact, so the assumptions in between are on the page
+    where they can be examined.
+  keyPrompts:
+  - What exactly will you do, and what does that directly produce?
+  - What change in people or the community would that produce, and then what?
+  - What has to be true for one step to actually lead to the next?
+  watchOuts:
+  - Groups jump straight from a small activity to a large impact with nothing between; make them fill the missing steps and name the assumptions, since an unexplained leap is exactly the weak point the map exists to catch.
+- title: Test the logic and strengthen the weak links
+  duration: 10-15 min
+  guidance: |
+    Have each group, or a peer group, walk the chain backwards from impact and challenge every link:
+    is this step plausible, what evidence would show it works, and what is being assumed? Learners
+    then mark the weakest links and decide what would strengthen them, whether new evidence, a changed
+    activity, or a more honest claim about the impact. This turns a diagram into a decision about the
+    solution.
+  keyPrompts:
+  - Walking back from the impact, which link is the hardest to believe, and why?
+  - What evidence would tell you this step is actually working?
+  - Given the weakest link, would you change the activity or change the claim?
+  watchOuts:
+  - Groups defend their chain rather than testing it; frame a broken link as valuable information about the solution, not a mark against the group, so they surface gaps honestly instead of hiding them.
+closing: |
+  Ask each group to name the weakest link in their theory of change and what they will do about it.
+  Point out that a clear chain from activity to impact is also what lets them explain their solution
+  to others: anyone deciding whether to back it wants to see that the change they claim follows from
+  what they actually plan to do.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Mapping how their activities are meant to produce impact is how learners check that their solution
+    will genuinely help the community rather than merely look helpful. Being honest about weak links,
+    and fixing them, is what makes a learner's contribution likely to create the change it claims.
+principlesForegrounded:
+- responsible-action
+- authentic-challenges
+- feedback-and-data
+principleAlignment:
+- principle: responsible-action
+  how: >-
+    Learners are made accountable for whether their solution actually causes the change they claim,
+    not just for having good intentions, so they check the logic from activity to impact before acting
+    rather than assuming their effort helps.
+- principle: authentic-challenges
+  how: >-
+    The chain is built from the learners' own solution concept for a real community problem, so they
+    are reasoning about the actual impact of their own proposed work rather than completing an abstract
+    template exercise.
+- principle: feedback-and-data
+  how: >-
+    Testing each link and asking what evidence would show a step is working uses peer critique and the
+    question of measurable impact as data, so learners revise their theory of change against evidence
+    rather than defend it on conviction.
+competencyCodes:
+- ASI1
+- FPS3
+- APS2
+competencyDevelopment:
+- code: ASI1
+  how: >-
+    Naming the outcomes and impact their activities are meant to produce, and asking what evidence
+    would show each step working, is direct practice in measuring the impact of a sustainable
+    solution; the theory of change is the evidence of that thinking.
+- code: FPS3
+  how: >-
+    Working out the chain of steps between an activity and its intended impact, and naming the
+    assumptions each link depends on, is direct practice in identifying the factors that contribute to
+    a change actually happening.
+- code: APS2
+  how: >-
+    Deciding whether to change an activity or soften a claim on the basis of which links survive
+    scrutiny, and what evidence would support them, is evidence-informed decision making about the
+    learner's own solution.
+objectiveIds:
+- social-entrepreneurship--o2
+relatedSlugs:
+- dc-what-is-impact
+- business-model-canvas-concept-note
+sourceRefs:
+- "Design Challenge - Activity Guides/[45 mins] Theory of Change - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations and
+  delivery modes) from the Design Challenge activity guide, which supplied the purpose, the assigned
+  reading resources and the breakout discussion questions. Written to generalise to any design
+  challenge; the source project investigates the mental health and wellbeing of Afghan females. Linked
+  to Social Entrepreneurship objective 2 (developing a solution concept).

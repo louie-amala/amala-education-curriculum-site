@@ -1,0 +1,170 @@
+id: dc-design-thinking-mindsets
+slug: dc-design-thinking-mindsets
+access: public
+type: activity
+title: Exploring design thinking mindsets
+summary: Learners examine the mindsets that make human-centred design work, drawing on their own past
+  projects and a short reading, so they approach their design challenge more like a designer.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners surface mindsets from their own experience in breakout groups, read alone,
+    then return to compare. The comparison is where the value sits, because hearing how a peer handled
+    ambiguity or failure makes an abstract mindset concrete, so keep the shared discussion even if you
+    shorten the reading.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit for depth over range. A mentor draws out the mindsets a learner already relied on in
+    past projects and connects them to the reading, but the learner loses the spread of examples a
+    group produces, so bring a couple of your own worked examples to widen the picture.
+- context: independent
+  how: >-
+    Workable but weaker, because a learner alone misses hearing how others approached the same
+    mindsets. If a learner works solo, have them complete the reading and reflection, then talk one
+    mindset through with another person before applying it to their project.
+duration: 30-40 min facilitated
+grouping: Breakout groups of 3-5 with individual reading and reflection; works with 10-35 learners
+whatLearnersDo:
+- Discuss past projects and which mindsets helped or held you back.
+- Read a short guide to the design thinking mindsets and take your own notes.
+- Compare what you read with your own experience in your group.
+- Decide which mindsets you will practise and apply to your design challenge.
+materialsAndPreparation:
+- A short, accessible guide to human-centred design mindsets (empathy, embracing ambiguity, optimism, learning from failure, making ideas tangible), adapted to your context.
+- A way for each breakout group to record its discussion and a nominated scribe.
+- "Sensitivity: the reflection on past projects may surface caring for a family member or other personal experiences. Make clear that no one has to share anything personal, and that any project, paid or unpaid, counts."
+facilitationNotes: |
+  Design thinking succeeds or stalls on mindset as much as method: empathy, embracing ambiguity,
+  optimism, learning from failure, and making ideas tangible are what carry a project through the
+  messy middle. The one thing to get right is that these mindsets connect to work learners have
+  already done, so they are recognised rather than lectured. A learner who cared for a relative
+  already practised empathy and adaptability; name that first, and the reading deepens it rather than
+  introducing it cold. Keep the close practical: which mindsets, and how they will use them on this
+  project.
+steps:
+- title: Surface the mindsets behind your past projects
+  duration: 8-12 min
+  guidance: |
+    In breakout groups, ask learners to name a project they have completed, personal or otherwise,
+    including things like caring for a family member. Then draw out which attitudes and approaches
+    helped them succeed and which got in the way. The aim is to make mindset visible in their own
+    experience before any reading, so it lands as something they already do rather than a new theory.
+  keyPrompts:
+  - What is a project you have completed, and what did it take from you?
+  - Which mindsets or attitudes helped you succeed in it?
+  - What mindset got in your way, and what would you do differently now?
+  watchOuts:
+  - Learners assume only formal or school projects count, so quieter members stay silent; state plainly that caring for someone, running a household task or an informal effort all count, and start with an everyday example.
+  adaptation: |
+    No connectivity needed. This step is pure discussion, so it runs on paper or aloud with the
+    scribe capturing the mindsets named. No device is required.
+- title: Read about the design thinking mindsets
+  duration: 8-10 min
+  guidance: |
+    Give learners quiet time to read a short guide to the design thinking mindsets: empathy, embracing
+    ambiguity, optimism, learning from failure and making ideas tangible. Ask them to note where the
+    reading echoes their own discussion, where it stretches their thinking, and what they would now do
+    differently. The reading should confirm and deepen what step one surfaced, not replace it.
+  keyPrompts:
+  - Where does this reading match something your group already said?
+  - Which mindset here is least familiar to how you usually work?
+  - What would you approach differently on a project after reading this?
+  watchOuts:
+  - Learners read passively and take nothing from it; give them the three questions before they start and a place to note answers, so the reading becomes active rather than a box ticked.
+  adaptation: |
+    With no connectivity, use a short printed extract or paraphrase the five mindsets aloud, then run
+    the same reflection questions on paper. The reading does not need a device.
+- title: Compare the reading with your own experience
+  duration: 8-12 min
+  guidance: |
+    Groups reconvene and discuss their reading, with a scribe capturing the discussion. Push them past
+    summarising the text towards connecting each mindset to a real moment: when did optimism keep a
+    project alive, when did fear of failure stall one? This is where a named mindset becomes a lived
+    one and where peers widen each other's picture of what the mindsets look like in practice.
+  keyPrompts:
+  - Which mindset from the reading do you most want to get better at, and why?
+  - Can you point to a moment where one of these mindsets would have changed the outcome?
+  - Where do you and your group disagree about which mindset matters most here?
+  watchOuts:
+  - Groups recite the reading back without linking it to experience; insist each point is tied to a concrete moment from someone's own project, so the mindset is understood rather than memorised.
+- title: Commit to the mindsets you will practise
+  duration: 5 min
+  guidance: |
+    Close individually. Ask each learner to write which mindsets can set them up for success and how
+    they will practise and apply them to the design challenge in this course. This turns a discussion
+    into an intention they carry into the project and gives you a quick read on who has connected the
+    mindsets to their own work and who is still watching from the outside.
+  keyPrompts:
+  - Which one or two mindsets will you deliberately practise on this project?
+  - What is one thing you will do differently because of what you discussed today?
+  - How will you notice, mid-project, whether you are actually using that mindset?
+  watchOuts:
+  - Learners name a mindset with no plan to use it; push for one concrete, small action tied to the design challenge, so the commitment can actually be acted on rather than admired.
+closing: |
+  Ask two or three learners to name the mindset they are taking into the project and why. Remind the
+  group that these mindsets are not a one-off: they are the working attitudes to return to whenever
+  the project gets ambiguous, stuck or discouraging, which in real design work it will.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Recognising that mindsets like optimism, adaptability and learning from failure are things a
+    learner can choose and practise puts the tone of their own work in their hands. Instead of feeling
+    at the mercy of a hard project, learners gain a set of self-directed attitudes they can reach for
+    when it gets difficult.
+principlesForegrounded:
+- lifeworthy-competencies
+- builds-on-identities
+- recognise-communicate-growth
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Embracing ambiguity, staying optimistic under pressure and learning from failure are transferable
+    dispositions learners will reuse far beyond this design challenge, in any project, job or
+    difficult situation that has no clear answer at the start.
+- principle: builds-on-identities
+  how: >-
+    The activity starts from projects learners have already done, including caring roles and informal
+    efforts, so the mindsets are recognised in their existing lives and skills rather than presented
+    as something they lack and must import.
+- principle: recognise-communicate-growth
+  how: >-
+    Learners name the mindsets they already used, identify which they want to strengthen, and commit
+    to practising them, which is an act of noticing and articulating their own growth as designers
+    rather than having it assessed for them.
+competencyCodes:
+- FPS1
+- FUS1
+competencyDevelopment:
+- code: FPS1
+  how: >-
+    Embracing ambiguity, staying optimistic when a project is uncertain and treating failure as
+    information are the core of adaptable thinking; deciding how to apply these mindsets to their own
+    challenge is direct practice, and the closing commitment is the evidence.
+- code: FUS1
+  how: >-
+    Examining which mindsets helped or hindered them in past projects, and which they want to
+    strengthen, develops self-awareness of how they work; the individual reflection makes that
+    self-knowledge explicit and usable.
+objectiveIds:
+- agency-in-learning--o1
+- research-project--o1
+relatedSlugs:
+- dc-design-thinking-self-assessment
+- dc-introduction-to-design-thinking
+sourceRefs:
+- "Design Challenge - Activity Guides/[40 mins] Exploring Design Thinking Mindsets - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations, delivery
+  modes and a sensitivity note) from the Design Challenge activity guide, which supplied the purpose,
+  the breakout discussion questions, the reading focus and the closing reflection. The reading in the
+  source is IDEO.org's Field Guide to Human-Centered Design (pages 19-25); substitute any accessible
+  guide to the same mindsets. The source Design Challenge investigates the mental health and wellbeing
+  of Afghan females; this material is written to generalise to any design challenge, with that as the
+  worked context. Linked to Agency in Learning objective 1 and Research Project objective 1.

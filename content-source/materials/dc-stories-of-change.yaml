@@ -1,0 +1,162 @@
+id: dc-stories-of-change
+slug: dc-stories-of-change
+access: public
+type: activity
+title: Stories of change
+summary: Learners explore real examples of people and projects that created change on a similar problem,
+  drawing out what worked and what to try so those lessons inform their own design challenge ideas.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners each read a different story, then pool what they found in breakout groups.
+    The pooling is where the value sits, because one learner's story surfaces a strategy another had
+    not considered, so keep the shared harvest step even if you shorten the reading.
+- context: one-to-one-mentoring
+  how: >-
+    Works well. A mentor and learner read one or two stories together and draw out the lessons for the
+    learner's specific challenge, but the learner loses the range that several stories across a group
+    would give, so choose the stories closest to their problem.
+- context: independent
+  how: >-
+    Workable for drafting, weaker for range. A learner alone reads two or three stories rather than
+    one, since they cannot rely on peers to cover the others, and writes what each teaches them before
+    sharing their notes with at least one other person.
+duration: 35-45 min facilitated
+grouping: Individual reading, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Read one real story of a person or project that created change on a problem like yours.
+- Reflect on what change they sought, what worked, what got in the way, and how they responded.
+- Share what your story taught you with your group and listen for patterns across the stories.
+- Take one insight from the stories back to your own design challenge.
+materialsAndPreparation:
+- A small set of short, accessible stories of change on problems close to the challenge, one per learner where possible, adapted to your context.
+- A way for each breakout group to record its discussion and a nominated scribe.
+- "Preparation: read the stories yourself first and pick ones that map onto the challenge learners are working on, so the lessons transfer rather than staying abstract."
+facilitationNotes: |
+  Real stories of change show learners that the problem in front of them has been worked on before,
+  and that change comes from people who kept going through setbacks, not from a single perfect idea.
+  The one thing to get right is that learners mine each story for transferable lessons, what helped,
+  what failed and how the person responded, rather than admiring it from a distance. Keep steering
+  them from "that is inspiring" to "what does this tell me about designing and running my own
+  solution?". The stories are fuel for their ideas, not a reading exercise.
+steps:
+- title: Choose and read a story of change
+  duration: 12-15 min
+  guidance: |
+    Give each learner a different real story of a person or project that created change on a problem
+    close to the challenge. Give them quiet time to read and to take notes. Frame the reading with a
+    purpose: they are not admiring the story, they are studying how change was actually made, so they
+    can borrow from it. One story each means the group can cover more ground together.
+  keyPrompts:
+  - What change or long-term impact is this person or project trying to bring about?
+  - What successes have they had, and what seems to have helped them get there?
+  - What failures or challenges did they meet along the way, and how did they respond?
+  watchOuts:
+  - Learners read passively and stop at "this is inspiring"; give them the study questions up front so they read for transferable lessons rather than for a warm feeling.
+  adaptation: |
+    With no connectivity, use short printed stories or read one aloud and paraphrase the rest. No
+    device is needed; the questions work just as well on paper.
+- title: Draw out what made the change possible
+  duration: 8-10 min
+  guidance: |
+    Still individually, have learners turn their notes into a few clear takeaways: what this story
+    tells them about designing and running a real solution. Push them past the events of the story to
+    the mechanism, why the approach worked, what the setbacks taught, what they would copy or avoid.
+    This is the move from reading a story to extracting something they can use.
+  keyPrompts:
+  - What does this story tell you about designing and putting a solution into practice?
+  - If they hit a wall and kept going, what let them do that?
+  - What would you borrow from this, and what would you do differently?
+  watchOuts:
+  - Learners summarise the plot rather than the lesson; ask them to finish the sentence "what this teaches me about making change is..." so they land on a usable insight.
+- title: Share and harvest across the group
+  duration: 10-12 min
+  guidance: |
+    In breakout groups with a scribe, each learner shares what their story taught them. The group then
+    looks across the stories for patterns: what tends to help change happen, what tends to get in the
+    way, how people recover from setbacks. Ask each group to agree one key point or insight they want
+    to bring back to the whole room, so the harvest is shared, not lost in the breakout.
+  keyPrompts:
+  - Across all your stories, what keeps showing up as something that helps change happen?
+  - What patterns do you see in how these people handled failure or resistance?
+  - What is the one key insight this group wants to share with everyone?
+  watchOuts:
+  - One or two stories dominate and the rest go unheard; give a round-robin structure so every learner shares before the group discusses, and ask the scribe to note a lesson from each story.
+- title: Take an insight back to your own challenge
+  duration: 5-8 min
+  guidance: |
+    Close by turning the stories into fuel for the learners' own work. Ask each learner to name one
+    thing the stories make them think about for their own design challenge: an approach to try, a
+    pitfall to plan for, or a source of encouragement that their problem can be moved. This connects
+    the inspiration directly to the ideas they are about to develop.
+  keyPrompts:
+  - What do these stories make you think about for your own design challenge?
+  - Is there an approach here you want to try, or a mistake you now want to avoid?
+  - What gives you confidence that your problem can actually be shifted?
+  watchOuts:
+  - Learners leave inspired but with nothing concrete; push each of them to name one specific idea or caution they will carry into their own solution, not just a good feeling.
+closing: |
+  Invite each group to share the one key insight they chose. Draw the threads together: change on hard
+  problems is made by real people who tried, failed, adjusted and kept going. Send learners into their
+  own ideation carrying both the practical lessons and the belief that their challenge is workable.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Seeing how real people moved a problem like theirs shows learners that a contribution to their own
+    community is possible and gives them tested strategies to borrow. The stories turn a vague wish to
+    help into concrete, evidenced ways of actually making change.
+principlesForegrounded:
+- connect-to-futures
+- collaboration
+- authentic-challenges
+principleAlignment:
+- principle: connect-to-futures
+  how: >-
+    The stories are a bridge from the problem learners have researched to the change they want to help
+    build, showing that people have moved similar problems and giving learners real models to steer
+    their own solutions towards.
+- principle: collaboration
+  how: >-
+    Each learner reads a different story and the group pools what they found, so the range of lessons
+    available to any one learner is expanded by the group rather than limited to the single story they
+    read alone.
+- principle: authentic-challenges
+  how: >-
+    The examples are real people and projects working on genuine problems close to the learners' own
+    challenge, so the lessons about making change come from lived practice rather than a hypothetical
+    case.
+competencyCodes:
+- FSI2
+- FUS2
+competencyDevelopment:
+- code: FSI2
+  how: >-
+    Studying how real solutions were designed and sustained, what worked, what failed and what made
+    the difference, gives learners tested strategies and cautions to draw on as they ideate their own
+    solution; the insights they extract are early evidence of solution thinking.
+- code: FUS2
+  how: >-
+    The stories are told from the perspective of the people who lived the problem and led the change,
+    so reading them and drawing out what drove the people involved builds learners' understanding of
+    others' motivations, needs and circumstances.
+objectiveIds:
+- social-entrepreneurship--o2
+relatedSlugs:
+- dc-share-inspiring-stories
+- dc-exploring-existing-solutions
+sourceRefs:
+- "Design Challenge - Activity Guides/[40 mins] Stories of change - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations and
+  delivery modes) from the Design Challenge activity guide, which supplied the purpose, the example
+  stories of change and the reflection questions. The source Design Challenge investigates the mental
+  health and wellbeing of Afghan females; this material is written to generalise to any design
+  challenge, with problem-relevant stories as the worked example. Linked to Social Entrepreneurship
+  objective 2 (developing a solution concept).

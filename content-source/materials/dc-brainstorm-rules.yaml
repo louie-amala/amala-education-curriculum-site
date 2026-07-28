@@ -1,0 +1,153 @@
+id: dc-brainstorm-rules
+slug: dc-brainstorm-rules
+access: public
+type: activity
+title: Brainstorming rules
+summary: Learners learn and agree the rules that make a brainstorm productive, so their idea generation
+  produces a wider range of stronger options to choose between.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners read a short set of brainstorm rules, then discuss and agree how they will
+    use them in breakout groups. The group is the point, since the rules only prove themselves when a
+    room full of people generates ideas together, so keep the shared-agreement step even if you
+    shorten the reading.
+- context: one-to-one-mentoring
+  how: >-
+    Works for preparation. A mentor and learner talk through the rules and how the learner will hold a
+    group to them, but a pair cannot rehearse the group dynamic the rules manage (one conversation at
+    a time, building on others), so treat it as a briefing before the learner facilitates a real
+    brainstorm.
+- context: independent
+  how: >-
+    Weakest fit, because most brainstorm rules govern how a group behaves together. A learner alone
+    can read and understand the rules, but ask them to apply defer judgement and go for quantity to a
+    solo idea list, then run a real group brainstorm with peers as soon as they can.
+duration: 15-20 min facilitated
+grouping: Individual reading, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Read a short set of brainstorm rules (defer judgement, go for quantity, build on others' ideas, welcome wild ideas, one conversation at a time).
+- Discuss whether the rules would help your group generate lots of ideas, and what you would change.
+- Agree how your group will use the rules to run an effective brainstorm.
+- Appoint a scribe to capture your group's decisions.
+materialsAndPreparation:
+- A short, accessible summary of the brainstorm rules, adapted to your context (the source is IDEO's Design Kit brainstorm rules).
+- A way for each breakout group to record its discussion and a nominated scribe.
+- A visible space (board, wall or shared document) where the agreed rules can be displayed during the brainstorm that follows.
+facilitationNotes: |
+  A brainstorm produces more and better ideas when the group holds off judging, chases quantity,
+  builds on each other and stays on one conversation at a time. The one thing to get right is that
+  the rules are the group's own working agreement, not a poster you read out: learners who have
+  discussed why deferring judgement matters will actually stop themselves saying "that won't work"
+  when a wild idea lands. Keep it short and practical. The rules exist to open up ideation, so treat
+  this as the warm-up to real idea generation, not a topic in itself.
+steps:
+- title: Read and make sense of the brainstorm rules
+  duration: 4-6 min
+  guidance: |
+    Give learners quiet time to read a short set of brainstorm rules: defer judgement, go for
+    quantity, build on the ideas of others, welcome wild ideas, and hold one conversation at a time.
+    Draw out why each rule exists rather than listing them: judging early kills ideas before they
+    grow, and quantity is what gives a group real choice later. Keep it tight so most of the time goes
+    to using the rules, not reading them.
+  keyPrompts:
+  - Why might deferring judgement produce more ideas than debating each one as it comes?
+  - Which of these rules do you think your group breaks most often, and why?
+  - How does going for quantity give you better choices later?
+  watchOuts:
+  - Learners treat the rules as obvious and skim them; ask each learner to name the one rule their group finds hardest, so the reading connects to their real habits.
+  adaptation: |
+    No connectivity needed. Read the short list of rules aloud or hand out a printed copy, then run
+    the discussion on paper. No device is required.
+- title: Discuss whether the rules would work for your group
+  duration: 6-8 min
+  guidance: |
+    In breakout groups, learners discuss whether these rules would help them create an environment
+    that generates lots of ideas, and what they would change and why. This is where they test the
+    rules against their own experience of group work, so a rule they adopt is one they believe in
+    rather than one imposed on them. Appoint a scribe to capture the group's thinking.
+  keyPrompts:
+  - Do you think these rules would help your group come up with lots of ideas? Why, or why not?
+  - Is there a rule you would add, drop or change for how your group works?
+  - What usually stops your group generating ideas freely, and which rule addresses it?
+  watchOuts:
+  - The group agrees quickly and moves on without owning the rules; push for at least one honest disagreement or change so the discussion is real rather than polite.
+- title: Agree how your group will run its brainstorm
+  duration: 4-6 min
+  guidance: |
+    Groups turn the discussion into a short working agreement: how they will hold each other to the
+    rules in the brainstorm that follows. Capture it as a visible list they can point to when someone
+    judges too early or three people talk at once. This gives the next stage, actual idea generation,
+    a shared standard rather than a free-for-all.
+  keyPrompts:
+  - How will you remind each other of the rules in the moment, without it feeling like policing?
+  - Who will keep one conversation going at a time when energy is high?
+  - What will you do when someone judges an idea too early?
+  watchOuts:
+  - The agreement stays vague ("we will be positive"); push for concrete moves, like a signal to park judgement, that a group under pressure can actually use.
+closing: |
+  Confirm that the agreed rules now govern the brainstorm to come: the group has a shared standard for
+  how they will generate ideas together. Point out that the payoff is choice, since a group that
+  defers judgement and goes for quantity ends up with far more options to develop into a solution.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Better brainstorming means learners generate a wider range of ideas for the community problem they
+    are working on, so the solution they eventually build is chosen from real options rather than the
+    first thing anyone said. Holding a group to rules that keep every voice in play is how learners
+    make sure the community's problem gets the fullest set of ideas the group can produce.
+principlesForegrounded:
+- collaboration
+- lifeworthy-competencies
+- safe-spaces
+principleAlignment:
+- principle: collaboration
+  how: >-
+    The rules are explicitly about how a group generates ideas together: building on others' ideas and
+    holding one conversation at a time. Learners agree them as a shared working standard, so idea
+    generation becomes a collective effort rather than a set of competing individual pitches.
+- principle: lifeworthy-competencies
+  how: >-
+    Running a productive brainstorm is a transferable facilitation and creative-thinking skill learners
+    will reuse in any team, project or workplace where a group needs to generate options before
+    deciding, well beyond this design challenge.
+- principle: safe-spaces
+  how: >-
+    Deferring judgement and welcoming wild ideas is what makes it safe to offer a half-formed or unusual
+    idea without being shot down, so quieter or less confident learners contribute rather than
+    self-censor, which is exactly the condition a good brainstorm needs.
+competencyCodes:
+- FSI2
+- FPS1
+competencyDevelopment:
+- code: FSI2
+  how: >-
+    A disciplined brainstorm is the core technique for ideating solutions; learning to defer judgement
+    and go for quantity is direct practice in generating the range of ideas from which a sustainable
+    solution concept is chosen, and the group's idea list is the evidence.
+- code: FPS1
+  how: >-
+    Welcoming wild ideas and building on others' contributions trains learners to follow unexpected
+    lines of thinking and adapt someone else's idea into a better one, which is adaptable thinking in
+    action.
+objectiveIds:
+- social-entrepreneurship--o2
+relatedSlugs:
+- dc-how-might-we-questions
+- idea-generation-and-prioritisation
+sourceRefs:
+- "Design Challenge - Activity Guides/Brainstorm rules - Activity Guide [20 mins].docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, a low-bandwidth
+  adaptation and delivery-mode notes) from the Design Challenge activity guide, which supplied the
+  purpose, the brainstorm rules (from IDEO's Design Kit) and the breakout discussion questions. Written
+  to generalise to any design challenge; the source project investigates the mental health and
+  wellbeing of Afghan females. Linked to Social Entrepreneurship objective 2 (developing a solution
+  concept).

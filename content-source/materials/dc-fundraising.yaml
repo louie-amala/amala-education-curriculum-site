@@ -1,0 +1,165 @@
+id: dc-fundraising
+slug: dc-fundraising
+access: public
+type: activity
+title: Fundraising
+summary: Learners learn practical ways to be an effective fundraiser, mapping realistic sources of
+  funding and making a clear case, so they can find the resources their project needs to get started.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners engage with a shared input on fundraising, then map sources and draft a case
+    together. The group step is where the value sits, because peers know local funders, in-kind
+    support and community routes an individual would miss, so keep the shared mapping step even if you
+    shorten the input.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit once a learner has a specific project. A mentor pressure-tests the learner's actual
+    funding plan, asks whether each source is realistic in their context, and rehearses the ask, but
+    the learner loses the range of ideas a group generates, so ask them to list sources widely first.
+- context: independent
+  how: >-
+    Workable for drafting, weaker for range. A learner alone tends to fix on one obvious source; have
+    them list at least five possible sources and then check the plan with one other person before
+    approaching anyone.
+duration: 25-35 min facilitated
+grouping: Individual reflection, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Engage with a short input on what makes someone an effective fundraiser.
+- Map the possible sources of funding and support your project could draw on.
+- Draft a short, honest case for why someone should back your project.
+- "Test how realistic your plan is: what could go wrong, and what are your other options?"
+materialsAndPreparation:
+- A short, accessible input on effective fundraising (a video, a written guide or your own briefing), adapted to your context.
+- A shared surface for each breakout group to map sources and record notes, and a nominated scribe.
+- "Context note: funding routes vary hugely by place. Grants, crowdfunding and online giving may be unavailable or unsafe where learners are, so make clear that in-kind support, local partners and community contributions count as fundraising too."
+facilitationNotes: |
+  Every project needs resources to start, and learners often assume fundraising means asking strangers
+  for cash. The one thing to get right is that this stays practical and realistic for their context:
+  the aim is a plan they could actually act on, not an ambition to chase money that is not there. Push
+  learners to think widely about what counts as a resource (money, materials, time, expertise,
+  introductions) and to make an honest case a real backer could say yes to. Keep steering them back to
+  the question "who could realistically help this project, and why would they?".
+steps:
+- title: See what makes fundraising work
+  duration: 8-10 min
+  guidance: |
+    Introduce what effective fundraising looks like using a short input, then draw out the pattern:
+    fundraisers succeed when they know who they are asking, make a clear and honest case, and match the
+    ask to the funder. Widen the definition early so learners see that materials, time, expertise and
+    introductions are resources too, not only money.
+  keyPrompts:
+  - What in this makes someone an effective fundraiser rather than just someone asking for money?
+  - Besides cash, what kinds of resource could a project like yours actually need?
+  - Why does who you are asking change how you should make your case?
+  watchOuts:
+  - Learners equate fundraising only with money; keep widening it to in-kind support, skills and partnerships so those with no access to grants still have real routes.
+  adaptation: |
+    With no connectivity, skip the video and give the same points as a short spoken briefing or a
+    printed page, then run the discussion on paper. No device is needed.
+- title: Map your possible sources of funding and support
+  duration: 8-12 min
+  guidance: |
+    In groups, each learner maps the sources their project could realistically draw on: local
+    businesses, community groups, family networks, in-kind donations, small grants, online giving
+    where it is safe and available. Push for breadth first, then have peers add sources for each other,
+    since the group usually knows routes an individual has not thought of.
+  keyPrompts:
+  - Who in your community or network has an interest in this project succeeding?
+  - What could each of these people or groups give, whether money, materials or time?
+  - Which of these sources is realistic where you are, and which is not?
+  watchOuts:
+  - Groups list only distant or unrealistic funders; push them towards the nearby, reachable sources they could actually approach this month.
+- title: Make your case
+  duration: 7-10 min
+  guidance: |
+    Each learner drafts a short, honest case for one chosen source: what the project is, who it helps,
+    what it needs, and why this particular backer should care. Keep it specific and truthful. A good
+    case names a real need and a clear use for the resource, not a vague appeal to do good.
+  keyPrompts:
+  - In two sentences, why should this particular person or group back your project?
+  - What exactly are you asking them for, and what will it be used for?
+  - How will your backer know their contribution made a difference?
+  watchOuts:
+  - Cases become vague or inflated; insist on a specific ask and an honest account of the need, since overselling loses trust and a fuzzy ask is easy to refuse.
+- title: Test how realistic your plan is
+  duration: 5-8 min
+  guidance: |
+    Bring learners back to reality. Ask each group to check its plans against their context: how likely
+    is each source to say yes, what could go wrong, and what are the fallback options if the money does
+    not come. This turns an ambition into a plan with a first step and a backup rather than a single
+    hopeful ask.
+  keyPrompts:
+  - How realistic is fundraising for this project in your context, honestly?
+  - If your first choice says no, what is your next option?
+  - What is the one source you will approach first, and what will you say?
+  watchOuts:
+  - Learners bank everything on one uncertain source; make them name at least one fallback so a single no does not stop the project.
+closing: |
+  Ask each learner to leave with one realistic source they will approach first and a sentence of their
+  case ready to use. Remind them that resourcefulness matters as much as money: a project that cannot
+  raise cash may still get started through borrowed materials, donated time and the right introduction.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Being able to find the resources a project needs is what lets a learner move an idea for their
+    community from intention to action. Learning to fundraise honestly and realistically means their
+    contribution can actually get off the ground rather than stalling for want of a first backer.
+principlesForegrounded:
+- lifeworthy-competencies
+- responsible-action
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Knowing how to identify resources, make a case and secure support is a transferable capability
+    learners will reuse for any future venture, job or community project, well beyond this one design
+    challenge.
+- principle: responsible-action
+  how: >-
+    The activity insists on an honest, realistic ask matched to a genuine need and a clear use of
+    funds, so learners practise raising resources in a way a backer can trust rather than overselling
+    or misleading.
+- principle: connect-to-futures
+  how: >-
+    Turning a project idea into a concrete plan for the resources it needs is the bridge from having a
+    solution to actually launching it, moving learners towards the change they want to make real.
+competencyCodes:
+- FR1
+- AR1
+- ASI3
+competencyDevelopment:
+- code: FR1
+  how: >-
+    Mapping the money, materials, time and expertise a project could draw on is direct practice in
+    identifying resources; the source map each learner produces is the evidence.
+- code: AR1
+  how: >-
+    Reaching beyond the obvious funder to in-kind support, partners and community contributions is
+    practice in expanding the resources available to a project rather than settling for the first
+    option.
+- code: ASI3
+  how: >-
+    Drafting and testing an honest case for why a specific backer should give is practice in attracting
+    support and investment; the pitch each learner leaves with is the early evidence.
+objectiveIds:
+- social-entrepreneurship--o3
+relatedSlugs:
+- dc-build-partnerships
+- pitch-deck-and-concept-brief
+sourceRefs:
+- "Design Challenge - Activity Guides/[30 mins] Fundraising - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations and
+  delivery modes) from the Design Challenge activity guide, which supplied the purpose and the breakout
+  discussion questions on funding sources and how realistic fundraising is. The source Design Challenge
+  investigates the mental health and wellbeing of Afghan females; this material is written to
+  generalise to any project needing resources to start. Linked to Social Entrepreneurship objective 3
+  (convincing others to invest in or adopt the concept).

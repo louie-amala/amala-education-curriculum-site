@@ -1,0 +1,181 @@
+id: dc-introduction-to-design-thinking
+slug: dc-introduction-to-design-thinking
+access: public
+type: activity
+title: Introduction to design thinking
+summary: Learners meet design thinking as a human-centred, iterative way to solve problems, then map its
+  five stages onto the real challenge they will investigate across the whole project.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners reflect alone on a problem they have solved, pool their steps in breakout
+    groups, then meet the design thinking cycle and map it onto their challenge together. The group
+    comparison is where the value sits, because seeing how differently people approach the same kind
+    of problem is what makes design thinking feel like a choice rather than a rule, so keep the pooling
+    step even if you shorten the reading.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit for grounding the model in one learner's project. Without a group, the mentor plays the
+    comparison role: contrasting the learner's instinctive approach with the five stages and pressing
+    them to say where their own habits skip a stage, usually understanding or testing.
+- context: independent
+  how: >-
+    Workable for the reading, weaker for the insight. A learner alone meets the five stages but misses
+    the comparison that shows design thinking is one option among many. If they work solo, ask them to
+    write how their own past approach differed from the cycle, and to talk it through with one other
+    person before the next session.
+duration: 45-60 min facilitated
+grouping: Individual reflection, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Recall a problem you have solved or tried to solve, and note the steps you actually took.
+- Share your steps in a small group and build a general list of how people solve problems.
+- Read a short guide to design thinking and its five stages, understand, define, ideate, prototype and test.
+- Compare the design thinking cycle with how your group already solves problems.
+- Map the five stages onto the real challenge you will investigate across the project.
+materialsAndPreparation:
+- A short, accessible guide to design thinking and its five stages (understand, define, ideate, prototype, test), adapted to your context.
+- A way for each breakout group to record its discussion and a nominated scribe per group.
+- A shared surface (board, paper or digital) to draw the five-stage cycle where everyone can see it.
+- Your own quick example of a problem you solved, ready to show which stages you used and which you skipped.
+facilitationNotes: |
+  Design thinking is the backbone of the whole project: understand the people, define the real
+  problem, ideate widely, prototype, then test and loop back. The one thing to get right is that
+  learners meet it as a human-centred, iterative approach they will genuinely use, not a diagram to
+  memorise. Start from a problem they have actually solved so the model connects to their own
+  instincts, then show where the cycle adds discipline, usually by slowing down to understand people
+  before jumping to a solution, and by treating early ideas as things to test rather than defend.
+steps:
+- title: Reflect on a problem you have solved
+  duration: 5-8 min
+  guidance: |
+    Give learners quiet time to recall a real problem they have solved or tried to solve, at home, in
+    their group of friends or in class, and to write down the steps they actually took and how it
+    went. The point is to surface their existing problem-solving instincts before any model is named,
+    so design thinking later reads as a refinement of what they already do rather than an abstract
+    framework imposed on them.
+  keyPrompts:
+  - "Think of a problem you tried to solve: what steps did you actually take, and how did it turn out?"
+  - Did you spend any time understanding the problem before trying to fix it?
+  - Looking back, what would you do differently if you faced that problem again?
+  watchOuts:
+  - Learners reach for a huge or abstract problem and freeze; steer them to something small and concrete from everyday life, since the mechanics of solving it are what matter, not its scale.
+  adaptation: |
+    No devices needed. Learners can jot their steps on paper or simply hold the example in mind ready
+    to describe it aloud in the next step.
+- title: Pool your steps and name how people solve problems
+  duration: 12-15 min
+  guidance: |
+    In breakout groups, each learner takes two to three minutes to share their problem and the steps
+    they took. Once everyone has shared, the group builds a general list of the steps people seem to
+    use to solve problems, kept deliberately broad. A scribe records it. This shared list becomes the
+    thing you hold the design thinking cycle up against in the next step, so the comparison lands
+    against the group's own thinking.
+  keyPrompts:
+  - Across all your examples, what steps kept coming up when people solved a problem?
+  - Where did people jump straight to a solution, and where did they stop to understand first?
+  - Could you write your group's approach as a general set of steps anyone could follow?
+  watchOuts:
+  - One confident learner's method becomes the whole group's list; use a round-robin so everyone shares before the group generalises, and ask the scribe to capture at least one step from each person.
+- title: Meet the design thinking cycle
+  duration: 12-15 min
+  guidance: |
+    Introduce design thinking as one well-tested approach to problem solving, then walk the five
+    stages: understand the people affected, define the real problem, ideate many possible solutions,
+    prototype a rough version, and test it with real people. Stress the two ideas that make it
+    powerful: it is human-centred (it starts with people, not solutions) and iterative (testing sends
+    you back to understand or ideate, it is a loop, not a line). Draw the cycle where everyone can see
+    it.
+  keyPrompts:
+  - Why might it matter to fully understand the people affected before defining the problem?
+  - What does it change if you treat a first idea as something to test rather than something to defend?
+  - Where does this cycle match what your group already listed, and where is it different?
+  watchOuts:
+  - Learners take the five stages as a strict one-way sequence; make the loop explicit by showing that testing routinely sends a team back to understand or ideate, so they do not treat one pass as the finished job.
+  adaptation: |
+    If the guide cannot be shared digitally, sketch the five-stage cycle on a board or a sheet and
+    talk through each stage with one concrete example. No connectivity is required.
+- title: Map the cycle onto your own challenge
+  duration: 12-15 min
+  guidance: |
+    Bring it back to the real challenge learners will investigate across the project. In their groups,
+    ask them to say what each of the five stages could look like for their challenge: who they would
+    need to understand, how they might define the problem, and how they would test an idea. The aim is
+    not to solve the challenge now but to see that the cycle gives them a route through it, and to
+    notice which stage their instincts tend to skip.
+  keyPrompts:
+  - For your challenge, who are the people you would most need to understand first?
+  - Which of the five stages do you think your group is most likely to rush or skip, and why?
+  - How would you know an idea was worth keeping, rather than just assuming it works?
+  watchOuts:
+  - Groups leap to naming a solution before understanding anyone; pull them back to the understand and define stages, and make clear that ideas generated before the research is done are guesses to be tested, not answers.
+closing: |
+  Ask each group to name the one stage they think will be hardest for their challenge, and why.
+  Confirm that design thinking is the throughline of the project: every activity ahead sits somewhere
+  on this cycle, and learners will move around it more than once. The point they should leave with is
+  that understanding people comes before solutions, and that testing is how an idea earns its place.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Design thinking keeps the people affected at the centre of the work, so a learner's eventual
+    solution answers a real community need rather than an assumed one. Learning to understand people
+    before designing for them is what turns a good intention into a contribution the community can
+    actually use.
+principlesForegrounded:
+- lifeworthy-competencies
+- authentic-challenges
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    A human-centred, iterative problem-solving process is a genuinely transferable competency: learners
+    will reuse the understand-define-ideate-prototype-test loop far beyond this project, in any
+    situation where they need to solve a problem for real people rather than guess at an answer.
+- principle: authentic-challenges
+  how: >-
+    The cycle is introduced through a real problem each learner has actually solved and then mapped
+    straight onto the genuine challenge they will investigate, so the method is grounded in real
+    problems from the first session rather than practised on a hypothetical exercise.
+- principle: connect-to-futures
+  how: >-
+    Meeting design thinking at the start gives learners the map for the whole project ahead: they can
+    see how investigating, ideating and prototyping connect into one journey towards a solution, which
+    links each activity they will do to the change they are working to build.
+competencyCodes:
+- FPS1
+- FSI2
+competencyDevelopment:
+- code: FPS1
+  how: >-
+    Contrasting their own instinctive approach with a five-stage cycle, and seeing which stage they
+    tend to skip, is direct practice in adaptable thinking: learners gain a second way to approach a
+    problem and learn to choose their method rather than default to one.
+- code: FSI2
+  how: >-
+    Design thinking is the frame within which learners will ideate solutions across the project.
+    Understanding that ideation follows understanding and definition, and that ideas are prototyped and
+    tested rather than assumed, sets up how they will generate and develop sustainable solutions later.
+objectiveIds:
+- research-project--o1
+- social-entrepreneurship--o2
+relatedSlugs:
+- dc-how-might-we-questions
+- dc-defining-the-problem
+sourceRefs:
+- "Design Challenge - Activity Guides/[60 mins] Introduction to Design Thinking - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, low-bandwidth
+  adaptations, delivery-mode notes, and agency/principle/competency explanations) from the Design
+  Challenge activity guide, which supplied the purpose, the individual reflection and the breakout
+  discussion questions. The five-stage cycle and its human-centred, iterative framing are drawn out
+  from the design thinking resources the guide points learners to. The source Design Challenge
+  investigates the mental health and wellbeing of Afghan females; this material is written to
+  generalise to any design challenge, with that as the worked example. Linked to Research Project
+  objective 1 (framing a real-world challenge into a researchable focus) and Social Entrepreneurship
+  objective 2 (developing an ethical solution concept).

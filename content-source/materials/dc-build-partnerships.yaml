@@ -1,0 +1,154 @@
+id: dc-build-partnerships
+slug: dc-build-partnerships
+access: public
+type: activity
+title: Building partnerships
+summary: Learners explore why partnerships make a solution real, identify what their project lacks, and
+  work out who could contribute it and how they might approach them.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners study a partnership resource individually, then pool what they learned in
+    mixed groups and work out how partnerships could further their project. The mixed discussion is
+    where the value sits, because learners who studied different resources teach each other, so keep
+    the sharing step even if you shorten the reading.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit for a project that has stalled for want of a resource. A mentor helps a learner name
+    exactly what their solution lacks and who realistically holds it, then rehearses a first approach,
+    though the learner misses the range of examples a group surfaces.
+- context: independent
+  how: >-
+    Workable for the analysis, weaker for the ideas. A learner alone can map what their project needs
+    and list possible partners, but should then show the list to at least one other person and ask who
+    else they would add before approaching anyone.
+duration: 35-45 min facilitated
+grouping: Individual study, then mixed breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Study one short resource on why partnerships matter and how they are built.
+- Work out what your project needs that you cannot provide yourselves.
+- Identify people or organisations who could contribute what you lack.
+- Share key points in a mixed group and discuss how partnerships could further your project's impact.
+- Decide on one partner to approach and how you would first reach out.
+materialsAndPreparation:
+- A short, accessible resource (or two or three, shared out) on what partnerships are and how they are developed, adapted to your context.
+- A way for each breakout group to record its discussion and a nominated scribe.
+- If possible, each project group's current solution concept to hand, so learners can name what it still needs.
+facilitationNotes: |
+  A good solution rarely becomes real on the strength of one team's own resources. The one thing to
+  get right is that learners start from an honest account of what their project lacks, then look
+  outward for who already holds it, rather than treating partnership as a vague good. Keep it
+  concrete: a partner is a specific person or organisation who can contribute something named, in
+  exchange for something they value. Push learners past listing famous names towards partners they
+  could actually reach, and towards a first approach they would be willing to make.
+steps:
+- title: Study why partnerships matter and how they are built
+  duration: 12-15 min
+  guidance: |
+    Give learners quiet time with a short resource on partnerships, sharing different resources across
+    a group so they later teach each other. The aim is a working answer to what a partnership is and
+    why it matters: a solution reaches further when someone else contributes what a team cannot supply
+    alone, whether that is reach, expertise, funding or trust.
+  keyPrompts:
+  - What is a partnership, and why might one matter for making your solution real?
+  - "What did your resource say about how partnerships are actually developed, not just why?"
+  - What could a partner offer your project that your team cannot provide on its own?
+  watchOuts:
+  - Learners read partnership as simply asking others for help; steer them towards exchange, where each side contributes something the other values, so a partnership is sustainable rather than a one-off favour.
+  adaptation: |
+    With no connectivity, read a short printed extract aloud or paraphrase the key points, then run
+    the reflection on paper. No device is needed.
+- title: Map what your project lacks and who could provide it
+  duration: 8-12 min
+  guidance: |
+    Turn the ideas onto the learners' own project. Ask each group to name honestly what their solution
+    still needs to become real, such as a skill, a space, a budget, an audience or credibility, then
+    list specific people or organisations who might hold each thing. Push for partners they could
+    plausibly reach, not only well-known names.
+  keyPrompts:
+  - What does your project need that no one in your team can provide?
+  - Who already has that, and is close enough that you could realistically reach them?
+  - What could you offer a partner in return, so the exchange works both ways?
+  watchOuts:
+  - Groups list only large, unreachable organisations; ask who is one step away through someone they already know, so the list holds partners they could actually approach.
+- title: Share and discuss how partnerships could further your impact
+  duration: 12-15 min
+  guidance: |
+    Form mixed breakout groups with a scribe so learners who studied different resources and projects
+    meet. Each learner shares one key point, then the group works the question of how developing
+    partnerships could further the impact of their projects. Draw out concrete moves, and close by
+    asking each learner to name one partner they will approach and how.
+  keyPrompts:
+  - How could developing partnerships further the impact of your project specifically?
+  - Of the partners named, which one would you approach first, and why that one?
+  - What would you actually say in a first message or conversation to that partner?
+  watchOuts:
+  - The discussion stays abstract and no one commits; press each learner to leave with one named partner and a first line they would use, so the activity ends in an action rather than agreement.
+closing: |
+  Ask two or three learners to name the partner they will approach and what they will ask for. Point
+  out that identifying the right partners, and being willing to reach out, is often what moves a
+  project from a good idea to something real. Learners keep their partner list to revisit as their
+  solution develops and its needs change.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    A solution only helps a community once it is real, and few become real on one team's resources
+    alone. Learning to name what a project lacks and to build partnerships that supply it is how
+    learners turn an idea into a contribution their community can actually use.
+principlesForegrounded:
+- collaboration
+- lifeworthy-competencies
+- connect-to-futures
+principleAlignment:
+- principle: collaboration
+  how: >-
+    Partnership is collaboration beyond the team: learners work out what they cannot do alone and
+    deliberately bring others in to contribute it, so the solution is built with people outside the
+    group rather than in isolation.
+- principle: lifeworthy-competencies
+  how: >-
+    Identifying what a project needs, finding who holds it and approaching them is a transferable
+    skill learners will reuse in any venture, job or community effort where getting something done
+    depends on people beyond their immediate reach.
+- principle: connect-to-futures
+  how: >-
+    Reaching out to real people and organisations to advance a project connects learners to the wider
+    world their solution must live in, and builds relationships and confidence they can carry into
+    future work.
+competencyCodes:
+- FR1
+- AR1
+- ALC2
+competencyDevelopment:
+- code: FR1
+  how: >-
+    Naming exactly what their project lacks and pinpointing who already holds each resource is direct
+    practice in identifying resources; the group's map of needs and possible partners is the evidence.
+- code: AR1
+  how: >-
+    Working out how to secure what the team does not have by drawing in partners, including what to
+    offer in return, is practice in expanding a project's resources beyond the group's own means.
+- code: ALC2
+  how: >-
+    Deciding together which partners to approach and how, weighing whom the group can realistically
+    reach, is practice in facilitating a collaborative decision that the whole team owns.
+objectiveIds:
+- social-entrepreneurship--o3
+relatedSlugs:
+- dc-fundraising
+- dc-expert-interview-preparation
+sourceRefs:
+- "Design Challenge - Activity Guides/[40 mins] Build partnerships - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, an adaptation and
+  delivery modes) from the Design Challenge activity guide, which supplied the purpose, the individual
+  study resources and the mixed-group discussion question. Written to generalise to any design
+  challenge; the source project investigates the mental health and wellbeing of Afghan females. Linked
+  to Social Entrepreneurship objective 3 (convincing others to invest in or adopt the concept).

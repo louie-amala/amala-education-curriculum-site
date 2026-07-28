@@ -1,0 +1,175 @@
+id: dc-exploring-existing-solutions
+slug: dc-exploring-existing-solutions
+access: public
+type: activity
+title: Exploring existing solutions
+summary: Learners research existing tools, products and projects that address their challenge, drawing
+  inspiration, understanding what already works, and spotting gaps their own solution could fill.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Small groups each research a different existing solution, then pair up to report back
+    and compare. The comparison is where the value sits, because seeing two solutions side by side
+    surfaces common features and gaps far better than studying one alone, so keep the paired report-back
+    even if you shorten the research.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit for a learner who is stuck for ideas. A mentor researches one solution alongside the
+    learner and plays the second group, prompting the comparison the learner would otherwise get from
+    peers, but the learner loses the range a room of groups produces, so cover more than one example.
+- context: independent
+  how: >-
+    Workable for the research, weaker for the comparison. A learner alone tends to accept a solution at
+    face value; have them study at least two solutions against the same questions and write down one
+    strength, one gap and one idea each solution gives them.
+duration: 40-50 min facilitated
+grouping: Breakout groups of 3-5, paired for report-back; works with 10-35 learners
+whatLearnersDo:
+- Research an existing solution that addresses your challenge, using a shared set of guiding questions.
+- Capture its purpose, audience, how it works, its strengths and any gaps.
+- Report your findings back to a group that researched a different solution.
+- Compare the solutions to spot common features, gaps and ideas for your own project.
+materialsAndPreparation:
+- A shortlist of two or more existing solutions relevant to your challenge, one per group to research.
+- The guiding research questions (purpose, audience, how it works, strengths, gaps, impact), on a
+  shared surface or handout.
+- A way for each group to record findings and a nominated scribe, plus a plan for pairing groups.
+- "Connectivity: researching real solutions usually needs internet access. If devices or connectivity are
+  limited, prepare short printed profiles of each solution in advance so groups can research from paper."
+facilitationNotes: |
+  Learners design better when they first see what already exists. The one thing to get right is that
+  this is research with a purpose, not admiration: learners study existing solutions to understand what
+  works, spot gaps, and find ideas their own project could build on. Keep them using the guiding
+  questions and pushing past "it looks good" to how a solution actually works and where it falls short.
+  The paired report-back is what turns single findings into a comparison, so protect it. A gap they name
+  in someone else's solution is often the opening for their own.
+steps:
+- title: Set up the research and assign a solution
+  duration: 5-10 min
+  guidance: |
+    Introduce the purpose: learners are studying existing solutions to draw inspiration and find gaps,
+    not to copy. Give each group one solution to research and walk through the guiding questions so
+    every group investigates the same things. Stress that they are looking for how a solution works and
+    where it falls short, so the report-back can be compared cleanly.
+  keyPrompts:
+  - Why is it worth understanding what already exists before we design our own solution?
+  - What would count as a gap or weakness in a solution, not just a strength?
+  - Which of these questions will be hardest to answer for your assigned solution, and why?
+  watchOuts:
+  - Groups treat the task as choosing a favourite; redirect them to the guiding questions so they analyse
+    how a solution works and where it falls short rather than rating it.
+  adaptation: |
+    With limited connectivity, hand each group a short printed profile of their solution prepared in
+    advance and have them work from that. No live internet access is needed.
+- title: Research your assigned solution
+  duration: 15-20 min
+  guidance: |
+    Groups research their solution against the guiding questions: its purpose, target audience, the
+    problem it addresses, how it works, its strengths, any gaps, and its impact where known. Circulate
+    and push groups from surface description towards mechanism, asking how the solution actually delivers
+    its effect. Ask the scribe to capture answers clearly enough to report to another group.
+  keyPrompts:
+  - What problem is this solution actually trying to solve, and for whom?
+  - "How does it work in practice: through people, technology, a service, or something else?"
+  - Where does this solution fall short, or who does it leave out?
+  watchOuts:
+  - Groups copy marketing claims as fact; remind them that a solution's own description is not neutral
+    evidence and ask what they would need to check to trust a claim of impact.
+- title: Report back to a paired group
+  duration: 10-15 min
+  guidance: |
+    Pair each group with one that researched a different solution. Each group presents its findings in
+    about five minutes while the other listens for what is similar and different. Keep presentations
+    tight and grounded in the guiding questions, so the pair ends with two solutions described the same
+    way and ready to compare rather than two unrelated summaries.
+  keyPrompts:
+  - In one sentence, what does your solution do and who is it for?
+  - What is the single strongest thing about it, and its clearest gap?
+  - Listening to the other group, what surprised you about how their solution works?
+  watchOuts:
+  - One group over-runs and the other is rushed; time each presentation and hold both to the same
+    guiding questions so the comparison stays balanced.
+- title: Compare solutions and harvest ideas
+  duration: 10-15 min
+  guidance: |
+    The paired groups now discuss across both solutions: what was innovative, what features recur, and,
+    most importantly, what these examples spark for their own project. Steer the talk towards gaps and
+    opportunities, because the space no existing solution covers well is where a learner's own idea can
+    add value. Ask the scribe to record ideas the group wants to carry forward.
+  keyPrompts:
+  - What common strategies or features did you notice across both solutions?
+  - What gap did neither solution address well that your own project could?
+  - Which idea from these solutions do you most want to build on, and how?
+  watchOuts:
+  - Groups admire the solutions but take nothing forward; require each group to leave with at least one
+    named gap and one idea they will carry into their own design work.
+closing: |
+  Ask each pair to share one gap they found and one idea it gave them for their own project. Point out
+  that studying existing solutions is not about copying but about standing on what already works and
+  aiming their own effort at what does not: that is where a new solution earns its place.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Understanding what already exists stops learners reinventing solutions their community already has
+    and points their effort at the gaps that are genuinely unmet. Studying real solutions is how a
+    learner makes sure their own contribution adds something the community actually needs.
+principlesForegrounded:
+- lifeworthy-competencies
+- collaboration
+- feedback-and-data
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Researching existing solutions, judging how they work and spotting their gaps is a transferable
+    competency learners will reuse whenever they enter an unfamiliar field and need to understand the
+    landscape before acting, well beyond this project.
+- principle: collaboration
+  how: >-
+    Groups research different solutions and then pair up to report back and compare, so each learner's
+    understanding is widened by another group's findings rather than limited to the one solution they
+    studied themselves.
+- principle: feedback-and-data
+  how: >-
+    Learners gather evidence about real solutions against a shared set of questions, then use what the
+    comparison reveals about strengths and gaps to inform their own design decisions rather than guessing.
+competencyCodes:
+- FSI2
+- FPS2
+- APS4
+competencyDevelopment:
+- code: FSI2
+  how: >-
+    Studying how existing solutions address the challenge, and harvesting gaps and ideas from them, feeds
+    directly into ideating their own sustainable solution; the ideas each group carries forward are early
+    evidence of solution thinking grounded in what already works.
+- code: FPS2
+  how: >-
+    Interrogating each solution's own claims against guiding questions, and asking what would be needed to
+    trust a claim of impact, is direct practice in evaluating sources rather than accepting them at face
+    value.
+- code: APS4
+  how: >-
+    Breaking a solution down into purpose, mechanism, strengths and gaps, then comparing two solutions
+    side by side, is structured solution analysis; the paired comparison is the evidence of that analysis.
+objectiveIds:
+- social-entrepreneurship--o1
+- social-entrepreneurship--o2
+relatedSlugs:
+- dc-stories-of-change
+- dc-how-might-we-questions
+sourceRefs:
+- "Design Challenge - Activity Guides/[45 mins] Exploring existing solutions to strengthening mental health and wellbeing - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations and delivery
+  modes) from the Design Challenge activity guide, which supplied the purpose, the guiding research
+  questions and the report-back discussion questions. The source Design Challenge investigates the mental
+  health and wellbeing of Afghan females and names Friendship Bench and Positive Psychology as example
+  solutions; this material is written to generalise to any design challenge, with those as worked
+  examples. Linked to Social Entrepreneurship objectives 1 and 2.

@@ -1,0 +1,152 @@
+id: dc-share-inspiring-stories
+slug: dc-share-inspiring-stories
+access: public
+type: activity
+title: Sharing inspiring stories
+summary: Learners share the inspiring stories and encouraging findings they surfaced while investigating,
+  so the group moves into ideation with hope and a wider sense of what is possible.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners recall a story alone, then share in breakout groups before the whole group
+    harvests takeaways. The group sharing is where the value sits, because one learner's story of hope
+    lifts the whole room and widens what everyone believes is possible, so keep the sharing step even
+    if you shorten the individual reflection.
+- context: one-to-one-mentoring
+  how: >-
+    A warm fit before ideation. A mentor invites the learner to tell the story that moved them most and
+    reflects back the hope and the possibility in it, though the learner loses the range of stories a
+    group brings, so ask them to note two or three encouraging findings beforehand.
+- context: independent
+  how: >-
+    Workable but thinner, because a learner alone misses the lift of hearing others' stories. If they
+    work solo, have them write up the story that inspired them and one thing it makes them believe is
+    possible, then share it with at least one other person before ideation.
+duration: 25-35 min facilitated
+grouping: Individual reflection, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Recall the most compelling or hopeful story or finding you came across during your investigation.
+- Note what the story was, how you heard it, and why it moved you.
+- Share your inspiring story in a breakout group, with a scribe capturing the group's key takeaways.
+- Offer one key takeaway from your group to the whole group as you move towards ideation.
+materialsAndPreparation:
+- A way for each breakout group to record its discussion and a nominated scribe per group.
+- "Optional: learners' investigation notes or findings to hand, so they can draw on real stories rather than memory alone."
+- "Sensitivity: the source challenge is mental health and wellbeing, and inspiring stories can still touch on hardship. Make clear that no one has to share a story that feels too personal, and that a learner can pass or offer an encouraging finding instead of a personal account."
+facilitationNotes: |
+  Investigation often leaves learners weighed down by the size of a problem. This activity exists to
+  rebalance that before ideation: to surface the stories of hope, resilience and change learners also
+  found, so they design from possibility rather than despair. The one thing to get right is that the
+  hope is genuine and specific, drawn from what learners actually heard, not forced positivity. Keep
+  the sharing warm and unhurried, let each story be received before the next, and make sure the
+  takeaways learners carry into ideation are about what is possible and what is already working.
+steps:
+- title: Recall the story that moved you
+  duration: 7-10 min
+  guidance: |
+    Give learners quiet time to look back over their investigation and pick the most compelling or
+    hopeful story or finding they came across. Ask them to note what it was, where and how they heard
+    it, and why it stayed with them. The aim is to reconnect learners with the hope in their research
+    before they share, so the story they bring is specific and genuinely felt rather than generic.
+  keyPrompts:
+  - What was the most compelling or hopeful story or finding you came across during your investigation?
+  - How did hearing it make you feel, and why did it stay with you?
+  - What does this story make you believe is possible for the challenge you are working on?
+  watchOuts:
+  - Learners default to the bleakest thing they heard; steer them towards a story of resilience, change or something already working, since hope is what this step is for.
+  adaptation: |
+    No connectivity or devices needed: learners can reflect on paper or simply think quietly, drawing
+    on their memory of the investigation.
+- title: Share your inspiring stories in breakout groups
+  duration: 12-16 min
+  guidance: |
+    In breakout groups of three to five, learners take turns to share their inspiring story while a
+    scribe captures the group's key takeaways. Encourage active, warm listening: let each story land
+    before the next, and invite brief responses about what struck people. This is where individual
+    hope becomes shared, and where learners hear possibilities they did not find themselves.
+  keyPrompts:
+  - What is the story you want to share, and why did it inspire you?
+  - What do these stories have in common about how change actually happens?
+  - Which of someone else's stories widened what you think is possible here?
+  watchOuts:
+  - One learner dominates or stories get rushed; use a clear round-robin so each person shares one story fully before anyone responds, and ask the scribe to capture a takeaway for each.
+  - The group slips into critiquing or problem-solving the stories; keep this step about hearing and drawing hope from them, and hold analysis for ideation.
+- title: Harvest takeaways for ideation
+  duration: 6-9 min
+  guidance: |
+    Bring the groups back together and invite each to offer one key takeaway from their sharing. Draw
+    out the through-line: change is possible, people are already acting, and there is more to build
+    on than the problem alone suggested. Frame these takeaways as fuel for the ideation to come, so
+    learners move forward with momentum and a wider sense of what could work.
+  keyPrompts:
+  - What is the one takeaway your group most wants to carry into ideation?
+  - Across all these stories, what gives you the most hope for this challenge?
+  - How could what already works in these stories shape the ideas you generate next?
+  watchOuts:
+  - Takeaways stay vague ("it was inspiring"); push each group towards a concrete belief or example they can actually build an idea on.
+closing: |
+  Name what the room has surfaced together: a stock of hope and real examples of change to draw on as
+  ideation begins. Remind learners that designing from possibility, not just from the problem, is what
+  lets them generate ideas worth pursuing.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Learners moving into ideation with hope and evidence that change is possible are far more likely to
+    design ideas they will actually act on for their community. Surfacing stories of what already works
+    keeps their contribution grounded in real possibility rather than in the weight of the problem alone.
+principlesForegrounded:
+- collaboration
+- recognise-communicate-growth
+- connect-to-futures
+principleAlignment:
+- principle: collaboration
+  how: >-
+    The stock of hope is built collectively: each learner's inspiring story is pooled in the breakout
+    group and then across the whole group, so every learner enters ideation with possibilities the
+    room found together rather than only the ones they found alone.
+- principle: recognise-communicate-growth
+  how: >-
+    Learners name and share the encouraging findings from their own investigation, communicating what
+    moved them and why, which turns private research into a shared account of what is working and what
+    change looks like.
+- principle: connect-to-futures
+  how: >-
+    Stories of change and resilience become the bridge from investigating a problem to imagining
+    solutions, moving learners from the weight of what is wrong towards a concrete sense of the future
+    they could help build.
+competencyCodes:
+- FLC3
+- FUS2
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Choosing the story that moved them and telling it so it inspires others is direct practice in
+    influential communication; the takeaways each group carries into ideation are evidence that a
+    learner's account shifted how the group sees what is possible.
+- code: FUS2
+  how: >-
+    Listening to why a story mattered to someone else, and reading the hope and feeling in it, develops
+    understanding of other people; the group's shared takeaways show learners building on each other's
+    perspectives rather than only their own.
+objectiveIds:
+- research-project--o3
+- social-entrepreneurship--o2
+relatedSlugs:
+- dc-stories-of-change
+- dc-exploring-existing-solutions
+sourceRefs:
+- "Design Challenge - Activity Guides/[40 mins] Share inspiring stories - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, an adaptation,
+  delivery modes and a sensitivity note) from the Design Challenge activity guide, which supplied the
+  purpose and the individual reflection and breakout questions. The source Design Challenge
+  investigates the mental health and wellbeing of Afghan females; this material is written to
+  generalise to any design challenge. Linked to Research Project objective 3 (evaluate evidence and
+  develop insights) and Social Entrepreneurship objective 2 (develop a solution concept).

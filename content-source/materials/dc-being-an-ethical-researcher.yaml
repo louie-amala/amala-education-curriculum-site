@@ -1,0 +1,150 @@
+id: dc-being-an-ethical-researcher
+slug: dc-being-an-ethical-researcher
+access: public
+type: activity
+title: Being an ethical researcher
+summary: Learners work out what ethical research means in practice and agree the consent, privacy and
+  safety rules they will hold to before they investigate a sensitive real-world challenge.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners reflect alone, then build a shared ethics agreement in breakout groups. The
+    group step is where the value sits, because a research ethics standard the class writes together
+    is one they own and hold each other to, so keep the shared-agreement step even if you shorten the
+    reading.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit before a learner goes into the field. A mentor walks through the learner's specific
+    research plan and pressure-tests consent, privacy and safety for their actual participants, rather
+    than discussing ethics in the abstract.
+- context: independent
+  how: >-
+    Workable, but a learner alone misses the debate that makes the rules real. If they work solo, have
+    them complete an ethics and safety check for their own plan and review it with you before any
+    fieldwork begins.
+duration: 25-35 min facilitated
+grouping: Individual reflection, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Read a short guide to research ethics and reflect on any research you have done or been part of.
+- Share one key insight with your group and discuss where you agree or would add to the principles.
+- Agree a short, shared checklist of ethical rules your class will hold to.
+- Decide what these rules mean for researching a sensitive challenge in your own context.
+materialsAndPreparation:
+- A short, accessible summary of research ethics principles (consent, privacy, do no harm, respect, safety), adapted to your context.
+- A way for each breakout group to record its discussion and a nominated scribe.
+- "Sensitivity: this activity assumes learners will research a real, possibly sensitive challenge (the source challenge is mental health and wellbeing). Some learners may have personal experience of the topic. Make clear that no one has to share personal history, and that the ethics rules protect them as researchers too, not only their participants."
+facilitationNotes: |
+  Research on real people, especially on a sensitive topic, can help or harm depending on how it is
+  done. The one thing to get right is that the ethics rules are the learners' own and gate the work:
+  no one begins fieldwork until they can say what consent, privacy and safety look like for their
+  specific participants. Keep the focus practical. Learners do not need research-ethics theory, they
+  need a short checklist they will actually use and a habit of asking "is this fair to the people I
+  am researching, and safe for me?".
+steps:
+- title: Reflect on your own experience of research
+  duration: 8-12 min
+  guidance: |
+    Give learners quiet time to read a short guide to research ethics and to reflect on research they
+    have done or been part of, including as a participant. The aim is to make ethics concrete before
+    it becomes a rule: learners who remember being interviewed carelessly understand consent and
+    respect far faster than learners given a definition.
+  keyPrompts:
+  - Have you ever researched something, or been interviewed or surveyed by someone else?
+  - "If you have been a participant: did the researcher make you feel respected and safe? What did they do, or fail to do?"
+  - What is one ethical principle here that you think matters most, and why?
+  watchOuts:
+  - Learners treat ethics as a box to tick; anchor it in a real memory of being researched well or badly so it lands as something that affects real people.
+  adaptation: |
+    With no connectivity, read a short printed extract aloud or paraphrase the key principles, then
+    run the reflection on paper. No device is needed.
+- title: Build a shared ethics agreement
+  duration: 10-15 min
+  guidance: |
+    In breakout groups, each learner shares one insight, then the group agrees a short checklist of
+    the ethical rules they will all hold to: ask permission (informed consent), keep private what is
+    private, be respectful, do no harm, and keep both participants and researchers safe. Capture it as
+    a visible list learners can carry into the field.
+  keyPrompts:
+  - What is the shortest checklist we could all promise to follow every time we research?
+  - Where do you disagree with or want to add to these principles, and why?
+  - What would informed consent actually sound like, in your own words, to a participant?
+  watchOuts:
+  - The checklist becomes long and abstract; push for a handful of concrete rules a nervous first-time researcher could remember and use on the spot.
+- title: Apply the rules to a sensitive challenge
+  duration: 7-10 min
+  guidance: |
+    Bring it back to the real challenge learners will investigate. Ask what the ethics rules mean for
+    researching a sensitive topic and possibly vulnerable participants: who might be harmed, what must
+    stay confidential, when to stop, and how to keep themselves safe. This is where the checklist
+    becomes a plan rather than a poster.
+  keyPrompts:
+  - For the challenge you are investigating, who could be harmed by careless research, and how?
+  - What will you never ask, or never record, to protect a participant?
+  - How will you keep yourself safe and well while researching a difficult topic?
+  watchOuts:
+  - Learners plan to approach vulnerable people about painful experiences without support; make clear that some questions belong to trained professionals, and route learners towards safe, respectful lines of inquiry and towards you if something distressing surfaces.
+closing: |
+  Confirm that the shared checklist now gates the research: nobody starts fieldwork until they, and
+  you, are satisfied their plan is ethical and safe. Learners keep the checklist as a living
+  agreement they can revisit and strengthen as their research raises new questions.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Research done ethically protects the very people a learner is trying to help and produces evidence
+    the community can trust. Setting and holding to their own ethical standard is how learners make
+    sure their contribution strengthens their community rather than exposing or exploiting it.
+principlesForegrounded:
+- responsible-action
+- safe-spaces
+- collaboration
+principleAlignment:
+- principle: responsible-action
+  how: >-
+    Learners define, in their own words, the moral rules for researching real people and then commit
+    to holding to them before any fieldwork, so ethics guides the work from the start rather than
+    being considered after harm is possible.
+- principle: safe-spaces
+  how: >-
+    The activity explicitly protects both participants and learner-researchers on a sensitive topic,
+    making clear that no one must share personal history and that some questions belong to
+    professionals, so the research is planned to keep everyone safe.
+- principle: collaboration
+  how: >-
+    The ethics standard is built together as a class agreement rather than handed down, so learners
+    own it and hold each other to it in the field.
+competencyCodes:
+- FLC1
+- FSI1
+competencyDevelopment:
+- code: FLC1
+  how: >-
+    Defining and committing to ethical rules for their own research, then applying them to real,
+    possibly vulnerable participants, is direct practice in taking values-driven, ethical action; the
+    shared checklist and each learner's ethics-and-safety plan are the evidence.
+- code: FSI1
+  how: >-
+    Ethical practice is part of investigating real-world issues well; planning consent, privacy and
+    safety before gathering evidence is what makes a learner's primary research both usable and
+    responsible.
+objectiveIds:
+- research-project--o2
+relatedSlugs:
+- dc-secondary-research-methods
+- dc-designing-survey-questions
+- dc-expert-interview-preparation
+- community-mapping-and-empathy-interviews
+sourceRefs:
+- "Design Challenge - Activity Guides/[30 mins] Being an ethical researcher - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations, delivery
+  modes and a sensitivity note) from the Design Challenge activity guide, which supplied the purpose,
+  the reflection prompts and the breakout questions. The source Design Challenge investigates the
+  mental health and wellbeing of Afghan females; this material is written to generalise to any
+  sensitive challenge, with that as the worked example. Linked to Research Project objective 2.

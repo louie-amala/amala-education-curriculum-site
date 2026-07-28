@@ -1,0 +1,162 @@
+id: dc-design-thinking-self-assessment
+slug: dc-design-thinking-self-assessment
+access: public
+type: activity
+title: "Design thinking mindsets: a self-assessment"
+summary: Learners rate how often they use each design thinking mindset, name their strengths and one or
+  two areas to build, and set one small, realistic action step.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners rate themselves alone first, then compare insights in breakout groups. The
+    comparison earns its place, because hearing how a peer uses a mindset they rated low makes an
+    abstract self-score concrete, so keep the sharing step even if you shorten the rating.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for honest reflection. A learner may rate themselves more truthfully with one trusted
+    person than in a group, and a mentor can gently test a score against what they have actually seen
+    the learner do, rather than letting a flattering or harsh self-rating stand unexamined.
+- context: independent
+  how: >-
+    Workable but weaker, because the learner loses the peer examples that make the mindsets real and
+    surface blind spots. If a learner works alone, ask them to talk one or two of their ratings through
+    with someone who has seen them work, and to note where that person's read differs from their own.
+duration: 25-35 min facilitated, plus the self-assessment kept for later reference
+grouping: Individual rating, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Rate yourself on how often you use each design thinking mindset.
+- Identify the mindsets you feel most confident in and one or two you want to build.
+- Share insights from your self-assessment in a small group and hear how others use the mindsets.
+- Set one small, realistic step to strengthen a mindset you have chosen.
+- Keep your self-assessment to revisit later, including when you think about pathways after the programme.
+materialsAndPreparation:
+- The design thinking mindsets self-assessment tool, one per learner (printed or digital), with a 1-5 rating for each mindset.
+- A way for each breakout group to keep notes, and a nominated scribe per group.
+- A short reminder of what each mindset means, so a learner rating themselves is clear on what they are rating.
+facilitationNotes: |
+  A self-assessment is only useful if it is honest and leads somewhere small enough to act on. The one
+  thing to get right is that the rating serves the learner, not you: it is a private read on their own
+  practice, not a test to pass. Make clear there are no right scores, that a low rating is a starting
+  point rather than a verdict, and that the point is to choose one or two mindsets to build. Keep the
+  closing action light. A learner needs one realistic next step they will actually take, not a heavy
+  plan, so do not overload the moment with the language of formal planning.
+steps:
+- title: Introduce the mindsets and how to rate yourself
+  duration: 5-8 min
+  guidance: |
+    Walk through the mindsets the tool covers and what each looks like in practice, so a learner knows
+    what they are rating before they rate it. Stress that this is a private, honest read on how often
+    they use each one, not a graded test, and that a low score is information, not failure. Give one
+    concrete example of a mindset in action so the scale means something.
+  keyPrompts:
+  - What does this mindset actually look like when someone is using it well?
+  - Are you rating how good you think you should be, or how often you really do this?
+  - Why might an honest low score be more useful to you than a flattering high one?
+  watchOuts:
+  - Learners rate themselves as they think they ought to score rather than honestly; make clear the sheet is theirs and unseen unless they choose to share, so a truthful read costs them nothing.
+  adaptation: |
+    No connectivity needed: describe each mindset aloud and let learners rate on a paper copy of the
+    tool. The activity does not need a device.
+- title: Rate yourself and name strengths and areas to build
+  duration: 7-10 min
+  guidance: |
+    Give learners quiet, individual time to score each mindset one to five, then to read across their
+    ratings. Ask them to mark the one or two mindsets they feel most confident in and the one or two
+    they most want to build. Circulate quietly. Where a learner scores everything the same, prompt them
+    to compare two mindsets against a real project moment rather than in the abstract.
+  keyPrompts:
+  - Which mindset did you rate highest, and can you point to a time you used it?
+  - Which one or two do you most want to build, and why those?
+  - Is there a mindset you were tempted to over-rate because you wish you were stronger at it?
+  watchOuts:
+  - A learner rates everything at the same middle number to avoid judging themselves; ask them to force a difference between two mindsets by tying each to a specific thing they did, so the sheet gives them something to work with.
+- title: Compare insights in breakout groups
+  duration: 8-12 min
+  guidance: |
+    Put learners in groups of three to five with a scribe. Each learner shares one insight from their
+    self-assessment: a mindset they are confident in, or one they want to build. The group discusses
+    where a mindset has helped them in a project and how these mindsets could help the team succeed.
+    Hearing a peer describe using a mindset makes an abstract self-score concrete and can reveal a
+    strength or gap a learner had not seen in themselves.
+  keyPrompts:
+  - Which mindset do you feel most confident in, and can you share a time it helped you in a project?
+  - Which mindset is an area of growth for you, and what makes it hard?
+  - How might these mindsets help you and your team succeed in the challenge ahead?
+  watchOuts:
+  - The group drifts into general chat or one learner dominates; give a round-robin structure so each person shares one insight before anyone responds, and ask the scribe to note one strength and one growth area named per member.
+- title: Set one small step to build a mindset
+  duration: 5 min
+  guidance: |
+    Close individually. Ask each learner to choose one mindset they want to strengthen and name a
+    single, realistic thing they will do to practise it, and why it matters to them. Keep this light:
+    the aim is one doable step, not a formal plan, so do not weigh the moment down with planning
+    language. A short sentence they mean is worth more than a long list they will not return to.
+  keyPrompts:
+  - Which one mindset will you work on, and what is the smallest thing you could do to practise it?
+  - Why does strengthening this mindset matter to you?
+  - Is this step small enough that you will actually do it before the next session?
+  watchOuts:
+  - Learners commit to something vague or too ambitious to keep; push for one concrete, small action tied to a real moment they can name, rather than a broad intention to "get better" at a mindset.
+closing: |
+  Ask two or three learners to share the mindset they will build and their one step. Remind learners to
+  keep their self-assessment: it is a record of where they started, useful to revisit as the project
+  goes on and later when they think about the pathways open to them after the programme.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Judging your own practice honestly, deciding for yourself which mindsets to build, and choosing a
+    step you will take is self-direction in miniature. The learner, not the facilitator, reads their
+    strengths and sets the direction, which puts the shaping of their own growth in their hands.
+principlesForegrounded:
+- recognise-communicate-growth
+- feedback-and-data
+- lifeworthy-competencies
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: >-
+    The whole activity is an act of a learner recognising and naming their own growth: where they are
+    strong, where they want to build, and what they will do next. Kept and revisited, the self-assessment
+    becomes a record of progress a learner can see and articulate over time.
+- principle: feedback-and-data
+  how: >-
+    The self-rating is data the learner generates about their own practice, and the group step adds a
+    second source as peers reflect back what they have seen. Learners then use that feedback to decide
+    where to focus, rather than guessing at where they most need to grow.
+- principle: lifeworthy-competencies
+  how: >-
+    Honest self-assessment and choosing where to develop are transferable habits a learner will reuse
+    well beyond this project, in any setting where they must judge their own capability and decide what
+    to work on next, which is why the tool is worth keeping past the programme.
+competencyCodes:
+- FSL1
+- FPS1
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    Rating each mindset against their own practice, naming their strengths and areas to build, and
+    choosing a step is direct practice in self-reflection; the completed self-assessment and the chosen
+    action are the evidence.
+- code: FPS1
+  how: >-
+    Weighing how often they use each design thinking mindset, and seeing that a strong project draws on
+    several of them flexibly, develops an awareness of adaptable thinking and where they need to widen
+    their own range.
+objectiveIds:
+- agency-in-learning--o1
+relatedSlugs:
+- dc-design-thinking-mindsets
+sourceRefs:
+- "Design Challenge - Activity Guides/[40 mins] Self Assessment of Design Thinking Mindsets - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations and delivery
+  modes) from the Design Challenge activity guide, which supplied the purpose, the self-assessment tool,
+  the group reflection questions and the personal-commitment step. The source Design Challenge investigates
+  the mental health and wellbeing of Afghan females; this material is written to generalise to any design
+  challenge. Linked to Agency in Learning objective 1.

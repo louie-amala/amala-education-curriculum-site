@@ -1,0 +1,170 @@
+id: dc-secondary-research-methods
+slug: dc-secondary-research-methods
+access: public
+type: activity
+title: Secondary research methods
+summary: Learners learn best practice in secondary research, where to look, how to judge whether a
+  source can be trusted and how to record findings, then plan the desk research their project needs.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Groups build a shared secondary-research plan, sort sources by type, and pool what
+    each has found. The value is in comparing sources and challenging each other's judgements of
+    credibility, so keep the shared plan and the insight-sharing step even if you shorten the reading.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit for sharpening judgement. A mentor works through the learner's own draft plan and
+    pressure-tests where they are looking and how they are weighing each source, but the learner
+    loses the range of sources a group surfaces, so ask them to search widely before the session.
+- context: independent
+  how: >-
+    Workable for the plan and the search, weaker for judging credibility, since a learner alone has no
+    one to challenge a weak source. If they work solo, have them record why each source can be trusted
+    and review that record with you before they rely on it.
+duration: 25-35 min facilitated
+grouping: Project groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Read a short guide to secondary research methods and the main types of source.
+- Build a secondary research plan for your project, listing where you will look and why.
+- "Judge each source: how credible is it, and what are its advantages and limits?"
+- Record your findings in a shared table and pull out one key insight to share.
+materialsAndPreparation:
+- A short, accessible guide to secondary research methods and source types, adapted to your context.
+- A shared table or template for recording sources, findings and a credibility judgement, plus a scribe per group.
+- "Access note: this activity assumes some way to reach sources (library, printed materials or internet). Where connectivity is limited, prepare a small pack of printed or offline sources so groups can still practise judging and recording them."
+facilitationNotes: |
+  Secondary research is finding out what is already known before spending effort gathering new data.
+  The one thing to get right is that not every source is equal: a learner who copies the first result
+  they find has not done research, they have done a search. Keep the focus on two habits, judging
+  whether a source can be trusted and recording findings so they can be used later. Learners do not
+  need a theory of information science, they need a plan for where to look, a quick test for
+  credibility, and a tidy record that turns scattered reading into usable insight for their project.
+steps:
+- title: See what makes secondary research trustworthy
+  duration: 6-10 min
+  guidance: |
+    Introduce secondary, or desk, research and the main types of source: official statistics, news,
+    academic work, organisation reports, and everyday web content. Contrast a strong source with a
+    weak one on the same topic and draw out the test: who made this, when, why, and can it be checked
+    against another source. Tie one example to the challenge learners are investigating.
+  keyPrompts:
+  - What is the difference between finding a source and trusting a source?
+  - Who created this, when, and why might that shape what it says?
+  - If two sources disagree, how would you decide which to believe?
+  watchOuts:
+  - Learners treat anything published as fact; keep returning to the test of who made a source and why, so credibility becomes a habit rather than an afterthought.
+  adaptation: |
+    No connectivity needed: a couple of printed extracts, one strong and one weak on the same topic,
+    are enough to run the contrast and the discussion on paper.
+- title: Build a secondary research plan
+  duration: 8-12 min
+  guidance: |
+    Groups build a plan for their project: what they need to find out, where they will look for it,
+    and what type of source each place offers. Push them past the obvious first search into a range of
+    source types, and to note the advantages and limits of each. The plan should read as a deliberate
+    route through the evidence, not a single lucky search.
+  keyPrompts:
+  - What exactly do you need to find out before you can act on this problem?
+  - Where could you look, and what kind of source is each place?
+  - What are the strengths and the limits of the sources you are relying on?
+  watchOuts:
+  - Groups plan to rely on one type of source, usually a quick web search; set a target of several source types so a single weak channel cannot skew their findings.
+- title: Judge and record what you find
+  duration: 8-12 min
+  guidance: |
+    Groups search against their plan and record each source in a shared table: what it says, how
+    credible it is, and how it helps the project. Insist that every entry carries a short reason for
+    trusting or doubting the source. This is where reading becomes evidence, so keep the record tidy
+    and honest rather than long.
+  keyPrompts:
+  - Why can this source be trusted, and where might it be biased or out of date?
+  - What does this finding actually tell you about your problem?
+  - Which finding here would change what you do next?
+  watchOuts:
+  - Records fill with links and no judgement; require a one-line credibility note per source so the table captures thinking, not just a reading list.
+- title: Share one key insight
+  duration: 4-6 min
+  guidance: |
+    Each group chooses a spokesperson to share one key insight from their secondary research with the
+    whole group. Draw out how the same problem looks different depending on which sources a group
+    trusted, and confirm what still needs primary research to answer. This turns individual reading
+    into a shared, checkable picture of the problem.
+  keyPrompts:
+  - What is the single most useful thing your secondary research told you?
+  - What could you not find out from existing sources, that you will need primary research for?
+  - Did any group find a source that changes how we all see this problem?
+  watchOuts:
+  - Groups report everything they read; ask for one insight and one gap only, so sharing sharpens the picture rather than repeating the table aloud.
+closing: |
+  Confirm that the source table now sits under the project as its evidence base: findings can be
+  traced to a source and a reason for trusting it. Note which questions secondary research answered
+  and which now need primary research, so learners carry a clear brief into the next stage.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Grounding a project in what is already known, and being honest about how trustworthy each source
+    is, is how learners make sure their proposed contribution answers the community's real situation
+    rather than a hunch. Good secondary research is what stops well-meant action from being misdirected.
+principlesForegrounded:
+- lifeworthy-competencies
+- feedback-and-data
+- authentic-challenges
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Knowing where to look, judging whether a source can be trusted, and recording findings so they can
+    be reused are transferable research and information-literacy skills learners will draw on in study,
+    work and civic life long after this project.
+- principle: feedback-and-data
+  how: >-
+    The activity puts existing evidence at the centre of the project: learners gather data from a range
+    of sources, weigh its credibility, and let what they find shape their understanding of the problem
+    before they commit to a direction.
+- principle: authentic-challenges
+  how: >-
+    Learners research a real challenge they intend to act on, so the search, the credibility judgements
+    and the record are all driven by a genuine need to understand the problem rather than by a
+    hypothetical exercise.
+competencyCodes:
+- FSI1
+- FPS2
+- FTS3
+competencyDevelopment:
+- code: FSI1
+  how: >-
+    Planning where to look and pursuing what is already known about a real problem is direct practice
+    in investigating real-world issues; the group's research plan and source table are the evidence of
+    a systematic, rather than accidental, inquiry.
+- code: FPS2
+  how: >-
+    Weighing who made a source, when and why, and recording a reason to trust or doubt each one, is
+    exactly the skill of evaluating sources; the credibility notes learners attach to every entry are
+    the evidence.
+- code: FTS3
+  how: >-
+    Recording findings from many sources into a shared, structured table, with type and credibility
+    captured, is direct practice in gathering and organising data so it can be used later rather than
+    lost.
+objectiveIds:
+- research-project--o2
+- social-entrepreneurship--o1
+relatedSlugs:
+- dc-importance-of-research
+- dc-being-an-ethical-researcher
+- evidence-log-and-source-evaluation
+sourceRefs:
+- "Design Challenge - Activity Guides/[30 mins] Understanding the problem_ secondary research methods - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, an access note,
+  adaptations and delivery modes) from the Design Challenge activity guide, which supplied the purpose,
+  the secondary-research plan task and the breakout discussion questions. The source Design Challenge
+  investigates the mental health and wellbeing of Afghan females; this material is written to
+  generalise to any research challenge, with that as the worked example. Linked to Research Project
+  objective 2 and Social Entrepreneurship objective 1.

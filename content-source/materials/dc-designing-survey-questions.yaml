@@ -1,0 +1,170 @@
+id: dc-designing-survey-questions
+slug: dc-designing-survey-questions
+access: public
+type: activity
+title: Designing good survey questions
+summary: Learners learn to write clear, unbiased survey questions and choose question types that fit,
+  so their primary research gathers data that yields real insight rather than noise.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners study strong and weak examples, then draft and stress-test questions in
+    project groups. The peer critique is where the value sits, because a leading or confusing question
+    is far easier to spot in someone else's draft than your own, so keep the group review step even if
+    you shorten the input.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit for sharpening a real instrument. A mentor takes the learner's actual draft survey and
+    pressure-tests each question for bias, ambiguity and fit to what they need to know, but the learner
+    loses the range of blind spots a group surfaces, so ask them to draft the full survey first.
+- context: independent
+  how: >-
+    Workable for drafting, weaker for catching bias. A learner alone tends to read their own questions
+    as they meant them, not as a respondent will. If they work solo, have them test every question on
+    at least one other person and rewrite anything that was misread.
+duration: 30-40 min facilitated
+grouping: Individual drafting, then project groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Study examples of strong and weak survey questions and work out what separates them.
+- Match the kind of data you need (numbers or opinions) to the right question type.
+- Draft survey questions for your own research and check each for bias and clarity.
+- Test your questions on someone else and rewrite anything that was misread.
+materialsAndPreparation:
+- A short set of paired examples showing a weak survey question and a stronger rewrite, adapted to your context.
+- The research questions or insight goals each group produced earlier, so their survey has a purpose to serve.
+- A shared surface (board, paper or digital) to draft and revise questions, and a scribe per group.
+- "Optional: a survey tool such as a Google Form, with a paper alternative for learners without devices or connectivity."
+facilitationNotes: |
+  A survey is only as good as its questions: a leading or confusing question produces data that looks
+  real but means nothing. The one thing to get right is that every question serves what the group
+  actually needs to know, and reads the same way to a respondent as it does to the writer. Learners'
+  most common mistakes are the leading question that suggests its own answer, the double question that
+  asks two things at once, and the vague scale no one reads the same way. Keep them testing questions
+  on real people, because the fastest way to find a bad question is to watch someone misread it.
+steps:
+- title: Work out what separates a strong question from a weak one
+  duration: 8-10 min
+  guidance: |
+    Show a few paired examples: a weak survey question and a stronger rewrite of the same intent. Draw
+    out the failure modes as learners spot them: the question that leads the respondent to an answer,
+    the one that asks two things at once, the one whose words mean different things to different people.
+    Name each fault so learners have a checklist they can apply to their own drafts later.
+  keyPrompts:
+  - What answer does this question push you towards before you have even thought about it?
+  - Is this question actually asking two different things at the same time?
+  - Would every respondent understand these words to mean the same thing?
+  watchOuts:
+  - Learners critique wording in the abstract without a purpose in mind; anchor each example to what the researcher was trying to learn, so a question is judged by whether it gathers that, not by style.
+  adaptation: |
+    No connectivity needed: a handful of printed or written example pairs and a discussion of why each
+    weak version fails is enough to run this step on paper.
+- title: Match the question type to the data you need
+  duration: 7-10 min
+  guidance: |
+    Introduce the main question types and what each is good for: closed and scale questions for numbers
+    you can count and compare (quantitative), open questions for reasons and experiences in the
+    respondent's own words (qualitative). Have learners decide, for one thing their group needs to
+    learn, whether they need to count something or understand it, and pick the type that fits.
+  keyPrompts:
+  - For this thing you want to learn, do you need to count answers or understand reasons?
+  - Which question type would give you data you could actually compare across respondents?
+  - What would you miss if you only asked closed questions and never an open one?
+  watchOuts:
+  - Groups default to only open questions because they are easy to write, then drown in answers they cannot compare; make sure each survey has some closed or scale questions that produce countable data.
+- title: Draft and stress-test your survey questions
+  duration: 10-12 min
+  guidance: |
+    Groups draft the questions for their own survey, then swap or read them aloud and run each through
+    the faults from step one: is it leading, is it double, is it vague, does it serve what we need to
+    know? Push them to rewrite rather than delete, since a bad question usually hides a good one. Keep
+    the survey short: a handful of questions that each earn their place beats a long form no one finishes.
+  keyPrompts:
+  - Which of your questions is doing real work, and which could you cut without losing anything?
+  - Where has a question smuggled in an assumption the respondent might not share?
+  - How could you rewrite that question so it stays neutral but still gets at what you need?
+  watchOuts:
+  - Groups keep every question and build a survey too long to finish; set a tight ceiling on question count so they prioritise the few that matter to their research.
+- title: Test your questions on a real reader
+  duration: 5-8 min
+  guidance: |
+    Have each group test their questions on someone outside the group, a peer or the facilitator, who
+    answers cold and says aloud where they hesitated or were unsure what was meant. This is the single
+    most reliable way to find a bad question. Learners then rewrite anything that was misread. Frame it
+    as expected: almost every first draft has a question that reads clearly to its author and to no one else.
+  keyPrompts:
+  - Where did you hesitate, and what were you unsure this question was asking?
+  - Did any question feel like it wanted a particular answer from you?
+  - Which questions would you rewrite now that you have watched someone try to answer them?
+  watchOuts:
+  - Testers are polite and say every question is fine; ask them to point to the single most confusing question rather than to approve the set, so real problems surface.
+closing: |
+  Confirm that each group leaves with a short survey whose questions are neutral, clear and tied to
+  what they need to learn. Remind them that a survey can rarely be fixed once it is out, so the work of
+  testing and rewriting now is what makes the data they gather worth analysing later.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    A survey built from clear, unbiased questions gathers data the community can actually trust and act
+    on. Learning to ask well is how learners make sure their research represents the people they are
+    trying to help accurately, rather than reflecting the researcher's own assumptions back at them.
+principlesForegrounded:
+- lifeworthy-competencies
+- collaboration
+- feedback-and-data
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Writing a clear, unbiased question and choosing the right way to gather evidence is a transferable
+    skill learners will reuse well beyond this project, whenever they need to find out what people
+    actually think rather than assume it.
+- principle: collaboration
+  how: >-
+    Questions are stress-tested by peers and by outside readers, because a leading or confusing
+    question is far easier to catch in someone else's draft than your own, so the survey is sharpened
+    by other people rather than by the writer alone.
+- principle: feedback-and-data
+  how: >-
+    The whole activity is about designing an instrument that returns trustworthy data, and it closes by
+    testing questions on real readers and rewriting from what that feedback reveals, so the survey is
+    improved by evidence rather than by the author's intent.
+competencyCodes:
+- FSI1
+- FTS3
+- FPS2
+competencyDevelopment:
+- code: FSI1
+  how: >-
+    Designing a survey that gathers usable evidence about a real-world issue is core to investigating
+    it well; the questions a group writes to interrogate their challenge are direct evidence of how
+    they turn a research need into primary data collection.
+- code: FTS3
+  how: >-
+    Choosing question types deliberately, closed and scale questions for countable data, open questions
+    for reasons, is planning at the point of collection for how the data will be organised and
+    compared later; a well-structured survey is the first move in gathering and organising data.
+- code: FPS2
+  how: >-
+    Judging whether a question is leading, double or vague is evaluating an instrument as a source of
+    evidence before trusting it; learners practise assessing how a question shapes the reliability of
+    the data it returns, which is source evaluation applied to their own research.
+objectiveIds:
+- research-project--o2
+relatedSlugs:
+- dc-secondary-research-methods
+- dc-expert-interview-preparation
+- dc-analysing-research-data
+sourceRefs:
+- "Design Challenge - Activity Guides/[60 min] Primary research - How to design good survey questions_ - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, a low-bandwidth
+  adaptation and delivery-mode notes) from the Design Challenge activity guide, which supplied the
+  purpose and the video and discussion prompts on survey design and qualitative versus quantitative
+  data. Written to generalise to any design challenge; the source project investigates the mental
+  health and wellbeing of Afghan females. Linked to Research Project objective 2.

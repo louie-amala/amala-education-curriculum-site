@@ -1,0 +1,152 @@
+id: dc-creating-personas
+slug: dc-creating-personas
+access: public
+type: activity
+title: Creating personas
+summary: Learners turn their research into believable, evidence-based personas of the people affected, so
+  they design for real human needs rather than their own assumptions about them.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Groups study strong examples, then build a persona together from their shared research.
+    The group step is where the value sits, because members catch each other importing assumptions and
+    can point back to the evidence, so keep the shared build even if you shorten the example study.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit for pressure-testing. A mentor walks through the learner's persona and asks, for each
+    trait, which piece of research it came from, but the learner loses the peer challenge, so ask them
+    to draft the persona before the session and bring their evidence to it.
+- context: independent
+  how: >-
+    Workable for drafting, weaker for catching assumptions. A learner alone tends not to notice where
+    a persona has drifted into stereotype, so have them label every trait with its source and then ask
+    one other person to flag anything that reads as a guess.
+duration: 25-35 min facilitated
+grouping: Project groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Look at a strong example persona and work out what makes it believable and useful.
+- Gather the research your group has about the people affected by your challenge.
+- Build a persona that captures their needs, goals and frustrations, grounded in that evidence.
+- "Check each part of the persona: which piece of research does this come from, and is any of it a guess?"
+materialsAndPreparation:
+- One or two example personas (strong, and ideally one weak) to study, adapted to your context.
+- The research findings, interview notes or insight statements the group produced earlier, to build from.
+- A shared surface (a persona template on paper, board or screen) and a scribe per group.
+facilitationNotes: |
+  A persona is a believable profile of a real type of person affected by the challenge, built so a
+  team designs for that person rather than for themselves. The one thing to get right is that every
+  part of the persona comes from evidence: their goals, needs and frustrations should each trace back
+  to something the learners actually found in their research. Learners' most common mistake is to fill
+  the gaps with stereotypes or with what feels plausible, which quietly designs the real person back
+  out. Keep asking "where did we learn that?" and let the honest "we do not know yet" stand as a gap
+  to go and research.
+steps:
+- title: Study what makes a persona believable
+  duration: 8-10 min
+  guidance: |
+    Show learners a strong example persona, and ideally a weak one, and draw out the difference. A good
+    persona feels like a real, specific person with goals, needs and frustrations, and every detail
+    could be backed by evidence. A weak one is a stereotype or a demographic label. Tie one example to
+    the challenge learners are working on so the move from research to persona is concrete.
+  keyPrompts:
+  - What makes this persona feel like a real person rather than a category?
+  - Which details here could be backed by research, and which look like guesses?
+  - Why does designing for a specific person beat designing for an average or an assumption?
+  watchOuts:
+  - Learners admire the format and copy its surface without asking what evidence sits behind it; keep returning to the test "could we point to the research this detail came from?".
+  adaptation: |
+    No connectivity needed: a printed or hand-drawn example persona, strong or weak, and a discussion
+    of why it works or fails is enough to run this step.
+- title: Build a persona from your research
+  duration: 10-15 min
+  guidance: |
+    Groups gather what their research told them about the people affected and build a persona from it:
+    a name and situation, then their goals, needs, frustrations and context. Push them to draw each
+    element from a finding, an interview quote or an insight statement rather than inventing it. Where
+    they have no evidence, tell them to leave it blank rather than fill it with a plausible guess.
+  keyPrompts:
+  - Who did your research actually tell you about, and what did they need or struggle with?
+  - For this trait on the persona, which piece of research does it come from?
+  - Where are the gaps where we do not yet know, and how could we go and find out?
+  watchOuts:
+  - Groups reach for what feels typical and build a stereotype instead of a person; make them tag each trait with its evidence and mark anything unsupported as a gap to research, not a fact.
+- title: Pressure-test the persona against the evidence
+  duration: 7-10 min
+  guidance: |
+    Groups review the finished persona and challenge it. For each part they ask whether it is grounded
+    in research or assumed, rewrite the assumed parts as questions to investigate, and check the
+    persona represents the people affected rather than the learners themselves. This turns a nice-looking
+    profile into a trustworthy one the group can genuinely design for.
+  keyPrompts:
+  - Is there anything on this persona we assumed rather than learned, and should take back out?
+  - Does this person reflect the community we are designing for, or does it reflect us?
+  - What is the one thing we most need to research to make this persona more trustworthy?
+  watchOuts:
+  - Groups defend the persona because it looks finished; make it safe to mark parts as unproven, since a persona with honest gaps is more useful than a polished one built on guesses.
+closing: |
+  Have each group introduce their persona in a sentence and name one need it puts at the centre of their
+  design. Remind learners that a persona is a living tool: as their research deepens, they update it, so
+  the person they are designing for stays real rather than frozen as an early assumption.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    A persona keeps the real people affected by a challenge at the centre of the solution, so learners
+    design for actual human needs rather than their own guesses. Building it from evidence rather than
+    stereotype is how a learner makes sure their contribution serves the community as it is, not as they
+    imagined it.
+principlesForegrounded:
+- builds-on-identities
+- collaboration
+- authentic-challenges
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The activity insists the persona reflect the lived reality of the people affected, drawn from
+    research into their actual goals and frustrations, so the design is anchored in real identities and
+    lives rather than a stereotype the learners projected onto them.
+- principle: collaboration
+  how: >-
+    The persona is built together from the group's shared research, and members hold each other to the
+    evidence, catching assumptions one learner working alone would not notice and settling them against
+    what the group actually found.
+- principle: authentic-challenges
+  how: >-
+    Because every trait must trace back to the learners' own primary research into a real challenge, the
+    persona keeps the work grounded in genuine insight about real people rather than a hypothetical user
+    invented to fit a brief.
+competencyCodes:
+- FUS2
+- FSI1
+competencyDevelopment:
+- code: FUS2
+  how: >-
+    Building a believable persona from evidence about someone else's goals, needs and frustrations is
+    direct practice in understanding other people; the persona, with each trait traced to a source, is
+    the evidence of how well learners can represent a life that is not their own.
+- code: FSI1
+  how: >-
+    Turning research findings into a usable, evidence-based profile, and distinguishing what the
+    research shows from what is assumed, is part of investigating a real-world issue rigorously rather
+    than settling for a plausible story.
+objectiveIds:
+- research-project--o3
+- social-entrepreneurship--o1
+relatedSlugs:
+- dc-creating-insight-statements
+- dc-how-might-we-questions
+sourceRefs:
+- "Design Challenge - Activity Guides/[30 mins] Understanding the problem_ creating personas - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations and delivery
+  modes) from the Design Challenge activity guide, which supplied the purpose and the breakout study
+  questions. The evidence-not-stereotype focus is drawn out here as the material's core discipline.
+  Written to generalise to any design challenge; the source project investigates the mental health and
+  wellbeing of Afghan females. Linked to Research Project objective 3 (evaluating evidence into
+  actionable insight) and Social Entrepreneurship objective 1 (understanding a social challenge).

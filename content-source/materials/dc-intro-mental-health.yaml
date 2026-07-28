@@ -1,0 +1,167 @@
+id: dc-intro-mental-health
+slug: dc-intro-mental-health
+access: public
+type: activity
+title: Introduction to mental health and wellbeing
+summary: >-
+  Learners build a shared understanding of what mental health and wellbeing mean and why they matter,
+  opening a design challenge on the issue before they begin to research it.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners reflect alone, then build a shared definition and compare it with others in
+    breakout groups. The comparison is where the value sits, since a definition the class builds
+    together is one they understand and can question, so keep the shared step even if you shorten the
+    reading.
+- context: one-to-one-mentoring
+  how: >-
+    A workable fit, though the learner loses the range of views a group surfaces. A mentor helps a
+    learner articulate what mental health and wellbeing mean to them, then plays the peer role by
+    offering an alternative view to compare against, rather than supplying the definition.
+- context: independent
+  how: >-
+    Weaker, because a learner alone builds only one view of a contested idea. If they work solo, have
+    them draft their own definition, read the provided definitions, and then discuss with at least one
+    other person, even asynchronously, before the challenge begins.
+duration: 40-50 min facilitated
+grouping: Individual reflection, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Reflect on what "mental health and wellbeing" means to you and why.
+- "Complete two sentences with your group: mental health and wellbeing is, and is not."
+- Read short definitions and note what connects, challenges or extends your thinking.
+- Discuss why mental health and wellbeing matter in your own context.
+materialsAndPreparation:
+- A short, accessible set of definitions of mental health and wellbeing, adapted to your context.
+- A way for each breakout group to record its discussion (board, paper or digital) and a nominated scribe.
+- "Sensitivity: this topic can touch personal experience. Some learners may live with mental health difficulties or have lost someone to them. Make clear before you start that no one has to share anything personal, that a learner can step back or pass at any point without explaining why, and signpost where real support is available. This activity builds understanding of the topic; it is not therapy and is not the place to work through a personal crisis."
+facilitationNotes: |
+  This activity opens the design challenge by building a shared, honest understanding of what mental
+  health and wellbeing mean and why they matter. The one thing to get right is safety: because some
+  learners will have personal experience, make plain that no one has to disclose anything, that anyone
+  can step back without singling themselves out, and that you can point to real support if needed. Keep
+  the discussion about the idea, not about individuals. Let learners hold different views: this is a
+  contested concept, and the aim is a definition the group understands and can question, not a single
+  correct answer to memorise.
+steps:
+- title: Open the topic and set the ground rules for safety
+  duration: 5-8 min
+  guidance: |
+    Introduce the topic and, before any discussion, set out how the group will treat it. Say clearly
+    that no one has to share personal experience, that anyone can step back or pass without giving a
+    reason, and where support can be found. Keep this brief and matter-of-fact so it steadies the room
+    rather than alarming it, then invite quiet individual thought before anyone speaks.
+  keyPrompts:
+  - What does "mental health and wellbeing" mean to you, and why?
+  - What would help you take part in this discussion comfortably?
+  - Is it something we work on all the time, or only when we struggle?
+  watchOuts:
+  - "A learner discloses a distressing personal experience, or is pushed to; do not force or fish for disclosure, thank them without probing, protect their privacy, move the discussion back to the idea, and follow up one-to-one afterwards with the support signpost."
+  adaptation: |
+    No connectivity or devices needed. State the ground rules aloud and have learners think on paper
+    or simply in silence before the group step.
+- title: Build a shared meaning in your group
+  duration: 12-15 min
+  guidance: |
+    In breakout groups with a scribe, learners share what the words mean to them and build two shared
+    statements: what mental health and wellbeing is, and what it is not. The contrast is what sharpens
+    the idea. Encourage disagreement and keep the talk at the level of the concept rather than anyone's
+    own history, so the group produces a definition it genuinely understands.
+  keyPrompts:
+  - "How would your group finish this sentence: mental health and wellbeing is?"
+  - "And how would you finish this one: mental health and wellbeing is not?"
+  - Where in the group do people see this differently, and what sits behind that?
+  watchOuts:
+  - Groups reduce mental health to mental illness, or to just being happy; push them past both by asking about everyday wellbeing, stress, and the fact that a healthy person still has hard days.
+- title: Read definitions and extend your thinking
+  duration: 12-15 min
+  guidance: |
+    Give learners the provided definitions to read individually, then have each group note what
+    connects with what they already thought, what challenges or puzzles them, and what extends their
+    thinking in a new direction. This moves them from opinion towards a more informed shared view and
+    surfaces the questions worth researching in the challenge ahead.
+  keyPrompts:
+  - What in these definitions connects with what your group already said?
+  - What here challenges you or raises a question you cannot yet answer?
+  - How has reading this pushed your thinking somewhere new?
+  watchOuts:
+  - Learners treat a definition as the final word and stop thinking; frame the definitions as useful but contestable, and reward the group that finds a genuine question or disagreement over the group that simply agrees.
+- title: Draw out why it matters and open the challenge
+  duration: 8-10 min
+  guidance: |
+    Bring the groups back together to name why mental health and wellbeing matter in their own context
+    and who is affected. Keep it general rather than personal. Close by connecting this shared
+    understanding to the design challenge they are about to begin, so learners see that the research
+    ahead grows out of a real issue they have started to define together.
+  keyPrompts:
+  - Why does mental health and wellbeing matter for people in your community?
+  - Is it realistic to expect to feel completely well all of the time?
+  - What do you most want to understand better as we begin this challenge?
+  watchOuts:
+  - The conversation drifts into generalities with no stake; anchor it by asking who in their context is affected and what changes when wellbeing is or is not supported, while keeping examples off any individual in the room.
+closing: |
+  Confirm what the group now shares: a working understanding of mental health and wellbeing and a sense
+  of why it matters, along with the questions they still want answered. Restate that support is
+  available beyond the session, and frame the design challenge ahead as the chance to investigate this
+  issue properly rather than settle it today.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Building a shared, informed understanding of mental health and wellbeing is the groundwork for a
+    contribution learners can trust. By defining the issue together before they research it, learners
+    make sure the challenge they go on to address reflects their community's real concerns rather than
+    an outsider's assumptions.
+principlesForegrounded:
+- builds-on-identities
+- authentic-challenges
+- safe-spaces
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The activity starts from what mental health and wellbeing mean to each learner, in their own words
+    and their own context, and builds the shared definition up from those views rather than handing
+    down an external one, so the work is rooted in the learners' own understanding and experience.
+- principle: authentic-challenges
+  how: >-
+    Learners are opening a real design challenge on a genuine issue in their community, so the shared
+    understanding they build here is the first move on an authentic problem they will research and act
+    on, not a hypothetical exercise.
+- principle: safe-spaces
+  how: >-
+    The material explicitly protects learners on a topic some have lived through: it sets ground rules
+    that no one must disclose, gives a clear way to step back without singling themselves out, keeps
+    discussion on the idea rather than individuals, and signposts real support beyond the session.
+competencyCodes:
+- FSI1
+- FUS1
+competencyDevelopment:
+- code: FSI1
+  how: >-
+    Defining a real-world issue clearly, and separating what it is from what it is not, is the first
+    step in investigating it well; the group's shared definition and its open questions are early
+    evidence of framing a challenge into something researchable.
+- code: FUS1
+  how: >-
+    Noticing what mental health and wellbeing mean to them, and how their view shifts against peers'
+    views and the definitions, develops learners' self-awareness of their own wellbeing and of the
+    assumptions they bring to a sensitive topic.
+objectiveIds:
+- research-project--o1
+- social-entrepreneurship--o1
+relatedSlugs:
+- dc-global-concerns-mental-health
+sourceRefs:
+- "Design Challenge - Activity Guides/[50 mins] Introduction to mental health and wellbeing and why it's important - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, a low-bandwidth
+  adaptation, delivery-mode notes and a sensitivity note) from the Design Challenge activity guide,
+  which supplied the purpose, the reflection sentences and the connect-challenge-extend discussion. The
+  source Design Challenge investigates the mental health and wellbeing of Afghan females; this material
+  is written to generalise to any context, so localise the definitions and examples to the community
+  you are working with. Linked to Research Project objective 1 and Social Entrepreneurship objective 1.

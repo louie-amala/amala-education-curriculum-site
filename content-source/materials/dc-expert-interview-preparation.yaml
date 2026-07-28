@@ -1,0 +1,169 @@
+id: dc-expert-interview-preparation
+slug: dc-expert-interview-preparation
+access: public
+type: activity
+title: Preparing for expert interviews
+summary: Learners work out who counts as an expert on their challenge, write focused questions and plan
+  the logistics, so that interviewing an expert yields insight they can actually use.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Groups clarify what expertise they need, then draft and sharpen questions together.
+    The shared drafting is the point, because one learner's question exposes the gap in another's, so
+    keep the collaborative question-building step even if you shorten the discussion of who counts as
+    an expert.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for the logistics and the question set. A mentor helps a learner identify a realistic
+    expert to approach and pressure-tests each question, but the learner loses the range of questions a
+    group generates, so ask them to draft widely before the session.
+- context: independent
+  how: >-
+    Workable for drafting, weaker for range and reality-checking. A learner alone tends to write polite,
+    generic questions; have them draft at least six, then get one other person to challenge whether each
+    would actually surface something new.
+duration: 40-50 min facilitated
+grouping: Breakout groups of 3-5, with a short whole-group close; works with 10-35 learners
+whatLearnersDo:
+- Work out what an expert is and which kinds of expert could help you understand your challenge.
+- Identify specific people, or types of people, you could realistically ask to interview.
+- Draft interview questions using a question ladder, and note why each one is worth asking.
+- Sharpen the set into a short, ordered list you would actually use in an interview.
+materialsAndPreparation:
+- A short definition or examples of what makes someone an expert, adapted to your context.
+- A question ladder or list of question types (such as Development Impact and You) to prompt a range of questions.
+- A shared surface for each group to record questions and the reason for asking each, and a scribe per group.
+- "Safeguarding: educators arrange any expert interviews and make the introductions; an expert is never alone on a call or in a room with an individual student. Interviews happen as a whole group or with an educator present, and learners never contact an expert privately."
+facilitationNotes: |
+  A good expert interview turns a stranger's knowledge into insight a learner can build on, but only if
+  the learner has done the preparation. The one thing to get right is that the questions come from what
+  the learners still do not understand about their challenge, not from a generic list, and that they are
+  open enough to let the expert teach. Keep steering learners from questions with a yes or no answer
+  towards questions that ask an expert to explain, compare or give an example. The educator arranges the
+  contact and stays present; learners are never left to set up interviews alone.
+steps:
+- title: Work out what expertise you actually need
+  duration: 10-15 min
+  guidance: |
+    Open by clarifying what an expert is: someone with real knowledge or experience of a subject, which
+    includes lived experience, not only formal qualifications. In groups, learners name what they still
+    do not understand about their challenge and what kind of expert could help. This keeps the interview
+    aimed at a genuine gap rather than at whoever is easiest to find.
+  keyPrompts:
+  - What do you still not understand about your challenge that an expert could explain?
+  - Who has real knowledge or lived experience of this, and what makes them an expert?
+  - Would a professional, or someone who has lived through this, teach you more here?
+  watchOuts:
+  - Learners equate expertise only with qualifications and overlook people with direct lived experience; broaden the definition so they consider practitioners, community members and those affected, not just professionals.
+  adaptation: |
+    No connectivity is needed: a printed definition and a short discussion of experts learners already
+    know is enough to run this step on paper.
+- title: Identify who you could realistically ask
+  duration: 8-10 min
+  guidance: |
+    Move from types of expert to named, reachable people. Groups list specific individuals or roles they
+    could ask, then mark which are realistic to approach. Be clear that the educator will arrange and sit
+    in on any interview: learners are proposing who to approach, not making contact themselves. This keeps
+    the plan safe and grounded in who is actually available.
+  keyPrompts:
+  - Of the experts you have named, which could we realistically reach through your educator?
+  - What would you most want to learn from this particular person?
+  - If this expert is not available, who else has similar knowledge you could ask instead?
+  watchOuts:
+  - Learners fix on a single famous or unreachable name and stall; ask each group for a realistic first choice and a backup, and remind them the educator makes all contact.
+- title: Draft questions with a question ladder
+  duration: 12-15 min
+  guidance: |
+    Groups use a question ladder to generate a range of questions, from simple factual ones up to
+    questions that ask the expert to explain, compare or predict. Push for quantity first, then note
+    beside each question why it is worth asking. Steer learners away from questions with a yes or no
+    answer towards ones that invite the expert to teach.
+  keyPrompts:
+  - What is one question that would make the expert explain something rather than just confirm it?
+  - Why are you asking this question, and what would a good answer give you?
+  - Can you turn this yes or no question into one that opens up a fuller answer?
+  watchOuts:
+  - Groups write polite, closed questions that produce short answers; set a target number and require at least two questions that begin with how or why, so the expert has room to teach.
+- title: Sharpen and order your question set
+  duration: 8-10 min
+  guidance: |
+    Groups cut and reorder their questions into a short set they could actually get through in the time an
+    expert will give them. They open with easier questions, save the hardest for once rapport is built,
+    and drop anything that repeats. Where the class will interview one expert together, agree a shared,
+    ordered list here.
+  keyPrompts:
+  - Which questions matter most if the expert can only answer three or four?
+  - What is a warm, easy question you could open with before the harder ones?
+  - Is any question here just repeating another one we could cut?
+  watchOuts:
+  - Groups keep every question and plan an interview no expert has time for; make them choose a realistic number and order it, since a focused set produces a far better interview than a long one.
+closing: |
+  Have each group read out the two or three questions they are most confident will teach them something,
+  and hand you their proposed expert and backup. Confirm the next step: you will arrange the introductions
+  and be present for any interview, so learners arrive prepared and the conversation stays safe and useful.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Interviewing the right expert well is how learners ground their solution in real knowledge rather than
+    assumption. Preparing focused questions means the expert's time yields insight the whole group can
+    use, so the eventual contribution to their community rests on evidence rather than guesswork.
+principlesForegrounded:
+- collaboration
+- lifeworthy-competencies
+- responsible-action
+principleAlignment:
+- principle: collaboration
+  how: >-
+    Learners build and sharpen the question set together, and where the class interviews one expert they
+    agree a shared list, so the group's combined questions produce a richer interview than any learner
+    would manage alone.
+- principle: lifeworthy-competencies
+  how: >-
+    Identifying the right person to ask and preparing focused, open questions is a transferable skill
+    learners will reuse whenever they need to learn from someone who knows more than they do, well beyond
+    this project.
+- principle: responsible-action
+  how: >-
+    Preparation is framed as respect for the expert's time and knowledge, and all contact runs through the
+    educator with an adult present, so learners plan the interview responsibly and safely rather than
+    approaching people unprepared or alone.
+competencyCodes:
+- FSI1
+- FR1
+- FUS2
+competencyDevelopment:
+- code: FSI1
+  how: >-
+    Deciding what they still need to learn about a real challenge and planning primary research to find it
+    out is direct practice in investigating real-world issues; the group's question set and named expert
+    are the evidence.
+- code: FR1
+  how: >-
+    Recognising an expert, including one with lived experience, as a resource for their inquiry and working
+    out who they could realistically reach is practice in identifying and locating the resources a project
+    needs.
+- code: FUS2
+  how: >-
+    Anticipating what an expert knows, framing questions that invite them to teach, and opening with rapport
+    before harder questions develops the learners' ability to understand and work with other people.
+objectiveIds:
+- research-project--o2
+relatedSlugs:
+- dc-designing-survey-questions
+- dc-being-an-ethical-researcher
+sourceRefs:
+- "Design Challenge - Activity Guides/[45 mins] Expert interview preparation - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, an adaptation, delivery
+  modes and a safeguarding note) from the Design Challenge activity guide, which supplied the purpose, the
+  definition of an expert and the breakout discussion and question-ladder tasks. The source Design
+  Challenge investigates the mental health and wellbeing of Afghan females; this material is written to
+  generalise to any research challenge, with that as the worked example. Linked to Research Project
+  objective 2.

@@ -1,0 +1,169 @@
+id: dc-science-of-mental-health
+slug: dc-science-of-mental-health
+access: public
+type: activity
+title: The science of mental health and wellbeing
+summary: Learners build a basic scientific picture of how mental health and wellbeing work, from brain
+  and stress to protective factors and help-seeking, and use it to reason about strengthening wellbeing.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners each take a different topic, learn it alone, then teach one another in
+    breakout groups and assemble a shared picture of the science. The jigsaw is the point, since no
+    one person carries the whole picture and the group builds it together, so keep the teach-back step
+    even if you shorten the individual learning.
+- context: one-to-one-mentoring
+  how: >-
+    Works well for depth over breadth. A mentor and learner cover the topics between them and talk
+    through how the pieces fit, but the learner loses the range a full group brings, so choose the two
+    or three topics most relevant to the challenge rather than trying to cover everything.
+- context: independent
+  how: >-
+    Workable for the learning, weaker for sense-making. A learner alone can gather the science but
+    misses the discussion that turns facts into understanding, so ask them to write their own summary
+    of how the pieces connect and review it with you or a peer before moving on.
+duration: 35-45 min facilitated
+grouping: Individual learning, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Take one topic in the science of mental health and wellbeing and learn it from a short source.
+- Note what your source taught you and prepare one key insight to share.
+- Teach your insight to your group and build a shared picture of how wellbeing works.
+- Use that picture to reason about what could strengthen wellbeing in the challenge you are investigating.
+materialsAndPreparation:
+- A short source for each topic (brain and body, stress and emotion, protective factors, how society affects health), as a video or a printed summary adapted to your context.
+- A shared surface for each breakout group to build up the picture, and a nominated scribe.
+- "Dependency: the source videos need connectivity and a device per topic. If either is uncertain, prepare short printed or spoken summaries in advance so the activity runs with no devices at all."
+- "Sensitivity: mental health is personally relevant, and some learners will have lived experience of it. Make clear that no one has to share anything personal, that this activity builds scientific understanding and is not diagnosis or therapy, and that anyone who wants support should be pointed towards a trained professional or trusted service. Have a signposting route ready before you start."
+facilitationNotes: |
+  The one thing to get right is that this is science to understand and reason with, not diagnosis or
+  treatment. Keep the focus on how mental health and wellbeing work, so learners can see that
+  wellbeing can be understood and influenced rather than being fixed or a personal failing, which is
+  how the science reduces stigma. Do not let the room drift into diagnosing themselves or others, or
+  into personal disclosure no one has to make. If something distressing surfaces, respond with care
+  and signpost professional support rather than trying to treat it. Learners do not need to become
+  experts, they need enough grounded understanding to reason well about strengthening wellbeing.
+steps:
+- title: Frame the science and share out the topics
+  duration: 8-10 min
+  guidance: |
+    Open by framing mental health and wellbeing as something with a scientific basis that can be
+    understood, not a fixed trait or a weakness. Put learners into breakout groups and give each
+    person a different topic to become the group's expert on: the brain and body, stress and emotion,
+    protective factors, and how society and living conditions affect health. Keep the framing on
+    understanding, and make clear this is not about diagnosing anyone.
+  keyPrompts:
+  - Where do we think mental health comes from, and where might those beliefs have come from?
+  - Which of these topics are you most curious to learn about, and why?
+  watchOuts:
+  - Learners arrive believing mental health is fixed or a personal failing; set up from the first minute that the science shows wellbeing can be understood and influenced, which is exactly what reduces stigma.
+  adaptation: |
+    With no connectivity or devices, replace the videos with short printed summaries or read a
+    paraphrase of each topic aloud. Assign one printed summary per learner. No device is needed.
+- title: Learn your topic and capture one key insight
+  duration: 10-12 min
+  guidance: |
+    Give learners quiet, individual time to learn their topic from the assigned source and make notes
+    on what it teaches about the science behind mental health and wellbeing. Ask each to prepare one
+    clear key insight to teach the group, using a sentence starter such as "A key insight about
+    wellbeing is ..., and I think this because ...". The aim is one well-grounded point, not a full
+    summary of the source.
+  keyPrompts:
+  - What is the one thing from your source that most changed how you think about mental health?
+  - What did your source actually show, and how confident are you that you have it right?
+  watchOuts:
+  - Learners try to memorise and repeat everything; steer them to a single clear insight they can explain in their own words and back with what their source showed.
+  - "A learner states a striking biological claim as settled fact, for example that one brain region controls all emotion [to verify]; encourage them to mark what they are unsure of so the group does not treat a half-remembered detail as certain."
+  adaptation: |
+    Notes can be made on paper, and learners who cannot access a video can work from a printed summary
+    of the same topic. No device is required for this step.
+- title: Teach each other and build a shared picture
+  duration: 10-15 min
+  guidance: |
+    In breakout groups, each learner teaches their insight while a scribe captures it. The group then
+    assembles the pieces into one picture of how wellbeing works: how the brain and body respond to
+    stress, what protects wellbeing, and how surroundings and support matter. Keep the discussion on
+    the science and the shared picture, not on any individual's personal experience.
+  keyPrompts:
+  - How do the pieces each of you brought fit together into one picture of wellbeing?
+  - From what you have heard, what seems to protect wellbeing, and what strains it?
+  watchOuts:
+  - The group slides into diagnosing themselves or each other, or into personal disclosure; keep it about how wellbeing works in general, and remind them no one has to share personal experience.
+- title: Reason about strengthening wellbeing for the challenge
+  duration: 7-10 min
+  guidance: |
+    Bring the science back to the real challenge learners are investigating. Ask them to use their
+    shared picture to reason about what might genuinely strengthen wellbeing in that context, and to
+    be clear about where everyday understanding ends and trained professional help begins. This turns
+    the science into informed thinking about action rather than a set of facts to recall.
+  keyPrompts:
+  - Given this science, what might genuinely strengthen wellbeing in the context you are investigating?
+  - Where does understanding stop and trained professional support begin?
+  watchOuts:
+  - Learners move from understanding the science to offering treatment or diagnosis; make clear the science informs action and reduces stigma but is not therapy, and route anyone who needs help towards professional support.
+closing: |
+  Draw the pieces back together into one plain statement the group could stand behind: mental health
+  and wellbeing can be understood, and understanding them helps people reason about how to
+  strengthen wellbeing and when to seek help. Restate that this is knowledge to reason with, not a
+  substitute for professional support, and remind learners where that support can be found.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Understanding how mental health and wellbeing work is what lets a learner reason about their own
+    wellbeing rather than treating it as something fixed or shameful. That grounded understanding,
+    plus knowing when to seek help, gives learners more power over their wellbeing and more say in
+    how they look after themselves and others.
+principlesForegrounded:
+- lifeworthy-competencies
+- authentic-challenges
+- safe-spaces
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    A basic scientific understanding of stress, protective factors and help-seeking is knowledge
+    learners will use for the rest of their lives to look after their own wellbeing and support
+    others, well beyond this project.
+- principle: authentic-challenges
+  how: >-
+    The science is not learned in the abstract but put to work on the real challenge the cohort is
+    investigating, so understanding feeds directly into reasoning about a genuine problem that matters
+    to learners and their community.
+- principle: safe-spaces
+  how: >-
+    The activity is built so a personally relevant topic can be studied without anyone being required
+    to disclose their own experience, keeps the science separate from diagnosis, and signposts
+    professional support, so learners can engage with it safely.
+competencyCodes:
+- FTS2
+- FSI1
+competencyDevelopment:
+- code: FTS2
+  how: >-
+    Building a scientific picture of how wellbeing works and then using it to reason about what could
+    strengthen it in a real context is direct practice in science-informed action; the group's shared
+    picture and their reasoning about the challenge are the evidence.
+- code: FSI1
+  how: >-
+    Gathering and combining findings from several sources into an understanding of a real-world issue,
+    and reasoning from that evidence, is part of investigating real-world issues well and grounds the
+    cohort's later research into the challenge.
+objectiveIds:
+- research-project--o1
+relatedSlugs:
+- dc-global-concerns-mental-health
+sourceRefs:
+- "Design Challenge - Activity Guides/[45 mins] The science of mental health and wellbeing - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (a jigsaw of topics with prompts, watch-outs, delivery
+  modes, a no-device adaptation and a sensitivity note) from the Design Challenge activity guide,
+  which supplied the purpose, the four source topics and the key-insight and discussion prompts. The
+  source Design Challenge investigates the mental health and wellbeing of Afghan females; this
+  material is written to generalise to any sensitive wellbeing challenge, with that as the worked
+  example. Specific biological claims from the source videos are left for a facilitator to confirm and
+  are marked [to verify]. Linked to Research Project objective 1 (framing a real-world challenge).

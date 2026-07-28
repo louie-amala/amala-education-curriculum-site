@@ -1,0 +1,169 @@
+id: dc-defining-the-problem
+slug: dc-defining-the-problem
+access: public
+type: activity
+title: Defining the problem
+summary: Learners turn their research into a focused problem statement and sharpen it, giving their
+  later solution ideas a clear, well-defined problem to address rather than a vague concern.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners read the guidance and draft alone, then give and receive feedback on their
+    problem statements in breakout groups. The feedback step is where the value sits, because seeing
+    how a peer framed the same evidence exposes what a learner left vague, so keep the shared feedback
+    step even if you shorten the reading.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit for sharpening. A mentor pushes a single learner from a broad concern to a specific,
+    evidenced problem statement and can run the "5 whys" with them directly, but the learner loses the
+    range of framings a group produces, so ask them to draft before the session.
+- context: independent
+  how: >-
+    Workable for a first draft, weaker for sharpening. A learner alone tends to accept their first
+    framing; have them write the statement, run the "5 whys" on it themselves, then get one other
+    person to read it and say what is still unclear.
+duration: 45-60 min facilitated
+grouping: Individual reading and drafting, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Read a short guide to what a problem statement is and why a focused one matters.
+- "Use your research and insights to write a problem statement: what the problem is, where and who it affects, and why it matters."
+- Sharpen it by asking "why" several times (the "5 whys") to reach the contributing causes.
+- Share your statement in a small group, give and receive feedback, and note what you would change.
+materialsAndPreparation:
+- A short, accessible guide to problem statements (what, where, who, why, and contributing causes), adapted to your context.
+- The learners' own primary research, secondary research and insight statements from earlier, to draw the evidence from.
+- A simple problem statement template or sentence frame, and a way for each breakout group to record feedback with a nominated scribe.
+facilitationNotes: |
+  A problem statement is the bridge between research and ideas: it fixes, in a sentence or two, exactly
+  what a learner is trying to solve so that later solutions have a clear target. The one thing to get
+  right is that the statement is built from the learner's own evidence, not from assumption, and that
+  it is focused. A problem defined too broadly ("mental health is bad") gives ideation nowhere to
+  start; a good statement names who is affected, where, and why it matters. Keep steering learners
+  back to their research and to the contributing causes, since solving a cause lasts longer than
+  patching a symptom.
+steps:
+- title: See what makes a problem statement focused
+  duration: 12-15 min
+  guidance: |
+    Introduce the problem statement as a concise description of the issue to be solved, covering the
+    what, the where and who, and the why. Contrast a vague statement with a focused one so the
+    difference is concrete. Draw out that it differs from an insight: an insight is what the research
+    revealed, while a problem statement frames the specific challenge that revelation asks them to act
+    on.
+  keyPrompts:
+  - Why might defining the problem in more detail be more helpful than a broad statement of concern?
+  - How is a problem statement different from the insights you have already developed?
+  - What is missing from this vague example that the focused one includes?
+  watchOuts:
+  - Learners treat "focused" as "narrow" and shrink the problem to one solution; keep the statement about the problem and the people, not a fix, so ideation stays open.
+  adaptation: |
+    No connectivity needed: a couple of printed or written example statements, one weak and one
+    strong, and a short discussion of why each works is enough to run this step.
+- title: Draft a problem statement from your research
+  duration: 12-15 min
+  guidance: |
+    Give learners quiet, individual time to write a problem statement using their own research and
+    insights, following the template or frame. Circulate. Where a learner is stuck, point them back to
+    their evidence and ask who is affected and how they know, rather than supplying wording. Stress
+    that this is a practice draft, not a final answer, so a rough version is enough to work with.
+  keyPrompts:
+  - What does your research actually show is the problem, and for whom?
+  - Where is this happening, and who is most affected by it?
+  - Which piece of your evidence backs up each part of your statement?
+  watchOuts:
+  - A learner writes a problem with no evidence behind it; ask them to point to the primary or secondary research supporting each claim, and to mark anything that is still assumption.
+- title: Sharpen it with the "5 whys"
+  duration: 10-15 min
+  guidance: |
+    Have learners interrogate their draft by asking "why" of it several times in a row, each answer
+    feeding the next question, to move from the visible symptom towards the contributing causes. This
+    stops them solving a surface problem and helps them frame one worth addressing. They then rewrite
+    the statement if a deeper cause turns out to be the real problem.
+  keyPrompts:
+  - Ask "why does this problem exist?" of your statement. Now ask "why?" of that answer. Where do you end up?
+  - Which of the causes you reached is one a solution could realistically address?
+  - Having done this, would you rewrite your problem statement? What changes?
+  watchOuts:
+  - Learners keep asking "why" until they reach a cause far too large to act on ("poverty", "war"); bring them back to a contributing cause at a scale their project could realistically influence.
+- title: Give and receive feedback in breakout groups
+  duration: 12-15 min
+  guidance: |
+    In small groups with a scribe, learners read out their problem statements and give each other
+    focused feedback: is it clear, is it evidenced, is it focused enough to generate ideas from. Ask
+    them to reflect on using the template, what helped, what did not, and what they would change for
+    their team project. This turns a private draft into a shared, improved starting point for ideation.
+  keyPrompts:
+  - Is this statement clear and focused enough that you could start generating ideas from it?
+  - What in this statement is still assumption rather than evidence?
+  - What did you like or dislike about using the template, and how will you use this in your group project?
+  watchOuts:
+  - Feedback stays polite and vague ("sounds good"); ask each group to name one specific thing that would make each statement sharper, so the round produces real improvements rather than reassurance.
+closing: |
+  Have a few learners read out how their problem statement changed from first draft to now. Point out
+  that a focused, evidenced problem statement is what gives the next stage, generating ideas, a clear
+  target to aim at, and remind them they will bring this practice into framing the problem for their
+  team project.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    A sharp problem statement is how a learner makes sure the effort they and their community put into
+    solving an issue is aimed at the right thing. By grounding the problem in evidence and its
+    contributing causes rather than assumption, learners direct their contribution at a real,
+    well-understood community need rather than a guessed one.
+principlesForegrounded:
+- authentic-challenges
+- lifeworthy-competencies
+- feedback-and-data
+principleAlignment:
+- principle: authentic-challenges
+  how: >-
+    The problem statement is built entirely from the learners' own primary and secondary research into
+    a real challenge, so the problem they go on to solve is a genuine, evidenced one drawn from their
+    context rather than a hypothetical brief handed to them.
+- principle: lifeworthy-competencies
+  how: >-
+    Framing a messy situation into a focused, evidenced problem statement, and probing for root causes
+    with the "5 whys", is a transferable analytical skill learners will reuse whenever they face an
+    ambiguous problem well beyond this project.
+- principle: feedback-and-data
+  how: >-
+    Learners ground each part of the statement in their research data rather than assumption, then
+    refine the draft through structured peer feedback, so the problem is defined by evidence and
+    improved by critique rather than settled on first attempt.
+competencyCodes:
+- FPS3
+- FSI1
+competencyDevelopment:
+- code: FPS3
+  how: >-
+    Using the "5 whys" to move from a visible symptom to the contributing causes, and rewriting the
+    statement around a cause a solution could address, is direct practice in identifying contributing
+    factors; the sharpened statement is the evidence.
+- code: FSI1
+  how: >-
+    Synthesising primary research, secondary research and insights into a single evidenced problem
+    statement is part of investigating a real-world issue well, turning gathered evidence into a clear,
+    usable definition of the problem.
+objectiveIds:
+- research-project--o1
+- social-entrepreneurship--o1
+relatedSlugs:
+- dc-creating-insight-statements
+- dc-how-might-we-questions
+- dc-what-is-impact
+sourceRefs:
+- "Design Challenge - Activity Guides/[60 mins] Defining the problem - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, a low-bandwidth
+  adaptation and delivery-mode notes) from the Design Challenge activity guide, which supplied the
+  purpose, the guidance on what a problem statement is and the discussion and feedback questions. The
+  "5 whys" sharpening step generalises a standard root-cause technique. Written to generalise to any
+  design challenge; the source project investigates the mental health and wellbeing of Afghan females.
+  Linked to Research Project objective 1 and Social Entrepreneurship objective 1.

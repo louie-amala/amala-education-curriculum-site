@@ -1,0 +1,152 @@
+id: dc-faith-and-mental-health
+slug: dc-faith-and-mental-health
+access: public
+type: activity
+title: Faith and mental health
+summary: Learners explore how faith and belief shape ideas of mental health and wellbeing, so they can
+  understand and respect that lens when they research and work with people of faith.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners study a short input each, then pool insights in breakout groups. The sharing
+    step is where the value sits, because hearing several perspectives on faith and mental health
+    builds a fuller, more respectful picture than any one learner reaches alone, so keep the breakout
+    even if you shorten the individual study.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit before a learner researches a faith community. A mentor helps the learner connect what
+    they are learning about faith and wellbeing to the specific people they will work with, and checks
+    that the learner is approaching the topic with curiosity rather than judgement.
+- context: independent
+  how: >-
+    Workable for the study, weaker for perspective. A learner alone misses the range of views a group
+    surfaces and risks generalising from one source, so ask them to study at least two inputs and to
+    discuss their insight with one person of that faith background where possible.
+duration: 40-50 min facilitated
+grouping: Individual study, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Study a short input about how a faith relates to mental health and wellbeing, using Islam as the worked example.
+- Make notes on one insight about the relationship between faith, belief and wellbeing.
+- Share your insight in a small group and listen for perspectives different from your own.
+- Discuss what this means for researching and working respectfully with people of faith.
+materialsAndPreparation:
+- A short, accessible input on faith and mental health for each learner, using Islam as the worked example and adapted to the learners' own context.
+- A way for each breakout group to record its discussion and a nominated scribe.
+- "Sensitivity: this activity touches on faith, belief and mental health, all of which are personal. Respect diverse beliefs; make clear that no one person speaks for a whole faith, and that the aim is to understand a lens, not to debate whether any religion is true. No one has to disclose their own faith or mental health experience."
+facilitationNotes: |
+  Learners will often research and work with people of faith, and faith shapes how many people
+  understand mental health, distress and healing. The one thing to get right is stance: learners come
+  to understand and respect a lens they may not share, not to assess or debate it. Keep it concrete
+  and grounded in the worked example, but frame every insight as "for people who hold this belief"
+  rather than as fact. Steer firmly away from either dismissing faith or flattening a whole tradition
+  into one view, and back towards curiosity about how belief and wellbeing connect.
+steps:
+- title: Study how faith relates to mental health
+  duration: 12-18 min
+  guidance: |
+    Give learners quiet time to study a short input on faith and mental health, using Islam as the
+    worked example. Ask them to note how the tradition understands wellbeing, distress and healing,
+    and to prepare one insight to share. Frame the study as understanding how believers see these
+    things, not as settling what is true, so learners read with curiosity rather than judgement.
+  keyPrompts:
+  - What does this tradition seem to understand about the mind, the body and wellbeing?
+  - What is one insight here about how faith and mental health connect?
+  - Where does this view differ from how you or your community usually think about mental health?
+  watchOuts:
+  - A learner treats one source as speaking for a whole faith; remind them that traditions hold many voices, and that this is one worked example to learn from, not the definitive account. "[to verify] religious claims in any input should be checked with knowledgeable community sources and adapted to the learners' own faith context."
+  adaptation: |
+    With no connectivity, read a short printed extract aloud or paraphrase the key ideas, then run the
+    note-making on paper. No device or video is needed.
+- title: Share insights and hear other perspectives
+  duration: 15-20 min
+  guidance: |
+    In breakout groups, each learner shares one insight while a scribe captures the group's thinking.
+    Draw out where views differ and why. The aim is a richer, many-sided picture of how faith and
+    wellbeing relate, so encourage learners to build on each other rather than to reach one agreed
+    answer. Keep the tone respectful and curious throughout.
+  keyPrompts:
+  - What did you learn that changed or added to how you understand faith and wellbeing?
+  - Where did people in this group see the same idea differently, and why might that be?
+  - What questions has this raised that you would want to ask someone of this faith?
+  watchOuts:
+  - The discussion drifts into debating whether a religion is true or better than another; steer it back to understanding the lens, and remind the group that the goal is respect and insight, not judgement.
+- title: Apply it to respectful research and work
+  duration: 10-15 min
+  guidance: |
+    Bring it back to practice. Ask what learners' new understanding means for researching and working
+    with people of faith: how to ask about wellbeing respectfully, what assumptions to check, and how
+    to make space for a person's beliefs rather than talk past them. This turns understanding into a
+    habit learners can carry into their fieldwork.
+  keyPrompts:
+  - How would understanding a person's faith change the way you ask them about wellbeing?
+  - What assumption about mental health might you need to set aside to work respectfully here?
+  - How will you make sure the people you work with feel their beliefs are respected, not judged?
+  watchOuts:
+  - Learners turn insight into a stereotype and assume every person of a faith thinks the same way; stress that faith is held individually, and that respectful work means asking the person, not applying a template.
+closing: |
+  Draw the threads together: faith shapes how many people understand mental health and wellbeing, and
+  understanding that lens with respect makes learners better, safer researchers and collaborators.
+  Remind them that the worked example is a starting point to adapt to whichever faith communities they
+  actually work with, checked against those communities' own voices.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Understanding how faith shapes wellbeing lets learners research and act in ways the people they
+    serve recognise as respectful. A contribution built on that understanding strengthens the
+    community it is meant to help, rather than imposing an outside frame on it.
+principlesForegrounded:
+- builds-on-identities
+- safe-spaces
+- responsible-action
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The activity treats learners' and community members' faith as a valued part of who they are and a
+    real lens on wellbeing, rather than something to set aside, so identity is built on rather than
+    talked past.
+- principle: safe-spaces
+  how: >-
+    Explicit ground rules protect a sensitive topic: no one speaks for a whole faith, no one must
+    disclose their own beliefs or mental health, and the truth of any religion is not up for debate,
+    so learners can explore honestly without fear of judgement.
+- principle: responsible-action
+  how: >-
+    Learners turn understanding into a commitment to research and work with people of faith
+    respectfully, checking their assumptions and adapting to each community's own voice rather than
+    imposing an outside frame.
+competencyCodes:
+- FUS3
+- FUS2
+competencyDevelopment:
+- code: FUS3
+  how: >-
+    Studying how a faith tradition understands mental health and wellbeing, and comparing it with their
+    own assumptions, is direct practice in exploring another culture; the insights learners share are
+    the evidence of that exploration.
+- code: FUS2
+  how: >-
+    Learning to see wellbeing through the lens of a person's beliefs, and adjusting how they would ask
+    and respond, develops the ability to understand other people on their own terms rather than
+    projecting one's own frame onto them.
+objectiveIds:
+- research-project--o1
+relatedSlugs:
+- dc-indigenous-ways-of-knowing
+- dc-intro-mental-health
+sourceRefs:
+- "Design Challenge - Activity Guides/[45 mins] Understanding the problem_ Islam and mental health - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, an adaptation, delivery
+  modes and a sensitivity note) from the Design Challenge activity guide, which supplied the purpose
+  and the breakout discussion questions. The source project investigates the mental health and
+  wellbeing of Afghan females and uses Islam as its worked example; this material keeps Islam as the
+  primary example but is framed as "faith and belief" so it generalises, with a localisation note that
+  religious claims should be checked with knowledgeable community sources and adapted to the learners'
+  own faith context. Linked to Research Project objective 1.

@@ -1,0 +1,159 @@
+id: dc-creating-insight-statements
+slug: dc-creating-insight-statements
+access: public
+type: activity
+title: Creating insight statements
+summary: Learners turn raw research data into clear, evidenced insight statements that explain what the
+  problem really is, building the bridge from research to deciding what to address.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners study short resources, then draft and sharpen insight statements together in
+    project groups. The shared critique is where the value sits, since one learner spotting that a
+    statement is really just an observation teaches the whole group the difference, so keep the group
+    drafting step even if you shorten the resource review.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit for sharpening. A mentor helps a learner move a flat observation towards a genuine
+    insight grounded in their own data, but the learner loses the range of examples a group surfaces,
+    so ask them to draft several statements before the session and bring the evidence behind each.
+- context: independent
+  how: >-
+    Workable for drafting, weaker for critique. A learner alone tends to accept their first statement;
+    have them write at least three insight statements, each tied to specific data, then get another
+    person to challenge whether each is really an insight or just a restated observation.
+duration: 25-35 min facilitated
+grouping: Project groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Review a short resource on insight statements and note what separates an insight from an observation.
+- Share what you learned with your group and agree what a high quality insight statement looks like.
+- Turn your group's research data into several draft insight statements, each backed by evidence.
+- "Test each statement: is it an insight about why, grounded in data, not just a description of what?"
+materialsAndPreparation:
+- A short guide or examples contrasting observations and insight statements, adapted to your context.
+- The research data, notes or findings the group gathered earlier, to draw the insights from.
+- A shared surface (board, paper or digital) to draft and sort statements, and a scribe per group.
+- "Sensitivity: the insights may concern a sensitive challenge (the source project is mental health and wellbeing). Remind learners to describe patterns in the data respectfully and not to expose or identify individual participants when they write a statement."
+facilitationNotes: |
+  An insight statement moves from what the data shows to a clear, evidenced understanding of why the
+  problem exists, and it is the bridge from research into deciding what to address. The one thing to
+  get right is the difference between an observation and an insight: "people skip breakfast" is an
+  observation, "people skip breakfast because mornings feel out of their control" is an insight. Keep
+  steering learners back to their own data so every statement is earned, not guessed, and remind them
+  that a good insight opens up the question of what to do next rather than closing it.
+steps:
+- title: See what makes an insight, not an observation
+  duration: 8-12 min
+  guidance: |
+    Have learners review a short resource on insight statements, then draw out the pattern together.
+    An observation describes what happened; an insight explains why it matters and what is really
+    going on beneath it. Use one example tied to the challenge learners are researching so the move
+    from data to insight is concrete rather than abstract.
+  keyPrompts:
+  - What is the difference between saying what people do and understanding why they do it?
+  - Which of these two statements is an observation, and which digs into the reason behind it?
+  - What would a high quality insight statement let you do that a raw observation would not?
+  watchOuts:
+  - Learners treat any interesting finding as an insight; keep returning to the test "does this explain why, and is it backed by our data?" so a restated observation is not mistaken for an insight.
+  adaptation: |
+    No connectivity needed: a few printed or written example statements, some observations and some
+    insights, and a discussion of why each is which is enough to run this step.
+- title: Turn your data into draft insight statements
+  duration: 10-15 min
+  guidance: |
+    Groups take their own research data and draft insight statements from it. Push for several
+    statements, each pointing back to specific evidence in the data rather than to a hunch. Remind them
+    to write about the people and the underlying reason, not the surface behaviour, and to keep the
+    wording clear enough that someone outside the group would understand the problem.
+  keyPrompts:
+  - What pattern keeps showing up across your data, and what might explain it?
+  - Which piece of evidence backs this statement, and would it convince someone who was not there?
+  - Can you rewrite that observation so it says why it matters, not just what happened?
+  watchOuts:
+  - Groups write one vague statement and stop; set a target of several statements and ask for the specific data behind each, so they push past the first easy answer into the real insight.
+- title: Sharpen and choose your strongest insights
+  duration: 7-10 min
+  guidance: |
+    Groups review their drafts against the test (an insight, grounded in evidence, clearly worded),
+    rewrite the weak ones, and choose the few statements they are most confident are true and useful.
+    This gives the next stage, deciding what aspect of the problem to address, a solid evidenced
+    starting point rather than a guess.
+  keyPrompts:
+  - Which of these statements is best supported by what your research actually found?
+  - Is there an observation hiding here that we should push further into an insight?
+  - Which insights point most clearly to a part of the problem you could act on?
+  watchOuts:
+  - Groups keep every draft; make them choose, since a few well-evidenced insights guide the next decision far better than a long list of shaky ones.
+closing: |
+  Have each group read out the one or two insight statements they are most confident in and name the
+  evidence behind each. Point out that these statements are the bridge from research to action: they
+  turn everything the group gathered into a clear understanding of the problem that they can now
+  decide what to do about.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    An evidenced insight statement is how a learner turns what a community told them into a shared
+    understanding others can trust and act on. Grounding their reading of a community problem in real
+    data, rather than assumption, is what makes any contribution they go on to design genuinely
+    responsive to the people it is meant to help.
+principlesForegrounded:
+- authentic-challenges
+- feedback-and-data
+- lifeworthy-competencies
+principleAlignment:
+- principle: authentic-challenges
+  how: >-
+    The insight statements are built from the learners' own primary research into a real community
+    challenge, so their understanding of the problem is earned from genuine evidence about real people
+    rather than assumed from a brief.
+- principle: feedback-and-data
+  how: >-
+    The whole activity is a disciplined move from raw data to evidenced conclusion: every insight must
+    point back to specific findings, and the sharpening step is learners testing each other's claims
+    against what the data actually shows.
+- principle: lifeworthy-competencies
+  how: >-
+    Distinguishing an insight from an observation and grounding a claim in evidence is a transferable
+    analytical skill learners will reuse well beyond this project whenever they need to make sense of
+    information and decide what it means.
+competencyCodes:
+- FSI1
+- APS2
+- FPS3
+competencyDevelopment:
+- code: FSI1
+  how: >-
+    Analysing their own primary research to work out what the data reveals about a real-world issue is
+    core to investigating it well; the set of evidenced insight statements a group produces is the
+    evidence of that analysis.
+- code: APS2
+  how: >-
+    Choosing which statements are best supported by the data, and rewriting or discarding those that
+    are not, is direct practice in evidence-informed decision making rather than acting on assumption.
+- code: FPS3
+  how: >-
+    Moving from what the data shows to why the problem exists is the act of identifying the factors
+    contributing to a challenge, which is exactly what an insight statement names.
+objectiveIds:
+- research-project--o3
+- social-entrepreneurship--o1
+relatedSlugs:
+- dc-analysing-research-data
+- dc-defining-the-problem
+- dc-how-might-we-questions
+sourceRefs:
+- "Design Challenge - Activity Guides/[30 mins] Analysing research_ creating insight statements - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations, delivery
+  modes and a sensitivity note) from the Design Challenge activity guide, which supplied the purpose
+  and the resource-review and discussion questions. The source Design Challenge investigates the
+  mental health and wellbeing of Afghan females; this material is written to generalise to any design
+  challenge, with that as the worked example. Linked to Research Project objective 3 (evaluating
+  evidence and developing actionable insights) and Social Entrepreneurship objective 1.

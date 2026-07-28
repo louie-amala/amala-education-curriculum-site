@@ -1,0 +1,156 @@
+id: dc-what-is-impact
+slug: dc-what-is-impact
+access: public
+type: activity
+title: "What is impact?"
+summary: Learners work out what impact really means, a real intended change in people's lives or a
+  system, so they can name the impact they want their project to have.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners reflect alone on impact they have had, then compare and sharpen a shared
+    working definition in breakout groups. The comparison is where the value sits, because hearing how
+    others describe a change they caused pushes learners past vague talk of activity towards naming a
+    real effect, so keep the shared step even if you shorten the reading.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for pressure-testing. A mentor works through the learner's own examples of impact and
+    challenges the difference between what they did and what actually changed for someone, then helps
+    them name the impact they want their project to have. The learner loses the range of examples a
+    group produces, so ask them to draft several before the session.
+- context: independent
+  how: >-
+    Workable for drafting, weaker for challenge. A learner alone tends to accept their first, loosest
+    definition of impact; have them write their own definition with examples and then get another
+    person to ask "but what actually changed, and for whom?" before they settle it.
+duration: 25-35 min facilitated
+grouping: Individual reflection, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Read a short definition of impact and reflect on real impact you have had on your own life, on
+  someone else, and in a project.
+- Share one insight with your group and work out together what impact means, distinct from mere
+  activity or output.
+- Agree a short, shared working definition of impact, with examples.
+- Name the impact you want your own project to have on the people or system it is for.
+materialsAndPreparation:
+- A short, accessible definition of impact (a real, intended change in people's lives or a system),
+  adapted to your context.
+- A way for each breakout group to record its working definition and examples, and a nominated scribe.
+- "Sensitivity: learners are asked to reflect on impact they have had on their own lives and on others.
+  Some may raise difficult personal or family experiences. Make clear that no one has to share
+  anything personal, and that a small, everyday example of impact works just as well as a big one."
+facilitationNotes: |
+  Impact is one of the most loosely used words learners will meet, and the one thing to get right is
+  the distinction that makes it useful: impact is the real, intended change something causes, not the
+  activity that caused it and not the output it produced. Running a workshop is activity; a leaflet is
+  output; people acting differently afterwards is impact. Keep steering learners back to what actually
+  changed, and for whom. The reward is that they can then name the change they want their project to
+  make, which is what every later decision about the project will be measured against.
+steps:
+- title: Reflect on impact you have had
+  duration: 8-12 min
+  guidance: |
+    Give learners a short definition of impact and quiet time to think of real examples: a change they
+    brought about in their own life, in someone else's, and in a project with others. The aim is to
+    make impact concrete before it becomes a definition, because a learner who remembers changing how
+    a friend felt understands impact far faster than one handed a dictionary line.
+  keyPrompts:
+  - What is a change you have brought about in your own life, short term or long term?
+  - What is some impact you have had on another person, and how do you know you had it?
+  - When you worked on a project with others, what actually changed because of it?
+  watchOuts:
+  - Learners describe what they did rather than what changed; keep asking "and what was different afterwards, for whom?" so activity does not get mistaken for impact.
+  adaptation: |
+    With no connectivity, read or paraphrase the short definition aloud and run the reflection on
+    paper. No device is needed.
+- title: Build a shared working definition of impact
+  duration: 10-15 min
+  guidance: |
+    In breakout groups, each learner shares one insight from their reflection, then the group works out
+    a short definition of impact in their own words, with examples. Push them to separate three things
+    that get muddled: activity (what you do), output (what you make), and impact (the change that
+    results). Capture it as a visible definition the group can carry into their project.
+  keyPrompts:
+  - In your own words, what is the shortest definition of impact we could all agree on?
+  - Which of our examples is really activity or output rather than impact, and why?
+  - How would you know, in practice, that a change had actually happened?
+  watchOuts:
+  - The definition stays abstract and slippery; push for a plain sentence plus two concrete examples the group could explain to someone who has never heard the word.
+- title: Name the impact you want your project to have
+  duration: 7-10 min
+  guidance: |
+    Bring it back to each learner's own project. Ask them to name the specific change they want it to
+    make for the people or system it is for, using their new definition. This is where impact stops
+    being a concept and becomes a direction: the intended change the whole project will be steered by
+    and, later, measured against.
+  keyPrompts:
+  - What real change do you want your project to make, and for whom?
+  - Is what you have named a change in people's lives, or just something you plan to do?
+  - How might you one day tell whether that change has actually happened?
+  watchOuts:
+  - Learners name an activity ("run sessions") as their intended impact; hold them to naming the change those sessions are meant to cause, or the project has no target to aim at.
+closing: |
+  Ask two or three learners to state the impact they want their project to have. Point out how naming
+  the intended change, distinct from the activity and the output, gives the project a direction: every
+  later decision can now be asked "does this move us towards that change?".
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Naming the real change a learner wants to make, rather than just the activity they will run, is
+    what turns a good intention into a contribution their community can actually feel. A clear idea of
+    intended impact keeps the community's real needs, not the learner's plans, at the centre of the
+    project.
+principlesForegrounded:
+- responsible-action
+- authentic-challenges
+- recognise-communicate-growth
+principleAlignment:
+- principle: responsible-action
+  how: >-
+    Distinguishing intended impact from mere activity makes learners accountable for the change their
+    project actually causes in people's lives, not just for being busy, which is the core of acting
+    responsibly towards the community they are trying to help.
+- principle: authentic-challenges
+  how: >-
+    Learners define impact through real change they have caused and then apply it to a genuine project
+    for real people, so the concept is grounded in an authentic challenge rather than a textbook
+    definition.
+- principle: recognise-communicate-growth
+  how: >-
+    Working out what impact is and how you would know it had happened gives learners the language to
+    recognise and articulate the change their project makes, which is the basis of later evidencing
+    that change to others.
+competencyCodes:
+- ASI1
+- FPS3
+competencyDevelopment:
+- code: ASI1
+  how: >-
+    Naming the intended change a project should make, and asking how you would know it had happened, is
+    the first move in measuring the impact of a solution; the group's working definition and each
+    learner's stated intended impact are the early evidence.
+- code: FPS3
+  how: >-
+    Separating impact from the activity and output that produce it is direct practice in identifying
+    which factors actually contribute to a change and which only look as if they do.
+objectiveIds:
+- social-entrepreneurship--o1
+relatedSlugs:
+- dc-theory-of-change
+- dc-defining-the-problem
+sourceRefs:
+- "Design Challenge - Activity Guides/[30 mins]What is impact_ - Activity Guide_.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations, delivery
+  modes and a sensitivity note) from the Design Challenge activity guide, which supplied the purpose,
+  the IDEO.org impact definition and the reflection questions. The source Design Challenge investigates
+  the mental health and wellbeing of Afghan females; this material is written to generalise to any
+  design challenge, with that as the worked example. Linked to Social Entrepreneurship objective 1
+  (contributing to understanding a social challenge).

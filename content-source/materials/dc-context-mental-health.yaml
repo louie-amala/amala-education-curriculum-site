@@ -1,0 +1,171 @@
+id: dc-context-mental-health
+slug: dc-context-mental-health
+access: public
+type: activity
+title: "Digging deeper: mental health and wellbeing in your context"
+summary: Learners use credible secondary sources to build a picture of mental health and wellbeing in
+  their own context, judging each source and organising what they find to inform their project.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners each read a different source, then pool and organise what they found in
+    breakout groups. The pooling step is where the value sits, because dividing the reading lets a
+    group cover far more ground than any one learner could, so keep the shared step even if you
+    shorten the individual reading.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit for judging quality. A mentor reads alongside the learner and pressure-tests each
+    source for who wrote it, when and why, so credibility is worked out together rather than
+    assumed, though the learner loses the breadth a group gets from splitting the reading.
+- context: independent
+  how: >-
+    Workable, but a learner alone both covers less ground and has no one to check their reading of a
+    source. If they work solo, ask them to read at least three contrasting sources and to note their
+    doubts about each, then review those doubts with you.
+duration: 35-45 min facilitated
+grouping: Individual reading, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Read a credible secondary source about mental health and wellbeing in your context and note the key points.
+- "Judge the source: who produced it, when, and how far you would trust what it says."
+- Pool findings in your group and organise them into a shared picture of the issue.
+- Decide what this picture means for the challenge your project is trying to address.
+materialsAndPreparation:
+- A small set of secondary sources on mental health and wellbeing in the learners' context, at a range of reading levels, for learners to divide between them.
+- "Localisation: [to verify] the source examples here are drawn from one context; partners should supply sources that are locally relevant and in the right language, since national statistics, services and cultural framings do not transfer."
+- A way for each breakout group to record and sort its findings, and a nominated scribe.
+- "Sensitivity: mental health and wellbeing may be a personal topic for some learners, who may have direct experience of it. Make clear that no one has to share anything personal, that they are reading about the issue rather than about themselves, and signpost where a learner can find support if the topic becomes difficult."
+facilitationNotes: |
+  This activity moves learners from personal impression to evidence: a grounded picture of mental
+  health and wellbeing in their context, drawn from sources rather than assumption. The one thing to
+  get right is that learners weigh what they read, not just collect it. A confident website and a
+  peer-reviewed review are not equal, and a group that pools everything uncritically ends up with a
+  louder version of what it already believed. Keep the focus on who produced a source and why, and on
+  organising findings so patterns and gaps are visible for the project work that follows.
+steps:
+- title: Read a source and capture its key points
+  duration: 12-15 min
+  guidance: |
+    Put learners in groups and give each member a different source, matched roughly to their reading
+    confidence. Give quiet time to read and note at least three key points about mental health and
+    wellbeing in their context. A sentence starter helps: "This source suggests that... because...".
+    Splitting the reading is deliberate, so each learner becomes the group's expert on one source.
+  keyPrompts:
+  - What are the three most important things this source tells you about the issue in your context?
+  - What is this source claiming, and what evidence does it give for that claim?
+  - Is there anything here that surprised you, or that you did not expect?
+  watchOuts:
+  - Learners copy sentences without understanding them; ask them to note points in their own words, which quickly shows what they have actually grasped.
+  adaptation: |
+    With no connectivity, print the sources ahead of time or read one aloud and paraphrase the key
+    points, then run the note-taking on paper. No device is needed.
+- title: Judge how far to trust each source
+  duration: 8-10 min
+  guidance: |
+    Before pooling, have each learner weigh their own source: who produced it, when, for whom, and
+    why. Contrast a news headline, an advocacy site and a research review so the group feels the
+    difference in weight. The aim is not to reject sources but to know how much to lean on each, and
+    to notice where a claim rests on strong evidence and where it does not.
+  keyPrompts:
+  - Who produced this source, and might they have a reason to frame the issue a particular way?
+  - How recent is it, and does that matter for what it claims?
+  - Would you trust this enough to build part of your project on it? Why, or why not?
+  watchOuts:
+  - Learners treat anything printed or online as equally authoritative; give them one quick test, such as naming the author and their purpose, so credibility becomes a habit rather than an afterthought.
+- title: Pool and organise the group's findings
+  duration: 10-15 min
+  guidance: |
+    Each learner shares their key points and their read on the source's trustworthiness. A scribe
+    captures the findings and the group sorts them into a shared picture: what most sources agree on,
+    where they conflict, and what is missing. Organising as they go, rather than listing everything,
+    is what turns scattered reading into something the project can use.
+  keyPrompts:
+  - Where do your sources agree, and where do they say different things?
+  - What is missing from this picture that you would still want to find out?
+  - Which findings do you trust most, given who produced them?
+  watchOuts:
+  - The group builds a flat list instead of a picture; push them to group findings and mark agreements and gaps, since an organised summary is far more useful to the project than a pile of notes.
+- title: Connect the picture to your project
+  duration: 5-8 min
+  guidance: |
+    Bring it back to the challenge the project is addressing. Ask how this evidence-based picture
+    changes or sharpens their approach, and what they now want to explore through their own primary
+    research. This closes the loop from secondary research to action and gives the next stage a
+    grounded starting point rather than a hunch.
+  keyPrompts:
+  - How does what you read change how you understand the challenge you are working on?
+  - What does this tell you that you could not have known from personal experience alone?
+  - What is one thing you now want to find out through your own research?
+  watchOuts:
+  - Learners note interesting facts but do not connect them to their project; ask each group to name one concrete way the reading will shape what they do next.
+closing: |
+  Have each group share the single most important thing their reading told them, and one gap they
+  still want to fill. Point out that they now hold a picture built from evidence they have weighed,
+  not just impressions, and that this is the foundation their primary research will build on.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Understanding the real state of mental health and wellbeing in their context, from credible
+    evidence rather than assumption, is what lets learners aim their project at what their community
+    actually needs. A contribution built on weighed evidence is far more likely to help than one
+    built on a hunch.
+principlesForegrounded:
+- builds-on-identities
+- authentic-challenges
+- safe-spaces
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The activity starts from the learners' own context and their existing understanding of it, then
+    deepens that with evidence, so learners investigate an issue in their own community rather than a
+    generic or imported case.
+- principle: authentic-challenges
+  how: >-
+    Learners research a real social issue in their actual context using real secondary sources, so
+    the picture they build and the project it feeds are grounded in genuine evidence about real
+    people rather than a hypothetical brief.
+- principle: safe-spaces
+  how: >-
+    The activity handles a topic that may be personal by keeping the focus on the issue rather than
+    on learners' own experience, making clear no one must disclose anything, and signposting support,
+    so learners can engage without being exposed.
+competencyCodes:
+- FSI1
+- FPS2
+- FTS3
+competencyDevelopment:
+- code: FSI1
+  how: >-
+    Investigating the state of a real-world issue in their own context through secondary sources is
+    direct practice in investigation; the group's organised picture of mental health and wellbeing is
+    the evidence.
+- code: FPS2
+  how: >-
+    Weighing who produced each source, when and why, and deciding how far to trust it, is exactly the
+    work of evaluating sources; the judgements learners make about each source show that skill.
+- code: FTS3
+  how: >-
+    Pooling findings across several sources and sorting them into agreements, conflicts and gaps is
+    direct practice in gathering and organising data into a usable form.
+objectiveIds:
+- research-project--o2
+- social-entrepreneurship--o1
+relatedSlugs:
+- dc-secondary-research-methods
+- dc-global-concerns-mental-health
+sourceRefs:
+- "Design Challenge - Activity Guides/[40 mins] Digging deeper in mental health and wellbeing in the Afghan context - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, adaptations, delivery
+  modes, a sensitivity note and a source-evaluation step) from the Design Challenge activity guide,
+  which supplied the purpose, the divided-reading method and the breakout discussion. The source
+  Design Challenge investigates the mental health and wellbeing of Afghan females and provided
+  Afghan-specific sources; this material is generalised to any context, with a localisation note that
+  partners supply locally relevant sources. Linked to Research Project objective 2 and Social
+  Entrepreneurship objective 1.

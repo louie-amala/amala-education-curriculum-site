@@ -1,0 +1,172 @@
+id: dc-analysing-research-data
+slug: dc-analysing-research-data
+access: public
+type: activity
+title: "Analysing research: qualitative and quantitative data"
+summary: Learners learn the difference between qualitative and quantitative data and simple ways to
+  analyse each, so they can turn their primary research into patterns and insights.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners meet the two data types, then analyse their team's own survey and interview
+    data together. The shared analysis is where the value sits, because learners catch each other
+    over-reading a single number or a single quote, so keep the team analysis step even if you shorten
+    the introduction.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit for a team that is stuck. A mentor sits with the learners' actual data and works one
+    method through with them, theming a handful of interview answers or summarising one survey
+    question, then hands the rest back for them to finish, rather than analysing it for them.
+- context: independent
+  how: >-
+    Workable for a learner analysing their own strand of the data, but they lose the check a group
+    gives against reading too much into one response. If a learner works alone, have them write down
+    each pattern they find and the evidence for it, then review it with you or a peer before it feeds
+    the team's insights.
+duration: 45-60 min facilitated
+grouping: Brief input, then project teams of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Learn the difference between qualitative data (words, from interviews) and quantitative data (numbers, from surveys).
+- Summarise your quantitative data by counting, finding proportions and averages, and simple charts.
+- Theme your qualitative data by grouping similar answers and naming the pattern in each group.
+- "Pull the two together: describe what the evidence, taken as a whole, is telling your team."
+materialsAndPreparation:
+- A short explanation or examples of qualitative versus quantitative data, adapted to your context.
+- "The team's own primary research: survey responses and interview or observation notes gathered earlier."
+- A shared surface (board, paper or spreadsheet) to tally numbers and cluster written answers, and a scribe per team.
+- "Optional, not required: a spreadsheet or survey tool can total and chart survey data quickly, but tallying by hand works and needs no device."
+facilitationNotes: |
+  Analysis is where a pile of interview notes and survey responses becomes something a team can act
+  on. The one thing to get right is that learners treat the two data types differently: you summarise
+  quantitative data (count, average, chart it) and you theme qualitative data (group similar answers,
+  name the pattern). Learners' most common mistake is to reach for a single number and ignore the
+  richer story in what people actually said, or to quote one striking voice as if it were the whole
+  picture. Keep steering them back to their research question: what does the evidence, taken together,
+  tell us, and how confident can we be?
+steps:
+- title: Tell qualitative and quantitative data apart
+  duration: 8-12 min
+  guidance: |
+    Introduce the two kinds of data with examples from the challenge learners are researching:
+    quantitative data is numbers (how many people, how often, what proportion), usually from surveys;
+    qualitative data is words and meaning (what people said and felt), usually from interviews. Make
+    the point that each needs its own method, and that a strong investigation usually needs both: the
+    numbers show the scale, the words show the reason.
+  keyPrompts:
+  - Looking at what your team gathered, which of it is numbers and which of it is words?
+  - "What can a number tell you that a quote cannot, and what can a quote tell you that a number cannot?"
+  - Which of your research questions needs counting, and which needs listening?
+  watchOuts:
+  - Learners think one data type is more serious than the other; make clear that numbers without the human story, or stories without any sense of scale, both mislead, and that the two are strongest together.
+- title: Summarise your quantitative data
+  duration: 12-15 min
+  guidance: |
+    Teams take their survey or countable data and summarise it: count responses, work out simple
+    proportions and averages, and where useful draw a quick chart. Keep the maths simple and honest.
+    The aim is a short, clear statement of what the numbers show, such as how many people reported a
+    problem or which answer came up most, not a polished statistical report.
+  keyPrompts:
+  - "For this question, what is the headline: how many, what proportion, or what average?"
+  - Which result surprised you, and does the number look large or small once you consider how many people you asked?
+  - Is there a number here clear enough to put in front of someone who was not in the room?
+  watchOuts:
+  - Teams report a percentage from a handful of responses as if it were solid; remind them to state how many people a number is based on, so a result from five people is not dressed up as a finding about everyone.
+- title: Theme your qualitative data
+  duration: 12-15 min
+  guidance: |
+    Teams work through their interview and observation notes and group answers that say similar
+    things, giving each group a short name that captures the shared idea (this grouping is called
+    coding or theming). Push for themes that come from what people actually said, not from what the
+    team hoped to hear. A theme mentioned by several participants matters more than one striking line.
+  keyPrompts:
+  - What ideas or feelings come up again and again across the people you spoke to?
+  - What would you call this group of answers so someone else understands it at a glance?
+  - Is this a real pattern across several people, or one memorable comment we are over-weighting?
+  watchOuts:
+  - A team builds its themes around one vivid quote; steer them to check how many participants actually raised each theme, so the loudest voice does not stand in for the whole group.
+- title: Pull the numbers and the words together
+  duration: 10-15 min
+  guidance: |
+    Bring both analyses back to the research question. Ask each team to write two or three plain
+    statements that combine what the numbers show with what the themes explain, noting how confident
+    they are in each. This is the bridge from raw data to insight, and it sets up the team's insight
+    statements in the next stage of the project.
+  keyPrompts:
+  - Where do your numbers and your themes agree, and where do they point in different directions?
+  - "Taken together, what is the clearest thing your evidence is telling you about the challenge?"
+  - How confident are you in that, and what would you need to gather to be more sure?
+  watchOuts:
+  - Teams jump straight to a solution instead of stating what the evidence shows; hold them at the pattern for now, since a claim the data does not support will weaken every idea built on it later.
+closing: |
+  Ask each team to read out one pattern they found and the evidence behind it, numbers or words.
+  Point out that good insights rest on both: the numbers tell you how big something is, the words tell
+  you why it happens. Teams keep their summarised data and themes, because these feed directly into
+  the insight statements they will write next.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Analysis is what turns a community's own words and answers into evidence a learner can act on
+    responsibly. Reading their data carefully, rather than cherry-picking a number or a quote, is how
+    learners make sure the solutions they go on to design answer what the community actually told them,
+    not what the team assumed.
+principlesForegrounded:
+- lifeworthy-competencies
+- feedback-and-data
+- authentic-challenges
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Telling qualitative from quantitative data and analysing each honestly is a transferable
+    data-literacy skill learners reuse far beyond this project, whenever they have to make sense of
+    survey results or people's accounts and decide what the evidence will and will not support.
+- principle: feedback-and-data
+  how: >-
+    The whole activity is learners working with real data they gathered: summarising the numbers,
+    theming the responses, and judging how confident the evidence lets them be, so decisions are led
+    by what the data shows rather than by assumption.
+- principle: authentic-challenges
+  how: >-
+    Learners analyse their own primary research into a real community challenge, not a practice
+    dataset, so the patterns they find carry the weight and the messiness of genuine evidence about
+    real people.
+competencyCodes:
+- ATS1
+- APS3
+- FTS3
+competencyDevelopment:
+- code: ATS1
+  how: >-
+    Summarising quantitative data and theming qualitative data, then reading both to say what the
+    evidence supports, is direct practice in analysing and interpreting data; the team's data summary
+    and themes are the evidence.
+- code: APS3
+  how: >-
+    Grouping similar interview answers into named themes and spotting which survey results recur is
+    exactly pattern identification: moving from scattered responses to the recurring signals within
+    them.
+- code: FTS3
+  how: >-
+    Organising raw survey responses and interview notes into tallies, proportions and coded groups so
+    they can be read is the gather-and-organise-data competency in action, turning a loose pile of
+    data into something a team can analyse.
+objectiveIds:
+- research-project--o3
+relatedSlugs:
+- dc-creating-insight-statements
+- dc-designing-survey-questions
+sourceRefs:
+- "Design Challenge - Activity Guides/[60 min] Analyzing Primary research - Qualitative vs Quantitative data - Activity Guide.docx"
+- Learning Bridge - Design Challenge - Planner.docx
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs, delivery-mode notes,
+  and agency, principle and competency explanations) from the Design Challenge activity guide, which
+  supplied the purpose and the qualitative-versus-quantitative discussion questions. The source
+  Design Challenge investigates the mental health and wellbeing of Afghan females; this material is
+  written to generalise to any research challenge, with that as the worked context. Linked to Research
+  Project objective 3 (evaluate the evidence and develop actionable insights).
