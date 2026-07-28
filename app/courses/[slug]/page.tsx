@@ -140,7 +140,23 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                 {anchor.creditLevel}
               </span>
             </div>
-            {anchor.goal && <p className="mt-2 text-sm text-dark-navy/90">{anchor.goal}</p>}
+            {anchor.goal && <p className="mt-2 text-sm text-cool-grey">{anchor.goal}</p>}
+            {course.throughline?.develops && (
+              <div className="mt-4 border-t border-cool-grey/15 pt-4">
+                <p className="text-xs font-semibold uppercase tracking-wide text-navy">
+                  How this course develops it
+                </p>
+                <p className="mt-1 text-sm text-dark-navy/90">{course.throughline.develops}</p>
+              </div>
+            )}
+            {course.throughline?.demonstrates && (
+              <div className="mt-3">
+                <p className="text-xs font-semibold uppercase tracking-wide text-navy">
+                  How learners demonstrate it
+                </p>
+                <p className="mt-1 text-sm text-dark-navy/90">{course.throughline.demonstrates}</p>
+              </div>
+            )}
           </div>
 
           {/* The supporting competencies, each explained */}
@@ -241,16 +257,43 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
               )}
 
               {/* Anchored courses lead with how the main competency is developed here */}
-              {anchor && anchorEvidence.length > 0 && (
+              {anchor && (anchorEvidence.length > 0 || obj.anchorContribution) && (
                 <div className="mt-4 rounded-md border border-navy/15 bg-navy/[0.03] p-3">
                   <p className="text-xs font-semibold uppercase tracking-wide text-navy">
                     Develops &amp; demonstrates the main competency
                   </p>
-                  <ul className="mt-2 space-y-2">
-                    {anchorEvidence.map((ev, j) => (
-                      <EvidenceRow key={j} ev={ev} emphasise />
-                    ))}
-                  </ul>
+                  <div className="mt-2 flex flex-wrap items-baseline gap-x-2 gap-y-1">
+                    <Link
+                      href={`/competencies/${anchor.code.toLowerCase()}`}
+                      className="font-mono text-xs font-semibold text-navy hover:underline"
+                    >
+                      {anchor.code}
+                    </Link>
+                    <span className="font-semibold text-dark-navy">{anchor.title}</span>
+                    <span className={`rounded px-1.5 py-0.5 text-[10px] font-medium ${creditBadge(anchor.creditLevel)}`}>
+                      {anchor.creditLevel}
+                    </span>
+                  </div>
+                  {obj.anchorContribution ? (
+                    <div className="mt-2 space-y-2 text-sm">
+                      <p>
+                        <span className="font-semibold text-navy">Develops — </span>
+                        <span className="text-dark-navy/90">{obj.anchorContribution.develops}</span>
+                      </p>
+                      <p>
+                        <span className="font-semibold text-navy">Demonstrates — </span>
+                        <span className="text-dark-navy/90">{obj.anchorContribution.demonstrates}</span>
+                      </p>
+                    </div>
+                  ) : (
+                    <ul className="mt-2 space-y-1">
+                      {anchorEvidence.map((ev, j) => (
+                        <li key={j} className="text-sm text-dark-navy/90">
+                          {ev.condition}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               )}
 

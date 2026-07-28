@@ -38,6 +38,23 @@ throughline:
     supporting competencies — evaluating sources, gathering and organising data, identifying
     contributing factors, ethical action, data analysis, and communication — are the scaffolding
     that makes the anchor competency demonstrable.
+  develops: >-
+    Learners develop FSI1 across the full arc of a real investigation. They begin by framing a
+    challenge into a researchable question, then plan and carry out primary and secondary research,
+    weigh the credibility of what they find, analyse the evidence for patterns and contributing
+    factors, and turn it into actionable insight. Because the whole cohort investigates one shared
+    challenge over the length of the course, learners practise each part of the research cycle
+    repeatedly and with growing independence, rather than meeting it only once. Facilitators move
+    learners from supported, modelled research early on towards research they design and run
+    themselves — the shift from doing research to being a researcher.
+  demonstrates: >-
+    Learners demonstrate FSI1 through the evidence their investigation produces: a research question
+    and plan, an evidence log with evaluated sources, organised data, an insights statement, and a
+    final research output (report, poster, infographic, presentation, or short video) that
+    communicates their actionable insights. Together these show the whole competency — not just that
+    learners gathered information, but that they turned it into defensible, actionable insight. On
+    Learning Bridge+, FSI1 is one of the two certificated competencies, and this body of work is the
+    primary evidence assessed against Amala's Proficiency Scale.
 
 requirements:
   structuredHours: 50
@@ -52,6 +69,15 @@ requirements:
 objectives:
   - statement: >-
       Frame a real-world challenge into a clear, researchable focus.
+    anchorContribution:
+      develops: >-
+        Learners develop the starting move of FSI1 — turning a broad, real-world concern into a
+        focused question that research can actually answer — by defining the shared challenge,
+        surfacing what is already known, and mapping who and what is involved.
+      demonstrates: >-
+        A clear, researchable question, plus an initial map of the people and factors connected to
+        the challenge, shows that a learner can scope an investigation: the first, foundational
+        evidence of FSI1.
     supportedTo:
       - Develop a shared, working definition of the challenge the cohort is investigating.
       - Explore why the challenge matters to them and their community, surfacing what they already know.
@@ -72,6 +98,15 @@ objectives:
 
   - statement: >-
       Plan and conduct ethical primary and secondary research into the challenge.
+    anchorContribution:
+      develops: >-
+        Learners develop the core of FSI1 — actually conducting primary and secondary research — by
+        choosing methods suited to their question, designing simple instruments, and gathering data
+        ethically from community members and secondary sources.
+      demonstrates: >-
+        Completed interviews, surveys, or observations, alongside an evidence log of evaluated
+        secondary sources, demonstrate that a learner can gather relevant, credible evidence about a
+        real-world challenge — the investigative heart of FSI1.
     supportedTo:
       - Distinguish primary from secondary research, and qualitative from quantitative data.
       - Choose appropriate methods for their question (e.g. interviews, surveys, observation, document research).
@@ -94,6 +129,15 @@ objectives:
 
   - statement: >-
       Evaluate the evidence and develop actionable insights into the challenge.
+    anchorContribution:
+      develops: >-
+        Learners develop the analytical heart of FSI1 — moving from raw data to insight — by
+        evaluating the credibility of their sources, organising and interpreting their evidence, and
+        identifying the patterns and contributing factors within it.
+      demonstrates: >-
+        An insights statement, backed by evaluated evidence and identified patterns, demonstrates the
+        defining outcome of FSI1: developing genuinely actionable insights, not just findings, into a
+        real-world challenge.
     supportedTo:
       - Assess the credibility, reliability, and relevance of the sources and data they have gathered.
       - Organise and categorise their data so that patterns can be seen.
@@ -117,6 +161,15 @@ objectives:
 
   - statement: >-
       Communicate findings and actionable insights to an audience.
+    anchorContribution:
+      develops: >-
+        Learners develop the communicative dimension of FSI1 — making insight usable by others — by
+        structuring their findings into a clear, evidence-based account and tailoring how they present
+        it for a specific audience.
+      demonstrates: >-
+        A research output shared with peers or community members, and the learner's responses to
+        questions about it, demonstrate that their actionable insights are clear, evidence-based, and
+        able to inform real action — the point of investigating a real-world issue.
     supportedTo:
       - Select a format suited to their message and audience (e.g. report, poster, infographic, presentation, short video).
       - Structure their findings into a clear, evidence-based account.

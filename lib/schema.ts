@@ -68,6 +68,11 @@ export const CompetencyEvidenceSchema = z.object({
 export const ObjectiveSchema = z.object({
   statement: z.string(),
   supportedTo: z.array(z.string()).default([]),
+  // For competency-anchored courses: how THIS objective develops and demonstrates the anchor
+  // competency. Optional so non-anchored (GSD) objectives are unaffected.
+  anchorContribution: z
+    .object({ develops: z.string(), demonstrates: z.string() })
+    .optional(),
   furtherDetails: z
     .object({
       concepts: z.array(z.string()).default([]),
@@ -112,6 +117,8 @@ export const CourseSchema = z.object({
       anchorCompetency: z.string(), // competency code, validated in validateGraph()
       fromAgency: z.string(), // why this competency builds agency for positive change
       toObjectives: z.string(), // how the objectives develop and demonstrate it
+      develops: z.string().optional(), // course-level: how the course develops the competency
+      demonstrates: z.string().optional(), // course-level: how learners evidence it
     })
     .optional(),
   objectives: z.array(ObjectiveSchema).default([]),
