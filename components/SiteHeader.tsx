@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HeaderSearch } from "@/components/HeaderSearch";
 
 const NAV = [
   { href: "/programmes", label: "Programmes" },
@@ -18,17 +19,20 @@ export function SiteHeader() {
           <img src="/brand/amala-logo.png" alt="Amala — Education for change" width={82} height={42} className="h-10 w-auto" />
           <span className="font-heading text-lg font-semibold text-cool-grey">Curriculum</span>
         </Link>
-        <nav aria-label="Primary">
-          <ul className="flex flex-wrap gap-4 text-sm font-medium text-dark-navy sm:gap-6">
-            {NAV.map((item) => (
-              <li key={item.href}>
-                <Link href={item.href} className="hover:text-navy hover:underline">
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
+        <div className="flex flex-wrap items-center justify-end gap-x-4 gap-y-2 sm:gap-x-6">
+          <nav aria-label="Primary">
+            <ul className="flex flex-wrap gap-4 text-sm font-medium text-dark-navy sm:gap-6">
+              {NAV.map((item) => (
+                <li key={item.href}>
+                  <Link href={item.href} className="hover:text-navy hover:underline">
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+          <HeaderSearch />
+        </div>
       </div>
     </header>
   );

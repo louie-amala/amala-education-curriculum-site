@@ -544,6 +544,155 @@ export function validateGraph(): ValidationReport {
   return { errors, warnings };
 }
 
+// ---- site-wide search index (built once, embedded in the /search page) ----
+export type SearchKind =
+  | "Material"
+  | "Course"
+  | "Competency"
+  | "Objective"
+  | "Glossary"
+  | "Programme"
+  | "Foundation";
+
+export interface SearchRecord {
+  id: string;
+  kind: SearchKind;
+  /** Human label for the badge, e.g. "Activity", "Tool & approach", "Course". */
+  kindLabel: string;
+  title: string;
+  /** A short one-line description shown under the title. */
+  subtitle: string;
+  url: string;
+  /** Extra tokens folded into the haystack but not displayed (codes, phrases, etc.). */
+  keywords: string;
+}
+
+const MATERIAL_KIND_LABELS: Record<string, string> = {
+  activity: "Activity",
+  "tools-approaches": "Tool & approach",
+  concept: "Concept",
+  "case-study": "Case study",
+  resource: "Resource",
+};
+
+function clip(s: string, max = 160): string {
+  const t = s.replace(/\s+/g, " ").trim();
+  return t.length > max ? `${t.slice(0, max - 1).trimEnd()}…` : t;
+}
+
+/**
+ * Build the flat list of everything searchable on the site. Called at build time
+ * from the /search page and passed to the client explorer, so it stays static.
+ */
+export function getSearchIndex(): SearchRecord[] {
+  const records: SearchRecord[] = [];
+
+  for (const m of materials) {
+    const courseTitles = [
+      ...new Set(
+        m.objectiveIds
+          .map((oid) => objectiveById.get(oid)?.course.title)
+          .filter((x): x is string => Boolean(x)),
+      ),
+    ];
+    records.push({
+      id: `material:${m.slug}`,
+      kind: "Material",
+      kindLabel: MATERIAL_KIND_LABELS[m.type] ?? "Material",
+      title: m.title,
+      subtitle: clip(m.summary ?? ""),
+      url: `/materials/${m.slug}`,
+      keywords: [m.type, m.toolsFacet, ...m.competencyCodes, ...courseTitles]
+        .filter(Boolean)
+        .join(" "),
+    });
+  }
+
+  for (const c of courses) {
+    records.push({
+      id: `course:${c.slug}`,
+      kind: "Course",
+      kindLabel: "Course",
+      title: c.title,
+      subtitle: clip(c.strapline || c.purpose),
+      url: `/courses/${c.slug}`,
+      keywords: c.programmes.join(" "),
+    });
+  }
+
+  for (const c of competencies) {
+    records.push({
+      id: `competency:${c.code}`,
+      kind: "Competency",
+      kindLabel: "Competency",
+      title: `${c.code} — ${c.title}`,
+      subtitle: clip(c.goal || c.title),
+      url: `/competencies/${c.code.toLowerCase()}`,
+      keywords: [c.code, c.areaId].join(" "),
+    });
+  }
+
+  for (const o of objectiveEntities) {
+    records.push({
+      id: `objective:${o.id}`,
+      kind: "Objective",
+      kindLabel: "Objective",
+      title: `${o.course.title}: Objective ${o.index}`,
+      subtitle: clip(o.objective.statement),
+      url: `/objectives/${o.id}`,
+      keywords: o.course.title,
+    });
+  }
+
+  for (const t of glossaryTerms) {
+    records.push({
+      id: `glossary:${t.slug}`,
+      kind: "Glossary",
+      kindLabel: "Glossary",
+      title: t.term,
+      subtitle: clip(t.definition),
+      url: `/glossary/${t.slug}`,
+      keywords: [t.category, ...t.matchPhrases].join(" "),
+    });
+  }
+
+  for (const p of programmes) {
+    records.push({
+      id: `programme:${p.slug}`,
+      kind: "Programme",
+      kindLabel: "Programme",
+      title: p.title,
+      subtitle: clip(p.summary),
+      url: `/programmes/${p.slug}`,
+      keywords: "",
+    });
+  }
+
+  for (const p of principles) {
+    records.push({
+      id: `principle:${p.id}`,
+      kind: "Foundation",
+      kindLabel: "Principle",
+      title: p.statement,
+      subtitle: clip(p.gloss),
+      url: `/foundations#${p.id}`,
+      keywords: "principle",
+    });
+  }
+
+  records.push({
+    id: "foundation:agency",
+    kind: "Foundation",
+    kindLabel: "Foundation",
+    title: "Agency for positive change",
+    subtitle: clip(agency.definition),
+    url: "/foundations",
+    keywords: ["agency", ...agency.indicators.map((i) => i.label)].join(" "),
+  });
+
+  return records;
+}
+
 // Run the gate as a side effect of loading the content layer in production builds.
 const report = validateGraph();
 if (report.errors.length > 0) {

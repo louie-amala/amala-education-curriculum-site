@@ -29,24 +29,40 @@ export function MaterialsBrowser({
   items: BrowserItem[];
   courses: { id: string; title: string }[];
 }) {
+  const [query, setQuery] = useState<string>("");
   const [type, setType] = useState<string>("all");
   const [context, setContext] = useState<string>("all");
   const [course, setCourse] = useState<string>("all");
 
-  const filtered = useMemo(
-    () =>
-      items.filter(
-        (m) =>
-          (type === "all" || m.type === type) &&
-          (context === "all" || m.facilitationContext.includes(context as FacilitationContext)) &&
-          (course === "all" || m.courseIds.includes(course)),
-      ),
-    [items, type, context, course],
-  );
+  const filtered = useMemo(() => {
+    const tokens = query.toLowerCase().split(/\s+/).filter(Boolean);
+    return items.filter((m) => {
+      if (type !== "all" && m.type !== type) return false;
+      if (context !== "all" && !m.facilitationContext.includes(context as FacilitationContext))
+        return false;
+      if (course !== "all" && !m.courseIds.includes(course)) return false;
+      if (tokens.length > 0) {
+        const haystack = `${m.title} ${m.summary ?? ""} ${m.type} ${m.toolsFacet ?? ""}`.toLowerCase();
+        if (!tokens.every((t) => haystack.includes(t))) return false;
+      }
+      return true;
+    });
+  }, [items, query, type, context, course]);
 
   return (
     <div>
-      <div className="flex flex-wrap gap-4 rounded-lg border border-cool-grey/20 bg-white p-4">
+      <div className="flex flex-wrap items-end gap-4 rounded-lg border border-cool-grey/20 bg-white p-4">
+        <label className="flex min-w-[12rem] flex-1 flex-col gap-1 text-sm">
+          <span className="text-xs font-semibold uppercase tracking-wide text-cool-grey">Search</span>
+          <input
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search resources by name or description…"
+            aria-label="Search materials"
+            className="rounded border border-cool-grey/40 bg-white px-3 py-1.5 text-dark-navy outline-none focus:border-navy focus:ring-2 focus:ring-navy/20"
+          />
+        </label>
         <Filter label="Type" value={type} onChange={setType} options={[{ value: "all", label: "All types" }, ...TYPES]} />
         <Filter label="Context" value={context} onChange={setContext} options={[{ value: "all", label: "Any context" }, ...CONTEXTS]} />
         <Filter
