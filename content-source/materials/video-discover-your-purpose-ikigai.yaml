@@ -1,0 +1,85 @@
+id: video-discover-your-purpose-ikigai
+slug: video-discover-your-purpose-ikigai
+access: public
+type: resource
+title: "Video: Discover your purpose (Ikigai in 4 steps)"
+summary: A short video that introduces ikigai, a way of finding your purpose where what you love, what
+  you are good at, what the world needs and what you can be valued for meet.
+facilitationContext:
+- independent
+- group
+links:
+- label: "Watch: Discover Your Purpose in Life (Ikigai in 4 Steps)"
+  url: https://www.youtube.com/watch?v=PXAk-LaNmW8
+  note: >-
+    External video (YouTube), in English. [to verify] Check it is accessible and appropriate in your
+    context; where connectivity is limited, download it in advance or summarise the four ikigai
+    questions on paper.
+materialsAndPreparation:
+- A way to watch the video (individually or projected for the group), with sound and, where possible, captions.
+- The Pathways Journal open at the "finding your purpose" task, which learners complete alongside the video.
+- "Low-bandwidth alternative: if the video cannot be shown, walk learners through the four ikigai questions yourself (what you love, what you are good at, what the world needs, what you could be valued for)."
+facilitationNotes: |
+  This video is the input for the "Finding your purpose" activity: learners watch it to understand
+  the four ikigai questions, then answer them for themselves in their journal. The one thing to get
+  right is that ikigai is a lens for reflection, not a test with a right answer, and purpose is a
+  life-long exploration rather than something to be settled in one session. Treat the video as a
+  starting point for the learner's own thinking, and keep the focus on their reflection rather than
+  on the video itself.
+learnerContent: |
+  Ikigai is a Japanese idea often drawn as four overlapping circles: what you love, what you are good
+  at, what the world needs, and what you could be valued (or paid) for. Where they overlap is a clue
+  to your purpose. Watch the video, then use it to answer the four questions for yourself in your
+  Pathways Journal. Do not worry about getting a perfect answer: finding your purpose is something you
+  keep exploring over your whole life, and a first, rough answer is exactly what you need for now.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
+  how: >-
+    Reflecting on your own purpose is how the direction of your learning and your future starts to
+    come from you rather than from what others expect. A learner who can name what they care about and
+    are good at is far better placed to choose pathways that genuinely fit them.
+principlesForegrounded:
+- builds-on-identities
+- connect-to-futures
+- lifeworthy-competencies
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The video prompts learners to reflect on their own loves, strengths and values, so the work starts
+    from who the learner already is rather than from an external template of a good future.
+- principle: connect-to-futures
+  how: >-
+    Ikigai explicitly links what a learner cares about and is good at to what the world needs and
+    values, which is the bridge from self-knowledge to the pathways they might pursue.
+- principle: lifeworthy-competencies
+  how: >-
+    Reflecting on purpose is a transferable habit learners will return to across their lives whenever
+    they face a choice about direction, not just in this activity.
+competencyCodes:
+- FSL1
+- FUS1
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    Answering the four ikigai questions for themselves is direct practice in self-reflection; the
+    journal responses are the evidence.
+- code: FUS1
+  how: >-
+    Noticing what they love, value and are good at, and how these shape their choices, develops
+    learners' self-awareness.
+objectiveIds:
+- pathways--o1
+- agency-in-learning--o1
+relatedSlugs:
+- pathways-finding-your-purpose
+- pathways-outlining-ambitions
+- ail-how-you-learn-best
+sourceRefs:
+- "Pathways Programme - Activity Guides/[60 mins] Identifying pathways_ finding your purpose - Activity Guide.docx"
+provenanceNote: >-
+  The "Finding your purpose" Pathways activity guide names the video "Discover Your Purpose in Life
+  (Ikigai in 4 Steps)" but gives no link. The URL here was found by matching that exact title on
+  YouTube; confirm it is the intended video before relying on it. Modelled as a reusable resource so
+  the activity can link to it.

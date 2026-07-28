@@ -69,6 +69,27 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         )}
       </p>
 
+      {/* External links (e.g. the video a resource is built around) */}
+      {m.links.length > 0 && (
+        <section className="mt-6">
+          <ul className="flex flex-col gap-2 sm:flex-row sm:flex-wrap">
+            {m.links.map((l) => (
+              <li key={l.url}>
+                <a
+                  href={l.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-lg border-l-4 border-teal border-y border-r border-cool-grey/20 bg-white px-4 py-2 font-medium text-navy shadow-sm transition hover:shadow-md"
+                >
+                  <span aria-hidden>↗</span> {l.label}
+                </a>
+                {l.note && <p className="mt-1 text-xs text-cool-grey">{l.note}</p>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {/* Why this material earns its place — each link explained */}
       <section className="mt-8 divide-y divide-cool-grey/15 overflow-hidden rounded-xl border border-cool-grey/20 bg-white">
         <div className="p-5">

@@ -309,6 +309,17 @@ export const FacilitationMaterialSchema = z.object({
     .default([]),
   objectiveIds: z.array(z.string()).default([]),
   relatedSlugs: z.array(z.string()).default([]),
+  // External links this material points to (e.g. a video a resource is built around). Rendered as
+  // clickable links on the material page.
+  links: z
+    .array(
+      z.object({
+        label: z.string(),
+        url: z.string(),
+        note: z.string().nullable().optional(),
+      }),
+    )
+    .default([]),
   sourceRefs: z.array(z.string()).optional(),
   provenanceNote: z.string().nullable().optional(),
 });
