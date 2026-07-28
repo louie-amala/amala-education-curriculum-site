@@ -56,8 +56,8 @@ steps:
   duration: 5-10 min
   guidance: |
     Start with the purpose: a cover letter is a short, honest argument for why this learner fits this
-    opportunity. Have each learner read their chosen opportunity and underline what it asks for. Show
-    one strong example and draw out how it answers a specific advert, not a generic one. Flag early
+    opportunity. Have each learner read their chosen opportunity and underline what it asks for. Play the [cover-letter video](/materials/video-writing-a-cover-letter) or show
+    one strong example, and draw out how it answers a specific advert, not a generic one. Flag early
     that conventions vary by place, so the example models quality, not a fixed form.
   keyPrompts:
   - What is this opportunity actually asking for, in its own words?

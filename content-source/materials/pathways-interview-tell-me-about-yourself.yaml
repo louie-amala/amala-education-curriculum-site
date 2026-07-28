@@ -52,7 +52,7 @@ steps:
   duration: 10-15 min
   guidance: |
     Explain that "Tell me about yourself" is an invitation, not a trap: the interviewer wants a short,
-    relevant story, not a life history. Introduce the past-present-future shape using the video or
+    relevant story, not a life history. Introduce the past-present-future shape using the [past-present-future video](/materials/video-answering-tell-me-about-yourself) or
     your own worked answer, keeping your example concrete. Stress that no single approach is best; the
     structure is a scaffold that helps a learner stay clear and relevant under pressure.
   keyPrompts:

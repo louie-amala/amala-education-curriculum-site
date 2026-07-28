@@ -54,8 +54,8 @@ steps:
   guidance: |
     Open by reframing "Do you have any questions for us?" as an invitation, not a test. Explain that
     it does two jobs at once: it shows genuine interest, and it lets the learner find out whether the
-    role, team or course is right for them. Contrast one weak question with one strong one from your
-    own examples so the difference is concrete before learners write anything.
+    role, team or course is right for them. Contrast one weak question with one strong one, drawing on the [video](/materials/video-questions-to-ask-at-interview) or your
+    own examples, so the difference is concrete before learners write anything.
   keyPrompts:
   - Why might answering "no, I'm fine" here work against you?
   - What do you actually want to know before you accept an offer?

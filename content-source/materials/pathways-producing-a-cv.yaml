@@ -50,7 +50,7 @@ steps:
   duration: 5-10 min
   guidance: |
     Start with the purpose: a CV is a short, honest advert for what a learner can offer, aimed at a
-    specific opportunity. Show one strong example and draw out what makes it work, clear structure,
+    specific opportunity. Play the [CV-building video](/materials/video-building-a-cv) or show one strong example, and draw out what makes it work, clear structure,
     concrete achievements, no wasted words. Flag early that conventions vary by place, so the example
     is a model of quality, not a fixed template.
   keyPrompts:

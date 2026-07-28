@@ -53,8 +53,8 @@ steps:
   duration: 5-10 min
   guidance: |
     Start with the purpose: a personal statement makes the case that this learner and this opportunity
-    fit, using their story and motivation as evidence. Show one strong example and draw out what makes
-    it work, a clear motivation, concrete experience, and an explicit link to the opportunity. Flag
+    fit, using their story and motivation as evidence. Play the [personal-statement video](/materials/video-writing-a-personal-statement) or show one
+    strong example, and draw out what makes it work, a clear motivation, concrete experience, and an explicit link to the opportunity. Flag
     early that conventions vary by destination, so the example is a model of quality, not a fixed template.
   keyPrompts:
   - Who reads a personal statement, and what are they trying to decide about the writer?

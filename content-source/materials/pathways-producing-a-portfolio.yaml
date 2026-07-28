@@ -56,7 +56,7 @@ steps:
   duration: 15-20 min
   guidance: |
     Open with the purpose: a portfolio is curated evidence that shows a pathway provider what a learner
-    can actually do. Have learners work through a short reading or video, or your walkthrough, and pull
+    can actually do. Have learners work through a short reading or the [portfolio video](/materials/video-building-a-portfolio), or your walkthrough, and pull
     out what a portfolio is, why it helps, and what features make one strong. Show one good example and
     draw out clear structure, selected evidence and a reason behind each piece.
   keyPrompts:
