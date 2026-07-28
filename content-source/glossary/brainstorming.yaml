@@ -1,0 +1,18 @@
+id: brainstorming
+slug: brainstorming
+access: public
+term: Brainstorming
+category: content
+matchPhrases:
+- brainstorming
+- brainstorms
+- brainstorm
+definition: >-
+  A way of generating many ideas quickly as a group by holding back judgement, going for quantity, welcoming wild ideas and building on each other, so people have more and better options to choose from.
+examples:
+- A timed session where every idea is written down before any is judged
+nonExamples:
+- Debating and rejecting each idea as soon as it is said
+useInContext: >-
+  Learners brainstorm to generate a wide range of possible solutions before narrowing down.
+relatedTermIds: [how-might-we]

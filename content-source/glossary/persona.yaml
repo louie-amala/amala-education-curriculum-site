@@ -1,0 +1,17 @@
+id: persona
+slug: persona
+access: public
+term: Persona
+category: content
+matchPhrases:
+- personas
+- persona
+definition: >-
+  A short, believable profile of an invented but evidence-based person who stands for the group a learner is designing for, capturing their needs, goals and frustrations so ideas are shaped around real people.
+examples:
+- A one-paragraph profile of a learner built from interview findings
+nonExamples:
+- The private details of a real, named individual
+useInContext: >-
+  Learners build personas from their research so their solution ideas answer real human needs.
+relatedTermIds: [empathy-interview, actionable-insights]

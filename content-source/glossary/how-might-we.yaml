@@ -1,0 +1,18 @@
+id: how-might-we
+slug: how-might-we
+access: public
+term: How Might We question
+category: content
+matchPhrases:
+- how might we questions
+- how might we question
+- how might we
+definition: >-
+  An open question, phrased How might we...?, that reframes a problem as an invitation to ideas. It is broad enough to allow many answers but stays focused on the problem and the people, without a solution baked in.
+examples:
+- How might we help learners feel safe to speak up?
+nonExamples:
+- How might we build an app? (a solution is already baked in)
+useInContext: >-
+  Learners turn research insights into How Might We questions to open up ideation.
+relatedTermIds: [insight-statement, design-thinking]

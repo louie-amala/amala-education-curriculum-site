@@ -1,0 +1,18 @@
+id: growth-mindset
+slug: growth-mindset
+access: public
+term: Growth mindset
+category: content
+matchPhrases:
+- growth mindsets
+- growth mindset
+- fixed mindset
+definition: >-
+  The belief that abilities can grow with effort, good strategies and help from others, rather than being fixed. It treats difficulty and mistakes as part of learning, not proof that you cannot do something.
+examples:
+- Seeing a low mark as information about what to practise next
+nonExamples:
+- Believing you are just not a maths person and giving up
+useInContext: >-
+  Learners draw on a growth mindset to keep pursuing goals when learning gets hard.
+relatedTermIds: [agency-for-positive-change]

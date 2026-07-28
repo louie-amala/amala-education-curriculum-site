@@ -1,0 +1,17 @@
+id: problem-statement
+slug: problem-statement
+access: public
+term: Problem statement
+category: content
+matchPhrases:
+- problem statements
+- problem statement
+definition: >-
+  A short, focused description of the specific problem a project will address, written from research. It brings clarity of focus so learners can generate better solution ideas.
+examples:
+- A sentence naming who is affected, by what, and why it matters
+nonExamples:
+- A vague complaint that names no one and no cause
+useInContext: >-
+  Learners use their research to write a problem statement that focuses their ideation.
+relatedTermIds: [research-question, insight-statement]

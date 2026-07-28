@@ -1,0 +1,17 @@
+id: insight-statement
+slug: insight-statement
+access: public
+term: Insight statement
+category: content
+matchPhrases:
+- insight statements
+- insight statement
+definition: >-
+  A short sentence that turns research data into a clear, meaningful understanding of the problem: not just what learners found, but what it means and why it matters. Insights bridge from research to ideas.
+examples:
+- Girls miss the session not because they are uninterested, but because the timing clashes with chores
+nonExamples:
+- A raw statistic quoted with no interpretation
+useInContext: >-
+  Learners write insight statements to move from their evidence to focused ideas for solutions.
+relatedTermIds: [actionable-insights, primary-research]

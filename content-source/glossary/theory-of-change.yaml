@@ -1,0 +1,17 @@
+id: theory-of-change
+slug: theory-of-change
+access: public
+term: Theory of change
+category: content
+matchPhrases:
+- theories of change
+- theory of change
+definition: >-
+  A simple map of how a project's activities are meant to lead to the change it wants to see: if we do these things, then this happens, leading to this impact. It checks that a solution actually connects to its intended impact.
+examples:
+- Activities leading to short-term results leading to longer-term impact, shown as a chain
+nonExamples:
+- A list of activities with no link to any outcome
+useInContext: >-
+  Learners build a theory of change to check that their solution would actually lead to the impact they want.
+relatedTermIds: [actionable-insights]

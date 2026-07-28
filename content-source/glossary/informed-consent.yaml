@@ -1,0 +1,16 @@
+id: informed-consent
+slug: informed-consent
+access: public
+term: Informed consent
+category: content
+matchPhrases:
+- informed consent
+definition: >-
+  Permission someone gives to take part in research after they understand what it involves, what will happen to their information, and that they can stop or say no at any time, with no pressure.
+examples:
+- Explaining a survey and asking if someone is happy to take part before they answer
+nonExamples:
+- Recording or quoting someone without telling them
+useInContext: >-
+  Learners seek informed consent before interviewing or surveying anyone as part of their research.
+relatedTermIds: [empathy-interview, primary-research]

@@ -1,0 +1,17 @@
+id: research-question
+slug: research-question
+access: public
+term: Research question
+category: content
+matchPhrases:
+- research questions
+- research question
+definition: >-
+  A clear, focused question that a piece of research sets out to answer. A good research question is specific enough to investigate with the time and access a learner actually has.
+examples:
+- What stops young women in our area from finishing secondary school?
+nonExamples:
+- A broad topic like education that is too big to answer
+useInContext: >-
+  Learners narrow a broad challenge into a research question before they start gathering evidence.
+relatedTermIds: [primary-research, secondary-research]

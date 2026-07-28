@@ -1,0 +1,18 @@
+id: design-thinking
+slug: design-thinking
+access: public
+term: Design thinking
+category: content
+matchPhrases:
+- design thinking
+- human-centred design
+- human centred design
+definition: >-
+  A human-centred, step-by-step approach to solving problems: understand the people affected, define the problem, generate ideas, build simple prototypes and test them, repeating as you learn.
+examples:
+- Interviewing users, then prototyping and testing an idea with them
+nonExamples:
+- Deciding on a solution before understanding the problem or the people
+useInContext: >-
+  Learners use design thinking to move from understanding a challenge to testing real solution ideas.
+relatedTermIds: [prototype, persona]

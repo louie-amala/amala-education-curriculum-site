@@ -1,0 +1,17 @@
+id: milestone
+slug: milestone
+access: public
+term: Milestone
+category: content
+matchPhrases:
+- milestones
+- milestone
+definition: >-
+  A smaller step or checkpoint on the way to a bigger goal, used to show progress and keep a goal feeling achievable.
+examples:
+- Draft my CV as a milestone towards applying to three opportunities
+nonExamples:
+- The final goal itself
+useInContext: >-
+  Learners break a goal into milestones they can track.
+relatedTermIds: [action-plan]

@@ -1,0 +1,19 @@
+id: quantitative-data
+slug: quantitative-data
+access: public
+term: Quantitative data
+category: content
+matchPhrases:
+- quantitative data
+- quantitative
+definition: >-
+  Information in the form of numbers and amounts: how many, how much, how often. It shows scale and patterns and can be counted, compared and turned into charts.
+examples:
+- The number of people who use a service
+- Percentages from a survey
+- How often something happens in a week
+nonExamples:
+- "A person's story about why they feel unsafe (that is qualitative data)"
+useInContext: >-
+  Learners gather quantitative data when they count survey responses or measure how often something happens.
+relatedTermIds: [qualitative-data, primary-research]

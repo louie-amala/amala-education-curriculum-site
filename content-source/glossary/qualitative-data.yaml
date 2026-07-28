@@ -1,0 +1,19 @@
+id: qualitative-data
+slug: qualitative-data
+access: public
+term: Qualitative data
+category: content
+matchPhrases:
+- qualitative data
+- qualitative
+definition: >-
+  Information about qualities, described in words rather than numbers: what people say, feel, do or experience. It captures depth and meaning, and usually comes from interviews, open questions and observation.
+examples:
+- Quotes from an interview about how a change affected someone
+- Notes on how people behaved in a place
+- Themes drawn from open-ended survey answers
+nonExamples:
+- The number of people who answered yes (that is quantitative data)
+useInContext: >-
+  Learners gather qualitative data when they record what interviewees say in their own words.
+relatedTermIds: [quantitative-data, primary-research]

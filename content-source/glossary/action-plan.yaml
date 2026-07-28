@@ -1,0 +1,17 @@
+id: action-plan
+slug: action-plan
+access: public
+term: Action plan
+category: content
+matchPhrases:
+- action plans
+- action plan
+definition: >-
+  A simple plan that turns a goal into concrete steps: what to do, in what order, by when, and what you need. It makes a goal feel possible and gives something to track.
+examples:
+- Three dated steps towards a learning goal
+nonExamples:
+- A goal written with no steps or dates
+useInContext: >-
+  Learners make an action plan to move from a goal to deliberate steps between sessions.
+relatedTermIds: [milestone]

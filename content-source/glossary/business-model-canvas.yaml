@@ -1,0 +1,16 @@
+id: business-model-canvas
+slug: business-model-canvas
+access: public
+term: Business model canvas
+category: content
+matchPhrases:
+- business model canvas
+definition: >-
+  A one-page tool for thinking through how an idea can be sustainable: who it is for, what value it offers, how it reaches people, and how it covers its costs.
+examples:
+- Filling in the canvas blocks for a social enterprise idea
+nonExamples:
+- A long written business plan (the canvas is a quick overview)
+useInContext: >-
+  Learners use a business model canvas to think about how their solution could be sustained.
+relatedTermIds: [social-enterprise, concept-note, triple-bottom-line]
