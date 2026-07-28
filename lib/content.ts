@@ -520,6 +520,13 @@ export function validateGraph(): ValidationReport {
     if (m.type === "tools-approaches" && !m.toolsFacet) {
       warnings.push(`Tools material "${m.slug}" has no toolsFacet.`);
     }
+    if (
+      m.diagram &&
+      m.diagram.src.startsWith("/") &&
+      !existsSync(join(process.cwd(), "public", m.diagram.src))
+    ) {
+      errors.push(`Material "${m.slug}" diagram points to missing file "${m.diagram.src}".`);
+    }
   }
 
   const termSlugs = new Set(glossaryTerms.map((t) => t.slug));

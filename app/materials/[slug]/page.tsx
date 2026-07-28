@@ -110,6 +110,17 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
           );
         })()}
 
+      {/* Diagram (e.g. a 2x2 tool grid) */}
+      {m.diagram && (
+        <figure className="mt-6 rounded-xl border border-cool-grey/20 bg-white p-4">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={m.diagram.src} alt={m.diagram.alt} className="mx-auto h-auto w-full max-w-xl" />
+          {m.diagram.caption && (
+            <figcaption className="mt-2 text-center text-xs text-cool-grey">{m.diagram.caption}</figcaption>
+          )}
+        </figure>
+      )}
+
       {/* External links (e.g. the video a resource is built around) */}
       {m.links.length > 0 && (
         <section className="mt-6">

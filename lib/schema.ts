@@ -320,6 +320,10 @@ export const FacilitationMaterialSchema = z.object({
       }),
     )
     .default([]),
+  // An illustrative diagram (e.g. a 2x2 tool grid). src is a path under public/, checked at build time.
+  diagram: z
+    .object({ src: z.string(), alt: z.string(), caption: z.string().nullable().optional() })
+    .optional(),
   sourceRefs: z.array(z.string()).optional(),
   provenanceNote: z.string().nullable().optional(),
 });

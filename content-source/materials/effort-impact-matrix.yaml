@@ -1,0 +1,157 @@
+id: effort-impact-matrix
+slug: effort-impact-matrix
+access: public
+type: tools-approaches
+toolsFacet: analytical
+title: Effort/impact matrix
+summary: A two-by-two grid for comparing ideas by the effort they take against the impact they could
+  have, so a group can decide, with reasons, which ideas to take forward first.
+diagram:
+  src: /diagrams/effort-impact-matrix.svg
+  alt: >-
+    A two-by-two grid with effort on the horizontal axis and impact on the vertical axis. High impact
+    and low effort is "Do first"; high impact and high effort is "Plan for these"; low impact and low
+    effort is "Fill-ins"; low impact and high effort is "Avoid for now".
+  caption: The four quadrants of the effort/impact matrix.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Groups place their ideas on a shared grid and argue for where each one sits. The
+    argument is the point, since deciding an idea is high or low effort forces a group to be honest
+    about what it would really take, so keep the placing-and-debating together in the room.
+- context: one-to-one-mentoring
+  how: >-
+    Works well for sharpening one learner's or group's shortlist. A mentor pushes on the honesty of
+    each placement ("is that really low effort for you, here?"), but the learner loses the range of
+    views a group brings, so encourage them to test placements with peers too.
+- context: independent
+  how: >-
+    Workable as a personal sorting tool, weaker because one person tends to over- or under-rate their
+    own ideas. If a learner works alone, ask them to get at least one other person to challenge where
+    they placed two or three ideas.
+duration: 30-45 min facilitated
+grouping: Small groups of 3-5, or individuals with a shared review; works with 10-35 learners
+whatLearnersDo:
+- Draw the grid, with effort along the bottom and impact up the side.
+- Place each of your ideas in the quadrant that fits, giving a reason.
+- Compare where ideas landed and challenge any placements that feel too easy or too generous.
+- Choose which ideas to take forward, starting with high-impact, lower-effort ones.
+materialsAndPreparation:
+- A large drawn grid on paper, a board or a shared digital space, plus each idea on its own sticky note or card so it can be moved.
+- The group's ideas from an earlier ideation activity, ready to sort.
+- The matrix diagram on this page as a reference for the four quadrants.
+facilitationNotes: |
+  The effort/impact matrix helps a group move from many ideas to a deliberate few, and its value is
+  the conversation, not the grid. The one thing to get right is honesty about effort: learners
+  routinely call an idea "low effort" because they like it, then discover it needs money, permissions
+  or skills they do not have. Push them to say what each idea would actually take, in their context.
+  Remember the matrix informs a decision, it does not make it: a lower-impact idea a group cares about
+  can still be worth doing.
+steps:
+- title: Draw the grid and agree what the axes mean
+  duration: 5-10 min
+  guidance: |
+    Draw the two-by-two grid: effort along the bottom (low to high), impact up the side (low to
+    high). Agree as a group what "effort" and "impact" mean here, in your own context: effort might be
+    time, money, skills or permissions; impact is how much difference the idea would make to the
+    problem you are addressing. Use the diagram on this page to name the four quadrants.
+  keyPrompts:
+  - "For us, what counts as effort: time, money, skills, permissions, or all of these?"
+  - What would count as high impact on the problem we are trying to address?
+  - Which quadrant is the one we most want ideas to land in, and why?
+  watchOuts:
+  - The group treats effort and impact as vague feelings; agree one or two concrete things each axis means before placing anything, so placements can be compared fairly.
+  adaptation: |
+    No devices or printer needed: a grid drawn on a single large sheet, or even scratched in the dirt,
+    works. Each idea just needs to be movable, so use folded paper scraps if you have no sticky notes.
+- title: Place each idea, with a reason
+  duration: 12-18 min
+  guidance: |
+    Take the group's ideas one at a time and place each in the quadrant that fits, saying out loud why
+    it is high or low on each axis. The reason matters more than the exact spot. Encourage the group to
+    move an idea as they learn more about what it would take. Keep it quick: a rough placement the
+    group can defend is enough.
+  keyPrompts:
+  - What would this idea actually take to do, honestly, here?
+  - How much difference would it really make to the problem?
+  - Does anyone see this idea differently, and where would you put it?
+  watchOuts:
+  - Everything drifts into the "do first" corner because the group likes its own ideas; challenge each placement, and be willing to move an idea to high effort once its real demands are named.
+- title: Compare, decide and choose what to take forward
+  duration: 10-15 min
+  guidance: |
+    Step back and look at the whole grid. Start with the high-impact, lower-effort ideas as the ones
+    to do first, note the high-impact, high-effort ones as bigger bets to plan for, and set aside the
+    low-impact ideas unless one matters for another reason. Have the group agree, out loud, which one
+    or two ideas they will take forward, and why.
+  keyPrompts:
+  - Which high-impact, lower-effort idea could we start on soonest?
+  - Is there a high-effort idea whose impact makes it worth planning for anyway?
+  - Which one or two ideas are we choosing to take forward, and what is the reason?
+  watchOuts:
+  - The group treats the grid as the decision and stops thinking; remind them the matrix informs the choice, and a lower-impact idea they care about can still be the right one to pursue.
+closing: |
+  Confirm the one or two ideas the group is taking forward and why, and keep the grid: it is a record
+  of the thinking, and the group can revisit it as they learn more or as new ideas appear. A good
+  decision here means the next stage, prototyping or planning, starts from a deliberate choice rather
+  than the loudest voice.
+learnerContent: |
+  The effort/impact matrix is a simple grid for choosing between ideas. Effort goes along the bottom,
+  from low to high; impact goes up the side, from low to high. Place each idea in the quadrant that
+  fits and say why. Ideas that are high impact but low effort are usually the ones to do first; high
+  impact but high effort are bigger bets to plan for; low impact ideas can usually wait. The grid does
+  not decide for you, it helps you and your group decide together, with reasons.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - control-of-future-pathways
+  how: >-
+    Choosing deliberately where to put limited time and energy is how a group turns many hopes into
+    real action on a problem. The matrix helps learners make that choice with evidence and honesty,
+    so their effort goes where it can do the most good.
+principlesForegrounded:
+- lifeworthy-competencies
+- feedback-and-data
+- responsible-action
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Weighing effort against impact to prioritise is a transferable decision-making skill learners will
+    reuse whenever they have more to do than they can do at once, well beyond this project.
+- principle: feedback-and-data
+  how: >-
+    Placements are argued and challenged rather than assumed, so the group's decision is shaped by
+    honest assessment of what each idea would take and achieve, not by who spoke loudest.
+- principle: responsible-action
+  how: >-
+    Being honest about the real effort an idea demands, and choosing where limited resources go, is
+    responsible, values-driven decision-making rather than wishful thinking.
+competencyCodes:
+- APS4
+- FSI2
+competencyDevelopment:
+- code: APS4
+  how: >-
+    Comparing ideas on feasibility and impact to justify a chosen course of action is exactly solution
+    analysis; the placed grid and the group's stated reasons are the evidence.
+- code: FSI2
+  how: >-
+    Narrowing many ideas down to a deliberate, workable few is part of ideating sustainable solutions;
+    the shortlist the group takes forward shows the move from generating ideas to choosing among them.
+objectiveIds:
+- social-entrepreneurship--o2
+relatedSlugs:
+- idea-generation-and-prioritisation
+- dc-brainstorm-rules
+- dc-how-might-we-questions
+sourceRefs:
+- "Design Challenge - Activity Guides/[45 mins] Effort-Impact Matrix - Activity Guide.docx"
+provenanceNote: >-
+  Authored as a tool material (previously only a glossary term). Based on the Design Challenge
+  Effort-Impact Matrix activity guide and standard effort/impact prioritisation practice, with an
+  original diagram of the four quadrants.
