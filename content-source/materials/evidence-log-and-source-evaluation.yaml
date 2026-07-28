@@ -159,7 +159,7 @@ competencyDevelopment:
       Holding many sources side by side in one log is what lets learners see where accounts agree,
       where they conflict and what none of them covers. Naming the biggest remaining gap in the
       closing is the demonstration, and it sets the direction for the next round of research.
-objectiveIds: [social-entrepreneurship--o1]
+objectiveIds: [social-entrepreneurship--o1, research-project--o2, research-project--o3]
 relatedSlugs: [craap-test, community-mapping-and-empathy-interviews, challenge-research-report-and-presentation]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-

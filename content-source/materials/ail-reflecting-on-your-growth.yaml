@@ -1,0 +1,142 @@
+id: ail-reflecting-on-your-growth
+slug: ail-reflecting-on-your-growth
+access: public
+type: activity
+title: Reflecting on your growth
+summary: Learners look back at their goals and their work, name how far they have come and what they
+  have learned about themselves, and decide what to do next.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners reflect alone against their own evidence, then share one piece of growth
+    with the group. The sharing matters, because saying "here is how I have grown" out loud makes it
+    real and lets learners see progress in each other, so keep the share even if you shorten the
+    written reflection.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for an honest look back. A mentor helps a learner see progress they are discounting
+    and name a realistic next step. This works especially well at the end of a goal cycle or the
+    programme.
+- context: independent
+  how: >-
+    Workable, but learners alone tend to focus on what they did not finish. Give them the prompts and
+    ask them to reflect against their actual journal and work, then share one piece of growth with a
+    peer or mentor so it is witnessed.
+duration: 30-40 min facilitated
+grouping: Individual reflection, then small groups or pairs; works with 10-35 learners
+whatLearnersDo:
+- "Gather your evidence: your goals, your journal, and work you have produced."
+- Look at how far you have come against the goals you set.
+- Name what you have learned about yourself as a learner.
+- Decide one thing to carry forward or a next goal, and share one piece of growth.
+materialsAndPreparation:
+- The learner's journal, goals and any work produced over the period being reviewed.
+- A short set of reflection prompts, printed or on a board.
+- "Sensitivity: some learners will feel they made little progress, or will have had a hard period. Make clear that honest reflection is not the same as judging yourself, and that noticing a small step, or naming what got in the way, is real growth."
+facilitationNotes: |
+  Reflection is where learning becomes visible and where the next goal comes from. The one thing to
+  get right is that learners look at real evidence, their own goals, journal and work, not a vague
+  feeling. Left to a feeling, learners either inflate or, more often, dismiss their progress. Your job
+  is to help them see growth they are discounting and to be kind but honest about what did not happen
+  and why. Keep the focus on learning, not on grading themselves.
+steps:
+- title: Gather your evidence
+  duration: 5-8 min
+  guidance: |
+    Have learners lay out the evidence of their period of learning: the goals and milestones they
+    set, their journal entries, and any work they produced. The point is to reflect against something
+    real rather than a general impression. Give them a quiet moment to reread their original goals
+    before they judge how far they have come.
+  keyPrompts:
+  - What goals and milestones did you set at the start?
+  - What have you actually produced or done since then?
+  - Reading your early journal entries, what stands out now?
+  watchOuts:
+  - Learners reflect from memory and either inflate or dismiss their progress; insist they look at their actual goals and work, since the evidence is usually kinder and more accurate than the feeling.
+  adaptation: |
+    If work is scattered or digital access is limited, a learner can list from memory what they set
+    out to do and what they did; the reread of the original goal is the part that matters most.
+- title: See how far you have come
+  duration: 12-15 min
+  guidance: |
+    Learners work through reflection prompts against their evidence: which goals and milestones they
+    reached, where they made progress even if the goal is not finished, and what helped or got in the
+    way. Push gently against both inflation and dismissal. A goal half-reached, with clear steps
+    taken, is real progress worth naming.
+  keyPrompts:
+  - Which goals or milestones did you reach, fully or in part?
+  - Where did you make progress, even if you have not finished?
+  - What helped you move forward, and what got in the way?
+  watchOuts:
+  - A learner sees only what they did not finish; help them count partial progress and the things they learned along the way, which is where most of the growth actually sits.
+- title: Name your growth and your next step
+  duration: 10-12 min
+  guidance: |
+    Move from what happened to what it means. Ask each learner to name one clear way they have grown
+    as a learner, and to decide one thing to carry forward: a habit that worked, a goal to continue,
+    or a new goal. Close by having each learner share one piece of growth with the group, so progress
+    is witnessed and the room sees how much has changed.
+  keyPrompts:
+  - What is one way you have grown as a learner in this period?
+  - What worked that you want to keep doing?
+  - What is your next goal, or the one thing you will carry forward?
+  watchOuts:
+  - Reflection ends without a forward step; make sure every learner leaves with one concrete thing to carry forward, so reflection feeds the next cycle rather than closing a door.
+closing: |
+  Ask several learners to share one piece of growth and one thing they will carry forward. Draw out
+  how much the room has changed since the start. Remind learners that this reflection, and the next
+  goal it produced, go back into the journal: growth is a cycle they now know how to run themselves.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
+  how: >-
+    Seeing and naming their own growth, from real evidence, is how learners come to trust that they
+    can direct their own learning. That belief, and the next goal it produces, is what lets a learner
+    keep steering their own development long after the programme ends.
+principlesForegrounded:
+- recognise-communicate-growth
+- feedback-and-data
+- connect-to-futures
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: >-
+    The whole activity is learners recognising and then communicating their own growth against the
+    goals they set, which is the defining habit this component builds.
+- principle: feedback-and-data
+  how: >-
+    Learners reflect against real data, their own goals, journal and work, rather than a feeling, and
+    use what they find to set the next goal, so evidence drives the next cycle of learning.
+- principle: connect-to-futures
+  how: >-
+    Reflection ends by deciding a next goal or a habit to carry forward, connecting this period of
+    learning to the future the learner is building rather than closing it off.
+competencyCodes:
+- FSL1
+- FSL2
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    Looking honestly at their own progress against evidence, and naming how they have grown as a
+    learner, is direct practice in self-reflection; the written reflection is the evidence.
+- code: FSL2
+  how: >-
+    Turning a reflection into a next goal or a habit to carry forward is how learners keep setting and
+    pursuing goals over time, closing the loop from progress back to a new objective.
+objectiveIds:
+- agency-in-learning--o4
+relatedSlugs:
+- ail-keeping-a-learning-journal
+- ail-seeking-and-using-feedback
+- ail-setting-your-goals
+sourceRefs:
+- agency-in-learning.yaml
+provenanceNote: >-
+  Authored (no source activity guide exists) from the Agency in Learning course objective 4 ("Track
+  progress, use feedback, and reflect on your growth") and its supportedTo detail, to fill an empty
+  objective in the Learning Bridge Agency in Learning component. Linked to Agency in Learning objective 4.

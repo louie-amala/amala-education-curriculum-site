@@ -1,0 +1,162 @@
+id: rp-making-a-research-poster
+slug: rp-making-a-research-poster
+access: public
+type: activity
+title: Making a research poster or infographic
+summary: Learners turn their research findings into a single clear visual, a poster or infographic that
+  communicates one key message and its supporting evidence to an audience at a glance.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners draft alone, then give and take quick "glance test" feedback in pairs or
+    small groups. The peer feedback is where most of the value sits, because a poster is made for other
+    people to read, so keep the glance-test step even if you shorten the drafting.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor plays the fresh pair of eyes the peer group would, reading the draft cold
+    and reporting back what message and evidence actually landed. The mentor should report what they
+    see, not redesign the poster, so the message stays the learner's own.
+- context: independent
+  how: >-
+    Workable, but the learner loses the cold reader who tells them what their poster really says. If a
+    learner works alone, have them show the draft to at least one person who does not know their
+    research and ask that person to say the main message back before the poster is finished.
+duration: 30-45 min facilitated
+grouping: Individual drafting, then feedback pairs or trios; works with 10-35 learners
+whatLearnersDo:
+- Decide the single key message your poster or infographic must get across, and who it is for.
+- Choose the few pieces of evidence that best back that message, and leave the rest out.
+- Draft a layout that a viewer can read and understand at a glance.
+- Test your draft on someone who has not seen your research, and revise from what they missed.
+materialsAndPreparation:
+- Each learner's own research findings and insight statement, to draw the message and evidence from.
+- Paper, card and pens, or a simple digital design tool if devices and connectivity allow.
+- "One or two example posters or infographics, strong and weak, to show what reads at a glance and what does not."
+facilitationNotes: |
+  A poster or infographic is not a report on a wall: it makes one message land at a glance, backed by
+  just enough evidence to be believed. The one thing to get right is ruthless selection. Learners want
+  to include everything they found, which buries the message. Keep pushing the question "what is the
+  one thing a viewer must leave with?" and let everything else earn its place against that. This is
+  the lower-literacy, lower-bandwidth route to the same objective as a written report: a learner who
+  finds writing hard can still communicate real insight through a clear visual.
+steps:
+- title: Fix your one key message and your audience
+  duration: 8-12 min
+  guidance: |
+    Before any design, have each learner write, in one sentence, the single message their poster must
+    get across and who it is for. A poster aimed at everyone lands with no one. Point them back to
+    their insight statement: the message is usually the "so what" of their research, not a summary of
+    everything they did.
+  keyPrompts:
+  - If a viewer remembers only one thing from your poster, what must it be?
+  - Who is this poster for, and what do you want them to think, feel or do after seeing it?
+  - Is that a message with a point, or just the topic you researched?
+  watchOuts:
+  - Learners write a topic ("mental health in our community") rather than a message; push for a sentence that makes a claim their evidence supports, so the poster has something to say.
+  adaptation: |
+    No devices or connectivity needed: the message and audience can be written on a scrap of paper or
+    said aloud to a partner. This step is thinking, not designing.
+- title: Choose the evidence that earns its place
+  duration: 8-12 min
+  guidance: |
+    Learners pick the few pieces of evidence, a statistic, a quote, a simple chart, an image, that
+    most directly back their message, and set the rest aside. Selection is the hard part: a poster
+    with three strong pieces of evidence persuades better than one crammed with ten. Remind them that
+    what they cut is not wasted, it lives in their report or their answers to questions.
+  keyPrompts:
+  - Which two or three pieces of evidence most convince someone your message is true?
+  - Is anything here on the poster because it is interesting rather than because it backs the message?
+  - Could a picture, number or short quote carry this better than a paragraph?
+  watchOuts:
+  - Learners try to fit all their findings on, so nothing stands out; set a hard limit (for example three evidence items) to force the choice and protect the glance test.
+- title: Draft a layout that reads at a glance
+  duration: 10-15 min
+  guidance: |
+    Learners sketch the poster: where the message goes (big, at the top or centre), how the eye should
+    travel, and where each evidence item sits. Encourage large text, plenty of empty space and visuals
+    over dense prose. The test throughout is whether a passer-by grasps the message in a few seconds,
+    not whether every detail is present.
+  keyPrompts:
+  - Where does a viewer's eye land first, and is that your message?
+  - Is your text large enough to read from a step or two away?
+  - What could you remove to make the important parts stand out more?
+  watchOuts:
+  - Learners fill every space with small text and lose the at-a-glance quality; model that empty space is a design choice that makes the message readable, not wasted room to fill.
+- title: Run the glance test and revise
+  duration: 8-12 min
+  guidance: |
+    Learners show their draft to someone who does not know their research, for only a few seconds, then
+    ask what message and evidence that person took away. Where the reader missed the point, the poster,
+    not the reader, needs to change. This turns communication from guesswork into something the learner
+    can see working or failing and fix.
+  keyPrompts:
+  - After a few seconds, what did you think this poster was telling you?
+  - What was the strongest piece of evidence you noticed, and what did you miss?
+  - Given what your reader saw, what one change would make the message land harder?
+  watchOuts:
+  - Learners defend the poster instead of listening ("but it does say that"); frame the reader's confusion as free, useful data about the design, since the real audience will not have the maker there to explain.
+closing: |
+  Have a few learners hold up their poster for a few seconds and let the room say the message back.
+  Point out that a poster or infographic that lands in seconds is doing exactly what their research is
+  for: making an actionable insight clear enough for other people to act on. The final visual is
+  evidence they can communicate findings, not only produce them.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Research only contributes to a community when the people who could act on it can actually
+    understand it. Turning findings into a clear visual that lands at a glance is how a learner makes
+    their insight usable by others, including people who would not read a long report, so the work
+    reaches the community rather than staying with the researcher.
+principlesForegrounded:
+- lifeworthy-competencies
+- recognise-communicate-growth
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Distilling a body of work into one clear message and communicating it visually is a transferable
+    skill learners will reuse far beyond this project, whenever they need to make a case to an audience
+    who will not read the detail.
+- principle: recognise-communicate-growth
+  how: >-
+    The poster is the learner making their own findings public and legible to others, and the glance
+    test gives them direct feedback on how well their insight and their growth as a researcher come
+    across, rather than leaving it to a private judgement.
+- principle: connect-to-futures
+  how: >-
+    Communicating evidence clearly to an audience who can act on it is the bridge from investigating a
+    problem to influencing it, moving learners from understanding a challenge towards helping shape a
+    response to it.
+competencyCodes:
+- FLC3
+- FPS1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Choosing one message, selecting the evidence that backs it and designing so a viewer grasps it at
+    a glance is direct practice in influential communication; the finished poster, and the glance-test
+    reader's account of what landed, are the evidence it worked.
+- code: FPS1
+  how: >-
+    Deciding what to keep, cut and redraw for a specific audience and format, then reshaping the poster
+    from what a cold reader actually took in, is adaptable thinking: adjusting the message to fit the
+    audience rather than restating the research.
+objectiveIds:
+- research-project--o4
+relatedSlugs:
+- rp-writing-a-research-report
+- dc-delivering-effective-presentations
+sourceRefs:
+- research-project.yaml
+provenanceNote: >-
+  Authored from Research Project objective 4 (communicate findings and actionable insights to an
+  audience), which lists a poster or infographic as a format option but supplies no activity guide.
+  Written to generalise to any shared research challenge, and designed as the lower-literacy,
+  lower-bandwidth alternative to a written report so learners who find writing hard can still
+  communicate real insight. Linked to Research Project objective 4.

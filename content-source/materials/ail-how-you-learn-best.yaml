@@ -1,0 +1,165 @@
+id: ail-how-you-learn-best
+slug: ail-how-you-learn-best
+access: public
+type: activity
+title: How you learn best
+summary: Learners map how they actually learn best, when, where, with whom, and what helps or hinders
+  them, so the goals and plans they set later fit the learner they really are.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners reflect alone against their own memories, then compare with a partner. The
+    pairing matters, because hearing how differently someone else learns helps a learner see their own
+    conditions as choices rather than the only way, so keep the compare step even if you shorten the
+    written reflection.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor can gently probe past successes and struggles a learner glosses over, and
+    hold up patterns the learner cannot see in themselves. Have the learner arrive with one good and
+    one hard learning memory in mind, so the time goes on making sense of them rather than dredging.
+- context: independent
+  how: >-
+    Workable, but a learner alone tends to write idealised study advice rather than the honest truth of
+    how they learn. Give them the prompts and the concrete examples, and ask them to test one finding
+    against a real recent day of learning before they trust it.
+duration: 35-45 min facilitated
+grouping: Individual reflection, then pairs; works with 10-35 learners
+whatLearnersDo:
+- Notice when and where you actually learn best, and when you struggle.
+- Map who and what helps you learn, and what gets in your way.
+- Look back at one learning success and one learning struggle, and ask what each taught you.
+- Name a few conditions that help you learn, and carry them towards the goals you will set next.
+materialsAndPreparation:
+- The learner's journal or a simple reflection sheet (printed or digital).
+- A short set of prompts covering when, where, with whom, and what helps and hinders learning.
+- Your own honest example of a condition that helps you learn and one that trips you up, to model before learners start.
+facilitationNotes: |
+  Knowing how you learn best is the ground every later goal and plan is built on: a plan that ignores
+  how a learner actually works will quietly fail. The one thing to get right is that learners write the
+  honest truth of how they learn, from real memories, not the study advice they think they should give.
+  Push gently for the concrete: not "I focus well" but "I learn best early, alone, with music". Make
+  clear there is no right way to learn, so a learner whose conditions look unusual does not hide them.
+steps:
+- title: Notice when and where you learn best
+  duration: 8-10 min
+  guidance: |
+    Open by making it concrete with your own example: a time and place you learn well, and one where
+    you struggle. Then give learners quiet time to notice their own patterns. When in the day do they
+    take things in most easily? Where, and in what kind of quiet or noise? The point is to surface real
+    conditions, not to judge any of them as good or bad.
+  keyPrompts:
+  - When in the day do you find learning easiest, and when is it hardest?
+  - "Where do you learn best: what does that place look and sound like?"
+  - Think of a time something finally clicked for you. What were the conditions around you?
+  watchOuts:
+  - Learners write what they think a good student should say ("I focus best in silence at my desk"); ask for a real recent example that proves it, and let the honest, messier answer stand.
+  adaptation: |
+    With no journal or device, learners can hold three conditions in mind and say them to a partner;
+    the noticing matters more than the writing.
+- title: Map who and what helps and hinders you
+  duration: 8-10 min
+  guidance: |
+    Move from when and where to who and what. Ask learners to name the people who help them learn (a
+    friend, a sibling, a teacher, or no one at all) and the tools or habits that help, then the things
+    that reliably get in the way. Circulate and ask rather than tell, so learners name their own
+    helpers and blockers instead of borrowing yours.
+  keyPrompts:
+  - Who helps you learn, and do you learn better with someone or on your own?
+  - "What helps you most: talking it out, writing, doing, watching, or something else?"
+  - What reliably gets in your way, and is it something you can change or plan around?
+  watchOuts:
+  - A learner names only obstacles they cannot control (noise at home, no quiet space); acknowledge the constraint honestly, then help them find one helper or habit that is within their reach, so the map is not all walls.
+  adaptation: |
+    If sharing feels exposing, learners can keep this list private and only report a general pattern,
+    since some helpers and hindrances touch on home and family.
+- title: Learn from a past success and a past struggle
+  duration: 10-12 min
+  guidance: |
+    Ask each learner to pick one time learning went well and one time it went badly, and to look at
+    what each has to teach. The struggle is often the richer source: what got in the way, and what
+    would they do differently. Keep the tone one of curiosity, not judgement, so a hard memory becomes
+    useful evidence about how they learn rather than a verdict on them.
+  keyPrompts:
+  - "What made the good experience work: was it you, the people, the method, or the moment?"
+  - In the hard one, what actually got in the way, and what would help next time?
+  - What do these two put together tell you about how you learn?
+  watchOuts:
+  - A learner turns the struggle into self-blame ("I am just lazy"); redirect from judging themselves to reading the evidence, so the memory yields a condition to plan around rather than a label to carry.
+  adaptation: |
+    Where a learning memory risks touching on displacement or a hard period, let learners choose a
+    lower-stakes example, and never require anyone to share the details aloud.
+- title: Name your conditions and carry them forward
+  duration: 8-10 min
+  guidance: |
+    Pull the threads together. Ask each learner to write three or four conditions that help them learn,
+    in their own words, and one thing they now know gets in their way. Then, with a partner, they say
+    one condition aloud and one way it might shape a goal or plan they set later. This turns scattered
+    noticing into a short, usable profile of themselves as a learner.
+  keyPrompts:
+  - What are three or four conditions that help you learn best?
+  - Knowing this, what is one thing you would build into a goal or plan so it actually fits you?
+  - Which of these did you not realise about yourself before today?
+  watchOuts:
+  - The profile stays vague ("I like learning"); push for conditions specific enough to act on, so a learner can later say "I will study early and alone" rather than repeating a feeling.
+closing: |
+  Ask two or three learners to share one condition that helps them learn and one thing that gets in
+  their way. Draw out how differently the room learns, so no one leaves thinking there is a single
+  right way. Confirm this profile lives in the journal: it is the honest picture of themselves that the
+  goals and plans they set next will be built to fit.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Understanding how you learn best is the quiet foundation of self-direction: a learner who knows the
+    conditions they work well in can shape their own learning around them rather than accepting whatever
+    is handed to them. That self-knowledge is what lets every later goal and plan be genuinely their own.
+principlesForegrounded:
+- builds-on-identities
+- recognise-communicate-growth
+- lifeworthy-competencies
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The whole activity starts from each learner's own conditions, memories, and ways of working, in
+    their own words, and insists there is no single right way to learn, so the work is anchored in who
+    the learner actually is rather than an external model of a good student.
+- principle: recognise-communicate-growth
+  how: >-
+    Putting into words how they learn, and saying it aloud to a partner, is a learner's first act of
+    recognising and communicating their own learning, which is the habit of self-knowledge this whole
+    course keeps building on.
+- principle: lifeworthy-competencies
+  how: >-
+    Knowing the conditions you learn best in is not a one-off exercise but a habit a learner will reuse
+    across study, work, and life whenever they take on something new, which is exactly what makes it
+    worth practising here.
+competencyCodes:
+- FSL1
+- FUS1
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    Looking honestly at how they learn, and at a past success and struggle, is direct practice in
+    self-reflection; the written learner profile is the evidence they can reflect on where they are now
+    as a learner.
+- code: FUS1
+  how: >-
+    Naming the conditions, people, and habits that shape how they learn develops self-awareness of
+    themselves as a learner, which is the self-knowledge every meaningful goal later rests on.
+objectiveIds:
+- agency-in-learning--o1
+relatedSlugs:
+- ail-strengths-and-areas-to-grow
+- ail-setting-your-goals
+sourceRefs:
+- agency-in-learning.yaml
+provenanceNote: >-
+  Authored (no source activity guide exists) from the Agency in Learning course objective 1
+  ("Understand yourself as a learner as the basis for setting goals") and its supportedTo detail, to
+  give the Learning Bridge Agency in Learning component a usable activity for the first objective.
+  Linked to Agency in Learning objective 1.

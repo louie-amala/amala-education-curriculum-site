@@ -1,0 +1,168 @@
+id: ail-what-makes-a-good-goal
+slug: ail-what-makes-a-good-goal
+access: public
+type: activity
+title: "What makes a good learning goal"
+summary: >-
+  Learners learn four tests of a good goal, then practise judging and improving example goals so
+  they can tell a strong learning goal from a weak one and fix it.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners judge the same example goals alone, then compare verdicts with a partner
+    or small group. The disagreement is the point: arguing over whether a goal is specific enough
+    forces learners to apply the tests sharply, so keep the paired compare even if you shorten the
+    modelling.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor and learner work through the examples together, and the mentor pushes on
+    the one test the learner tends to skip, often "achievable" or "time-bound". Use the learner's
+    own draft goal as the final example so the practice lands on something real.
+- context: independent
+  how: >-
+    Workable, since judging examples against a fixed checklist is doable alone, but a learner has no
+    one to check their verdicts. Give them the worked example with answers, and ask them to send one
+    improved goal to a peer or mentor for a second opinion before they trust their own judgement.
+duration: 30-40 min facilitated
+grouping: "Individual judging, then pairs or small groups; works with 10-35 learners"
+whatLearnersDo:
+- "Learn four tests of a good learning goal: specific, achievable, meaningful, and time-bound."
+- Judge a set of example goals against the four tests and say which each one fails.
+- Rewrite a weak example goal so it passes all four tests.
+- Apply the four tests to a goal of your own and sharpen it.
+materialsAndPreparation:
+- A short handout or board listing the four tests, with a one-line explanation of each.
+- "A set of example goals at mixed quality: some vague, some unrealistic, some with no time frame, ready to judge."
+- "A worked example: one weak goal and the same goal improved, to model the rewrite before learners try it."
+facilitationNotes: |
+  Learners draft goals elsewhere in this component; here they build the judgement to tell a good goal
+  from a weak one and fix it. The one thing to get right is that learners apply the tests to the
+  examples themselves, out loud, rather than watching you do it. A learner who can spot that "get
+  better at maths" is not specific or time-bound can sharpen their own goals for years. Keep the four
+  tests plain and the examples close to your learners' real goals. Resist turning it into a rule about
+  perfect wording; the tests are a lens, not a form to fill in.
+steps:
+- title: Learn the four tests of a good goal
+  duration: 6-8 min
+  guidance: |
+    Introduce the four tests plainly: a good goal is specific (you know exactly what it means),
+    achievable (within reach with effort), meaningful (it matters to you), and time-bound (it has a
+    when). Give one quick example that passes all four. Keep this short: learners will understand the
+    tests far better by applying them in the next step than by hearing you explain them.
+  keyPrompts:
+  - "What does each test actually ask: specific, achievable, meaningful, time-bound?"
+  - Why would a goal that fails even one of these be hard to pursue?
+  - Which of the four tests do you think goals most often fail?
+  watchOuts:
+  - Learners treat the tests as four boxes to tick rather than a way of thinking; stress that the point is judgement, and that a goal can be worded neatly and still not matter to the learner.
+  adaptation: |
+    With no handout or board, name the four tests aloud and have learners write the four words at the
+    top of a page to score against. No device is needed.
+- title: Judge example goals against the tests
+  duration: 10-12 min
+  guidance: |
+    Hand out the mixed-quality example goals. Learners work through each one alone, deciding which of
+    the four tests it passes and which it fails, and noting why. Then have them compare verdicts with
+    a partner. Circulate and listen for disagreement rather than settling it; asking "which test does
+    this fail, and how do you know?" does more than giving the answer.
+  keyPrompts:
+  - Which of the four tests does this goal fail, and what tells you that?
+  - Could two people read this goal and picture different things? What would make it specific?
+  - Is this goal actually reachable in the time given, or is it a wish?
+  watchOuts:
+  - Learners mark a goal as good because it sounds ambitious; remind them that an impressive goal that is not specific or time-bound is a weak goal, and ambition is not one of the four tests.
+  - Pairs rush to agree; if a pair passes every goal without debate, give them a deliberately borderline example and ask them to argue both sides.
+- title: Rewrite a weak goal so it passes all four
+  duration: 8-10 min
+  guidance: |
+    Model the rewrite first with your worked example: take a weak goal and improve it test by test
+    until it passes all four, thinking aloud as you go. Then give each learner one weak example to
+    rewrite. Have them show their improved goal to a partner, who checks it against the four tests and
+    names any that still fail. The aim is a goal that would survive the checklist.
+  keyPrompts:
+  - Which test does this goal fail first, and what is the smallest change that fixes it?
+  - Now that it is specific, is it still achievable in the time you set?
+  - "Read your partner's rewrite: does it pass all four tests, or does one still slip?"
+  watchOuts:
+  - Learners fix the wording but strip out what made the goal matter; check that the improved goal is still meaningful to a real person, not just technically correct.
+  adaptation: |
+    If learners cannot pair up, they rewrite two examples and check the second against the first, or
+    against the worked answer, so the checking step still happens.
+- title: Apply the four tests to a goal of your own
+  duration: 6-8 min
+  guidance: |
+    Turn the lens on the learners' own goals. Ask each learner to take a goal they already have, or a
+    rough one they carry, and run it through the four tests, marking which it passes and sharpening
+    any it fails. This is not drafting a new goal from scratch; it is testing and improving one they
+    hold, so they leave able to do this for themselves.
+  keyPrompts:
+  - "Run your own goal through the four tests: which does it pass, and which needs work?"
+  - What is the one change that would make your goal stronger against these tests?
+  - Whose goal here would you trust yourself to sharpen without any help next time?
+  watchOuts:
+  - A learner declares their goal fine to avoid the work; ask them to point to the exact words that make it specific and time-bound, which usually surfaces the gap.
+closing: |
+  Ask two or three learners to share a goal before and after they applied the tests, so the room
+  hears the difference the four tests make. Remind learners that this is a lens they now own: every
+  goal they set from here can be held up against specific, achievable, meaningful, and time-bound
+  before they commit to it.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Being able to judge and sharpen a goal for themselves, rather than relying on someone else to
+    tell them whether it is any good, is what lets a learner set sound goals long after the programme
+    ends. That judgement keeps the direction of their learning, and the future it builds towards, in
+    their own hands.
+principlesForegrounded:
+- lifeworthy-competencies
+- connect-to-futures
+- recognise-communicate-growth
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Judging whether a goal is specific, achievable, meaningful and time-bound is a reusable thinking
+    skill, not a one-off exercise; learners will apply this same lens to goals in study, work and life
+    for years, which is exactly the durable self-direction habit this course builds.
+- principle: connect-to-futures
+  how: >-
+    The "meaningful" test forces every goal to be checked against whether it matters to the learner
+    and the future they are building, so a technically neat goal that connects to nothing is caught
+    and rejected rather than pursued.
+- principle: recognise-communicate-growth
+  how: >-
+    Learners practise naming precisely why a goal is weak and what would improve it, which gives them
+    the vocabulary to talk about the quality of their own goals and progress rather than relying on a
+    vague sense that a goal is or is not good.
+competencyCodes:
+- FSL2
+- FSL1
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Setting and pursuing goals depends on being able to set a sound one; practising the tests of a
+    good goal and improving weak examples builds the judgement that makes a learner's own objectives
+    clear and achievable rather than vague aspirations.
+- code: FSL1
+  how: >-
+    Applying the "achievable" and "meaningful" tests to their own goal requires learners to reflect
+    honestly on what is within their reach and what genuinely matters to them, which is direct
+    practice in self-reflection.
+objectiveIds:
+- agency-in-learning--o2
+relatedSlugs:
+- ail-setting-your-goals
+- ail-making-an-action-plan
+sourceRefs:
+- agency-in-learning.yaml
+provenanceNote: >-
+  Authored from the Agency in Learning course objective 2 ("Set clear, meaningful learning goals")
+  and its supportedTo detail on what makes a goal clear and achievable, to give the Learning Bridge
+  Agency in Learning component a focused activity on the criteria of a good goal that complements
+  ail-setting-your-goals (which covers drafting goals). No source activity guide exists. Linked to
+  Agency in Learning objective 2.

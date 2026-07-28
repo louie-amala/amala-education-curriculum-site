@@ -1,0 +1,167 @@
+id: ail-finding-help-and-resources
+slug: ail-finding-help-and-resources
+access: public
+type: activity
+title: "Finding help and resources to learn"
+summary: >-
+  Learners map the people, tools and learning experiences that could help them reach a goal, then
+  practise reaching out, so they never have to rely on themselves alone.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners map their own resources first, then pool them so the room's collective
+    knowledge surfaces options no one had alone. The pooling step matters, because a peer almost
+    always knows a person, course or community the learner does not, so keep it even if you shorten
+    the individual mapping.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit, and a mentor is itself one of the resources being mapped. The mentor helps the
+    learner see help they are overlooking and can open a door directly. Resist simply handing over
+    contacts: the aim is for the learner to learn to find and ask, not to be supplied.
+- context: independent
+  how: >-
+    Workable but weaker, because a learner alone misses the peer pooling that surfaces unfamiliar
+    options. Give them the prompts and the reachability sort, and ask them to check their map with at
+    least one other person, who will usually name a resource they had not thought of.
+duration: 35-45 min facilitated, plus the outreach task
+grouping: Individual mapping, then pairs or small groups; works with 10-35 learners
+whatLearnersDo:
+- Take one goal you are working towards and hold it in mind as the thing help must move forward.
+- Map the people, tools, and learning experiences that could help you reach it.
+- Sort your map by what is actually within reach, and pool ideas with peers.
+- Practise how you would ask for help, then commit to one request to make before the next session.
+materialsAndPreparation:
+- The learner's journal or a simple sheet with one goal at the top and space to map resources.
+- "A prompt list of resource types to jog thinking: people, free courses, books, online communities, places, tools."
+- Your own honest example of a resource you sought out for a goal, and the message you sent to reach it.
+facilitationNotes: |
+  Learners often treat a goal as something they must reach alone, and so stall. The one thing to get
+  right is the shift from "what do I know" to "who and what could help me", and then the courage to
+  ask. Keep the focus on resources that are genuinely reachable in the learner's context, not an
+  ideal list they can never use. The most valuable resource in the room is usually the room itself,
+  so protect the pooling step. Your job is to help learners find and approach help, not to supply it
+  for them.
+steps:
+- title: Name the goal help has to move forward
+  duration: 5-8 min
+  guidance: |
+    Have each learner pick one real goal they are working towards and write it at the top of the
+    page. Everything that follows is tied to this goal, so the map stays useful rather than abstract.
+    Give a quick example of your own, then let them choose. Keep it brief: the point is to anchor the
+    search for help in a specific aim, not to set a new goal.
+  keyPrompts:
+  - Which goal do you most want help moving forward right now?
+  - What has made this goal hard to progress on your own?
+  - What would getting help with this actually change for you?
+  watchOuts:
+  - A learner picks a goal so vague that no resource fits it; steer them to a concrete, current goal, or borrow one from their earlier goal-setting work so the mapping has something real to grip.
+  adaptation: |
+    No device or journal is needed. A single sheet of paper, or even the goal spoken aloud and held
+    in mind, is enough to anchor the rest of the activity.
+- title: Map who and what could help
+  duration: 12-15 min
+  guidance: |
+    Give learners quiet time to map every possible source of help for that goal. Offer the prompt
+    list of resource types so thinking goes wider than "a teacher": mentors, peers, family, free
+    online courses, books, communities, local places, tools. Circulate and ask rather than tell.
+    Push for volume first; judging usefulness comes next. The aim is to break the assumption that the
+    learner is the only resource they have.
+  keyPrompts:
+  - Who do you know, or know of, who has done something like this?
+  - What free courses, books, communities or tools exist for this?
+  - Where might you find help you have not thought to look for yet?
+  watchOuts:
+  - A learner lists only people they already know well; prompt them towards strangers, institutions and online resources too, since the most useful help is often just outside their existing circle.
+  adaptation: |
+    Where connectivity is thin, focus the map on people, places and printed resources that are
+    reachable offline; note online options to chase down whenever access allows.
+- title: Sort your map by what is within reach
+  duration: 8-10 min
+  guidance: |
+    Have learners mark which resources are genuinely reachable for them now, and which are not.
+    A world-class mentor who will never reply is worth less than a peer down the corridor. Then pool
+    in pairs or small groups: each learner shares their goal, and the others name resources for it.
+    This peer harvest is the engine of the activity, since someone almost always knows an option the
+    learner missed.
+  keyPrompts:
+  - Which of these could you actually reach in the next week or two?
+  - What is stopping you reaching the ones you have crossed off, and is that real or assumed?
+  - "As you listen to each other: what resource comes to mind for their goal?"
+  watchOuts:
+  - Learners dismiss reachable help as "not for someone like me"; name this gently and remind them that most people and communities are more willing to help than we expect, and asking costs little.
+- title: Practise the ask and commit to one
+  duration: 8-10 min
+  guidance: |
+    Move from a list to an action. Reaching out is where most learners freeze, so have them draft how
+    they would actually approach one resource: what to say to a person, or the first step to join a
+    course or community. Let a pair test one message aloud or on paper. Close by having each learner
+    commit to one specific request they will make before the next session.
+  keyPrompts:
+  - What exactly would you say to ask this person or join this resource?
+  - Which one request will you make before we next meet?
+  - What is the smallest first step that gets you started today?
+  watchOuts:
+  - A learner leaves with a long list but no committed action; insist on one concrete request with a name and a first line, so the map turns into an approach made rather than a plan admired.
+closing: |
+  Ask two or three learners to share the one resource they will reach out to and how they will do it.
+  Draw out how much help the room surfaced together that no one held alone. Remind learners that
+  finding and asking for help is a skill they will use for every goal ahead, not just this one, and
+  that the resource map lives in their journal to add to as they go.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Knowing how to find and reach the help that already exists means a learner is no longer limited
+    by what they alone know or can do. Being able to open doors to mentors, courses and communities
+    is what keeps the routes to their own future open and in their own hands.
+principlesForegrounded:
+- lifeworthy-competencies
+- collaboration
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Finding, judging and reaching out to the help around you is a self-direction habit a learner will
+    reuse for every goal in study, work and life, well beyond this one activity, which is exactly the
+    kind of durable capability this principle points to.
+- principle: collaboration
+  how: >-
+    The pooling step is built on the fact that peers know resources for each other that no one sees
+    alone, so a learner's set of options is expanded by the group, and asking others for help is
+    practised as a strength rather than a weakness.
+- principle: connect-to-futures
+  how: >-
+    Every resource is mapped against a real goal the learner is working towards, so the search for
+    help is explicitly in service of the future they are building rather than an abstract exercise in
+    listing what exists.
+competencyCodes:
+- FSL3
+- FR1
+competencyDevelopment:
+- code: FSL3
+  how: >-
+    Seeking out learning experiences, free courses, books, communities and mentors, to move a goal
+    forward is the core of engaging in continuous learning; the resource map and the committed
+    outreach are the evidence a learner looks beyond the session for their own growth.
+- code: FR1
+  how: >-
+    The whole activity is identifying the resources, people, tools and experiences, available to
+    reach a goal, judging which are within reach, and working out how to access them, which is direct
+    practice in identifying and mobilising resources.
+objectiveIds:
+- agency-in-learning--o3
+relatedSlugs:
+- ail-making-an-action-plan
+- ail-seeking-and-using-feedback
+sourceRefs:
+- agency-in-learning.yaml
+provenanceNote: >-
+  Authored (no source activity guide exists) from the Agency in Learning course objective 3 ("Plan
+  and take deliberate steps towards your goals") and its supportedTo detail, to give the Learning
+  Bridge Agency in Learning component a usable activity on finding and using help and resources.
+  Linked to Agency in Learning objective 3.

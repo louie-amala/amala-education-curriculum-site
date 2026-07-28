@@ -1,0 +1,169 @@
+id: "ail-making-an-action-plan"
+slug: "ail-making-an-action-plan"
+access: "public"
+type: "activity"
+title: "Making an action plan"
+summary: >-
+  Learners turn one of their goals into a simple action plan: the concrete steps, in what order, by
+  when, and what they need to take the first one.
+facilitationContext:
+- "group"
+- "one-to-one-mentoring"
+- "independent"
+primaryContext: "group"
+deliveryAdaptations:
+- context: "group"
+  how: >-
+    As designed. Learners build their own plan, then swap with a partner to sense-check it. The swap
+    matters, because a partner asking "could you actually start this on Monday?" is what catches a
+    plan that is too big or too vague, so keep the pairing even if you shorten the modelling.
+- context: "one-to-one-mentoring"
+  how: >-
+    A strong fit. A mentor helps the learner size the first step honestly and names the person or
+    resource they will need. Have the learner bring a goal they already set, so the session goes on
+    planning a real step rather than choosing a goal from scratch.
+- context: "independent"
+  how: >-
+    Workable, but a learner alone tends to plan a step that is too large or forgets what it needs.
+    Give them the worked example and the four questions (steps, order, by when, what it needs), and
+    ask them to share their first step with a peer or mentor before they start it.
+duration: "35-45 min facilitated, plus the first step taken between sessions"
+grouping: "Individual planning, then pairs; works with 10-35 learners"
+whatLearnersDo:
+- "Pick one goal you have already set and list the concrete steps that would reach it."
+- "Put the steps in a sensible order and choose which one comes first."
+- "Set a by-when for your first step and work out what it needs."
+- "Sense-check your plan with a partner, then commit to starting the first step."
+materialsAndPreparation:
+- "The learner's journal or a simple one-page planning sheet (printed or digital), with the goals they set earlier to hand."
+- "Your own worked example: a real goal, three or four steps, an order, and a first step with a by-when and what it needs."
+- "A short list of the four planning questions (steps, order, by when, what it needs) on a board or a sheet."
+facilitationNotes: |
+  An action plan is only useful if it is small enough to act on this week. The one thing to get right
+  is to stop learners building an impressive, overwhelming plan they will never start. Keep it to a
+  real goal, a handful of concrete steps, and a first step small enough to take before the next
+  session. Do not labour the term action plan; the point is deliberate steps, not a document. A plan
+  the learner owns and can actually begin beats a tidy one they abandon. Help them name what each
+  step needs, so a missing resource is spotted now rather than becoming an excuse later.
+steps:
+- title: "List the steps that would reach your goal"
+  duration: "10-12 min"
+  guidance: |
+    Have each learner take one goal they set earlier and list the concrete steps that would reach it.
+    Model with your own goal first, keeping steps to actions a person could actually do, not vague
+    intentions. Aim for a handful, not twenty. Circulate and ask, rather than tell, what the very next
+    doable thing would be. Warn learners off the word "plan" as something grand: it is just the steps.
+  keyPrompts:
+  - "What would actually have to happen for you to reach this goal?"
+  - "Is each of these a thing you could do, or is it still a wish?"
+  - "What is the smallest first thing that would move this forward?"
+  watchOuts:
+  - "A learner lists steps so big each is really a goal of its own; push them to break the first one down until it is a single doable action."
+  adaptation: |
+    With no board or slides, one spoken worked example of your own and the steps listed on paper is
+    enough. No device is needed.
+- title: "Put the steps in order and pick the first"
+  duration: "8-10 min"
+  guidance: |
+    Show learners how to sequence the steps: what has to come before what, and which one they can
+    start now. Some steps wait on others, so a sensible order stops a learner stalling on something
+    they cannot yet do. Have each learner number their steps and circle the one that comes first,
+    checking it does not depend on a step they have not reached.
+  keyPrompts:
+  - "Which of these steps has to happen before the others can?"
+  - "Which step could you actually start first, this week?"
+  - "Is anything on your list waiting on a step you have not done yet?"
+  watchOuts:
+  - "A learner picks a first step that quietly depends on a later one and then cannot start; walk them back to the true first action they can take unaided."
+  adaptation: |
+    If learners have no numbered sheet, numbering the steps in the margin of the journal or on scrap
+    paper works just as well.
+- title: "Set a by-when and name what each step needs"
+  duration: "10-12 min"
+  guidance: |
+    Move from order to commitment. Ask each learner to set a realistic by-when for their first step,
+    and to name what it needs: a person to ask, a resource, a place, or a slice of time. Naming needs
+    now is how a learner spots a blocker before it becomes an excuse. Keep the by-when honest and
+    close, so the first step is done before the next session rather than "someday".
+  keyPrompts:
+  - "By when will you have taken your first step, realistically?"
+  - "What do you need to take it: a person, a resource, or some time?"
+  - "Is there anything that could get in the way, and how would you get around it?"
+  watchOuts:
+  - "A by-when is vague or far off, so nothing starts; pin it to a real day this week and make the step small enough to fit the time the learner actually has."
+  adaptation: |
+    If a needed resource turns out to be unavailable, help the learner reshape the step around what
+    they do have rather than parking the whole plan.
+- title: "Sense-check with a partner and commit"
+  duration: "6-8 min"
+  guidance: |
+    Pair learners to read each other's first step and by-when. The partner's job is to ask whether the
+    step is really doable by then and whether anything is missing. Each learner adjusts their step in
+    response, then says out loud, to their partner, the one step they will take and when. Saying it to
+    someone is a light form of accountability that makes the step more likely to happen.
+  keyPrompts:
+  - "Could your partner actually start their first step by the day they named?"
+  - "Is anything missing from their plan that they have not spotted?"
+  - "What is the one step you are committing to, and by when?"
+  watchOuts:
+  - "Pairs slip into admiring the plan rather than testing it; give them the one question to ask each other, whether the first step is genuinely doable by the date, and keep them on it."
+  adaptation: |
+    In thin attendance or a mentoring setting, the facilitator or mentor plays the partner and asks
+    the same doable-by-when question.
+closing: |
+  Ask two or three learners to say their first step and its by-when aloud. Confirm the plan lives in
+  the journal and is not fixed: as steps are taken and things change, the plan is updated, not
+  abandoned. Remind them the point is not a tidy document but a first deliberate step actually taken
+  before you next meet.
+agencyContribution:
+  indicators:
+  - "control-of-future-pathways"
+  how: >-
+    Turning a goal into steps a learner will actually take is the move from wanting a future to
+    building one. By deciding the order, the timing, and what each step needs, the learner keeps the
+    direction and pace of their own progress, and of the pathway it opens, in their own hands.
+principlesForegrounded:
+- "lifeworthy-competencies"
+- "connect-to-futures"
+- "feedback-and-data"
+principleAlignment:
+- principle: "lifeworthy-competencies"
+  how: >-
+    Breaking a goal into ordered, timed, resourced steps and starting the first one is planning and
+    self-direction in miniature, a habit learners will reuse for any goal in study, work and life
+    long after this session.
+- principle: "connect-to-futures"
+  how: >-
+    The plan is built from a goal the learner has tied to what matters to them, so the concrete steps
+    and by-whens are deliberate progress towards the future they are trying to build, not busywork for
+    this session alone.
+- principle: "feedback-and-data"
+  how: >-
+    Naming what each step needs and sense-checking the first step with a partner turns the plan into
+    something the learner tests and adjusts against real feedback, rather than a fixed document set
+    once and forgotten.
+competencyCodes:
+- "FSL2"
+- "ASL2"
+competencyDevelopment:
+- code: "FSL2"
+  how: >-
+    Making an ordered, timed plan and taking a first deliberate step is the "pursue" half of setting
+    and pursuing goals; the written plan and the step taken between sessions are the evidence a learner
+    moves from intention to action.
+- code: "ASL2"
+  how: >-
+    Setting an honest by-when, fitting the first step to the time a learner actually has, and spotting
+    blockers in advance is direct practice in managing time and priorities to sustain progress.
+objectiveIds:
+- "agency-in-learning--o3"
+relatedSlugs:
+- "ail-setting-your-goals"
+- "ail-managing-time-and-priorities"
+- "ail-finding-help-and-resources"
+sourceRefs:
+- "agency-in-learning.yaml"
+provenanceNote: >-
+  Authored (no source activity guide exists) from the Agency in Learning course objective 3 ("Plan and
+  take deliberate steps towards your goals") and its supportedTo detail, to fill an empty objective in
+  the Learning Bridge Agency in Learning component. Linked to Agency in Learning objective 3.

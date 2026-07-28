@@ -1,0 +1,164 @@
+id: rp-choosing-a-research-question
+slug: rp-choosing-a-research-question
+access: public
+type: activity
+title: "Choosing a research question"
+summary: >-
+  Learners narrow a broad shared challenge into one specific, researchable question: focused enough to
+  investigate and answer with the time, access and evidence they can realistically reach.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners question-storm and sort as a cohort investigating the shared challenge, then
+    narrow in small groups. The collective volume is the point, since one learner's question sparks a
+    sharper one from another, so keep the shared question-storm even if you shorten the framing.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for sharpening. A mentor helps one learner move from a broad topic towards a genuinely
+    researchable question and pressure-tests its scope against the time and access they have. The learner
+    loses the volume a cohort produces, so ask them to draft widely before the session.
+- context: independent
+  how: >-
+    Workable for drafting, weaker for range. A learner alone tends to settle on the first question that
+    feels right. Have them write at least eight questions across different angles, then check the one they
+    choose against feasibility with you or a peer before planning any research.
+duration: "30-40 min facilitated"
+grouping: "Individual drafting, then small groups of 3-5; works with 10-35 learners"
+whatLearnersDo:
+- "Look at the difference between a topic, a question, and a researchable question."
+- "Question-storm many possible questions about the shared challenge, from different angles."
+- "Sort the questions from broad to focused, and test which are researchable with your time and access."
+- "Choose one specific, researchable question your group will investigate, and check it holds up."
+materialsAndPreparation:
+- "A few worked examples contrasting a topic, a broad question, and a researchable question, tied to the cohort's shared challenge."
+- "A shared surface (board, wall, paper or digital) to write, group and sort questions, and a scribe per group."
+- "A reminder of the time, access and permissions learners realistically have, so feasibility is judged against reality rather than guessed."
+facilitationNotes: |
+  Framing is the first move of a real investigation: everything later depends on a question learners can
+  actually answer. The one thing to get right is that the chosen question is researchable with the time,
+  people and evidence they can genuinely reach, and stays anchored in the shared challenge. Learners'
+  most common mistakes are a question so broad no evidence could settle it, and one so narrow it needs a
+  yes or no. Keep steering them between the two, and towards a specific contributing factor of the
+  challenge they can investigate. Volume first, then narrow: a wide question-storm produces a far better
+  final question than a first safe guess.
+steps:
+- title: "See what makes a question researchable"
+  duration: "6-10 min"
+  guidance: |
+    Draw the line between a topic (broad subject), a question (asks something), and a researchable
+    question (specific enough that evidence could answer it within reach). Contrast a worked example of
+    each, tied to the shared challenge, so the move from broad to researchable is concrete. Keep it short:
+    the aim is to give learners a test they can apply, not to talk them into any one question.
+  keyPrompts:
+  - "What is the difference between a topic we could talk about and a question research could actually answer?"
+  - "Could you gather evidence that would settle this question, or is it too big to ever finish?"
+  - "Which of these examples is specific enough to investigate, and which is still just a subject?"
+  watchOuts:
+  - "Learners treat any question as researchable; hold up the test 'could evidence we can reach actually answer this?' against each example until the distinction lands."
+  adaptation: |
+    No connectivity needed: a few written or printed example questions on a board, and a discussion of
+    why each is a topic, a question, or a researchable question, is enough to run this step.
+- title: "Question-storm the shared challenge"
+  duration: "8-12 min"
+  guidance: |
+    Groups generate as many questions about the shared challenge as they can, from different angles: who
+    is affected, what causes it, where and when it shows up, what already works. Push for quantity first
+    and hold back judgement, since the range is what a good final question is chosen from. Prompt learners
+    to write questions about the specific factors that seem to drive the challenge, not just the topic.
+  keyPrompts:
+  - "What do you genuinely not know about this challenge that research could tell you?"
+  - "Which people, causes or conditions behind this challenge could each become its own question?"
+  - "Can you ask the same question from a different angle to get a sharper one?"
+  watchOuts:
+  - "Groups write two or three safe questions and stop; set a target number and a short time limit so they push past the obvious into the interesting."
+- title: "Sort questions from broad to researchable"
+  duration: "8-12 min"
+  guidance: |
+    Groups lay their questions out and sort them from broad to focused. For the most promising, they test
+    scope: is it narrow enough to answer, wide enough to need real evidence, and possible with the time,
+    people and access they have? Rewrite the near-misses. This is where a vague topic becomes a question
+    an investigation could actually finish.
+  keyPrompts:
+  - "Is this question narrow enough to answer, but not so narrow it only needs a yes or no?"
+  - "With the time and access you actually have, which of these could you realistically investigate?"
+  - "What would you need to change to turn this broad question into a researchable one?"
+  watchOuts:
+  - "Learners keep a question they love but cannot resource; be honest that an unanswerable question stalls the whole project, and help them rescope it rather than abandon their interest."
+- title: "Choose and stress-test your question"
+  duration: "6-10 min"
+  guidance: |
+    Each group chooses the one question they will investigate and stress-tests it aloud: what it is really
+    asking, what evidence would answer it, and why it matters for the challenge. Naming the evidence up
+    front is the check that the question is researchable, and it hands the next stage, planning research, a
+    deliberate starting point rather than a random one.
+  keyPrompts:
+  - "In one sentence, what is this question actually asking, and what evidence would answer it?"
+  - "Why is this the question worth investigating for the challenge and the people it affects?"
+  - "Is anyone in the group still unclear what a finished answer to this would look like?"
+  watchOuts:
+  - "A group picks a question no one can say how to answer; make them name at least one source or method that would produce evidence before the question is confirmed."
+closing: |
+  Have each group read out the question they will investigate and one line on the evidence that would
+  answer it. Point out that a sharp, researchable question is what makes the rest of the project possible:
+  it is the reference point every research decision from here will be measured against, and it can be
+  revisited if the evidence pushes back.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Choosing what to investigate is the first act of agency in a research project: learners decide which
+    part of a shared community challenge is worth understanding better. A well-framed question keeps the
+    investigation aimed at evidence the community can actually use, so the work contributes real
+    understanding rather than restating what is already assumed.
+principlesForegrounded:
+- authentic-challenges
+- lifeworthy-competencies
+- feedback-and-data
+principleAlignment:
+- principle: authentic-challenges
+  how: >-
+    The question is framed from a real challenge in the learners' own context, not a hypothetical brief,
+    so the investigation starts from something that genuinely matters to them and produces evidence that
+    could inform real action in their community.
+- principle: lifeworthy-competencies
+  how: >-
+    Turning a broad concern into a focused, answerable question is a transferable research and thinking
+    skill learners will reuse well beyond this project, whenever they need to investigate something rather
+    than accept an assumption about it.
+- principle: feedback-and-data
+  how: >-
+    Learners test each candidate question against what evidence could actually answer it and what data
+    they can realistically reach, so the question is shaped by feasibility and evidence from the start
+    rather than chosen and then found to be unresearchable.
+competencyCodes:
+- FSI1
+- FPS3
+competencyDevelopment:
+- code: FSI1
+  how: >-
+    Framing a broad challenge into a clear, researchable question is the starting move of investigating a
+    real-world issue; the question each group produces, and their account of the evidence that would
+    answer it, is the first, foundational evidence of FSI1.
+- code: FPS3
+  how: >-
+    Choosing which part of the challenge to investigate means singling out a specific contributing factor
+    from the many at play and asking a question about it, which is direct early practice in identifying
+    the factors behind a real-world challenge.
+objectiveIds:
+- research-project--o1
+relatedSlugs:
+- rp-planning-your-research
+- dc-defining-the-problem
+sourceRefs:
+- research-project.yaml
+provenanceNote: >-
+  Authored (no source guide) from Research Project objective 1, which asks learners to frame a real-world
+  challenge into a clear, researchable focus. Written generically for the Learning Bridge Research
+  Project so it fits any shared challenge a cohort investigates, drawing on the objective's supported
+  steps (narrowing a broad challenge into a researchable question) and its topic / question /
+  researchable-question and question-storming activities. Linked to Research Project objective 1.

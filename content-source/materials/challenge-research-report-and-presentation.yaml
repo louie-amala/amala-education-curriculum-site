@@ -221,7 +221,7 @@ competencyDevelopment:
       Every piece of evidence is broken down to one idea per note and marked with where it came
       from, so the whole body of research can be sorted, re-sorted and traced back. That organised,
       traceable set is what makes citing sources in the final product possible at all.
-objectiveIds: [social-entrepreneurship--o1]
+objectiveIds: [social-entrepreneurship--o1, research-project--o3, research-project--o4]
 relatedSlugs: [affinity-mapping, iceberg-model, stakeholder-community-mapping, community-mapping-and-empathy-interviews, evidence-log-and-source-evaluation]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-

@@ -1,0 +1,163 @@
+id: "ail-seeking-and-using-feedback"
+slug: "ail-seeking-and-using-feedback"
+access: "public"
+type: "activity"
+title: "Seeking and using feedback"
+summary: "Learners practise asking for specific feedback, receiving it without getting defensive, judging which of it is useful, and turning what they keep into a concrete next step."
+facilitationContext:
+- "group"
+- "one-to-one-mentoring"
+- "independent"
+primaryContext: "group"
+deliveryAdaptations:
+- context: "group"
+  how: >-
+    As designed. Learners make a specific feedback request, swap work with a partner, then decide
+    what to act on. The paired exchange matters, because practising receiving feedback from a real
+    person, out loud, is what builds the habit of not defending, so keep the pairing even if you
+    shorten the framing.
+- context: "one-to-one-mentoring"
+  how: >-
+    A strong fit. The mentor gives real feedback on the learner's actual work and, just as
+    importantly, coaches how the learner receives it. Ask the learner to bring a specific request
+    rather than "what do you think?", so the session practises seeking feedback, not just hearing it.
+- context: "independent"
+  how: >-
+    Workable but weaker, because a learner alone cannot practise receiving feedback in the moment.
+    Give them the request template and the "keep, park, discard" filter, and ask them to send one
+    specific request to a peer or mentor and record how they responded to what came back.
+duration: "35-45 min facilitated"
+grouping: "Individual preparation, then pairs; works with 10-35 learners"
+whatLearnersDo:
+- "Look at the difference between a vague request for feedback and a specific, useful one."
+- "Write one specific feedback request about a real piece of your work or a goal."
+- "Receive feedback from a partner, listening to understand before you respond."
+- "Sort the feedback into keep, park, and discard, and decide one thing to act on."
+materialsAndPreparation:
+- "A real piece of the learner's work, a draft, or a current goal to seek feedback on."
+- "A few paired examples of a vague feedback request and the same request made specific, adapted to your context."
+- "A simple keep, park, discard filter (printed, on a board, or copied into the journal)."
+facilitationNotes: |
+  Feedback only helps a learner who asks for it well and can hear it without defending. The one thing
+  to get right is the shift from feedback as judgement to feedback as data the learner controls: they
+  choose what to ask about, and they decide what to act on. Protect that. Do not let peers grade each
+  other, and do not force a learner to accept every comment. The hardest moment is the first sting of
+  criticism; name it openly so learners expect it and can breathe through it rather than argue back.
+steps:
+- title: "Tell a vague request from a specific one"
+  duration: "6-8 min"
+  guidance: |
+    Open by contrasting a vague request ("is this good?") with a specific one ("does my second
+    paragraph actually answer the question?"). Draw out why the specific request gets useful feedback:
+    it tells the other person where to look and what you are working on. Keep this short; the point is
+    a frame before learners write their own request.
+  keyPrompts:
+  - "What is the difference between asking 'is this good?' and asking about one specific thing?"
+  - "What is the one part of your work you most want another pair of eyes on?"
+  - "Who is the right person to ask, and what could they actually help you see?"
+  watchOuts:
+  - "Learners default to 'what do you think?'; push them to name the one specific thing they want feedback on, since a vague request nearly always returns vague, unusable feedback."
+  adaptation: |
+    With no board or slides, two spoken examples and the single rule (ask about one specific thing)
+    said aloud are enough. No device is needed.
+- title: "Write your feedback request"
+  duration: "8-10 min"
+  guidance: |
+    Give learners quiet time to write one specific feedback request about a real piece of their work
+    or a current goal. Circulate and ask, rather than tell: what are you trying to do here, and where
+    are you unsure? Steer them from broad approval-seeking towards a genuine question they do not yet
+    know the answer to. One sharp request is plenty.
+  keyPrompts:
+  - "What were you trying to achieve with this piece, and where did it get hard?"
+  - "What would you do differently if a good answer came back?"
+  - "Is your request specific enough that someone could answer it without guessing?"
+  watchOuts:
+  - "A learner asks only for praise; reassure them that useful feedback names what could be better, and that asking for it is a strength, not an admission of failure."
+  adaptation: |
+    If the journal is not to hand, learners write the request on paper and copy it in later. The task
+    does not need a device.
+- title: "Receive feedback without defending"
+  duration: "12-15 min"
+  guidance: |
+    Pair learners to exchange work and answer each other's request. Coach the receiver explicitly:
+    listen to understand, ask a clarifying question, and thank the giver before responding. Name the
+    urge to explain or defend and ask them to hold it. The giver stays kind and specific. This is the
+    heart of the activity, so give it the most time.
+  keyPrompts:
+  - "What did you hear the feedback actually saying, before you decide whether you agree?"
+  - "What is one clarifying question that would help you understand the comment better?"
+  - "Did you notice the urge to defend, and could you let it pass and keep listening?"
+  watchOuts:
+  - "A learner argues with or explains away every comment; remind them they do not have to accept it yet, only understand it, and that judging its usefulness comes next, not now."
+  - "A giver softens feedback into meaningless praise; ask them to name one specific thing that worked and one that could be stronger, so the receiver has something real to work with."
+- title: "Sort the feedback and choose one action"
+  duration: "8-10 min"
+  guidance: |
+    Now hand judgement back to the learner. Have each learner sort what they received into keep (act
+    on now), park (worth considering later), and discard (does not fit their goal). Then pick one
+    piece of kept feedback and turn it into a concrete next step. This is where feedback becomes the
+    learner's tool rather than someone else's verdict.
+  keyPrompts:
+  - "Which feedback fits what you are actually trying to do, and which does not?"
+  - "What makes a piece of feedback worth acting on rather than parking?"
+  - "What is the one change you will make, and when?"
+  watchOuts:
+  - "A learner tries to act on everything at once; help them choose one change that matters most, since a single acted-on comment beats a long list they never touch."
+closing: |
+  Ask two or three learners to share the one change they will make and the feedback that prompted it.
+  Draw out that they, not the giver, decided what to keep. Remind learners that seeking feedback is a
+  habit they can run themselves: a specific request, an open ear, and one deliberate change is a loop
+  they now know how to repeat.
+agencyContribution:
+  indicators:
+  - "power-over-wellbeing-and-self-direction"
+  how: >-
+    Feedback stops being a verdict handed down and becomes data the learner asks for and controls.
+    Choosing what to seek feedback on, and deciding what to act on, keeps direction of their own
+    growth in the learner's hands, which is what lets them keep improving without waiting to be judged.
+principlesForegrounded:
+- "feedback-and-data"
+- "collaboration"
+- "recognise-communicate-growth"
+principleAlignment:
+- principle: "feedback-and-data"
+  how: >-
+    The whole activity treats feedback as data a learner gathers and filters, not a grade: they make a
+    specific request, then sort what comes back into keep, park and discard and act on it, so evidence
+    from others drives a deliberate change.
+- principle: "collaboration"
+  how: >-
+    Learners give and receive real feedback on each other's work, so a learner's improvement is
+    powered by a peer's perspective they could not reach alone, and the giver practises being useful
+    and kind rather than judgemental.
+- principle: "recognise-communicate-growth"
+  how: >-
+    Making a specific request forces learners to name where they are and what they want to improve,
+    and acting on the feedback turns that into a visible next step, which is the recognise-and-communicate
+    habit this component builds.
+competencyCodes:
+- "ASL1"
+- "FSL1"
+competencyDevelopment:
+- code: "ASL1"
+  how: >-
+    Asking for specific feedback, receiving it without defending, and then judging which of it is
+    relevant before acting is the whole of using feedback; the keep, park, discard sort and the chosen
+    change are the evidence a learner can assess feedback and apply what is useful.
+- code: "FSL1"
+  how: >-
+    Writing a request that names what they were trying to do and where they are unsure, and honestly
+    weighing feedback against their own goal, requires learners to reflect on their own work, which
+    develops self-reflection.
+objectiveIds:
+- "agency-in-learning--o4"
+relatedSlugs:
+- "ail-reflecting-on-your-growth"
+- "ail-keeping-a-learning-journal"
+sourceRefs:
+- "agency-in-learning.yaml"
+provenanceNote: >-
+  Authored (no source activity guide exists) from the Agency in Learning course objective 4 ("Track
+  progress, use feedback, and reflect on your growth") and its supportedTo detail, to give the Learning
+  Bridge Agency in Learning component a usable activity on seeking and using feedback. Linked to Agency
+  in Learning objective 4.

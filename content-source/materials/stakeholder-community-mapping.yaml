@@ -75,7 +75,7 @@ competencyDevelopment:
       The unknowns marked in a distinct colour in Take 1 set the research agenda, and Take 2 records
       what the investigation actually found. Holding the two versions of the map side by side is the
       clearest evidence of whether the research answered the questions the learner set themselves.
-objectiveIds: [social-entrepreneurship--o1]
+objectiveIds: [social-entrepreneurship--o1, research-project--o1]
 relatedSlugs: [iceberg-model, systems-thinking-iceberg-model, leverage-points, problem-tree]
 sourceRefs: ["planner-new.txt"]
 provenanceNote: Grounded in the 2025 course planner (Part 1.5 mapping the local ecosystem; Part 3.4 "Ecosystems Mapping Take 1"; "Affinity Mapping"; "Ecosystem Mapping Take 2").

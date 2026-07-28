@@ -1,0 +1,175 @@
+id: "rp-planning-your-research"
+slug: "rp-planning-your-research"
+access: "public"
+type: "activity"
+title: "Planning your research"
+summary: "Learners build a simple research plan: what they need to find out, which secondary and primary methods will get it, who and what they need, timescales, and how they will record what they gather."
+facilitationContext:
+- "group"
+- "one-to-one-mentoring"
+- "independent"
+primaryContext: "group"
+deliveryAdaptations:
+- context: "group"
+  how: >-
+    As designed. Learners draft a plan alone, then compare in small groups. The comparison is where
+    much of the value sits, because peers spot a missing method, an unrealistic timescale or a source
+    a learner had not thought of, so keep the sharing step even if you shorten the drafting.
+- context: "one-to-one-mentoring"
+  how: >-
+    A strong fit for pressure-testing feasibility. A mentor walks through the learner's specific plan
+    and asks whether the chosen methods will actually answer their question in the time they have, but
+    the learner loses the range of ideas a group of peers surfaces, so ask them to draft fully first.
+- context: "independent"
+  how: >-
+    Workable for drafting, weaker for reality-checking. A learner alone tends to underestimate what
+    each method costs in time and access; have them complete the plan and then walk one other person
+    through it before they commit, noting any gap that person points out.
+duration: "30-40 min facilitated"
+grouping: "Individual drafting, then breakout groups of 3-5; works with 10-35 learners"
+whatLearnersDo:
+- "List what you still need to find out about the challenge, drawn from your research question."
+- "Decide which secondary and primary methods will answer each thing you need to know."
+- "Work out who and what you will need, and a realistic timescale for gathering it."
+- "Agree how you will record and organise what you gather, so nothing is lost."
+- "Compare your plan with peers and adjust anything that will not work in the time you have."
+materialsAndPreparation:
+- "Each learner's research question or focus from the previous stage, to plan against."
+- "A simple planning template or headings (what to find out, method, who/what needed, when, how recorded), on paper or digital."
+- "A shared surface for each breakout group to compare plans, and a nominated scribe per group."
+- "If the method-specific materials (surveys, interviews, secondary methods) are available, have them to hand so learners can slot the right method into their plan."
+facilitationNotes: |
+  A research plan turns a good question into work a learner can actually do. The one thing to get
+  right is that the plan is driven by what each learner needs to find out, not by a method they like
+  the sound of: method follows question, never the other way round. Keep it practical and modest.
+  A first plan that names two or three things to find out, a fitting method for each, who and what is
+  needed, a rough timescale and a way to record data is worth far more than an ambitious plan that
+  never survives contact with a real week. Push for realism about time and access above all.
+steps:
+- title: "List what you still need to find out"
+  duration: "7-10 min"
+  guidance: |
+    Start from each learner's research question and have them list the specific things they still do
+    not know and must find out to answer it. Keep the list short and concrete. This is the spine of
+    the plan: every method they choose later has to earn its place by answering one of these, so a
+    vague or endless list here produces an unfocused plan.
+  keyPrompts:
+  - "What do you need to know to answer your research question that you do not know yet?"
+  - "Which of these are the two or three things you most need to find out?"
+  - "Is each of these something research could actually answer, rather than an opinion?"
+  watchOuts:
+  - "Learners list everything interesting about the topic rather than what their question needs; steer them back to the question and cap the list at a handful of genuine unknowns."
+  adaptation: |
+    No connectivity or devices needed: learners write their question at the top of a sheet and list
+    what they need to find out underneath. Paper is enough.
+- title: "Match a method to each thing you need to find out"
+  duration: "8-12 min"
+  guidance: |
+    For each unknown, learners decide whether secondary research (what others have already found) or
+    primary research (interviews, a survey, observation) will answer it, and often that they should
+    check secondary sources first. Point them to the method-specific materials where they exist. The
+    aim is a clear pairing of question to method, so no method is chosen without a reason.
+  keyPrompts:
+  - "For this thing you need to find out, would existing sources answer it, or do you need to ask people yourself?"
+  - "Which of these could you answer with secondary research before you go out and gather your own?"
+  - "Why is this method the right one for this particular question?"
+  watchOuts:
+  - "Learners pick a method they like, such as running a survey, and then look for questions to fit it; insist the method follows from what they need to find out, not the reverse."
+- title: "Work out who and what you need, and when"
+  duration: "8-10 min"
+  guidance: |
+    Learners turn each method into a practical requirement: who they need to reach, what materials or
+    access it takes, and a realistic timescale for gathering it within the weeks they have. This is
+    where over-ambition surfaces. A plan to interview twelve people in three days is where you gently
+    apply the brake, so the plan matches the real time and access a learner has.
+  keyPrompts:
+  - "Who and what do you need to carry out each method, and can you actually reach them?"
+  - "How long will each part really take, and does it fit the time you have?"
+  - "If you could only do half of this, which half would you keep?"
+  watchOuts:
+  - "Learners plan more than any week could hold; help them cut to a feasible core rather than let them discover the gap mid-fieldwork, when it is too late to adjust."
+- title: "Decide how you will record what you gather"
+  duration: "5-8 min"
+  guidance: |
+    Before any fieldwork, learners agree how they will record and organise what they gather, so data
+    is not lost or muddled: a notebook or shared document, headings or a simple table, one place per
+    method. This small step is what makes the later analysis stage possible, because scattered notes
+    across phones and scraps cannot be organised or trusted afterwards.
+  keyPrompts:
+  - "Where exactly will you write down what each interview or source tells you?"
+  - "How will you keep one method's data separate and findable from another's?"
+  - "How will you record where a piece of evidence came from, so you can check it later?"
+  watchOuts:
+  - "Learners treat recording as an afterthought and plan to remember it; make them name a concrete place and format now, because data not captured at the moment is usually lost."
+- title: "Compare plans and adjust"
+  duration: "5-8 min"
+  guidance: |
+    In small groups, learners walk each other through their plans and look for what will not work: a
+    missing method, an unrealistic timescale, a source someone else knows. The scribe notes at least
+    one improvement per member. Peers routinely catch feasibility problems the author cannot see,
+    which makes this the cheapest reality-check the plan will get.
+  keyPrompts:
+  - "Looking at this plan, is there anything that will not fit in the time available?"
+  - "Is there a method or source you would add or swap, and why?"
+  - "What is one change you will make to your own plan after hearing the others?"
+  watchOuts:
+  - "Groups praise each plan without testing it; ask each listener to name one thing that could go wrong or one improvement, so the comparison actually strengthens the plans."
+closing: |
+  Each learner leaves with a plan they can act on: what they will find out, how, with whom, by when,
+  and how they will record it. Remind them a plan is a working document, not a contract, and that they
+  should revisit it as their research teaches them what was realistic and what was not.
+agencyContribution:
+  indicators:
+  - "contribution-to-community"
+  how: >-
+    A realistic plan is what turns a learner's concern for a community challenge into evidence they
+    can actually gather. By deciding for themselves what to find out and how, learners take ownership
+    of an investigation whose findings can inform real action, rather than depending on assumption or
+    on research someone else designs for them.
+principlesForegrounded:
+- "lifeworthy-competencies"
+- "responsible-action"
+- "feedback-and-data"
+principleAlignment:
+- principle: "lifeworthy-competencies"
+  how: >-
+    Planning an investigation backwards from what you need to find out, then matching methods, people
+    and time to it, is a transferable planning and research skill learners will reuse whenever they
+    have to turn a question into a piece of work, well beyond this project.
+- principle: "responsible-action"
+  how: >-
+    Deciding in advance who they will need to reach and how long it will take makes learners plan
+    research they can carry out properly and considerately, rather than approaching participants
+    without preparation or abandoning a study half-finished.
+- principle: "feedback-and-data"
+  how: >-
+    The plan makes deliberate choices about which data to gather and, crucially, how it will be
+    recorded and organised, so the evidence learners collect is usable and trustworthy at the analysis
+    stage rather than scattered and lost.
+competencyCodes:
+- "FSI1"
+- "FTS3"
+competencyDevelopment:
+- code: "FSI1"
+  how: >-
+    Deciding what to investigate and choosing primary and secondary methods to answer it is the
+    planning core of investigating a real-world issue; the research plan a learner produces is direct
+    evidence they can scope and design an investigation rather than only carry out steps set for them.
+- code: "FTS3"
+  how: >-
+    Choosing which data to gather from which sources, and deciding in advance how it will be recorded
+    and kept organised by method, is direct practice in gathering and organising data; the plan's
+    recording scheme is what makes systematic data collection possible.
+objectiveIds:
+- "research-project--o2"
+relatedSlugs:
+- "rp-choosing-a-research-question"
+- "dc-secondary-research-methods"
+- "dc-designing-survey-questions"
+sourceRefs:
+- "research-project.yaml"
+provenanceNote: >-
+  Authored from Research Project objective 2 (plan and conduct ethical primary and secondary research),
+  with no source activity guide. Written as a generic planning activity that pulls the method-specific
+  materials (surveys, interviews, secondary methods) into one simple research plan. Linked to Research
+  Project objective 2 and to competencies FSI1 and FTS3.

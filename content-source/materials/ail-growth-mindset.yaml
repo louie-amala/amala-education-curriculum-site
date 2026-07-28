@@ -1,0 +1,164 @@
+id: "ail-growth-mindset"
+slug: "ail-growth-mindset"
+access: "public"
+type: "activity"
+title: "Growing your abilities: a growth mindset"
+summary: "Learners explore the idea that abilities grow with effort, strategy and help, so they treat difficulty and mistakes as part of learning rather than proof they cannot do something."
+facilitationContext:
+- "group"
+- "one-to-one-mentoring"
+- "independent"
+primaryContext: "group"
+deliveryAdaptations:
+- context: "group"
+  how: >-
+    As designed. Learners reflect alone on a personal example, then hear how others have grown at
+    something hard. The sharing matters, because hearing a peer describe struggling and then improving
+    is what makes "abilities can grow" believable rather than a slogan, so keep the share even if you
+    shorten the opening discussion.
+- context: "one-to-one-mentoring"
+  how: >-
+    A strong fit for an honest conversation. A mentor can gently surface where a learner has written
+    themselves off ("I am just bad at maths") and walk back through a real example of them getting
+    better at something, which is more persuasive one to one than in a group.
+- context: "independent"
+  how: >-
+    Workable but weaker, because a learner alone misses hearing others describe their own struggles,
+    which is what normalises difficulty. Give them the reflection prompts and the fixed-versus-growth
+    examples, and ask them to tell one person about a time they got better at something hard.
+duration: "35-45 min facilitated, plus the journal task"
+grouping: "Individual reflection, then pairs or small groups; works with 10-35 learners"
+whatLearnersDo:
+- "Look at the difference between thinking an ability is fixed and thinking it can grow."
+- "Recall a time you got better at something that was hard for you at first."
+- "Name what actually helped you improve: effort, a different strategy, or help from someone."
+- "Reframe one thing you believe you cannot do, and decide a next step to try."
+materialsAndPreparation:
+- "The learner's journal or a simple reflection sheet (printed or digital)."
+- "A few paired examples of a fixed statement and the same thing said as a growth statement, adapted to your context."
+- "Your own honest example of something you were bad at and then improved at, to model before learners reflect."
+facilitationNotes: |
+  This activity underpins the whole course: a learner who believes ability is fixed will not set a
+  goal to grow. The one thing to get right is that the shift is grounded in the learner's own real
+  example of improving, not in being told to think positively. A growth mindset is not pretending
+  everything is easy; it is treating difficulty and mistakes as information about what to try next.
+  Watch your own language too, praising effort and strategy rather than being "clever", since learners
+  read how you talk about ability. Keep it honest: some things are genuinely hard, and that is the point.
+steps:
+- title: "Tell a fixed belief from a growth belief"
+  duration: "8-10 min"
+  guidance: |
+    Open by contrasting a fixed statement ("I am just not a maths person") with a growth one ("I
+    cannot do this yet, but I can get better with practice and help"). Draw out the difference: the
+    first treats an ability as a fixed fact, the second treats it as something that grows with effort,
+    strategy and support. Keep it short; the point is a frame before learners reflect on themselves.
+  keyPrompts:
+  - "What is the difference between saying you cannot do something and saying you cannot do it yet?"
+  - "Where do beliefs like I am just bad at this come from, and are they always true?"
+  - "If an ability can grow, what does that change about how you treat a mistake?"
+  watchOuts:
+  - "A growth mindset gets flattened into empty positivity; make clear it does not mean everything is easy or that effort alone always wins, only that ability can grow with the right effort, strategy and help."
+  adaptation: |
+    With no board or slides, two spoken examples and the single word "yet" written on paper are
+    enough to carry this step.
+- title: "Recall a time you grew at something hard"
+  duration: "12-15 min"
+  guidance: |
+    Give learners quiet time to recall one thing they are now decent at that was genuinely hard at
+    first, and to write in their journal how they got better. Circulate and ask rather than tell.
+    The aim is for each learner to find their own evidence that ability grows, because their own
+    story is far more convincing than any example you could give them.
+  keyPrompts:
+  - "What is something you can do now that felt impossible when you started?"
+  - "What actually helped you improve: more practice, a different approach, or someone's help?"
+  - "How did you feel when it was still hard, and what kept you going?"
+  watchOuts:
+  - "A learner insists they have never improved at anything; start smaller, walking them back to an everyday skill like a language, a game or a chore, since everyone has grown at something even if they discount it."
+  adaptation: |
+    If the journal is not to hand, learners note their example on paper, or simply hold it in mind to
+    tell a partner in the next step. No device is needed.
+- title: "Name what made the growth possible"
+  duration: "8-10 min"
+  guidance: |
+    Have learners share their example with a partner or small group and, together, name what made the
+    improvement happen: effort, a change of strategy, feedback, or help from someone. Pull these onto
+    a shared list. The point is to show that growth is not luck or fixed talent but the result of
+    things a learner can actually choose to do again.
+  keyPrompts:
+  - "Across your examples, what keeps coming up as the thing that helped you improve?"
+  - "Which of those could you choose to do on purpose next time something is hard?"
+  - "What did struggling teach you that getting it right first time would not have?"
+  watchOuts:
+  - "The group credits improvement to natural talent, which quietly rebuilds the fixed belief; steer them back to the effort, strategies and help they named, since those are what they can repeat."
+- title: "Reframe one thing you cannot do yet"
+  duration: "8-10 min"
+  guidance: |
+    Move from the past to the present. Ask each learner to name one thing they currently believe they
+    cannot do, rewrite it as a "not yet" statement in their journal, and decide one small step to try,
+    such as a strategy to change or a person to ask. Close by having a few learners read their reframe
+    aloud, so the shift is witnessed and made real.
+  keyPrompts:
+  - "What is one thing you have written yourself off as unable to do?"
+  - "How would you say that same thing if you believed it could still grow?"
+  - "What is one small step, or one person to ask, that would move you forward on it?"
+  watchOuts:
+  - "A reframe stays a slogan with no action behind it; insist each learner leaves with one concrete, small step to try, so the new belief is backed by something they will actually do."
+closing: |
+  Ask two or three learners to share their "not yet" reframe and their first step. Draw out that
+  believing ability can grow is the ground everything else in this course stands on: there is no
+  point setting a goal to improve if you secretly think you cannot. Remind learners the reframes live
+  in the journal and can be revisited as they prove themselves wrong.
+agencyContribution:
+  indicators:
+  - "power-over-wellbeing-and-self-direction"
+  how: >-
+    Believing your abilities can grow is what makes self-direction possible: a learner who thinks
+    ability is fixed has no reason to try, while one who sees difficulty as part of learning can take
+    charge of their own growth. This shift gives learners power over how they respond to struggle and
+    setback, rather than being ruled by a verdict they have accepted about themselves.
+principlesForegrounded:
+- "lifeworthy-competencies"
+- "recognise-communicate-growth"
+- "safe-spaces"
+principleAlignment:
+- principle: "lifeworthy-competencies"
+  how: >-
+    A growth mindset is a habit of mind learners will reuse across study, work and life: treating
+    difficulty as information about what to try next, rather than proof of a fixed limit, is what lets
+    a person keep learning long after this course ends.
+- principle: "recognise-communicate-growth"
+  how: >-
+    Learners recognise their own growth by mining a real example of getting better at something hard,
+    and communicate it to a partner, which both proves the idea to them and builds the habit of
+    noticing and naming their own progress.
+- principle: "safe-spaces"
+  how: >-
+    The activity asks learners to admit things they find hard and where they have written themselves
+    off, so it depends on a space where struggle and mistakes are normal and safe to name; the
+    facilitator models this by sharing their own honest example first.
+competencyCodes:
+- "FSL1"
+- "FPS1"
+competencyDevelopment:
+- code: "FSL1"
+  how: >-
+    Examining their own beliefs about their ability, and reflecting honestly on how they have grown at
+    something hard, is direct practice in self-reflection; the journal reframe is the evidence a
+    learner can look at their own thinking and revise it.
+- code: "FPS1"
+  how: >-
+    Reframing a fixed belief as a "not yet" and treating a mistake as information about what to try
+    next is exactly adaptable thinking: learners practise changing their approach in response to
+    difficulty rather than concluding they cannot do it.
+objectiveIds:
+- "agency-in-learning--o1"
+relatedSlugs:
+- "ail-strengths-and-areas-to-grow"
+- "ail-seeking-and-using-feedback"
+sourceRefs:
+- "agency-in-learning.yaml"
+provenanceNote: >-
+  Authored (no source activity guide exists) from the Agency in Learning course objective 1
+  ("Understand yourself as a learner"), whose concepts name the difference between a fixed and a
+  growth view of one's own ability, to give the Learning Bridge Agency in Learning component a usable
+  activity on growth mindset. Linked to Agency in Learning objective 1.

@@ -1,0 +1,165 @@
+id: "ail-keeping-a-learning-journal"
+slug: "ail-keeping-a-learning-journal"
+access: "public"
+type: "activity"
+title: "Keeping a learning journal"
+summary: "Learners set up a simple learning journal and start a light, habitual routine for tracking progress against their goals and capturing reflections across the whole programme."
+facilitationContext:
+- "group"
+- "one-to-one-mentoring"
+- "independent"
+primaryContext: "group"
+deliveryAdaptations:
+- context: "group"
+  how: >-
+    As designed. Learners set up their journals together and try one short entry live, then agree a
+    shared rhythm for when they will write. The group setup matters, because seeing that everyone's
+    journal looks different, and that a two-line entry counts, removes the fear of doing it wrong, so
+    keep the live first entry even if you shorten the setup.
+- context: "one-to-one-mentoring"
+  how: >-
+    A strong fit. A mentor helps a learner choose a journal format they will actually keep and builds
+    the habit by opening each session with the journal. Have the learner bring their goals to the
+    first session so the journal is anchored to real goals from the start, not set up empty.
+- context: "independent"
+  how: >-
+    Workable, but a learner alone tends to let the habit lapse. Give them the format options and the
+    prompt list, ask them to pick a fixed trigger for writing (a set day, or straight after study),
+    and arrange one check-in with a peer or mentor within two weeks so the habit is witnessed early.
+duration: "25-35 min facilitated, plus the ongoing journal practice"
+grouping: "Individual setup with a live first entry; works with 10-35 learners"
+whatLearnersDo:
+- "Choose a journal format you will actually keep, on paper or a device."
+- "Set up your journal and link it to the learning goals you have set."
+- "Write one short first entry, using a simple prompt, so the blank page is broken."
+- "Agree a light routine: when you will write, and what a good-enough entry looks like."
+materialsAndPreparation:
+- "A notebook, or a simple digital document or app, one per learner, whatever they are most likely to keep."
+- "The learner's existing learning goals and milestones, to anchor the journal to."
+- "A short list of reflection prompts, printed or on a board, for learners to reuse each time."
+- "Your own honest example of a short journal entry, to show that two or three lines is enough."
+facilitationNotes: |
+  This journal is the spine the other Agency in Learning activities write into, so the one thing to
+  get right is that it is easy and habitual, not a chore. A journal a learner keeps for two lines a
+  week beats a beautiful one they abandon after a fortnight. Keep the format the learner's own choice,
+  keep entries short, and tie writing to a fixed trigger so it does not depend on remembering. Guard
+  against perfectionism above all: reassure learners there is no right way to journal, and that a
+  rough, honest note is worth far more than a polished entry that never gets written.
+steps:
+- title: "Choose a journal format you will keep"
+  duration: "6-8 min"
+  guidance: |
+    Open by explaining what the journal is for: a simple, private place to track progress against
+    goals and capture reflections over the whole programme. Show two or three format options, a
+    notebook, a phone note, a shared document, and let each learner pick the one they are most likely
+    to keep. The best format is the one that fits the learner's life, not the neatest one.
+  keyPrompts:
+  - "Where would you most realistically write, on paper or on a device?"
+  - "What has stopped you keeping a diary or notebook going before?"
+  - "Which format could you keep for the whole programme, not just this week?"
+  watchOuts:
+  - "Learners pick an impressive format they will not sustain; steer them to the simplest option they will actually reach for, since a kept journal beats a neat abandoned one."
+  adaptation: |
+    With no devices, a few stapled sheets or the back of an existing notebook works perfectly. The
+    format matters far less than the learner choosing it and being able to find it again.
+- title: "Set up your journal and anchor it to your goals"
+  duration: "6-8 min"
+  guidance: |
+    Have learners set up the first page: their name, the date, and a copy of the one or two goals and
+    milestones they have already set. Anchoring the journal to real goals is what makes later entries
+    meaningful, because they have something concrete to track progress against rather than a blank
+    diary. Keep the setup minimal so the journal feels light from the first page, not like admin.
+  keyPrompts:
+  - "Which of your goals and milestones do you want on the first page?"
+  - "How will you find your goals again quickly each time you write?"
+  - "What would tell you, in your journal, that you are moving towards a goal?"
+  watchOuts:
+  - "Learners spend the time decorating or over-structuring the setup; cap it firmly and move to writing, since the habit lives in the entries, not in an elaborate front page."
+- title: "Write one short first entry"
+  duration: "6-8 min"
+  guidance: |
+    Break the blank page immediately. Share your own two-line example, then give learners quiet time
+    to write one short entry using a simple prompt: what they worked on, and one thing they noticed.
+    The point is to prove that an entry can be quick and honest, so the journal never feels like a
+    task they have to steel themselves for. Reassure them no one else will read it unless they choose.
+  keyPrompts:
+  - "What is one thing you did towards a goal recently, however small?"
+  - "What went well, and what got in the way?"
+  - "What is one thing you want to remember or try next?"
+  watchOuts:
+  - "A learner freezes, feeling the entry must be long or impressive; tell them two honest lines is a complete entry, and model just how short a good-enough one can be."
+  adaptation: |
+    If time is very tight, learners write a single sentence against one prompt. One real entry made in
+    the room is worth more than a longer entry promised for later.
+- title: "Agree a light routine you can keep"
+  duration: "5-7 min"
+  guidance: |
+    Turn the one entry into a habit. Ask each learner to name a fixed trigger for writing, a set day,
+    or straight after each study session, and to agree what a good-enough entry looks like, so the bar
+    stays low. Tie the routine to something they already do so it does not depend on willpower or
+    memory. Confirm the journal will be revisited in the goal-setting and reflection activities to come.
+  keyPrompts:
+  - "When exactly will you write, and what will remind you?"
+  - "What is the smallest entry you would still count as done?"
+  - "Who could you show one entry to, so the habit does not slip quietly?"
+  watchOuts:
+  - "Learners set an over-ambitious routine, daily long entries, that collapses within a week; push for a small, realistic rhythm they can sustain, and make clear it can grow later if it works."
+closing: |
+  Ask two or three learners to share their chosen format and when they plan to write, not the content
+  of their entries, which stays private. Confirm the journal is a living practice the other Agency in
+  Learning activities will build on: goals go in it, progress is tracked in it, and growth is
+  reflected on from it. A kept journal is how a learner watches themselves direct their own learning.
+agencyContribution:
+  indicators:
+  - "power-over-wellbeing-and-self-direction"
+  how: >-
+    Keeping a journal a learner chooses and controls puts a private record of their own progress in
+    their hands, so they can steer their learning from evidence rather than a passing feeling. The
+    habit of noticing and recording their own growth is what lets a learner keep directing their own
+    development, and protecting their sense of progress, long after any single session ends.
+principlesForegrounded:
+- "recognise-communicate-growth"
+- "feedback-and-data"
+- "builds-on-identities"
+principleAlignment:
+- principle: "recognise-communicate-growth"
+  how: >-
+    The journal is the tool that makes a learner's growth visible over time; kept across the
+    programme, it becomes the running record they draw on to recognise and later communicate how far
+    they have come, which is the defining habit this component builds.
+- principle: "feedback-and-data"
+  how: >-
+    Each entry is a small piece of the learner's own progress data, tracked against their goals and
+    milestones, so that later reflection and adjustment rest on a real record of what happened rather
+    than a general impression.
+- principle: "builds-on-identities"
+  how: >-
+    Learners choose their own journal format and write in their own words about what matters to them,
+    so the practice is anchored in the learner's own life and habits rather than imposed as one fixed
+    template everyone must copy.
+competencyCodes:
+- "FSL1"
+- "FSL2"
+competencyDevelopment:
+- code: "FSL1"
+  how: >-
+    Writing regular short entries on what they did and noticed is direct, repeated practice in
+    self-reflection; the accumulated journal is the evidence a learner reflects on their own learning
+    as a habit rather than a one-off event.
+- code: "FSL2"
+  how: >-
+    Tracking progress against their own goals and milestones over time is the sustaining side of
+    setting and pursuing goals; the journal is the running record that shows deliberate steps taken,
+    not just goals named.
+objectiveIds:
+- "agency-in-learning--o4"
+relatedSlugs:
+- "ail-setting-your-goals"
+- "ail-reflecting-on-your-growth"
+sourceRefs:
+- "agency-in-learning.yaml"
+provenanceNote: >-
+  Authored (no source activity guide exists) from the Agency in Learning course objective 4 ("Track
+  progress, use feedback, and reflect on your growth") and its supportedTo detail, to give the
+  Learning Bridge Agency in Learning component the ongoing journal practice its other activities write
+  into. Linked to Agency in Learning objective 4.

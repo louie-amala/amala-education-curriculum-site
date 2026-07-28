@@ -1,0 +1,146 @@
+id: ail-setting-your-goals
+slug: ail-setting-your-goals
+access: public
+type: activity
+title: Setting your learning goals
+summary: Learners turn a vague sense of what they want into one or two clear, meaningful learning goals,
+  each broken into small milestones they can actually track.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners draft goals alone, then sharpen them with a partner. The peer step matters,
+    because saying a goal out loud and being asked "how would you know you had reached it?" is what
+    turns a wish into a goal, so keep the pairing even if you shorten the modelling.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor helps the learner make a goal specific and honest, and holds them gently
+    to it over time. Have the learner bring a rough goal to the session so the time goes on sharpening
+    a real one, not starting from blank.
+- context: independent
+  how: >-
+    Workable, but a learner alone tends to leave goals vague. Give them the "vague versus clear"
+    examples and a checklist, and ask them to share at least one goal with a peer or mentor for a
+    sense-check before they commit to it.
+duration: 35-45 min facilitated, plus the journal task
+grouping: Individual drafting, then pairs; works with 10-35 learners
+whatLearnersDo:
+- Look at the difference between a vague wish and a clear, specific goal.
+- Draft one or two learning goals in your journal, connected to what matters to you.
+- Break each goal into a few smaller milestones you can track.
+- Sharpen your goals with a partner, then commit to a first small step.
+materialsAndPreparation:
+- The learner's journal or a simple goal-setting sheet (printed or digital).
+- A few paired examples of a vague wish and the same thing written as a clear goal, adapted to your context.
+- Your own honest example of a learning goal and its milestones, to model before learners draft.
+facilitationNotes: |
+  A clear goal is the difference between hoping to improve and actually steering your own learning.
+  The one thing to get right is that the goals are the learner's own and genuinely matter to them: a
+  goal set to please you will not be pursued. Keep goals small and honest rather than grand. Two
+  clear, achievable goals a learner cares about will do far more than a long list of impressive ones
+  they quietly abandon. Resist tidying their goals into your words.
+steps:
+- title: Tell a vague wish from a clear goal
+  duration: 8-10 min
+  guidance: |
+    Open by contrasting a vague wish ("get better at English") with a clear goal ("be able to give a
+    two-minute spoken introduction about myself by the end of the month"). Draw out what makes the
+    second one workable: it is specific, you could tell when you had reached it, and it is within
+    reach. Keep this short; the point is a frame before learners draft.
+  keyPrompts:
+  - What is the difference between wanting something and having a goal for it?
+  - "How would you know you had reached this goal: what would you be able to do?"
+  - Is this goal something you could actually reach in the time you have?
+  watchOuts:
+  - Learners aim for huge, distant goals that cannot be tracked; help them cut a big ambition down to one clear, reachable goal for now, with the bigger dream noted for later.
+  adaptation: |
+    With no board or slides, two spoken examples and the three tests (specific, you can tell when you
+    reached it, within reach) written on paper are enough.
+- title: Draft goals that matter to you
+  duration: 12-15 min
+  guidance: |
+    Give learners quiet time to draft one or two learning goals in their journal. Circulate and ask,
+    rather than tell: what would you like to be able to do, and why does it matter to you? Steer them
+    towards goals connected to their own interests and future, not to what they think you want to
+    hear. One or two real goals is plenty.
+  keyPrompts:
+  - What would you like to be able to do that you cannot do yet?
+  - Why does this matter to you, and where might it lead?
+  - Which one or two goals do you most want to work on first?
+  watchOuts:
+  - A learner writes a goal to please you; reassure them there is no right answer and that a goal only works if they actually care about reaching it.
+  adaptation: |
+    If the journal is not to hand, learners draft on paper and copy the goals in later. No device is
+    needed.
+- title: Break each goal into milestones
+  duration: 10-12 min
+  guidance: |
+    Show learners how to break a goal into a few smaller milestones: the steps that show they are on
+    the way. Milestones make a goal feel possible and give something to track. Have each learner set
+    two or three milestones per goal, then, with a partner, sharpen each goal against the three tests
+    and pick one first step to take before the next session.
+  keyPrompts:
+  - What are two or three smaller steps that would show you are getting there?
+  - Which milestone could you reach first, and by when?
+  - What is the one small step you will take before we next meet?
+  watchOuts:
+  - Milestones are as vague as the goal; push for steps a learner could actually tick off, and make the first step small enough to be done this week.
+closing: |
+  Ask two or three learners to share one goal and its first step. Confirm the goals live in the
+  journal and are not fixed forever: they will be revisited, adjusted, and ticked off as learners
+  make progress. A goal on the page is the start of directing your own learning.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Setting your own clear, meaningful goals is the moment a learner takes the wheel of their own
+    growth rather than waiting to be told what to learn. Goals connected to what matters to them keep
+    the direction of their learning, and of the future it builds towards, in their own hands.
+principlesForegrounded:
+- connect-to-futures
+- builds-on-identities
+- recognise-communicate-growth
+principleAlignment:
+- principle: connect-to-futures
+  how: >-
+    Learners set goals tied to what they want to be able to do and where it might lead, so their
+    learning is explicitly connected to the future they are trying to build rather than to this
+    session alone.
+- principle: builds-on-identities
+  how: >-
+    Goals start from each learner's own interests and reasons, in their own words, and the facilitator
+    is warned off tidying them into someone else's language, so the work is anchored in the learner.
+- principle: recognise-communicate-growth
+  how: >-
+    Breaking goals into trackable milestones gives learners a way to recognise and later communicate
+    their own progress, which is the habit this whole component is building.
+competencyCodes:
+- FSL2
+- FSL1
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Turning a vague wish into a clear, specific, milestoned goal is the core of setting and pursuing
+    goals; the written goals and their first steps are the evidence a learner can establish objectives
+    for their own learning.
+- code: FSL1
+  how: >-
+    Choosing goals that genuinely matter to them, and being honest about what is within reach,
+    requires learners to reflect on where they are now and what they want, which develops self-reflection.
+objectiveIds:
+- agency-in-learning--o2
+relatedSlugs:
+- ail-what-makes-a-good-goal
+- ail-making-an-action-plan
+- ail-reflecting-on-your-growth
+sourceRefs:
+- agency-in-learning.yaml
+provenanceNote: >-
+  Authored (no source activity guide exists) from the Agency in Learning course objective 2 ("Set
+  clear, meaningful learning goals") and its supportedTo detail, to give the Learning Bridge Agency
+  in Learning component a usable goal-setting activity. Linked to Agency in Learning objective 2.

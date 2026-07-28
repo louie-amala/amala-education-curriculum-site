@@ -1,0 +1,151 @@
+id: "rp-writing-a-research-report"
+slug: "rp-writing-a-research-report"
+access: "public"
+type: "activity"
+title: "Writing up your findings"
+summary: "Learners structure and write a clear report of their research: the question they asked, what they did, what they found with evidence, and the actionable insights that follow."
+facilitationContext:
+- "group"
+- "one-to-one-mentoring"
+- "independent"
+primaryContext: "group"
+deliveryAdaptations:
+- context: "group"
+  how: >-
+    Works well. Learners draft their report individually, then swap with a partner to check that a
+    reader who was not there can follow the question, the evidence and the insight. The peer read is
+    the value: a report is written for someone else, so a fresh reader is the fastest test of whether
+    it is clear. Keep the swap even if you shorten the drafting time.
+- context: "one-to-one-mentoring"
+  how: >-
+    A strong fit for a learner who is close to finished. The mentor plays the intended reader and
+    presses on the weakest link, usually a claim that runs ahead of the evidence, so keep the mentor
+    reading as a reader rather than co-writing the report.
+- context: "independent"
+  how: >-
+    Workable, but a lone writer cannot see where their own report loses a reader. If a learner works
+    alone, have them draft against the structure, leave it for a day, then reread it as a stranger,
+    and get at least one other person to read it before it is final.
+duration: "40-55 min facilitated, plus independent drafting time"
+grouping: "Individual drafting, then pair reads; works with 10-35 learners"
+whatLearnersDo:
+- "Review a simple report structure: question, what you did, what you found, and your insights."
+- "Draft each section from your own evidence log and insights statement."
+- "Make sure every claim you make is backed by evidence you actually gathered."
+- "Swap with a partner and check a reader can follow your report without you explaining it."
+- "Sharpen your insights so they are clear, honest about limits, and point to action."
+materialsAndPreparation:
+- "Each learner's own research materials: their research question, evidence log or notes, and their insights statement from earlier."
+- "A simple report structure or template (question, method, findings, insights), adapted to your context and shared on paper or screen."
+- "A way to draft, whether a device, a notebook or paper, and a way to read a partner's draft."
+facilitationNotes: |
+  A research report is not a diary of everything a learner did, it is a clear account written for a
+  reader who was not there: here is the question, here is what I found, here is the evidence, and here
+  is what I think we should do about it. The one thing to get right is that every claim is anchored to
+  evidence the learner actually gathered, and that the report is honest about what the evidence does
+  not show. Keep pushing from "what I did" towards "what it means for the reader", because the point
+  of writing up findings is to make an insight someone else can act on.
+steps:
+- title: "Map the report onto a simple structure"
+  duration: "8-12 min"
+  guidance: |
+    Introduce a plain structure before anyone writes: the question, what you did to answer it, what
+    you found, and the insights that follow. Show a short worked example so the shape is concrete.
+    Keep it light. The structure is scaffolding to hang evidence on, not a form to fill in, so learners
+    should see how their own research maps onto each part before they draft.
+  keyPrompts:
+  - "In one sentence, what was your research question, and would a stranger understand it?"
+  - "Which part of your evidence belongs under what you found, and which is really your insight?"
+  - "What does a reader need to know first to make sense of the rest?"
+  watchOuts:
+  - "Learners write a chronological story of their week rather than a report; steer them back to the four parts and make clear a reader wants the findings, not a diary of the process."
+  adaptation: |
+    No connectivity or devices needed: write the four headings on a board or a sheet of paper and have
+    learners draft each section by hand under the matching heading.
+- title: "Draft the findings from your evidence"
+  duration: "15-20 min"
+  guidance: |
+    Give learners quiet time to draft the findings and insights sections from their evidence log and
+    insights statement. Circulate and ask, for each claim, "where is that in your evidence?". The aim
+    is a report where every statement about the challenge can be traced to something the learner
+    gathered, and where numbers, quotes or observations are used to support the point rather than to
+    decorate it.
+  keyPrompts:
+  - "For this sentence, what is the evidence, and can you point me to it in your notes?"
+  - "Is this a finding from your research, or an opinion you already held?"
+  - "What did you find that surprised you, and how sure are you about it?"
+  watchOuts:
+  - "A learner makes a strong claim the evidence does not support; ask them to either find the evidence or soften the claim, and treat naming the limits of the evidence as a strength, not a failure."
+- title: "Read as a stranger and sharpen the insight"
+  duration: "12-18 min"
+  guidance: |
+    Learners swap drafts with a partner who reads only what is on the page, without explanation, and
+    marks anywhere they get lost or unconvinced. Writers then use that read to sharpen, especially the
+    insights: are they clear, honest about limits, and pointed at something a reader could actually do?
+    This peer read is the closest a learner gets to their real audience before the report is finished.
+  keyPrompts:
+  - "As a reader, where did you get lost, and where did you stop believing the claim?"
+  - "Does each insight say what should happen next, or does it stop at what was found?"
+  - "If you did the research again, what would you tell the reader you would do differently?"
+  watchOuts:
+  - "Partners give only praise; ask each reader to name one place they got lost and one claim that needs more evidence, so the writer leaves with something concrete to fix."
+closing: |
+  Ask two or three learners to read out their sharpest insight and the evidence behind it. Point out
+  that a report others can read and act on is what turns their investigation into a contribution:
+  the research only helps the community once someone else can follow it. Learners keep the draft to
+  develop into their final research output.
+agencyContribution:
+  indicators:
+  - "contribution-to-community"
+  how: >-
+    Research only helps a community once someone else can understand and act on it. Writing findings
+    into a clear, honest report is how a learner turns private investigation into shared, usable
+    knowledge, so their evidence can inform decisions and action beyond themselves.
+principlesForegrounded:
+- "lifeworthy-competencies"
+- "recognise-communicate-growth"
+- "feedback-and-data"
+principleAlignment:
+- principle: "lifeworthy-competencies"
+  how: >-
+    Structuring evidence into a clear written account for a reader is a transferable communication and
+    reasoning skill learners will reuse across upper secondary study, work and any time they need to
+    make a case others can follow.
+- principle: "recognise-communicate-growth"
+  how: >-
+    The report is where a learner makes their findings and their growth as a researcher visible to
+    others, and the closing reflection on what they would do differently names how their understanding
+    and skill have developed through the investigation.
+- principle: "feedback-and-data"
+  how: >-
+    The peer read gives each writer direct feedback from a real reader on where the report loses or
+    fails to convince, and learners revise the report against that feedback rather than against their
+    own assumption that it is already clear.
+competencyCodes:
+- "FLC3"
+- "FSI1"
+competencyDevelopment:
+- code: "FLC3"
+  how: >-
+    Deciding what a reader needs, structuring findings so they land, and anchoring every claim to
+    evidence is direct practice in influential communication; the drafted report and the partner's
+    read of it are the evidence of that skill.
+- code: "FSI1"
+  how: >-
+    Communicating actionable insights is the closing move of investigating a real-world issue; writing
+    up findings so they are clear, evidence-based and honest about limits is how a learner demonstrates
+    that their inquiry produced insight others can trust and act on.
+objectiveIds:
+- "research-project--o4"
+relatedSlugs:
+- "rp-making-a-research-poster"
+- "dc-delivering-effective-presentations"
+- "challenge-research-report-and-presentation"
+sourceRefs:
+- "research-project.yaml"
+provenanceNote: >-
+  Authored from Research Project objective 4 (communicate findings and actionable insights to an
+  audience), which was thin on facilitation material. Written as a generic write-up activity that any
+  cohort investigating a shared challenge can use, structuring findings into a report anchored to the
+  learner's own evidence log and insights statement. Linked to Research Project objective 4 and
+  competencies FLC3 (influential communication) and FSI1 (investigate real-world issues).
