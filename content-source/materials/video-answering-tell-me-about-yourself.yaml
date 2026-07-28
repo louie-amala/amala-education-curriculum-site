@@ -1,0 +1,60 @@
+id: video-answering-tell-me-about-yourself
+slug: video-answering-tell-me-about-yourself
+access: public
+type: resource
+title: "Video: Answering 'Tell me about yourself'"
+summary: "A short video on how to answer the common interview opener 'Tell me about yourself', used with the interview-preparation activity."
+facilitationContext:
+- group
+- independent
+links:
+- label: "Watch: How to Answer 'Tell Me About Yourself'"
+  url: https://www.youtube.com/watch?v=eyehDPkAQRA
+  note: >-
+    External video (YouTube), in English.
+facilitationNotes: |
+  This video is a resource for the linked activity: learners watch it to learn how to answer the interview question 'Tell me about yourself', then
+  apply it to their own work. Treat it as an input to their practice, not the lesson itself, and keep
+  the focus on what each learner produces. Preview it first, and have a no-video fallback ready.
+learnerContent: |
+  Watch this video to learn how to answer the interview question 'Tell me about yourself', then use what you learn on your own work for the linked
+  activity. You can pause, rewatch, and turn on captions. The video is a starting point: your own
+  draft, and the feedback you get on it, are what make it stick.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Interviews are a gateway to many pathways; rehearsing a strong answer to a common question helps a learner walk in prepared rather than at the mercy of nerves.
+principlesForegrounded:
+- lifeworthy-competencies
+- recognise-communicate-growth
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Interview skills transfer across every future opportunity.
+- principle: recognise-communicate-growth
+  how: >-
+    Learners practise communicating who they are and what they offer.
+- principle: connect-to-futures
+  how: >-
+    It prepares learners for the real interviews their pathways will involve.
+competencyCodes:
+- FLC3
+- FSL1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    The video models a clear, confident spoken answer tailored to the opportunity.
+- code: FSL1
+  how: >-
+    Preparing the answer asks learners to reflect on and select from their own experience.
+objectiveIds:
+- pathways--o3
+relatedSlugs:
+- pathways-interview-tell-me-about-yourself
+sourceRefs:
+- "Pathways Programme - Activity Guides (embedded video link)"
+provenanceNote: >-
+  Video link extracted from the embedded hyperlink in the source Pathways activity guide. Modelled as
+  a reusable resource so the pathways-interview-tell-me-about-yourself activity can link to it.

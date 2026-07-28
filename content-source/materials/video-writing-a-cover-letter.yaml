@@ -1,0 +1,64 @@
+id: video-writing-a-cover-letter
+slug: video-writing-a-cover-letter
+access: public
+type: resource
+title: "Video: Writing a cover letter"
+summary: "Amala's own walkthrough video, with slides, on writing a high-impact cover letter tailored to an opportunity. It supports the Producing cover letters activity."
+facilitationContext:
+- group
+- independent
+links:
+- label: "Watch: Cover letter (Amala video)"
+  url: https://drive.google.com/file/d/1Igqja1-1JvcJtfL1bMnDxaNoYcIrWor8/view?usp=sharing
+  note: >-
+    Amala's own video, hosted on Google Drive. [to verify] Check access and download for low-bandwidth settings.
+- label: "Slides: Cover letter (PDF)"
+  url: https://drive.google.com/file/d/15e-BJ6wexxCGk5bzcUaZwzZ1LpScCbxI/view?usp=sharing
+  note: >-
+    The accompanying slides if you prefer to lead it live.
+facilitationNotes: |
+  This video is a resource for the linked activity: learners watch it to learn how to write a strong cover letter, then
+  apply it to their own work. Treat it as an input to their practice, not the lesson itself, and keep
+  the focus on what each learner produces. Preview it first, and have a no-video fallback ready.
+learnerContent: |
+  Watch this video to learn how to write a strong cover letter, then use what you learn on your own work for the linked
+  activity. You can pause, rewatch, and turn on captions. The video is a starting point: your own
+  draft, and the feedback you get on it, are what make it stick.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    A tailored cover letter is often what turns an application into an offer; the video gives learners the skill to make their case for a pathway they want.
+principlesForegrounded:
+- lifeworthy-competencies
+- connect-to-futures
+- feedback-and-data
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Writing cover letters is a transferable skill reused across every application.
+- principle: connect-to-futures
+  how: >-
+    It helps learners pursue the specific opportunities they are aiming for.
+- principle: feedback-and-data
+  how: >-
+    It pairs with drafting and feedback on a real letter.
+competencyCodes:
+- FLC3
+- FPS1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    The video models persuasive communication tailored to a specific reader and opportunity.
+- code: FPS1
+  how: >-
+    It shows how to adapt the same letter for different opportunities.
+objectiveIds:
+- pathways--o3
+relatedSlugs:
+- pathways-producing-cover-letters
+sourceRefs:
+- "Pathways Programme - Activity Guides (embedded video link)"
+provenanceNote: >-
+  Video link extracted from the embedded hyperlink in the source Pathways activity guide. Modelled as
+  a reusable resource so the pathways-producing-cover-letters activity can link to it.

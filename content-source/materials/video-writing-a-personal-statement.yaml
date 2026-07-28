@@ -1,0 +1,60 @@
+id: video-writing-a-personal-statement
+slug: video-writing-a-personal-statement
+access: public
+type: resource
+title: "Video: Writing a personal statement"
+summary: "A short video on how to write a strong university personal statement, used alongside the Producing a personal statement activity."
+facilitationContext:
+- group
+- independent
+links:
+- label: "Watch: How To Write A University Personal Statement"
+  url: https://www.youtube.com/watch?v=CwdgpdwVcRY
+  note: >-
+    External video (YouTube), in English. [to verify] Conventions vary by destination; check it fits where your learners are applying.
+facilitationNotes: |
+  This video is a resource for the linked activity: learners watch it to learn how to write a university personal statement, then
+  apply it to their own work. Treat it as an input to their practice, not the lesson itself, and keep
+  the focus on what each learner produces. Preview it first, and have a no-video fallback ready.
+learnerContent: |
+  Watch this video to learn how to write a university personal statement, then use what you learn on your own work for the linked
+  activity. You can pause, rewatch, and turn on captions. The video is a starting point: your own
+  draft, and the feedback you get on it, are what make it stick.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    A personal statement is how a learner argues, in their own voice, that an opportunity is right for them; the video gives them the tools to do it well.
+principlesForegrounded:
+- lifeworthy-competencies
+- recognise-communicate-growth
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Statement writing is a transferable application skill.
+- principle: recognise-communicate-growth
+  how: >-
+    Learners learn to recognise and communicate their own journey and strengths.
+- principle: connect-to-futures
+  how: >-
+    It supports applications to the futures learners are building.
+competencyCodes:
+- FLC3
+- FSL1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    The video models telling your story persuasively and connecting it to an opportunity.
+- code: FSL1
+  how: >-
+    Writing a personal statement asks learners to reflect on their own experience and motivation.
+objectiveIds:
+- pathways--o3
+relatedSlugs:
+- pathways-producing-a-personal-statement
+sourceRefs:
+- "Pathways Programme - Activity Guides (embedded video link)"
+provenanceNote: >-
+  Video link extracted from the embedded hyperlink in the source Pathways activity guide. Modelled as
+  a reusable resource so the pathways-producing-a-personal-statement activity can link to it.

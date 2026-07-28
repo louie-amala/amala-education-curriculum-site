@@ -1,0 +1,64 @@
+id: video-building-a-cv
+slug: video-building-a-cv
+access: public
+type: resource
+title: "Video: Building a CV"
+summary: "Amala's own walkthrough video, with slides, showing step by step how to build a strong CV. It is the input for the Producing a CV activity."
+facilitationContext:
+- group
+- independent
+links:
+- label: "Watch: Building a CV (Amala video)"
+  url: https://drive.google.com/file/d/1CrkeqMHIVcDigrWKrtaEf8Hsvd5Ygehz/view?usp=sharing
+  note: >-
+    Amala's own video, hosted on Google Drive. [to verify] Check access in your context and download it in advance where connectivity is limited.
+- label: "Slides: Building a CV (PDF)"
+  url: https://drive.google.com/file/d/1lDYSZKexYGXUXjex2S6FQYqZEWi2zsSk/view?usp=drive_link
+  note: >-
+    The slides that accompany the video, if you prefer to lead the walkthrough yourself.
+facilitationNotes: |
+  This video is a resource for the linked activity: learners watch it to learn how to build a strong CV, then
+  apply it to their own work. Treat it as an input to their practice, not the lesson itself, and keep
+  the focus on what each learner produces. Preview it first, and have a no-video fallback ready.
+learnerContent: |
+  Watch this video to learn how to build a strong CV, then use what you learn on your own work for the linked
+  activity. You can pause, rewatch, and turn on captions. The video is a starting point: your own
+  draft, and the feedback you get on it, are what make it stick.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    A CV lets a learner put themselves forward for real opportunities; the video gives them the know-how to do it, keeping access to pathways in their own hands.
+principlesForegrounded:
+- lifeworthy-competencies
+- feedback-and-data
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    CV writing is a real-world skill learners reuse for every future application.
+- principle: feedback-and-data
+  how: >-
+    The video pairs with a drafting-and-feedback activity so learners improve a real document.
+- principle: connect-to-futures
+  how: >-
+    It equips learners to pursue the education, work and funding pathways they are aiming for.
+competencyCodes:
+- FSL3
+- FLC3
+competencyDevelopment:
+- code: FSL3
+  how: >-
+    Following the walkthrough to build a real CV is active practice of a transferable skill learners will keep using.
+- code: FLC3
+  how: >-
+    The video models presenting yourself persuasively to a reader, the heart of a strong CV.
+objectiveIds:
+- pathways--o3
+relatedSlugs:
+- pathways-producing-a-cv
+sourceRefs:
+- "Pathways Programme - Activity Guides (embedded video link)"
+provenanceNote: >-
+  Video link extracted from the embedded hyperlink in the source Pathways activity guide. Modelled as
+  a reusable resource so the pathways-producing-a-cv activity can link to it.

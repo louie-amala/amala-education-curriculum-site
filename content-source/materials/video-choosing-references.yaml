@@ -1,0 +1,61 @@
+id: video-choosing-references
+slug: video-choosing-references
+access: public
+type: resource
+title: "Video: Choosing and asking for references"
+summary: "A short video on who can act as a reference and how to ask them well, used with the Identifying your references activity."
+facilitationContext:
+- group
+- independent
+links:
+- label: "Watch: Who can be my reference and how to ask"
+  url: https://youtu.be/_YYBXI2mXv4
+  note: >-
+    External video (YouTube), in English.
+facilitationNotes: |
+  This video is a resource for the linked activity: learners watch it to learn who can be a reference and how to ask them, then
+  apply it to their own work. Treat it as an input to their practice, not the lesson itself, and keep
+  the focus on what each learner produces. Preview it first, and have a no-video fallback ready.
+learnerContent: |
+  Watch this video to learn who can be a reference and how to ask them, then use what you learn on your own work for the linked
+  activity. You can pause, rewatch, and turn on captions. The video is a starting point: your own
+  draft, and the feedback you get on it, are what make it stick.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - control-of-future-pathways
+  how: >-
+    References draw on a learner's relationships to open doors; knowing who to ask and how helps a learner build and use their network towards a pathway.
+principlesForegrounded:
+- collaboration
+- lifeworthy-competencies
+- connect-to-futures
+principleAlignment:
+- principle: collaboration
+  how: >-
+    Getting references is about drawing on trusted relationships.
+- principle: lifeworthy-competencies
+  how: >-
+    Knowing how to ask for a reference is a lasting professional skill.
+- principle: connect-to-futures
+  how: >-
+    Strong references support applications to future opportunities.
+competencyCodes:
+- FR1
+- FLC3
+competencyDevelopment:
+- code: FR1
+  how: >-
+    The video helps learners identify the people who can vouch for them.
+- code: FLC3
+  how: >-
+    It models asking someone well, so they agree and represent the learner strongly.
+objectiveIds:
+- pathways--o3
+relatedSlugs:
+- pathways-identifying-your-references
+sourceRefs:
+- "Pathways Programme - Activity Guides (embedded video link)"
+provenanceNote: >-
+  Video link extracted from the embedded hyperlink in the source Pathways activity guide. Modelled as
+  a reusable resource so the pathways-identifying-your-references activity can link to it.

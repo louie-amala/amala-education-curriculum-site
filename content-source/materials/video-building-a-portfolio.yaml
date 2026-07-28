@@ -1,0 +1,64 @@
+id: video-building-a-portfolio
+slug: video-building-a-portfolio
+access: public
+type: resource
+title: "Video: Building a portfolio"
+summary: "Two short videos, on what a career portfolio is and on building one with a free tool, supporting the Producing a portfolio activity."
+facilitationContext:
+- group
+- independent
+links:
+- label: "Watch: What is a Career Portfolio?"
+  url: https://youtu.be/8nvfLEpnCB4
+  note: >-
+    External video (YouTube), in English.
+- label: "Watch: Google Sites for Student Portfolios (tutorial)"
+  url: https://www.youtube.com/watch?v=lPp_pIbFsTU
+  note: >-
+    External video (YouTube). [to verify] Google Sites needs an account and connectivity; offer a physical portfolio route where that is not possible.
+facilitationNotes: |
+  This video is a resource for the linked activity: learners watch it to learn how to build and present a portfolio, then
+  apply it to their own work. Treat it as an input to their practice, not the lesson itself, and keep
+  the focus on what each learner produces. Preview it first, and have a no-video fallback ready.
+learnerContent: |
+  Watch this video to learn how to build and present a portfolio, then use what you learn on your own work for the linked
+  activity. You can pause, rewatch, and turn on captions. The video is a starting point: your own
+  draft, and the feedback you get on it, are what make it stick.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    A portfolio lets a learner show, not just claim, what they can do; the videos give them the know-how to build one that opens doors.
+principlesForegrounded:
+- recognise-communicate-growth
+- lifeworthy-competencies
+- connect-to-futures
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: >-
+    A portfolio is a way of recognising and communicating growth and achievement.
+- principle: lifeworthy-competencies
+  how: >-
+    Curating evidence of your work is a skill reused across education and employment.
+- principle: connect-to-futures
+  how: >-
+    It readies learners to present themselves to pathway providers.
+competencyCodes:
+- FSL3
+- FSL1
+competencyDevelopment:
+- code: FSL3
+  how: >-
+    Building and curating a portfolio is ongoing, transferable skill-building.
+- code: FSL1
+  how: >-
+    Choosing what to include asks learners to reflect on and evidence their own strengths.
+objectiveIds:
+- pathways--o5
+relatedSlugs:
+- pathways-producing-a-portfolio
+sourceRefs:
+- "Pathways Programme - Activity Guides (embedded video link)"
+provenanceNote: >-
+  Video link extracted from the embedded hyperlink in the source Pathways activity guide. Modelled as
+  a reusable resource so the pathways-producing-a-portfolio activity can link to it.

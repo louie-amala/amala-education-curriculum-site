@@ -69,6 +69,47 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         )}
       </p>
 
+      {/* Resources for this activity — surfaced at the top so educators do not have to go digging */}
+      {m.type !== "resource" &&
+        (() => {
+          const used = m.relatedSlugs
+            .map((s) => getMaterial(s))
+            .filter((r): r is NonNullable<typeof r> => r != null && r.type === "resource");
+          if (used.length === 0) return null;
+          return (
+            <section className="mt-6 rounded-xl border-l-4 border-teal border-y border-r border-cool-grey/20 bg-teal/5 p-5">
+              <p className="text-xs font-semibold uppercase tracking-widest text-teal">
+                Resources for this activity
+              </p>
+              <ul className="mt-3 space-y-3">
+                {used.map((r) => (
+                  <li key={r.slug}>
+                    <Link href={`/materials/${r.slug}`} className="font-medium text-navy hover:underline">
+                      {r.title}
+                    </Link>
+                    {r.summary && <span className="text-sm text-cool-grey"> &mdash; {r.summary}</span>}
+                    {r.links.length > 0 && (
+                      <div className="mt-1.5 flex flex-wrap gap-2">
+                        {r.links.map((l) => (
+                          <a
+                            key={l.url}
+                            href={l.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1 rounded border border-teal/40 bg-white px-2.5 py-1 text-xs font-medium text-navy transition hover:shadow-sm"
+                          >
+                            <span aria-hidden>↗</span> {l.label}
+                          </a>
+                        ))}
+                      </div>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </section>
+          );
+        })()}
+
       {/* External links (e.g. the video a resource is built around) */}
       {m.links.length > 0 && (
         <section className="mt-6">

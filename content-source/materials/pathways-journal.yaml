@@ -88,6 +88,12 @@ competencyDevelopment:
     place a learner keeps working at across the course.
 objectiveIds: [pathways--o1, pathways--o2, pathways--o3, pathways--o4, pathways--o5]
 relatedSlugs: [pathways-outlining-ambitions, pathways-finding-your-purpose, pathways-producing-a-cv]
+links:
+- label: "Open: Learning Bridge Pathways Journal (Google Doc)"
+  url: https://docs.google.com/document/d/18goFyvdr98TRnRmM6RUDPjNqtdgTE8P4n0-9QXY3H6k/edit
+  note: >-
+    The master journal document. [to verify] Give each learner their own copy to edit; check access
+    and provide a printed version where devices or connectivity are limited.
 sourceRefs: ["Pathway Journal.pdf"]
 provenanceNote: >-
   Grounded in the learner-facing Pathways Journal workbook (Pathway Journal.pdf, as provided), which

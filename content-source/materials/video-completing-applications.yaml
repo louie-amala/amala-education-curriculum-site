@@ -1,0 +1,68 @@
+id: video-completing-applications
+slug: video-completing-applications
+access: public
+type: resource
+title: "Video: Completing applications"
+summary: "Short videos on filling in application forms and staying organised across applications, supporting the Applying for opportunities activity."
+facilitationContext:
+- group
+- independent
+links:
+- label: "Watch: How To Fill A Job Application Form"
+  url: https://youtu.be/AGFM5wxiFjw
+  note: >-
+    External video (YouTube), in English.
+- label: "Watch: Get organised for your applications"
+  url: https://youtu.be/MVI-SGq11u8
+  note: >-
+    External video (YouTube), in English.
+- label: "Watch: How to apply for an internship"
+  url: https://www.youtube.com/watch?v=YqH8AHS-JFY
+  note: >-
+    External video (YouTube), in English. [to verify] Application norms vary by opportunity and country.
+facilitationNotes: |
+  This video is a resource for the linked activity: learners watch it to learn how to fill in and organise applications, then
+  apply it to their own work. Treat it as an input to their practice, not the lesson itself, and keep
+  the focus on what each learner produces. Preview it first, and have a no-video fallback ready.
+learnerContent: |
+  Watch this video to learn how to fill in and organise applications, then use what you learn on your own work for the linked
+  activity. You can pause, rewatch, and turn on captions. The video is a starting point: your own
+  draft, and the feedback you get on it, are what make it stick.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Applications are the doorway to most pathways; knowing how to complete them well, and ahead of deadlines, turns an opportunity from something a learner watches pass into one they can seize.
+principlesForegrounded:
+- lifeworthy-competencies
+- responsible-action
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Completing applications is a transferable skill reused for every opportunity.
+- principle: responsible-action
+  how: >-
+    The videos stress preparing carefully and meeting deadlines.
+- principle: connect-to-futures
+  how: >-
+    They ready learners to apply for the pathways they are aiming for.
+competencyCodes:
+- FR2
+- FSL2
+competencyDevelopment:
+- code: FR2
+  how: >-
+    The videos help learners make good use of application processes and deadlines.
+- code: FSL2
+  how: >-
+    Staying organised across applications is deliberate, planned pursuit of a goal.
+objectiveIds:
+- pathways--o1
+relatedSlugs:
+- pathways-applying-for-opportunities
+sourceRefs:
+- "Pathways Programme - Activity Guides (embedded video link)"
+provenanceNote: >-
+  Video link extracted from the embedded hyperlink in the source Pathways activity guide. Modelled as
+  a reusable resource so the pathways-applying-for-opportunities activity can link to it.

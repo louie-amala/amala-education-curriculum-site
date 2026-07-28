@@ -1,0 +1,60 @@
+id: video-questions-to-ask-at-interview
+slug: video-questions-to-ask-at-interview
+access: public
+type: resource
+title: "Video: Questions to ask at the end of an interview"
+summary: "A short video on strong questions to ask when an interviewer says 'Do you have any questions for us?', supporting the interview-preparation activity."
+facilitationContext:
+- group
+- independent
+links:
+- label: "Watch: 20 Questions for the END of your job interview"
+  url: https://youtu.be/Tc8meMg2t5A
+  note: >-
+    External video (YouTube), in English.
+facilitationNotes: |
+  This video is a resource for the linked activity: learners watch it to learn good questions to ask at the end of an interview, then
+  apply it to their own work. Treat it as an input to their practice, not the lesson itself, and keep
+  the focus on what each learner produces. Preview it first, and have a no-video fallback ready.
+learnerContent: |
+  Watch this video to learn good questions to ask at the end of an interview, then use what you learn on your own work for the linked
+  activity. You can pause, rewatch, and turn on captions. The video is a starting point: your own
+  draft, and the feedback you get on it, are what make it stick.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    An interview is a two-way conversation; knowing what to ask lets a learner judge whether a pathway fits them, keeping the choice in their hands.
+principlesForegrounded:
+- lifeworthy-competencies
+- collaboration
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Asking good questions is a transferable professional skill.
+- principle: collaboration
+  how: >-
+    It frames the interview as a mutual conversation, not an interrogation.
+- principle: connect-to-futures
+  how: >-
+    It prepares learners for the interviews their pathways will involve.
+competencyCodes:
+- FLC3
+- FPS1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    The video models using good questions to show genuine interest and judgement.
+- code: FPS1
+  how: >-
+    Learners adapt which questions to ask to the specific opportunity and interviewer.
+objectiveIds:
+- pathways--o3
+relatedSlugs:
+- pathways-interview-questions-for-them
+sourceRefs:
+- "Pathways Programme - Activity Guides (embedded video link)"
+provenanceNote: >-
+  Video link extracted from the embedded hyperlink in the source Pathways activity guide. Modelled as
+  a reusable resource so the pathways-interview-questions-for-them activity can link to it.
