@@ -212,10 +212,13 @@ export function getAreaCompetencies(areaId: string): Competency[] {
 }
 
 export function getProgrammeForCourse(courseId: string): Programme | undefined {
+  const course = courseById.get(courseId);
   return programmes.find(
     (p) =>
       p.streams.some((s) => s.courses.some((c) => c.courseId === courseId)) ||
-      p.ongoingComponents.some((c) => c.courseId === courseId),
+      p.ongoingComponents.some((c) => c.courseId === courseId) ||
+      // component-based programmes (e.g. Learning Bridge) link by course slug
+      p.components.some((c) => c.courseSlug && course && c.courseSlug === course.slug),
   );
 }
 
@@ -431,6 +434,11 @@ export function validateGraph(): ValidationReport {
         warnings.push(`Course "${course.id}" has no mapping for principle "${p.id}".`);
       }
     }
+    if (course.throughline && !competencyByCode.has(course.throughline.anchorCompetency)) {
+      errors.push(
+        `Course "${course.id}" throughline anchors unknown competency "${course.throughline.anchorCompetency}".`,
+      );
+    }
   }
 
   for (const area of areas) {
@@ -449,6 +457,13 @@ export function validateGraph(): ValidationReport {
     for (const cid of refs) {
       if (!courseById.has(cid)) {
         errors.push(`Programme "${prog.id}" references unknown course "${cid}".`);
+      }
+    }
+    for (const comp of prog.components) {
+      if (comp.courseSlug && !getCourse(comp.courseSlug)) {
+        errors.push(
+          `Programme "${prog.id}" component "${comp.title}" links unknown course "${comp.courseSlug}".`,
+        );
       }
     }
   }

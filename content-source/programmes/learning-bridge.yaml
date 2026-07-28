@@ -63,6 +63,7 @@ components:
     structuredHours: 50
     facilitatedHours: 30
     independentHours: 20
+    courseSlug: research-project
     deliveryOptions:
       - Standard (ready-made guide and resources)
       - Co-designed with Amala (additional cost)

@@ -105,6 +105,15 @@ export const CourseSchema = z.object({
     })
     .partial()
     .optional(),
+  // Optional narrative spine for competency-anchored courses (e.g. Research Project). Reads as:
+  // agency for positive change → anchorCompetency → the objectives that develop/demonstrate it.
+  throughline: z
+    .object({
+      anchorCompetency: z.string(), // competency code, validated in validateGraph()
+      fromAgency: z.string(), // why this competency builds agency for positive change
+      toObjectives: z.string(), // how the objectives develop and demonstrate it
+    })
+    .optional(),
   objectives: z.array(ObjectiveSchema).default([]),
   principleMappings: z.array(PrincipleMappingSchema).default([]),
   designChecklist: z.array(z.string()).default([]),
@@ -179,6 +188,9 @@ export const ProgrammeSchema = z.object({
         independentHours: z.number().optional(),
         deliveryOptions: z.array(z.string()).default([]),
         optional: z.boolean().optional(),
+        // When set, this component is delivered as a full course; the programme links to it.
+        // Validated against the course collection in validateGraph().
+        courseSlug: z.string().optional(),
       }),
     )
     .default([]),

@@ -1,0 +1,208 @@
+# Research Project — course guide for the Learning Bridge programme.
+# AUTHORED (not a verbatim extraction like the GSD guides): designed backward from a single anchor
+# competency, FSI1 "Investigate real-world issues". The supplied draft ("Research Project Course
+# Guide - 2025 Onwards") was largely a copy of the Social Entrepreneurship guide; see sourceIssues.
+# Spec §4.1 Course/Objective. Competency codes verified against framework/competencies.yaml.
+id: research-project
+slug: research-project
+access: public
+title: Research Project
+strapline: Turn a real-world challenge into evidence you can act on.
+programmes: [learning-bridge]
+testimonial: null
+
+purpose: >-
+  The Research Project is a learner's first structured experience of investigating a real-world
+  challenge. Working as a cohort on one shared challenge, learners learn to ask a researchable
+  question, gather and weigh evidence from primary and secondary sources, and turn what they find
+  into actionable insights they can share. It is the course through which learners develop and
+  demonstrate the competency Investigate real-world issues (FSI1), building the research foundation
+  they will draw on across upper secondary transformative education.
+
+# The narrative spine of the course: agency for positive change → FSI1 → the objectives.
+throughline:
+  anchorCompetency: FSI1
+  fromAgency: >-
+    Agency for positive change is the ability and will to make informed, intentional, and impactful
+    decisions that improve one's own life and contribute to positive change in the community. You
+    cannot act well on a challenge you do not understand. Investigating real-world issues (FSI1) is
+    the competency that turns concern into understanding you can act on: it replaces assumption with
+    evidence. When a young person investigates a challenge in their own community and produces
+    evidence-based insight, that is itself an impactful contribution to their community — and it
+    builds the capability to shape their own future pathways. Research is where agency begins.
+  toObjectives: >-
+    The four objectives sequence the FSI1 research cycle so learners both develop and demonstrate it:
+    they frame a real challenge into a researchable focus, plan and conduct ethical primary and
+    secondary research, evaluate the evidence to develop actionable insights, and communicate those
+    insights to an audience who can act on them. FSI1 is foregrounded in every objective; the
+    supporting competencies — evaluating sources, gathering and organising data, identifying
+    contributing factors, ethical action, data analysis, and communication — are the scaffolding
+    that makes the anchor competency demonstrable.
+
+requirements:
+  structuredHours: 50
+  durationWeeks: 10          # "minimum of 10 weeks"
+  cadence: 10+ weeks
+  liveIndependentSplit: 30 live / 20 independent
+  notes: >-
+    Structured learning should include both live sessions (individual and/or group) and independent
+    research tasks. The whole cohort investigates one shared challenge — chosen to be relevant, safe
+    to research in the local context, and connected to learners' lives.
+
+objectives:
+  - statement: >-
+      Frame a real-world challenge into a clear, researchable focus.
+    supportedTo:
+      - Develop a shared, working definition of the challenge the cohort is investigating.
+      - Explore why the challenge matters to them and their community, surfacing what they already know.
+      - Distinguish what is already known about the challenge from what still needs to be investigated.
+      - Narrow a broad challenge into a specific, researchable question.
+      - Map the people, groups, and systems connected to the challenge.
+    furtherDetails:
+      concepts:
+        - Case studies of "wicked problems" to introduce complexity and why challenges rarely have a single cause.
+        - The difference between a topic, a question, and a researchable question.
+      activities:
+        - Community mapping to surface who and what is connected to the challenge.
+        - Question-storming, then sorting questions from broad to researchable.
+        - A cohort "what we already know / what we need to find out" audit.
+    competencyEvidence:
+      - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners frame a real-world challenge into a question they can investigate through research." }
+      - { code: FPS3, citedTitle: Identifying contributing factors, condition: "If learners identify, with early evidence, the people, systems, and activities connected to the challenge." }
+
+  - statement: >-
+      Plan and conduct ethical primary and secondary research into the challenge.
+    supportedTo:
+      - Distinguish primary from secondary research, and qualitative from quantitative data.
+      - Choose appropriate methods for their question (e.g. interviews, surveys, observation, document research).
+      - Design simple research instruments, such as interview questions or a short survey.
+      - Apply basic research ethics — informed consent, privacy, safety, and respect for participants.
+      - Gather and record data systematically from primary and secondary sources.
+    furtherDetails:
+      concepts:
+        - Primary vs secondary research; qualitative vs quantitative data.
+        - Research ethics for working with community members (consent, anonymity, do-no-harm).
+      activities:
+        - Drafting and piloting interview questions or a short survey.
+        - Community interviews and surveys to gather local perspectives.
+        - Building an evidence log or annotated bibliography while doing secondary research.
+    competencyEvidence:
+      - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners plan and carry out primary and secondary research into the challenge." }
+      - { code: FTS3, citedTitle: Gather and organise data, condition: "If learners collect and organise primary, secondary, qualitative, and quantitative data about the challenge." }
+      - { code: FLC1, citedTitle: Ethical actions, condition: "If learners plan and conduct their research ethically, considering consent, privacy, and the safety of participants." }
+      - { code: FPS2, citedTitle: Evaluating sources, condition: "If learners assess the credibility and reliability of the secondary sources they choose to use." }
+
+  - statement: >-
+      Evaluate the evidence and develop actionable insights into the challenge.
+    supportedTo:
+      - Assess the credibility, reliability, and relevance of the sources and data they have gathered.
+      - Organise and categorise their data so that patterns can be seen.
+      - Identify patterns, trends, and contributing factors in the evidence.
+      - Distinguish evidence-based claims from assumption or opinion.
+      - Move from raw findings to a small number of clear, actionable insights.
+    furtherDetails:
+      concepts:
+        - Criteria for evaluating sources (authority, accuracy, purpose, currency).
+        - What makes an insight "actionable" rather than just a finding.
+      activities:
+        - Source-evaluation exercises using an evidence log.
+        - Sorting and theming data to surface patterns and contributing factors.
+        - Drafting an "insights statement" — what the evidence shows and why it matters.
+    competencyEvidence:
+      - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners interpret their research to develop actionable insights into the challenge." }
+      - { code: FPS2, citedTitle: Evaluating sources, condition: "If learners judge the credibility and reliability of their sources before relying on them." }
+      - { code: FPS3, citedTitle: Identifying contributing factors, condition: "If learners establish, with evidence, the factors contributing to the challenge." }
+      - { code: ATS1, citedTitle: Analyze and Interpret Data, condition: "If learners analyse and interpret the data they have gathered to uncover patterns and generate insights." }
+      - { code: APS3, citedTitle: Pattern identification, condition: "If learners identify trends or relationships in the data they have collected." }
+
+  - statement: >-
+      Communicate findings and actionable insights to an audience.
+    supportedTo:
+      - Select a format suited to their message and audience (e.g. report, poster, infographic, presentation, short video).
+      - Structure their findings into a clear, evidence-based account.
+      - Tailor how they communicate for a specific audience, including peers and community members.
+      - Present their insights and respond to questions.
+      - Reflect on their research process and identify what they would do differently next time.
+    furtherDetails:
+      concepts:
+        - Structuring an evidence-based account for a non-expert audience.
+        - Matching format to purpose and audience.
+      activities:
+        - Preparing a research report, poster, infographic, presentation, or short video summarising findings.
+        - Sharing findings with classmates or community members and taking questions.
+        - A structured reflection on the inquiry and the learner's growth as a researcher.
+    competencyEvidence:
+      - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners communicate the actionable insights from their investigation to an audience." }
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners communicate their findings in a way that generates interest and understanding." }
+      - { code: FPS1, citedTitle: Adaptable thinking, condition: "If learners adapt how they present their findings to suit different audiences." }
+      - { code: FSL1, citedTitle: Self-reflection, condition: "If learners reflect on their research process, identifying strengths and areas for development." }
+
+principleMappings:
+  # All 9 principles mapped, including connect-to-futures (which every legacy GSD guide omits).
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners investigate a challenge that matters to them and their community, starting from what they already know.
+      - Local knowledge and lived experience are treated as legitimate evidence alongside secondary sources.
+      - Facilitators encourage learners to draw on their own languages and communities when gathering perspectives.
+  - principle: collaboration
+    inThisCourse:
+      - The whole cohort investigates one shared challenge, building collective knowledge and supporting each other's inquiry.
+      - Learners gather primary data by interviewing and surveying community members.
+      - Peers give feedback on research questions, instruments, and emerging insights.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Learners practise transferable research skills — questioning, gathering and weighing evidence, analysing data, and communicating findings.
+      - These are competencies learners will reuse across upper secondary study and when acting on challenges in their own lives.
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners investigate a real challenge in their own context, not a hypothetical case.
+      - The research produces genuine insight that can inform real action in the community.
+  - principle: responsible-action
+    inThisCourse:
+      - Learners plan and conduct research ethically — seeking consent, protecting privacy, and considering the safety of participants.
+      - Learners are supported to represent their findings honestly and to acknowledge the limits of their evidence.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Learners communicate their findings and insights to peers and community members.
+      - They reflect on how their understanding of the challenge — and their skill as researchers — has grown.
+  - principle: connect-to-futures
+    inThisCourse:
+      - Learners connect research skills to the futures they are building — further study, work, and acting on challenges they care about.
+      - Facilitators help learners see investigation as a tool they will keep using well beyond this course.
+  - principle: feedback-and-data
+    inThisCourse:
+      - Learners collect and reflect on feedback at each stage — question, instrument design, analysis, and communication.
+      - Facilitators use learner reflections and outputs to improve future delivery of the course.
+  - principle: safe-spaces
+    inThisCourse:
+      - Facilitators co-create group agreements so that sensitive challenges can be researched with care.
+      - Learners choose lines of inquiry that feel meaningful but safe for them and their participants.
+      - Difficult topics are explored with sensitivity to context and identity.
+
+designChecklist:
+  - My course design includes ~50 hours of learning experiences/tasks.
+  - My course design is appropriate for my context (e.g. a relevant and safe shared challenge, resource-optimised, culturally and linguistically accessible).
+  - My course design is mostly aligned with Amala's principles for transformative education (and where it is not aligned, I have reflected on how I can improve alignment in the future).
+  - Course design supports learners in making progress towards all of the course objectives.
+  - Opportunities for learners to generate and submit evidence that can be used to evaluate their proficiency in the Amala competencies — especially the anchor competency FSI1 — are built into the course design.
+
+sourceIssues:
+  - type: authored-not-extracted
+    detail: >-
+      Unlike the GSD course guides (verbatim source extractions), this course is authored. It is
+      designed backward from the anchor competency FSI1 (Investigate real-world issues) for the
+      Learning Bridge programme. The supplied "Research Project Course Guide - 2025 Onwards" draft was
+      largely a copy of the Social Entrepreneurship guide (its syllabus intro, principle examples, and
+      design-checklist objectives were all about social enterprise); only one genuine research
+      objective was present in the draft.
+  - type: assessment-context
+    detail: >-
+      On Learning Bridge+, FSI1 (Investigate Real World Issues) is one of the two certificated
+      competencies and this course is its primary vehicle. The two assessed LB+ competencies are not
+      yet cross-linked to framework codes in programmes/learning-bridge.yaml.
+  - type: strapline-authored
+    detail: Strapline authored; no source strapline exists.
+  - type: stretch-competencies
+    detail: >-
+      Objective 3 cites two Advanced competencies (ATS1, APS3) as stretch evidence appropriate for a
+      preparatory cohort; the course's required spine is the Foundational competencies, led by FSI1.

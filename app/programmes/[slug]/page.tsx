@@ -84,11 +84,19 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
           <section className="mt-12">
             <h2 className="font-heading text-2xl font-semibold text-navy">Components and hours</h2>
             <div className="mt-6 space-y-4">
-              {prog.components.map((c) => (
+              {prog.components.map((c) => {
+                const linked = c.courseSlug ? getCourse(c.courseSlug) : undefined;
+                return (
                 <div key={c.title} className="rounded-lg border-l-4 border-plum border-y border-r border-cool-grey/20 bg-white p-5 shadow-sm">
                   <div className="flex flex-wrap items-baseline justify-between gap-2">
                     <h3 className="font-heading text-lg font-semibold text-dark-navy">
-                      {c.title}
+                      {linked ? (
+                        <Link href={`/courses/${linked.slug}`} className="hover:text-navy hover:underline">
+                          {c.title}
+                        </Link>
+                      ) : (
+                        c.title
+                      )}
                       {c.optional && (
                         <span className="ml-2 rounded-full bg-gold/20 px-2 py-0.5 text-xs font-medium uppercase tracking-wide text-terracotta">
                           Optional
@@ -113,8 +121,17 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
                       {c.deliveryOptions.join(" · ")}
                     </p>
                   )}
+                  {linked && (
+                    <Link
+                      href={`/courses/${linked.slug}`}
+                      className="mt-3 inline-block text-sm font-medium text-navy hover:underline"
+                    >
+                      View course guide →
+                    </Link>
+                  )}
                 </div>
-              ))}
+                );
+              })}
             </div>
           </section>
         )}

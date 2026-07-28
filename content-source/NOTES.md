@@ -112,8 +112,9 @@ educator/learner dual-face and the assessment layer should work.
 - **GSD programme structure — DONE.** `programmes/gsd.yaml` now holds the 5 streams × 2 courses,
   PIP + Pathways as ongoing components, graduation criteria, accreditation (NEASC + CIS), target
   learners, and per-course end-of-course tasks. The `programme-membership-to-confirm` flag on each
-  course is now resolved: all 12 courses belong to the GSD. Stream membership is owned by gsd.yaml
-  (courses do not hardcode it). **The curriculum skeleton is now complete.**
+  course is now resolved: all 12 GSD course guides belong to the GSD. Stream membership is owned by
+  gsd.yaml (courses do not hardcode it). **The curriculum skeleton is now complete.** (There are now
+  13 courses in total — the 12 GSD guides plus the Learning Bridge Research Project course below.)
 - **Learning Bridge — DONE.** `programmes/learning-bridge.yaml` holds the preparatory programme
   (ages 14–16) from the "Learning Bridge Programme Overview for Delivery Partners" document. Unlike
   the GSD, it is **component-based, not course-based**: its components (Research Project, Agency in
@@ -123,6 +124,13 @@ educator/learner dual-face and the assessment layer should work.
   structure. Two versions: Learning Bridge and Learning Bridge+ (adds formal assessment, Amala
   moderation, and certification). Open item: the two assessed competencies (Investigate Real World
   Issues, Set and Pursue Goals) are named in the source but not yet cross-linked to framework codes.
+- **Research Project course — DONE (authored).** `courses/research-project.yaml` is the first
+  **authored** course (all others are verbatim source extractions). It is designed backward from the
+  anchor competency **FSI1 "Investigate real-world issues"**, with an explicit `throughline` (agency
+  for positive change → FSI1 → the objectives) rendered on the course page. It is the Learning Bridge
+  Research Project component (linked via `component.courseSlug`) and covers all **9** principles
+  (including connect-to-futures, which the legacy GSD guides omit). The supplied draft was largely a
+  Social Entrepreneurship copy; see the file's `sourceIssues`.
 - **Facilitation materials** — the large authoring lift. Course guides name ~40-60 concepts/tools/
   activities (captured per objective under `furtherDetails.concepts` / `.activities`) but contain none
   of their content. The Social Entrepreneurship planners + workbook + concept PDFs (iceberg, leverage

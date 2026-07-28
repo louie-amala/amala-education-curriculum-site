@@ -10,6 +10,7 @@ import {
   getCourseStream,
   getMaterialsForObjective,
   getPrinciple,
+  getProgrammeForCourse,
 } from "@/lib/content";
 import { areaStyle, creditBadge } from "@/lib/ui";
 
@@ -29,8 +30,12 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
   if (!course) notFound();
 
   const stream = getCourseStream(course.id);
+  const programme = getProgrammeForCourse(course.id);
   const req = course.requirements;
   const courseComps = getCourseCompetencies(course);
+  const anchor = course.throughline
+    ? getCompetencyByCode(course.throughline.anchorCompetency)
+    : undefined;
 
   return (
     <main className="mx-auto max-w-4xl px-6 py-12">
@@ -38,7 +43,18 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
         <Link href="/courses" className="hover:text-navy hover:underline">
           Courses
         </Link>
-        {stream && <span> · {stream.stream.title}</span>}
+        {stream ? (
+          <span> · {stream.stream.title}</span>
+        ) : (
+          programme && (
+            <>
+              {" · "}
+              <Link href={`/programmes/${programme.slug}`} className="hover:text-navy hover:underline">
+                {programme.title}
+              </Link>
+            </>
+          )
+        )}
       </nav>
 
       <h1 className="mt-3 font-heading text-3xl font-bold text-navy">{course.title}</h1>
@@ -49,6 +65,42 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
           <p className="italic">“{course.testimonial.quote}”</p>
           <footer className="mt-2 text-sm text-cool-grey">— {course.testimonial.attribution}</footer>
         </blockquote>
+      )}
+
+      {/* Throughline — agency → anchor competency → objectives */}
+      {course.throughline && (
+        <section className="mt-8 rounded-lg border border-navy/15 bg-navy/[0.03] p-5">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">Course throughline</h2>
+          <ol className="mt-4 flex flex-wrap items-center gap-2 text-sm">
+            <li className="rounded-full border border-olive bg-white px-3 py-1 font-medium text-olive">
+              Agency for positive change
+            </li>
+            <li aria-hidden className="text-cool-grey">→</li>
+            <li>
+              <Link
+                href={`/competencies/${course.throughline.anchorCompetency.toLowerCase()}`}
+                className="inline-flex items-center gap-2 rounded-full border border-navy bg-white px-3 py-1 hover:shadow-sm"
+              >
+                <span className="font-mono text-xs text-cool-grey">{course.throughline.anchorCompetency}</span>
+                <span className="font-medium text-navy">{anchor?.title ?? "Anchor competency"}</span>
+              </Link>
+            </li>
+            <li aria-hidden className="text-cool-grey">→</li>
+            <li className="rounded-full border border-teal bg-white px-3 py-1 font-medium text-teal">
+              {course.objectives.length} objectives
+            </li>
+          </ol>
+          <div className="mt-4 space-y-3 text-sm text-dark-navy/90">
+            <p>
+              <span className="font-semibold text-dark-navy">Why this builds agency: </span>
+              {course.throughline.fromAgency}
+            </p>
+            <p>
+              <span className="font-semibold text-dark-navy">How the objectives get there: </span>
+              {course.throughline.toObjectives}
+            </p>
+          </div>
+        </section>
       )}
 
       {/* Requirements */}

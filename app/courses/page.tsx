@@ -1,18 +1,30 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { courses, getCourse, getProgramme } from "@/lib/content";
+import { courses, getCourse, getProgramme, programmes } from "@/lib/content";
 
 export const metadata: Metadata = { title: "Courses" };
 
 export default function CoursesIndex() {
   const gsd = getProgramme("gsd");
 
+  // Component-based programmes (e.g. Learning Bridge) deliver some components as full courses.
+  const componentProgrammes = programmes
+    .filter((p) => p.components.some((c) => c.courseSlug))
+    .map((p) => ({
+      programme: p,
+      courses: p.components
+        .filter((c) => c.courseSlug)
+        .map((c) => getCourse(c.courseSlug!))
+        .filter((c): c is NonNullable<typeof c> => Boolean(c)),
+    }));
+
   return (
     <main className="mx-auto max-w-5xl px-6 py-12">
       <h1 className="font-heading text-3xl font-bold text-navy">Courses</h1>
       <p className="mt-2 max-w-2xl text-cool-grey">
-        Ten Changemaker Courses across five streams, plus the ongoing components. Each course lists
-        its objectives and the competencies they evidence.
+        The Global Secondary Diploma&apos;s ten Changemaker Courses across five streams and its
+        ongoing components, plus the Learning Bridge courses. Each course lists its objectives and the
+        competencies they evidence.
       </p>
 
       {gsd && (
@@ -50,6 +62,23 @@ export default function CoursesIndex() {
           </section>
         </div>
       )}
+
+      {componentProgrammes.map(({ programme, courses: progCourses }) => (
+        <section key={programme.id} className="mt-12">
+          <h2 className="font-heading text-lg font-semibold text-dark-navy">
+            <Link href={`/programmes/${programme.slug}`} className="hover:text-navy hover:underline">
+              {programme.title}
+            </Link>
+          </h2>
+          <ul className="mt-3 grid gap-3 sm:grid-cols-2">
+            {progCourses.map((c) => (
+              <li key={c.id}>
+                <CourseCard slug={c.slug} title={c.title} purpose={c.purpose} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
     </main>
   );
 }
