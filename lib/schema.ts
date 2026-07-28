@@ -296,6 +296,44 @@ export const FacilitationMaterialSchema = z.object({
   closing: z.string().nullable().optional(),
   educatorContent: z.string().nullable().optional(),
   learnerContent: z.string().nullable().optional(),
+  // Downloadable assets generated for or attached to this material. Local paths (starting with "/")
+  // are served from public/ and their existence is checked at build time in validateGraph().
+  downloads: z
+    .array(
+      z.object({
+        kind: z.enum(["slides", "educator-guide", "student-material"]),
+        label: z.string(),
+        file: z.string(), // e.g. /downloads/<slug>/educator-guide.pdf (served from public/)
+        format: z.string(), // "PDF" | "DOCX" | "PPTX"
+        note: z.string().nullable().optional(),
+      }),
+    )
+    .default([]),
+  // Article-style readings. Every article carries a B1 (simplified-English) version beneath the main.
+  readings: z
+    .array(
+      z.object({
+        title: z.string(),
+        file: z.string(), // main version (local path or external url)
+        b1File: z.string().nullable().optional(), // B1 simplified version
+        format: z.string().nullable().optional(),
+        note: z.string().nullable().optional(),
+      }),
+    )
+    .default([]),
+  // Videos. Every video carries a verbatim transcript and a B1 transcript (or status "to-produce").
+  videos: z
+    .array(
+      z.object({
+        title: z.string(),
+        url: z.string().nullable().optional(), // external video link
+        transcriptFile: z.string().nullable().optional(), // verbatim transcript
+        b1TranscriptFile: z.string().nullable().optional(), // B1 transcript
+        status: z.enum(["available", "to-produce"]).default("available"),
+        note: z.string().nullable().optional(),
+      }),
+    )
+    .default([]),
   agencyContribution: AgencyContributionSchema,
   // Legacy flat lists (still valid). Preferred are the explained forms below, which say HOW this
   // specific material connects to each principle and competency.

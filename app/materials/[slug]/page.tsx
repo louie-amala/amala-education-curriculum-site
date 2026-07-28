@@ -27,6 +27,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 const INDICATOR_LABEL = Object.fromEntries(agencyDoc.indicators.map((i) => [i.id, i.label]));
 
+const DOWNLOAD_KIND_LABEL: Record<string, string> = {
+  slides: "Slides",
+  "educator-guide": "Educator guide",
+  "student-material": "Student materials",
+};
+
 export default async function MaterialPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const m = getMaterial(slug);
@@ -68,6 +74,108 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
           <span>For: {m.facilitationContext.map((c) => CONTEXT_LABEL[c] ?? c).join(" · ")}</span>
         )}
       </p>
+
+      {/* Downloads and resources */}
+      {(m.downloads.length > 0 || m.readings.length > 0 || m.videos.length > 0) && (
+        <section className="mt-8 rounded-xl border border-navy/15 bg-navy/[0.03] p-5">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">Downloads and resources</h2>
+
+          {m.downloads.length > 0 && (
+            <ul className="mt-4 grid gap-3 sm:grid-cols-3">
+              {m.downloads.map((d) => (
+                <li key={d.file}>
+                  <a
+                    href={d.file}
+                    download
+                    className="flex h-full flex-col rounded-lg border-l-4 border-navy border-y border-r border-cool-grey/20 bg-white p-4 shadow-sm transition hover:shadow-md"
+                  >
+                    <span className="text-xs font-semibold uppercase tracking-wide text-cool-grey">
+                      {DOWNLOAD_KIND_LABEL[d.kind] ?? d.kind}
+                    </span>
+                    <span className="mt-1 font-heading font-semibold text-dark-navy">{d.label}</span>
+                    <span className="mt-2 inline-flex w-fit items-center gap-1 rounded bg-navy/10 px-2 py-0.5 text-xs font-medium text-navy">
+                      ↓ {d.format}
+                    </span>
+                    {d.note && <span className="mt-2 text-xs text-cool-grey">{d.note}</span>}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
+
+          {m.readings.length > 0 && (
+            <div className="mt-5">
+              <p className="text-xs font-semibold uppercase tracking-widest text-teal">Readings</p>
+              <ul className="mt-2 space-y-3">
+                {m.readings.map((r) => (
+                  <li key={r.file} className="rounded-lg border border-cool-grey/20 bg-white p-4">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <a href={r.file} download className="font-medium text-navy hover:underline">
+                        {r.title}
+                      </a>
+                      {r.format && (
+                        <span className="rounded bg-cool-grey/10 px-1.5 py-0.5 text-[10px] font-medium text-cool-grey">
+                          {r.format}
+                        </span>
+                      )}
+                    </div>
+                    {r.b1File ? (
+                      <a
+                        href={r.b1File}
+                        download
+                        className="mt-1 inline-block text-sm text-teal hover:underline"
+                      >
+                        ↓ B1 version (simplified English)
+                      </a>
+                    ) : (
+                      <span className="mt-1 block text-xs text-cool-grey">B1 version to be produced.</span>
+                    )}
+                    {r.note && <p className="mt-1 text-xs text-cool-grey">{r.note}</p>}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {m.videos.length > 0 && (
+            <div className="mt-5">
+              <p className="text-xs font-semibold uppercase tracking-widest text-plum">Videos</p>
+              <ul className="mt-2 space-y-3">
+                {m.videos.map((v) => (
+                  <li key={v.title} className="rounded-lg border border-cool-grey/20 bg-white p-4">
+                    <div className="flex flex-wrap items-center gap-2">
+                      {v.url ? (
+                        <a href={v.url} className="font-medium text-navy hover:underline" target="_blank" rel="noopener noreferrer">
+                          {v.title}
+                        </a>
+                      ) : (
+                        <span className="font-medium text-dark-navy">{v.title}</span>
+                      )}
+                    </div>
+                    <div className="mt-1 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+                      {v.transcriptFile ? (
+                        <a href={v.transcriptFile} download className="text-plum hover:underline">
+                          ↓ Verbatim transcript
+                        </a>
+                      ) : (
+                        <span className="text-cool-grey">Verbatim transcript to be produced</span>
+                      )}
+                      {v.b1TranscriptFile ? (
+                        <a href={v.b1TranscriptFile} download className="text-plum hover:underline">
+                          ↓ B1 transcript
+                        </a>
+                      ) : (
+                        <span className="text-cool-grey">B1 transcript to be produced</span>
+                      )}
+                    </div>
+                    {v.note && <p className="mt-1 text-xs text-cool-grey">{v.note}</p>}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </section>
+      )}
 
       {/* Why this material earns its place — each link explained */}
       <section className="mt-8 divide-y divide-cool-grey/15 overflow-hidden rounded-xl border border-cool-grey/20 bg-white">

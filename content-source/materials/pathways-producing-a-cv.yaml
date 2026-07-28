@@ -111,6 +111,40 @@ closing: |
   Ask a couple of learners to name one strength they had undervalued until a partner or the group
   pointed it out. Remind everyone the CV lives in their Pathways Journal and is meant to grow: every
   new experience, and every application, is a reason to come back and sharpen it.
+
+# Downloadable assets generated from this material's content.
+downloads:
+  - kind: slides
+    label: CV workshop slides
+    file: /downloads/pathways-producing-a-cv/slides.pptx
+    format: PPTX
+  - kind: educator-guide
+    label: Producing a CV — educator guide
+    file: /downloads/pathways-producing-a-cv/educator-guide.pdf
+    format: PDF
+  - kind: student-material
+    label: CV template — fill this in
+    file: /downloads/pathways-producing-a-cv/student-cv-template.docx
+    format: DOCX
+    note: The product itself, ready to complete.
+  - kind: student-material
+    label: CV worksheet — how to complete it
+    file: /downloads/pathways-producing-a-cv/student-cv-worksheet.docx
+    format: DOCX
+    note: Section-by-section guidance, tips and examples.
+readings:
+  - title: What makes a strong CV
+    file: /downloads/pathways-producing-a-cv/reading-strong-cv.pdf
+    b1File: /downloads/pathways-producing-a-cv/reading-strong-cv-b1.pdf
+    format: PDF
+videos:
+  - title: Building a CV (walkthrough video)
+    status: to-produce
+    note: >-
+      [to verify] The Pathways activity guide references a "Building a CV" video. Link the source
+      video here, then add a verbatim transcript and a B1 transcript. Transcripts cannot be produced
+      without the source video.
+
 agencyContribution:
   indicators:
   - control-of-future-pathways

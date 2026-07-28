@@ -520,6 +520,24 @@ export function validateGraph(): ValidationReport {
     if (m.type === "tools-approaches" && !m.toolsFacet) {
       warnings.push(`Tools material "${m.slug}" has no toolsFacet.`);
     }
+    // Downloadable/attached assets: local paths must resolve under public/ (no dead links).
+    const checkLocal = (f: string | null | undefined, what: string) => {
+      if (f && f.startsWith("/") && !existsSync(join(process.cwd(), "public", f))) {
+        errors.push(`Material "${m.slug}" ${what} points to missing file "${f}".`);
+      }
+    };
+    for (const d of m.downloads) checkLocal(d.file, `download "${d.label}"`);
+    for (const r of m.readings) {
+      checkLocal(r.file, `reading "${r.title}"`);
+      checkLocal(r.b1File, `reading "${r.title}" B1 version`);
+    }
+    for (const v of m.videos) {
+      checkLocal(v.transcriptFile, `video "${v.title}" transcript`);
+      checkLocal(v.b1TranscriptFile, `video "${v.title}" B1 transcript`);
+      if (v.status === "available" && !v.transcriptFile) {
+        warnings.push(`Video "${v.title}" on material "${m.slug}" is marked available but has no verbatim transcript.`);
+      }
+    }
   }
 
   const termSlugs = new Set(glossaryTerms.map((t) => t.slug));
