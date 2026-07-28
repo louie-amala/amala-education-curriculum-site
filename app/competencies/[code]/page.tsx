@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { GlossedText } from "@/components/GlossedText";
+import { MaterialCard } from "@/components/MaterialCard";
 import {
   competencies,
   getArea,
   getCompetencyByCode,
   getEvidenceForCompetency,
+  getMaterialsForCompetencyCode,
   proficiencyScale,
 } from "@/lib/content";
 import { areaStyle, creditBadge } from "@/lib/ui";
@@ -29,6 +31,7 @@ export default async function CompetencyPage({ params }: { params: Promise<{ cod
   const area = getArea(comp.areaId);
   const s = areaStyle(comp.areaId);
   const evidence = getEvidenceForCompetency(comp.code);
+  const materials = getMaterialsForCompetencyCode(comp.code);
 
   return (
     <main className="mx-auto max-w-4xl px-6 py-12">
@@ -119,6 +122,26 @@ export default async function CompetencyPage({ params }: { params: Promise<{ cod
           </>
         )}
       </section>
+
+      {/* Facilitation materials that build this competency */}
+      {materials.length > 0 && (
+        <section className="mt-10">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">
+            Materials for developing this competency ({materials.length})
+          </h2>
+          <p className="mt-1 max-w-2xl text-sm text-dark-navy/70">
+            Facilitation materials that give learners an opportunity to develop and demonstrate this
+            competency.
+          </p>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-2">
+            {materials.map((m) => (
+              <li key={m.slug}>
+                <MaterialCard material={m} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </main>
   );
 }
