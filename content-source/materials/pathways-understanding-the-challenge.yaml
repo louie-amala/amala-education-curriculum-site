@@ -1,0 +1,179 @@
+id: pathways-understanding-the-challenge
+slug: pathways-understanding-the-challenge
+access: public
+type: activity
+title: Understanding your challenge and circumstances
+summary: Learners honestly map their own strengths, constraints, obligations and context, then share with
+  peers, so the pathways they later chase are both realistic and ambitious.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners map their circumstances alone first, then share one challenge statement in a
+    small group where peers offer suggestions. The peer advice is the value: someone who has faced a
+    similar constraint often knows a workaround the learner cannot see. Set the sharing norm that no
+    one is obliged to disclose anything they would rather keep private.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for sensitive circumstances, since a learner may name a constraint to a trusted mentor
+    that they would not raise in a group. The mentor plays the role the peer group would, reflecting
+    patterns back and suggesting ways around a challenge, while being careful not to decide for the
+    learner which of their ambitions are realistic.
+- context: independent
+  how: >-
+    Workable for the honest mapping, weaker because the learner loses the peer suggestions that turn a
+    challenge into a plan. If a learner works alone, ask them to share at least one challenge statement
+    with a mentor or trusted person and to write down any suggestion that person offers.
+duration: 40-50 min facilitated, plus the journal task
+grouping: Individual reflection, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Complete the "understanding the challenge" task in your Pathways Journal, mapping your strengths, constraints, obligations and context.
+- Write one or more challenge statements and note how each will shape the pathways you look for.
+- Pick one challenge statement you are willing to share, and keep the rest private if you prefer.
+- Share it in a small group, offer suggestions to others, and note advice that could help you.
+- Record what the task taught you about yourself and your next steps.
+materialsAndPreparation:
+- The Pathways Journal, one per learner, open at the "understanding the challenge" task (printed or digital).
+- A way for each breakout group to keep notes, and a nominated scribe per group.
+- Your own worked example of a challenge statement, honest but not too exposing, to model the level of disclosure you are asking for.
+- Awareness of your learners' circumstances and of any support routes locally, since displacement, family, money or status may surface.
+- "Sensitivity: this activity can surface displacement, family obligation, money, immigration status, health or loss. Tell learners plainly before you start that they decide what to share and what to keep in the journal, that they can pass without a reason, and know where you can point a learner for support if something serious comes up."
+facilitationNotes: |
+  This is the reality-check that keeps the pathways journey honest: a learner cannot chase a realistic
+  and ambitious opportunity until they have named the strengths they bring and the constraints they
+  face. The one thing to get right is safety. This is sensitive ground, so make clear that learners
+  choose what they disclose, that a challenge is a starting point rather than a verdict, and that no
+  circumstance rules out an ambition. Your job is to help each learner see their situation clearly, not
+  to lower what they aim for.
+steps:
+- title: Frame a challenge as a starting point, not a verdict
+  duration: 5-10 min
+  guidance: |
+    Open by explaining that understanding your circumstances honestly is what makes a pathway realistic
+    and ambitious at the same time. Model one challenge statement of your own, honest but not too
+    exposing, and show how you would turn it into a next step. Set the disclosure norm now: learners
+    choose what to share and can keep anything private in the journal.
+  keyPrompts:
+  - "What is a challenge in your own life right now, and what strength do you already bring to it?"
+  - "How could naming a constraint honestly actually help you find a pathway that fits?"
+  - "What is the difference between a challenge you can plan around and one you cannot change?"
+  watchOuts:
+  - "Learners hear \"challenge\" as \"weakness\" and shut down; reframe it plainly as circumstances plus strengths, and model a statement that names both so no one feels reduced to a problem."
+  adaptation: |
+    With no slides or connectivity, this needs nothing but you speaking one honest example aloud and
+    writing the two parts of a challenge statement, the circumstance and the next step, on a board or sheet.
+- title: Map your circumstances in the Pathways Journal
+  duration: 15-20 min
+  guidance: |
+    Give learners quiet, individual time to complete the "understanding the challenge" task, mapping
+    strengths, constraints, obligations and context. Circulate quietly and give people space. Where a
+    learner is stuck, ask about a typical week or who depends on them rather than pressing for anything
+    painful. Ask each learner to mark one challenge statement they would be willing to read out.
+  keyPrompts:
+  - "What do you have going for you that a pathway could build on?"
+  - "What has to be true for a pathway to actually work with your life as it is now?"
+  - "Which of these are you comfortable sharing, and which would you rather keep in your journal?"
+  watchOuts:
+  - "A learner writes nothing because the ground feels too raw or too private; reassure them the depth is their choice, that a general note is enough, and that keeping something private does not fail the task."
+  adaptation: |
+    If the journal is not available digitally, the same prompts can be answered on paper and copied in
+    later. The task needs no device, and a private page can stay on paper if a learner prefers.
+- title: Share one challenge and gather suggestions in breakout groups
+  duration: 15-20 min
+  guidance: |
+    Put learners in groups of three to five with a scribe. Each learner shares one challenge statement
+    and how it shapes the pathways they will look for; the group then offers concrete suggestions for
+    how to address it. This peer advice is the engine of the activity: a colleague who has faced a
+    similar constraint often knows a route the learner has not found. Remind everyone that sharing is voluntary.
+  keyPrompts:
+  - "Do any of you face similar challenges, and how could you work together on them?"
+  - "As you listen, what practical suggestion could help this person address their challenge?"
+  - "What is one piece of advice someone gave you here that you want to act on?"
+  watchOuts:
+  - "The group slides into swapping problems with no suggestions, or one person dominates; give a round-robin structure where each learner shares before anyone responds, and ask the scribe to capture at least one suggestion offered to each member."
+  adaptation: |
+    With thin attendance or in a mentoring setting, the facilitator or mentor plays the listening role,
+    reflecting patterns back and offering suggestions. Asynchronously, learners post one challenge in a
+    shared space and reply to two others with a concrete suggestion each.
+- title: Capture what you learned and your next step
+  duration: 5 min
+  guidance: |
+    Close the loop individually. Ask each learner to write, in their journal, what the task taught them
+    about themselves and one way their circumstances will shape the pathways they pursue next. This
+    turns reflection into direction and gives you a quick read on who left clearer and who is still
+    working things out.
+  keyPrompts:
+  - "What did completing this task teach you about yourself?"
+  - "How will understanding your circumstances help you pick pathways that are realistic and ambitious?"
+  - "What is one next step you will take before the next session?"
+  watchOuts:
+  - "Learners leave with a challenge named but no move to make; push for one concrete, small step they can actually take, so the activity ends in direction rather than worry."
+closing: |
+  Ask two or three learners to name one suggestion a peer offered that they will use, to show the group
+  how much practical help the room holds. Remind learners that their challenge statements live in the
+  journal alongside their ambitions, and that every later pathway choice is weighed against both what
+  they want and the circumstances they are working with.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
+  how: >-
+    Naming your own circumstances honestly, on your own terms and choosing what to disclose, is an act
+    of self-direction over ground that often feels imposed. It keeps control of the pathway with the
+    learner, because opportunities are then chosen to fit the life they actually have rather than
+    lowered by someone else's assumptions about what someone in their situation can do.
+principlesForegrounded:
+- builds-on-identities
+- authentic-challenges
+- safe-spaces
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The activity starts from each learner's real circumstances, strengths, obligations and context, and
+    treats them as the foundation for a pathway rather than obstacles to hide, so the work is anchored
+    in the learner's own life rather than an external template of who they should be.
+- principle: authentic-challenges
+  how: >-
+    Learners work with the genuine constraints of their own situation, displacement, family, money or
+    status, rather than a hypothetical case, and the point is to plan around real challenges so the
+    pathways they pursue actually hold up in their lives.
+- principle: safe-spaces
+  how: >-
+    Because the ground is sensitive, the activity is built around learner-controlled disclosure: people
+    choose what to share and what to keep private, can pass without a reason, and set group norms
+    before anyone speaks, so honest reflection is possible without exposure.
+competencyCodes:
+- FSL1
+- FUS1
+- FPS1
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    Mapping strengths and constraints and closing with what the task revealed about themselves is
+    direct practice in self-reflection; the journal entries are the evidence.
+- code: FUS1
+  how: >-
+    Naming the obligations and context that shape their choices, and hearing how peers read similar
+    circumstances, builds self-awareness of the forces acting on their own decisions.
+- code: FPS1
+  how: >-
+    Turning a fixed constraint into a challenge statement with a workable next step, and taking peer
+    suggestions on board, is practice in adaptable thinking about how to reach a goal within real limits.
+objectiveIds:
+- pathways--o1
+- agency-in-learning--o1
+relatedSlugs:
+- pathways-finding-your-purpose
+- pathways-outlining-ambitions
+- pathways-journal
+sourceRefs:
+- "Pathways Programme - Activity Guides/[60 mins] Identifying pathways_ understanding the challenge - Activity Guide.docx"
+- Learning Bridge - Pathways Course Planner.pdf
+provenanceNote: Enriched into a structured facilitation flow (steps with prompts, watch-outs and
+  low-bandwidth adaptations, a sensitivity note, delivery-mode notes, and agency/principle/competency
+  explanations) from the source activity guide, which supplied the purpose, the journal task and the
+  breakout discussion questions. Linked to Pathways objective 1 and Agency in Learning objective 1.

@@ -1,0 +1,172 @@
+id: pathways-outlining-ambitions
+slug: pathways-outlining-ambitions
+access: public
+type: activity
+title: Outlining your ambitions
+summary: Learners set out their short-term and long-term ambitions, then compare them with peers to
+  surface pathway opportunities that fit what they actually want.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners draft their ambitions alone first, then compare in small breakout groups.
+    The comparison is where most of the value sits, since hearing others' ambitions surfaces pathways
+    a learner had not considered, so keep the sharing step even if you shorten the drafting.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. The learner drafts their ambitions and a mentor plays the role the peer group would,
+    reflecting back patterns and naming opportunities the learner has not thought of. The mentor
+    should resist steering the learner towards the mentor's own idea of a good future.
+- context: independent
+  how: >-
+    Workable but weaker, because the learner loses the peer comparison that generates new options.
+    If a learner works alone, ask them to share their ambitions with at least one other person,
+    even asynchronously, and to write down any opportunities that person suggests.
+duration: 40-50 min facilitated, plus the journal task
+grouping: Individual drafting, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Complete the "outlining your ambitions" task in your Pathways Journal, for both the short and long term.
+- Pick one ambition you are willing to share with your group.
+- Share ambitions in a small group and look for overlaps and ways to help each other.
+- Note any pathway opportunities that come to mind as you listen to others.
+- Record what completing the task taught you about yourself and your next steps.
+materialsAndPreparation:
+- The Pathways Journal, one per learner, open at the "outlining your ambitions" task (printed or digital).
+- A way for each breakout group to keep notes, and a nominated scribe per group.
+- Your own worked example of a short-term and a long-term ambition, to model the difference before learners start.
+facilitationNotes: |
+  This is the reflective starting point of the pathways journey: learners cannot identify a pathway
+  that fits them until they have said, in their own words, what they are aiming for. The one thing to
+  get right is that ambitions are the learner's own. Do not let the group, or you, quietly rank some
+  ambitions as more sensible than others. Your job is to help each learner name what they want and
+  then notice which opportunities line up with it, not to correct the wanting.
+steps:
+- title: Model the difference between a short-term and a long-term ambition
+  duration: 5-10 min
+  guidance: |
+    Open by drawing the line between an ambition for the next year or two and one for the next five
+    to ten. Use one worked example of your own for each so the distinction is concrete. Keep it brief:
+    the point is to give learners a frame before they write, not to talk them into any particular
+    kind of ambition.
+  keyPrompts:
+  - What is something you want to have achieved by this time next year?
+  - What is a bigger thing you are working towards over the next several years?
+  - Can an ambition change? What happens if yours does halfway through?
+  watchOuts:
+  - Learners assume ambitions must be grand or career-shaped; make room for family, community, health and personal goals so no one feels their ambition does not count.
+  adaptation: |
+    With no slides or connectivity, this needs nothing but you speaking two honest examples aloud
+    and writing the two time horizons on a board or a sheet of paper.
+- title: Draft your ambitions in the Pathways Journal
+  duration: 15-20 min
+  guidance: |
+    Give learners quiet, individual time to complete the "outlining your ambitions" task in their
+    Pathways Journal. Circulate quietly. Where a learner is stuck, ask about what they enjoy or what
+    a good week would look like rather than feeding them an ambition. Ask each learner to mark one
+    ambition they are willing to read out.
+  keyPrompts:
+  - What would you be proud to tell someone you had done?
+  - If nothing were in the way, what would you try?
+  - Which of these are you comfortable sharing with your group, and which would you rather keep private?
+  watchOuts:
+  - A learner writes nothing because they feel they should already know their future; reassure them that this task is the start of a long exploration, not a final decision, and let a rough draft be enough.
+  adaptation: |
+    If the journal is not available digitally, the same prompts can be answered on paper and pasted
+    or copied into the journal later. The task does not need a device.
+- title: Compare ambitions in breakout groups and harvest opportunities
+  duration: 15-20 min
+  guidance: |
+    Put learners in groups of three to five with a scribe. Each learner shares at least one ambition.
+    The group then looks for overlaps, ways they could help each other, and, crucially, names any
+    pathway opportunities that come to mind as they listen. This peer harvest is the engine of the
+    activity: learners routinely spot options for each other that they would never have found alone.
+  keyPrompts:
+  - Are there ambitions in this group that overlap, and could you help each other pursue them?
+  - As you listen, what pathway opportunities come to mind for the person speaking?
+  - What is one opportunity someone named for you that you want to look into?
+  watchOuts:
+  - One learner dominates or the group drifts into chat; give a clear round-robin structure ("each person shares one ambition before anyone responds") and ask the scribe to capture at least one opportunity named for each member.
+  adaptation: |
+    With thin attendance or in a mentoring setting, the mentor or facilitator plays the listening
+    role, reflecting patterns back and naming opportunities. Asynchronously, learners post one
+    ambition in a shared space and reply to two others with an opportunity each.
+- title: Capture what you learned and your next step
+  duration: 5 min
+  guidance: |
+    Close the loop individually. Ask each learner to write, in their journal, what the task taught
+    them about themselves and one opportunity they now want to explore. This turns a discussion into
+    a next action and gives you a quick read on who left with a direction and who is still searching.
+  keyPrompts:
+  - What did completing this task teach you about yourself?
+  - How will knowing your ambitions help you choose which pathways to look into?
+  - What is the one opportunity you will look into before the next session?
+  watchOuts:
+  - Learners write a vague intention with no first step; push for something concrete and small enough to actually do before you meet again.
+closing: |
+  Ask two or three learners to share one opportunity a peer surfaced for them, to show the group how
+  much the room already knows collectively. Remind learners that their ambitions live in the journal
+  and will be revisited: this is the reference point they will hold every later pathway choice up
+  against.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Naming your own short and long term ambitions, in your own words, is the first act of directing
+    your own future rather than accepting a default. Every later pathway choice is then measured
+    against what the learner said they want, which keeps control of the journey with them.
+principlesForegrounded:
+- builds-on-identities
+- connect-to-futures
+- collaboration
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The whole activity starts from what each learner wants, in their own terms, and explicitly makes
+    room for family, community and personal ambitions rather than a narrow career script, so the work
+    is anchored in the learner's own life rather than an external template.
+- principle: connect-to-futures
+  how: >-
+    Learners state ambitions across two time horizons and then hunt for the pathway opportunities that
+    line up with them, which is exactly the act of connecting present learning to the future they are
+    trying to build.
+- principle: collaboration
+  how: >-
+    The breakout harvest is built on the fact that peers see opportunities for each other that no one
+    sees alone, so a learner's set of options is expanded by the group rather than limited to their
+    own knowledge.
+competencyCodes:
+- FSL1
+- FSL2
+- FUS1
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    Writing and then articulating their own ambitions, and closing with what the task taught them
+    about themselves, is direct practice in self-reflection; the journal entries are the evidence.
+- code: FSL2
+  how: >-
+    Turning a vague sense of "what I want" into stated short and long term ambitions, and leaving with
+    one concrete opportunity to pursue, is the first move in setting and pursuing goals.
+- code: FUS1
+  how: >-
+    Comparing their ambitions with peers and noticing what shapes their own wants develops
+    self-awareness of the influences on their choices.
+objectiveIds:
+- pathways--o1
+- agency-in-learning--o2
+relatedSlugs:
+- pathways-finding-your-purpose
+- pathways-types-of-pathways
+- pathways-journal
+sourceRefs:
+- "Pathways Programme - Activity Guides/[45 mins] Identifying pathways_ outlining ambitions - Activity Guide.docx"
+- Learning Bridge - Pathways Course Planner.pdf
+provenanceNote: Enriched into a structured facilitation flow (steps with prompts, watch-outs and
+  low-bandwidth adaptations, delivery-mode notes, and agency/principle/competency explanations) from
+  the source activity guide, which supplied the purpose, the journal task and the breakout discussion
+  questions. Linked to Pathways objective 1 and Agency in Learning objective 2.

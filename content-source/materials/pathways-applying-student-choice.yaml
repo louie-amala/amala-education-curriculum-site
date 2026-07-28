@@ -1,0 +1,186 @@
+id: pathways-applying-student-choice
+slug: pathways-applying-student-choice
+access: public
+type: activity
+title: "Applying for opportunities: student choice"
+summary: Learners put the whole pathways toolkit together on a real opportunity they choose themselves,
+  from finding and prioritising it to preparing and submitting a genuine application on time.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners work on their own chosen opportunity but sit in breakout groups so they can
+    prompt each other and read one peer's application. Keep the peer feedback round even if you shorten
+    the drafting, since a fresh reader catches gaps the applicant cannot see and the group discussion
+    is where learners realise how transferable the toolkit is.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor helps the learner pick a genuine opportunity, checks the requirements
+    together and reads the draft closely. The one thing to guard is ownership: the mentor advises on
+    quality but the learner chooses the opportunity and decides what to submit, so it stays their
+    application and not the mentor's.
+- context: independent
+  how: >-
+    Workable, but the learner loses the peer read that catches blind spots. If a learner works alone,
+    require at least one round of feedback from a mentor, facilitator or trusted person before they
+    submit, and ask them to set their own deadline in writing so the real submission still happens.
+duration: 45-60 min facilitated, plus independent application time
+grouping: Individual work in breakout groups of 3-5; works with 10-30 learners
+whatLearnersDo:
+- Choose a real pathway opportunity that matters to you and is worth applying for now.
+- Complete the "applying for opportunities" task in your Pathways Journal for that opportunity.
+- Check the actual requirements and deadline, and assemble what the application needs.
+- Read one peer's application and give specific feedback, then act on the feedback you receive.
+- Submit the application, or set a dated plan to submit it, and record what you learned.
+materialsAndPreparation:
+- The Pathways Journal, one per learner, open at the "applying for opportunities" task (printed or digital).
+- A way for learners to reach the opportunities they are applying to (a shortlist from earlier sessions, or offline printouts of a few live openings for anyone without connectivity).
+- Learners' existing CV, cover letter or personal statement drafts to adapt, if they have made them.
+- A way for each breakout group to keep notes, and a nominated scribe per group.
+- "[to verify] Application requirements, formats and deadlines differ by provider and country. Learners must check each opportunity's own instructions, since a general template can carry the wrong expectations."
+facilitationNotes: |
+  This is where the pathways toolkit gets used for real, on an opportunity the learner has chosen
+  because it matters to them. The one thing to get right is that the learner directs it: they choose
+  what to apply for, and you help with quality without steering the choice. Watch for two failure
+  modes: learners defaulting to a safe option they do not want, and applications that never get
+  submitted. Protect time for a peer read and push every learner to leave with either a submitted
+  application or a dated plan to submit, so the work reaches a real deadline rather than the journal.
+steps:
+- title: Choose a real opportunity worth applying for
+  duration: 10-15 min
+  guidance: |
+    Open by making the choice the learner's own. Ask each learner to pick one genuine opportunity they
+    want, drawing on the shortlist and priorities from earlier sessions. Your job is to help them weigh
+    fit and timing, not to nominate the opportunity. Where a learner is unsure, ask what they would
+    regret not trying rather than which option looks safest to you.
+  keyPrompts:
+  - Of the opportunities you have found, which one do you actually want, and why that one?
+  - Is this opportunity open now, and can you realistically meet its deadline?
+  - What would you regret not applying for this year?
+  watchOuts:
+  - A learner defaults to a safe option they do not really want because it feels achievable; ask what they would choose if success were certain, then help them judge whether the ambitious option is genuinely out of reach or just unfamiliar.
+  adaptation: |
+    Where there is no connectivity to browse live openings, bring a few printed opportunity summaries
+    or use the shortlist learners built in earlier sessions, so choosing does not depend on a device.
+- title: Meet the requirements and assemble the application
+  duration: 15-20 min
+  guidance: |
+    Have learners read their chosen opportunity's actual requirements and list exactly what it asks
+    for: documents, formats, word limits, deadline. They then pull together and adapt what they already
+    have, a CV, cover letter or personal statement, to fit this specific application. Circulate and
+    check each learner has understood the real requirements rather than a generic idea of them.
+  keyPrompts:
+  - What does this opportunity actually ask you to submit, in its own words?
+  - Which parts of your CV or statement need changing to fit this specific application?
+  - When is the deadline, and what will you have ready by when?
+  watchOuts:
+  - A learner writes a generic application and ignores the provider's stated instructions; have them copy the real requirements into their journal first and tick each one off, so the application answers what was actually asked.
+  adaptation: |
+    If learners cannot open the application portal in the session, they capture the requirements on
+    paper and prepare offline, then submit later from a device with connectivity.
+- title: Read a peer's application and give specific feedback
+  duration: 15-20 min
+  guidance: |
+    In breakout groups, each learner reads one other person's application and gives feedback on their
+    strategy: what is strong and why, and what would strengthen it and why. Keep it specific and about
+    the document, not vague praise. Learners then act on the feedback they receive, making at least one
+    concrete change while the reader's comment is fresh.
+  keyPrompts:
+  - What do you like about this person's application strategy, and why?
+  - What is one change that would make this application stronger, and why?
+  - Based on the feedback you got, what is the one thing you will change right now?
+  watchOuts:
+  - Feedback stays polite and vague ("looks good") so nothing improves; model one specific, usable comment yourself first, and ask each reader to name both a strength and one concrete improvement.
+  adaptation: |
+    With thin attendance or no group, the facilitator or mentor plays the reader. Asynchronously,
+    learners swap applications in a shared space and each returns one strength and one improvement.
+- title: Submit, or set a dated plan, and capture what you learned
+  duration: 5-10 min
+  guidance: |
+    Close by pushing the work to a real deadline. Where the opportunity is open, learners submit in the
+    session. Where it is not, each learner writes a dated plan for when and how they will submit. Then
+    ask them to record in the journal what this activity taught them about applying, so the whole
+    toolkit is understood as something they can reuse for the next opportunity.
+  keyPrompts:
+  - Can you submit this today, and if not, exactly when will you?
+  - What did this activity teach you about applying for pathway opportunities?
+  - Which part of the toolkit will you reuse for your next application?
+  watchOuts:
+  - A finished application sits in the journal and is never sent; make submission or a dated, written plan the required exit, and note who still needs a nudge before their deadline.
+closing: |
+  Ask two or three learners to name the opportunity they chose and one thing a peer's feedback changed
+  in their application. Remind everyone that the point was not this single application but the toolkit
+  behind it: find, prioritise, meet the requirements, adapt their documents and submit on time, which
+  they now own and can run again for every opportunity they decide is worth their effort.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    The learner chooses which real opportunity to pursue and carries it all the way to submission, so
+    access to a future pathway becomes something they actively direct rather than wait for. Deciding
+    what is worth applying for, on their own terms, is a direct exercise of self-direction over the
+    course of their life.
+principlesForegrounded:
+- lifeworthy-competencies
+- connect-to-futures
+- feedback-and-data
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Assembling and submitting a real application is the transferable skill learners will reuse for
+    every education, job, scholarship or funding opportunity for years, and here they practise the
+    whole sequence on a live application rather than a mock one.
+- principle: connect-to-futures
+  how: >-
+    Learners act on a genuine opportunity of their own choosing, so present effort is tied directly to
+    a future they are trying to reach, and the activity ends with a real submission or a dated plan to
+    submit rather than a classroom exercise.
+- principle: feedback-and-data
+  how: >-
+    Each application is deliberately improved through a peer read against the opportunity's actual
+    requirements, and learners make at least one concrete change on the spot, so specific feedback
+    drives the quality of what they submit.
+competencyCodes:
+- FSL2
+- FR2
+- ASL4
+- AR3
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Choosing a genuine opportunity, planning the application against its deadline and carrying it to
+    submission is direct practice in setting a goal and pursuing it to completion; the submitted
+    application or dated plan is the evidence.
+- code: FR2
+  how: >-
+    Learners identify what an opportunity requires and marshal what they already have, their CV,
+    statement and earlier work, to meet it, which is exactly the practice of utilising available
+    resources to reach a goal.
+- code: ASL4
+  how: >-
+    Applying to a real opportunity and completing the submission is the act of actualising a pathway,
+    turning preparation into a concrete step towards a future position rather than an intention.
+- code: AR3
+  how: >-
+    Putting a real application forward means risking rejection, and the peer feedback and dated
+    follow-through build the resilience to submit, absorb critique and keep applying rather than stop
+    at the first setback.
+objectiveIds:
+- pathways--o1
+relatedSlugs:
+- pathways-applying-for-opportunities
+- pathways-applying-practice-run
+- pathways-prioritising-pathway-opportunities
+sourceRefs:
+- "Pathways Programme - Activity Guides/[60 mins] Applying for opportunities - student choice - Activity Guide.docx"
+- Learning Bridge - Pathways Course Planner.pdf
+provenanceNote: Enriched into a structured facilitation flow (steps with prompts, watch-outs and
+  low-bandwidth adaptations, delivery-mode notes, a localisation caveat on application requirements,
+  and agency/principle/competency explanations) from the source activity guide, which supplied the
+  purpose, the journal application task and the breakout feedback questions. Linked to Pathways
+  objective 1.

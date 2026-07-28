@@ -1,0 +1,170 @@
+id: pathways-producing-a-cv
+slug: pathways-producing-a-cv
+access: public
+type: activity
+title: Producing a CV
+summary: Learners draft a first CV that showcases their strengths and experience, then get feedback
+  on it, so they have a document ready to adapt for real pathway applications.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners draft in pairs so they can prompt each other for strengths and experiences
+    they would undersell alone, then reflect as a group. Build in a separate slot for one-to-one CV
+    feedback, since a CV improves most from specific comment on the actual document.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for the feedback stage. A mentor works through a learner's draft line by line, which
+    is more valuable than group work here. Have the learner do the first draft before the session so
+    the time is spent improving a real document, not starting one.
+- context: independent
+  how: >-
+    Workable for the drafting, weaker for the feedback that makes a CV good. If a learner works alone,
+    give them a checklist of what a strong CV entry looks like and arrange at least one round of
+    feedback from a peer, mentor or facilitator before they treat the CV as finished.
+duration: 45-60 min facilitated, plus independent drafting
+grouping: Pairs for drafting, whole group for reflection; works with 10-30 learners
+whatLearnersDo:
+- Work through the CV-building guidance and draft a CV that fits your experience.
+- Save your CV into your Pathways Journal so it is easy to find and update.
+- Get feedback on your draft from a partner, mentor or facilitator.
+- Reflect on how a strong CV helps you access the pathways you are aiming for.
+materialsAndPreparation:
+- The CV-building resource (video and slides) or your own worked walkthrough if you prefer to lead it live.
+- A simple CV template and one strong example CV for learners to model, adapted to your context.
+- The Pathways Journal for each learner to store and revisit their CV.
+- "[to verify] CV conventions differ by country and sector (length, whether to include a photo, date of birth or marital status). Check what is expected for the pathways your learners are actually applying to, and tell them plainly, since a borrowed template can carry the wrong norms."
+facilitationNotes: |
+  A CV is often the first thing a pathway provider sees, so this activity is about turning a
+  learner's real experience into a document that does it justice. The one thing to get right is that
+  learners routinely undersell themselves, leaving off responsibilities, volunteering, languages and
+  informal work because they assume these do not count. Your main job is to help them see the value
+  in what they have already done. Feedback on the actual draft matters more than any amount of
+  general advice, so protect time for it.
+steps:
+- title: Set what a strong CV is for
+  duration: 5-10 min
+  guidance: |
+    Start with the purpose: a CV is a short, honest advert for what a learner can offer, aimed at a
+    specific opportunity. Show one strong example and draw out what makes it work, clear structure,
+    concrete achievements, no wasted words. Flag early that conventions vary by place, so the example
+    is a model of quality, not a fixed template.
+  keyPrompts:
+  - Who reads a CV, and how long do you think they spend on it at first?
+  - What makes this example easy or hard to read quickly?
+  - What is the difference between listing a duty and showing an achievement?
+  watchOuts:
+  - Learners treat the example as a rigid form to copy exactly; stress that structure and clarity transfer but details like length and personal information depend on where they are applying.
+  adaptation: |
+    With no way to show a video or slides, a single printed or hand-copied example CV and your spoken
+    walkthrough of why it works is enough to run this step.
+- title: Draft your CV in pairs
+  duration: 20-25 min
+  guidance: |
+    Learners draft a CV that fits their own experience, working in pairs so each can prompt the other.
+    The pair's job is to pull out things the writer is undervaluing: responsibilities at home,
+    volunteering, languages spoken, informal or family work, skills built in the Amala programme. Ask
+    learners to save the draft into their Pathways Journal so it becomes a living document.
+  keyPrompts:
+  - What have you done, paid or unpaid, where people relied on you?
+  - What can you do that not everyone can, including languages and practical skills?
+  - "Your partner just told me something impressive about you: is it on your CV yet?"
+  watchOuts:
+  - Learners leave gaps blank and feel they have no experience; help them count unpaid, informal and community experience, and frame skills gained through the programme itself as legitimate CV content.
+  adaptation: |
+    No devices needed for a first draft: learners can write the CV by hand against the template and
+    type it up later. If someone cannot pair up, they draft solo and you play the prompting partner.
+- title: Give and get feedback on the draft
+  duration: 15-20 min
+  guidance: |
+    Move learners into a feedback round, ideally one-to-one with you or a mentor, or structured peer
+    feedback if not. Feedback should be specific and about the document: which entry is unclear, where
+    an achievement is hiding inside a duty, what to cut. Keep it kind and concrete, and have learners
+    make at least one improvement there and then so the feedback lands.
+  keyPrompts:
+  - Which line here would make a reader want to know more, and which would they skim past?
+  - Where have you described a task when you could describe a result?
+  - What is one change you will make right now based on this feedback?
+  watchOuts:
+  - Feedback stays vague ("looks good") and nothing changes; model one specific, usable comment yourself first, and ask each learner to name the single change they are making.
+  adaptation: |
+    Where one-to-one time is scarce, use a short checklist for peer feedback so learners can give
+    useful comment without you at every pair, and reserve your own time for the learners who need it most.
+- title: Reflect on how the CV serves your pathways
+  duration: 5 min
+  guidance: |
+    Close by connecting the document back to the point of the course. Ask learners how they found the
+    process, how happy they are with the draft, and how a strong CV helps them reach the pathways they
+    are aiming for. Capture the reflection in the journal so the CV is understood as a tool they will
+    reuse and adapt, not a one-off task.
+  keyPrompts:
+  - How happy are you with your CV, and what would make it stronger?
+  - What did you learn about showcasing your strengths?
+  - Which upcoming opportunity will you adapt this CV for first?
+  watchOuts:
+  - Learners file the CV away as finished; remind them a CV is tailored per application and should be revisited whenever they apply somewhere new.
+closing: |
+  Ask a couple of learners to name one strength they had undervalued until a partner or the group
+  pointed it out. Remind everyone the CV lives in their Pathways Journal and is meant to grow: every
+  new experience, and every application, is a reason to come back and sharpen it.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    A CV is the document that lets a learner put themselves forward for real opportunities. Producing
+    one that honestly showcases their strengths turns access to a pathway from something that happens
+    to them into something they can actively pursue and control.
+principlesForegrounded:
+- lifeworthy-competencies
+- feedback-and-data
+- recognise-communicate-growth
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    CV writing is a transferable, real-world skill learners will reuse for every education, job or
+    funding application for years, and the activity ends with a document they actually own rather than
+    a practice exercise.
+- principle: feedback-and-data
+  how: >-
+    The draft is deliberately improved through a round of specific feedback on the real document, and
+    learners make at least one change on the spot, so feedback drives the quality of the output.
+- principle: recognise-communicate-growth
+  how: >-
+    The whole task is learners learning to recognise and communicate their own strengths and
+    experience, including the informal and community experience they tend to discount.
+competencyCodes:
+- FSL3
+- FLC3
+- ASL1
+competencyDevelopment:
+- code: FSL3
+  how: >-
+    Building a CV is learners actively developing a transferable skill relevant across every pathway;
+    the saved and revisited document evidences ongoing skill-building.
+- code: FLC3
+  how: >-
+    A CV is persuasive communication aimed at a specific audience, and drafting one teaches learners
+    to present themselves so a reader is convinced; the CV itself is the evidence.
+- code: ASL1
+  how: >-
+    The feedback round, where learners take specific comment on their draft and make a change on the
+    spot, is direct practice in assessing and using feedback to improve an outcome.
+objectiveIds:
+- pathways--o3
+- pathways--o5
+relatedSlugs:
+- pathways-producing-cover-letters
+- pathways-producing-a-portfolio
+- pathways-producing-a-personal-statement
+- pathways-journal
+sourceRefs:
+- "Pathways Programme - Activity Guides/[60 mins] Producing a CV - Activity Guide.docx"
+- Learning Bridge - Pathways Course Planner.pdf
+provenanceNote: Enriched into a structured facilitation flow (steps with prompts, watch-outs, a
+  localisation caveat on CV conventions, delivery-mode notes and agency/principle/competency
+  explanations) from the source activity guide, which supplied the purpose, the CV-building task and
+  the reflection questions. Linked to Pathways objectives 3 and 5.

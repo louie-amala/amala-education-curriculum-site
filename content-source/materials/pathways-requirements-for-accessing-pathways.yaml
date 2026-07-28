@@ -1,0 +1,184 @@
+id: pathways-requirements-for-accessing-pathways
+slug: pathways-requirements-for-accessing-pathways
+access: public
+type: activity
+title: Identifying requirements for accessing pathways
+summary: Learners work out what a chosen pathway actually requires to access it, then compare those
+  requirements against where they are now to turn a vague goal into a concrete checklist.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners build a strategy and research one opportunity individually, then compare
+    strategies and sources in small groups. The comparison is where most of the value sits, since a
+    peer's source or tactic often fills a gap in a learner's own method, so keep the sharing step even
+    if you shorten the research.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. The mentor plays the role the peer group would, testing whether a learner's sources
+    are trustworthy and current and helping them measure the gap precisely. It is also the safer
+    setting for the sensitive requirements, since documents and legal status can be handled privately
+    rather than near a group.
+- context: independent
+  how: >-
+    Workable, but the learner loses the peer comparison that surfaces sources and tactics they would
+    not find alone. If a learner works independently, give them the list of requirement categories and
+    a source checklist, and arrange for at least one person to review their gap plan before they treat
+    it as finished.
+duration: 55-70 min facilitated, plus the journal task
+grouping: Individual research, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Complete the "identifying requirements" task in your Pathways Journal, building a general strategy for finding what an opportunity requires.
+- "Take one opportunity from the Pathways Database and research its actual requirements: qualifications, documents, deadlines, language level and cost."
+- Map those requirements against where you are now and name the gaps honestly.
+- Plan one concrete step towards closing each gap.
+- Compare your strategy and sources with your group, and add the best ones to your own.
+materialsAndPreparation:
+- The Pathways Journal, one per learner, open at the "identifying requirements for accessing pathways" task (printed or digital).
+- Access to the Pathways Database and the internet so learners can reach real adverts and entry pages, or a set of printed adverts and entry pages if connectivity is unreliable.
+- A way for each breakout group to keep notes, and a nominated scribe per group.
+- "Sensitivity note: requirements can include documents, legal status, language level and cost, which are difficult ground for some learners. Let learners research these privately, never ask anyone to state their status to the group, and know where to point learners for specialist immigration or legal advice rather than guessing at it yourself."
+facilitationNotes: |
+  This activity turns a vague pathway goal into a concrete, evidenced checklist: what the opportunity
+  actually asks for, and where the learner stands against it. The one thing to get right is that
+  requirements come from the real source, the actual advert, entry page or provider, not from
+  assumption or rumour, because a wrong requirement sends a learner preparing for the wrong thing.
+  Requirements can include documents, legal status, language level and cost, which are sensitive for
+  some learners. Let anyone research these privately and never ask a learner to disclose their own
+  status to the group. Your job is to help them find the truth and measure the gap honestly.
+steps:
+- title: Frame why requirements matter and name the categories
+  duration: 10 min
+  guidance: |
+    Open by explaining that every pathway opportunity has a set of requirements a learner must meet
+    to access it, and that finding these early is what separates a hopeful application from a prepared
+    one. Name the categories learners will look for: entry requirements and qualifications, documents,
+    deadlines, language level, and cost. Keep it short. The point is to give a frame before they
+    research, not to work through any one opportunity yet.
+  keyPrompts:
+  - Why is it better to know an opportunity's requirements months before the deadline than the week of it?
+  - What kinds of requirement might an opportunity have beyond a qualification?
+  watchOuts:
+  - Learners assume every requirement is academic and later miss a deadline, a document or a cost; list the five categories explicitly on a board so nothing invisible sinks an application further down the line.
+  adaptation: |
+    With no slides or connectivity, write the five requirement categories on a board or a sheet and
+    talk through one real example aloud. Nothing digital is needed for this framing.
+- title: Build a general strategy for finding requirements
+  duration: 15 min
+  guidance: |
+    Have learners work out, in their Pathways Journal, how they would find the requirements for any
+    opportunity: which tools and sources they would trust (the official advert or entry page, the
+    provider's own site, someone already on the pathway) and how they would check a claim is current.
+    This is the reusable method they will apply to every future opportunity, so push for named sources
+    rather than "the internet", and circulate to test whether a source is really trustworthy.
+  keyPrompts:
+  - Which source would you trust most for an opportunity's real requirements, and why that one?
+  - How would you check that a requirement you found is still current and not out of date?
+  watchOuts:
+  - A learner rests the whole strategy on a single second-hand source, such as a friend's memory; insist on at least one primary source, the provider's own page or advert, so each requirement is verified rather than rumoured.
+  adaptation: |
+    If learners cannot get online in the session, they draft the strategy on paper, list the sources
+    they would consult and why they trust each, and carry out the live research as a follow-up task.
+- title: Map one opportunity's requirements against where you are now
+  duration: 20 min
+  guidance: |
+    Learners take one opportunity they chose from the Pathways Database and research its actual
+    requirements against the categories from step one. They then write, side by side, what the
+    opportunity asks for and where they currently stand, so the gap is explicit. Circulate and help
+    them be precise: "two years of experience" is a gap you can plan for, while "not enough
+    experience" is not something anyone can act on.
+  keyPrompts:
+  - For this opportunity, what does it ask for, and where are you against each requirement right now?
+  - Which gap is the biggest, and what is one concrete step towards closing it?
+  watchOuts:
+  - A learner reaches a requirement about documents or legal status and feels exposed; let them record and research it privately, never ask anyone to state their status to the room, and point to specialist advice rather than guessing at the law yourself.
+  adaptation: |
+    Without a device to reach the database, a single printed advert or entry page for one opportunity
+    is enough to run the mapping. The method is identical whatever the source.
+- title: Compare strategies and gaps in breakout groups
+  duration: 15 min
+  guidance: |
+    Put learners in small groups with a scribe to compare the strategies they built and, at the level
+    they are comfortable with, the gaps they found. The value is method-sharing: learners surface
+    sources and tactics others missed, and hearing how a peer plans to close a similar gap makes a
+    plan feel possible. Keep the focus on approach and next steps, not on anyone's personal
+    circumstances.
+  keyPrompts:
+  - What tool or source did someone else use that you want to add to your own strategy?
+  - How does understanding an opportunity's requirements change how you will prepare for it?
+  watchOuts:
+  - The group drifts into comparing who is furthest ahead; steer it firmly towards sharing methods and resources, and ask the scribe to capture useful sources rather than anyone's personal gaps.
+  adaptation: |
+    With thin attendance or in a mentoring setting, the facilitator or mentor plays the comparison
+    partner. Asynchronously, learners post one useful source and one gap-closing tactic to a shared
+    space and reply to two peers with an addition each.
+closing: |
+  Ask two or three learners to name one requirement they had not expected and one source they now
+  trust to find requirements. Remind them the checklist and gap plan live in their Pathways Journal,
+  and that requirements change, so any real application should start by checking the source again
+  rather than relying on today's notes.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Knowing exactly what a pathway requires, and where you stand against it, turns access from
+    something gatekept and mysterious into a concrete list you can work through. The learner sets the
+    plan to close each gap, which keeps direction of the journey in their own hands rather than
+    leaving it to chance or to a provider's opaque process.
+principlesForegrounded:
+- lifeworthy-competencies
+- authentic-challenges
+- feedback-and-data
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Reading a real advert or entry page for its requirements and mapping them against your own
+    position is a transferable skill learners will reuse for every course, job and funding application
+    for years, and the gap plan is something they own and keep rather than a practice exercise.
+- principle: authentic-challenges
+  how: >-
+    Learners work on a real opportunity they actually intend to pursue, with its real requirements and
+    their real gaps, not a hypothetical case, so the stakes, the sources and the constraints are
+    genuine rather than invented for the room.
+- principle: feedback-and-data
+  how: >-
+    The activity treats the opportunity's stated requirements as hard data to measure against, and the
+    gap analysis is the feedback that tells a learner precisely what to work on next rather than
+    leaving preparation to guesswork.
+competencyCodes:
+- FSL2
+- FR2
+- FPS3
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Turning a vague ambition into an evidenced gap list, and naming a concrete step to close each gap,
+    is direct practice in setting and pursuing goals; the plan saved in the journal is the evidence.
+- code: FR2
+  how: >-
+    Finding and judging which tools and sources give trustworthy, current requirements, and choosing
+    whom to consult, is practice in locating and making effective use of resources rather than
+    relying on the first thing found.
+- code: FPS3
+  how: >-
+    Establishing, from a primary source, exactly what an opportunity requires and what currently
+    stands between the learner and it, is identifying the factors that determine access with evidence
+    rather than assumption.
+objectiveIds:
+- pathways--o2
+relatedSlugs:
+- pathways-strategy-for-identifying-opportunities
+- pathways-applying-for-opportunities
+- pathways-journal
+sourceRefs:
+- "Pathways Programme - Activity Guides/[60 minutes] Identifying pathways_ identifying requirements for accessing pathways_.docx"
+- Learning Bridge - Pathways Course Planner.pdf
+provenanceNote: Enriched into a structured facilitation flow (steps with prompts, watch-outs and
+  low-bandwidth adaptations, delivery-mode notes, a sensitivity note on documents and legal status,
+  and agency/principle/competency explanations) from the source activity guide, which supplied the
+  purpose, the strategy and gap-analysis task and the breakout discussion questions. Linked to
+  Pathways objective 2.

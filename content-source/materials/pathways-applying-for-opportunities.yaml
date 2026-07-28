@@ -1,0 +1,171 @@
+id: pathways-applying-for-opportunities
+slug: pathways-applying-for-opportunities
+access: public
+type: activity
+title: "Applying for opportunities: completing applications"
+summary: Learners learn to complete applications well and on time, reading requirements closely, gathering
+  documents early, tracking deadlines, following instructions exactly, and checking everything before they submit.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. The value comes from dividing the research across the group, since one learner rarely
+    knows how job, university and internship applications each work, and then comparing to find the common
+    method. Keep the compare-and-checklist step even if you shorten the research.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for the personal plan. The mentor and learner work through a real, upcoming application
+    together, holding the checklist against the actual requirements and deadline. Without a group to divide
+    the research, the mentor brings the comparison, naming how other opportunity types differ.
+- context: independent
+  how: >-
+    Workable but weaker, because the learner loses the peer research and comparison that generate the method.
+    If a learner works alone, give them the checklist directly, ask them to apply it to one real opportunity,
+    then have a peer, mentor or facilitator sanity-check their plan and documents before they submit.
+duration: 30-40 min facilitated, plus any real application the plan commits to
+grouping: Breakout groups of 3-5 for research, whole group to compare; works with 10-35 learners
+whatLearnersDo:
+- Research how to apply well for one type of opportunity, a job, a university or college place, or an internship.
+- Share what you learned with your group and compare how the different application types work.
+- Build a shared checklist of the steps that apply to any application.
+- Write your own dated plan for a real or likely opportunity, from gathering documents to a final check before submitting.
+materialsAndPreparation:
+- One short video, guide or example application form per opportunity type (job, university, internship), if you have them.
+- A way for each breakout group to keep notes, and a nominated scribe per group.
+- "No-resource route: if you cannot stream video or print forms, draw on any learner who has applied for something before, or walk through one application's requirements aloud yourself."
+facilitationNotes: |
+  This activity exists because strong applications are decided early, in preparation, not in the final
+  write-up. The one thing to get right is timing: learners routinely treat the deadline as when they start
+  rather than when they must be finished, and lose opportunities to a missing document or an unread
+  instruction. Keep pushing the practical, controllable steps, reading requirements, gathering documents in
+  advance, tracking the deadline, following instructions exactly and checking before submitting, over any
+  advice about what to write. If you protect one step, protect the personal plan at the end, where the
+  method becomes a real, dated commitment against a real opportunity.
+steps:
+- title: Frame applications as won before the deadline
+  duration: 5 min
+  guidance: |
+    Open by reframing what an application actually is: a provider's first read of whether a learner is
+    prepared, careful and reliable. Make the core message concrete, that strong applicants are ready and
+    ahead of the deadline, not scrambling the night before. Draw out that most avoidable failures happen
+    early, through a missed requirement or a missing document, long before any writing. Keep this short so
+    the working time goes to the practical steps.
+  keyPrompts:
+  - What is a provider really judging when they read the first page of your application?
+  - "Think of a deadline you met and one you missed: what made the difference?"
+  watchOuts:
+  - Learners treat applications as pure luck or gatekeeping and disengage; name the parts that are fully in their control, reading requirements, gathering documents and timing, so the effort feels worth making.
+  adaptation: |
+    No devices or slides needed here: two honest examples spoken aloud, one prepared applicant and one
+    last-minute one, carry the point.
+- title: Research how to apply well for different opportunities
+  duration: 10 min
+  guidance: |
+    Split learners into small groups and give each person one type of opportunity to research, a job
+    application, a university or college place, or an internship, using a provided video, guide or their own
+    knowledge. Ask each to pull out the practical moves that make an application strong: what to read first,
+    what to gather in advance, how the deadline works. The point is not to master one route but to bring back
+    usable steps the whole group can learn from.
+  keyPrompts:
+  - For the opportunity you looked at, what must an applicant do before they write anything?
+  - What is one requirement people commonly miss for this kind of application?
+  watchOuts:
+  - Learners describe the opportunity itself rather than how to apply for it; redirect them to the process, the requirements, documents and deadline, not the role or course on offer.
+  adaptation: |
+    Where videos cannot be streamed, use one printed application form or a short written guide per group, or
+    draw on any learner who has applied for something before to explain how it worked.
+- title: Compare across opportunity types and build a shared checklist
+  duration: 10 min
+  guidance: |
+    Bring the groups back together. Each person shares one or two insights from what they researched, then
+    the group hunts for the pattern: what is the same across a job, a course and an internship application,
+    and what genuinely differs. Capture the shared moves as a checklist the group keeps, reading requirements,
+    gathering documents early, tracking the deadline, following instructions exactly, checking before
+    submitting. This turns three separate videos into one transferable method.
+  keyPrompts:
+  - What steps would you take for any application, no matter the opportunity?
+  - Where do these application types actually differ, and where do people wrongly assume they do?
+  watchOuts:
+  - 'The list stays abstract ("be organised") and gives no one anything to do; push each item into a concrete action with a time attached, for example "list every required document three days before the deadline".'
+  adaptation: |
+    With no shared screen, the scribe writes the checklist on paper or a board and learners copy the agreed
+    version, so each person leaves with their own.
+- title: Turn the checklist into your own application plan
+  duration: 5 min
+  guidance: |
+    Close by making it personal. Ask each learner to pick one real or likely opportunity and write a short
+    plan against the checklist: what it requires, which documents they need to gather, the deadline, and when
+    they will do each part so they finish ahead of time, not on the day. Have them note one thing they will
+    check before submitting. This is the step that converts a good discussion into being genuinely prepared.
+  keyPrompts:
+  - For an opportunity you might actually apply to, what will you gather first, and by when?
+  - What will you double-check right before you submit?
+  watchOuts:
+  - 'Learners write the real deadline but no earlier working dates and still end up last-minute; insist they set a "ready by" date before the deadline and name the first action they will take this week.'
+closing: |
+  Ask two or three learners to read out the "ready by" date they set and the first document they will gather.
+  Remind the group that the checklist is not a one-off: it is the method they will reuse for every pathway
+  they apply to, and the applicant who prepares early is the one who is still standing when the deadline comes.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Completing applications well and on time is how a learner actually reaches the opportunities they have
+    identified. By owning the controllable parts, requirements, documents, deadlines and checks, the learner
+    turns access to a pathway from something decided by chance or by others into something they can plan for
+    and secure, which keeps direction of their future in their own hands.
+principlesForegrounded:
+- lifeworthy-competencies
+- responsible-action
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Reading requirements, gathering documents, tracking deadlines and checking work before submitting is a
+    transferable competency learners will reuse for every job, course and funding application for the rest of
+    their lives, not a skill specific to this room.
+- principle: responsible-action
+  how: >-
+    The whole activity is about taking deliberate, reliable action ahead of a deadline rather than reacting
+    at the last minute, and it ends with each learner making a dated commitment they are accountable for
+    following through on.
+- principle: connect-to-futures
+  how: >-
+    Learners apply the method to a real or likely opportunity of their own, so the session connects directly
+    to a concrete next step in the future pathway they are working towards rather than staying hypothetical.
+competencyCodes:
+- FSL2
+- FR2
+- ASL4
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Writing a dated plan that works backward from a deadline, with a "ready by" date and a first action this
+    week, is direct practice in setting a goal and pursuing it deliberately; the plan is the evidence.
+- code: FR2
+  how: >-
+    Identifying which documents, references and information an application requires and gathering them in
+    advance is exactly the act of finding and marshalling the resources needed to reach an outcome.
+- code: ASL4
+  how: >-
+    Completing applications to further education, employment or enterprise opportunities is the concrete
+    mechanism of actualising a pathway; the activity rehearses the real step that moves a learner into one.
+objectiveIds:
+- pathways--o1
+- pathways--o2
+relatedSlugs:
+- pathways-applying-student-choice
+- pathways-applying-lumiere-practice
+- pathways-requirements-for-accessing-pathways
+sourceRefs:
+- "Pathways Programme - Activity Guides/[30 mins] Applying for opportunities - Activity Guide.docx"
+- Learning Bridge - Pathways Course Planner.pdf
+provenanceNote: Enriched into a structured facilitation flow (steps with prompts, watch-outs and
+  low-bandwidth adaptations, delivery-mode notes, and agency/principle/competency explanations) from the
+  source activity guide, which supplied the purpose, the breakout research task across opportunity types and
+  the comparison questions. Reframed around preparing early and staying ahead of deadlines, and linked to
+  Pathways objectives 1 and 2.

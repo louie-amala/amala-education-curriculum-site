@@ -1,0 +1,163 @@
+id: pathways-types-of-pathways
+slug: pathways-types-of-pathways
+access: public
+type: activity
+title: Types of pathway opportunities
+summary: Learners explore a wide range of pathway categories, then compare examples with peers, so they
+  discover routes beyond the few traditional options they already know.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners study the pathway categories alone first, then pool examples in breakout
+    groups. The pooling is where the widening happens, since a category one learner overlooked is
+    often the one another has a real example for, so keep the sharing step even if you shorten the
+    individual review.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. The mentor plays the role the peer group would, offering examples for categories the
+    learner has never considered, especially vocational, entrepreneurial or scholarship routes outside
+    the learner's immediate experience. The mentor should widen the field of options, not narrow it to
+    the routes the mentor personally rates.
+- context: independent
+  how: >-
+    Workable but weaker, because a lone learner only knows the examples they already know, which is the
+    exact limit this activity exists to break. If a learner works alone, point them to a written list
+    of example opportunities per category and ask them to name at least one new route they had not
+    considered before.
+duration: 25-35 min facilitated
+grouping: Individual review, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Review the table of pathway opportunity categories in your Pathways Journal.
+- Note any category that is missing and add it, and find one real example for each category you can.
+- Consider how this wider picture changes how you would go looking for a pathway.
+- Share your reflections in a small group and collect the examples other people found.
+materialsAndPreparation:
+- The Pathways Journal, one per learner, open at the table of pathway opportunity categories (printed or digital).
+- A way for each breakout group to keep notes, and a nominated scribe per group.
+- A few example opportunities of your own across different categories, ready to seed the discussion if a group stalls.
+facilitationNotes: |
+  Most learners arrive picturing only one or two routes, usually university, and rule themselves out
+  when those do not fit. The one thing to get right is that this activity widens the field: every
+  category, from apprenticeships to entrepreneurship to online learning to scholarships, is a genuine
+  option, not a lesser one. Do not let the group quietly treat some routes as second best. Your job is
+  to make the full range visible and concrete, so a learner leaves knowing there are more doors than
+  they walked in aware of.
+steps:
+- title: Widen what counts as a pathway
+  duration: 5-10 min
+  guidance: |
+    Open by asking the group to name the pathways they already know. You will usually get university
+    and little else. Use that to introduce the fuller range: vocational training, apprenticeships,
+    employment, entrepreneurship, online learning, scholarships, and combinations of these. Keep it
+    quick. The point is to signal that the field is far wider than most learners assume before they
+    study the categories themselves.
+  keyPrompts:
+  - When you think of a pathway after school, what is the first route that comes to mind?
+  - Which of these routes had you not counted as a real option until now?
+  - Could someone follow two of these at once, such as working while studying online?
+  watchOuts:
+  - Learners rank the non-university routes as fallbacks for people who could not manage university; name that assumption out loud and give a concrete example of a thriving vocational or entrepreneurial route so the hierarchy does not go unchallenged.
+  adaptation: |
+    No slides or connectivity needed: write the category names on a board or sheet as learners call
+    routes out, and add the ones they miss yourself.
+- title: Review the pathway categories and find examples
+  duration: 10-15 min
+  guidance: |
+    Give learners quiet time with the table of pathway categories in their Pathways Journal. Ask them
+    to do three things: spot any category that is missing and add it, find at least one real example
+    of an opportunity in each category, and note how this wider picture changes how they would search.
+    Circulate, and where a learner is stuck on a category, offer a concrete example rather than leaving
+    the gap blank.
+  keyPrompts:
+  - Which categories can you already name a real opportunity for, and which are blank?
+  - Is there a type of pathway here that is missing from the table entirely?
+  - How would knowing all these categories change where you go looking for a pathway?
+  watchOuts:
+  - A learner leaves most categories blank and concludes those routes are not for them; frame a blank as a gap in what they have seen so far, not proof the route is closed, and pair them with the group step to fill it.
+  adaptation: |
+    If the journal is not available digitally, learners can work from a printed copy of the table and
+    write examples in the margin, then copy them across later. No device is required.
+- title: Pool examples and reflections in breakout groups
+  duration: 10 min
+  guidance: |
+    Put learners in groups of three to five with a scribe. Going round the group, each learner shares
+    one category they found interesting and any example they added. The group's job is to fill each
+    other's blank categories with examples they collectively know. This pooling is the engine of the
+    activity: a group almost always knows more routes between them than any one learner does alone.
+  keyPrompts:
+  - Which category did someone else fill in that you had left blank?
+  - Between everyone here, can we name at least one real example for every category?
+  - What is one new route you want to look into after hearing the group?
+  watchOuts:
+  - The discussion drifts into general chat and no examples get captured; give a clear round-robin ("each person names one category and one example before anyone responds") and ask the scribe to record at least one example per category the group can name.
+  adaptation: |
+    With thin attendance or in a mentoring setting, the facilitator or mentor pools examples with the
+    learner directly. Asynchronously, learners post the examples they found in a shared space and add
+    one route to two peers' lists.
+closing: |
+  Ask two or three learners to name a pathway category they had not counted as a real option before
+  today. Remind the group that this wider map is the starting point for the next step, choosing which
+  of these routes to actually investigate, and that no category on it is a lesser one.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    A learner can only choose a route they know exists. Widening the map of pathway categories, and
+    filling it with real examples, hands the learner a bigger set of options to direct their own
+    future with, rather than defaulting to the one or two routes they arrived already aware of.
+principlesForegrounded:
+- lifeworthy-competencies
+- connect-to-futures
+- builds-on-identities
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Knowing the full range of pathway types, and how to scan for opportunities within each, is a
+    durable life skill learners will reuse at every transition point, not a one-off fact about the
+    routes available this year.
+- principle: connect-to-futures
+  how: >-
+    The activity maps the concrete routes that connect where a learner is now to the future they are
+    working towards, and makes the less obvious ones, such as apprenticeships and scholarships, as
+    visible as the traditional ones.
+- principle: builds-on-identities
+  how: >-
+    By making room for vocational, entrepreneurial, employment and online routes rather than a single
+    academic script, the activity lets each learner find pathway types that fit their own
+    circumstances and strengths instead of one narrow template.
+competencyCodes:
+- FSL3
+- FR1
+- FPS1
+competencyDevelopment:
+- code: FSL3
+  how: >-
+    Learning to recognise the many categories a pathway can take, and treating that map as something
+    to keep updating, is direct practice in engaging with learning as an ongoing, self-directed
+    activity.
+- code: FR1
+  how: >-
+    Finding a real example of an opportunity in each category, and spotting missing categories, is
+    exactly the skill of identifying the resources and routes available to reach a goal.
+- code: FPS1
+  how: >-
+    Seeing that a pathway can combine routes, or take a form they had not considered, stretches
+    learners to think flexibly about their options rather than fixing on a single expected path.
+objectiveIds:
+- pathways--o1
+relatedSlugs:
+- pathways-strategy-for-identifying-opportunities
+- pathways-exploring-a-career-focus
+- pathways-journal
+sourceRefs:
+- "Pathways Programme - Activity Guides/[30 mins] Identifying pathways_ types of pathways - Activity Guide.docx"
+- Learning Bridge - Pathways Course Planner.pdf
+provenanceNote: Enriched into a structured facilitation flow (steps with prompts, watch-outs and
+  low-bandwidth adaptations, delivery-mode notes, and agency/principle/competency explanations) from
+  the source activity guide, which supplied the purpose, the journal table of pathway categories and
+  the breakout discussion prompt. Linked to Pathways objective 1.

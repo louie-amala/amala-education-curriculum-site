@@ -1,0 +1,189 @@
+id: pathways-applying-practice-run
+slug: pathways-applying-practice-run
+access: public
+type: activity
+title: "Applying for opportunities: a worked practice run"
+summary: >-
+  Learners complete a full practice application to a real example opportunity, end to end, then give
+  and receive feedback, so their first application that matters is not their first attempt.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners draft their applications individually in breakout groups so they can prompt
+    each other and stay motivated, then swap for peer feedback. The group setting is what makes the
+    feedback round work, since reading someone else's application is often where a learner sees what
+    their own is missing, so protect the swap even if you shorten the drafting.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for feedback, weaker for the peer comparison. The learner drafts a full application
+    and a mentor plays the reader, giving specific comment line by line. Have the learner start the
+    draft before the session so the time goes on improving a real application, not beginning one.
+- context: independent
+  how: >-
+    Workable for drafting, weakest for the feedback that teaches the most. A learner working alone can
+    complete the practice application, but arrange at least one round of feedback from a peer, mentor
+    or facilitator before they treat it as done, and give them the feedback questions to self-check
+    against in the meantime.
+duration: 80-95 min facilitated, plus any independent drafting
+grouping: Individual drafting inside breakout groups of 3-5, then paired feedback; works with 10-30 learners
+whatLearnersDo:
+- Choose, or accept from the facilitator, one real example opportunity to practise applying to.
+- Complete a full application for that opportunity, working through every section up to the point of submitting.
+- Read one other learner's application and give specific, kind feedback on it.
+- Take feedback on your own application and note what you would change.
+- Reflect on what you learned about applying, including how you would handle a rejection and reapply.
+materialsAndPreparation:
+- One real example opportunity with its actual application form or questions, chosen in advance and open to your learners.
+- The Pathways Journal for each learner, used to draft and store the practice application.
+- The feedback questions written up where every group can see them.
+- "[to verify] The example opportunity must be substituted for one that is genuinely relevant to and open to your learners. Do not run this on a programme your learners cannot access or that has closed. Check the eligibility, deadline and application format before the session, since a borrowed example can carry the wrong requirements."
+facilitationNotes: |
+  The point of this activity is that a learner's first real application should not be their first ever
+  application. They practise the whole process on a genuine example, so the mechanics are familiar
+  when something is at stake. The one thing to get right is that the opportunity is real and open to
+  them: a practice run on an inaccessible programme teaches the form but breaks the trust. Treat
+  rejection openly here too. Applications get turned down, and a learner who expects that and knows
+  how to reapply is better prepared than one who thinks a no is the end.
+steps:
+- title: Choose the example opportunity and set the task
+  duration: 10-15 min
+  guidance: |
+    Name the one real opportunity learners will practise on, or let them pick from a short vetted
+    list. Show the actual application form and be clear this is a genuine chance they could take, not
+    an invented exercise. Explain that they will complete every section as if applying for real, then
+    swap for feedback. Keep the framing honest about eligibility and deadlines.
+  keyPrompts:
+  - Is this an opportunity you could actually apply for, and would you want to?
+  - What does this application ask you for, and which parts look hardest?
+  - What would it mean for you if you got this?
+  watchOuts:
+  - The chosen opportunity turns out to be closed or out of reach for your learners; check eligibility and the deadline before the session and have a relevant open alternative ready, so no one practises on something they cannot access.
+  adaptation: |
+    With no connectivity, print or copy the application questions onto paper in advance. The activity
+    needs the questions, not a live website or a device.
+- title: Complete a full practice application end to end
+  duration: 35-45 min
+  guidance: |
+    Give learners quiet, individual time to work through every section of the application in their
+    journal, stopping just before they would submit. Keep them in breakout groups so they can ask each
+    other for support without doing the work for one another. Circulate, and where a learner stalls,
+    ask what the question is really asking rather than dictating an answer.
+  keyPrompts:
+  - What is this section actually trying to find out about you?
+  - Where could you give a concrete example instead of a general claim?
+  - Which part are you avoiding, and what is making it hard to start?
+  watchOuts:
+  - A learner leaves a section blank because they feel they have nothing to say; help them see that experience from home, community, informal work and the Amala programme counts, so the gap is usually undervaluing themselves, not a real absence of material.
+  adaptation: |
+    No devices are needed for a first pass: learners can draft by hand against the printed questions
+    and type it up later. The draft, not the format, is what matters at this stage.
+- title: Swap applications and give feedback
+  duration: 20-25 min
+  guidance: |
+    Pair learners to read one another's application. Each reader answers two questions on the draft
+    they read: what works and why, and one specific suggestion for strengthening it and why. Keep
+    feedback about the actual application, not the person, and have each writer note at least one
+    change they will make so the feedback lands rather than evaporating.
+  keyPrompts:
+  - What do you like about this application, and what specifically makes it strong?
+  - Where could this application be stronger, and what would you change?
+  - Reading someone else's, what did you notice that your own is missing?
+  watchOuts:
+  - Feedback stays vague and polite ("it's good") so nothing improves; model one specific, usable comment yourself first, and ask every reader to name one concrete suggestion and every writer one change they will make.
+  adaptation: |
+    With thin attendance or in a mentoring setting, the facilitator or mentor plays the reader.
+    Asynchronously, learners post a draft in a shared space and each replies to one other with the two
+    feedback questions answered.
+- title: Reflect on applying, rejection and reapplying
+  duration: 10-15 min
+  guidance: |
+    Bring the groups back together with a scribe and draw out what learners now know about applying
+    that they did not before. Then name the part people avoid: applications get rejected. Talk openly
+    about what a learner would do with a no, how reapplying works, and why one rejection is data for
+    the next attempt, not a verdict on them.
+  keyPrompts:
+  - What did this activity teach you about applying that you did not know before?
+  - If this application were rejected, what would you do next, and what would you change?
+  - What is one real opportunity you now feel ready to apply to for real?
+  watchOuts:
+  - A learner treats a hypothetical rejection as proof they should not bother applying; reframe it plainly, most applications involve rejection, strong applicants reapply, and the point of practising now is that a future no will not stop them.
+closing: |
+  Ask two or three learners to name one thing they will do differently on a real application after
+  today. Remind the group that the practice application lives in their Pathways Journal, that the
+  process is the same one they will use for the opportunities that matter, and that being turned down
+  once is part of applying, not a reason to stop.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Knowing how to apply, end to end, is what turns an opportunity from something a learner watches
+    pass into something they can actually put themselves forward for. Practising the whole process,
+    including how to handle a rejection and reapply, keeps access to future pathways in the learner's
+    own hands rather than leaving it to chance or nerve on the day it counts.
+principlesForegrounded:
+- lifeworthy-competencies
+- authentic-challenges
+- feedback-and-data
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Completing an application is a transferable, real-world skill a learner will reuse for every
+    education, job and funding opportunity for years, and here they practise the whole process rather
+    than being told about it.
+- principle: authentic-challenges
+  how: >-
+    The application is to a real, open opportunity with its actual form and requirements, not an
+    invented exercise, so learners do the genuine task under genuine conditions, which is exactly why
+    the practice transfers to the application that counts.
+- principle: feedback-and-data
+  how: >-
+    Learners deliberately improve their application through a round of specific feedback on the real
+    draft and commit to at least one change, and the reflection treats a rejection as data for the
+    next attempt rather than a final verdict.
+competencyCodes:
+- FSL2
+- FR2
+- ASL4
+- AR3
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Choosing a real opportunity and completing a full application towards it, then leaving with one
+    opportunity they feel ready to apply to for real, is direct practice in setting and pursuing a
+    concrete goal.
+- code: FR2
+  how: >-
+    Filling in every section pushes learners to gather and deploy their own resources, the
+    experiences, examples and skills they can draw on, including the informal and community experience
+    they tend to leave out, and put them to use in a real application.
+- code: ASL4
+  how: >-
+    A completed application is the mechanism by which a learner actualises a pathway, and rehearsing
+    the whole process end to end is direct practice in the act of moving from wanting an opportunity
+    to formally pursuing it.
+- code: AR3
+  how: >-
+    The reflection treats rejection openly, as a normal part of applying that strong applicants meet
+    by reapplying, so learners practise resilience: expecting a possible no and knowing how they would
+    respond and try again.
+objectiveIds:
+- pathways--o1
+relatedSlugs:
+- pathways-applying-for-opportunities
+- pathways-applying-student-choice
+- pathways-requirements-for-accessing-pathways
+sourceRefs:
+- "Pathways Programme - Activity Guides/Applying for pathway opportunities practice - Lumiere Foundation - Activity Guide"
+- Learning Bridge - Pathways Course Planner.pdf
+provenanceNote: >-
+  Enriched into a structured facilitation flow (steps with prompts, watch-outs and low-bandwidth
+  adaptations, delivery-mode notes, and agency/principle/competency explanations) from the source
+  activity guide, which used the Lumiere Foundation as its worked example. Generalised so the specific
+  programme is treated as one example only, with a "[to verify]" localisation note asking partners to
+  substitute a real opportunity that is relevant and open to their own learners. Linked to Pathways
+  objective 1.

@@ -1,0 +1,171 @@
+id: pathways-opportunity-database
+slug: pathways-opportunity-database
+access: public
+type: tools-approaches
+toolsFacet: analytical
+title: Using the Pathways Opportunity Database
+summary: Learners search a shared, curated database of scholarships, programmes, jobs and training,
+  filter it for opportunities that fit their ambitions, and add to it so it stays live.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners search the database individually, then compare finds in breakout groups. The
+    comparison is where value is added, since one learner's opportunity is often relevant to another,
+    so protect the sharing step even if you shorten the individual search.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for the search and filter work. A mentor sits with a learner, helps them read entries
+    against their own ambitions, and points out categories they are skipping past. The mentor loses the
+    peer harvest, so should actively name opportunities the learner would not have picked alone.
+- context: independent
+  how: >-
+    Workable for searching and adding, weaker without the peer comparison that surfaces unexpected
+    options. If a learner works alone, give them the filter questions in writing and ask them to share
+    their shortlist with at least one other person and note any opportunity that person suggests.
+duration: 40-50 min facilitated, plus independent search and journal time
+grouping: Individual search, then breakout groups of 3-5; works with 10-35 learners
+whatLearnersDo:
+- Review the Pathways Opportunity Database and note opportunities that resonate with your ambitions.
+- Look out for categories of opportunity you had not previously considered.
+- Check the skills or qualifications each opportunity asks for, and how you match them.
+- Add opportunities you find to your list in the Pathways Journal, and contribute any the database is missing.
+- Discuss your finds in a small group and agree your next steps to pursue them.
+materialsAndPreparation:
+- The Pathways Opportunity Database, open and ready for learners to browse (shared document or spreadsheet).
+- The Pathways Journal for each learner, to record shortlisted opportunities and next steps.
+- A way for each breakout group to keep notes, and a nominated scribe per group.
+- "[to verify] The database is context specific: opportunities depend on where learners are and what they can access. Amala does not ship a universal list. Partners must curate and maintain their own local version, verify each entry is real, open and reachable, and remove anything out of date before the session."
+facilitationNotes: |
+  The database is a tool learners keep using, not a one-off handout, so the point of this session is to
+  build the habit of searching, filtering and contributing rather than to hand over a finished list.
+  The one thing to get right is fit: learners tend to either dismiss everything as not for them or
+  bookmark everything indiscriminately. Your job is to help each learner read an entry against their
+  own stated ambitions and their real eligibility, so a shortlist means something. Keep reminding them
+  the database is only as good as what the group puts back into it.
+steps:
+- title: Introduce the database and how to search it
+  duration: 5-10 min
+  guidance: |
+    Show learners the database and how it is organised: what the columns or categories are, and how to
+    move through it. Explain that it is a curated, shared list of scholarships, programmes, jobs and
+    training, maintained by the group and the partner, not a fixed or complete directory. Model one
+    search aloud so the mechanics are clear before learners work on their own.
+  keyPrompts:
+  - What kinds of opportunity would you hope to find in a list like this?
+  - How is this database organised, and where would you start looking?
+  - What would make an entry here trustworthy enough to act on?
+  watchOuts:
+  - Learners treat the database as complete and authoritative; stress that it is curated locally, may have gaps, and that they should verify an opportunity is still open before relying on it.
+  adaptation: |
+    If the database cannot be shown on a screen, a printed extract of the most relevant entries and a
+    spoken walkthrough of the categories is enough to run this step.
+- title: Filter entries for fit with your ambitions
+  duration: 10-15 min
+  guidance: |
+    Give learners time to work through the database against their own ambitions from earlier sessions.
+    Ask them to weigh each promising entry on two axes: does it resonate with what they want, and do
+    they meet, or could they realistically reach, the skills and qualifications it asks for. Push them
+    to open at least one category they would normally skip, so the filter widens their options rather
+    than confirming what they already knew.
+  keyPrompts:
+  - Which of these opportunities actually lines up with an ambition you named?
+  - What skills or qualifications does this one ask for, and how close are you?
+  - Which category did you almost skip, and what did you find when you looked?
+  watchOuts:
+  - A learner rules themselves out of everything on eligibility grounds; help them separate a hard requirement from one they could work towards, and keep a stretch option on the shortlist.
+  adaptation: |
+    With no devices, learners can filter a printed extract by marking entries against a short written
+    list of their own ambitions and eligibility, then copy their shortlist by hand.
+- title: Add and update entries to keep the database live
+  duration: 5-10 min
+  guidance: |
+    Turn learners from readers into contributors. Ask them to add opportunities they know of that are
+    missing, and to flag any entry that looks out of date or closed. Record shortlisted opportunities
+    into their Pathways Journal so each learner leaves with their own working list. Make the point that
+    a shared database only stays useful if the people using it keep putting things back in.
+  keyPrompts:
+  - What opportunity do you know about that is not in here yet?
+  - Did you spot any entry that looks closed, expired or wrong?
+  - Which opportunities are you saving into your journal to act on?
+  watchOuts:
+  - Learners add entries without detail or checking; ask them to include what the opportunity is, who it is for and where to find it, so an addition helps the next person rather than adding noise.
+  adaptation: |
+    If learners cannot edit the shared database directly, have them write additions and corrections on
+    a sheet or in the group notes for the facilitator to enter afterwards.
+- title: Compare finds and agree next steps in groups
+  duration: 15-20 min
+  guidance: |
+    Put learners in groups of three to five with a scribe. Each learner shares an opportunity they
+    found interesting and why it fits their goals. The group looks for common themes, opportunities
+    worth passing to each other, and, for each member, one concrete step to pursue a shortlisted
+    opportunity. This harvest routinely surfaces options a learner would not have found alone.
+  keyPrompts:
+  - Which opportunity did you find most interesting, and how does it support your goals?
+  - Is there anything you found that would suit someone else in this group?
+  - What is the first step you will take to pursue one of these, and by when?
+  watchOuts:
+  - The group drifts into general chat or one learner dominates; use a round-robin so each person shares before anyone responds, and ask the scribe to record one next step per member.
+closing: |
+  Ask two or three learners to name an opportunity a peer surfaced for them that they had not found
+  alone, to show how much the group knows collectively. Remind everyone the database lives on between
+  sessions: what they save into their journal and what they add back in is how it stays worth using.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Knowing how to search a live pool of real opportunities, filter it for genuine fit, and add to it
+    turns finding a pathway from luck into a repeatable move a learner can make for themselves. It puts
+    the means of spotting and pursuing opportunities in the learner's own hands.
+principlesForegrounded:
+- lifeworthy-competencies
+- collaboration
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Searching a resource, filtering it against your own goals and eligibility, and contributing back is
+    a transferable research and resourcefulness skill learners will reuse for every future application,
+    long after this particular database.
+- principle: collaboration
+  how: >-
+    The database is a shared, collectively maintained resource, and the breakout harvest is built on the
+    fact that peers surface opportunities for each other, so each learner's set of options is expanded
+    by the group rather than limited to their own knowledge.
+- principle: connect-to-futures
+  how: >-
+    Learners read live opportunities directly against the ambitions they set earlier and leave with
+    concrete next steps, which is exactly the act of connecting present searching to the future they are
+    trying to build.
+competencyCodes:
+- FR1
+- FR2
+competencyDevelopment:
+- code: FR1
+  how: >-
+    Learning to search the database, scan categories they would otherwise skip, and shortlist real
+    opportunities is direct practice in identifying the resources available to them; the journal
+    shortlist is the evidence.
+- code: FR2
+  how: >-
+    Filtering entries against their own ambitions and eligibility, adding missing opportunities, and
+    turning a find into a concrete next step is learners actively utilising a resource rather than just
+    knowing it exists.
+objectiveIds:
+- pathways--o1
+- pathways--o4
+relatedSlugs:
+- pathways-strategy-for-identifying-opportunities
+- pathways-types-of-pathways
+sourceRefs:
+- "Pathways Programme - Activity Guides/Prioritizing Pathway Opportunities - Activity Guide.docx"
+- Learning Bridge - Pathways Course Planner.pdf
+provenanceNote: Enriched into a structured tool guide (how to search, filter, add to and maintain the
+  database, with prompts, watch-outs, a localisation caveat that partners must curate their own local
+  version, delivery-mode notes and agency/principle/competency explanations) from the source activity
+  guide, which supplied the purpose, the individual review task and the breakout discussion questions.
+  Linked to Pathways objectives 1 and 4.

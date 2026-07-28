@@ -1,0 +1,179 @@
+id: pathways-producing-a-personal-statement
+slug: pathways-producing-a-personal-statement
+access: public
+type: activity
+title: Producing a personal statement
+summary: Learners draft a personal statement that connects their story and motivation to a specific
+  opportunity, then improve it through feedback so it is ready for real applications.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners draft alongside a partner who can prompt for the experiences and motivations
+    they would leave out alone, then reflect together. Build in a separate slot for one-to-one or peer
+    feedback on the actual draft, since a personal statement improves most from specific comment on the
+    real text.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for the feedback stage. A mentor reads a learner's draft closely and reflects back
+    where the story is vivid and where the link to the opportunity goes missing. Ask the learner to
+    write a first draft before the session so the time improves a real statement rather than starting one.
+- context: independent
+  how: >-
+    Workable for the drafting, weaker for the feedback that makes a statement land. If a learner works
+    alone, give them a checklist of what a strong statement does and arrange at least one round of
+    feedback from a peer, mentor or facilitator before they treat it as finished.
+duration: 45-60 min facilitated, plus independent drafting
+grouping: Pairs for drafting, whole group for reflection; works with 10-30 learners
+whatLearnersDo:
+- Work through the personal-statement guidance and draft a statement aimed at a specific opportunity.
+- Save your draft into your Pathways Journal so it is easy to find and improve.
+- Get feedback on your draft from a partner, mentor or facilitator.
+- Reflect on how a strong personal statement helps you access the pathways you are aiming for.
+materialsAndPreparation:
+- The personal-statement guidance (a short video and any prompts) or your own worked walkthrough if you prefer to lead it live.
+- A simple structure to draft against and one strong example statement to model, adapted to your context.
+- The Pathways Journal for each learner to store and revisit their statement.
+- "[to verify] Personal-statement conventions vary by destination (length, whether it is called a motivation letter, what admissions or scholarship panels expect, how personal is appropriate). Check what the pathways your learners are actually applying to require, and tell them plainly, since a borrowed model can carry the wrong norms."
+- "Sensitivity: writing about motivation and background can surface personal stories of displacement, family or loss. Tell learners up front that they choose what to include, that a strong statement does not require reliving painful detail, and that they can step back from sharing without explaining why."
+facilitationNotes: |
+  A personal statement is where a learner turns their own story and motivation into a case for a
+  specific opportunity, so this activity is about connection, not confession. The one thing to get
+  right is that learners control how much of themselves they share: a good statement links experience
+  to the opportunity, and it never requires painful detail to be effective. Watch for two failure
+  modes, a statement that lists events with no motivation, and one that tells a moving story with no
+  link to what they are applying for. Feedback on the real draft matters more than general advice, so
+  protect time for it.
+steps:
+- title: Set what a strong personal statement is for
+  duration: 5-10 min
+  guidance: |
+    Start with the purpose: a personal statement makes the case that this learner and this opportunity
+    fit, using their story and motivation as evidence. Show one strong example and draw out what makes
+    it work, a clear motivation, concrete experience, and an explicit link to the opportunity. Flag
+    early that conventions vary by destination, so the example is a model of quality, not a fixed template.
+  keyPrompts:
+  - Who reads a personal statement, and what are they trying to decide about the writer?
+  - What makes this example feel motivated rather than just a list of things that happened?
+  - Where does this example connect the writer's story to the actual opportunity?
+  watchOuts:
+  - Learners treat the example as a rigid form to copy exactly; stress that motivation and a clear link transfer, but length, tone and how personal to be depend on where they are applying.
+  adaptation: |
+    With no way to show a video, a single printed or hand-copied example statement and your spoken
+    walkthrough of why it works is enough to run this step.
+- title: Draft your statement in pairs
+  duration: 20-25 min
+  guidance: |
+    Learners draft a statement aimed at a specific opportunity, working in pairs so each can prompt the
+    other. The partner's job is to ask why this opportunity, and to pull out experience the writer is
+    undervaluing. Remind learners they decide what to include, and that a strong statement links
+    experience to the opportunity rather than proving hardship. Ask them to save the draft into their
+    Pathways Journal so it becomes a living document.
+  keyPrompts:
+  - Why this opportunity, and why you? What in your story points to it?
+  - What have you done, paid or unpaid, that shows the qualities this opportunity asks for?
+  - "Your partner just heard something that explains your motivation: is it in your statement yet?"
+  watchOuts:
+  - A learner feels pressure to write about painful personal history to seem compelling; make clear that a statement is judged on motivation and fit, not on how much they disclose, and let them choose their own ground.
+  adaptation: |
+    No devices needed for a first draft: learners can write by hand against the structure and type it
+    up later. If someone cannot pair up, they draft solo and you play the prompting partner.
+- title: Give and get feedback on the draft
+  duration: 15-20 min
+  guidance: |
+    Move learners into a feedback round, ideally one-to-one with you or a mentor, or structured peer
+    feedback if not. Feedback should be specific and about the text: where the motivation is clear,
+    where the link to the opportunity drops, what to cut. Keep it kind and concrete, and have learners
+    make at least one improvement there and then so the feedback lands on the real draft.
+  keyPrompts:
+  - Reading this, can you tell why the writer wants this opportunity, and where is that clearest?
+  - Which sentence connects the writer's experience to what they are applying for, and which just describes an event?
+  - What is one change you will make right now based on this feedback?
+  watchOuts:
+  - Feedback stays vague ("sounds good") and nothing changes; model one specific, usable comment yourself first, and ask each learner to name the single change they are making.
+  adaptation: |
+    Where one-to-one time is scarce, use a short checklist for peer feedback so learners can give
+    useful comment without you at every pair, and reserve your own time for the learners who need it most.
+- title: Reflect on how the statement serves your pathways
+  duration: 5 min
+  guidance: |
+    Close by connecting the draft back to the point of the course. Ask learners how they found the
+    writing process, how happy they are with the draft and why, what they learned about showcasing
+    their strengths, and how a strong statement helps them reach the pathways they are aiming for.
+    Capture the reflection in the journal so the statement is understood as a tool they will reuse and
+    adapt per application.
+  keyPrompts:
+  - How happy are you with your statement, and what would make it stronger?
+  - What did you learn about showcasing your strengths and motivation?
+  - Which upcoming opportunity will you adapt this statement for first?
+  watchOuts:
+  - Learners file the statement away as finished; remind them a personal statement is tailored per application and should be rewritten whenever the opportunity changes.
+closing: |
+  Ask a couple of learners to name one part of their story they were unsure about until a partner
+  helped them connect it to the opportunity. Remind everyone the statement lives in their Pathways
+  Journal and is meant to grow: every new application is a reason to come back and sharpen the link
+  between who they are and what they are aiming for.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    A personal statement is how a learner argues, in their own voice, for a place on a pathway they
+    have chosen. Producing one that connects their story and motivation to a specific opportunity turns
+    an application from something they hope goes well into a case they can actively build and control.
+principlesForegrounded:
+- lifeworthy-competencies
+- recognise-communicate-growth
+- feedback-and-data
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Writing a persuasive personal statement is a transferable, real-world skill learners will reuse for
+    every university, scholarship or programme application for years, and the activity ends with a real
+    document they own rather than a practice exercise.
+- principle: recognise-communicate-growth
+  how: >-
+    The task is learners learning to recognise their own motivation and experience and communicate them
+    to a reader who decides on their future, including deciding for themselves which parts of their
+    story are theirs to share.
+- principle: feedback-and-data
+  how: >-
+    The draft is deliberately improved through a round of specific feedback on the real text, where
+    learners check whether their motivation and their link to the opportunity actually land, and make
+    at least one change on the spot.
+competencyCodes:
+- FLC3
+- FSL1
+- ASL1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    A personal statement is persuasive communication aimed at a specific reader who holds a decision,
+    and drafting one teaches learners to argue their fit and motivation convincingly; the statement
+    itself is the evidence.
+- code: FSL1
+  how: >-
+    Deciding what in their own story and motivation matters for this opportunity, and closing with what
+    the process taught them about their strengths, is direct practice in self-reflection captured in the
+    journal.
+- code: ASL1
+  how: >-
+    The feedback round, where learners take specific comment on their draft and make a change on the
+    spot, is direct practice in assessing and using feedback to improve an outcome.
+objectiveIds:
+- pathways--o3
+relatedSlugs:
+- pathways-producing-a-cv
+- pathways-producing-cover-letters
+- pathways-producing-a-portfolio
+sourceRefs:
+- "Pathways Programme - Activity Guides/Showcasing your strengths_ producing a personal statement_.docx"
+- Learning Bridge - Pathways Course Planner.pdf
+provenanceNote: Enriched into a structured facilitation flow (steps with prompts, watch-outs, a
+  sensitivity note on personal stories of displacement, a localisation caveat on statement conventions,
+  delivery-mode notes and agency/principle/competency explanations) from the source activity guide,
+  which supplied the purpose, the drafting task and the reflection questions. Linked to Pathways
+  objective 3.

@@ -1,0 +1,97 @@
+id: pathways-journal
+slug: pathways-journal
+access: public
+type: resource
+title: "Pathways Journal"
+summary: >-
+  The learner's personal workbook that threads through the whole Pathways course, holding their
+  ambitions, purpose, opportunity lists, CV and application documents, and reflections in one
+  revisited place.
+facilitationContext: [group, one-to-one-mentoring, independent]
+primaryContext: independent
+materialsAndPreparation:
+- One copy of the Pathways Journal per learner, printed or digital, set up before the first Pathways session so it is ready to write into from the start.
+- A shared place to keep it (a folder, a physical book or a personal drive) so nothing a learner adds across the course gets lost between sessions.
+- "[to verify] Several sections ask for links to online documents (CV, cover letter, portfolio in a Google Doc). Check what tools your learners actually have; where they work on paper or offline, adapt those fields to hold the document itself or a note of where it lives, rather than a link they cannot make."
+facilitationNotes: |
+  The Pathways Journal is the one place a learner's pathways thinking accumulates. It is not a
+  worksheet for a single session but the spine that runs through the whole course: their ambitions,
+  the purpose behind them, their growing list of opportunities, their CV and application documents,
+  and their ongoing reflections all live here and are meant to be revisited. Many Pathways activities
+  write into it, so treat it as the learner's own working record rather than something you collect
+  and mark.
+
+  Your job is mostly to keep it alive. Hand it out at the very start, point each activity back to the
+  relevant section, and build in moments where learners reread earlier pages so they can see how far
+  their thinking has moved. The value is cumulative, so the failure mode to watch for is a journal
+  that gets filled in once and abandoned; the fix is to return to it deliberately, especially when a
+  learner is choosing between opportunities or preparing a real application, so it becomes a tool
+  they reach for rather than a form they completed.
+
+  The workbook is structured around Pathways Resources (types of opportunity, career paths, interview
+  preparation) and Key Pathway Documents (CV, cover letters, personal statements, references, a
+  digital portfolio and a prioritised list of opportunities). Because those documents are personal
+  and revisited, protect the learner's ownership of it: it holds early, unfinished thinking that they
+  should feel free to change.
+learnerContent: |
+  This is your Pathways Journal. It travels with you through the whole Pathways course and is the
+  place where your own thinking about your future is gathered together. Keep it, complete it as you
+  go, and come back to it often.
+
+  As you move through the course you will use it to:
+  - Set down your ambitions and the purpose behind them, in your own words.
+  - Build and prioritise your list of pathway opportunities: education, work, internships,
+    volunteering, entrepreneurship and more.
+  - Hold your key documents in one place: your CV or CVs, cover letters, personal statements,
+    references and a link to your digital portfolio.
+  - Reflect on what you are learning about yourself and about the pathways open to you.
+
+  Nothing in here has to be finished the first time you write it. Reread your earlier pages when you
+  are deciding between opportunities or getting ready for a real application, and update anything that
+  no longer fits. The journal is most useful when it grows with you.
+agencyContribution:
+  indicators: [control-of-future-pathways, power-over-wellbeing-and-self-direction]
+  how: >-
+    Gathering a learner's ambitions, opportunities, documents and reflections into one place they
+    own and revisit turns pathway planning from scattered, one-off tasks into a record they can act
+    on. Seeing their choices and their reasons laid out together lets a learner steer between
+    opportunities deliberately rather than take whatever comes, and returning to their own words over
+    time is how they keep direction over where they are heading.
+principlesForegrounded: [builds-on-identities, recognise-communicate-growth, connect-to-futures]
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The journal starts from the learner's own ambitions and purpose and asks why each opportunity
+    matters to them, so the whole record is built outward from who they are and what they care about
+    rather than from a generic template of what a pathway should be.
+- principle: recognise-communicate-growth
+  how: >-
+    Because the same journal is revisited across the course, a learner can look back at earlier pages
+    and see how their thinking has moved, and the CV, personal statement and portfolio sections are
+    where that growth gets put into words they can show to others.
+- principle: connect-to-futures
+  how: >-
+    Every section points beyond the classroom to a real next step: actual opportunities the learner
+    is weighing, documents aimed at real applications, and references from real people, so the
+    journal keeps the course tied to the futures the learner is trying to reach.
+competencyCodes: [FSL1, FSL2]
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    The journal is a standing prompt for self-reflection: the reflection sections and the repeated
+    return to earlier entries ask learners to notice what they now think about themselves and their
+    options, and the accumulated pages are the evidence of that reflection over time.
+- code: FSL2
+  how: >-
+    Recording ambitions, then prioritising opportunities and setting down why, and then holding the
+    documents that put those choices into action, is goal-setting and pursuit made visible in one
+    place a learner keeps working at across the course.
+objectiveIds: [pathways--o1, pathways--o2, pathways--o3, pathways--o4, pathways--o5]
+relatedSlugs: [pathways-outlining-ambitions, pathways-finding-your-purpose, pathways-producing-a-cv]
+sourceRefs: ["Pathway Journal.pdf"]
+provenanceNote: >-
+  Grounded in the learner-facing Pathways Journal workbook (Pathway Journal.pdf, as provided), which
+  runs alongside the Pathways activities and holds ambitions, purpose, opportunity lists, CV and
+  application documents and ongoing reflections. Framed here as a resource: what it is, how to keep
+  it in use, and a localisation caveat on the sections that assume online documents. Linked to all
+  five Pathways objectives as the place their outputs accumulate.

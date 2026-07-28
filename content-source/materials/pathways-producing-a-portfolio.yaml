@@ -1,0 +1,201 @@
+id: pathways-producing-a-portfolio
+slug: pathways-producing-a-portfolio
+access: public
+type: activity
+title: Producing a portfolio
+summary: Learners curate and build a portfolio, digital or physical, that showcases their achievements
+  and strengths, choosing meaningful evidence, tailoring it to pathway providers and reflecting on why
+  each piece is included.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners explore what a strong portfolio is together, then build individually before a
+    structured peer feedback round. The group is valuable because learners spot evidence in each other
+    that the owner has dismissed, so keep the sharing and feedback steps even if you shorten the
+    exploration.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for the selection and feedback stages. A mentor helps a learner decide what evidence
+    earns its place and gives specific comment on the actual portfolio, which is more useful than a
+    generic checklist. Have the learner gather candidate evidence before the session so the time is
+    spent curating, not hunting.
+- context: independent
+  how: >-
+    Workable for the building, weaker for the curation judgement and feedback that make a portfolio
+    persuasive. If a learner works alone, give them a clear rubric for what a strong entry looks like
+    and arrange at least one round of feedback from a peer, mentor or facilitator before they treat the
+    portfolio as finished.
+duration: 100-120 min facilitated, plus significant independent building time
+grouping: Whole group for framing, individual building, pairs for feedback; works with 8-30 learners
+whatLearnersDo:
+- Explore what a portfolio is, why it helps, and what makes one strong.
+- Select the evidence and achievements worth showcasing, and note why each piece belongs.
+- Build a simple portfolio, digital or physical, that organises your evidence for a reader.
+- Choose a format and tailor how you present the portfolio to different pathway audiences.
+- Give and receive structured feedback on a portfolio, then act on it.
+materialsAndPreparation:
+- One or two short readings or videos on what a portfolio is and what strong ones include, or your own worked walkthrough if you prefer to lead it live.
+- One strong example portfolio, digital or physical, for learners to model, adapted to your context.
+- The Pathways Journal for each learner, with the portfolio-building steps, to plan and store their work.
+- A simple feedback protocol such as a "ladder of feedback" (clarify, value, concerns, suggestions) printed for each pair.
+- "[to verify] The source builds portfolios in Google Docs and Google Sites, which need connectivity and an account. Confirm what your learners can actually access; a physical folder, a slide file or a printed portfolio works just as well, so offer a no-account route rather than assuming the tools."
+facilitationNotes: |
+  A portfolio lets a learner show, not just claim, what they can do, so this activity is about
+  curation and judgement, not collecting everything they have ever made. The one thing to get right is
+  that a portfolio is selective: learners either include too much and bury their best work, or dismiss
+  real evidence as not good enough. Help them choose a few strong pieces and say why each belongs.
+  Feedback on the actual portfolio matters more than general advice, so protect time for it, and let
+  format follow content rather than leading with the tool.
+steps:
+- title: Explore what a strong portfolio is for
+  duration: 15-20 min
+  guidance: |
+    Open with the purpose: a portfolio is curated evidence that shows a pathway provider what a learner
+    can actually do. Have learners work through a short reading or video, or your walkthrough, and pull
+    out what a portfolio is, why it helps, and what features make one strong. Show one good example and
+    draw out clear structure, selected evidence and a reason behind each piece.
+  keyPrompts:
+  - What can a portfolio show a provider that a CV or a form cannot?
+  - Looking at this example, what makes it easy to see the person's strengths quickly?
+  - What is the difference between a folder of everything and a curated portfolio?
+  watchOuts:
+  - Learners think a portfolio means everything they have ever produced; stress that curation is the skill, and that a few strong, well-chosen pieces beat a large undifferentiated pile.
+  adaptation: |
+    With no way to show a video or slides, a single printed or physical example portfolio and your
+    spoken walkthrough of why it works is enough to run this step.
+- title: Select your evidence and say why each piece belongs
+  duration: 15-20 min
+  guidance: |
+    Learners list candidate evidence: work made in the Amala programme, projects, certificates,
+    community and volunteering contributions, photos of practical work, writing. For each, they decide
+    whether it earns a place and note in one line why. Circulate and challenge both directions: push
+    learners to cut weak or repetitive items, and to reclaim strong evidence they are underrating.
+  keyPrompts:
+  - What have you made or done that shows a strength better than just saying it?
+  - If a provider saw only three pieces, which three would you choose, and why those?
+  - Why does this piece belong, and what does it prove about you?
+  watchOuts:
+  - Learners dismiss real evidence as not impressive enough; help them see that informal, community and programme work counts, and that a clear reason for including a piece matters more than polish.
+  adaptation: |
+    No devices needed to select: learners can list and rank candidate evidence on paper against the
+    example, and gather or photograph the actual items later.
+- title: Build your portfolio
+  duration: 30-40 min
+  guidance: |
+    Give learners focused, individual time to build a simple portfolio using their chosen evidence,
+    following the steps in their Pathways Journal. Keep the focus on organisation a reader can follow:
+    a clear order, a short line of context beside each piece, and a way to navigate. Let format be a
+    choice, digital document, slides, a website, a social media presence or a physical folder, driven
+    by what the learner can access and what suits their evidence.
+  keyPrompts:
+  - What order should a reader meet your evidence in, and why that order?
+  - What one line of context does each piece need so a stranger understands it?
+  - Which format shows your kind of evidence best, and can your audience open it?
+  watchOuts:
+  - Learners get absorbed in the tool and styling before the content is sound; steer them back to selection and clear explanation first, and treat visual polish as the last job, not the first.
+  adaptation: |
+    If connectivity or accounts are not available, a physical folder, a printed set of pages or an
+    offline slide file is a legitimate portfolio; learners can move it online later if they choose.
+- title: Choose a format and tailor it to your audience
+  duration: 15-20 min
+  guidance: |
+    Have learners step back and consider audience. A portfolio is read by different providers who care
+    about different things, so learners weigh their format against who will see it and what that reader
+    needs. Compare a couple of options briefly, for example a shareable document versus a simple
+    website versus a physical folder, and let each learner decide what fits their pathways and their
+    access, then adjust framing and order accordingly.
+  keyPrompts:
+  - Who are the different people who might read this, and what does each one care about most?
+  - What are the advantages and drawbacks of your format for the pathways you are aiming at?
+  - What would you change about the order or framing for a specific provider you have in mind?
+  watchOuts:
+  - Learners assume one portfolio serves every audience unchanged; remind them that framing and emphasis should shift per provider, even when the underlying evidence stays the same, and that access matters as much as looks.
+  adaptation: |
+    Where learners cannot compare live tools, describe the trade-offs aloud, format, cost, who can open
+    it, and let learners choose on paper; the judgement matters more than trying each option.
+- title: Give and act on feedback
+  duration: 15-20 min
+  guidance: |
+    Put learners in pairs to review each other's portfolios using a simple feedback protocol: clarify
+    with questions, name what works, raise concerns, then offer suggestions, in that order. Keep it
+    kind and specific to the actual portfolio, not general advice. Each learner records the feedback
+    they receive and makes at least one improvement there and then so the comment lands and is not lost.
+  keyPrompts:
+  - What questions do you have about this portfolio before you judge it?
+  - Which single piece here shows this person's strength most clearly, and why?
+  - What is one change you will make right now based on the feedback you were given?
+  watchOuts:
+  - Feedback stays vague ("it looks nice") and nothing changes; model one specific, usable comment yourself first, hold the order clarify then value then concerns then suggestions, and ask each learner to name the one change they are making.
+  adaptation: |
+    Where pairs cannot meet live, learners exchange portfolios asynchronously and reply against the
+    same four-step protocol in writing, so the feedback is still structured rather than a bare reaction.
+closing: |
+  Ask a couple of learners to name one piece of evidence a partner valued that they had almost left
+  out, to show how much learners underrate their own work. Remind everyone the portfolio lives in their
+  Pathways Journal and is meant to grow: every new project, achievement and application is a reason to
+  come back, re-curate and sharpen it for the reader in front of them.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    A portfolio is the learner's own case for what they can offer, assembled on their terms. Deciding
+    what evidence represents them and how to present it to a provider turns access to a pathway from
+    something granted to them into something they actively build and steer.
+principlesForegrounded:
+- recognise-communicate-growth
+- lifeworthy-competencies
+- feedback-and-data
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: >-
+    The core task is learners recognising their own achievements and strengths, including the informal
+    and community evidence they discount, and then communicating that growth to an audience through
+    curated, explained evidence rather than unsupported claims.
+- principle: lifeworthy-competencies
+  how: >-
+    Curating and presenting evidence of your capability is a transferable, real-world skill learners
+    will reuse for education, work and funding applications for years, and the activity ends with a
+    portfolio they genuinely own rather than a practice exercise.
+- principle: feedback-and-data
+  how: >-
+    The portfolio is deliberately improved through a structured feedback round on the real artefact,
+    and learners make at least one change on the spot, so specific feedback, not general advice, drives
+    the quality of what they present.
+competencyCodes:
+- FSL1
+- FSL3
+- ASL1
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    Choosing which evidence represents them and articulating why each piece belongs is direct practice
+    in self-reflection; the annotated selection and the portfolio itself are the evidence.
+- code: FSL3
+  how: >-
+    Building a portfolio, and treating it as a living document that grows with every new project and
+    application, is learners actively developing and sustaining a transferable skill across every
+    pathway they pursue.
+- code: ASL1
+  how: >-
+    The structured feedback round, where learners take specific comment on their portfolio and make a
+    change on the spot, is direct practice in seeking, interpreting and using feedback to improve an
+    outcome.
+objectiveIds:
+- pathways--o5
+relatedSlugs:
+- pathways-producing-a-cv
+- pathways-producing-a-personal-statement
+- pathways-journal
+sourceRefs:
+- "Pathways Programme - Activity Guides/[120 mins] Showcasing your strengths_ producing a portfolio.docx"
+- Learning Bridge - Pathways Course Planner.pdf
+provenanceNote: Enriched into a structured facilitation flow (steps with prompts, watch-outs, a
+  localisation caveat on account-dependent tools, delivery-mode notes and agency/principle/competency
+  explanations) from the source activity guide, which supplied the purpose, the breakout resources, the
+  portfolio-building task, the format comparison and the ladder-of-feedback protocol. Linked to
+  Pathways objective 5.
