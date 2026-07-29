@@ -11,6 +11,7 @@ import {
   PrincipleSchema,
   ProficiencyScaleSchema,
   ProgrammeSchema,
+  UnitSchema,
   type Agency,
   type Area,
   type Competency,
@@ -21,6 +22,7 @@ import {
   type Principle,
   type ProficiencyScale,
   type Programme,
+  type Unit,
 } from "./schema";
 
 // Build-time content layer over content-source/. Every file is validated against its
@@ -101,10 +103,18 @@ function loadGlossary(): GlossaryTerm[] {
   );
 }
 
+function loadUnits(): Unit[] {
+  if (!existsSync(join(ROOT, "units"))) return [];
+  return listYaml("units").map((f) =>
+    parseWith(UnitSchema, `units/${f}`, readYaml("units", f)),
+  );
+}
+
 export const courses: Course[] = loadCourses();
 export const programmes: Programme[] = loadProgrammes();
 export const materials: FacilitationMaterial[] = loadMaterials();
 export const glossaryTerms: GlossaryTerm[] = loadGlossary();
+export const units: Unit[] = loadUnits();
 
 // ---- objectives as addressable entities (id = `<courseId>--o<n>`) ----
 export interface ObjectiveEntity {
@@ -161,6 +171,12 @@ export function getPrinciple(id: string) {
 }
 export function getProgramme(slug: string) {
   return programmes.find((p) => p.slug === slug);
+}
+export function getUnit(slug: string) {
+  return units.find((u) => u.slug === slug);
+}
+export function getUnitsForProgramme(programmeSlug: string): Unit[] {
+  return units.filter((u) => u.programmeSlug === programmeSlug);
 }
 
 // ---- reverse index: which courses/objectives evidence a competency ----
@@ -232,9 +248,14 @@ export function getCourseStream(courseId: string) {
 }
 
 // ---- materials indexes ----
+// Materials tagged with an `edition` (a contextualised programme edition, e.g. the Cox's Bazar
+// Learning Bridge) keep their own page but are excluded from the generic library, search, and
+// objective/course/competency listings. `libraryMaterials` is the generic-only view those surfaces use.
+export const libraryMaterials: FacilitationMaterial[] = materials.filter((m) => !m.edition);
+
 const materialBySlug = new Map(materials.map((m) => [m.slug, m]));
 const materialsByObjectiveId = new Map<string, FacilitationMaterial[]>();
-for (const m of materials) {
+for (const m of libraryMaterials) {
   for (const oid of m.objectiveIds) {
     const list = materialsByObjectiveId.get(oid) ?? [];
     list.push(m);
@@ -248,12 +269,21 @@ export function getMaterial(slug: string) {
 export function getMaterialsForObjective(objectiveIdValue: string): FacilitationMaterial[] {
   return materialsByObjectiveId.get(objectiveIdValue) ?? [];
 }
+// Edition-specific materials for an objective (the generic index above excludes them).
+export function getEditionMaterialsForObjective(
+  objectiveIdValue: string,
+  edition: string,
+): FacilitationMaterial[] {
+  return materials.filter(
+    (m) => m.edition === edition && m.objectiveIds.includes(objectiveIdValue),
+  );
+}
 export function getMaterialsForCourse(course: Course): FacilitationMaterial[] {
   const ids = new Set(getCourseObjectives(course).map((o) => o.id));
-  return materials.filter((m) => m.objectiveIds.some((oid) => ids.has(oid)));
+  return libraryMaterials.filter((m) => m.objectiveIds.some((oid) => ids.has(oid)));
 }
 export function getMaterialsForCompetencyCode(code: string): FacilitationMaterial[] {
-  return materials.filter((m) => m.competencyCodes.includes(code));
+  return libraryMaterials.filter((m) => m.competencyCodes.includes(code));
 }
 
 // For a material, the "if learners…" conditions (from the objectives it serves) that explain
@@ -469,7 +499,11 @@ export function validateGraph(): ValidationReport {
   }
 
   const materialSlugs = new Set(materials.map((m) => m.slug));
+  const programmeSlugs = new Set(programmes.map((p) => p.slug));
   for (const m of materials) {
+    if (m.edition && !programmeSlugs.has(m.edition)) {
+      errors.push(`Material "${m.slug}" names unknown edition "${m.edition}" (no such programme).`);
+    }
     for (const code of m.competencyCodes) {
       if (!competencyByCode.has(code)) {
         errors.push(`Material "${m.slug}" cites unknown competency code "${code}".`);
@@ -541,6 +575,42 @@ export function validateGraph(): ValidationReport {
     }
   }
 
+  const programmeSlugSet = new Set(programmes.map((p) => p.slug));
+  for (const u of units) {
+    if (!programmeSlugSet.has(u.programmeSlug)) {
+      errors.push(`Unit "${u.slug}" references unknown programme "${u.programmeSlug}".`);
+    }
+    if (u.courseSlug && !getCourse(u.courseSlug)) {
+      errors.push(`Unit "${u.slug}" references unknown course "${u.courseSlug}".`);
+    }
+    for (const wk of u.weeks) {
+      if (wk.objectiveId && !objectiveById.has(wk.objectiveId)) {
+        errors.push(`Unit "${u.slug}" week ${wk.number} references unknown objective "${wk.objectiveId}".`);
+      }
+      let facSum = 0;
+      let indSum = 0;
+      for (const s of wk.sessions) {
+        facSum += s.facilitatedMin;
+        indSum += s.independentMin;
+        if (!materialBySlug.has(s.materialSlug)) {
+          errors.push(
+            `Unit "${u.slug}" week ${wk.number} session "${s.title}" references unknown material "${s.materialSlug}".`,
+          );
+        }
+      }
+      if (facSum !== u.weeklyFacilitatedMin) {
+        warnings.push(
+          `Unit "${u.slug}" week ${wk.number} facilitated minutes (${facSum}) do not match the weekly budget (${u.weeklyFacilitatedMin}).`,
+        );
+      }
+      if (indSum !== u.weeklyIndependentMin) {
+        warnings.push(
+          `Unit "${u.slug}" week ${wk.number} independent minutes (${indSum}) do not match the weekly budget (${u.weeklyIndependentMin}).`,
+        );
+      }
+    }
+  }
+
   return { errors, warnings };
 }
 
@@ -587,7 +657,7 @@ function clip(s: string, max = 160): string {
 export function getSearchIndex(): SearchRecord[] {
   const records: SearchRecord[] = [];
 
-  for (const m of materials) {
+  for (const m of libraryMaterials) {
     const courseTitles = [
       ...new Set(
         m.objectiveIds

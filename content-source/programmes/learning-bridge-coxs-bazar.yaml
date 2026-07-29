@@ -1,0 +1,177 @@
+# Learning Bridge+ (Cox's Bazar) — a contextualised, fully offline edition of the Learning Bridge
+# programme (spec §4.1 Programme; component-based shape, like learning-bridge.yaml).
+#
+# Context: authored for Amala's consultancy to the Norwegian Refugee Council (NRC) Bangladesh
+# (Consultancy 8201056), adapting Learning Bridge+ as a READINESS / bridging programme for Rohingya
+# youth in the Cox's Bazar refugee camps, preparing them to enter an accredited secondary pathway.
+# Amala is the remote technical consultant; NRC leads implementation. Delivery is fully offline in
+# Community Based Learning Facilities (CBLFs): assume no internet, and often no power or devices.
+#
+# This edition reuses the same competency framework and course objectives as Learning Bridge (the
+# contextualisation is in delivery, sequencing, and materials, not in the objectives). It is being
+# built component by component; the Agency in Learning component is authored first.
+id: learning-bridge-coxs-bazar
+slug: learning-bridge-coxs-bazar
+access: public
+title: "Learning Bridge+ (Cox's Bazar)"
+shortName: "Learning Bridge+ Cox's Bazar"
+tagline: >-
+  A fully offline, contextualised edition of Learning Bridge+, preparing Rohingya youth in the
+  Cox's Bazar refugee camps for entry into accredited secondary education.
+summary: >-
+  Learning Bridge+ (Cox's Bazar) is a contextualised edition of Amala's Learning Bridge programme,
+  designed as a readiness bridge for Rohingya refugee youth preparing to enter an accredited
+  secondary education pathway. It is delivered fully offline in Community Based Learning Facilities,
+  with all resources supplied ready-made so facilitators need no internet to run it. The programme
+  is authored for Amala's consultancy to the Norwegian Refugee Council (NRC), who lead delivery in
+  the camps while Amala provides remote technical support. It keeps the components and competencies
+  of Learning Bridge but rebuilds delivery for an offline setting, a largely pre-literate cohort,
+  and the protection realities of the camps. The Agency in Learning component is authored first.
+targetContext: >-
+  Rohingya refugee youth in the Cox's Bazar camps, typically aged 14 to 24, who have completed
+  non-formal education at around Grade 6 of the Myanmar curriculum and show the potential to
+  progress to accredited secondary education but lack some of the competencies to do so. Most are
+  below B1 English proficiency, many are not yet literate in any language, and schooling has been
+  repeatedly interrupted. A proportion of places are for out-of-school adolescents facing
+  intersecting barriers, with priority to the most marginalised. Delivery conditions are severe:
+  Community Based Learning Facilities (often a room in a teacher's shelter), no internet, and often
+  no reliable power or learner devices.
+structure: >-
+  The programme keeps the Learning Bridge components (Research Project, Agency in Learning, Mentoring
+  and Wellbeing, and optional English Language Development), each around 50 hours. In this edition
+  each component runs at a cadence of 3 hours in-person plus 2 hours independent per week across a
+  minimum of 10 weeks. As the certificated (Learning Bridge+) tier, it includes diagnostic intake,
+  a midpoint formative assessment, a summative exit assessment, and Amala moderation. The Agency in
+  Learning component is authored and offline-ready first; the Research Project is deferred until the
+  shared local challenge is agreed with NRC and the community; English Language Development materials
+  are in scope. All artefacts are supplied as editable files for facilitators, distributed offline.
+ageRange: "14–24"
+minDurationWeeks: 10
+totalStructuredHoursMin: 150
+
+studentGains:
+  - Self-directed learning habits, goal-setting, planning, tracking progress, and reflecting on growth, built to work for learners who are not yet reading fluently.
+  - The foundational learning skills, including independent learning and study habits, needed to enter and sustain accredited secondary education.
+  - A start on stronger English for learning and communication, dovetailed with the English Language Development component.
+  - Confidence and a sense of agency over their own learning in a context where much else is outside their control.
+
+# Components. Agency in Learning is authored and offline-ready; the others are noted with status.
+components:
+  - title: Agency in Learning
+    summary: >-
+      Authored and offline-ready. Students develop self-directed learning habits, reframed around
+      learning goals within the learner's own control. Delivered oral and visual first, with a
+      week-by-week unit plan, facilitator guide, and student workbook.
+    structuredHours: 50
+    facilitatedHours: 30
+    independentHours: 20
+    courseSlug: agency-in-learning
+    deliveryOptions:
+      - Fully offline (printed materials and editable files, distributed via USB or hard drive)
+  - title: Research Project
+    summary: >-
+      Deferred. The Research Project is a single shared challenge for the whole cohort; the challenge
+      will be agreed with NRC and the community before this component is contextualised and authored.
+    structuredHours: 50
+    facilitatedHours: 30
+    independentHours: 20
+    courseSlug: research-project
+    deliveryOptions:
+      - Fully offline (to be authored once the shared challenge is agreed)
+  - title: Mentoring and Wellbeing
+    summary: >-
+      Structured 1:1 support for progress and wellbeing, with embedded psychosocial support and
+      referral pathways appropriate to the camp context.
+    structuredHours: 50
+    facilitatedHours: 30
+    independentHours: 20
+    deliveryOptions:
+      - Fully offline
+  - title: English Language Development
+    summary: >-
+      For learners below B1 proficiency. In funded scope for this edition and dovetailed with the
+      learning goals set in Agency in Learning.
+    structuredHours: 50
+    facilitatedHours: 30
+    independentHours: 20
+    deliveryOptions:
+      - Fully offline
+    optional: true
+
+# What it takes to deliver, and how this edition differs from generic Learning Bridge.
+delivery:
+  - title: How this edition is contextualised
+    detail: >-
+      Three things are rebuilt for this context. Delivery is oral and visual first, because most
+      learners are not yet literate in any language: facilitators deliver in the language they use
+      with learners, from materials written in plain English, and learners draw, colour, and speak
+      rather than read and write. Goal-setting is reframed around near-term learning goals within the
+      learner's own control, rather than futures that are currently blocked, and sensitive ground is
+      handled with explicit safeguarding guidance. Sessions are modular and self-contained, so
+      stop-start attendance never breaks the sequence.
+  - title: Fully offline delivery
+    detail: >-
+      No part of delivery assumes the internet. All resources are supplied ready-made and distributed
+      physically (USB or hard drive), including any secondary resources. Materials are supplied as
+      editable files so facilitators can adapt them to their group.
+  - title: Facilitators and learning spaces
+    detail: >-
+      Delivery is in Community Based Learning Facilities, often a room in a teacher's shelter, by
+      NRC-recruited facilitators trained by Amala (remotely, plus a pre-rollout session). Materials
+      are designed to be run by facilitators with limited training, carried by strong say-aloud
+      guidance rather than assumed subject expertise. Plan for female facilitators and same-gender
+      grouping where girls' participation depends on it.
+  - title: Safeguarding and protection
+    detail: >-
+      Safeguarding is built into every activity that could surface loss, family, marriage, or
+      displacement: no learner has to share, and facilitators are given clear step-back and referral
+      guidance. Delivery follows NRC's Code of Conduct and protection principles.
+
+support:
+  - title: Amala's role
+    detail: >-
+      Amala is the remote technical consultant to NRC: it contextualises the curriculum, supplies
+      ready-made offline resources, trains facilitators and the programme coordinator, and moderates
+      assessment. NRC leads implementation, recruits and manages facilitators, and delivers in the
+      camps.
+  - title: Resources
+    detail: >-
+      Ready-made, editable, fully offline resources for each authored component: a week-by-week unit
+      plan that carries the facilitator guidance inline, a student workbook, and optional slides for
+      the minority of sites with a screen.
+
+# Grading applies as the certificated Learning Bridge+ tier.
+grading:
+  intro: >-
+    As the Learning Bridge+ tier, students are formally assessed in two competencies against Amala's
+    Proficiency Scale, supporting the readiness decision for transition to accredited secondary
+    education. Assessment rests on educator judgement across varied evidence, with case-based
+    moderation.
+  assessedCompetencies:
+    - title: Set and Pursue Goals
+      description: >-
+        The ability to establish clear objectives for learning and growth and take deliberate steps
+        to make progress towards them. Developed and demonstrated through the Agency in Learning
+        component.
+    - title: Investigate Real World Issues
+      description: >-
+        The ability to conduct primary and secondary research into challenges affecting people and
+        the planet to develop actionable insights. Developed through the Research Project component
+        (deferred in this edition until the shared challenge is agreed).
+  scale:
+    - grade: Pass
+      requirement: Practitioner in both competencies.
+    - grade: Merit
+      requirement: Reflective Practitioner in one competency, Practitioner in the other.
+    - grade: Distinction
+      requirement: Reflective Practitioner in both competencies.
+  note: >-
+    The programme's headline success measure, agreed with NRC, is that at least 70% of learners who
+    complete the programme demonstrate the competencies required to enrol in the accredited secondary
+    education pathway, as measured by the summative exit assessment.
+
+sourceNotes:
+  - Contextualised edition of the Learning Bridge programme (see programmes/learning-bridge.yaml); components and competencies are shared, delivery and sequencing are rebuilt for the Cox's Bazar context.
+  - Authored for Amala's consultancy to the Norwegian Refugee Council (NRC) Bangladesh, Consultancy 8201056 (Aug–Dec 2026). Amala is the remote technical consultant; NRC leads implementation.
+  - Context and delivery constraints are drawn from the NRC Terms of Reference and a commissioned context briefing on Rohingya youth in Cox's Bazar (literacy, language, protection, and funding realities).
+  - Being built component by component; the Agency in Learning component is authored first. Research Project is deferred until the shared local challenge is agreed.

@@ -1,0 +1,167 @@
+# Contextualised, fully offline adaptation of ail-growth-mindset for Learning Bridge+ (Cox's Bazar).
+# Oral and visual first, ~60 min facilitated, no reading or devices assumed. Week 1, session 1.
+id: cb-ail-growth-mindset
+slug: cb-ail-growth-mindset
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "You can grow"
+summary: >-
+  Learners find their own proof that ability grows with effort, a new approach, and help, by
+  remembering a time they got better at something hard, so they can believe a goal is worth setting.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners recall a personal example alone, then hear how others grew at something
+    hard. Hearing a peer describe struggling and then improving is what makes "ability can grow"
+    believable rather than a slogan, so keep the sharing even if you shorten the opening. Use
+    same-gender pairs.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for an honest talk. A mentor can gently surface where a learner has written
+    themselves off and walk back through a real example of them getting better at something, which is
+    more persuasive one to one than in a group.
+- context: independent
+  how: >-
+    Weaker alone, because the learner misses hearing others describe their struggles, which is what
+    normalises difficulty. If it must be independent, the workbook page carries the drawing and the
+    "not yet" step, and the learner tells one person at home about a time they got better at something.
+duration: "60 min facilitated, plus a 30 min independent task at home"
+grouping: "Individual reflection, then same-gender pairs or small groups; works with 10-35 learners"
+whatLearnersDo:
+- See the difference between "I cannot do this" and "I cannot do this yet".
+- Remember and draw a time you got better at something that was hard at first.
+- "Say what helped you improve: your effort, a different way, or help from someone."
+- Change one "I cannot" into "I cannot yet", and choose one small step to try.
+materialsAndPreparation:
+- Your own true example of something you were once bad at and then got better at, to tell first.
+- The word "yet" ready to show on paper, a board, or the ground, or simply said aloud.
+- The student workbook (page for drawing a growth example and a "not yet" step).
+- "Sensitivity: a hard learning memory can touch on displacement, loss, or family. Let learners choose an easy, everyday example, and make clear no one has to say theirs aloud."
+facilitationNotes: |
+  This activity underpins the whole component: a learner who believes ability is fixed will not set a
+  goal to grow. The one thing to get right is that the shift comes from the learner's own real example
+  of improving, not from being told to think positively. A growth mindset is not pretending everything
+  is easy; it is treating difficulty as information about what to try next. Watch your own words too,
+  praising effort and a good approach rather than being "clever", since learners read how you talk
+  about ability. Keep it honest: some things are genuinely hard, and that is the point.
+steps:
+- title: "Tell 'I cannot' from 'I cannot yet'"
+  duration: "10-12 min"
+  guidance: |
+    Say two things aloud: "I am just not good at this" and "I cannot do this yet, but I can get better
+    with practice and help." Draw out the difference: the first treats ability as a fixed fact, the
+    second treats it as something that grows. Show or say the small word "yet". Keep it short and
+    spoken; the point is a frame before learners look at themselves.
+  keyPrompts:
+  - What changes when you add the word "yet" to the end?
+  - Where do ideas like "I am just bad at this" come from, and are they always true?
+  watchOuts:
+  - A growth mindset gets flattened into empty positivity; make clear it does not mean everything is easy, only that ability can grow with the right effort, approach and help.
+  adaptation: |
+    No board or slides are needed. Two spoken examples and the single word "yet", said aloud or drawn
+    on the ground, carry this step.
+- title: "Remember a time you grew"
+  duration: "15-16 min"
+  guidance: |
+    Give learners quiet time to remember one thing they can do now that was genuinely hard at first,
+    and to draw it on the workbook page. Circulate and ask rather than tell. Their own story is far
+    more convincing than any example you could give, so the aim is for each learner to find their own
+    proof that ability grows.
+  keyPrompts:
+  - What is something you can do now that felt impossible when you started?
+  - What actually helped you get better at it?
+  watchOuts:
+  - A learner insists they have never improved at anything; start smaller, walking them to an everyday skill like a language, a game, cooking, or a task at home, since everyone has grown at something.
+  adaptation: |
+    No writing is needed: learners draw the memory, or simply hold it in mind to tell a partner in the
+    next step.
+- title: "Say what helped you improve"
+  duration: "14 min"
+  guidance: |
+    In same-gender pairs, learners show their drawing and, together, name what made the improvement
+    happen: effort, a change of approach, help from someone, or practice. Gather a few of these aloud
+    for the whole group. The point is that growth is not luck or fixed talent but things a learner can
+    choose to do again.
+  keyPrompts:
+  - Across your stories, what keeps coming up as the thing that helped?
+  - Which of those could you choose to do on purpose next time something is hard?
+  watchOuts:
+  - The group credits improvement to natural talent, which quietly rebuilds the fixed belief; steer them back to the effort, approaches and help they named, since those are what they can repeat.
+- title: "Change one 'cannot' into 'cannot yet'"
+  duration: "14 min"
+  guidance: |
+    Ask each learner to name one thing they currently believe they cannot do, and to mark it on the
+    workbook as a "not yet", then choose one small step: a different way to try, or one person to ask.
+    Close by having a few learners say their "not yet" and their step aloud, so the shift is witnessed
+    and made real.
+  keyPrompts:
+  - What is one thing you have decided you cannot do?
+  - What is one small step, or one person to ask, that would move you forward on it?
+  watchOuts:
+  - A reframe stays a slogan with no action behind it; make sure each learner leaves with one small, concrete step, so the new belief is backed by something they will actually do.
+closing: |
+  Ask two or three learners to share their "not yet" and their first step. Draw out that believing
+  ability can grow is the ground everything else stands on: there is no point setting a goal to improve
+  if you secretly think you cannot. The "not yet" and the step stay in the workbook, to be proved wrong
+  over the weeks ahead. Independent task: tell one person at home about a time you got better at
+  something that was hard, and what helped.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Believing your abilities can grow is what makes self-direction possible: a learner who thinks
+    ability is fixed has no reason to try, while one who sees difficulty as part of learning can take
+    charge of their own growth. In a context where much is outside their control, this gives learners
+    power over how they respond to struggle rather than being ruled by a verdict they have accepted.
+principlesForegrounded:
+- lifeworthy-competencies
+- recognise-communicate-growth
+- safe-spaces
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    A growth mindset is a habit learners will reuse across study, work and life: treating difficulty as
+    information about what to try next, rather than proof of a fixed limit, is what lets a person keep
+    learning long after this programme ends.
+- principle: recognise-communicate-growth
+  how: >-
+    Learners recognise their own growth by drawing a real example of getting better at something hard,
+    and communicate it to a partner, which both proves the idea to them and builds the habit of noticing
+    and naming their own progress.
+- principle: safe-spaces
+  how: >-
+    The activity asks learners to admit what they find hard and where they have written themselves off,
+    so it depends on a space where struggle is normal and safe to name; the facilitator models this by
+    telling their own honest example first, and no one is required to share.
+competencyCodes:
+- FSL1
+- FPS1
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    Examining their own beliefs about their ability, and reflecting on how they have grown at something
+    hard, is direct practice in self-reflection; the drawn example and the "not yet" are the evidence a
+    learner can look at their own thinking and revise it.
+- code: FPS1
+  how: >-
+    Reframing a fixed belief as a "not yet" and treating a mistake as information about what to try next
+    is adaptable thinking: learners practise changing their approach in response to difficulty rather
+    than concluding they cannot do it.
+objectiveIds:
+- agency-in-learning--o1
+relatedSlugs:
+- cb-ail-strengths-and-areas-to-grow
+- cb-ail-how-you-learn-best
+sourceRefs:
+- agency-in-learning.yaml
+- ail-growth-mindset.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of ail-growth-mindset for the Learning Bridge+ (Cox's Bazar)
+  edition: oral and visual first, no reading or devices assumed, ~60 min facilitated with a short
+  independent task. Week 1, session 1 of the Agency in Learning unit. Linked to objective 1.

@@ -1,0 +1,57 @@
+# Unit plan (scheme of work) for the Agency in Learning component of Learning Bridge+ (Cox's Bazar).
+# Sequences the contextualised, offline cb-ail-* activities into weeks, with the facilitated /
+# independent split per session. The facilitator guidance lives on the referenced materials and is
+# rendered inline on the unit page. Cadence: 3h in-person + 2h independent per week, over 10 weeks.
+# Being authored week by week; Week 1 (objective 1) is authored first.
+id: coxs-bazar-agency-in-learning
+slug: coxs-bazar-agency-in-learning
+access: public
+title: "Agency in Learning — Cox's Bazar unit plan"
+programmeSlug: learning-bridge-coxs-bazar
+componentTitle: Agency in Learning
+courseSlug: agency-in-learning
+summary: >-
+  The week-by-week plan for delivering the Agency in Learning component fully offline in the Cox's
+  Bazar camps. Each week develops one course objective through oral and visual first activities, at a
+  cadence of 3 hours in-person plus 2 hours independent. This document carries the facilitator
+  guidance inline, so there is nothing to cross-reference during a session.
+weeklyFacilitatedMin: 180
+weeklyIndependentMin: 120
+weeks:
+  - number: 1
+    title: "Understand yourself as a learner"
+    objectiveId: agency-in-learning--o1
+    outcome: >-
+      Each learner starts their Learner Profile: proof that their ability can grow, a picture of their
+      strengths and the areas they want to grow, and an honest sense of how they learn best. This is
+      the starting point their first learning goals (Week 2) will be held up against.
+    sessions:
+      - title: "You can grow"
+        materialSlug: cb-ail-growth-mindset
+        facilitatedMin: 60
+        independentMin: 30
+        independentTask: "Tell one person at home about a time you got better at something hard, and what helped."
+        flexNote: >-
+          If contact time is short, the drawing (remembering a time you grew) and the "not yet" step can
+          be set as independent work from the workbook; keep the opening frame and the closing share
+          in-person.
+      - title: "What I am good at, what I want to grow"
+        materialSlug: cb-ail-strengths-and-areas-to-grow
+        facilitatedMin: 60
+        independentMin: 30
+        independentTask: "Ask one or two people who know you well what you are good at as a learner, and mark it on your workbook page."
+        flexNote: >-
+          The peer round must stay in-person, it is the engine of the activity; the private mapping of
+          strengths and areas can move to independent work if needed.
+      - title: "How I learn best"
+        materialSlug: cb-ail-how-you-learn-best
+        facilitatedMin: 60
+        independentMin: 60
+        independentTask: "Over the next two days, notice when and where you focus best, and mark it on your workbook picture-clock."
+        flexNote: >-
+          The two-day noticing task is independent by design and doubles as the week's independent
+          learning practice; the reflection and the compare-with-a-partner step stay in-person.
+sourceNotes:
+  - Sequences the cb-ail-* contextualised activities (adaptations of the generic ail-* materials) for the Learning Bridge+ (Cox's Bazar) edition.
+  - Week 1 develops objective 1 (Understand yourself as a learner); the three sessions build the Learner Profile that Week 2's goal-setting is held up against.
+  - Weeks 2 to 10 (objectives 2 to 4) are authored in subsequent passes.

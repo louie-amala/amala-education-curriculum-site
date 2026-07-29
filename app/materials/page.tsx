@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { MaterialsBrowser, type BrowserItem } from "@/components/MaterialsBrowser";
-import { courses, getObjectiveById, materials } from "@/lib/content";
+import { courses, getObjectiveById, libraryMaterials } from "@/lib/content";
 
 export const metadata: Metadata = { title: "Materials" };
 
 export default function MaterialsIndex() {
-  const items: BrowserItem[] = materials.map((m) => ({
+  const items: BrowserItem[] = libraryMaterials.map((m) => ({
     slug: m.slug,
     title: m.title,
     summary: m.summary,

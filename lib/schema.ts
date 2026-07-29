@@ -274,6 +274,10 @@ export const FacilitationMaterialSchema = z.object({
   id: z.string(),
   slug: z.string(),
   access: AccessSchema.optional(),
+  // When set, this material is specific to a contextualised programme edition (e.g.
+  // "learning-bridge-coxs-bazar"): it keeps its own page but is hidden from the generic /materials
+  // library, site search, and objective/course/competency listings. Validated in validateGraph().
+  edition: z.string().optional(),
   type: MaterialTypeSchema,
   title: z.string(),
   summary: z.string().nullable().optional(),
@@ -331,6 +335,53 @@ export const FacilitationMaterialSchema = z.object({
 export type FacilitationContext = z.infer<typeof FacilitationContextSchema>;
 export type MaterialType = z.infer<typeof MaterialTypeSchema>;
 export type FacilitationMaterial = z.infer<typeof FacilitationMaterialSchema>;
+
+// ---- Unit plan (scheme of work) ----
+// A unit sequences existing materials into a week-by-week plan for one component of one programme,
+// with the facilitated / independent split per session. It is the "what to do and when" document
+// that carries the facilitator guidance inline (the guidance lives on the referenced materials).
+export const UnitSessionSchema = z.object({
+  title: z.string(),
+  // The material this session runs. Validated against the materials collection in validateGraph().
+  materialSlug: z.string(),
+  facilitatedMin: z.number(),
+  independentMin: z.number().default(0),
+  // The task set for the independent portion (done from the workbook, offline, no device).
+  independentTask: z.string().nullable().optional(),
+  // Which parts can flex between in-person and independent, and anything else worth flagging.
+  flexNote: z.string().nullable().optional(),
+});
+
+export const UnitWeekSchema = z.object({
+  number: z.number(),
+  title: z.string(),
+  // The course objective this week develops. Validated against objective ids in validateGraph().
+  objectiveId: z.string().nullable().optional(),
+  outcome: z.string().nullable().optional(),
+  sessions: z.array(UnitSessionSchema).default([]),
+});
+
+export const UnitSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  access: AccessSchema.optional(),
+  title: z.string(),
+  // The programme edition and component this unit belongs to. programmeSlug is validated against
+  // programmes; courseSlug (the component's course) against courses, in validateGraph().
+  programmeSlug: z.string(),
+  componentTitle: z.string(),
+  courseSlug: z.string().nullable().optional(),
+  summary: z.string(),
+  // The weekly time budget this unit plans against (e.g. 180 facilitated + 120 independent).
+  weeklyFacilitatedMin: z.number(),
+  weeklyIndependentMin: z.number(),
+  weeks: z.array(UnitWeekSchema).default([]),
+  sourceNotes: z.array(z.string()).default([]),
+});
+
+export type UnitSession = z.infer<typeof UnitSessionSchema>;
+export type UnitWeek = z.infer<typeof UnitWeekSchema>;
+export type Unit = z.infer<typeof UnitSchema>;
 
 // ---- Glossary (§4.4) ----
 export const GlossaryCategorySchema = z.enum(["curriculum-system", "content", "assessment"]);

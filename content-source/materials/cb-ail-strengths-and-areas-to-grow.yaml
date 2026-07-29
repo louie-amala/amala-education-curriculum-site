@@ -1,0 +1,163 @@
+# Contextualised, fully offline adaptation of ail-strengths-and-areas-to-grow for Learning Bridge+
+# (Cox's Bazar). Oral and visual first, ~60 min facilitated. Week 1, session 2.
+id: cb-ail-strengths-and-areas-to-grow
+slug: cb-ail-strengths-and-areas-to-grow
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "What I am good at, what I want to grow"
+summary: >-
+  Learners name their strengths as learners and the areas they want to grow, using honest reflection
+  and what others notice in them, so they know where to aim the goals they will set next week.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners mark their own strengths and areas to grow, then hear what others notice in
+    them. The peer round is the engine: people name strengths for each other that no one claims alone,
+    so keep it even if you shorten the modelling. Use same-gender groups.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor plays the role the group would, reflecting back strengths the learner is
+    discounting and helping them name an area to grow without shame. The mentor should let the learner
+    do the naming rather than hand them a ready-made verdict.
+- context: independent
+  how: >-
+    Weaker alone, because the learner loses the peer input that surfaces strengths they cannot see. The
+    workbook page carries the strengths and areas; ask the learner to check their list with at least
+    one person who knows them before treating it as settled.
+duration: "60 min facilitated, plus a 30 min independent task at home"
+grouping: "Individual reflection, then same-gender pairs or small groups; works with 10-35 learners"
+whatLearnersDo:
+- See what a strength as a learner is, and that an area to grow is normal, not a weakness to hide.
+- Mark your own strengths and the areas you most want to grow, by drawing or with the facilitator's help.
+- Hear from others one or two strengths they see in you, and add any you had not claimed.
+- Choose one or two strengths to build on and one area to aim a future goal at.
+materialsAndPreparation:
+- Your own honest example of one strength and one area you are working on, to model before learners start.
+- "The student workbook (a two-part page: strengths, and areas to grow)."
+- Simple pictures or words for common learner strengths (asking questions, sticking at hard things, helping others, remembering, trying again), for learners who are not reading.
+- "Sensitivity: naming an area to grow can feel exposing. Make clear everyone, including you, has areas to grow, that naming one is a sign of a strong learner, and that no one has to share anything they would rather keep private."
+facilitationNotes: |
+  This is where self-directed learning starts: a learner cannot aim a goal well until they know their
+  own strengths and where they want to grow. The one thing to get right is the tone around areas to
+  grow. If naming a weakness feels like admitting failure, learners hide the real ones and pick safe,
+  vague ones. Treat an area to grow as ordinary and useful, model it with your own, and keep the room
+  honest rather than reassuring. Let learners keep private what they choose; the value is in the
+  honesty, not the sharing.
+steps:
+- title: "Frame strengths and areas to grow honestly"
+  duration: "8-10 min"
+  guidance: |
+    Say what a strength as a learner looks like: asking questions, sticking with a hard task, learning
+    from others, trying again, not only getting answers right. Then name one honest area of your own
+    that you are working on, so an area to grow sounds ordinary, not shameful. Keep it short and spoken:
+    you are setting a tone learners can be honest inside before they mark anything.
+  keyPrompts:
+  - What does being good at learning actually look like, beyond getting things right?
+  - Why is naming something you want to get better at a sign of a strong learner, not a weak one?
+  watchOuts:
+  - Learners hear "area to grow" as "weakness to confess" and pick something safe and vague; model a real one of your own and make clear everyone has them, so the honest ones come out.
+  adaptation: |
+    No board or slides are needed: two honest examples spoken aloud, one strength and one area you are
+    working on, are enough.
+- title: "Mark your own strengths and areas"
+  duration: "14-16 min"
+  guidance: |
+    Give learners quiet time to mark their strengths and the areas they most want to grow on the
+    workbook page, by drawing, ticking the picture-prompts, or asking you to write a word for them.
+    Circulate and ask rather than tell: when has learning felt easy, and when has it felt hard? Steer
+    them to a few real, specific entries rather than a long tidy list.
+  keyPrompts:
+  - When has learning felt easy or gone well for you, and what does that say about your strengths?
+  - What do you find hardest as a learner, and which of those would you actually want to change?
+  watchOuts:
+  - A learner leaves the strengths side empty out of modesty; prompt them with a specific time you or a peer saw them do something well, since most learners undercount their strengths.
+  adaptation: |
+    No writing is needed: learners can point to picture-prompts or tell you a word to scribe, and copy
+    nothing at all if they prefer to keep it in memory.
+- title: "Hear what your group sees in you"
+  duration: "16 min"
+  guidance: |
+    In same-gender pairs or small groups, each learner hears from the others one or two strengths they
+    have shown as a learner. This is the heart of the activity: people name strengths for each other
+    that no one claims alone. Learners add any new strength to their own page. Hold the round to
+    strengths only, never areas to grow, so no one feels judged by peers.
+  keyPrompts:
+  - What is one strength you have seen in this person as a learner?
+  - Which strength that your group named surprised you, or had you not claimed for yourself?
+  watchOuts:
+  - The group drifts into naming each other's weaknesses; hold firmly to strengths only, since unsolicited criticism from peers is exactly what makes areas to grow feel unsafe to name.
+- title: "Choose where to build and where to grow"
+  duration: "12 min"
+  guidance: |
+    Close individually. Ask each learner to mark, on their page, one or two strengths they want to
+    build on and one area they want a future goal to aim at. This turns a list into a starting point
+    for next week's goal-setting, and gives you a quick read on who has found a direction. Remind them
+    the page is not fixed and will be revisited.
+  keyPrompts:
+  - Which one or two strengths do you most want to build on?
+  - Which area would you most like your next learning goal to work on?
+  watchOuts:
+  - A learner picks an area to please you rather than one they care about; reassure them there is no right answer and that a goal only works if the area genuinely matters to them.
+closing: |
+  Ask two or three learners to share one strength they will build on and, if willing, one area they
+  want to grow. Draw out that everyone in the room has both. This page lives in the workbook and is the
+  picture their first learning goal will be held up against next week: you cannot aim a goal well until
+  you know where you are starting from. Independent task: ask one or two people who know you well, "what
+  am I good at as a learner?", and mark what they say on your page.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Knowing your own strengths and the areas you want to grow, in your own words, is what lets a learner
+    decide where to aim rather than waiting to be told what to fix. That honest self-picture is the
+    ground every self-directed goal is set from, and it keeps the direction of a learner's growth in
+    their own hands.
+principlesForegrounded:
+- recognise-communicate-growth
+- builds-on-identities
+- feedback-and-data
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: >-
+    Learners name and record their own strengths and areas to grow, and say them aloud to peers, which
+    is the first act of the recognising and communicating growth this whole component sets out to build.
+- principle: builds-on-identities
+  how: >-
+    The work starts from each learner's own experience of when learning has felt easy or hard, in their
+    own terms, and the facilitator is warned off handing them a ready-made verdict, so the self-picture
+    is anchored in the learner rather than an external benchmark.
+- principle: feedback-and-data
+  how: >-
+    Learners treat what peers notice in them as data about strengths they cannot see alone, and add it
+    to their own self-assessment, so an honest picture is built from evidence rather than a private feeling.
+competencyCodes:
+- FSL1
+- FUS1
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    Looking honestly at their own strengths and areas for development as learners, and grounding that in
+    when learning has gone well or badly, is direct practice in self-reflection; the workbook page is the
+    evidence.
+- code: FUS1
+  how: >-
+    Weighing their own self-picture against what peers notice in them, and noticing strengths they had
+    discounted, develops the self-awareness of seeing themselves more accurately than from inside alone.
+objectiveIds:
+- agency-in-learning--o1
+relatedSlugs:
+- cb-ail-growth-mindset
+- cb-ail-how-you-learn-best
+sourceRefs:
+- agency-in-learning.yaml
+- ail-strengths-and-areas-to-grow.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of ail-strengths-and-areas-to-grow for the Learning Bridge+
+  (Cox's Bazar) edition: oral and visual first, no reading or devices assumed, ~60 min facilitated with
+  a short independent task. Week 1, session 2 of the Agency in Learning unit. Linked to objective 1.

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getCourse, getProgramme, programmes } from "@/lib/content";
+import { getCourse, getProgramme, getUnitsForProgramme, programmes } from "@/lib/content";
 
 export function generateStaticParams() {
   return programmes.map((p) => ({ slug: p.slug }));
@@ -86,6 +86,9 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
             <div className="mt-6 space-y-4">
               {prog.components.map((c) => {
                 const linked = c.courseSlug ? getCourse(c.courseSlug) : undefined;
+                const unit = getUnitsForProgramme(prog.slug).find(
+                  (u) => u.componentTitle === c.title || (c.courseSlug && u.courseSlug === c.courseSlug),
+                );
                 return (
                 <div key={c.title} className="rounded-lg border-l-4 border-plum border-y border-r border-cool-grey/20 bg-white p-5 shadow-sm">
                   <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -121,14 +124,24 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
                       {c.deliveryOptions.join(" · ")}
                     </p>
                   )}
-                  {linked && (
-                    <Link
-                      href={`/courses/${linked.slug}`}
-                      className="mt-3 inline-block text-sm font-medium text-navy hover:underline"
-                    >
-                      View course guide →
-                    </Link>
-                  )}
+                  <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1">
+                    {linked && (
+                      <Link
+                        href={`/courses/${linked.slug}`}
+                        className="inline-block text-sm font-medium text-navy hover:underline"
+                      >
+                        View course guide →
+                      </Link>
+                    )}
+                    {unit && (
+                      <Link
+                        href={`/units/${unit.slug}`}
+                        className="inline-block text-sm font-medium text-orange hover:underline"
+                      >
+                        View the unit plan →
+                      </Link>
+                    )}
+                  </div>
                 </div>
                 );
               })}
