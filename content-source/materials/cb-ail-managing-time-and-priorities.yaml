@@ -1,0 +1,165 @@
+# Contextualised, fully offline adaptation of ail-managing-time-and-priorities for Learning Bridge+ (Cox's Bazar).
+# Oral and visual first, ~60 min facilitated. Week 3, session 2.
+id: cb-ail-managing-time-and-priorities
+slug: cb-ail-managing-time-and-priorities
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "One small slot for me"
+summary: >-
+  Learners map a normal camp week in pictures, then protect one small, realistic slot to work towards
+  a goal, planning what to drop when a week gets hard so wellbeing is kept, not traded away.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners map their week and pick one realistic slot alone, then test it with a
+    same-gender partner. The peer step matters: saying a plan aloud and being asked what would really
+    get in the way is what turns a hopeful timetable into an honest one, so keep the pairing even if
+    you shorten your modelling.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit, and often the most honest setting for this. A mentor can help a learner name the
+    caring, work, and family duties that really compete for their time, without the learner feeling
+    they must look more free than they are. Have the learner arrive with a rough picture of a normal
+    week so the time goes on finding a real slot.
+- context: independent
+  how: >-
+    Workable but weaker: a learner alone tends to plan for an ideal week, not a real one. The workbook
+    week-strip and the one small slot rule carry it, but ask them to say their slot to a peer or
+    mentor, since another person spots the slot that will not survive a normal camp week.
+duration: "60 min facilitated, plus a 30 min independent task"
+grouping: "Individual mapping, then same-gender pairs; works with 10-35 learners"
+whatLearnersDo:
+- Map a normal week in pictures, including family, work, caring and prayer, not just study.
+- Choose one small, realistic slot you can protect for working towards your goal.
+- Pick the one next step that fits that slot, and decide what you will drop if the week gets hard.
+- Test your plan with a partner, then commit to it until the next session.
+materialsAndPreparation:
+- The student workbook (a week-strip of seven day-boxes to mark with simple pictures).
+- Small stones or caps to lay on the day-boxes for fixed duties and for the one protected slot, so no writing is needed.
+- Your own honest example of a busy week with one protected slot marked in it, to draw and model before learners plan.
+- "Sensitivity: a real week can expose caring loads, work, or hardship at home. Let learners keep the details private, share only a general shape, and never require anyone to explain why a day is full."
+facilitationNotes: |
+  Between-session progress is where goals are reached or quietly abandoned, and time decides which.
+  The one thing to get right is that plans are honest about the learner's real life: study competes
+  with family, work, caring and much else, and a plan that ignores that fails in the first week and
+  leaves the learner feeling they are the problem. Aim for one small, protected slot a learner can
+  truly keep, not an ambitious timetable. Say aloud that protecting rest is part of the plan, not a
+  reward for finishing it. Resist making anyone feel they should have more time than they do.
+steps:
+- title: "Map a normal week honestly, in pictures"
+  duration: "14-16 min"
+  guidance: |
+    Have learners map a normal week as it really is: the fixed things first (family, work, caring,
+    fetching water, prayer, rest), then the gaps that are left. Say aloud that the point is to see the
+    real shape of the week before planning any study into it. Draw your own busy week first so no one
+    feels theirs is too full to admit. Keep it quick and concrete; a rough picture-strip is enough.
+  keyPrompts:
+  - What are the fixed things in your week that you cannot move?
+  - Where in a normal week do you actually have a little time that is your own?
+  - What tends to eat the time you thought you had?
+  watchOuts:
+  - Learners map an ideal week rather than a real one; ask about last week specifically, not a typical week, since the real week is where the honest gaps and pressures show up.
+  adaptation: |
+    With no planner or device, lay a stone on each day-box for a fixed duty, or count the days on
+    fingers and say them aloud. The honest picture matters more than the format.
+- title: "Protect one small, realistic slot"
+  duration: "14-16 min"
+  guidance: |
+    Ask each learner to choose one small slot in their real week, as little as twenty or thirty
+    minutes, that they can genuinely protect for working towards their goal. Steer them away from grand
+    timetables towards one slot they can actually keep. Have them mark where it sits, say what might
+    threaten it, and how they will guard it. Say aloud that one kept slot beats five hopeful ones that
+    never happen.
+  keyPrompts:
+  - Which one slot could you realistically protect for your goal this week?
+  - What is most likely to steal that slot, and how could you guard it?
+  - Is this slot small enough that you could keep it even in a hard week?
+  watchOuts:
+  - A learner marks several hours they will not keep; push for one small, protected slot, because a plan that assumes a good week collapses the moment the week is ordinary.
+  adaptation: |
+    A single bright stone or cap laid on one day-box marks the protected slot clearly, and can be moved
+    if the week changes, without any writing.
+- title: "Match the next step to the slot, then plan for a hard week"
+  duration: "14-16 min"
+  guidance: |
+    Have learners choose the one next step towards their goal that actually fits the slot they
+    protected, not the biggest step they wish they could take. Then plan for the week going wrong: say
+    aloud, in advance, what they will drop or shrink if time runs short, so a hard week costs them
+    progress rather than their wellbeing or confidence. Finish by pairing learners to test each other's
+    plans in same-gender pairs.
+  keyPrompts:
+  - What is one step towards your goal that genuinely fits the time you have protected?
+  - If this week gets hard, what will you do instead of giving up completely?
+  - What is the smallest version of this step that would still count as progress?
+  watchOuts:
+  - Learners treat a missed week as failure and stop; say clearly, in advance, that a smaller step, or picking the slot back up next week, is the plan working, not the plan breaking.
+  adaptation: |
+    If pairing is hard in stop-start attendance, the facilitator plays the partner and asks each
+    learner aloud what would really threaten their slot.
+closing: |
+  Ask two or three learners to say their protected slot and first step aloud, and one thing they will
+  drop if the week gets hard. Say that the plan lives in their workbook and is meant to be adjusted,
+  not obeyed. Remind them that protecting time and wellbeing is a skill they are practising, and that a
+  small step kept every week beats a big plan kept for none. Independent task: keep your slot once this
+  week, then mark in the workbook whether it happened and what threatened it.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Deciding when and how you will work towards your goal, within the real limits of camp life, is a
+    direct act of self-direction: the learner, not the week or their circumstances, chooses where their
+    effort goes. Planning for a hard week, and protecting rest as part of the plan, keeps the power over
+    their own wellbeing in their hands rather than trading it away for progress.
+principlesForegrounded:
+- lifeworthy-competencies
+- responsible-action
+- connect-to-futures
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Managing time and priorities against real, competing demands is a habit these learners will reuse
+    long after the course; the activity practises it on their own goal and their own week rather than
+    teaching it in the abstract, and needs no literacy to keep using.
+- principle: responsible-action
+  how: >-
+    Learners take ownership of their progress between sessions by committing to a slot they can honestly
+    keep, and are helped to sustain their wellbeing while doing so by planning for hard weeks rather
+    than pushing through them.
+- principle: connect-to-futures
+  how: >-
+    The protected slot and next step are chosen to move a personal goal forward, so managing this
+    week's time is explicitly tied to the future the learner is building rather than to getting through
+    the session alone.
+competencyCodes:
+- ASL2
+- FSL2
+competencyDevelopment:
+- code: ASL2
+  how: >-
+    Mapping a real camp week, protecting one realistic slot, and planning what to drop when time runs
+    short is direct practice in managing time, priorities and wellbeing; the week-plan is the evidence a
+    learner can balance competing demands without sacrificing themselves.
+- code: FSL2
+  how: >-
+    Turning a goal into a protected slot and a concrete next step between sessions is the pursue in
+    setting and pursuing goals; the plan and the step taken show the learner moving from intention to
+    deliberate progress.
+objectiveIds:
+- agency-in-learning--o3
+relatedSlugs:
+- cb-ail-making-an-action-plan
+- cb-ail-finding-help-and-resources
+sourceRefs:
+- agency-in-learning.yaml
+- ail-managing-time-and-priorities.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of ail-managing-time-and-priorities for the Learning Bridge+
+  (Cox's Bazar) edition: oral and visual first, no reading or devices assumed, the week mapped as a
+  picture-strip with stones for fixed duties and one protected slot, ~60 min facilitated plus a short
+  independent task. Week 3, session 2 of the Agency in Learning unit. Linked to objective 3.

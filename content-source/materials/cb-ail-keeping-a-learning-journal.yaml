@@ -1,0 +1,172 @@
+# Contextualised, fully offline adaptation of ail-keeping-a-learning-journal for Learning Bridge+ (Cox's Bazar).
+# Oral and visual first, ~60 min facilitated. Week 2, session 1.
+id: cb-ail-keeping-a-learning-journal
+slug: cb-ail-keeping-a-learning-journal
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "My learning book"
+summary: >-
+  Learners set up a simple picture workbook and start a light, habitual routine of drawing or marking one small
+  thing each session, so their progress towards their goals stays visible over the whole programme.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners set up their workbooks together and try one small mark or drawing live, then agree a
+    shared moment for doing it each session. The group setup matters: seeing that everyone's book looks different,
+    and that one drawing counts, removes the fear of doing it wrong, so keep the live first mark even if you
+    shorten the setup. Use same-gender groups at the tables.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor helps a learner settle on a mark or picture they will actually make, and builds the
+    habit by opening each meeting with the workbook. Have the learner bring their goal picture to the first
+    meeting so the book is anchored to a real goal from the start, not set up empty.
+- context: independent
+  how: >-
+    Weakest fit here, because attendance is stop-start and a learner alone tends to let the habit lapse and
+    cannot be reminded. Tie the mark to a fixed moment (straight after each session, before leaving the room),
+    keep it to one drawing, and arrange for the facilitator to glance at the book at the next session so the
+    habit is witnessed early.
+duration: "60 min facilitated, plus a 20 min independent task done from the workbook"
+grouping: "Individual setup with a live first mark, in same-gender groups; works with 10-35 learners"
+whatLearnersDo:
+- Set up a simple picture workbook you can find again and will actually keep marking.
+- Put your goal picture on the first page so the book is tied to something real.
+- Make one small mark or drawing live, so the empty page is broken.
+- "Agree a light routine: one moment each session, and one small mark counts as done."
+materialsAndPreparation:
+- The student workbook, one per learner, with blank picture pages and a place for their goal.
+- Coloured pencils or crayons the whole group can share, and a facilitator pen for scribing a few words when asked.
+- Your own simple example mark (one drawing plus one word), to show that a small mark is a full entry.
+- "Sensitivity: a workbook can hold private things about home and family. Say clearly no one else reads it unless the learner chooses, and a learner may keep any page just for themselves."
+facilitationNotes: |
+  This workbook is the spine the other Agency in Learning activities draw and mark into, so the one thing to get
+  right is that it is easy and habitual, not a chore. Because most learners do not read or write, an entry is a
+  drawing, a mark, a face, or a few words the facilitator scribes when asked, never a demand to write. A book a
+  learner marks once a session beats a neat one they abandon. Say aloud, often, that there is no right way to keep
+  it and one small drawing is enough, so no learner freezes at a blank page or hides an untidy one.
+steps:
+- title: "Set up a book you can find and keep"
+  duration: "14-16 min"
+  guidance: |
+    Say aloud what the book is for: a private place where a learner keeps pictures of what they are learning
+    across the whole programme, so they can see themselves grow. Hand out the workbooks and let each learner mark
+    the front (their name, a drawing, or a mark only they know) so they can always find their own. Walk round and
+    check every learner can recognise their book. The point is ownership, not neatness.
+  keyPrompts:
+  - Whose book is this, and how will you know it is yours when they are all stacked together?
+  - What small mark or drawing could you put on the front so you find it fast?
+  watchOuts:
+  - A learner is anxious because they cannot write their name; offer to scribe it, or let a drawing or thumbprint be their mark, so no one is shamed at the very first step.
+  adaptation: |
+    No printed book is needed if supply is short: a few stapled sheets or the back of a shared notebook works.
+    The book being the learner's own, and findable again, matters far more than what it is made of.
+- title: "Put your goal on the first page"
+  duration: "14-16 min"
+  guidance: |
+    Have each learner draw or mark their learning goal on the first page: the thing they are working towards, as
+    a picture. If a learner wants a word or two added, scribe it for them beside the drawing. Anchoring the book
+    to a real goal is what makes later marks meaningful, because the learner has something concrete to track
+    against, not a blank page. Keep it to one goal so the page stays light.
+  keyPrompts:
+  - What are you working towards? Draw it, or show me and I will help you mark it.
+  - When you turn to this page next time, what will remind you what you were aiming for?
+  watchOuts:
+  - A learner copies a neighbour's goal picture because they are unsure; kneel beside them and ask what they themselves want, then help them mark their own, so the book starts from their real goal.
+  adaptation: |
+    If a learner has not set a goal yet, they draw one thing they want to get better at. A rough picture is
+    plenty; the book can hold a clearer goal later without being restarted.
+- title: "Make one small mark live"
+  duration: "14-16 min"
+  guidance: |
+    Break the empty page at once. Show your own example (one drawing and one word), then give quiet time for each
+    learner to make one small mark about today: something they did, or a face for how the learning felt. Offer to
+    scribe a few words for any learner who points and tells you. The point is to prove a mark can be quick and
+    honest, so the book never feels like a task a learner has to steel themselves for.
+  keyPrompts:
+  - What is one thing you did today towards your goal? Draw it, however small.
+  - How did today feel? Point to a face, or make a mark for it, and I will add a word if you like.
+  watchOuts:
+  - A learner freezes because they think the mark must be big or beautiful; say aloud that one small drawing is a full entry, and show just how quick and rough yours was.
+  adaptation: |
+    If time is very short, one face or one mark against one prompt is a complete entry. One real mark made in the
+    room is worth more than a fuller page promised for later.
+- title: "Agree one moment each session"
+  duration: "12-14 min"
+  guidance: |
+    Turn the one mark into a habit. Agree together a fixed moment for marking the book (the last few minutes of
+    each session, before anyone leaves), so it does not depend on remembering. Say clearly what counts as done:
+    one drawing or one mark. Tell learners the book will be opened again in the goal-setting, feedback, and
+    reflection sessions, so they know it is going somewhere.
+  keyPrompts:
+  - When exactly will we mark our books each time, so no one has to remember on their own?
+  - What is the smallest mark that still counts as done for the day?
+  watchOuts:
+  - The group agrees an over-ambitious routine (a full drawing every day at home) that will collapse; steer them to one small mark at a fixed moment in the room, and say it can grow later if it works.
+closing: |
+  Ask two or three learners to hold up their book and show the front they made and their goal page, not the
+  private marks inside, which stay theirs. Say aloud that this book is a living thing the other sessions will
+  build on: goals go in it, small marks are made in it each time, and growth is looked back on from it. A kept
+  book is how a learner watches their own learning move. Independent task: before the next session, make one
+  small mark or drawing in your book about something you learned or did.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    A book the learner sets up, owns, and marks in their own drawings puts a private record of their own progress
+    in their hands, so they can steer their learning from what they can see rather than a passing feeling. The
+    habit of noticing and marking their own growth is what lets a learner keep directing their development, and
+    protecting their sense of progress, long after any single session ends.
+principlesForegrounded:
+- recognise-communicate-growth
+- feedback-and-data
+- builds-on-identities
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: >-
+    The workbook is the tool that makes a learner's growth visible over time; marked across the programme, it
+    becomes the running picture-record they draw on to recognise and later show how far they have come, which is
+    the defining habit this component builds, made reachable here without any reading or writing.
+- principle: feedback-and-data
+  how: >-
+    Each mark or drawing is a small piece of the learner's own progress, kept against the goal on the first page,
+    so that later reflection rests on a real record of what happened rather than a general impression, even when
+    that record is pictures rather than words.
+- principle: builds-on-identities
+  how: >-
+    Learners mark their own book in their own drawings about what matters to them, and the front is a mark only
+    they know, so the practice is anchored in the learner's own life and hand rather than imposed as one fixed
+    written template everyone must copy.
+competencyCodes:
+- FSL1
+- FSL2
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    Making a small mark each session about what they did and how it felt is direct, repeated practice in
+    self-reflection; the growing book of drawings is the evidence a learner reflects on their own learning as a
+    habit rather than a one-off event.
+- code: FSL2
+  how: >-
+    Marking progress against the goal drawn on the first page, session after session, is the sustaining side of
+    setting and pursuing goals; the book is the running record that shows steps actually taken, not just a goal
+    named once.
+objectiveIds:
+- agency-in-learning--o4
+relatedSlugs:
+- cb-ail-seeking-and-using-feedback
+- cb-ail-reflecting-on-your-growth
+sourceRefs:
+- agency-in-learning.yaml
+- ail-keeping-a-learning-journal.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of ail-keeping-a-learning-journal for the Learning Bridge+ (Cox's
+  Bazar) edition: the written journal becomes a visual picture workbook that non-literate learners draw and mark
+  in, with the facilitator scribing a few words on request; no reading, writing, or devices assumed, ~60 min
+  facilitated with a short independent marking task. Week 2, session 1 of the Agency in Learning unit. Linked to
+  objective 4.

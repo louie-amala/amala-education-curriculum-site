@@ -1,0 +1,171 @@
+# Contextualised, fully offline adaptation of ail-seeking-and-using-feedback for Learning Bridge+ (Cox's Bazar).
+# Oral and visual first, ~60 min facilitated. Week 4, session 2.
+id: cb-ail-seeking-and-using-feedback
+slug: cb-ail-seeking-and-using-feedback
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Asking for help to get better"
+summary: >-
+  Learners practise asking a partner about one specific thing, listening without defending, choosing which
+  advice is useful to them, and turning what they keep into one small change to try next.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners settle on one specific thing to ask about, show their work or say their goal to a
+    same-gender partner, then choose what to act on. The spoken pair exchange matters: practising hearing advice
+    from a real person, out loud, is what builds the habit of not defending, so keep the pairing even if you
+    shorten the framing. Use same-gender pairs throughout.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. The mentor gives real, kind advice on the learner's actual work and, just as importantly,
+    coaches how the learner receives it. Ask the learner to arrive with one specific thing they want looked at,
+    not "is it good?", so the meeting practises seeking help, not just hearing it.
+- context: independent
+  how: >-
+    Weakest fit, because a learner alone cannot practise receiving advice in the moment. Give them the one-thing
+    request and the keep, wait, leave sort as spoken habits, and pair them with a trusted peer or the facilitator
+    at the next session to ask one real question and notice how they responded to the answer.
+duration: "60 min facilitated, plus a 20 min independent task done from the workbook"
+grouping: "Individual preparation, then same-gender pairs; works with 10-35 learners"
+whatLearnersDo:
+- Hear the difference between asking "is it good?" and asking about one specific thing.
+- Choose one specific thing about your work or goal that you want a partner to look at.
+- Listen to your partner's advice, understanding it first before you answer.
+- Sort the advice into keep, wait, and leave, and choose one small change to try.
+materialsAndPreparation:
+- A real piece of the learner's work, a drawing, or a current goal to ask about.
+- Two spoken example requests ready (one vague, one specific), so you can model the difference aloud.
+- A simple keep, wait, leave sort the group can point to, drawn large as three spots on the floor or table.
+- "Sensitivity: hearing what could be better can sting or feel shaming. Say clearly that asking for help is a strength, no one is being graded, and a learner may keep their work private and only say their goal aloud."
+facilitationNotes: |
+  Advice only helps a learner who asks for it well and can hear it without defending. The one thing to get right
+  is the shift from advice as judgement to advice the learner controls: they choose what to ask about, and they
+  choose what to act on. Protect that. Do not let partners grade each other, and do not push any learner to accept
+  every comment. Because the room does not read, do it all by speaking: model the two requests aloud, keep the
+  keep-wait-leave sort as three spots to stand at. Name the first sting of criticism openly so learners expect it
+  and can breathe through it rather than argue back.
+steps:
+- title: "Hear a vague ask and a specific ask"
+  duration: "10-12 min"
+  guidance: |
+    Open by saying two requests aloud about the same piece of work: a vague one ("is it good?") and a specific
+    one ("does this part show what I meant?"). Ask the room which one they could actually answer well, and draw
+    out why: the specific ask tells the other person where to look. Keep it short and spoken; this is just a frame
+    before each learner chooses their own one thing.
+  keyPrompts:
+  - "Which is easier to answer well: asking is it good, or asking about one part? Why?"
+  - What is the one part of your work or goal you most want another person to look at?
+  watchOuts:
+  - Learners stay with "is it good?" because it feels safer; gently push each to name one specific thing, since a vague ask nearly always brings back vague advice they cannot use.
+  adaptation: |
+    No board or slides are needed: two requests said aloud, and the one rule (ask about one thing) repeated in
+    the learners' own language, carry the whole step. No device is used.
+- title: "Choose your one thing to ask"
+  duration: "12-14 min"
+  guidance: |
+    Give quiet time for each learner to settle on one specific thing they want a partner to look at, about a real
+    piece of work or their goal. Walk round and ask, do not tell: what were you trying to do here, and where are
+    you unsure? If a learner wants it marked in the workbook, scribe the one thing beside their drawing. Steer
+    them from wanting only praise towards a real question they do not yet know the answer to.
+  keyPrompts:
+  - What were you trying to do here, and where did it get hard for you?
+  - What would you change if a good answer came back? Say it, and I will help you mark it.
+  watchOuts:
+  - A learner asks only to be told it is good; say aloud that useful advice names what could be better, and that asking for it is a strength, not an admission of failure.
+  adaptation: |
+    Nothing needs to be written: the learner says their one thing aloud and holds it in mind, or points to it in
+    the workbook while the facilitator scribes a few words. The asking, not the writing, is the task.
+- title: "Listen without defending"
+  duration: "16-18 min"
+  guidance: |
+    Put learners in same-gender pairs to show their work or say their goal and answer each other's one thing.
+    Coach the listener aloud: listen to understand, ask one question back, and thank your partner before you
+    answer. Name the urge to explain or defend and ask them to let it pass. The giver stays kind and points to one
+    thing that worked and one that could be stronger. This is the heart of the session, so give it the most time.
+  keyPrompts:
+  - What did you hear your partner actually saying, before you decide if you agree?
+  - What is one question back that would help you understand their advice better?
+  watchOuts:
+  - A learner argues with or explains away every comment; remind them they do not have to accept it yet, only understand it, and that choosing what is useful comes next, not now.
+  adaptation: |
+    All spoken, no writing: partners talk over the actual work in front of them. If a learner would rather not
+    show their work, they say their goal aloud and ask their one thing about that instead.
+- title: "Sort the advice and pick one change"
+  duration: "12-14 min"
+  guidance: |
+    Now hand the choosing back to the learner. Using three spots (keep, wait, leave), have each learner decide,
+    aloud or by pointing, which advice to keep and act on now, which to wait on, and which does not fit their
+    goal. Then choose one kept piece and name one small change to try, and mark it in the workbook. This is where
+    advice becomes the learner's own tool, not someone else's verdict.
+  keyPrompts:
+  - Which advice fits what you are really trying to do, and which does not?
+  - What is the one small change you will try, and when will you try it?
+  watchOuts:
+  - A learner tries to act on everything at once; help them choose the one change that matters most, since a single change actually made beats a long list they never touch.
+closing: |
+  Ask two or three learners to say the one change they will try and the advice that led to it. Draw out that
+  they, not their partner, chose what to keep. Say aloud that asking for help is a loop they can run themselves:
+  one clear question, an open ear, and one small change. Independent task: before the next session, try your one
+  small change, and mark in your workbook whether it helped.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Advice stops being a verdict handed down and becomes something the learner asks for and controls. Choosing
+    what to ask about, and choosing what to act on, keeps direction of their own growth in the learner's hands,
+    which is what lets them keep improving without waiting to be judged, even in a room where nothing is written
+    down.
+principlesForegrounded:
+- feedback-and-data
+- collaboration
+- recognise-communicate-growth
+principleAlignment:
+- principle: feedback-and-data
+  how: >-
+    The whole activity treats advice as something a learner gathers and filters, not a grade: they ask one
+    specific thing, then sort what comes back into keep, wait and leave and act on one piece, so what others see
+    drives a deliberate change the learner chose.
+- principle: collaboration
+  how: >-
+    Learners give and receive real, spoken advice on each other's work in same-gender pairs, so a learner's
+    improvement is powered by a partner's view they could not reach alone, and the giver practises being useful
+    and kind rather than judging.
+- principle: recognise-communicate-growth
+  how: >-
+    Choosing one specific thing to ask about forces learners to name where they are and what they want to get
+    better at, and trying the advice turns that into a visible next step, which is the recognise-and-communicate
+    habit this component builds.
+competencyCodes:
+- ASL1
+- FSL1
+competencyDevelopment:
+- code: ASL1
+  how: >-
+    Asking about one specific thing, hearing the answer without defending, and then choosing which advice is
+    relevant before acting is the whole of using feedback; the keep, wait, leave sort and the chosen change are
+    the evidence a learner can weigh advice and apply what is useful.
+- code: FSL1
+  how: >-
+    Naming what they were trying to do and where they are unsure, and honestly weighing advice against their own
+    goal, requires learners to reflect on their own work, which develops self-reflection even when the reflecting
+    is spoken rather than written.
+objectiveIds:
+- agency-in-learning--o4
+relatedSlugs:
+- cb-ail-reflecting-on-your-growth
+- cb-ail-keeping-a-learning-journal
+sourceRefs:
+- agency-in-learning.yaml
+- ail-seeking-and-using-feedback.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of ail-seeking-and-using-feedback for the Learning Bridge+ (Cox's
+  Bazar) edition: the written request and paper filter become a spoken one-thing ask and a keep, wait, leave sort
+  done at three spots on the floor, with same-gender pairs and a strong safeguarding frame; no reading, writing,
+  or devices assumed, ~60 min facilitated with a short independent try-it task. Week 4, session 2 of the Agency in
+  Learning unit. Linked to objective 4.

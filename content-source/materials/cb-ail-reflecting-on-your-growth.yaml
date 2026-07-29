@@ -1,0 +1,158 @@
+# Contextualised, fully offline adaptation of ail-reflecting-on-your-growth for Learning Bridge+ (Cox's Bazar).
+# Oral and visual first, ~60 min facilitated. Week 6, session 3.
+id: cb-ail-reflecting-on-your-growth
+slug: cb-ail-reflecting-on-your-growth
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Looking at how far I have come"
+summary: >-
+  Learners look back through their workbook and their goal, show one clear way they have grown and one thing
+  they have learned about themselves, and choose one thing to carry forward.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners look back alone through their own workbook, then show one piece of growth to a
+    same-gender group. The sharing matters: saying "here is how I have grown" out loud, or holding up a drawing,
+    makes it real and lets learners see progress in each other, so keep the share even if you shorten the
+    looking-back. Use same-gender groups.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for an honest look back. A mentor helps a learner see progress they are brushing aside and name
+    a realistic next step. This works especially well at the end of a goal cycle or of the programme, with the
+    workbook open between them.
+- context: independent
+  how: >-
+    Weakest fit, because learners alone tend to see only what they did not finish and there is no one to hold up
+    the growth they discount. Give them the spoken prompts, ask them to turn through their actual workbook page
+    by page, then show one piece of growth to a peer or the facilitator at the next session so it is witnessed.
+duration: "60 min facilitated, plus a 20 min independent task done from the workbook"
+grouping: "Individual looking-back, then same-gender pairs or small groups; works with 10-35 learners"
+whatLearnersDo:
+- Turn through your workbook and find your goal and the marks you have made.
+- Look at how far you have come towards the goal you set.
+- Name one thing you have learned about yourself as a learner.
+- Choose one thing to carry forward or a next goal, and show one piece of growth.
+materialsAndPreparation:
+- The learner's workbook, goal page, and any drawings or work made over the period being looked back on.
+- A short set of spoken reflection prompts you can say in the learners' own language.
+- Coloured pencils and a facilitator pen, to draw the next step and scribe a few words when asked.
+- "Sensitivity: some learners will feel they made little progress, or will have had a hard period through displacement or loss. Say clearly that an honest look back is not judging yourself, and that noticing one small step, or naming what got in the way, is real growth. No one must share, and a learner may only draw."
+facilitationNotes: |
+  Looking back is where learning becomes visible and where the next goal comes from. The one thing to get right
+  is that learners look at real evidence, their own workbook and goal page, not a vague feeling. Left to a
+  feeling, learners either inflate or, far more often here, dismiss their progress. Your job is to help them see
+  growth they are brushing aside and to be kind but honest about what did not happen and why. Because the room
+  does not read, do it all by turning pages, pointing, and speaking, and keep the focus on learning, never on
+  grading themselves.
+steps:
+- title: "Turn through your workbook"
+  duration: "12-14 min"
+  guidance: |
+    Have learners lay open their workbook and turn through it: the goal on the first page, the marks and drawings
+    they have made since. The point is to look back at something real, not a general memory. Give a quiet moment
+    for each learner to find their first goal page and look at it again before they judge how far they have come.
+    Walk round and help any learner who cannot find their goal.
+  keyPrompts:
+  - Turn to your goal page. What were you working towards when you started?
+  - Turn through the marks you have made. Which one do you remember making?
+  watchOuts:
+  - A learner judges from memory and dismisses their progress; sit beside them and turn the pages with them, since the marks on the page are usually kinder and more accurate than the feeling.
+  adaptation: |
+    If a learner's workbook is thin or was missed for a while, they say aloud what they set out to do and what
+    they have done since; the look back at the original goal is the part that matters most.
+- title: "See how far you have come"
+  duration: "16-18 min"
+  guidance: |
+    Work through spoken prompts against the workbook: which parts of the goal they have reached, where they made
+    progress even if the goal is not finished, and what helped or got in the way. Say each prompt in the learners'
+    own language and give time to point at the page in answer. Push gently against both inflation and dismissal. A
+    goal half-reached, with real marks along the way, is progress worth naming aloud.
+  keyPrompts:
+  - Point to where you got closer to your goal, even if you have not finished it.
+  - What helped you move forward, and what got in your way?
+  watchOuts:
+  - A learner sees only what they did not finish; help them count the small steps and the things they learned along the way, which is where most of the growth actually sits, and name one of them aloud for them.
+  adaptation: |
+    Where looking back risks touching a hard period, let the learner choose a lower-stakes stretch of the book to
+    talk about, and never require anyone to share the details aloud.
+- title: "Name your growth and your next step"
+  duration: "16-18 min"
+  guidance: |
+    Move from what happened to what it means. Ask each learner to name one clear way they have grown as a learner,
+    and to choose one thing to carry forward: a habit that worked, the same goal continued, or a new goal. Have
+    them draw the next step on a fresh workbook page, scribing a word or two if they ask. Then each learner shows
+    one piece of growth to their same-gender group, so progress is witnessed and the room sees how much has moved.
+  keyPrompts:
+  - What is one way you have grown as a learner in this time? Say it or show me the page.
+  - What is your next goal, or the one thing you will carry forward? Draw it, and I will help you mark it.
+  watchOuts:
+  - The look back ends without a forward step; make sure every learner leaves with one concrete thing drawn to carry forward, so reflection feeds the next cycle rather than closing a door.
+  adaptation: |
+    A learner who does not want to speak may hold up a drawing instead of saying anything, and that counts fully
+    as sharing one piece of growth.
+closing: |
+  Ask several learners to show one piece of growth and one thing they will carry forward, by speaking or by
+  holding up the page. Draw out how much the room has changed since the start. Say aloud that this look back, and
+  the next goal it produced, go back into the workbook: growth is a cycle they now know how to run themselves.
+  Independent task: before the next session, make one mark in your workbook about the next step you have chosen.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
+  how: >-
+    Seeing and naming their own growth, from the real marks in their own workbook, is how learners come to trust
+    that they can direct their own learning. That belief, and the next goal it produces, is what lets a learner
+    keep steering their own development long after the programme ends, even where reading and devices are out of
+    reach.
+principlesForegrounded:
+- recognise-communicate-growth
+- feedback-and-data
+- connect-to-futures
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: >-
+    The whole activity is learners recognising and then showing their own growth against the goal they set,
+    whether by speaking or by holding up a page, which is the defining habit this component builds, made reachable
+    here without any reading or writing.
+- principle: feedback-and-data
+  how: >-
+    Learners look back against real evidence, the marks and drawings in their own workbook, rather than a feeling,
+    and use what they find to choose the next goal, so a real record drives the next cycle of learning even when
+    that record is pictures rather than words.
+- principle: connect-to-futures
+  how: >-
+    The look back ends by choosing a next goal or a habit to carry forward, drawn onto a fresh page, connecting
+    this period of learning to the future the learner is building rather than closing it off.
+competencyCodes:
+- FSL1
+- FSL2
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    Looking honestly at their own progress against the marks in their workbook, and naming how they have grown as
+    a learner, is direct practice in self-reflection; the workbook, turned through page by page, is the evidence.
+- code: FSL2
+  how: >-
+    Turning a look back into a next goal or a habit to carry forward, drawn onto a new page, is how learners keep
+    setting and pursuing goals over time, closing the loop from progress back to a new objective.
+objectiveIds:
+- agency-in-learning--o4
+relatedSlugs:
+- cb-ail-keeping-a-learning-journal
+- cb-ail-seeking-and-using-feedback
+sourceRefs:
+- agency-in-learning.yaml
+- ail-reflecting-on-your-growth.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of ail-reflecting-on-your-growth for the Learning Bridge+ (Cox's
+  Bazar) edition: the written reflection becomes a page-by-page look back through the learner's picture workbook,
+  with growth shown by speaking or holding up a drawing and the next step drawn onto a fresh page; a strong
+  safeguarding frame is added for learners who had a hard period; no reading, writing, or devices assumed, ~60 min
+  facilitated with a short independent marking task. Week 6, session 3 of the Agency in Learning unit. Linked to
+  objective 4.

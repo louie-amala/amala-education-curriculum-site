@@ -1,0 +1,176 @@
+# Contextualised, fully offline adaptation of ail-making-an-action-plan for Learning Bridge+ (Cox's Bazar).
+# Oral and visual first, ~60 min facilitated. Week 3, session 1.
+id: cb-ail-making-an-action-plan
+slug: cb-ail-making-an-action-plan
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "My first small step"
+summary: >-
+  Learners turn one goal into a small picture-plan: the steps drawn in order, the first small step
+  chosen, and what they need to take it before the next session.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners draw their own steps, then show a same-gender partner who asks whether they
+    could really start the first one this week. That partner question is what catches a step that is
+    too big or too vague, so keep the pairing even if you shorten your own modelling.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor helps the learner size the first step honestly and name the person or thing
+    they will need. Have the learner arrive holding a goal they already set, so the time goes on
+    planning a real step rather than choosing a goal from scratch.
+- context: independent
+  how: >-
+    Workable but weaker: a learner alone tends to pick a step that is too large or forgets what it
+    needs. The workbook picture-steps and the four questions (steps, order, by when, what it needs)
+    carry it, but ask them to say their first step to a peer or mentor before they start it.
+duration: "60 min facilitated, plus a 30 min independent task"
+grouping: "Individual planning, then same-gender pairs; works with 10-35 learners"
+whatLearnersDo:
+- Choose one goal you already set, and draw the small steps that would reach it.
+- Put the step-pictures in order and point to the one that comes first.
+- Mark a by-when for your first step and say what it needs (a person, a thing, a place, or time).
+- Show your first step to a partner, then say aloud the one step you will take and when.
+materialsAndPreparation:
+- Your own honest example of a real goal, three or four steps, and a first step with a by-when, to draw and model first.
+- The student workbook (a strip of empty boxes for step-pictures, and simple pictures for who or what a step needs).
+- Small stones, bottle caps, or scraps the learner can lay out and reorder as steps, so no writing is needed.
+- "Sensitivity: a goal can touch on family, work, or leaving the camp. Let learners keep the goal private, choose a simpler one, and never require anyone to say their reasons aloud."
+facilitationNotes: |
+  An action plan only helps if it is small enough to act on this week. The one thing to get right is
+  to stop learners drawing a big, overwhelming plan they will never start. Keep it to a real goal, a
+  few step-pictures, and a first step small enough to take before you next meet. Do not labour the
+  words action plan: it is just deliberate steps, drawn, not a document. Say aloud that a plan a
+  learner owns and can truly begin beats a tidy one they abandon. Help them name what the first step
+  needs, so a missing thing is spotted now rather than becoming an excuse later.
+steps:
+- title: "Draw the steps that would reach your goal"
+  duration: "14-16 min"
+  guidance: |
+    Draw your own goal first: say it aloud, then draw three or four small pictures of the steps that
+    reach it, one per box. Then give learners quiet time to draw the steps for their own goal. Say
+    aloud that each step should be a thing a person could actually do, not a wish, and that a few good
+    steps beat twenty. Circulate and ask, do not tell, what the very next doable thing would be.
+  keyPrompts:
+  - What would actually have to happen for you to reach this goal?
+  - Is each picture a thing you could do, or is it still just a wish?
+  - What is the smallest first thing that would move this forward?
+  watchOuts:
+  - A learner draws steps so big each is really a goal of its own; help them break the first one down into a single doable action, and scribe a few words under the picture if they ask.
+  adaptation: |
+    With no board or device, lay out stones or caps, one per step, and point. Learners draw or place,
+    and you scribe a word only if asked. The steps matter more than the marking.
+- title: "Put the steps in order and point to the first"
+  duration: "12-14 min"
+  guidance: |
+    Show learners how to put the step-pictures in order: what has to come before what, and which one
+    they can start now. Say aloud that some steps must wait for others, so a sensible order stops a
+    learner stalling on something they cannot yet do. Have each learner lay their pictures left to
+    right and point to the one that comes first, checking it does not wait on a step not yet reached.
+  keyPrompts:
+  - Which of these steps has to happen before the others can?
+  - Which step could you actually start first, this week?
+  - Is anything you drew waiting on a step you have not done yet?
+  watchOuts:
+  - A learner points to a first step that quietly waits on a later one and then cannot start; walk them back to the true first action they can take alone.
+  adaptation: |
+    If there are no boxes, laying the stones or scraps in a row and swapping their order by hand shows
+    the sequence just as well as writing numbers.
+- title: "Mark a by-when and say what the step needs"
+  duration: "14-16 min"
+  guidance: |
+    Move from order to commitment. Ask each learner to mark a real by-when for their first step (point
+    to a day on the workbook week-strip), and to say what it needs: a person to ask, a thing, a place,
+    or a slice of time. Say aloud that naming needs now is how a learner spots a blocker before it
+    becomes an excuse. Keep the by-when close and honest, so the first step is done before you meet again.
+  keyPrompts:
+  - By when will you have taken your first step, pointing to a real day?
+  - "What do you need to take it: a person, a thing, or some time?"
+  - Is there anything that could get in the way, and how would you get around it?
+  watchOuts:
+  - A by-when is vague or far off, so nothing starts; pin it to a real day this week and shrink the step until it fits the time the learner honestly has.
+  adaptation: |
+    If a needed thing turns out to be unavailable in the camp, help the learner reshape the step
+    around what they do have rather than parking the whole plan.
+- title: "Show a partner and say your step aloud"
+  duration: "12-14 min"
+  guidance: |
+    Put learners in same-gender pairs to show each other their first step and by-when. The partner's
+    one job is to ask whether the step is really doable by then, and whether anything is missing. Each
+    learner changes their step if needed, then says aloud, to their partner, the one step they will
+    take and when. Saying it to someone is a light form of accountability that makes the step more likely.
+  keyPrompts:
+  - Could your partner really start their first step by the day they pointed to?
+  - Is anything missing from their step that they have not spotted?
+  - What is the one step you are committing to, and by when?
+  watchOuts:
+  - Pairs slip into admiring the drawing rather than testing it; give them the one question to ask each other, whether the first step is truly doable by that day, and keep them on it.
+  adaptation: |
+    In thin attendance or a mentoring setting, the facilitator or mentor plays the partner and asks
+    the same doable-by-when question aloud.
+closing: |
+  Ask two or three learners to say their first step and its by-when aloud. Say that the plan lives in
+  their workbook and is not fixed: as steps are taken and things change, the plan is updated, not
+  abandoned. Remind them the point is not a tidy picture but a first deliberate step actually taken
+  before you next meet. Independent task: take your first small step, then mark in the workbook
+  whether it happened and what got in the way.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Turning a goal into small steps a learner will actually take is the move from wanting a future to
+    building one, even where the camp limits so much else. By choosing the order, the day, and what
+    each step needs, the learner keeps the direction and pace of their own progress in their own hands.
+principlesForegrounded:
+- lifeworthy-competencies
+- connect-to-futures
+- feedback-and-data
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Breaking a goal into ordered, timed steps and taking the first one is planning and self-direction
+    in miniature, a habit these learners can reuse for any goal in life, and one that does not depend
+    on literacy or a classroom to keep using.
+- principle: connect-to-futures
+  how: >-
+    The plan is built from a goal the learner has already tied to what matters to them, so the drawn
+    steps and by-whens are deliberate progress towards the future they are trying to build, not busywork
+    for the session alone.
+- principle: feedback-and-data
+  how: >-
+    Naming what each step needs and showing the first step to a partner turns the plan into something
+    the learner tests and adjusts against real feedback, and the workbook note on whether the step
+    happened feeds the next session's planning.
+competencyCodes:
+- FSL2
+- ASL2
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Making an ordered, timed picture-plan and taking a first deliberate step is the pursue half of
+    setting and pursuing goals; the drawn plan and the step taken between sessions are the evidence a
+    learner moves from intention to action.
+- code: ASL2
+  how: >-
+    Marking an honest by-when, fitting the first step to the time a learner actually has in a busy camp
+    week, and naming blockers in advance is direct practice in managing time and priorities to sustain
+    progress.
+objectiveIds:
+- agency-in-learning--o3
+relatedSlugs:
+- cb-ail-managing-time-and-priorities
+- cb-ail-finding-help-and-resources
+sourceRefs:
+- agency-in-learning.yaml
+- ail-making-an-action-plan.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of ail-making-an-action-plan for the Learning Bridge+ (Cox's
+  Bazar) edition: oral and visual first, no reading or devices assumed, steps drawn and ordered with
+  stones or picture-boxes, ~60 min facilitated plus a short independent task. Week 3, session 1 of the
+  Agency in Learning unit. Linked to objective 3.

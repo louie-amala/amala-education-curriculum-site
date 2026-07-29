@@ -83,6 +83,70 @@ weeks:
         flexNote: >-
           Taking the first step is independent by design and is the week's core independent practice;
           building the ladder and committing aloud stay in-person.
+  - number: 3
+    title: "Plan and take deliberate steps"
+    objectiveId: agency-in-learning--o3
+    outcome: >-
+      Each learner turns their goal into a small action plan, protects a little time to work on it, and
+      knows where to find the help and resources they need, so a goal becomes deliberate, sustained
+      steps rather than intention alone.
+    sessions:
+      - title: "Make an action plan"
+        materialSlug: cb-ail-making-an-action-plan
+        facilitatedMin: 60
+        independentMin: 30
+        independentTask: "Take one step from your plan this week, and notice what helped or got in the way."
+        flexNote: >-
+          Drawing the plan can be set as independent work from the workbook; the modelling and the
+          partner check stay in-person.
+      - title: "Manage your time and what matters"
+        materialSlug: cb-ail-managing-time-and-priorities
+        facilitatedMin: 60
+        independentMin: 30
+        independentTask: "For a few days, do your most important learning thing first, before the easier things."
+        flexNote: >-
+          The sorting of what matters most is best done in-person; trying the routine is the independent
+          practice.
+      - title: "Find help and resources"
+        materialSlug: cb-ail-finding-help-and-resources
+        facilitatedMin: 60
+        independentMin: 60
+        independentTask: "Ask one person for the help or resource you named, and use it towards your goal."
+        flexNote: >-
+          Naming who and what can help stays in-person; actually reaching out and using the help is the
+          independent task.
+  - number: 4
+    title: "Track progress, use feedback, and reflect"
+    objectiveId: agency-in-learning--o4
+    outcome: >-
+      Each learner keeps a simple record of their progress, seeks and uses feedback, and reflects on how
+      they have grown against their original goal. This completes the goal cycle and produces the
+      evidence of self-directed learning the programme assesses.
+    sessions:
+      - title: "Keep your learning book"
+        materialSlug: cb-ail-keeping-a-learning-journal
+        facilitatedMin: 60
+        independentMin: 30
+        independentTask: "Make one small mark or drawing in your learning book after each session this week."
+        flexNote: >-
+          Setting up the book and the first mark stay in-person; keeping the routine going is the
+          independent practice, and the spine the whole component marks into.
+      - title: "Ask for and use feedback"
+        materialSlug: cb-ail-seeking-and-using-feedback
+        facilitatedMin: 60
+        independentMin: 30
+        independentTask: "Ask one person for feedback: what is one thing I could do better? Then try it."
+        flexNote: >-
+          Practising how to ask for and receive feedback stays in-person; asking someone for real is the
+          independent task.
+      - title: "Look back at how you have grown"
+        materialSlug: cb-ail-reflecting-on-your-growth
+        facilitatedMin: 60
+        independentMin: 60
+        independentTask: "Look through your learning book and notice one way you have grown; be ready to share it."
+        flexNote: >-
+          The guided look back through the workbook stays in-person; noticing and preparing to share a
+          growth is the independent reflection.
 downloads:
   - label: Facilitator Unit Plan & Guide
     file: /downloads/agency-in-learning-facilitator-unit-plan.docx
@@ -92,6 +156,10 @@ downloads:
     file: /downloads/agency-in-learning-student-workbook.docx
     format: Word
     note: Visual-first Learner Profile and goal pages. Print one per learner. Editable.
+  - label: Session Slides
+    file: /downloads/agency-in-learning-slides.pptx
+    format: PowerPoint
+    note: Optional, for sites with a screen. One idea per slide. Editable.
 
 sourceNotes:
   - Sequences the cb-ail-* contextualised activities (adaptations of the generic ail-* materials) for the Learning Bridge+ (Cox's Bazar) edition.
