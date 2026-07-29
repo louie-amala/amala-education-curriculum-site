@@ -1,0 +1,169 @@
+# Contextualised, fully offline orientation activity for Learning Bridge+ (Cox's Bazar): learners
+# explore the four things the Agency in Learning course helps them do, why each matters, the key
+# words, and how they might approach each, surfacing prior knowledge so the facilitator can adjust.
+# Oral and visual first. Getting started phase.
+id: cb-ail-exploring-our-objectives
+slug: cb-ail-exploring-our-objectives
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "What we will learn, and why"
+summary: >-
+  Learners meet the four things this course helps them do, talk about why each matters to them, learn
+  the words they will use, ask questions, and say how they might approach each one.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. The whole group meets the four objectives together as four simple pictures, talks
+    about why each matters, and shares how they might approach each. Hearing what others already do
+    surfaces prior knowledge and normalises starting from different places, so keep the sharing.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for surfacing prior knowledge in depth. A mentor walks a learner through the four
+    objectives, checks each word is understood, and listens closely to how the learner already
+    approaches learning, which gives a rich picture to build on.
+- context: independent
+  how: >-
+    Weak alone: a learner cannot ask questions or hear others' approaches, which is the point. If it
+    must be independent, give the four pictures and words and ask the learner to say aloud, to a family
+    member, how they might try each one, then bring their questions to the next session.
+duration: "2.5 hours facilitated, plus a short task at home"
+grouping: "Whole group, then same-gender pairs or small groups; works with 10-35 learners"
+whatLearnersDo:
+- Meet the four things this course helps you do, shown as four simple pictures.
+- Talk about why each one matters to you and your own learning.
+- Learn the words we will use, and ask any questions about them.
+- Say or draw how you might try to reach each one, using what you already know.
+materialsAndPreparation:
+- Four simple pictures or symbols, one for each objective, big enough for the group to see, drawn or on paper.
+- "The key words ready to say and show: goal, plan, step, feedback, reflect, progress, each with a plain meaning."
+- The student workbook, with a page for the four objectives and space to mark or draw an approach to each.
+- "Sensitivity: talking about why learning matters can raise hard feelings about the future. Keep it about what learners can control, their own learning now, and let anyone stay quiet."
+facilitationNotes: |
+  This is the map of the whole course, and a chance to hear what learners already know. The one thing
+  to get right is that you listen more than you talk in the second half: how learners say they would
+  approach each objective tells you what they already do and where to slow down or speed up. Keep the
+  four objectives in plain, spoken words with a picture each, check every word is understood, and make
+  it safe to ask questions and to not know. Learners who see where they are going, and why it is theirs,
+  begin the course with agency rather than confusion.
+steps:
+- title: "The four things we will learn"
+  duration: "30 min"
+  guidance: |
+    Show the four pictures, one at a time, and say each objective in plain words: get to know yourself
+    as a learner; choose a learning goal that matters to you; make a plan and take steps; and see how
+    you are doing, and grow. Lay them out as a journey the group will travel together. Keep it spoken
+    and visual; the aim is that every learner can see the whole path, not memorise it.
+  keyPrompts:
+  - Looking at these four pictures, what do you think this course will help you do?
+  - Which of these four feels new to you, and which have you done a little of before?
+  watchOuts:
+  - Learners stay silent, unsure if it is safe to speak; start with the easiest picture and your own plain example, so speaking up feels safe before you ask anything harder.
+  adaptation: |
+    No board is needed: draw the four pictures on paper or the ground, or hold them up one at a time,
+    and say each objective aloud.
+- title: "Why this matters to you"
+  duration: "30 min"
+  guidance: |
+    Take each objective and draw out why it matters in a learner's own life. In a place where much is
+    decided for you, your own learning is something you can direct, and these four are how you do it.
+    Ask learners, in same-gender pairs, to say which one matters most to them and why, then hear a few.
+    Keep it about their learning and what they can control, not about far-off futures.
+  keyPrompts:
+  - Why might it help you to choose your own learning goal, rather than be told what to learn?
+  - Which of these four would make the biggest difference to you right now?
+  watchOuts:
+  - The talk drifts to futures that feel blocked and learners deflate; gently bring it back to the learning they can control now, which is the whole point of the course.
+- title: "The words we will use"
+  duration: "30 min"
+  guidance: |
+    Teach the key words plainly, with a gesture or example for each: a goal is a thing you want to be
+    able to do; a plan is the steps to get there; a step is one small thing you do; feedback is what
+    someone tells you to help you get better; to reflect is to think back on how you did; progress is
+    getting better. Check understanding by asking learners to say each back in their own words, and
+    make plenty of room for questions.
+  keyPrompts:
+  - Can you say what a goal is in your own words? What about a step?
+  - What questions do you have about any of these words, or about the four things we will learn?
+  watchOuts:
+  - A learner nods without understanding a word; ask them to say it back or give an example, since a word left unclear now will trip up a whole later session.
+  adaptation: |
+    No writing is needed: teach each word by saying it, showing a gesture or picture, and having
+    learners say it back. The words can be added to the workbook later.
+- title: "How would you try to reach each one?"
+  duration: "40 min"
+  guidance: |
+    This is the part where you listen. For each of the four objectives, ask learners to say or draw how
+    they might try to reach it, and what they already do that is a little like it. Circulate and note
+    what you hear: who already sets themselves small goals, who tracks anything, who asks for help. This
+    surfaces what learners already know so you can adjust how much time each phase needs.
+  keyPrompts:
+  - If you wanted to get better at something, how would you start? What would you do first?
+  - Who or what already helps you when you want to learn something?
+  watchOuts:
+  - Learners think there is a right answer and go quiet; make clear you want to know what they already do, that there is no wrong answer, and that this helps you teach them better.
+  adaptation: |
+    Learners can act it out, draw it, or say it to a partner. The point is that you hear their real
+    starting point, not that anything is written down.
+closing: |
+  Recap the four-part journey with the pictures, and remind learners they now have a map of where the
+  course is going and why it is theirs. Answer any last questions, and reassure them that everyone
+  starts from a different place and that is fine. Independent task: tell one person at home the one of
+  the four things you most want to get better at, and why.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Understanding what the course will help them do, why it matters, and how they might approach it lets
+    learners begin with intention rather than waiting to be led. Seeing the path as theirs, and being
+    asked how they would travel it, hands the direction of their learning to them from the first phase.
+principlesForegrounded:
+- builds-on-identities
+- feedback-and-data
+- lifeworthy-competencies
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The activity deliberately surfaces what each learner already knows and does about learning, in their
+    own words, so the course is built on their real starting point rather than an assumption about it.
+- principle: feedback-and-data
+  how: >-
+    How learners say they would approach each objective is data the facilitator gathers and uses to
+    adjust the pace and emphasis of the course, so teaching responds to the actual group.
+- principle: lifeworthy-competencies
+  how: >-
+    The four objectives are framed as durable learning skills the learner will reuse across study, work
+    and life, so learners see from the start why they are worth their time.
+competencyCodes:
+- FSL2
+- FSL1
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Coming to understand what setting and pursuing a learning goal involves, and beginning to think how
+    they would approach it, is the first orientation to the goal cycle the whole course develops.
+- code: FSL1
+  how: >-
+    Saying how they already try to learn, and what already helps them, is direct practice in reflecting
+    on themselves as learners, and gives the honest starting point later goals are built from.
+objectiveIds:
+- agency-in-learning--o1
+- agency-in-learning--o2
+- agency-in-learning--o3
+- agency-in-learning--o4
+relatedSlugs:
+- cb-ail-growth-mindset
+- cb-ail-keeping-a-learning-journal
+sourceRefs:
+- agency-in-learning.yaml
+- exploring-your-objectives.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of ail-exploring-our-objectives for the Learning Bridge+
+  (Cox's Bazar) edition: oral and visual first, the four objectives shown as pictures, the key words
+  taught plainly with room for questions, and a listening step that surfaces prior knowledge so the
+  facilitator can adjust. Getting started phase. Maps to all four course objectives as the orientation.

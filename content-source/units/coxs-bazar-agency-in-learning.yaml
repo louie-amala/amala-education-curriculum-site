@@ -29,7 +29,7 @@ phases:
     blocks:
       - title: "Welcome and our learning space"
         kind: orientation
-        facilitatedHours: 1.5
+        facilitatedHours: 1
         independentHours: 0
         description: >-
           Open the course. Build a safe, welcoming space: names, a simple agreement about how the group
@@ -37,6 +37,16 @@ phases:
           would rather keep private. Introduce the big idea in your own words: many things here are
           decided by others, but what you learn is something you can choose, and this course is about
           taking hold of your own learning. Keep it warm, oral, and unhurried.
+      - title: "What we will learn, and why"
+        kind: activity
+        materialSlug: cb-ail-exploring-our-objectives
+        facilitatedHours: 2.5
+        independentHours: 0.5
+        independentTask: "Tell one person at home the one of the four things you most want to get better at, and why."
+        flexNote: >-
+          Listen closely in the second half: how learners say they would approach each objective
+          surfaces what they already know, so you can adjust how long each later phase needs. This same
+          orientation activity works for the Research Project too (see exploring-your-objectives).
       - title: "Set up your learning book"
         kind: activity
         materialSlug: cb-ail-keeping-a-learning-journal
@@ -80,7 +90,7 @@ phases:
       - title: "What makes a good goal"
         kind: activity
         materialSlug: cb-ail-what-makes-a-good-goal
-        facilitatedHours: 2
+        facilitatedHours: 1.5
         independentHours: 0.5
         independentTask: "Think of one goal you might set, and check it against the four tests, or ask someone at home to hear it and help."
       - title: "Choose and draw your goal"
@@ -110,13 +120,13 @@ phases:
       - title: "Manage your time and what matters"
         kind: activity
         materialSlug: cb-ail-managing-time-and-priorities
-        facilitatedHours: 2
+        facilitatedHours: 1.5
         independentHours: 1
         independentTask: "For a few days, do your most important learning thing first, before the easier things."
       - title: "Find help and resources"
         kind: activity
         materialSlug: cb-ail-finding-help-and-resources
-        facilitatedHours: 2
+        facilitatedHours: 1.5
         independentHours: 1
         independentTask: "Ask one person for the help or resource you named, and use it towards your goal."
       - title: "Pursue your goal, and mark your learning book"
@@ -151,7 +161,7 @@ phases:
       - title: "Pursue your goal, and mark your learning book"
         kind: practice
         facilitatedHours: 1
-        independentHours: 3
+        independentHours: 2.5
         description: >-
           Learners keep pursuing their goal and marking their book, now using the feedback they gathered
           and adjusting their steps when something is not working. Keep the short warm check-ins that

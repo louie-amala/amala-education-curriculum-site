@@ -1,0 +1,141 @@
+# A reusable, component-agnostic orientation activity: learners explore the objectives of whatever
+# course or component they are starting, understand why each matters, clarify the words and ask
+# questions, then think about how they would approach each, surfacing prior knowledge so the
+# facilitator can adjust. Applies to any Amala course or component (e.g. Agency in Learning, the
+# Research Project). Not tied to a single course, so objectiveIds is empty by design.
+id: exploring-your-objectives
+slug: exploring-your-objectives
+access: public
+type: activity
+title: "Exploring your objectives"
+summary: >-
+  Learners unpack the objectives of the course they are starting, discuss why each matters, clarify
+  any unfamiliar words, and note how they would approach each, so they begin with direction.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. The group unpacks each objective together, then shares how they would approach it.
+    Hearing others' approaches surfaces prior knowledge and shows learners they start from different
+    places, so keep the sharing even if you shorten the discussion of each objective.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit for surfacing prior knowledge in depth. A mentor works through the objectives with the
+    learner, checks each word is understood, and listens closely to how the learner already approaches
+    this kind of work, building a rich picture to plan from.
+- context: independent
+  how: >-
+    Weaker alone, since the learner cannot ask questions or hear others' approaches. Give the objectives
+    and a short glossary, ask the learner to write how they would approach each and list their
+    questions, and open the next session with those questions.
+duration: 60-90 min facilitated
+grouping: "Whole group, then pairs or small groups; works with 10-35 learners"
+whatLearnersDo:
+- Read or hear the objectives of the course you are starting, and put each in your own words.
+- Discuss why each objective matters to you and what you will be able to do.
+- Clarify any words in the objectives you are unsure of, and ask questions.
+- Note how you would approach each objective, drawing on what you already know.
+materialsAndPreparation:
+- The course or component objectives, in learner-facing language, one per line or card.
+- A short plain-language meaning for any words learners may not know.
+- The learner's journal or a simple sheet with the objectives and space to note an approach to each.
+facilitationNotes: |
+  This is the learners' map of the course, and your first read on what they already know. The one thing
+  to get right is that you listen more than you talk in the second half: how learners say they would
+  approach each objective tells you what to slow down on or move through quickly. Put each objective in
+  plain words, check every term is understood before moving on, and make it safe to ask questions and to
+  not yet know. Learners who see where they are going, and why it is theirs, start with direction rather
+  than confusion.
+steps:
+- title: "Unpack the objectives"
+  duration: "15-20 min"
+  guidance: |
+    Introduce the objectives one at a time, in plain language, and ask learners to put each into their
+    own words. Lay them out as the journey the course will travel. Keep the focus on meaning, not
+    memorising: the aim is that every learner can see the whole path and roughly what each part is about.
+  keyPrompts:
+  - What do you think this objective is asking you to be able to do, in your own words?
+  - Which of these have you done a little of before, and which are new to you?
+  watchOuts:
+  - Learners stay quiet, unsure it is safe to speak; start with the most approachable objective and your own plain example, so speaking up feels safe.
+- title: "Why each one matters to you"
+  duration: "15-20 min"
+  guidance: |
+    Take each objective and draw out why it matters to the learner, not just to the course. Ask learners,
+    in pairs, to say which matters most to them and why, then hear a few. Connecting an objective to what
+    a learner cares about is what makes them willing to work at it.
+  keyPrompts:
+  - Why might this objective be worth your time and effort?
+  - Which of these would make the biggest difference to you right now?
+  watchOuts:
+  - The objectives stay abstract and no one connects to them; press for a concrete example of what reaching one would let a learner actually do.
+- title: "Clarify the words and ask questions"
+  duration: "15-20 min"
+  guidance: |
+    Go through any words in the objectives that learners may not know, giving a plain meaning and an
+    example for each. Check understanding by asking learners to say the word back in their own words, and
+    make plenty of room for questions about the objectives and the course.
+  keyPrompts:
+  - Can you say what this word means in your own words, or give an example?
+  - What questions do you have about the objectives or how the course will work?
+  watchOuts:
+  - A learner nods without understanding; ask them to say it back or give an example, since a word left unclear now will trip up a later session.
+- title: "How would you approach each one?"
+  duration: "15-25 min"
+  guidance: |
+    This is the part where you listen. For each objective, ask learners to say or note how they would
+    try to reach it, and what they already do that is a little like it. Circulate and record what you
+    hear: it surfaces prior knowledge and shows you where each phase will need more or less time.
+  keyPrompts:
+  - If you wanted to get better at this, how would you start? What would you do first?
+  - What do you already do, or who already helps you, that is a little like this?
+  watchOuts:
+  - Learners think there is a right answer and go quiet; make clear you want to know what they already do, that there is no wrong answer, and that it helps you teach them better.
+closing: |
+  Recap the objectives as one journey, and remind learners they now have a map of where the course is
+  going and why it is theirs. Answer any last questions, and reassure them that everyone starts from a
+  different place. Keep their noted approaches: they are a useful baseline to look back on at the end.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Understanding what a course will help them do, why it matters, and how they might approach it lets
+    learners begin with intention rather than waiting to be led. Being asked how they would travel the
+    path, rather than just told the destination, hands them a share of the direction from the start.
+principlesForegrounded:
+- builds-on-identities
+- feedback-and-data
+- lifeworthy-competencies
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The activity deliberately surfaces what each learner already knows and does, in their own words, so
+    the course is built on their real starting point rather than an assumption about it.
+- principle: feedback-and-data
+  how: >-
+    How learners say they would approach each objective is data the facilitator gathers and uses to
+    adjust the pace and emphasis of the course, so teaching responds to the actual group.
+- principle: lifeworthy-competencies
+  how: >-
+    Framing the objectives as things worth being able to do beyond the course helps learners see, from
+    the start, why they are worth the effort.
+competencyCodes:
+- FSL1
+competencyDevelopment:
+- code: FSL1
+  how: >-
+    Saying how they already approach this kind of work, and what already helps them, is direct practice
+    in reflecting on themselves as learners, and gives an honest baseline to build on.
+objectiveIds: []
+relatedSlugs: []
+sourceRefs:
+- agency-in-learning.yaml
+provenanceNote: >-
+  A reusable, component-agnostic orientation activity, authored to give any Amala course or component a
+  consistent way to open: explore the objectives, understand why they matter, clarify the words, and
+  surface how learners would approach each. Used by Agency in Learning and applicable to the Research
+  Project. The Cox's Bazar edition adapts it per component (see cb-ail-exploring-our-objectives).
