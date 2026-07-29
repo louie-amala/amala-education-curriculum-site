@@ -1,8 +1,9 @@
 # Unit plan (scheme of work) for the Agency in Learning component of Learning Bridge+ (Cox's Bazar).
-# Sequences the contextualised, offline cb-ail-* activities into weeks, with the facilitated /
-# independent split per session. The facilitator guidance lives on the referenced materials and is
-# rendered inline on the unit page. Cadence: 3h in-person + 2h independent per week, over 10 weeks.
-# Being authored week by week; Week 1 (objective 1) is authored first.
+# HOURS-BASED, not weeks: it sets out the full 50 hours (30 in-person + 20 independent) so an educator
+# can fit them into their own weekly schedule (minimum 10 weeks). Treated as a standalone component.
+# Times are generous for this oral/visual, translated, largely pre-literate cohort: activities take
+# roughly 1.5 to 2 times longer than they would with a literate group. The facilitator guidance lives
+# on the referenced cb-ail-* materials and is rendered inline; connective blocks carry a description.
 id: coxs-bazar-agency-in-learning
 slug: coxs-bazar-agency-in-learning
 access: public
@@ -11,157 +12,185 @@ programmeSlug: learning-bridge-coxs-bazar
 componentTitle: Agency in Learning
 courseSlug: agency-in-learning
 summary: >-
-  The week-by-week plan for delivering the Agency in Learning component fully offline in the Cox's
-  Bazar camps. Each week develops one course objective through oral and visual first activities, at a
-  cadence of 3 hours in-person plus 2 hours independent. This document carries the facilitator
-  guidance inline, so there is nothing to cross-reference during a session.
-weeklyFacilitatedMin: 180
-weeklyIndependentMin: 120
-weeks:
-  - number: 1
-    title: "Understand yourself as a learner"
-    objectiveId: agency-in-learning--o1
-    outcome: >-
-      Each learner starts their Learner Profile: proof that their ability can grow, a picture of their
-      strengths and the areas they want to grow, and an honest sense of how they learn best. This is
-      the starting point their first learning goals (Week 2) will be held up against.
-    sessions:
-      - title: "You can grow"
-        materialSlug: cb-ail-growth-mindset
-        facilitatedMin: 60
-        independentMin: 30
-        independentTask: "Tell one person at home about a time you got better at something hard, and what helped."
-        flexNote: >-
-          If contact time is short, the drawing (remembering a time you grew) and the "not yet" step can
-          be set as independent work from the workbook; keep the opening frame and the closing share
-          in-person.
-      - title: "What I am good at, what I want to grow"
-        materialSlug: cb-ail-strengths-and-areas-to-grow
-        facilitatedMin: 60
-        independentMin: 30
-        independentTask: "Ask one or two people who know you well what you are good at as a learner, and mark it on your workbook page."
-        flexNote: >-
-          The peer round must stay in-person, it is the engine of the activity; the private mapping of
-          strengths and areas can move to independent work if needed.
-      - title: "How I learn best"
-        materialSlug: cb-ail-how-you-learn-best
-        facilitatedMin: 60
-        independentMin: 60
-        independentTask: "Over the next two days, notice when and where you focus best, and mark it on your workbook picture-clock."
-        flexNote: >-
-          The two-day noticing task is independent by design and doubles as the week's independent
-          learning practice; the reflection and the compare-with-a-partner step stay in-person.
-  - number: 2
-    title: "Set clear, meaningful learning goals"
-    objectiveId: agency-in-learning--o2
-    outcome: >-
-      Each learner leaves with one small, clear learning goal they care about, broken into a short
-      ladder of steps, and a first step taken during the week. This goal, built from Week 1's Learner
-      Profile, is what the planning work in Week 3 will move forward.
-    sessions:
-      - title: "What makes a good goal"
-        materialSlug: cb-ail-what-makes-a-good-goal
-        facilitatedMin: 60
-        independentMin: 30
-        independentTask: "Think of one goal you might set, and check it against the four tests, or ask someone at home to hear it and help."
-        flexNote: >-
-          The judging and fixing of example goals is best done in-person, where disagreement sharpens
-          the tests; testing your own goal can move to independent work if contact time is short.
-      - title: "Choose and draw your goal"
-        materialSlug: cb-ail-setting-your-goals
-        facilitatedMin: 60
-        independentMin: 30
-        independentTask: "Tell one person at home your learning goal, and why it matters to you."
-        flexNote: >-
-          The saying-it-to-a-partner step must stay in-person; choosing and drawing the goal can be set
-          as independent work from the workbook goal page.
-      - title: "Your steps, and your first step"
-        materialSlug: cb-ail-your-goal-steps
-        facilitatedMin: 60
-        independentMin: 60
-        independentTask: "Take your first step this week, and be ready to say what happened next session."
-        flexNote: >-
-          Taking the first step is independent by design and is the week's core independent practice;
-          building the ladder and committing aloud stay in-person.
-  - number: 3
-    title: "Plan and take deliberate steps"
-    objectiveId: agency-in-learning--o3
-    outcome: >-
-      Each learner turns their goal into a small action plan, protects a little time to work on it, and
-      knows where to find the help and resources they need, so a goal becomes deliberate, sustained
-      steps rather than intention alone.
-    sessions:
-      - title: "Make an action plan"
-        materialSlug: cb-ail-making-an-action-plan
-        facilitatedMin: 60
-        independentMin: 30
-        independentTask: "Take one step from your plan this week, and notice what helped or got in the way."
-        flexNote: >-
-          Drawing the plan can be set as independent work from the workbook; the modelling and the
-          partner check stay in-person.
-      - title: "Manage your time and what matters"
-        materialSlug: cb-ail-managing-time-and-priorities
-        facilitatedMin: 60
-        independentMin: 30
-        independentTask: "For a few days, do your most important learning thing first, before the easier things."
-        flexNote: >-
-          The sorting of what matters most is best done in-person; trying the routine is the independent
-          practice.
-      - title: "Find help and resources"
-        materialSlug: cb-ail-finding-help-and-resources
-        facilitatedMin: 60
-        independentMin: 60
-        independentTask: "Ask one person for the help or resource you named, and use it towards your goal."
-        flexNote: >-
-          Naming who and what can help stays in-person; actually reaching out and using the help is the
-          independent task.
-  - number: 4
-    title: "Track progress, use feedback, and reflect"
-    objectiveId: agency-in-learning--o4
-    outcome: >-
-      Each learner keeps a simple record of their progress, seeks and uses feedback, and reflects on how
-      they have grown against their original goal. This completes the goal cycle and produces the
-      evidence of self-directed learning the programme assesses.
-    sessions:
-      - title: "Keep your learning book"
+  The full 50-hour plan for delivering the Agency in Learning component fully offline in the Cox's
+  Bazar camps, as a standalone course. It is set out in hours, not weeks, so you can fit it into your
+  own timetable over a minimum of 10 weeks. Learners run one full cycle of self-directed learning on a
+  real goal of their own: understanding themselves, setting a goal, planning and taking steps, and
+  tracking, using feedback, and reflecting on their growth. Times are deliberately generous, because
+  oral and visual delivery with drawing and translation takes longer than it first appears.
+totalFacilitatedHours: 30
+totalIndependentHours: 20
+phases:
+  - title: "Getting started"
+    summary: >-
+      Build a safe, warm learning space and set up the learning book that runs through the whole
+      course. Learners meet the big idea: here, a lot is chosen for you, but your own learning is
+      yours to direct.
+    blocks:
+      - title: "Welcome and our learning space"
+        kind: orientation
+        facilitatedHours: 1.5
+        independentHours: 0
+        description: >-
+          Open the course. Build a safe, welcoming space: names, a simple agreement about how the group
+          treats each other, and reassurance that no one has to read, write, or share anything they
+          would rather keep private. Introduce the big idea in your own words: many things here are
+          decided by others, but what you learn is something you can choose, and this course is about
+          taking hold of your own learning. Keep it warm, oral, and unhurried.
+      - title: "Set up your learning book"
+        kind: activity
         materialSlug: cb-ail-keeping-a-learning-journal
-        facilitatedMin: 60
-        independentMin: 30
-        independentTask: "Make one small mark or drawing in your learning book after each session this week."
+        facilitatedHours: 1.5
+        independentHours: 0.5
+        independentTask: "Make one small mark or drawing in your learning book before the next session."
         flexNote: >-
-          Setting up the book and the first mark stay in-person; keeping the routine going is the
-          independent practice, and the spine the whole component marks into.
+          Set up early so the book runs through the whole course: learners draw and mark into it in
+          every phase, and it becomes the record of their growth.
+  - title: "Understand yourself as a learner"
+    objectiveId: agency-in-learning--o1
+    summary: >-
+      Learners build a Learner Profile: proof that their ability can grow, a picture of their strengths
+      and the areas they want to grow, and an honest sense of how they learn best. It is the starting
+      point their goal is built from.
+    blocks:
+      - title: "You can grow"
+        kind: activity
+        materialSlug: cb-ail-growth-mindset
+        facilitatedHours: 2
+        independentHours: 1
+        independentTask: "Tell one person at home about a time you got better at something hard, and what helped."
+      - title: "What I am good at, what I want to grow"
+        kind: activity
+        materialSlug: cb-ail-strengths-and-areas-to-grow
+        facilitatedHours: 2
+        independentHours: 1
+        independentTask: "Ask one or two people who know you well what you are good at as a learner, and mark it in your book."
+      - title: "How I learn best"
+        kind: activity
+        materialSlug: cb-ail-how-you-learn-best
+        facilitatedHours: 2
+        independentHours: 1
+        independentTask: "Over the next few days, notice when and where you focus best, and mark it on your workbook picture-clock."
+  - title: "Set clear, meaningful learning goals"
+    objectiveId: agency-in-learning--o2
+    summary: >-
+      Learners turn their Learner Profile into one small, clear learning goal they care about, broken
+      into a short ladder of steps, and take a first step.
+    blocks:
+      - title: "What makes a good goal"
+        kind: activity
+        materialSlug: cb-ail-what-makes-a-good-goal
+        facilitatedHours: 2
+        independentHours: 0.5
+        independentTask: "Think of one goal you might set, and check it against the four tests, or ask someone at home to hear it and help."
+      - title: "Choose and draw your goal"
+        kind: activity
+        materialSlug: cb-ail-setting-your-goals
+        facilitatedHours: 2
+        independentHours: 1
+        independentTask: "Tell one person at home your learning goal, and why it matters to you."
+      - title: "Your steps, and your first step"
+        kind: activity
+        materialSlug: cb-ail-your-goal-steps
+        facilitatedHours: 2
+        independentHours: 1.5
+        independentTask: "Take your first step, and be ready to say what happened."
+  - title: "Plan and take deliberate steps"
+    objectiveId: agency-in-learning--o3
+    summary: >-
+      Learners turn their goal into a small action plan, protect a little time for it, and find the
+      help and resources they need, then begin pursuing the goal for real between sessions.
+    blocks:
+      - title: "Make an action plan"
+        kind: activity
+        materialSlug: cb-ail-making-an-action-plan
+        facilitatedHours: 2
+        independentHours: 1
+        independentTask: "Take one step from your plan, and notice what helped or got in the way."
+      - title: "Manage your time and what matters"
+        kind: activity
+        materialSlug: cb-ail-managing-time-and-priorities
+        facilitatedHours: 2
+        independentHours: 1
+        independentTask: "For a few days, do your most important learning thing first, before the easier things."
+      - title: "Find help and resources"
+        kind: activity
+        materialSlug: cb-ail-finding-help-and-resources
+        facilitatedHours: 2
+        independentHours: 1
+        independentTask: "Ask one person for the help or resource you named, and use it towards your goal."
+      - title: "Pursue your goal, and mark your learning book"
+        kind: practice
+        facilitatedHours: 1
+        independentHours: 3
+        description: >-
+          The heart of independent learning. Between sessions, learners take real steps towards their
+          goal and make one small mark or drawing in their learning book each time. Open each session
+          with a short, warm check-in in same-gender pairs or the group: what step did you take, what
+          happened, what is next? A step taken, however small, is celebrated. This block is where the
+          20 independent hours mostly live, so protect it and keep the check-ins going.
+        independentTask: "Keep taking small steps towards your goal, and mark each one in your learning book."
+  - title: "Track progress, use feedback, and reflect"
+    objectiveId: agency-in-learning--o4
+    summary: >-
+      Learners use their learning book to see their progress, seek and use feedback, and reflect on how
+      they have grown against their original goal, completing the self-directed learning cycle.
+    blocks:
       - title: "Ask for and use feedback"
+        kind: activity
         materialSlug: cb-ail-seeking-and-using-feedback
-        facilitatedMin: 60
-        independentMin: 30
+        facilitatedHours: 2
+        independentHours: 1
         independentTask: "Ask one person for feedback: what is one thing I could do better? Then try it."
-        flexNote: >-
-          Practising how to ask for and receive feedback stays in-person; asking someone for real is the
-          independent task.
       - title: "Look back at how you have grown"
+        kind: activity
         materialSlug: cb-ail-reflecting-on-your-growth
-        facilitatedMin: 60
-        independentMin: 60
+        facilitatedHours: 2
+        independentHours: 1.5
         independentTask: "Look through your learning book and notice one way you have grown; be ready to share it."
-        flexNote: >-
-          The guided look back through the workbook stays in-person; noticing and preparing to share a
-          growth is the independent reflection.
+      - title: "Pursue your goal, and mark your learning book"
+        kind: practice
+        facilitatedHours: 1
+        independentHours: 3
+        description: >-
+          Learners keep pursuing their goal and marking their book, now using the feedback they gathered
+          and adjusting their steps when something is not working. Keep the short warm check-ins that
+          open each session. By the end of this block most learners have taken real, tracked steps
+          towards a goal they set themselves, which is the evidence of self-directed learning.
+        independentTask: "Keep taking steps and marking your book, and change your plan if a step is not working."
+  - title: "Celebrate and look ahead"
+    summary: >-
+      Learners look back over the whole course, celebrate and share their growth, and set one goal to
+      keep going with. On Learning Bridge+ this is where the educator gathers the evidence to judge the
+      learner's progress in setting and pursuing goals.
+    blocks:
+      - title: "Celebrate and share my growth"
+        kind: consolidation
+        facilitatedHours: 3
+        independentHours: 2
+        description: >-
+          Close the course. Learners look back through their learning book from the first page, and
+          prepare one way they have grown to share, by drawing and speaking, not writing. Hold a warm,
+          celebratory sharing in same-gender groups, with no one forced to share. Each learner sets one
+          goal to keep going with after the course. On Learning Bridge+, this is the point to gather and
+          record the evidence of each learner's growth in setting and pursuing goals, from their book,
+          their steps taken, and what they say, to inform the assessment judgement.
+        independentTask: "Choose one way you have grown to share, and one goal you will keep working on after the course."
 downloads:
   - label: Facilitator Unit Plan & Guide
     file: /downloads/agency-in-learning-facilitator-unit-plan.docx
     format: Word
-    note: The week-by-week plan with all session guidance inline. Editable.
+    note: The full 50-hour plan with all session guidance inline. Editable.
   - label: Student Workbook
     file: /downloads/agency-in-learning-student-workbook.docx
     format: Word
-    note: Visual-first Learner Profile and goal pages. Print one per learner. Editable.
+    note: Visual-first Learner Profile, goal, plan, and growth pages. Print one per learner. Editable.
   - label: Session Slides
     file: /downloads/agency-in-learning-slides.pptx
     format: PowerPoint
     note: Optional, for sites with a screen. One idea per slide. Editable.
-
 sourceNotes:
   - Sequences the cb-ail-* contextualised activities (adaptations of the generic ail-* materials) for the Learning Bridge+ (Cox's Bazar) edition.
-  - Week 1 develops objective 1 (Understand yourself as a learner); the three sessions build the Learner Profile that Week 2's goal-setting is held up against.
-  - Weeks 2 to 10 (objectives 2 to 4) are authored in subsequent passes.
+  - Set out in hours, not weeks, as a standalone 50-hour component (30 in-person + 20 independent). Educators fit it to their own weekly schedule over a minimum of 10 weeks.
+  - Activity times are generous (roughly 1.5 to 2 times a literate-group estimate) to reflect oral and visual delivery with drawing and translation.
+  - Learners run one full self-directed learning cycle on a real goal of their own; the goal-pursuit practice blocks carry most of the independent hours.

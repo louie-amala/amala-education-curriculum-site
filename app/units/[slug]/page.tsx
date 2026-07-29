@@ -13,18 +13,26 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: u?.title ?? "Unit plan" };
 }
 
-function mins(n: number): string {
-  if (n <= 0) return "0 min";
-  if (n % 60 === 0) return `${n / 60}h`;
-  if (n > 60) return `${Math.floor(n / 60)}h ${n % 60}min`;
-  return `${n} min`;
+function hrs(h: number): string {
+  if (h <= 0) return "—";
+  if (h < 1) return `${Math.round(h * 60)} min`;
+  return `${h}h`;
 }
+
+const KIND_LABEL: Record<string, string> = {
+  activity: "Activity",
+  practice: "Practice",
+  orientation: "Orientation",
+  consolidation: "Consolidation",
+  assessment: "Assessment",
+};
 
 export default async function UnitPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const u = getUnit(slug);
   if (!u) notFound();
   const programme = getProgramme(u.programmeSlug);
+  const total = u.totalFacilitatedHours + u.totalIndependentHours;
 
   return (
     <main className="mx-auto max-w-4xl px-6 py-12">
@@ -46,8 +54,8 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
       <h1 className="mt-2 font-heading text-3xl font-bold text-navy">{u.title}</h1>
       <p className="mt-3 max-w-2xl text-dark-navy">{u.summary}</p>
       <p className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-sm text-cool-grey">
-        <span>📅 {u.weeks.length} {u.weeks.length === 1 ? "week authored" : "weeks authored"}</span>
-        <span>⏱ Weekly budget: {mins(u.weeklyFacilitatedMin)} in-person + {mins(u.weeklyIndependentMin)} independent</span>
+        <span>⏱ {total}h total: {u.totalFacilitatedHours}h in-person + {u.totalIndependentHours}h independent</span>
+        <span>🗓 Set out in hours — fit it to your own weekly schedule (minimum 10 weeks)</span>
       </p>
 
       {u.downloads.length > 0 && (
@@ -72,17 +80,17 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
         </section>
       )}
 
-      {u.weeks.map((wk) => {
-        const objective = wk.objectiveId ? getObjectiveById(wk.objectiveId) : undefined;
-        const facSum = wk.sessions.reduce((a, s) => a + s.facilitatedMin, 0);
-        const indSum = wk.sessions.reduce((a, s) => a + s.independentMin, 0);
+      {u.phases.map((phase, pi) => {
+        const objective = phase.objectiveId ? getObjectiveById(phase.objectiveId) : undefined;
+        const facSum = phase.blocks.reduce((a, b) => a + b.facilitatedHours, 0);
+        const indSum = phase.blocks.reduce((a, b) => a + b.independentHours, 0);
         return (
-          <section key={wk.number} className="mt-12">
+          <section key={pi} className="mt-12">
             <div className="flex items-baseline gap-3 border-b-2 border-olive pb-2">
               <span className="font-heading text-sm font-bold uppercase tracking-wide text-orange">
-                Week {wk.number}
+                Phase {pi + 1}
               </span>
-              <h2 className="font-heading text-2xl font-bold text-navy">{wk.title}</h2>
+              <h2 className="font-heading text-2xl font-bold text-navy">{phase.title}</h2>
             </div>
 
             {objective && (
@@ -93,31 +101,32 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
                 </Link>
               </p>
             )}
-            {wk.outcome && (
-              <div className="mt-3 rounded-r-lg border-l-4 border-gold bg-gold/10 px-4 py-3 text-sm text-dark-navy">
-                <span className="font-heading text-xs font-bold uppercase tracking-wide text-navy">Outcome</span>
-                <p className="mt-1">{wk.outcome}</p>
-              </div>
-            )}
-            <p className="mt-3 text-sm text-cool-grey">
-              This week: {mins(facSum)} in-person · {mins(indSum)} independent, across {wk.sessions.length} sessions.
+            {phase.summary && <p className="mt-3 max-w-2xl text-sm text-dark-navy">{phase.summary}</p>}
+            <p className="mt-2 text-sm text-cool-grey">
+              {hrs(facSum)} in-person · {hrs(indSum)} independent, across {phase.blocks.length} {phase.blocks.length === 1 ? "block" : "blocks"}.
             </p>
 
             <ol className="mt-6 space-y-8">
-              {wk.sessions.map((s, i) => {
-                const m = getMaterial(s.materialSlug);
+              {phase.blocks.map((b, i) => {
+                const m = b.materialSlug ? getMaterial(b.materialSlug) : undefined;
                 return (
                   <li key={i} className="rounded-xl border border-cool-grey/25 bg-white p-5 shadow-sm">
                     <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                      <span className="font-heading text-xs font-bold text-white bg-navy rounded px-2 py-0.5">
-                        Session {i + 1}
-                      </span>
-                      <h3 className="font-heading text-lg font-bold text-dark-navy">{s.title}</h3>
+                      {b.kind && (
+                        <span className="font-heading text-xs font-bold uppercase tracking-wide text-white bg-plum rounded px-2 py-0.5">
+                          {KIND_LABEL[b.kind] ?? b.kind}
+                        </span>
+                      )}
+                      <h3 className="font-heading text-lg font-bold text-dark-navy">{b.title}</h3>
                       <span className="ml-auto font-heading text-xs text-cool-grey">
-                        {mins(s.facilitatedMin)} in-person
-                        {s.independentMin > 0 ? ` · ${mins(s.independentMin)} independent` : ""}
+                        {hrs(b.facilitatedHours)} in-person
+                        {b.independentHours > 0 ? ` · ${hrs(b.independentHours)} independent` : ""}
                       </span>
                     </div>
+
+                    {b.description && (
+                      <p className="mt-3 whitespace-pre-line text-sm text-dark-navy">{b.description}</p>
+                    )}
 
                     {m ? (
                       <div className="mt-4">
@@ -185,21 +194,21 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
                           <Link href={`/materials/${m.slug}`} className="text-navy hover:underline">{m.title}</Link>
                         </p>
                       </div>
-                    ) : (
-                      <p className="mt-3 text-sm text-terracotta">Material &ldquo;{s.materialSlug}&rdquo; not found.</p>
-                    )}
+                    ) : b.materialSlug ? (
+                      <p className="mt-3 text-sm text-terracotta">Material &ldquo;{b.materialSlug}&rdquo; not found.</p>
+                    ) : null}
 
-                    {s.independentTask && (
+                    {b.independentTask && (
                       <div className="mt-4 rounded-r-lg border-l-4 border-teal bg-teal/10 px-4 py-3">
                         <span className="font-heading text-xs font-bold uppercase tracking-wide text-teal">
-                          Independent task ({mins(s.independentMin)})
+                          Independent task ({hrs(b.independentHours)})
                         </span>
-                        <p className="mt-1 text-sm text-dark-navy">{s.independentTask}</p>
+                        <p className="mt-1 text-sm text-dark-navy">{b.independentTask}</p>
                       </div>
                     )}
-                    {s.flexNote && (
+                    {b.flexNote && (
                       <p className="mt-2 text-xs text-cool-grey">
-                        <span className="font-semibold">Flex:</span> {s.flexNote}
+                        <span className="font-semibold">Note:</span> {b.flexNote}
                       </p>
                     )}
                   </li>

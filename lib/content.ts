@@ -583,31 +583,31 @@ export function validateGraph(): ValidationReport {
     if (u.courseSlug && !getCourse(u.courseSlug)) {
       errors.push(`Unit "${u.slug}" references unknown course "${u.courseSlug}".`);
     }
-    for (const wk of u.weeks) {
-      if (wk.objectiveId && !objectiveById.has(wk.objectiveId)) {
-        errors.push(`Unit "${u.slug}" week ${wk.number} references unknown objective "${wk.objectiveId}".`);
+    let facSum = 0;
+    let indSum = 0;
+    for (const phase of u.phases) {
+      if (phase.objectiveId && !objectiveById.has(phase.objectiveId)) {
+        errors.push(`Unit "${u.slug}" phase "${phase.title}" references unknown objective "${phase.objectiveId}".`);
       }
-      let facSum = 0;
-      let indSum = 0;
-      for (const s of wk.sessions) {
-        facSum += s.facilitatedMin;
-        indSum += s.independentMin;
-        if (!materialBySlug.has(s.materialSlug)) {
+      for (const b of phase.blocks) {
+        facSum += b.facilitatedHours;
+        indSum += b.independentHours;
+        if (b.materialSlug && !materialBySlug.has(b.materialSlug)) {
           errors.push(
-            `Unit "${u.slug}" week ${wk.number} session "${s.title}" references unknown material "${s.materialSlug}".`,
+            `Unit "${u.slug}" block "${b.title}" references unknown material "${b.materialSlug}".`,
           );
         }
       }
-      if (facSum !== u.weeklyFacilitatedMin) {
-        warnings.push(
-          `Unit "${u.slug}" week ${wk.number} facilitated minutes (${facSum}) do not match the weekly budget (${u.weeklyFacilitatedMin}).`,
-        );
-      }
-      if (indSum !== u.weeklyIndependentMin) {
-        warnings.push(
-          `Unit "${u.slug}" week ${wk.number} independent minutes (${indSum}) do not match the weekly budget (${u.weeklyIndependentMin}).`,
-        );
-      }
+    }
+    if (Math.abs(facSum - u.totalFacilitatedHours) > 0.001) {
+      warnings.push(
+        `Unit "${u.slug}" facilitated hours (${facSum}) do not match the total (${u.totalFacilitatedHours}).`,
+      );
+    }
+    if (Math.abs(indSum - u.totalIndependentHours) > 0.001) {
+      warnings.push(
+        `Unit "${u.slug}" independent hours (${indSum}) do not match the total (${u.totalIndependentHours}).`,
+      );
     }
     for (const d of u.downloads) {
       if (d.file.startsWith("/") && !existsSync(join(process.cwd(), "public", d.file))) {

@@ -337,28 +337,33 @@ export type MaterialType = z.infer<typeof MaterialTypeSchema>;
 export type FacilitationMaterial = z.infer<typeof FacilitationMaterialSchema>;
 
 // ---- Unit plan (scheme of work) ----
-// A unit sequences existing materials into a week-by-week plan for one component of one programme,
-// with the facilitated / independent split per session. It is the "what to do and when" document
-// that carries the facilitator guidance inline (the guidance lives on the referenced materials).
-export const UnitSessionSchema = z.object({
+// A unit sequences materials (and connective blocks) into an HOURS-BASED plan for one component of
+// one programme. It deliberately does NOT use weeks: it sets out the hours so an educator can fit
+// them into their own weekly schedule. Blocks are grouped into phases (usually the course
+// objectives, plus orientation and consolidation). Facilitator guidance is carried inline by the
+// referenced material; connective blocks (orientation, goal-pursuit practice, showcase) carry a
+// `description` instead of a material.
+export const UnitBlockSchema = z.object({
   title: z.string(),
-  // The material this session runs. Validated against the materials collection in validateGraph().
-  materialSlug: z.string(),
-  facilitatedMin: z.number(),
-  independentMin: z.number().default(0),
-  // The task set for the independent portion (done from the workbook, offline, no device).
+  kind: z.enum(["activity", "practice", "orientation", "consolidation", "assessment"]).optional(),
+  // The material this block runs, if any. Validated against the materials collection in
+  // validateGraph(). Connective blocks have no material and use `description`.
+  materialSlug: z.string().nullable().optional(),
+  facilitatedHours: z.number(),
+  independentHours: z.number().default(0),
+  // For blocks without a material: what happens and the facilitator's role.
+  description: z.string().nullable().optional(),
+  // The task learners carry out in their independent hours (offline, from the workbook).
   independentTask: z.string().nullable().optional(),
-  // Which parts can flex between in-person and independent, and anything else worth flagging.
   flexNote: z.string().nullable().optional(),
 });
 
-export const UnitWeekSchema = z.object({
-  number: z.number(),
+export const UnitPhaseSchema = z.object({
   title: z.string(),
-  // The course objective this week develops. Validated against objective ids in validateGraph().
+  // The course objective this phase develops. Validated against objective ids in validateGraph().
   objectiveId: z.string().nullable().optional(),
-  outcome: z.string().nullable().optional(),
-  sessions: z.array(UnitSessionSchema).default([]),
+  summary: z.string().nullable().optional(),
+  blocks: z.array(UnitBlockSchema).default([]),
 });
 
 export const UnitSchema = z.object({
@@ -372,10 +377,10 @@ export const UnitSchema = z.object({
   componentTitle: z.string(),
   courseSlug: z.string().nullable().optional(),
   summary: z.string(),
-  // The weekly time budget this unit plans against (e.g. 180 facilitated + 120 independent).
-  weeklyFacilitatedMin: z.number(),
-  weeklyIndependentMin: z.number(),
-  weeks: z.array(UnitWeekSchema).default([]),
+  // Total hours this component takes, split facilitated / independent (e.g. 30 + 20 = 50).
+  totalFacilitatedHours: z.number(),
+  totalIndependentHours: z.number(),
+  phases: z.array(UnitPhaseSchema).default([]),
   // Editable downloadable files for this unit (facilitator plan, workbook, slides). `file` is a path
   // under public/, whose existence is checked at build time in validateGraph().
   downloads: z
@@ -391,8 +396,8 @@ export const UnitSchema = z.object({
   sourceNotes: z.array(z.string()).default([]),
 });
 
-export type UnitSession = z.infer<typeof UnitSessionSchema>;
-export type UnitWeek = z.infer<typeof UnitWeekSchema>;
+export type UnitBlock = z.infer<typeof UnitBlockSchema>;
+export type UnitPhase = z.infer<typeof UnitPhaseSchema>;
 export type Unit = z.infer<typeof UnitSchema>;
 
 // ---- Glossary (§4.4) ----
