@@ -1,0 +1,151 @@
+# Contextualised, fully offline activity for Learning Bridge+ (Cox's Bazar): the milestones-and-first-
+# step half of goal-setting, derived from ail-setting-your-goals. Oral and visual first, ~60 min.
+# Week 2, session 3.
+id: cb-ail-your-goal-steps
+slug: cb-ail-your-goal-steps
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Your steps, and your first step"
+summary: >-
+  Learners break their goal into a small ladder of steps, choose a first step small enough to take
+  this week, and commit to it aloud, so a goal on the page becomes deliberate action.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners build a step ladder alone, then say their first step to a partner. Saying a
+    first step aloud to someone is what turns intention into a commitment, so keep the pairing. Use
+    same-gender pairs.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor helps a learner make the first step small and real, and follows it up next
+    time, which is exactly the gentle accountability that makes a first step actually happen.
+- context: independent
+  how: >-
+    Workable: the workbook ladder carries the steps. Ask the learner to say their first step to someone
+    at home and take it before the next session, since a first step with no witness is easily dropped.
+duration: "60 min facilitated, plus taking the first step during the week"
+grouping: "Individual laddering, then same-gender pairs; works with 10-35 learners"
+whatLearnersDo:
+- See that a goal is easier when it is broken into small steps.
+- Break your goal into a few steps, from a small first step up to your goal.
+- Choose one first step small enough to take this week.
+- Say your first step to a partner, and take it before the next session.
+materialsAndPreparation:
+- Learners' goal page from the last session (the goal they drew).
+- The student workbook (the step-ladder page, with three rungs to draw or colour).
+- Your own goal and its first small step, to model the ladder aloud.
+facilitationNotes: |
+  A goal on the page does nothing until a learner takes a step towards it. The one thing to get right
+  is that the first step is small enough to actually be done this week: a first step that is really the
+  whole goal in disguise will not be taken. Push gently for something a learner could do in a day or
+  two, with what they already have. Saying it aloud to a partner, and being asked about it next time,
+  is what makes the step happen. Celebrate steps taken, however small.
+steps:
+- title: "Why small steps"
+  duration: "10 min"
+  guidance: |
+    Open with your own goal and one small first step towards it, said aloud. Draw out that a big goal
+    feels impossible until it is broken into steps, and that the first step should be small and near.
+    Keep it short; learners will understand this by building their own ladder next.
+  keyPrompts:
+  - Why is a goal easier when you break it into steps?
+  - What is one small first step towards a goal of your own?
+  watchOuts:
+  - Learners think a first step has to be big to count; make clear that a small step you actually take beats a big one you never start.
+  adaptation: |
+    Nothing is needed but your spoken example; no board or slides.
+- title: "Build your step ladder"
+  duration: "18 min"
+  guidance: |
+    Have learners draw a ladder of three steps on the workbook page, from a small first step at the
+    bottom up to their goal at the top. Circulate and help them make the steps real and in order. Three
+    rungs is plenty. Where a learner wants words, you scribe them.
+  keyPrompts:
+  - What are two or three smaller steps that would show you are getting there?
+  - Which step comes first, and which comes later?
+  watchOuts:
+  - The steps are as vague as the goal; push for steps a learner could actually tick off, not restatements of the goal.
+  adaptation: |
+    No writing is needed: learners draw each step, or place a mark on each rung, and you scribe only if asked.
+- title: "Choose your first step"
+  duration: "16 min"
+  guidance: |
+    Ask each learner to colour or mark the first rung: the one step they can reach this week. Help them
+    make it small enough to do in a day or two, with what they already have around them. This is the
+    step they will actually take.
+  keyPrompts:
+  - Which step could you reach first, this week?
+  - Is it small enough to do with what you already have?
+  watchOuts:
+  - A learner picks a first step that needs something they do not have; help them find a smaller step that depends only on themselves.
+- title: "Say it and commit"
+  duration: "12 min"
+  guidance: |
+    In same-gender pairs, each learner says their first step aloud and when they will take it. The
+    partner will ask them about it next session. Saying it to someone, and knowing they will ask, is
+    the commitment. Confirm the ladder lives in the workbook and will be returned to.
+  keyPrompts:
+  - Tell your partner your first step, and when you will take it.
+  - What will you tell them next time about how it went?
+  watchOuts:
+  - A first step stays a plan with no when; make sure each learner names a day or a moment they will do it.
+closing: |
+  Ask two or three learners to say their first step and when they will take it, so the room hears real,
+  small steps. Remind them that next session begins by asking how the first step went, and that a step
+  taken, however small, is proof they can steer their own learning. Independent task: take your first
+  step this week, and be ready to say what happened.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Choosing and taking a first step is the moment a learner moves from wanting to doing, on their own
+    initiative. Breaking a goal into steps they control, and acting between sessions, is self-direction
+    in practice: the learner, not circumstance, decides the next move in their own learning.
+principlesForegrounded:
+- recognise-communicate-growth
+- responsible-action
+- lifeworthy-competencies
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: >-
+    Breaking a goal into trackable steps and saying a first step aloud gives learners a way to see and
+    talk about their own progress, the habit of recognising and communicating growth this component builds.
+- principle: responsible-action
+  how: >-
+    Committing to a first step and taking it between sessions is learners taking ownership of their own
+    learning and acting with intention, the responsible action the goal was set for.
+- principle: lifeworthy-competencies
+  how: >-
+    Breaking a goal into steps and starting with a small one is a habit a learner will reuse across
+    study, work and life whenever they take on something hard, which is what makes it worth practising.
+competencyCodes:
+- FSL2
+- FSL1
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Breaking a goal into milestones and taking a deliberate first step between sessions is the "pursue"
+    in setting and pursuing goals; the step ladder and the step taken are evidence a learner can move
+    from intention to real progress.
+- code: FSL1
+  how: >-
+    Choosing a first step that is genuinely within reach requires learners to reflect honestly on what
+    they can do this week with what they have, which is direct practice in self-reflection.
+objectiveIds:
+- agency-in-learning--o2
+relatedSlugs:
+- cb-ail-setting-your-goals
+- cb-ail-what-makes-a-good-goal
+sourceRefs:
+- agency-in-learning.yaml
+- ail-setting-your-goals.yaml
+provenanceNote: >-
+  Contextualised, fully offline activity for the Learning Bridge+ (Cox's Bazar) edition, carrying the
+  milestones-and-first-step half of ail-setting-your-goals so goal-setting fills a full week of three
+  ~60 min sessions. Oral and visual first. Week 2, session 3 of the Agency in Learning unit. Objective 2.

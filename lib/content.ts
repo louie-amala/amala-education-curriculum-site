@@ -609,6 +609,11 @@ export function validateGraph(): ValidationReport {
         );
       }
     }
+    for (const d of u.downloads) {
+      if (d.file.startsWith("/") && !existsSync(join(process.cwd(), "public", d.file))) {
+        errors.push(`Unit "${u.slug}" download "${d.label}" points to missing file "${d.file}".`);
+      }
+    }
   }
 
   return { errors, warnings };

@@ -376,6 +376,18 @@ export const UnitSchema = z.object({
   weeklyFacilitatedMin: z.number(),
   weeklyIndependentMin: z.number(),
   weeks: z.array(UnitWeekSchema).default([]),
+  // Editable downloadable files for this unit (facilitator plan, workbook, slides). `file` is a path
+  // under public/, whose existence is checked at build time in validateGraph().
+  downloads: z
+    .array(
+      z.object({
+        label: z.string(),
+        file: z.string(),
+        format: z.string().nullable().optional(),
+        note: z.string().nullable().optional(),
+      }),
+    )
+    .default([]),
   sourceNotes: z.array(z.string()).default([]),
 });
 

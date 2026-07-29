@@ -1,0 +1,151 @@
+# Contextualised, fully offline adaptation of ail-what-makes-a-good-goal for Learning Bridge+
+# (Cox's Bazar). Oral and visual first, ~60 min facilitated. Week 2, session 1.
+id: cb-ail-what-makes-a-good-goal
+slug: cb-ail-what-makes-a-good-goal
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "What makes a good goal"
+summary: >-
+  Learners learn simple tests of a good learning goal and practise judging and fixing spoken example
+  goals, so they can tell a strong goal from a weak one and sharpen their own.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners judge the same spoken example goals with a show of thumbs, then compare
+    verdicts with a partner. The disagreement is the point: arguing over whether a goal is clear
+    enough forces learners to apply the tests sharply, so keep the paired compare.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor and learner judge the examples together, and the mentor pushes on the test
+    the learner tends to skip, often "by when". Use the learner's own rough goal as the last example.
+- context: independent
+  how: >-
+    Weaker alone, since a learner has no one to check their verdicts. If independent, use the workbook
+    picture-prompts of the tests and ask them to say one improved goal aloud to a family member.
+duration: "60 min facilitated, plus a 30 min independent task"
+grouping: "Individual judging, then same-gender pairs or small groups; works with 10-35 learners"
+whatLearnersDo:
+- "Learn the tests of a good goal: small enough to reach, clear so you can tell when it is done, it matters to you, and it has a by-when."
+- Judge spoken example goals with thumbs up or down, and say which test each one fails.
+- Fix a weak goal so it passes the tests.
+- Test one of your own rough goals and make it stronger.
+materialsAndPreparation:
+- The four tests ready to say aloud, with a simple picture for each on the workbook page (small, clear, matters, by-when).
+- A set of spoken example goals at mixed quality, some vague, some too big, some with no by-when, close to your learners' real goals.
+- One weak goal and the same goal improved, to model the fix aloud.
+facilitationNotes: |
+  Learners draft goals in the next sessions; here they build the judgement to tell a good goal from a
+  weak one and fix it. The one thing to get right is that learners apply the tests to the examples
+  themselves, out loud, rather than watching you. A learner who can hear that "get better at English"
+  is not clear or timed can sharpen their own goals for years. Keep the tests plain and the examples
+  close to their real lives. It is a way of thinking, not a form to fill in.
+steps:
+- title: "Learn the tests of a good goal"
+  duration: "10-12 min"
+  guidance: |
+    Say the tests plainly, with the workbook picture for each: a good goal is small enough to reach,
+    clear so you can tell when it is done, it matters to you, and it has a by-when. Give one quick
+    spoken goal that passes all of them. Keep it short: learners understand the tests far better by
+    judging goals in the next step than by hearing you explain.
+  keyPrompts:
+  - What does each test ask, in your own words?
+  - Which test do you think goals most often fail?
+  watchOuts:
+  - Learners treat the tests as boxes to tick; stress that the point is judgement, and that a goal can sound neat and still not matter to the learner.
+  adaptation: |
+    No handout is needed: say the four tests aloud and point to the four pictures on the workbook page
+    to score against.
+- title: "Judge goals, thumbs up or down"
+  duration: "16 min"
+  guidance: |
+    Say each mixed-quality example goal aloud. Learners show thumbs up or down and name which test it
+    fails. Then they compare with a partner. Circulate and listen for disagreement rather than settling
+    it; asking "which test does this fail, and how do you know?" does more than giving the answer.
+  keyPrompts:
+  - Which test does this goal fail, and what tells you that?
+  - Could two people hear this goal and picture different things?
+  watchOuts:
+  - Learners approve a goal because it sounds big and ambitious; remind them that a big goal with no by-when and no clear finish is a weak goal.
+- title: "Fix a weak goal"
+  duration: "16 min"
+  guidance: |
+    Model the fix first with your spoken example: take a weak goal and improve it test by test until it
+    passes, thinking aloud. Then say one weak goal and have each pair improve it together and say it
+    back. The aim is a goal that would survive the tests.
+  keyPrompts:
+  - Which test does this goal fail first, and what is the smallest change that fixes it?
+  - Now that it is clear, can you still reach it in the time you set?
+  watchOuts:
+  - Learners fix the words but strip out what made the goal matter; check the improved goal is still one a real person would care about.
+- title: "Test your own goal"
+  duration: "12 min"
+  guidance: |
+    Turn the lens on the learners' own goals. Ask each learner to take a rough goal they carry, from
+    their Learner Profile last week, and run it through the tests, sharpening any it fails. This is not
+    drafting a new goal; it is testing one they hold, so they leave able to do this for themselves.
+  keyPrompts:
+  - "Run your own goal through the tests: which does it pass, and which needs work?"
+  - What is the one change that would make your goal stronger?
+  watchOuts:
+  - A learner declares their goal fine to avoid the work; ask them to say the exact words that make it clear and timed, which usually surfaces the gap.
+closing: |
+  Ask two or three learners to say a goal before and after they applied the tests, so the room hears
+  the difference. Remind them this is a lens they now own: every goal they set from here can be held up
+  against small, clear, matters, and by-when. Independent task: think of one goal you might set next
+  session, and check it against the four tests, or ask someone at home to hear it and help you.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Being able to judge and sharpen a goal for themselves, rather than relying on someone else to tell
+    them whether it is any good, is what lets a learner set sound goals long after the programme ends.
+    That judgement keeps the direction of their own learning in their hands.
+principlesForegrounded:
+- lifeworthy-competencies
+- recognise-communicate-growth
+- builds-on-identities
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Judging whether a goal is small, clear, meaningful and timed is a reusable thinking skill, not a
+    one-off exercise; learners will apply this same lens to goals in study, work and life for years.
+- principle: recognise-communicate-growth
+  how: >-
+    Learners practise naming precisely why a goal is weak and what would improve it, which gives them
+    the words to talk about the quality of their own goals rather than a vague sense that one is good.
+- principle: builds-on-identities
+  how: >-
+    The "it matters to you" test forces every goal to be checked against what the learner actually
+    cares about, so a neat goal that means nothing to them is caught and rejected rather than pursued.
+competencyCodes:
+- FSL2
+- FSL1
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Setting and pursuing goals depends on being able to set a sound one; practising the tests of a good
+    goal and fixing weak examples builds the judgement that makes a learner's own goals clear and
+    reachable rather than vague wishes.
+- code: FSL1
+  how: >-
+    Applying the "small enough" and "matters to you" tests to their own goal requires learners to
+    reflect honestly on what is within reach and what genuinely matters to them, which is direct
+    practice in self-reflection.
+objectiveIds:
+- agency-in-learning--o2
+relatedSlugs:
+- cb-ail-setting-your-goals
+- cb-ail-your-goal-steps
+sourceRefs:
+- agency-in-learning.yaml
+- ail-what-makes-a-good-goal.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of ail-what-makes-a-good-goal for the Learning Bridge+
+  (Cox's Bazar) edition: oral and visual first, thumbs-based judging rather than written handouts,
+  ~60 min facilitated. Week 2, session 1 of the Agency in Learning unit. Linked to objective 2.

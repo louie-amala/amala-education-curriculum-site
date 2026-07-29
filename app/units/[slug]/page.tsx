@@ -50,6 +50,28 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
         <span>⏱ Weekly budget: {mins(u.weeklyFacilitatedMin)} in-person + {mins(u.weeklyIndependentMin)} independent</span>
       </p>
 
+      {u.downloads.length > 0 && (
+        <section className="mt-6 rounded-xl border border-cool-grey/25 bg-white p-5 shadow-sm">
+          <h2 className="font-heading text-sm font-bold uppercase tracking-wide text-navy">Editable downloads</h2>
+          <p className="mt-1 text-sm text-cool-grey">Ready-made files to print or edit. No internet needed once downloaded.</p>
+          <ul className="mt-3 flex flex-wrap gap-3">
+            {u.downloads.map((d) => (
+              <li key={d.file}>
+                <a
+                  href={d.file}
+                  download
+                  className="inline-flex items-center gap-2 rounded-lg border border-navy bg-navy px-4 py-2 text-sm font-medium text-white hover:bg-dark-navy"
+                >
+                  ⬇ {d.label}
+                  {d.format && <span className="rounded bg-white/20 px-1.5 py-0.5 text-xs uppercase">{d.format}</span>}
+                </a>
+                {d.note && <p className="mt-1 max-w-[16rem] text-xs text-cool-grey">{d.note}</p>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {u.weeks.map((wk) => {
         const objective = wk.objectiveId ? getObjectiveById(wk.objectiveId) : undefined;
         const facSum = wk.sessions.reduce((a, s) => a + s.facilitatedMin, 0);

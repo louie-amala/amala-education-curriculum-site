@@ -1,0 +1,153 @@
+# Contextualised, fully offline adaptation of ail-setting-your-goals (first half) for Learning Bridge+
+# (Cox's Bazar). Oral and visual first, ~60 min facilitated. Week 2, session 2.
+id: cb-ail-setting-your-goals
+slug: cb-ail-setting-your-goals
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Choose and draw your goal"
+summary: >-
+  Learners turn a rough sense of what they want into one small, clear learning goal they care about,
+  drawn and said aloud, built from the Learner Profile they made in Week 1.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners choose and draw a goal alone, then sharpen it with a partner. Saying a goal
+    aloud and being asked "how would you know you had reached it?" is what turns a wish into a goal, so
+    keep the pairing. Use same-gender pairs.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor helps the learner make a goal clear and honest, and holds them to it gently
+    over time. Have the learner bring their Learner Profile so the goal grows from a real starting point.
+- context: independent
+  how: >-
+    Weaker alone, since a learner tends to leave goals vague. The workbook page carries the drawing;
+    ask them to say the goal aloud to a family member and check it against last session's tests.
+duration: "60 min facilitated, plus a 30 min independent task"
+grouping: "Individual drawing, then same-gender pairs; works with 10-35 learners"
+whatLearnersDo:
+- Choose one small learning goal that matters to you, using your Learner Profile.
+- Draw the thing you want to be able to do.
+- Say why this goal matters to you.
+- Say your goal to a partner and make it clearer.
+materialsAndPreparation:
+- Learners' Week 1 Learner Profile pages (strengths, areas to grow, how they learn best).
+- Your own honest example of a small learning goal and why it matters to you, to model first.
+- The student workbook (the goal page, with space to draw).
+- "Sensitivity: a goal can touch on hard things, family, marriage, leaving. Keep goals about the learner's own learning, and let anyone pass and only draw."
+facilitationNotes: |
+  A clear goal is the difference between hoping to improve and steering your own learning. The one
+  thing to get right is that the goal is the learner's own and genuinely matters to them: a goal set to
+  please you will not be pursued. Keep goals small, real, and about the learner's own learning, not
+  about a future they cannot control. Two clear goals a learner cares about beat a long list they
+  quietly abandon. Resist tidying their goal into your words.
+steps:
+- title: "You choose what you learn"
+  duration: "10 min"
+  guidance: |
+    Open with the idea the whole component rests on. Say: here, many things are chosen for you, but
+    what you learn is yours to choose, and a goal is how you take hold of your own learning. Keep it
+    short and warm; you are setting up why a goal is worth having before anyone chooses one.
+  keyPrompts:
+  - What is one small thing about your learning that you get to choose?
+  - Why is it worth having a goal, and not just a wish?
+  watchOuts:
+  - Learners reach for big life goals outside their control; warmly bring it back to a small learning goal for now, and keep any bigger dream noted, not crushed.
+  adaptation: |
+    Nothing is needed but you speaking the idea aloud; no board or slides.
+- title: "Choose a goal from your profile"
+  duration: "16 min"
+  guidance: |
+    Have learners look at their Week 1 Learner Profile, the areas they wanted to grow, and choose one
+    small learning goal for now. Circulate and ask, rather than tell: what would you like to be able to
+    do, and why does it matter to you? Steer them to one real goal, not a long list.
+  keyPrompts:
+  - Looking at what you wanted to grow, what would you like to be able to do that you cannot yet?
+  - Why does this one matter to you?
+  watchOuts:
+  - A learner writes a goal to please you; reassure them there is no right answer and a goal only works if they care about reaching it.
+  adaptation: |
+    If the profile is not to hand, ask them to remember one area they wanted to grow, and start there.
+- title: "Draw your goal"
+  duration: "18 min"
+  guidance: |
+    Ask learners to draw the thing they want to be able to do on the workbook goal page. They do not
+    have to write; where a learner wants words, you scribe them. Circulate and help each learner make
+    the goal small and clear, held against last session's tests.
+  keyPrompts:
+  - Can you draw what it looks like when you have reached this goal?
+  - How would you know you had reached it?
+  watchOuts:
+  - The goal stays huge and distant so it cannot be pictured; help the learner cut it down to one small, clear step of the bigger wish.
+  adaptation: |
+    No writing is needed: the drawing is the goal, and you scribe a few words only if the learner wants them.
+- title: "Say it to a partner and make it clearer"
+  duration: "12 min"
+  guidance: |
+    In same-gender pairs, learners say their goal aloud and their partner asks the two questions that
+    sharpen it: how would you know you had reached it, and can you reach it soon? Learners adjust their
+    goal. Saying it aloud is what makes it real.
+  keyPrompts:
+  - Tell your partner your goal. How would they know you had reached it?
+  - Is it small enough to reach soon?
+  watchOuts:
+  - Partners just approve each other's goals; give them the two questions to ask so the sharpening actually happens.
+closing: |
+  Ask two or three learners to say their goal aloud. Confirm the goal lives in the workbook and is not
+  fixed forever: it will be revisited and adjusted. A goal on the page is the start of directing your
+  own learning. Independent task: tell one person at home your learning goal, and why it matters to you.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Choosing your own small, meaningful learning goal is the moment a learner takes the wheel of their
+    own growth rather than waiting to be told what to learn. In a place where much is outside their
+    control, their own learning is a thing they can direct, and the goal keeps that direction in their hands.
+principlesForegrounded:
+- builds-on-identities
+- recognise-communicate-growth
+- lifeworthy-competencies
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The goal grows from the learner's own Learner Profile and their own reasons, in their own words, and
+    the facilitator is warned off tidying it into someone else's language, so it is anchored in the learner.
+- principle: recognise-communicate-growth
+  how: >-
+    Drawing a goal and saying it aloud to a partner is a learner's act of naming what they want to grow
+    towards, the habit of recognising and communicating their own learning this component keeps building.
+- principle: lifeworthy-competencies
+  how: >-
+    Turning a vague wish into one small, clear goal you actually pursue is a habit a learner will reuse
+    across study, work and life, which is what makes it worth practising here.
+competencyCodes:
+- FSL2
+- FSL1
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Turning a rough wish into a small, clear learning goal a learner cares about is the core of setting
+    goals; the drawn goal and the reasons behind it are the evidence a learner can establish an objective
+    for their own learning.
+- code: FSL1
+  how: >-
+    Choosing a goal that genuinely matters to them, from their own Learner Profile, requires learners to
+    reflect on where they are now and what they want, which develops self-reflection.
+objectiveIds:
+- agency-in-learning--o2
+relatedSlugs:
+- cb-ail-what-makes-a-good-goal
+- cb-ail-your-goal-steps
+sourceRefs:
+- agency-in-learning.yaml
+- ail-setting-your-goals.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of the first half of ail-setting-your-goals (choosing and
+  drafting a goal) for the Learning Bridge+ (Cox's Bazar) edition: oral and visual first, ~60 min
+  facilitated. Week 2, session 2 of the Agency in Learning unit. The milestones and first step are
+  carried by cb-ail-your-goal-steps. Linked to objective 2.

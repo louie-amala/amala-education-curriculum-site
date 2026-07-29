@@ -51,6 +51,48 @@ weeks:
         flexNote: >-
           The two-day noticing task is independent by design and doubles as the week's independent
           learning practice; the reflection and the compare-with-a-partner step stay in-person.
+  - number: 2
+    title: "Set clear, meaningful learning goals"
+    objectiveId: agency-in-learning--o2
+    outcome: >-
+      Each learner leaves with one small, clear learning goal they care about, broken into a short
+      ladder of steps, and a first step taken during the week. This goal, built from Week 1's Learner
+      Profile, is what the planning work in Week 3 will move forward.
+    sessions:
+      - title: "What makes a good goal"
+        materialSlug: cb-ail-what-makes-a-good-goal
+        facilitatedMin: 60
+        independentMin: 30
+        independentTask: "Think of one goal you might set, and check it against the four tests, or ask someone at home to hear it and help."
+        flexNote: >-
+          The judging and fixing of example goals is best done in-person, where disagreement sharpens
+          the tests; testing your own goal can move to independent work if contact time is short.
+      - title: "Choose and draw your goal"
+        materialSlug: cb-ail-setting-your-goals
+        facilitatedMin: 60
+        independentMin: 30
+        independentTask: "Tell one person at home your learning goal, and why it matters to you."
+        flexNote: >-
+          The saying-it-to-a-partner step must stay in-person; choosing and drawing the goal can be set
+          as independent work from the workbook goal page.
+      - title: "Your steps, and your first step"
+        materialSlug: cb-ail-your-goal-steps
+        facilitatedMin: 60
+        independentMin: 60
+        independentTask: "Take your first step this week, and be ready to say what happened next session."
+        flexNote: >-
+          Taking the first step is independent by design and is the week's core independent practice;
+          building the ladder and committing aloud stay in-person.
+downloads:
+  - label: Facilitator Unit Plan & Guide
+    file: /downloads/agency-in-learning-facilitator-unit-plan.docx
+    format: Word
+    note: The week-by-week plan with all session guidance inline. Editable.
+  - label: Student Workbook
+    file: /downloads/agency-in-learning-student-workbook.docx
+    format: Word
+    note: Visual-first Learner Profile and goal pages. Print one per learner. Editable.
+
 sourceNotes:
   - Sequences the cb-ail-* contextualised activities (adaptations of the generic ail-* materials) for the Learning Bridge+ (Cox's Bazar) edition.
   - Week 1 develops objective 1 (Understand yourself as a learner); the three sessions build the Learner Profile that Week 2's goal-setting is held up against.
