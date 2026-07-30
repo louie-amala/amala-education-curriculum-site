@@ -1,0 +1,132 @@
+# English for Impact — Unit 2 as a course. Source: LLL Course Guide, Unit 2 "My Story" (pp. 28–31).
+# Competency anchor (FLC2) is authored — see sourceIssues.
+id: efi-my-story
+slug: efi-my-story
+access: public
+title: "My Story"
+strapline: "Tell a story from your life in short, connected English. (Unit 2 · A1)"
+programmes: [english-for-impact]
+testimonial: null
+purpose: >-
+  My Story builds on the foundations of My Voice. Learners describe their daily lives, routines, and
+  personal experiences, expanding from simple sentences to short, connected paragraphs and developing
+  greater control over meaning and structure. Through translanguaging, learners generate rich ideas in
+  their Home Language(s) and gradually express them in English. The course culminates in a personal
+  narrative about a meaningful moment, shared with an audience at an Author's Reading.
+
+throughline:
+  anchorCompetency: FLC2
+  fromAgency: >-
+    Agency grows in relationship with others. When a learner tells their own story and is heard, and
+    when they listen to the stories of peers, a group becomes a community. My Story develops Fostering
+    connection and belonging (FLC2): sharing a meaningful personal narrative — and receiving others' —
+    is how learners build the trust and belonging that make a learning community, and their own voice
+    within it, possible.
+  toObjectives: >-
+    The three objectives move from the sounds and words of everyday life, to writing short connected
+    paragraphs about one's experiences, and finally to crafting and sharing a personal narrative. The
+    Author's Reading, where stories are shared and received, foregrounds FLC2.
+  develops: >-
+    Learners develop FLC2 by shaping a meaningful moment from their life into a story they choose to
+    share, and by listening to their peers' stories — building mutual recognition and belonging in the
+    group.
+  demonstrates: >-
+    Learners demonstrate FLC2 through a personal narrative and an Author's Reading: a story offered to
+    peers or a wider audience, and the shared experience of hearing one another.
+
+requirements:
+  structuredHours: 30
+  durationWeeks: 4
+  cadence: ≈4 weeks
+  liveIndependentSplit: null
+  notes: >-
+    Approximately 20–40 hours, adaptable to pacing and instructional time. Translanguaging is central:
+    learners develop and organise ideas in their Home Language(s) before expressing them in English.
+
+objectives:
+  - statement: >-
+      Build the sounds and everyday words to read and write about daily life.
+    supportedTo:
+      - Identify and produce short vowel sounds e and i (reviewing a, o, u) and CVC patterns, and begin fricative sounds (f, v, s, z; sh, ch, th).
+      - Read and understand short texts about daily routines and personal experiences, identifying key information (who, what, when).
+      - Understand and use vocabulary for daily life and routines, time expressions, and basic connectors.
+    furtherDetails:
+      concepts:
+        - "Phonics focus: short vowels e, i; CVC patterns; fricative sounds; sound discrimination (bit vs bet)."
+      activities:
+        - Adding new sounds and words to the personal Phonics Table.
+        - Reading short texts about daily life and connecting them to personal context.
+    competencyEvidence:
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners read and understand short everyday texts and use the vocabulary in their own writing." }
+
+  - statement: >-
+      Write and talk about your routines and experiences in short, connected English.
+    supportedTo:
+      - Use the present simple tense to describe daily routines, habits, and experiences, with 3rd-person singular -s.
+      - Form simple sentences and expand them using basic connectors (and, but) and simple negatives.
+      - Write short paragraphs about familiar topics using sentence frames (First, Next, Then, Finally).
+      - Participate in simple conversations about routines and experiences.
+    furtherDetails:
+      concepts:
+        - "Grammar focus: present simple for routines, high-frequency verbs, 3rd-person -s, basic connectors, and sentence expansion."
+      activities:
+        - Paragraph writing with scaffolds; sentence-building and speaking practice about daily life.
+    competencyEvidence:
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners connect ideas into short paragraphs a reader can follow." }
+
+  - statement: >-
+      Write and share a personal narrative about a meaningful moment.
+    anchorContribution:
+      develops: >-
+        Learners develop FLC2 by shaping a meaningful moment from their life into a story they choose
+        to share, and by listening to peers' stories — building recognition and belonging in the group.
+      demonstrates: >-
+        A personal narrative and an Author's Reading demonstrate connection and belonging: a story
+        offered to an audience, and the shared experience of hearing one another's lives.
+    supportedTo:
+      - Use translanguaging to develop and organise ideas in their Home Language(s) before writing in English.
+      - Draft a personal narrative using sentence frames and models, then revise for clarity using present simple and connectors.
+      - Share their story at an Author's Reading with peers or a wider audience, with optional submission to authentic platforms.
+    furtherDetails:
+      concepts:
+        - Authentic project — The Moment That Shaped Me — a personal narrative developed through translanguaging.
+      activities:
+        - An Author's Reading; optional submission to student writing contests.
+    competencyEvidence:
+      - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners share their story and receive others' in a way that builds belonging in the group." }
+      - { code: FUS1, citedTitle: Developing self-awareness, condition: "If learners reflect on a meaningful moment that shaped who they are." }
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners tell their story clearly enough for an audience to follow and connect with it." }
+
+principleMappings:
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners write about their own lives and meaningful moments, in vocabulary drawn from their experience.
+      - Translanguaging treats Home Language(s) as a resource for generating rich ideas.
+  - principle: collaboration
+    inThisCourse:
+      - Stories are shared and received in a supportive group; peers listen and respond.
+  - principle: safe-spaces
+    inThisCourse:
+      - Learners choose what to share and are never required to disclose personal experiences; the Author's Reading is supportive, not exposing.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Learners see growth from single sentences to connected paragraphs, and reflect on it.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Narrating experience clearly is a communication skill learners reuse across study, work, and life.
+
+designChecklist:
+  - The course includes ~20–40 hours of learning experiences integrating phonics, grammar, reading, writing, and speaking.
+  - Grammar, phonics, and vocabulary are connected to the unit outcomes and the personal-narrative project.
+  - Opportunities to generate evidence for Amala competencies — especially the anchor FLC2 — are built into the Author's Reading.
+
+sourceIssues:
+  - type: competency-mapping-authored
+    detail: >-
+      The source is a CEFR (A1) language unit and cites no Amala competency codes. The anchor (FLC2
+      Fostering connection and belonging) and the objective competencyEvidence are authored by mapping
+      the unit's story-sharing focus onto the framework; FUS1 (self-awareness) and FLC3 (communication)
+      are also strongly evidenced by the narrative and are cited as supporting.
+  - type: part-of-programme
+    detail: >-
+      Unit 2 of the English for Impact programme, delivered as the second of five sequential courses.

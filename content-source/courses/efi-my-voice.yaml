@@ -1,0 +1,138 @@
+# English for Impact — Unit 1 as a course. Source: LLL Course Guide, Unit 1 "My Voice" (pp. 24–27).
+# Competency anchor (FUS1) is authored — see sourceIssues.
+id: efi-my-voice
+slug: efi-my-voice
+access: public
+title: "My Voice"
+strapline: "Say who you are — your first words, sentences, and voice in English. (Unit 1 · A1-)"
+programmes: [english-for-impact]
+testimonial: null
+purpose: >-
+  My Voice is the first course in English for Impact. Learners begin building confidence in English by
+  exploring their identity and expressing who they are using simple language. They develop foundational
+  skills in phonics, vocabulary, and sentence construction while learning to introduce themselves and
+  share basic personal information. The course emphasises communication over accuracy, encouraging
+  learners to take risks in a supportive environment, and culminates in a personal identity artifact
+  that learners create and present to a real audience.
+
+throughline:
+  anchorCompetency: FUS1
+  fromAgency: >-
+    Agency for positive change begins with being able to say who you are and be understood. Voice is
+    its precondition, and the first thing a learner voices is themselves. My Voice develops Developing
+    self-awareness (FUS1): as learners find the English to introduce themselves and choose the words
+    that represent them, they are also naming their identity, strengths, and what matters to them —
+    the self-knowledge that all later participation and choice rests on.
+  toObjectives: >-
+    The three objectives move from the building blocks of English (sounds, letters, high-frequency
+    words) to introducing oneself in simple sentences, and finally to creating and presenting a
+    personal identity artifact. The language objectives are the means; the project is where
+    self-awareness is expressed and shared, foregrounding FUS1.
+  develops: >-
+    Learners develop FUS1 by turning attention to who they are and finding the English to express it —
+    their name, where they are from, what they like, and what they are good at — and reflecting on that
+    identity as they choose what to represent in their artifact.
+  demonstrates: >-
+    Learners demonstrate FUS1 through a personal identity artifact and a spoken "My Name, My Voice"
+    introduction: a representation of themselves, in their own chosen words, shared with an audience.
+
+requirements:
+  structuredHours: 30
+  durationWeeks: 4
+  cadence: ≈4 weeks
+  liveIndependentSplit: null
+  notes: >-
+    Approximately 20–40 hours, adaptable to pacing and instructional time. The first and most
+    foundational unit: expect to spend time on the alphabet, sounds, and the confidence to speak.
+
+objectives:
+  - statement: >-
+      Build the sounds, letters, and words to begin reading and writing in English.
+    supportedTo:
+      - Recognise and use the uppercase and lowercase letters of the English alphabet.
+      - Identify and produce key English sounds — short vowels (a, o, u) and common consonants (s, t, l, m, n; hard "k" sounds; plosives).
+      - Read simple words (CVC and high-frequency words) and short phrases.
+      - Understand and use high-frequency vocabulary related to personal identity (name, age, country, city, language).
+    furtherDetails:
+      concepts:
+        - "Phonics focus: the alphabet, vowels vs consonants, short vowels, common consonants, and plosives (voiceless /p/ /t/ /k/, voiced /b/ /d/ /g/)."
+      activities:
+        - Building phonics awareness through personalised, meaningful vocabulary.
+        - Starting a personal Phonics Table to collect sounds and example words.
+    competencyEvidence:
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners decode and spell well enough to begin reading and writing simple English." }
+
+  - statement: >-
+      Introduce yourself in simple spoken and written English.
+    supportedTo:
+      - Use subject pronouns and the verb "to be" in basic contexts (I am…, you are…, he/she is…).
+      - Use simple sentence structures to introduce themselves (e.g. "I am…", "I live…", "I like…").
+      - Ask and answer simple questions about personal information with support.
+      - Write short, simple sentences using models and scaffolds.
+    furtherDetails:
+      concepts:
+        - "Grammar focus: the verb \"to be\", subject pronouns, and basic sentence structure (Subject + be + complement)."
+      activities:
+        - Sentence-building and "find someone who…" speaking practice (see the Unit 1 grammar exercises).
+        - Guided writing of short personal statements (name, age, country, interests).
+    competencyEvidence:
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners communicate basic personal information clearly in speech and writing." }
+      - { code: FUS1, citedTitle: Developing self-awareness, condition: "If learners put their own identity into words to introduce themselves." }
+
+  - statement: >-
+      Create and present a personal identity artifact that shows who you are.
+    anchorContribution:
+      develops: >-
+        Learners develop FUS1 by choosing what represents them — meaningful words, places, and
+        interests from their own lives — and shaping it into an artifact, reflecting on their identity
+        and strengths as they do.
+      demonstrates: >-
+        A personal identity artifact and a "My Name, My Voice" presentation demonstrate self-awareness
+        made visible: the learner represents who they are, in their own words, to an audience.
+    supportedTo:
+      - Connect letters and sounds to meaningful words from their own life.
+      - Design a visual or creative artifact that represents who they are.
+      - Present basic personal information to peers or a wider audience with growing confidence.
+    furtherDetails:
+      concepts:
+        - Authentic project — My Voice, My Name — a personal identity artifact with written and visual components.
+      activities:
+        - A "My Name, My Voice" sharing experience with peers or a wider audience.
+    competencyEvidence:
+      - { code: FUS1, citedTitle: Developing self-awareness, condition: "If learners reflect on and represent their own identity, strengths, and interests." }
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners present who they are clearly to an audience." }
+
+principleMappings:
+  - principle: builds-on-identities
+    inThisCourse:
+      - The whole course starts from the learner's own identity; phonics and vocabulary are learned through words that matter to them.
+      - Learners choose what to represent in their artifact, so their English is built outward from who they are.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Learners build foundational literacy (decoding, spelling) and the confidence to speak — capabilities reused across every later unit and beyond.
+  - principle: safe-spaces
+    inThisCourse:
+      - A trauma-sensitive, low-pressure environment values communication over perfection; learners are never required to share more than they choose.
+      - Errors are framed as a natural, expected part of learning.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - Reflection statements ("I can…") help learners name their first gains in English.
+  - principle: connect-to-futures
+    inThisCourse:
+      - The course is the first step of a bridge toward B1 and further study such as the GSD.
+
+designChecklist:
+  - The course includes ~20–40 hours of learning experiences, integrating phonics, grammar, vocabulary, reading, writing, and speaking.
+  - Grammar, phonics, and vocabulary are connected to the unit outcomes and the identity-artifact project.
+  - Opportunities to generate evidence for Amala competencies — especially the anchor FUS1 — are built into the project.
+
+sourceIssues:
+  - type: competency-mapping-authored
+    detail: >-
+      The source is a CEFR (A1) language unit and cites no Amala competency codes. The anchor (FUS1
+      Developing self-awareness) and the objective competencyEvidence are authored by mapping the
+      unit's identity/voice focus onto the framework. The two language objectives serve the anchor
+      indirectly; the identity-artifact project is its main vehicle.
+  - type: part-of-programme
+    detail: >-
+      Unit 1 of the English for Impact programme, delivered as the first of five sequential courses.

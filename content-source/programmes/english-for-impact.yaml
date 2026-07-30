@@ -1,0 +1,69 @@
+# English for Impact — programme (spec §4.1 Programme).
+# Source: The Language Learning Lab "English for Impact" A1/A2 Course Guide (April 2026).
+# Modelled as a PROGRAMME whose five units are each a full course (efi-my-voice … efi-our-impact),
+# sequenced A1 → A2+. This replaces the earlier single standalone "english-for-impact" course; the
+# five courses now carry the per-unit depth (objectives, projects, phonics/grammar, assessment).
+id: english-for-impact
+slug: english-for-impact
+access: public
+title: English for Impact
+shortName: English for Impact
+tagline: >-
+  Building voice, communication, and confidence in English, from a beginner start toward a strong
+  A2+ level.
+summary: >-
+  English for Impact supports older multilingual learners (ages 14–25) to develop English rapidly and
+  meaningfully, from a beginner A1 start toward a strong A2+ level — a foundation for further academic
+  pathways such as the Global Secondary Diploma, which requires B1. It is built on the belief that
+  learners already bring rich knowledge, life experience, and linguistic resources, and that language
+  is learned best when it is purposeful and connected to real life. The programme runs as five
+  spiralling courses — My Voice, My Story, Our Stories, Our World, Our Impact — that widen a learner's
+  circle of communication from introducing themselves to persuading an audience. Each course
+  culminates in an authentic project with a real purpose and audience. Translanguaging, a
+  strength-based and growth-oriented stance, and trauma-sensitive practice run throughout, so learners
+  build not only language but confidence, agency, and voice.
+ageRange: "14–25"
+minDurationWeeks: 10
+totalStructuredHoursMin: 200
+structure: >-
+  Five sequential courses of roughly 20–40 hours each, spiralling from A1- to A2+. Reaching A2+ from a
+  beginner start typically takes 200–250 hours of instruction and practice. Pacing is flexible: a
+  10-week model (~20 hrs/week) is ambitious, while a 20-week model (~10 hrs/week) allows more
+  consolidation. Each course integrates phonics, grammar, vocabulary, reading, writing, and speaking
+  in the service of an authentic project.
+
+# The five units, each delivered as a course. exampleProductTask carries the unit's authentic project.
+streams:
+  - id: units
+    title: "The five units (My Voice → Our Impact)"
+    courses:
+      - { courseId: efi-my-voice,    position: "Unit 1 · A1-",        exampleProductTask: "My Voice, My Name — a personal identity artifact" }
+      - { courseId: efi-my-story,    position: "Unit 2 · A1",         exampleProductTask: "The Moment That Shaped Me — a personal narrative" }
+      - { courseId: efi-our-stories, position: "Unit 3 · A1+ → A2-",  exampleProductTask: "Our Stories Magazine — an interview & peer biography" }
+      - { courseId: efi-our-world,   position: "Unit 4 · A2",         exampleProductTask: "Our World Newspaper — a news article" }
+      - { courseId: efi-our-impact,  position: "Unit 5 · A2+",        exampleProductTask: "Our Impact, Voices for Change — a persuasive speech" }
+
+studentGains:
+  - The confidence and English to introduce themselves, tell their story, and speak to an audience.
+  - Foundational literacy (phonics, decoding, spelling) and a spiral of grammar from "to be" to modals and future forms.
+  - Reading, research, and structured writing skills that prepare them for the academic demands of further study such as the GSD.
+  - Experience using their full linguistic repertoire through translanguaging, and five authentic projects shared with real audiences.
+
+graduationCriteria:
+  - Complete the five courses, progressing from an A1- to an A2+ level of English.
+  - Produce and share the five authentic projects, each assessed against Can-Do-aligned criteria.
+  - Demonstrate readiness to move toward the B1 language level required for the Global Secondary Diploma.
+
+sourceNotes:
+  - >-
+    Authored from the English for Impact Course Guide (The Language Learning Lab, April 2026). The
+    guide presents one language course of five units; it is modelled here as a programme of five
+    courses so each unit carries its full plan. Competency anchoring per course is authored (a CEFR
+    language course cites no Amala competency codes) — see each course's sourceIssues.
+  - >-
+    Kept independent of the Learning Bridge programme for now; how English for Impact is used within
+    Learning Bridge (which lists an optional "English Language Development" component) is to be worked
+    out separately.
+  - >-
+    The course assumes strong Home Language literacy, so it is not suitable as-is for low-literacy,
+    oral/visual-first contexts (e.g. the Cox's Bazar Learning Bridge edition) without adaptation.

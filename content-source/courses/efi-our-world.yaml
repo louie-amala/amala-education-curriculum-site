@@ -1,0 +1,129 @@
+# English for Impact — Unit 4 as a course. Source: LLL Course Guide, Unit 4 "Our World" (pp. 36–39).
+# Competency anchor (FSI1) is authored — see sourceIssues.
+id: efi-our-world
+slug: efi-our-world
+access: public
+title: "Our World"
+strapline: "Read about and report on real-world events and issues. (Unit 4 · A2)"
+programmes: [english-for-impact]
+testimonial: null
+purpose: >-
+  Our World expands learners beyond personal and interpersonal topics to engage with the wider world.
+  They develop the ability to read, understand, and communicate about real-world events and issues,
+  locally and globally, at an A2 level and with translanguaging support. Learners build control of
+  present and past tenses to describe facts, ongoing situations, and completed events, and learn to
+  organise and report information clearly. The course culminates in a collaborative news-writing
+  project published in a class newspaper.
+
+throughline:
+  anchorCompetency: FSI1
+  fromAgency: >-
+    Agency for positive change begins with understanding the world you want to change. Before a learner
+    can act on an issue, they must be able to find out about it. Our World develops Investigate
+    real-world issues (FSI1): learners read and compare news sources, research a local or global issue,
+    and report what they find — the first, foundational form of inquiry that later action depends on.
+  toObjectives: >-
+    The three objectives move from the sounds and words of news and information, to describing and
+    reporting events using present and past tenses, and finally to researching and writing a news
+    article. The research-and-report project foregrounds FSI1.
+  develops: >-
+    Learners develop FSI1 by reading news in English and their Home Language(s), comparing sources, and
+    researching a local or global issue closely enough to report it accurately.
+  demonstrates: >-
+    Learners demonstrate FSI1 through a news article contributed to a class newspaper: a real-world
+    issue investigated, summarised, and reported clearly for a reader.
+
+requirements:
+  structuredHours: 30
+  durationWeeks: 4
+  cadence: ≈4 weeks
+  liveIndependentSplit: null
+  notes: >-
+    Approximately 20–40 hours, adaptable to pacing and instructional time. An introduction to research
+    and news writing; translanguaging supports reading and comparing sources.
+
+objectives:
+  - statement: >-
+      Build the sounds and words to read and write about news and events.
+    supportedTo:
+      - Read and produce r-controlled vowels (er, ir, ur, ar, or) and -ed past-tense pronunciation (/t/, /d/, /ɪd/).
+      - Read and understand short informational and news-style texts, identifying main ideas and supporting details, and comparing information from different sources.
+      - Understand and use vocabulary for news and information, time expressions, past-tense verbs, prepositions, and connectors.
+    furtherDetails:
+      concepts:
+        - "Phonics focus: r-controlled vowels (\"bossy R\"), additional patterns (air, ear, ire, ure, our), and -ed past-tense pronunciation."
+      activities:
+        - Reading and comparing simple news texts; adding new sounds and words to the Phonics Table.
+    competencyEvidence:
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners read news texts and identify the key information to report." }
+
+  - statement: >-
+      Describe and report events using present and past tenses.
+    supportedTo:
+      - Use "there is / are / was / were" to describe situations, and contrast present and past simple.
+      - Use regular and common irregular past-tense verbs and time expressions to describe completed events.
+      - Summarise information in simple, clear language and organise writing into logical sequences using connectors.
+      - Write short informational texts (e.g. news reports) for an audience with a clear purpose.
+    furtherDetails:
+      concepts:
+        - "Grammar focus: there is/are/was/were, present vs past simple, regular and irregular past-tense verbs, time expressions, compound sentences, and prepositions of place."
+      activities:
+        - Sentence combining and expansion; drafting short informational texts.
+    competencyEvidence:
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners report facts and events clearly and in an organised way." }
+
+  - statement: >-
+      Research a real-world issue and publish a news article.
+    anchorContribution:
+      develops: >-
+        Learners develop FSI1 by reading news in English and their Home Language(s), comparing sources,
+        and researching a local or global issue closely enough to report it accurately.
+      demonstrates: >-
+        A researched news article in a class newspaper demonstrates investigation of a real-world issue:
+        information gathered from sources and reported clearly for a reader.
+    supportedTo:
+      - Explore local and global issues by reading news in English and their Home Language(s), using translanguaging to deepen understanding.
+      - Analyse and compare sources, and optionally research by interviewing community members.
+      - Collaboratively write news articles that report on real-world events, and share them with the community.
+    furtherDetails:
+      concepts:
+        - Authentic project — Our World Community Newspaper — an introduction to research and news writing.
+      activities:
+        - Publication of a class newspaper, Our World, with an optional speaking extension (a newscast or presentations).
+    competencyEvidence:
+      - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners read, compare sources, and research a local or global issue to report on it." }
+      - { code: FUS2, citedTitle: Understanding other people, condition: "If learners engage with perspectives on local and global events beyond their own." }
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners report their findings clearly to a reader or audience." }
+
+principleMappings:
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners read and report on real local and global issues, for a real class-newspaper audience.
+  - principle: collaboration
+    inThisCourse:
+      - Research and news writing are collaborative; learners produce a class newspaper together.
+  - principle: connect-to-futures
+    inThisCourse:
+      - Reading, research, and structured reporting build the academic skills further study such as the GSD demands.
+  - principle: builds-on-identities
+    inThisCourse:
+      - Translanguaging lets learners read and reason in their Home Language(s), and local issues connect to their communities.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - Finding, comparing, and reporting information are transferable research and communication skills.
+
+designChecklist:
+  - The course includes ~20–40 hours of learning experiences integrating phonics, grammar, reading, writing, and speaking.
+  - Grammar, phonics, and vocabulary are connected to the unit outcomes and the news-writing project.
+  - Opportunities to generate evidence for Amala competencies — especially the anchor FSI1 — are built into the research project.
+
+sourceIssues:
+  - type: competency-mapping-authored
+    detail: >-
+      The source is a CEFR (A2) language unit and cites no Amala competency codes. The anchor (FSI1
+      Investigate real-world issues) and the objective competencyEvidence are authored by mapping the
+      unit's read-research-report focus onto the framework; the inquiry here is introductory and
+      language-focused, lighter than the GSD Research Project.
+  - type: part-of-programme
+    detail: >-
+      Unit 4 of the English for Impact programme, delivered as the fourth of five sequential courses.

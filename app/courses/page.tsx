@@ -29,6 +29,12 @@ export default function CoursesIndex() {
   ]);
   const standaloneCourses = courses.filter((c) => !placedCourseIds.has(c.id));
 
+  // Other stream-based programmes (e.g. English for Impact): a programme whose courses are its
+  // units. GSD is rendered above with its streams as headers; these render under the programme name.
+  const streamProgrammes = programmes.filter(
+    (p) => p.id !== "gsd" && p.streams.length > 0,
+  );
+
   return (
     <main className="mx-auto max-w-5xl px-6 py-12">
       <h1 className="font-heading text-3xl font-bold text-navy">Courses</h1>
@@ -87,6 +93,27 @@ export default function CoursesIndex() {
                 <CourseCard slug={c.slug} title={c.title} purpose={c.purpose} />
               </li>
             ))}
+          </ul>
+        </section>
+      ))}
+
+      {streamProgrammes.map((programme) => (
+        <section key={programme.id} className="mt-12">
+          <h2 className="font-heading text-lg font-semibold text-dark-navy">
+            <Link href={`/programmes/${programme.slug}`} className="hover:text-navy hover:underline">
+              {programme.title}
+            </Link>
+          </h2>
+          <ul className="mt-3 grid gap-3 sm:grid-cols-2">
+            {programme.streams.flatMap((s) => s.courses).map((ref) => {
+              const c = getCourse(ref.courseId);
+              if (!c) return null;
+              return (
+                <li key={ref.courseId}>
+                  <CourseCard slug={c.slug} title={c.title} purpose={c.purpose} />
+                </li>
+              );
+            })}
           </ul>
         </section>
       ))}

@@ -179,7 +179,7 @@ competencyDevelopment:
   how: >-
     Building accurate decoding and pronunciation across the course underpins learners' ability to
     read, write, and speak so they can be understood.
-objectiveIds: [english-for-impact--o1, english-for-impact--o2, english-for-impact--o3, english-for-impact--o4, english-for-impact--o5]
+objectiveIds: [efi-my-voice--o1, efi-my-story--o1, efi-our-stories--o1, efi-our-world--o1, efi-our-impact--o1]
 relatedSlugs: [efi-phonics-table, efi-phonics-table-student, efi-grammar-progression]
 sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, §10c"]
 provenanceNote: >-

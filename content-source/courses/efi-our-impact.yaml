@@ -1,0 +1,128 @@
+# English for Impact — Unit 5 as a course. Source: LLL Course Guide, Unit 5 "Our Impact" (pp. 40–43).
+# Competency anchor (FLC3) is authored — see sourceIssues.
+id: efi-our-impact
+slug: efi-our-impact
+access: public
+title: "Our Impact"
+strapline: "Express your opinions and persuade an audience to act. (Unit 5 · A2+)"
+programmes: [english-for-impact]
+testimonial: null
+purpose: >-
+  Our Impact is the final course in English for Impact. Learners use English as a tool for expressing
+  opinions, proposing solutions, and engaging with real-world issues — communicating with purpose and
+  impact. They develop the language to express opinions, justify their thinking, and suggest actions
+  using modal verbs, future forms, and connectors. Through research, discussion, and drafting supported
+  by translanguaging, the course culminates in a persuasive speech about an issue they care about,
+  delivered at a public speaking event, demonstrating readiness for A2+ to B1-level communication.
+
+throughline:
+  anchorCompetency: FLC3
+  fromAgency: >-
+    Agency for positive change is realised when a learner can move others to act. Our Impact develops
+    Influential communication (FLC3): learners state an opinion, justify it with reasons, and structure
+    an argument designed to persuade a real audience toward a solution. This is the fullest expression
+    of the voice the whole programme has been building — language turned into influence.
+  toObjectives: >-
+    The three objectives move from the sounds and words of opinion and persuasion, to expressing
+    opinions and proposing solutions with modals and future forms, and finally to researching,
+    drafting, and delivering a persuasive speech. The persuasive-speech project foregrounds FLC3.
+  develops: >-
+    Learners develop FLC3 by building a case — an opinion, reasons, and a proposed solution — on an
+    issue they care about, and shaping it for an audience through drafting and redrafting.
+  demonstrates: >-
+    Learners demonstrate FLC3 through a persuasive speech delivered at a public showcase, and its
+    written argument: a clear opinion with reasons and a solution, communicated to move a real audience.
+
+requirements:
+  structuredHours: 30
+  durationWeeks: 4
+  cadence: ≈4 weeks
+  liveIndependentSplit: null
+  notes: >-
+    Approximately 20–40 hours, adaptable to pacing and instructional time. The culminating unit: by its
+    end, learners are prepared to transition toward the B1 language level required for the GSD.
+
+objectives:
+  - statement: >-
+      Build the sounds and words to read and write opinions and arguments.
+    supportedTo:
+      - Read and produce complex vowel patterns (oo, ow/ou, oi/oy, aw/au) and "gh" patterns (igh, -aught/-ought, -augh, gh).
+      - Read and understand short persuasive and opinion texts, identifying main ideas and supporting reasons, and evaluating simple arguments.
+      - Understand and use opinion language, modal verbs, future language, connectors, and real-world-issue vocabulary.
+    furtherDetails:
+      concepts:
+        - "Phonics focus: complex vowel teams (oo, ow/ou, oi/oy, aw/au) and \"gh\" patterns."
+      activities:
+        - Reading and evaluating short opinion and persuasive texts; completing the personal Phonics Table.
+    competencyEvidence:
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners read persuasive texts and identify how an argument is built." }
+
+  - statement: >-
+      Express opinions and propose solutions in clear, organised English.
+    supportedTo:
+      - Express opinions using clear structures (I think… because…) and use modal verbs to suggest solutions (should, must, can).
+      - Use future forms (going to, will) to describe plans and actions.
+      - Use connectors to organise and strengthen an argument (so, because, for example, therefore).
+      - Develop and organise ideas into a simple argument, and write a short persuasive text with reasons and examples.
+    furtherDetails:
+      concepts:
+        - "Grammar focus: opinion structures, modal verbs, future forms, and connectors grouped by purpose."
+      activities:
+        - Opinion-sentence practice; drafting persuasive writing with scaffolds; peer feedback and revision.
+    competencyEvidence:
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners state an opinion with reasons and organise it into a clear argument." }
+
+  - statement: >-
+      Research an issue you care about and deliver a persuasive speech.
+    anchorContribution:
+      develops: >-
+        Learners develop FLC3 by building a case — an opinion, reasons, and a proposed solution — on an
+        issue they care about, and shaping it for an audience through drafting and redrafting.
+      demonstrates: >-
+        A persuasive speech at a public showcase, and its written argument, demonstrate influential
+        communication: a clear opinion, reasons, and a solution, delivered to move a real audience.
+    supportedTo:
+      - Identify a real community issue and explore models of impactful, persuasive communication.
+      - Research and discuss ideas using translanguaging as needed, and develop and organise arguments.
+      - Draft and revise a persuasive speech, and present it to an authentic audience at a public speaking event or showcase.
+    furtherDetails:
+      concepts:
+        - Authentic project — Our Impact, Voices for Change — a persuasive action project.
+      activities:
+        - A public speaking event or community showcase, demonstrating readiness for A2+ to B1-level communication.
+    competencyEvidence:
+      - { code: FLC3, citedTitle: Influential communication, condition: "If learners persuade an audience with a clear opinion, supporting reasons, and a proposed solution." }
+      - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners identify and research a real community issue as the basis for their argument." }
+      - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners speak to and for their community about an issue that matters to it." }
+
+principleMappings:
+  - principle: authentic-challenges
+    inThisCourse:
+      - Learners choose a real community issue and develop a persuasive message proposing a solution, shared at a public showcase.
+  - principle: responsible-action
+    inThisCourse:
+      - Persuasion is reasoned and constructive — proposing solutions, not just criticising — and handled with care for the issue and audience.
+  - principle: connect-to-futures
+    inThisCourse:
+      - The opinion, modal, and future-tense language prepares learners for the academic communication of further study such as the GSD.
+  - principle: builds-on-identities
+    inThisCourse:
+      - Learners advocate on issues they care about, drawing on their own community and perspective, with translanguaging to develop ideas.
+  - principle: recognise-communicate-growth
+    inThisCourse:
+      - The public showcase makes visible how far learners have come, from introducing themselves in Unit 1 to persuading an audience here.
+
+designChecklist:
+  - The course includes ~20–40 hours of learning experiences integrating phonics, grammar, reading, writing, and speaking.
+  - Grammar, phonics, and vocabulary are connected to the unit outcomes and the persuasive-action project.
+  - Opportunities to generate evidence for Amala competencies — especially the anchor FLC3 — are built into the persuasive-speech project.
+
+sourceIssues:
+  - type: competency-mapping-authored
+    detail: >-
+      The source is a CEFR (A2+) language unit and cites no Amala competency codes. The anchor (FLC3
+      Influential communication) and the objective competencyEvidence are authored by mapping the
+      unit's opinion-and-persuasion focus onto the framework; FSI1 and FLC2 are cited as supporting.
+  - type: part-of-programme
+    detail: >-
+      Unit 5 of the English for Impact programme, delivered as the fifth and final of five sequential courses.
