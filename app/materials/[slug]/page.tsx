@@ -247,6 +247,24 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </section>
       )}
 
+      {/* Downloadable resources this material provides */}
+      {m.downloads.length > 0 && (
+        <section className="mt-8 rounded-xl border border-olive/30 bg-olive/[0.06] p-5">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">Resources to download</h2>
+          <ul className="mt-3 space-y-3">
+            {m.downloads.map((d) => (
+              <li key={d.file}>
+                <a href={d.file} download className="inline-flex items-baseline gap-2 font-medium text-navy hover:underline">
+                  <span className="rounded bg-olive px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white">{d.format ?? "File"}</span>
+                  {d.label}
+                </a>
+                {d.note && <p className="mt-0.5 text-sm text-cool-grey">{d.note}</p>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {/* Running this in different settings — the delivery-mode axis */}
       {m.deliveryAdaptations.length > 0 && (
         <section className="mt-8">

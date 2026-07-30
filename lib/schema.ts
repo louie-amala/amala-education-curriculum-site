@@ -328,6 +328,18 @@ export const FacilitationMaterialSchema = z.object({
   diagram: z
     .object({ src: z.string(), alt: z.string(), caption: z.string().nullable().optional() })
     .optional(),
+  // Downloadable resources this material provides (e.g. a printable template + worked example that
+  // learners can reuse for other goals). `file` is a path under public/, checked in validateGraph().
+  downloads: z
+    .array(
+      z.object({
+        label: z.string(),
+        file: z.string(),
+        format: z.string().nullable().optional(),
+        note: z.string().nullable().optional(),
+      }),
+    )
+    .default([]),
   sourceRefs: z.array(z.string()).optional(),
   provenanceNote: z.string().nullable().optional(),
 });

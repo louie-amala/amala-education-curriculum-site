@@ -183,6 +183,25 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
                           </div>
                         )}
 
+                        {m && m.downloads.length > 0 && (
+                          <div className="mt-4 rounded-xl border border-olive/30 bg-olive/[0.06] px-4 py-3.5">
+                            <p className={`${eyebrow} text-olive`}>Resource for this activity</p>
+                            <ul className="mt-2 space-y-2">
+                              {m.downloads.map((d) => (
+                                <li key={d.file}>
+                                  <a href={d.file} download className="group flex items-start gap-2.5">
+                                    <span className={`${headFont.className} mt-0.5 rounded-md bg-olive px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white`}>{d.format ?? "File"}</span>
+                                    <span className="min-w-0">
+                                      <span className="font-semibold text-navy group-hover:underline">{d.label}</span>
+                                      {d.note && <span className="mt-0.5 block text-[13px] leading-snug text-[#6B7482]">{d.note}</span>}
+                                    </span>
+                                  </a>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+
                         {/* Progressive disclosure: the full run */}
                         {m && (m.steps.length > 0 || m.materialsAndPreparation.length > 0) && (
                           <details className="group mt-4">

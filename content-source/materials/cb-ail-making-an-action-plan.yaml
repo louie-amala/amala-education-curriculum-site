@@ -166,6 +166,11 @@ objectiveIds:
 relatedSlugs:
 - cb-ail-managing-time-and-priorities
 - cb-ail-finding-help-and-resources
+downloads:
+- label: Action Plan
+  file: /downloads/agency-in-learning-action-plan.docx
+  format: Word
+  note: Instructions, a worked example, and a blank template. Reusable for any goal, and also in the student workbook.
 sourceRefs:
 - agency-in-learning.yaml
 - ail-making-an-action-plan.yaml

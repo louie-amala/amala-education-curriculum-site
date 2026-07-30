@@ -561,6 +561,11 @@ export function validateGraph(): ValidationReport {
     ) {
       errors.push(`Material "${m.slug}" diagram points to missing file "${m.diagram.src}".`);
     }
+    for (const d of m.downloads) {
+      if (d.file.startsWith("/") && !existsSync(join(process.cwd(), "public", d.file))) {
+        errors.push(`Material "${m.slug}" download "${d.label}" points to missing file "${d.file}".`);
+      }
+    }
   }
 
   const termSlugs = new Set(glossaryTerms.map((t) => t.slug));
