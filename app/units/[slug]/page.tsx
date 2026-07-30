@@ -34,6 +34,17 @@ const KIND_LABEL: Record<string, string> = {
   assessment: "Assessment",
 };
 
+const LEAD_LABEL: Record<string, string> = {
+  "facilitator-led": "You lead",
+  shared: "Shared",
+  "learner-led": "Learners lead",
+};
+const LEAD_STYLE: Record<string, string> = {
+  "facilitator-led": "bg-navy/10 text-navy",
+  shared: "bg-teal/15 text-teal",
+  "learner-led": "bg-olive/15 text-[#6E7A2E]",
+};
+
 // Parse inline [label](href) links in a single line (e.g. the Picture Cards pack reference).
 function inline(s: string): React.ReactNode {
   const re = /\[([^\]]+)\]\(([^)]+)\)/g;
@@ -115,6 +126,13 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
           </section>
         )}
 
+        {u.deliveryApproach && (
+          <section className="mt-8 rounded-2xl border border-navy/15 bg-navy/[0.04] p-6">
+            <p className={`${eyebrow} text-navy`}>How this unit hands over control</p>
+            <div className="mt-2 text-[15px] leading-relaxed text-[#3C4655]"><Prose text={u.deliveryApproach} /></div>
+          </section>
+        )}
+
         {/* In this unit — overview */}
         <section className="mt-10">
           <p className={`${eyebrow} text-[#8A93A1]`}>In this unit</p>
@@ -142,7 +160,14 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
           const ind = phase.blocks.reduce((a, b) => a + b.independentHours, 0);
           return (
             <section key={pi} id={`phase-${pi + 1}`} className="mt-14 scroll-mt-6">
-              <p className={`${eyebrow} text-orange`}>Phase {pi + 1}</p>
+              <div className="flex items-center gap-3">
+                <p className={`${eyebrow} text-orange`}>Phase {pi + 1}</p>
+                {phase.lead && (
+                  <span className={`${headFont.className} rounded-full px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wide ${LEAD_STYLE[phase.lead] ?? ""}`}>
+                    {LEAD_LABEL[phase.lead] ?? phase.lead}
+                  </span>
+                )}
+              </div>
               <h2 className={`${headFont.className} mt-1.5 text-[26px] font-bold leading-tight text-navy`}>{phase.title}</h2>
               {objective && (
                 <p className="mt-2 text-sm text-[#6B7482]">

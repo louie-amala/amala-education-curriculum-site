@@ -20,8 +20,17 @@ summary: >-
   oral and visual delivery with drawing and translation takes longer than it first appears.
 totalFacilitatedHours: 30
 totalIndependentHours: 20
+deliveryApproach: >-
+  This unit deliberately hands over control as it goes, because you cannot build a self-directed
+  learner by directing them the whole way. Early on you lead: you set up a safe space and run the first
+  activities. In the middle it is shared: learners choose and shape their own goals while you guide. Later
+  the learners lead: they drive and pursue their own goals while you step back. Release control gradually
+  and safely. Some learners need more structure for longer, and that is fine. Autonomy is offered, never
+  imposed: if a learner flounders without structure, give them more support, not less, and never withdraw
+  help as a test.
 phases:
   - title: "Getting started"
+    lead: facilitator-led
     summary: >-
       Build a safe, warm learning space and set up the learning book that runs through the whole
       course. Learners meet the big idea: here, a lot is chosen for you, but your own learning is
@@ -66,6 +75,7 @@ phases:
           setting and pursuing goals, and mark honestly where they are now on Amala's growth path, then
           revisit it in the final phase to see how they have moved.
   - title: "Understand yourself as a learner"
+    lead: shared
     objectiveId: agency-in-learning--o1
     summary: >-
       Learners build a Learner Profile: proof that their ability can grow, a picture of their strengths
@@ -91,6 +101,7 @@ phases:
         independentHours: 1
         independentTask: "Over the next few days, notice when and where you focus best, and mark it on your workbook picture-clock."
   - title: "Set clear, meaningful learning goals"
+    lead: shared
     objectiveId: agency-in-learning--o2
     summary: >-
       Learners turn their Learner Profile into one small, clear learning goal they care about, broken
@@ -115,6 +126,7 @@ phases:
         independentHours: 1.5
         independentTask: "Take your first step, and be ready to say what happened."
   - title: "Plan and take deliberate steps"
+    lead: shared
     objectiveId: agency-in-learning--o3
     summary: >-
       Learners turn their goal into a small action plan, protect a little time for it, and find the
@@ -150,6 +162,7 @@ phases:
           20 independent hours mostly live, so protect it and keep the check-ins going.
         independentTask: "Keep taking small steps towards your goal, and mark each one in your learning book."
   - title: "Track progress, use feedback, and reflect"
+    lead: learner-led
     objectiveId: agency-in-learning--o4
     summary: >-
       Learners use their learning book to see their progress, seek and use feedback, and reflect on how
@@ -178,6 +191,7 @@ phases:
           towards a goal they set themselves, which is the evidence of self-directed learning.
         independentTask: "Keep taking steps and marking your book, and change your plan if a step is not working."
   - title: "Celebrate and look ahead"
+    lead: learner-led
     summary: >-
       Learners look back over the whole course, celebrate and share their growth, and set one goal to
       keep going with. On Learning Bridge+ this is where the educator gathers the evidence to judge the
