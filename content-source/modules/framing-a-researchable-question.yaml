@@ -1,0 +1,26 @@
+# Skill module 1 of the "Investigating real-world issues" competency module.
+id: mod-framing-a-researchable-question
+slug: framing-a-researchable-question
+access: public
+grain: skill
+title: Framing a researchable question
+competencyCode: FSI1
+parentModuleSlug: investigating-real-world-issues
+skill:
+  label: Frame a real-world challenge into a researchable question
+  description: >-
+    Turn a broad concern into a focused question research can actually answer — defining the
+    challenge, mapping who and what is involved, and separating what is already known from what still
+    needs finding out.
+summary: >-
+  Where every investigation starts: scoping a broad, real-world concern down to a specific question
+  the cohort can research, and mapping the people and factors connected to it.
+agencyNote: >-
+  A sharp question is the first act of agency in research — it decides what a learner will come to
+  understand, and keeps a big, overwhelming issue small enough to act on.
+materialSlugs:
+  - dc-importance-of-research
+  - dc-defining-the-problem
+  - rp-choosing-a-research-question
+  - stakeholder-community-mapping
+  - dc-creating-personas

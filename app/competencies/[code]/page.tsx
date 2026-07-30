@@ -7,8 +7,11 @@ import {
   competencies,
   getArea,
   getCompetencyByCode,
+  getCompetencyModulesForCode,
   getEvidenceForCompetency,
   getMaterialsForCompetencyCode,
+  getModuleMaterials,
+  getSkillModulesFor,
   proficiencyScale,
 } from "@/lib/content";
 import { areaStyle, creditBadge } from "@/lib/ui";
@@ -32,6 +35,7 @@ export default async function CompetencyPage({ params }: { params: Promise<{ cod
   const s = areaStyle(comp.areaId);
   const evidence = getEvidenceForCompetency(comp.code);
   const materials = getMaterialsForCompetencyCode(comp.code);
+  const competencyModulesForComp = getCompetencyModulesForCode(comp.code);
 
   return (
     <main className="mx-auto max-w-4xl px-6 py-12">
@@ -122,6 +126,60 @@ export default async function CompetencyPage({ params }: { params: Promise<{ cod
           </>
         )}
       </section>
+
+      {/* Modules: the competency broken into its component skills */}
+      {competencyModulesForComp.length > 0 && (
+        <section className="mt-10">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">
+            Build it skill by skill
+          </h2>
+          <p className="mt-1 max-w-2xl text-sm text-dark-navy/70">
+            A module view of this competency: the same materials, regrouped into the specific skills
+            that make it up — a finer grain than a course.
+          </p>
+          {competencyModulesForComp.map((mod) => {
+            const skills = getSkillModulesFor(mod);
+            return (
+              <div
+                key={mod.slug}
+                className={`mt-4 rounded-xl border-l-4 ${s.border} border-y border-r border-cool-grey/20 bg-white p-5 shadow-sm`}
+              >
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className={`rounded px-2 py-0.5 text-xs font-medium ${s.bg} ${s.text}`}>
+                    Competency module
+                  </span>
+                  <span className="text-xs text-cool-grey">{skills.length} skills</span>
+                </div>
+                <h3 className="mt-2 font-heading text-lg font-semibold text-dark-navy">
+                  <Link href={`/modules/${mod.slug}`} className="hover:text-navy hover:underline">
+                    {mod.title}
+                  </Link>
+                </h3>
+                <ol className="mt-3 space-y-2">
+                  {skills.map((sk, i) => (
+                    <li key={sk.slug}>
+                      <Link
+                        href={`/modules/${sk.slug}`}
+                        className="group flex items-baseline gap-3 rounded-lg border border-cool-grey/15 bg-paper/60 px-3 py-2 transition hover:border-navy/30 hover:bg-white"
+                      >
+                        <span className={`w-4 shrink-0 font-heading text-sm font-bold ${s.text}`}>
+                          {i + 1}
+                        </span>
+                        <span className="flex-1 text-sm font-medium text-dark-navy group-hover:underline">
+                          {sk.title}
+                        </span>
+                        <span className="shrink-0 text-xs tabular-nums text-cool-grey">
+                          {getModuleMaterials(sk).length}
+                        </span>
+                      </Link>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            );
+          })}
+        </section>
+      )}
 
       {/* Facilitation materials that build this competency */}
       {materials.length > 0 && (

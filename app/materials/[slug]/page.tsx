@@ -9,6 +9,7 @@ import {
   getCompetencyByCode,
   getEvidenceConditionsForMaterial,
   getMaterial,
+  getModulesForMaterial,
   getObjectiveById,
   getPrinciple,
   materials,
@@ -33,6 +34,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
   if (!m) notFound();
   const t = typeMeta(m.type);
   const conditions = getEvidenceConditionsForMaterial(m);
+  const inModules = getModulesForMaterial(m.slug);
 
   // Plan glossary marking in reading order so each term links once per page.
   const usedTerms = new Set<string>();
@@ -381,6 +383,28 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
           <div className="mt-3 rounded-lg border border-cool-grey/20 bg-white p-5">
             <Prose text={m.educatorContent} />
           </div>
+        </section>
+      )}
+
+      {/* Part of these modules (skill / competency modules) */}
+      {inModules.length > 0 && (
+        <section className="mt-10">
+          <h2 className="text-sm font-semibold text-dark-navy">Part of these modules</h2>
+          <ul className="mt-2 flex flex-wrap gap-2">
+            {inModules.map((mod) => (
+              <li key={mod.slug}>
+                <Link
+                  href={`/modules/${mod.slug}`}
+                  className="inline-flex items-center gap-1.5 rounded-full border border-cool-grey/25 bg-white px-3 py-1 text-sm text-dark-navy transition hover:border-navy/40 hover:text-navy"
+                >
+                  <span className="text-[10px] font-semibold uppercase tracking-wide text-cool-grey">
+                    {mod.grain === "competency" ? "Competency" : "Skill"}
+                  </span>
+                  {mod.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 

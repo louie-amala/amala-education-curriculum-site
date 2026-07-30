@@ -1,0 +1,44 @@
+# Competency module — the first test of the modules layer (see lib/schema.ts ModuleSchema).
+# Groups the FSI1 materials at a finer grain than the Research Project course: the whole
+# competency "Investigate real-world issues" broken into the five skills that make it up.
+# It is a cross-cutting competency path (materials → skill → competency); it does NOT replace the
+# course, which still develops FSI1 through its objectives.
+id: mod-investigating-real-world-issues
+slug: investigating-real-world-issues
+access: public
+grain: competency
+title: Investigating real-world issues
+competencyCode: FSI1
+summary: >-
+  The full research cycle of FSI1, broken into the five skills that make it up — framing a
+  question, conducting primary research, conducting secondary research, evaluating evidence, and
+  communicating insights. Work the skill modules in order for a first, guided investigation, or drop
+  into a single skill to strengthen one part of the cycle.
+agencyNote: >-
+  Investigating a real-world issue turns concern into understanding you can act on: it replaces
+  assumption with evidence. A young person who investigates a challenge in their own community and
+  produces evidence-based insight is already making an impactful contribution — and building the
+  capability to shape their own future pathways. Research is where agency begins.
+# Ordered skills. Together they cover the FSI1 goal: "conduct primary and secondary research into
+# challenges affecting people and the planet to develop actionable insights."
+skillModuleSlugs:
+  - framing-a-researchable-question
+  - conducting-primary-research
+  - conducting-secondary-research
+  - evaluating-evidence-and-building-insights
+  - communicating-insights
+sourceNotes:
+  - >-
+    Prototype of the modules layer. The five skills mirror the Research Project course objectives
+    (frame → gather → evaluate → communicate), but regroup the shared FSI1 material library rather
+    than a single course's objectives, so the same skills can be reused by other courses that develop
+    FSI1.
+  - >-
+    The four mental-health context materials tagged FSI1 (dc-intro-mental-health,
+    dc-science-of-mental-health, dc-global-concerns-mental-health, dc-context-mental-health) are
+    challenge-topic context for a specific edition, not research-skill materials, so they are held out
+    of these generic skill modules.
+  - >-
+    "Evaluating evidence and building insights" and "Conducting secondary research" are still
+    thin (1–2 materials); a full authoring pass would add data-analysis and pattern-finding activities
+    (cf. the ATS1/APS3 stretch competencies on Research Project objective 3).

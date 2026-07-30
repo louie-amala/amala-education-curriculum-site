@@ -1,0 +1,22 @@
+# Skill module 5 of the "Investigating real-world issues" competency module.
+id: mod-communicating-insights
+slug: communicating-insights
+access: public
+grain: skill
+title: Communicating insights
+competencyCode: FSI1
+parentModuleSlug: investigating-real-world-issues
+skill:
+  label: Communicate actionable insights to an audience
+  description: >-
+    Make insight usable by others — structuring findings into a clear, evidence-based account,
+    choosing a format that fits the audience, and presenting so people can act on what was found.
+summary: >-
+  Closing the loop: turning an investigation into something an audience can understand and act on — a
+  report, poster, presentation, or short video — and standing behind it.
+agencyNote: >-
+  Insight only becomes change when others can act on it. Communicating findings to peers and
+  community members is how a learner's research contributes back to the community it came from.
+materialSlugs:
+  - rp-writing-a-research-report
+  - challenge-research-report-and-presentation

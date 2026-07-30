@@ -8,6 +8,7 @@ import type { SearchKind, SearchRecord } from "@/lib/content";
 // Order groups appear in the results.
 const KIND_ORDER: SearchKind[] = [
   "Material",
+  "Module",
   "Course",
   "Competency",
   "Objective",
@@ -18,6 +19,7 @@ const KIND_ORDER: SearchKind[] = [
 
 const KIND_GROUP_LABEL: Record<SearchKind, string> = {
   Material: "Materials",
+  Module: "Modules",
   Course: "Courses",
   Competency: "Competencies",
   Objective: "Objectives",
@@ -28,6 +30,7 @@ const KIND_GROUP_LABEL: Record<SearchKind, string> = {
 
 const BADGE_CLASS: Record<SearchKind, string> = {
   Material: "bg-teal/10 text-teal",
+  Module: "bg-plum/10 text-plum",
   Course: "bg-navy/10 text-navy",
   Competency: "bg-olive/15 text-olive",
   Objective: "bg-dark-navy/10 text-dark-navy",

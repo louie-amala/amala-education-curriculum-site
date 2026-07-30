@@ -1,0 +1,22 @@
+# Skill module 4 of the "Investigating real-world issues" competency module.
+id: mod-evaluating-evidence-and-building-insights
+slug: evaluating-evidence-and-building-insights
+access: public
+grain: skill
+title: Evaluating evidence and building insights
+competencyCode: FSI1
+parentModuleSlug: investigating-real-world-issues
+skill:
+  label: Weigh evidence and turn it into actionable insight
+  description: >-
+    Move from raw findings to insight — judging the credibility of sources, organising data so
+    patterns show, and distilling a small number of clear, evidence-based, actionable insights.
+summary: >-
+  The analytical heart of the cycle: evaluating how much to trust each source, then turning a pile of
+  findings into a few actionable insights rather than just a summary of what was found.
+agencyNote: >-
+  Judging evidence and naming what it means is where a learner stops being a collector of information
+  and becomes someone whose conclusions can guide action.
+materialSlugs:
+  - evidence-log-and-source-evaluation
+  - dc-creating-insight-statements

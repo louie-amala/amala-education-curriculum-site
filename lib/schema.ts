@@ -375,6 +375,9 @@ export const UnitPhaseSchema = z.object({
   // The course objective this phase develops. Validated against objective ids in validateGraph().
   objectiveId: z.string().nullable().optional(),
   summary: z.string().nullable().optional(),
+  // How much the learner leads in this phase, tracing the deliberate release of control (from
+  // facilitator-led, through shared, to learner-led) by which agency is grown.
+  lead: z.enum(["facilitator-led", "shared", "learner-led"]).nullable().optional(),
   blocks: z.array(UnitBlockSchema).default([]),
 });
 
@@ -392,6 +395,9 @@ export const UnitSchema = z.object({
   // Total hours this component takes, split facilitated / independent (e.g. 30 + 20 = 50).
   totalFacilitatedHours: z.number(),
   totalIndependentHours: z.number(),
+  // A short note on the delivery approach for the whole unit, e.g. how it deliberately hands over
+  // control from facilitator-led to learner-led (and the cautions in doing so).
+  deliveryApproach: z.string().nullable().optional(),
   phases: z.array(UnitPhaseSchema).default([]),
   // Editable downloadable files for this unit (facilitator plan, workbook, slides). `file` is a path
   // under public/, whose existence is checked at build time in validateGraph().
@@ -411,6 +417,44 @@ export const UnitSchema = z.object({
 export type UnitBlock = z.infer<typeof UnitBlockSchema>;
 export type UnitPhase = z.infer<typeof UnitPhaseSchema>;
 export type Unit = z.infer<typeof UnitSchema>;
+
+// ---- Modules (competency / skill modules) ----
+// A Module groups materials at a FINER grain than a course, around the development of one framework
+// competency. It is a cross-cutting path — materials → skill → competency — that sits alongside the
+// existing material → objective → course edges, not a replacement for them. Two grains share one
+// schema (house style — cf. one ProgrammeSchema for course- and component-based programmes):
+//   - grain "competency": develops a whole competency (e.g. FSI1); made of ordered skill modules.
+//   - grain "skill":       develops one specific skill of that competency (e.g. "Conduct primary
+//                          research"); made of ordered materials, and rolls up into a competency module.
+export const ModuleGrainSchema = z.enum(["skill", "competency"]);
+
+export const ModuleSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  access: AccessSchema.optional(),
+  grain: ModuleGrainSchema,
+  title: z.string(),
+  summary: z.string(),
+  // The framework competency this module develops. For a competency module, THE competency; for a
+  // skill module, the parent competency the skill belongs to. Validated against the framework in
+  // validateGraph() (competency-code resolution + skill/parent grain agreement).
+  competencyCode: z.string(),
+  // Skill modules only: the specific skill, phrased as a capability the learner gains.
+  skill: z.object({ label: z.string(), description: z.string() }).optional(),
+  // Competency modules only: the ordered skill modules that make it up (skill-module slugs).
+  skillModuleSlugs: z.array(z.string()).default([]),
+  // Skill modules only: the competency module it rolls up into (back-link, optional).
+  parentModuleSlug: z.string().nullable().optional(),
+  // Ordered materials that make up this module (material slugs). Skill modules carry these directly;
+  // a competency module may also carry its own framing/consolidation materials.
+  materialSlugs: z.array(z.string()).default([]),
+  // How working through this module builds agency for positive change (the site's spine concept).
+  agencyNote: z.string().nullable().optional(),
+  sourceNotes: z.array(z.string()).default([]),
+});
+
+export type ModuleGrain = z.infer<typeof ModuleGrainSchema>;
+export type Module = z.infer<typeof ModuleSchema>;
 
 // ---- Glossary (§4.4) ----
 export const GlossaryCategorySchema = z.enum(["curriculum-system", "content", "assessment"]);

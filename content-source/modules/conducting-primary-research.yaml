@@ -1,0 +1,27 @@
+# Skill module 2 of the "Investigating real-world issues" competency module.
+# This is the user's worked example of a Skill Module.
+id: mod-conducting-primary-research
+slug: conducting-primary-research
+access: public
+grain: skill
+title: Conducting primary research
+competencyCode: FSI1
+parentModuleSlug: investigating-real-world-issues
+skill:
+  label: Plan and conduct ethical primary research
+  description: >-
+    Gather first-hand evidence from people and places — choosing a method, designing simple
+    instruments (interviews, surveys, observation), and collecting data ethically, with consent,
+    privacy, and the safety of participants front of mind.
+summary: >-
+  Getting evidence straight from the community: planning the research, designing interview and survey
+  instruments, and gathering data ethically from the people closest to the challenge.
+agencyNote: >-
+  Primary research puts learners in direct, respectful contact with their community — listening to
+  people affected by the challenge and treating their perspectives as legitimate evidence.
+materialSlugs:
+  - rp-planning-your-research
+  - dc-being-an-ethical-researcher
+  - community-mapping-and-empathy-interviews
+  - dc-designing-survey-questions
+  - dc-expert-interview-preparation

@@ -8,6 +8,7 @@ import {
   CourseSchema,
   FacilitationMaterialSchema,
   GlossaryTermSchema,
+  ModuleSchema,
   PrincipleSchema,
   ProficiencyScaleSchema,
   ProgrammeSchema,
@@ -18,6 +19,7 @@ import {
   type Course,
   type FacilitationMaterial,
   type GlossaryTerm,
+  type Module,
   type Objective,
   type Principle,
   type ProficiencyScale,
@@ -110,11 +112,19 @@ function loadUnits(): Unit[] {
   );
 }
 
+function loadModules(): Module[] {
+  if (!existsSync(join(ROOT, "modules"))) return [];
+  return listYaml("modules").map((f) =>
+    parseWith(ModuleSchema, `modules/${f}`, readYaml("modules", f)),
+  );
+}
+
 export const courses: Course[] = loadCourses();
 export const programmes: Programme[] = loadProgrammes();
 export const materials: FacilitationMaterial[] = loadMaterials();
 export const glossaryTerms: GlossaryTerm[] = loadGlossary();
 export const units: Unit[] = loadUnits();
+export const modules: Module[] = loadModules();
 
 // ---- objectives as addressable entities (id = `<courseId>--o<n>`) ----
 export interface ObjectiveEntity {
@@ -303,6 +313,38 @@ export function getEvidenceConditionsForMaterial(
     }
   }
   return byCode;
+}
+
+// ---- modules (competency / skill modules) ----
+// Modules tagged with an `access` other than public still load; visibility filtering is a UI concern.
+const moduleBySlug = new Map(modules.map((m) => [m.slug, m]));
+export const competencyModules = modules.filter((m) => m.grain === "competency");
+export const skillModules = modules.filter((m) => m.grain === "skill");
+
+export function getModule(slug: string) {
+  return moduleBySlug.get(slug);
+}
+// Competency modules that develop a given framework competency code.
+export function getCompetencyModulesForCode(code: string): Module[] {
+  return competencyModules.filter((m) => m.competencyCode === code);
+}
+// The ordered skill modules that make up a competency module.
+export function getSkillModulesFor(mod: Module): Module[] {
+  return mod.skillModuleSlugs
+    .map((s) => moduleBySlug.get(s))
+    .filter((m): m is Module => Boolean(m));
+}
+// The materials a module directly sequences.
+export function getModuleMaterials(mod: Module): FacilitationMaterial[] {
+  return mod.materialSlugs
+    .map((s) => materialBySlug.get(s))
+    .filter((m): m is FacilitationMaterial => Boolean(m));
+}
+// Every module (skill or competency) that includes a given material.
+export function getModulesForMaterial(slug: string): Module[] {
+  return modules.filter(
+    (m) => m.materialSlugs.includes(slug) || getSkillModulesFor(m).some((s) => s.materialSlugs.includes(slug)),
+  );
 }
 
 // ---- glossary + term matching (§4.4) ----
@@ -621,12 +663,59 @@ export function validateGraph(): ValidationReport {
     }
   }
 
+  for (const mod of modules) {
+    if (!competencyByCode.has(mod.competencyCode)) {
+      errors.push(`Module "${mod.slug}" develops unknown competency code "${mod.competencyCode}".`);
+    }
+    for (const s of mod.materialSlugs) {
+      if (!materialBySlug.has(s)) {
+        errors.push(`Module "${mod.slug}" references unknown material "${s}".`);
+      }
+    }
+    if (mod.grain === "skill") {
+      if (!mod.skill) {
+        warnings.push(`Skill module "${mod.slug}" has no skill{} label/description.`);
+      }
+      if (mod.skillModuleSlugs.length > 0) {
+        errors.push(`Skill module "${mod.slug}" lists skillModuleSlugs (only competency modules may).`);
+      }
+      if (mod.parentModuleSlug) {
+        const parent = moduleBySlug.get(mod.parentModuleSlug);
+        if (!parent) {
+          errors.push(`Skill module "${mod.slug}" names unknown parent module "${mod.parentModuleSlug}".`);
+        } else if (parent.grain !== "competency") {
+          errors.push(`Skill module "${mod.slug}" parent "${mod.parentModuleSlug}" is not a competency module.`);
+        } else if (!parent.skillModuleSlugs.includes(mod.slug)) {
+          warnings.push(`Skill module "${mod.slug}" names parent "${parent.slug}" but is not listed in its skillModuleSlugs.`);
+        }
+      }
+    } else {
+      // competency module
+      if (mod.skill) {
+        warnings.push(`Competency module "${mod.slug}" carries a skill{} label (skill modules only).`);
+      }
+      for (const s of mod.skillModuleSlugs) {
+        const child = moduleBySlug.get(s);
+        if (!child) {
+          errors.push(`Competency module "${mod.slug}" references unknown skill module "${s}".`);
+        } else if (child.grain !== "skill") {
+          errors.push(`Competency module "${mod.slug}" lists "${s}", which is not a skill module.`);
+        } else if (child.competencyCode !== mod.competencyCode) {
+          warnings.push(
+            `Competency module "${mod.slug}" (${mod.competencyCode}) includes skill module "${s}" whose competency is "${child.competencyCode}".`,
+          );
+        }
+      }
+    }
+  }
+
   return { errors, warnings };
 }
 
 // ---- site-wide search index (built once, embedded in the /search page) ----
 export type SearchKind =
   | "Material"
+  | "Module"
   | "Course"
   | "Competency"
   | "Objective"
@@ -697,6 +786,19 @@ export function getSearchIndex(): SearchRecord[] {
       subtitle: clip(c.strapline || c.purpose),
       url: `/courses/${c.slug}`,
       keywords: c.programmes.join(" "),
+    });
+  }
+
+  for (const mod of modules) {
+    const comp = competencyByCode.get(mod.competencyCode);
+    records.push({
+      id: `module:${mod.slug}`,
+      kind: "Module",
+      kindLabel: mod.grain === "competency" ? "Competency module" : "Skill module",
+      title: mod.skill?.label ?? mod.title,
+      subtitle: clip(mod.summary),
+      url: `/modules/${mod.slug}`,
+      keywords: [mod.competencyCode, comp?.title, mod.grain, "module"].filter(Boolean).join(" "),
     });
   }
 

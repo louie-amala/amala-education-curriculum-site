@@ -1,0 +1,21 @@
+# Skill module 3 of the "Investigating real-world issues" competency module.
+id: mod-conducting-secondary-research
+slug: conducting-secondary-research
+access: public
+grain: skill
+title: Conducting secondary research
+competencyCode: FSI1
+parentModuleSlug: investigating-real-world-issues
+skill:
+  label: Find and use credible secondary sources
+  description: >-
+    Locate what others have already found out about the challenge — searching for and selecting
+    secondary sources, and recording them systematically so they can be weighed and cited later.
+summary: >-
+  Standing on what is already known: finding secondary sources on the challenge and logging them so
+  the evidence can be evaluated and drawn on.
+agencyNote: >-
+  Secondary research lets learners connect their local challenge to wider knowledge, so their
+  insights are informed by more than what they can see from where they stand.
+materialSlugs:
+  - dc-secondary-research-methods

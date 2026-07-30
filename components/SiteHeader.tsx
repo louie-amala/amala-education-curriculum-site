@@ -4,6 +4,7 @@ import { HeaderSearch } from "@/components/HeaderSearch";
 const NAV = [
   { href: "/programmes", label: "Programmes" },
   { href: "/courses", label: "Courses" },
+  { href: "/modules", label: "Modules" },
   { href: "/materials", label: "Materials" },
   { href: "/competencies", label: "Competencies" },
   { href: "/foundations", label: "Foundations" },
