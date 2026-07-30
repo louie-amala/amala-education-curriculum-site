@@ -1,0 +1,125 @@
+# English for Impact — My Voice (Unit 1) teaching activity. Vocabulary + reading focus.
+# Source: LLL Course Guide Unit 1 Key Vocabulary + Reading focus (pp. 26).
+id: efi-mv-words-about-me
+slug: efi-mv-words-about-me
+access: public
+type: activity
+title: "Words about me: identity vocabulary and first reading"
+summary: >-
+  Learners build the high-frequency vocabulary of personal identity — name, age, country, city,
+  language, and everyday nouns and verbs — and practise reading it by matching words to pictures and
+  reading short phrases about themselves.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Word–picture matching and reading short phrases work well in pairs and small groups,
+    where learners can say the words aloud and help each other read.
+- context: independent
+  how: >-
+    A good fit for independent practice with a picture word list and the Phonics Table: learners match,
+    read, and copy at their own pace. Ask them to read a few phrases aloud to a peer or mentor to check
+    pronunciation.
+duration: "45–60 min facilitated, plus independent practice"
+grouping: "Pairs and small groups; works with 10–35 learners"
+whatLearnersDo:
+- Learn high-frequency identity words — name, age, country, city, language — and everyday nouns (student, teacher, friend, family).
+- Learn the high-frequency verbs am, is, are, live, like, go, have, and the words I, you, he, she, my.
+- Match words to pictures and to their own information.
+- Read short phrases and simple sentences about personal identity.
+materialsAndPreparation:
+- Picture cards or a picture word list for the key vocabulary (see the "Key vocabulary and sentence frames" resource).
+- Short phrase cards or a simple text with personal information to read (e.g. "I am a student.", "I am from…").
+- Each learner's Phonics Table and a place to keep new words.
+facilitationNotes: |
+  Vocabulary sticks when it is meaningful and used, not just listed. Teach the identity words learners
+  will actually use to introduce themselves, and let them connect each word to their own life — their
+  country, their city, their languages. Pair every new word with a picture and with the learner's own
+  example. Reading here is early: match words to images first, then read short, familiar phrases built
+  from the phonics they already know. Welcome translanguaging — writing the Home Language word beside
+  the English one is a legitimate memory aid, not cheating. Keep the pace up; these learners read
+  already and are mapping known meanings to new words.
+steps:
+- title: "Meet the identity words"
+  duration: "15–18 min"
+  guidance: |
+    Introduce the identity vocabulary with pictures and your own examples: name, age, country, city,
+    language, and the nouns student, teacher, friend, family. Say each word, have learners say it, and
+    invite each learner to give their own answer ("My country is…"). Learners record the words with a
+    picture and, if they like, the Home Language word.
+  keyPrompts:
+  - What is this word? What is your own answer for it?
+  - Which languages do you speak? What is your city?
+  watchOuts:
+  - Words taught in isolation are quickly forgotten; anchor each to the learner's own information and a picture.
+  adaptation: |
+    No printed pictures? Learners draw a quick symbol for each word. The drawing is the memory hook.
+- title: "Match words to pictures and to you"
+  duration: "12–15 min"
+  guidance: |
+    In pairs, learners match word cards to picture cards, then match words to their own true
+    information. Bring in the high-frequency verbs (am, is, are, live, like, go, have) and the words I,
+    you, he, she, my as they come up. Keep it active — sorting, pointing, saying.
+  keyPrompts:
+  - Which picture goes with this word? How do you know?
+  - Which of these words are true for you?
+  watchOuts:
+  - Silent matching only; make sure learners say each word aloud as they match, so reading connects to sound.
+  adaptation: |
+    One set of cards per pair is enough; learners take turns. With no cards, call a word and learners
+    point to it on a shared list.
+- title: "Read short phrases about yourself"
+  duration: "15–18 min"
+  guidance: |
+    Give learners short, familiar phrases to read aloud — "I am a student.", "I am from…", "I live
+    in…", "I like…". These use the phonics and words they now know. Have them read in pairs, then read
+    a phrase that is true for them. Notice and celebrate that they are reading meaningful English.
+  keyPrompts:
+  - Read this phrase aloud — what does it mean?
+  - Which phrase is true for you? Read it to your partner.
+  watchOuts:
+  - Guessing whole phrases from memory instead of reading; point to each word so reading stays real.
+  adaptation: |
+    Write the phrases large on shared paper; learners read chorally, then individually. No handouts
+    needed.
+closing: |
+  Each learner reads aloud one true sentence about themselves and adds two new words to their Phonics
+  Table. Name the milestone: they can now read and say real information about who they are.
+agencyContribution:
+  indicators: [control-of-future-pathways, power-over-wellbeing-and-self-direction]
+  how: >-
+    The words to name who you are — your country, your languages, what you do — are the first tools for
+    participating in a new setting on your own terms. Learning to read and say them puts a learner in a
+    position to introduce and represent themselves rather than be spoken for.
+principlesForegrounded: [builds-on-identities, lifeworthy-competencies, safe-spaces]
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    Every word is anchored to the learner's own life — their country, city, and languages — and Home
+    Language words are welcomed as memory aids.
+- principle: lifeworthy-competencies
+  how: >-
+    High-frequency vocabulary and early reading are reused in every later unit and across daily life,
+    study, and work.
+- principle: safe-spaces
+  how: >-
+    Learners share only the information they choose; the activity works with whatever they are
+    comfortable saying about themselves.
+competencyCodes: [FLC3, FUS1]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Building the vocabulary and reading to express personal information is the substance of beginning to
+    communicate about oneself in English.
+- code: FUS1
+  how: >-
+    Naming their country, languages, and roles in English asks learners to put their own identity into
+    words, developing self-awareness.
+objectiveIds: [efi-my-voice--o1]
+relatedSlugs: [efi-mv-key-vocabulary-and-frames, efi-mv-alphabet-and-first-sounds, efi-mv-to-be-and-pronouns, efi-phonics-table-student]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1 Key Vocabulary + Reading focus"]
+provenanceNote: >-
+  Authored as the vocabulary-and-reading teaching activity for Unit 1 (My Voice), from the unit's Key
+  Vocabulary and Reading focus. Uses the source's identity vocabulary, high-frequency verbs and nouns,
+  and example phrases.

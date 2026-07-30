@@ -1,0 +1,119 @@
+# English for Impact — My Voice (Unit 1) teaching activity. Phonics Part 2.
+# Source: LLL Course Guide Unit 1 phonics focus + Phonics Progression Part 2 (pp. 25, 49).
+id: efi-mv-plosive-sounds
+slug: efi-mv-plosive-sounds
+access: public
+type: activity
+title: "Plosive sounds: /p/ /t/ /k/ and /b/ /d/ /g/"
+summary: >-
+  Learners meet the six plosive "stop" sounds and hear how voice separates the pairs /p–b/, /t–d/,
+  /k–g/, using minimal pairs to notice how one small change makes a different word.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. The contrasts (pen/bat, top/dog, cat/go) work best aloud in a group, where learners
+    can hear and feel the difference between a voiceless and a voiced sound and check each other.
+- context: independent
+  how: >-
+    Workable as review with a word list and the Phonics Table, but the hand-on-throat voicing check
+    and the minimal-pair listening are much stronger with a partner or audio; pair it with a later
+    speaking check.
+duration: "40–50 min facilitated, plus independent practice"
+grouping: "Whole group for sounds, then pairs for minimal pairs; works with 10–35 learners"
+whatLearnersDo:
+- Learn the six plosive sounds — voiceless /p/, /t/, /k/ and voiced /b/, /d/, /g/.
+- Feel how the same mouth shape makes two sounds depending on the voice (hand on the throat).
+- Use minimal pairs (pen/bat, top/dog, cat/go) to hear how one sound changes the word.
+- Read and build words with the new sounds and add them to their Phonics Table.
+materialsAndPreparation:
+- Picture or object pairs for minimal pairs (e.g. pen/Ben, pat/bat, tie/die, coat/goat).
+- Each learner's Phonics Table to add the new sounds.
+- "Optional: letter tiles or cards for building words."
+facilitationNotes: |
+  Plosives are made by stopping the air and releasing it. The key idea is that /p/ and /b/ (and /t–d/,
+  /k–g/) are made in the same place with the same mouth shape — the only difference is whether the
+  voice is on. Learners feel this by putting a hand on the throat: voiced sounds buzz, voiceless ones
+  do not. Some Home Languages do not separate these pairs, so expect and normalise mixing them at
+  first. Minimal pairs are the tool: hearing that pen and Ben are different words makes the sound
+  matter. Keep it playful and physical, not a lecture on phonetics.
+steps:
+- title: "Stop the air: the six plosives"
+  duration: "12–15 min"
+  guidance: |
+    Introduce each plosive by sound, showing how the air stops and releases. Do the voiceless three
+    first (/p/, /t/, /k/ — strong puff of air), then the voiced three (/b/, /d/, /g/). Have learners
+    say each and find a word they know with the sound. Add them to the Phonics Table.
+  keyPrompts:
+  - Where in your mouth does the air stop for this sound?
+  - What word do you know that starts with this sound?
+  watchOuts:
+  - Learners can't hear the difference yet; that's expected — the next steps build it, so don't rush to correction.
+  adaptation: |
+    Hold a small strip of paper in front of the mouth: it moves for the strong-air voiceless sounds and
+    barely moves for the voiced ones. No materials beyond a scrap of paper.
+- title: "Voice on, voice off"
+  duration: "10–12 min"
+  guidance: |
+    Have learners place a hand on their throat and say /p/ then /b/, /t/ then /d/, /k/ then /g/. The
+    voiced sound buzzes; the voiceless one does not. This bodily check gives learners a reliable way to
+    tell the pairs apart and to produce them. Practise switching between each pair.
+  keyPrompts:
+  - Which sound makes your throat buzz? Which one is quiet?
+  - Same mouth shape — what is the only thing you changed?
+  watchOuts:
+  - Over-aspirating or forcing the sound; keep it natural and connected to real words, not isolated drilling.
+  adaptation: |
+    Learners feel a partner's throat, or their own cheeks/nose, to sense the voicing; no equipment.
+- title: "Minimal pairs: one sound changes the word"
+  duration: "15–20 min"
+  guidance: |
+    Show minimal pairs where only the plosive changes: pen/Ben, pat/bat, tie/die, coat/goat, cap/cab.
+    Say one and have learners point to the matching picture or hold up a card; then have pairs test
+    each other. Draw out the big idea: in English, getting the final and initial sounds right changes
+    meaning, so these small differences matter.
+  keyPrompts:
+  - Did I say pen or Ben? How do you know?
+  - Which sound is at the end — is the voice on or off?
+  watchOuts:
+  - Final-sound confusion (cap vs cab); this is where meaning lives in English, so give it patient, repeated practice rather than a single correction.
+  adaptation: |
+    Two learners each hold one word of a pair; you say a word and they decide who "wins" the point.
+    Turns listening practice into a game with no materials.
+closing: |
+  Add the new sounds and a couple of example words to each Phonics Table. Recap the one big idea: same
+  mouth, voice on or off — and in English, that difference can change the whole word.
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: >-
+    Hearing and producing the sound contrasts that carry meaning in English is what lets a learner be
+    understood and understand others accurately. Building this early gives learners reliable control
+    over their own reading and speaking as they move toward further study.
+principlesForegrounded: [safe-spaces, builds-on-identities, lifeworthy-competencies]
+principleAlignment:
+- principle: safe-spaces
+  how: >-
+    Mixing up the pairs at first is named as normal and expected, so learners can experiment aloud
+    without fear of getting it wrong.
+- principle: builds-on-identities
+  how: >-
+    Learners compare the sounds to those in their Home Language(s), using what they already know as the
+    bridge to the new contrasts.
+- principle: lifeworthy-competencies
+  how: >-
+    Accurate sound discrimination underpins the reading, spelling, and clear speech learners use across
+    every later unit and in life.
+competencyCodes: [FLC3]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Distinguishing and producing the sound contrasts that change meaning is essential to being
+    understood and to understanding others — the substance of communication.
+objectiveIds: [efi-my-voice--o1]
+relatedSlugs: [efi-phonics-table, efi-phonics-table-student, efi-phonics-progression, efi-mv-alphabet-and-first-sounds, efi-mv-words-about-me]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1 phonics focus + §10c Part 2"]
+provenanceNote: >-
+  Authored as the Part 2 phonics teaching activity for Unit 1 (My Voice), from the unit's phonics focus
+  and the Phonics Progression (plosives). Uses the source's minimal-pair contrasts (pen/bat, top/dog,
+  cat/go) and the voiced/voiceless framing.

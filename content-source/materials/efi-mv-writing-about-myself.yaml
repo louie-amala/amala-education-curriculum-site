@@ -1,0 +1,122 @@
+# English for Impact — My Voice (Unit 1) teaching activity. Writing focus.
+# Source: LLL Course Guide Unit 1 Writing focus (p. 26).
+id: efi-mv-writing-about-myself
+slug: efi-mv-writing-about-myself
+access: public
+type: activity
+title: "Writing about myself"
+summary: >-
+  Learners write their first short personal statements in English — moving from single words to
+  phrases to simple sentences — using sentence frames and models to write a few true sentences about
+  who they are.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners write with the frames on display and a partner to read their sentences to;
+    reading aloud catches missing words and builds pride in the writing.
+- context: independent
+  how: >-
+    A good independent task once the frames are known: learners write a few true sentences about
+    themselves at their own pace. Ask them to read the sentences to a peer or mentor to check they
+    make sense.
+duration: "40–50 min facilitated, plus independent writing"
+grouping: "Individual writing with paired reading; works with 10–35 learners"
+whatLearnersDo:
+- Write the letters and spell high-frequency words accurately.
+- Build simple sentences using models and sentence frames.
+- Expand from single words → phrases → simple sentences.
+- Write a few short, true personal statements (name, age, country, interests).
+materialsAndPreparation:
+- The Unit 1 sentence frames and word bank on display or on a handout.
+- A simple model paragraph about yourself that learners can see (three or four short sentences).
+- Paper or the learner's workbook; the Phonics Table for spelling support.
+facilitationNotes: |
+  Writing at A1 is building sentences from parts, not composing from blank. Give learners the frames
+  and a clear model, and let them slot in their own true information. Teach the small mechanics as they
+  arise — a capital letter for names and the start of a sentence, a full stop at the end — but keep the
+  emphasis on meaning: a true sentence a reader understands is the goal. Use the word→phrase→sentence
+  build so learners see how a sentence grows. Welcome translanguaging in planning: a learner can think
+  or note in their Home Language, then write the English. Celebrate the finished few sentences — for
+  many this is the first thing they have written about themselves in English.
+steps:
+- title: "From word to phrase to sentence"
+  duration: "10–12 min"
+  guidance: |
+    Show how a sentence grows: student → a student → I am a student. Do two or three together
+    (Kenya → from Kenya → I am from Kenya; football → like football → I like football). Learners see
+    that they already have the pieces — the frame just puts them in order.
+  keyPrompts:
+  - What is the word? Now make it a phrase. Now a full sentence.
+  - What goes at the start of the sentence? At the end?
+  watchOuts:
+  - Jumping straight to sentences and stalling; the word→phrase→sentence ladder gives every learner a way in.
+  adaptation: |
+    Build the ladder on shared paper with learners calling out the pieces; no handout required.
+- title: "Write your own sentences"
+  duration: "18–22 min"
+  guidance: |
+    With the frames and word bank in view, learners write a few true sentences about themselves — name,
+    age, country, what they like. Circulate and help with spelling (point them to the Phonics Table)
+    and with capitals and full stops, but do not rewrite their meaning. Encourage them to try one
+    sentence without a frame if they are ready.
+  keyPrompts:
+  - Which frames are true for you? Write them with your own words.
+  - Can you add one more sentence about yourself?
+  watchOuts:
+  - Copying a frame without making it true; check each learner's sentences are about them.
+  adaptation: |
+    A learner who finds writing hard dictates their sentence to a partner or to you, then copies it —
+    the composing counts even if the scribing is shared.
+- title: "Read it to a partner"
+  duration: "10–12 min"
+  guidance: |
+    Learners read their sentences aloud to a partner. The reader hears whether a word is missing and
+    the writer hears their own English. Partners can ask one friendly question ("What do you like?").
+    Learners fix anything that did not sound right and keep their writing for the identity project.
+  keyPrompts:
+  - Read your sentences to your partner — do they make sense?
+  - What is one thing you could add?
+  watchOuts:
+  - Correcting a partner harshly; model kind, specific feedback ("I like this — maybe add a full stop here").
+closing: |
+  A few learners read one sentence to the group. Confirm the writing is kept for the "My Name, My
+  Voice" project. Mark the milestone: they have written true sentences about themselves in English.
+agencyContribution:
+  indicators: [control-of-future-pathways, power-over-wellbeing-and-self-direction]
+  how: >-
+    Writing about yourself — even a few sentences — is a durable act of self-representation: it can be
+    kept, shown, and built on. Gaining the ability to put your own information into written English is
+    a step toward the forms, applications, and study that further pathways require.
+principlesForegrounded: [builds-on-identities, lifeworthy-competencies, recognise-communicate-growth]
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    Learners write true statements about themselves, planning in their Home Language(s) where it helps,
+    so the writing is anchored in their own identity.
+- principle: lifeworthy-competencies
+  how: >-
+    Building simple written sentences with scaffolds is a foundational skill reused across every later
+    unit and in the writing life beyond the course.
+- principle: recognise-communicate-growth
+  how: >-
+    Seeing a sentence grow from a single word, and keeping the finished writing, lets learners
+    recognise how much they can already do.
+competencyCodes: [FLC3, FUS1]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Producing clear, true written sentences about oneself is direct practice in communicating personal
+    information in writing.
+- code: FUS1
+  how: >-
+    Choosing what to write about themselves asks learners to reflect on and represent their own
+    identity.
+objectiveIds: [efi-my-voice--o2]
+relatedSlugs: [efi-mv-key-vocabulary-and-frames, efi-mv-to-be-and-pronouns, efi-mv-project-my-name-my-voice, efi-unit1-grammar-exercises]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1 Writing focus"]
+provenanceNote: >-
+  Authored as the writing teaching activity for Unit 1 (My Voice), from the unit's writing focus
+  (writing letters and high-frequency words, building sentences from frames, expanding word → phrase →
+  sentence, writing short personal statements).

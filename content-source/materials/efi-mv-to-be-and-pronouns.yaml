@@ -1,0 +1,125 @@
+# English for Impact — My Voice (Unit 1) teaching activity. Grammar focus.
+# Source: LLL Course Guide Unit 1 Grammar focus (p. 25). Practice layer: efi-unit1-grammar-exercises.
+id: efi-mv-to-be-and-pronouns
+slug: efi-mv-to-be-and-pronouns
+access: public
+type: activity
+title: "The verb \"to be\" and subject pronouns"
+summary: >-
+  Learners build their first complete English sentences using the verb "to be" (am, is, are) and the
+  subject pronouns I, you, he, she, we, they — the pattern Subject + be + complement that lets them
+  say who and what they are.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners meet the pattern through examples about real people in the room, then
+    practise in pairs. The grammar exercises give a controlled-practice layer for individual or paired
+    work.
+- context: independent
+  how: >-
+    Workable with the grammar exercises and sentence frames as self-study, but the pattern is learned
+    faster by using it aloud; have learners bring their written sentences to a peer or mentor to say
+    and check.
+duration: "45–60 min facilitated, plus the grammar exercises"
+grouping: "Whole group for the pattern, then pairs; works with 10–35 learners"
+whatLearnersDo:
+- Learn the forms of "to be" — I am, you/we/they are, he/she/it is.
+- Match subject pronouns (I, you, he, she, we, they) to people and to the right form of "to be".
+- Build simple sentences with the pattern Subject + be + complement (I am a student. She is my friend.).
+- Meet the high-frequency verbs live, like, go, have to begin present-simple sentences (I live…, I like…).
+materialsAndPreparation:
+- The Unit 1 sentence frames and word bank (see the "Key vocabulary and sentence frames" resource).
+- The Unit 1 grammar exercises for controlled practice (see that resource).
+- Your own true example sentences about yourself and people the learners know, to model the pattern.
+facilitationNotes: |
+  This is the grammar that unlocks whole sentences, so keep the focus on building and using, not on
+  rules. Teach "to be" through real statements about real people — you, the learners, someone in the
+  room — so the pattern carries meaning from the start. The three forms (am / is / are) and matching
+  them to pronouns is the main new work; conjugation takes repetition, so expect and forgive errors.
+  Introduce the high-frequency verbs (live, like, go, have) lightly here as another way to make a
+  sentence about yourself — the deeper present-simple work comes in Unit 2. The grammar exercises are
+  the practice; use them after the pattern is clear, not as the teaching itself.
+steps:
+- title: "am, is, are — the verb \"to be\""
+  duration: "12–15 min"
+  guidance: |
+    Introduce the three forms with true statements: "I am a teacher. You are a student. She is my
+    friend. They are in class." Show the pattern that I takes am; he/she/it takes is; you/we/they take
+    are. Keep saying real sentences about people in the room so the forms attach to meaning.
+  keyPrompts:
+  - Which form of "to be" goes with "I"? With "she"? With "they"?
+  - Say a true sentence about someone here using "is" or "are".
+  watchOuts:
+  - Dropping the verb ("I student"); gently insist on the "am/is/are" — the verb is what makes it a full English sentence.
+  adaptation: |
+    Write the three forms and their pronouns large on shared paper as a reference learners can point to
+    while they build sentences. No devices needed.
+- title: "Match the pronoun"
+  duration: "10–12 min"
+  guidance: |
+    Practise replacing names with pronouns: Maria → she, Ahmed → he, Ahmed and I → we, my parents →
+    they. Use people and things in the room. Then rebuild the sentence with the pronoun and the right
+    form of "to be" (Maria is my friend → She is my friend).
+  keyPrompts:
+  - Which pronoun replaces this name or group?
+  - Now say the sentence again with the pronoun and the right form of "to be".
+  watchOuts:
+  - He/she confusion; keep practising with real, known people so the choice is meaningful.
+  adaptation: |
+    Point to people or pictures and have learners call the pronoun; a fast, no-materials oral drill.
+- title: "Build sentences about yourself"
+  duration: "15–20 min"
+  guidance: |
+    Using the sentence frames, have learners build true sentences: "I am…", "I am from…", "I am a…".
+    Then add the high-frequency verbs lightly: "I live in…", "I like…", "I have…". Learners say their
+    sentences to a partner. Follow with the grammar exercises (choose the correct form, build the
+    sentence, match the pronoun) as controlled practice.
+  keyPrompts:
+  - Say three true sentences about yourself using "am".
+  - Add one more with "live", "like", or "have".
+  watchOuts:
+  - Copying the frame without changing the meaning to their own; check each learner's sentences are true for them.
+  adaptation: |
+    Learners who cannot yet write build the sentences aloud in pairs using the frames on shared paper,
+    then copy one later.
+closing: |
+  Go round the room: each learner says one true sentence about themselves with "to be". Note how far
+  they have come — from single sounds and words to complete English sentences about who they are.
+agencyContribution:
+  indicators: [control-of-future-pathways, power-over-wellbeing-and-self-direction]
+  how: >-
+    The verb "to be" is the hinge of the first complete sentences a learner can make. Being able to
+    state who and what you are — in full, correct sentences — is the point at which a beginner can
+    represent themselves in English rather than be limited to single words.
+principlesForegrounded: [builds-on-identities, lifeworthy-competencies, safe-spaces]
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    Every sentence is a true statement about the learner or people they know, so the grammar is
+    practised on their own lives, not abstract examples.
+- principle: lifeworthy-competencies
+  how: >-
+    Subject–verb sentence building is the structural foundation of all later writing and speaking in
+    the programme and beyond.
+- principle: safe-spaces
+  how: >-
+    Errors in the new verb forms are treated as an expected part of learning, so learners build
+    sentences aloud without fear of mistakes.
+competencyCodes: [FLC3, FUS1]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Building correct, complete sentences with "to be" is the means by which learners communicate basic
+    personal information clearly.
+- code: FUS1
+  how: >-
+    The sentences learners build are statements of their own identity, so the grammar work doubles as
+    putting who they are into words.
+objectiveIds: [efi-my-voice--o2]
+relatedSlugs: [efi-unit1-grammar-exercises, efi-grammar-progression, efi-mv-key-vocabulary-and-frames, efi-mv-introduce-yourself, efi-mv-writing-about-myself]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1 Grammar focus + §10d"]
+provenanceNote: >-
+  Authored as the grammar teaching activity for Unit 1 (My Voice), from the unit's grammar focus and
+  the Grammar Progression. The eight Unit 1 grammar exercises are its controlled-practice layer.

@@ -1,0 +1,115 @@
+# English for Impact — My Voice (Unit 1) resource. A1 Can-Do self-assessment + project rubric.
+# Source: LLL Course Guide Unit 1 assessment (pp. 26-27) + §14g "I Can Now…" / §15b Can-Do checklists
+# (marked "in development" in the guide). Authored for Unit 1.
+id: efi-mv-can-do-checklist
+slug: efi-mv-can-do-checklist
+access: public
+type: resource
+title: "My Voice: \"I can now…\" checklist and project rubric"
+summary: >-
+  A learner self-assessment of what they can now do after Unit 1, written as simple "I can now…"
+  statements, plus a strength-based rubric for the identity artifact and presentation. Aligns
+  assessment to what the unit actually teaches.
+facilitationContext: [group, independent]
+primaryContext: group
+materialsAndPreparation:
+- One copy of the "I can now…" checklist per learner, to complete at the end of the unit.
+- The rubric for the educator (and learners, if you assess together) to reflect on the project and presentation.
+educatorContent: |
+  Use this at the end of Unit 1, after the project sharing. The "I can now…" checklist is a learner
+  self-assessment: it helps learners recognise their growth in accessible language and feeds their
+  growth tracking. The rubric is deliberately strength-based and low-stakes — it describes where a
+  learner is (getting started / developing / confident) rather than passing or failing them, in line
+  with the course's focus on communication over perfection and progress over a fixed level.
+
+  Assess mainly through the project and presentation, plus your observations across the unit. Focus
+  feedback on 1–3 things (here: clear communication, the verb "to be" and simple sentences, and effort
+  and growth) and always balance guidance with recognition of what the learner did well. Keep grading
+  separate from the sharing event itself, which should stay a warm, pressure-free celebration.
+
+  ## Project and presentation rubric
+
+  Look at each strand and note where the learner is now. "Developing" is a strong, expected result at
+  the end of Unit 1.
+
+  Clear communication:
+
+  - Getting started — shares a few words and needs support to be understood.
+  - Developing — introduces themselves in simple sentences that an audience can understand.
+  - Confident — introduces themselves clearly and adds extra true detail with growing ease.
+
+  Target language (verb "to be", simple sentences):
+
+  - Getting started — uses single words or frames with a lot of support.
+  - Developing — uses "to be" and simple sentence frames to make mostly correct true sentences.
+  - Confident — makes correct simple sentences, sometimes without the frame.
+
+  The artifact:
+
+  - Getting started — a few labelled words or pictures represent them.
+  - Developing — words, pictures, and simple sentences together represent who they are.
+  - Confident — a clear, personal artifact with several true sentences and meaningful images.
+
+  Effort, participation, and growth:
+
+  - Getting started — takes part with encouragement.
+  - Developing — takes part, tries new language, and shows growth across the unit.
+  - Confident — takes risks with English, supports peers, and shows clear growth.
+learnerContent: |
+  ## I can now…
+
+  Tick what you can do. It is fine if some are not ticked yet — you will keep growing.
+
+  - I can say the sounds of the letters and read simple words.
+  - I can hear the difference between sounds like /p/ and /b/.
+  - I can say my name, my age, and where I am from.
+  - I can ask someone their name and where they are from.
+  - I can read short phrases about personal information.
+  - I can write simple, true sentences about myself.
+  - I can use "I am…", "I am from…", and "I like…".
+  - I can introduce myself to other people.
+  - I can show who I am and share it with an audience.
+
+  ## My growth
+
+  - One thing I can do now that I could not do before is ______.
+  - One thing I want to get better at is ______.
+  - I feel ______ about learning English.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, control-of-future-pathways]
+  how: >-
+    Naming what they can now do, in their own words, lets learners see and own their progress rather
+    than have it judged for them. Recognising growth builds the self-belief and direction that keep a
+    learner investing in their own learning.
+principlesForegrounded: [recognise-communicate-growth, feedback-and-data, safe-spaces]
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: >-
+    The "I can now…" statements are built precisely to help learners recognise and communicate their
+    own growth in accessible language.
+- principle: feedback-and-data
+  how: >-
+    Can-Do statements and a clear rubric give learners and educators structured, flexible progress
+    information tied directly to what the unit taught.
+- principle: safe-spaces
+  how: >-
+    The rubric describes where a learner is rather than passing or failing them, and unticked "I can…"
+    statements are framed as not-yet, keeping assessment supportive.
+competencyCodes: [FUS1, FLC3]
+competencyDevelopment:
+- code: FUS1
+  how: >-
+    Reflecting on what they can now do and how they have grown develops learners' awareness of
+    themselves as learners and people.
+- code: FLC3
+  how: >-
+    The checklist and rubric are anchored to communicating personal information clearly — the unit's
+    core communicative aim.
+objectiveIds: [efi-my-voice--o3]
+relatedSlugs: [efi-mv-project-my-name-my-voice, efi-mv-introduce-yourself, efi-mv-writing-about-myself]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1 assessment + §14g/§15b"]
+provenanceNote: >-
+  Authored for Unit 1 from the unit's assessment approach (A1 Can-Do statements, strength-based
+  feedback on clear communication, target structures, effort and growth). Fills, for Unit 1, the "I Can
+  Now…" statements (§14g) and unit-aligned Can-Do checklists and rubric (§15b) that the guide marks "in
+  development".

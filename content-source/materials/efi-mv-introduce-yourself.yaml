@@ -1,0 +1,126 @@
+# English for Impact — My Voice (Unit 1) teaching activity. Speaking focus.
+# Source: LLL Course Guide Unit 1 (speaking outcomes; grammar exercises 6-7). pp. 24-26, 59-60.
+id: efi-mv-introduce-yourself
+slug: efi-mv-introduce-yourself
+access: public
+type: activity
+title: "Introduce yourself: asking and answering"
+summary: >-
+  Learners practise introducing themselves and asking simple questions of others — What is your name?
+  Where are you from? — building the confidence to speak in English through low-pressure pair and
+  whole-class talk.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    The natural home for this activity. "Ask and answer" pairs and a "find someone who" mingle give
+    every learner repeated, low-stakes speaking practice with different partners.
+- context: independent
+  how: >-
+    Speaking is hard to do alone. A learner can rehearse answers aloud and record themselves against
+    the question list, but arrange a partner or mentor conversation to complete it; the interaction is
+    the point.
+duration: "40–50 min facilitated"
+grouping: "Pairs, then whole-class mingle; works with 10–35 learners"
+whatLearnersDo:
+- Answer simple questions about themselves in complete sentences (What is your name? How old are you? Where are you from?).
+- Ask the same questions of a partner.
+- Move around the class in a "find someone who" activity, asking and answering with different people.
+- Introduce themselves to the group with growing confidence.
+materialsAndPreparation:
+- A list of the questions (What is your name? / How old are you? / Where are you from? / Are you a student? / What do you like?).
+- A "find someone who" sheet (e.g. find someone who is from another country / likes football / plays music) — see the Unit 1 grammar exercises.
+- The sentence frames and word bank on display for support.
+facilitationNotes: |
+  The single most important thing in this activity is a safe, encouraging atmosphere: at A1, speaking
+  is where learners feel most exposed, so protect it. Model each question and answer first, then let
+  learners practise in pairs before anyone speaks to the whole group. Value communication over
+  accuracy — if a learner is understood, that is success, and errors are fixed gently by re-modelling,
+  not by interrupting. Never require a learner to share more than they wish; they can give simple or
+  partial answers. Repetition with different partners is what builds fluency and confidence, so keep
+  the interactions coming.
+steps:
+- title: "Model and practise the questions"
+  duration: "12–15 min"
+  guidance: |
+    Model each question and a full answer: "What is your name? My name is… / How old are you? I am…
+    years old. / Where are you from? I am from…". Have the group repeat, then practise asking you and
+    each other. Keep answers in complete sentences using the frames, but accept and build on whatever
+    learners produce.
+  keyPrompts:
+  - How do you ask someone their name? Their country?
+  - Can you answer in a full sentence?
+  watchOuts:
+  - One-word answers only; warmly model the full sentence and invite the learner to try it, without pressure.
+  adaptation: |
+    With no handout, the questions live on shared paper or the board; the activity needs only voices.
+- title: "Ask and answer in pairs"
+  duration: "12–15 min"
+  guidance: |
+    In pairs, learners take turns asking and answering all the questions, then swap partners and repeat.
+    Circulate and encourage. The repetition across partners is what turns halting answers into fluent
+    ones. Let stronger and newer speakers pair up so beginners hear a model.
+  keyPrompts:
+  - Ask your partner three questions. Now answer theirs.
+  - Say your partner's answer back to them — did you understand it?
+  watchOuts:
+  - The same confident learners dominating; rotate partners so everyone gets equal talk time.
+  adaptation: |
+    If moving is hard, learners turn to a neighbour and repeat with the person on the other side; no
+    space needed.
+- title: "Find someone who…"
+  duration: "12–18 min"
+  guidance: |
+    Give the "find someone who" task: learners move around asking questions to find classmates who
+    match each line (is from another country, likes football, plays an instrument, is ready to learn…).
+    They write a name for each. This is a purposeful reason to ask, answer, and introduce themselves
+    many times. Close by having a few learners introduce a classmate they met.
+  keyPrompts:
+  - What question will you ask to find someone who…?
+  - Tell us about someone you met.
+  watchOuts:
+  - Learners writing names without actually asking in English; the point is the spoken exchange, so keep them talking, not just filling the sheet.
+  adaptation: |
+    In a small or seated group, run it as a circle: each learner asks the next a question and passes on.
+closing: |
+  Ask two or three learners to introduce themselves to the whole group in a few sentences. Applaud the
+  effort. Name the achievement: in one unit they can meet someone new and tell them who they are, in
+  English.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, control-of-future-pathways]
+  how: >-
+    Being able to introduce yourself and ask a stranger a question is the social key to a new place. As
+    learners gain the confidence to speak and be understood, they gain the power to make contact, ask
+    for what they need, and take part rather than stand aside.
+principlesForegrounded: [safe-spaces, collaboration, builds-on-identities]
+principleAlignment:
+- principle: safe-spaces
+  how: >-
+    Speaking is protected with modelling, pair rehearsal before public sharing, and freedom to give
+    simple or partial answers, so learners take the risk of talking in a supportive space.
+- principle: collaboration
+  how: >-
+    The activity runs on paired and whole-class interaction; learners help each other by listening,
+    responding, and modelling.
+- principle: builds-on-identities
+  how: >-
+    Learners speak about their own lives — their names, countries, and interests — so the practice is
+    grounded in who they are.
+competencyCodes: [FLC3, FUS2]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Asking and answering simple questions aloud, and introducing oneself to an audience, is direct
+    practice in communicating clearly in speech.
+- code: FUS2
+  how: >-
+    Asking classmates about themselves and listening to their answers develops attention to other
+    people, an early step toward understanding others.
+objectiveIds: [efi-my-voice--o2]
+relatedSlugs: [efi-unit1-grammar-exercises, efi-mv-to-be-and-pronouns, efi-mv-key-vocabulary-and-frames, efi-mv-project-my-name-my-voice]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1 speaking outcomes + §11a Exercises 6–7"]
+provenanceNote: >-
+  Authored as the speaking teaching activity for Unit 1 (My Voice), from the unit's speaking outcomes
+  and the "Ask and Answer" and "Find Someone Who" grammar exercises, developed into a full
+  facilitation activity.
