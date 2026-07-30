@@ -18,6 +18,17 @@ export default function CoursesIndex() {
         .filter((c): c is NonNullable<typeof c> => Boolean(c)),
     }));
 
+  // Standalone courses: authored courses not placed in any GSD stream/component or programme
+  // component (e.g. English for Impact, whose programme placement is still to be decided).
+  const placedCourseIds = new Set<string>([
+    ...programmes.flatMap((p) => p.streams.flatMap((s) => s.courses.map((c) => c.courseId))),
+    ...programmes.flatMap((p) => p.ongoingComponents.map((c) => c.courseId)),
+    ...programmes.flatMap((p) =>
+      p.components.filter((c) => c.courseSlug).map((c) => getCourse(c.courseSlug!)?.id ?? ""),
+    ),
+  ]);
+  const standaloneCourses = courses.filter((c) => !placedCourseIds.has(c.id));
+
   return (
     <main className="mx-auto max-w-5xl px-6 py-12">
       <h1 className="font-heading text-3xl font-bold text-navy">Courses</h1>
@@ -79,6 +90,22 @@ export default function CoursesIndex() {
           </ul>
         </section>
       ))}
+
+      {standaloneCourses.length > 0 && (
+        <section className="mt-12">
+          <h2 className="font-heading text-lg font-semibold text-dark-navy">Standalone courses</h2>
+          <p className="mt-1 max-w-2xl text-sm text-cool-grey">
+            Courses developed on their own, not yet placed within a programme.
+          </p>
+          <ul className="mt-3 grid gap-3 sm:grid-cols-2">
+            {standaloneCourses.map((c) => (
+              <li key={c.id}>
+                <CourseCard slug={c.slug} title={c.title} purpose={c.purpose} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
     </main>
   );
 }
