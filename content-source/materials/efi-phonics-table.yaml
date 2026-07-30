@@ -1,0 +1,72 @@
+# English for Impact resource — Part 3 §10a "Phonics Table Model".
+# Source: The Language Learning Lab "English for Impact" Course Guide (pp. 45–46).
+id: efi-phonics-table
+slug: efi-phonics-table
+access: public
+type: resource
+title: "Phonics Table"
+summary: >-
+  A cumulative sound–spelling reference chart that organises the 44 English sounds by type
+  (consonants and vowels). Learners build toward this model across the course, collecting sounds and
+  spelling patterns as they meet them in each unit.
+facilitationContext: [group, independent]
+primaryContext: group
+materialsAndPreparation:
+- One large, visible copy of the Phonics Table for the classroom wall, plus a small copy per learner if possible.
+- A plan for how learners will add to their own table over time (see the companion "Phonics Table (build your own)").
+facilitationNotes: |
+  The Phonics Table is a cumulative tool, not a one-off worksheet. Instead of memorising isolated
+  rules, learners build their understanding by adding examples from each unit, making connections
+  between sounds, spelling, and meaning. This model shows how the completed table looks; use it as an
+  ongoing reference to support reading, writing, and pronunciation across the whole course.
+
+  Sounds are grouped so learners can see patterns: stop, fricative, affricate, nasal, liquid, and
+  semi-vowel consonants; and short vowels, long vowels, vowel teams, r-controlled vowels, and
+  diphthongs. The order sounds are taught in follows the Phonics Progression, not the alphabet — see
+  the companion "Phonics Progression by Unit".
+learnerContent: |
+  This is the **Phonics Table** — a map of the sounds of English and the letters that spell them.
+
+  English has 26 letters but about **44 sounds**. The table groups them so you can see how they fit
+  together: consonants on one side, vowels on the other. As you move through the course you will meet
+  these sounds a few at a time and add them to your own table, with example words that matter to you.
+
+  Use the table to help you **read** (turn letters into sounds), **write** (turn sounds into
+  letters), and **say words clearly**.
+diagram:
+  src: /diagrams/efi/phonics-table.jpg
+  alt: >-
+    The completed English for Impact Phonics Table, showing the 44 English sounds grouped into
+    consonants (stop, fricative, affricate, nasal, liquid, semi-vowel) and vowels (short, long, vowel
+    teams, r-controlled, diphthongs), each with an example word.
+  caption: "The Phonics Table model — the completed reference learners build toward across the course."
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: >-
+    Reading and writing English is a gateway to further study and work. A single, cumulative map of
+    how English sounds and spellings fit together gives a learner a tool they can keep returning to
+    on their own, so decoding becomes something they can do independently rather than a barrier that
+    depends on a teacher being present.
+principlesForegrounded: [lifeworthy-competencies, connect-to-futures]
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Decoding and spelling are foundational literacy skills learners reuse across every subject and
+    into work and further study; the table makes that foundation visible and reusable.
+- principle: connect-to-futures
+  how: >-
+    The table is framed as a lasting personal reference, not a disposable worksheet — a tool learners
+    carry forward into the reading and writing their next steps will demand.
+competencyCodes: [FLC3]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Clear, accurate reading and pronunciation are the ground floor of being understood; the table
+    supports the decoding that lets learners communicate in writing and speech.
+objectiveIds: [english-for-impact--o1, english-for-impact--o2, english-for-impact--o3, english-for-impact--o4, english-for-impact--o5]
+relatedSlugs: [efi-phonics-table-student, efi-phonics-progression]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, §10a"]
+provenanceNote: >-
+  The completed Phonics Table model from Part 3, section 10a of the English for Impact Course Guide.
+  The chart image is reproduced from the source; the framing describes how it is used as a cumulative
+  reference across the five units.

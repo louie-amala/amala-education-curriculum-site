@@ -1,0 +1,91 @@
+# English for Impact resource — Part 3 §10b "Phonics Table for Students".
+# Source: The Language Learning Lab "English for Impact" Course Guide (pp. 47–48).
+id: efi-phonics-table-student
+slug: efi-phonics-table-student
+access: public
+type: resource
+title: "Phonics Table (build your own)"
+summary: >-
+  A blank version of the Phonics Table that each learner fills in over the course, collecting sounds,
+  spelling patterns, and their own example words as they meet them — a personal, growing reference
+  for reading, writing, and pronunciation.
+facilitationContext: [group, independent]
+primaryContext: independent
+materialsAndPreparation:
+- One blank Phonics Table per learner (printed), plus space to keep it safe and revisit it each week.
+- The completed "Phonics Table" model to refer to, and the "Phonics Progression by Unit" for the order sounds are introduced.
+facilitationNotes: |
+  This is the learner's own copy of the Phonics Table, built up over time rather than handed over
+  complete. Each week, as a new sound is taught, learners add it: the sound, the letters that spell
+  it, and two to five example words they choose themselves — ideally words from their lessons,
+  reading, or their own lives. The table grows across the whole course and becomes a personal
+  reference they own.
+
+  The directions on the sheet frame it as a challenge: "There are 26 letters in the English alphabet
+  that make 44 sounds. Can you find them all?" Keep the tone exploratory. The value is in the
+  collecting and connecting, so protect regular time to add to and review the table, and encourage
+  learners to check their spellings with a partner or teacher.
+learnerContent: |
+  ## Your Phonics Table
+
+  Your Phonics Table is your own tool for learning English sounds and spelling patterns. You will
+  build it step by step throughout the course.
+
+  **Follow these steps:**
+
+  1. **Listen and notice.** When you learn a new sound in class, listen carefully to how it is said.
+  2. **Write the sound.** Add the sound to your table (for example: short *a*, *sh*, *ee*).
+  3. **Add spelling patterns.** Write the letters or letter combinations that make this sound (for
+     example: *a*, *sh*, *ee*, *ea*).
+  4. **Collect example words.** Add 2–5 words with this sound. Try to choose words that are
+     meaningful to you.
+  5. **Practise saying the words.** Say the words out loud to practise pronunciation.
+  6. **Keep adding.** Each week, add new sounds and words. Your table will grow over time.
+
+  **Tips for success:**
+  - Use words from your lessons, your reading, or your own life.
+  - Check your spelling with your teacher or classmates.
+  - Review your table often to help you remember.
+
+  **Remember:** your Phonics Table is not just for writing — it helps you read, write, and speak
+  English more confidently.
+diagram:
+  src: /diagrams/efi/phonics-table-blank.jpg
+  alt: >-
+    A blank Phonics Table for students: empty colour-coded boxes grouped into consonants and vowels,
+    with directions inviting learners to find and record all 44 English sounds across the course.
+  caption: "The blank student Phonics Table — filled in a few sounds at a time across the course."
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, control-of-future-pathways]
+  how: >-
+    Building and owning a personal reference — in the learner's own example words, added to at their
+    own pace — turns phonics from something done to them into a tool they make and control. A learner
+    who has assembled their own map of English sounds can keep improving their reading and writing
+    independently, which is what carries them toward further study.
+principlesForegrounded: [builds-on-identities, recognise-communicate-growth, connect-to-futures]
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    Learners choose their own example words — from their lessons, reading, and lives — so the table
+    is populated with language that is meaningful to them rather than a fixed word list.
+- principle: recognise-communicate-growth
+  how: >-
+    Because the same table is added to across the whole course, learners can look back and see how
+    much they have collected and learned — a visible record of their own progress.
+- principle: connect-to-futures
+  how: >-
+    The table is a personal tool learners keep and reuse, supporting the independent reading and
+    writing their further study and work will require.
+competencyCodes: [FLC3]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    A learner-owned reference for decoding and spelling supports the accurate reading, writing, and
+    pronunciation that let them communicate clearly.
+objectiveIds: [english-for-impact--o1, english-for-impact--o2, english-for-impact--o3, english-for-impact--o4, english-for-impact--o5]
+relatedSlugs: [efi-phonics-table, efi-phonics-progression]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, §10b"]
+provenanceNote: >-
+  The learner-facing "build your own" Phonics Table from Part 3, section 10b of the English for
+  Impact Course Guide. The blank template image and the six-step directions are reproduced from the
+  source; learners complete it cumulatively across the course.

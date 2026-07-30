@@ -1,0 +1,122 @@
+# English for Impact resource — Part 3 §10d "Grammar Progression by Unit".
+# Source: The Language Learning Lab "English for Impact" Course Guide (pp. 51–52).
+id: efi-grammar-progression
+slug: efi-grammar-progression
+access: public
+type: resource
+title: "Grammar Progression by Unit"
+summary: >-
+  The grammar sequence for English for Impact, mapped unit by unit with teaching notes. Grammar is
+  introduced in the context of each unit, practised through authentic communication, and revisited
+  across the course, moving learners from simple, social communication toward more complex,
+  globally-oriented language.
+facilitationContext: [group, independent]
+primaryContext: group
+materialsAndPreparation:
+- Real, personal examples for each structure (names, routines, opinions) to model use in context.
+- Sentence frames, word banks, and models; visuals and timelines for tense; space for drafting and redrafting.
+facilitationNotes: |
+  Grammar in this course is developed through meaningful use, not rules learned in isolation. Each
+  unit expands what learners can communicate with increasing complexity and independence, and earlier
+  grammar is revisited so accuracy deepens over time. Prioritise communication over perfection: model
+  structures with real examples, focus on use, and expect errors as a natural part of learning. The
+  grammar focus for each unit aligns with its phonics focus (e.g. -ing with the present progressive,
+  -ed pronunciation with the past tense).
+educatorContent: |
+  ## A1 Grammar Progression
+
+  ### Unit 1 — My Voice
+  **Identity & "To Be".** *Focus:* "to be" (I am, you are, he/she is); subject pronouns (I, you, he,
+  she, we, they); simple sentence structure (Subject + be + complement) — *I am a student. She is my
+  friend.* *Teaching notes:* Prioritise oral language and repetition. Use real student information
+  (names, countries). Keep explanations minimal — focus on use. Conjugation needs modelling and
+  practice. Build confidence with complete sentences early.
+
+  **Building Simple Sentences.** *Focus:* present simple (I live, I like, I go); basic sentence
+  structure (SVO); high-frequency verbs: live, like, go, have. *Teaching notes:* Align with phonics —
+  CVC words and early decoding. Focus on sentence building, not verb rules. Encourage learners to
+  expand from words to sentences. Use visuals and personal context.
+
+  ### Unit 2 — My Story
+  **Daily Routines.** *Focus:* present simple for routines (*I wake up, I make breakfast, I go to
+  class*); high-frequency verbs; 3rd-person singular -s (*he works, she likes*). *Teaching notes:*
+  3rd-person "-s" is difficult — expect errors. Teach through patterns and repetition. Use daily
+  routines learners know well. Build toward short spoken and written sequences.
+
+  **Expanding Ideas.** *Focus:* basic connectors (and, but); simple negatives (*I don't like…*);
+  sentence expansion (*I like tea and coffee*). *Teaching notes:* Model how to make sentences longer
+  by reusing sentence frames and expanding with vocabulary and phrase banks. Encourage combining
+  ideas. Connect to early paragraph building with clear writing frames for logical sequencing (First,
+  Next, Then, Finally…).
+
+  ### Unit 3 — Our Stories
+  **Asking Questions.** *Focus:* wh- question words; question formation (word order); yes/no questions
+  with *do* (*Do you like…?*); short answers (*Yes, I do / No, I don't*). *Teaching notes:* Prioritise
+  communication over accuracy. Support with question frames. Use interviews and pair work to practise
+  question formation and earlier grammar in a meaningful way.
+
+  ## A2 Grammar Progression
+
+  ### Unit 3 — Our Stories (continued)
+  **Talking About Now.** *Focus:* present continuous (*I am working. She is studying.*); contrast with
+  present simple (*I work every day* vs *I am working now*); time expressions (every Monday / April).
+  *Teaching notes:* Align with phonics — -ing endings. Use actions, visuals, and movement. Focus on
+  meaning (now vs always). Encourage an active vocabulary journal to expand language faster.
+
+  ### Unit 4 — Our World
+  **Describing Our World.** *Focus:* there is / are / was / were; present vs past simple; regular past
+  tense (worked, played); common irregulars (went, had, saw); time expressions (yesterday, last
+  week). *Teaching notes:* A significant conceptual shift — teach time explicitly. English has 12 verb
+  tenses = 12 ways of understanding time through language. Use timelines and real-life examples. Align
+  with phonics — -ed pronunciation (/t/, /d/, /ɪd/).
+
+  **Reporting on Our World.** *Focus:* present tense for headlines; irregular past-tense verbs;
+  compound sentences with coordinating conjunctions; common prepositions (in, on, near, with).
+  *Teaching notes:* Ask learners to create classroom posters of coordinating conjunctions. Use images
+  and real-world contexts. Allow learners to translanguage (use all their languages) to write at this
+  level, then translate final drafts into English.
+
+  ### Unit 5 — Our Impact
+  **Expressing Opinions.** *Focus:* opinion structures (*I think… because…*); modal verbs (can, must,
+  might, should, ought to, could, would). *Teaching notes:* Model sentence expansion. Encourage
+  justification (giving reasons). Connect to real issues learners care about. Model sentence expansion
+  through drafting and redrafting. Encourage translanguaging to expand writing and enable conceptual
+  thinking.
+
+  **Future Plans & Solutions.** *Focus:* future simple — going to (*I am going to study*) and will (*I
+  will study*); connectors (also, so, for example, therefore). *Teaching notes:* Group connectors by
+  purpose (addition, contrast, cause/result, examples, sequencing). Encourage translanguaging for
+  research and extended writing.
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: >-
+    A deliberate order for building grammar — from introducing yourself toward arguing a case — gives
+    educators a path that steadily widens what learners can say and write, equipping them for the
+    academic communication their next steps require.
+principlesForegrounded: [lifeworthy-competencies, builds-on-identities, connect-to-futures]
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    The progression develops the communication skills — describing, questioning, reporting,
+    persuading — that transfer across study, work, and life.
+- principle: builds-on-identities
+  how: >-
+    Grammar is practised with learners' own information and, at A2, through translanguaging that draws
+    on their full linguistic repertoire before moving into English.
+- principle: connect-to-futures
+  how: >-
+    The sequence culminates in the opinion, modal, and future-tense language learners will need for
+    the more academic communication of further study such as the GSD.
+competencyCodes: [FLC3]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Each unit's grammar focus widens the range of ideas a learner can express clearly, from
+    introducing themselves to constructing an argument that can move an audience.
+objectiveIds: [english-for-impact--o1, english-for-impact--o2, english-for-impact--o3, english-for-impact--o4, english-for-impact--o5]
+relatedSlugs: [efi-phonics-progression, efi-unit1-grammar-exercises]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, §10d"]
+provenanceNote: >-
+  The Grammar Progression by Unit from Part 3, section 10d of the English for Impact Course Guide,
+  with the source's grammar focus and key teaching notes for each unit reproduced and organised by
+  unit across the A1 and A2 progressions.
