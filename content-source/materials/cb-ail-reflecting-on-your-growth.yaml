@@ -76,6 +76,7 @@ steps:
   keyPrompts:
   - Point to where you got closer to your goal, even if you have not finished it.
   - What helped you move forward, and what got in your way?
+  - Was there a time your plan changed, or a step did not work? What did you do next?
   watchOuts:
   - A learner sees only what they did not finish; help them count the small steps and the things they learned along the way, which is where most of the growth actually sits, and name one of them aloud for them.
   adaptation: |
@@ -132,6 +133,7 @@ principleAlignment:
 competencyCodes:
 - FSL1
 - FSL2
+- FPS1
 competencyDevelopment:
 - code: FSL1
   how: >-
@@ -141,6 +143,10 @@ competencyDevelopment:
   how: >-
     Turning a look back into a next goal or a habit to carry forward, drawn onto a new page, is how learners keep
     setting and pursuing goals over time, closing the loop from progress back to a new objective.
+- code: FPS1
+  how: >-
+    Recalling a time a plan changed or a step did not work, and naming what they did next, surfaces the adaptable
+    thinking learners used to keep going when circumstances shifted, which in the camps is a constant reality.
 objectiveIds:
 - agency-in-learning--o4
 relatedSlugs:
