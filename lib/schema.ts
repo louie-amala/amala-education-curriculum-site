@@ -398,6 +398,9 @@ export const UnitSchema = z.object({
   // A short note on the delivery approach for the whole unit, e.g. how it deliberately hands over
   // control from facilitator-led to learner-led (and the cautions in doing so).
   deliveryApproach: z.string().nullable().optional(),
+  // How the anchor competency is assessed in this unit (educator judgement against the proficiency
+  // scale, using evidence gathered across the activities). Rendered on the unit page and facilitator doc.
+  assessmentNote: z.string().nullable().optional(),
   phases: z.array(UnitPhaseSchema).default([]),
   // Editable downloadable files for this unit (facilitator plan, workbook, slides). `file` is a path
   // under public/, whose existence is checked at build time in validateGraph().

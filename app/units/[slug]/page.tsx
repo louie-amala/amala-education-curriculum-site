@@ -133,6 +133,13 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
           </section>
         )}
 
+        {u.assessmentNote && (
+          <section className="mt-5 rounded-2xl border border-plum/20 bg-plum/[0.04] p-6">
+            <p className={`${eyebrow} text-plum`}>How the competency is assessed</p>
+            <div className="mt-2 text-[15px] leading-relaxed text-[#3C4655]"><Prose text={u.assessmentNote} /></div>
+          </section>
+        )}
+
         {/* In this unit — overview */}
         <section className="mt-10">
           <p className={`${eyebrow} text-[#8A93A1]`}>In this unit</p>
