@@ -241,11 +241,9 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
       {m.materialsAndPreparation.length > 0 && (
         <section className="mt-8">
           <h2 className="font-heading text-xl font-semibold text-dark-navy">Materials and preparation</h2>
-          <ul className="mt-3 list-disc space-y-1 pl-5 text-dark-navy/90">
-            {m.materialsAndPreparation.map((t, i) => (
-              <li key={i}>{t}</li>
-            ))}
-          </ul>
+          <div className="mt-3">
+            <Prose text={m.materialsAndPreparation.map((t) => `- ${t}`).join("\n")} />
+          </div>
         </section>
       )}
 

@@ -16,6 +16,12 @@ const config: Config = {
         plum: "#893B67",
         "cool-grey": "#97999B",
         terracotta: "#BD472A",
+        // Warm neutrals — a chosen, slightly warm paper/ink rather than stark white / cold grey.
+        paper: "#F7F5F0",
+        "paper-card": "#FFFFFF",
+        ink: "#20293B",
+        "ink-soft": "#5A6473",
+        line: "#E7E3DA",
       },
       fontFamily: {
         // Self-hosted Roboto (headings) / Lato (body) to be wired in a later step;
