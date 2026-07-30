@@ -155,6 +155,11 @@ objectiveIds:
 relatedSlugs:
 - cb-ail-making-an-action-plan
 - cb-ail-finding-help-and-resources
+downloads:
+- label: My time and what matters — sheet
+  file: /downloads/agency-in-learning-my-time.docx
+  format: Word
+  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-managing-time-and-priorities.yaml

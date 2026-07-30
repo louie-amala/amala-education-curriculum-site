@@ -143,6 +143,11 @@ objectiveIds:
 relatedSlugs:
 - cb-ail-what-makes-a-good-goal
 - cb-ail-your-goal-steps
+downloads:
+- label: My goal — sheet
+  file: /downloads/agency-in-learning-my-goal.docx
+  format: Word
+  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-setting-your-goals.yaml

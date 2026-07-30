@@ -160,6 +160,11 @@ objectiveIds:
 relatedSlugs:
 - cb-ail-reflecting-on-your-growth
 - cb-ail-keeping-a-learning-journal
+downloads:
+- label: Asking for feedback — sheet
+  file: /downloads/agency-in-learning-feedback.docx
+  format: Word
+  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-seeking-and-using-feedback.yaml

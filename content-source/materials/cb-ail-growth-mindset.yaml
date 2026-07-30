@@ -158,6 +158,11 @@ objectiveIds:
 relatedSlugs:
 - cb-ail-strengths-and-areas-to-grow
 - cb-ail-how-you-learn-best
+downloads:
+- label: You can grow — sheet
+  file: /downloads/agency-in-learning-you-can-grow.docx
+  format: Word
+  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-growth-mindset.yaml
