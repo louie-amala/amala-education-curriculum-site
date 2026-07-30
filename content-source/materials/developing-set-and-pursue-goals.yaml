@@ -1,0 +1,135 @@
+# A reusable learner-facing competency-development resource for the competency FSL2 (Set and pursue
+# goals): a plain-language rendering of Amala's proficiency scale, so learners understand the
+# competency and can see and own their growth in it. Used wherever FSL2 is developed. It is a
+# development resource, NOT an assessment instrument (educators judge against the proficiency scale).
+id: developing-set-and-pursue-goals
+slug: developing-set-and-pursue-goals
+access: public
+type: activity
+title: "Getting better at setting and pursuing goals"
+summary: >-
+  Learners meet the competency of setting and pursuing goals, see the path of growth in it from Amala's
+  proficiency scale, place themselves honestly, and revisit later to recognise how they have grown.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. The group meets the growth path together, then each learner places themselves. Seeing
+    that people are at different points, and that this is a development tool rather than a test, is what
+    makes honest self-placement possible, so keep the shared framing.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor helps a learner place themselves honestly against the proficiency scale, name
+    a real next step, and revisit it over time, making growth in the competency visible and personal.
+- context: independent
+  how: >-
+    Workable, since the growth path is a fixed reference. A learner alone may over-rate themselves, so
+    ask them to justify their chosen level with a real example and check it with a mentor.
+duration: "30-40 min facilitated, revisited later in the programme"
+grouping: "Whole group, then individual reflection; works with 10-35 learners"
+whatLearnersDo:
+- Understand the competency of setting and pursuing goals, and why it is worth developing.
+- Read the path of growth in it, from Amala's proficiency scale, in plain language.
+- Place yourself honestly, and name one next step towards the level above.
+- Revisit later in the programme to recognise and communicate how you have grown.
+materialsAndPreparation:
+- The growth-path handout, from Amala's proficiency scale applied to setting and pursuing goals.
+- Your own honest example of a next step in the competency, to model that no one is finished growing.
+- "Sensitivity: self-placement can feel exposing. Make clear it is not a test, there is no failing, and a learner near the start is beginning, not behind."
+facilitationNotes: |
+  This resource renders Amala's proficiency scale for the competency of setting and pursuing goals into
+  plain language, so learners can understand it and own their growth. The one thing to get right is that
+  it is a development tool, not the assessment: there is no failing, and placing yourself honestly is
+  what lets you see real growth later. Ensure learners understand the competency first, then let them
+  place themselves and name a next step. Assessment against the scale remains educator judgement.
+steps:
+- title: "The competency, and why it is worth growing"
+  duration: "8-10 min"
+  guidance: |
+    Introduce the competency plainly: setting clear goals for your own learning and taking deliberate
+    steps to reach them. Draw out why it is worth developing, that it underpins learning across study,
+    work and life. Keep the focus on meaning; learners understand the growth path far better once they
+    grasp what the competency is for.
+  keyPrompts:
+  - What does it mean to set a goal and take deliberate steps towards it?
+  - Where beyond this programme might this competency matter to you?
+  watchOuts:
+  - Learners treat the competency as a school task; connect it to a real goal of their own so it reads as a life skill, not an exercise.
+- title: "The path of growth"
+  duration: "12-15 min"
+  guidance: |
+    Walk through the growth path, from Amala's proficiency scale, in plain language: first you can
+    articulate how you would set and pursue a goal; then you have acted on it, taking real steps with a
+    rationale; then you have achieved a goal and can evaluate what worked and what to improve; then you
+    do this across situations and keep improving over time. Check learners can tell the steps apart.
+  keyPrompts:
+  - What is the difference between saying how you would do it, and having done it and learned from it?
+  - Which step sounds most like where you are now?
+  watchOuts:
+  - Learners see the levels as grades to compete over; frame them as a developmental path everyone travels, not a ranking.
+- title: "Place yourself, and name a next step"
+  duration: "10-12 min"
+  guidance: |
+    Ask each learner to place themselves honestly on the path and name one next step towards the level
+    above, ideally with a real example. Make clear you will revisit this later so they can see their
+    growth. Honest self-placement now is what makes that growth visible.
+  keyPrompts:
+  - Where are you now, with a real example, and what is one next step?
+  - What would you like to be able to say about your goals by the end of this programme?
+  watchOuts:
+  - A learner over-rates themselves to look good; reassure them that an honest start is what lets them recognise real growth, with no reward for a higher placement.
+closing: |
+  Confirm that learners will revisit the growth path later in the programme to recognise how they have
+  moved. Remind them this is a development resource, not a judgement: the only thing that matters is
+  taking the next step. Educators assess the competency separately, against Amala's proficiency scale,
+  using evidence gathered over time.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Understanding how a competency grows, and placing themselves on that path, lets learners take
+    ownership of their own development rather than waiting to be told how they are doing. Naming their
+    own next step keeps the direction of their learning in their hands.
+principlesForegrounded:
+- recognise-communicate-growth
+- responsible-action
+- lifeworthy-competencies
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: >-
+    Placing themselves on a growth path and revisiting it gives learners a clear way to recognise and
+    communicate their own growth in the competency, which is the habit this kind of resource builds.
+- principle: responsible-action
+  how: >-
+    Owning where they are now and naming an honest next step is learners taking responsibility for their
+    own development rather than leaving it to be judged for them.
+- principle: lifeworthy-competencies
+  how: >-
+    Understanding how a competency develops, and how to move along it, is a reusable habit a learner can
+    apply to any skill they want to grow across study, work and life.
+competencyCodes:
+- FSL2
+- FSL1
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Understanding what setting and pursuing goals involves, and the path of growth in it, helps learners
+    aim their own development at the competency and recognise their progress in it.
+- code: FSL1
+  how: >-
+    Placing themselves honestly on the path, with a real example, and naming a next step is direct
+    practice in reflecting on where they are now as a learner and what they want to develop.
+objectiveIds: []
+relatedSlugs: []
+sourceRefs:
+- framework/proficiency-scale.yaml
+provenanceNote: >-
+  A reusable competency-development resource for FSL2 (Set and pursue goals), rendering Amala's own
+  proficiency scale (Theorist to Expert) into plain, learner-facing language so learners can understand
+  and own their growth in the competency. It is a development resource, not an assessment instrument;
+  assessment remains educator judgement against the proficiency scale. The Cox's Bazar edition adapts it
+  for oral and visual delivery (see cb-ail-getting-better-at-goals).

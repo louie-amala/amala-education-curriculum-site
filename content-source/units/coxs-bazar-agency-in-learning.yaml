@@ -40,7 +40,7 @@ phases:
       - title: "What we will learn, and why"
         kind: activity
         materialSlug: cb-ail-exploring-our-objectives
-        facilitatedHours: 2.5
+        facilitatedHours: 2
         independentHours: 0.5
         independentTask: "Tell one person at home the one of the four things you most want to get better at, and why."
         flexNote: >-
@@ -56,6 +56,15 @@ phases:
         flexNote: >-
           Set up early so the book runs through the whole course: learners draw and mark into it in
           every phase, and it becomes the record of their growth.
+      - title: "Getting better at setting and pursuing goals"
+        kind: activity
+        materialSlug: cb-ail-getting-better-at-goals
+        facilitatedHours: 0.5
+        independentHours: 0
+        flexNote: >-
+          A development resource, not a test. Learners meet the competency this whole course grows,
+          setting and pursuing goals, and mark honestly where they are now on Amala's growth path, then
+          revisit it in the final phase to see how they have moved.
   - title: "Understand yourself as a learner"
     objectiveId: agency-in-learning--o1
     summary: >-
@@ -182,9 +191,12 @@ phases:
           Close the course. Learners look back through their learning book from the first page, and
           prepare one way they have grown to share, by drawing and speaking, not writing. Hold a warm,
           celebratory sharing in same-gender groups, with no one forced to share. Each learner sets one
-          goal to keep going with after the course. On Learning Bridge+, this is the point to gather and
-          record the evidence of each learner's growth in setting and pursuing goals, from their book,
-          their steps taken, and what they say, to inform the assessment judgement.
+          goal to keep going with after the course. Learners also look again at the "Getting better at
+          setting and pursuing goals" growth path they marked at the start, mark where they are now, and
+          name the movement, so they see their own growth. On Learning Bridge+, this is the point to
+          gather and record the evidence of each learner's growth in setting and pursuing goals, from
+          their book, their steps taken, the growth path, and what they say, to inform the assessment
+          judgement, which is made by educator judgement against Amala's proficiency scale.
         independentTask: "Choose one way you have grown to share, and one goal you will keep working on after the course."
 downloads:
   - label: Facilitator Unit Plan & Guide

@@ -1,0 +1,151 @@
+# Contextualised, fully offline competency-development resource for Learning Bridge+ (Cox's Bazar):
+# a plain-language, oral/visual rendering of Amala's proficiency scale for the component's anchor
+# competency FSL2 (Set and pursue goals), so learners understand the competency and can see their own
+# growth in it. Used at the start (place yourself) and revisited at the end (see how you have moved).
+# NOT the assessment (educators judge against the proficiency scale); a resource for development.
+id: cb-ail-getting-better-at-goals
+slug: cb-ail-getting-better-at-goals
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Getting better at setting and pursuing goals"
+summary: >-
+  Learners meet the main thing this course helps them grow, see how people get better at it step by
+  step, mark where they are now, and look again at the end to see how they have moved.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. The whole group meets the growth path together as simple steps, then each learner
+    marks where they are now on their own sheet. Hearing that people are at different steps, and that
+    there is no failing, is what makes it safe to be honest, so keep the shared framing.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit. A mentor helps a learner place themselves honestly and name a real next step, and
+    returns to the growth path over time, which is exactly the gentle, personal tracking that makes the
+    growth visible to the learner.
+- context: independent
+  how: >-
+    Workable: the growth-path sheet carries the steps. A learner alone tends to place themselves high
+    to look good, so ask them to think of a real example for the step they choose, and to check it with
+    a mentor.
+duration: "30 min facilitated at the start, and revisited briefly at the end of the course"
+grouping: "Whole group, then individual marking; works with 10-35 learners"
+whatLearnersDo:
+- "Meet the main thing this course helps you get better at: setting your own goals and taking steps to reach them."
+- See how people grow at it, step by step, from saying how, to doing it, to keeping getting better.
+- Mark where you are now, honestly, and name one next step.
+- Look again at the end of the course, to see how you have moved.
+materialsAndPreparation:
+- The growth-path sheet (in the provided downloads) and the student workbook page for it.
+- Your own honest example of a next step in setting and pursuing your own goals, to model that no one is finished growing.
+- "Sensitivity: placing yourself on a path can feel exposing. Make clear it is not a test, there is no failing, and a learner at the start is not behind, only beginning."
+facilitationNotes: |
+  This is a map of how people grow at setting and pursuing their own goals, the competency this whole
+  course builds. The one thing to get right is that it is not a test and there is no failing: a learner
+  low on the path is just starting, and everyone can move. Place yourself honestly, aim for your next
+  step, and celebrate movement at the end. It is a resource to help learners see and own their growth,
+  not a mark you give them.
+steps:
+- title: "The thing we get better at here"
+  duration: "10 min"
+  guidance: |
+    Say it plainly: the main thing this course helps you get better at is setting your own learning
+    goals and taking real steps to reach them. Everything else, understanding yourself, planning,
+    tracking, is part of getting better at this. Keep it short and warm; you are naming the one skill
+    the whole course grows.
+  keyPrompts:
+  - What does it mean to set a goal and take steps towards it?
+  - Why is getting better at this worth your time?
+  watchOuts:
+  - Learners hear "getting better at it" as a test they might fail; reassure them this is about growth over time, and that everyone starts somewhere.
+  adaptation: |
+    Nothing is needed but your spoken words; no board or slides.
+- title: "How people grow at it"
+  duration: "10 min"
+  guidance: |
+    Show the growth path as simple steps, said aloud with the sheet: first you can say how you would
+    set a goal and take steps; then you have set a goal and taken real steps, and can say why; then you
+    reached a goal and can say what helped and what you would do better; then you have reached goals
+    more than once and keep improving how you do it. Explain each plainly.
+  keyPrompts:
+  - Which of these steps sounds most like you right now?
+  - What is the difference between saying how you would do it, and having really done it?
+  watchOuts:
+  - A learner feels bad being near the start; make clear the start is a normal place to be and that the whole point of the course is to help everyone move up.
+  adaptation: |
+    Draw the steps as a simple ladder on paper or the ground, and say each one; no writing is needed.
+- title: "Where am I now, and my next step"
+  duration: "10 min"
+  guidance: |
+    Ask each learner to mark, honestly, where they are now on the growth-path sheet or workbook page,
+    and to name one next step that would move them up. Say clearly that you will look at this again at
+    the end of the course, to see how they have moved. Honesty now is what makes the growth visible later.
+  keyPrompts:
+  - Where are you now, honestly, and what is one thing that would move you to the next step?
+  - What would you like to be able to say about your goals by the end of this course?
+  watchOuts:
+  - Learners place themselves high to look good; reassure them that an honest start is what lets them see real growth, and that there is no reward for a higher mark.
+closing: |
+  Confirm the growth path lives in the learning book, and that the class will look at it again at the
+  end of the course to see how far each learner has moved. Remind them there is no failing here: the
+  only thing that matters is taking your next step. Revisit: in the final phase, learners look at the
+  path again, mark where they are now, and celebrate the movement.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Seeing how people grow at setting and pursuing their own goals, and placing themselves on that path,
+    lets learners take ownership of their own growth rather than waiting to be told how they are doing.
+    Naming their own next step keeps the direction of their learning in their hands.
+principlesForegrounded:
+- recognise-communicate-growth
+- responsible-action
+- lifeworthy-competencies
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: >-
+    Placing themselves on a growth path and revisiting it at the end gives learners a clear way to
+    recognise and communicate their own growth in the competency, which is the habit this component builds.
+- principle: responsible-action
+  how: >-
+    Naming an honest next step and owning where they are now is learners taking responsibility for their
+    own development, rather than leaving it to someone else to judge.
+- principle: lifeworthy-competencies
+  how: >-
+    Understanding how a competency grows, and how to move along it, is a reusable habit a learner can
+    apply to any skill they want to develop across study, work and life.
+competencyCodes:
+- FSL2
+- FSL1
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Understanding what setting and pursuing goals involves, and seeing the path of growth in it, helps
+    learners aim their own development at the competency this course builds and evidences.
+- code: FSL1
+  how: >-
+    Placing themselves honestly on the growth path, and naming a next step, is direct practice in
+    reflecting on where they are now as a learner and what they want to develop.
+objectiveIds: []
+relatedSlugs:
+- cb-ail-exploring-our-objectives
+- cb-ail-reflecting-on-your-growth
+downloads:
+- label: Getting better at goals — sheet
+  file: /downloads/agency-in-learning-getting-better-at-goals.docx
+  format: Word
+  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
+sourceRefs:
+- agency-in-learning.yaml
+- framework/proficiency-scale.yaml
+provenanceNote: >-
+  Authored as a learner-facing competency-development resource for the component's anchor competency
+  FSL2 (Set and pursue goals), rendering Amala's own proficiency scale (Theorist to Expert) in plain,
+  oral and visual language. It supports learners to understand and own their growth in the competency;
+  it is not the assessment, which remains educator judgement against the proficiency scale. Used in the
+  orientation phase (place yourself) and revisited in the celebrate phase (see how you have moved).
