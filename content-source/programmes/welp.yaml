@@ -46,6 +46,7 @@ components:
     summary: >-
       A social entrepreneurship course, delivered over a minimum of 10 weeks, that equips participants
       with financial literacy, leadership, problem-solving, and business development skills.
+    courseSlug: social-entrepreneurship
     deliveryOptions:
       - Female-led, in-person delivery
   - title: Seed Funding
