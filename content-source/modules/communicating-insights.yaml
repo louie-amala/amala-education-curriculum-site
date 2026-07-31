@@ -43,3 +43,39 @@ competencyDevelopment:
 materialSlugs:
   - rp-writing-a-research-report
   - challenge-research-report-and-presentation
+
+plan:
+  summary: >-
+    Make the insights usable by others: structure them into an evidence-based account, turn that into
+    a format that fits the audience, and share it — standing behind the method and evidence.
+  steps:
+    - title: Who needs to hear this
+      kind: orientation
+      facilitatedHours: 0.25
+      guidance: >-
+        Decide the real audience for the insights and what you want them to understand or do. Format
+        follows audience, so settle this before choosing how to present.
+    - title: Write up the findings
+      kind: activity
+      materialSlug: rp-writing-a-research-report
+      facilitatedHours: 1.5
+      guidance: >-
+        Structure the insights into a clear, evidence-based account. Even if the final output is not a
+        written report, this organises the argument that every format will carry.
+      independentTask: Draft your findings as a structured, evidence-based account.
+    - title: Build and share the output
+      kind: activity
+      materialSlug: challenge-research-report-and-presentation
+      facilitatedHours: 1.5
+      guidance: >-
+        Turn the account into the chosen output — report, poster, infographic, presentation or short
+        video — and present it to the audience. Rehearse fielding questions about the method and
+        evidence.
+      independentTask: Prepare your final output and practise presenting it.
+    - title: Share, field questions, reflect
+      kind: consolidation
+      facilitatedHours: 0.5
+      guidance: >-
+        Learners present to peers or community members, take questions, and reflect on how their
+        understanding of the challenge — and their skill as researchers — has grown. The shared output
+        plus their responses are the assessable evidence for this skill.

@@ -38,3 +38,32 @@ competencyDevelopment:
       credibility and reliability.
 materialSlugs:
   - dc-secondary-research-methods
+
+plan:
+  summary: >-
+    Build on what others already know: find credible secondary sources on the challenge and log them
+    so they can be weighed alongside the primary data. A short skill — one core activity, framed and
+    consolidated so the evidence log is genuinely usable.
+  steps:
+    - title: Why go secondary
+      kind: orientation
+      facilitatedHours: 0.25
+      guidance: >-
+        Frame secondary research as connecting the local challenge to wider knowledge — it
+        contextualises the primary data learners are gathering and stops them relying only on what they
+        can see from where they stand.
+    - title: Find and log secondary sources
+      kind: activity
+      materialSlug: dc-secondary-research-methods
+      facilitatedHours: 1.5
+      guidance: >-
+        Learn where and how to find relevant secondary sources, and start an evidence log. Emphasise
+        relevance to the research question over sheer volume, and record enough about each source to
+        cite and evaluate it later.
+      independentTask: Add three relevant secondary sources to your evidence log, with a note on what each contributes.
+    - title: An evidence log worth weighing
+      kind: consolidation
+      facilitatedHours: 0.25
+      guidance: >-
+        Learners have a logged set of relevant secondary sources, recorded well enough to cite and
+        evaluate. This log is carried straight into the next skill, where its credibility is judged.

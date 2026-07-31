@@ -346,6 +346,16 @@ export function getModulesForMaterial(slug: string): Module[] {
     (m) => m.materialSlugs.includes(slug) || getSkillModulesFor(m).some((s) => s.materialSlugs.includes(slug)),
   );
 }
+// Total facilitated/independent hours across a module's plan steps, preferring explicit plan totals
+// and falling back to the sum of the steps' hours.
+export function getModulePlanHours(mod: Module): { facilitated: number; independent: number } {
+  const facSum = (mod.plan?.steps ?? []).reduce((a, s) => a + (s.facilitatedHours ?? 0), 0);
+  const indSum = (mod.plan?.steps ?? []).reduce((a, s) => a + (s.independentHours ?? 0), 0);
+  return {
+    facilitated: mod.plan?.totalFacilitatedHours ?? facSum,
+    independent: mod.plan?.totalIndependentHours ?? indSum,
+  };
+}
 
 // ---- glossary + term matching (§4.4) ----
 const termBySlug = new Map(glossaryTerms.map((t) => [t.slug, t]));
@@ -608,6 +618,14 @@ export function validateGraph(): ValidationReport {
         errors.push(`Material "${m.slug}" download "${d.label}" points to missing file "${d.file}".`);
       }
     }
+    if (m.worksheet) {
+      const ws = materialBySlug.get(m.worksheet.slug);
+      if (!ws) {
+        errors.push(`Material "${m.slug}" worksheet points to unknown material "${m.worksheet.slug}".`);
+      } else if (ws.type !== "resource") {
+        warnings.push(`Material "${m.slug}" worksheet "${m.worksheet.slug}" should be a resource, not "${ws.type}".`);
+      }
+    }
   }
 
   const termSlugs = new Set(glossaryTerms.map((t) => t.slug));
@@ -643,6 +661,14 @@ export function validateGraph(): ValidationReport {
           errors.push(
             `Unit "${u.slug}" block "${b.title}" references unknown material "${b.materialSlug}".`,
           );
+        } else if (b.materialSlug) {
+          // Rule: every activity in a unit plan should have a student worksheet (a resource material).
+          const bm = materialBySlug.get(b.materialSlug);
+          if (bm && bm.type === "activity" && !bm.worksheet) {
+            warnings.push(
+              `Unit "${u.slug}" activity "${b.materialSlug}" has no student worksheet (materials rule).`,
+            );
+          }
         }
       }
     }
@@ -679,6 +705,25 @@ export function validateGraph(): ValidationReport {
         warnings.push(
           `Module "${mod.slug}" lists its own main competency "${cd.code}" under competencyDevelopment; use anchorContribution for the main competency.`,
         );
+      }
+    }
+    if (mod.plan) {
+      const planMaterials = new Set<string>();
+      for (const step of mod.plan.steps) {
+        if (!step.materialSlug) continue;
+        planMaterials.add(step.materialSlug);
+        if (!materialBySlug.has(step.materialSlug)) {
+          errors.push(`Module "${mod.slug}" plan step "${step.title}" runs unknown material "${step.materialSlug}".`);
+        } else if (!mod.materialSlugs.includes(step.materialSlug)) {
+          warnings.push(
+            `Module "${mod.slug}" plan step "${step.title}" runs material "${step.materialSlug}" that is not in its materialSlugs membership list.`,
+          );
+        }
+      }
+      for (const s of mod.materialSlugs) {
+        if (!planMaterials.has(s)) {
+          warnings.push(`Module "${mod.slug}" material "${s}" is not placed in its plan.`);
+        }
       }
     }
     if (mod.grain === "skill") {

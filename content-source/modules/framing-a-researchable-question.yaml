@@ -42,3 +42,70 @@ materialSlugs:
   - rp-choosing-a-research-question
   - stakeholder-community-mapping
   - dc-creating-personas
+
+# Mini scheme of work: how to run the materials above as one sequence. Each activity narrows the
+# focus; the connective steps make sure the question the cohort lands on is genuinely their own.
+plan:
+  summary: >-
+    Move the cohort from a shared concern to one researchable question and a first map of who and what
+    is involved. Run it top to bottom; the bridge and consolidation steps carry no material — they are
+    where you tie the activities together.
+  steps:
+    - title: Meet the shared challenge
+      kind: orientation
+      facilitatedHours: 0.5
+      guidance: >-
+        Introduce the challenge the whole cohort will investigate and co-create group agreements so it
+        feels safe to explore. Learners share what they already notice about it — this rough sense is
+        the raw material the sequence will sharpen into a question.
+    - title: Make the case for research
+      kind: activity
+      materialSlug: dc-importance-of-research
+      facilitatedHours: 1
+      guidance: >-
+        Open with WHY research matters before handing over any tool, so learners buy into investigating
+        rather than guessing. Draw out that evidence beats assumption — the motivation for everything
+        that follows.
+    - title: Define the problem
+      kind: activity
+      materialSlug: dc-defining-the-problem
+      facilitatedHours: 1
+      guidance: >-
+        Turn the broad concern into a sharp problem statement. This is the raw material the research
+        question will focus, so keep the statements visible — you will come straight back to them.
+      independentTask: Write a one-sentence problem statement about the challenge, in your own words.
+    - title: From problem to question
+      kind: bridge
+      facilitatedHours: 0.5
+      guidance: >-
+        Run a quick question-storm off the problem statements, then sort the questions from broad to
+        researchable. This primes the next activity and lets learners feel the difference between a
+        topic and a question before they are asked to write one.
+    - title: Choose the research question
+      kind: activity
+      materialSlug: rp-choosing-a-research-question
+      facilitatedHours: 1
+      guidance: >-
+        Narrow to one specific, researchable question the cohort can answer with the time and access
+        they have. This question is the spine of every later skill — do not rush it.
+    - title: Map who and what is involved
+      kind: activity
+      materialSlug: stakeholder-community-mapping
+      facilitatedHours: 1
+      guidance: >-
+        Map the people, groups and systems connected to the challenge. This surfaces whom to approach
+        in primary research and the early contributing factors (your FPS3 evidence), so it bridges
+        straight into the next skill.
+    - title: Build evidence-based personas
+      kind: activity
+      materialSlug: dc-creating-personas
+      facilitatedHours: 1
+      guidance: >-
+        Turn the map into believable personas of the people most affected, so learners frame their
+        research around real human needs rather than their own assumptions. Optional if time is short.
+    - title: Lock the question and map
+      kind: consolidation
+      facilitatedHours: 0.5
+      guidance: >-
+        The cohort agrees its research question and a first stakeholder map. Capture both — they are
+        the assessable evidence for this skill and the starting point for planning primary research.

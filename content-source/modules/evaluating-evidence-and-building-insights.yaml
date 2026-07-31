@@ -49,3 +49,42 @@ competencyDevelopment:
 materialSlugs:
   - evidence-log-and-source-evaluation
   - dc-creating-insight-statements
+
+plan:
+  summary: >-
+    Move from a pile of evidence to a few actionable insights: first judge how much to trust each
+    source, then sort for patterns and write insights that genuinely follow from the evidence.
+  steps:
+    - title: Lay out the evidence
+      kind: orientation
+      facilitatedHours: 0.25
+      guidance: >-
+        Bring together the primary data and the secondary evidence log from the previous two skills.
+        Learners cannot evaluate what they cannot see — get it all on the table first.
+    - title: Evaluate the sources
+      kind: activity
+      materialSlug: evidence-log-and-source-evaluation
+      facilitatedHours: 1.5
+      guidance: >-
+        Judge the credibility, reliability and relevance of each source, recording the reasons. This is
+        your FPS2 evidence, and it decides which evidence earns a place in the insights.
+      independentTask: Rate each source in your log for credibility, and note why.
+    - title: Sort for patterns
+      kind: bridge
+      facilitatedHours: 0.5
+      guidance: >-
+        Sort and theme the trusted evidence so patterns and contributing factors surface. This turns
+        evaluated evidence into the raw material for insight.
+    - title: Write insight statements
+      kind: activity
+      materialSlug: dc-creating-insight-statements
+      facilitatedHours: 1
+      guidance: >-
+        Distil the patterns into a small number of clear, actionable insights — not a summary of
+        findings. Push learners to state what the evidence means and why it matters.
+    - title: An evidenced insights statement
+      kind: consolidation
+      facilitatedHours: 0.25
+      guidance: >-
+        Learners hold an insights statement backed by evaluated evidence and named patterns — the
+        assessable outcome of this skill, and the message they will communicate next.

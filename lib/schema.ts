@@ -249,6 +249,23 @@ export const MaterialTypeSchema = z.enum([
   "resource",
 ]);
 
+// The kind of downloadable artefact, so the worksheet/template distinction is machine-real and can be
+// rendered under labelled groups rather than one undifferentiated list:
+//   - explainer: the method written up (what it is, why, when to use it).
+//   - worksheet: the fully-scaffolded, guided sheet a learner works through; embeds the blank template.
+//   - template:  the blank final product on its own, for the learner who has done it once already.
+//   - example:   a worked/filled example to show what "good" looks like.
+// Optional and defaulted so existing downloads (which predate the field) remain valid.
+export const DownloadRoleSchema = z.enum(["explainer", "worksheet", "template", "example"]);
+
+export const DownloadSchema = z.object({
+  label: z.string(),
+  file: z.string(),
+  format: z.string().nullable().optional(),
+  role: DownloadRoleSchema.optional(),
+  note: z.string().nullable().optional(),
+});
+
 export const AgencyIndicatorSchema = z.enum([
   "contribution-to-community",
   "control-of-future-pathways",
@@ -313,6 +330,14 @@ export const FacilitationMaterialSchema = z.object({
     .default([]),
   objectiveIds: z.array(z.string()).default([]),
   relatedSlugs: z.array(z.string()).default([]),
+  // The student worksheet for this activity — a `resource` material holding the learner-facing sheet.
+  // Rendered as a prominent callout on the activity page. Every activity that appears in a unit plan
+  // should set this (validateGraph warns otherwise). The printable version is compiled into the
+  // component's downloadable workbook, so the worksheet resource says so rather than shipping its own file.
+  worksheet: z
+    .object({ slug: z.string(), note: z.string().nullable().optional() })
+    .nullable()
+    .optional(),
   // External links this material points to (e.g. a video a resource is built around). Rendered as
   // clickable links on the material page.
   links: z
@@ -330,22 +355,17 @@ export const FacilitationMaterialSchema = z.object({
     .optional(),
   // Downloadable resources this material provides (e.g. a printable template + worked example that
   // learners can reuse for other goals). `file` is a path under public/, checked in validateGraph().
-  downloads: z
-    .array(
-      z.object({
-        label: z.string(),
-        file: z.string(),
-        format: z.string().nullable().optional(),
-        note: z.string().nullable().optional(),
-      }),
-    )
-    .default([]),
+  // Each carries an optional `role` (worksheet/template/example/explainer) so the guided worksheet and
+  // the blank template render as distinct, labelled artefacts rather than one undifferentiated list.
+  downloads: z.array(DownloadSchema).default([]),
   sourceRefs: z.array(z.string()).optional(),
   provenanceNote: z.string().nullable().optional(),
 });
 
 export type FacilitationContext = z.infer<typeof FacilitationContextSchema>;
 export type MaterialType = z.infer<typeof MaterialTypeSchema>;
+export type DownloadRole = z.infer<typeof DownloadRoleSchema>;
+export type Download = z.infer<typeof DownloadSchema>;
 export type FacilitationMaterial = z.infer<typeof FacilitationMaterialSchema>;
 
 // ---- Unit plan (scheme of work) ----
@@ -404,16 +424,7 @@ export const UnitSchema = z.object({
   phases: z.array(UnitPhaseSchema).default([]),
   // Editable downloadable files for this unit (facilitator plan, workbook, slides). `file` is a path
   // under public/, whose existence is checked at build time in validateGraph().
-  downloads: z
-    .array(
-      z.object({
-        label: z.string(),
-        file: z.string(),
-        format: z.string().nullable().optional(),
-        note: z.string().nullable().optional(),
-      }),
-    )
-    .default([]),
+  downloads: z.array(DownloadSchema).default([]),
   sourceNotes: z.array(z.string()).default([]),
 });
 
@@ -430,6 +441,38 @@ export type Unit = z.infer<typeof UnitSchema>;
 //   - grain "skill":       develops one specific skill of that competency (e.g. "Conduct primary
 //                          research"); made of ordered materials, and rolls up into a competency module.
 export const ModuleGrainSchema = z.enum(["skill", "competency"]);
+
+// A step in a module's learning sequence (its mini scheme of work). A step either RUNS a material
+// (materialSlug set) or is a CONNECTIVE block — orientation, bridge, consolidation, assessment — that
+// carries only `guidance`. The guidance is the connective tissue that turns a pile of materials into a
+// coherent sequence: why this step happens here, what it builds on, what to draw out, how it sets up
+// the next one. Modelled on UnitBlock but hours-light (a module is smaller than a programme component).
+export const ModuleStepKindSchema = z.enum([
+  "orientation",
+  "activity",
+  "practice",
+  "bridge",
+  "consolidation",
+  "assessment",
+]);
+
+export const ModuleStepSchema = z.object({
+  title: z.string(),
+  kind: ModuleStepKindSchema.default("activity"),
+  // The material this step runs, if any. Validated against the materials collection in validateGraph().
+  // Connective steps (orientation/bridge/consolidation/assessment) leave it unset and rely on guidance.
+  materialSlug: z.string().nullable().optional(),
+  // The connective narrative for this step — the reason it earns its place in the sequence.
+  guidance: z.string(),
+  // Optional light timings (modules are hours-light; set where useful). Totals are summed if omitted.
+  facilitatedHours: z.number().nullable().optional(),
+  independentHours: z.number().nullable().optional(),
+  // What learners do between or around sessions for this step (offline-friendly).
+  independentTask: z.string().nullable().optional(),
+});
+
+export type ModuleStepKind = z.infer<typeof ModuleStepKindSchema>;
+export type ModuleStep = z.infer<typeof ModuleStepSchema>;
 
 export const ModuleSchema = z.object({
   id: z.string(),
@@ -461,8 +504,22 @@ export const ModuleSchema = z.object({
   // Skill modules only: the competency module it rolls up into (back-link, optional).
   parentModuleSlug: z.string().nullable().optional(),
   // Ordered materials that make up this module (material slugs). Skill modules carry these directly;
-  // a competency module may also carry its own framing/consolidation materials.
+  // a competency module may also carry its own framing/consolidation materials. This is the flat
+  // membership list (used for indexing and material→module back-links); the ordered teaching sequence,
+  // with connective guidance between materials, lives in `plan` below.
   materialSlugs: z.array(z.string()).default([]),
+  // Optional mini scheme of work: an ordered sequence that incorporates the module's materials WITH the
+  // connective guidance that links them into a coherent learning journey. When present, it is the
+  // primary way to follow the module (the flat material list becomes a fallback). Modelled on Unit but
+  // module-scoped and hours-light.
+  plan: z
+    .object({
+      summary: z.string().nullable().optional(),
+      totalFacilitatedHours: z.number().nullable().optional(),
+      totalIndependentHours: z.number().nullable().optional(),
+      steps: z.array(ModuleStepSchema).default([]),
+    })
+    .optional(),
   // How working through this module builds agency for positive change (the site's spine concept).
   agencyNote: z.string().nullable().optional(),
   sourceNotes: z.array(z.string()).default([]),

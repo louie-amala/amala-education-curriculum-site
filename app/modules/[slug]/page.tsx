@@ -3,14 +3,33 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { GlossedText } from "@/components/GlossedText";
 import { MaterialCard } from "@/components/MaterialCard";
+import { Prose } from "@/components/Prose";
 import {
   getCompetencyByCode,
+  getMaterial,
   getModule,
   getModuleMaterials,
+  getModulePlanHours,
   getSkillModulesFor,
   modules,
 } from "@/lib/content";
-import { areaStyle } from "@/lib/ui";
+import { areaStyle, typeMeta } from "@/lib/ui";
+
+// Step-kind encoding for a module's learning sequence.
+const STEP_KIND: Record<string, { label: string; badge: string }> = {
+  orientation: { label: "Orientation", badge: "bg-cool-grey/15 text-cool-grey" },
+  activity: { label: "Activity", badge: "bg-navy/10 text-navy" },
+  practice: { label: "Practice", badge: "bg-teal/10 text-teal" },
+  bridge: { label: "Bridge", badge: "bg-gold/20 text-terracotta" },
+  consolidation: { label: "Consolidation", badge: "bg-olive/10 text-olive" },
+  assessment: { label: "Assessment", badge: "bg-plum/10 text-plum" },
+};
+
+function hrs(h: number): string {
+  if (!h || h <= 0) return "";
+  if (h < 1) return `${Math.round(h * 60)} min`;
+  return `${h}h`;
+}
 
 export function generateStaticParams() {
   return modules.map((m) => ({ slug: m.slug }));
@@ -197,8 +216,94 @@ export default async function ModulePage({ params }: { params: Promise<{ slug: s
         </section>
       )}
 
-      {/* Skill module: its materials, in order */}
-      {!isCompetency && directMaterials.length > 0 && (
+      {/* Skill module WITH a plan: the mini scheme of work — the materials sequenced with the
+          connective guidance that links them into a coherent learning journey. */}
+      {!isCompetency && mod.plan && mod.plan.steps.length > 0 && (
+        <section className="mt-10">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">Learning sequence</h2>
+          {mod.plan.summary && (
+            <p className="mt-1 max-w-2xl text-sm text-dark-navy/70">
+              <GlossedText text={mod.plan.summary} />
+            </p>
+          )}
+          {(() => {
+            const { facilitated, independent } = getModulePlanHours(mod);
+            const bits = [
+              facilitated > 0 ? `${hrs(facilitated)} facilitated` : "",
+              independent > 0 ? `${hrs(independent)} independent` : "",
+              `${mod.plan!.steps.length} steps`,
+            ].filter(Boolean);
+            return (
+              <p className={`${eyebrow} mt-3 text-cool-grey`}>{bits.join(" · ")}</p>
+            );
+          })()}
+
+          <ol className="mt-5 space-y-4">
+            {mod.plan.steps.map((step, i) => {
+              const stepMat = step.materialSlug ? getMaterial(step.materialSlug) : undefined;
+              const k = STEP_KIND[step.kind] ?? STEP_KIND.activity;
+              const stepHrs = [
+                step.facilitatedHours ? `${hrs(step.facilitatedHours)} facilitated` : "",
+                step.independentHours ? `${hrs(step.independentHours)} independent` : "",
+              ].filter(Boolean);
+              return (
+                <li
+                  key={i}
+                  className="rounded-xl border border-cool-grey/20 bg-white p-5 shadow-sm"
+                >
+                  <div className="flex items-baseline gap-3">
+                    <span className={`font-heading text-lg font-bold ${s.text}`}>{i + 1}</span>
+                    <div className="min-w-0 flex-1">
+                      <div className="flex flex-wrap items-center gap-2">
+                        <span className={`rounded px-2 py-0.5 text-[11px] font-medium ${k.badge}`}>
+                          {k.label}
+                        </span>
+                        {stepHrs.length > 0 && (
+                          <span className="text-xs text-cool-grey">{stepHrs.join(" · ")}</span>
+                        )}
+                      </div>
+                      <h3 className="mt-1.5 font-heading text-lg font-semibold text-dark-navy">
+                        {step.title}
+                      </h3>
+                    </div>
+                  </div>
+
+                  <div className="mt-2 text-[15px] leading-relaxed text-dark-navy/90">
+                    <Prose text={step.guidance} />
+                  </div>
+
+                  {stepMat && (
+                    <Link
+                      href={`/materials/${stepMat.slug}`}
+                      className={`mt-3 flex items-start gap-3 rounded-lg border-l-4 ${typeMeta(stepMat.type).border} border-y border-r border-cool-grey/20 bg-paper/50 p-3 transition hover:bg-white`}
+                    >
+                      <span className={`mt-0.5 shrink-0 rounded px-2 py-0.5 text-[11px] font-medium ${typeMeta(stepMat.type).bg} ${typeMeta(stepMat.type).text}`}>
+                        Run
+                      </span>
+                      <span className="min-w-0">
+                        <span className="block font-medium text-dark-navy">{stepMat.title}</span>
+                        {stepMat.summary && (
+                          <span className="mt-0.5 block text-sm text-cool-grey">{stepMat.summary}</span>
+                        )}
+                      </span>
+                    </Link>
+                  )}
+
+                  {step.independentTask && (
+                    <div className="mt-3 rounded-r-lg border-l-[3px] border-teal bg-teal/[0.07] px-4 py-2.5">
+                      <p className={`${eyebrow} text-teal`}>Independent task</p>
+                      <p className="mt-1 text-sm text-dark-navy/90">{step.independentTask}</p>
+                    </div>
+                  )}
+                </li>
+              );
+            })}
+          </ol>
+        </section>
+      )}
+
+      {/* Skill module WITHOUT a plan: fall back to the flat list of materials, in order. */}
+      {!isCompetency && !mod.plan && directMaterials.length > 0 && (
         <section className="mt-10">
           <h2 className="font-heading text-xl font-semibold text-dark-navy">
             Materials for this skill ({directMaterials.length})

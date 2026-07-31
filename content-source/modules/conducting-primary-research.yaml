@@ -45,3 +45,61 @@ materialSlugs:
   - community-mapping-and-empathy-interviews
   - dc-designing-survey-questions
   - dc-expert-interview-preparation
+
+plan:
+  summary: >-
+    Turn the research question into a plan and gather first-hand evidence — ethically. Learners plan,
+    commit to ethical practice, then build and use the specific instruments (community interviews,
+    surveys, expert interviews) their question needs.
+  steps:
+    - title: Recap the question and map
+      kind: orientation
+      facilitatedHours: 0.25
+      guidance: >-
+        Briefly restate the research question and stakeholder map from the previous skill. The plan
+        must serve this question, so keep both in view throughout.
+    - title: Plan the research
+      kind: activity
+      materialSlug: rp-planning-your-research
+      facilitatedHours: 1
+      guidance: >-
+        Decide what evidence the question needs and which methods will get it. The plan is the backbone
+        of this skill; every instrument below should trace back to a line in it.
+    - title: Commit to ethical practice
+      kind: activity
+      materialSlug: dc-being-an-ethical-researcher
+      facilitatedHours: 1
+      guidance: >-
+        Before designing any instrument, establish consent, privacy and do-no-harm. Doing this now
+        means ethics shapes the instruments rather than being bolted on afterwards — this is your FLC1
+        evidence.
+    - title: Interview the community
+      kind: activity
+      materialSlug: community-mapping-and-empathy-interviews
+      facilitatedHours: 1.5
+      guidance: >-
+        Use the stakeholder map to choose whom to interview, and run empathy interviews to hear from
+        people affected. This is learners' first real primary data — model good listening before they
+        go solo.
+      independentTask: Conduct one short interview with someone connected to the challenge.
+    - title: Design a survey
+      kind: activity
+      materialSlug: dc-designing-survey-questions
+      facilitatedHours: 1
+      guidance: >-
+        Where the question needs breadth as well as depth, add a short survey. Draft and pilot the
+        questions so they are clear and non-leading before going wide.
+    - title: Prepare for expert interviews
+      kind: activity
+      materialSlug: dc-expert-interview-preparation
+      facilitatedHours: 1
+      guidance: >-
+        For depth on causes or context, prepare focused questions for an expert. Contrast this with the
+        empathy interviews so learners choose the right tool for each sub-question.
+    - title: Gather and organise the data
+      kind: consolidation
+      facilitatedHours: 0.5
+      guidance: >-
+        Learners run their instruments and bring the data together in one place. The organised primary
+        data set is the assessable evidence for this skill and the input to evaluating evidence next.
+      independentTask: Complete your interviews and surveys, and record every response in one place.
