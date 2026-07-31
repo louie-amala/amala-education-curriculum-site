@@ -63,9 +63,11 @@ sourceNotes:
     courses so each unit carries its full plan. Competency anchoring per course is authored (a CEFR
     language course cites no Amala competency codes) — see each course's sourceIssues.
   - >-
-    Kept independent of the Learning Bridge programme for now; how English for Impact is used within
-    Learning Bridge (which lists an optional "English Language Development" component) is to be worked
-    out separately.
+    The programme's first unit, My Voice, also backs the optional "English Language Development"
+    component of the standard Learning Bridge programme (see programmes/learning-bridge.yaml): that
+    50-hour component is delivered through the My Voice course guide and its materials. Learners who
+    need to progress further toward the B1 required for the GSD continue through the later English for
+    Impact units. This is a cross-listing — My Voice's home programme remains English for Impact.
   - >-
     The course assumes strong Home Language literacy, so it is not suitable as-is for low-literacy,
     oral/visual-first contexts (e.g. the Cox's Bazar Learning Bridge edition) without adaptation.

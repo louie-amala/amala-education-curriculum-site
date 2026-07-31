@@ -84,12 +84,19 @@ components:
     deliveryOptions:
       - Standard
   - title: English Language Development
-    summary: Optional. For learners below B1 proficiency.
+    summary: >-
+      Optional, for learners below B1 proficiency. Delivered through the My Voice course guide — the
+      first, foundational unit (A1-) of Amala's English for Impact programme — which builds the
+      sounds, letters, and first sentences of English around each learner's own identity and voice,
+      and culminates in a personal identity artifact shared with an audience. Its 50 hours are the
+      starting point; learners who need to keep progressing toward the B1 level required for upper
+      secondary study continue through the later English for Impact units.
     structuredHours: 50
     facilitatedHours: 30
     independentHours: 20
+    courseSlug: efi-my-voice
     deliveryOptions:
-      - Standard
+      - Standard (ready-made My Voice course guide and resources)
     optional: true
 
 versionComparison:
@@ -203,3 +210,9 @@ sourceNotes:
   - Learning Bridge is component-based, not course-based; its components are not GSD Changemaker Courses, so streams and ongoingComponents are intentionally empty.
   - Grading, moderation, and formal assessment apply to Learning Bridge+ only.
   - The two assessed competencies (Investigate Real World Issues, Set and Pursue Goals) are named in the source but not yet cross-linked to framework competency codes.
+  - >-
+    The optional English Language Development component is delivered through the My Voice course guide
+    (Unit 1 of the English for Impact programme; see courses/efi-my-voice.yaml), which is the ready-made
+    resource for these 50 foundational hours. English for Impact is the onward pathway for learners who
+    need to continue past this component toward B1. This mapping does not apply to the Cox's Bazar
+    edition, whose low-literacy, oral/visual-first context needs a bespoke English adaptation instead.

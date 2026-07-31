@@ -5,7 +5,7 @@ slug: efi-my-voice
 access: public
 title: "My Voice"
 strapline: "Say who you are — your first words, sentences, and voice in English. (Unit 1 · A1-)"
-programmes: [english-for-impact]
+programmes: [english-for-impact, learning-bridge]
 testimonial: null
 purpose: >-
   My Voice is the first course in English for Impact. Learners begin building confidence in English by
@@ -137,3 +137,6 @@ sourceIssues:
   - type: part-of-programme
     detail: >-
       Unit 1 of the English for Impact programme, delivered as the first of five sequential courses.
+      It is also cross-listed as the ready-made course guide for the optional English Language
+      Development component of the standard Learning Bridge programme (a 50-hour foundational English
+      component for learners below B1); its home programme remains English for Impact.
