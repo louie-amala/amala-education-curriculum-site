@@ -25,8 +25,11 @@ anchorContribution:
     question research can actually answer — by defining the shared challenge, surfacing what is already
     known, and mapping who and what is involved.
   demonstrates: >-
-    A clear, researchable question, plus an initial map of the people and factors connected to the
-    challenge, shows that a learner can scope an investigation: the first, foundational evidence of FSI1.
+    Assess this from what the learner produces: a written research question, a completed "what we
+    already know / what we need to find out" audit, and a stakeholder or community map (or a set of
+    personas). Look for a learner who narrows a broad challenge to a question that is specific and
+    answerable with the evidence and time available, can explain why it is researchable rather than
+    too broad, and whose map names real people and factors connected to the challenge.
 # Other competencies this skill also develops and demonstrates (from Research Project objective 1).
 competencyDevelopment:
   - code: FPS3
