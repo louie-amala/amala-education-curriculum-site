@@ -1,0 +1,128 @@
+# English for Impact — My Voice (Unit 1) resource. Educator sequencing/pacing guide for ~30 live hours.
+# Applies Nation's Four Strands balance across the unit's materials to reach the outcomes.
+id: efi-mv-teaching-sequence
+slug: efi-mv-teaching-sequence
+access: public
+type: resource
+title: "My Voice: a teaching sequence (30 live + 20 independent hours)"
+summary: >-
+  An educator's guide to putting the My Voice materials together into a balanced ~50-hour unit — about
+  30 facilitated hours and 20 independent — with a suggested week-by-week flow, how the activities meet
+  the outcomes, and what to set for independent practice. A menu to choose from, not a fixed script.
+facilitationContext: [group, independent]
+primaryContext: group
+materialsAndPreparation:
+- Read alongside the My Voice course page (its three objectives and outcomes) and the unit's materials.
+- Adapt the pacing to your own hours, timetable, and learners; treat the sequence as a starting point.
+educatorContent: |
+  ## The shape of the unit
+
+  My Voice is about 50 hours of structured learning — roughly 30 facilitated (live) and 20 independent.
+  The materials are a menu, not a script: you have more than 30 hours of options so you can choose what
+  fits your learners and revisit what they need. The unit's three objectives are the destination —
+  language foundations (o1), communication (o2), and the identity project (o3) — and the activities are
+  the routes to them.
+
+  ## Keep the four strands in balance
+
+  A balanced language course gives roughly equal time to four kinds of activity, and reaching the
+  outcomes depends on all four:
+
+  - Meaning-focused input (listening and reading): the listening activity and the reading activity with
+    its model texts.
+  - Meaning-focused output (speaking and writing): introduce yourself, role-play, the class survey,
+    writing about myself, and the project.
+  - Language-focused learning (phonics, grammar, vocabulary): the alphabet and plosive activities, "to
+    be" and pronouns, the grammar exercises, and the phonics table and progressions.
+  - Fluency development (using known language faster): the fluency activity, plus warm-ups and games.
+
+  If one strand is missing — most often listening and fluency — learners plateau. Aim to touch all four
+  most weeks.
+
+  ## A suggested week-by-week flow (about five weeks)
+
+  Run a short warm-up from the classroom-language-and-warm-ups bank in most sessions to recycle prior
+  learning, and drop in a phonics or vocabulary game whenever the class needs a lift.
+
+  ## Week 1 — Sounds, listening, and first words
+
+  - The alphabet and your first English sounds (o1)
+  - Listening: hello, names, and where I am from (o1/o2)
+  - Words about me: identity vocabulary and first reading (o1)
+  - Phonics games and dictation; vocabulary recycling games (o1)
+
+  ## Week 2 — More sounds, grammar, and speaking
+
+  - Plosive sounds (o1)
+  - The verb "to be" and subject pronouns, with the grammar exercises (o2)
+  - Introduce yourself: asking and answering (o2)
+  - Fluency: say it faster, say it smoother (o2)
+
+  ## Week 3 — Reading, writing, and interaction
+
+  - Reading: all about me, with the model texts (o2)
+  - Writing about myself (o2)
+  - Role-play: meeting someone new (o2)
+  - Class survey: getting to know each other (o2)
+
+  ## Week 4 — The project takes shape
+
+  - Project: My Voice, My Name — understand, plan, and make the artifact (o3)
+  - Continued fluency, games, and writing support as needed
+  - Reading and re-reading the model texts to shape the artifact
+
+  ## Week 5 — Share and reflect
+
+  - Project: prepare and give the "My Name, My Voice" presentation (o3)
+  - The "I can now…" checklist and project rubric (o3)
+  - Celebrate and display the artifacts
+
+  ## The 20 independent hours
+
+  Set independent tasks that recycle, not race ahead:
+
+  - Grow the personal Phonics Table and practise reading CVC words.
+  - Complete the grammar exercises and copy or complete sentence frames.
+  - Read a model "about me" text and mark known words; prepare their own draft.
+  - Rehearse their self-introduction aloud (with audio if available) for fluency.
+  - Draft and revise parts of the identity artifact.
+
+  ## Reaching the outcomes
+
+  By the end, learners should be able to do what the objectives describe: recognise letters and sounds
+  and read simple words (o1), introduce themselves in simple spoken and written English (o2), and create
+  and present a personal identity artifact (o3). Use the "I can now…" checklist and the project rubric to
+  check this, and reteach through the games and fluency activities wherever a strand or outcome is thin.
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: >-
+    A clear, balanced route through the unit lets educators actually get learners to the outcomes rather
+    than teach a scattered handful of activities — which is what makes the difference between a learner
+    who stalls and one who progresses toward further study.
+principlesForegrounded: [feedback-and-data, lifeworthy-competencies, recognise-communicate-growth]
+principleAlignment:
+- principle: feedback-and-data
+  how: >-
+    The sequence ties activities to outcomes and to the Can-Do checklist, so educators can see where
+    learners are and adjust which materials to use next.
+- principle: lifeworthy-competencies
+  how: >-
+    Balancing the four strands ensures learners build durable, transferable capability across all skills,
+    not just the language points that are easiest to drill.
+- principle: recognise-communicate-growth
+  how: >-
+    Building in recycling warm-ups and an end-of-unit Can-Do check makes learners' growth visible to
+    them and to the educator across the unit.
+competencyCodes: [FLC3]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    A balanced, outcome-focused sequence is what actually develops learners' ability to communicate — the
+    anchor of the unit — across listening, speaking, reading, and writing.
+objectiveIds: [efi-my-voice--o1, efi-my-voice--o2, efi-my-voice--o3]
+relatedSlugs: [efi-mv-can-do-checklist, efi-mv-classroom-language-and-warm-ups, efi-mv-project-my-name-my-voice, efi-mv-listening-hello-and-names, efi-mv-fluency-introductions]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1; Nation's Four Strands (balanced course design)"]
+provenanceNote: >-
+  Authored to give educators a balanced teaching sequence for the ~50-hour My Voice unit (about 30 live
+  and 20 independent), mapping the unit's materials to its three objectives and to Nation's Four Strands.
+  Directly addresses the need for enough structured, sequenced content to reach the outcomes.

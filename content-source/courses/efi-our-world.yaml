@@ -34,12 +34,13 @@ throughline:
     issue investigated, summarised, and reported clearly for a reader.
 
 requirements:
-  structuredHours: 30
-  durationWeeks: 4
-  cadence: ≈4 weeks
-  liveIndependentSplit: null
+  structuredHours: 50
+  durationWeeks: 5
+  cadence: ≈4–5 weeks
+  liveIndependentSplit: 30 live / 20 independent
   notes: >-
-    Approximately 20–40 hours, adaptable to pacing and instructional time. An introduction to research
+    About 50 hours of structured learning — roughly 30 facilitated (live) and 20 independent —
+    adaptable to pacing and instructional time. An introduction to research
     and news writing; translanguaging supports reading and comparing sources.
 
 objectives:

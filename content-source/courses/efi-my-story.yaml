@@ -35,12 +35,13 @@ throughline:
     peers or a wider audience, and the shared experience of hearing one another.
 
 requirements:
-  structuredHours: 30
-  durationWeeks: 4
-  cadence: ≈4 weeks
-  liveIndependentSplit: null
+  structuredHours: 50
+  durationWeeks: 5
+  cadence: ≈4–5 weeks
+  liveIndependentSplit: 30 live / 20 independent
   notes: >-
-    Approximately 20–40 hours, adaptable to pacing and instructional time. Translanguaging is central:
+    About 50 hours of structured learning — roughly 30 facilitated (live) and 20 independent —
+    adaptable to pacing and instructional time. Translanguaging is central:
     learners develop and organise ideas in their Home Language(s) before expressing them in English.
 
 objectives:

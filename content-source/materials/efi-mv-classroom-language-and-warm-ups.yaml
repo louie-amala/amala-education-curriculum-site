@@ -1,0 +1,94 @@
+# English for Impact — My Voice (Unit 1) resource. Classroom language + warm-up/routine bank.
+# Trauma-informed predictable routines + spaced review. Source: LLL Course Guide Note to Teachers
+# (consistency and routine), Unit 1.
+id: efi-mv-classroom-language-and-warm-ups
+slug: efi-mv-classroom-language-and-warm-ups
+access: public
+type: resource
+title: "Classroom language and warm-ups"
+summary: >-
+  The everyday English of the classroom, plus a bank of short warm-up routines. Predictable routines
+  make the room feel safe and give learners repeated, low-stakes practice — the recycling that turns new
+  language into secure language.
+facilitationContext: [group, independent]
+primaryContext: group
+materialsAndPreparation:
+- Display the classroom language where learners can see it; use the same phrases consistently.
+- Pick two or three warm-ups to run regularly so learners come to know and expect them.
+educatorContent: |
+  Consistency and routine do two jobs at once in this course. First, they make the room predictable and
+  therefore safe — which matters especially for learners who have experienced disruption or trauma. A
+  learner who knows how the session will start, what the everyday phrases mean, and that they will not be
+  put on the spot can relax enough to learn. Second, routines are the engine of recycling: a short warm-up
+  run in most sessions brings the unit's sounds, words, and sentences back again and again, which is how
+  they stick.
+
+  Use the classroom language yourself, consistently, and teach it through use (see the listening activity)
+  so learners can follow the session in English. Choose two or three warm-ups below and run them
+  regularly; a familiar five-minute opener settles the room and revisits prior learning before you add
+  anything new. Keep everything low-stakes and inclusive — warm-ups are for confidence and recall, never
+  for testing or exposure.
+
+  ## Warm-up bank
+
+  - Register with a twist: instead of "here", each learner answers a rotating question (a country, a
+    like, a feeling word) — attendance becomes speaking practice.
+  - Sound of the day: revisit one sound from the Phonics Table; learners say a word with it.
+  - Word race: name as many words as you can in a category (countries, family, feelings) in one minute.
+  - Introduce yourself again: a 30-second self-introduction to a new partner (builds fluency).
+  - Two truths: say two true sentences about yourself; partner repeats one back.
+  - Listen and do: three or four quick instructions (stand, point, open your book) to settle and focus.
+  - Yesterday's words: recall five words or one sentence from the last session.
+learnerContent: |
+  ## Classroom language — words you will hear and use
+
+  From the teacher:
+
+  - Listen. Look. Repeat. Point to… Work with a partner. In pairs. Read this. Write this. Say it again.
+
+  Things you can say:
+
+  - Can you repeat, please?
+  - How do you say ______ in English?
+  - What does ______ mean?
+  - I don't understand.
+  - Can you help me, please?
+  - How do you spell it?
+
+  It is always okay to ask. Asking for help is part of learning.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Knowing the everyday language of the room, and being able to say "I don't understand" or "Can you
+    repeat, please?", lets a learner take charge of their own understanding rather than sit lost.
+    Predictable routines give the security from which learners can take the risks that learning requires.
+principlesForegrounded: [safe-spaces, recognise-communicate-growth, lifeworthy-competencies]
+principleAlignment:
+- principle: safe-spaces
+  how: >-
+    Predictable routines and a known set of classroom phrases make the environment calm and safe, which
+    the guide identifies as essential for learners who may have experienced disruption.
+- principle: recognise-communicate-growth
+  how: >-
+    Warm-ups that recall prior learning let learners feel, week to week, how much they now hold.
+- principle: lifeworthy-competencies
+  how: >-
+    The phrases for asking for help and clarification are self-advocacy strategies learners reuse in
+    every classroom and beyond.
+competencyCodes: [FLC3, FUS1]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Following classroom language and asking for clarification are practical communication skills, and the
+    warm-ups recycle the language through which learners communicate.
+- code: FUS1
+  how: >-
+    Being able to say "I don't understand" or "Can you help me?" is a first act of a learner managing
+    their own learning.
+objectiveIds: [efi-my-voice--o1, efi-my-voice--o2]
+relatedSlugs: [efi-mv-listening-hello-and-names, efi-mv-vocabulary-recycling-games, efi-mv-phonics-games-and-dictation, efi-mv-teaching-sequence]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Note to Teachers (consistency and routine), Unit 1"]
+provenanceNote: >-
+  Authored to give educators the everyday classroom language and a bank of recycling warm-ups, supporting
+  the guide's emphasis on consistency, routine, and a safe, predictable environment, and providing the
+  spaced review that consolidates Unit 1 learning.

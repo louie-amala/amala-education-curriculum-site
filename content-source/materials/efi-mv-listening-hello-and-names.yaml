@@ -1,0 +1,126 @@
+# English for Impact — My Voice (Unit 1) teaching activity. Meaning-focused INPUT: listening + TPR.
+# Fills the listening gap identified against Nation's Four Strands. Source: LLL Course Guide Unit 1;
+# ELL best practice (Total Physical Response; listening tasks that require a response).
+id: efi-mv-listening-hello-and-names
+slug: efi-mv-listening-hello-and-names
+access: public
+type: activity
+title: "Listening: hello, names, and where I am from"
+summary: >-
+  Learners build early listening for meaning through greetings, classroom language, and identity
+  vocabulary — listening and responding by pointing, doing, and choosing before they are asked to
+  produce the language themselves.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    The natural home for this activity. Total-Physical-Response listening (listen and point, listen and
+    do) and listen-and-choose tasks work well with the whole group and in pairs, and let beginners
+    succeed by responding physically before they can speak.
+- context: independent
+  how: >-
+    Workable with recorded audio or a reading partner: the learner listens and points, ticks, or draws
+    a response. Because listening at A1 is easier with a live, patient speaker, pair it with a group
+    session where possible.
+duration: "40–50 min facilitated"
+grouping: "Whole group, then pairs; works with 10–35 learners"
+whatLearnersDo:
+- Listen to greetings and classroom language and respond (stand up, point, wave, repeat).
+- Listen for names, numbers, and countries and pick out the key information.
+- Listen and point to the right picture or word for identity vocabulary.
+- Listen to a simple self-introduction and answer simple questions about it.
+materialsAndPreparation:
+- Picture cards or a picture word list for identity vocabulary and classroom actions.
+- A few simple self-introductions to say aloud (or record), pitched at Unit 1 language.
+- "Optional: numbers 1–20 and a small set of country names/pictures relevant to your learners."
+facilitationNotes: |
+  Listening is the strand most often missed at A1, yet comprehension comes before production — learners
+  can understand far more than they can say. The key move is that every listening task requires a
+  response the learner can give without speaking: point, stand, choose, tick, draw. This lets complete
+  beginners succeed and shows you who has understood. Total Physical Response (listen and do) is
+  powerful here: pair language with movement so meaning is felt, not just heard. Speak clearly at a
+  natural but unhurried pace, repeat freely, and use gesture and pictures. Keep it warm and playful;
+  never single out a learner who has not understood — repeat and support instead.
+steps:
+- title: "Listen and do — greetings and classroom language"
+  duration: "12–15 min"
+  guidance: |
+    Say greetings and simple instructions with a clear action each time — "Hello" (wave), "Stand up",
+    "Sit down", "Point to the door", "Open your book". Learners do the action. Build up, then mix the
+    order so they must listen, not copy a routine. This teaches the everyday classroom language they
+    will hear all course, through the ear and body.
+  keyPrompts:
+  - "(said, not asked) Stand up. Sit down. Point to a window."
+  - Did you hear "stand" or "sit"?
+  watchOuts:
+  - Learners copying their neighbour instead of listening; vary the order and occasionally give an instruction only some expect.
+  adaptation: |
+    Needs no materials at all — just your voice, gestures, and the room.
+- title: "Listen for the key information"
+  duration: "12–15 min"
+  guidance: |
+    Say short self-introductions ("My name is Sara. I am from Syria. I am a student.") and have learners
+    listen for one thing at a time — the name, then the country, then what the person does. They respond
+    by pointing to a picture, holding up a card, or writing just the key word. Repeat each introduction
+    as needed.
+  keyPrompts:
+  - Listen — what is her name? Where is she from?
+  - Point to the country you heard.
+  watchOuts:
+  - Trying to catch every word; tell learners to listen for one target only, which is a real listening skill.
+  adaptation: |
+    Learners show understanding by pointing on a shared map or word list; no handouts needed.
+- title: "Listen and point — identity vocabulary"
+  duration: "12–15 min"
+  guidance: |
+    Say identity and everyday words (name, country, city, language, student, teacher, friend, family)
+    and learners point to the matching picture or word. Then a quick listen-and-choose: say a sentence
+    and learners pick which of two pictures it matches. Finish by having pairs take turns saying a word
+    for their partner to point to — a first, low-pressure step into production.
+  keyPrompts:
+  - Point to "family". Point to "teacher".
+  - Which picture goes with "I am a student", and which with "I am a teacher"?
+  watchOuts:
+  - Rushing to full sentences; keep the response non-verbal until learners are ready to say words themselves.
+closing: |
+  Recap the greetings and words with a quick listen-and-do round. Note that they already understand a
+  lot of English by ear — understanding comes first, and speaking will follow. Set a listening task for
+  independent time if audio is available.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, control-of-future-pathways]
+  how: >-
+    Understanding what is said around them — greetings, instructions, questions — is what lets a learner
+    take part safely in a new setting rather than feel lost in it. Building listening early gives
+    learners a foothold to follow, respond, and act.
+principlesForegrounded: [safe-spaces, builds-on-identities, lifeworthy-competencies]
+principleAlignment:
+- principle: safe-spaces
+  how: >-
+    Learners respond by pointing and doing before they must speak, so they can succeed and take part
+    without the exposure of producing new language under pressure.
+- principle: builds-on-identities
+  how: >-
+    The listening content is names, countries, and languages, including learners' own, so comprehension
+    is anchored in who they are.
+- principle: lifeworthy-competencies
+  how: >-
+    Listening for key information and following spoken instructions are core skills reused in every unit
+    and in daily life, study, and work.
+competencyCodes: [FLC3, FUS2]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Understanding spoken greetings, questions, and information is half of communication; this activity
+    builds the receptive side that makes exchange possible.
+- code: FUS2
+  how: >-
+    Listening carefully to others' names, countries, and self-introductions develops attention to other
+    people.
+objectiveIds: [efi-my-voice--o1, efi-my-voice--o2]
+relatedSlugs: [efi-mv-words-about-me, efi-mv-introduce-yourself, efi-mv-classroom-language-and-warm-ups, efi-mv-fluency-introductions]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1; Nation's Four Strands (meaning-focused input); TPR"]
+provenanceNote: >-
+  Authored to fill the meaning-focused-input (listening) gap identified when evaluating Unit 1 against
+  Nation's Four Strands. Uses Total Physical Response and listen-to-respond tasks (point, do, choose)
+  suited to A1 learners, on the unit's greetings and identity vocabulary.

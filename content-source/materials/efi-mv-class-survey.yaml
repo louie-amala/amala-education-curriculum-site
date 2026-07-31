@@ -1,0 +1,121 @@
+# English for Impact — My Voice (Unit 1) teaching activity. OUTPUT (speaking+writing) via information gap.
+# Source: LLL Course Guide Unit 1; CLT information-gap tasks. "Find someone who" (Ex 7) extended.
+id: efi-mv-class-survey
+slug: efi-mv-class-survey
+access: public
+type: activity
+title: "Class survey: getting to know each other"
+summary: >-
+  Learners survey their classmates — asking a few set questions, recording the answers, and reporting
+  back what they found — a real information-gap task that combines speaking, listening, and writing
+  around the unit's identity language.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    The natural home for a survey: learners move around asking classmates real questions and recording
+    real answers, then report to the group. The information gap — not knowing until you ask — makes the
+    talk purposeful.
+- context: independent
+  how: >-
+    A learner can survey family or friends outside class and bring the results, but the in-class mingle
+    is where most of the speaking happens; use independent time to prepare questions or write up results.
+duration: "40–50 min facilitated"
+grouping: "Whole-class mingle, then report in pairs/group; works with 10–35 learners"
+whatLearnersDo:
+- Choose or receive a few simple survey questions (name, country, language, a like).
+- Ask several classmates and record their answers in a simple chart.
+- Count and notice patterns (how many people are from the same country; the most popular like).
+- Report one or two findings to the group.
+materialsAndPreparation:
+- A simple survey chart (names down the side, questions across the top) — paper or the workbook.
+- Agreed questions on display, and the sentence frames for asking and answering.
+- Your own quick model of asking one classmate and filling one row.
+facilitationNotes: |
+  A survey is a genuine information-gap task: learners ask because they really do not know the answer,
+  which is what makes the speaking purposeful rather than a drill. It weaves all the strands together —
+  asking (speaking), understanding replies (listening), recording (writing), and reporting (speaking
+  again). Keep the questions few and known so the challenge is the interaction, not new language. Model
+  filling one row so the chart is clear. Let learners choose what they are comfortable sharing. The
+  report-back stage gives a reason to listen and a light introduction to talking about others (he/she
+  is…), which the next units build on.
+steps:
+- title: "Set up the survey"
+  duration: "10–12 min"
+  guidance: |
+    Agree three or four questions with the class (What is your name? Where are you from? What language do
+    you speak? What do you like?). Show the chart and model asking one learner and filling one row.
+    Practise the questions once together so everyone can ask them clearly.
+  keyPrompts:
+  - What questions will we ask? How do we ask them?
+  - Watch me ask and write one answer — now you try one.
+  watchOuts:
+  - Too many or unknown questions; keep to three or four the learners can already ask.
+  adaptation: |
+    Draw the chart on shared paper; learners copy a simple version or tally on scrap paper.
+- title: "Ask and record"
+  duration: "15–20 min"
+  guidance: |
+    Learners move around asking classmates and filling in their chart — aim for five or six people.
+    Circulate to keep it in English and to encourage full-sentence answers. The buzz of real questions
+    and answers is the heart of the activity; let it run.
+  keyPrompts:
+  - Ask five people and write their answers.
+  - Did you understand? Ask them to say it again if not.
+  watchOuts:
+  - Learners copying answers without asking; keep them talking, and remind them the chart is filled by asking, not sharing sheets.
+  adaptation: |
+    In a seated room, learners survey the people around them and pass a question along a row.
+- title: "Count and report"
+  duration: "12–15 min"
+  guidance: |
+    Learners look at their results and find one or two things to report: "Three people are from
+    Somalia." "Many people like football." They share findings with a partner, then a few report to the
+    group. This introduces talking about others gently, with support.
+  keyPrompts:
+  - How many people are from the same country?
+  - What is the most popular thing people like? Tell us one finding.
+  watchOuts:
+  - Struggling with he/she is at this stage; keep report sentences simple and support them, since third-person is the next units' focus.
+closing: |
+  Draw together a couple of whole-class findings — where people are from, common likes. Note that they
+  used English for a real purpose: to find things out about each other and share them. This is what the
+  language is for.
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Asking others about themselves, and sharing what you learn, is how a group of strangers becomes a
+    community. Using English to find out and report real information gives learners a purposeful, active
+    role among their peers.
+principlesForegrounded: [collaboration, builds-on-identities, authentic-challenges]
+principleAlignment:
+- principle: collaboration
+  how: >-
+    The whole task is interactive and cooperative — everyone asks, answers, and contributes to a shared
+    picture of the class.
+- principle: builds-on-identities
+  how: >-
+    The survey content is learners' own identities — origins, languages, likes — and learners choose
+    what to share.
+- principle: authentic-challenges
+  how: >-
+    A survey is a genuine information-gap task with a real result, not an exercise done only for the
+    teacher.
+competencyCodes: [FLC3, FUS2]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Asking questions, understanding answers, recording them, and reporting findings exercises speaking,
+    listening, and writing together in real communication.
+- code: FUS2
+  how: >-
+    Finding out about classmates and noticing shared and different backgrounds develops understanding of
+    other people.
+objectiveIds: [efi-my-voice--o2]
+relatedSlugs: [efi-mv-introduce-yourself, efi-mv-role-play-meeting-people, efi-unit1-grammar-exercises, efi-mv-writing-about-myself]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1; CLT (information-gap tasks); Exercise 7 \"Find someone who\""]
+provenanceNote: >-
+  Authored to strengthen meaning-focused output for Unit 1 through a communicative information-gap
+  survey, extending the source's "Find someone who" exercise into a full ask–record–report task that
+  integrates speaking, listening, and writing.

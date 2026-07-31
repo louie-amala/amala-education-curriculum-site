@@ -1,0 +1,121 @@
+# English for Impact — My Voice (Unit 1) teaching activity. Meaning-focused OUTPUT: speaking (role-play).
+# Source: LLL Course Guide Unit 1 speaking outcomes; CLT real-life communication.
+id: efi-mv-role-play-meeting-people
+slug: efi-mv-role-play-meeting-people
+access: public
+type: activity
+title: "Role-play: meeting someone new"
+summary: >-
+  Learners rehearse real-life first meetings — greeting someone, introducing themselves, and asking a
+  few simple questions — in short role-plays that put the unit's language to work in situations they
+  will actually meet.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    The natural home for role-play: learners perform short first-meeting scenes in pairs, then swap
+    roles and partners. A supportive audience for one or two pairs at the end raises the purpose without
+    much pressure.
+- context: independent
+  how: >-
+    Role-play needs a partner. A learner can rehearse both parts aloud or with a mentor, but arrange a
+    paired performance in a group session so the exchange is real.
+duration: "35–45 min facilitated"
+grouping: "Pairs, rotating roles and partners; works with 10–35 learners"
+whatLearnersDo:
+- Greet someone and respond to a greeting.
+- Introduce themselves and ask a partner simple questions.
+- Play a short first-meeting scene in different situations (new class, meeting a neighbour).
+- Swap roles and partners so they both ask and answer.
+materialsAndPreparation:
+- A simple model dialogue for a first meeting (hello / name / where from / a like / goodbye).
+- One or two situation cards (a new classroom, meeting a neighbour, a welcome event) if you wish.
+- The sentence frames on display for support.
+facilitationNotes: |
+  Role-play turns the unit's language into something usable in real life, which is exactly what makes it
+  motivating and memorable. Give a clear model dialogue first and let learners practise it before they
+  vary it — beginners need the safety of a script before they improvise. Keep scenes short (four to six
+  exchanges) and the situations real and non-threatening. Value communication over accuracy: if the
+  meeting works, it is a success. Rotating roles and partners gives lots of repetition with variety.
+  Only ask pairs to perform for the group if they are willing; the pair practice is where most of the
+  learning happens.
+steps:
+- title: "Learn the model dialogue"
+  duration: "12–15 min"
+  guidance: |
+    Present a short first-meeting dialogue and act it out: "Hello. — Hello. What is your name? — My name
+    is… And you? — I am… Where are you from? — I am from… Nice to meet you. — Nice to meet you too."
+    Learners repeat and practise the whole thing in pairs until it is comfortable.
+  keyPrompts:
+  - How do we start? How do we ask their name?
+  - Practise the whole dialogue with your partner.
+  watchOuts:
+  - Getting stuck on one line; let pairs run the whole dialogue for flow before polishing any part.
+  adaptation: |
+    Write the dialogue on shared paper as a scaffold; learners glance and speak, then try it without
+    looking.
+- title: "Change it and make it yours"
+  duration: "12–15 min"
+  guidance: |
+    Learners swap in their own true information and add one question they know (What do you like?).
+    They perform the scene with a new partner, then swap roles so each plays both people. Encourage a
+    natural greeting and goodbye around the exchange.
+  keyPrompts:
+  - Use your own name and country this time.
+  - What extra question can you add?
+  watchOuts:
+  - Reverting to reciting the model; nudge learners to use their real answers so the exchange is genuine.
+  adaptation: |
+    Situation cards are optional; the plain "meeting a new classmate" scene works with nothing but pairs.
+- title: "Meet in a new situation"
+  duration: "10–15 min"
+  guidance: |
+    Set a light situation — a welcome event, the first day of class — and have learners mingle, meeting
+    two or three new people with the greeting-introduce-ask-goodbye pattern. Close by inviting one or two
+    willing pairs to show their meeting to the group.
+  keyPrompts:
+  - Meet three new people. Greet them, introduce yourself, ask one question.
+  - Who did you meet? Tell us one thing about them.
+  watchOuts:
+  - Pressure on shy learners to perform; performing for the group is invitation-only, and mingling in the crowd is the real practice.
+closing: |
+  Recap the shape of a first meeting: greet, introduce, ask, say goodbye. Note that they can now do in
+  English something they will really use — meeting someone new. Suggest they try a real greeting before
+  the next session.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, contribution-to-community]
+  how: >-
+    Meeting people and making yourself known is how a person joins a community rather than stands
+    outside it. Rehearsing first meetings gives learners the confidence and language to introduce
+    themselves and connect in the real situations they face.
+principlesForegrounded: [safe-spaces, collaboration, authentic-challenges]
+principleAlignment:
+- principle: safe-spaces
+  how: >-
+    A clear model to lean on, pair rehearsal before any performance, and invitation-only sharing keep
+    speaking safe for beginners.
+- principle: collaboration
+  how: >-
+    The activity is entirely paired and interactive; learners build each other's confidence through
+    repeated friendly exchanges.
+- principle: authentic-challenges
+  how: >-
+    The role-plays rehearse a real, useful task — meeting someone new — that learners will actually face
+    outside the classroom.
+competencyCodes: [FLC3, FUS2]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Greeting, introducing oneself, and asking questions in a real exchange is direct practice in
+    spoken communication.
+- code: FUS2
+  how: >-
+    Meeting a partner and asking about them develops attention to and interest in other people.
+objectiveIds: [efi-my-voice--o2]
+relatedSlugs: [efi-mv-introduce-yourself, efi-mv-fluency-introductions, efi-mv-class-survey, efi-mv-listening-hello-and-names]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1 speaking outcomes; CLT (real-life communication)"]
+provenanceNote: >-
+  Authored to strengthen the meaning-focused-output (speaking) strand for Unit 1, applying communicative
+  role-play to the real-life task of meeting someone new, built from the unit's greeting and
+  introduction language.

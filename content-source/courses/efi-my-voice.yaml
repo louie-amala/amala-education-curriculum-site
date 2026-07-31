@@ -37,12 +37,13 @@ throughline:
     introduction: a representation of themselves, in their own chosen words, shared with an audience.
 
 requirements:
-  structuredHours: 30
-  durationWeeks: 4
-  cadence: ≈4 weeks
-  liveIndependentSplit: null
+  structuredHours: 50
+  durationWeeks: 5
+  cadence: ≈4–5 weeks
+  liveIndependentSplit: 30 live / 20 independent
   notes: >-
-    Approximately 20–40 hours, adaptable to pacing and instructional time. The first and most
+    About 50 hours of structured learning — roughly 30 facilitated (live) and 20 independent —
+    adaptable to pacing and instructional time. The first and most
     foundational unit: expect to spend time on the alphabet, sounds, and the confidence to speak.
 
 objectives:

@@ -1,0 +1,113 @@
+# English for Impact — My Voice (Unit 1) teaching activity. Language-focused practice: phonics + spelling.
+# Consolidation/spaced-review games for the sounds taught, plus CVC dictation (writing mechanics).
+id: efi-mv-phonics-games-and-dictation
+slug: efi-mv-phonics-games-and-dictation
+access: public
+type: activity
+title: "Phonics games and dictation"
+summary: >-
+  A bank of short, repeatable games and dictation tasks to consolidate the sounds and spelling of the
+  unit — sound bingo, minimal-pair races, build-a-word, and simple dictation — so the phonics is
+  practised and recycled, not taught once and forgotten.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    The games are made for the group — bingo, races, and team word-building bring energy and repetition.
+    Run one or two as a warm-up or consolidation in many sessions across the unit.
+- context: independent
+  how: >-
+    Dictation and build-a-word work well independently with audio or a partner reading; sound sorting and
+    matching can be done alone with cards. Use these for the independent hours to recycle the sounds.
+duration: "20–40 min (pick and mix; repeatable across the unit)"
+grouping: "Whole group, teams, and pairs; works with 10–35 learners"
+whatLearnersDo:
+- Play sound and word games that revisit the sounds taught in the unit.
+- Race to hear and choose the right sound in minimal pairs.
+- Build CVC and high-frequency words from letters or sounds.
+- Write sounds, words, and short phrases from dictation.
+materialsAndPreparation:
+- Letter/sound cards or tiles; simple bingo grids with sounds or words; the Phonics Table.
+- A short list of words and one or two short phrases for dictation, from language already taught.
+- "Optional: a way to make teams for the races."
+facilitationNotes: |
+  Phonics is learned through repetition, and these short games are how you get that repetition without
+  it feeling like drilling. Treat this as a bank to dip into across the unit — a ten-minute game at the
+  start or end of many sessions does far more than one long phonics lesson. Keep every game tied to
+  sounds and words already taught, so this is practice, not new input. Dictation is powerful and often
+  skipped: writing what they hear links sound to spelling and builds real writing mechanics — start with
+  single sounds, then CVC words, then a short familiar phrase. Keep it low-stakes: dictation is for
+  learning, not testing, so let learners self-correct against a model afterwards.
+steps:
+- title: "Sound games (listen and choose)"
+  duration: "8–12 min"
+  guidance: |
+    Run a quick listening game: sound bingo (learners mark the sound they hear), or a minimal-pair race
+    (you say "pen" or "Ben" and teams point to or grab the right card). These revisit the vowel and
+    plosive contrasts from the unit and keep the ear sharp. Fast, fun, repeatable.
+  keyPrompts:
+  - Which sound did you hear — mark it.
+  - Did I say a word with /p/ or /b/?
+  watchOuts:
+  - Using sounds not yet taught; keep strictly to the unit's sounds so it is consolidation.
+  adaptation: |
+    Bingo grids can be hand-drawn; the minimal-pair race needs only two labelled spots and your voice.
+- title: "Build a word"
+  duration: "8–12 min"
+  guidance: |
+    Learners build CVC and high-frequency words from letters/sounds — you say a word, they build it;
+    or they change one sound to make a new word (sat → sit → sit → sun). In teams, race to build a word
+    correctly. This links sounds to spelling in an active, memorable way.
+  keyPrompts:
+  - Build the word "mat". Now change one sound to make a new word.
+  - What word did your team build? Read it to us.
+  watchOuts:
+  - Dropping or misordering final sounds; this is where meaning lives in English, so check the whole word.
+  adaptation: |
+    With no tiles, learners write on scraps and rearrange, or spell aloud in pairs.
+- title: "Dictation"
+  duration: "8–14 min"
+  guidance: |
+    Dictate in three easy stages: a few single sounds, then a few CVC words, then one short familiar
+    phrase ("I am a student."). Say each clearly, twice. Learners write, then check against your model
+    and fix their own. Praise close attempts — hearing and spelling is hard and improving is the point.
+  keyPrompts:
+  - Listen and write the sound… now the word… now the phrase.
+  - Check your writing against the model — what will you fix?
+  watchOuts:
+  - Treating dictation as a test; keep it formative, with self-correction, so learners stay relaxed and learn from it.
+closing: |
+  Add any tricky words to the Phonics Table. Note that the sounds are becoming automatic through play,
+  and that they can now write what they hear. Keep a couple of these games in regular rotation.
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: >-
+    Secure, automatic phonics and spelling free a learner to read and write without stalling on every
+    word — the reliable foundation that further study and everyday literacy depend on.
+principlesForegrounded: [lifeworthy-competencies, safe-spaces, feedback-and-data]
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Decoding and spelling are foundational literacy skills; consolidating them through repeated play
+    embeds capabilities reused across every unit and in life.
+- principle: safe-spaces
+  how: >-
+    Games and self-corrected dictation keep practice playful and low-stakes, so learners take risks with
+    sounds and spelling without fear of failing.
+- principle: feedback-and-data
+  how: >-
+    Dictation and games give quick, visible information to learner and educator about which sounds are
+    secure and which need more practice.
+competencyCodes: [FLC3]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Automatic decoding, sound discrimination, and spelling underpin the reading, writing, and clear
+    speech through which learners communicate.
+objectiveIds: [efi-my-voice--o1]
+relatedSlugs: [efi-mv-alphabet-and-first-sounds, efi-mv-plosive-sounds, efi-phonics-table-student, efi-mv-vocabulary-recycling-games]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1 phonics/writing focus; ELL practice (spaced review, dictation)"]
+provenanceNote: >-
+  Authored to strengthen language-focused learning for Unit 1 with repeatable phonics consolidation
+  games and dictation, addressing the need for repetition and spaced review that A1 phonics requires.

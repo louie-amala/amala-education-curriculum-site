@@ -1,0 +1,121 @@
+# English for Impact — My Voice (Unit 1) teaching activity. FLUENCY DEVELOPMENT strand.
+# Fills the fluency gap identified against Nation's Four Strands. Uses the 4/3/2 technique and
+# flashcard fluency on language learners already know.
+id: efi-mv-fluency-introductions
+slug: efi-mv-fluency-introductions
+access: public
+type: activity
+title: "Fluency: say it faster, say it smoother"
+summary: >-
+  Learners become quicker and more confident with language they already know — repeating their
+  self-introduction to several partners and doing fast, low-stakes question-and-answer rounds so that
+  introducing themselves becomes automatic, not effortful.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    The natural home for fluency work: the repeated-introduction (4/3/2) task needs a rotation of
+    partners, and quick-fire question rounds run best with the whole group. Keep the pace up and the
+    stakes low.
+- context: independent
+  how: >-
+    A learner can build fluency alone by repeating their introduction against a timer and using
+    flashcards for quick vocabulary recall, but the speaking is far better with partners; use
+    independent time to rehearse and group time to perform.
+duration: "30–40 min facilitated (repeatable across the unit)"
+grouping: "Pairs and rotating partners; works with 10–35 learners"
+whatLearnersDo:
+- Repeat their spoken self-introduction to several partners, a little faster and smoother each time.
+- Do fast question-and-answer rounds using only language they already know.
+- Recall identity vocabulary quickly with flashcards or picture cards.
+- Notice that language they knew slowly is becoming automatic.
+materialsAndPreparation:
+- Nothing new to learn — this uses only language from earlier in the unit.
+- "Optional: a simple timer or a way to count down; flashcards or picture cards for vocabulary."
+- The sentence frames on display as a safety net for anyone who needs it.
+facilitationNotes: |
+  Fluency development is the strand most often missing, and it is different from all the others: here
+  learners work only with language they already know, and the aim is speed and ease, not new items or
+  accuracy. This is where slow, effortful English becomes automatic. The classic tool is the 4/3/2
+  technique: a learner gives the same short talk (their introduction) three times to three different
+  partners, with a little less time each round — same content, more fluently. Keep the pressure playful,
+  not testing: no correction during fluency work, because stopping to fix errors kills the fluency. Run
+  short fluency bursts often across the unit rather than one long session.
+steps:
+- title: "Warm up your words"
+  duration: "6–8 min"
+  guidance: |
+    Quick vocabulary recall: show a picture or word and learners say it fast, as a group then in pairs.
+    Go faster each round. The aim is instant recall of words they already know — the building blocks of
+    fluent sentences. No new words here.
+  keyPrompts:
+  - Say the word as fast as you can — go!
+  - Can you and your partner get through all the cards in one minute?
+  watchOuts:
+  - Slipping into teaching new words; keep strictly to known vocabulary so this stays fluency, not learning.
+  adaptation: |
+    No cards? Point around the room or call categories ("a country… a language… a family word") for
+    learners to fill fast.
+- title: "4/3/2 — introduce yourself, three times"
+  duration: "14–18 min"
+  guidance: |
+    Each learner prepares their short introduction (name, where they are from, one or two likes). They
+    tell it to partner A with a little time, then to partner B with slightly less, then to partner C
+    faster still — same introduction, three partners, quicker and smoother each time. Do not correct;
+    the repetition itself improves it. Learners feel their own introduction become easy.
+  keyPrompts:
+  - Tell your introduction again — a little faster this time.
+  - What felt easier the third time than the first?
+  watchOuts:
+  - Learners changing or expanding the content each round; keep it the same short talk so the gain is fluency, not new production.
+  adaptation: |
+    In a seated group, rotate one row so everyone gets three fresh partners without much movement.
+- title: "Quick-fire questions"
+  duration: "8–12 min"
+  guidance: |
+    Fast rounds of known questions and answers in pairs or a circle: "What is your name? Where are you
+    from? What do you like?" Answers in full sentences, as fast as they can while staying clear. Time a
+    round and let pairs try to beat it. Celebrate speed and ease.
+  keyPrompts:
+  - Answer as fast as you can in a full sentence.
+  - Ready? How many questions can you both answer in one minute?
+  watchOuts:
+  - The competitive pace stressing shy learners; frame it as beating their own time, not others.
+closing: |
+  Ask learners how their introduction felt by the third partner compared with the first. Name what
+  happened: the language did not change — they did. Fluency comes from using what you know, again and
+  again.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, control-of-future-pathways]
+  how: >-
+    Being able to introduce yourself quickly and easily, without stopping to assemble every word, is
+    what turns knowing some English into using it in real time. That ease is what gives a learner the
+    confidence to speak up, meet people, and take part rather than freeze.
+principlesForegrounded: [safe-spaces, recognise-communicate-growth, lifeworthy-competencies]
+principleAlignment:
+- principle: safe-spaces
+  how: >-
+    Fluency work uses only known language, with no correction, so it is low-stakes and success-filled —
+    a safe place to build confidence in speaking.
+- principle: recognise-communicate-growth
+  how: >-
+    Feeling their own introduction get smoother across three partners lets learners directly experience
+    and recognise their growing fluency.
+- principle: lifeworthy-competencies
+  how: >-
+    The ability to use known language quickly and automatically is a foundational communication
+    capability that every later unit builds on.
+competencyCodes: [FLC3]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Repeated, timed practice turns learners' introductions and answers from effortful to automatic,
+    directly developing their ability to communicate clearly and confidently in real time.
+objectiveIds: [efi-my-voice--o2]
+relatedSlugs: [efi-mv-introduce-yourself, efi-mv-vocabulary-recycling-games, efi-mv-role-play-meeting-people]
+sourceRefs: ["Nation's Four Strands (fluency development); the 4/3/2 technique; LLL Course Guide Unit 1 speaking outcomes"]
+provenanceNote: >-
+  Authored to fill the fluency-development gap identified when evaluating Unit 1 against Nation's Four
+  Strands. Applies the 4/3/2 repeated-talk technique and flashcard/quick-fire fluency to the unit's own
+  self-introduction language, using only items learners already know.

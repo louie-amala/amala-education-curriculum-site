@@ -1,0 +1,113 @@
+# English for Impact — My Voice (Unit 1) teaching activity. Language-focused practice: vocabulary recycling.
+# Spaced-review games for identity vocabulary. ELL practice (recycling, retrieval).
+id: efi-mv-vocabulary-recycling-games
+slug: efi-mv-vocabulary-recycling-games
+access: public
+type: activity
+title: "Vocabulary recycling games"
+summary: >-
+  A bank of short, repeatable games — memory, categorising, picture races, and "guess who" — that bring
+  the unit's identity vocabulary back again and again, so words are recalled and reused rather than met
+  once and lost.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    The games are built for the group and for pairs — memory, races, and guessing games recycle
+    vocabulary with energy. Drop one into many sessions across the unit as a warm-up or a break.
+- context: independent
+  how: >-
+    Matching, sorting, and self-testing with picture cards work well independently for the 20 independent
+    hours; the guessing and racing games need partners.
+duration: "15–35 min (pick and mix; repeatable across the unit)"
+grouping: "Pairs, small groups, and whole class; works with 10–35 learners"
+whatLearnersDo:
+- Match, sort, and recall the unit's identity and everyday vocabulary.
+- Play memory and picture-race games that bring words back repeatedly.
+- Categorise words (countries, languages, people, feelings).
+- Play "guess who" using simple I am / he is sentences.
+materialsAndPreparation:
+- Word cards and picture cards for the unit vocabulary (reuse those from "Words about me").
+- The Phonics Table and sentence frames for support.
+- "Optional: a way to make small groups or teams."
+facilitationNotes: |
+  Vocabulary is not learned on first meeting; it is learned by being retrieved and reused across time.
+  These games are the recycling engine of the unit — short, playful, and repeatable, they bring the same
+  words back in new arrangements so they stick. The key principle is retrieval: make learners recall the
+  word (from a picture, a clue, a category) rather than just see it again. Keep the games tied to words
+  already taught. Rotate two or three across sessions rather than doing them all at once, and let
+  learners run them in pairs so everyone is active. The "guess who" game quietly recycles the "to be"
+  grammar too.
+steps:
+- title: "Match and sort"
+  duration: "8–12 min"
+  guidance: |
+    Pairs match word cards to pictures, then sort the words into groups (countries, languages, people,
+    feelings). Sorting forces learners to think about meaning, not just recognise a shape. Ask pairs to
+    say each word as they place it, so recall links to sound.
+  keyPrompts:
+  - Which words go together? Why?
+  - Say each word as you place it.
+  watchOuts:
+  - Silent sorting; insist words are said aloud so retrieval is active.
+  adaptation: |
+    Write words on scraps to sort into piles; no printed cards needed.
+- title: "Memory and picture race"
+  duration: "8–12 min"
+  guidance: |
+    Play a memory game (turn over pairs of word/picture cards) or a picture race (you say a word, teams
+    race to touch the right picture). Both make learners retrieve words fast and often. Keep rounds short
+    and rotate who leads.
+  keyPrompts:
+  - What is this word? Say it before you turn the card.
+  - Race — touch "family"! Touch "teacher"!
+  watchOuts:
+  - The same fast learners winning every race; mix teams and reward the group, not individuals.
+  adaptation: |
+    The race works with words on the wall or board; memory works with any paired cards.
+- title: "Guess who"
+  duration: "8–12 min"
+  guidance: |
+    A learner thinks of a classmate; others ask yes/no questions using known language ("Is it a boy? Is
+    he from Somalia? Does he like football?") to guess. This recycles vocabulary and the "to be" grammar
+    in a genuinely communicative game. Keep it kind and about safe, visible facts.
+  keyPrompts:
+  - Ask a question to help you guess.
+  - Is it…? Use a full question.
+  watchOuts:
+  - Questions about sensitive personal details; keep guesses to safe, everyday facts (country, likes, role).
+closing: |
+  Note how many words came back easily that were new a week ago — that is what recycling does. Keep two
+  or three of these games in rotation so vocabulary keeps returning.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, control-of-future-pathways]
+  how: >-
+    A secure, quickly-recalled vocabulary is what lets a learner actually say what they mean rather than
+    grope for words. Recycling words until they are owned gives learners a reliable store to draw on in
+    real communication.
+principlesForegrounded: [lifeworthy-competencies, collaboration, safe-spaces]
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    A well-consolidated core vocabulary is reused in every later unit and across daily life; retrieval
+    practice is a strategy learners can apply to any learning.
+- principle: collaboration
+  how: >-
+    The games are paired and team-based, so learners recall and reuse words together, helping each other.
+- principle: safe-spaces
+  how: >-
+    Playful, low-stakes games let learners take risks with words, and "guess who" is kept to safe,
+    everyday facts.
+competencyCodes: [FLC3]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Fast, secure recall of the unit's vocabulary is the raw material of communication; recycling games
+    move words from recognised to usable.
+objectiveIds: [efi-my-voice--o1]
+relatedSlugs: [efi-mv-words-about-me, efi-mv-key-vocabulary-and-frames, efi-mv-phonics-games-and-dictation, efi-mv-fluency-introductions]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1 Key Vocabulary; ELL practice (vocabulary recycling, retrieval)"]
+provenanceNote: >-
+  Authored to strengthen language-focused learning for Unit 1 with repeatable vocabulary-recycling
+  games, addressing the spaced-review and retrieval practice that vocabulary acquisition requires.

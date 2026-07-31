@@ -1,0 +1,121 @@
+# English for Impact — My Voice (Unit 1) teaching activity. Meaning-focused INPUT: reading.
+# Fills the reading-for-meaning gap (Four Strands). Source: LLL Course Guide Unit 1 Reading focus.
+id: efi-mv-reading-all-about-me
+slug: efi-mv-reading-all-about-me
+access: public
+type: activity
+title: "Reading: all about me"
+summary: >-
+  Learners read a short, simple text in which someone introduces themselves, understand the key
+  information, and use it as a model for their own writing and their identity project — moving from
+  reading single words to reading connected sentences for meaning.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners read a model "about me" text, find the key information, and discuss it in
+    pairs before using it as a model. Reading together lets stronger readers support newer ones.
+- context: independent
+  how: >-
+    A strong independent task: learners read a model text at their own pace, answer simple comprehension
+    questions, and mark the words they know. Ask them to bring one question or one new word to the next
+    session.
+duration: "40–50 min facilitated, plus independent reading"
+grouping: "Individual and paired reading; works with 10–35 learners"
+whatLearnersDo:
+- Read a short model text in which a person introduces themselves.
+- Find key personal information in the text (name, country, age, likes).
+- Match sentences to pictures and answer simple comprehension questions.
+- Use the text as a model for what to include in their own writing and project.
+materialsAndPreparation:
+- One or two short model "about me" texts (see the "Model 'about me' texts" resource).
+- Simple comprehension prompts (who, where, what do they like) and, if possible, pictures to match.
+- Learners' Phonics Table and the sentence frames for support.
+facilitationNotes: |
+  This is reading for meaning, not decoding practice — learners read a whole short text and understand
+  what it says. Choose a text pitched just at or slightly below their level so success is the norm; at
+  A1, comprehensible input that is mostly known, with a little new, is what builds reading. Pre-teach
+  only the two or three words that would block understanding. Have learners read for a purpose each time
+  (find the name; find the country), so reading is an active search, not word-by-word translation.
+  Welcome translanguaging to check meaning. The text doubles as a model: seeing a good, simple "about
+  me" shows learners exactly what their own writing and project can look like.
+steps:
+- title: "Read to find one thing"
+  duration: "12–15 min"
+  guidance: |
+    Give out the model text. First reading: learners find just the person's name and country. They
+    underline or point. Confirm together. Reading for a single target stops beginners from stalling on
+    every word and builds the habit of reading for meaning.
+  keyPrompts:
+  - What is this person's name? Where are they from?
+  - Which words told you? Point to them.
+  watchOuts:
+  - Learners translating every word before answering; direct them to scan for the target information first.
+  adaptation: |
+    Read the text aloud once as learners follow, then let them search; the audio support makes the first
+    reading accessible with no extra materials.
+- title: "Read for the details"
+  duration: "14–18 min"
+  guidance: |
+    Second and third readings for more detail: age, what the person likes, what they do. Learners answer
+    simple questions in pairs and match sentences to pictures if you have them. Pre-teach any blocking
+    word now, briefly. Let pairs compare answers and reread to check.
+  keyPrompts:
+  - How old is she? What does she like?
+  - Read the sentence that shows this.
+  watchOuts:
+  - Answers from memory rather than the text; ask learners to point to the sentence that proves each answer.
+  adaptation: |
+    Turn the questions into a true/false round said aloud if you have no handout; learners show thumbs
+    up or down.
+- title: "Use it as a model"
+  duration: "12–15 min"
+  guidance: |
+    Look at how the text is built — it starts with the name, then country, then a couple of likes.
+    Learners mark the parts they could use for their own "about me". This connects the reading straight
+    to their writing and identity project: they now have a model to follow.
+  keyPrompts:
+  - What information does this text include? In what order?
+  - Which of these could you write about yourself?
+  watchOuts:
+  - Copying the model wholesale; make clear it is a shape to follow with their own true information.
+closing: |
+  Recap what the text told us and how it was built. Note that they read and understood a whole text in
+  English — and now have a model for their own. Set a short model text for independent reading.
+agencyContribution:
+  indicators: [control-of-future-pathways]
+  how: >-
+    Reading a whole text and pulling out what matters is the gateway skill for study, information, and
+    participation. Doing it with a text about a life like their own shows learners that written English
+    is already partly open to them.
+principlesForegrounded: [builds-on-identities, lifeworthy-competencies, safe-spaces]
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The reading is about a person introducing themselves, mirroring the learners' own identity work, and
+    translanguaging is welcomed to check meaning.
+- principle: lifeworthy-competencies
+  how: >-
+    Reading for meaning and finding key information in a text are foundational academic skills reused in
+    every later unit and in further study.
+- principle: safe-spaces
+  how: >-
+    Texts are pitched for success with only a little new language, and reading for one target at a time
+    keeps the task achievable and low-stress.
+competencyCodes: [FLC3, FUS2]
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Understanding a short written text and finding key information in it is the receptive reading side of
+    communication.
+- code: FUS2
+  how: >-
+    Reading about another person's life and identity develops attention to and interest in others.
+objectiveIds: [efi-my-voice--o2]
+relatedSlugs: [efi-mv-model-identity-texts, efi-mv-words-about-me, efi-mv-writing-about-myself, efi-mv-project-my-name-my-voice]
+sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1 Reading focus; Nation's Four Strands (meaning-focused input)"]
+provenanceNote: >-
+  Authored to fill the reading-for-meaning gap identified when evaluating Unit 1 against Nation's Four
+  Strands. Builds on the unit's reading focus (identifying key personal information in short texts) and
+  doubles the text as a writing/project model.
