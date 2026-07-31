@@ -87,6 +87,69 @@ export default async function ModulePage({ params }: { params: Promise<{ slug: s
         </section>
       )}
 
+      {/* How this module develops and demonstrates its main competency, and any others */}
+      {(mod.anchorContribution || mod.competencyDevelopment.length > 0) && (
+        <section className="mt-10">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">
+            Develops and demonstrates
+          </h2>
+
+          {mod.anchorContribution && comp && (
+            <div className={`mt-3 rounded-xl border-l-4 ${s.border} border-y border-r border-cool-grey/20 bg-white p-5 shadow-sm`}>
+              <p className={`${eyebrow} ${s.text}`}>
+                Main competency ·{" "}
+                <Link href={`/competencies/${comp.code.toLowerCase()}`} className="hover:underline">
+                  {comp.code} {comp.title}
+                </Link>
+              </p>
+              <div className="mt-3 grid gap-4 sm:grid-cols-2">
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-widest text-navy">Develops</p>
+                  <p className="mt-1 text-[15px] leading-relaxed text-dark-navy/90">
+                    <GlossedText text={mod.anchorContribution.develops} />
+                  </p>
+                </div>
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-widest text-navy">
+                    Demonstrates
+                  </p>
+                  <p className="mt-1 text-[15px] leading-relaxed text-dark-navy/90">
+                    <GlossedText text={mod.anchorContribution.demonstrates} />
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {mod.competencyDevelopment.length > 0 && (
+            <div className="mt-4">
+              <p className="text-sm text-dark-navy/70">
+                Doing this well also develops and demonstrates other competencies:
+              </p>
+              <ul className="mt-3 space-y-3">
+                {mod.competencyDevelopment.map(({ code, how }) => {
+                  const c = getCompetencyByCode(code);
+                  return (
+                    <li key={code} className="rounded-lg border border-cool-grey/20 bg-white p-4 shadow-sm">
+                      <Link
+                        href={`/competencies/${code.toLowerCase()}`}
+                        className="font-medium text-dark-navy hover:text-navy hover:underline"
+                      >
+                        <span className="font-mono text-xs text-cool-grey">{code}</span>{" "}
+                        {c?.title ?? code}
+                      </Link>
+                      <p className="mt-0.5 text-sm text-dark-navy/70">
+                        <GlossedText text={how} />
+                      </p>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          )}
+        </section>
+      )}
+
       {/* Competency module: the skills that make it up */}
       {isCompetency && skills.length > 0 && (
         <section className="mt-10">

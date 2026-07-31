@@ -17,5 +17,22 @@ summary: >-
 agencyNote: >-
   Secondary research lets learners connect their local challenge to wider knowledge, so their
   insights are informed by more than what they can see from where they stand.
+anchorContribution:
+  develops: >-
+    Learners develop the secondary-research side of FSI1 — building on what is already known — by
+    finding relevant sources on the challenge and recording them systematically for later evaluation.
+  demonstrates: >-
+    An evidence log of located, relevant secondary sources demonstrates that a learner can gather
+    credible existing evidence about the challenge — part of FSI1's investigative work.
+# Other competencies (from Research Project objective 2).
+competencyDevelopment:
+  - code: FTS3
+    how: >-
+      Recording secondary sources systematically in an evidence log builds and shows the ability to
+      gather and organise data.
+  - code: FPS2
+    how: >-
+      Deciding which secondary sources are worth relying on begins the work of judging source
+      credibility and reliability.
 materialSlugs:
   - dc-secondary-research-methods

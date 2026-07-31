@@ -18,6 +18,21 @@ summary: >-
 agencyNote: >-
   A sharp question is the first act of agency in research — it decides what a learner will come to
   understand, and keeps a big, overwhelming issue small enough to act on.
+# How this skill develops and demonstrates the module's main competency, FSI1.
+anchorContribution:
+  develops: >-
+    Learners develop the starting move of FSI1 — turning a broad, real-world concern into a focused
+    question research can actually answer — by defining the shared challenge, surfacing what is already
+    known, and mapping who and what is involved.
+  demonstrates: >-
+    A clear, researchable question, plus an initial map of the people and factors connected to the
+    challenge, shows that a learner can scope an investigation: the first, foundational evidence of FSI1.
+# Other competencies this skill also develops and demonstrates (from Research Project objective 1).
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Mapping the people, groups, and systems connected to the challenge — and backing the map with
+      early evidence — builds and shows the ability to identify contributing factors.
 materialSlugs:
   - dc-importance-of-research
   - dc-defining-the-problem

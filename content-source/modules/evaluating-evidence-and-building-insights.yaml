@@ -17,6 +17,33 @@ summary: >-
 agencyNote: >-
   Judging evidence and naming what it means is where a learner stops being a collector of information
   and becomes someone whose conclusions can guide action.
+anchorContribution:
+  develops: >-
+    Learners develop the analytical heart of FSI1 — moving from raw data to insight — by weighing
+    source credibility, organising evidence so patterns show, and distilling actionable insights.
+  demonstrates: >-
+    An insights statement, backed by evaluated evidence and identified patterns, demonstrates the
+    defining outcome of FSI1: developing genuinely actionable insights into a real-world challenge,
+    not just findings.
+# Other competencies (from Research Project objective 3). ATS1/APS3 are Advanced stretch for a
+# preparatory cohort; the required spine is the Foundational competencies, led by FSI1.
+competencyDevelopment:
+  - code: FPS2
+    how: >-
+      Judging the credibility, reliability, and relevance of each source before relying on it builds
+      and shows source evaluation.
+  - code: FPS3
+    how: >-
+      Establishing, with evidence, the factors contributing to the challenge builds and shows the
+      ability to identify contributing factors.
+  - code: ATS1
+    how: >-
+      Analysing and interpreting the gathered data to uncover what it means builds and shows data
+      analysis (an Advanced stretch).
+  - code: APS3
+    how: >-
+      Spotting trends and relationships across the evidence builds and shows pattern identification
+      (an Advanced stretch).
 materialSlugs:
   - evidence-log-and-source-evaluation
   - dc-creating-insight-statements

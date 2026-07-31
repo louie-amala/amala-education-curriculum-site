@@ -19,6 +19,23 @@ summary: >-
 agencyNote: >-
   Primary research puts learners in direct, respectful contact with their community — listening to
   people affected by the challenge and treating their perspectives as legitimate evidence.
+anchorContribution:
+  develops: >-
+    Learners develop the core of FSI1 — actually conducting research — by choosing methods suited to
+    their question, designing simple instruments, and gathering data ethically from community members.
+  demonstrates: >-
+    Completed interviews, surveys, or observations demonstrate that a learner can gather relevant,
+    credible primary evidence about a real-world challenge — the investigative heart of FSI1.
+# Other competencies (from Research Project objective 2).
+competencyDevelopment:
+  - code: FTS3
+    how: >-
+      Collecting and systematically recording primary data — interview notes, survey responses,
+      observations — builds and shows the ability to gather and organise data.
+  - code: FLC1
+    how: >-
+      Planning and running the research with informed consent, privacy, and participant safety in mind
+      builds and shows ethical action.
 materialSlugs:
   - rp-planning-your-research
   - dc-being-an-ethical-researcher

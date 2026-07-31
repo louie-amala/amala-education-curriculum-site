@@ -672,6 +672,15 @@ export function validateGraph(): ValidationReport {
         errors.push(`Module "${mod.slug}" references unknown material "${s}".`);
       }
     }
+    for (const cd of mod.competencyDevelopment) {
+      if (!competencyByCode.has(cd.code)) {
+        errors.push(`Module "${mod.slug}" develops unknown competency code "${cd.code}".`);
+      } else if (cd.code === mod.competencyCode) {
+        warnings.push(
+          `Module "${mod.slug}" lists its own main competency "${cd.code}" under competencyDevelopment; use anchorContribution for the main competency.`,
+        );
+      }
+    }
     if (mod.grain === "skill") {
       if (!mod.skill) {
         warnings.push(`Skill module "${mod.slug}" has no skill{} label/description.`);

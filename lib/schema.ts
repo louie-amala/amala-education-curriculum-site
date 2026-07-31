@@ -444,6 +444,18 @@ export const ModuleSchema = z.object({
   competencyCode: z.string(),
   // Skill modules only: the specific skill, phrased as a capability the learner gains.
   skill: z.object({ label: z.string(), description: z.string() }).optional(),
+  // How working through this module develops and demonstrates its MAIN competency (competencyCode).
+  // Mirrors a course objective's anchorContribution: develops = how proficiency is built; demonstrates
+  // = the evidence a learner produces that shows it.
+  anchorContribution: z
+    .object({ develops: z.string(), demonstrates: z.string() })
+    .optional(),
+  // OTHER framework competencies this module also develops and demonstrates (not its main one).
+  // `how` says, in one line, how the work builds and shows that competency. Codes validated in
+  // validateGraph(). Mirrors a material's competencyDevelopment.
+  competencyDevelopment: z
+    .array(z.object({ code: z.string(), how: z.string() }))
+    .default([]),
   // Competency modules only: the ordered skill modules that make it up (skill-module slugs).
   skillModuleSlugs: z.array(z.string()).default([]),
   // Skill modules only: the competency module it rolls up into (back-link, optional).

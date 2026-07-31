@@ -17,6 +17,28 @@ summary: >-
 agencyNote: >-
   Insight only becomes change when others can act on it. Communicating findings to peers and
   community members is how a learner's research contributes back to the community it came from.
+anchorContribution:
+  develops: >-
+    Learners develop the communicative dimension of FSI1 — making insight usable by others — by
+    structuring findings into a clear, evidence-based account and tailoring it to a specific audience.
+  demonstrates: >-
+    A research output shared with an audience, and the learner's responses to questions about it,
+    demonstrate that their actionable insights are clear, evidence-based, and able to inform action —
+    the point of investigating a real-world issue.
+# Other competencies (from Research Project objective 4).
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      Communicating findings in a way that generates interest and understanding builds and shows
+      influential communication.
+  - code: FPS1
+    how: >-
+      Adapting how the findings are presented to suit different audiences builds and shows adaptable
+      thinking.
+  - code: FSL1
+    how: >-
+      Reflecting on the research process — naming what went well and what to do differently — builds
+      and shows self-reflection.
 materialSlugs:
   - rp-writing-a-research-report
   - challenge-research-report-and-presentation
