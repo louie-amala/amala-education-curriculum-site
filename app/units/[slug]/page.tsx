@@ -121,7 +121,7 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
               ))}
             </ul>
             <p className="mt-4 border-t border-[#F0ECE3] pt-3 text-[13px] leading-relaxed text-[#6B7482]">
-              Print the student resources, one per learner, to hand out. No printer? Show one copy on a screen, or hold up a printed sheet, and learners use their own notebooks.
+              Your team chooses what to print. The student workbook and the per-activity sheets cover the same activities, so you do not need both: use the bound workbook, or print individual sheets, whichever suits your setting. No printer? Show one copy on a screen, or hold up a printed sheet, and learners use their own notebooks.
             </p>
           </section>
         )}
