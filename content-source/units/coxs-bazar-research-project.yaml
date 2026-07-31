@@ -1,0 +1,344 @@
+# Unit plan (scheme of work) for the Research Project component of Learning Bridge+ (Cox's Bazar).
+# HOURS-BASED, not weeks: it sets out the full 50 hours (30 in-person + 20 independent) so an educator
+# can fit them into their own weekly schedule (minimum 10 weeks). Treated as a standalone component.
+#
+# DEFERRED / PLACEHOLDER STATE: the whole cohort investigates ONE shared challenge, which is not yet
+# agreed with NRC and the community. Until it is, this plan is authored challenge-agnostic. Two
+# placeholder tokens stand in for the parts that depend on the challenge, so they can be found and
+# replaced in one pass once it is set:
+#   «CHALLENGE»            — the shared real-world challenge the cohort investigates.
+#   «SECONDARY SOURCE PACK» — the ready-made, translated, level-appropriate pack of secondary sources
+#                             about «CHALLENGE», supplied on USB (there is no internet in the camps).
+# The challenge-specific teaching materials (a cb-rp-* family, adaptations of the generic rp-*/dc-*
+# materials) are also not authored yet, so every block here is a rich description-only connective
+# block: it carries full facilitator guidance inline and references no materialSlug. When the cb-rp-*
+# materials and the source pack exist, wire them onto these blocks and replace the two tokens.
+#
+# Times are generous for this oral/visual, translated, largely pre-literate cohort: activities take
+# roughly 1.5 to 2 times longer than they would with a literate group. Sibling of
+# coxs-bazar-agency-in-learning.yaml; same shape and same deliberate release of control.
+id: coxs-bazar-research-project
+slug: coxs-bazar-research-project
+access: public
+title: "Research Project — Cox's Bazar unit plan"
+programmeSlug: learning-bridge-coxs-bazar
+componentTitle: Research Project
+courseSlug: research-project
+summary: >-
+  The full 50-hour plan for delivering the Research Project component fully offline in the Cox's Bazar
+  camps, as a standalone course. It is set out in hours, not weeks, so you can fit it into your own
+  timetable over a minimum of 10 weeks. The whole cohort investigates one shared, local challenge:
+  learners frame it into a question they can research, gather evidence through primary research in
+  their community and through a supplied pack of secondary sources, weigh what they find, and turn it
+  into insights they share. Because there is no internet, all secondary sources are supplied ready-made.
+  Times are deliberately generous, because oral and visual delivery with drawing and translation takes
+  longer than it first appears. Authored challenge-agnostic while the shared challenge is agreed:
+  «CHALLENGE» and «SECONDARY SOURCE PACK» are placeholders to be filled once it is set.
+totalFacilitatedHours: 30
+totalIndependentHours: 20
+deliveryApproach: >-
+  This unit runs one real cycle of investigation on a single challenge the whole cohort shares, and
+  hands over control as it goes: the aim is to move learners from doing research to being researchers.
+  Early on you lead: you introduce the challenge, model how a researcher asks a question, and show how
+  to read a source. In the middle it is shared: learners design their own interview and survey
+  questions, gather evidence, and sort it, while you guide. Later the learners lead: they decide what
+  their evidence means and how to share it. Release control gradually and safely; some learners need
+  more structure for longer, and that is fine. Two cautions specific to research in this context.
+  First, primary research means learners talking to real people, so protection comes first: the
+  challenge must be safe to research here, consent is always asked, no one is pressed to answer, and
+  girls gather in same-gender pairs where that is what keeps them safe. Second, offline does not mean
+  thin: secondary research is real research done on a supplied, curated pack of sources rather than by
+  searching the internet.
+assessmentNote: >-
+  On Learning Bridge+, a learner's proficiency in the anchor competency, investigating real-world
+  issues (FSI1), is judged by the educator against Amala's proficiency scale at two points: midway
+  (formative) and at the end (summative). It is not marked from the final output alone. Gather evidence
+  from across the whole investigation: the research question and plan they framed, the interview and
+  survey questions they designed, how they weighed their sources (their evidence log), how they moved
+  from raw findings to insight, and the final research output and how they answer questions about it.
+  A learner who gathered evidence but could not turn it into an insight, and one who reached a
+  defensible insight, are showing different proficiency, even with a similar-looking poster. Do not
+  over-assess: two considered judgements, built from evidence gathered over time, are worth more than
+  repeated testing. This is one of the two certificated competencies for the readiness decision.
+phases:
+  - title: "Getting started"
+    lead: facilitator-led
+    summary: >-
+      Build a safe, warm space and set up the research book that runs through the whole course.
+      Learners meet the shared challenge and the big idea: a researcher does not guess or argue from
+      opinion, they find out.
+    blocks:
+      - title: "Welcome and our research space"
+        kind: orientation
+        facilitatedHours: 1
+        independentHours: 0
+        description: >-
+          Open the course. Build a safe, welcoming space: names, a simple agreement about how the group
+          treats each other and each other's ideas, and reassurance that no one has to read, write, or
+          share anything they would rather keep private. Introduce the big idea in your own words: this
+          course is about finding things out for ourselves, carefully and fairly, instead of guessing or
+          repeating what people say. Keep it warm, oral, and unhurried.
+      - title: "Meet our challenge"
+        kind: activity
+        facilitatedHours: 2
+        independentHours: 0.5
+        description: >-
+          Introduce «CHALLENGE», the one challenge the whole cohort will investigate together, in a
+          warm, concrete, oral way, using a picture or short story rather than a definition. Draw out
+          what learners already feel and notice about it, and let them react and ask questions. Then
+          walk through what the course will do with it, using the same shared orientation as the other
+          components (see exploring-your-objectives): we will frame a question, gather evidence, work
+          out what it means, and share it. Handle «CHALLENGE» with the safeguarding care it needs: if it
+          touches on loss, family, or displacement, no learner has to speak from their own life, and you
+          have step-back and referral guidance to hand.
+        independentTask: "Tell one person at home what our group is going to investigate, and one thing you already wonder about it."
+        flexNote: >-
+          Listen closely to how learners talk about «CHALLENGE»: what they already believe about it, and
+          how personal it is for them, tells you how much to lead in the framing phase and where the
+          protection risks are. This same orientation activity works for Agency in Learning too.
+      - title: "Set up your research book"
+        kind: orientation
+        facilitatedHours: 1.5
+        independentHours: 0.5
+        description: >-
+          Set up the research book each learner keeps through the whole course: it holds their question,
+          their evidence, and their thinking, mostly as drawings, marks, and a few words. Model making
+          the first pages together. It runs through every phase and becomes the record the educator
+          draws on for assessment, so set it up early and keep coming back to it.
+        independentTask: "Make one small mark or drawing about our challenge on the first page of your research book."
+        flexNote: >-
+          The research book is to the Research Project what the learning book is to Agency in Learning:
+          the visual-first spine that carries evidence across a stop-start attendance pattern.
+      - title: "What good research looks like"
+        kind: activity
+        facilitatedHours: 0.5
+        independentHours: 0
+        description: >-
+          A short, warm introduction to the competency this whole course grows, investigating
+          real-world issues (FSI1), as a growth path, not a test. Learners meet, in plain and pictorial
+          terms, what a researcher does, and mark honestly where they feel they are now, so they can
+          revisit it at the end and see how they have moved.
+  - title: "Frame the challenge"
+    lead: shared
+    objectiveId: research-project--o1
+    summary: >-
+      Learners turn the broad challenge into something they can actually research: they surface what is
+      already known, map who and what is connected to it, and narrow it to a clear, researchable
+      question the cohort will pursue.
+    blocks:
+      - title: "Why this challenge matters, and what we already know"
+        kind: activity
+        facilitatedHours: 2
+        independentHours: 1
+        description: >-
+          Learners explore why «CHALLENGE» matters to them and their community, and pool what they
+          already know about it, treating their own knowledge and lived experience as real evidence to
+          start from. Draw a shared "what we already know / what we still need to find out" picture on
+          the wall, in marks and drawings, that the cohort adds to as the course goes. This is where you
+          separate what is genuinely known from what is assumed, gently and without singling anyone out.
+        independentTask: "Ask one older person at home what they know about our challenge, and bring back one thing to add to our wall."
+      - title: "Who and what is connected to our challenge"
+        kind: activity
+        facilitatedHours: 2
+        independentHours: 1
+        description: >-
+          A community-mapping activity: learners map the people, groups, and things connected to
+          «CHALLENGE» — who is affected, who is involved, what makes it better or worse. Done as a big
+          shared drawing, it surfaces contributing factors and, crucially for the next phase, shows who
+          in the community the cohort could learn from and speak to. Flag early which of those people it
+          is appropriate and safe for learners to approach, and which are better reached another way.
+        independentTask: "Notice one person or place connected to our challenge on your way home, and be ready to add it to our map."
+        flexNote: >-
+          The map does double duty: it develops the "identify contributing factors" strand of the
+          objective and it becomes the sampling frame for the primary research in the next phase.
+      - title: "From a big challenge to a question we can research"
+        kind: activity
+        facilitatedHours: 2
+        independentHours: 0.5
+        description: >-
+          Learners meet the difference between a topic, a question, and a question you can actually
+          research, in concrete terms. Through question-storming and then sorting questions from broad
+          to researchable, the cohort narrows «CHALLENGE» to one shared, researchable question (and
+          perhaps a small number of sub-questions) that is answerable with the primary research they can
+          safely do here and the «SECONDARY SOURCE PACK» they will be given. Capture the agreed question
+          in words and a picture, big on the wall and in every research book.
+        independentTask: "Say our research question out loud to one person at home, and check they understand what we are trying to find out."
+  - title: "Plan and conduct research"
+    lead: shared
+    objectiveId: research-project--o2
+    summary: >-
+      Learners learn the two ways a researcher finds things out, how to do so fairly and safely, and
+      then do it: they design their own questions, work through the supplied pack of secondary sources,
+      and gather primary evidence from their community.
+    blocks:
+      - title: "Two ways to find out, and being a fair and safe researcher"
+        kind: activity
+        facilitatedHours: 2
+        independentHours: 0.5
+        description: >-
+          Introduce, in plain terms with pictures, the two ways a researcher finds things out: asking
+          people and looking around us here (primary), and studying what others have already found out
+          (secondary, which for us lives in the «SECONDARY SOURCE PACK»). Then teach research ethics as
+          the heart of the work, not a footnote: ask before you ask ("may I ask you some questions?"),
+          explain why, let people say no or stop, do not use names, and never put anyone — including
+          yourself — at risk to get an answer. Practise the consent request aloud in pairs until it is
+          natural. This ethics ground is carried into every gathering activity that follows.
+        independentTask: "Practise asking someone at home for their permission before asking them a question, in our own words."
+      - title: "Design our interview and survey questions"
+        kind: activity
+        facilitatedHours: 2
+        independentHours: 1
+        description: >-
+          Learners design the simple instruments they will use to gather primary evidence about the
+          research question: a short set of interview questions and, if useful, a very short survey that
+          can be run orally and recorded with marks or pictures rather than writing. Model the
+          difference between a question that opens people up and one that leads them to an answer.
+          Learners draft, then try their questions on each other, notice what was confusing, and improve
+          them. Keep instruments short, oral-friendly, and safe.
+        independentTask: "Try one of your interview questions on a family member, and notice whether it was clear."
+      - title: "Work the Secondary Source Pack"
+        kind: activity
+        facilitatedHours: 2
+        independentHours: 1.5
+        description: >-
+          Learners work through the «SECONDARY SOURCE PACK» — the ready-made, translated,
+          level-appropriate set of secondary sources about «CHALLENGE», supplied on USB or in print
+          because there is no internet here. Model how a researcher reads a source: what is this, who
+          made it, what does it tell us about our question, and what does it not tell us. Learners pull
+          out, in marks and a few words, what each source says that bears on the question, and begin an
+          evidence log in their research book. This is real secondary research; the curation is what
+          makes it possible offline.
+        independentTask: "Choose one source from the pack, and draw or mark the one most important thing it tells us about our question."
+        flexNote: >-
+          Until «CHALLENGE» is agreed, the pack cannot be authored. Its scope is defined here: enough
+          sources, pitched for a pre-literate, below-B1 cohort, to let learners triangulate their
+          primary findings against what is already known. Author it alongside the cb-rp-* materials.
+      - title: "Go and gather"
+        kind: practice
+        facilitatedHours: 1
+        independentHours: 3
+        description: >-
+          The heart of primary research, and where much of the independent time lives. Between sessions,
+          in the pairs and with the consent routine already practised, learners gather primary evidence
+          about the research question from the people and places on their community map, and record it in
+          their research book with marks, drawings, and a few words. Open each session with a short, warm
+          check-in in same-gender pairs or the group: who did you speak to, what did you find, what got in
+          the way? Protect this block and keep the check-ins going. Hold the ethics line throughout:
+          consent every time, no names, no pressure, and no learner sent anywhere unsafe to get evidence.
+          When gathering is disrupted — by a fire, illness, a week kept indoors — adapting the plan and
+          picking it up again is part of the skill, not a failure.
+        independentTask: "Gather evidence from one or two people or places from our map, ask permission first, and record what you find in your research book."
+  - title: "Evaluate evidence and develop insights"
+    lead: shared
+    objectiveId: research-project--o3
+    summary: >-
+      Learners move from a pile of evidence to a small number of clear, actionable insights: they weigh
+      how far each source can be trusted, sort and theme what they gathered, and work out what it all
+      means for the challenge.
+    blocks:
+      - title: "Can we trust it? Weighing our sources"
+        kind: activity
+        facilitatedHours: 2
+        independentHours: 1
+        description: >-
+          Learners meet, in plain terms, how a researcher decides how far to trust a source: who said
+          it, how do they know, does other evidence agree, and could they be mistaken or have a reason
+          to shape the story. They apply this to both their primary evidence (one person's strong
+          opinion is not the same as a pattern across many) and the «SECONDARY SOURCE PACK», marking in
+          their evidence log how much weight each piece can bear. This is the "evaluating sources"
+          strand, and it protects learners from building an insight on a single shaky claim.
+        independentTask: "Think of something you were told about our challenge, and ask yourself: how does that person know it is true?"
+      - title: "Sort and theme what we found"
+        kind: activity
+        facilitatedHours: 2
+        independentHours: 1.5
+        description: >-
+          Learners organise all the evidence — primary and secondary — so that patterns can be seen:
+          physically grouping cards, drawings, or marks into themes on the floor or wall, and naming
+          each cluster. Out of this come the patterns, trends, and contributing factors in the evidence:
+          what many people said, where sources agree or disagree, what keeps coming up. Keep it hands-on
+          and visual; the sorting is the analysis.
+        independentTask: "Look at what you gathered and find two pieces of evidence that say a similar thing; be ready to explain the pattern."
+      - title: "From findings to insights"
+        kind: activity
+        facilitatedHours: 2
+        independentHours: 1
+        description: >-
+          The analytical heart of the course: learners move from findings (what the evidence says) to
+          insights (what it means and why it matters for «CHALLENGE», and what could be done about it).
+          Model the difference between a finding and an actionable insight. The cohort drafts a small
+          number of clear insight statements, each one they can point to the evidence for, and separates
+          those evidence-backed claims from opinion or assumption. These insights are the defining
+          outcome of the whole investigation.
+        independentTask: "Think about what we found and finish this out loud for someone at home: 'What surprised me is…'."
+  - title: "Communicate findings"
+    lead: learner-led
+    objectiveId: research-project--o4
+    summary: >-
+      Learners make their insights usable by others: they choose a format that suits their message and
+      audience, and build a research output that shares what they found and what it means, backed by
+      their evidence.
+    blocks:
+      - title: "Choose our format and our audience"
+        kind: activity
+        facilitatedHours: 1.5
+        independentHours: 1
+        description: >-
+          Learners decide who most needs to hear what they found — peers, families, the wider community,
+          a camp committee — and choose a format that fits both the message and an oral, visual context:
+          a poster, a spoken presentation with pictures, a role-play or story, a simple infographic.
+          Match format to purpose and audience is the idea; there is no single required output. Learners
+          plan what their output will say and show, and how it will stand on the evidence.
+        independentTask: "Decide who you most want to tell about what we found, and why they should care."
+      - title: "Build our research output"
+        kind: practice
+        facilitatedHours: 2
+        independentHours: 3
+        description: >-
+          Learners build their chosen output, structuring their findings and insights into a clear,
+          honest, evidence-based account a non-expert can follow, and rehearsing how they will present it
+          and answer questions. Support them to represent the evidence honestly, including its limits
+          ("we only spoke to a few people"), rather than overclaiming. Much of the making happens in the
+          independent hours; use session time to give and act on feedback. What learners build here, and
+          how they talk about it, is central evidence for the FSI1 assessment.
+        independentTask: "Work on your part of our research output, and practise saying the one thing you most want people to understand."
+  - title: "Showcase and reflect"
+    lead: learner-led
+    summary: >-
+      Learners share their findings with a real audience, reflect on how they have grown as
+      researchers, and — on Learning Bridge+ — the educator gathers the evidence to judge each learner's
+      proficiency in investigating real-world issues.
+    blocks:
+      - title: "Share our findings, and look back"
+        kind: consolidation
+        facilitatedHours: 2.5
+        independentHours: 3
+        description: >-
+          Close the course. Hold a warm, celebratory sharing where learners present their research
+          output to the audience they chose, and answer questions about it, with no one forced to
+          present in a way that is unsafe for them. Then learners look back: through their research book
+          from the first page, and at the "what good research looks like" growth path they marked at the
+          start, marking where they are now and naming how they have moved from guessing to finding out.
+          Each learner names one way they have grown as a researcher, by drawing and speaking. On
+          Learning Bridge+, this is the point to gather and record the evidence of each learner's growth
+          in investigating real-world issues — their question and plan, evidence log, analysis, output,
+          and how they answer questions — to inform the assessment judgement, made by educator judgement
+          against Amala's proficiency scale.
+        independentTask: "Choose one way you have grown as a researcher to share, and one thing about our challenge you would still like to find out."
+downloads: []
+sourceNotes:
+  - Sequences the (to-be-authored) cb-rp-* contextualised activities for the Research Project component of Learning Bridge+ (Cox's Bazar); sibling of the coxs-bazar-agency-in-learning unit.
+  - DEFERRED / PLACEHOLDER STATE. The whole cohort investigates one shared challenge, not yet agreed with NRC and the community. «CHALLENGE» and «SECONDARY SOURCE PACK» are placeholder tokens to find-and-replace once the challenge is set; every block is a rich description-only connective block with no materialSlug, to be wired to cb-rp-* materials when they are authored.
+  - >-
+      The «SECONDARY SOURCE PACK» is a supplied artefact, not an internet search: a ready-made,
+      translated, level-appropriate set of secondary sources about the challenge, distributed offline
+      (USB or print). It cannot be authored until the challenge is agreed; its required scope is
+      described on the "Work the Secondary Source Pack" block.
+  - Set out in hours, not weeks, as a standalone 50-hour component (30 in-person + 20 independent). Educators fit it to their own weekly schedule over a minimum of 10 weeks.
+  - Activity times are generous (roughly 1.5 to 2 times a literate-group estimate) to reflect oral and visual delivery with drawing and translation.
+  - Downloads (facilitator plan, student research workbook, source pack, slides) are deferred with the challenge; the downloads list is intentionally empty until those artefacts exist.
+  - >-
+      Safeguarding is heightened relative to Agency in Learning because primary research means learners
+      speaking with community members: the challenge must be safe to research locally, consent is always
+      sought, participants are not named, and same-gender gathering is used where girls' safety depends
+      on it. Delivery follows NRC's Code of Conduct and protection principles.
