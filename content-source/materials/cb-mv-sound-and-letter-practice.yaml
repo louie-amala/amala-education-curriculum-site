@@ -1,0 +1,217 @@
+# Contextualised, fully offline adaptation of efi-mv-phonics-games-and-dictation and efi-mv-plosive-sounds
+# for Learning Bridge+ (Cox's Bazar). The key shift from the sources: this is the consolidation/practice
+# layer for the Unit 1 sounds, rebuilt so no fluent writing is assumed. The sources' dictation (writing
+# what you hear) becomes emergent dictation — hearing a sound and CHOOSING or PLACING its letter, and
+# building your own name and first words from sound cards. Writing means placing or tracing a letter, never
+# free handwriting. Repeatable, low-stakes, self-correcting, playful — a bank to dip into. Objective 1.
+id: cb-mv-sound-and-letter-practice
+slug: cb-mv-sound-and-letter-practice
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Sound and letter games, and your first dictation"
+summary: >-
+  A bank of short, repeatable games that recycle the Unit 1 sounds — sound bingo, minimal-pair listening
+  races (pat and bat), and build-a-word from sound cards — plus a first "dictation" rebuilt for learners
+  who cannot yet write: hearing a sound and choosing or placing its letter, and building their own name and
+  first words from cards. Nothing assumes fluent writing; writing means placing or tracing a letter. Fast,
+  low-stakes, and self-correcting, to dip into across many sessions until the sounds become automatic.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. These games are made for the group — bingo, listening races, and team build-a-word bring
+    energy and the repetition that makes sounds automatic. A room saying a sound together gives a shy
+    learner cover to join, and hearing a neighbour catch the difference between pat and bat teaches the
+    point better than any explanation. Run one or two as a warm-up or a close in many sessions. Use
+    same-gender pairs and small teams.
+- context: one-to-one-mentoring
+  how: >-
+    A good fit for a learner who is behind the group on a sound, or too shy to race in front of others. A
+    mentor can slow the build-a-word and the emergent dictation right down, let the learner place a wrong
+    letter and fix it with no audience, and use the hand-on-throat check for the plosive pairs at the
+    learner's own pace until each sound settles.
+- context: independent
+  how: >-
+    Several of these work alone once learned: a learner can sort their own picture-cards by first sound,
+    build their name from sound cards, and place letters for sounds a partner or the facilitator says. The
+    My Voice book carries the sounds and picture-words to practise with, and the independent task is to
+    build their name and one word from cards at home and say the sounds aloud; pair it with a spoken check
+    next session.
+duration: "Short repeatable games of 15-30 min each, dipped into across many sessions; about 2.5 hours in total plus independent practice"
+grouping: "Whole group and teams for the games, then same-gender pairs for the races and the dictation; works with 10-35 learners"
+whatLearnersDo:
+- Play sound bingo and sorting games that revisit the Unit 1 sounds (short a, o, u; s, t, l, m, n; hard "k").
+- Race to hear the right word in a minimal pair (pat and bat, tan and Dan, cap and gap).
+- Build their own name and first whole words from letter and sound cards.
+- Hear a sound and choose or place its letter, then check it themselves against a model.
+materialsAndPreparation:
+- Letter and sound cards or tiles — printed, drawn on card, or scratched on stones or bottle-tops; enough to build short words and each learner's name.
+- Picture cards, drawn pictures, or small everyday objects whose names carry the target sounds (a pot, a cat, a mat, a pen, a bag).
+- Simple bingo grids with pictures or letters, hand-drawn if needed; and an open space to run a listening race.
+- The My Voice book and something to trace or draw with, so learners keep the sounds and words they have owned.
+- "Sensitivity: these are games, and that is a strength here — no one is asked to reveal anything about themselves, and the only word a learner must build is their own name, which most are proud to make. If a learner would rather not use their name, they build another word that matters to them; if racing in front of others feels exposing, they play quietly beside a partner or the mentor first. A game is a place to try, not a test."
+facilitationNotes: |
+  This is where the sounds learners met in the alphabet and sound-games activities are recycled until they
+  become automatic. The sources it grows from are built for learners who can already write — they use
+  dictation on paper and word-building with pencils. Two things change here. First, the games stay, but
+  every one is tied strictly to sounds already taught, so this is practice, not new input. Second, and the
+  real work of this file: dictation is rebuilt for learners who cannot yet write. In the sources a learner
+  hears a word and writes it; here a learner hears a sound and chooses or places its letter from a set of
+  cards, and builds their name and first words by putting sound cards in order. Writing, when it happens,
+  means placing a letter card or tracing a shape — never free handwriting. Keep the plosive pairs physical:
+  a hand on the throat feels the buzz on b, d, g and the quiet on p, t, k, and some languages learners
+  already speak do not split these pairs, so expect mixing and name it as normal. Above all keep it
+  low-stakes and self-correcting: a learner checks their own built word against a picture or a model and
+  fixes it themselves, so the game teaches without ever feeling like a test. Ten minutes of a good sound
+  game across many sessions does far more than one long lesson, and every sound caught is a win.
+steps:
+- title: "Sound bingo and sorting (listen and choose)"
+  duration: "15-20 min"
+  guidance: |
+    Warm the ear with a quick listening game that recycles sounds already met. In sound bingo, each
+    learner has a small grid of pictures or letters and marks the one whose sound you call. Or sort
+    picture-cards and objects into two or three "sound corners" marked by a card or a spot on the ground —
+    learners say the first sound aloud as they carry their picture to its corner. Keep it strictly to the
+    Unit 1 sounds and keep the pace up. The aim is speed and comfort with a handful of sounds, not new
+    input.
+  keyPrompts:
+  - Which sound did you hear? Mark it, or carry your picture to its corner.
+  - Say the first sound of this word aloud as you move.
+  - Is there a sound like this in a language you already speak?
+  watchOuts:
+  - Slipping in a sound not yet taught; keep strictly to the sounds already met so this stays consolidation, not a new lesson.
+  - Silent marking or sorting; make sure the sound is said aloud each time, so the ear and the mouth stay joined.
+  adaptation: |
+    No printed grids or cards are needed. Draw a grid in the dust, or use "this side of the room" and
+    "that side" as the two corners; say a word and learners move to, or point at, the sound they hear.
+- title: "Minimal-pair listening races"
+  duration: "15-20 min"
+  guidance: |
+    Bring in the plosive pairs where the mouth is the same and only the voice changes — p and b, t and d,
+    k and g. Have learners feel the buzz with a hand on the throat first. Then race by ear: say one word of
+    a pair (pat or bat, tan or Dan, cap or gap) and, in same-gender pairs or small teams, learners point to
+    the matching picture, grab the right card, or step forward if they are holding that word. Draw out the
+    one big idea by ear alone — one small change of sound makes a different word, so these differences
+    matter.
+  keyPrompts:
+  - Did I say pat or bat? How did your ear know?
+  - Put your hand on your throat. Which sound buzzes, and which is quiet?
+  - Same mouth shape. What is the only thing that changed?
+  watchOuts:
+  - Learners cannot yet hear a pair apart; this is expected, especially where their languages do not split these sounds. Name it as normal, use the throat-buzz check, and give patient repetition rather than correction.
+  - Letting the race become about speed alone; every point should turn on a sound actually heard, or it stops being phonics.
+  adaptation: |
+    Hold a strip of paper or a leaf in front of the mouth. It flutters for the strong-air sounds (p, t, k)
+    and barely moves for the voiced ones (b, d, g). With no pictures, two learners each become one word of
+    a pair and step forward when you say theirs.
+- title: "Build your name and your first words"
+  duration: "20-25 min"
+  guidance: |
+    Move from hearing sounds to placing them in order. Each learner builds their own name first, from
+    letter or sound cards, matching it to the name page in their My Voice book. Then build short whole
+    words from sounds already met — sat, mat, man, pot, sun — you say the word slowly, learners lay the
+    cards in order, sound by sound. Then change one card to make a new word (sat to sun, mat to man). In
+    teams, race to build a word correctly. This is where separate sounds join into meaning, and where final
+    sounds get their weight — check the whole word, because in English the last sound carries meaning
+    (sock, not so).
+  keyPrompts:
+  - Build your name from the cards. Say each sound as you place it.
+  - Build the word "mat". Now change one card to make a new word.
+  - What is the last sound? Is it there? Say the whole word.
+  watchOuts:
+  - Dropping or misordering the final sound; this is where meaning lives in English, so check the end of every word, patiently and without scolding.
+  - A learner who cannot yet recognise a letter guessing blindly; sit beside them, name each card as they place it, and let them copy from their My Voice book.
+  adaptation: |
+    With no cards or tiles, scratch letters on stones, bottle-tops, or scraps of paper and rearrange them;
+    or learners lay picture-cards in order for the sounds and say the word aloud. The building is in the
+    ordering, not the material.
+- title: "Your first dictation: hear it, place it, check it"
+  duration: "20-25 min"
+  guidance: |
+    Rebuild dictation for learners who cannot yet write. Work in three gentle stages. First, say a single
+    sound and each learner chooses or places the letter card that carries it. Then say a short word already
+    built before and learners lay its sound cards in order. Then, for those ready, they trace the letters
+    over a model in their My Voice book — tracing, not free writing. After each, learners check their own
+    work against a picture or a model card and fix it themselves. Keep it warm and unhurried; this is for
+    learning, never for testing, and a close attempt is a real success.
+  keyPrompts:
+  - Listen. Which letter makes this sound? Place it.
+  - Now the whole word. Lay the sounds in order, then say it back.
+  - Check yours against the model. What will you change?
+  watchOuts:
+  - Treating it as a test; keep it formative and self-corrected, so a learner who has never written stays relaxed and learns from their own fixing.
+  - Pushing tracing on a learner who is not ready; placing the right card is a full success, and formation comes later.
+  adaptation: |
+    With no cards, a learner points to the letter on the alphabet strip or draws it in sand or dust when
+    you say the sound; the hear-then-place work is the same with nothing but a stick and the ground.
+closing: |
+  Bring the group back and let a few learners build a word or their name and say its sounds aloud —
+  "mmm-aaa-nnn, man". Each learner adds any sound or word that felt sure today into their My Voice book,
+  beside the ones already there, so the book grows as a record of what their ear and hand can now do. Name
+  the win plainly: today your ear got sharper, you built words from sounds, and some of you placed and
+  traced your first letters — that is real reading and writing beginning. Independent task: build your name
+  and one more word from cards, stones, or marks in the dust at home, say the sounds aloud to one person,
+  and if you like, trace one word once in your book.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Making the sounds of English automatic, and beginning to turn a heard sound into the letter that
+    carries it, is the practice that turns a fragile first foothold in reading and writing into a reliable
+    one. For a learner who has never read, being able to hear a word, build it from its sounds, and place
+    its letters — without stalling on every one — is what keeps the gateway to further study, work, and the
+    written world open rather than shutting on the first hard word.
+principlesForegrounded:
+- safe-spaces
+- lifeworthy-competencies
+- feedback-and-data
+principleAlignment:
+- principle: safe-spaces
+  how: >-
+    Everything here is a game, and a game is a place to try and get it wrong without shame. Mixing up a
+    pair is named as normal, no one has to reveal anything about themselves, the dictation is self-corrected
+    rather than marked, and a shy learner can play beside a partner or the mentor first — so learners take
+    real risks with sound and letter without fear of failing.
+- principle: lifeworthy-competencies
+  how: >-
+    Automatic sound discrimination, building words from their sounds, and beginning to match sounds to
+    letters are foundational literacy skills a learner reuses in every later session, every form, and every
+    sign for the rest of their life; the repeated play is how those skills are embedded.
+- principle: feedback-and-data
+  how: >-
+    The games and the self-corrected dictation give quick, visible information to both learner and
+    facilitator about which sounds are secure and which need coming back to — a learner checks their own
+    built word against a model, and a facilitator sees at a glance where the ear still needs work.
+competencyCodes:
+- FLC3
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Automatic sound discrimination, building whole words from their sounds, and beginning to turn heard
+    sounds into letters underpin the reading, writing, and clear speech through which a learner comes to be
+    understood — practised here by ear and by hand, before fluent writing is assumed.
+objectiveIds:
+- efi-my-voice--o1
+relatedSlugs:
+- cb-mv-key-sounds-and-games
+- cb-mv-alphabet-and-first-sounds
+- cb-mv-phonics-table
+- cb-mv-writing-my-name
+sourceRefs:
+- efi-my-voice.yaml
+- efi-mv-phonics-games-and-dictation.yaml
+- efi-mv-plosive-sounds.yaml
+provenanceNote: >-
+  Contextualised, fully offline, emergent-literacy adaptation of efi-mv-phonics-games-and-dictation and
+  efi-mv-plosive-sounds for the Learning Bridge+ (Cox's Bazar) edition. The sources assume learners can
+  write and use paper dictation and pencil word-building; this version keeps the repeatable games (sound
+  bingo, minimal-pair races, build-a-word) but rebuilds dictation for learners who cannot yet write —
+  hearing a sound and choosing or placing its letter, and building name and first words from cards, with
+  writing meaning placing or tracing a letter rather than free handwriting. It keeps the sources' Unit 1
+  sounds and voiced/voiceless plosive contrasts (pat/bat and the like), low-stakes and self-correcting.
+  Objective 1 of the My Voice unit.

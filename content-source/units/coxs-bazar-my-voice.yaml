@@ -83,7 +83,7 @@ phases:
       - title: "The English of our classroom"
         kind: activity
         materialSlug: cb-mv-classroom-language-and-warm-ups
-        facilitatedHours: 2
+        facilitatedHours: 1.5
         independentHours: 0.5
         independentTask: "Use one English classroom word (hello, thank you, please) with someone before the next session."
       - title: "Set up your My Voice book"
@@ -101,8 +101,9 @@ phases:
     objectiveId: efi-my-voice--o1
     summary: >-
       Starting from their own names, learners tune their ears to English, meet the alphabet and its
-      first sounds, play with the key sounds of the language, gather meaningful picture-words about
-      themselves, and begin to write their own name.
+      first sounds, play with and practise the key sounds of the language through games and emergent
+      dictation, gather meaningful picture-words about themselves, and begin to write their own name.
+      A phonics progression and a phonics table (reference resources) sit behind this phase.
     blocks:
       - title: "Listening: hello and names"
         kind: activity
@@ -122,9 +123,18 @@ phases:
       - title: "Key sounds through games"
         kind: activity
         materialSlug: cb-mv-key-sounds-and-games
-        facilitatedHours: 2.5
-        independentHours: 1.5
+        facilitatedHours: 2
+        independentHours: 1
         independentTask: "Find one thing at home whose name has a sound you practised, and add it to your My Voice book as a drawing."
+      - title: "Sound and letter practice"
+        kind: activity
+        materialSlug: cb-mv-sound-and-letter-practice
+        facilitatedHours: 2
+        independentHours: 1.5
+        independentTask: "Play one sound game from today with someone at home, or build your name from letter shapes."
+        flexNote: >-
+          A bank of short, repeatable phonics games and emergent dictation that recycles the unit's
+          sounds — dip into it in many later sessions too, not only here. Keep it playful and low-stakes.
       - title: "Words about me"
         kind: activity
         materialSlug: cb-mv-words-about-me
@@ -134,32 +144,42 @@ phases:
       - title: "Writing my name"
         kind: activity
         materialSlug: cb-mv-writing-my-name
-        facilitatedHours: 2.5
-        independentHours: 2
+        facilitatedHours: 1.5
+        independentHours: 1.5
         independentTask: "Practise writing or tracing your name and one word about yourself in your My Voice book."
   - title: "Say who you are"
     lead: shared
     objectiveId: efi-my-voice--o2
     summary: >-
       Learners turn their words into simple spoken sentences about themselves — I am, I am from, I like
-      — practise introducing themselves and others aloud, and begin to write a little about themselves.
+      — practise the verb "to be", pronouns, and the frames through spoken and card games, introduce
+      themselves and others aloud, and begin to write a little about themselves.
     blocks:
       - title: "I am… — saying who you are"
         kind: activity
         materialSlug: cb-mv-i-am-sentences
-        facilitatedHours: 2.5
-        independentHours: 1.5
+        facilitatedHours: 2
+        independentHours: 1
         independentTask: "Say two true sentences about yourself (I am…, I like…) to one person at home."
+      - title: "Sentence practice"
+        kind: activity
+        materialSlug: cb-mv-sentence-practice
+        facilitatedHours: 2
+        independentHours: 1.5
+        independentTask: "Ask one person the questions from today (What is your name? Where are you from?) and answer them back."
+        flexNote: >-
+          Controlled-to-freer practice of the verb "to be", pronouns, and the simple sentence frames,
+          rebuilt as spoken and card games — an offline adaptation of the source's Unit 1 grammar exercises.
       - title: "Meeting people"
         kind: activity
         materialSlug: cb-mv-meeting-people-role-play
-        facilitatedHours: 2
+        facilitatedHours: 1
         independentHours: 1
         independentTask: "Greet and introduce yourself in English to one person you do not usually speak English with."
       - title: "Say it to someone new"
         kind: practice
         facilitatedHours: 1
-        independentHours: 2.5
+        independentHours: 2
         description: >-
           Speaking practice, where fluency and confidence grow. Between sessions, learners use their
           greeting and their simple sentences with real people — a neighbour, a family member, someone
@@ -187,7 +207,7 @@ phases:
         kind: activity
         materialSlug: cb-mv-design-my-name-my-voice
         facilitatedHours: 3
-        independentHours: 2
+        independentHours: 1.5
         independentTask: "Finish decorating your card and practise saying your introduction aloud once at home."
         flexNote: >-
           The authentic project. Learners choose what represents them — their name, meaningful
@@ -195,8 +215,8 @@ phases:
           a few true words and sentences plus images is a full success.
       - title: "My Name, My Voice — rehearse, share, and celebrate"
         kind: consolidation
-        facilitatedHours: 2.5
-        independentHours: 2
+        facilitatedHours: 2
+        independentHours: 1.5
         description: >-
           Close the course. Learners rehearse their introduction in same-gender pairs first, which makes
           the sharing far less frightening, then present their card to a warm audience — a small group or
@@ -208,10 +228,28 @@ phases:
           progress and self-awareness (FUS1) — from the My Voice book, the spoken introduction, the card,
           and the self-check — to inform the formative judgement and the support each learner needs next.
         independentTask: "Choose one way your English has grown to share, and one thing you want to keep learning after the course."
+downloads:
+  - label: Facilitator Unit Plan & Guide
+    file: /downloads/my-voice-facilitator-unit-plan.docx
+    format: Word
+    note: The full 50-hour plan with every session's guidance inline, plus a phonics progression and sound-chart appendix. Editable.
+  - label: Student My Voice book (workbook)
+    file: /downloads/my-voice-student-workbook.docx
+    format: Word
+    note: Visual-first learner pages — name, sounds, words about me, sentence frames, the My Name My Voice card, and the "I can…" check. Print one per learner. Editable.
+  - label: Letter & picture cards
+    file: /downloads/my-voice-letter-and-picture-cards.docx
+    format: Word
+    note: Printable alphabet and key-sound cards, plus blank picture-word cards to make your own vocabulary. Print and cut out. Editable.
+  - label: Session Slides
+    file: /downloads/my-voice-slides.pptx
+    format: PowerPoint
+    note: Optional, for the minority of sites with a screen. One idea per slide. Editable.
 sourceNotes:
   - Contextualises the "My Voice" course (English for Impact Unit 1; see courses/efi-my-voice.yaml) for the Learning Bridge+ (Cox's Bazar) edition, delivered through the cb-mv-* materials.
   - The central adaptation is emergent literacy, not literacy transfer - the source assumes Home-Language literacy, while this unit assumes no prior reading in any language and leads with listening, speaking, and the learner's own name.
   - Set out in hours, not weeks, as a standalone 50-hour component (30 in-person + 20 independent). Educators fit it to their own weekly schedule over a minimum of 10 weeks.
   - Activity times are generous (roughly 1.5 to 2 times a literate-group estimate) to reflect oral and visual delivery, drawing, translation, and a pre-literate starting point.
   - English Language Development is optional and is not one of the two formally graded Learning Bridge+ competencies; its assessment is formative, against the A1- Can-Do outcomes and each learner's own growth.
-  - The offline resource pack (facilitator unit plan, visual My Voice book/workbook, picture and letter cards, optional slides) is to be produced as editable files, mirroring the Agency in Learning pack; not yet generated.
+  - The phonics and grammar scaffolding from the source PDF is carried by dedicated materials — two reference resources (cb-mv-phonics-progression and cb-mv-phonics-table) and two practice activities (cb-mv-sound-and-letter-practice and cb-mv-sentence-practice, the latter an offline adaptation of the source's Unit 1 grammar exercises).
+  - The offline resource pack (facilitator unit plan, visual My Voice book/workbook, picture and letter cards, optional slides) is produced as editable files under public/downloads, mirroring the Agency in Learning pack.
