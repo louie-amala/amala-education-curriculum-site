@@ -121,6 +121,10 @@ export const CourseSchema = z.object({
       demonstrates: z.string().optional(), // course-level: how learners evidence it
     })
     .optional(),
+  // Curated glossary terms a facilitator should understand before planning this course
+  // (professional learning). Slugs into the glossary; the depth lives on the term page, so the
+  // guide stays a set of links rather than duplicated prose. Validated in validateGraph().
+  keyConcepts: z.array(z.string()).default([]),
   objectives: z.array(ObjectiveSchema).default([]),
   principleMappings: z.array(PrincipleMappingSchema).default([]),
   designChecklist: z.array(z.string()).default([]),
@@ -218,6 +222,11 @@ export const ProgrammeSchema = z.object({
   // "What Amala provides" — support, resources, moderation.
   support: z
     .array(z.object({ title: z.string(), detail: z.string() }))
+    .default([]),
+  // Intended outcomes / theory of change (e.g. WELP): grouped outcome areas, each with points.
+  // Programme-level impact aims, distinct from learner-facing studentGains.
+  outcomes: z
+    .array(z.object({ title: z.string(), points: z.array(z.string()).default([]) }))
     .default([]),
   // Grading/certification (e.g. Learning Bridge+): assessed competencies + grade scale.
   grading: z
@@ -539,6 +548,21 @@ export const GlossaryTermSchema = z.object({
   category: GlossaryCategorySchema,
   definition: z.string(),
   matchPhrases: z.array(z.string()).default([]),
+  // Optional longer-form explanation ("professional learning" depth) beyond the one-line
+  // definition. Markdown-lite (paragraphs, "## " headings, bullets, [label](href) links); rendered
+  // with <Prose gloss>, so sibling terms auto-link. Thin entries omit it and stay thin.
+  explainer: z.string().nullable().optional(),
+  // External references for educators who want to go deeper.
+  furtherReading: z
+    .array(
+      z.object({
+        title: z.string(),
+        url: z.string(),
+        source: z.string().nullable().optional(), // publisher / outlet, e.g. "Journal of Peace Research"
+        note: z.string().nullable().optional(), // one line on why it's worth reading
+      }),
+    )
+    .default([]),
   examples: z.array(z.string()).default([]),
   nonExamples: z.array(z.string()).default([]),
   useInContext: z.string().nullable().optional(),

@@ -82,7 +82,11 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
         {/* Components (component-based programme, e.g. Learning Bridge) */}
         {prog.components.length > 0 && (
           <section className="mt-12">
-            <h2 className="font-heading text-2xl font-semibold text-navy">Components and hours</h2>
+            <h2 className="font-heading text-2xl font-semibold text-navy">
+              {prog.components.some((c) => c.structuredHours != null)
+                ? "Components and hours"
+                : "Programme components"}
+            </h2>
             <div className="mt-6 space-y-4">
               {prog.components.map((c) => {
                 const linked = c.courseSlug ? getCourse(c.courseSlug) : undefined;
@@ -258,6 +262,29 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
                 <div key={s.title} className="rounded-lg border-l-4 border-olive border-y border-r border-cool-grey/20 bg-white p-5 shadow-sm">
                   <h3 className="font-heading text-lg font-semibold text-dark-navy">{s.title}</h3>
                   <p className="mt-2 text-sm text-cool-grey">{s.detail}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Intended outcomes / theory of change (e.g. WELP) */}
+        {prog.outcomes.length > 0 && (
+          <section className="mt-12">
+            <h2 className="font-heading text-2xl font-semibold text-navy">
+              Outcomes the programme works toward
+            </h2>
+            <div className="mt-6 space-y-4">
+              {prog.outcomes.map((o) => (
+                <div key={o.title} className="rounded-lg border-l-4 border-terracotta border-y border-r border-cool-grey/20 bg-white p-5 shadow-sm">
+                  <h3 className="font-heading text-lg font-semibold text-dark-navy">{o.title}</h3>
+                  {o.points.length > 0 && (
+                    <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-cool-grey">
+                      {o.points.map((pt, i) => (
+                        <li key={i}>{pt}</li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               ))}
             </div>
