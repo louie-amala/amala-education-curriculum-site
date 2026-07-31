@@ -42,9 +42,10 @@ structure: >-
   each component runs at a cadence of 3 hours in-person plus 2 hours independent per week across a
   minimum of 10 weeks. As the certificated (Learning Bridge+) tier, it includes diagnostic intake,
   a midpoint formative assessment, a summative exit assessment, and Amala moderation. The Agency in
-  Learning component is authored and offline-ready first; the Research Project is deferred until the
-  shared local challenge is agreed with NRC and the community; English Language Development materials
-  are in scope. All artefacts are supplied as editable files for facilitators, distributed offline.
+  Learning component is authored and offline-ready first, followed by the English Language Development
+  component (a Cox's Bazar contextualisation of the My Voice course); the Research Project is deferred
+  until the shared local challenge is agreed with NRC and the community. All artefacts are supplied as
+  editable files for facilitators, distributed offline.
 ageRange: "14–24"
 minDurationWeeks: 10
 totalStructuredHoursMin: 150
@@ -89,13 +90,20 @@ components:
       - Fully offline
   - title: English Language Development
     summary: >-
-      For learners below B1 proficiency. In funded scope for this edition and dovetailed with the
-      learning goals set in Agency in Learning.
+      Authored and offline-ready. For learners below B1 proficiency. Delivered through a Cox's Bazar
+      contextualisation of the My Voice course (English for Impact Unit 1), rebuilt as an oral and
+      visual first, emergent-literacy course for a largely pre-literate cohort: learners begin from the
+      sound of their own name, meet the alphabet and the first sounds and words of English, learn to
+      say who they are in simple sentences, and make and share a personal "My Name, My Voice" card.
+      Comes with a full week-by-week unit plan, and dovetails with the learning goals set in Agency in
+      Learning. English progress is assessed formatively, against A1- Can-Do outcomes, not as one of the
+      two formally graded competencies.
     structuredHours: 50
     facilitatedHours: 30
     independentHours: 20
+    courseSlug: efi-my-voice
     deliveryOptions:
-      - Fully offline
+      - Fully offline (printed materials and editable files, distributed via USB or hard drive)
     optional: true
 
 # What it takes to deliver, and how this edition differs from generic Learning Bridge.
@@ -174,4 +182,5 @@ sourceNotes:
   - Contextualised edition of the Learning Bridge programme (see programmes/learning-bridge.yaml); components and competencies are shared, delivery and sequencing are rebuilt for the Cox's Bazar context.
   - Authored for Amala's consultancy to the Norwegian Refugee Council (NRC) Bangladesh, Consultancy 8201056 (Aug–Dec 2026). Amala is the remote technical consultant; NRC leads implementation.
   - Context and delivery constraints are drawn from the NRC Terms of Reference and a commissioned context briefing on Rohingya youth in Cox's Bazar (literacy, language, protection, and funding realities).
-  - Being built component by component; the Agency in Learning component is authored first. Research Project is deferred until the shared local challenge is agreed.
+  - Being built component by component; the Agency in Learning component is authored first, then the English Language Development component (a fully offline, emergent-literacy contextualisation of the My Voice course; see units/coxs-bazar-my-voice.yaml and the cb-mv-* materials). Research Project is deferred until the shared local challenge is agreed.
+  - My Voice is contextualised for this edition as emergent literacy, not literacy transfer - it assumes no prior reading in any language and is delivered oral and visual first - because the source English for Impact course assumes strong Home-Language literacy and is unsuitable as-is for this cohort.

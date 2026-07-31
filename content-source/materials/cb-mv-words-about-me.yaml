@@ -1,0 +1,190 @@
+# Contextualised, fully offline adaptation of efi-mv-words-about-me and efi-mv-key-vocabulary-and-frames
+# for Learning Bridge+ (Cox's Bazar). The key shift from the sources: this vocabulary is learned as
+# picture-words and spoken aloud, NOT read, because most learners are not yet reading in any language. It
+# is the raw material the learner will later turn into spoken self-introductions, so it bridges toward
+# objective 2. Home and family words can touch displacement and loss, so they are guarded carefully.
+id: cb-mv-words-about-me
+slug: cb-mv-words-about-me
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Words about me"
+summary: >-
+  Learners gather the key words for talking about themselves — name, age, where I am from and home, family
+  words, and what I like — as picture-words they can see and say, not read. Each word is anchored to a
+  drawing and to the learner's own life, building the spoken vocabulary they will later turn into their own
+  self-introductions. A lighter, everyday focus is always offered where home or family feels tender.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Picture-word matching and saying words aloud work well in same-gender pairs and small
+    groups, where learners help each other find the word and hear their own answers said back. The group
+    gives energy and models — hearing others say what they like makes it easier to find your own words. Keep
+    anything shared aloud in same-gender pairs, and always leave the lighter, everyday focus open.
+- context: one-to-one-mentoring
+  how: >-
+    A strong fit where home, family, or "where I am from" is painful for a learner, or where a learner is
+    too shy to speak in a group. A mentor can go gently, follow the learner's lead on what to name and what
+    to leave, and let them build the same picture-words from safe, everyday ground — a food, a colour, a
+    thing they like — with no audience.
+- context: independent
+  how: >-
+    Workable for review, weaker for first learning, because the words come alive when they are said to
+    another person. If a learner practises independently, the My Voice book carries the picture-words to
+    look at and say, and the independent task is to say a few of their picture-words to one person at home;
+    pair it with a spoken check next session.
+duration: "2 hours facilitated across one or two sessions, plus independent practice"
+grouping: "Whole group to meet the words, then same-gender pairs to say and match them; works with 10-35 learners"
+whatLearnersDo:
+- Meet the key personal words as picture-words — name, age, where I am from and home, family words, and what I like.
+- Draw a picture for each word and say it aloud, joining the sound to the meaning without reading.
+- Choose which words are true for them, and say a few of them to a partner.
+- Keep their picture-words in the My Voice book as the raw material for spoken self-introductions later.
+materialsAndPreparation:
+- Picture cards or drawn pictures for the key words, or simply space and time for learners to draw their own — the drawing is the word.
+- The My Voice book, and something to draw with, so each learner keeps their own picture-words.
+- Your own simple picture-words ready to show and say first, so learners see what a picture-word is.
+- A lighter, everyday set of words always ready as an alternative to home and family — a food, a colour, a game, a thing they like.
+- "Sensitivity: home, where I am from, and family words can touch displacement, loss, separation, and marriage. Never ask a learner to name a person or place that is gone. Always offer the everyday focus instead — what I like, a food, a colour — and make clear that is a full and good answer. Follow the programme's step-back and referral guidance if a word opens grief, and let the learner decide what, if anything, to share."
+facilitationNotes: |
+  This activity gives learners the words they will need to say who they are — but here those words are
+  learned as picture-words and spoken aloud, never read, because most learners are not yet reading in any
+  language. The sources this grows from teach the same identity vocabulary through reading and word cards;
+  drop the reading entirely and lead with the picture and the voice. Pair every word with an image the
+  learner draws or recognises, and with the learner's own true answer, because a word tied to a picture and
+  a life sticks where a word in a list is lost. This is the raw material for the spoken self-introductions
+  that come next, so treat it as gathering the pieces a learner will soon put together — it reaches forward
+  to objective 2 without asking learners to build sentences yet. Handle home and family with real care:
+  for a displaced learner these words can open loss, so always keep the lighter, everyday focus open and
+  make clear a learner chooses what to share. Welcome translanguaging warmly — saying the Rohingya or
+  Burmese word beside the English picture-word is how the meaning is held, not cheating. Keep it warm and
+  unhurried, and celebrate every word a learner can say aloud about their own life.
+steps:
+- title: "Meet the picture-words"
+  duration: "35-40 min"
+  guidance: |
+    Introduce the key words with pictures and your own simple examples: name, age, where I am from and
+    home, family words, and what I like. Say each word, hold up or draw a picture for it, and have learners
+    say it back. Then invite each learner to draw their own picture for the word and, if they wish, say
+    their own answer aloud — "I like rice", "my home". Let learners add the Rohingya, Chittagonian, or
+    Burmese word in their heads or aloud as a bridge. Start with the safe, easy words (a thing I like, a
+    food) and only move toward home and family when the group is warm and settled.
+  keyPrompts:
+  - What picture can you draw for this word? What is your own answer for it?
+  - Is there a word for this in a language you already speak?
+  - Which of these words feels easy and happy to talk about?
+  watchOuts:
+  - Words taught in a list are quickly lost; anchor every word to a picture the learner draws and to their own life.
+  - Pushing toward home or family before trust is built; lead with the light, everyday words, and let the tender ones stay optional and come later, if at all.
+  adaptation: |
+    No printed pictures are needed — learners drawing their own quick symbol for each word is better,
+    because the drawing they make is the memory hook. A stick in the dust works if paper is short.
+- title: "Say and match: which words are true for me"
+  duration: "40-45 min"
+  guidance: |
+    In same-gender pairs, learners look at their picture-words, say each aloud, and choose which are true
+    for them. They can match a partner's picture to the word, or point to the word they mean and say it.
+    Bring in "where I am from" and family words gently here, always beside the lighter option, and make
+    plain that a learner may choose a food, a colour, or a thing they like instead — that is a full answer.
+    Keep it active and spoken: pointing, drawing, saying. The point is that each learner leaves able to say
+    a handful of true words about their own life aloud.
+  keyPrompts:
+  - Which of these picture-words are true for you? Say them to your partner.
+  - What do you like? Can you say it and show your picture?
+  - You can choose an everyday word — a food, a colour — if you would rather. What is yours?
+  watchOuts:
+  - A word about where I am from, or a family word, opening grief; step back gently, do not press, offer the everyday focus, and follow the programme's referral guidance if a learner is distressed.
+  - Silent matching only; make sure learners say each word aloud, so the sound and the meaning stay joined.
+  adaptation: |
+    One learner shows a picture-word and the partner says it; then swap. With no cards, learners say a word
+    and point to their own drawing in the My Voice book. Nothing but voices and drawings is needed.
+- title: "My words in my book"
+  duration: "30-35 min"
+  guidance: |
+    Each learner gathers a few of their true picture-words into their My Voice book — a page of the words
+    that are theirs. They draw the picture and, beside it, say the word aloud one more time; if they can
+    trace or copy a letter or the word they wish to, welcome it, but do not require it, since writing comes
+    later. Name that these words are the beginning of being able to say who they are — the pieces they will
+    soon put together into a spoken introduction. Let a few learners say one of their words to the group.
+  keyPrompts:
+  - Which words about you do you want to keep in your book?
+  - Say this word aloud one more time — it is yours now.
+  - Which word are you most proud to be able to say?
+  watchOuts:
+  - Pushing learners to write the words neatly; the win here is owning the spoken word and its picture, not handwriting, which is practised in its own activity.
+  - A learner with few or only light words feeling they have less; a page of everyday words a learner loves is exactly right and never lacking.
+  adaptation: |
+    Where paper is short, the "book" can be a single shared sheet per learner, or the picture-words held in
+    mind and rehearsed aloud with a partner until the next session.
+closing: |
+  Bring the group together and let a few learners say one of their picture-words about themselves — "I
+  like rice", "my name". Each learner keeps their page of words in the My Voice book, beside their name and
+  their sounds, as the raw material for the spoken self-introductions to come. Name the win: today you
+  gathered the words to begin saying who you are, in your own choice of what to share. Independent task:
+  say two or three of your picture-words to one person at home, and, if you like, draw one more word that
+  matters to you into your book.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    The words to name who you are — what you like, where you feel at home, the people who are yours — are
+    the first tools for representing yourself in a new setting rather than being spoken for. Because the
+    learner chooses which words to claim and which to leave, and can always work from safe, everyday ground,
+    the activity gives them power over how much of themselves to share and how they are seen, in a context
+    where much else is decided for them.
+principlesForegrounded:
+- builds-on-identities
+- safe-spaces
+- lifeworthy-competencies
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    Every word is a word about the learner's own life — their home, their family, what they like — and
+    Rohingya, Chittagonian, and Burmese words are welcomed as the bridge that holds the meaning, so the
+    English vocabulary is built outward from who the learner already is.
+- principle: safe-spaces
+  how: >-
+    Home, family, and where I am from can open loss for a displaced learner, so the activity is built to
+    protect: no one names a person or place that is gone, a lighter everyday focus is always offered and
+    always enough, sharing is in same-gender pairs, and the learner alone decides what to say.
+- principle: lifeworthy-competencies
+  how: >-
+    High-frequency personal vocabulary is reused in every later unit and across daily life, study, and
+    work; the words a learner gathers here to talk about themselves are among the most used words they will
+    ever have in English.
+competencyCodes:
+- FLC3
+- FUS1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Building the spoken vocabulary of personal identity — name, age, home, family, and what I like — is the
+    substance of beginning to communicate about oneself in English, the raw material of the self-
+    introductions that follow.
+- code: FUS1
+  how: >-
+    Choosing which words are true for them, and which to claim and share, asks learners to turn attention
+    to who they are and put their own identity into words, developing self-awareness.
+objectiveIds:
+- efi-my-voice--o1
+- efi-my-voice--o2
+relatedSlugs:
+- cb-mv-my-voice-book
+- cb-mv-i-am-sentences
+- cb-mv-alphabet-and-first-sounds
+sourceRefs:
+- efi-my-voice.yaml
+- efi-mv-words-about-me.yaml
+- efi-mv-key-vocabulary-and-frames.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of efi-mv-words-about-me and efi-mv-key-vocabulary-and-frames
+  for the Learning Bridge+ (Cox's Bazar) edition. The sources teach identity vocabulary through reading and
+  word cards for a literate cohort; this version is rebuilt for emergent literacy — the same words learned
+  as picture-words and spoken aloud, never read, with home and family handled protectively and a lighter
+  everyday focus always offered. It gathers the raw vocabulary for the spoken self-introductions to come,
+  so it serves objective 1 and bridges toward objective 2 of the My Voice unit.

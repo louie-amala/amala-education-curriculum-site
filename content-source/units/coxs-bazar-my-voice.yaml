@@ -1,0 +1,217 @@
+# Unit plan (scheme of work) for the English Language Development component of Learning Bridge+
+# (Cox's Bazar) — a fully offline, oral/visual-first, EMERGENT-LITERACY contextualisation of the
+# "My Voice" course (English for Impact Unit 1). HOURS-BASED, not weeks: it sets out the full 50 hours
+# (30 in-person + 20 independent) so an educator can fit them into their own weekly schedule (minimum
+# 10 weeks). The key shift from the source course: it assumes NO prior reading in any language, leads
+# with the ear, starts from the learner's own name, and puts speaking and recognition before writing.
+# Facilitator guidance lives on the referenced cb-mv-* materials and is rendered inline; connective
+# blocks carry a description.
+id: coxs-bazar-my-voice
+slug: coxs-bazar-my-voice
+access: public
+title: "My Voice — Cox's Bazar unit plan"
+programmeSlug: learning-bridge-coxs-bazar
+componentTitle: English Language Development
+courseSlug: efi-my-voice
+summary: >-
+  The full 50-hour plan for delivering My Voice — the optional English Language Development component —
+  fully offline in the Cox's Bazar camps, as an oral and visual first, emergent-literacy course for a
+  largely pre-literate cohort. It is set out in hours, not weeks, so you can fit it into your own
+  timetable over a minimum of 10 weeks. Learners begin from their own name and voice: hearing and making
+  the sounds of English, meeting the alphabet, gathering the words and simple spoken sentences to say
+  who they are, and making and sharing a "My Name, My Voice" card. Times are deliberately generous,
+  because oral and visual delivery with drawing and translation, from a beginning with no reading, takes
+  longer than it first appears.
+totalFacilitatedHours: 30
+totalIndependentHours: 20
+deliveryApproach: >-
+  This unit is built for learners who may never have read or written in any language, so it leads with
+  the ear and the voice and treats reading and writing as something that grows out of speaking, not a
+  gate in front of it. Early on you lead: a warm, talking-out-loud space, listening games, and everyone
+  starting from the sound of their own name. In the middle it is shared: learners gather their own
+  words and the simple frames to say who they are, and practise them aloud in same-gender pairs, with
+  recognition and tracing coming before free writing. Later the learners lead: they choose what
+  represents them, make their "My Name, My Voice" card, and share it. Release control gradually and
+  never withdraw support as a test — some learners will speak long before they write, and that is
+  success, not falling short. Because identity, home, and family can touch displacement and loss,
+  every activity lets a learner choose what to share, offers a lighter everyday focus, and never
+  requires anything personal. Translanguaging is welcomed throughout: bridges to Rohingya, Chittagonian,
+  Burmese, and Arabic are how these learners will move fastest.
+assessmentNote: >-
+  English Language Development is an optional component and is not one of the two competencies formally
+  graded on Learning Bridge+ (those, Set and Pursue Goals and Investigate Real World Issues, live in the
+  Agency in Learning and Research Project components). Assess English progress formatively, against the
+  A1- Can-Do outcomes of the My Voice course and each learner's own growth, to inform the readiness
+  picture and the support a learner needs — not as a pass/fail gate. Gather evidence from across the
+  whole component, not a single test: the growing My Voice book, the sounds and words a learner can hear
+  and say, their spoken self-introduction, and the "My Name, My Voice" card and sharing. Judge against
+  where each learner began: for someone who arrived with no reading, saying a short true introduction in
+  English and recognising and writing their own name is strong evidence of progress. The learner's own
+  "I can..." self-check, marked at the start and revisited at the end, is the anchor for recognising and
+  naming that growth. This work also generates self-awareness (FUS1) evidence that can feed the wider
+  readiness judgement. Do not over-assess: what learners can do, gathered warmly over time, tells you
+  more than a moment of testing that a beginner may find frightening.
+phases:
+  - title: "Getting started"
+    lead: facilitator-led
+    summary: >-
+      Build a safe, warm space where speaking English aloud feels possible, mark where each learner is
+      now, learn the everyday English of the room, and set up the My Voice book that runs through the
+      whole course.
+    blocks:
+      - title: "Welcome, our space, and our voices"
+        kind: orientation
+        facilitatedHours: 1
+        independentHours: 0
+        description: >-
+          Open the course. Build a safe, welcoming space: names, a simple agreement about how the group
+          treats each other, same-gender grouping where it matters, and reassurance that no one has to
+          read, write, or share anything they would rather keep private. Introduce the big idea in your
+          own words and in the language you share with learners: everyone here already has a voice and
+          things worth saying, and this course is about finding the English to say who you are. Make
+          mistakes welcome out loud — trying is the whole point. Keep it warm, oral, and unhurried.
+      - title: "Mark where I am now"
+        kind: activity
+        materialSlug: cb-mv-i-can-checklist
+        facilitatedHours: 1
+        independentHours: 0.5
+        independentTask: "Tell one person at home one thing in English you would like to be able to say by the end."
+        flexNote: >-
+          A gentle, picture-based self-check, not a test. Learners mark where they are now with English;
+          you revisit the same check in the final phase so learners see how far they have come. Listen
+          closely: it tells you who arrives with some English and who is starting from the very beginning.
+      - title: "The English of our classroom"
+        kind: activity
+        materialSlug: cb-mv-classroom-language-and-warm-ups
+        facilitatedHours: 2
+        independentHours: 0.5
+        independentTask: "Use one English classroom word (hello, thank you, please) with someone before the next session."
+      - title: "Set up your My Voice book"
+        kind: activity
+        materialSlug: cb-mv-my-voice-book
+        facilitatedHours: 1.5
+        independentHours: 0.5
+        independentTask: "Make one mark or drawing in your My Voice book before the next session."
+        flexNote: >-
+          Set up early so the book runs through the whole course: learners draw, trace, and collect their
+          sounds and words in it in every phase, and it becomes the record of their growth and the raw
+          material for their final card.
+  - title: "The sounds, letters, and first words of English"
+    lead: shared
+    objectiveId: efi-my-voice--o1
+    summary: >-
+      Starting from their own names, learners tune their ears to English, meet the alphabet and its
+      first sounds, play with the key sounds of the language, gather meaningful picture-words about
+      themselves, and begin to write their own name.
+    blocks:
+      - title: "Listening: hello and names"
+        kind: activity
+        materialSlug: cb-mv-listening-hello-and-names
+        facilitatedHours: 1.5
+        independentHours: 1
+        independentTask: "Listen for one English word around you, and be ready to say where you heard it."
+      - title: "The alphabet and your first sounds"
+        kind: activity
+        materialSlug: cb-mv-alphabet-and-first-sounds
+        facilitatedHours: 3
+        independentHours: 2
+        independentTask: "Say your name and its first sound to one person at home, and trace your name once if you can."
+        flexNote: >-
+          The foundation of the whole unit and the place to be most generous with time. Everyone starts
+          from the sound and letters of their own name; recognition comes before neat writing.
+      - title: "Key sounds through games"
+        kind: activity
+        materialSlug: cb-mv-key-sounds-and-games
+        facilitatedHours: 2.5
+        independentHours: 1.5
+        independentTask: "Find one thing at home whose name has a sound you practised, and add it to your My Voice book as a drawing."
+      - title: "Words about me"
+        kind: activity
+        materialSlug: cb-mv-words-about-me
+        facilitatedHours: 2
+        independentHours: 1.5
+        independentTask: "Draw two picture-words about yourself in your My Voice book, and say them aloud to someone."
+      - title: "Writing my name"
+        kind: activity
+        materialSlug: cb-mv-writing-my-name
+        facilitatedHours: 2.5
+        independentHours: 2
+        independentTask: "Practise writing or tracing your name and one word about yourself in your My Voice book."
+  - title: "Say who you are"
+    lead: shared
+    objectiveId: efi-my-voice--o2
+    summary: >-
+      Learners turn their words into simple spoken sentences about themselves — I am, I am from, I like
+      — practise introducing themselves and others aloud, and begin to write a little about themselves.
+    blocks:
+      - title: "I am… — saying who you are"
+        kind: activity
+        materialSlug: cb-mv-i-am-sentences
+        facilitatedHours: 2.5
+        independentHours: 1.5
+        independentTask: "Say two true sentences about yourself (I am…, I like…) to one person at home."
+      - title: "Meeting people"
+        kind: activity
+        materialSlug: cb-mv-meeting-people-role-play
+        facilitatedHours: 2
+        independentHours: 1
+        independentTask: "Greet and introduce yourself in English to one person you do not usually speak English with."
+      - title: "Say it to someone new"
+        kind: practice
+        facilitatedHours: 1
+        independentHours: 2.5
+        description: >-
+          Speaking practice, where fluency and confidence grow. Between sessions, learners use their
+          greeting and their simple sentences with real people — a neighbour, a family member, someone
+          at the learning facility. Open each session with a short, warm check-in in same-gender pairs:
+          who did you speak English with, what did you say, what happened? A sentence tried, however
+          small, is celebrated. This block carries a large share of the independent hours, so protect it
+          and keep the check-ins going. When someone is too shy to speak outside, practising with one
+          trusted person, or with a partner in the room, counts fully.
+        independentTask: "Keep using your English greeting and sentences with people you meet, and notice what gets easier."
+      - title: "Writing a little about myself"
+        kind: activity
+        materialSlug: cb-mv-writing-about-myself
+        facilitatedHours: 2
+        independentHours: 1.5
+        independentTask: "Copy or complete one sentence about yourself in your My Voice book, or say it aloud and draw it if writing is not yet comfortable."
+  - title: "My Name, My Voice — make and share"
+    lead: learner-led
+    objectiveId: efi-my-voice--o3
+    summary: >-
+      Learners bring the unit together into a personal "My Name, My Voice" card that shows who they are,
+      rehearse a short spoken introduction of it, and share it with a warm audience — then look back at
+      how far they have come.
+    blocks:
+      - title: "Make your My Name, My Voice card"
+        kind: activity
+        materialSlug: cb-mv-design-my-name-my-voice
+        facilitatedHours: 3
+        independentHours: 2
+        independentTask: "Finish decorating your card and practise saying your introduction aloud once at home."
+        flexNote: >-
+          The authentic project. Learners choose what represents them — their name, meaningful
+          picture-words, a simple sentence — and make it visual first. Hold English expectations at A1-:
+          a few true words and sentences plus images is a full success.
+      - title: "My Name, My Voice — rehearse, share, and celebrate"
+        kind: consolidation
+        facilitatedHours: 2.5
+        independentHours: 2
+        description: >-
+          Close the course. Learners rehearse their introduction in same-gender pairs first, which makes
+          the sharing far less frightening, then present their card to a warm audience — a small group or
+          the class, with applause, no correction during sharing, and one kind response from listeners.
+          No one is ever forced to share, and presenting to just a partner or mentor still counts. Then
+          learners look back: they revisit the "I can…" self-check they marked at the start, mark where
+          they are now, and name one way they have grown, and each sets one English thing to keep working
+          on. On Learning Bridge+, this is the point to gather the evidence of each learner's English
+          progress and self-awareness (FUS1) — from the My Voice book, the spoken introduction, the card,
+          and the self-check — to inform the formative judgement and the support each learner needs next.
+        independentTask: "Choose one way your English has grown to share, and one thing you want to keep learning after the course."
+sourceNotes:
+  - Contextualises the "My Voice" course (English for Impact Unit 1; see courses/efi-my-voice.yaml) for the Learning Bridge+ (Cox's Bazar) edition, delivered through the cb-mv-* materials.
+  - The central adaptation is emergent literacy, not literacy transfer - the source assumes Home-Language literacy, while this unit assumes no prior reading in any language and leads with listening, speaking, and the learner's own name.
+  - Set out in hours, not weeks, as a standalone 50-hour component (30 in-person + 20 independent). Educators fit it to their own weekly schedule over a minimum of 10 weeks.
+  - Activity times are generous (roughly 1.5 to 2 times a literate-group estimate) to reflect oral and visual delivery, drawing, translation, and a pre-literate starting point.
+  - English Language Development is optional and is not one of the two formally graded Learning Bridge+ competencies; its assessment is formative, against the A1- Can-Do outcomes and each learner's own growth.
+  - The offline resource pack (facilitator unit plan, visual My Voice book/workbook, picture and letter cards, optional slides) is to be produced as editable files, mirroring the Agency in Learning pack; not yet generated.

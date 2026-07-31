@@ -1,0 +1,181 @@
+# Contextualised, fully offline adaptation of efi-mv-writing-about-myself for Learning Bridge+
+# (Cox's Bazar). The key shift from the source: the source expects learners to write several true
+# sentences from frames; here writing is emergent — learners copy and complete a few personal words, and
+# only those who are ready attempt ONE simple scaffolded sentence. A clear oral/drawing alternative means
+# no one is excluded, and the words feed the identity artifact. Oral and visual first. Objective 2.
+id: cb-mv-writing-about-myself
+slug: cb-mv-writing-about-myself
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Writing a few of my own words"
+summary: >-
+  Learners put a few of their own words onto paper — copying and completing the words that matter to them,
+  and, for those ready, completing one simple sentence like "I am from ___". Anyone not yet writing works
+  by drawing and saying instead, so no one is left out, and the words become the raw material for their
+  identity artifact.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Learners copy and complete their own words at their own pace, with the facilitator
+    circulating, kneeling beside people, and helping quietly. The group means learners at very different
+    stages — one tracing a single word, another completing a sentence — all work side by side without
+    anyone being singled out. Reading a finished word aloud to a same-gender partner adds pride and a
+    gentle check.
+- context: one-to-one-mentoring
+  how: >-
+    The best setting for a learner who has never held a pencil, or who carries shame about writing. A
+    mentor can guide the hand, start with a single letter of the learner's name, and let them copy and
+    trace with no one watching, so the first written word is a private, unhurried success rather than a
+    public risk.
+- context: independent
+  how: >-
+    Workable once a learner knows which words are theirs. Their My Voice book carries their words to copy
+    and one frame to complete, and the independent task is to copy one word and, if they can, complete
+    one sentence at home. Pair it with a spoken check next session so the writing is seen and celebrated.
+duration: "2 hours facilitated across two sessions, plus independent copying"
+grouping: "Individual writing at mixed paces, with paired reading aloud; works with 10-35 learners"
+whatLearnersDo:
+- Copy and complete a few of their own personal words (their name, a place, a thing they like).
+- For those ready, complete one simple scaffolded sentence — a frame like "I am from ___".
+- Draw and say their words instead, if they are not yet writing, so they take part fully.
+- Read or say a finished word or sentence aloud to a same-gender partner.
+materialsAndPreparation:
+- The learner's own picture-words from earlier in the unit (from cb-mv-words-about-me and their name page), so they copy words that are already theirs and meaningful.
+- One or two frames ready to complete, shown large and simple with a picture — for example "I am from ___" — for learners who are ready to try a whole sentence.
+- Paper or the My Voice book, and something to write with; for tracing, a finger in sand or dust works where pencils are scarce.
+- "Sensitivity: writing a place or a family word can touch loss and separation. Let learners choose lighter, everyday words — a colour, a food, a thing they like — and never require anyone to write down anything painful."
+facilitationNotes: |
+  Writing here is emergent, not the sentence-from-frames writing the source assumes. Most learners are
+  copying and completing a few words, not composing, and some are holding a pencil for the first time —
+  so the honest target is a few true words on paper that the learner owns, with one simple sentence as a
+  stretch only for those who are ready. Never make writing the gate to taking part: a learner who draws
+  their word and says it aloud has done the thinking that matters, and the scribing can come later or be
+  shared. Recognition and copying come before free writing; let learners trace and copy their own
+  meaningful words many times before anything is expected from a blank space. Teach the tiny mechanics —
+  a capital for a name, a mark at the end — only as they arise, and never at the cost of a learner's
+  willingness to try. Welcome planning in Rohingya, Chittagonian, Burmese, or Arabic, then help the
+  learner put the English word on paper. Every word written is kept: these become the words for the
+  "My Name, My Voice" artifact, so the work has a real destination.
+steps:
+- title: "Copy your own words"
+  duration: "35-40 min"
+  guidance: |
+    Give each learner their own picture-words from earlier in the unit and let them copy the ones that
+    matter most — their name, a place, a thing they like — as many times as they wish. Recognition and
+    copying come first: they are putting a word they already own onto paper, not inventing spelling.
+    Circulate, kneel beside people, show a pencil grip quietly to anyone who needs it, and praise the
+    effort rather than the neatness. For many this is the first time they have written a word about
+    themselves.
+  keyPrompts:
+  - Which of your words do you want to write first? Copy it slowly.
+  - Point to the word, say it, then copy it again — which part is getting easier?
+  watchOuts:
+  - Pushing for neat, correct letters too soon; at this stage the win is having a go at a word that is theirs, not handwriting, and neatness comes with time.
+  - A learner who has never held a pencil feeling ashamed; show the grip quietly, let them trace with a finger first, and never make it a public moment.
+  adaptation: |
+    Where there is no paper to spare, learners trace their words in a tray of sand, in dust on the
+    ground, or over a word card with a dry finger; the muscle memory forms just the same.
+- title: "Complete one sentence, if you are ready"
+  duration: "30-40 min"
+  guidance: |
+    Offer a stretch for those ready: complete one simple sentence by filling a frame — "I am from ___" —
+    with one of their own words. Keep it to a single sentence, and keep it optional: this is a step up
+    for learners steady on their words, not a hurdle for everyone. Help with the one new word and with a
+    capital at the start and a mark at the end, but do not rewrite their meaning. A completed first
+    sentence on paper is a real milestone; dwell on it.
+  keyPrompts:
+  - Which frame is true for you? Copy it and add your own word at the end.
+  - What goes at the very start of the sentence, and at the end?
+  watchOuts:
+  - Making the sentence compulsory; a learner still mastering single words should stay with words and feel that is completely right, not behind.
+  - Copying a frame that is not true for them; check quietly that the word they add is really theirs, because the point is that the sentence is their own.
+  adaptation: |
+    A learner who finds writing hard says the whole sentence aloud and copies only the one word that is
+    theirs into the frame; the composing counts even when the scribing is shared or partial.
+- title: "Say it, and keep it"
+  duration: "25-30 min"
+  guidance: |
+    Learners show and say their words or sentence to a same-gender partner — reading it if they can, or
+    saying it while pointing to the marks. The partner listens and offers one kind word. A learner who
+    drew instead of writing shows their drawing and says the word aloud; they take part fully. Everyone
+    keeps their words in the My Voice book, because these are the words their identity artifact will be
+    made from.
+  keyPrompts:
+  - Show your partner your word or sentence and say it aloud.
+  - Which of these words do you want to use for your name card later?
+  watchOuts:
+  - A partner correcting harshly; model kind, specific praise — "I like your word for this" — so sharing stays safe.
+  - A learner who only drew feeling less-than; make plain that drawing and saying the word is a full and real way to take part, and their words count the same.
+  adaptation: |
+    No partner or no quiet space? A learner shows and says their word to the facilitator instead; being
+    heard by one trusted person is enough to make the writing feel real and worth keeping.
+closing: |
+  Gather a few learners to hold up and say one word or sentence they wrote or drew today. Mark the
+  milestone honestly: some of you copied your first words in English, and some completed your first whole
+  sentence — both are real writing, and both are yours. Confirm the words are kept in the My Voice book
+  for the "My Name, My Voice" artifact to come. Independent task: at home, copy one of your words once
+  more, and, if you are ready, complete one sentence; or draw one more word you want to use for your name
+  card, and be ready to say it next session.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Putting even a few of your own words onto paper is a durable act of self-representation: it can be
+    kept, shown, and built on. For a learner who has never written, gaining the ability to copy and
+    complete their own words in English is the first turn of the key toward the forms, applications, and
+    study that further pathways require.
+principlesForegrounded:
+- builds-on-identities
+- safe-spaces
+- recognise-communicate-growth
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    Learners copy and complete words that are already theirs — their name, their place, their likes,
+    planned in their Home Language(s) where it helps — so the writing is anchored in the learner's own
+    identity from the first mark.
+- principle: safe-spaces
+  how: >-
+    The activity is built for people who may never have written, so shame is the real risk it guards
+    against: copying before composing, a full and honoured drawing-and-saying route for those not yet
+    writing, one-to-one help with no audience, and praise for effort rather than neatness all make it
+    safe to try on the page.
+- principle: recognise-communicate-growth
+  how: >-
+    Seeing their own words appear on paper, and keeping them in the My Voice book, lets learners see and
+    name a concrete gain — from no writing to a few true words that are theirs — and carry it forward
+    into the artifact.
+competencyCodes:
+- FLC3
+- FUS1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Copying and completing true words about oneself, and for some a first simple sentence, is the ground
+    floor of communicating personal information in writing — the very start of written English.
+- code: FUS1
+  how: >-
+    Choosing which of their own words to write asks learners to reflect on and represent who they are,
+    what matters to them, and what they want to keep and show.
+objectiveIds:
+- efi-my-voice--o2
+relatedSlugs:
+- cb-mv-writing-my-name
+- cb-mv-i-am-sentences
+- cb-mv-design-my-name-my-voice
+sourceRefs:
+- efi-my-voice.yaml
+- efi-mv-writing-about-myself.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of efi-mv-writing-about-myself for the Learning Bridge+
+  (Cox's Bazar) edition. The source expects learners to build several true sentences from frames and
+  assumes Home-Language literacy; this version is rebuilt for emergent literacy — learners copy and
+  complete a few personal words, only those ready attempt one simple scaffolded sentence, and a full
+  oral/drawing alternative means no one is excluded. The words produced feed the "My Name, My Voice"
+  identity artifact. Objective 2 of the My Voice unit.

@@ -92,7 +92,7 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
 
         <p className={`${eyebrow} mt-8 text-orange`}>Unit plan · {u.componentTitle}</p>
         <h1 className={`${headFont.className} mt-2 text-4xl font-bold leading-[1.1] tracking-tight text-navy`}>
-          Agency in Learning
+          {u.title}
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-[#3C4655]">{u.summary}</p>
 

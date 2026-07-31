@@ -1,0 +1,197 @@
+# Contextualised, fully offline adaptation of efi-mv-to-be-and-pronouns and efi-mv-fluency-introductions
+# for Learning Bridge+ (Cox's Bazar). The key shift from the sources: the sources assume learners can
+# read the frames and do written controlled practice; here the verb "to be", the pronouns, and the frames
+# "I am ___", "I am from ___", "I like ___" are taught and practised SPOKEN first, by ear, with heavy oral
+# scaffolding and repetition. Writing is optional. Learners fill the frames with their own picture-words.
+# Oral and visual first, no devices. Objective 2.
+id: cb-mv-i-am-sentences
+slug: cb-mv-i-am-sentences
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "I am, I am from, I like — your first sentences"
+summary: >-
+  Learners say their first whole English sentences out loud — "I am ___", "I am from ___", "I like ___" —
+  learning the verb "to be" and the pronouns by ear, with lots of repetition. They fill the frames with
+  their own picture-words about themselves, so from the very first sentence the English is truly theirs.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. The frames are said together as a chorus, then each learner fills them with their own
+    words, then says them to a partner and to the room. The group carries this: hearing the same frame
+    filled a dozen different ways teaches the pattern far faster than any explanation, and a room saying
+    "I am from…" together gives shy learners cover to find their voice. Use same-gender pairs.
+- context: one-to-one-mentoring
+  how: >-
+    A gentle fit for a learner who freezes when others are listening, or who is behind on the sounds. A
+    mentor can build the frames one at a time at the learner's pace, let them practise "I am ___" aloud
+    with no audience until it is easy, and only then bring in the next frame — so the first sentence is a
+    sure win rather than a public risk.
+- context: independent
+  how: >-
+    Limited alone, because the pattern is learned by saying it to people. If a learner works
+    independently, their My Voice book carries their picture-words beside each frame, and the independent
+    task is to say the three sentences about themselves to one person at home; pair it with a spoken
+    check next session.
+duration: "2.5 hours facilitated across two or three sessions, plus about 1 hour of independent practice"
+grouping: "Whole group for the frames, then same-gender pairs; works with 10-35 learners"
+whatLearnersDo:
+- Say the frame "I am ___" out loud and fill it with their own name.
+- Hear and say the verb "to be" (I am, he is, she is, we are) matched to real people in the room.
+- Fill "I am from ___" and "I like ___" with their own picture-words about themselves.
+- Say all three sentences about themselves to a partner, a little smoother each time.
+materialsAndPreparation:
+- Your own three true sentences ready to say first — "I am ___. I am from ___. I like ___." — as the model.
+- The learner's picture-words from cb-mv-words-about-me (their drawn or chosen words for name, place, and things they like), so they have real words to put in the frames.
+- The three frames ready to show large and simple on paper or the ground, as pictures-plus-a-few-words that learners point to rather than read.
+- "Sensitivity: 'I am from ___' can touch displacement, loss, and separation. Let a learner name a smaller, safer place, or fill the frame with a colour, a food, or a thing they like instead; no one has to say where they are from."
+facilitationNotes: |
+  This is the step where single words become whole sentences, and for many learners the first English
+  sentence they ever speak. Unlike a literate group that can read the frames and drill them on paper,
+  here the frames live in the ear: learners hear them, say them back, and fill them by pointing to their
+  own picture-words, long before any of it is written. So lead with your voice and theirs. Keep the verb
+  "to be" attached to real people in the room, never to a rule — "I am Fatima, she is Ayesha, we are
+  here" — because the pattern sticks when it is about someone the learner can see. Expect "I from…" and
+  "I student" and do not pounce on them; gently say the whole sentence back and let the correct shape
+  soak in through repetition, not through being told off. Welcome bridges to Rohingya, Chittagonian,
+  Burmese, or Arabic — how do you say "I am" in a language you already have? Above all, run it warm and
+  slow: a learner who can say three true sentences about themselves out loud has crossed a real line.
+steps:
+- title: "I am ___ — your first sentence"
+  duration: "30-35 min"
+  guidance: |
+    Say your own first sentence slowly and clearly — "I am ___" with your name — and have the whole
+    group say the frame back, then each learner fills it with their own name: "I am Fatima." Go round,
+    unhurried, and let everyone hear their own voice say a whole sentence. Say it as a chorus, then in
+    same-gender pairs, then singly. The win here is not grammar, it is a learner hearing themselves make
+    a complete English sentence about who they are.
+  keyPrompts:
+  - Say it with me — "I am…" — now put your own name at the end.
+  - Can you say your whole sentence on your own this time?
+  - How do you say "I am" in a language you already speak?
+  watchOuts:
+  - Dropping the "am" ("I Fatima"); do not scold, just say the whole sentence back warmly and have them echo it, so the full shape is what they hear and repeat.
+  - A learner too shy to say it to the room; let them say it first to a partner or to you, quietly, before anything is said aloud to the group.
+  adaptation: |
+    No paper is needed. The frame lives in your voice and theirs; say it, have them say it back, and
+    build from the learner's own name with nothing but sound.
+- title: "he is, she is, we are — the people in the room"
+  duration: "35-40 min"
+  guidance: |
+    Bring in the other forms by pointing at real people: "I am Fatima. She is Ayesha. He is Karim. We
+    are here." Keep it entirely about people the learners can see, so the form attaches to a face, not a
+    rule. Learners point and say — "she is…", "he is…" — around the room. Do not try to teach every
+    pronoun to mastery; "I am", "she is / he is", and "we are" are plenty for now and the rest comes with
+    time.
+  keyPrompts:
+  - Point to her and say it — "she is…". Now point to him — "he is…".
+  - Say a true sentence about two people here using "we are".
+  watchOuts:
+  - He/she mixed up; keep practising with real, known people so the choice carries meaning, and treat a slip as ordinary rather than a failure.
+  - Rushing to cover all the pronouns; a beginner who owns "I am" and "she is" has more than one who half-heard six forms.
+  adaptation: |
+    No cards or board needed. Pointing at the people in the room is the whole material; your voice and
+    theirs do the rest.
+- title: "I am from ___, I like ___ — fill it with your own words"
+  duration: "35-45 min"
+  guidance: |
+    Add the two other frames — "I am from ___" and "I like ___" — and have learners fill them with their
+    own picture-words from cb-mv-words-about-me. They point to their drawn word and say the whole
+    sentence: "I like…" and point to their picture of rice, or a goat, or the colour blue. Everyone
+    builds three true sentences about themselves and says them aloud. Keep the frames visible as simple
+    pictures to point at, not text to read.
+  keyPrompts:
+  - Which of your picture-words goes in "I like ___"? Say the whole sentence.
+  - Say your three sentences about yourself — "I am…, I am from…, I like…".
+  watchOuts:
+  - "A learner reaching for a place that hurts to name; offer the lighter road openly — \"you can say a colour, a food, or a thing you like instead\" — so choosing the easy option never feels like failing."
+  - Filling the frame with someone else's word to copy; check quietly that each learner's sentences are true for them, because the whole point is that the English is their own.
+  adaptation: |
+    Where a learner has no drawn words ready, they point to a real thing or mime it and say the sentence;
+    the frame works with a gesture just as well as with a picture.
+- title: "Say it smoother"
+  duration: "25-30 min"
+  guidance: |
+    Now practise the same three sentences until they come easily. Each learner says their introduction
+    to one partner, then moves to a second partner and says it again a little faster, then to a third —
+    same three sentences, smoother each time. Do not correct during this; the repetition itself is what
+    makes the English flow. Learners feel their own sentences stop being hard work.
+  keyPrompts:
+  - Tell your partner your three sentences — now say them to someone new, a little faster.
+  - What felt easier by the third time than the first?
+  watchOuts:
+  - Stopping to fix small errors, which kills the flow; save any teaching for later and let the repetition do its work here.
+  - The faster pace unsettling a shy learner; frame it as beating your own last go, never a race against others.
+  adaptation: |
+    In a seated group with no room to move, rotate one row so each learner gets three fresh partners
+    without anyone having to stand and cross the space.
+closing: |
+  Go round and let a few learners say their three sentences to the group — "I am…, I am from…, I like…"
+  — and mark the milestone plainly: a few weeks ago you had single sounds, and today you are saying whole
+  true sentences about who you are, in English. Put the three frames, with each learner's own
+  picture-words beside them, into their My Voice book, so the sentences are theirs to keep and build on.
+  Independent task: say your three sentences to one person at home, and, if you like, draw or trace one
+  more word to add to "I like ___".
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
+  how: >-
+    The verb "to be" is the hinge of the first whole sentences a learner can make, and saying "I am…, I
+    am from…, I like…" out loud is the moment a beginner stops being limited to single words and can
+    represent themselves in English on their own terms. Being able to state who you are, and be
+    understood, is the ground that speaking up, meeting people, and every later choice stands on.
+principlesForegrounded:
+- builds-on-identities
+- safe-spaces
+- lifeworthy-competencies
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    Every sentence is a true statement about the learner, filled with their own picture-words and their
+    own name, and bridges to how "I am" is said in Rohingya, Chittagonian, Burmese, or Arabic are invited
+    in, so the grammar is practised on the learner's own life, not on abstract examples.
+- principle: safe-spaces
+  how: >-
+    Errors in the new verb forms are met with the whole sentence said back warmly rather than correction,
+    frames can be filled with a lighter, everyday word when "where I am from" would hurt, and every
+    sentence is rehearsed quietly with a partner before it is said to the room.
+- principle: lifeworthy-competencies
+  how: >-
+    Building a whole sentence from Subject + "to be" + a word of your own is the structural foundation of
+    all later speaking and writing — a pattern a learner reuses in every later session and every
+    conversation for the rest of their life.
+competencyCodes:
+- FLC3
+- FUS1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Saying clear, complete sentences with "to be" is the means by which learners begin to communicate
+    basic personal information — their name, where they are from, what they like — so as to be understood.
+- code: FUS1
+  how: >-
+    The sentences learners build are statements of their own identity, so putting the frames into words
+    doubles as naming who they are, where they are from, and what matters to them.
+objectiveIds:
+- efi-my-voice--o2
+relatedSlugs:
+- cb-mv-words-about-me
+- cb-mv-meeting-people-role-play
+- cb-mv-writing-about-myself
+sourceRefs:
+- efi-my-voice.yaml
+- efi-mv-to-be-and-pronouns.yaml
+- efi-mv-fluency-introductions.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of efi-mv-to-be-and-pronouns and efi-mv-fluency-introductions
+  for the Learning Bridge+ (Cox's Bazar) edition. The sources assume learners can read the sentence
+  frames and complete written controlled-practice exercises; this version is rebuilt for emergent
+  literacy — the verb "to be", the pronouns, and the frames "I am ___", "I am from ___", "I like ___" are
+  taught and practised spoken first, by ear, with heavy oral scaffolding and repetition, filled with the
+  learner's own picture-words, and writing is optional at this stage. Objective 2 of the My Voice unit.

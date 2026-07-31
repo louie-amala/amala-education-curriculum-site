@@ -1,0 +1,177 @@
+# Contextualised, fully offline adaptation of efi-mv-listening-hello-and-names for Learning Bridge+
+# (Cox's Bazar). The source is already listening-led and uses Total Physical Response, which suits this
+# context well; the key shift is to strip out the parts that lean on reading or writing (holding up word
+# cards, writing the key word) and make it purely ear-first — learners respond only by pointing, standing,
+# and gesturing, so no literacy is asked for. Comprehension and the confidence to LISTEN come before any
+# demand to produce. Oral and visual first, no devices. Objective 1.
+id: cb-mv-listening-hello-and-names
+slug: cb-mv-listening-hello-and-names
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Listening first — hello, and the sounds of our names"
+summary: >-
+  Pure ear-training before any speaking or writing is asked for: learners listen to English greetings and
+  hear names and their first sounds, showing they understand by pointing, standing, and gesturing rather
+  than reading or producing language. It builds comprehension and the confidence to listen — the foundation
+  that speaking is later built on.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    The natural home for this. Listen-and-do and listen-and-point tasks work beautifully with a whole group:
+    beginners succeed by responding physically, together, before anyone has to speak, and the room moving as
+    one takes the exposure out of it. Use same-gender pairs for the partner steps.
+- context: one-to-one-mentoring
+  how: >-
+    A gentle fit for a learner overwhelmed in a group or anxious about a new language. A mentor can speak
+    slowly, repeat as often as needed, and let the learner respond with the smallest gesture, building the
+    confidence to listen with no audience before joining the group.
+- context: independent
+  how: >-
+    Limited alone, because early listening at A1 is far easier with a live, patient speaker who can repeat
+    and gesture. If worked independently, a reading partner or family member says the greetings and names
+    while the learner listens and points; pair it with a group session wherever possible.
+duration: "About 1.5 hours facilitated, across one or two sessions"
+grouping: "Whole group, then same-gender pairs; works with 10-35 learners"
+whatLearnersDo:
+- Listen to English greetings and everyday classroom words and respond with an action — wave, stand, sit, point — no speaking required.
+- Listen to names and hear the first sound in each, showing which name or sound they heard by pointing or moving.
+- Listen and point to the right picture for identity words, and choose between two pictures for a heard sentence.
+- Notice that they already understand a lot of English by ear, before they are ever asked to say it.
+materialsAndPreparation:
+- A few simple greetings and self-introductions ready to say aloud, slowly, pitched at the very first words of English.
+- Picture cards or drawings for a small set of identity and classroom words (a door, a book, a friend, a family) for learners to point to — pictures, not written words.
+- A set of learners' own names ready to say aloud, and, if helpful, drawn or symbol markers learners can stand beside or point to.
+- "Sensitivity: hearing and sharing names can touch on family and story, and a name said wrong can sting. Say every name with care, let a learner who would rather not have their name used point to another marker instead, and never single out anyone who has not understood — repeat and support instead."
+facilitationNotes: |
+  Listening is the strand most often skipped at the very start, yet understanding comes before speaking —
+  learners can take in far more than they can say, and being asked to produce language too early is exactly
+  what frightens a beginner into silence. So this activity gives learners a stretch of pure listening, where
+  the only thing asked of them is to show they understood, and they show it with their bodies: point, stand,
+  wave, choose. The source already works this way through Total Physical Response, which fits this context
+  well; the one change is to remove the small reading-and-writing steps it still carries — holding up word
+  cards, writing the key word — so nothing here asks a learner to read or write. Total Physical Response is
+  the engine: pair every bit of language with a movement so meaning is felt in the body, not decoded on a
+  page. Speak clearly and unhurried, repeat as much as anyone needs, and use gesture and pictures freely.
+  Keep it warm and playful, and never expose a learner who has not caught it — just say it again. The point
+  landed by the end is a quiet, confidence-building surprise: you already understand a lot of English, and
+  speaking will come from here.
+steps:
+- title: "Listen and do — greetings and everyday words"
+  duration: "25-30 min"
+  guidance: |
+    Say greetings and simple instructions, each with a clear action every time — "hello" (wave), "stand up",
+    "sit down", "point to the door", "point to a friend". Learners do the action; no one speaks. Build up a
+    few, then mix the order so learners must truly listen rather than copy a routine. Because the response is
+    a movement, a complete beginner can succeed on the very first try, and you can see at a glance who has
+    understood. Keep the pace calm, repeat freely, and make it feel like a game the whole room plays together.
+  keyPrompts:
+  - "(said, not asked) Hello. Stand up. Sit down. Point to the door."
+  - Did you hear "stand" or "sit"? Show me.
+  - Listen carefully — the order is changing now.
+  watchOuts:
+  - Learners copying a neighbour instead of listening; vary the order and now and then give an instruction only some are expecting, so listening is what carries them.
+  - Going too fast for the slowest; repeat as often as needed and never move on while learners are still catching up, since success here is what builds the confidence to keep listening.
+  adaptation: |
+    Needs no materials at all — just your voice, your gestures, and the room. It runs equally well with
+    learners seated on the floor of a shelter as anywhere else.
+- title: "Listen for the first sound of a name"
+  duration: "30-35 min"
+  guidance: |
+    Move to names and their first sounds — the bridge to the alphabet work. Say a name slowly and stress its
+    first sound — "Fatima… fff". Then play listening games with no speaking required: say a first sound and
+    have everyone whose name starts with it stand or raise a hand; say two names and have learners point to
+    show which they heard; say a sound and learners point to the neighbour whose name begins that way. This
+    trains the ear to catch the first sound of a name before learners are ever asked to say sounds
+    themselves, and it makes the room's own names the listening material.
+  keyPrompts:
+  - Listen — "fff". Stand up if your name starts with that sound.
+  - I will say two names. Point to show me which one you heard.
+  - Whose name near you starts with "sss"? Point to them.
+  watchOuts:
+  - A name said in a way that does not match its owner's ear; say it with care, take the learner's correction gladly, and treat a tricky first sound as interesting rather than wrong.
+  - Shyness when a learner's own name is used; let them stand for a sound as one of many rather than be singled out, and let anyone opt to respond for a chosen marker instead of their name.
+  adaptation: |
+    No cards or markers are needed — learners stand, sit, raise a hand, or point to one another. If markers
+    help, symbols drawn on paper or in the dust that learners stand beside carry the pointing games just as
+    well.
+- title: "Listen and point — words about us"
+  duration: "25-30 min"
+  guidance: |
+    Say identity and everyday words — friend, family, teacher, student, and a country or two relevant to the
+    learners — and learners point to the matching picture or drawing. Then a quick listen-and-choose: say a
+    short sentence and learners point to which of two pictures it matches. Finish with a first, low-pressure
+    step toward speaking, entirely optional: in same-gender pairs, one learner says a word for their partner
+    to point to, so those who are ready begin to produce a word while the response stays a gesture. Keep the
+    whole step non-verbal for anyone not yet ready to speak.
+  keyPrompts:
+  - Point to "family". Point to "teacher".
+  - Which picture goes with what I just said — this one, or this one?
+  - "(optional, in pairs) Say one word for your partner to point to."
+  watchOuts:
+  - Rushing learners into full sentences or speaking; keep the response pointing and choosing until each learner chooses to say a word, since forcing production too soon is what silences beginners.
+  - Pictures that are unclear or unfamiliar; use images learners will recognise from their own lives, and say the word with gesture so meaning never rests on the picture alone.
+  adaptation: |
+    Learners point on a shared set of drawings or on the ground; no printed handouts are needed. Where there
+    are no pictures, gesture and mime carry the words, and learners point to real things in the room.
+closing: |
+  Recap with a quick listen-and-do round — hello, stand, sit, point — so learners end on something they can
+  all now follow with ease. Name the win plainly and truthfully: you understood a lot of English today just
+  by listening, without having to say a word, and that understanding is the ground your speaking will grow
+  from. Independent task: at home, listen for one English word you know — hello, or a name's first sound —
+  and when you hear or think of it, point to or picture what it means, ready to tell a partner next session.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Understanding what is said around them — greetings, names, simple questions — is what lets a learner take
+    part in a new setting rather than feel lost in it, and it is the receptive foundation that all later
+    reading, speaking, and study are built on. Building listening early, safely, and before the pressure to
+    produce gives a beginner a first sure foothold in English and widens the futures that learning it opens.
+principlesForegrounded:
+- safe-spaces
+- lifeworthy-competencies
+- builds-on-identities
+principleAlignment:
+- principle: safe-spaces
+  how: >-
+    Learners respond by pointing, standing, and gesturing before they must speak, so they succeed and take
+    part without the exposure of producing new language under pressure; no one is singled out for not
+    understanding, and speaking stays optional until each learner is ready.
+- principle: lifeworthy-competencies
+  how: >-
+    Listening for key information and following spoken instructions are core communication skills a learner
+    reuses in every later unit and in daily life, study, and work — the receptive half of communication that
+    makes any exchange possible.
+- principle: builds-on-identities
+  how: >-
+    The listening content is the room's own greetings and names and the learners' own countries and
+    languages, so comprehension is anchored in who the learners are, and hearing the first sound of one's own
+    name bridges directly to the alphabet learners are meeting.
+competencyCodes:
+- FLC3
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Understanding spoken greetings, names, and everyday words is half of communication; this activity builds
+    the receptive side — the ear — that makes exchange possible and that speaking and reading later grow from.
+objectiveIds:
+- efi-my-voice--o1
+relatedSlugs:
+- cb-mv-alphabet-and-first-sounds
+- cb-mv-classroom-language-and-warm-ups
+sourceRefs:
+- efi-my-voice.yaml
+- efi-mv-listening-hello-and-names.yaml
+provenanceNote: >-
+  Contextualised, fully offline adaptation of efi-mv-listening-hello-and-names for the Learning Bridge+
+  (Cox's Bazar) edition. The source is already listening-led and uses Total Physical Response, which suits
+  this context; this version strips out the steps that still lean on reading or writing (holding up word
+  cards, writing the key word) so the activity is purely ear-first — learners respond only by pointing,
+  standing, and gesturing, building comprehension and the confidence to listen before any demand to produce
+  language. Objective 1 of the My Voice unit.
