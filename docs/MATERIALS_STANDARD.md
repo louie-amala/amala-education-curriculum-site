@@ -189,7 +189,28 @@ discovered by a partner mid-session.
 
 ---
 
-## 10. Open questions
+## 10. Student worksheets (components with a unit plan)
+
+Where a component has a **unit plan** (a scheme of work that sequences activities), every **activity**
+carries a **student worksheet**: the learner-facing sheet the activity refers to, so a facilitator can
+see at a glance what a step means by "the sheet in their book". [judgement]
+
+- The worksheet is its own `resource` material in the bank, paired to the activity through the
+  activity's `worksheet: { slug, note }` field. The activity page renders it as a prominent **Student
+  worksheet** callout.
+- The worksheet resource is thin (§3): what the sheet is, how the learner uses it, and any sensitivity
+  note. It does **not** ship its own download file.
+- The **printable** version of every worksheet is compiled into one file, the component's downloadable
+  **workbook**, and the worksheet says so (its `note` and content name the workbook page). One workbook
+  per component, not a file per sheet.
+- Enforcement (`validateGraph`): it errors if `worksheet.slug` does not resolve, warns if the target is
+  not a `resource`, and warns when an activity in a unit plan has no `worksheet`.
+
+This applies to every unit-planned component (the Cox's Bazar editions first). Components that predate
+the rule and ship per-activity download files (e.g. Agency in Learning) are migrated as they are next
+touched, not all at once.
+
+## 11. Open questions
 
 1. Should tools and case studies really carry full steps, or is "how to use it" enough?
 2. Is `shortVersion` sufficient, or do we also need a longer/extended variant?

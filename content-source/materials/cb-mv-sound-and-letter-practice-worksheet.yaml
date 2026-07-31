@@ -1,0 +1,98 @@
+# Student worksheet for cb-mv-sound-and-letter-practice. A thin resource: the learner-facing sheet the
+# activity refers to, with spaces to build and place letters into your name and first words, and to mark the
+# sound you hear (emergent dictation), with no fluent writing assumed. Its printable form is one page of the
+# Student My Voice book (workbook).
+id: cb-mv-sound-and-letter-practice-worksheet
+slug: cb-mv-sound-and-letter-practice-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Building sounds and words"
+summary: >-
+  A sheet with spaces to build and place letters into your name and first words, and boxes to mark the sound
+  you hear, so you can practise sound and letter by hand without any fluent writing.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- The "Building sounds and words" sheet in the learner's My Voice book, and something to place cards on or trace with.
+- Letter and sound cards or tiles, printed, drawn on card, or scratched on stones or bottle-tops, so a learner builds a word by placing rather than writing.
+facilitationNotes: |
+  This sheet is where the sound and letter games leave a record. It gives outline spaces to lay letter or
+  sound cards into a name and a few short words, and boxes to mark the letter for a sound you say aloud. It
+  assumes no fluent writing: building means placing a card, and writing means tracing a model, never free
+  handwriting. Keep it low-stakes and self-corrected, a learner checks their own built word against a model
+  and fixes it. It is one page of the downloadable Student My Voice book, dipped into across many sessions.
+educatorContent: |
+  ## Using the "Building sounds and words" sheet
+
+  Use this sheet alongside cb-mv-sound-and-letter-practice, once a sound has been met by ear. The sheet gives
+  a row of blank spaces the size of a card, so a learner lays letter or sound cards to build their own name
+  first, then short words already practised aloud, sat, mat, man, pot, sun, saying each sound as they place
+  it. For the emergent dictation, you say a single sound and the learner marks or places its letter in a box,
+  then checks it against a model card and fixes it themselves. Tracing over a model is offered only to those
+  ready for it, and placing the right card is a full success on its own. Keep the plosive pairs physical with
+  a hand on the throat, and treat every close attempt as real progress.
+
+  This sheet is incorporated into the downloadable Student My Voice book (workbook), as the "Building sounds
+  and words" sheet.
+learnerContent: |
+  ## Your building sounds and words page
+
+  This page is where you build words with your hands, not by writing them. You do not have to write to use
+  it.
+
+  On this page:
+
+  - Build your name. Lay your letter or sound cards in the spaces to make your name. Say each sound as you place it.
+  - Build a word. Lay the sounds in order to make a short word your facilitator says, sat, mat, man, pot, sun. Then change one card to make a new word.
+  - Mark the sound. When you hear a sound, put its letter in the box, or place its card. Check yours against the model, and fix it if you need to.
+  - Trace, if you like. If you are ready, trace a word over the light letters. If not, placing the right card is enough.
+
+  This is a place to try and to fix, never a test.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Turning a heard sound into the letter that carries it, and building a whole word from its sounds, is the
+    practice that makes a first foothold in reading and writing reliable rather than fragile. A learner who
+    can hear a word, build it, and place its letters without stalling keeps the gateway to further study and
+    the written world open rather than shutting on the first hard word.
+principlesForegrounded:
+- safe-spaces
+- lifeworthy-competencies
+- feedback-and-data
+principleAlignment:
+- principle: safe-spaces
+  how: >-
+    Building means placing a card and writing means tracing a model, so a learner who has never held a pencil
+    can practise sound and letter with no fear of being seen to fail, and fixes their own work rather than
+    being marked.
+- principle: lifeworthy-competencies
+  how: >-
+    Building words from their sounds and beginning to match sounds to letters are foundational literacy
+    skills a learner reuses in every later session, every form, and every sign for the rest of their life.
+- principle: feedback-and-data
+  how: >-
+    The learner checks each built word and placed letter against a model and fixes it themselves, giving both
+    learner and facilitator quick, visible information about which sounds are secure and which need coming
+    back to.
+competencyCodes:
+- FLC3
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Placing letters for sounds, building whole words from their sounds, and tracing over a model underpin the
+    reading and writing through which a learner comes to be understood, practised here by hand before fluent
+    writing is assumed.
+objectiveIds:
+- efi-my-voice--o1
+relatedSlugs:
+- cb-mv-sound-and-letter-practice
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-sound-and-letter-practice, incorporated into the CB My Voice downloadable
+  workbook as the "Building sounds and words" sheet.

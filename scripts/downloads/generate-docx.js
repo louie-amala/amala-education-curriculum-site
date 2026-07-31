@@ -183,76 +183,150 @@ const wbTitle = (t, sub) => [
 ];
 
 // ============================================================ STUDENT WORKBOOK
+// One clearly-labelled sheet per activity in the unit (in unit order), so every worksheet resource in
+// the material bank is literally "incorporated into the downloadable workbook".
 function workbook() {
   const c = [];
-  // Cover
-  c.push(new Paragraph({ children: [new TextRun({ text: 'My Voice book', bold: true, size: 60, color: NAVY })], alignment: AlignmentType.CENTER, spacing: { before: 800, after: 200 } }));
-  c.push(new Paragraph({ children: [new TextRun({ text: 'Learning Bridge+  ·  My Voice', size: 24, color: PLUM })], alignment: AlignmentType.CENTER, spacing: { after: 600 } }));
+  const eyebrow2 = (t) => new Paragraph({ children: [new TextRun({ text: t.toUpperCase(), bold: true, size: 15, color: PLUM })], spacing: { after: 40 } });
+  const head = (activity, title, instr) => {
+    c.push(eyebrow2(`Student worksheet · ${activity}`));
+    c.push(new Paragraph({ children: [new TextRun({ text: title, bold: true, size: 32, color: NAVY })], spacing: { after: instr ? 40 : 150 } }));
+    if (instr) c.push(new Paragraph({ children: [new TextRun({ text: instr, size: 22, color: GREY })], spacing: { after: 150 } }));
+  };
+  const labelBoxes = (items, cols, cellH) => {
+    const colW = Math.floor(10800 / cols);
+    const rows = [];
+    for (let i = 0; i < items.length; i += cols) {
+      const slice = items.slice(i, i + cols); while (slice.length < cols) slice.push('');
+      rows.push(new TableRow({ children: slice.map((t) => new TableCell({ width: { size: colW, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 20, color: PLUM })] })] })) }));
+      rows.push(new TableRow({ height: { value: cellH, rule: 'atLeast' }, children: slice.map(() => new TableCell({ width: { size: colW, type: WidthType.DXA }, children: [new Paragraph('')] })) }));
+    }
+    return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: Array(cols).fill(colW), rows });
+  };
+  const frames = (arr) => arr.forEach((s) => c.push(new Paragraph({ children: [new TextRun({ text: s, size: 30, color: NAVY })], spacing: { before: 240, after: 190 } })));
+
+  // Sheet list, in unit order — also drives the contents page.
+  const SHEETS = [
+    'My Voice book (cover)', 'The "I can…" sheet', 'Our classroom words', 'Listening: hello and names',
+    'My name', 'My sounds and words', 'Building sounds and words', 'Words about me', 'My writing practice',
+    'I can say who I am', 'Building sentences', 'Meeting people', 'Writing a little about myself',
+    'My Name, My Voice card', 'How my voice has grown',
+  ];
+
+  // --- Cover (Set up your My Voice book) ---
+  c.push(eyebrow2('Student worksheet · Set up your My Voice book'));
+  c.push(new Paragraph({ children: [new TextRun({ text: 'My Voice book', bold: true, size: 60, color: NAVY })], alignment: AlignmentType.CENTER, spacing: { before: 500, after: 200 } }));
+  c.push(new Paragraph({ children: [new TextRun({ text: 'Learning Bridge+  ·  My Voice', size: 24, color: PLUM })], alignment: AlignmentType.CENTER, spacing: { after: 500 } }));
   c.push(new Paragraph({ children: [new TextRun({ text: 'This book belongs to:', size: 26, color: GREY })], alignment: AlignmentType.CENTER, spacing: { after: 200 } }));
   c.push(writeLine());
   c.push(new Paragraph({ children: [new TextRun({ text: 'Draw yourself:', size: 22, color: GREY })], spacing: { before: 240, after: 120 } }));
-  c.push(box(2600));
+  c.push(box(2400));
   c.push(pageBreak());
-  // My name
-  c.push(...wbTitle('My name', 'Trace your name. Do it as many times as you like.'));
+
+  // --- Contents ---
+  c.push(new Paragraph({ children: [new TextRun({ text: 'What is in this book', bold: true, size: 32, color: NAVY })], spacing: { after: 120 } }));
+  c.push(new Paragraph({ children: [new TextRun({ text: 'There is one sheet for each activity in My Voice. Your facilitator will tell you which sheet to use.', size: 22, color: GREY })], spacing: { after: 160 } }));
+  SHEETS.forEach((s) => c.push(new Paragraph({ children: [new TextRun({ text: s, size: 22 })], bullet: { level: 0 }, spacing: { after: 70 } })));
+  c.push(pageBreak());
+
+  // --- The "I can…" sheet ---
+  head('Mark where I am now', 'I can…', 'Mark how you feel now. Your facilitator will read each one. Circle a face. There are no wrong answers.');
+  const canItems = [
+    'I can say hello and my name in English', 'I can hear and say the sounds of English',
+    'I can find and write the letters of my name', 'I can say some words about me (my family, where I am from, what I like)',
+    'I can write my name and some words', 'I can say who I am (I am…, I am from…, I like…)',
+    'I can meet someone and introduce myself', 'I can show and talk about my My Name, My Voice card',
+  ];
+  const hdr = ['I can…', 'Start', 'End'].map((t, i) => new TableCell({ width: { size: i === 0 ? 7200 : 1800, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 20, color: NAVY })] })] }));
+  const rowsC = [new TableRow({ tableHeader: true, children: hdr })];
+  canItems.forEach((it) => rowsC.push(new TableRow({ height: { value: 640, rule: 'atLeast' }, children: [
+    new TableCell({ width: { size: 7200, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: it, size: 21 })] })] }),
+    ...[0, 1].map(() => new TableCell({ width: { size: 1800, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: ':)   :|   :(', size: 20, color: GREY })] })] })),
+  ] })));
+  c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [7200, 1800, 1800], rows: rowsC }));
+  c.push(pageBreak());
+
+  // --- Our classroom words ---
+  head('The English of our classroom', 'Our classroom words', 'Your facilitator will say each one. Draw a small picture for it, and say it aloud.');
+  c.push(labelBoxes(['hello', 'thank you', 'please', 'again, please', "I don't understand", 'may I…?'], 3, 1500));
+  c.push(pageBreak());
+
+  // --- Listening: hello and names ---
+  head('Listening: hello and names', 'Listening: hello and names', 'Listen. Point to and mark what you hear. No writing needed.');
+  c.push(labelBoxes(['a wave = hello', 'a hand up = my name', 'two people = hello to you', 'a face I know'], 2, 1900));
+  c.push(pageBreak());
+
+  // --- My name ---
+  head('The alphabet and your first sounds', 'My name', 'Trace your name. Do it as many times as you like.');
   for (let i = 0; i < 4; i++) c.push(writeLine());
   c.push(new Paragraph({ children: [new TextRun({ text: 'The first sound of my name:', size: 22, color: GREY })], spacing: { before: 300, after: 120 } }));
-  c.push(box(1400));
+  c.push(box(1300));
   c.push(pageBreak());
-  // My sounds and words
-  c.push(...wbTitle('My sounds and words', 'Draw a thing, write its English word, and add your own word for it.'));
+
+  // --- My sounds and words ---
+  head('Key sounds through games', 'My sounds and words', 'Draw a thing, write its English word, and add your own word for it.');
   c.push(gridBoxes(3, 4, 1500, 'draw + word'));
   c.push(pageBreak());
-  // Words about me
-  c.push(...wbTitle('Words about me', 'Draw in each box. Your facilitator will help with the English word.'));
+
+  // --- Building sounds and words ---
+  head('Sound and letter practice', 'Building sounds and words', 'Build your name and words from letters. Mark the sound you hear.');
+  c.push(new Paragraph({ children: [new TextRun({ text: 'Build my name, one letter at a time:', size: 22, color: PLUM })], spacing: { after: 100 } }));
+  c.push(gridBoxes(6, 1, 1200, ''));
+  c.push(new Paragraph({ children: [new TextRun({ text: 'Build a word:', size: 22, color: PLUM })], spacing: { before: 220, after: 100 } }));
+  c.push(gridBoxes(4, 1, 1200, ''));
+  c.push(new Paragraph({ children: [new TextRun({ text: 'The sound I heard:', size: 22, color: PLUM })], spacing: { before: 220, after: 100 } }));
+  c.push(gridBoxes(4, 1, 1200, ''));
+  c.push(pageBreak());
+
+  // --- Words about me ---
+  head('Words about me', 'Words about me', 'Draw in each box. Your facilitator will help with the English word. You choose what to show.');
   const labelsRow = (a, b2) => new TableRow({ children: [a, b2].map((t) => new TableCell({ width: { size: 5400, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 22, color: PLUM })] }), new Paragraph('')] })) });
   const drawRow = () => new TableRow({ height: { value: 1900, rule: 'atLeast' }, children: [0, 1].map(() => new TableCell({ width: { size: 5400, type: WidthType.DXA }, children: [new Paragraph('')] })) });
   c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [5400, 5400], rows: [labelsRow('My family', 'Where I am from'), drawRow(), labelsRow('Things I like', 'Food I like'), drawRow()] }));
   c.push(pageBreak());
-  // My sentences
-  c.push(...wbTitle('I can say who I am', 'Say each sentence. Write or trace the ending if you can.'));
-  ['I am ________________________', 'I am from ________________________', 'I like ________________________', 'I am good at ________________________'].forEach((s) => {
-    c.push(new Paragraph({ children: [new TextRun({ text: s, size: 30, color: NAVY })], spacing: { before: 260, after: 200 } }));
-  });
-  c.push(pageBreak());
-  // Writing practice
-  c.push(...wbTitle('My writing practice'));
+
+  // --- My writing practice ---
+  head('Writing my name', 'My writing practice', 'Trace and copy. Take your time.');
   c.push(new Paragraph({ children: [new TextRun({ text: 'My name', bold: true, size: 22, color: PLUM })], spacing: { after: 80 } }));
   for (let i = 0; i < 3; i++) c.push(writeLine());
   c.push(new Paragraph({ children: [new TextRun({ text: 'My words', bold: true, size: 22, color: PLUM })], spacing: { before: 200, after: 80 } }));
   for (let i = 0; i < 4; i++) c.push(writeLine());
   c.push(pageBreak());
-  // My Name My Voice card
-  c.push(...wbTitle('My Name, My Voice', 'Design your card. Put your name big, and draw or write what shows who you are.'));
+
+  // --- I can say who I am ---
+  head('I am… — saying who you are', 'I can say who I am', 'Say each sentence. Write or trace the ending if you can.');
+  frames(['I am ________________________', 'I am from ________________________', 'I like ________________________', 'I am good at ________________________']);
+  c.push(pageBreak());
+
+  // --- Building sentences ---
+  head('Sentence practice', 'Building sentences', 'Put the words together to make a true sentence about you. Then say it.');
+  c.push(labelBoxes(['I', 'am / am from / like', '…'], 3, 1300));
+  c.push(new Paragraph({ children: [new TextRun({ text: 'Choose by ear: am · is · are', size: 24, color: PLUM })], spacing: { before: 240, after: 120 } }));
+  frames(['I ______ from…', 'She ______ my friend.', 'We ______ here.']);
+  c.push(pageBreak());
+
+  // --- Meeting people ---
+  head('Meeting people', 'Meeting people', 'Picture cards for the greeting role-play. Point and speak. No reading needed.');
+  c.push(labelBoxes(['Hello!', 'My name is…', 'What is your name?', 'This is my friend.'], 2, 1900));
+  c.push(pageBreak());
+
+  // --- Writing a little about myself ---
+  head('Writing a little about myself', 'Writing a little about myself', 'Copy or finish a sentence about you. If writing is not comfortable yet, say it and draw it.');
+  frames(['My name is ________________________', 'I am from ________________________']);
+  c.push(box(2200, 'Draw one thing about you:'));
+  c.push(pageBreak());
+
+  // --- My Name, My Voice card ---
+  head('Make your My Name, My Voice card', 'My Name, My Voice', 'Design your card. Put your name big, and draw or write what shows who you are. You choose what to share.');
   c.push(box(6200));
   c.push(pageBreak());
-  // I can... checklist
-  c.push(...wbTitle('I can…', 'Mark how you feel now. Your facilitator will read each one. Circle a face. There are no wrong answers.'));
-  const canItems = [
-    'I can say hello and my name in English',
-    'I can hear and say the sounds of English',
-    'I can find and write the letters of my name',
-    'I can say some words about me (my family, where I am from, what I like)',
-    'I can write my name and some words',
-    'I can say who I am (I am…, I am from…, I like…)',
-    'I can meet someone and introduce myself',
-    'I can show and talk about my My Name, My Voice card',
-  ];
-  const hdr = ['I can…', 'Start', 'End'].map((t, i) => new TableCell({ width: { size: i === 0 ? 7200 : 1800, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 20, color: NAVY })] })] }));
-  const rowsC = [new TableRow({ tableHeader: true, children: hdr })];
-  canItems.forEach((it) => {
-    rowsC.push(new TableRow({ height: { value: 700, rule: 'atLeast' }, children: [
-      new TableCell({ width: { size: 7200, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: it, size: 21 })] })] }),
-      ...[0, 1].map(() => new TableCell({ width: { size: 1800, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: ':)   :|   :(', size: 20, color: GREY })] })] })),
-    ] }));
-  });
-  c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [7200, 1800, 1800], rows: rowsC }));
-  c.push(pageBreak());
-  // How I have grown
-  c.push(...wbTitle('How my voice has grown', 'Draw or mark one way your English has grown since the start.'));
-  c.push(box(4200));
+
+  // --- How my voice has grown ---
+  head('Rehearse, share, and celebrate', 'How my voice has grown', 'Draw or mark one way your English has grown since the start.');
+  c.push(box(4000));
   c.push(new Paragraph({ children: [new TextRun({ text: 'One thing I want to keep learning:', size: 22, color: GREY })], spacing: { before: 240, after: 120 } }));
   c.push(writeLine());
+
   return new Document({ styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } }, sections: [{ properties: { page: LETTER }, children: c }] });
 }
 

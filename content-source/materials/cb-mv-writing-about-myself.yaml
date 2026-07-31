@@ -169,6 +169,9 @@ relatedSlugs:
 - cb-mv-writing-my-name
 - cb-mv-i-am-sentences
 - cb-mv-design-my-name-my-voice
+worksheet:
+  slug: cb-mv-writing-about-myself-worksheet
+  note: Included in the downloadable workbook as the Writing a little about myself page.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-mv-writing-about-myself.yaml

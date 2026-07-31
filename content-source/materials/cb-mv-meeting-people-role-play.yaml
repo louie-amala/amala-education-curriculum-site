@@ -156,6 +156,9 @@ objectiveIds:
 relatedSlugs:
 - cb-mv-i-am-sentences
 - cb-mv-classroom-language-and-warm-ups
+worksheet:
+  slug: cb-mv-meeting-people-role-play-worksheet
+  note: Included in the downloadable workbook as the Meeting people prompt cards.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-mv-role-play-meeting-people.yaml

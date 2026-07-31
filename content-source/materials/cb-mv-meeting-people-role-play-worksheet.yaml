@@ -1,0 +1,93 @@
+# Student worksheet for cb-mv-meeting-people-role-play. A thin, visual-first resource — the "Meeting
+# people" prompt cards from the downloadable Student My Voice book (workbook). Simple picture prompt
+# cards for a greeting role-play (two people, speech shapes) to support an oral activity; no reading
+# required. Objective 2.
+id: cb-mv-meeting-people-role-play-worksheet
+slug: cb-mv-meeting-people-role-play-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "The meeting people prompt cards"
+summary: >-
+  Simple picture prompt cards for a greeting role-play — two people and empty speech shapes — that remind
+  you of the shape of a first meeting so you can practise it aloud with a partner, with no reading needed.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- The meeting people prompt cards from the My Voice book, one set per pair.
+facilitationNotes: |
+  These cards only prompt the spoken role-play in cb-mv-meeting-people-role-play — the exchange is still
+  learned by ear from your modelling. The pictures give a pair a reminder of the shape (hello, name,
+  where from, goodbye) so they can run the meeting without you. Nothing on the cards needs reading. The
+  printable page lives in the Student My Voice book (workbook) as the "Meeting people" prompt cards.
+educatorContent: |
+  ## How to use the meeting people prompt cards
+
+  Use these cards with cb-mv-meeting-people-role-play, after learners have met the exchange by ear from
+  your modelling. They are picture prompts, not a script:
+
+  - A small strip of pictures shows the shape of a first meeting in order — two people waving hello, a
+    face with a name-picture, a little map or place-picture for "where are you from", two people waving
+    goodbye. Empty speech shapes over the two people cue "now someone speaks", without any words to read.
+  - A "this is my friend" card shows three people, so a pair can add the introducing-a-friend move.
+
+  Hand one set to each same-gender pair as a memory aid for running the meeting themselves. The pictures
+  carry the order; the words stay in the ear. No reading is required to use them.
+
+  It is incorporated into the downloadable Student My Voice book (workbook), as the "Meeting people" prompt cards.
+learnerContent: |
+  ## Your meeting people prompt cards
+
+  These cards help you and your partner practise meeting someone, without reading anything.
+
+  - Follow the pictures. A little row of pictures shows the meeting in order — waving hello, saying your
+    name, showing where you are from, waving goodbye. The empty speech shapes over the two people mean
+    "now you speak".
+  - Say it out loud. Take turns being each person, and say the words you have practised as you point along
+    the pictures. There are no words on the cards to read — the pictures just remind you what comes next.
+  - Add a friend. One card shows three people. Use it to introduce your friend — "this is my friend ___".
+
+  You keep these cards in your My Voice book.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    A picture reminder of how a first meeting goes lets a learner rehearse and then really greet a
+    neighbour, a classmate, or a health worker on their own terms. Meeting people and making yourself
+    known is how a person joins a community rather than stands outside it.
+principlesForegrounded:
+- safe-spaces
+- builds-on-identities
+- lifeworthy-competencies
+principleAlignment:
+- principle: safe-spaces
+  how: >-
+    A short, known picture-shape to lean on, used in same-gender pairs, keeps speaking safe for beginners,
+    so the risk of trying the meeting aloud is small and the success is frequent.
+- principle: builds-on-identities
+  how: >-
+    The speech shapes are filled with the learner's own name, place, and likes, so the meeting they
+    rehearse is built on who they really are rather than on a fixed dialogue.
+- principle: lifeworthy-competencies
+  how: >-
+    Greeting someone, introducing yourself, and introducing a friend are everyday communication skills a
+    learner will use for the rest of their life, in every new place and every first meeting.
+competencyCodes:
+- FLC3
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    A picture prompt for a repeated spoken meeting supports greeting, introducing oneself, and introducing
+    a friend in real time — direct practice in communicating clearly and confidently in English.
+objectiveIds:
+- efi-my-voice--o2
+relatedSlugs:
+- cb-mv-meeting-people-role-play
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-meeting-people-role-play, incorporated into the CB My Voice downloadable workbook.

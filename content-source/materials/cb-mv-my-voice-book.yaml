@@ -184,6 +184,9 @@ relatedSlugs:
 - cb-mv-alphabet-and-first-sounds
 - cb-mv-words-about-me
 - cb-mv-i-can-checklist
+worksheet:
+  slug: cb-mv-my-voice-book-worksheet
+  note: Included in the downloadable workbook as the cover and Draw yourself page.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-phonics-table-student.yaml

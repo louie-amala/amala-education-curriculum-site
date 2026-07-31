@@ -177,6 +177,9 @@ relatedSlugs:
 - cb-mv-my-voice-book
 - cb-mv-i-am-sentences
 - cb-mv-alphabet-and-first-sounds
+worksheet:
+  slug: cb-mv-words-about-me-worksheet
+  note: Included in the downloadable workbook as the Words about me page.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-mv-words-about-me.yaml

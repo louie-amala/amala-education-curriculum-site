@@ -198,6 +198,9 @@ relatedSlugs:
 - cb-mv-writing-about-myself
 - cb-mv-words-about-me
 - cb-mv-i-can-checklist
+worksheet:
+  slug: cb-mv-design-my-name-my-voice-worksheet
+  note: Included in the downloadable workbook as the My Name, My Voice card template.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-mv-project-my-name-my-voice.yaml

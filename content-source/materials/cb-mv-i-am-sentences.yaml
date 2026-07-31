@@ -184,6 +184,9 @@ relatedSlugs:
 - cb-mv-words-about-me
 - cb-mv-meeting-people-role-play
 - cb-mv-writing-about-myself
+worksheet:
+  slug: cb-mv-i-am-sentences-worksheet
+  note: Included in the downloadable workbook as the I can say who I am page.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-mv-to-be-and-pronouns.yaml

@@ -183,6 +183,9 @@ objectiveIds:
 relatedSlugs:
 - cb-mv-my-voice-book
 - cb-mv-design-my-name-my-voice
+worksheet:
+  slug: cb-mv-i-can-checklist-worksheet
+  note: Included in the downloadable workbook as the I can self-check page.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-mv-can-do-checklist.yaml

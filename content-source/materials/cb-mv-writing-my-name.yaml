@@ -175,6 +175,9 @@ relatedSlugs:
 - cb-mv-alphabet-and-first-sounds
 - cb-mv-words-about-me
 - cb-mv-writing-about-myself
+worksheet:
+  slug: cb-mv-writing-my-name-worksheet
+  note: Included in the downloadable workbook as the My writing practice page.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-mv-writing-about-myself.yaml

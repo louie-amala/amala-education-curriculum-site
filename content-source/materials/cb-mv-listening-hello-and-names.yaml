@@ -165,6 +165,9 @@ objectiveIds:
 relatedSlugs:
 - cb-mv-alphabet-and-first-sounds
 - cb-mv-classroom-language-and-warm-ups
+worksheet:
+  slug: cb-mv-listening-hello-and-names-worksheet
+  note: Included in the downloadable workbook as the listening sheet.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-mv-listening-hello-and-names.yaml

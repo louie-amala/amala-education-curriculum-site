@@ -1,0 +1,98 @@
+# Student worksheet for cb-mv-writing-my-name. A thin resource: the learner-facing page the activity refers
+# to, with tracing lines for the learner's own name and a few key personal words. Recognition and tracing
+# come before free writing. Its printable form is one page of the Student My Voice book (workbook).
+id: cb-mv-writing-my-name-worksheet
+slug: cb-mv-writing-my-name-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "My writing practice"
+summary: >-
+  A page with tracing lines for your own name and a few key personal words, so you can follow the shapes with
+  a finger or a pencil, as many times as you like, before writing them yourself.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- The "My writing practice" page in the learner's My Voice book, with the learner's name written large and clear to trace over, and one or two of their picture-words from the "Words about me" page.
+- Something to trace with, a pencil where there are pencils, or a finger over the large name and in sand where there are not.
+facilitationNotes: |
+  This page carries the learner's own name written large to trace over, and a few of their key words beside
+  their pictures. Recognition comes before writing, so let a learner look at and point to the name before
+  they trace it, and let them trace with a finger before a pencil. Keep all praise for the effort, never the
+  neatness, and never make one learner's marks a public moment. It is one page of the downloadable Student My
+  Voice book, and the first name a learner traces and then copies here is a real milestone.
+educatorContent: |
+  ## Using the "My writing practice" page
+
+  Use this page with cb-mv-writing-my-name, after the big air-writing and finger shapes. Write the learner's
+  name large and clear on the tracing line beforehand if you can, and add one or two of their picture-words
+  from the "Words about me" page next to their drawings. First let the learner look at and point to their
+  name, this is my name, this is its first letter, before any tracing. Then they trace over it as many times
+  as they like, unhurried, with a pencil or a finger. When tracing feels steady, they copy the name just
+  below the model, which stays there to check against. Circulate, kneel beside people, and keep every word of
+  praise for the trying, not the tidiness.
+
+  This page is incorporated into the downloadable Student My Voice book (workbook), as the "My writing
+  practice" page.
+learnerContent: |
+  ## Your writing practice page
+
+  This page has your own name, written big, for you to follow. You do not have to write it perfectly, and you
+  can use a finger before a pencil.
+
+  On this page:
+
+  - Look at your name. Point to it, and to its first letter. Say the sound it makes.
+  - Trace your name. Follow the shapes over the big letters, slowly, as many times as you like.
+  - Copy your name. When tracing feels easy, make your name yourself just below. The big one is still there to check against.
+  - Trace your words. Follow a few of your own words beside their pictures.
+
+  Every writer's first name is shaky. Making the shapes of your own name is the win.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Tracing and then writing your own name is the first turn of the key that unlocks writing, and writing is
+    the gateway to the forms, applications, and study that further pathways require. For a learner who has
+    never held a pencil, making the shapes of their own name for the first time is a real widening of the
+    futures open to them, and a dignity no one can take back.
+principlesForegrounded:
+- builds-on-identities
+- safe-spaces
+- lifeworthy-competencies
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The page is built from the learner's own name and the picture-words they already own, so the first thing
+    a learner traces and writes is themselves, and bridges to scripts they have written before, Arabic from
+    the madrasa or Burmese, are welcomed.
+- principle: safe-spaces
+  how: >-
+    Recognition comes before formation and tracing before copying, a finger is allowed before a pencil, and
+    the model stays in place, so a learner who fears being seen to fail can practise their name without any
+    mark being made a public moment.
+- principle: lifeworthy-competencies
+  how: >-
+    Forming letters and writing your own name are the foundation beneath all later writing, the hand a
+    learner trains here is reused in every later session, every form, and every signature for the rest of
+    their life.
+competencyCodes:
+- FLC3
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Tracing then copying one's own name and key words is the ground floor of communicating in written
+    English, the first turning of known sounds and words into marks on a page, supported by a model
+    throughout.
+objectiveIds:
+- efi-my-voice--o1
+relatedSlugs:
+- cb-mv-writing-my-name
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-writing-my-name, incorporated into the CB My Voice downloadable workbook as
+  the "My writing practice" page.

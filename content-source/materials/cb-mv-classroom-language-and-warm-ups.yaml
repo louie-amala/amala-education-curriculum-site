@@ -172,6 +172,9 @@ objectiveIds:
 relatedSlugs:
 - cb-mv-listening-hello-and-names
 - cb-mv-meeting-people-role-play
+worksheet:
+  slug: cb-mv-classroom-language-and-warm-ups-worksheet
+  note: Included in the downloadable workbook as the Our classroom words sheet.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-mv-classroom-language-and-warm-ups.yaml

@@ -208,6 +208,9 @@ relatedSlugs:
 - cb-mv-i-am-sentences
 - cb-mv-meeting-people-role-play
 - cb-mv-writing-about-myself
+worksheet:
+  slug: cb-mv-sentence-practice-worksheet
+  note: Included in the downloadable workbook as the Building sentences sheet.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-unit1-grammar-exercises.yaml

@@ -1,0 +1,83 @@
+# Thin student worksheet (resource) paired with the cb-mv-listening-hello-and-names activity. It is the
+# learner-facing listening sheet — simple pictures to point to or mark for what you hear, needing no reading.
+# Its printable version is compiled into the downloadable Student My Voice book (workbook) as the "Listening:
+# hello and names" sheet. Objective 1.
+id: cb-mv-listening-hello-and-names-worksheet
+slug: cb-mv-listening-hello-and-names-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: 'The "Listening: hello and names" sheet'
+summary: >-
+  A listening sheet of simple pictures — a wave for hello, faces for names — that learners point to or
+  mark to show what they hear, so they can show they understood without reading, speaking, or writing.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- One listening sheet for each learner, kept in their My Voice book, with simple pictures to point to or mark (a waving hand for hello, faces for names).
+- Something to mark with, and your own greetings and names ready to say aloud, slowly, for learners to listen to.
+facilitationNotes: >-
+  This sheet is for listening only — say the greeting or name aloud and let learners point to or mark the
+  matching picture, so they show they understood with no reading, speaking, or writing asked of them.
+  Repeat freely and never single out a learner who has not caught it. It is part of the downloadable
+  Student My Voice book (workbook), so no separate download is needed.
+educatorContent: |
+  ## Using the "Listening: hello and names" sheet
+
+  This is the learner-facing sheet for the cb-mv-listening-hello-and-names activity. Say a greeting or a
+  name aloud, slowly, and learners point to or mark the picture that matches what they heard — a waving
+  hand for hello, a face for a name. Nothing on the sheet is read; the response is a point or a mark, so
+  a complete beginner succeeds by ear alone. Repeat as often as anyone needs, keep it playful, and never
+  expose a learner who has not caught it — just say it again. The sheet lets learners see, quietly, how
+  much English they already understand.
+
+  This sheet is incorporated into the downloadable Student My Voice book (workbook), as the "Listening:
+  hello and names" sheet.
+learnerContent: |
+  ## Your listening sheet
+
+  This sheet is for listening. You do not read, speak, or write — you just show what you hear.
+
+  - Listen to your facilitator say a word or a name aloud.
+  - Point to or mark the picture that matches what you heard — a waving hand for hello, a face for a name.
+  - If you are not sure, that is fine. Your facilitator will say it again.
+  - Keep this sheet in your My Voice book. It shows how much English your ear can already catch.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Understanding greetings and names by ear is the receptive foothold that lets a learner take part in a
+    new setting rather than feel lost in it, and it is the ground all later speaking, reading, and study
+    grow from — a first sure footing in English that widens the futures learning it opens.
+principlesForegrounded:
+- safe-spaces
+- builds-on-identities
+principleAlignment:
+- principle: safe-spaces
+  how: >-
+    Learners respond by pointing or marking before they must speak or write, so they succeed and take
+    part without the exposure of producing new language, and no one is singled out for not understanding.
+- principle: builds-on-identities
+  how: >-
+    The listening is built from the room's own greetings and names, so comprehension is anchored in who
+    the learners are, and hearing the first sound of a name bridges toward the alphabet work.
+competencyCodes:
+- FLC3
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Listening to spoken greetings and names and showing understanding by pointing builds the receptive
+    side of communication — the ear that makes exchange possible and that speaking and reading later grow
+    from.
+objectiveIds:
+- efi-my-voice--o1
+relatedSlugs:
+- cb-mv-listening-hello-and-names
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-listening-hello-and-names, incorporated into the CB My Voice
+  downloadable workbook as the "Listening: hello and names" sheet.

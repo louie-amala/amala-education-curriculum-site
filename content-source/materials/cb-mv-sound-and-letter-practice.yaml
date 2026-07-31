@@ -202,6 +202,9 @@ relatedSlugs:
 - cb-mv-alphabet-and-first-sounds
 - cb-mv-phonics-table
 - cb-mv-writing-my-name
+worksheet:
+  slug: cb-mv-sound-and-letter-practice-worksheet
+  note: Included in the downloadable workbook as the Building sounds and words sheet.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-mv-phonics-games-and-dictation.yaml

@@ -1,0 +1,100 @@
+# Student worksheet for cb-mv-sentence-practice. A thin, visual-first resource — the "Building sentences"
+# sheet from the downloadable Student My Voice book (workbook). Word cards/spaces to build a sentence
+# (I / am / from / ___), and a simple am/is/are choosing task done by ear or by picture. No fluent
+# reading assumed. Objective 2.
+id: cb-mv-sentence-practice-worksheet
+slug: cb-mv-sentence-practice-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "The building sentences sheet"
+summary: >-
+  Your sheet for making a sentence from word cards and spaces, and for choosing am, is, or are by ear or
+  by picture, so a whole sentence takes shape in your hands without any fluent reading.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- The building sentences sheet from the My Voice book, and something to lay cards with, point with, or mark with.
+- The learner's own picture-words from earlier in the unit, so the last space in the sentence is filled with a word that is really theirs.
+facilitationNotes: |
+  This is the paper side of the spoken practice in cb-mv-sentence-practice — a place to lay word cards in
+  order and to mark am, is, or are once it has been chosen aloud. Let learners build and choose by ear
+  and by picture first, then use the sheet to hold what they said; writing stays optional. The printable
+  page lives in the Student My Voice book (workbook) as the "Building sentences" sheet.
+educatorContent: |
+  ## How to use the building sentences sheet
+
+  Use this sheet alongside cb-mv-sentence-practice, once learners have chosen and built out loud. It has
+  two simple parts:
+
+  - A row of spaces for a sentence — I / am / from / ___ — where learners lay word cards in order, or
+    trace the small words, and drop their own picture-word into the last space to make it true for them.
+  - A short choosing task — a few little pictures of a person or a group, each next to am, is, and are —
+    where the learner rings or marks the one that fits, having heard it first.
+
+  Keep it by ear and by picture: the learner chooses aloud, then marks the sheet to hold the choice. No
+  one waits on the pencil, and a sentence built from cards and said aloud is a full success.
+
+  It is incorporated into the downloadable Student My Voice book (workbook), as the "Building sentences" sheet.
+learnerContent: |
+  ## Your building sentences sheet
+
+  This sheet helps you make a whole sentence with your own hands.
+
+  - Build a sentence. There is a row of spaces: I / am / from / ___. Lay your word cards in that order, or
+    trace the little words, and put your own picture-word in the last space, so the sentence is true for
+    you. Then say the whole sentence out loud, pointing to each word.
+  - Choose the right word. There are small pictures of one person or a group, each with am, is, and are
+    beside it. Listen, choose the one that sounds right, and mark it. A picture is enough — you do not
+    have to read.
+
+  You keep this sheet in your My Voice book.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Holding a sentence you built with your own hands, in your own words, makes the pattern yours to reuse.
+    Being able to lay out and check a true sentence about who you are is the ground that speaking up and
+    every later choice stands on, and it puts you in charge of representing yourself in English.
+principlesForegrounded:
+- builds-on-identities
+- lifeworthy-competencies
+- safe-spaces
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The last space in every sentence is filled with the learner's own picture-word, so the sheet is worked
+    on a true statement about the learner rather than on an abstract example.
+- principle: lifeworthy-competencies
+  how: >-
+    Building a whole sentence from Subject plus "to be" plus a word of your own, and checking am, is, or
+    are, rehearses the structural foundation of all later speaking and writing on paper the learner keeps.
+- principle: safe-spaces
+  how: >-
+    The sheet only holds what the learner has already chosen aloud, the last space can be filled with a
+    lighter everyday word, and marking a picture asks no fluent reading, so trying on the page carries
+    little risk of failing.
+competencyCodes:
+- FLC3
+- FUS1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Laying and marking a complete sentence with "to be" supports the move from being understood with
+    effort to setting down basic personal information — a name, a place, a like — clearly and correctly.
+- code: FUS1
+  how: >-
+    Filling the last space with their own word asks learners to state, again on paper, who they are and
+    where they are from, so the sentence they build is a statement of their own identity.
+objectiveIds:
+- efi-my-voice--o2
+relatedSlugs:
+- cb-mv-sentence-practice
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-sentence-practice, incorporated into the CB My Voice downloadable workbook.

@@ -71,6 +71,29 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         )}
       </p>
 
+      {/* Student worksheet — the learner-facing sheet for this activity, surfaced prominently */}
+      {m.worksheet &&
+        (() => {
+          const ws = getMaterial(m.worksheet.slug);
+          if (!ws) return null;
+          return (
+            <section className="mt-6 rounded-xl border-l-4 border-gold border-y border-r border-cool-grey/20 bg-gold/10 p-5">
+              <p className="text-xs font-semibold uppercase tracking-widest text-terracotta">
+                Student worksheet
+              </p>
+              <p className="mt-2">
+                <Link href={`/materials/${ws.slug}`} className="font-semibold text-navy hover:underline">
+                  {ws.title} →
+                </Link>
+                {ws.summary && <span className="text-sm text-cool-grey"> &mdash; {ws.summary}</span>}
+              </p>
+              <p className="mt-2 text-sm text-cool-grey">
+                {m.worksheet.note ?? "The printable version is included in this component's downloadable workbook."}
+              </p>
+            </section>
+          );
+        })()}
+
       {/* Resources for this activity — surfaced at the top so educators do not have to go digging */}
       {m.type !== "resource" &&
         (() => {

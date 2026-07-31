@@ -1,0 +1,106 @@
+# Student worksheet for cb-mv-writing-about-myself. A thin, visual-first resource — the "Writing a little
+# about myself" page from the downloadable Student My Voice book (workbook). One or two scaffolded lines
+# to copy/complete a personal sentence, with an oral/drawing alternative for those not yet writing.
+# Touches home/family/loss, so it carries a Sensitivity item. Objective 2.
+id: cb-mv-writing-about-myself-worksheet
+slug: cb-mv-writing-about-myself-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "The writing a little about myself page"
+summary: >-
+  Your page for putting a few of your own words on paper — one or two scaffolded lines to copy and
+  complete a personal sentence, with a full drawing-and-saying route for anyone not yet ready to write.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- The writing a little about myself page from the My Voice book, and something to write or trace with; a finger in sand or dust works where pencils are scarce.
+- The learner's own picture-words from earlier in the unit, so they copy and complete words that are already theirs.
+- "Sensitivity: writing a place or a family word can touch loss and separation. The page always offers lighter, everyday words — a colour, a food, a thing you like — and drawing and saying a word instead is a full and equal way to use it. No one has to write anything painful."
+facilitationNotes: |
+  This is the paper side of cb-mv-writing-about-myself — a place to copy a few true words and, only for
+  those ready, complete one simple sentence. Recognition and copying come before the blank space; the
+  drawing-and-saying line is a full way to use the page, not a lesser one. Never make the writing the
+  gate to taking part. The printable page lives in the Student My Voice book (workbook) as the "Writing a
+  little about myself" page.
+educatorContent: |
+  ## How to use the writing a little about myself page
+
+  Use this page with cb-mv-writing-about-myself, after learners have chosen and said their words aloud.
+  It is deliberately small:
+
+  - A space to copy a few of the learner's own words — their name, a place, a thing they like — traced or
+    copied from their earlier picture-words, as many times as they wish.
+  - One or two scaffolded lines with a frame to complete — for example "I am from ___" — printed large
+    and simple with a picture cue, for learners ready to try a whole sentence. Keep it to one sentence and
+    keep it optional.
+  - A drawing box beside the lines: a learner not yet writing draws the word and says it aloud instead,
+    and has used the page fully.
+
+  Help with the one new word, a capital, or an end mark only as it arises, and never at the cost of a
+  learner's willingness to try.
+
+  It is incorporated into the downloadable Student My Voice book (workbook), as the "Writing a little about myself" page.
+learnerContent: |
+  ## Your writing a little about myself page
+
+  This page is for putting a few of your own words onto paper. Any amount is real writing.
+
+  - Copy your words. In the space at the top, copy a few of your own words — your name, a place, a thing
+    you like. Trace them or copy them slowly, as many times as you want.
+  - Complete a sentence, if you are ready. There are one or two lines with a start already given, like "I
+    am from ___". Copy the line and add your own word at the end to make it true for you. This part is a
+    stretch, not something everyone must do.
+  - Or draw and say. If you are not writing yet, draw your word in the box and say it out loud. That is a
+    full way to use this page — your words count the same.
+
+  You keep this page in your My Voice book, and your words become part of your name card later.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Putting even a few of your own words onto a page you keep is a durable act of self-representation: it
+    can be shown and built on. For a learner who has never written, copying and completing their own words
+    in English is the first turn of the key toward the forms, applications, and study that further
+    pathways require.
+principlesForegrounded:
+- builds-on-identities
+- safe-spaces
+- recognise-communicate-growth
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    Learners copy and complete words that are already theirs — their name, their place, their likes — so
+    the writing on the page is anchored in the learner's own identity from the first mark.
+- principle: safe-spaces
+  how: >-
+    An equal drawing-and-saying route, copying before composing, a single optional sentence, and lighter
+    everyday words always on offer guard against the shame that writing can carry, so it feels safe to try
+    on the page.
+- principle: recognise-communicate-growth
+  how: >-
+    Seeing their own words appear on a page kept in the My Voice book lets learners see and name a concrete
+    gain — from no writing to a few true words that are theirs.
+competencyCodes:
+- FLC3
+- FUS1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Copying and completing true words about oneself, and for some a first simple sentence, on a page the
+    learner keeps is the ground floor of communicating personal information in written English.
+- code: FUS1
+  how: >-
+    Choosing which of their own words to write asks learners to reflect on and represent who they are and
+    what matters to them, and to keep it.
+objectiveIds:
+- efi-my-voice--o2
+relatedSlugs:
+- cb-mv-writing-about-myself
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-writing-about-myself, incorporated into the CB My Voice downloadable workbook.

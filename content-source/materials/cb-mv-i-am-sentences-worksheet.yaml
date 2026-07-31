@@ -1,0 +1,108 @@
+# Student worksheet for cb-mv-i-am-sentences. A thin resource: the learner-facing page the activity refers
+# to, holding the sentence frames I am, I am from, I like, and I am good at, with space to complete or say.
+# "I am from" can touch displacement, so a lighter answer is always offered. Its printable form is one page
+# of the Student My Voice book (workbook).
+id: cb-mv-i-am-sentences-worksheet
+slug: cb-mv-i-am-sentences-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "I can say who I am"
+summary: >-
+  A page of sentence frames, I am, I am from, I like, and I am good at, with space beside each to draw or
+  place your own word and say the whole sentence aloud, filling them with what is true for you.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- The "I can say who I am" page in the learner's My Voice book, with the four frames shown large and simple as pictures-plus-a-few-words to point to rather than read.
+- The learner's picture-words from the "Words about me" page, so they have real words to put in the frames.
+- "Sensitivity: the I am from frame can touch displacement, loss, and separation, so let a learner name a smaller, safer place, or fill the frame with a colour, a food, or a thing they like instead; no one has to say where they are from, and the frame can stay open."
+facilitationNotes: |
+  This page holds the frames the activity teaches by ear, so the sentences a learner says aloud have a home
+  to keep them. Beside each frame the learner draws or places their own picture-word, then points to it and
+  says the whole sentence. The frames are pictures to point at, not text to read. Keep the I am from frame
+  open, a colour, a food, or a smaller place is a full answer. It is one page of the downloadable Student My
+  Voice book, and a learner who can say these sentences aloud has crossed a real line into English.
+educatorContent: |
+  ## Using the "I can say who I am" page
+
+  Use this page with cb-mv-i-am-sentences, once the frames have been said aloud. It shows four frames, I am,
+  I am from, I like, and I am good at, each large and simple with a space beside it. A learner fills the
+  space with their own picture-word, drawn or placed from the "Words about me" page, then points to it and
+  says the whole sentence, I am, and their name; I like, and points to their picture of rice. Keep it spoken
+  first, the point is the sentence said aloud, and the drawing is only there to hold it. Offer the lighter
+  road openly on the I am from frame, you can say a colour, a food, or a place you choose, so taking the easy
+  option never feels like failing, and let the frame stay open if it would hurt. Welcome bridges to how I am
+  is said in a language the learner already speaks.
+
+  This page is incorporated into the downloadable Student My Voice book (workbook), as the "I can say who I
+  am" sentence-frames page.
+learnerContent: |
+  ## Your I can say who I am page
+
+  This page holds your first whole sentences in English. You fill each one with your own word and say it out
+  loud. The frames are pictures to point at, not words to read.
+
+  The four frames are:
+
+  - I am, and your name.
+  - I am from, and a place that matters to you. You can say a smaller place, or a colour or food you like, or leave it open.
+  - I like, and something you like. Point to your picture and say the whole sentence.
+  - I am good at, and something you can do well.
+
+  Draw or place your word beside each frame, then say the whole sentence aloud. These sentences are yours.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
+  how: >-
+    Saying I am, I am from, I like, and I am good at out loud is the moment a beginner stops being limited to
+    single words and can represent themselves in English on their own terms. Because the learner fills each
+    frame with what is true for them and can always choose a lighter word, the page gives them power over how
+    they are seen, and being able to state who you are is the ground that speaking up and every later choice
+    stands on.
+principlesForegrounded:
+- builds-on-identities
+- safe-spaces
+- lifeworthy-competencies
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    Every frame is filled with the learner's own picture-words and their own name, and bridges to how I am is
+    said in Rohingya, Chittagonian, Burmese, or Arabic are invited in, so the pattern is practised on the
+    learner's own life, not on abstract examples.
+- principle: safe-spaces
+  how: >-
+    The I am from frame can be filled with a lighter, everyday word or left open when where I am from would
+    hurt, and the frames are pointed at and said rather than read and marked, so a learner completes them
+    without fear of failing.
+- principle: lifeworthy-competencies
+  how: >-
+    Building a whole sentence from a subject, the verb to be, and a word of your own is the structural
+    foundation of all later speaking and writing, a pattern a learner reuses in every conversation for the
+    rest of their life.
+competencyCodes:
+- FLC3
+- FUS1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Completing and saying clear, complete sentences with the verb to be is the means by which learners begin
+    to communicate basic personal information, their name, where they are from, and what they like, so as to
+    be understood.
+- code: FUS1
+  how: >-
+    The sentences a learner fills are statements of their own identity, so putting the frames into their own
+    words doubles as naming who they are, where they are from, and what matters to them.
+objectiveIds:
+- efi-my-voice--o2
+relatedSlugs:
+- cb-mv-i-am-sentences
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-i-am-sentences, incorporated into the CB My Voice downloadable workbook as
+  the "I can say who I am" sentence-frames page.

@@ -1,0 +1,95 @@
+# Student worksheet for cb-mv-key-sounds-and-games. A thin resource: the learner-facing grid the activity
+# refers to, where a learner records each sound they own as a picture, the English word, and their own word.
+# It has no download of its own; its printable form is one page of the Student My Voice book (workbook).
+id: cb-mv-key-sounds-and-games-worksheet
+slug: cb-mv-key-sounds-and-games-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "My sounds and words"
+summary: >-
+  A grid of boxes where, for each sound you own, you draw a thing, write or trace its English word, and
+  add your own word beside it, so a page of sounds grows as your ear grows.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- The "My sounds and words" grid in the learner's My Voice book, and something to draw with; writing is welcome but never required.
+- Picture cards, drawn pictures, or small everyday objects whose names carry the target sounds, to spark a picture and a word to copy from.
+facilitationNotes: |
+  This sheet catches on paper what the sound games do by ear. After a learner owns a sound in play, they
+  fill one box here, drawing the thing, then adding the English word and their own word only if they are
+  ready. Keep writing optional, the drawing is the record. It is one page of the downloadable Student My
+  Voice book, added to a sound or two at a time across many sessions, so a learner can look back and see
+  how many sounds their ear now holds.
+educatorContent: |
+  ## Using the "My sounds and words" grid
+
+  Reach for this sheet after a sound has been played with and heard clearly in cb-mv-key-sounds-and-games,
+  not before. For each box, the learner draws a small picture of a word that carries the sound, then, if
+  ready, copies or traces the English word and adds a word of their own beside it, from a language they
+  already speak or an English word that matters to them. The drawing alone is a complete box; writing is
+  always optional. Circulate and let learners say each sound and word aloud as they fill a box, so the ear
+  and the mouth stay joined to the mark on the page. Return to the grid across sessions so it grows as a
+  visible record.
+
+  This sheet is incorporated into the downloadable Student My Voice book (workbook), as the "My sounds and
+  words" grid.
+learnerContent: |
+  ## Your sounds and words page
+
+  This is your own page of the sounds of English. You fill one box for each sound you have learned, at your
+  own pace, and you keep it in your My Voice book. You do not have to read or write to use it.
+
+  For each box:
+
+  - Draw the thing. Draw a small picture of a word with that sound, a cat, the sun, a pot. The picture is the meaning.
+  - Add the English word. Copy or trace the English word if you can. If you are not ready to write, the picture is enough.
+  - Add your own word. Beside it, put a word of your own with the same sound, from a language you speak or an English word you love. Draw it or say it aloud.
+
+  Fill a new box each time you own a new sound. Look back often, and see how many sounds your page now holds.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Hearing the sounds of English and holding a record of them is the ground floor of reading, which is the
+    gateway to further study, work, and dealing with the written world alone. A grid the learner fills and
+    keeps in their own pictures and words turns the sounds they catch by ear into something they own and can
+    go on growing without a facilitator present.
+principlesForegrounded:
+- builds-on-identities
+- lifeworthy-competencies
+- recognise-communicate-growth
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The own-word box hangs each new English sound on a word the learner already carries in Rohingya,
+    Chittagonian, Burmese, or Arabic, and every picture is theirs to choose, so the page fills with language
+    that is meaningful to them.
+- principle: lifeworthy-competencies
+  how: >-
+    A record of the sounds a learner can hear supports the decoding and clear speech reused in every later
+    session and beyond the classroom, pared here to a set a beginner can actually own by ear.
+- principle: recognise-communicate-growth
+  how: >-
+    Because the same grid is added to across many sessions, a learner can look back and count the sounds they
+    now hold, a plain and visible record of their own progress kept in their own book.
+competencyCodes:
+- FLC3
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Recording each owned sound as a picture, the English word, and the learner's own word supports the
+    accurate hearing and pronunciation that let a learner read, write, and be understood, begun by ear before
+    reading is possible.
+objectiveIds:
+- efi-my-voice--o1
+relatedSlugs:
+- cb-mv-key-sounds-and-games
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-key-sounds-and-games, incorporated into the CB My Voice downloadable
+  workbook as the "My sounds and words" grid.

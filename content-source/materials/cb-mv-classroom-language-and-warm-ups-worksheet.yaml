@@ -1,0 +1,83 @@
+# Thin student worksheet (resource) paired with the cb-mv-classroom-language-and-warm-ups activity. It is the
+# learner-facing picture sheet for the everyday spoken English of the room. Its printable version is compiled
+# into the downloadable Student My Voice book (workbook) as the "Our classroom words" picture sheet. Objective 1.
+id: cb-mv-classroom-language-and-warm-ups-worksheet
+slug: cb-mv-classroom-language-and-warm-ups-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: 'The "Our classroom words" picture sheet'
+summary: >-
+  A picture sheet for the everyday English words of the room — hello, thank you, please, again, I don't
+  understand — that learners point to and say, so the spoken phrases have a picture to jog the memory.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- One "Our classroom words" picture sheet for each learner, kept in their My Voice book, with a simple picture for each everyday phrase (a waving hand for hello, and so on).
+- Your own fixed gesture for each phrase, so the same action always carries the same words when learners point and say.
+facilitationNotes: >-
+  The phrases live in voice and gesture, not on paper — this sheet is only a picture to jog the memory,
+  so learners can point to a phrase and say it, or use it to ask for help when they are lost. Never let
+  the sheet turn speaking into a reading task. It is part of the downloadable Student My Voice book
+  (workbook), so no separate download is needed.
+educatorContent: |
+  ## Using the "Our classroom words" picture sheet
+
+  This is the learner-facing sheet for the cb-mv-classroom-language-and-warm-ups activity. Each picture
+  stands for an everyday spoken phrase of the room — hello, thank you, please, again, I don't understand.
+  Pair each picture with the same fixed gesture you always use, and have learners point to a picture and
+  say the phrase aloud. The sheet is a memory jogger for phrases that live in voice and gesture, and a
+  place a learner can point to ask for help when they cannot yet find the words. Keep the emphasis on
+  saying, not reading.
+
+  This sheet is incorporated into the downloadable Student My Voice book (workbook), as the "Our
+  classroom words" picture sheet.
+learnerContent: |
+  ## Your classroom words sheet
+
+  This sheet holds pictures for the everyday English words we use in this room. You do not have to read
+  them — the picture tells you which one it is.
+
+  - Look at each picture and say the phrase out loud, with the action your facilitator shows you.
+  - A waving hand is hello. Other pictures show thank you, please, again, and I don't understand.
+  - When you are lost, you can point to "again" or "I don't understand" and say it, so you are never stuck.
+  - Keep this sheet in your My Voice book so the words are always there to point to and practise.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Having a picture to point to for "again, please" or "I don't understand" lets a learner take charge
+    of their own understanding rather than sit lost and silent — a small, sure way to ask for what they
+    need in a new language.
+principlesForegrounded:
+- safe-spaces
+- builds-on-identities
+principleAlignment:
+- principle: safe-spaces
+  how: >-
+    The sheet makes the help phrases easy to reach and use, so asking for clarification is welcomed and
+    ordinary rather than exposing, which is what lets a learner who fears getting it wrong begin to speak.
+- principle: builds-on-identities
+  how: >-
+    Each pictured phrase can sit beside the same greeting in a language the learner already speaks, so
+    their existing languages are honoured alongside the new English words rather than left at the door.
+competencyCodes:
+- FLC3
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Pointing to and saying the everyday phrases for greeting, thanking, and asking for help builds the
+    foundational communication skills of the room and the confidence to use English aloud, moving learners
+    from silence toward speaking.
+objectiveIds:
+- efi-my-voice--o1
+relatedSlugs:
+- cb-mv-classroom-language-and-warm-ups
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-classroom-language-and-warm-ups, incorporated into the CB My Voice
+  downloadable workbook as the "Our classroom words" picture sheet.

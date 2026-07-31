@@ -1,0 +1,85 @@
+# Thin student worksheet (resource) paired with the cb-mv-my-voice-book activity. It is the learner-facing
+# first page of the book — where the learner puts their traced name and a drawing of themselves. Its printable
+# version is compiled into the downloadable Student My Voice book (workbook) as the cover / "This book belongs
+# to" and "Draw yourself" page. Objective 1.
+id: cb-mv-my-voice-book-worksheet
+slug: cb-mv-my-voice-book-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: 'The "This book belongs to" page'
+summary: >-
+  The cover page of the My Voice book, where the learner traces their own name and draws themselves — the
+  first page of the book they grow all unit, and their mark that it is theirs.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- The first page of the My Voice book, with a "This book belongs to" space to trace a name and a box to draw yourself.
+- Something to draw and trace with, and each learner's name written large and clear to trace over if they cannot yet write it.
+facilitationNotes: >-
+  This is the page that makes the book the learner's own, so let it matter — for many it is the first
+  book they have ever owned. Help them trace their name and draw themselves with no rush and no audience,
+  and praise the effort, not the neatness. It is the front page of the downloadable Student My Voice book
+  (workbook), so no separate download is needed.
+educatorContent: |
+  ## Using the "This book belongs to" page
+
+  This is the learner-facing cover page for the cb-mv-my-voice-book activity. Help each learner set the
+  book up as theirs — trace their name in the "This book belongs to" space (over a large, clear model if
+  they cannot yet write it) and draw themselves in the box. For many this is the first book they have
+  owned and the first time they have written their name, so give it warmth and time, help quietly, and
+  praise the effort rather than the neatness. This page anchors the whole book they grow across the unit.
+
+  This page is incorporated into the downloadable Student My Voice book (workbook), as the cover /
+  "This book belongs to" and "Draw yourself" page.
+learnerContent: |
+  ## The first page of your book
+
+  This is the front of your My Voice book. It is the page that shows the book is yours.
+
+  - Trace your name in the space that says "This book belongs to". If writing is new to you, trace over the name your facilitator has written for you.
+  - Draw yourself in the box. It can be as simple as you like — this is you.
+  - Add a colour, a pattern, or a mark of your own so everyone knows this book belongs to you.
+  - This is where your book begins. You will fill the pages after it with your own words and sounds all unit long.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Owning and marking a personal book of English — beginning from their own name and their own drawing
+    of themselves — turns learning from something done to a learner into a tool they make and keep, the
+    kind of record they can go on building from toward the reading and writing their next steps ask for.
+principlesForegrounded:
+- builds-on-identities
+- recognise-communicate-growth
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The book begins from the learner's own name and their own drawing of themselves, so their English is
+    built outward from who they are rather than from a page handed down.
+- principle: recognise-communicate-growth
+  how: >-
+    As the first page of a book grown across the whole unit, it is the starting point learners turn back
+    to later to see how much they have collected and how far they have come.
+competencyCodes:
+- FLC3
+- FUS1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Tracing one's own name and setting up a personal record of sounds and words supports the emerging
+    handwriting and print awareness that reading and writing in English are built from.
+- code: FUS1
+  how: >-
+    Making the book their own, from their name and their own self-drawing, develops a learner's sense of
+    themselves as someone whose learning is theirs to own and visibly grow.
+objectiveIds:
+- efi-my-voice--o1
+relatedSlugs:
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-my-voice-book, incorporated into the CB My Voice downloadable workbook
+  as the cover / "This book belongs to" and "Draw yourself" page.

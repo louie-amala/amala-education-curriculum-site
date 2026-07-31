@@ -1,0 +1,85 @@
+# Thin student worksheet (resource) paired with the cb-mv-i-can-checklist activity. It is the learner-facing
+# sheet the activity marks near the start of the unit and again at the end. Its printable version is compiled
+# into the downloadable Student My Voice book (workbook) as the "I can..." self-check page. Objective 1.
+id: cb-mv-i-can-checklist-worksheet
+slug: cb-mv-i-can-checklist-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: 'The "I can..." picture sheet'
+summary: >-
+  A picture self-check sheet with a row of "I can..." pictures and three marks to circle for each one
+  (yes, a-little, not-yet) — marked once at the start of the unit and again at the end.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- One "I can..." picture sheet for each learner, kept in their My Voice book, with a simple image for each thing they are learning to do and three marks beside it to circle.
+- Something to mark with, and an agreed set of marks the whole group knows for yes, a-little, and not-yet.
+facilitationNotes: >-
+  Read each "I can..." picture aloud in the learners' language and let everyone circle their own mark
+  privately at the same time, so it stays a low-stakes self-check and never a test. The power is in
+  marking it twice — near the start, then again at the end beside the first mark — so learners can see
+  their own growth. This sheet is part of the downloadable Student My Voice book (workbook), so no
+  separate download is needed.
+educatorContent: |
+  ## Using the "I can..." picture sheet
+
+  This is the learner-facing sheet for the cb-mv-i-can-checklist activity. Say each "I can..." picture
+  aloud in the learners' language, give a quick concrete example of it, and let every learner circle
+  their own mark at the same time, privately. Frame the not-yet mark warmly as expected and useful. Mark
+  it near the start of the unit, keep it safe in the My Voice book, then bring it out at the end and mark
+  again beside the first marks so each learner can see for themselves what moved. It is a reflection tool,
+  never a score to collect or compare.
+
+  This sheet is incorporated into the downloadable Student My Voice book (workbook), as the "I can..."
+  self-check page.
+learnerContent: |
+  ## Your "I can..." sheet
+
+  This sheet is where you show how sure you feel about the things you are learning to do in English. You
+  do not read or write anything — you look at the pictures and circle a mark.
+
+  - Look at each little picture. Your facilitator will say what it means out loud.
+  - For each one, circle how sure you feel right now — yes I can, a-little, or not-yet.
+  - No one sees your marks but you. Not-yet is a fine mark to make.
+  - Keep this sheet in your My Voice book. At the end of the unit you will mark it again, next to your first marks, and see how much you have grown.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Marking their own learning in their own picture-marks, and seeing growth they made themselves, puts
+    a learner in charge of judging their own progress rather than waiting to be judged — quiet power over
+    how they see themselves as learners.
+principlesForegrounded:
+- recognise-communicate-growth
+- safe-spaces
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: >-
+    The sheet exists so learners can recognise and name their own growth in picture-based marks — by
+    circling the same "I can..." pictures at the start and the end, they see for themselves exactly what
+    changed.
+- principle: safe-spaces
+  how: >-
+    Marks are private, low-stakes, and framed as reflection rather than a test, with not-yet named as
+    expected and useful, so a learner carrying shame about school can take part without exposure.
+competencyCodes:
+- FUS1
+competencyDevelopment:
+- code: FUS1
+  how: >-
+    Circling what they can and cannot yet do, and comparing the two markings across the unit, is direct
+    practice in self-awareness — the evidence a learner can look at their own learning honestly and see
+    themselves as changing and capable of more.
+objectiveIds:
+- efi-my-voice--o1
+relatedSlugs:
+- cb-mv-i-can-checklist
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-i-can-checklist, incorporated into the CB My Voice downloadable
+  workbook as the "I can..." self-check page.

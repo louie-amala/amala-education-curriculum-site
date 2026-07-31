@@ -165,6 +165,9 @@ relatedSlugs:
 - cb-mv-key-sounds-and-games
 - cb-mv-writing-my-name
 - cb-mv-my-voice-book
+worksheet:
+  slug: cb-mv-alphabet-and-first-sounds-worksheet
+  note: Included in the downloadable workbook as the My name page.
 sourceRefs:
 - efi-my-voice.yaml
 - efi-mv-alphabet-and-first-sounds.yaml

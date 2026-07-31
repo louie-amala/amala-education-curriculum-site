@@ -1,0 +1,81 @@
+# Thin student worksheet (resource) paired with the cb-mv-alphabet-and-first-sounds activity. It is the
+# learner-facing "My name" page — the learner's name written large to trace, and a box for the first
+# sound/letter of their name. Its printable version is compiled into the downloadable Student My Voice book
+# (workbook) as the "My name" page. Objective 1.
+id: cb-mv-alphabet-and-first-sounds-worksheet
+slug: cb-mv-alphabet-and-first-sounds-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: 'The "My name" page'
+summary: >-
+  A page with the learner's own name written large to trace over, and a box for the first sound or letter
+  of their name — their first sure foothold in written English, built from who they are.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- The "My name" page in the My Voice book, with the learner's name written large and clear to trace, and a box for the first sound or letter.
+- Something to trace with, and a finger in sand or dust as a way to practise the shapes when pencils are scarce.
+facilitationNotes: >-
+  Let the learner look at and point to their name before they trace it — recognition comes before
+  writing. For many this is the first time they write their own name, so go slow, help quietly, and
+  praise the effort rather than the neatness. It is part of the downloadable Student My Voice book
+  (workbook), so no separate download is needed.
+educatorContent: |
+  ## Using the "My name" page
+
+  This is the learner-facing sheet for the cb-mv-alphabet-and-first-sounds activity. The learner's name is
+  written large and clear for them to trace over, with a box for the first sound or letter of their name.
+  Let them first look at and point to their name and its first letter — recognition comes before
+  formation — then trace it as many times as they like, with a pencil or a finger in sand or dust. Say the
+  first sound aloud together as it goes in the box. For many this is the first time they write their own
+  name, so give it time, help quietly, and praise the effort, not the neatness.
+
+  This page is incorporated into the downloadable Student My Voice book (workbook), as the "My name" page.
+learnerContent: |
+  ## Your "My name" page
+
+  This page is about your own name — the first word you learn to read and write in English.
+
+  - Look at your name written large on the page. Point to it. Point to its very first letter.
+  - Trace over your name with your finger or a pencil, as many times as you like. There is no rush.
+  - Say the first sound of your name out loud, then put that first sound or letter in the box.
+  - This page is the anchor of your My Voice book. Everything else you collect is built out from your own name.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Recognising and tracing your own name, and finding the letter that carries its first sound, is the
+    first turn of the key that unlocks reading and writing — the gateway to further study, work, and
+    dealing with the written world on your own terms.
+principlesForegrounded:
+- builds-on-identities
+- safe-spaces
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The page starts from the learner's own name and its first sound, so the first written English they own
+    is hung on who they are rather than on an abstract letter drill.
+- principle: safe-spaces
+  how: >-
+    Recognition comes before formation and tracing is done with no audience and no demand for neatness, so
+    a learner who has never held a pencil can try safely, without shame.
+competencyCodes:
+- FLC3
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Recognising and tracing one's own name and linking its first sound to a letter is the ground floor of
+    reading and writing — the very start of being able to communicate in written English.
+objectiveIds:
+- efi-my-voice--o1
+relatedSlugs:
+- cb-mv-alphabet-and-first-sounds
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-alphabet-and-first-sounds, incorporated into the CB My Voice
+  downloadable workbook as the "My name" page.

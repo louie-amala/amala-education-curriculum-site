@@ -1,0 +1,105 @@
+# Student worksheet for cb-mv-words-about-me. A thin resource: the learner-facing page the activity refers
+# to, with four labelled draw boxes for words about the learner's own life. Home and family can touch
+# displacement, so a lighter focus is always offered. Its printable form is one page of the Student My Voice
+# book (workbook).
+id: cb-mv-words-about-me-worksheet
+slug: cb-mv-words-about-me-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Words about me"
+summary: >-
+  A page with four labelled draw boxes, my family, where I am from, things I like, and food I like, where you
+  draw a picture-word for each and say it aloud, choosing what is yours to share.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- The "Words about me" page in the learner's My Voice book, and something to draw with; the drawing is the word, so writing is never required.
+- Your own simple picture-words ready to draw and say first, so a learner sees what a picture-word is.
+- "Sensitivity: the my family and where I am from boxes can touch displacement, loss, and separation, so keep the lighter boxes, things I like and food I like, always open and always a full answer. Never ask a learner to draw a person or place that is gone, and let each learner decide what, if anything, to put in a box."
+facilitationNotes: |
+  This page gathers the words a learner needs to talk about themselves, as pictures they draw and say, never
+  as text to read. Lead with the light boxes, things I like and food I like, and only move toward family and
+  where I am from when the group is warm, always leaving the lighter boxes open as a full answer. An empty
+  box is fine, and a learner chooses what is theirs to share. It is one page of the downloadable Student My
+  Voice book, and the picture-words here become the raw material for the spoken sentences that follow.
+educatorContent: |
+  ## Using the "Words about me" page
+
+  Use this page with cb-mv-words-about-me. It has four labelled draw boxes, my family, where I am from,
+  things I like, and food I like. A learner draws a picture-word in each box they choose and says it aloud,
+  adding the Rohingya, Chittagonian, or Burmese word beside the English as a bridge if they wish. Start with
+  the light boxes and let the tender ones stay optional. Never press a learner to fill the family or the
+  where I am from box, and make plain that a food, a colour, or a thing they like is a full and good answer.
+  If a box opens grief, step back gently and follow the programme's step-back and referral guidance. The
+  drawings become the words a learner points to when they build spoken sentences later, so protect the
+  page and let it stay theirs.
+
+  This page is incorporated into the downloadable Student My Voice book (workbook), as the "Words about me"
+  page.
+learnerContent: |
+  ## Your words about me page
+
+  This page holds the words for talking about you. You draw a picture for each one and say it aloud. You do
+  not have to read or write, and you choose what to put here.
+
+  There are four boxes:
+
+  - My family. Draw the people who are yours, if you would like to. You can leave this box empty.
+  - Where I am from. Draw a place that matters to you. You can draw a smaller, easy place, or leave it empty.
+  - Things I like. Draw something you like, a game, a colour, an animal.
+  - Food I like. Draw a food you love.
+
+  Say each picture-word aloud. Any box can stay empty, and a happy, everyday word is always a good answer.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    The words to name who you are, what you like, where you feel at home, the people who are yours, are the
+    first tools for representing yourself rather than being spoken for. Because the learner chooses which
+    boxes to fill and can always work from safe, everyday ground, the page gives them power over how much of
+    themselves to share and how they are seen, in a setting where much else is decided for them.
+principlesForegrounded:
+- builds-on-identities
+- safe-spaces
+- lifeworthy-competencies
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    Every box is a word about the learner's own life, and Rohingya, Chittagonian, and Burmese words are
+    welcomed beside the English as the bridge that holds the meaning, so the vocabulary is built outward from
+    who the learner already is.
+- principle: safe-spaces
+  how: >-
+    The my family and where I am from boxes can open loss for a displaced learner, so the page protects, no
+    one draws a person or place that is gone, the lighter boxes are always open and always enough, and the
+    learner alone decides what to put down.
+- principle: lifeworthy-competencies
+  how: >-
+    The personal words a learner gathers here, family, home, and what they like, are among the most used
+    words they will ever have in English, reused in every later unit and across daily life.
+competencyCodes:
+- FLC3
+- FUS1
+competencyDevelopment:
+- code: FLC3
+  how: >-
+    Gathering the spoken vocabulary of personal identity as picture-words is the substance of beginning to
+    communicate about oneself in English, the raw material of the self-introductions that follow.
+- code: FUS1
+  how: >-
+    Choosing which boxes are true for them, and which to fill and share, asks learners to turn attention to
+    who they are and put their own identity into pictures and words, developing self-awareness.
+objectiveIds:
+- efi-my-voice--o1
+- efi-my-voice--o2
+relatedSlugs:
+- cb-mv-words-about-me
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-words-about-me, incorporated into the CB My Voice downloadable workbook as
+  the "Words about me" page.

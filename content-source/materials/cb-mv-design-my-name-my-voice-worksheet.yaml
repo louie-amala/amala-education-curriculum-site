@@ -1,0 +1,113 @@
+# Student worksheet for cb-mv-design-my-name-my-voice. A thin, visual-first resource — the "My Name, My
+# Voice" card template from the downloadable Student My Voice book (workbook). A bordered card area to put
+# your name big and draw/write what shows who you are. Identity/home/family can surface pain, so it
+# carries a Sensitivity item. Objective 3.
+id: cb-mv-design-my-name-my-voice-worksheet
+slug: cb-mv-design-my-name-my-voice-worksheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "The My Name, My Voice card template"
+summary: >-
+  Your card template — a bordered space to put your name big and bold in the middle and draw or write a
+  few things that show who you are, with everything on it entirely your own choice.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+materialsAndPreparation:
+- The My Name, My Voice card template from the My Voice book, and colours, pencils, or scraps to decorate with.
+- The learner's own name page and picture-words from earlier in the unit, so the card is built from work they already own.
+- "Sensitivity: identity, home, and family can surface pain here. You choose completely what to put on the card and what to keep private — a lighter, everyday focus (a colour, a food, a thing you like) is always welcome and always enough, and nothing personal is ever required."
+facilitationNotes: |
+  This is the template for the project card made in cb-mv-design-my-name-my-voice — a bordered card area
+  for a name written large and a few chosen picture-words. Ownership stays entirely with the learner:
+  they choose what goes on it and how much to reveal, and a light, everyday card is a complete success.
+  Keep your own example modest so no one feels theirs must be elaborate. The printable page lives in the
+  Student My Voice book (workbook) as the "My Name, My Voice" card template.
+educatorContent: |
+  ## How to use the My Name, My Voice card template
+
+  Use this template with cb-mv-design-my-name-my-voice. It is a frame for the learner to fill, not a form:
+
+  - A bordered card area with a large open space in the middle for the name, written or traced as big and
+    bold as the learner likes, and decorated.
+  - Room around the name for a few chosen picture-words, and one optional line for a single simple
+    sentence from a frame they know (I am from ___, I like ___), for learners who want it.
+  - Space and a border to decorate freely, so even a learner who writes very little makes something whole
+    and proud.
+
+  Say openly, before anyone starts, that they choose everything on the card, that private things stay
+  private, and that a lighter everyday card is worth just as much. Admire the decoration and the choices,
+  not the neatness of the letters.
+
+  It is incorporated into the downloadable Student My Voice book (workbook), as the "My Name, My Voice" card template.
+learnerContent: |
+  ## Your My Name, My Voice card template
+
+  This is the card that shows who you are. You choose everything that goes on it.
+
+  - Your name, big. In the middle there is a space for your name. Write it or trace it as big and bold as
+    you like, and decorate it with your colours and patterns.
+  - A few things about you. Around your name, draw or write a few picture-words that show who you are — a
+    thing you like, a colour, a food. Just two or three is a whole card.
+  - One sentence, if you wish. There is one line for a sentence like "I like ___", only if you want it.
+    Your name and a few words are already enough.
+
+  You choose what to show and what to keep just for yourself. A light, everyday card is always welcome.
+  You keep this card in your My Voice book.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
+  - contribution-to-community
+  how: >-
+    Choosing what represents you and shaping it into a card, in your own name, words, and colours, is a
+    real act of self-representation and voice: you decide how you are seen. Preparing the card to show
+    others is a way of contributing your story to your community, while keeping full control of what stays
+    private.
+principlesForegrounded:
+- builds-on-identities
+- authentic-challenges
+- safe-spaces
+- recognise-communicate-growth
+principleAlignment:
+- principle: builds-on-identities
+  how: >-
+    The whole card is the learner's own identity — the name, words, pictures, and colours they choose,
+    built from their own name page and picture-words — the clearest expression of building outward from
+    who the learner is.
+- principle: authentic-challenges
+  how: >-
+    The card is made for a real audience and a real purpose, to introduce oneself and be known at the
+    sharing, which is what gives filling in the template its meaning.
+- principle: safe-spaces
+  how: >-
+    Learners choose completely what to include, difficult history is never required, a lighter everyday
+    focus is always welcome, and a name and a few words is a whole card, so representing oneself on the
+    template feels safe.
+- principle: recognise-communicate-growth
+  how: >-
+    The card gathers the whole unit's learning into one visible, kept piece — the name they can now write,
+    the words they now have — letting learners see and name how far they have come.
+competencyCodes:
+- FUS1
+- FLC3
+competencyDevelopment:
+- code: FUS1
+  how: >-
+    Deciding what represents them and shaping it onto the template is sustained work of self-awareness —
+    the unit's main evidence of learners developing and choosing how to express their identity.
+- code: FLC3
+  how: >-
+    Writing a decorated name and a few true words, and perhaps one sentence, onto a card kept and shown is
+    direct practice in setting down who they are in English for a real audience.
+objectiveIds:
+- efi-my-voice--o3
+relatedSlugs:
+- cb-mv-design-my-name-my-voice
+- cb-mv-my-voice-book
+sourceRefs:
+- efi-my-voice.yaml
+provenanceNote: >-
+  The student worksheet for cb-mv-design-my-name-my-voice, incorporated into the CB My Voice downloadable workbook.
