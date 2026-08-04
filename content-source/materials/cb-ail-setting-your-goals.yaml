@@ -1,5 +1,5 @@
 # Contextualised, fully offline adaptation of ail-setting-your-goals (first half) for Learning Bridge+
-# (Cox's Bazar). Oral and visual first, ~60 min facilitated. Week 2, session 2.
+# (Cox's Bazar). Oral and visual first, ~60 min facilitated.
 id: cb-ail-setting-your-goals
 slug: cb-ail-setting-your-goals
 access: public
@@ -28,24 +28,26 @@ deliveryAdaptations:
   how: >-
     Weaker alone, since a learner tends to leave goals vague. The workbook page carries the drawing;
     ask them to say the goal aloud to a family member and check it against last session's tests.
-duration: "60 min facilitated, plus a 30 min independent task"
+duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task"
 grouping: "Individual drawing, then same-gender pairs; works with 10-35 learners"
 whatLearnersDo:
 - Choose one small learning goal that matters to you, using your Learner Profile.
 - Draw the thing you want to be able to do.
-- Say why this goal matters to you.
+- Say why this goal matters to you, and to the people you care about.
 - Say your goal to a partner and make it clearer.
 materialsAndPreparation:
 - Learners' Week 1 Learner Profile pages (strengths, areas to grow, how they learn best).
 - Your own honest example of a small learning goal and why it matters to you, to model first.
 - The student workbook (the goal page, with space to draw).
-- "Sensitivity: a goal can touch on hard things, family, marriage, leaving. Keep goals about the learner's own learning, and let anyone pass and only draw."
+- "Sensitivity: a goal can touch on hard things, family, marriage, leaving. A learning goal can still be for the people a learner cares about (to help my family, to teach a younger sibling); what stays constant is that it is about their own learning, something they can work on now, not a future they cannot control. Let anyone pass and only draw."
 facilitationNotes: |
   A clear goal is the difference between hoping to improve and steering your own learning. The one
   thing to get right is that the goal is the learner's own and genuinely matters to them: a goal set to
-  please you will not be pursued. Keep goals small, real, and about the learner's own learning, not
-  about a future they cannot control. Two clear goals a learner cares about beat a long list they
-  quietly abandon. Resist tidying their goal into your words.
+  please you will not be pursued. Keep goals small, real, and about the learner's own learning — which
+  can still be for the people they care about — rather than a far-off future they cannot control. Some
+  limits here are real and outside a learner's control, and that is not their failing: a goal is about
+  the learning they can steer. Two clear goals a learner cares about beat a long list they quietly
+  abandon. Resist tidying their goal into your words.
 steps:
 - title: "You choose what you learn"
   duration: "10 min"
@@ -68,7 +70,8 @@ steps:
     do, and why does it matter to you? Steer them to one real goal, not a long list.
   keyPrompts:
   - Looking at what you wanted to grow, what would you like to be able to do that you cannot yet?
-  - Why does this one matter to you?
+  - Why does this one matter to you, and to the people you care about?
+  - Who could you work on this goal with, or who might it help?
   watchOuts:
   - A learner writes a goal to please you; reassure them there is no right answer and a goal only works if they care about reaching it.
   adaptation: |
@@ -147,12 +150,12 @@ downloads:
 - label: My goal (student sheet)
   file: /downloads/agency-in-learning-my-goal.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
+  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-setting-your-goals.yaml
 provenanceNote: >-
   Contextualised, fully offline adaptation of the first half of ail-setting-your-goals (choosing and
   drafting a goal) for the Learning Bridge+ (Cox's Bazar) edition: oral and visual first, ~60 min
-  facilitated. Week 2, session 2 of the Agency in Learning unit. The milestones and first step are
+  facilitated in the Agency in Learning unit. The milestones and first step are
   carried by cb-ail-your-goal-steps. Linked to objective 2.

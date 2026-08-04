@@ -1,5 +1,5 @@
 # Contextualised, fully offline adaptation of ail-making-an-action-plan for Learning Bridge+ (Cox's Bazar).
-# Oral and visual first, ~60 min facilitated. Week 3, session 1.
+# Oral and visual first, ~60 min facilitated.
 id: cb-ail-making-an-action-plan
 slug: cb-ail-making-an-action-plan
 access: public
@@ -30,15 +30,17 @@ deliveryAdaptations:
     Workable but weaker: a learner alone tends to pick a step that is too large or forgets what it
     needs. The workbook picture-steps and the four questions (steps, order, by when, what it needs)
     carry it, but ask them to say their first step to a peer or mentor before they start it.
-duration: "60 min facilitated, plus a 30 min independent task"
+duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task"
 grouping: "Individual planning, then same-gender pairs; works with 10-35 learners"
 whatLearnersDo:
-- Choose one goal you already set, and draw the small steps that would reach it.
+- Bring out the step ladder you built for your goal, and lay the steps out to work with.
 - Put the step-pictures in order and point to the one that comes first.
 - Mark a by-when for your first step and say what it needs (a person, a thing, a place, or time).
+- "Draw an if–then for your first step: if the thing that usually stops you happens, then you will do this instead."
 - Show your first step to a partner, then say aloud the one step you will take and when.
 materialsAndPreparation:
-- Your own honest example of a real goal, three or four steps, and a first step with a by-when, to draw and model first.
+- Your own honest example of a real goal, three or four steps, a first step with a by-when, and an if–then, to draw and model first.
+- Learners' step ladder from "Your steps, and your first step", so the plan builds on the steps they already made rather than starting over.
 - The student workbook (a strip of empty boxes for step-pictures, and simple pictures for who or what a step needs).
 - Small stones, bottle caps, or scraps the learner can lay out and reorder as steps, so no writing is needed.
 - "Sensitivity: a goal can touch on family, work, or leaving the camp. Let learners keep the goal private, choose a simpler one, and never require anyone to say their reasons aloud."
@@ -50,15 +52,16 @@ facilitationNotes: |
   learner owns and can truly begin beats a tidy one they abandon. Help them name what the first step
   needs, so a missing thing is spotted now rather than becoming an excuse later.
 steps:
-- title: "Draw the steps that would reach your goal"
+- title: "Lay out the steps you already built"
   duration: "14-16 min"
   guidance: |
-    Draw your own goal first: say it aloud, then draw three or four small pictures of the steps that
-    reach it, one per box. Then give learners quiet time to draw the steps for their own goal. Say
-    aloud that each step should be a thing a person could actually do, not a wish, and that a few good
-    steps beat twenty. Circulate and ask, do not tell, what the very next doable thing would be.
+    Model with your own goal first: say it aloud and show its steps. Then have learners bring out the
+    step ladder they built in the goal-setting session and lay the pictures out, adding any step that is
+    missing rather than starting over. Say aloud that each step should be a thing a person could actually
+    do, not a wish, and that a few good steps beat twenty. Circulate and ask, do not tell, whether any
+    step is really the next doable thing.
   keyPrompts:
-  - What would actually have to happen for you to reach this goal?
+  - Looking at the ladder you built, is any step missing between where you are and your goal?
   - Is each picture a thing you could do, or is it still just a wish?
   - What is the smallest first thing that would move this forward?
   watchOuts:
@@ -82,17 +85,20 @@ steps:
   adaptation: |
     If there are no boxes, laying the stones or scraps in a row and swapping their order by hand shows
     the sequence just as well as writing numbers.
-- title: "Mark a by-when and say what the step needs"
+- title: "Mark a by-when, name what it needs, and draw your if–then"
   duration: "14-16 min"
   guidance: |
     Move from order to commitment. Ask each learner to mark a real by-when for their first step (point
     to a day on the workbook week-strip), and to say what it needs: a person to ask, a thing, a place,
     or a slice of time. Say aloud that naming needs now is how a learner spots a blocker before it
-    becomes an excuse. Keep the by-when close and honest, so the first step is done before you meet again.
+    becomes an excuse. Then have each learner draw an if–then: a picture of the thing that usually stops
+    them, an arrow, and a picture of the smaller thing they will do instead, so the plan already knows
+    what to do when the week goes wrong. Model your own if–then first. Keep the by-when close and honest,
+    so the first step is done before you meet again.
   keyPrompts:
   - By when will you have taken your first step, pointing to a real day?
   - "What do you need to take it: a person, a thing, or some time?"
-  - Is there anything that could get in the way, and how would you get around it?
+  - "Draw your if–then: if the thing that usually stops you happens, then what smaller thing will you do instead?"
   watchOuts:
   - A by-when is vague or far off, so nothing starts; pin it to a real day this week and shrink the step until it fits the time the learner honestly has.
   adaptation: |
@@ -177,5 +183,5 @@ sourceRefs:
 provenanceNote: >-
   Contextualised, fully offline adaptation of ail-making-an-action-plan for the Learning Bridge+ (Cox's
   Bazar) edition: oral and visual first, no reading or devices assumed, steps drawn and ordered with
-  stones or picture-boxes, ~60 min facilitated plus a short independent task. Week 3, session 1 of the
+  stones or picture-boxes, ~60 min facilitated plus a short independent task in the
   Agency in Learning unit. Linked to objective 3.

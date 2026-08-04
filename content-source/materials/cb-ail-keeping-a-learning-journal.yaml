@@ -1,5 +1,5 @@
 # Contextualised, fully offline adaptation of ail-keeping-a-learning-journal for Learning Bridge+ (Cox's Bazar).
-# Oral and visual first, ~60 min facilitated. Week 2, session 1.
+# Oral and visual first, ~60 min facilitated.
 id: cb-ail-keeping-a-learning-journal
 slug: cb-ail-keeping-a-learning-journal
 access: public
@@ -32,7 +32,7 @@ deliveryAdaptations:
     cannot be reminded. Tie the mark to a fixed moment (straight after each session, before leaving the room),
     keep it to one drawing, and arrange for the facilitator to glance at the book at the next session so the
     habit is witnessed early.
-duration: "60 min facilitated, plus a 20 min independent task done from the workbook"
+duration: "About 1.5 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 20 min independent task done from the workbook"
 grouping: "Individual setup with a live first mark, in same-gender groups; works with 10-35 learners"
 whatLearnersDo:
 - Set up a simple picture workbook you can find again and will actually keep marking.
@@ -168,5 +168,5 @@ provenanceNote: >-
   Contextualised, fully offline adaptation of ail-keeping-a-learning-journal for the Learning Bridge+ (Cox's
   Bazar) edition: the written journal becomes a visual picture workbook that non-literate learners draw and mark
   in, with the facilitator scribing a few words on request; no reading, writing, or devices assumed, ~60 min
-  facilitated with a short independent marking task. Week 2, session 1 of the Agency in Learning unit. Linked to
+  facilitated with a short independent marking task in the Agency in Learning unit. Linked to
   objective 4.

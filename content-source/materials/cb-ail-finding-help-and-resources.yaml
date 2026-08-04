@@ -1,5 +1,5 @@
 # Contextualised, fully offline adaptation of ail-finding-help-and-resources for Learning Bridge+ (Cox's Bazar).
-# Oral and visual first, ~60 min facilitated. Week 3, session 3.
+# Oral and visual first, ~60 min facilitated.
 id: cb-ail-finding-help-and-resources
 slug: cb-ail-finding-help-and-resources
 access: public
@@ -31,7 +31,7 @@ deliveryAdaptations:
     Workable but weaker, because a learner alone misses the peer pooling that surfaces unfamiliar help.
     The workbook prompts and the reachability sort carry it, but ask them to check their map with at
     least one other person, who will usually name a helper they had not thought of.
-duration: "60 min facilitated, plus a 30 min independent task"
+duration: "About 1.5 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task"
 grouping: "Individual mapping, then same-gender pairs or small groups; works with 10-35 learners"
 whatLearnersDo:
 - Hold one goal you are working towards in mind as the thing help must move forward.
@@ -175,7 +175,7 @@ downloads:
 - label: Who and what can help me (student sheet)
   file: /downloads/agency-in-learning-who-can-help.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
+  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-finding-help-and-resources.yaml
@@ -183,4 +183,4 @@ provenanceNote: >-
   Contextualised, fully offline adaptation of ail-finding-help-and-resources for the Learning Bridge+
   (Cox's Bazar) edition: oral and visual first, no reading or devices assumed, help mapped and sorted
   with stones and people-pictures, safeguarding and gender-safe reach foregrounded, ~60 min facilitated
-  plus a short independent task. Week 3, session 3 of the Agency in Learning unit. Linked to objective 3.
+  plus a short independent task in the Agency in Learning unit. Linked to objective 3.

@@ -1,5 +1,5 @@
 # Contextualised, fully offline adaptation of ail-seeking-and-using-feedback for Learning Bridge+ (Cox's Bazar).
-# Oral and visual first, ~60 min facilitated. Week 4, session 2.
+# Oral and visual first, ~60 min facilitated.
 id: cb-ail-seeking-and-using-feedback
 slug: cb-ail-seeking-and-using-feedback
 access: public
@@ -31,7 +31,7 @@ deliveryAdaptations:
     Weakest fit, because a learner alone cannot practise receiving advice in the moment. Give them the one-thing
     request and the keep, wait, leave sort as spoken habits, and pair them with a trusted peer or the facilitator
     at the next session to ask one real question and notice how they responded to the answer.
-duration: "60 min facilitated, plus a 20 min independent task done from the workbook"
+duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 20 min independent task done from the workbook"
 grouping: "Individual preparation, then same-gender pairs; works with 10-35 learners"
 whatLearnersDo:
 - Hear the difference between asking "is it good?" and asking about one specific thing.
@@ -164,7 +164,7 @@ downloads:
 - label: Asking for feedback (student sheet)
   file: /downloads/agency-in-learning-feedback.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
+  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-seeking-and-using-feedback.yaml
@@ -172,5 +172,5 @@ provenanceNote: >-
   Contextualised, fully offline adaptation of ail-seeking-and-using-feedback for the Learning Bridge+ (Cox's
   Bazar) edition: the written request and paper filter become a spoken one-thing ask and a keep, wait, leave sort
   done at three spots on the floor, with same-gender pairs and a strong safeguarding frame; no reading, writing,
-  or devices assumed, ~60 min facilitated with a short independent try-it task. Week 4, session 2 of the Agency in
+  or devices assumed, ~60 min facilitated with a short independent try-it task in the Agency in
   Learning unit. Linked to objective 4.

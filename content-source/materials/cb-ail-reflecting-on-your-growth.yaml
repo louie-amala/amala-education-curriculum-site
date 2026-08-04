@@ -1,5 +1,5 @@
 # Contextualised, fully offline adaptation of ail-reflecting-on-your-growth for Learning Bridge+ (Cox's Bazar).
-# Oral and visual first, ~60 min facilitated. Week 6, session 3.
+# Oral and visual first, ~60 min facilitated.
 id: cb-ail-reflecting-on-your-growth
 slug: cb-ail-reflecting-on-your-growth
 access: public
@@ -31,7 +31,7 @@ deliveryAdaptations:
     Weakest fit, because learners alone tend to see only what they did not finish and there is no one to hold up
     the growth they discount. Give them the spoken prompts, ask them to turn through their actual workbook page
     by page, then show one piece of growth to a peer or the facilitator at the next session so it is witnessed.
-duration: "60 min facilitated, plus a 20 min independent task done from the workbook"
+duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 20 min independent task done from the workbook"
 grouping: "Individual looking-back, then same-gender pairs or small groups; works with 10-35 learners"
 whatLearnersDo:
 - Turn through your workbook and find your goal and the marks you have made.
@@ -156,7 +156,7 @@ downloads:
 - label: How I have grown (student sheet)
   file: /downloads/agency-in-learning-how-i-have-grown.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
+  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-reflecting-on-your-growth.yaml
@@ -165,5 +165,5 @@ provenanceNote: >-
   Bazar) edition: the written reflection becomes a page-by-page look back through the learner's picture workbook,
   with growth shown by speaking or holding up a drawing and the next step drawn onto a fresh page; a strong
   safeguarding frame is added for learners who had a hard period; no reading, writing, or devices assumed, ~60 min
-  facilitated with a short independent marking task. Week 6, session 3 of the Agency in Learning unit. Linked to
+  facilitated with a short independent marking task in the Agency in Learning unit. Linked to
   objective 4.

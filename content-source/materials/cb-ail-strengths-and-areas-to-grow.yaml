@@ -1,5 +1,5 @@
 # Contextualised, fully offline adaptation of ail-strengths-and-areas-to-grow for Learning Bridge+
-# (Cox's Bazar). Oral and visual first, ~60 min facilitated. Week 1, session 2.
+# (Cox's Bazar). Oral and visual first, ~60 min facilitated.
 id: cb-ail-strengths-and-areas-to-grow
 slug: cb-ail-strengths-and-areas-to-grow
 access: public
@@ -30,7 +30,7 @@ deliveryAdaptations:
     Weaker alone, because the learner loses the peer input that surfaces strengths they cannot see. The
     workbook page carries the strengths and areas; ask the learner to check their list with at least
     one person who knows them before treating it as settled.
-duration: "60 min facilitated, plus a 30 min independent task at home"
+duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task at home"
 grouping: "Individual reflection, then same-gender pairs or small groups; works with 10-35 learners"
 whatLearnersDo:
 - See what a strength as a learner is, and that an area to grow is normal, not a weakness to hide.
@@ -158,11 +158,11 @@ downloads:
 - label: Strengths and areas to grow (student sheet)
   file: /downloads/agency-in-learning-strengths.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
+  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-strengths-and-areas-to-grow.yaml
 provenanceNote: >-
   Contextualised, fully offline adaptation of ail-strengths-and-areas-to-grow for the Learning Bridge+
   (Cox's Bazar) edition: oral and visual first, no reading or devices assumed, ~60 min facilitated with
-  a short independent task. Week 1, session 2 of the Agency in Learning unit. Linked to objective 1.
+  a short independent task in the Agency in Learning unit. Linked to objective 1.

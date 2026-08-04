@@ -1,5 +1,5 @@
 # Contextualised, fully offline adaptation of ail-managing-time-and-priorities for Learning Bridge+ (Cox's Bazar).
-# Oral and visual first, ~60 min facilitated. Week 3, session 2.
+# Oral and visual first, ~60 min facilitated.
 id: cb-ail-managing-time-and-priorities
 slug: cb-ail-managing-time-and-priorities
 access: public
@@ -32,7 +32,7 @@ deliveryAdaptations:
     Workable but weaker: a learner alone tends to plan for an ideal week, not a real one. The workbook
     week-strip and the one small slot rule carry it, but ask them to say their slot to a peer or
     mentor, since another person spots the slot that will not survive a normal camp week.
-duration: "60 min facilitated, plus a 30 min independent task"
+duration: "About 1.5 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task"
 grouping: "Individual mapping, then same-gender pairs; works with 10-35 learners"
 whatLearnersDo:
 - Map a normal week in pictures, including family, work, caring and prayer, not just study.
@@ -89,13 +89,14 @@ steps:
   duration: "14-16 min"
   guidance: |
     Have learners choose the one next step towards their goal that actually fits the slot they
-    protected, not the biggest step they wish they could take. Then plan for the week going wrong: say
-    aloud, in advance, what they will drop or shrink if time runs short, so a hard week costs them
-    progress rather than their wellbeing or confidence. Finish by pairing learners to test each other's
-    plans in same-gender pairs.
+    protected, not the biggest step they wish they could take. Then plan for the week going wrong: this
+    is the same if–then they drew in their action plan — if the week gets hard, then they do the smaller
+    thing instead of giving up. Say aloud, in advance, what they will drop or shrink if time runs short,
+    so a hard week costs them progress rather than their wellbeing or confidence. Finish by pairing
+    learners to test each other's plans in same-gender pairs.
   keyPrompts:
   - What is one step towards your goal that genuinely fits the time you have protected?
-  - If this week gets hard, what will you do instead of giving up completely?
+  - "Your if–then for the week: if it gets hard, then what smaller thing will you do instead of giving up?"
   - What is the smallest version of this step that would still count as progress?
   watchOuts:
   - Learners treat a missed week as failure and stop; say clearly, in advance, that a smaller step, or picking the slot back up next week, is the plan working, not the plan breaking.
@@ -159,7 +160,7 @@ downloads:
 - label: My time and what matters (student sheet)
   file: /downloads/agency-in-learning-my-time.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
+  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-managing-time-and-priorities.yaml
@@ -167,4 +168,4 @@ provenanceNote: >-
   Contextualised, fully offline adaptation of ail-managing-time-and-priorities for the Learning Bridge+
   (Cox's Bazar) edition: oral and visual first, no reading or devices assumed, the week mapped as a
   picture-strip with stones for fixed duties and one protected slot, ~60 min facilitated plus a short
-  independent task. Week 3, session 2 of the Agency in Learning unit. Linked to objective 3.
+  independent task in the Agency in Learning unit. Linked to objective 3.

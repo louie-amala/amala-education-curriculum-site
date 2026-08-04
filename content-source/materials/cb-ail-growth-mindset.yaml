@@ -1,5 +1,5 @@
 # Contextualised, fully offline adaptation of ail-growth-mindset for Learning Bridge+ (Cox's Bazar).
-# Oral and visual first, ~60 min facilitated, no reading or devices assumed. Week 1, session 1.
+# Oral and visual first, ~60 min facilitated, no reading or devices assumed.
 id: cb-ail-growth-mindset
 slug: cb-ail-growth-mindset
 access: public
@@ -31,7 +31,7 @@ deliveryAdaptations:
     Weaker alone, because the learner misses hearing others describe their struggles, which is what
     normalises difficulty. If it must be independent, the workbook page carries the drawing and the
     "not yet" step, and the learner tells one person at home about a time they got better at something.
-duration: "60 min facilitated, plus a 30 min independent task at home"
+duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task at home"
 grouping: "Individual reflection, then same-gender pairs or small groups; works with 10-35 learners"
 whatLearnersDo:
 - See the difference between "I cannot do this" and "I cannot do this yet".
@@ -49,7 +49,10 @@ facilitationNotes: |
   of improving, not from being told to think positively. A growth mindset is not pretending everything
   is easy; it is treating difficulty as information about what to try next. Watch your own words too,
   praising effort and a good approach rather than being "clever", since learners read how you talk
-  about ability. Keep it honest: some things are genuinely hard, and that is the point.
+  about ability. Keep it honest: some things are genuinely hard, and that is the point. And some limits
+  here are real and outside a learner's control — the camp, what is available — which is never their
+  failing: this is about how they meet difficulty and what they can still grow, not a promise that
+  effort alone overcomes everything.
 steps:
 - title: "Tell 'I cannot' from 'I cannot yet'"
   duration: "10-12 min"
@@ -162,11 +165,11 @@ downloads:
 - label: You can grow (student sheet)
   file: /downloads/agency-in-learning-you-can-grow.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
+  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-growth-mindset.yaml
 provenanceNote: >-
   Contextualised, fully offline adaptation of ail-growth-mindset for the Learning Bridge+ (Cox's Bazar)
   edition: oral and visual first, no reading or devices assumed, ~60 min facilitated with a short
-  independent task. Week 1, session 1 of the Agency in Learning unit. Linked to objective 1.
+  independent task in the Agency in Learning unit. Linked to objective 1.

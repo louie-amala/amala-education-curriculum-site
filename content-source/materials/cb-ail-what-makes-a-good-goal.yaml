@@ -1,5 +1,5 @@
 # Contextualised, fully offline adaptation of ail-what-makes-a-good-goal for Learning Bridge+
-# (Cox's Bazar). Oral and visual first, ~60 min facilitated. Week 2, session 1.
+# (Cox's Bazar). Oral and visual first, ~60 min facilitated.
 id: cb-ail-what-makes-a-good-goal
 slug: cb-ail-what-makes-a-good-goal
 access: public
@@ -28,10 +28,10 @@ deliveryAdaptations:
   how: >-
     Weaker alone, since a learner has no one to check their verdicts. If independent, use the workbook
     picture-prompts of the tests and ask them to say one improved goal aloud to a family member.
-duration: "60 min facilitated, plus a 30 min independent task"
+duration: "About 1.5 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task"
 grouping: "Individual judging, then same-gender pairs or small groups; works with 10-35 learners"
 whatLearnersDo:
-- "Learn the tests of a good goal: small enough to reach, clear so you can tell when it is done, it matters to you, and it has a by-when."
+- "Learn the tests of a good goal: small enough to reach, clear so you can tell when it is done, it matters to you (and maybe to people you care about), and it has a by-when."
 - Judge spoken example goals with thumbs up or down, and say which test each one fails.
 - Fix a weak goal so it passes the tests.
 - Test one of your own rough goals and make it stronger.
@@ -50,7 +50,8 @@ steps:
   duration: "10-12 min"
   guidance: |
     Say the tests plainly, with the workbook picture for each: a good goal is small enough to reach,
-    clear so you can tell when it is done, it matters to you, and it has a by-when. Give one quick
+    clear so you can tell when it is done, it matters to you (and maybe to people you care about), and
+    it has a by-when. Give one quick
     spoken goal that passes all of them. Keep it short: learners understand the tests far better by
     judging goals in the next step than by hearing you explain.
   keyPrompts:
@@ -146,11 +147,11 @@ downloads:
 - label: Is my goal a good goal? (student sheet)
   file: /downloads/agency-in-learning-is-my-goal-good.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
+  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-what-makes-a-good-goal.yaml
 provenanceNote: >-
   Contextualised, fully offline adaptation of ail-what-makes-a-good-goal for the Learning Bridge+
   (Cox's Bazar) edition: oral and visual first, thumbs-based judging rather than written handouts,
-  ~60 min facilitated. Week 2, session 1 of the Agency in Learning unit. Linked to objective 2.
+  ~60 min facilitated in the Agency in Learning unit. Linked to objective 2.

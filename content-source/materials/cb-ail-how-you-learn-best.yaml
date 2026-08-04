@@ -1,5 +1,5 @@
 # Contextualised, fully offline adaptation of ail-how-you-learn-best for Learning Bridge+ (Cox's Bazar).
-# Oral and visual first, ~60 min facilitated. Week 1, session 3.
+# Oral and visual first, ~60 min facilitated.
 id: cb-ail-how-you-learn-best
 slug: cb-ail-how-you-learn-best
 access: public
@@ -30,7 +30,7 @@ deliveryAdaptations:
     Workable but weaker: a learner alone tends to give idealised study advice rather than the honest
     truth of how they learn. The workbook picture-clock and prompts carry it; ask them to test one
     finding against a real recent day before they trust it.
-duration: "60 min facilitated, plus a 40-60 min noticing task over two days"
+duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 40-60 min noticing task over two days"
 grouping: "Individual reflection, then same-gender pairs; works with 10-35 learners"
 whatLearnersDo:
 - Notice when and where you actually learn best, and when you struggle.
@@ -160,11 +160,11 @@ downloads:
 - label: How I learn best (student sheet)
   file: /downloads/agency-in-learning-how-i-learn-best.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
+  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-how-you-learn-best.yaml
 provenanceNote: >-
   Contextualised, fully offline adaptation of ail-how-you-learn-best for the Learning Bridge+ (Cox's
   Bazar) edition: oral and visual first, no reading or devices assumed, ~60 min facilitated with a short
-  noticing task. Week 1, session 3 of the Agency in Learning unit. Linked to objective 1.
+  noticing task in the Agency in Learning unit. Linked to objective 1.

@@ -1,6 +1,5 @@
 # Contextualised, fully offline activity for Learning Bridge+ (Cox's Bazar): the milestones-and-first-
 # step half of goal-setting, derived from ail-setting-your-goals. Oral and visual first, ~60 min.
-# Week 2, session 3.
 id: cb-ail-your-goal-steps
 slug: cb-ail-your-goal-steps
 access: public
@@ -29,7 +28,7 @@ deliveryAdaptations:
   how: >-
     Workable: the workbook ladder carries the steps. Ask the learner to say their first step to someone
     at home and take it before the next session, since a first step with no witness is easily dropped.
-duration: "60 min facilitated, plus taking the first step during the week"
+duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus taking the first step during the week"
 grouping: "Individual laddering, then same-gender pairs; works with 10-35 learners"
 whatLearnersDo:
 - See that a goal is easier when it is broken into small steps.
@@ -146,11 +145,11 @@ downloads:
 - label: My steps and first step (student sheet)
   file: /downloads/agency-in-learning-my-steps.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one each, or show it on a screen and use notebooks."
+  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-setting-your-goals.yaml
 provenanceNote: >-
   Contextualised, fully offline activity for the Learning Bridge+ (Cox's Bazar) edition, carrying the
   milestones-and-first-step half of ail-setting-your-goals so goal-setting fills a full week of three
-  ~60 min sessions. Oral and visual first. Week 2, session 3 of the Agency in Learning unit. Objective 2.
+  ~60 min sessions. Oral and visual first in the Agency in Learning unit. Objective 2.
