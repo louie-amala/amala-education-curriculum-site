@@ -1,0 +1,119 @@
+# Contextualised, fully offline FRAMING activity for the Research Project component of Learning Bridge+
+# (Cox's Bazar). The cohort is GIVEN the research question and makes it their own: unpack it in plain and
+# pictorial terms, break it into the three given sub-questions, and decide which parts are answered by
+# asking and looking (primary) and which by the supplied source pack. Frame the challenge phase
+# (objective 1). Oral and visual first; sentence frames; warm, hopeful tone.
+id: cb-rp-our-research-question
+slug: cb-rp-our-research-question
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Make our research question our own"
+summary: >-
+  The whole cohort is given one research question — "What happens to our hills without trees, and what
+  changes when trees and plants grow back?" — and makes it their own. They unpack what it is really asking,
+  break it into three sub-questions, and decide which parts they answer by asking and looking, and which by
+  the source pack.
+facilitationContext:
+- group
+primaryContext: group
+duration: "2 hours facilitated + 0.5 hour independent"
+grouping: "Whole group to unpack; pairs for the sub-questions"
+whatLearnersDo:
+- Meet the research question the whole cohort will investigate, shown big in words and pictures.
+- Unpack what it is really asking, in plain, pictorial terms, until everyone understands it.
+- Break it into three sub-questions — before and now; a bare hill in rain and hot sun; what roots, grass, and trees do for the soil and for us.
+- Decide which parts we answer by asking people and looking here (primary), and which the source pack will help with.
+- Capture the question and its three sub-questions, big on the wall and in every research book.
+materialsAndPreparation:
+- "The research question written and drawn big to show: \"What happens to our hills without trees, and what changes when trees and plants grow back?\""
+- Space to show the three sub-questions as pictures the group builds up together.
+- The "what we know / what we still need to find out" wall and the community map from the earlier activities, nearby.
+- Simple sentence frames on hand, such as "Before, …; now, …", for learners to lean on.
+facilitationNotes: >-
+  The one thing to get right: the question is given, but the framing work is real. The cohort does not
+  invent a question from nothing — one shared question keeps a single focus and suits this cohort — but
+  making it theirs is genuine research work: unpacking what it asks, breaking it into the three
+  sub-questions, and deciding what is answered by asking and looking versus by the source pack. Use
+  pictures and sentence frames throughout, and keep it hopeful — the last sub-question is about the hills
+  coming back. If a cohort adds a sub-question of its own, welcome it as long as it stays answerable here.
+steps:
+- title: "Our question, in plain words and pictures"
+  duration: "40 min"
+  guidance: >-
+    Show the research question big, in words and a picture. Unpack it together in plain, pictorial terms:
+    what does "without trees" look like, what does "grow back" look like. Do not rush — the whole group
+    should understand what the question is really asking before moving on.
+  keyPrompts:
+  - "What is this question really asking us to find out?"
+  - "What does a hill without trees look like? What does it look like when trees grow back?"
+- title: "Break it into three things to find out"
+  duration: "50 min"
+  guidance: >-
+    Build the three sub-questions together, as pictures: (1) what were our hills like before, and what
+    are they like now; (2) what happens to a bare hill when it rains and in the hot sun; (3) what do trees,
+    grass, and roots do for the soil and for us. Use the frame "Before, …; now, …" for the first. These
+    three are what the cohort will actually go and find out.
+  keyPrompts:
+  - "Before, our hills were …; now, they are …"
+  - "What happens to a bare hill in the heavy rain? In the hot sun?"
+  - "What do roots, grass, and trees do for the soil and for us?"
+- title: "Asking and looking, or the source pack?"
+  duration: "30 min"
+  guidance: >-
+    Go through the three sub-questions and decide, together, which parts we can answer by asking people
+    and looking around us here (primary), and which the supplied source pack will help with. This sets up
+    the next phase. Capture the question and its three sub-questions, big on the wall and in every research
+    book, in words and pictures.
+  keyPrompts:
+  - "Can we find this out by asking and looking here, or do we need the source pack?"
+  - "Who from our map could help us answer this one?"
+learnerContent: |
+  ## Make our research question our own
+
+  Our whole group shares one research question: what happens to our hills without trees, and what changes
+  when trees and plants grow back? We did not have to invent it — but we do make it our own. That means
+  understanding exactly what it asks, and turning it into the real things we will go and find out.
+
+  We break it into three smaller questions:
+
+  - Before, our hills were …; now, they are … (what changed?)
+  - What happens to a bare hill when the heavy rain comes, and in the hot sun?
+  - What do trees, grass, and roots do for the soil — and for us?
+
+  Then we decide, for each one, how we will find out: by asking people and looking around us here, or by
+  reading the source pack. We keep our question and our three sub-questions big on the wall and in every
+  research book, so we never lose sight of what we are trying to find out.
+worksheet:
+  slug: cb-rp-our-question-page
+  note: "In the research book (student workbook): the 'Our research question and our three sub-questions' page. Print one per learner."
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Taking a big question apart into the specific things you will go and find out, and deciding how to find
+    each one out, is how a researcher takes control of an inquiry — a way of thinking learners can turn on
+    any question that matters to their lives.
+principlesForegrounded: [authentic-challenges, builds-on-identities, collaboration]
+principleAlignment:
+- principle: authentic-challenges
+  how: The question is about the real hills the learners live on, and the sub-questions are things they can genuinely go and find out here.
+- principle: builds-on-identities
+  how: Learners unpack the question through what they already know and see on their own hills, using their own words and pictures.
+- principle: collaboration
+  how: The whole cohort unpacks the shared question and builds the sub-questions together, holding one common focus.
+competencyCodes: [FSI1, FPS3]
+competencyDevelopment:
+- code: FSI1
+  how: Owning and unpacking the given question and turning it into researchable sub-questions is the core framing move (objective 1).
+- code: FPS3
+  how: The sub-questions target the contributing factors — what a bare slope does in rain and heat, what roots and trees do for the soil.
+objectiveIds: [research-project--o1]
+relatedSlugs: [cb-rp-our-question-page, cb-rp-community-mapping, cb-rp-what-we-already-know]
+provenanceNote: >-
+  Authored framing activity for the Learning Bridge+ (Cox's Bazar) Research Project edition, from the
+  "Make our research question our own" block of the unit plan. The research question and its three
+  sub-questions are given; the framing work — unpacking them and deciding primary versus source pack — is
+  real and evidences objective 1. Fully offline, oral and visual first. Its printable page compiles into
+  the Research Project student workbook.

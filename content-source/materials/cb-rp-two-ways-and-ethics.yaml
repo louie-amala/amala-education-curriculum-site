@@ -1,0 +1,122 @@
+# Contextualised, fully offline ACTIVITY for the Research Project component of Learning Bridge+ (Cox's
+# Bazar). Learners meet the two ways a researcher finds things out — asking people and looking here
+# (primary), and the supplied source pack (secondary) — and then learn research ethics as the heart of
+# the work, practising the consent request aloud until it is natural. Plan and conduct research phase
+# (objective 2). Oral and visual first; safeguarding is central because learners will soon speak to
+# real community members.
+id: cb-rp-two-ways-and-ethics
+slug: cb-rp-two-ways-and-ethics
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Two ways to find out, and being a fair and safe researcher"
+summary: >-
+  Learners meet the two ways a researcher finds things out — asking people and looking around us here,
+  and studying what others have already found out in our source pack — and then learn how to do it
+  fairly and safely: ask before you ask, explain why, let people say no or stop, use no names, and put
+  no one at risk. They practise the consent request aloud until it feels natural.
+facilitationContext:
+- group
+primaryContext: group
+duration: "2 hours facilitated + 0.5 hour independent"
+grouping: "Whole group to introduce, then pairs to practise the consent request"
+whatLearnersDo:
+- Meet, with pictures, the two ways a researcher finds things out — asking and looking here (primary), and the supplied source pack (secondary).
+- "Learn the rules that keep everyone safe and treated fairly: ask first, explain why, let people stop, use no names, risk no one."
+- Practise saying the consent request aloud in pairs, in our own language, until it comes easily.
+- Talk through what to do if someone is upset, and who to tell — the referral routine.
+materialsAndPreparation:
+- "Two simple pictures or symbols: one for asking-and-looking-here, one for the source pack, to show the two ways side by side."
+- The community map made earlier in the course, to point to the real people and places learners might ask.
+- The "asking permission" reminder page from the research book (one per learner), and referral guidance to hand.
+- Step-back and referral guidance ready, in case practice touches something personal.
+facilitationNotes: >-
+  The one thing to get right: teach the ethics as the heart of the work, not a footnote at the end.
+  Learners are about to speak with real neighbours, so being fair and safe is not a rule bolted on — it
+  is what makes them researchers people can trust. Practise the consent request out loud, in the
+  learners' own language, until it is natural, so that when the moment comes it is already in their
+  mouths. Same-gender pairs where that is what keeps girls safe. Keep it warm: most people are glad to
+  be asked, and asking well is a gift you give them, not a hurdle.
+steps:
+- title: "Two ways a researcher finds out"
+  duration: "40 min"
+  guidance: >-
+    Show the two ways side by side, with pictures. One way is asking people and looking around us here —
+    what a neighbour remembers, what a bare slope looks like after rain. The other way is studying what
+    others have already found out, which for us lives in the supplied source pack. Point to the
+    community map: those are the real people and places the first way will take us to.
+  keyPrompts:
+  - "Which things about our hills can we find out by asking and looking here?"
+  - "Which things can our source pack help us with?"
+- title: "The rules that keep everyone safe and fair"
+  duration: "40 min"
+  guidance: >-
+    Teach the ethics simply and with feeling, one rule at a time, using little role-plays. Ask before
+    you ask. Explain why you are asking. Let people say no, or stop whenever they want. Never use
+    anyone's name. Never put anyone — the person you ask, or yourself — at risk to get an answer. Show a
+    good version and a poor version of the same moment and let learners spot the difference.
+  keyPrompts:
+  - "What could you say so a person knows they can stop any time?"
+  - "Why do we never write down or say the name of the person we asked?"
+  watchOuts:
+  - "Girls' safety comes first: agree same-gender pairs and safe places to gather where that is what keeps a learner safe."
+  - "If a learner or a person they ask becomes upset, step back gently and use the referral routine; getting the answer never comes first."
+- title: "Practise the consent request aloud"
+  duration: "40 min"
+  guidance: >-
+    In pairs, learners practise the consent request in their own language until it comes easily: may I
+    ask you some questions? It is for our group's project about our hills. You do not have to answer, and
+    you can stop any time. Swap roles, try it as a shy person, a busy person, someone who says no — and
+    practise accepting a no warmly. This is the routine they will carry into every gathering session.
+  keyPrompts:
+  - "How did it feel to ask? How did it feel to be asked?"
+  - "What will you say if the person says no?"
+learnerContent: |
+  ## Two ways to find out — and doing it fairly and safely
+
+  A researcher finds things out in two ways. One way is by asking people and looking around us here —
+  this is our own, first-hand finding out. The other way is by studying what other people have already
+  found out, which for us is our source pack.
+
+  When we ask people, we treat them with care. Every time, we:
+
+  - Ask first: "May I ask you some questions?"
+  - Say why we are asking.
+  - Let the person say no, or stop whenever they want.
+  - Use no names — we never say or write who told us.
+  - Keep everyone safe — we never put another person, or ourselves, at risk to get an answer.
+
+  Asking well is a gift, not a hurdle. Most people are glad to be asked. If anyone is upset, we stop,
+  and we tell our teacher.
+worksheet:
+  slug: cb-rp-asking-permission
+  note: "In the research book (student workbook): the 'Asking permission' reminder page — the consent words in our own language and the rules to keep. Print one per learner."
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Learners learn to gather knowledge from their own community with care and consent — treating
+    neighbours as people with a right to say no, and holding their own safety too. This is the ethical
+    ground of acting on a shared challenge without doing harm.
+principlesForegrounded: [responsible-action, safe-spaces, collaboration]
+principleAlignment:
+- principle: responsible-action
+  how: Consent, no names, and no one put at risk make research an action guided by care for others, not just a way to get an answer.
+- principle: safe-spaces
+  how: Same-gender pairs, the right to say no or stop, and a referral routine keep both learners and the people they ask safe.
+- principle: collaboration
+  how: Learners rehearse the consent request in pairs, giving and taking the role of asker and asked, before they meet the community.
+competencyCodes: [FSI1, FLC1]
+competencyDevelopment:
+- code: FSI1
+  how: Knowing the two ways a researcher finds things out — primary and secondary — is the plan behind conducting the investigation.
+- code: FLC1
+  how: Asking consent, protecting names, and risking no one is ethical action put into practice at the heart of the research.
+objectiveIds: [research-project--o2]
+relatedSlugs: [cb-rp-asking-permission, cb-rp-design-our-questions, cb-rp-go-and-gather, cb-rp-work-the-source-pack, cb-rp-our-community-map]
+provenanceNote: >-
+  Authored activity for the Learning Bridge+ (Cox's Bazar) Research Project edition. Introduces primary
+  and secondary research and teaches research ethics as the heart of the work, with the consent request
+  rehearsed aloud. Plan and conduct research phase (objective 2); fully offline, oral and visual first,
+  safeguarding central. Its printable reminder page compiles into the Research Project student workbook.

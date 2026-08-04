@@ -1,0 +1,124 @@
+# Contextualised, fully offline ACTIVITY for the Research Project component of Learning Bridge+ (Cox's
+# Bazar). Phase 5 "Communicate findings". Learners decide who most needs to hear what they found, and
+# choose a format that fits both the message and an oral, visual context — then plan what their output
+# will say and show and how it stands on the evidence. Oral and visual first; no single required output.
+id: cb-rp-choose-format-and-audience
+slug: cb-rp-choose-format-and-audience
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Choose our format and our audience"
+summary: >-
+  Learners decide who most needs to hear what they found — peers, families, the wider community, a camp
+  committee — and choose a format that fits both the message and an oral, visual context. They plan what
+  their output will say and show, and how it will stand on the evidence.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+duration: "1.5 hours facilitated + 1 hour independent"
+grouping: "Whole group to think it through, then small teams by audience or format"
+whatLearnersDo:
+- Decide who most needs to hear what we found, and why it should matter to them.
+- Choose a format that fits the message and works when spoken and shown — a poster, a talk with pictures, a role-play or story, a simple infographic.
+- Plan what the output will say and what it will show, and how each part stands on the evidence we gathered.
+- Agree a way to present that is safe for everyone, using no names of the people we spoke to.
+materialsAndPreparation:
+- The cohort's insight statements from the analysis phase, written or drawn big to see.
+- The evidence log, to check each part of the plan against what we actually found.
+- A few example formats to point to — a poster, a picture story, a short spoken talk with drawings.
+- The planning page from the research book (one per learner or per team).
+facilitationNotes: >-
+  The one thing to get right: match format to purpose and audience — there is no single required output.
+  Start from who we want to reach and what we want them to understand, then let the format follow from
+  that, not the other way round. Keep it oral and visual: whatever they choose must work when spoken and
+  shown, not only when read. Hold the honesty line early — the plan should show what we found AND its
+  limits, so no one plans to overclaim. And make it safe: no learner is pushed toward a way of presenting
+  that is unsafe for them, and no names of the people they spoke to go into any output.
+steps:
+- title: "Who most needs to hear this?"
+  duration: "30 min"
+  guidance: >-
+    Bring back our insight statements. Ask who most needs to hear what we found — our peers, our
+    families, the wider community, a camp committee — and why it should matter to them. Let learners
+    argue for different audiences; the choice shapes everything after it.
+  keyPrompts:
+  - "Who could do something with what we found?"
+  - "Why should this audience care about our hills?"
+  - "What is the one thing we most want them to understand?"
+- title: "Choose a format that fits"
+  duration: "30 min"
+  guidance: >-
+    Show a few formats and talk through which fits the message and the audience — a poster, a spoken
+    talk with pictures, a role-play or story, a simple infographic. Remind them it must work spoken and
+    shown, not only read. There is no single right answer; a good fit is one the audience will follow and
+    that lets us show our evidence.
+  keyPrompts:
+  - "Which format will this audience actually follow?"
+  - "Can we show our evidence in this format, not just say it?"
+  watchOuts:
+  - "Steer away from a format that hides the evidence or that only works on paper for readers."
+- title: "Plan what it says and shows"
+  duration: "30 min"
+  guidance: >-
+    In teams, learners plan what their output will say and show, and mark against the evidence log where
+    each part comes from. Ask them to plan how they will show the limits honestly too — for example, that
+    we only spoke to a few people. They agree a safe way to present and check no names go in.
+  keyPrompts:
+  - "For each thing we say, where is our evidence for it?"
+  - "How will we show what our evidence does NOT tell us?"
+learnerContent: |
+  ## Choosing how to tell what we found
+
+  We have found things out about our question: what happens to our hills without trees, and what changes
+  when trees and plants grow back. Now we decide how to tell people.
+
+  First, who most needs to hear it? Our friends, our families, the wider community, a camp committee?
+  Choose the people who could care and could act.
+
+  Then choose how to tell them. There is no single right way. Pick what fits your message and your
+  people, and what works when you speak it and show it:
+
+  - a poster
+  - a talk with pictures
+  - a role-play or a story
+  - a simple infographic
+
+  Then plan it. For each thing you want to say, ask: where is our evidence for this? And be honest about
+  what we do NOT know — for example, "we only spoke to a few people". Never use the names of the people
+  we spoke to.
+worksheet:
+  slug: cb-rp-our-plan
+  note: >-
+    In the research book (student workbook): the "Who we will tell, and how" planning page. Print one per
+    learner.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Learners decide who in their community most needs to hear what they found and choose how to reach
+    them — taking control of how their own knowledge enters the world and who it can serve.
+principlesForegrounded: [recognise-communicate-growth, responsible-action, authentic-challenges]
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: The whole activity is about communicating what learners found in a form an audience can receive and use.
+- principle: responsible-action
+  how: Learners choose an audience who could act, and plan to represent the evidence and its limits honestly rather than overclaim.
+- principle: authentic-challenges
+  how: The findings being shared are about a real, shared challenge — the trees on the hills the learners live on.
+competencyCodes: [FSI1, FLC3, FPS1]
+competencyDevelopment:
+- code: FSI1
+  how: Communicating findings so others can use them is the final stage of investigating a real-world issue.
+- code: FLC3
+  how: Learners choose an audience and a format so the message lands — the core of communicating with influence.
+- code: FPS1
+  how: Matching the format to the purpose and the audience, rather than defaulting to one output, is adaptable thinking.
+objectiveIds: [research-project--o4]
+relatedSlugs: [cb-rp-our-plan, cb-rp-build-our-output, cb-rp-build-our-output-sheet]
+provenanceNote: >-
+  Authored for the Learning Bridge+ (Cox's Bazar) Research Project edition, Phase 5 "Communicate
+  findings" (objective 4). Fully offline, oral and visual first; no single required output — format
+  follows audience and message. Its printable planning page compiles into the Research Project student
+  workbook.

@@ -1,0 +1,122 @@
+# Contextualised, fully offline PRACTICE for the Research Project component of Learning Bridge+ (Cox's
+# Bazar). Phase 5 "Communicate findings". Learners build their chosen output — structuring findings and
+# insights into a clear, honest, evidence-based account a non-expert can follow — and rehearse presenting
+# and answering questions. Much of the making is in independent hours. Central evidence for FSI1.
+id: cb-rp-build-our-output
+slug: cb-rp-build-our-output
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Build our research output"
+summary: >-
+  Learners build the output they planned, structuring their findings and insights into a clear, honest,
+  evidence-based account a non-expert can follow. They represent the evidence's limits honestly, and
+  rehearse presenting it and answering questions.
+facilitationContext:
+- group
+- independent
+primaryContext: independent
+duration: "2 hours facilitated + 3 hours independent"
+grouping: "Small teams making; whole group for feedback and rehearsal"
+whatLearnersDo:
+- Build the output they planned — a poster, a talk with pictures, a role-play or story, a simple infographic.
+- Structure findings and insights so a non-expert can follow them, with the evidence shown for each claim.
+- Show the limits of the evidence honestly — for example, "we only spoke to a few people" — rather than overclaiming.
+- Rehearse presenting, and practise answering the questions an audience might ask.
+- Give and act on feedback, checking no names of the people we spoke to appear anywhere.
+materialsAndPreparation:
+- Each team's plan from "Choose our format and our audience".
+- The evidence log and the cohort's insight statements, to check each claim against.
+- Simple making materials — paper, pens, and whatever the chosen format needs; a space to rehearse.
+- The building page from the research book (one per learner).
+facilitationNotes: >-
+  The one thing to get right: this is where findings become something another person can follow and
+  trust. Most of the making happens in the independent hours; use session time to give and act on
+  feedback and to rehearse, not to make from scratch. Hold two lines throughout. First, honesty: every
+  claim in the output must stand on the evidence log, and the limits must be shown, not hidden — help
+  learners say "we only spoke to a few people" with pride, not apology. Second, safety: no learner is
+  pushed to present in a way that is unsafe for them, and no names of people they spoke to go in. What
+  learners build here, and how they talk about it, is central evidence for the FSI1 assessment.
+steps:
+- title: "Build a first version"
+  duration: "40 min"
+  guidance: >-
+    Teams start building from their plan. Keep coming back to the question: for each thing the output
+    says, where is the evidence? Structure it so a non-expert — someone who was not on the project — can
+    follow it from start to finish. Much of this making continues in the independent hours.
+  keyPrompts:
+  - "Would someone who was not with us understand this?"
+  - "Where in our evidence log is the proof for this part?"
+- title: "Feedback, and being honest about limits"
+  duration: "40 min"
+  guidance: >-
+    Teams show their first version to another team. Feedback focuses on whether a non-expert can follow
+    it and whether every claim is backed by evidence. Draw out where they should show the limits — what
+    the evidence does NOT tell us — and help them say it plainly rather than overclaiming.
+  keyPrompts:
+  - "What claim here needs its evidence shown more clearly?"
+  - "What are we NOT sure of, and how will we say so honestly?"
+  watchOuts:
+  - "Watch for overclaiming — a big statement the evidence cannot carry. Bring it back to what we actually found."
+- title: "Rehearse and answer questions"
+  duration: "40 min"
+  guidance: >-
+    Teams rehearse presenting, and practise answering the questions an audience might ask. Each learner
+    practises saying the one thing they most want people to understand. Make sure everyone has a role
+    that is safe and comfortable for them, and check no names of people we spoke to appear anywhere.
+  keyPrompts:
+  - "What question might our audience ask, and how would we answer it honestly?"
+  - "What is the one thing you most want people to understand?"
+learnerContent: |
+  ## Building our output
+
+  Now we build the thing we planned, and make it good enough for someone who was not with us to follow.
+
+  As you build, keep asking:
+
+  - Can a person who was not on our project follow this from start to finish?
+  - For each thing we say, where is our evidence for it?
+  - What does our evidence NOT tell us — and are we saying that honestly? It is good research to say
+    "we only spoke to a few people". It is not a weakness.
+
+  Then rehearse. Practise presenting, and practise answering questions people might ask. Practise saying
+  the one thing you most want people to understand.
+
+  Everyone should have a part that feels safe for them — no one has to present in a way that is not safe.
+  And never use the names of the people we spoke to.
+worksheet:
+  slug: cb-rp-build-our-output-sheet
+  note: >-
+    In the research book (student workbook): the "Building our output — our main message and our
+    evidence" page. Print one per learner.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - control-of-future-pathways
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Learners turn what they found into something their community can follow and trust, and practise
+    presenting and defending it honestly — building the voice to be heard on issues that affect them.
+principlesForegrounded: [recognise-communicate-growth, responsible-action, connect-to-futures]
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: Learners make their findings usable by others and rehearse presenting them — communicating what they learned.
+- principle: responsible-action
+  how: Every claim must stand on the evidence, and the limits are shown honestly rather than overclaimed.
+- principle: connect-to-futures
+  how: Presenting and defending an honest, evidence-based account is a capability learners carry into any future they choose.
+competencyCodes: [FSI1, FLC3, FSL1]
+competencyDevelopment:
+- code: FSI1
+  how: Building an honest, evidence-based output and defending it is central evidence of proficiency in investigating real-world issues.
+- code: FLC3
+  how: Structuring findings so a non-expert can follow, and answering questions, is communicating with influence.
+- code: FSL1
+  how: Rehearsing, taking feedback, and naming the one thing they most want understood asks learners to reflect on their own message.
+objectiveIds: [research-project--o4]
+relatedSlugs: [cb-rp-build-our-output-sheet, cb-rp-choose-format-and-audience, cb-rp-our-plan]
+provenanceNote: >-
+  Authored for the Learning Bridge+ (Cox's Bazar) Research Project edition, Phase 5 "Communicate
+  findings" (objective 4). Fully offline, oral and visual first; much of the making happens in the
+  independent hours. Honesty about limits and safeguarding held throughout; central evidence for the FSI1
+  assessment. Its printable building page compiles into the Research Project student workbook.

@@ -1,0 +1,118 @@
+# Contextualised, fully offline ACTIVITY for the Research Project component of Learning Bridge+ (Cox's
+# Bazar). Learners design the simple oral instruments they will use to gather primary evidence: a short
+# set of interview questions and, if useful, a very short oral survey, recorded with marks and pictures
+# rather than writing. The facilitator models open vs leading questions; learners draft, try their
+# questions on each other, and improve them. Plan and conduct research phase (objective 2). Oral and
+# visual first; questions tie back to the three sub-questions of our given research question.
+id: cb-rp-design-our-questions
+slug: cb-rp-design-our-questions
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Design our interview and survey questions"
+summary: >-
+  Learners design the questions they will ask their community — a short set of oral interview questions
+  and, if useful, a very short oral survey — all tied to our three sub-questions about the hills. They
+  learn the difference between a question that opens people up and one that leads them, draft their own,
+  try them on each other, and make them better.
+facilitationContext:
+- group
+primaryContext: group
+duration: "2 hours facilitated + 1 hour independent"
+grouping: "Whole group to model, then pairs and small groups to draft and try questions"
+whatLearnersDo:
+- See the difference between an open question that lets people tell us what they think, and a leading question that pushes an answer.
+- Design a short set of oral interview questions, one or two for each of our three sub-questions about the hills.
+- Decide whether a very short oral survey — one or two questions asked of many people — would help, and shape it so it can be answered with a mark or a picture.
+- Try their questions on each other, notice what was confusing, and improve them.
+materialsAndPreparation:
+- The research question and its three sub-questions, big on the wall (before/now; a bare hill in rain and hot sun; what roots, grass, and trees do).
+- The "our questions to ask" page from the research book (one per learner).
+- A few example questions prepared, some open and some leading, to sort together.
+- Marks or simple symbols agreed for recording survey answers (for example, faces or tally marks), for those not yet writing.
+facilitationNotes: >-
+  The one thing to get right: questions come from our sub-questions, not from nowhere. Keep pointing
+  back to the wall — every question we design should help answer one of the three things we want to
+  find out. Model the difference between open and leading with your own voice: "What happens to this
+  slope when it rains?" opens a person up; "The rain ruins the bare slope, doesn't it?" puts words in
+  their mouth. Keep the set short — a handful of good questions beats a long list. Trying questions on
+  each other first is how learners find the confusing ones before a real person does.
+steps:
+- title: "Open questions and leading questions"
+  duration: "40 min"
+  guidance: >-
+    Sort a few prepared questions together into two piles: ones that let a person tell us what they
+    really think, and ones that push them to a certain answer. Say each aloud and act out how a person
+    might reply to each, so learners hear the difference rather than just naming it. Draw out why open
+    questions give us truer evidence.
+  keyPrompts:
+  - "Does this question let the person say anything, or does it expect one answer?"
+  - "How could we turn this leading question into an open one?"
+- title: "Design our questions, sub-question by sub-question"
+  duration: "50 min"
+  guidance: >-
+    Working from the three sub-questions on the wall, small groups draft one or two oral interview
+    questions for each. Then decide together whether a very short survey would help — one or two simple
+    questions we could ask many people and record with a mark or picture. Keep everything short and easy
+    to say aloud.
+  keyPrompts:
+  - "Which sub-question does this help us answer?"
+  - "Could a person answer this with a mark or a picture, if they cannot write?"
+- title: "Try them on each other and improve"
+  duration: "30 min"
+  guidance: >-
+    In pairs, learners try their questions on each other as if for real, opening with the consent
+    request they practised. They notice which questions were confusing, too long, or pushed an answer,
+    and fix them. The improved set goes onto their "our questions to ask" page.
+  keyPrompts:
+  - "Which question was hard to understand? How can we say it more simply?"
+  - "Did any question push you toward an answer? How can we open it up?"
+learnerContent: |
+  ## Our questions to ask
+
+  We are going to ask people in our community to help answer our three sub-questions about the hills.
+  Good questions let people tell us what they really think.
+
+  An open question invites anything: "What happens to this slope when it rains?" A leading question
+  pushes one answer: "The rain ruins the bare slope, doesn't it?" We want open questions.
+
+  For each of our three sub-questions, we design one or two short questions to ask:
+
+  - What were our hills like before, and what are they like now?
+  - What happens to a bare hill when it rains, and in the hot sun?
+  - What do trees, grass, and roots do for the soil and for us?
+
+  We might also make a very short survey — one or two questions we ask many people, and record with a
+  mark or a picture. We try our questions on each other first, and make the confusing ones clearer.
+worksheet:
+  slug: cb-rp-our-questions-sheet
+  note: "In the research book (student workbook): the 'Our questions to ask' page, grouped by our three sub-questions. Print one per learner."
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - control-of-future-pathways
+  how: >-
+    Designing their own questions puts learners in charge of what their community investigation asks and
+    finds — the difference between running someone else's survey and shaping the enquiry themselves, a
+    skill they can turn on any question that matters to them.
+principlesForegrounded: [collaboration, authentic-challenges, feedback-and-data]
+principleAlignment:
+- principle: collaboration
+  how: Learners draft questions in small groups and try them on each other, improving them together before meeting the community.
+- principle: authentic-challenges
+  how: Every question is built to answer a real sub-question about the hills the learners live on, not a practice exercise.
+- principle: feedback-and-data
+  how: Trying questions on each other surfaces which ones confuse or lead, and learners use that feedback to improve them.
+competencyCodes: [FSI1, FTS3]
+competencyDevelopment:
+- code: FSI1
+  how: Designing the instruments for primary research is part of planning and conducting the investigation.
+- code: FTS3
+  how: Learners build the oral interview and survey tools that will let them gather and later organise primary data.
+objectiveIds: [research-project--o2]
+relatedSlugs: [cb-rp-two-ways-and-ethics, cb-rp-our-questions-sheet, cb-rp-go-and-gather, cb-rp-our-research-question]
+provenanceNote: >-
+  Authored activity for the Learning Bridge+ (Cox's Bazar) Research Project edition. Learners design
+  short, oral, open-question interview and survey instruments tied to the three sub-questions of the
+  given research question. Plan and conduct research phase (objective 2); fully offline, oral and visual
+  first. Its printable questions page compiles into the Research Project student workbook.

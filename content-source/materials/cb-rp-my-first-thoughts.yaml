@@ -1,0 +1,44 @@
+# Student worksheet (resource) for the orientation activity cb-rp-meet-our-challenge. Thin per §3: what
+# the sheet is and how the learner uses it. Ships no file of its own — its printable version compiles
+# into the Research Project student workbook (the research book). Learning Bridge+ (Cox's Bazar) edition.
+id: cb-rp-my-first-thoughts
+slug: cb-rp-my-first-thoughts
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "My first thoughts about our hills"
+summary: >-
+  The learner's first research-book page: a space to draw or mark what they notice about the trees and
+  hills, and one thing they wonder about them — the first seed of our shared investigation.
+facilitationContext:
+- group
+- independent
+primaryContext: independent
+learnerContent: |
+  ## My first thoughts about our hills
+
+  This is your first page. It is about what you notice, not about being right.
+
+  On this page you have room to:
+
+  - Draw or mark what you see when you look at our hills — the trees, the bare slopes, the rain, the sun.
+  - Mark one thing you already know about our hills.
+  - Draw or mark one thing you wonder about the trees and hills.
+
+  You can use drawings, marks, and a few words. There is no wrong answer here. Keep this page in your
+  research book, so that at the end of the course you can look back and see the first thing you wondered.
+
+  A gentle note: our hills can bring up hard memories, like a landslide or a lost home. You never have
+  to draw or say anything about your own life. Draw only what you want to share.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Starting from what the learner themselves notices and wonders — rather than from a definition handed
+    down — makes the investigation their own from the very first page.
+objectiveIds: []
+relatedSlugs: [cb-rp-meet-our-challenge]
+provenanceNote: >-
+  Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Research Project edition, paired to
+  cb-rp-meet-our-challenge. Thin by design; its printable version compiles into the Research Project
+  student workbook (the research book) rather than shipping its own file.

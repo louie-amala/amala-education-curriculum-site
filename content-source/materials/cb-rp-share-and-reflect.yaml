@@ -1,0 +1,141 @@
+# Contextualised, fully offline CONSOLIDATION activity that closes the Research Project component of
+# Learning Bridge+ (Cox's Bazar). Learners share their research output with the audience they chose and
+# answer questions (no one forced to present unsafely), then look back through the research book and the
+# "Where I am as a researcher" growth path, and name one way they have grown. Showcase and reflect phase.
+# On Learning Bridge+, this is where the educator gathers the evidence for the FSI1 assessment judgement.
+id: cb-rp-share-and-reflect
+slug: cb-rp-share-and-reflect
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Share our findings, and look back"
+summary: >-
+  The warm, celebratory close of the course: learners share what they found with the audience they chose
+  and answer questions about it — no one forced to present in a way that is unsafe for them — then look
+  back through their research book and their growth path, and name one way they have grown as a researcher.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+duration: "2.5 hours facilitated + 3 hours independent"
+grouping: "Whole group for the sharing; individual for the looking-back and the growth mark"
+whatLearnersDo:
+- Share their research output with the real audience they chose, in the way they chose — showing, telling, or with a friend beside them.
+- Answer questions from the audience about what they found and what it means.
+- Look back through their research book, from the very first page, and see how far the work has come.
+- Return to the "Where I am as a researcher" growth path they marked at the start, mark where they are now, and name one way they have moved from guessing to finding out.
+materialsAndPreparation:
+- Each learner's or group's research output, ready to share, and the space set up warmly for the audience they chose.
+- Every learner's research book, so they can look back from the first page.
+- The "Where I am as a researcher" growth-path page (cb-rp-researcher-growth-path) each learner marked at the start of the course.
+- The "how I have grown as a researcher" reflection page from the research book (one per learner).
+- Step-back and referral guidance to hand, in case the sharing or looking-back touches a hard memory.
+facilitationNotes: >-
+  The one thing to get right: this is a celebration, not an exam. Every learner has grown, and the day is
+  for showing that, warmly and together. No one is forced to present in a way that is unsafe for them —
+  showing without speaking, telling from their seat, or having a friend speak alongside are all real ways
+  to share. On Learning Bridge+, this is also the point where you gather and record the evidence of each
+  learner's growth in investigating real-world issues (FSI1): their question and plan, their evidence log,
+  how they made sense of what they found, their output, and how they answer questions about it. Gather
+  this across the whole course from the research book, not from the final output alone, and make the
+  judgement against Amala's proficiency scale, by your own reading of the whole picture — not a mark
+  scored off one performance.
+steps:
+- title: "Share our findings"
+  duration: "60 min"
+  guidance: >-
+    Hold the sharing warmly. Each learner or group shares their output with the audience they chose, in
+    the way they chose — showing a drawing or model, telling the one thing they most want people to
+    understand, or being alongside a friend who speaks with them. Make it safe: no one is made to stand
+    and speak alone if that is not safe for them. Celebrate each sharing before moving to the next.
+  keyPrompts:
+  - "What did you want people to understand about our hills?"
+  - "What is the one thing you found that you are proudest of?"
+  watchOuts:
+  - "Do not push a reluctant learner to the front; a quiet way to share is still sharing, and still evidence."
+- title: "Answer questions from our audience"
+  duration: "30 min"
+  guidance: >-
+    Invite the audience to ask gentle, real questions, and help learners answer them. How a learner
+    responds — pointing back to their evidence, saying what they are still not sure about — is some of the
+    richest evidence of how they have grown as a researcher, so give it time and warmth. Rephrase or
+    translate questions where needed so no learner is caught out by the English.
+  keyPrompts:
+  - "Where in your research did you find that?"
+  - "What is one thing you are still not sure about?"
+- title: "Look back through our research book"
+  duration: "30 min"
+  guidance: >-
+    Each learner turns through their research book from the very first page — their first thoughts about
+    the hills, their question, their evidence log, what they worked out, their output. Give them quiet
+    time to see the whole journey. Draw out, gently, how much is there now that was not there on the first
+    day.
+  keyPrompts:
+  - "Look at your first page. What did you think about our hills back then?"
+  - "What can you do now, as a researcher, that you could not do on the first day?"
+- title: "Mark how far we have come"
+  duration: "30 min"
+  guidance: >-
+    Bring back the "Where I am as a researcher" growth path each learner marked at the start. Each learner
+    marks where they feel they are now, sees the distance from their first mark, and names — by drawing and
+    speaking — one way they have moved from guessing to finding out. This is theirs to keep, and yours to
+    read as evidence of growth.
+  keyPrompts:
+  - "Look at the mark you made on the first day. Where are you now?"
+  - "Name one way you have moved from guessing to finding out."
+closing: >-
+  Close the course the way it deserves — with warmth and pride. Every learner started somewhere on the
+  path and every learner has moved. Name that out loud, together: we did not guess about our hills, we
+  went and found out, and we shared it. Send them off knowing they are researchers now, and that this is a
+  way of finding out they can carry into anything they want to understand.
+learnerContent: |
+  ## Sharing what we found, and looking back
+
+  Today we share what we found out about our hills with the people we chose, and we celebrate the work we
+  did together.
+
+  You can share in the way that is right for you — showing your drawing or model, telling the one thing
+  you most want people to understand, or having a friend beside you. There is no wrong way to share.
+
+  Then we look back. Turn through your research book, from the very first page. See how far you have come
+  since the first day, when we only wondered about our hills.
+
+  Last, look again at the growth path you marked at the start — "Where I am as a researcher". Mark where
+  you are now, and name one way you have grown: how you moved from guessing to finding out. You are a
+  researcher now.
+worksheet:
+  slug: cb-rp-how-i-have-grown
+  note: "In the research book (student workbook): the 'How I have grown as a researcher' reflection page. Print one per learner."
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  - power-over-wellbeing-and-self-direction
+  - contribution-to-community
+  how: >-
+    Learners share findings about a real, shared challenge with an audience of their choosing, and read
+    their own growth as researchers — seeing that finding out for themselves, rather than guessing, is a
+    power they can carry into any question that matters to their lives and community.
+principlesForegrounded: [recognise-communicate-growth, connect-to-futures, safe-spaces]
+principleAlignment:
+- principle: recognise-communicate-growth
+  how: The whole close is about seeing and naming growth — learners revisit their starting mark, look back through their research book, and name for themselves how far they have moved.
+- principle: connect-to-futures
+  how: Learners leave knowing that finding out carefully, rather than guessing, is a way of working they can carry into any future question or challenge they care about.
+- principle: safe-spaces
+  how: No learner is forced to present in a way that is unsafe for them; showing, telling from a seat, or sharing alongside a friend are all named as real ways to share, with referral guidance to hand.
+competencyCodes: [FSI1, FSL1]
+competencyDevelopment:
+- code: FSI1
+  how: Sharing the output and answering questions about it is the final act of the investigation, and — with the whole research book — is the evidence the educator reads to judge each learner's proficiency in investigating real-world issues.
+- code: FSL1
+  how: Learners look back over their own journey and their starting growth-path mark, and name honestly how they have grown as researchers — self-reflection on their own learning.
+objectiveIds: []
+relatedSlugs: [cb-rp-researcher-growth-path, cb-rp-what-good-research-looks-like, cb-rp-how-i-have-grown, cb-rp-meet-our-challenge, cb-rp-set-up-research-book]
+provenanceNote: >-
+  Authored consolidation activity that closes the Learning Bridge+ (Cox's Bazar) Research Project edition.
+  Realises the "Share our findings, and look back" block of the Showcase and reflect phase: a warm,
+  celebratory sharing to a chosen audience, then a look back through the research book and the
+  cb-rp-researcher-growth-path self-check. On Learning Bridge+, the point at which the educator gathers
+  the evidence for the FSI1 assessment judgement, made against Amala's proficiency scale rather than from
+  the final output alone. Fully offline, oral and visual first. Its printable reflection page compiles
+  into the Research Project student workbook.

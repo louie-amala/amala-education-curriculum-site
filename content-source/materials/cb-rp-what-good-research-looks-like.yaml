@@ -1,0 +1,105 @@
+# Contextualised, fully offline ACTIVITY for the Research Project component of Learning Bridge+ (Cox's
+# Bazar). A short, warm introduction to the anchor competency — investigating real-world issues (FSI1) —
+# as a growth path, not a test. Learners meet, in plain and pictorial terms, what a researcher does, and
+# mark honestly where they feel they are now, to revisit at the end. Getting started phase.
+id: cb-rp-what-good-research-looks-like
+slug: cb-rp-what-good-research-looks-like
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "What good research looks like"
+summary: >-
+  A short, warm introduction to what a researcher does — finding out for ourselves instead of guessing —
+  as a growth path, not a test. Learners meet what good research looks like in pictures and plain words,
+  and mark honestly where they feel they are now, to look back on at the end of the course.
+facilitationContext:
+- group
+primaryContext: group
+duration: "0.5 hour facilitated"
+grouping: "Whole group, sitting together"
+whatLearnersDo:
+- Meet, in pictures and plain words, what a researcher does — asks, looks, finds out, and does not just guess.
+- Hear that this is a path we all grow along over the course, not a test to pass today.
+- Mark honestly, on a simple picture scale, where they feel they are now as a researcher.
+- Keep that mark in their research book, to look at again at the end and see how they have moved.
+materialsAndPreparation:
+- The "Where I am as a researcher" growth-path page from the research book (one per learner).
+- "Simple pictures or actions that show what a researcher does: asking, looking closely, keeping a record, weighing whether something is true."
+- Your own honest mark, ready to show, so learners see it is safe to say "I am near the start".
+facilitationNotes: >-
+  The one thing to get right: this is a growth path, not a test. Say clearly, and more than once, that
+  marking "near the start" is not failing — it is exactly where a researcher begins, and the point is to
+  look back at the end and see how far we came. Keep it short, warm, and pictorial. Model your own honest
+  mark first so learners see it is safe. This page comes back out at the very end of the course (Showcase
+  and reflect), so keep it in the research book where it can be found.
+steps:
+- title: "What does a researcher do?"
+  duration: "15 min"
+  guidance: >-
+    In pictures and plain words, show what a researcher does: they ask people, they look closely, they
+    keep a record of what they find, and they check whether something is really true instead of just
+    guessing or repeating what people say. Keep it concrete and warm — a researcher is a person who
+    wants to find out, carefully and fairly.
+  keyPrompts:
+  - "What is the difference between guessing and finding out?"
+  - "What does a person do when they really want to know if something is true?"
+- title: "Where am I now?"
+  duration: "15 min"
+  guidance: >-
+    Show the simple picture scale of where a person can be on the path — from just starting out to
+    finding out carefully and fairly on their own. Mark your own place honestly first, out loud, so
+    learners see there is no wrong answer. Then each learner marks where they feel they are now, in
+    their research book, and you remind them: we will look at this again at the end and see how we grew.
+  keyPrompts:
+  - "Where do you feel you are on this path today? There is no wrong answer."
+  - "Marking near the start is not failing — it is where every researcher begins."
+closing: >-
+  Remind learners this mark is a beginning, not a judgement. We will come back to it on the last day of
+  the course and see, together, how far we have moved from guessing to finding out.
+learnerContent: |
+  ## What good research looks like
+
+  A researcher is a person who wants to find out — carefully and fairly — instead of guessing or just
+  repeating what people say.
+
+  A researcher:
+
+  - Asks people, and looks closely at what is around us.
+  - Keeps a record of what they find.
+  - Checks whether something is really true before believing it.
+
+  This is a path we all walk along over the course. No one starts at the end. Today you will mark where
+  you feel you are now — near the start is a fine place to be. At the end of the course we will look at
+  your mark again, and see together how far you have grown.
+worksheet:
+  slug: cb-rp-researcher-growth-path
+  note: "In the research book (student workbook): the 'Where I am as a researcher' growth-path page. Print one per learner."
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Seeing research as a growth path they can move along — and judging honestly where they are now —
+    gives learners ownership of their own progress, rather than waiting to be marked right or wrong by
+    someone else.
+principlesForegrounded: [feedback-and-data, safe-spaces, recognise-communicate-growth]
+principleAlignment:
+- principle: feedback-and-data
+  how: Learners set an honest baseline for themselves that they will revisit, so their own growth becomes visible evidence they can read.
+- principle: safe-spaces
+  how: The self-check is framed as a growth path, not a test; marking "near the start" is named as normal, so no one is exposed or judged.
+- principle: recognise-communicate-growth
+  how: Learners judge their own place on the path and own their progress across the course, rather than receiving a mark from outside.
+competencyCodes: [FSI1, FSL1]
+competencyDevelopment:
+- code: FSI1
+  how: Learners meet the anchor competency — investigating real-world issues — as a concrete, pictorial picture of what a researcher does, setting the direction for the whole course.
+- code: FSL1
+  how: Learners reflect honestly on where they are as a researcher now, and set a baseline they will return to at the end to see how they have grown.
+objectiveIds: []
+relatedSlugs: [cb-rp-set-up-research-book, cb-rp-researcher-growth-path]
+provenanceNote: >-
+  Authored activity for the Learning Bridge+ (Cox's Bazar) Research Project edition. Introduces the
+  anchor competency (FSI1) as a growth path and sets a self-assessment baseline (FSL1) that the final
+  phase (Showcase and reflect) reuses. Getting started phase; fully offline, oral and visual first. Its
+  printable growth-path page compiles into the Research Project student workbook.

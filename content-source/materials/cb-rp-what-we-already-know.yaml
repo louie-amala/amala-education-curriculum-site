@@ -1,0 +1,108 @@
+# Contextualised, fully offline FRAMING activity for the Research Project component of Learning Bridge+
+# (Cox's Bazar). Learners explore why the trees/hills matter to them and pool what they already know —
+# the hills before, the clearing, the mud when it rains, the heat — as real evidence, and build a shared
+# "what we already know / what we still need to find out" wall. Frame the challenge phase (objective 1).
+# Oral and visual first; treats lived knowledge as evidence; warm, hopeful, safeguarding to hand.
+id: cb-rp-what-we-already-know
+slug: cb-rp-what-we-already-know
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "What we already know"
+summary: >-
+  Learners explore why the trees on our hills matter to them, and pool what they already know — the hills
+  before, the clearing, the mud when it rains, the heat — treating their own knowledge as real evidence.
+  Together they build a shared wall of what we already know and what we still need to find out.
+facilitationContext:
+- group
+primaryContext: group
+duration: "2 hours facilitated + 1 hour independent"
+grouping: "Whole group for the wall; pairs for talking and drawing"
+whatLearnersDo:
+- Say, in words or drawings, why the trees and hills matter to them and their families.
+- Pool what they already know about the hills — before, the clearing, the mud in the rain, the heat — as real evidence to start from.
+- "Add their marks and drawings to a shared wall with two sides: what we already know, and what we still need to find out."
+- Notice, gently, which things we truly know and which we only assume, and put the assumed things on the "find out" side.
+materialsAndPreparation:
+- "A big wall or floor space split into two sides: \"what we already know\" and \"what we still need to find out\", with a simple picture or symbol over each."
+- Cards, paper, and pens or chalk for marks and drawings; no writing required.
+- Step-back and referral guidance to hand, in case the talk touches a landslide or a lost shelter.
+facilitationNotes: >-
+  The one thing to get right: treat what learners already know as real evidence, not as chatter to get
+  past. Their memory of the hills before, and of the mud and the heat, is data this investigation starts
+  from. Draw it out warmly, then help the group sort it: some things we truly know, some we only assume —
+  the assumed ones are not wrong, they simply go on the "find out" side. Keep the tone hopeful, and let no
+  learner be singled out for what they do or do not know.
+steps:
+- title: "Why our trees and hills matter"
+  duration: "30 min"
+  guidance: >-
+    In pairs, learners say or draw one reason the trees and hills matter to them and their families —
+    shade, safety from the mud, somewhere green, wood, memory. Gather a few aloud. This roots the whole
+    investigation in why it is worth doing, in the learners' own words.
+  keyPrompts:
+  - "Why do the trees and our hills matter to you?"
+  - "What is good about a hill with trees on it?"
+- title: "Pool what we already know"
+  duration: "50 min"
+  guidance: >-
+    Draw out what the group already knows about the hills — how they looked before, how the trees were
+    cleared, the mud when the heavy rain comes, the heat on the bare slopes. Each thing goes up on the
+    "what we already know" side as a mark or drawing. Treat every offering as evidence worth having;
+    do not correct or teach yet.
+  keyPrompts:
+  - "What were our hills like before? What changed?"
+  - "What happens here when the heavy rain comes? In the hot sun?"
+- title: "Know it, or only think it? Build the wall"
+  duration: "40 min"
+  guidance: >-
+    Look together at the "what we already know" side. Gently ask of a few things: do we truly know this,
+    or do we only think it? The things we only assume move across to "what we still need to find out" —
+    without singling anyone out. This wall stays up and the cohort adds to it all through the course.
+  keyPrompts:
+  - "How do we know this is true?"
+  - "What do we still need to go and find out?"
+learnerContent: |
+  ## What we already know
+
+  Before we go and find things out, we start with what we already carry. We have lived on these hills.
+  We remember how they looked before, how the trees came down, the mud when the heavy rain comes, and the
+  heat on the bare ground. That memory is real evidence — it is where our research begins.
+
+  We put what we know on one side of our wall: "what we already know". Then we ask an honest question of
+  each thing: do we truly know it, or do we only think it? The things we only think, we move to the other
+  side: "what we still need to find out". Both sides help us. And our wall keeps growing as we learn more.
+
+  You do not have to speak about your own life if you would rather not. Marks and drawings count.
+worksheet:
+  slug: cb-rp-what-we-know-page
+  note: "In the research book (student workbook): the 'What we know / what we want to find out' page. Print one per learner."
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Learners treat their own knowledge and lived experience of the hills as real evidence, and learn to
+    tell what they know from what they assume — the start of understanding a shared challenge well enough
+    to act on it, rather than repeating what they have been told.
+principlesForegrounded: [builds-on-identities, authentic-challenges, safe-spaces]
+principleAlignment:
+- principle: builds-on-identities
+  how: The activity starts from what learners already know and feel about the hills they live on, valued as real evidence.
+- principle: authentic-challenges
+  how: The wall is built around a real, shared, local challenge — the trees on our hills — not a hypothetical case.
+- principle: safe-spaces
+  how: No learner has to speak from their own life; marks and drawings count, and the facilitator holds a warm tone with referral guidance to hand.
+competencyCodes: [FSI1, FPS3]
+competencyDevelopment:
+- code: FSI1
+  how: Surfacing and sorting what is already known from what must be found out is the first framing move of a real investigation.
+- code: FPS3
+  how: Separating what we truly know from what we assume begins to surface the contributing factors behind the challenge.
+objectiveIds: [research-project--o1]
+relatedSlugs: [cb-rp-what-we-know-page, cb-rp-meet-our-challenge, cb-rp-community-mapping]
+provenanceNote: >-
+  Authored framing activity for the Learning Bridge+ (Cox's Bazar) Research Project edition, from the
+  "Why this challenge matters, and what we already know" block of the unit plan. Frame the challenge
+  phase (objective 1). Fully offline, oral and visual first; treats learners' lived knowledge as evidence.
+  Its printable page compiles into the Research Project student workbook.

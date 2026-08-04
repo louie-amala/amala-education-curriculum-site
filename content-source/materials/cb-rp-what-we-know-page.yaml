@@ -1,0 +1,42 @@
+# Student worksheet (resource) for the framing activity cb-rp-what-we-already-know. Thin per §3: what the
+# sheet is and how the learner uses it. Ships no file of its own — its printable version compiles into the
+# Research Project student workbook. Learning Bridge+ (Cox's Bazar) edition.
+id: cb-rp-what-we-know-page
+slug: cb-rp-what-we-know-page
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "What we know / what we want to find out"
+summary: >-
+  The learner's own page for the shared wall: two sides — what I already know about our hills and trees,
+  and what I still want to find out — that the learner adds to, in marks and drawings, all through the
+  course.
+facilitationContext:
+- group
+- independent
+primaryContext: independent
+learnerContent: |
+  ## What we know / what we want to find out
+
+  This page has two sides, like our wall.
+
+  On one side — "what I already know" — put the things you know about our hills and trees: how they looked
+  before, the clearing, the mud when it rains, the heat. Use marks, drawings, or a few words.
+
+  On the other side — "what I still want to find out" — put the questions you have, and the things we only
+  think but do not yet truly know.
+
+  You can add to this page any time. When you find something out, move it across to "what I know". Keep this
+  page in your research book — it shows how your thinking grows across the whole course.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Holding onto both what you know and what you still want to find out is how a researcher steers their
+    own inquiry — a habit of self-directed learning learners carry beyond this course.
+objectiveIds: [research-project--o1]
+relatedSlugs: [cb-rp-what-we-already-know, cb-rp-meet-our-challenge]
+provenanceNote: >-
+  Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Research Project edition, paired to
+  cb-rp-what-we-already-know. Thin by design; its printable version compiles into the Research Project
+  student workbook rather than shipping its own file.

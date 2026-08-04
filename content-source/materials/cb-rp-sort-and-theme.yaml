@@ -1,0 +1,118 @@
+# Contextualised, fully offline ANALYSIS activity for the Research Project component of Learning Bridge+
+# (Cox's Bazar). Learners physically group their evidence — cards, drawings, marks — into themes on the
+# floor or wall and name each cluster; out of this come patterns, trends, and contributing factors. The
+# sorting IS the analysis. Evaluate evidence phase (objective 3). Oral and visual first; hands-on.
+id: cb-rp-sort-and-theme
+slug: cb-rp-sort-and-theme
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Sort and theme what we found"
+summary: >-
+  Learners organise all their evidence — primary and secondary — so that patterns can be seen: they
+  physically group cards, drawings, and marks into themes on the floor or wall and name each cluster.
+  Out of this come the patterns, trends, and contributing factors — what many people said, where sources
+  agree or disagree, what keeps coming up.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+duration: "2 hours facilitated + 1.5 hours independent"
+grouping: "Whole group around a shared floor or wall space; pairs to prepare cards"
+whatLearnersDo:
+- Turn each piece of evidence into a card, drawing, or mark that can be moved and grouped.
+- Physically group the cards into clusters on the floor or wall, moving them until the groups feel right.
+- Give each cluster a name — a theme — in words or a drawing.
+- "Notice the patterns: what keeps coming up, where sources agree or disagree, what seems to cause what."
+materialsAndPreparation:
+- The evidence log and the weighed evidence from the earlier activities.
+- Cards, paper scraps, or sticky notes, and pens — one idea per card.
+- A large clear floor or wall where the whole group can see and reach the cards.
+- The "our themes" sheet from the research book (one per learner), to record the clusters at the end.
+facilitationNotes: >-
+  The one thing to get right is that the sorting is the analysis — moving the cards around IS how the
+  thinking happens, so resist doing it for them or rushing to tidy groups. Put one idea on each card so
+  it can move freely, then let learners cluster and re-cluster on the floor where everyone can see and
+  reach. Themes come from the group, not from you; a card that will not settle in one group is
+  interesting, not a problem. Draw out the patterns gently — "what keeps coming up?", "do these two
+  agree?" — and let a theme's name be a drawing if that is clearer than a word.
+steps:
+- title: "Turn our evidence into cards we can move"
+  duration: "30 min"
+  guidance: >-
+    In pairs, learners go through the evidence log and put each piece — from the people they asked, from
+    what they saw, and from the source pack — onto its own card, drawing, or mark. One idea per card, so
+    it can be moved and grouped. Keep a note on the card of where it came from.
+  keyPrompts:
+  - "What is the one thing this piece of evidence tells us?"
+  - "Where did it come from — a person, our own eyes, or a source?"
+- title: "Group the cards on the floor"
+  duration: "50 min"
+  guidance: >-
+    Spread all the cards on the floor or wall where everyone can see. As a group, move cards that say a
+    similar thing close together, and cards that say different things apart. Move them again and again —
+    the groups will change as you go. This moving-around is the analysis; take your time with it.
+  keyPrompts:
+  - "Which of these belong together? Why?"
+  - "Where do our sources and the people we asked agree — and where do they disagree?"
+- title: "Name each theme"
+  duration: "25 min"
+  guidance: >-
+    Once the clusters feel right, give each one a name — a theme — in a word or a drawing. Ask what makes
+    the cards in each group belong together. Notice the patterns and trends across the whole floor, and
+    the things that seem to cause each other — what a researcher calls contributing factors.
+  keyPrompts:
+  - "What should we call this group?"
+  - "What keeps coming up across the whole floor?"
+- title: "Record our themes"
+  duration: "15 min"
+  guidance: >-
+    Learners copy the clusters and their names onto the "our themes" sheet in the research book, so the
+    thinking is kept for the next step, when we ask what it all means.
+learnerContent: |
+  ## Sort and theme what we found
+
+  We have a pile of evidence now — what people told us, what we saw on the hills, and what the sources
+  said. On its own, a pile does not tell us much. To see what it means, we sort it.
+
+  Put each piece of evidence on its own card, drawing, or mark — one idea each. Then spread them all out
+  on the floor or the wall, where everyone can see and reach. Move cards that say a similar thing close
+  together. Move cards that say different things apart. Keep moving them until the groups feel right.
+
+  When the groups feel right, give each one a name — a theme. This is our analysis. Out of it come the
+  patterns (what keeps coming up), where our sources agree or disagree, and the things that seem to cause
+  each other. We carry these themes into the next step, where we ask what they mean.
+worksheet:
+  slug: cb-rp-our-themes
+  note: "In the research book (student workbook): the 'Our themes — what keeps coming up' page. Print one per learner."
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - control-of-future-pathways
+  how: >-
+    Turning a pile of evidence into named patterns is how a researcher makes sense of a real community
+    challenge — a way of thinking learners can use again on any question that matters to them, so their
+    understanding rests on what the evidence shows, not on a first impression.
+principlesForegrounded: [feedback-and-data, authentic-challenges, responsible-action]
+principleAlignment:
+- principle: feedback-and-data
+  how: The themes come from grouping the actual evidence and seeing where it agrees and disagrees, not from what learners assumed at the start.
+- principle: authentic-challenges
+  how: The evidence being sorted is about the real hills the learners live on, so the patterns that emerge matter.
+- principle: responsible-action
+  how: Naming patterns and contributing factors from the evidence is the groundwork for any action that is fair to what was actually found.
+competencyCodes: [FSI1, ATS1, APS3]
+competencyDevelopment:
+- code: FSI1
+  how: Making sense of the gathered evidence is part of conducting the investigation.
+- code: ATS1
+  how: Sorting and grouping the evidence is analysing and interpreting the data the group collected.
+- code: APS3
+  how: Naming the clusters is pattern identification — seeing what keeps coming up and where sources agree or disagree.
+objectiveIds: [research-project--o3]
+relatedSlugs: [cb-rp-our-themes, cb-rp-weighing-our-sources, cb-rp-findings-to-insights]
+provenanceNote: >-
+  Authored for the Learning Bridge+ (Cox's Bazar) Research Project edition. The sorting-and-theming
+  activity for the "Evaluate evidence and develop insights" phase (objective 3). Fully offline, oral and
+  visual first — physically grouping cards on the floor or wall is the analysis. Its printable "our
+  themes" sheet compiles into the Research Project student workbook.

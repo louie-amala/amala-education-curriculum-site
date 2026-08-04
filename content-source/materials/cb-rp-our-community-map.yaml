@@ -1,0 +1,42 @@
+# Student worksheet (resource) for the framing activity cb-rp-community-mapping. Thin per §3: what the
+# sheet is and how the learner uses it. Ships no file of its own — its printable version compiles into the
+# Research Project student workbook. Learning Bridge+ (Cox's Bazar) edition.
+id: cb-rp-our-community-map
+slug: cb-rp-our-community-map
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Our community map"
+summary: >-
+  The learner's own small map page: their version of the shared map, in marks and drawings, of the people,
+  groups, places, and things connected to the trees and hills — including who they could safely learn from.
+facilitationContext:
+- group
+- independent
+primaryContext: independent
+learnerContent: |
+  ## Our community map
+
+  This is your own small map of what is connected to our hills and trees.
+
+  In the middle, draw our hills. Around them, draw the people, groups, places, and things joined to them:
+  who remembers the forest, who lives on the slopes, what strips the hills, what helps them recover, where
+  it floods or slides. Draw lines to show what is joined to what.
+
+  Mark the people you could safely and kindly learn from later. Remember: always ask permission first, and
+  never use anyone's name.
+
+  You can add to this page as you notice more on your way through the camp. Keep it in your research book —
+  it helps you plan who to talk to when we gather evidence.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  how: >-
+    Drawing the web of people and causes around a shared challenge, and who can be safely learned from, is
+    how a young person begins to see where they could act within their own community.
+objectiveIds: [research-project--o1]
+relatedSlugs: [cb-rp-community-mapping, cb-rp-our-research-question]
+provenanceNote: >-
+  Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Research Project edition, paired to
+  cb-rp-community-mapping. Thin by design; its printable version compiles into the Research Project student
+  workbook rather than shipping its own file.

@@ -1,0 +1,51 @@
+# Student worksheet (resource) for the activity cb-rp-what-good-research-looks-like. Thin per §3: what
+# the sheet is and how the learner uses it. A simple visual self-check the learner marks now and again
+# at the end of the course (Phase 6, Showcase and reflect, reuses it). Ships no file of its own — its
+# printable version compiles into the Research Project student workbook. Learning Bridge+ (Cox's Bazar).
+id: cb-rp-researcher-growth-path
+slug: cb-rp-researcher-growth-path
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Where I am as a researcher"
+summary: >-
+  A simple picture self-check the learner marks near the start of the course and again at the end: where
+  they feel they are on the path from guessing to finding out carefully and fairly — so they can see how
+  they have grown.
+facilitationContext:
+- group
+- independent
+primaryContext: independent
+learnerContent: |
+  ## Where I am as a researcher
+
+  This page is a path in pictures, from just starting out to finding out carefully and fairly on your
+  own. It is not a test. It is a way to see how you grow.
+
+  You use this page twice:
+
+  - Near the start of the course, you mark where you feel you are now. Near the start is a fine place to be.
+  - At the end of the course, you mark again — and you can see how far you have moved.
+
+  On the page there is room to:
+
+  - Mark your place on the path now.
+  - Mark your place on the path at the end.
+  - Draw or mark one way you have grown as a researcher.
+
+  There is no wrong answer, and no one marks this page right or wrong. Keep it in your research book so
+  you can find it again on the last day.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Marking their own place on the path, then returning to see how they moved, lets learners read and
+    own their own growth as researchers rather than waiting to be told how they did.
+objectiveIds: []
+relatedSlugs: [cb-rp-what-good-research-looks-like]
+provenanceNote: >-
+  Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Research Project edition, paired to
+  cb-rp-what-good-research-looks-like. A before/after self-assessment reused in the final phase (Showcase
+  and reflect). Thin by design; its printable version compiles into the Research Project student workbook
+  rather than shipping its own file.

@@ -1,0 +1,47 @@
+# Student worksheet (resource) for the orientation activity cb-rp-set-up-research-book. Thin per §3:
+# what the sheet is and how the learner uses it. Ships no file of its own — its printable version
+# compiles into the Research Project student workbook (the research book). Learning Bridge+ (Cox's Bazar).
+id: cb-rp-research-book-cover
+slug: cb-rp-research-book-cover
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "My research book — cover and how I use it"
+summary: >-
+  The front of the learner's research book: a cover they make their own, and a simple "how I use my
+  book" page that reminds them the book is theirs and works in drawings, marks, and a few words.
+facilitationContext:
+- group
+- independent
+primaryContext: independent
+learnerContent: |
+  ## My research book
+
+  This is the front of your book — the book you keep for the whole course.
+
+  On the cover you can:
+
+  - Put your name or your own mark, so you always know the book is yours.
+  - Draw a small picture of our hills if you wish.
+
+  The next page, "how I use my book", reminds you how the book works:
+
+  - Drawings and pictures are welcome.
+  - Marks and small signs that mean something to you are welcome.
+  - A few words are fine, when a word helps.
+  - No one marks your book right or wrong. It is yours.
+
+  Keep your book safe, and bring it every time the group meets. If it gets rained on or torn, that is
+  all right — the thinking inside it is what matters.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Making the cover their own, and holding a book no one marks right or wrong, gives each learner a
+    place they fully own to carry their thinking across the whole course.
+objectiveIds: []
+relatedSlugs: [cb-rp-set-up-research-book]
+provenanceNote: >-
+  Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Research Project edition, paired to
+  cb-rp-set-up-research-book. Thin by design; its printable version compiles into the front of the
+  Research Project student workbook (the research book) rather than shipping its own file.

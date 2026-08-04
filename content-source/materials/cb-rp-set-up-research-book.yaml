@@ -1,0 +1,112 @@
+# Contextualised, fully offline ORIENTATION activity for the Research Project component of Learning
+# Bridge+ (Cox's Bazar). Learners set up the research book they keep through the whole course — mostly
+# drawings, marks, and a few words — and make the first pages together. Getting started phase. Oral and
+# visual first; warm, hopeful tone; the research book is the visual-first spine that carries evidence.
+id: cb-rp-set-up-research-book
+slug: cb-rp-set-up-research-book
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Set up your research book"
+summary: >-
+  Learners set up the research book they will keep through the whole course — where their question,
+  their evidence, and their thinking live, mostly as drawings, marks, and a few words. The group makes
+  the first pages together and learns how to use the book.
+facilitationContext:
+- group
+primaryContext: group
+duration: "1.5 hours facilitated + 0.5 hour independent"
+grouping: "Whole group to model, then each learner works in their own book"
+whatLearnersDo:
+- Meet the research book — the one book they keep from the first day to the last — and make its cover their own.
+- "See how to use it: drawings, marks, and a few words, not neat writing."
+- Make the first pages together, with the facilitator modelling each one.
+- Learn where the book lives and how to keep it safe between sessions.
+materialsAndPreparation:
+- One research book (the student workbook) per learner, or blank pages to bind together if books are not ready.
+- Pencils, and colours if you have them; the cover and "how I use my book" pages from the workbook.
+- Your own research book, made ahead, so you can show — not just tell — what the first pages look like.
+- Step-back and referral guidance to hand, in case the drawing touches a landslide or a lost shelter.
+facilitationNotes: >-
+  The one thing to get right: show, do not tell. Make your own research book first, and think out loud
+  as you make each page, so learners see that marks and drawings are real research, not second best.
+  Keep it warm and unhurried, and reassure everyone that no one has to write neatly, or read, or share
+  anything they would rather keep private. The book is the spine of the whole course — a learner who
+  misses a week can pick their book back up and see where they were — so it is worth taking the time to
+  set it up well and to keep coming back to it.
+steps:
+- title: "Meet our research book"
+  duration: "20 min"
+  guidance: >-
+    Show your own research book and explain, simply, what it is: the one book each of us keeps from the
+    first day to the last, where our question, what we find out, and our thinking all live. It is ours,
+    it is private unless we choose to share, and it is mostly drawings and marks, not neat writing.
+  keyPrompts:
+  - "What do you think we will keep in a book like this?"
+  - "Whose book is this? (Yours — no one marks it right or wrong.)"
+- title: "Make the cover our own"
+  duration: "30 min"
+  guidance: >-
+    Learners make the cover their own — their name or their mark, and a small drawing of our hills if
+    they wish. Model your own cover first. This is where the book stops being a blank workbook and
+    becomes theirs.
+  keyPrompts:
+  - "How will you know this book is yours?"
+- title: "Make our first pages together"
+  duration: "30 min"
+  guidance: >-
+    Make the first pages together, one at a time, with you modelling each. A "how I use my book" page
+    (drawings and marks are welcome; a few words are fine), and the first-thoughts page from the last
+    activity if it is not already in. Go slowly and let everyone keep up.
+  keyPrompts:
+  - "What could you draw here that no words could say?"
+- title: "Where our book lives"
+  duration: "10 min"
+  guidance: >-
+    Agree together where the books live and how we keep them safe between sessions, and reassure
+    learners that a book that gets rained on or torn is not a problem — the thinking in it is what
+    matters. Close warmly.
+learnerContent: |
+  ## My research book
+
+  This is your book. You will keep it from the first day of the course to the last. In it you will keep
+  our question, what you find out, and your own thinking about our hills.
+
+  You do not need neat writing. You can use:
+
+  - Drawings and pictures.
+  - Marks and small signs that mean something to you.
+  - A few words, when a word helps.
+
+  No one marks your book right or wrong. It is yours. Keep it safe, and bring it every time we meet.
+worksheet:
+  slug: cb-rp-research-book-cover
+  note: "In the research book (student workbook): the 'My research book' cover and 'how I use my book' page. Print one per learner."
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
+  how: >-
+    The research book gives each learner a place they own and control to hold their own thinking across
+    the whole course — a visual-first record they build, keep, and return to, whatever their reading
+    level.
+principlesForegrounded: [builds-on-identities, safe-spaces, recognise-communicate-growth]
+principleAlignment:
+- principle: builds-on-identities
+  how: The book is made theirs from the first page — their name or mark, their drawings — so it belongs to them, not to the course.
+- principle: safe-spaces
+  how: The book is private unless the learner chooses to share, and no one marks it right or wrong; no neat writing or reading is required.
+- principle: recognise-communicate-growth
+  how: Learners keep and control their own record of the investigation, and can pick it back up after a missed session.
+competencyCodes: [FSI1]
+competencyDevelopment:
+- code: FSI1
+  how: Setting up and keeping a research record is a working habit of an investigator, and the book carries the evidence the whole investigation is built on.
+objectiveIds: []
+relatedSlugs: [cb-rp-meet-our-challenge, cb-rp-research-book-cover, cb-rp-my-first-thoughts]
+provenanceNote: >-
+  Authored orientation activity for the Learning Bridge+ (Cox's Bazar) Research Project edition. Sets up
+  the research book — the visual-first spine that carries evidence across a stop-start attendance
+  pattern, as the learning book does for Agency in Learning. Getting started phase; fully offline, oral
+  and visual first. Its printable cover and how-to page compile into the Research Project student
+  workbook.

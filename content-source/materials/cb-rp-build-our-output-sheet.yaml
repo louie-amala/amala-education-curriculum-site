@@ -1,0 +1,46 @@
+# Student worksheet (resource) for cb-rp-build-our-output. Thin per §3: what the sheet is and how the
+# learner uses it. Ships no file of its own — its printable version compiles into the Research Project
+# student workbook. Learning Bridge+ (Cox's Bazar) edition. Phase 5 "Communicate findings".
+id: cb-rp-build-our-output-sheet
+slug: cb-rp-build-our-output-sheet
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Building our output — our main message and our evidence"
+summary: >-
+  The learner's building page: the one thing we most want people to understand, the few claims our output
+  makes, where the evidence for each one sits, what our evidence does not tell us, and the questions we
+  practise answering.
+facilitationContext:
+- group
+- independent
+primaryContext: independent
+learnerContent: |
+  ## Building our output
+
+  Use this page as you build and rehearse. Fill it in with your team, in words or drawings.
+
+  The sheet has room for:
+
+  - The one thing we most want people to understand.
+  - The few things our output says — our claims.
+  - For each claim, where the evidence for it is in our evidence log.
+  - What our evidence does NOT tell us — the limits we will show honestly (for example, "we only spoke
+    to a few people").
+  - The questions our audience might ask, and how we would answer them.
+  - Who does what when we present — a safe part for everyone, and no names of the people we spoke to.
+
+  Keep this page in your research book. It is part of how your teacher sees you grow as a researcher.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - control-of-future-pathways
+  how: >-
+    Pinning down the main message, the evidence behind each claim, and the honest limits is how learners
+    make findings their community can trust — a discipline they carry into future investigations.
+objectiveIds: [research-project--o4]
+relatedSlugs: [cb-rp-build-our-output, cb-rp-choose-format-and-audience]
+provenanceNote: >-
+  Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Research Project edition, paired to
+  cb-rp-build-our-output. Thin by design; its printable version compiles into the Research Project
+  student workbook rather than shipping its own file.

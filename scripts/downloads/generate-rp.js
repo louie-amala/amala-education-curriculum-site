@@ -106,6 +106,14 @@ const ORIGINALS = {
     ],
   },
   F: { ref: 'Ro Maung Shwe / RK News Desk, "Rohingya Youth Form Environmental Network to Protect Camps from Growing Ecological Crisis," Rohingya Khobor, 12 December 2025. rohingyakhobor.com.', note: 'Community outlet, rights reserved - not reproduced. Cite and summarise only.' },
+  G: {
+    ref: 'Authors listed at the source (CONFIRM), "Land Cover Changes and Land Surface Temperature Dynamics in the Rohingya Refugee Area, Cox’s Bazar, Bangladesh: An Analysis from 2013 to 2024." Atmosphere (MDPI), 2025. doi:10.3390/atmos16030250. Open access (CC BY) - free to reproduce with attribution.',
+    text: [
+      'Using Landsat satellite imagery of the 34 refugee camps, the study found a 97% decline in mixed forest cover and a 161.78% increase in built-up area between 2013 and 2018, corresponding to a substantial rise in land surface temperature.',
+      'The area with land surface temperature between 36.5 and 39.5 degrees C expanded by about 35% by 2018 compared with 2013, then reduced slightly (about 2%) from 2018 to 2024, attributed to reforestation efforts by government and NGOs.',
+    ],
+  },
+  H: { ref: 'UNHCR, "Rohingya refugees restore depleted forest in Bangladesh," around 2021 (CONFIRM date). unhcr.org.', note: 'UN agency first-person story (a plantation guardian); reproducible for educational/non-commercial use with attribution, but full text not to hand - summarised only. Confirm date and any quotes at the source.' },
 };
 
 // ============================================================ FACILITATOR PLAN & GUIDE
@@ -177,7 +185,7 @@ function facilitatorPlan() {
   c.push(pageBreak());
   c.push(H1('Appendix B - Full original articles (facilitator reference)'));
   c.push(P('The complete originals behind the graded source cards. For your reference and the strongest readers; the student workbook carries the graded versions only.', { size: 22, color: GREY }));
-  for (const key of ['A', 'B', 'C', 'D', 'E', 'F']) {
+  for (const key of ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']) {
     const o = ORIGINALS[key];
     c.push(H2(`Source ${key}`));
     c.push(P(o.ref, { size: 20, color: GREY, italics: true }));
@@ -210,32 +218,54 @@ const evidenceGrid = (nRows) => {
   return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: colW, rows });
 };
 
+// A full-width blank box for the learner to draw/mark/write in.
+const box = (h, labelText) => new Table({
+  width: { size: 100, type: WidthType.PERCENTAGE },
+  columnWidths: [10800],
+  rows: [new TableRow({ height: { value: h, rule: 'atLeast' }, children: [new TableCell({
+    width: { size: 10800, type: WidthType.DXA },
+    children: labelText ? [new Paragraph({ children: [new TextRun({ text: labelText, size: 18, color: GREY })] })] : [new Paragraph('')],
+  })] })],
+});
+
+// The student workbook IS the research book: the source cards to read, then one labelled page per
+// activity (in course order), each = the worksheet's instructions + space to fill. Compiled from the
+// unit + cb-rp materials, so it stays a faithful copy of the site.
 function workbook() {
   const c = [];
   c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 52, color: NAVY })], spacing: { after: 40 } }));
-  c.push(P('Student Workbook', { size: 30, bold: true, color: PLUM, after: 40 }));
+  c.push(P('Student Workbook — Our Research Book', { size: 30, bold: true, color: PLUM, after: 40 }));
   c.push(P("The trees on our hills  ·  Learning Bridge+ (Cox's Bazar)", { size: 22, color: GREY, after: 200 }));
-  c.push(P('This is your book for the Research Project. It has the sources we read, our research words, and a place to keep what we find out. Read the version that is right for you, or listen while your teacher reads.', { size: 22 }));
-  c.push(pageBreak());
+  c.push(P('This is your research book. It has the sources we read, our research words, and a page for each step of our investigation. Read the version that is right for you, or listen while your teacher reads. You can use drawings, marks, and a few words — no neat writing needed.', { size: 22 }));
 
   // The source pack, as learners read it (graded readings + word bank; no full originals)
   const pack = mat['cb-rp-secondary-source-pack'];
   if (pack && pack.learnerContent) {
+    c.push(pageBreak());
     c.push(H1('Our sources'));
     c.push(...mdBlocks(pack.learnerContent));
   }
 
-  // The evidence log worksheet + a blank grid to fill
-  const log = mat['cb-rp-source-pack-evidence-log'];
-  if (log) {
-    c.push(pageBreak());
-    c.push(H1(log.title));
-    if (log.learnerContent) c.push(...mdBlocks(log.learnerContent));
-    c.push(P('Fill one row for each source you read.', { size: 22, color: GREY, before: 80 }));
-    c.push(evidenceGrid(6));
-    c.push(pageBreak());
-    c.push(evidenceGrid(8));
-  }
+  // One research-book page per activity worksheet, in unit (course) order.
+  const gridSlugs = new Set(['cb-rp-source-pack-evidence-log', 'cb-rp-gathering-record']);
+  unit.phases.forEach((ph) => {
+    ph.blocks.forEach((b) => {
+      const m = b.materialSlug ? mat[b.materialSlug] : null;
+      if (!m || !m.worksheet || !m.worksheet.slug) return;
+      const ws = mat[m.worksheet.slug];
+      if (!ws) return;
+      c.push(pageBreak());
+      c.push(new Paragraph({ children: [new TextRun({ text: ('Research book · ' + m.title).toUpperCase(), bold: true, size: 15, color: PLUM })], spacing: { after: 40 } }));
+      c.push(new Paragraph({ children: [new TextRun({ text: ws.title, bold: true, size: 30, color: NAVY })], spacing: { after: 120 } }));
+      if (ws.learnerContent) c.push(...mdBlocks(ws.learnerContent));
+      if (gridSlugs.has(ws.slug)) {
+        c.push(P('Fill one space for each source or person.', { size: 20, color: GREY, before: 80 }));
+        c.push(evidenceGrid(6));
+      } else {
+        c.push(box(3200, 'My drawing, marks, and words'));
+      }
+    });
+  });
 
   c.push(pageBreak());
   c.push(P("Cox's Bazar edition · Research Project component of Learning Bridge+ · not for redistribution outside the programme.", { size: 18, color: GREY }));

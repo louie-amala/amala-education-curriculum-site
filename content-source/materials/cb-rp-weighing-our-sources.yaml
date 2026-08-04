@@ -1,0 +1,132 @@
+# Contextualised, fully offline ANALYSIS activity for the Research Project component of Learning Bridge+
+# (Cox's Bazar). Learners meet, in plain terms, how a researcher decides how far to trust a source, and
+# apply it to BOTH their primary evidence and the supplied source pack, marking how much weight each
+# piece can bear. Evaluate evidence phase (objective 3). Reuses the source pack's "Can we trust it?"
+# CRAAP questions. Oral and visual first; hands-on; warm tone; no learner speaks from their own life.
+id: cb-rp-weighing-our-sources
+slug: cb-rp-weighing-our-sources
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Can we trust it? Weighing our sources"
+summary: >-
+  Learners meet, in plain terms, how a researcher decides how far to trust a piece of evidence — who
+  said it, how they know, whether other evidence agrees, and whether they might be mistaken or have a
+  reason to shape the story — and use it to weigh both their own primary evidence and the supplied
+  source pack, marking how much weight each piece can bear.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+duration: "2 hours facilitated + 1 hour independent"
+grouping: "Whole group to model, then pairs; a short independent think between sessions"
+whatLearnersDo:
+- Meet five plain questions a researcher asks of any source, and use them on a source together.
+- Weigh the sources in the pack — some strong, one weak — and say which can carry more weight.
+- "Weigh their own primary evidence too: one person's strong opinion is not the same as a pattern across many."
+- Mark, in the research book, how much weight each piece of evidence can bear.
+materialsAndPreparation:
+- The supplied secondary source pack (cb-rp-secondary-source-pack) and its printed "Can we trust it?" cards.
+- The evidence log from earlier in the course, with what learners have gathered so far.
+- The "can we trust it?" sheet from the research book (one per learner).
+- A floor or wall where cards can be placed along a line from "trust more" to "trust less".
+facilitationNotes: >-
+  The one thing to get right is that trust is not yes-or-no — it is how much weight a piece of evidence
+  can carry. Keep it plain and hands-on: the five questions, then a line on the floor from "trust more"
+  to "trust less", and learners place each source along it and say why. Use the source pack's built-in
+  weak source (the company's website) so the judging has something real to bite on. When you turn to the
+  learners' own primary evidence, keep it warm and general — no learner has to speak from their own life;
+  weigh "what one person told us" and "what many people said" as examples, not anyone's story.
+steps:
+- title: "Five questions a researcher asks"
+  duration: "30 min"
+  guidance: >-
+    Introduce, in plain terms, the five questions we ask of any piece of evidence: Who said it? When?
+    Why did they say it? Do they show how they know? And does it help our question? Add one more idea
+    out loud: could they be mistaken, or have a reason to shape the story so it sounds better? These are
+    the same questions printed on the "Can we trust it?" card in our source pack.
+  keyPrompts:
+  - "Who made this, and how do they know?"
+  - "Could they have a reason to tell it one way?"
+  - "Does other evidence agree with it?"
+- title: "Weigh the source pack on a line"
+  duration: "45 min"
+  guidance: >-
+    Make a line on the floor or wall, from "trust more" at one end to "trust less" at the other. In
+    pairs, learners take a source from the pack, ask it the five questions, and place it on the line,
+    saying why. Draw out why the company's website sits low (it sells trees and shows no proof) and why
+    the science and the UN sources sit higher. There is no single right order — the reasons are the point.
+  keyPrompts:
+  - "Why does this source sit here and not further along?"
+  - "Which source would you trust most for our question, and why?"
+- title: "Weigh our own evidence too"
+  duration: "30 min"
+  guidance: >-
+    Turn to the primary evidence the group gathered. Weigh it the same way, using general examples: one
+    person's strong opinion is not the same as a pattern many people described; something we saw with our
+    own eyes on the hills carries real weight. Keep it general and warm — we are weighing kinds of
+    evidence, not anyone's personal story.
+  keyPrompts:
+  - "Did many people say this, or just one?"
+  - "Did we see it ourselves, or were we told it?"
+- title: "Mark how much weight each piece can bear"
+  duration: "15 min"
+  guidance: >-
+    Learners go back to their evidence log and, on the "can we trust it?" sheet, mark for each piece how
+    much weight it can bear — a lot, some, or a little — with a word or a mark. This protects us later
+    from building an insight on a single shaky claim.
+learnerContent: |
+  ## How much can we trust it?
+
+  Not every piece of evidence is equal. Some we can lean on hard; some we should treat with care. A
+  researcher does not just ask "is this true or false?" — they ask "how much weight can this carry?"
+
+  For every source, and for everything people told us, ask five questions:
+
+  - Who said it?
+  - When?
+  - Why did they say it?
+  - Do they show how they know?
+  - Does it help our question?
+
+  And one more: could they be mistaken, or have a reason to tell the story one way? A company selling
+  trees wants trees to sound good. One person's strong opinion is not the same as a pattern many people
+  described. Something we saw ourselves on the hills carries real weight.
+
+  We do the same for the source pack and for our own evidence. Then we mark how much weight each piece
+  can bear — so we build our findings on the evidence we can trust, not on a single shaky claim.
+worksheet:
+  slug: cb-rp-can-we-trust-it
+  note: "In the research book (student workbook): the 'Can we trust it?' page. Print one per learner."
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Learning to weigh how far a claim can be trusted — who said it, how they know, whether other
+    evidence agrees — is a skill learners carry into every decision that shapes their lives, so they act
+    on evidence rather than on whoever spoke loudest.
+principlesForegrounded: [feedback-and-data, responsible-action, authentic-challenges]
+principleAlignment:
+- principle: feedback-and-data
+  how: Learners weigh each piece of evidence against the others and against what they saw themselves, rather than accepting any of it whole.
+- principle: responsible-action
+  how: Judging how much weight a claim can bear is what stops an insight — and later an action — from resting on a single shaky source.
+- principle: authentic-challenges
+  how: The sources and the primary evidence are about a real, local challenge, so the judging matters and is not an exercise.
+competencyCodes: [FSI1, FPS2, FPS3]
+competencyDevelopment:
+- code: FSI1
+  how: Weighing evidence is part of conducting the investigation, not a separate skill bolted on.
+- code: FPS2
+  how: The whole activity is the "evaluating sources" strand — deciding how far each source can be trusted before relying on it.
+- code: FPS3
+  how: Asking whether a source might be mistaken or have a reason to shape the story surfaces the factors that make evidence stronger or weaker.
+objectiveIds: [research-project--o3]
+relatedSlugs: [cb-rp-secondary-source-pack, cb-rp-can-we-trust-it, cb-rp-source-pack-evidence-log, cb-rp-sort-and-theme]
+provenanceNote: >-
+  Authored for the Learning Bridge+ (Cox's Bazar) Research Project edition. The source-evaluation
+  activity for the "Evaluate evidence and develop insights" phase (objective 3). Reuses the "Can we
+  trust it?" CRAAP questions printed on every card of the supplied source pack (cb-rp-secondary-source-pack),
+  applied to both primary evidence and the pack. Fully offline, oral and visual first, hands-on. Its
+  printable "can we trust it?" sheet compiles into the Research Project student workbook.

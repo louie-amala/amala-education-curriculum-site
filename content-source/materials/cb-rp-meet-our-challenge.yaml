@@ -1,0 +1,95 @@
+# Contextualised, fully offline ORIENTATION activity for the Research Project component of Learning
+# Bridge+ (Cox's Bazar). Learners meet the shared challenge — the trees on the hills where they live —
+# through a picture/story of the hills before and now, react to it, and hear what the course will do.
+# Getting started phase. Oral and visual first; warm, hopeful tone; safeguarding to hand.
+id: cb-rp-meet-our-challenge
+slug: cb-rp-meet-our-challenge
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Meet our challenge"
+summary: >-
+  Learners meet the one challenge the whole group will investigate — what is happening to the trees on
+  the hills where we live — through a picture and story of the hills before and now. They say what they
+  notice and wonder, and hear how the course will work.
+facilitationContext:
+- group
+primaryContext: group
+duration: "2 hours facilitated + 0.5 hour independent"
+grouping: "Whole group, sitting together; pairs for talking"
+whatLearnersDo:
+- Look at a picture or hear a short story of the hills as they were before, and as they are now.
+- Say what they notice and what they already wonder about the trees, the bare slopes, the rain, the heat.
+- "Hear, in plain terms, what the course will do: make our question our own, gather evidence, work out what it means, and share it."
+materialsAndPreparation:
+- A picture (or a story you tell) of the hills before the camps and now — bare slopes, few trees.
+- 'The research question written or drawn big to show at the end: "What happens to our hills without trees, and what changes when trees and plants grow back?"'
+- Step-back and referral guidance to hand, in case the talk touches a landslide or a lost shelter.
+facilitationNotes: >-
+  The one thing to get right: keep the tone one of curiosity and hope — the land is greening again — not
+  disaster. The trees are a safe subject, but they touch landslides and lost shelters, so no learner has
+  to speak from their own life. Start from a picture or story, not a definition, and let learners react
+  before you explain anything.
+steps:
+- title: "The hills, before and now"
+  duration: "40 min"
+  guidance: >-
+    Show a picture, or tell a short story, of the hills before the camps — covered in forest — and now,
+    bare in many places. Give learners time to look and react. Draw out what they notice, in their own
+    words, without correcting or teaching yet.
+  keyPrompts:
+  - "What do you see? What is different between before and now?"
+  - "What do you already know about our hills?"
+- title: "What we wonder"
+  duration: "40 min"
+  guidance: >-
+    In pairs, learners say one thing they wonder about the trees and hills. Gather these together — they
+    are the first seeds of our research. Notice how personal the flooding or landslides are for the
+    group; this tells you how much to lead later, and where to take care.
+  keyPrompts:
+  - "What do you wonder about our hills and trees?"
+- title: "What our course will do"
+  duration: "40 min"
+  guidance: >-
+    Walk through, simply, what the group will do together over the course: make our question our own,
+    gather evidence by asking and looking and by reading the source pack, work out what it means, and
+    share it. Show the research question. Keep it warm and unhurried.
+learnerContent: |
+  ## Our challenge
+
+  Our hills were once covered in trees. When the camps were built, and when families needed wood, many
+  of the trees were cut down, and the hills became bare. Now, when the heavy rain comes, the soil slides,
+  and in the hot sun the bare land gets very hot. But the land is being brought back to life, little by
+  little.
+
+  Together we are going to find out about this. Our question is: what happens to our hills without trees,
+  and what changes when trees and plants grow back?
+worksheet:
+  slug: cb-rp-my-first-thoughts
+  note: "In the research book (student workbook): the 'My first thoughts about our hills' page. Print one per learner."
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Learners begin an investigation into a real challenge in their own community, starting from what
+    they already notice and care about — the first step in turning concern into understanding they can
+    act on.
+principlesForegrounded: [builds-on-identities, authentic-challenges, safe-spaces]
+principleAlignment:
+- principle: builds-on-identities
+  how: The challenge starts from the hills the learners live on and what they already know and feel about them.
+- principle: authentic-challenges
+  how: This is a real, local challenge the whole community shares, not a hypothetical case.
+- principle: safe-spaces
+  how: No learner has to speak from their own life; the facilitator holds a warm, hopeful tone and has referral guidance to hand.
+competencyCodes: [FSI1]
+competencyDevelopment:
+- code: FSI1
+  how: Meeting and reacting to a real-world challenge is the orientation from which the whole investigation grows.
+objectiveIds: []
+relatedSlugs: [cb-rp-set-up-research-book, cb-rp-my-first-thoughts]
+provenanceNote: >-
+  Authored orientation activity for the Learning Bridge+ (Cox's Bazar) Research Project edition. Opens
+  the shared challenge (trees on our hills) warmly and hopefully. Getting started phase; fully offline,
+  oral and visual first.

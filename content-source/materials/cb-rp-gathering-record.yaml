@@ -1,0 +1,41 @@
+# Student worksheet (resource) for the practice block cb-rp-go-and-gather. Thin per §3: what the sheet
+# is and how the learner uses it. Ships no file; compiles into the Research Project student workbook
+# (research book). Learning Bridge+ (Cox's Bazar) edition.
+id: cb-rp-gathering-record
+slug: cb-rp-gathering-record
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "What I found when I asked and looked"
+summary: >-
+  The learner's gathering-record page: a place to record, in marks, drawings, and a few words, what they
+  found when they asked people and looked at places from our community map — and where each thing came
+  from, without naming anyone.
+facilitationContext:
+- independent
+- group
+primaryContext: independent
+learnerContent: |
+  ## What I found when I asked and looked
+
+  Use one space for each person you asked or place you looked at. For each one, record — in a drawing,
+  a mark, or a few words:
+
+  - What kind of person or place it was (do NOT write anyone's name).
+  - What I found out about our question.
+  - One thing that surprised me, or that I want to check.
+
+  Remember: ask permission first, every time. If someone does not want to answer, that is fine. Keep
+  this page in your research book so all our evidence stays in one place.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Keeping an honest, anonymous record of what they gathered and where it came from is how a researcher
+    builds evidence they can stand behind — and it protects the people who helped them.
+objectiveIds: [research-project--o2]
+relatedSlugs: [cb-rp-go-and-gather, cb-rp-source-pack-evidence-log]
+provenanceNote: >-
+  Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Research Project edition, paired to
+  cb-rp-go-and-gather. Thin by design; its printable version compiles into the Research Project student
+  workbook (research book). Carries the no-names safeguarding rule.

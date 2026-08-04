@@ -11,7 +11,7 @@ title: "Secondary Source Pack — the trees on our hills"
 summary: >-
   The supplied, offline pack of secondary sources for the Research Project. Every source comes at three
   reading levels (the real article, a B1 version, and an A1/A2 version), with key words explained and
-  printed trust signals so learners can weigh how far to trust each one. Draft — six sources so far.
+  printed trust signals so learners can weigh how far to trust each one. Draft — eight sources so far.
 facilitationContext:
 - group
 - independent
@@ -57,6 +57,10 @@ educatorContent: |
   - Source E (USGS): US Government public domain — free to reproduce with a courtesy credit.
   - Source F (Rohingya Khobor): community outlet, rights reserved — not reproduced; cited and
     summarised only.
+  - Source G (Atmosphere / MDPI): open-access science journal (CC BY) — free to reproduce with
+    attribution. (Author list to confirm at the source.)
+  - Source H (UNHCR): UN agency story, reproducible for educational, non-commercial use with attribution;
+    not reproduced here (full text not to hand). Date and any quotes to confirm at the source.
 
   ## Teacher master reference list
 
@@ -77,12 +81,20 @@ educatorContent: |
   - F. Ro Maung Shwe / RK News Desk. "Rohingya Youth Form Environmental Network to Protect Camps from
     Growing Ecological Crisis." Rohingya Khobor, 12 December 2025. Low authority: a community advocacy
     outlet, no citations or quotes — a valuable local voice, but not proof.
+  - G. "Land Cover Changes and Land Surface Temperature Dynamics in the Rohingya Refugee Area, Cox's
+    Bazar, Bangladesh: An Analysis from 2013 to 2024." Atmosphere (MDPI), 2025. doi:10.3390/atmos16030250.
+    Strong: peer-reviewed, local, quantitative, open-access. CONFIRM the author list at the source.
+  - H. UNHCR. "Rohingya refugees restore depleted forest in Bangladesh." Around 2021 (CONFIRM date).
+    First-person refugee testimony (a plantation guardian) — powerful but a single voice, not
+    independently verified.
 
   ## Still to add
 
-  The set now spans the credibility range: peer-reviewed science, UN agencies, US-government science, a
-  commercial blog, and a local community outlet. A named-expert op-ed (e.g. a Daily Star opinion piece)
-  could still be added for a higher-profile "strong opinion" example, if we can confirm its author.
+  The set now spans the credibility range: peer-reviewed local science with hard data (G), UN agencies,
+  US-government science, a first-person refugee voice (H), a commercial blog, and a local community
+  outlet. A named-expert op-ed (e.g. a Daily Star opinion piece) could still be added for a higher-profile
+  "strong opinion" example, if we can confirm its author. NOTE: two provenance details are flagged for
+  confirmation — Source G's author list and Source H's exact date (both hosts blocked automated checking).
 learnerContent: |
   ## How to use this pack
 
@@ -404,6 +416,92 @@ learnerContent: |
   - Do they show how they know? Not really — no numbers, no other people quoted, no sources.
   - Check it another way: this is a real local voice worth hearing, but check its facts against the stronger sources.
 
+  ## Source G — What the satellites show about our hills
+
+  Helps with sub-questions 1 and 3 (before and now; the heat). A strong, peer-reviewed local study. Reading level: B1.
+
+  ### The original article
+
+  A study in the science journal Atmosphere used pictures taken from satellites over our camps from 2013
+  to 2024. Read it (open access, free to read and share) at [the journal](https://doi.org/10.3390/atmos16030250).
+  (The paper's authors are listed at the source — to confirm when we print the pack.)
+
+  ### Read it (B1)
+
+  Scientists used pictures taken from satellites — cameras far above the Earth — to measure how the land
+  around our camps changed from 2013 to 2024. They measured two things: how much of the land was covered
+  in forest, and how hot the ground was.
+
+  They found a big change. Between 2013 and 2018, as the camps were built, almost all of the forest was
+  lost — a drop of 97 out of every 100 — and the built-up land grew fast. As the trees went, the ground
+  got hotter, and the very hot areas grew much bigger.
+
+  But there is hope in the numbers too. From 2018 to 2024, as the government and other groups planted
+  trees and grass again, the hottest area stopped growing and even shrank a little. Bringing the green
+  back is starting to cool the land.
+
+  ### Read it (simpler, A1/A2)
+
+  Scientists used pictures from satellites to look at our land from 2013 to 2024. They found that when the
+  trees were cut down, the land got much hotter. Then, when people planted trees and grass again, the land
+  started to cool a little. Green land is cooler than bare land.
+
+  ### New words
+
+  - satellite — a machine far above the Earth that takes pictures of the ground (see Source A)
+  - study — careful work by scientists to find something out
+  - journal — a book where scientists share studies that other scientists have checked
+  - forest — a large area of land covered with many trees (see Source C)
+
+  ### Can we trust it?
+
+  - Who? Scientists, in a science journal that other scientists checked before it was shared.
+  - When? 2024–2025 — new, and about our own area.
+  - Why? To measure and understand what happened to our land — not to sell anything.
+  - Do they show how they know? Yes — they measured it from satellite pictures, with numbers.
+  - Check it another way: it agrees with what we feel (bare land is hotter) and with the other sources.
+
+  ## Source H — A tree guardian's story
+
+  Helps with sub-question 1 (what is happening now). A refugee's own voice — one person's story. Reading level: A2 to B1.
+
+  ### The original article
+
+  Not reproduced here. This is a story from UNHCR, the United Nations refugee agency, about a Rohingya man
+  who cares for young trees in the camps. Find it at [unhcr.org](https://www.unhcr.org/news/stories/rohingya-refugees-restore-depleted-forest-bangladesh).
+  (Published around 2021 — the exact date is to be confirmed at the source.)
+
+  ### Read it (B1)
+
+  This is the story of a Rohingya man who works as a "plantation guardian" in the camps — he looks after
+  the young trees that have been planted on the bare hills. He waters them and cares for them, and when a
+  landslide tears young trees out of the ground, he plants them again. He also talks to his neighbours
+  about why the trees matter.
+
+  A story like this is powerful because it comes from someone who is really there, doing the work. But it
+  is one person's story. It tells us what he sees and feels, not what is true for the whole camp — so we
+  listen to it, and we also check it against what other people and other sources say.
+
+  ### Read it (simpler, A1/A2)
+
+  This is the story of a Rohingya man who looks after young trees in the camps. He waters them, and when a
+  landslide pulls them out, he plants them again. He tells his neighbours why trees matter. It is one
+  person's story — it tells us what he sees, but it is only one voice.
+
+  ### New words
+
+  - plantation guardian — a person whose job is to look after young trees
+  - UNHCR — the United Nations agency that helps refugees
+  - landslide — when soil and rock slide down a hill (see Source B)
+
+  ### Can we trust it?
+
+  - Who? A Rohingya man who does the work, told through UNHCR (the UN refugee agency).
+  - When? A few years ago (about 2021).
+  - Why? To share a real person's story and show the work being done.
+  - Do they show how they know? It is what one person sees and does — true for him, but only one voice.
+  - Check it another way: does his story match what we saw, and what the stronger sources say?
+
   ## Programme word bank
 
   Every word explained in this pack collects here. These are our research words — we build them onto the
@@ -424,12 +522,14 @@ learnerContent: |
   - forest — a large area of land covered with many trees (Source C)
   - hectare — a unit for measuring land, about the size of a large sports field (Source B)
   - infiltration — when water soaks down into the soil instead of running off (Source E)
+  - journal — a book where scientists share studies that other scientists have checked (Source G)
   - landslide — when soil and rock slide down a hill (Source B)
   - monsoon — the season of very heavy rain (Source B)
   - native plants — plants that grow naturally in a place (Source B)
   - network — a group of people who join together to work on something (Source F)
   - nursery — a place where young plants are grown until big enough to plant out (Source C)
   - percent — a part of one hundred (Source A)
+  - plantation guardian — a person whose job is to look after young trees (Source H)
   - refugee — a person who has had to leave their own country to be safe (Source C)
   - roots — the part of a plant that grows under the ground and holds it in place (Source B)
   - runoff — rain water that runs off the top of the ground instead of soaking in (Source E)
@@ -437,13 +537,17 @@ learnerContent: |
   - satellite — a machine high above the Earth that can take pictures of the ground (Source A)
   - scientist — a person who studies the world carefully to find out how it works (Source A)
   - slope — the sloping side of a hill (Source B)
+  - study — careful work by scientists to find something out (Source G)
   - United Nations (UN) — a group of most of the world's countries that work together (Sources B and C)
+  - UNHCR — the United Nations agency that helps refugees (Source H)
   - vapour — water that has turned into a gas in the air (Source A)
   - website — a page on the internet (Source D)
 provenanceNote: >-
   Authored draft (not a source extraction). Secondary sources gathered and graded for the Cox's Bazar
-  Research Project shared challenge (trees on our hills). Six sources spanning the credibility range for
-  source-evaluation work (peer-reviewed science, UN agencies, US-government science, a commercial blog,
-  and a local community outlet). Originals reproduced only where the licence permits (see educator notes).
+  Research Project shared challenge (trees on our hills). Eight sources spanning the credibility range for
+  source-evaluation work (peer-reviewed local science with data, UN agencies, US-government science, a
+  first-person refugee voice, a commercial blog, and a local community outlet). Originals reproduced only
+  where the licence permits (see educator notes). Two provenance details flagged to confirm (G author
+  list, H date), because both hosts blocked automated checking.
 sourceRefs:
 - "The Conversation (2021), FAO (2026), UN Bangladesh (2020), Grow Billion Trees — see teacher master reference list"

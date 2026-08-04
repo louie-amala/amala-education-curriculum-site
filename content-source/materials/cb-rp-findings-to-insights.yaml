@@ -1,0 +1,130 @@
+# Contextualised, fully offline ANALYSIS activity for the Research Project component of Learning Bridge+
+# (Cox's Bazar). The analytical heart: learners move from findings (what the evidence says) to insights
+# (what it means and why it matters for the hills and the people who live on them, and what could be
+# done), draft clear insight statements each backed by evidence, and separate evidence-backed claims
+# from opinion. Evaluate evidence phase (objective 3). Oral and visual first; warm, hopeful tone.
+id: cb-rp-findings-to-insights
+slug: cb-rp-findings-to-insights
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "From findings to insights"
+summary: >-
+  The analytical heart of the course. Learners move from findings — what the evidence says — to insights
+  — what it means and why it matters for the hills and the people who live on them, and what could be
+  done. They draft a small number of clear insight statements, each one backed by evidence, and learn to
+  tell an evidence-backed claim from an opinion.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+duration: "2 hours facilitated + 1 hour independent"
+grouping: "Whole group to model, then small groups to draft; whole group to sharpen"
+whatLearnersDo:
+- Hear, with an example, the difference between a finding and an insight.
+- Take a theme and ask what it means, why it matters, and what could be done about it.
+- Draft a few clear insight statements, each one they can point to the evidence for.
+- Sort each statement into "the evidence shows this" or "this is our opinion" — and keep them apart.
+materialsAndPreparation:
+- The "our themes" pages from the sorting activity, and the evidence log.
+- The "our insights" sheet from the research book (one per learner or group).
+- Two labels or spaces for sorting statements — "the evidence shows this" and "this is our opinion".
+facilitationNotes: >-
+  The one thing to get right is the difference between a finding and an insight, so model it plainly: a
+  finding is what the evidence says ("many people said the rain washes the soil away"); an insight is
+  what it means and why it matters ("bare hills lose their soil in the rain, so bringing back plants
+  would protect our homes"). Every insight must point back to evidence — if we cannot, it is an opinion,
+  and opinions go in their own place, not thrown away. Keep the tone warm and hopeful: the "what could be
+  done" part is where learners see their investigation could lead somewhere, but no learner has to speak
+  from their own loss. Aim for a few strong insight statements, not many weak ones.
+steps:
+- title: "A finding, and an insight"
+  duration: "30 min"
+  guidance: >-
+    Show the difference with one clear example from the group's own evidence. A finding is what the
+    evidence says. An insight is what that means and why it matters — and often, what could be done. Say
+    both out loud so the group hears the move from one to the other.
+  keyPrompts:
+  - "What does the evidence say? (that is our finding)"
+  - "What does it mean, and why does it matter? (that is our insight)"
+- title: "Turn our themes into insights"
+  duration: "50 min"
+  guidance: >-
+    In small groups, learners take a theme from the sorting activity and ask three questions of it: what
+    does it mean, why does it matter for the hills and the people who live on them, and what could be
+    done about it. They draft a clear insight statement, and note which evidence it stands on.
+  keyPrompts:
+  - "Why does this matter for our hills and for people's homes?"
+  - "What could be done — and what evidence makes us say so?"
+- title: "Evidence, or opinion?"
+  duration: "25 min"
+  guidance: >-
+    Take each draft statement and ask the group: can we point to the evidence for this? If yes, it is an
+    evidence-backed claim. If no, it is our opinion — still worth keeping, but in its own place, so we do
+    not mix the two. This is what keeps our insights honest.
+  keyPrompts:
+  - "Which piece of evidence backs this up?"
+  - "Is this what we found, or what we think?"
+- title: "Our few clear insights"
+  duration: "15 min"
+  guidance: >-
+    As a whole group, sharpen the drafts into a small number of clear insight statements, each backed by
+    evidence, on the "our insights" sheet. These are the defining outcome of the whole investigation, and
+    what the group will share in the final step.
+learnerContent: |
+  ## From findings to insights
+
+  We have our themes now. This is the step where we work out what they mean.
+
+  A **finding** is what the evidence says. For example: many people told us the rain washes the soil down
+  the bare hill, and our sources say the same.
+
+  An **insight** goes further. It says what the finding means and why it matters — and often, what could
+  be done. For example: bare hills lose their soil when the rain comes, so bringing back grass and trees
+  would hold the soil and help protect our homes.
+
+  For each theme, ask three questions:
+
+  - What does it mean?
+  - Why does it matter for our hills and the people who live on them?
+  - What could be done about it?
+
+  Then, for every insight, ask one more: can we point to the evidence for it? If we can, it is a claim we
+  can stand behind. If we cannot, it is our opinion — we keep it, but in its own place. Aim for a few
+  clear insights, each backed by evidence. These are what our whole investigation has been building
+  towards.
+worksheet:
+  slug: cb-rp-our-insights
+  note: "In the research book (student workbook): the 'Our insights — what we found and why it matters' page. Print one per learner."
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Moving from what the evidence says to what it means and what could be done — and standing each claim
+    on evidence — is how learners turn an investigation into understanding they can act on and share, so
+    they can speak to a challenge in their community with something solid behind them.
+principlesForegrounded: [feedback-and-data, responsible-action, authentic-challenges]
+principleAlignment:
+- principle: feedback-and-data
+  how: Every insight must point back to the evidence, and claims that cannot are kept apart as opinion.
+- principle: responsible-action
+  how: Working out what the evidence means and what could be done — without overclaiming beyond it — is the honest basis for acting on the challenge.
+- principle: authentic-challenges
+  how: The insights are about the real hills the learners live on and the people whose homes they are, so what they mean genuinely matters.
+competencyCodes: [FSI1, ATS1, FPS3]
+competencyDevelopment:
+- code: FSI1
+  how: Drawing conclusions from the evidence is the culminating analytical work of the investigation.
+- code: ATS1
+  how: Moving from findings to insights is interpreting the analysed data — saying what it means.
+- code: FPS3
+  how: Asking what could be done and why surfaces the contributing factors behind the challenge, backed by evidence.
+objectiveIds: [research-project--o3]
+relatedSlugs: [cb-rp-our-insights, cb-rp-sort-and-theme, cb-rp-weighing-our-sources]
+provenanceNote: >-
+  Authored for the Learning Bridge+ (Cox's Bazar) Research Project edition. The analytical heart of the
+  "Evaluate evidence and develop insights" phase (objective 3) — moving from findings to a few clear,
+  evidence-backed insight statements and separating claims from opinion. Fully offline, oral and visual
+  first, warm and hopeful in tone. Its printable "our insights" sheet compiles into the Research Project
+  student workbook.

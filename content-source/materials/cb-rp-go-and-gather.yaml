@@ -1,0 +1,93 @@
+# Contextualised, fully offline PRACTICE block for the Research Project component of Learning Bridge+
+# (Cox's Bazar). The heart of primary research: between sessions, in same-gender pairs and with the
+# consent routine already practised, learners gather primary evidence from the people and places on
+# their community map, and record it in the research book. Plan and conduct research phase (objective 2).
+id: cb-rp-go-and-gather
+slug: cb-rp-go-and-gather
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Go and gather"
+summary: >-
+  Between sessions, in pairs and with the consent routine already practised, learners gather primary
+  evidence about our question from the people and places on our community map, and record what they find
+  in the research book with marks, drawings, and a few words.
+facilitationContext:
+- group
+- independent
+primaryContext: independent
+duration: "1 hour facilitated + 3 hours independent"
+grouping: "Same-gender pairs for gathering; whole group for the check-in"
+whatLearnersDo:
+- Ask one or two people, or look at one or two places, from our community map — asking permission first, every time.
+- Record what they find in the research book, with marks, drawings, and a few words.
+- Bring what they found back to the group and share it in a warm check-in.
+materialsAndPreparation:
+- The community map (who and what we can safely learn from).
+- The interview or survey questions the group designed.
+- The gathering-record page in the research book, one per learner.
+- Step-back and referral guidance to hand.
+facilitationNotes: >-
+  The one thing to get right: protect this block and keep the ethics line, every time. Consent is always
+  asked, no names are written, no one is pressed to answer, and no learner is ever sent anywhere unsafe
+  to get evidence. Gathering happens mostly between sessions; open each session with a short, warm
+  check-in in same-gender pairs or the group — who did you speak to, what did you find, what got in the
+  way. When gathering is disrupted — by a fire, an illness, a week kept indoors — adapting the plan and
+  picking it up again is part of the skill, not a failure.
+steps:
+- title: "Check in on our gathering"
+  duration: "30 min"
+  guidance: >-
+    Open with a warm check-in, in same-gender pairs or the whole group: who did you speak to, what did
+    you find, what was hard. Celebrate what was gathered and gently solve problems together. Keep the
+    ethics line in view — remind the group of consent, no names, and staying safe.
+  keyPrompts:
+  - "Who did you ask, and what did they say?"
+  - "What got in the way, and how could we get around it?"
+- title: "Gather between sessions"
+  duration: "3 hours independent"
+  guidance: >-
+    In their pairs, and only with people and places it is safe and appropriate to approach, learners
+    ask permission, ask their questions or look carefully, and record what they find in the research
+    book with marks, drawings, and a few words. One or two people or places is plenty.
+learnerContent: |
+  ## Going to gather
+
+  Now we find things out for ourselves. In your pair, go to one or two people or places from our map.
+  Always ask permission first: "May I ask you some questions?" If they say no, or want to stop, that is
+  fine — say thank you and stop.
+
+  Do not write anyone's name. Never go anywhere that does not feel safe. Record what you find in your
+  research book — a drawing, a mark, a few words — and bring it back to share.
+worksheet:
+  slug: cb-rp-gathering-record
+  note: "In the research book (student workbook): the 'What I found when I asked and looked' gathering-record page. Print one per learner."
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Learners gather real evidence from their own community, ethically and safely — the investigative
+    heart of turning concern about a challenge into understanding they can act on.
+principlesForegrounded: [responsible-action, collaboration, authentic-challenges]
+principleAlignment:
+- principle: responsible-action
+  how: Consent, anonymity, and safety are held every time; no learner is sent anywhere unsafe to get evidence.
+- principle: collaboration
+  how: Learners gather in pairs and pool what they find in a warm group check-in.
+- principle: authentic-challenges
+  how: The evidence comes from real people and places in the learners' own community, about a challenge they share.
+competencyCodes: [FSI1, FTS3, FLC1]
+competencyDevelopment:
+- code: FSI1
+  how: Gathering primary evidence from the community is the core of conducting a real investigation.
+- code: FTS3
+  how: Learners collect and record data systematically in their research book.
+- code: FLC1
+  how: Learners act ethically throughout — consent, privacy, and the safety of participants and themselves.
+objectiveIds: [research-project--o2]
+relatedSlugs: [cb-rp-gathering-record, cb-rp-design-our-questions, cb-rp-two-ways-and-ethics, cb-rp-community-mapping]
+provenanceNote: >-
+  Authored practice block for the Learning Bridge+ (Cox's Bazar) Research Project edition: the primary-
+  research gathering that lives mostly in the independent hours, held inside a strong ethics and
+  safeguarding routine. Plan and conduct research phase (objective 2).

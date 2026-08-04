@@ -89,6 +89,7 @@ phases:
           repeating what people say. Keep it warm, oral, and unhurried.
       - title: "Meet our challenge"
         kind: activity
+        materialSlug: cb-rp-meet-our-challenge
         facilitatedHours: 2
         independentHours: 0.5
         description: >-
@@ -110,6 +111,7 @@ phases:
           Learning too.
       - title: "Set up your research book"
         kind: orientation
+        materialSlug: cb-rp-set-up-research-book
         facilitatedHours: 1.5
         independentHours: 0.5
         description: >-
@@ -123,6 +125,7 @@ phases:
           the visual-first spine that carries evidence across a stop-start attendance pattern.
       - title: "What good research looks like"
         kind: activity
+        materialSlug: cb-rp-what-good-research-looks-like
         facilitatedHours: 0.5
         independentHours: 0
         description: >-
@@ -140,6 +143,7 @@ phases:
     blocks:
       - title: "Why this challenge matters, and what we already know"
         kind: activity
+        materialSlug: cb-rp-what-we-already-know
         facilitatedHours: 2
         independentHours: 1
         description: >-
@@ -152,6 +156,7 @@ phases:
         independentTask: "Ask one older person at home what they remember about how our hills used to look, and bring back one thing to add to our wall."
       - title: "Who and what is connected to our challenge"
         kind: activity
+        materialSlug: cb-rp-community-mapping
         facilitatedHours: 2
         independentHours: 1
         description: >-
@@ -167,6 +172,7 @@ phases:
           objective and it becomes the sampling frame for the primary research in the next phase.
       - title: "Make our research question our own"
         kind: activity
+        materialSlug: cb-rp-our-research-question
         facilitatedHours: 2
         independentHours: 0.5
         description: >-
@@ -196,6 +202,7 @@ phases:
     blocks:
       - title: "Two ways to find out, and being a fair and safe researcher"
         kind: activity
+        materialSlug: cb-rp-two-ways-and-ethics
         facilitatedHours: 2
         independentHours: 0.5
         description: >-
@@ -209,6 +216,7 @@ phases:
         independentTask: "Practise asking someone at home for their permission before asking them a question, in our own words."
       - title: "Design our interview and survey questions"
         kind: activity
+        materialSlug: cb-rp-design-our-questions
         facilitatedHours: 2
         independentHours: 1
         description: >-
@@ -246,6 +254,7 @@ phases:
           alongside the cb-rp-* materials.
       - title: "Go and gather"
         kind: practice
+        materialSlug: cb-rp-go-and-gather
         facilitatedHours: 1
         independentHours: 3
         description: >-
@@ -269,6 +278,7 @@ phases:
     blocks:
       - title: "Can we trust it? Weighing our sources"
         kind: activity
+        materialSlug: cb-rp-weighing-our-sources
         facilitatedHours: 2
         independentHours: 1
         description: >-
@@ -281,6 +291,7 @@ phases:
         independentTask: "Think of something you were told about our challenge, and ask yourself: how does that person know it is true?"
       - title: "Sort and theme what we found"
         kind: activity
+        materialSlug: cb-rp-sort-and-theme
         facilitatedHours: 2
         independentHours: 1.5
         description: >-
@@ -292,6 +303,7 @@ phases:
         independentTask: "Look at what you gathered and find two pieces of evidence that say a similar thing; be ready to explain the pattern."
       - title: "From findings to insights"
         kind: activity
+        materialSlug: cb-rp-findings-to-insights
         facilitatedHours: 2
         independentHours: 1
         description: >-
@@ -313,6 +325,7 @@ phases:
     blocks:
       - title: "Choose our format and our audience"
         kind: activity
+        materialSlug: cb-rp-choose-format-and-audience
         facilitatedHours: 1.5
         independentHours: 1
         description: >-
@@ -324,6 +337,7 @@ phases:
         independentTask: "Decide who you most want to tell about what we found, and why they should care."
       - title: "Build our research output"
         kind: practice
+        materialSlug: cb-rp-build-our-output
         facilitatedHours: 2
         independentHours: 3
         description: >-
@@ -343,6 +357,7 @@ phases:
     blocks:
       - title: "Share our findings, and look back"
         kind: consolidation
+        materialSlug: cb-rp-share-and-reflect
         facilitatedHours: 2.5
         independentHours: 3
         description: >-

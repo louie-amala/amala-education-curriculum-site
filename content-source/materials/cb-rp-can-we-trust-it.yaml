@@ -1,0 +1,47 @@
+# Student worksheet (resource) for the activity cb-rp-weighing-our-sources. Thin per §3: what the sheet
+# is and how the learner uses it. Ships no file of its own — its printable version compiles into the
+# Research Project student workbook. Reuses the source pack's five "Can we trust it?" questions.
+# Learning Bridge+ (Cox's Bazar) edition.
+id: cb-rp-can-we-trust-it
+slug: cb-rp-can-we-trust-it
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Can we trust it?"
+summary: >-
+  A simple page for weighing one piece of evidence — the five questions a researcher asks of any source,
+  and a place to mark how much weight it can bear.
+facilitationContext:
+- group
+- independent
+primaryContext: independent
+learnerContent: |
+  ## Can we trust it?
+
+  Use one of these for each source, and for anything important people told us. Answer in words, drawings,
+  or marks. These are the same five questions printed on the cards in our source pack.
+
+  For each piece of evidence, the sheet has room for:
+
+  - Who? (who made it or said it)
+  - When?
+  - Why? (why did they say it — could they have a reason to tell it one way?)
+  - Do they show how they know?
+  - Does it help our question?
+  - How much weight can it bear? (a lot, some, or a little)
+
+  Keep these pages in your research book. They show your teacher how you are learning to weigh evidence
+  like a researcher.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Learning to ask how far a claim can be trusted, and to record that judgement, is a habit learners
+    carry into any future decision that rests on what someone told them.
+objectiveIds: [research-project--o3]
+relatedSlugs: [cb-rp-weighing-our-sources, cb-rp-secondary-source-pack]
+provenanceNote: >-
+  Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Research Project edition, paired to
+  cb-rp-weighing-our-sources. Reuses the five "Can we trust it?" questions from the supplied source pack.
+  Thin by design; its printable version compiles into the Research Project student workbook rather than
+  shipping its own file.
