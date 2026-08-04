@@ -21,17 +21,91 @@ facilitationContext:
 primaryContext: group
 educatorContent: |
   Learners struggle when they do not know where their learning is going or what good looks like. The
-  move is to get clear yourself on the learning intention (what learners should understand or be able
-  to do) and the success criteria (how anyone would know it has been achieved), and — when it helps —
-  to share these with learners.
+  move is to get clear yourself on the learning intention (what learners should understand or be
+  able to do) and the success criteria (how anyone would know it has been achieved), and — when it
+  helps — to share these with learners. Knowing all of this is also what lets you adapt: it tells you
+  whether an activity worked and what to do next.
 
-  Keep the context out of the intention itself: "write instructions" is a transferable intention;
-  "write instructions for changing a bicycle tyre" bakes in one context and limits transfer. Keep
-  them generic enough to apply to more than one task, or they become a checklist learners can follow
-  but not learn from. You do not need an intention on the board every session — sometimes the learning
-  is open, or naming it would spoil the discovery. And differentiate the journey, not the
-  destination: hold the same high expectations for every learner, and vary the support (a template
-  here, an example there) that gets each of them there.
+  Keep the context out of the intention. "Write instructions" is a transferable intention; "write
+  instructions for changing a bicycle tyre" bakes in one context and limits transfer. The context is
+  the vehicle for the learning, not the learning itself. Keep intentions and criteria generic enough
+  to apply to more than one task — too specific and they become a checklist learners can follow but
+  not learn from; too vague and they guide nobody. That balance takes practice.
+
+  Know your two kinds of success criteria. Product criteria describe what a good final piece
+  looks like; process criteria describe the steps to get there. Process criteria and templates can
+  lift the quality of work enormously, but if they are too prescriptive they do the thinking for the
+  learner — so build towards learners not needing them. Communicating quality is often better shown
+  than told: rather than handing over a rubric, start with anonymous samples of varying quality, have
+  learners rank them and build their own success criteria, then use those to self-assess before you
+  give feedback (see "Show quality, don't just describe it"). Some quality genuinely cannot be put into
+  words; there you are building a shared sense of quality with learners.
+
+  Finally: you do not need an intention on the board every session — sometimes the learning is open, or
+  naming it would spoil the discovery. Differentiate the journey, not the destination — hold the
+  same high expectations for every learner and vary the support (a template here, an example there)
+  that gets each of them there. And connect each intention to the bigger idea it serves, so learning is
+  curated and connected rather than a string of isolated lessons.
+steps:
+  - title: "Name the learning, context-free"
+    guidance: >-
+      Write the learning intention as what learners should understand or be able to do, stripped of
+      the specific task or context you'll teach it through. Ask whether it would still make sense
+      applied to a different task — if not, it is too baked into one context.
+    keyPrompts:
+      - "What should learners be able to do, that would transfer to a new situation?"
+      - "If I taught this through a different example, would the intention still hold?"
+    watchOuts:
+      - "An intention that names the task ('write a report on X') is a checklist, not a learning aim."
+      - "Too generic to guide anyone ('be a good writer') is the opposite failure — find the middle."
+  - title: "Write success criteria — process and product"
+    guidance: >-
+      Set out how anyone would know the intention has been met. Include product criteria (what good
+      looks like) and, where useful, process criteria (the steps to get there). Keep them applicable to
+      more than one task.
+    keyPrompts:
+      - "What would a strong piece show? What steps reliably get a learner there?"
+      - "Would these criteria still help on the next, different task?"
+    watchOuts:
+      - "Over-prescriptive process criteria do the thinking for the learner — plan to withdraw them."
+  - title: "Decide how you'll communicate quality"
+    guidance: >-
+      Choose how learners will come to understand what good looks like. Prefer showing over telling:
+      anonymous work samples of varying quality that learners rank and use to build their own criteria,
+      rather than only a rubric handed down. Pair with "Show quality, don't just describe it".
+    keyPrompts:
+      - "Could learners construct these criteria themselves from examples?"
+      - "Which is clearer here — a sample, a rubric, or a shared discussion of quality?"
+    watchOuts:
+      - "A rubric can constrain creativity if it becomes the only definition of good."
+  - title: "Plan the differentiated journey"
+    guidance: >-
+      Hold the same destination and high expectations for everyone, then vary the support that gets
+      each learner there — a template, a worked example, a sentence starter for some; nothing for
+      others. Differentiate the route, not the goal.
+    keyPrompts:
+      - "Same high bar for all — so what support does each learner need to reach it?"
+    watchOuts:
+      - "Differentiating the destination (less for some) lowers expectations; differentiate the support."
+  - title: "In the room: share it, or don't — then hand it over"
+    guidance: >-
+      Share the intention and criteria when it helps orientation; hold them back when naming the
+      learning would spoil an open enquiry. Either way, give learners the criteria to self-assess their
+      own work before you give feedback, and check what they think they are learning.
+    keyPrompts:
+      - "Would naming the learning now help, or spoil the discovery?"
+      - "Have learners judged their own work against the criteria before I stepped in?"
+    watchOuts:
+      - "Sharing criteria but never letting learners use them to self-assess wastes their main value."
+downloads:
+  - label: "Learning intentions & success criteria planner"
+    file: /downloads/cf-learning-intentions-planner.docx
+    format: Word
+    role: template
+    note: >-
+      A one-page planner to work through before a session: the context-free intention, product and
+      process success criteria, how you'll communicate quality, and the differentiated support. Includes
+      a worked example and a blank template.
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction
