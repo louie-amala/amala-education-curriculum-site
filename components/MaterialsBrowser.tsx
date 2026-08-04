@@ -14,6 +14,7 @@ const TYPES: { value: MaterialType; label: string }[] = [
   { value: "concept", label: "Concepts" },
   { value: "case-study", label: "Case studies" },
   { value: "resource", label: "Resources" },
+  { value: "educator-move", label: "Educator moves" },
 ];
 
 const CONTEXTS: { value: FacilitationContext; label: string }[] = [

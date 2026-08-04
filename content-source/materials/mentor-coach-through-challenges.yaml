@@ -1,0 +1,58 @@
+id: mentor-coach-through-challenges
+slug: mentor-coach-through-challenges
+access: public
+type: educator-move
+title: "Coach mentees to build their own coping strategies"
+summary: >-
+  When a mentee raises a challenge to their wellbeing, resist fixing it for them. Coach them to
+  build a strategy they own — and know when a challenge needs more than coaching.
+mentorRole: wellbeing
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  When a mentee brings a wellbeing challenge, the instinct is to solve it. Coaching is usually more
+  useful: help them name the challenge, look honestly at where they are, weigh their options, and
+  decide on a next step they choose. A strategy the mentee builds is one they can use again when you
+  are not there; a solution you hand over is not. Keep a few tools ready — ways to break a problem
+  down, to manage time and pressure, to ask for help — and offer them as options, not instructions.
+
+  Two cautions. First, know the limit of coaching: some challenges are not for a mentee to "work
+  through" alone, and recognising when something needs a referral rather than a strategy is part of
+  the job — that is where the safeguarding moves take over. Second, document what matters — the
+  challenge, what you agreed, what you are watching — so support is continuous and, if it has to be
+  escalated, the record is already there.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Being coached to build their own strategy, rather than having one imposed, is exactly how a
+    mentee grows the capacity to act on their own wellbeing.
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Coaching rather than correcting makes it safe for a mentee to admit where they are struggling,
+      which is precisely where support is needed.
+  - principle: collaboration
+    how: >-
+      Guiding through questions keeps the mentee the author of their own strategy while being
+      genuinely supported to build it.
+competencyDevelopment:
+  - code: AR3
+    how: >-
+      Coaching a learner to find alternative approaches to a barrier, rather than solving it for
+      them, is resilience built in practice.
+  - code: ASL2
+    how: >-
+      Working through a challenge with a mentee develops their own toolkit for managing time,
+      priorities and wellbeing under pressure.
+relatedSlugs:
+  - mentor-wellbeing-check-ins
+  - mentor-notice-and-respond
+  - mentor-coach-dont-rescue
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  Generalised from the Student Mentor Playbook's example approach (the mentor adapts a coaching role
+  when a student raises a challenge, has a toolkit of strategies, and documents interactions). The
+  caution about the limits of coaching and referral is added to connect wellbeing to safeguarding.

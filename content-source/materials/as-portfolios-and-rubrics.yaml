@@ -1,0 +1,46 @@
+id: as-portfolios-and-rubrics
+slug: as-portfolios-and-rubrics
+access: public
+type: educator-move
+title: "Use portfolios and rubrics well"
+summary: >-
+  A portfolio holds the growing evidence; a rubric makes the standard clear. Use both to support
+  learners to self-assess — not just to score them at the end.
+assessmentArea: assessment-tools
+educatorContent: |
+  Two workhorse instruments underpin the others. A portfolio is the learner's evolving store of work,
+  products and reflections — the body of evidence you and they draw on, and review, when judging
+  competencies (a portfolio review can be learner-led, they walk you through the links, or
+  assessor-led, you scan for evidence of particular criteria).
+
+  A rubric makes the criteria for a piece of work clear, specific and objective, so learners know what
+  is expected from the start and can self-assess and improve. Know the three common kinds and their
+  trade-offs: holistic rubrics (one overall level — quick to use, but no targeted feedback); analytic
+  rubrics (each criterion scored separately — rich, targeted feedback, but slower to build and read);
+  and single-point rubrics (describe only "meets the standard", leaving space to note what falls below
+  or exceeds — less writing, more open feedback). Whichever you use, make rubrics general enough to
+  apply across tasks, and use them to open a dialogue about quality and to power self-assessment,
+  rather than only to hand down a score.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    A portfolio the learner owns and a rubric they can self-assess against put the tools of judging and
+    improving their own work in the learner's own hands.
+principleAlignment:
+  - principle: recognise-communicate-growth
+    how: >-
+      A portfolio is a learner's accumulating, communicable record of growth, and a rubric names the
+      growth to aim for.
+  - principle: feedback-and-data
+    how: >-
+      Rubrics turn criteria into shared data learners can self-assess against and act on, not just a
+      score handed down at the end.
+relatedSlugs:
+  - cf-communicate-quality
+  - as-see-the-work-they-produce
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook (Assessment)"
+provenanceNote: >-
+  Generalised from the Playbook's "Assessment Tools" section — Portfolios, and Rubrics (holistic,
+  analytical and single-point, with their advantages and disadvantages) and "Portfolio Review" method.

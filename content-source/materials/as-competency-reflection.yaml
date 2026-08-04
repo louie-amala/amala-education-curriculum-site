@@ -1,0 +1,45 @@
+id: as-competency-reflection
+slug: as-competency-reflection
+access: public
+type: educator-move
+title: "Use competency reflections"
+summary: >-
+  Ask learners to explain how their evidence meets a competency. It makes the link explicit, builds
+  metacognition, and gives you evidence in their own words.
+assessmentArea: assessment-tools
+educatorContent: |
+  A competency reflection asks the learner to do the connecting: to explain how a specific piece of
+  work or experience demonstrates a particular competency or success indicator. The value is in the
+  explicit link — the learner names which evidence shows what, and why — rather than leaving you to
+  infer it.
+
+  Learners can do this in whatever medium suits them: a short written explanation with links to
+  evidence, or a video talking through it. Done regularly, reflections become quicker and build genuine
+  metacognition — learners get better at seeing the abstract competency in their concrete work, and at
+  talking about their skills to other people, including pathway providers. Support them to make the
+  links well (this is where the mentor's "turn reflection into evidence" work pays off), then use the
+  reflection, alongside your own evidence, when you judge the competency.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+    - control-of-future-pathways
+  how: >-
+    Explaining how their own evidence meets a competency helps learners recognise, own and articulate
+    their proficiency — a skill they carry into every future application and interview.
+principleAlignment:
+  - principle: recognise-communicate-growth
+    how: >-
+      A competency reflection is the learner recognising and communicating their own growth, in their
+      own words.
+  - principle: feedback-and-data
+    how: >-
+      Reflections give the assessor evidence in the learner's own account, and a basis for a dialogue
+      about whether the link holds.
+relatedSlugs:
+  - mentor-reflection-into-evidence
+  - as-competency-showcase
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook (Assessment)"
+provenanceNote: >-
+  Generalised from the Playbook's "Evidence Reflection" method (learner explains how evidence meets
+  criteria, in various mediums; builds metacognition and the ability to talk about evidence to others).

@@ -6,6 +6,7 @@ const NAV = [
   { href: "/courses", label: "Courses" },
   { href: "/modules", label: "Modules" },
   { href: "/materials", label: "Materials" },
+  { href: "/educators", label: "Educators" },
   { href: "/competencies", label: "Competencies" },
   { href: "/foundations", label: "Foundations" },
   { href: "/glossary", label: "Glossary" },

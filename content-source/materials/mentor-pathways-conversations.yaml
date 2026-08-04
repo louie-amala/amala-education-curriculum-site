@@ -1,0 +1,57 @@
+id: mentor-pathways-conversations
+slug: mentor-pathways-conversations
+access: public
+type: educator-move
+title: "Hold regular pathways conversations"
+summary: >-
+  Don't leave futures to the final term. Talk regularly about where a mentee wants to go — further
+  study, work, or building something — and keep it realistic and theirs.
+mentorRole: pathways
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  Pathways — further education, employment, entrepreneurial ventures — are easier to reach when they
+  have been talked about all along, not raised in a panic at the end. Make them a regular thread in
+  your mentoring: what is the mentee drawn to, what would a next step look like, what would it take.
+
+  Two disciplines keep these conversations honest. Keep them the mentee's: your job is to help them
+  identify and weigh options, not to install your ambitions for them. And keep them realistic without
+  narrowing — ground a pathway in what is actually accessible from their context while taking their
+  aspiration seriously, and help them see routes they may not know exist. Over time you are helping a
+  mentee build a picture of where they are heading and why, so that the projects they choose and the
+  skills they build start to point somewhere. Note what you learn about their interests — it feeds
+  the references you will write and the opportunities you will spot for them.
+agencyContribution:
+  indicators:
+    - control-of-future-pathways
+  how: >-
+    Regular, mentee-led conversations about the future build a learner's ability to picture, weigh
+    and steer towards pathways of their own choosing.
+principleAlignment:
+  - principle: connect-to-futures
+    how: >-
+      Sustained conversation about pathways is how learning gets connected to a learner's actual
+      future rather than left abstract.
+  - principle: collaboration
+    how: >-
+      Keeping the pathway the mentee's — weighed together rather than prescribed — keeps ownership
+      where it belongs.
+competencyDevelopment:
+  - code: ASL4
+    how: >-
+      Helping a learner identify and weigh realistic pathway options develops their own capacity to
+      actualise pathways.
+  - code: FSL2
+    how: >-
+      Turning a pathway interest into concrete next steps keeps a learner setting and pursuing
+      longer-term goals.
+relatedSlugs:
+  - mentor-anecdote-log
+  - mentor-open-doors
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Supporting assigned students in identifying and actualising
+  pathways" — the guidance that a mentor regularly meets students to discuss pathway interests and
+  strategise next steps, keeping options realistic.

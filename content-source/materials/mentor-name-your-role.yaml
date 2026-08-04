@@ -1,0 +1,48 @@
+id: mentor-name-your-role
+slug: mentor-name-your-role
+access: public
+type: educator-move
+title: "Name your role in the first conversation"
+summary: >-
+  In your first meeting, explain plainly what you are there to help with — and what you can and
+  cannot keep private — so a mentee knows how to use you.
+mentorRole: wellbeing
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  The relationship only works if the mentee understands it. In your first meeting, say in plain
+  language what you are there for — their progress and their wellbeing, and that you are on their
+  side — and how you will work together: how often you will meet, that they can ask for a
+  conversation whenever they are stuck, and that preparing for meetings gets more out of them.
+
+  Be clear and honest about confidentiality. Most of what they share stays between you, but there
+  are things you may have to pass on to keep them or others safe, and you will tell them when that
+  happens. Naming this early builds the trust everything else depends on, and prevents the sense of
+  betrayal that follows a boundary the mentee never knew was there. Revisit it, too: a one-line
+  reminder at the start is not the same as understanding, and both of you will refer back to it.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    A mentee who understands what their mentor is for, and what is safe to bring, can actually use
+    the support. Asking for help becomes a deliberate choice rather than a gamble.
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Knowing the boundaries of a relationship, especially around confidentiality, is what makes it
+      safe to be honest inside it. The opening conversation sets those boundaries out loud.
+  - principle: collaboration
+    how: >-
+      Framing mentoring as something done with the learner, with shared expectations agreed up
+      front, positions them as a partner in it rather than a recipient of it.
+relatedSlugs:
+  - mentor-wellbeing-check-ins
+  - mentor-coach-through-challenges
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  Generalised from the Student Mentor Playbook's "Supporting the well-being of assigned students"
+  (the guidance that a mentor explains their wellbeing role in the first meeting and fosters an open,
+  inclusive environment). Made programme-agnostic; the confidentiality framing is added as good
+  safeguarding practice.

@@ -1,0 +1,52 @@
+id: mentor-feedback-that-moves-forward
+slug: mentor-feedback-that-moves-forward
+access: public
+type: educator-move
+title: "Give feedback that moves the learner forward"
+summary: >-
+  Good mentor feedback isn't a verdict on the work — it's specific, honest and forward-looking, and
+  it leaves the mentee knowing what to do next.
+mentorRole: progress
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  Feedback is where a lot of mentoring time goes, and where it is easily wasted. Feedback that moves
+  a learner forward is specific rather than general ("your argument loses the reader here, because…"
+  not "be clearer"), honest rather than only kind, and forward-looking — it leaves the mentee knowing
+  what to do next, not just how they did. Treat it as help, not a judgement: the mentee should come
+  away with a concrete next action and the belief that they can act on it.
+
+  Balance is part of the craft — name what is working so it gets repeated, not only what is missing.
+  Where you are assessing against criteria, be objective and show the mentee the standard, so your
+  feedback develops their own eye for quality rather than keeping them dependent on yours. And close
+  the loop: at the next meeting, check what they did with it, so feedback becomes a cycle rather than
+  a one-off pronouncement.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Feedback that hands the learner a next step they can take themselves, and the standard to judge
+    by, builds their capacity to improve their own work.
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      Treating feedback as specific, forward-looking help — and closing the loop on what the learner
+      did with it — is this principle in practice.
+  - principle: safe-spaces
+    how: >-
+      Framing feedback as help rather than a verdict is what makes it safe to receive honestly and
+      act on.
+competencyDevelopment:
+  - code: ASL1
+    how: >-
+      Modelling specific, actionable feedback and checking what the learner did with it develops
+      their own ability to seek out and use feedback.
+relatedSlugs:
+  - mentor-coach-dont-rescue
+  - mentor-track-progress-intervene-early
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's requirement to provide support and feedback that "moves the
+  learner forward" and to be proactive in seeking out student work to give effective feedback on.

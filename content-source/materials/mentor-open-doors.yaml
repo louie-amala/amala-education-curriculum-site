@@ -1,0 +1,58 @@
+id: mentor-open-doors
+slug: mentor-open-doors
+access: public
+type: educator-move
+title: "Help mentees open and walk through doors"
+summary: >-
+  Beyond talking about pathways, help mentees act — find real opportunities, apply well, and shape
+  their projects towards where they want to go.
+mentorRole: pathways
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  Talking about a pathway is not the same as reaching it. This move is the practical follow-through:
+  helping a mentee turn intention into action. Help them find real opportunities — courses, jobs,
+  funding, competitions, connections — including ones they would never find alone, and be honest that
+  part of your value is the doors your networks can open. Support the application itself: a strong
+  personal statement, a practice interview, a proofread form, a deadline held.
+
+  Use what you design together. When a pathway becomes real for a mentee, help them tailor their work
+  towards it — a learner set on nursing might choose a project on access to healthcare, so their
+  portfolio starts building the case for where they are going. Where appropriate and requested, write
+  the reference or recommendation, grounded in the anecdotes you have been collecting. Throughout,
+  keep the mentee doing the walking: you hold the door, you do not carry them through it.
+agencyContribution:
+  indicators:
+    - control-of-future-pathways
+    - contribution-to-community
+  how: >-
+    Concrete help to find, apply for and shape work towards real opportunities converts a learner's
+    aspirations into pathways they can actually access.
+principleAlignment:
+  - principle: connect-to-futures
+    how: >-
+      Matching learners to real opportunities and shaping their work towards them is the direct
+      connection of learning to futures.
+  - principle: collaboration
+    how: >-
+      Drawing on the mentor's networks and the wider community to open doors is collaboration that
+      reaches beyond the classroom.
+competencyDevelopment:
+  - code: ASL4
+    how: >-
+      Working through finding, applying for and tailoring work towards an opportunity develops a
+      learner's ability to actualise a pathway.
+  - code: ASL3
+    how: >-
+      Helping a learner access and use networks to reach opportunities builds their own capacity to
+      leverage relationships.
+relatedSlugs:
+  - mentor-anecdote-log
+  - mentor-pathways-conversations
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's pathways section: supporting students to identify and apply for
+  opportunities, producing references, and tailoring the programme (e.g. project choice) towards a
+  pathway. The nursing / healthcare-access example is drawn from the source.

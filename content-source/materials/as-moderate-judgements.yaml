@@ -1,0 +1,44 @@
+id: as-moderate-judgements
+slug: as-moderate-judgements
+access: public
+type: educator-move
+title: "Moderate your judgements with colleagues"
+summary: >-
+  A judgement is only as fair as it is consistent. Compare and calibrate with colleagues so the same
+  evidence would earn the same decision, whoever assessed it.
+assessmentArea: making-judgements
+educatorContent: |
+  Assessment carries real consequences for learners, so it has to be consistent as well as considered:
+  the same evidence should earn the same judgement whoever the assessor is. That consistency does not
+  happen by itself — it is built by moderating with colleagues.
+
+  In practice: take a sample of judgements and the evidence behind them and look at them together.
+  Where two assessors would decide differently, dig into why, and calibrate against a shared reading of
+  the proficiency descriptors. Moderation also surfaces the biases a single assessor cannot see in
+  themselves — being swayed by presentation, by a learner they know well, or by effort rather than
+  proficiency. Treat it not as checking up on each other but as the shared discipline that makes every
+  learner's result trustworthy.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Consistent, moderated judgements mean a learner's recognition depends on what they can do, not on
+    who happened to assess them — which is what makes the whole system fair to trust.
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      Comparing judgements against shared descriptors turns individual decisions into calibrated,
+      trustworthy data.
+  - principle: collaboration
+    how: >-
+      Moderation makes fair assessment a shared professional responsibility rather than each assessor's
+      private call.
+relatedSlugs:
+  - as-judge-against-the-scale
+  - cf-deprivatise-practice
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook (Assessment)"
+provenanceNote: >-
+  Added as standard moderation practice to complete the making-judgements bucket. Extends the
+  Playbook's call for objective assessment, and connects to its collaborative, de-privatised view of
+  educator practice.

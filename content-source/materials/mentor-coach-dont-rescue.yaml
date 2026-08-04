@@ -1,0 +1,56 @@
+id: mentor-coach-dont-rescue
+slug: mentor-coach-dont-rescue
+access: public
+type: educator-move
+title: "Coach, don't rescue"
+summary: >-
+  When a mentee is stuck on their work, hand the thinking back to them with a simple coaching
+  structure — so they build the capacity to get unstuck next time.
+mentorRole: progress
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  The fastest way to get a mentee past a problem is to solve it for them. It is also the slowest way
+  to help them grow, because it teaches them to wait for you. Coaching hands the thinking back. A
+  reliable structure is to help the mentee name a concrete goal, look honestly at where they are
+  against it, generate their own options, and commit to a next step — the widely used GROW model
+  (Goal, Reality, Options, Will) is one version of this. It keeps a conversation specific rather than
+  a vague catch-up, and it keeps the mentee the author of their own work.
+
+  Coaching does not mean withholding help. You still teach, point to resources, and share what you
+  know — but you offer these as options the mentee weighs, not answers that end their thinking. Keep
+  a shared note of what was agreed, so the next conversation opens where the last one closed.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+    - control-of-future-pathways
+  how: >-
+    Coaching a mentee to get themselves unstuck builds the self-direction that outlasts any single
+    problem or project.
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      A mentor who guides through questions rather than instructions keeps the learner the author of
+      the work while genuinely supporting it.
+  - principle: feedback-and-data
+    how: >-
+      The shared record of what was agreed turns each conversation into data the next one builds on.
+competencyDevelopment:
+  - code: FSL2
+    how: >-
+      The goal and commitment stages keep a learner setting and re-committing to their own
+      objectives across a long piece of work.
+  - code: AR3
+    how: >-
+      Generating their own options at a barrier, rather than stalling or waiting to be rescued, is
+      resilience in practice.
+relatedSlugs:
+  - pip-mentor-check-ins
+  - mentor-feedback-that-moves-forward
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  The programme-agnostic form of the coaching stance in pip-mentor-check-ins (which applies the same
+  GROW structure specifically to the GSD Personal Interest Project) and the Playbook's guidance to
+  coach students through tasks and projects.

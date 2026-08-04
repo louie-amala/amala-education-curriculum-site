@@ -1,0 +1,47 @@
+id: cf-trauma-sensitive
+slug: cf-trauma-sensitive
+access: public
+type: educator-move
+title: "Facilitate with trauma sensitivity"
+summary: >-
+  Some learners have experienced trauma. Facilitate so you do no harm — a safe, predictable space,
+  real choice, and clear routes to further support.
+facilitationArea: learning-facilitation
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  Some learners on your programme may have experienced trauma, and good facilitation starts from "do
+  no harm". Build a safe, predictable environment: communicate rules, expectations and the session
+  agenda, and keep them consistent to reduce anxiety. Use trauma-sensitive language and give content
+  warnings before sensitive topics. Offer genuine choice — let a learner step back, opt out, or take
+  part differently, without having to explain — and build in check-ins, breaks and moments of
+  self-care.
+
+  Model empathy and active listening so emotions are validated and every voice is heard without
+  judgement. Know your limits: hold clear routes to further support and referral (mental-health or
+  counselling services appropriate to your context), and follow your setting's safeguarding policy.
+  Balance structure with flexibility — a clear agenda, delivered adaptably to the needs of the group
+  in the room.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    A predictable space with real choice lets a learner who has experienced trauma stay in control of
+    their own participation, which is the precondition for them learning at all.
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Predictability, content warnings and the freedom to opt out are what make a space safe for
+      learners carrying trauma.
+  - principle: builds-on-identities
+    how: >-
+      Meeting learners where they are, without judgement, honours what they bring rather than
+      overriding it.
+relatedSlugs:
+  - cf-charged-discussions
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Trauma Sensitivity" section. The referral / safeguarding-policy
+  deferral is emphasised so the move never substitutes for the setting's own policy.

@@ -1,0 +1,45 @@
+id: mentor-respond-to-disclosure
+slug: mentor-respond-to-disclosure
+access: public
+type: educator-move
+title: "Respond well when a mentee discloses"
+summary: >-
+  If a mentee tells you something serious, how you respond in the moment matters. Listen, stay calm,
+  don't investigate, don't promise secrecy, and report.
+mentorRole: safeguarding
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  Sometimes a mentee will tell you something serious — about harm, danger, or what is happening at
+  home. How you respond in that moment shapes both their safety and their trust. Listen, and let them
+  speak. Stay calm and take them seriously, whatever you are feeling.
+
+  Do not interrogate or investigate: leading questions or digging for detail can harm the young
+  person and any later process, and a few open, gentle prompts are enough to understand whether this
+  is a safeguarding matter. Do not promise to keep it secret; instead, gently remind them what you
+  have to do next and why, so nothing you do feels like a betrayal. Reassure them that telling you
+  was the right thing to do. Then follow your policy: record it factually and refer it to your
+  designated lead promptly. Afterwards, look after yourself too — hearing hard things is hard — and
+  use your setting's support. As ever, your policy is the authority here; this is how to be a steady,
+  safe adult within it.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    A mentee who is met calmly and taken seriously when they disclose learns that reaching out for
+    help is safe — which makes it possible again.
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Responding to a disclosure without panic, judgement or false promises is the moment a "safe
+      space" is either real or revealed to be hollow.
+relatedSlugs:
+  - mentor-know-your-safeguarding-policy
+  - mentor-notice-and-respond
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  Added to complete the safeguarding bucket. It operationalises the Playbook's safeguarding and
+  open-environment requirements as in-the-moment disclosure practice; the listen / don't investigate
+  / don't promise secrecy / report sequence is standard safeguarding guidance, kept policy-deferring.

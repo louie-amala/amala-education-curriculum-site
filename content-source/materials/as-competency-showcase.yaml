@@ -1,0 +1,46 @@
+id: as-competency-showcase
+slug: as-competency-showcase
+access: public
+type: educator-move
+title: "Run a competency showcase or defence"
+summary: >-
+  Have learners present and defend their evidence for chosen competencies, then question them live.
+  It's hard to fake, strong for verbal learners, and real practice for their futures.
+assessmentArea: assessment-tools
+educatorContent: |
+  A competency showcase — a portfolio defence presentation, or a lighter viva voce — asks a learner to
+  present the evidence that they have met chosen competencies, and then answer questions on it. The
+  learner, with your guidance, selects a reasonable number of competencies; they present; you, and
+  sometimes significant adults or an audience, probe with follow-up questions in real time.
+
+  It has real strengths as a tool. It suits learners who express themselves better aloud than in
+  writing; the live questioning lets you gain clarity and judge the person, not a rehearsed script; and
+  it is much harder to fake with AI or ghost-writing than a submitted product. Set it up well: coach
+  the learner beforehand on what they will present, share the criteria and questions in advance, keep
+  it proportionate, and let them submit for a round of feedback first. Presenting evidence of their own
+  competence to real adults is also genuine rehearsal for the pathways ahead.
+agencyContribution:
+  indicators:
+    - control-of-future-pathways
+    - contribution-to-community
+  how: >-
+    Presenting and defending their own evidence to real adults builds a learner's ability to account
+    for what they can do — exactly the capability that opens further education and employment.
+principleAlignment:
+  - principle: recognise-communicate-growth
+    how: >-
+      A showcase is the learner recognising and communicating their growth, publicly and under
+      questioning.
+  - principle: connect-to-futures
+    how: >-
+      Defending evidence to significant adults is rehearsal for the interviews and applications of a
+      learner's future pathway.
+relatedSlugs:
+  - as-question-for-proficiency
+  - as-competency-reflection
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook (Assessment)"
+provenanceNote: >-
+  Generalised from the Playbook's "Portfolio Defense Presentation" and "Viva Voce" methods (select
+  criteria, coach beforehand, share questions, invite significant adults, harder to fake, good for
+  verbal learners).

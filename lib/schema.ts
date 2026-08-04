@@ -256,6 +256,40 @@ export const MaterialTypeSchema = z.enum([
   "tools-approaches",
   "concept",
   "resource",
+  // An educator move: a small, named, repeatable thing a good educator does. The first set are
+  // mentor moves (see MentorRoleSchema). Programme-agnostic by default (no `edition`); carries a
+  // `mentorRole` bucket, required on this type and validated in validateGraph().
+  "educator-move",
+]);
+
+// The part of the mentor's role an educator move belongs to. A mentor is generally responsible for
+// a learner's academic progress and wellbeing, but the exact remit is set by the partner — these
+// buckets are a menu to adopt from, not a fixed mandate. Safeguarding is deliberately its own
+// bucket, separate from wellbeing: it is about protection and follows the setting's own policy.
+export const MentorRoleSchema = z.enum([
+  "wellbeing",
+  "safeguarding",
+  "progress",
+  "recognising-growth",
+  "pathways",
+]);
+
+// The part of the course-facilitator function an educator move belongs to. Mirrors the three top-level
+// sections of the Course Facilitator Playbook.
+export const FacilitationAreaSchema = z.enum([
+  "learning-design",
+  "learning-facilitation",
+  "improving-practice",
+]);
+
+// The part of the assessor function an educator move belongs to. At Amala the competency lives in the
+// person, not the artefact: the assessor builds the best possible picture of a learner's proficiency
+// (seeking-evidence), brings it together to judge a competency (making-judgements), and uses structured
+// instruments to elicit evidence (assessment-tools).
+export const AssessmentAreaSchema = z.enum([
+  "seeking-evidence",
+  "making-judgements",
+  "assessment-tools",
 ]);
 
 // The kind of downloadable artefact, so the worksheet/template distinction is machine-real and can be
@@ -316,6 +350,12 @@ export const FacilitationMaterialSchema = z.object({
     .array(z.object({ context: FacilitationContextSchema, how: z.string() }))
     .default([]),
   toolsFacet: z.enum(["analytical", "facilitation", "both"]).optional(),
+  // Which educator function(s) this move belongs to, and the bucket within each. An educator-move must
+  // set at least one of these (enforced in validateGraph); a move may serve more than one function. Each
+  // drives the grouping on that function's page under /educators.
+  mentorRole: MentorRoleSchema.optional(),
+  facilitationArea: FacilitationAreaSchema.optional(),
+  assessmentArea: AssessmentAreaSchema.optional(),
   // running detail (mainly activities)
   duration: z.string().nullable().optional(),
   grouping: z.string().nullable().optional(),
@@ -373,6 +413,9 @@ export const FacilitationMaterialSchema = z.object({
 
 export type FacilitationContext = z.infer<typeof FacilitationContextSchema>;
 export type MaterialType = z.infer<typeof MaterialTypeSchema>;
+export type MentorRole = z.infer<typeof MentorRoleSchema>;
+export type FacilitationArea = z.infer<typeof FacilitationAreaSchema>;
+export type AssessmentArea = z.infer<typeof AssessmentAreaSchema>;
 export type DownloadRole = z.infer<typeof DownloadRoleSchema>;
 export type Download = z.infer<typeof DownloadSchema>;
 export type FacilitationMaterial = z.infer<typeof FacilitationMaterialSchema>;

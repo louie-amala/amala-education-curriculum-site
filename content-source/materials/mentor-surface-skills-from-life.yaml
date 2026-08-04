@@ -1,0 +1,57 @@
+id: mentor-surface-skills-from-life
+slug: mentor-surface-skills-from-life
+access: public
+type: educator-move
+title: "Surface the skills in a mentee's whole life"
+summary: >-
+  A mentee's most important growth often happens outside your programme. Help them notice and name
+  the skills they're building at home, at work and in their community.
+mentorRole: recognising-growth
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  Much of a mentee's real development happens where you cannot see it — carrying responsibility at
+  home, working, holding a family or community together. A good mentor treats that life as evidence,
+  not background. Every so often, ask a mentee to look at their own life and name what they are
+  becoming good at: the sole carer for younger siblings is developing organisation, resilience and
+  responsibility; the young person running a market stall is negotiating, budgeting and
+  communicating.
+
+  Help them make the connection between something they simply do and a skill they can name, claim and
+  show. This matters most for learners whose confidence has been knocked, or who assume "skills" are
+  only what happens in a classroom. Then brainstorm together how a lived experience could be
+  documented — a reflection, a photo, a short account — so it can count as evidence of the
+  competencies your programme recognises.
+agencyContribution:
+  indicators:
+    - contribution-to-community
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Helping a learner recognise the capability already present in their life turns lived experience
+    into something they can name and build on, rather than something invisible.
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      Treating a learner's home, work and community life as a source of real skills makes their world
+      visible in the learning, rather than leaving it at the door.
+  - principle: recognise-communicate-growth
+    how: >-
+      The move is precisely helping a learner notice and name growth they would otherwise overlook.
+competencyDevelopment:
+  - code: FSL1
+    how: >-
+      Guided reflection on lived experience develops a learner's ability to recognise and articulate
+      their own growth.
+  - code: FUS1
+    how: >-
+      Naming the skills they are developing in their own life builds a learner's self-awareness.
+relatedSlugs:
+  - mentor-build-evidence-habit
+  - mentor-reflection-into-evidence
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Assessing the development of Amala competencies" section — the
+  guidance that a mentor helps a student (e.g. the sole carer for siblings) reflect on skills
+  developed in their personal life and use them as portfolio evidence.

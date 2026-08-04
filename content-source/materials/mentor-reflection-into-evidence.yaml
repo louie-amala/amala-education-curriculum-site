@@ -1,0 +1,59 @@
+id: mentor-reflection-into-evidence
+slug: mentor-reflection-into-evidence
+access: public
+type: educator-move
+title: "Turn reflection into evidence"
+summary: >-
+  A pile of work isn't evidence until a mentee can say what it shows. Use reflection prompts to help
+  them connect what they did to the skill it demonstrates.
+mentorRole: recognising-growth
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  Work on its own does not evidence a competency — the connection between the work and the skill has
+  to be made, and made by the learner. Reflection is the tool. Use prompts that push past description
+  into significance: not just "what did you do?" but "what did that show you can do?", "what was hard
+  and how did you get through it?", "where else could you use this?".
+
+  Help the mentee link a concrete piece of work or experience to the specific skill or standard your
+  programme recognises, so they can claim it with evidence rather than assertion. Where you then
+  verify that evidence against criteria, be objective and transparent: show the standard, say clearly
+  when something meets it and when it does not yet, and give the reason — a fair "not yet, because…"
+  is more useful than a generous "yes" the learner cannot learn from. The framework you assess
+  against is your programme's; the move is helping learners see their own work through it.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+    - control-of-future-pathways
+  how: >-
+    Learning to name what a piece of work demonstrates gives a learner a durable, transferable way of
+    accounting for their own capability.
+principleAlignment:
+  - principle: recognise-communicate-growth
+    how: >-
+      Reflection that connects work to a named skill is exactly how growth is recognised and
+      communicated.
+  - principle: feedback-and-data
+    how: >-
+      Objective, criteria-referenced verification treats assessment as fair, usable feedback rather
+      than a verdict.
+competencyDevelopment:
+  - code: FSL1
+    how: >-
+      Structured reflection on what work demonstrates develops a learner's capacity for
+      self-reflection.
+  - code: ASL1
+    how: >-
+      Weighing their work against a standard, and acting on the gap, develops a learner's ability to
+      use feedback.
+relatedSlugs:
+  - mentor-surface-skills-from-life
+  - mentor-build-evidence-habit
+  - mentor-feedback-that-moves-forward
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's guidance that a mentor enables students to reflect on how their
+  work demonstrates success indicators, and assesses work objectively against evaluation criteria.
+  "Success indicators" / "credit tracker" specifics replaced with "the standard your programme uses."

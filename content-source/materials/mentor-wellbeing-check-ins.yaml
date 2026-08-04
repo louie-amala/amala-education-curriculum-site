@@ -1,0 +1,52 @@
+id: mentor-wellbeing-check-ins
+slug: mentor-wellbeing-check-ins
+access: public
+type: educator-move
+title: "Build a wellbeing check-in into every meeting"
+summary: >-
+  Don't leave wellbeing to crisis moments. Fold a couple of genuine check-in questions into every
+  mentoring conversation, and watch the pattern over time.
+mentorRole: wellbeing
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  Wellbeing is easy to postpone until something goes wrong. The move is to make it routine: in
+  every meeting, include a couple of real check-in questions before you get to tasks and progress —
+  how are things, what has felt hard since we last met, what is going well. Keep them open and
+  unhurried. The point is that the mentee learns wellbeing is always on the table, not a special
+  conversation you have only once they are already struggling.
+
+  Over time you are watching for the pattern, not just the single answer. A mentee who is quieter
+  than usual, or whose "fine" has changed shape, tells you something a one-off survey never will.
+  Where your setting gathers wellbeing data — a termly survey, a check-in tool — read it and let it
+  shape what you ask about. Keep a light record of what you notice so the next conversation builds
+  on the last rather than starting cold.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Regular, low-stakes check-ins help a mentee build the habit and the language of noticing their
+    own state, which is the first step to being able to act on it.
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      A standing, unhurried check-in signals that this is a space where concerns are expected and
+      welcome, long before they harden into a crisis.
+  - principle: feedback-and-data
+    how: >-
+      Noticing change over time, and using whatever wellbeing data the setting gathers, turns
+      scattered impressions into something a mentor can act on early.
+competencyDevelopment:
+  - code: ASL2
+    how: >-
+      Modelling and prompting a regular pause to reflect on wellbeing helps a learner develop the
+      habit of managing their own time, priorities and wellbeing.
+relatedSlugs:
+  - mentor-name-your-role
+  - mentor-coach-through-challenges
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  Generalised from the Student Mentor Playbook's example approach (regular wellbeing check-ins, and
+  the facilitator reviewing wellbeing-survey data to plan support). Made programme-agnostic.

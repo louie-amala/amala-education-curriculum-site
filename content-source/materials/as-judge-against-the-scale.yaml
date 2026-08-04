@@ -1,0 +1,46 @@
+id: as-judge-against-the-scale
+slug: as-judge-against-the-scale
+access: public
+type: educator-move
+title: "Judge the competency, holistically, against the scale"
+summary: >-
+  When it's time to assess, judge the person's proficiency — not the artefact — by weighing all your
+  evidence against the proficiency scale, and give a fair, reasoned decision.
+assessmentArea: making-judgements
+educatorContent: |
+  All the evidence-seeking leads to one moment: sitting down to judge a competency. Judge the person,
+  not a single artefact. Bring together everything you have gathered — what you know of the learner,
+  their answers to your questions, their performance, their work — and weigh it, as a whole, against
+  the proficiency scale and its descriptors. Triangulation is what makes this sound: no one source is
+  decisive, and a strong judgement rests on several pointing the same way.
+
+  Be objective and transparent. Show the learner the standard, say clearly when the evidence meets it
+  and when it does not yet, and give the reason — a fair "not yet, because…" is more useful than a
+  generous "yes" they cannot learn from. Guard against being swayed by surface features (polish,
+  length) or by how well you know or like the learner. The judgement is not the end of the
+  conversation but part of it: it should always come with feedback that shows the way forward.
+agencyContribution:
+  indicators:
+    - control-of-future-pathways
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    A fair, well-evidenced judgement — and the credit or recognition that follows — is what turns a
+    learner's proficiency into something that counts and opens the pathways ahead of them.
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      Weighing triangulated evidence against the scale, and returning a reasoned decision with a way
+      forward, treats assessment as data and feedback rather than a verdict.
+  - principle: recognise-communicate-growth
+    how: >-
+      Judging the person's proficiency against a shared scale is how growth is formally recognised and
+      communicated.
+relatedSlugs:
+  - as-moderate-judgements
+  - mentor-reflection-into-evidence
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook (Assessment)"
+provenanceNote: >-
+  Built from the user's framing (competency in the person, not the artefact) and the Playbook's
+  assessment stance (objective judgement against criteria, feedback to improve, verify/not-verify with
+  reasons). The proficiency scale is Amala's framework scale.

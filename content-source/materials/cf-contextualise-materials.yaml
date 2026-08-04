@@ -1,0 +1,47 @@
+id: cf-contextualise-materials
+slug: cf-contextualise-materials
+access: public
+type: educator-move
+title: "Contextualise your learning materials"
+summary: >-
+  Learning sticks when it connects to learners' lives. Adapt materials to your cohort's context,
+  culture and community — and let learners contextualise for each other.
+facilitationArea: learning-facilitation
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  Learning is more likely when materials speak to learners' own experiences and environment. Start by
+  knowing your participants — their backgrounds, experiences and challenges — and adapt materials so
+  they address local challenges, cultural norms and current events that actually affect the cohort.
+  Prompt learners to connect the material to their own lives, thinking critically about how it applies
+  in their context, and integrate local resources — readings, examples, experts from the learners'
+  own communities — to make the learning practical and relatable.
+
+  Then step back and create space for learners to share their perspectives and contextualise the
+  material for each other; often the richest localisation comes from the group, not the curriculum.
+  Contextualising is not watering down: it is the same learning, routed through the world the learners
+  actually live in.
+agencyContribution:
+  indicators:
+    - contribution-to-community
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    When learning is routed through learners' own lives and communities, they can apply it where it
+    matters and see themselves as agents in the world they know.
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      Adapting materials to learners' contexts, cultures and communities makes their world part of the
+      curriculum, not background to it.
+  - principle: authentic-challenges
+    how: >-
+      Connecting learning to local challenges and current events roots it in real problems that matter
+      to learners.
+relatedSlugs:
+  - cf-learner-surveys
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Contextualising Learning Materials" (know your participants, adapt
+  materials, encourage personal reflection, integrate local resources, facilitate open dialogue).

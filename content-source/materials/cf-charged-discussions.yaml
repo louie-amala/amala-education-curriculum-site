@@ -1,0 +1,49 @@
+id: cf-charged-discussions
+slug: cf-charged-discussions
+access: public
+type: educator-move
+title: "Hold a charged discussion without losing the room"
+summary: >-
+  When learners care fiercely, discussion can tip into conflict. Set the conditions for dialogue over
+  debate, and steer it without taking sides.
+facilitationArea: learning-facilitation
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  On real issues, learners will sometimes feel strongly enough to overstep. Prepare the ground: agree
+  ground rules for respectful talk (listen, do not interrupt, respectful language) before you begin,
+  and build a culture of dialogue rather than debate — dialogue broadens understanding and explores
+  disagreement respectfully, where debate is about winning.
+
+  In the moment, stay neutral: manage the discussion without showing favouritism. Model paraphrasing
+  to check everyone feels heard and to defuse misunderstanding, and encourage "I" statements over
+  "you" statements so feeling does not read as accusation. Manage turn-taking so no one is drowned
+  out; if it overheats, call a short break to let people cool and reflect. Intervene when talk becomes
+  disrespectful, steer towards common ground and solutions, and debrief afterwards — how did that
+  feel, what could be better — offering follow-up or one-to-one support to anyone the discussion
+  touched.
+agencyContribution:
+  indicators:
+    - contribution-to-community
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Learning to disagree well — to hold a hard conversation as dialogue rather than combat — is a
+    capability learners carry into every community they are part of.
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Ground rules, neutrality and knowing when to pause keep a charged conversation safe enough for
+      learners to stay in it.
+  - principle: collaboration
+    how: >-
+      Dialogue over debate treats a disagreement as something the group thinks through together rather
+      than a contest to win.
+relatedSlugs:
+  - cf-make-thinking-visible
+  - cf-trauma-sensitive
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Handling highly charged discussions" (ground rules, dialogue vs
+  debate, neutrality, paraphrasing, I-statements, turn-taking, break, intervene, debrief).

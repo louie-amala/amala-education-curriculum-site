@@ -1,0 +1,48 @@
+id: mentor-anecdote-log
+slug: mentor-anecdote-log
+access: public
+type: educator-move
+title: "Keep a running anecdote log"
+summary: >-
+  The reference or recommendation you'll write later is only as good as what you remember. Note the
+  small, telling moments as they happen.
+mentorRole: pathways
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  At some point you will be asked to write a reference, a recommendation letter, or a testimonial for
+  a mentee — and the quality of it depends almost entirely on what you can remember. Memory is a poor
+  archive. The move is to keep a running log of anecdotes: the small, telling moments that show who a
+  mentee is — the time they led a group through a disagreement, stayed with a hard problem, supported
+  a struggling peer, spoke up when it was easier not to.
+
+  Jot them as they happen, with enough detail to be usable later. A specific, evidenced reference —
+  "when the group stalled, she was the one who…" — carries far more weight than a page of adjectives,
+  and you simply cannot reconstruct those moments months later. The log doubles as evidence for
+  recognising growth, and as material for the pathways conversations where you help a mentee see
+  strengths they take for granted.
+agencyContribution:
+  indicators:
+    - control-of-future-pathways
+    - contribution-to-community
+  how: >-
+    A well-evidenced reference materially improves a mentee's chance of reaching a pathway, and rests
+    on a record only the mentor is placed to keep.
+principleAlignment:
+  - principle: connect-to-futures
+    how: >-
+      Keeping the raw material for strong references is practical groundwork for connecting a learner
+      to their future pathways.
+  - principle: recognise-communicate-growth
+    how: >-
+      An anecdote log is a store of a learner's demonstrated growth, ready to communicate to others
+      who hold the door to a pathway.
+relatedSlugs:
+  - mentor-pathways-conversations
+  - mentor-open-doors
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's example approach: "the mentor is proactive in keeping a record of
+  anecdotes of the student, in order to make writing recommendation letters and references easier."

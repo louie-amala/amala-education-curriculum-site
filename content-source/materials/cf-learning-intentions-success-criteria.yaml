@@ -1,0 +1,49 @@
+id: cf-learning-intentions-success-criteria
+slug: cf-learning-intentions-success-criteria
+access: public
+type: educator-move
+title: "Clarify learning intentions and success criteria"
+summary: >-
+  Help learners know where they're going, what to do next, and what success looks like — with
+  intentions and success criteria kept generic enough to transfer.
+facilitationArea: learning-design
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  Learners struggle when they do not know where their learning is going or what good looks like. The
+  move is to get clear yourself on the learning intention (what learners should understand or be able
+  to do) and the success criteria (how anyone would know it has been achieved), and — when it helps —
+  to share these with learners.
+
+  Keep the context out of the intention itself: "write instructions" is a transferable intention;
+  "write instructions for changing a bicycle tyre" bakes in one context and limits transfer. Keep
+  them generic enough to apply to more than one task, or they become a checklist learners can follow
+  but not learn from. You do not need an intention on the board every session — sometimes the learning
+  is open, or naming it would spoil the discovery. And differentiate the journey, not the
+  destination: hold the same high expectations for every learner, and vary the support (a template
+  here, an example there) that gets each of them there.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    When learners know where they are going and what success looks like, they can direct and
+    self-assess their own learning rather than depending on the educator to tell them how they did.
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      Shared success criteria are the reference learners and educators use to judge progress and give
+      feedback that moves learning forward.
+  - principle: lifeworthy-competencies
+    how: >-
+      Getting clear on what is worth learning, and keeping intentions generic and transferable, keeps
+      the focus on learning that matters beyond the single task.
+relatedSlugs:
+  - cf-communicate-quality
+  - cf-make-thinking-visible
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+provenanceNote: >-
+  Generalised from the Course Facilitator Playbook's "Clarifying, sharing and understanding learning
+  intentions and success criteria" (techniques drawn from Wiliam & Leahy, 2015). Kept
+  programme-agnostic.

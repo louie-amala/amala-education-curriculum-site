@@ -91,6 +91,9 @@ export const agency: Agency = parseWith(
   "foundations/agency.yaml",
   readYaml("foundations", "agency.yaml"),
 );
+// Content is read from disk once at module-eval time (outside Next's module graph), so the dev
+// server does NOT watch content-source: any content change — a new YAML file OR an edit to an
+// existing one — is only reflected after a code file changes and re-runs these loaders (or a restart).
 function loadMaterials(): FacilitationMaterial[] {
   if (!existsSync(join(ROOT, "materials"))) return [];
   return listYaml("materials").map((f) =>
@@ -262,6 +265,12 @@ export function getCourseStream(courseId: string) {
 // Learning Bridge) keep their own page but are excluded from the generic library, search, and
 // objective/course/competency listings. `libraryMaterials` is the generic-only view those surfaces use.
 export const libraryMaterials: FacilitationMaterial[] = materials.filter((m) => !m.edition);
+
+// Educator moves — small, named, repeatable practices (the first set are mentor moves). Grouped by
+// `mentorRole` on /educator-moves. Programme-agnostic, so they live in the generic library too.
+export const educatorMoves: FacilitationMaterial[] = libraryMaterials.filter(
+  (m) => m.type === "educator-move",
+);
 
 const materialBySlug = new Map(materials.map((m) => [m.slug, m]));
 const materialsByObjectiveId = new Map<string, FacilitationMaterial[]>();
@@ -456,6 +465,7 @@ export function findGlossaryMatches(text: string, skip?: Iterable<string>): Glos
 export interface ExploredIn {
   competencies: { code: string; title: string }[];
   materials: { slug: string; title: string; type: string }[];
+  courses: { slug: string; title: string }[];
 }
 export function getExploredIn(term: GlossaryTerm): ExploredIn {
   const phrases = term.matchPhrases.map((p) => parsePhrase(p).detect.toLowerCase());
@@ -475,7 +485,12 @@ export function getExploredIn(term: GlossaryTerm): ExploredIn {
         has(m.steps.map((s) => `${s.guidance} ${s.keyPrompts.join(" ")}`).join(" ")),
     )
     .map((m) => ({ slug: m.slug, title: m.title, type: m.type }));
-  return { competencies: comps, materials: mats };
+  // A course explores a term if it names it as a key concept (explicit, curated) or mentions it
+  // in its purpose. Objective/further-detail prose is deliberately left out to keep this precise.
+  const crs = courses
+    .filter((c) => c.keyConcepts.includes(term.slug) || has(c.purpose))
+    .map((c) => ({ slug: c.slug, title: c.title }));
+  return { competencies: comps, materials: mats, courses: crs };
 }
 
 // ---- cross-reference validation (build-time gate) ----
@@ -606,6 +621,19 @@ export function validateGraph(): ValidationReport {
     if (m.type === "tools-approaches" && !m.toolsFacet) {
       warnings.push(`Tools material "${m.slug}" has no toolsFacet.`);
     }
+    {
+      const functions = [m.mentorRole, m.facilitationArea, m.assessmentArea].filter(Boolean);
+      if (m.type === "educator-move" && functions.length === 0) {
+        errors.push(
+          `Educator move "${m.slug}" belongs to no function (set at least one of mentorRole / facilitationArea / assessmentArea).`,
+        );
+      }
+      if (m.type !== "educator-move" && functions.length > 0) {
+        warnings.push(
+          `Material "${m.slug}" sets an educator-function bucket but is not an educator-move.`,
+        );
+      }
+    }
     if (
       m.diagram &&
       m.diagram.src.startsWith("/") &&
@@ -637,6 +665,14 @@ export function validateGraph(): ValidationReport {
     }
     if (t.matchPhrases.length === 0) {
       warnings.push(`Glossary term "${t.slug}" has no matchPhrases (it will never be marked in text).`);
+    }
+  }
+
+  for (const course of courses) {
+    for (const slug of course.keyConcepts) {
+      if (!termSlugs.has(slug)) {
+        errors.push(`Course "${course.id}" lists unknown key concept (glossary term) "${slug}".`);
+      }
     }
   }
 
@@ -796,6 +832,7 @@ const MATERIAL_KIND_LABELS: Record<string, string> = {
   concept: "Concept",
   "case-study": "Case study",
   resource: "Resource",
+  "educator-move": "Educator move",
 };
 
 function clip(s: string, max = 160): string {

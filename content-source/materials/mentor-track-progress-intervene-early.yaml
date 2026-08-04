@@ -1,0 +1,54 @@
+id: mentor-track-progress-intervene-early
+slug: mentor-track-progress-intervene-early
+access: public
+type: educator-move
+title: "Track progress and intervene early"
+summary: >-
+  Don't wait for a deadline to discover a mentee is off track. Watch progress against milestones on
+  a regular rhythm, and act the moment someone slips.
+mentorRole: progress
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  A mentor's job includes noticing, early, when a mentee is drifting off track — and acting before a
+  missed deadline becomes a crisis. Set a rhythm: check regularly against whatever milestones your
+  programme uses. Are they engaging, submitting work, on time, and is the quality what it should be?
+  Weekly for the things that move fast, less often for slow-burn goals.
+
+  The point of tracking is the early intervention it enables. When someone slips, arrange a
+  conversation soon rather than waiting to see if it self-corrects. Be proactive in seeking out
+  examples of a mentee's actual work, rather than relying on their account of it, so your read on
+  progress is grounded. Document what you find and what you did about it — a light, current record
+  turns "I had a feeling they were struggling" into a timeline you can both act on, and lets support
+  pick up where it left off.
+agencyContribution:
+  indicators:
+    - control-of-future-pathways
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Early, honest tracking keeps a mentee within reach of the outcomes they are working towards,
+    instead of finding out too late that a pathway has closed.
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      A regular read on real work, recorded over time, is the data that makes timely, targeted
+      intervention possible.
+competencyDevelopment:
+  - code: FSL2
+    how: >-
+      Reviewing progress against milestones with a learner keeps them setting and pursuing their own
+      goals rather than drifting.
+  - code: ASL2
+    how: >-
+      Regular tracking conversations help a learner manage their own time and priorities, and see
+      early when they are overloaded.
+relatedSlugs:
+  - mentor-coach-dont-rescue
+  - mentor-feedback-that-moves-forward
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's requirement to monitor progress towards the award, ensure timely
+  intervention when students are not on track, and proactively seek out examples of student work.
+  Milestone specifics replaced with "whatever milestones your programme uses."

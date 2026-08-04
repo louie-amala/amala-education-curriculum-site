@@ -1,0 +1,46 @@
+id: mentor-notice-and-respond
+slug: mentor-notice-and-respond
+access: public
+type: educator-move
+title: "Notice, record and refer a concern"
+summary: >-
+  Spotting that something may be wrong is part of the role. Act within your policy: record what you
+  actually observed, factually, and refer — don't investigate.
+mentorRole: safeguarding
+facilitationContext:
+  - one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  Close, regular contact means a mentor is often the first to notice that something may be wrong — a
+  change in a mentee's mood, attendance, appearance, or the things they say. Noticing is part of the
+  job; so is acting on it correctly. Follow your setting's policy, and let a few principles guide you
+  within it.
+
+  Record what you actually observed or were told, in plain factual language, as soon as you can,
+  keeping what you saw separate from what you think it means. Refer through your policy's channel
+  promptly, rather than deciding alone what it amounts to — you are not the investigator, and waiting
+  for certainty is how concerns get missed. Do not promise a mentee you will keep a safeguarding
+  concern secret; you cannot, and you will already have said so when you named your role. Share on a
+  need-to-know basis, with the designated lead, not more widely. When in doubt, ask your safeguarding
+  lead — a conversation is always better than a concern you sat on.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    A mentee's safety sometimes depends on an adult noticing and acting on what the mentee cannot
+    yet name or ask for themselves.
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Acting on concerns promptly and correctly, within policy, is what makes a space actually safe
+      rather than merely welcoming.
+relatedSlugs:
+  - mentor-know-your-safeguarding-policy
+  - mentor-respond-to-disclosure
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+provenanceNote: >-
+  Generalised from the Student Mentor Playbook's requirement to "proactively identify and document
+  any wellbeing issues... collaborating with the programme coordinator and/or manager to determine
+  next steps (e.g. referrals)." The record-factually / refer-don't-investigate / no-secrets
+  guidance is standard safeguarding practice, added so the move stands alone in any setting.

@@ -1,0 +1,48 @@
+id: cf-learner-surveys
+slug: cf-learner-surveys
+access: public
+type: educator-move
+title: "Ask learners how the learning is landing"
+summary: >-
+  Your learners are the best data on your facilitation. Survey them, read the promoters and
+  detractors, and act on what you find — with them.
+facilitationArea: improving-practice
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  Learners are the richest source of data on your learning design and facilitation. A simple loop:
+  design a short survey (a few statements learners rate, plus open questions), get learners to take
+  it, then analyse it. On the numbers, look at promoters (agree / strongly agree) and detractors
+  (disagree / strongly disagree) to find the biggest weakness to tackle first. On the open responses,
+  read for themes across learners and prioritise what is having the biggest negative effect on
+  learning.
+
+  Then close the loop: follow up with learners to understand what they meant — which also helps them
+  feel heard — and communicate the data back, using class time to explore it together ("what surprises
+  you? what strengths and issues do you see? what should we change?"). The best next steps are worked
+  out with learners, not just for them, and then tested — keep the dialogue going, or re-run the
+  survey, to see whether the change actually helped.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+    - contribution-to-community
+  how: >-
+    Inviting learners to shape the learning — and acting on what they say — treats them as partners
+    with real power over the classroom they are in.
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      A survey read honestly and acted on is a disciplined feedback loop on your own practice.
+  - principle: collaboration
+    how: >-
+      Working out next steps with learners, not just for them, hands them genuine ownership of the
+      programme.
+relatedSlugs:
+  - cf-deprivatise-practice
+  - cf-contextualise-materials
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Learner Surveys on Learning Design and Facilitation" (design →
+  take → analyse promoters/detractors and themes → communicate → act with learners).

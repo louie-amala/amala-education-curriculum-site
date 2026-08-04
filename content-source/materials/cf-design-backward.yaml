@@ -1,0 +1,46 @@
+id: cf-design-backward
+slug: cf-design-backward
+access: public
+type: educator-move
+title: "Design backward from what matters"
+summary: >-
+  Start from the learning and evidence you want, not the activities. Plan backward, and anchor the
+  learning in real, meaningful projects.
+facilitationArea: learning-design
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  It is easy to plan from activities — a nice task, then another. Backward design (Wiggins &
+  McTighe's "Understanding by Design") flips this: first decide what learners should understand and be
+  able to do, then what evidence would show it, and only then design the activities and experiences
+  that get them there. This keeps teaching and assessment aligned to the goal, and pushes for depth
+  over coverage — the big ideas of a subject rather than a tour of its surface.
+
+  Project-based learning fits this well and fits Amala's model: learners engage in real, personally
+  meaningful projects, which aligns with a constructivist view of learning and with building agency.
+  When you design a unit, start from the end (what change, what capability), connect each learning
+  intention to the bigger idea behind it, and let the project carry the learning.
+agencyContribution:
+  indicators:
+    - control-of-future-pathways
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Designing backward from lifeworthy learning, carried by real projects, means learners spend their
+    effort on capabilities that matter in the lives they are actually leading.
+principleAlignment:
+  - principle: lifeworthy-competencies
+    how: >-
+      Starting from the understanding and evidence that matter keeps design anchored to learning worth
+      doing, not to activities for their own sake.
+  - principle: authentic-challenges
+    how: >-
+      Project-based learning roots the work in real, meaningful challenges rather than abstract
+      exercises.
+relatedSlugs:
+  - cf-learning-intentions-success-criteria
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Understanding by Design" and "Project Based Learning" sections
+  (Wiggins & McTighe; PBLWorks Gold Standard). Kept programme-agnostic.

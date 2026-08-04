@@ -1,0 +1,49 @@
+id: cf-make-thinking-visible
+slug: cf-make-thinking-visible
+access: public
+type: educator-move
+title: "Make learning and thinking visible"
+summary: >-
+  You can't support learning you can't see. Engineer moments — through questioning and quick tasks —
+  that surface what every learner actually knows and thinks.
+facilitationArea: learning-facilitation
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  You cannot see inside learners' heads, so you have to engineer situations that surface their
+  thinking — and make sharing half-formed ideas safe and normal. Questioning is the workhorse. Move
+  away from "hands up", which only tells you which confident learners think they know: use "no hands
+  up" and select learners (at random, names in a cup) so everyone stays ready to contribute. Give
+  thinking time before taking answers, and build in wait time — resist filling the silence. Use
+  think-pair-share so learners rehearse with a partner first, and do not let "I don't know" end the
+  exchange ("if you did know, what would you say?").
+
+  Interpret rather than evaluate: a wrong answer is often more useful than a right one, because it
+  shows you where to go next — so ask learners to justify their answers. Quick tools make thinking
+  visible fast: exit tickets, hinge questions, sentence starters, getting thinking down on paper. And
+  plan your key questions in advance rather than inventing them on the spot.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    When every learner's thinking is surfaced and valued — not just the confident few — each learner
+    is positioned as an active participant in, and owner of, their own learning.
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      Techniques that surface what learners really know generate the data an educator needs to adapt,
+      and treat a wrong answer as information rather than failure.
+  - principle: safe-spaces
+    how: >-
+      Normalising half-formed thinking, and not letting "I don't know" end the exchange, makes it safe
+      to think out loud.
+relatedSlugs:
+  - cf-learning-intentions-success-criteria
+  - cf-charged-discussions
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Making Learning and Thinking Visible" section — no-hands-up,
+  think-pair-share, wait time, hinge questions, exit tickets, interpret-don't-evaluate, ask learners
+  to justify (techniques from Wiliam & Leahy, 2015).
