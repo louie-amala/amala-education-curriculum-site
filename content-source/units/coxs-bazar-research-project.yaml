@@ -221,6 +221,7 @@ phases:
         independentTask: "Try one of your interview questions on a family member, and notice whether it was clear."
       - title: "Work the source pack"
         kind: activity
+        materialSlug: cb-rp-work-the-source-pack
         facilitatedHours: 2
         independentHours: 1.5
         description: >-
@@ -234,12 +235,15 @@ phases:
           research book. This is real secondary research; the curation is what makes it possible offline.
         independentTask: "Choose one source from the pack, and draw or mark the one most important thing it tells us about our question."
         flexNote: >-
-          The pack is still to be authored. Its scope: enough simple, mostly pictorial sources about the
-          issue itself (roots and soil, bare slopes, rain and landslides, heat and shade, a hillside
-          recovering) — NOT about NGO projects — to let learners triangulate their primary findings
-          against what is already known. Pitch it at A1 English growing towards B1: images with
-          single-word or short-phrase captions, a picture-glossary, and one or two sources a notch
-          harder at the end. Author it alongside the cb-rp-* materials.
+          The pack is still to be authored. Its scope: enough sources about the issue itself (roots and
+          soil, bare slopes, rain and landslides, heat and shade, a hillside recovering) — NOT about NGO
+          projects — to let learners triangulate their primary findings against what is already known.
+          The pack does double duty as English development, so it carries real, graded English prose, not
+          just captions: short, clear sentences pitched a step above the learners' level (comprehensible
+          input), key words glossed, and a deliberate climb from simpler A1/A2 sources to a B1 stretch at
+          the end. Images support the text and carry meaning for learners not yet reading fluently, and
+          facilitators read aloud — access is differentiated, the text is not dumbed down. Author it
+          alongside the cb-rp-* materials.
       - title: "Go and gather"
         kind: practice
         facilitatedHours: 1
@@ -353,7 +357,15 @@ phases:
           and how they answer questions — to inform the assessment judgement, made by educator judgement
           against Amala's proficiency scale.
         independentTask: "Choose one way you have grown as a researcher to share, and one thing about our challenge you would still like to find out."
-downloads: []
+downloads:
+- label: "Research Project — Facilitator Unit Plan & Guide"
+  file: /downloads/research-project-facilitator-unit-plan.docx
+  format: Word
+  note: "The full 50-hour plan with all guidance inline, plus the source pack (Appendix A) and the full original articles for your reference (Appendix B)."
+- label: "Research Project — Student Workbook"
+  file: /downloads/research-project-student-workbook.docx
+  format: Word
+  note: "The learner book: the source cards to read (graded B1 and A1/A2 versions), the research word bank, and a blank evidence log. Print one per learner."
 sourceNotes:
   - Sequences the (to-be-authored) cb-rp-* contextualised activities for the Research Project component of Learning Bridge+ (Cox's Bazar); sibling of the coxs-bazar-agency-in-learning unit.
   - >-
@@ -376,8 +388,10 @@ sourceNotes:
       be authored; its scope is described on the "Work the source pack" block.
   - >-
       Language: the cohort works in English at around A1, scaffolded towards B1 across the programme.
-      Resources are picture-first with a shared research word wall and simple sentence frames; English
-      is a scaffold, never the gate on whether a learner can demonstrate the anchor competency (FSI1).
+      Because developing English is itself a programme goal, written resources use graded English with
+      picture support (not picture-first): they carry real, level-appropriate text that stretches
+      learners, supported by images, a shared research word wall, and simple sentence frames. English is
+      a scaffold learners grow into, never the gate on whether a learner can demonstrate FSI1.
   - Set out in hours, not weeks, as a standalone 50-hour component (30 in-person + 20 independent). Educators fit it to their own weekly schedule over a minimum of 10 weeks.
   - Activity times are generous (roughly 1.5 to 2 times a literate-group estimate) to reflect oral and visual delivery with drawing and translation.
   - Downloads (facilitator plan, student research workbook, source pack, slides) are deferred until those artefacts exist; the downloads list is intentionally empty for now.

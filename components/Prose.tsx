@@ -57,12 +57,22 @@ export function Prose({
     <div className="space-y-3 text-dark-navy/90">
       {blocks.map((block, i) => {
         const lines = block.split("\n");
-        const isList = lines.every((l) => /^[-*]\s+/.test(l.trim()));
+        // A block is a bullet list when its first line is a bullet. Wrapped continuation lines (which
+        // do not start with a marker) fold into the item above, so authored bullets need not be kept
+        // on one physical line.
+        const isList = /^[-*]\s+/.test(lines[0].trim());
         if (isList) {
+          const items: string[] = [];
+          for (const raw of lines) {
+            const l = raw.trim();
+            if (/^[-*]\s+/.test(l)) items.push(l.replace(/^[-*]\s+/, ""));
+            else if (items.length) items[items.length - 1] += " " + l;
+            else items.push(l);
+          }
           return (
             <ul key={i} className="list-disc space-y-1 pl-5">
-              {lines.map((l, j) => (
-                <li key={j}>{render(l.replace(/^[-*]\s+/, ""), `${i}-${j}`)}</li>
+              {items.map((it, j) => (
+                <li key={j}>{render(it, `${i}-${j}`)}</li>
               ))}
             </ul>
           );

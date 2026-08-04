@@ -1,0 +1,44 @@
+# Student worksheet (resource) for the reading activity cb-rp-work-the-source-pack. Thin per §3: what
+# the sheet is and how the learner uses it. Ships no file of its own — its printable version compiles
+# into the Research Project student workbook. Learning Bridge+ (Cox's Bazar) edition.
+id: cb-rp-source-pack-evidence-log
+slug: cb-rp-source-pack-evidence-log
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "What our sources tell us — evidence log"
+summary: >-
+  The learner's evidence log for the source pack: for each source they read, a space to record what it
+  tells us about our question and which source it came from, so findings and their origin stay together.
+facilitationContext:
+- group
+- independent
+primaryContext: independent
+learnerContent: |
+  ## What our sources tell us
+
+  Use one row for each source you read. For each one, note — in words or drawings — what it tells us
+  about our question, and always write which source it came from, so we know where each finding came
+  from.
+
+  For each source, the sheet has room for:
+
+  - Which source (its letter and short name).
+  - What it tells us about our question.
+  - New words I met.
+  - Can I trust it? (who made it, when, why, and does it agree with the others?)
+
+  Keep this log in your research book. It runs through the whole course and is part of how your teacher
+  sees how you are growing as a researcher.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Keeping an honest record of what the evidence says, and where it came from, is how a researcher
+    builds a claim they can stand behind — a habit learners carry into any future investigation.
+objectiveIds: [research-project--o2]
+relatedSlugs: [cb-rp-work-the-source-pack, cb-rp-secondary-source-pack]
+provenanceNote: >-
+  Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Research Project edition, paired to
+  cb-rp-work-the-source-pack. Thin by design; its printable version compiles into the Research Project
+  student workbook rather than shipping its own file.

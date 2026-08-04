@@ -1,0 +1,110 @@
+# Contextualised, fully offline READING ACTIVITY for the Research Project component of Learning Bridge+
+# (Cox's Bazar). Learners read the supplied secondary source pack (cb-rp-secondary-source-pack), work
+# out what each source says about the research question, and begin their evidence log. Plan and conduct
+# research phase (objective 2). Oral and visual first; readings at three levels; facilitator reads aloud.
+id: cb-rp-work-the-source-pack
+slug: cb-rp-work-the-source-pack
+access: public
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Working with our sources"
+summary: >-
+  Learners read the supplied source pack about the trees on our hills, work out what each source tells
+  us about our research question, learn the words they need, and start an evidence log — the record of
+  what they found and where it came from.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+duration: "2 hours facilitated + 1.5 hours independent"
+grouping: "Whole group to model, then pairs; independent reading between sessions"
+whatLearnersDo:
+- Listen to and read a source at the level that suits them (the real article, the B1 version, or the A1/A2 version).
+- Work out what each source says about our question — and what it does not tell us.
+- Learn and use the new words from each source, adding them to our word wall.
+- Write or draw what they found in their evidence log, with a note of which source it came from.
+materialsAndPreparation:
+- The supplied secondary source pack (cb-rp-secondary-source-pack), printed from the student workbook or shown on screen.
+- The evidence log sheet from the student workbook (one per learner).
+- The word wall started earlier in the course.
+facilitationNotes: >-
+  The one thing to get right: this is real reading and real research, not a worksheet to fill. Model how
+  a researcher reads a source before asking learners to — read one aloud together, and think out loud:
+  "What is this? Who made it? What does it tell us about our question? What does it not tell us?" Let
+  learners choose the reading level that stretches them without defeating them, and read aloud for those
+  still building fluency. Keep coming back to the research question so the reading stays purposeful.
+steps:
+- title: "Model reading one source"
+  duration: "30 min"
+  guidance: >-
+    Read one source from the pack aloud with the whole group (Source B, the local one, works well).
+    Think out loud as a researcher would: what is this, who made it, what does it tell us about our
+    question, what does it leave out. Show how you pull out one thing that helps our question and note
+    where it came from.
+  keyPrompts:
+  - "What is this source telling us about our hills?"
+  - "Who made it, and how might that matter?"
+  - "What does it NOT tell us?"
+- title: "Read in pairs, and pull out what helps our question"
+  duration: "60 min"
+  guidance: >-
+    In pairs, learners take another source at a level that suits them. They find the one or two things
+    it tells us about our question, learn the new words, and mark where they disagree or agree with what
+    we already know. Circulate and read aloud where needed.
+  keyPrompts:
+  - "What does your source add to our question?"
+  - "Which new words did you meet?"
+- title: "Start the evidence log"
+  duration: "30 min"
+  guidance: >-
+    Learners record, in words or drawings, what they found and which source it came from, on the
+    evidence log sheet in their workbook. This log runs through the rest of the course and is the record
+    the educator draws on for assessment.
+learnerContent: |
+  ## Reading our sources
+
+  We are looking for what other people have already found out about our question: what happens to our
+  hills without trees, and what changes when trees and plants grow back.
+
+  For each source, ask yourself four questions:
+
+  - What is this? Who made it?
+  - What does it tell us about our question?
+  - What does it NOT tell us?
+  - Can we trust it — and does it agree with our other sources and with what we saw ourselves?
+
+  Read the version that is right for you — the real article, the B1 version, or the simpler A1/A2
+  version — or listen while your teacher reads. Then write or draw what you found in your evidence log,
+  and always note which source it came from.
+worksheet:
+  slug: cb-rp-source-pack-evidence-log
+  note: "In the student workbook: the 'What our sources tell us' evidence log. Print one per learner from the Research Project workbook."
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - control-of-future-pathways
+  how: >-
+    Learners build understanding of a real challenge in their community from evidence rather than
+    assumption, and practise judging that evidence — the foundation for acting well on issues that
+    affect their lives.
+principlesForegrounded: [authentic-challenges, feedback-and-data, builds-on-identities]
+principleAlignment:
+- principle: authentic-challenges
+  how: The sources are about a real, local challenge — the hills the learners live on — not a hypothetical case.
+- principle: feedback-and-data
+  how: Learners weigh what each source says against the others and against their own knowledge, rather than accepting it whole.
+competencyCodes: [FSI1, FTS3, FPS2]
+competencyDevelopment:
+- code: FSI1
+  how: Reading and interpreting secondary sources about the challenge is part of conducting the investigation.
+- code: FTS3
+  how: Learners gather and organise what sources say into an evidence log they can use.
+- code: FPS2
+  how: Learners begin to judge how far each source can be trusted before relying on it.
+objectiveIds: [research-project--o2]
+relatedSlugs: [cb-rp-secondary-source-pack, cb-rp-source-pack-evidence-log]
+provenanceNote: >-
+  Authored for the Learning Bridge+ (Cox's Bazar) Research Project edition. The reading activity that
+  uses the supplied secondary source pack (cb-rp-secondary-source-pack). Fully offline, oral and visual
+  first, readings at three levels. Plan and conduct research phase (objective 2). Its printable evidence
+  log compiles into the Research Project student workbook.
