@@ -20,6 +20,31 @@ educatorContent: |
   talking about their skills to other people, including pathway providers. Support them to make the
   links well (this is where the mentor's "turn reflection into evidence" work pays off), then use the
   reflection, alongside your own evidence, when you judge the competency.
+steps:
+  - title: "Learner picks the competency and the evidence"
+    guidance: >-
+      The learner chooses which competency or success indicator to claim, and the specific piece of
+      work or experience they'll use as evidence.
+  - title: "Make the explicit link"
+    guidance: >-
+      They explain how that evidence shows they meet the competency — which part demonstrates what, and
+      why. The explicit connection is the whole point.
+  - title: "Choose the medium"
+    guidance: >-
+      Written, or a short spoken or video walk-through — whatever lets the learner make the link
+      clearly. Done regularly, it gets quicker and builds real metacognition.
+  - title: "Assessor uses it to verify"
+    guidance: >-
+      Weigh the reflection alongside your own evidence when you judge the competency, and use it to open
+      a dialogue where the link doesn't yet hold.
+downloads:
+  - label: "Competency reflection"
+    file: /downloads/as-competency-reflection.docx
+    format: Word
+    role: template
+    note: >-
+      A template for the learner to link evidence to a competency in their own words — competency,
+      the evidence, how it shows they meet it — with a worked example and blank rows.
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction

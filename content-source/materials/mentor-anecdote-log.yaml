@@ -23,6 +23,30 @@ educatorContent: |
   and you simply cannot reconstruct those moments months later. The log doubles as evidence for
   recognising growth, and as material for the pathways conversations where you help a mentee see
   strengths they take for granted.
+steps:
+  - title: "Set up the log"
+    guidance: >-
+      Keep a simple running table to hand — paper or digital — so capturing a moment takes seconds.
+  - title: "Capture in the moment"
+    guidance: >-
+      Jot the specific, factual detail while it is fresh: what the mentee actually did, with enough
+      detail to use later. Memory weeks on is a poor substitute.
+  - title: "Note what it shows"
+    guidance: >-
+      Against each entry, name the competency, strength or growth it evidences, so the log doubles as a
+      store of evidence.
+  - title: "Use it"
+    guidance: >-
+      Draw on the log when you write references and recommendations, and when you help a mentee
+      evidence a competency or see strengths they take for granted.
+downloads:
+  - label: "Anecdote log"
+    file: /downloads/mentor-anecdote-log.docx
+    format: Word
+    role: template
+    note: >-
+      A running log sheet — date, what happened, what it shows, how you'll use it — with a worked
+      example row and blank rows to print or copy.
 agencyContribution:
   indicators:
     - control-of-future-pathways

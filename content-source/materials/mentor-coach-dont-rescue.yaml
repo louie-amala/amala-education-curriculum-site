@@ -22,6 +22,39 @@ educatorContent: |
   Coaching does not mean withholding help. You still teach, point to resources, and share what you
   know — but you offer these as options the mentee weighs, not answers that end their thinking. Keep
   a shared note of what was agreed, so the next conversation opens where the last one closed.
+steps:
+  - title: "Aim it at one concrete goal"
+    guidance: >-
+      Open on a specific goal the mentee is working towards, not a general catch-up. GROW works best
+      pointed at something concrete.
+    keyPrompts:
+      - "What's the one thing you want to make progress on today?"
+  - title: "Goal and Reality"
+    guidance: >-
+      Ask what they have committed to (Goal), then help them look honestly at where they actually are
+      against it (Reality) — without rescuing or judging.
+    keyPrompts:
+      - "What have you committed to? Where are you now, really, in relation to it?"
+  - title: "Options"
+    guidance: >-
+      Help the mentee generate their own options before you offer any. When you do contribute, offer
+      ideas as options to weigh, not answers that end their thinking.
+    keyPrompts:
+      - "What could you do from here? What else? And what else?"
+  - title: "Will, and record it"
+    guidance: >-
+      Let the mentee choose the next step and commit to it. Write it in the shared note so it opens the
+      next check-in.
+    keyPrompts:
+      - "So what will you do next, and by when?"
+downloads:
+  - label: "GROW check-in"
+    file: /downloads/mentor-grow-check-in.docx
+    format: Word
+    role: template
+    note: >-
+      A one-page structure for a coaching conversation — Goal, Reality, Options, Will, plus the agreed
+      next step — with a worked example and a blank to fill in together.
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction

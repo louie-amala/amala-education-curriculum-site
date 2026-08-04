@@ -28,6 +28,31 @@ educatorContent: |
   tied to the lesson's intention, jotted on scrap paper and handed in — which you read afterwards to plan
   the next session. Both are low-effort, high-information, and keep your next move grounded in what
   learners actually understood rather than what you hoped they did.
+steps:
+  - title: "Design the hinge question"
+    guidance: >-
+      Write a multiple-choice question for the lesson's pivot, with options built so each wrong choice
+      reveals a particular misconception.
+    keyPrompts:
+      - "What wrong thinking would lead to each incorrect option?"
+  - title: "Use it live to decide your next move"
+    guidance: >-
+      Pose it at the decision point. The spread of answers tells you in seconds whether to move on,
+      reteach, or regroup.
+  - title: "Set an exit-ticket prompt"
+    guidance: >-
+      Plan a short question tied to the learning intention for learners to answer on the way out.
+  - title: "Read the tickets and act"
+    guidance: >-
+      Collect them, read them, and let what they show shape how you open the next session.
+downloads:
+  - label: "Hinge question & exit ticket templates"
+    file: /downloads/cf-quick-checks.docx
+    format: Word
+    role: template
+    note: >-
+      A hinge-question builder (question, options mapped to misconceptions, what the answer tells you)
+      and exit-ticket slips, each with a worked example and a blank.
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction

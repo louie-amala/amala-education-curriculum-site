@@ -29,6 +29,31 @@ educatorContent: |
   asking the confident learners, pitching a hard question too early, or asking in a way that feels
   threatening. In the moment, interpret rather than evaluate — a wrong answer is information about where
   to teach next — and ask learners to justify their answers, right or wrong, to surface their reasoning.
+steps:
+  - title: "Tie each question to the learning"
+    guidance: >-
+      Aim your key questions at the learning intention, not just the activity — what do you actually
+      want this question to reveal?
+  - title: "Keep them short and clear"
+    guidance: >-
+      Write a few good questions, not a long list. Each should be understandable at once.
+  - title: "Plan follow-ups and who you'll ask"
+    guidance: >-
+      Decide how you'll probe further and how you'll bring in more than the confident few (pair with
+      "Choose who answers"). Design out the common traps — too many at once, answering your own
+      question, only asking the sure.
+  - title: "Interpret the answers"
+    guidance: >-
+      In the moment, treat a wrong answer as information about where to teach next, and ask learners to
+      justify what they say.
+downloads:
+  - label: "Question planner"
+    file: /downloads/cf-question-planner.docx
+    format: Word
+    role: template
+    note: >-
+      A planning sheet for your key questions — the question, what a good answer reveals, and your
+      follow-up / who you'll ask — with a worked example and blank rows.
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction

@@ -22,6 +22,32 @@ educatorContent: |
   happens. Naming this early builds the trust everything else depends on, and prevents the sense of
   betrayal that follows a boundary the mentee never knew was there. Revisit it, too: a one-line
   reminder at the start is not the same as understanding, and both of you will refer back to it.
+steps:
+  - title: "Explain your role plainly"
+    guidance: >-
+      In the first meeting, say what you are there for — their progress and their wellbeing, and that
+      you are on their side — in plain language.
+  - title: "Agree how you'll work together"
+    guidance: >-
+      Set out how often you'll meet, that they can ask for a conversation whenever they're stuck, and
+      that preparing gets more from your time.
+  - title: "Be clear and honest about confidentiality"
+    guidance: >-
+      Say what stays between you, and — honestly — what you may have to pass on to keep them or others
+      safe, and that you'll tell them when that happens.
+  - title: "Capture their hopes, and revisit it"
+    guidance: >-
+      Note what the mentee wants from the relationship in their own words, and come back to the
+      agreement over time — a one-line reminder isn't the same as understanding.
+downloads:
+  - label: "First conversation — a mentoring agreement"
+    file: /downloads/mentor-first-conversation.docx
+    format: Word
+    role: template
+    note: >-
+      A simple frame for the opening meeting to fill in together and keep a copy each: what you're
+      here for, how you'll work, what stays private and what you may have to pass on, and the mentee's
+      hopes. Includes a worked example and a blank.
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction
