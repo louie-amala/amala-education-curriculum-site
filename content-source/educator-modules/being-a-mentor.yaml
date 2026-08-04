@@ -1,12 +1,184 @@
-# Placeholder — resources to be added. See designing-facilitating-group-learning.yaml for the full pattern.
-# Once built, this module trains the same repertoire the mentoring moves document (/educators/mentoring).
+# Educator training module — "Being a mentor". Content extracted from the module pack (participant,
+# trainer & sign-off guides, slides, Mentoring Plan and Record, and the mentoring scenarios).
+# Trains the same repertoire the mentor's moves document (/educators/mentoring).
 id: edmod-being-a-mentor
 slug: being-a-mentor
 access: public
 title: Being a mentor
 category: component
 requirement: Required when a programme has 1-1 mentoring.
-status: in-development
+status: available
+
 summary: >-
-  Walking alongside individual learners — supporting academic progress and wellbeing, helping learners
-  recognise their growth, and guiding them towards their pathways. Resources coming soon.
+  The craft of one-to-one mentoring: supporting a learner over time, across their wellbeing and their
+  progress, with clear judgement about where your role ends and when to signpost or refer. You work
+  from the mentor's moves and build a real plan for a real learner, across two live sessions and
+  independent work.
+
+forWho: >-
+  Educators who mentor a learner one-to-one, or are about to. You choose a real learner to plan for
+  (using initials or a code, never their full name).
+
+outcome: >-
+  By the end you will have a mentoring plan for a learner you actually support, and written responses
+  to the mentoring scenarios that show sound mentoring judgement.
+
+format: >-
+  Two live sessions of 2 hours, with pre-work and independent work in three phases. You do your
+  planning in the Mentoring Plan and Record, drawing on the mentor's moves. Sessions may run online or
+  in person.
+
+hours:
+  synchronous: 4
+  independent: 4
+  total: 8
+  note: ~1 hr pre-work, two 2-hr live sessions, and ~3 hrs of independent work across two phases.
+
+deliverable:
+  title: A mentoring plan for a real learner, and your scenario responses
+  detail: >-
+    You submit a mentoring plan built around a learner you mentor (Sections 1–3 of the Mentoring Plan
+    and Record) together with your written responses to the mentoring scenarios. Both are done in the
+    module's documents; the participant guide tells you what to do at each stage.
+
+# The Mentoring Plan and Record's sections.
+workbookSections:
+  - n: 1
+    title: Your learner
+    detail: Who they are, what matters to them, where they are now (initials or a code, never a full name).
+  - n: 2
+    title: Safeguarding groundwork
+    detail: Your setting's safeguarding policy and referral pathways, and your designated safeguarding lead.
+  - n: 3
+    title: Your plan across the five parts of the role
+    detail: How you will support this learner over time, which mentor's moves you draw on, and your rhythm of support.
+  - n: 4
+    title: Ongoing work
+    detail: How the plan lives on once you begin mentoring — introduced in Session 2.
+
+sessions:
+  - n: 1
+    title: The mentor role, and the one decision under it
+    focus: The five parts of the role · working a scenario together · sharing your learner
+    durationHours: 2
+    blocks:
+      - title: The five parts of the mentor role
+        detail: >-
+          The five parts, and the one decision that runs under all of them — coaching a learner to
+          find their own way, and knowing when to stop coaching and signpost or refer.
+      - title: Work a scenario together
+        detail: Work a mentoring scenario as a group, so you see the coaching stance in action before writing your own responses.
+      - title: Share your learner
+        detail: Share your chosen learner with peers to sharpen your Section 1. You leave with a clear brief for your independent work.
+  - n: 2
+    title: Peer feedback and finished submission
+    focus: Feedback on your scenarios and plan · what a finished submission looks like
+    durationHours: 2
+    blocks:
+      - title: Peer feedback
+        detail: Give and receive feedback on your scenario responses and your plan, using the peer feedback protocol.
+      - title: Agree what "finished" looks like
+        detail: Agree what a finished submission looks like and receive the submission checklist.
+      - title: Section 4 — the ongoing-work section
+        detail: The trainer introduces Section 4 of the Mentoring Plan and Record, so you know how the plan lives on. You leave ready to finalise and submit.
+
+independentWork:
+  - label: Pre-work
+    afterSession: 0
+    hours: "~1 hour"
+    when: Before Session 1
+    tasks:
+      - title: Reflect on being well supported
+        hours: "~10 min"
+        detail: Think of a time someone supported you well and what they actually did that helped. It is the felt sense of good mentoring you are working towards.
+      - title: Read the mentor's moves
+        hours: "~25 min"
+        detail: >-
+          Read the mentor's moves on the Amala curriculum site (/educators/mentoring). Notice the five
+          parts of the role and the through-line: coaching a learner to find their own way, and knowing
+          when something needs more than coaching.
+      - title: Safeguarding groundwork
+        hours: "~15 min"
+        detail: Find and read your setting's safeguarding policy and referral pathways; note your designated safeguarding lead in Section 2. This is the floor everything else stands on.
+      - title: Choose your learner
+        hours: "~10 min"
+        detail: Choose one learner to plan for and begin Section 1. Use initials or a code, never their full name.
+  - label: Independent Work 1
+    afterSession: 1
+    hours: "~2 hours"
+    when: Before Session 2
+    tasks:
+      - title: Build your plan
+        hours: "~1 hr 30 min"
+        detail: Complete Section 1, then build Section 3 across the five parts of the role — the moves you will draw on and your rhythm of support. Choose what fits this learner and your remit.
+      - title: Respond to the scenarios
+        hours: "~30 min"
+        detail: On the scenario response sheet, write your responses to the assessment scenarios — what you would do and be careful not to do, where the boundary is, and which moves you draw on.
+  - label: Independent Work 2
+    afterSession: 2
+    hours: "~1 hour"
+    when: After Session 2
+    tasks:
+      - title: Finalise and submit
+        hours: "~1 hour"
+        detail: Finalise your plan and scenario responses against the checklist, then submit both your plan (Sections 1–3) and your scenario responses to your trainer.
+
+signOff:
+  intro: >-
+    Sign-off is based on the mentoring plan and scenario responses you produce during the training.
+    There is no observed teaching and no interview at this stage. A pass means you hold the module,
+    which travels with you across Amala programmes.
+  submits:
+    - A mentoring plan for a learner you mentor, or are about to (Sections 1–3 of the Mentoring Plan and Record).
+    - Written responses to the mentoring scenarios provided in the module.
+  criteria:
+    - title: Grounded in the learner and context
+      met: The plan is built around a real learner and their needs — including wellbeing and progress — not a generic one.
+    - title: Sound mentoring judgement
+      met: The scenario responses show appropriate support, clear boundaries, and knowing when to signpost or escalate.
+    - title: Sustained and structured
+      met: The plan sets out how progress and wellbeing are tracked and support is maintained over time, not one-off.
+  threshold: >-
+    All three criteria Met is a pass. If any is Not yet, the trainer gives specific written feedback
+    and the educator has one resit — a revised submission, with no follow-up call. If the resit is
+    still Not yet, the educator re-enrols on a future cohort.
+
+resources:
+  - label: Session slides
+    file: /downloads/mentor-slides.pptx
+    format: PPTX
+    audience: shared
+    note: The deck used across both live sessions.
+  - label: Trainer guide
+    file: /downloads/mentor-trainer-guide.docx
+    format: DOCX
+    audience: trainer
+    note: Facilitation for the two sessions — agendas, prompts, and how to run the scenarios.
+  - label: Mentoring scenarios — facilitator set
+    file: /downloads/mentor-scenarios-facilitator-set.docx
+    format: DOCX
+    audience: trainer
+    note: The scenarios with facilitation notes, for working through in the sessions.
+  - label: Module sign-off guide
+    file: /downloads/mentor-sign-off-guide.docx
+    format: DOCX
+    audience: trainer
+    note: How to assess the plan and scenario responses against the three criteria, with the sign-off record to file.
+  - label: Participant guide
+    file: /downloads/mentor-participant-guide.docx
+    format: DOCX
+    audience: participant
+    note: The participant's guide to the module — the arc, what to do at each stage, and how sign-off works.
+  - label: Mentoring Plan and Record
+    file: /downloads/mentor-plan-and-record.docx
+    format: DOCX
+    audience: participant
+    note: The document participants plan in, and the deliverable they submit for sign-off.
+  - label: Mentoring scenarios — response sheet
+    file: /downloads/mentor-scenarios-response-sheet.docx
+    format: DOCX
+    audience: participant
+    note: Where participants write their scenario responses.
+
+sourceNotes:
+  - Extracted from the Being a Mentor module pack (participant, trainer & sign-off guides, slides, Mentoring Plan and Record, mentoring scenarios).

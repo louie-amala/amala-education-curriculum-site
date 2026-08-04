@@ -1,12 +1,177 @@
-# Placeholder — resources to be added. See designing-facilitating-group-learning.yaml for the full pattern.
-# Once built, this module trains the same repertoire the assessor moves document (/educators/assessment).
+# Educator training module — "Conducting Assessments of Competence". Content extracted from the module
+# pack (participant, trainer guides & workbook, session slides, the 15-case bank in three editions,
+# and the reference calibration probes). Trains the repertoire the assessor moves document
+# (/educators/assessment).
 id: edmod-conducting-assessments
 slug: conducting-assessments
 access: public
 title: Conducting assessments of competence
 category: component
 requirement: Required when a programme has assessment.
-status: in-development
+status: available
+
 summary: >-
-  Judging learners' competencies fairly and with evidence — seeking evidence of proficiency, making
-  sound judgements against the framework, and moderating them. Resources coming soon.
+  Judging a learner's competence against Amala's proficiency scale from the evidence you have, and
+  standing behind that judgement in moderation. You learn the scale and what counts as evidence,
+  practise on realistic learner cases with feedback, then judge a set of cases independently as your
+  assessment. Programme-agnostic.
+
+forWho: >-
+  Educators who assess learners' competencies. It is about how to assess competence, whatever course
+  you teach — not the administration that comes with any one programme.
+
+outcome: >-
+  By the end you will be able to judge competence against the proficiency scale from the evidence,
+  justify each judgement, and prepare to defend and revise it in moderation — evidenced by a set of
+  judged cases with reasoning and a moderation-prep note.
+
+format: >-
+  Two live sessions of 2 hours, with pre-work reading, an independent practice phase, and an
+  independent assessment. You work from the Workbook and the case bank.
+
+hours:
+  synchronous: 4
+  independent: 4
+  total: 8
+  note: About 7–8 hrs total — ~1 hr pre-work, two 2-hr live sessions, and two independent phases of ~1.5–2 hrs each.
+
+deliverable:
+  title: Level judgements with reasoning, and a moderation-prep note
+  detail: >-
+    For the assessment cases your trainer provides, you award a level and write your reasoning tied to
+    what the evidence shows across sources, plus a short moderation-prep note on where you were least
+    sure and what evidence you would point to. You submit both.
+
+sessions:
+  - n: 1
+    title: The scale and the evidence
+    focus: The five levels · what counts as evidence · a modelled judgement
+    durationHours: 2
+    blocks:
+      - title: The scale, level by level
+        detail: What separates each level from the one below — in particular the credit line at Practitioner, and the case where no level is awarded.
+      - title: What counts as evidence
+        detail: What counts as evidence, and how the same evidence is weighed against the goal a competency names.
+      - title: Model and practise
+        detail: The trainer models a judgement on a case, thinking aloud, then you judge one or two cases as a group and talk through where you agree and differ.
+  - n: 2
+    title: Calibration and moderation
+    focus: Comparing judgements · defending reasoning · where judgements slip
+    durationHours: 2
+    blocks:
+      - title: Calibration in pairs and groups
+        detail: Compare judgements on the same cases, defend your reasoning against the evidence, and work towards a shared view. That is the experience of moderation.
+      - title: Where a judgement slips
+        detail: The common places judgements slip — over-awarding for effort, mistaking an attempt for an achievement, crediting reflection that belongs to the project rather than the competency.
+
+independentWork:
+  - label: Pre-work
+    afterSession: 0
+    hours: "~1 hour"
+    when: Before Session 1
+    tasks:
+      - title: Read the Workbook
+        hours: "~40 min"
+        detail: The competency framework, the proficiency scale, and how assessment works at Amala. Give most attention to the five levels, and to the principle that a judgement is about the learner across the evidence over time, not a single piece of work.
+      - title: Read one worked case
+        hours: "~20 min"
+        detail: Notice how the level is decided from what the evidence shows, not from anything that labels it. The evidence never announces the answer; finding it is the skill.
+  - label: Independent Work 1
+    afterSession: 1
+    hours: "~1.5 to 2 hours"
+    when: Before Session 2
+    tasks:
+      - title: Judge the practice cases
+        detail: In the case bank (educator edition), decide which single level the evidence supports for each case and write your reasoning, pointing to what carries your decision.
+      - title: Check yourself
+        detail: Compare your judgements with the moderated decisions in the companion edition. Where you differ, look at what the reasoning rests on; note any level boundary you found hard and bring it to Session 2.
+  - label: Assessment
+    afterSession: 2
+    hours: "~1.5 to 2 hours"
+    when: After Session 2
+    tasks:
+      - title: Judge the assessment cases
+        detail: Your trainer provides the assessment set. For each case, award a level and write your reasoning, tied to what the evidence shows across sources. You will not have the moderated decisions for these.
+      - title: Write your moderation-prep note
+        detail: In a short note, set out how you would prepare to take these judgements into moderation — which were hardest, where you were least sure, and what evidence you would point to. Submit both.
+
+signOff:
+  intro: >-
+    Sign-off is made from what you submit — your level and reasoning for each assessment case, and your
+    moderation-prep note. There is no observed teaching and no interview. A pass means you hold the
+    module, which travels with you across Amala programmes.
+  submits:
+    - Your level and reasoning for each assessment case.
+    - Your moderation-prep note.
+  criteria:
+    - title: Defensible across the scale
+      met: Your judgements are sound across the levels, including the credit line and the case where no level is awarded.
+    - title: Reasoning tied to evidence
+      met: Each judgement is justified by what the evidence shows, across sources, rather than asserted.
+    - title: Ready for moderation
+      met: Your note shows you can prepare to defend your judgements and, where needed, revise them.
+  threshold: >-
+    All three criteria Met is a pass. If anything is Not yet, you get specific feedback and one chance
+    to revise and resubmit.
+
+resources:
+  - label: Session 1 slides — the scale and the evidence
+    file: /downloads/ca-slides-session-1.pptx
+    format: PPTX
+    audience: shared
+    note: Used live in Session 1.
+  - label: Session 2 slides — calibration and moderation
+    file: /downloads/ca-slides-session-2.pptx
+    format: PPTX
+    audience: shared
+    note: Used live in Session 2.
+  - label: Trainer guide
+    file: /downloads/ca-trainer-guide.docx
+    format: DOCX
+    audience: trainer
+    note: Facilitation for the two sessions — agendas, the calibration-and-moderation protocol, case-draw mechanics, and how to sign off.
+  - label: Case bank — trainer edition
+    file: /downloads/ca-case-bank-trainer.docx
+    format: DOCX
+    audience: trainer
+    note: The cases with decisions, reasoning, and facilitation notes on where judgements slip. The trainer's copy.
+  - label: Calibration probe — Set and pursue goals (FSL2)
+    file: /downloads/ca-calibration-probe-fsl2.docx
+    format: DOCX
+    audience: trainer
+    note: Reference only — the development record used to calibrate the cases, not a delivery material.
+  - label: Calibration probe — Investigate real-world issues (FSI1)
+    file: /downloads/ca-calibration-probe-fsi1.docx
+    format: DOCX
+    audience: trainer
+    note: Reference only — the development record used to calibrate the cases, not a delivery material.
+  - label: Calibration probe — Fostering connection and belonging (FLC2)
+    file: /downloads/ca-calibration-probe-flc2.docx
+    format: DOCX
+    audience: trainer
+    note: Reference only — the development record used to calibrate the cases, not a delivery material.
+  - label: Participant guide
+    file: /downloads/ca-participant-guide.docx
+    format: DOCX
+    audience: participant
+    note: The participant's guide to the module — the arc, what to do at each stage, and how sign-off works.
+  - label: Workbook
+    file: /downloads/ca-workbook.docx
+    format: DOCX
+    audience: participant
+    note: The teaching and reference text — the framework, the proficiency scale, how assessment works at Amala, and a worked case. The pre-work reading.
+  - label: Case bank — educator edition
+    file: /downloads/ca-case-bank-educator.docx
+    format: DOCX
+    audience: participant
+    note: The learner cases participants judge, with space to record a judgement.
+  - label: Case bank — educator edition with decisions
+    file: /downloads/ca-case-bank-educator-with-decisions.docx
+    format: DOCX
+    audience: participant
+    note: The same cases with the moderated decision and reasoning, for self-checking after judging.
+
+sourceNotes:
+  - Extracted from the Conducting Assessments of Competence module pack.
+  - Open item — the case decisions are drafted and calibrated but have not had a human moderation pass; ratify before using the bank for live sign-off.
+  - Open item — dedicated practice cases and a reconciled Sign-off Guide (the drawn-ten-from-fifteen design) are still to be finalised.
