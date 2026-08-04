@@ -36,7 +36,15 @@ deliveryApproach: >-
   success, not falling short. Because identity, home, and family can touch displacement and loss,
   every activity lets a learner choose what to share, offers a lighter everyday focus, and never
   requires anything personal. Translanguaging is welcomed throughout: bridges to Rohingya, Chittagonian,
-  Burmese, and Arabic are how these learners will move fastest.
+  Burmese, and Arabic are how these learners will move fastest. Two habits run under everything. First,
+  recycle relentlessly: open most sessions with a short, warm review of the sounds and words already
+  met, because little-and-often, with sounds and words coming back again and again, beats teaching a
+  thing once. Second, treat English as a whole-programme, all-week habit, not a My Voice-only subject:
+  the greetings, names, and simple sentences learned here are meant to be used in Agency in Learning
+  check-ins, in mentoring conversations, and in daily life at home and around the learning space, and it
+  is the facilitator's job to keep nudging that. See the facilitator playbook (cb-mv-facilitator-playbook)
+  for how to teach at this level, and the "Practice everywhere" resource (cb-mv-practice-everywhere) for
+  building practice into the rest of the programme and the learner's day.
 assessmentNote: >-
   English Language Development is an optional component and is not one of the two competencies formally
   graded on Learning Bridge+ (those, Set and Pursue Goals and Investigate Real World Issues, live in the
@@ -69,7 +77,11 @@ phases:
           read, write, or share anything they would rather keep private. Introduce the big idea in your
           own words and in the language you share with learners: everyone here already has a voice and
           things worth saying, and this course is about finding the English to say who you are. Make
-          mistakes welcome out loud — trying is the whole point. Keep it warm, oral, and unhurried.
+          mistakes welcome out loud — trying is the whole point. Set up the practice habit from day one:
+          English grows fastest when it is used a little every day, everywhere, so introduce the "Practice
+          everywhere" page in the My Voice book (where can I use my English, and who with?) and explain
+          that each time you meet you will ask, warmly and without pressure, who they spoke English with.
+          Keep it warm, oral, and unhurried.
       - title: "Mark where I am now"
         kind: activity
         materialSlug: cb-mv-i-can-checklist
@@ -183,11 +195,15 @@ phases:
         description: >-
           Speaking practice, where fluency and confidence grow. Between sessions, learners use their
           greeting and their simple sentences with real people — a neighbour, a family member, someone
-          at the learning facility. Open each session with a short, warm check-in in same-gender pairs:
-          who did you speak English with, what did you say, what happened? A sentence tried, however
-          small, is celebrated. This block carries a large share of the independent hours, so protect it
-          and keep the check-ins going. When someone is too shy to speak outside, practising with one
-          trusted person, or with a partner in the room, counts fully.
+          at the learning facility. This is where "practice everywhere" becomes concrete: point learners
+          to the rest of the programme as places to use English — greet the group and your mentor in
+          English at the start of Agency in Learning and mentoring sessions, say one thing about yourself,
+          and use the "Practice everywhere" page and practice log in the My Voice book to plan who to
+          speak to and to mark each time. Open each session with a short, warm check-in in same-gender
+          pairs: who did you speak English with, what did you say, what happened? A sentence tried,
+          however small, is celebrated. This block carries a large share of the independent hours, so
+          protect it and keep the check-ins going. When someone is too shy to speak outside, practising
+          with one trusted person, or with a partner in the room, counts fully.
         independentTask: "Keep using your English greeting and sentences with people you meet, and notice what gets easier."
       - title: "Writing a little about myself"
         kind: activity
@@ -251,5 +267,6 @@ sourceNotes:
   - Set out in hours, not weeks, as a standalone 50-hour component (30 in-person + 20 independent). Educators fit it to their own weekly schedule over a minimum of 10 weeks.
   - Activity times are generous (roughly 1.5 to 2 times a literate-group estimate) to reflect oral and visual delivery, drawing, translation, and a pre-literate starting point.
   - English Language Development is optional and is not one of the two formally graded Learning Bridge+ competencies; its assessment is formative, against the A1- Can-Do outcomes and each learner's own growth.
+  - Two facilitator-facing resources underpin the unit. cb-mv-facilitator-playbook is the how-to for teaching beginner English to pre-literate learners, grounded in the English for Impact pedagogy plus LESLLA and SLA research. cb-mv-practice-everywhere builds English practice into Agency in Learning, mentoring, the Research Project, and daily life. The facilitator plan carries the playbook and the practice guidance at the front; the student workbook has a Practice everywhere page and practice log.
   - The phonics and grammar scaffolding from the source PDF is carried by dedicated materials — two reference resources (cb-mv-phonics-progression and cb-mv-phonics-table) and two practice activities (cb-mv-sound-and-letter-practice and cb-mv-sentence-practice, the latter an offline adaptation of the source's Unit 1 grammar exercises).
   - The offline resource pack (facilitator unit plan, visual My Voice book/workbook, picture and letter cards, optional slides) is produced as editable files under public/downloads, mirroring the Agency in Learning pack.

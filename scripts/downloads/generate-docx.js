@@ -94,6 +94,21 @@ function facilitatorPlan() {
   c.push(...body(unit.deliveryApproach));
   c.push(H2('Assessing English progress'));
   c.push(...body(unit.assessmentNote));
+  // How to teach this well — the facilitator playbook, up front (the method behind every activity)
+  const playbook = mat['cb-mv-facilitator-playbook'];
+  if (playbook && playbook.educatorContent) {
+    c.push(pageBreak());
+    c.push(H1('How to teach this well'));
+    c.push(P('Read this before you start. It is the method behind every activity in the plan — the how, where each activity below gives you the what.', { size: 22, color: GREY }));
+    c.push(...mdBlocks(playbook.educatorContent));
+  }
+  const practiceRes = mat['cb-mv-practice-everywhere'];
+  if (practiceRes && practiceRes.educatorContent) {
+    c.push(pageBreak());
+    c.push(H1('Practice everywhere'));
+    c.push(...mdBlocks(practiceRes.educatorContent));
+  }
+  c.push(pageBreak());
   c.push(H2('How to use this plan'));
   c.push(P('This plan is set out in hours, not weeks. Work through the phases in order; within a phase, the blocks build on each other. Each activity block below carries its full facilitation guidance inline — what learners do, what to prepare, the steps, the prompts, what to watch for, and how to run it with no materials. Deliver in the language you share with learners, from this plain-English guide. Times are generous on purpose: oral and visual work, drawing, and translation take longer than they look.', { size: 22 }));
   c.push(pageBreak());
@@ -207,10 +222,10 @@ function workbook() {
 
   // Sheet list, in unit order — also drives the contents page.
   const SHEETS = [
-    'My Voice book (cover)', 'The "I can…" sheet', 'Our classroom words', 'Listening: hello and names',
-    'My name', 'My sounds and words', 'Building sounds and words', 'Words about me', 'My writing practice',
-    'I can say who I am', 'Building sentences', 'Meeting people', 'Writing a little about myself',
-    'My Name, My Voice card', 'How my voice has grown',
+    'My Voice book (cover)', 'The "I can…" sheet', 'Practice everywhere', 'Our classroom words',
+    'Listening: hello and names', 'My name', 'My sounds and words', 'Building sounds and words',
+    'Words about me', 'My writing practice', 'I can say who I am', 'Building sentences', 'Meeting people',
+    'Writing a little about myself', 'My Name, My Voice card', 'How my voice has grown',
   ];
 
   // --- Cover (Set up your My Voice book) ---
@@ -244,6 +259,13 @@ function workbook() {
     ...[0, 1].map(() => new TableCell({ width: { size: 1800, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: ':)   :|   :(', size: 20, color: GREY })] })] })),
   ] })));
   c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [7200, 1800, 1800], rows: rowsC }));
+  c.push(pageBreak());
+
+  // --- Practice everywhere ---
+  head('Practice everywhere', 'Practice everywhere', 'English grows when you use it. Where can you use your English, and who with? Circle or draw.');
+  c.push(labelBoxes(['my family', 'a neighbour', 'my mentor', 'my group / class', 'a friend', 'someone at home'], 3, 1300));
+  c.push(new Paragraph({ children: [new TextRun({ text: 'My practice — draw or tick each time you use your English this week, and who with:', size: 22, color: PLUM })], spacing: { before: 260, after: 120 } }));
+  c.push(gridBoxes(4, 3, 1200, ''));
   c.push(pageBreak());
 
   // --- Our classroom words ---
