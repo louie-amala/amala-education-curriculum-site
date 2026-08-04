@@ -1,0 +1,12 @@
+# Placeholder — resources to be added. See designing-facilitating-group-learning.yaml for the full pattern.
+# Once built, this module trains the same repertoire the mentoring moves document (/educators/mentoring).
+id: edmod-being-a-mentor
+slug: being-a-mentor
+access: public
+title: Being a mentor
+category: component
+requirement: Required when a programme has 1-1 mentoring.
+status: in-development
+summary: >-
+  Walking alongside individual learners — supporting academic progress and wellbeing, helping learners
+  recognise their growth, and guiding them towards their pathways. Resources coming soon.

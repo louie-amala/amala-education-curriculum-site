@@ -244,6 +244,29 @@ export const EDUCATOR_FUNCTIONS: EducatorFunctionMeta[] = [
   },
 ];
 
+// Educator training module categories (foundation / component / delivery-mode). Label + a one-line
+// blurb for the index, and a left-border accent colour matching the site's palette.
+export const EDUCATOR_MODULE_CATEGORY: Record<
+  string,
+  { label: string; blurb: string; accent: string }
+> = {
+  foundation: {
+    label: "Foundation modules",
+    blurb: "The groundwork every Amala educator needs, whatever they deliver.",
+    accent: "border-navy",
+  },
+  component: {
+    label: "Component modules",
+    blurb: "Tied to what a programme is made of — the training a specific component calls for.",
+    accent: "border-teal",
+  },
+  "delivery-mode": {
+    label: "Delivery-mode modules",
+    blurb: "Needed when a programme is delivered in a particular way, such as fully online.",
+    accent: "border-plum",
+  },
+};
+
 export const CONTEXT_LABEL: Record<string, string> = {
   group: "Group",
   "one-to-one-mentoring": "One-to-one mentoring",

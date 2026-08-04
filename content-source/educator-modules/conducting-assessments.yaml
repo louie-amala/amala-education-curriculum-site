@@ -1,0 +1,12 @@
+# Placeholder — resources to be added. See designing-facilitating-group-learning.yaml for the full pattern.
+# Once built, this module trains the same repertoire the assessor moves document (/educators/assessment).
+id: edmod-conducting-assessments
+slug: conducting-assessments
+access: public
+title: Conducting assessments of competence
+category: component
+requirement: Required when a programme has assessment.
+status: in-development
+summary: >-
+  Judging learners' competencies fairly and with evidence — seeking evidence of proficiency, making
+  sound judgements against the framework, and moderating them. Resources coming soon.

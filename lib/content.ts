@@ -7,6 +7,7 @@ import {
   AreaSchema,
   CompetencySchema,
   CourseSchema,
+  EducatorModuleSchema,
   FacilitationMaterialSchema,
   GlossaryTermSchema,
   ModuleSchema,
@@ -18,6 +19,7 @@ import {
   type Area,
   type Competency,
   type Course,
+  type EducatorModule,
   type FacilitationMaterial,
   type GlossaryTerm,
   type Module,
@@ -123,12 +125,20 @@ function loadModules(): Module[] {
   );
 }
 
+function loadEducatorModules(): EducatorModule[] {
+  if (!existsSync(join(ROOT, "educator-modules"))) return [];
+  return listYaml("educator-modules").map((f) =>
+    parseWith(EducatorModuleSchema, `educator-modules/${f}`, readYaml("educator-modules", f)),
+  );
+}
+
 export const courses: Course[] = loadCourses();
 export const programmes: Programme[] = loadProgrammes();
 export const materials: FacilitationMaterial[] = loadMaterials();
 export const glossaryTerms: GlossaryTerm[] = loadGlossary();
 export const units: Unit[] = loadUnits();
 export const modules: Module[] = loadModules();
+export const educatorModules: EducatorModule[] = loadEducatorModules();
 
 // ---- objectives as addressable entities (id = `<courseId>--o<n>`) ----
 export interface ObjectiveEntity {
@@ -333,6 +343,9 @@ export const skillModules = modules.filter((m) => m.grain === "skill");
 
 export function getModule(slug: string) {
   return moduleBySlug.get(slug);
+}
+export function getEducatorModule(slug: string) {
+  return educatorModules.find((m) => m.slug === slug);
 }
 // Competency modules that develop a given framework competency code.
 export function getCompetencyModulesForCode(code: string): Module[] {

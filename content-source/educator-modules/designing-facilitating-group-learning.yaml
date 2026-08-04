@@ -1,0 +1,239 @@
+# Educator training module — "Designing and facilitating group-based learning" (DFGBL).
+# The first authored module. Content is extracted from the DFGBL source pack (session slides,
+# trainer + participant guides, Course Planning Guide, and sign-off guide). The five resource files
+# are hosted under /public/downloads/ and linked in `resources` below.
+id: edmod-dfgbl
+slug: designing-facilitating-group-learning
+access: public
+title: Designing and facilitating group-based learning
+category: component
+requirement: Required for every programme that has group-based learning.
+status: available
+
+summary: >-
+  The core module for anyone facilitating an Amala course. Across three live sessions and independent
+  work, educators plan the first 10 hours of their own course — grounded in their learners and context,
+  their course objectives, and Amala's nine transformative education principles — and leave with a
+  living plan they keep building.
+
+forWho: >-
+  Educators who will design and facilitate a group-based Amala course. No prior Amala teaching
+  experience is assumed, but participants should come with a course to plan (their objectives and a
+  sense of their learners and context).
+
+outcome: >-
+  By the end of the training you will have planned the first 10 hours of your Amala course — grounded
+  in the transformative education principles and your course objectives — and have an honest
+  pre-delivery reflection on where you are and what comes next.
+
+format: >-
+  Three live sessions of 2 hours each, with pre-work and two stretches of independent work between
+  sessions. Delivered to a cohort; much of the value is in peer feedback, so it runs best with several
+  educators together.
+
+hours:
+  synchronous: 6
+  independent: 6
+  total: 12
+  note: >-
+    ~1 hr pre-work, three 2-hr live sessions, and ~5 hrs of independent work across the module. The
+    output is 10 hours of course planned.
+
+deliverable:
+  title: Your Course Planning Guide — first 10 hours planned
+  detail: >-
+    You work in the Course Planning Guide throughout the training and beyond. By the end you submit it
+    showing the first 10 hours of your course plan (Section 4), grounded in your context and learners
+    (Section 1), plus your pre-delivery reflection (Section 5).
+
+# The Course Planning Guide's own seven sections (the workbook the module is built around).
+workbookSections:
+  - n: 1
+    title: Context and learners
+    detail: Who you are teaching and where.
+  - n: 2
+    title: Course objectives
+    detail: Objectives, plus opportunities and activity ideas.
+  - n: 3
+    title: Transformative education principles
+    detail: The nine principles used as a design tool.
+  - n: 4
+    title: Course plan
+    detail: The session-by-session plan (50 blocks).
+  - n: 5
+    title: Pre-delivery reflection
+    detail: An honest self-assessment before you begin.
+  - n: 6
+    title: Design checklist
+    detail: Requirements, objectives, and principles.
+  - n: 7
+    title: Post-delivery reflection
+    detail: Reflecting on impact after delivery.
+
+sessions:
+  - n: 1
+    title: Welcome and orientation
+    focus: Sharing learner contexts · working through your course objectives
+    durationHours: 2
+    blocks:
+      - time: "0:00–0:30"
+        title: Welcome and refresher
+        detail: >-
+          Overview of the training and planner. A brief refresher on Amala's model — agency for
+          positive change — and the nine transformative education principles.
+      - time: "0:30–0:55"
+        title: Sharing context and learners
+        detail: >-
+          Share 2–3 things about your learners and context from Section 1 with the group. The more
+          concrete you are, the more useful it is for everyone.
+      - time: "1:05–1:40"
+        title: Working through your objectives
+        detail: >-
+          In pairs or small groups, share your objectives and brainstorm opportunities and activity
+          ideas together, writing them straight into your planner.
+      - time: "1:40–2:00"
+        title: Share-back and session close
+        detail: What is emerging across the group? A brief for the independent work before Session 2.
+  - n: 2
+    title: Principles, peer feedback, and revision
+    focus: Sharing principle-led ideas · peer feedback on your first 5 hours
+    durationHours: 2
+    blocks:
+      - time: "0:00–0:10"
+        title: Check-in
+        detail: How did the independent work go? Any questions before we start?
+      - time: "0:10–0:35"
+        title: Section 3 share-out
+        detail: >-
+          Share your principle-led ideas in pairs. Which principle was most generative? Which was
+          hardest to apply in your context?
+      - time: "0:35–1:20"
+        title: Peer feedback — first 5 hours
+        detail: Structured peer feedback on your first 5 hours of planning, using the feedback protocol.
+      - time: "1:20–1:40"
+        title: Revision time
+        detail: Update your plan based on the feedback you received.
+      - time: "1:40–2:00"
+        title: Session close and brief
+        detail: What to complete before Session 3.
+  - n: 3
+    title: Full plan feedback and close
+    focus: Peer feedback on your 10-hour plan · checklist · celebrate and commit
+    durationHours: 2
+    blocks:
+      - time: "0:00–0:10"
+        title: Check-in
+        detail: How are you feeling about your plan?
+      - time: "0:10–0:55"
+        title: Peer feedback — full 10-hour plan
+        detail: >-
+          Same protocol as Session 2. As a listener, also consider the plan as a whole — where the
+          principles are most alive, whether the arc is coherent, and what might be missing.
+      - time: "0:55–1:15"
+        title: Revision time
+        detail: Update your plan based on the feedback you received.
+      - time: "1:15–1:35"
+        title: Section 6 checklist
+        detail: >-
+          Work through the design checklist independently, then share what you can tick and what still
+          needs attention.
+      - time: "1:35–2:00"
+        title: Closing round and next steps
+        detail: One thing you are proud of. Your single next step. And what happens after the training.
+
+independentWork:
+  - label: Pre-work
+    afterSession: 0
+    hours: "~1 hour"
+    when: Before Session 1
+    tasks:
+      - title: Come ready with your course
+        detail: >-
+          Arrive with your course objectives and a sense of your learners and context, ready to work
+          in Sections 1 and 2 of the planner.
+  - label: Independent Work 1
+    afterSession: 1
+    hours: "~2 hours"
+    when: Before Session 2
+    tasks:
+      - title: Complete Section 3 — transformative education principles
+        hours: "~45 min"
+        detail: >-
+          For each of the nine principles, generate opportunities and activity ideas for your specific
+          context. Treat it as a brainstorm — there are no wrong answers.
+      - title: Begin Section 4 — plan the first 5 hours of your course
+        hours: "~1 hr 15 min"
+        detail: >-
+          Plan at least 5 hours before Session 2. The first few hours set the tone — think about how
+          you will build safety and surface learner knowledge. Submit your planner before Session 2.
+  - label: Independent Work 2
+    afterSession: 2
+    hours: "~3 hours"
+    when: Before Session 3
+    tasks:
+      - title: Complete Section 4 — plan hours 6–10
+        hours: "~2 hrs"
+        detail: >-
+          Apply the feedback you received. Check which objectives appear across the 10 hours, and
+          where the principles are visible in how you have designed activities.
+      - title: Complete Section 5 — pre-delivery reflection
+        hours: "~1 hr"
+        detail: >-
+          Answer all six reflection questions honestly. Come to Session 3 ready to share one thing you
+          are proud of and one thing that still feels uncertain. Submit your planner before Session 3.
+
+signOff:
+  intro: >-
+    Sign-off is how a trainer confirms an educator has met the standard for this module. It is judged
+    from what the educator submits — there is no observed teaching at this stage. A pass means the
+    educator holds the module, which travels with them across Amala programmes.
+  submits:
+    - The first 10 hours of their course plan (Section 4), grounded in their context and learners (Section 1).
+    - Their pre-delivery reflection (Section 5).
+  criteria:
+    - title: Grounded in context
+      met: >-
+        The design builds on the Section 1 analysis of learners and context. It is specific to this
+        group, not generic.
+    - title: Key principles evidenced
+      met: >-
+        The design of the first 10 hours shows the two or three most important principles for this
+        course working in practice, not just listed.
+    - title: Coherent and deliverable
+      met: >-
+        The 10 hours are well paced, balance facilitated and independent time, and set up what follows
+        in the course.
+  threshold: >-
+    All three criteria Met is a pass. If any criterion is Not yet, the trainer gives specific written
+    feedback and the educator has one resit — a revised submission, with no follow-up call. If the
+    resit is still Not yet, the educator re-enrols on a future cohort.
+
+resources:
+  - label: Session slides
+    file: /downloads/dfgbl-session-slides.pptx
+    format: PPTX
+    audience: shared
+    note: The participant-facing deck used across all three live sessions.
+  - label: Trainer guide
+    file: /downloads/dfgbl-trainer-guide.docx
+    format: DOCX
+    audience: trainer
+    note: Full facilitation notes for delivering the three sessions, slide by slide.
+  - label: Module sign-off guide
+    file: /downloads/dfgbl-sign-off-guide.docx
+    format: DOCX
+    audience: trainer
+    note: How to assess submissions against the three criteria, with the sign-off record to file.
+  - label: Participant guide
+    file: /downloads/dfgbl-participant-guide.docx
+    format: DOCX
+    audience: participant
+    note: The participant's companion to the training — what to expect and do in each session.
+  - label: Course Planning Guide (workbook)
+    file: /downloads/dfgbl-course-planning-guide.docx
+    format: DOCX
+    audience: participant
+    note: The workbook participants plan in throughout, and the deliverable they submit for sign-off.
+
+sourceNotes:
+  - Extracted from the DFGBL source pack (session slides, trainer & participant guides, Course Planning Guide v2, sign-off guide).

@@ -241,6 +241,22 @@ export const ProgrammeSchema = z.object({
       note: z.string().nullable().optional(),
     })
     .optional(),
+  // Programme-specific mentoring guidance (e.g. the Mentoring and Wellbeing component). Contextualises
+  // the generic mentor moves (/educators/mentoring) for this programme rather than duplicating them:
+  // `context` carries the how-it-runs-here notes, and each `areas` entry names a mentor-role area tag
+  // (see TAG_META in lib/ui) plus a note on what that area looks like in this context. The page pulls
+  // the matching mentor moves for each area from the library automatically.
+  mentoring: z
+    .object({
+      intro: z.string(),
+      context: z
+        .array(z.object({ title: z.string(), detail: z.string() }))
+        .default([]),
+      areas: z
+        .array(z.object({ area: z.string(), contextNote: z.string() }))
+        .default([]),
+    })
+    .optional(),
 });
 
 // ---- Facilitation materials (§4.3) ----
@@ -374,6 +390,8 @@ export const ActivityVisualSpecSchema = z.discriminatedUnion("type", [
     type: z.literal("zones"),
     zones: z.array(ActivityVisualZoneSchema).min(1).max(4),
     flow: z.enum(["none", "across"]).default("none"),
+    // Label on the `flow: across` arrow (default "move"); e.g. "so…" for a finding→insight mapping.
+    flowLabel: z.string().nullable().optional(),
     // `drawing` renders cards as dashed "picture" cards — for oral/visual cohorts who draw, not write.
     cardStyle: z.enum(["text", "drawing"]).default("text"),
   }),
@@ -708,3 +726,109 @@ export type Objective = z.infer<typeof ObjectiveSchema>;
 export type Course = z.infer<typeof CourseSchema>;
 export type Programme = z.infer<typeof ProgrammeSchema>;
 export type CompetencyEvidence = z.infer<typeof CompetencyEvidenceSchema>;
+
+// ---- Educator training modules ----
+// The portable training units an educator takes to become qualified (e.g. "Designing and
+// facilitating group-based learning"). Distinct from the learner-facing `Module` (which groups
+// learner materials by competency) and from `educator-move` materials (the craft library). A module
+// here is a self-contained training a trainer delivers: an overview, a session-by-session structure,
+// a deliverable, sign-off criteria, and a set of downloadable trainer + participant resources.
+// Deliberately decoupled from programmes/qualification wiring for now — this is about getting the
+// modules and their resources onto the site so trainers can run them.
+
+export const EducatorModuleCategorySchema = z.enum(["foundation", "component", "delivery-mode"]);
+
+// The audience a downloadable resource serves, so the page can group trainer-only artefacts
+// (trainer guide, sign-off guide) apart from what participants receive (participant guide, workbook)
+// and what both use live (session slides).
+export const EducatorResourceAudienceSchema = z.enum(["trainer", "participant", "shared"]);
+
+export const EducatorResourceSchema = z.object({
+  label: z.string(),
+  file: z.string(), // path under /public, e.g. "/downloads/dfgbl-trainer-guide.docx"
+  format: z.string().nullable().optional(), // "DOCX", "PPTX" — the badge on the download link
+  audience: EducatorResourceAudienceSchema.default("shared"),
+  note: z.string().nullable().optional(),
+});
+
+// One timed block within a live session, e.g. "0:30–0:55 — Sharing context and learners".
+export const EducatorModuleBlockSchema = z.object({
+  time: z.string().nullable().optional(),
+  title: z.string(),
+  detail: z.string().nullable().optional(),
+});
+
+export const EducatorModuleSessionSchema = z.object({
+  n: z.number(),
+  title: z.string(),
+  focus: z.string().nullable().optional(),
+  durationHours: z.number().nullable().optional(),
+  blocks: z.array(EducatorModuleBlockSchema).default([]),
+});
+
+// A stretch of independent work between (or before) sessions.
+export const EducatorModuleIndependentWorkSchema = z.object({
+  label: z.string(), // "Independent Work 1", "Pre-work"
+  afterSession: z.number().nullable().optional(),
+  hours: z.string().nullable().optional(), // "~2 hours"
+  when: z.string().nullable().optional(), // "Before Session 2"
+  tasks: z
+    .array(
+      z.object({
+        title: z.string(),
+        hours: z.string().nullable().optional(),
+        detail: z.string().nullable().optional(),
+      }),
+    )
+    .default([]),
+});
+
+export const EducatorModuleSignOffSchema = z.object({
+  intro: z.string().nullable().optional(),
+  submits: z.array(z.string()).default([]), // what the educator hands in
+  criteria: z.array(z.object({ title: z.string(), met: z.string() })).default([]),
+  threshold: z.string().nullable().optional(), // the pass rule + resit policy
+});
+
+export const EducatorModuleSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  access: AccessSchema.optional(),
+  title: z.string(),
+  category: EducatorModuleCategorySchema,
+  requirement: z.string().nullable().optional(), // "Required for every programme", descriptive only
+  // Modules whose resources are not yet on the site show as a placeholder rather than a dead link.
+  status: z.enum(["available", "in-development"]).default("available"),
+  summary: z.string(),
+  forWho: z.string().nullable().optional(), // who takes this module
+  outcome: z.string().nullable().optional(), // "By the end you will have…"
+  format: z.string().nullable().optional(), // "Three live sessions + independent work"
+  hours: z
+    .object({
+      synchronous: z.number().nullable().optional(),
+      independent: z.number().nullable().optional(),
+      total: z.number().nullable().optional(),
+      note: z.string().nullable().optional(),
+    })
+    .nullable()
+    .optional(),
+  deliverable: z
+    .object({ title: z.string(), detail: z.string().nullable().optional() })
+    .nullable()
+    .optional(),
+  // The workbook's own internal structure, when the module hangs off one (e.g. the Course Planning Guide).
+  workbookSections: z
+    .array(z.object({ n: z.number().nullable().optional(), title: z.string(), detail: z.string().nullable().optional() }))
+    .default([]),
+  sessions: z.array(EducatorModuleSessionSchema).default([]),
+  independentWork: z.array(EducatorModuleIndependentWorkSchema).default([]),
+  signOff: EducatorModuleSignOffSchema.nullable().optional(),
+  resources: z.array(EducatorResourceSchema).default([]),
+  sourceNotes: z.array(z.string()).default([]),
+});
+
+export type EducatorModuleCategory = z.infer<typeof EducatorModuleCategorySchema>;
+export type EducatorResourceAudience = z.infer<typeof EducatorResourceAudienceSchema>;
+export type EducatorResource = z.infer<typeof EducatorResourceSchema>;
+export type EducatorModuleSession = z.infer<typeof EducatorModuleSessionSchema>;
+export type EducatorModule = z.infer<typeof EducatorModuleSchema>;
