@@ -2,17 +2,21 @@
 # HOURS-BASED, not weeks: it sets out the full 50 hours (30 in-person + 20 independent) so an educator
 # can fit them into their own weekly schedule (minimum 10 weeks). Treated as a standalone component.
 #
-# DEFERRED / PLACEHOLDER STATE: the whole cohort investigates ONE shared challenge, which is not yet
-# agreed with NRC and the community. Until it is, this plan is authored challenge-agnostic. Two
-# placeholder tokens stand in for the parts that depend on the challenge, so they can be found and
-# replaced in one pass once it is set:
-#   «CHALLENGE»            — the shared real-world challenge the cohort investigates.
-#   «SECONDARY SOURCE PACK» — the ready-made, translated, level-appropriate pack of secondary sources
-#                             about «CHALLENGE», supplied on USB (there is no internet in the camps).
-# The challenge-specific teaching materials (a cb-rp-* family, adaptations of the generic rp-*/dc-*
-# materials) are also not authored yet, so every block here is a rich description-only connective
-# block: it carries full facilitator guidance inline and references no materialSlug. When the cb-rp-*
-# materials and the source pack exist, wire them onto these blocks and replace the two tokens.
+# CHALLENGE SET (2026-08-04): the whole cohort investigates ONE shared challenge — what is happening to
+# the trees on the hills where they live (deforestation → bare slopes → landslides, heat, floods → the
+# land greening again). The research is about the ISSUE ITSELF, not about any NGO programme, so it
+# stays valid wherever in Cox's Bazar the cohort turns out to be and whatever agencies work there. The
+# research question is GIVEN, not invented by the cohort (realistic for an A1-English, oral group):
+# "What happens to our hills without trees, and what changes when trees and plants grow back?", with
+# three sub-questions carried into primary research (before/now; a bare hill in rain and hot sun; what
+# roots, grass, and trees do for the soil and for us).
+#
+# STILL TO AUTHOR: the secondary source pack (scope defined on the "Work the source pack" block — about
+# how trees, soil, rain, and heat work, NOT about programmes) and the challenge-specific cb-rp-*
+# teaching materials (adaptations of the generic rp-*/dc-* materials). Until those exist, every block
+# here is a rich description-only connective block: it carries full facilitator guidance inline and
+# references no materialSlug. Wire the cb-rp-* materials and the pack onto these blocks when they exist.
+# A waste / composting challenge is the planned second example if trees does not land.
 #
 # Times are generous for this oral/visual, translated, largely pre-literate cohort: activities take
 # roughly 1.5 to 2 times longer than they would with a literate group. Sibling of
@@ -27,28 +31,33 @@ courseSlug: research-project
 summary: >-
   The full 50-hour plan for delivering the Research Project component fully offline in the Cox's Bazar
   camps, as a standalone course. It is set out in hours, not weeks, so you can fit it into your own
-  timetable over a minimum of 10 weeks. The whole cohort investigates one shared, local challenge:
-  learners frame it into a question they can research, gather evidence through primary research in
-  their community and through a supplied pack of secondary sources, weigh what they find, and turn it
-  into insights they share. Because there is no internet, all secondary sources are supplied ready-made.
-  Times are deliberately generous, because oral and visual delivery with drawing and translation takes
-  longer than it first appears. Authored challenge-agnostic while the shared challenge is agreed:
-  «CHALLENGE» and «SECONDARY SOURCE PACK» are placeholders to be filled once it is set.
+  timetable over a minimum of 10 weeks. The whole cohort investigates one shared, local challenge —
+  what is happening to the trees on the hills where they live — working from a research question they
+  are given: "What happens to our hills without trees, and what changes when trees and plants grow
+  back?" Learners make that question their own, gather evidence through primary research in their
+  community and through a supplied pack of secondary sources about how trees, soil, rain, and heat
+  work, weigh what they find, and turn it into insights they share. Because there is no internet, all
+  secondary sources are supplied ready-made. Times are deliberately generous, because oral and visual
+  delivery with drawing and translation takes longer than it first appears.
 totalFacilitatedHours: 30
 totalIndependentHours: 20
 deliveryApproach: >-
   This unit runs one real cycle of investigation on a single challenge the whole cohort shares, and
   hands over control as it goes: the aim is to move learners from doing research to being researchers.
-  Early on you lead: you introduce the challenge, model how a researcher asks a question, and show how
-  to read a source. In the middle it is shared: learners design their own interview and survey
-  questions, gather evidence, and sort it, while you guide. Later the learners lead: they decide what
-  their evidence means and how to share it. Release control gradually and safely; some learners need
-  more structure for longer, and that is fine. Two cautions specific to research in this context.
-  First, primary research means learners talking to real people, so protection comes first: the
-  challenge must be safe to research here, consent is always asked, no one is pressed to answer, and
-  girls gather in same-gender pairs where that is what keeps them safe. Second, offline does not mean
-  thin: secondary research is real research done on a supplied, curated pack of sources rather than by
-  searching the internet.
+  Early on you lead: you introduce the challenge and the given research question, model how a
+  researcher takes a question apart, and show how to read a source. In the middle it is shared:
+  learners design their own interview and survey questions, gather evidence, and sort it, while you
+  guide. Later the learners lead: they decide what their evidence means and how to share it. Release
+  control gradually and safely; some learners need more structure for longer, and that is fine. Three
+  cautions specific to research in this context. First, primary research means learners talking to real
+  people, so protection comes first: the challenge must be safe to research here, consent is always
+  asked, no one is pressed to answer, and girls gather in same-gender pairs where that is what keeps
+  them safe. Second, offline does not mean thin: secondary research is real research done on a supplied,
+  curated pack of sources rather than by searching the internet. Third, language: this cohort works in
+  English at around A1, growing towards B1 across the programme, so build every activity on pictures,
+  drawing, and translation, introduce research words a few at a time on a shared word wall, and give
+  learners simple sentence frames ("Before, …; now, …") to lean on — English is a scaffold the learners
+  grow into, never the gate on whether they can show they can investigate.
 assessmentNote: >-
   On Learning Bridge+, a learner's proficiency in the anchor competency, investigating real-world
   issues (FSI1), is judged by the educator against Amala's proficiency scale at two points: midway
@@ -83,19 +92,22 @@ phases:
         facilitatedHours: 2
         independentHours: 0.5
         description: >-
-          Introduce «CHALLENGE», the one challenge the whole cohort will investigate together, in a
-          warm, concrete, oral way, using a picture or short story rather than a definition. Draw out
-          what learners already feel and notice about it, and let them react and ask questions. Then
-          walk through what the course will do with it, using the same shared orientation as the other
-          components (see exploring-your-objectives): we will frame a question, gather evidence, work
-          out what it means, and share it. Handle «CHALLENGE» with the safeguarding care it needs: if it
-          touches on loss, family, or displacement, no learner has to speak from their own life, and you
-          have step-back and referral guidance to hand.
-        independentTask: "Tell one person at home what our group is going to investigate, and one thing you already wonder about it."
+          Introduce the challenge the whole cohort will investigate together — what is happening to the
+          trees on the hills where we live — in a warm, concrete, oral way, using a picture or short
+          story of the hills before and now rather than a definition. Draw out what learners already
+          feel and notice about the trees, the bare slopes, the rain and the heat, and let them react
+          and ask questions. Then walk through what the course will do with it, using the same shared
+          orientation as the other components (see exploring-your-objectives): we will make our question
+          our own, gather evidence, work out what it means, and share it. Keep the tone one of curiosity
+          and hope — the land is greening again — not disaster. Handle it with the safeguarding care it
+          needs: the trees are a safe subject, but they touch landslides and lost shelters, so no learner
+          has to speak from their own life, and you have step-back and referral guidance to hand.
+        independentTask: "Tell one person at home what our group is going to investigate, and one thing you already wonder about our hills and trees."
         flexNote: >-
-          Listen closely to how learners talk about «CHALLENGE»: what they already believe about it, and
-          how personal it is for them, tells you how much to lead in the framing phase and where the
-          protection risks are. This same orientation activity works for Agency in Learning too.
+          Listen closely to how learners talk about the hills: what they already believe, and how
+          personal the flooding or landslides are for them, tells you how much to lead in the framing
+          phase and where the protection risks are. This same orientation shape works for Agency in
+          Learning too.
       - title: "Set up your research book"
         kind: orientation
         facilitatedHours: 1.5
@@ -122,47 +134,58 @@ phases:
     lead: shared
     objectiveId: research-project--o1
     summary: >-
-      Learners turn the broad challenge into something they can actually research: they surface what is
-      already known, map who and what is connected to it, and narrow it to a clear, researchable
-      question the cohort will pursue.
+      Learners take the research question they have been given and make it their own: they surface what
+      is already known about the trees and hills, map who and what is connected to the challenge, and
+      turn the big question into the specific things they will go and find out.
     blocks:
       - title: "Why this challenge matters, and what we already know"
         kind: activity
         facilitatedHours: 2
         independentHours: 1
         description: >-
-          Learners explore why «CHALLENGE» matters to them and their community, and pool what they
-          already know about it, treating their own knowledge and lived experience as real evidence to
-          start from. Draw a shared "what we already know / what we still need to find out" picture on
-          the wall, in marks and drawings, that the cohort adds to as the course goes. This is where you
-          separate what is genuinely known from what is assumed, gently and without singling anyone out.
-        independentTask: "Ask one older person at home what they know about our challenge, and bring back one thing to add to our wall."
+          Learners explore why the trees and hills matter to them and their community, and pool what
+          they already know — the hills before, the clearing, the mud when it rains, the heat — treating
+          their own knowledge and lived experience as real evidence to start from. Draw a shared "what
+          we already know / what we still need to find out" picture on the wall, in marks and drawings,
+          that the cohort adds to as the course goes. This is where you separate what is genuinely known
+          from what is assumed, gently and without singling anyone out.
+        independentTask: "Ask one older person at home what they remember about how our hills used to look, and bring back one thing to add to our wall."
       - title: "Who and what is connected to our challenge"
         kind: activity
         facilitatedHours: 2
         independentHours: 1
         description: >-
-          A community-mapping activity: learners map the people, groups, and things connected to
-          «CHALLENGE» — who is affected, who is involved, what makes it better or worse. Done as a big
-          shared drawing, it surfaces contributing factors and, crucially for the next phase, shows who
-          in the community the cohort could learn from and speak to. Flag early which of those people it
-          is appropriate and safe for learners to approach, and which are better reached another way.
-        independentTask: "Notice one person or place connected to our challenge on your way home, and be ready to add it to our map."
+          A community-mapping activity: learners map the people, groups, and things connected to the
+          trees and hills — who remembers the forest, who lives on the slopes, what strips the hills and
+          what helps them recover, where it floods or slides. Done as a big shared drawing, it surfaces
+          contributing factors and, crucially for the next phase, shows who in the community the cohort
+          could learn from and speak to. Flag early which of those people it is appropriate and safe for
+          learners to approach, and which are better reached another way.
+        independentTask: "Notice one person or place connected to our hills and trees on your way home, and be ready to add it to our map."
         flexNote: >-
           The map does double duty: it develops the "identify contributing factors" strand of the
           objective and it becomes the sampling frame for the primary research in the next phase.
-      - title: "From a big challenge to a question we can research"
+      - title: "Make our research question our own"
         kind: activity
         facilitatedHours: 2
         independentHours: 0.5
         description: >-
-          Learners meet the difference between a topic, a question, and a question you can actually
-          research, in concrete terms. Through question-storming and then sorting questions from broad
-          to researchable, the cohort narrows «CHALLENGE» to one shared, researchable question (and
-          perhaps a small number of sub-questions) that is answerable with the primary research they can
-          safely do here and the «SECONDARY SOURCE PACK» they will be given. Capture the agreed question
-          in words and a picture, big on the wall and in every research book.
+          The cohort is given its research question — "What happens to our hills without trees, and what
+          changes when trees and plants grow back?" — rather than inventing one from nothing, which
+          keeps a single shared focus and is realistic for this cohort. The work here is to make it
+          theirs: unpack it in plain, pictorial terms so everyone understands what it is really asking,
+          and break it into the things they will actually go and find out. Guide them to three
+          sub-questions — what were our hills like before, and what are they like now; what happens to a
+          bare hill when it rains and in the hot sun; and what do trees, grass, and roots do for the
+          soil and for us. Talk through which parts they can answer by asking and looking here (primary)
+          and which the supplied source pack will help with. Capture the question and its three
+          sub-questions in words and pictures, big on the wall and in every research book.
         independentTask: "Say our research question out loud to one person at home, and check they understand what we are trying to find out."
+        flexNote: >-
+          The question is given, but the framing work is real: unpacking it, deciding what is already
+          known, mapping who to ask, and turning it into sub-questions is how learners show the first
+          objective (framing a researchable focus). Some cohorts will add a sub-question of their own —
+          welcome it if it stays answerable here.
   - title: "Plan and conduct research"
     lead: shared
     objectiveId: research-project--o2
@@ -178,7 +201,7 @@ phases:
         description: >-
           Introduce, in plain terms with pictures, the two ways a researcher finds things out: asking
           people and looking around us here (primary), and studying what others have already found out
-          (secondary, which for us lives in the «SECONDARY SOURCE PACK»). Then teach research ethics as
+          (secondary, which for us lives in the supplied source pack). Then teach research ethics as
           the heart of the work, not a footnote: ask before you ask ("may I ask you some questions?"),
           explain why, let people say no or stop, do not use names, and never put anyone — including
           yourself — at risk to get an answer. Practise the consent request aloud in pairs until it is
@@ -196,23 +219,27 @@ phases:
           Learners draft, then try their questions on each other, notice what was confusing, and improve
           them. Keep instruments short, oral-friendly, and safe.
         independentTask: "Try one of your interview questions on a family member, and notice whether it was clear."
-      - title: "Work the Secondary Source Pack"
+      - title: "Work the source pack"
         kind: activity
         facilitatedHours: 2
         independentHours: 1.5
         description: >-
-          Learners work through the «SECONDARY SOURCE PACK» — the ready-made, translated,
-          level-appropriate set of secondary sources about «CHALLENGE», supplied on USB or in print
-          because there is no internet here. Model how a researcher reads a source: what is this, who
-          made it, what does it tell us about our question, and what does it not tell us. Learners pull
-          out, in marks and a few words, what each source says that bears on the question, and begin an
-          evidence log in their research book. This is real secondary research; the curation is what
-          makes it possible offline.
+          Learners work through the supplied source pack — the ready-made, translated, level-appropriate
+          set of secondary sources about how trees, soil, rain, and heat work, supplied on USB or in
+          print because there is no internet here. It is about the issue, not about any programme: what
+          roots do for soil, why a bare slope slides or floods, why shade is cooler, how a hillside
+          recovers. Model how a researcher reads a source: what is this, who made it, what does it tell
+          us about our question, and what does it not tell us. Learners pull out, in marks and a few
+          words, what each source says that bears on the question, and begin an evidence log in their
+          research book. This is real secondary research; the curation is what makes it possible offline.
         independentTask: "Choose one source from the pack, and draw or mark the one most important thing it tells us about our question."
         flexNote: >-
-          Until «CHALLENGE» is agreed, the pack cannot be authored. Its scope is defined here: enough
-          sources, pitched for a pre-literate, below-B1 cohort, to let learners triangulate their
-          primary findings against what is already known. Author it alongside the cb-rp-* materials.
+          The pack is still to be authored. Its scope: enough simple, mostly pictorial sources about the
+          issue itself (roots and soil, bare slopes, rain and landslides, heat and shade, a hillside
+          recovering) — NOT about NGO projects — to let learners triangulate their primary findings
+          against what is already known. Pitch it at A1 English growing towards B1: images with
+          single-word or short-phrase captions, a picture-glossary, and one or two sources a notch
+          harder at the end. Author it alongside the cb-rp-* materials.
       - title: "Go and gather"
         kind: practice
         facilitatedHours: 1
@@ -244,8 +271,8 @@ phases:
           Learners meet, in plain terms, how a researcher decides how far to trust a source: who said
           it, how do they know, does other evidence agree, and could they be mistaken or have a reason
           to shape the story. They apply this to both their primary evidence (one person's strong
-          opinion is not the same as a pattern across many) and the «SECONDARY SOURCE PACK», marking in
-          their evidence log how much weight each piece can bear. This is the "evaluating sources"
+          opinion is not the same as a pattern across many) and the source pack, marking in their
+          evidence log how much weight each piece can bear. This is the "evaluating sources"
           strand, and it protects learners from building an insight on a single shaky claim.
         independentTask: "Think of something you were told about our challenge, and ask yourself: how does that person know it is true?"
       - title: "Sort and theme what we found"
@@ -265,7 +292,8 @@ phases:
         independentHours: 1
         description: >-
           The analytical heart of the course: learners move from findings (what the evidence says) to
-          insights (what it means and why it matters for «CHALLENGE», and what could be done about it).
+          insights (what it means and why it matters for the hills and the people who live on them, and
+          what could be done about it).
           Model the difference between a finding and an actionable insight. The cohort drafts a small
           number of clear insight statements, each one they can point to the evidence for, and separates
           those evidence-backed claims from opinion or assumption. These insights are the defining
@@ -328,17 +356,34 @@ phases:
 downloads: []
 sourceNotes:
   - Sequences the (to-be-authored) cb-rp-* contextualised activities for the Research Project component of Learning Bridge+ (Cox's Bazar); sibling of the coxs-bazar-agency-in-learning unit.
-  - DEFERRED / PLACEHOLDER STATE. The whole cohort investigates one shared challenge, not yet agreed with NRC and the community. «CHALLENGE» and «SECONDARY SOURCE PACK» are placeholder tokens to find-and-replace once the challenge is set; every block is a rich description-only connective block with no materialSlug, to be wired to cb-rp-* materials when they are authored.
   - >-
-      The «SECONDARY SOURCE PACK» is a supplied artefact, not an internet search: a ready-made,
-      translated, level-appropriate set of secondary sources about the challenge, distributed offline
-      (USB or print). It cannot be authored until the challenge is agreed; its required scope is
-      described on the "Work the Secondary Source Pack" block.
+      CHALLENGE SET (2026-08-04): the shared challenge is what is happening to the trees on the hills
+      where the cohort lives (deforestation → bare slopes → landslides, heat, floods → the land greening
+      again). The research is about the issue itself, NOT about any NGO programme, so it holds wherever
+      in Cox's Bazar the cohort is placed. A waste / composting challenge is the planned second example
+      if trees does not land.
+  - >-
+      The research question is GIVEN, not invented by the cohort: "What happens to our hills without
+      trees, and what changes when trees and plants grow back?", with three sub-questions (before/now; a
+      bare hill in rain and hot sun; what roots, grass, and trees do for the soil and for us). Phase 2
+      is therefore about learners owning and unpacking the given question, not generating one — this
+      still evidences the first objective (framing a researchable focus) and suits an A1-English, oral
+      cohort.
+  - >-
+      The source pack is a supplied artefact, not an internet search: a ready-made, translated, mostly
+      pictorial set of secondary sources about the issue (roots and soil, bare slopes, rain and
+      landslides, heat and shade, a hillside recovering), distributed offline (USB or print). Still to
+      be authored; its scope is described on the "Work the source pack" block.
+  - >-
+      Language: the cohort works in English at around A1, scaffolded towards B1 across the programme.
+      Resources are picture-first with a shared research word wall and simple sentence frames; English
+      is a scaffold, never the gate on whether a learner can demonstrate the anchor competency (FSI1).
   - Set out in hours, not weeks, as a standalone 50-hour component (30 in-person + 20 independent). Educators fit it to their own weekly schedule over a minimum of 10 weeks.
   - Activity times are generous (roughly 1.5 to 2 times a literate-group estimate) to reflect oral and visual delivery with drawing and translation.
-  - Downloads (facilitator plan, student research workbook, source pack, slides) are deferred with the challenge; the downloads list is intentionally empty until those artefacts exist.
+  - Downloads (facilitator plan, student research workbook, source pack, slides) are deferred until those artefacts exist; the downloads list is intentionally empty for now.
   - >-
-      Safeguarding is heightened relative to Agency in Learning because primary research means learners
-      speaking with community members: the challenge must be safe to research locally, consent is always
-      sought, participants are not named, and same-gender gathering is used where girls' safety depends
-      on it. Delivery follows NRC's Code of Conduct and protection principles.
+      Safeguarding: primary research means learners speaking with community members, so consent is
+      always sought, participants are not named, and same-gender gathering is used where girls' safety
+      depends on it. The trees are a deliberately safe, hopeful subject, but they touch landslides and
+      lost shelters, so no learner speaks from their own life unless they choose to. Delivery follows
+      NRC's Code of Conduct and protection principles.
