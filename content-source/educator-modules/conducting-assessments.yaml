@@ -38,9 +38,9 @@ hours:
 deliverable:
   title: Level judgements with reasoning, and a moderation-prep note
   detail: >-
-    For the assessment cases your trainer provides, you award a level and write your reasoning tied to
-    what the evidence shows across sources, plus a short moderation-prep note on where you were least
-    sure and what evidence you would point to. You submit both.
+    For the five assessment cases your trainer provides, you award a level and write your reasoning
+    tied to what the evidence shows across sources, plus a short moderation-prep note on where you were
+    least sure and what evidence you would point to. You submit both.
 
 sessions:
   - n: 1
@@ -91,7 +91,7 @@ independentWork:
     when: After Session 2
     tasks:
       - title: Judge the assessment cases
-        detail: Your trainer provides the assessment set. For each case, award a level and write your reasoning, tied to what the evidence shows across sources. You will not have the moderated decisions for these.
+        detail: Your trainer provides the assessment set of five cases. For each, award a level and write your reasoning, tied to what the evidence shows across sources. You will not have the moderated decisions for these.
       - title: Write your moderation-prep note
         detail: In a short note, set out how you would prepare to take these judgements into moderation — which were hardest, where you were least sure, and what evidence you would point to. Submit both.
 
@@ -173,5 +173,3 @@ resources:
 
 sourceNotes:
   - Extracted from the Conducting Assessments of Competence module pack.
-  - Open item — the case decisions are drafted and calibrated but have not had a human moderation pass; ratify before using the bank for live sign-off.
-  - Open item — dedicated practice cases and a reconciled Sign-off Guide (the drawn-ten-from-fifteen design) are still to be finalised.
