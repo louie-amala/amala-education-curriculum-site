@@ -6,7 +6,8 @@ title: "Design backward from what matters"
 summary: >-
   Start from the learning and evidence you want, not the activities. Plan backward, and anchor the
   learning in real, meaningful projects.
-facilitationArea: learning-design
+tags:
+  - id: learning-design
 facilitationContext:
   - group
 primaryContext: group

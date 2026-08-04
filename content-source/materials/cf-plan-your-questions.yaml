@@ -1,0 +1,51 @@
+id: cf-plan-your-questions
+slug: cf-plan-your-questions
+access: public
+type: educator-move
+title: "Plan your questions"
+summary: >-
+  Most questions get invented on the spot. Plan the key ones in advance — aimed at the learning,
+  short and clear — and sidestep the common traps.
+tags:
+  - id: learning-design
+    how: >-
+      When designing, write your key questions in advance, aimed squarely at the learning intention and
+      short enough to understand — and design out the common errors (too many at once, only the
+      confident, answering your own question).
+  - id: learning-facilitation
+    how: >-
+      When facilitating, lean on your planned questions rather than improvising; interpret the answers (a
+      wrong one shows you where to go next) and ask learners to justify what they say.
+  - id: questioning
+  - id: making-thinking-visible
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  Questions are one of the best ways to find out what learners know — yet most are made up on the spot.
+  Taking a little time to plan your key questions, so they are focused on the learning intention and
+  short and clear enough to understand, pays off out of all proportion. Planning also lets you design out
+  the common questioning errors: asking too many questions at once, answering your own question, only
+  asking the confident learners, pitching a hard question too early, or asking in a way that feels
+  threatening. In the moment, interpret rather than evaluate — a wrong answer is information about where
+  to teach next — and ask learners to justify their answers, right or wrong, to surface their reasoning.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Well-aimed questions, and being asked to justify their thinking, push learners to reason for
+    themselves rather than guess at what the educator wants.
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      Planned, well-aimed questions generate better information about what learners understand, and
+      treat wrong answers as data rather than failure.
+relatedSlugs:
+  - cf-make-thinking-visible
+  - cf-no-hands-up
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Plan the questions you want to ask", "Avoid these common errors in
+  questioning" (Brown & Wragg, 1993), and interpret/justify guidance in Making Learning and Thinking
+  Visible.

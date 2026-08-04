@@ -6,7 +6,8 @@ title: "Use competency reflections"
 summary: >-
   Ask learners to explain how their evidence meets a competency. It makes the link explicit, builds
   metacognition, and gives you evidence in their own words.
-assessmentArea: assessment-tools
+tags:
+  - id: assessment-tools
 educatorContent: |
   A competency reflection asks the learner to do the connecting: to explain how a specific piece of
   work or experience demonstrates a particular competency or success indicator. The value is in the

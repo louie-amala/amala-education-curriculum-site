@@ -1,0 +1,48 @@
+id: cf-quick-checks
+slug: cf-quick-checks
+access: public
+type: educator-move
+title: "Quick checks: exit tickets and hinge questions"
+summary: >-
+  Fast, whole-group checks that tell you whether to move on or reteach — a hinge question at the pivot
+  of a lesson, an exit ticket at the end.
+tags:
+  - id: learning-facilitation
+    how: >-
+      When facilitating, pose the hinge question at the decision point to decide whether to move on or
+      reteach; collect exit tickets as learners leave and read them before you plan the next session.
+  - id: learning-design
+    how: >-
+      When designing, plan the hinge question (a multiple-choice item whose wrong answers map to specific
+      misconceptions) at the lesson's pivot, and an exit-ticket prompt tied to the learning intention.
+  - id: checking-for-understanding
+  - id: making-thinking-visible
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  Two quick tools give you a whole-group read fast. A hinge question is a well-designed multiple-choice
+  question placed at a lesson's pivot point: its answer options are built so that each wrong choice
+  reveals a particular misconception, so the spread of answers tells you in seconds whether to move on,
+  reteach, or regroup. An exit ticket is a short task learners complete before they leave — a question
+  tied to the lesson's intention, jotted on scrap paper and handed in — which you read afterwards to plan
+  the next session. Both are low-effort, high-information, and keep your next move grounded in what
+  learners actually understood rather than what you hoped they did.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Regular quick checks mean teaching adapts to where learners actually are, so they are neither left
+    behind nor held back — the conditions under which they can keep making progress themselves.
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      Hinge questions and exit tickets are fast, honest data that drive the very next teaching decision.
+relatedSlugs:
+  - cf-make-thinking-visible
+  - cf-examples-non-examples
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Use exit tickets" and "Ask hinge questions" techniques (Wiliam &
+  Leahy, 2015) in Making Learning and Thinking Visible.

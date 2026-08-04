@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
-import { EducatorFunctionLayout, bucketise } from "@/components/EducatorFunctionLayout";
-import { educatorMoves } from "@/lib/content";
-import { ASSESSMENT_AREA_META } from "@/lib/ui";
+import { EducatorFunctionLayout } from "@/components/EducatorFunctionLayout";
 
 export const metadata: Metadata = { title: "Assessment moves" };
 
 export default function AssessmentPage() {
-  const buckets = bucketise(educatorMoves, "assessmentArea", ASSESSMENT_AREA_META);
-
   return (
     <EducatorFunctionLayout
+      functionKey="assessor"
       functionLabel="Assessor of competencies"
       title="The assessor&rsquo;s moves"
       intro="The competency lives in the person, not the artefact. Assessing well means building the fullest possible picture of what a learner can really do, then judging it fairly against the proficiency scale. These moves are the assessor's craft — how to seek evidence, how to make the judgement, and the tools that draw evidence out."
@@ -21,8 +18,6 @@ export default function AssessmentPage() {
           polish.
         </p>
       }
-      buckets={buckets}
-      emptyLabel="No assessment moves authored yet."
     />
   );
 }

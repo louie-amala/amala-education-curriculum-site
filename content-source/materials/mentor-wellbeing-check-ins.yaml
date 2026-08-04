@@ -6,7 +6,8 @@ title: "Build a wellbeing check-in into every meeting"
 summary: >-
   Don't leave wellbeing to crisis moments. Fold a couple of genuine check-in questions into every
   mentoring conversation, and watch the pattern over time.
-mentorRole: wellbeing
+tags:
+  - id: wellbeing
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

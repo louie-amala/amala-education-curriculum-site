@@ -6,7 +6,8 @@ title: "Know your safeguarding policy before you mentor"
 summary: >-
   Before you work one-to-one with any young person, know your setting's safeguarding policy and
   referral pathways cold. Everything else in this bucket assumes you have.
-mentorRole: safeguarding
+tags:
+  - id: safeguarding
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

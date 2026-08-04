@@ -6,7 +6,8 @@ title: "Hold regular pathways conversations"
 summary: >-
   Don't leave futures to the final term. Talk regularly about where a mentee wants to go — further
   study, work, or building something — and keep it realistic and theirs.
-mentorRole: pathways
+tags:
+  - id: pathways
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

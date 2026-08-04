@@ -6,7 +6,8 @@ title: "Help mentees open and walk through doors"
 summary: >-
   Beyond talking about pathways, help mentees act — find real opportunities, apply well, and shape
   their projects towards where they want to go.
-mentorRole: pathways
+tags:
+  - id: pathways
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

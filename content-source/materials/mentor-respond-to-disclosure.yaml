@@ -6,7 +6,8 @@ title: "Respond well when a mentee discloses"
 summary: >-
   If a mentee tells you something serious, how you respond in the moment matters. Listen, stay calm,
   don't investigate, don't promise secrecy, and report.
-mentorRole: safeguarding
+tags:
+  - id: safeguarding
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

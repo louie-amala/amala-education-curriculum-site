@@ -6,7 +6,8 @@ title: "Coach mentees to build their own coping strategies"
 summary: >-
   When a mentee raises a challenge to their wellbeing, resist fixing it for them. Coach them to
   build a strategy they own — and know when a challenge needs more than coaching.
-mentorRole: wellbeing
+tags:
+  - id: wellbeing
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

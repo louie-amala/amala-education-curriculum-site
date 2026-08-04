@@ -6,7 +6,8 @@ title: "Ask questions that reveal proficiency"
 summary: >-
   Questioning is one of the surest ways to see what a learner really understands. Probe, follow up,
   and ask them to justify — so you assess the person, not a rehearsed answer.
-assessmentArea: seeking-evidence
+tags:
+  - id: seeking-evidence
 educatorContent: |
   You cannot see a competency directly, so you engineer situations that reveal it — and questioning is
   one of the most reliable. Both informally, in conversation, and formally (a viva-style verbal

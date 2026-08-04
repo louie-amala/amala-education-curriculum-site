@@ -262,35 +262,59 @@ export const MaterialTypeSchema = z.enum([
   "educator-move",
 ]);
 
-// The part of the mentor's role an educator move belongs to. A mentor is generally responsible for
-// a learner's academic progress and wellbeing, but the exact remit is set by the partner — these
-// buckets are a menu to adopt from, not a fixed mandate. Safeguarding is deliberately its own
-// bucket, separate from wellbeing: it is about protection and follows the setting's own policy.
-export const MentorRoleSchema = z.enum([
+// ---- Educator-move tags ----
+// A move is tagged with one or more of these. AREA tags place the move under a function's bucket(s) —
+// a move may sit under several (e.g. both learning-design and learning-facilitation, or spanning into
+// mentoring/assessment). PURPOSE tags are cross-cutting lenses for filtering (e.g.
+// checking-for-understanding), so a trainer can pull up every move that serves a purpose. Human labels
+// and metadata (kind, function, order) live in TAG_META (lib/ui.ts).
+export const EducatorTagSchema = z.enum([
+  // area tags — Mentor
   "wellbeing",
   "safeguarding",
   "progress",
   "recognising-growth",
   "pathways",
-]);
-
-// The part of the course-facilitator function an educator move belongs to. Mirrors the three top-level
-// sections of the Course Facilitator Playbook.
-export const FacilitationAreaSchema = z.enum([
+  // area tags — Course facilitator
   "learning-design",
   "learning-facilitation",
   "improving-practice",
-]);
-
-// The part of the assessor function an educator move belongs to. At Amala the competency lives in the
-// person, not the artefact: the assessor builds the best possible picture of a learner's proficiency
-// (seeking-evidence), brings it together to judge a competency (making-judgements), and uses structured
-// instruments to elicit evidence (assessment-tools).
-export const AssessmentAreaSchema = z.enum([
+  // area tags — Assessor
   "seeking-evidence",
   "making-judgements",
   "assessment-tools",
+  // purpose tags (cross-cutting lenses)
+  "making-thinking-visible",
+  "checking-for-understanding",
+  "questioning",
+  "feedback",
+  "reflection-self-assessment",
+  "dialogue-climate",
 ]);
+
+// The AREA tags (not the cross-cutting purpose tags). Every educator-move must carry at least one, so it
+// lands on a function page. Declared here (as well as in ui.ts' TAG_META) so validateGraph can enforce it.
+export const AREA_TAG_IDS = [
+  "wellbeing",
+  "safeguarding",
+  "progress",
+  "recognising-growth",
+  "pathways",
+  "learning-design",
+  "learning-facilitation",
+  "improving-practice",
+  "seeking-evidence",
+  "making-judgements",
+  "assessment-tools",
+] as const;
+
+// A single tag on a move, with an optional explanation of how the move relates to that tag. For a move
+// tagged both learning-design and learning-facilitation, the design-time and facilitation-time framing
+// differ — that is what `how` carries. A single-tag move needs no `how`: its own summary explains it.
+export const MoveTagSchema = z.object({
+  id: EducatorTagSchema,
+  how: z.string().nullable().optional(),
+});
 
 // The kind of downloadable artefact, so the worksheet/template distinction is machine-real and can be
 // rendered under labelled groups rather than one undifferentiated list:
@@ -320,6 +344,61 @@ export const AgencyContributionSchema = z.object({
   how: z.string(),
 });
 
+// ---- Activity visuals (schematic diagrams that help an educator picture an activity) ----
+// Two jobs: a "setup" diagram shows how to ARRANGE the room/board; an "example" diagram shows
+// what the finished OUTPUT looks like ("what good looks like"). Most are drawn from a compact spec
+// by <ActivityVisual> so they share one style and stay editable in YAML; the `image` spec is an
+// escape hatch to a bespoke hand-drawn SVG under public/ (path checked at build time).
+
+// A labelled column/side of a `zones` board, optionally pre-filled with a few example cards.
+export const ActivityVisualZoneSchema = z.object({
+  label: z.string(),
+  sublabel: z.string().nullable().optional(),
+  // Accent colour for the zone header, by meaning rather than raw colour.
+  tone: z.enum(["neutral", "known", "question", "positive", "warn"]).default("neutral"),
+  // A few short example cards to make the zone concrete. Keep to ~2-5 words each.
+  cards: z.array(z.string()).default([]),
+});
+
+// A single cluster of learners in a `groups` room-arrangement diagram.
+export const ActivityVisualClusterSchema = z.object({
+  label: z.string().nullable().optional(),
+  size: z.number().int().min(1).max(12).default(1), // learners in each cluster (1 = individual)
+  count: z.number().int().min(1).max(30).default(1), // how many such clusters in the room
+});
+
+export const ActivityVisualSpecSchema = z.discriminatedUnion("type", [
+  // A board split into labelled zones (a two-side "what we know / need to find out" wall, or
+  // sort-into-columns). `flow: across` draws an arrow between zones to show cards migrating.
+  z.object({
+    type: z.literal("zones"),
+    zones: z.array(ActivityVisualZoneSchema).min(1).max(4),
+    flow: z.enum(["none", "across"]).default("none"),
+    // `drawing` renders cards as dashed "picture" cards — for oral/visual cohorts who draw, not write.
+    cardStyle: z.enum(["text", "drawing"]).default("text"),
+  }),
+  // A room-arrangement diagram: clusters of learners (individuals, pairs, small circles, stations),
+  // optionally with the facilitator marked.
+  z.object({
+    type: z.literal("groups"),
+    clusters: z.array(ActivityVisualClusterSchema).min(1).max(6),
+    facilitator: z.boolean().default(false),
+  }),
+  // Escape hatch: a bespoke SVG/PNG under public/. `src` existence is checked in validateGraph().
+  z.object({
+    type: z.literal("image"),
+    src: z.string(),
+    alt: z.string(),
+  }),
+]);
+
+export const ActivityVisualSchema = z.object({
+  kind: z.enum(["setup", "example"]),
+  title: z.string().nullable().optional(),
+  caption: z.string().nullable().optional(),
+  spec: ActivityVisualSpecSchema,
+});
+
 // A single facilitation step (activities), modelled on the v1 site's rich step structure.
 export const ActivityStepSchema = z.object({
   title: z.string(),
@@ -328,6 +407,8 @@ export const ActivityStepSchema = z.object({
   keyPrompts: z.array(z.string()).default([]),
   watchOuts: z.array(z.string()).default([]),
   adaptation: z.string().nullable().optional(), // low-bandwidth / async / pre-work note (🏠)
+  // Schematic diagram(s) for THIS step's arrangement/output. Activity-wide visuals go on the material.
+  visuals: z.array(ActivityVisualSchema).default([]),
 });
 
 export const FacilitationMaterialSchema = z.object({
@@ -350,12 +431,10 @@ export const FacilitationMaterialSchema = z.object({
     .array(z.object({ context: FacilitationContextSchema, how: z.string() }))
     .default([]),
   toolsFacet: z.enum(["analytical", "facilitation", "both"]).optional(),
-  // Which educator function(s) this move belongs to, and the bucket within each. An educator-move must
-  // set at least one of these (enforced in validateGraph); a move may serve more than one function. Each
-  // drives the grouping on that function's page under /educators.
-  mentorRole: MentorRoleSchema.optional(),
-  facilitationArea: FacilitationAreaSchema.optional(),
-  assessmentArea: AssessmentAreaSchema.optional(),
+  // The tags this move carries — area tags (which function bucket(s) it appears under) and cross-cutting
+  // purpose tags — each with an optional per-move explanation (`how`) of the move in that context. An
+  // educator-move must carry at least one AREA tag (enforced in validateGraph). See TAG_META (lib/ui.ts).
+  tags: z.array(MoveTagSchema).default([]),
   // running detail (mainly activities)
   duration: z.string().nullable().optional(),
   grouping: z.string().nullable().optional(),
@@ -402,6 +481,9 @@ export const FacilitationMaterialSchema = z.object({
   diagram: z
     .object({ src: z.string(), alt: z.string(), caption: z.string().nullable().optional() })
     .optional(),
+  // Activity-wide schematic diagrams: how to set the activity up, and what the finished output looks
+  // like. Rendered by <ActivityVisual>. Step-specific arrangements go on the step's own `visuals`.
+  visuals: z.array(ActivityVisualSchema).default([]),
   // Downloadable resources this material provides (e.g. a printable template + worked example that
   // learners can reuse for other goals). `file` is a path under public/, checked in validateGraph().
   // Each carries an optional `role` (worksheet/template/example/explainer) so the guided worksheet and
@@ -413,11 +495,12 @@ export const FacilitationMaterialSchema = z.object({
 
 export type FacilitationContext = z.infer<typeof FacilitationContextSchema>;
 export type MaterialType = z.infer<typeof MaterialTypeSchema>;
-export type MentorRole = z.infer<typeof MentorRoleSchema>;
-export type FacilitationArea = z.infer<typeof FacilitationAreaSchema>;
-export type AssessmentArea = z.infer<typeof AssessmentAreaSchema>;
+export type EducatorTag = z.infer<typeof EducatorTagSchema>;
+export type MoveTag = z.infer<typeof MoveTagSchema>;
 export type DownloadRole = z.infer<typeof DownloadRoleSchema>;
 export type Download = z.infer<typeof DownloadSchema>;
+export type ActivityVisual = z.infer<typeof ActivityVisualSchema>;
+export type ActivityVisualSpec = z.infer<typeof ActivityVisualSpecSchema>;
 export type FacilitationMaterial = z.infer<typeof FacilitationMaterialSchema>;
 
 // ---- Unit plan (scheme of work) ----

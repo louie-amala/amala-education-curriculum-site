@@ -6,7 +6,8 @@ title: "Get to know the learner deeply"
 summary: >-
   The competency lives in the person, not the artefact. The better you know a learner — over time and
   across contexts — the better you can recognise and judge what they can really do.
-assessmentArea: seeking-evidence
+tags:
+  - id: seeking-evidence
 educatorContent: |
   Start from a principle: a competency lives in the person, not in any single piece of work. A
   polished artefact can hide a learner who cannot do it again unaided; a rough one can belong to a

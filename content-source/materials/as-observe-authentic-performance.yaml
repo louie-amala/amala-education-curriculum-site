@@ -6,7 +6,8 @@ title: "Watch learners perform in authentic contexts"
 summary: >-
   Nothing evidences a competency like seeing it in action. Observe performance — planned or by chance,
   and out in the real settings where a learner is doing the work.
-assessmentArea: seeking-evidence
+tags:
+  - id: seeking-evidence
 educatorContent: |
   Some of the strongest evidence of a competency is watching a learner do the thing — a presentation,
   a facilitated discussion, a project in action. Performance observation can be planned (set an

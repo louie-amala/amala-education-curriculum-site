@@ -6,7 +6,8 @@ title: "Build the habit of capturing evidence"
 summary: >-
   Growth is hard to reconstruct months later. Help mentees capture evidence of what they do as they
   go, so a portfolio builds itself.
-mentorRole: recognising-growth
+tags:
+  - id: recognising-growth
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

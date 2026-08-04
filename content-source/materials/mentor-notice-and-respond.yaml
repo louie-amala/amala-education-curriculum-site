@@ -6,7 +6,8 @@ title: "Notice, record and refer a concern"
 summary: >-
   Spotting that something may be wrong is part of the role. Act within your policy: record what you
   actually observed, factually, and refer — don't investigate.
-mentorRole: safeguarding
+tags:
+  - id: safeguarding
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

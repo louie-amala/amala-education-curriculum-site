@@ -6,7 +6,8 @@ title: "Evaluate the work they produce"
 summary: >-
   The things learners make are evidence too. Evaluate real products against clear criteria — and
   triangulate, so a polished artefact doesn't stand in for the person.
-assessmentArea: seeking-evidence
+tags:
+  - id: seeking-evidence
 educatorContent: |
   Products — a report, an artefact, a plan, a piece of writing — are a natural source of evidence.
   Set a task, be clear what it is meant to evidence, and evaluate what learners submit against the

@@ -6,7 +6,8 @@ title: "Moderate your judgements with colleagues"
 summary: >-
   A judgement is only as fair as it is consistent. Compare and calibrate with colleagues so the same
   evidence would earn the same decision, whoever assessed it.
-assessmentArea: making-judgements
+tags:
+  - id: making-judgements
 educatorContent: |
   Assessment carries real consequences for learners, so it has to be consistent as well as considered:
   the same evidence should earn the same judgement whoever the assessor is. That consistency does not

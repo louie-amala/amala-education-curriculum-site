@@ -4,25 +4,38 @@ access: public
 type: educator-move
 title: "Make learning and thinking visible"
 summary: >-
-  You can't support learning you can't see. Engineer moments — through questioning and quick tasks —
-  that surface what every learner actually knows and thinks.
-facilitationArea: learning-facilitation
+  You can't support learning you can't see. The overarching move — surface what every learner knows
+  and thinks — with a family of specific techniques underneath it.
+tags:
+  - id: learning-facilitation
+    how: >-
+      When facilitating, keep asking yourself "how do I know what they're thinking right now?" and reach
+      for a specific technique — no hands up, think-pair-share, wait time, a quick check — to find out.
+  - id: learning-design
+    how: >-
+      When designing, build moments to surface thinking into the plan rather than hoping it happens:
+      plan the questions, the checks, and the tasks that make learning visible.
+  - id: making-thinking-visible
+  - id: checking-for-understanding
+  - id: questioning
 facilitationContext:
   - group
 primaryContext: group
 educatorContent: |
   You cannot see inside learners' heads, so you have to engineer situations that surface their
-  thinking — and make sharing half-formed ideas safe and normal. Questioning is the workhorse. Move
-  away from "hands up", which only tells you which confident learners think they know: use "no hands
-  up" and select learners (at random, names in a cup) so everyone stays ready to contribute. Give
-  thinking time before taking answers, and build in wait time — resist filling the silence. Use
-  think-pair-share so learners rehearse with a partner first, and do not let "I don't know" end the
-  exchange ("if you did know, what would you say?").
+  thinking — and make sharing half-formed ideas safe and normal. This is the overarching move; a family
+  of specific techniques sits underneath it, each its own move:
 
-  Interpret rather than evaluate: a wrong answer is often more useful than a right one, because it
-  shows you where to go next — so ask learners to justify their answers. Quick tools make thinking
-  visible fast: exit tickets, hinge questions, sentence starters, getting thinking down on paper. And
-  plan your key questions in advance rather than inventing them on the spot.
+  - Choose who answers (no hands up) — so you hear the whole group, not just the confident.
+  - Think, pair, share — everyone thinks and rehearses before anyone speaks.
+  - Build in wait time — a few seconds of silence lifts the quality and spread of answers.
+  - Examples and non-examples — a fast sort that reveals what learners really grasp.
+  - Quick checks: exit tickets and hinge questions — a whole-group read in seconds.
+  - Plan your questions — aimed at the learning, and free of the common traps.
+
+  Two habits run through all of them: interpret rather than evaluate (a wrong answer shows you where to
+  go next), and ask learners to justify their thinking. Other quick tools help too — sentence starters,
+  getting thinking down on paper, concept sorts.
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction
@@ -39,8 +52,12 @@ principleAlignment:
       Normalising half-formed thinking, and not letting "I don't know" end the exchange, makes it safe
       to think out loud.
 relatedSlugs:
-  - cf-learning-intentions-success-criteria
-  - cf-charged-discussions
+  - cf-no-hands-up
+  - cf-think-pair-share
+  - cf-wait-time
+  - cf-examples-non-examples
+  - cf-quick-checks
+  - cf-plan-your-questions
 sourceRefs:
   - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
 provenanceNote: >-

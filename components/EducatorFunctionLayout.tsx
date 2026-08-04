@@ -1,32 +1,53 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
-import { MaterialCard } from "@/components/MaterialCard";
-import type { FacilitationMaterial } from "@/lib/schema";
-
-export interface MoveBucket {
-  id: string;
-  label: string;
-  blurb: string;
-  moves: FacilitationMaterial[];
-}
+import {
+  EducatorMovesExplorer,
+  type ExplorerBucket,
+} from "@/components/EducatorMovesExplorer";
+import { educatorMoves } from "@/lib/content";
+import { PURPOSE_TAGS, functionAreas, tagMeta, type EducatorFunctionKey } from "@/lib/ui";
 
 // Shared layout for an educator-function page (mentor / course facilitator / assessor): a hero with a
-// breadcrumb back to the hub, an optional notice, then the moves grouped into buckets.
+// breadcrumb back to the hub, an optional notice, then the moves grouped into their area buckets with a
+// purpose filter. Buckets come from the function's area tags; a move appears under each area it carries,
+// showing that area's per-move `how` note.
 export function EducatorFunctionLayout({
+  functionKey,
   functionLabel,
   title,
   intro,
   notice,
-  buckets,
-  emptyLabel,
 }: {
+  functionKey: EducatorFunctionKey;
   functionLabel: string;
   title: string;
   intro: ReactNode;
   notice?: ReactNode;
-  buckets: MoveBucket[];
-  emptyLabel: string;
 }) {
+  const buckets: ExplorerBucket[] = functionAreas(functionKey).map(({ id, meta }) => ({
+    id,
+    label: meta.label,
+    blurb: meta.blurb,
+    moves: educatorMoves
+      .filter((m) => m.tags.some((t) => t.id === id))
+      .map((m) => ({
+        slug: m.slug,
+        title: m.title,
+        summary: m.summary ?? null,
+        how: m.tags.find((t) => t.id === id)?.how ?? null,
+        purposes: m.tags
+          .filter((t) => tagMeta(t.id).kind === "purpose")
+          .map((t) => ({ id: t.id, label: tagMeta(t.id).label })),
+      })),
+  }));
+
+  // Only offer purpose filters that actually appear among this function's moves.
+  const present = new Set(buckets.flatMap((b) => b.moves.flatMap((m) => m.purposes.map((p) => p.id))));
+  const purposeOptions = PURPOSE_TAGS.filter(({ id }) => present.has(id)).map(({ id, meta }) => ({
+    id,
+    label: meta.label,
+  }));
+
   return (
     <main>
       <section className="bg-navy px-6 py-14 text-white">
@@ -45,53 +66,8 @@ export function EducatorFunctionLayout({
 
       <div className="mx-auto max-w-4xl px-6 py-12">
         {notice}
-
-        {buckets.every((b) => b.moves.length === 0) ? (
-          <p className="mt-2 rounded-lg bg-cool-grey/5 p-4 text-cool-grey">{emptyLabel}</p>
-        ) : (
-          <div className={`${notice ? "mt-10" : ""} space-y-12`}>
-            {buckets
-              .filter((b) => b.moves.length > 0)
-              .map((b) => (
-                <section key={b.id} id={b.id} className="scroll-mt-24">
-                  <h2 className="font-heading text-2xl font-semibold text-navy">{b.label}</h2>
-                  <p className="mt-2 max-w-3xl text-cool-grey">{b.blurb}</p>
-                  <ul className="mt-5 grid gap-3 sm:grid-cols-2">
-                    {b.moves.map((m) => (
-                      <li key={m.slug}>
-                        <MaterialCard
-                          material={{
-                            slug: m.slug,
-                            title: m.title,
-                            summary: m.summary,
-                            type: m.type,
-                            facilitationContext: m.facilitationContext,
-                          }}
-                        />
-                      </li>
-                    ))}
-                  </ul>
-                </section>
-              ))}
-          </div>
-        )}
+        <EducatorMovesExplorer buckets={buckets} purposeOptions={purposeOptions} />
       </div>
     </main>
   );
-}
-
-// Group a function's moves into ordered buckets from the area-meta map. Reused by every function page.
-export function bucketise(
-  moves: FacilitationMaterial[],
-  field: "mentorRole" | "facilitationArea" | "assessmentArea",
-  areaMeta: Record<string, { label: string; blurb: string; order: number }>,
-): MoveBucket[] {
-  return Object.entries(areaMeta)
-    .sort((a, b) => a[1].order - b[1].order)
-    .map(([id, meta]) => ({
-      id,
-      label: meta.label,
-      blurb: meta.blurb,
-      moves: moves.filter((m) => m[field] === id),
-    }));
 }

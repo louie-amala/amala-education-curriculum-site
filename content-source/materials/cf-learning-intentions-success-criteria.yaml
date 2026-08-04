@@ -6,7 +6,16 @@ title: "Clarify learning intentions and success criteria"
 summary: >-
   Help learners know where they're going, what to do next, and what success looks like — with
   intentions and success criteria kept generic enough to transfer.
-facilitationArea: learning-design
+tags:
+  - id: learning-design
+    how: >-
+      When designing, get clear on the learning intention and the success criteria, and keep them
+      generic enough to transfer beyond the single task.
+  - id: learning-facilitation
+    how: >-
+      When facilitating, share them where it helps and use them as the reference learners self-assess
+      and get feedback against — without naming them when it would spoil an open enquiry.
+  - id: reflection-self-assessment
 facilitationContext:
   - group
 primaryContext: group

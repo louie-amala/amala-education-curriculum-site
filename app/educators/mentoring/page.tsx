@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
-import { EducatorFunctionLayout, bucketise } from "@/components/EducatorFunctionLayout";
-import { educatorMoves } from "@/lib/content";
-import { MENTOR_ROLE_META } from "@/lib/ui";
+import { EducatorFunctionLayout } from "@/components/EducatorFunctionLayout";
 
 export const metadata: Metadata = { title: "Mentor moves" };
 
 export default function MentorMovesPage() {
-  const buckets = bucketise(educatorMoves, "mentorRole", MENTOR_ROLE_META);
-
   return (
     <EducatorFunctionLayout
+      functionKey="mentor"
       functionLabel="Mentor"
       title="The mentor&rsquo;s moves"
       intro="Small, named, repeatable things a good mentor does. A mentor is generally responsible for a learner's academic progress and their wellbeing — but the exact remit is set by each partner. These moves are a menu to adopt from, organised by the five parts of the mentor role, not a fixed mandate."
@@ -21,8 +18,6 @@ export default function MentorMovesPage() {
           know those first, and always follow them.
         </p>
       }
-      buckets={buckets}
-      emptyLabel="No mentor moves authored yet."
     />
   );
 }

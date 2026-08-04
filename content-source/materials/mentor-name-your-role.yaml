@@ -6,7 +6,8 @@ title: "Name your role in the first conversation"
 summary: >-
   In your first meeting, explain plainly what you are there to help with — and what you can and
   cannot keep private — so a mentee knows how to use you.
-mentorRole: wellbeing
+tags:
+  - id: wellbeing
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

@@ -6,7 +6,17 @@ title: "Show quality, don't just describe it"
 summary: >-
   Rubrics can only say so much. Use samples of work and learner-built success criteria to develop a
   shared, felt sense of what good looks like.
-facilitationArea: learning-design
+tags:
+  - id: learning-design
+    how: >-
+      When designing, gather anonymous work samples of varying quality and plan how learners will build
+      their own success criteria from them.
+  - id: learning-facilitation
+    how: >-
+      When facilitating, have learners rank the samples, construct criteria, and self-assess before
+      handing work in — using where they disagree to open a dialogue about what quality really is.
+  - id: feedback
+  - id: reflection-self-assessment
 facilitationContext:
   - group
 primaryContext: group

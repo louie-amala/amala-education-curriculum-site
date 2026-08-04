@@ -6,7 +6,8 @@ title: "Surface the skills in a mentee's whole life"
 summary: >-
   A mentee's most important growth often happens outside your programme. Help them notice and name
   the skills they're building at home, at work and in their community.
-mentorRole: recognising-growth
+tags:
+  - id: recognising-growth
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

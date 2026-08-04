@@ -6,7 +6,8 @@ title: "Turn reflection into evidence"
 summary: >-
   A pile of work isn't evidence until a mentee can say what it shows. Use reflection prompts to help
   them connect what they did to the skill it demonstrates.
-mentorRole: recognising-growth
+tags:
+  - id: recognising-growth
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

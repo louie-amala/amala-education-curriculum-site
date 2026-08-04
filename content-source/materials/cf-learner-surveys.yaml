@@ -6,7 +6,9 @@ title: "Ask learners how the learning is landing"
 summary: >-
   Your learners are the best data on your facilitation. Survey them, read the promoters and
   detractors, and act on what you find — with them.
-facilitationArea: improving-practice
+tags:
+  - id: improving-practice
+  - id: feedback
 facilitationContext:
   - group
 primaryContext: group

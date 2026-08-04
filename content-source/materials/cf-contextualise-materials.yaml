@@ -6,7 +6,15 @@ title: "Contextualise your learning materials"
 summary: >-
   Learning sticks when it connects to learners' lives. Adapt materials to your cohort's context,
   culture and community — and let learners contextualise for each other.
-facilitationArea: learning-facilitation
+tags:
+  - id: learning-facilitation
+    how: >-
+      When facilitating, prompt learners to connect the material to their own lives and let them
+      contextualise it for each other in the room.
+  - id: learning-design
+    how: >-
+      When designing, adapt materials to your cohort's context, culture and community, and build in
+      local resources and examples before you ever reach the room.
 facilitationContext:
   - group
 primaryContext: group

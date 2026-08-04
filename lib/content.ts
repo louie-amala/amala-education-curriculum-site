@@ -2,6 +2,7 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 import {
+  AREA_TAG_IDS,
   AgencySchema,
   AreaSchema,
   CompetencySchema,
@@ -622,16 +623,15 @@ export function validateGraph(): ValidationReport {
       warnings.push(`Tools material "${m.slug}" has no toolsFacet.`);
     }
     {
-      const functions = [m.mentorRole, m.facilitationArea, m.assessmentArea].filter(Boolean);
-      if (m.type === "educator-move" && functions.length === 0) {
+      const areaSet = new Set<string>(AREA_TAG_IDS);
+      const areaTags = m.tags.filter((t) => areaSet.has(t.id));
+      if (m.type === "educator-move" && areaTags.length === 0) {
         errors.push(
-          `Educator move "${m.slug}" belongs to no function (set at least one of mentorRole / facilitationArea / assessmentArea).`,
+          `Educator move "${m.slug}" carries no area tag (needs at least one so it appears on a function page).`,
         );
       }
-      if (m.type !== "educator-move" && functions.length > 0) {
-        warnings.push(
-          `Material "${m.slug}" sets an educator-function bucket but is not an educator-move.`,
-        );
+      if (m.type !== "educator-move" && m.tags.length > 0) {
+        warnings.push(`Material "${m.slug}" carries educator-move tags but is not an educator-move.`);
       }
     }
     if (
@@ -640,6 +640,18 @@ export function validateGraph(): ValidationReport {
       !existsSync(join(process.cwd(), "public", m.diagram.src))
     ) {
       errors.push(`Material "${m.slug}" diagram points to missing file "${m.diagram.src}".`);
+    }
+    // Activity visuals: the `image` escape-hatch spec points at a file under public/ — check it exists,
+    // mirroring the diagram check. Spec-drawn visuals (zones/groups) need no asset. Covers both the
+    // material's own visuals and each step's.
+    for (const v of [...m.visuals, ...m.steps.flatMap((s) => s.visuals)]) {
+      if (
+        v.spec.type === "image" &&
+        v.spec.src.startsWith("/") &&
+        !existsSync(join(process.cwd(), "public", v.spec.src))
+      ) {
+        errors.push(`Material "${m.slug}" visual points to missing file "${v.spec.src}".`);
+      }
     }
     for (const d of m.downloads) {
       if (d.file.startsWith("/") && !existsSync(join(process.cwd(), "public", d.file))) {

@@ -1,0 +1,50 @@
+id: cf-wait-time
+slug: cf-wait-time
+access: public
+type: educator-move
+title: "Build in wait time"
+summary: >-
+  After you ask — and after a learner answers — wait. A few seconds of silence lifts the quality of
+  thinking and pulls in more voices. Resist filling it.
+tags:
+  - id: learning-facilitation
+    how: >-
+      When facilitating, pause 3–5 seconds after asking a question, and again after a response, before
+      you or anyone else jumps in. It feels awkward at first; the payoff is deeper answers from more
+      learners.
+  - id: making-thinking-visible
+  - id: questioning
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  Wait time is the small, hard discipline of not filling the silence. Research on pausing 3–5 seconds
+  after asking a question — and again after a learner responds — links it to better-quality answers,
+  more learners contributing, and a calmer climate. When a learner does not answer instantly, the urge
+  to jump in is strong; resist it. The silence is where the thinking happens. It feels uncomfortable at
+  first because we are used to a quick back-and-forth, but as learners get used to it the pauses do
+  their work, and you can gradually extend them. Wait time makes almost every other questioning move
+  work better.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Given time rather than rescued, learners do their own thinking — and more of them find they have
+    something to say.
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Unhurried silence signals that thinking is welcome and that a considered answer beats a fast one.
+  - principle: feedback-and-data
+    how: >-
+      Waiting surfaces answers from more than the quickest few, giving a fuller read of the group's
+      thinking.
+relatedSlugs:
+  - cf-make-thinking-visible
+  - cf-no-hands-up
+  - cf-think-pair-share
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Build in wait time" guidance (Wiliam & Leahy, 2015; Mary Budd Rowe's
+  wait time) in Making Learning and Thinking Visible.

@@ -6,7 +6,9 @@ title: "Facilitate with trauma sensitivity"
 summary: >-
   Some learners have experienced trauma. Facilitate so you do no harm — a safe, predictable space,
   real choice, and clear routes to further support.
-facilitationArea: learning-facilitation
+tags:
+  - id: learning-facilitation
+  - id: dialogue-climate
 facilitationContext:
   - group
 primaryContext: group

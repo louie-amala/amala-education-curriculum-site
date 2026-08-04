@@ -1,0 +1,53 @@
+id: cf-examples-non-examples
+slug: cf-examples-non-examples
+access: public
+type: educator-move
+title: "Examples and non-examples"
+summary: >-
+  Give learners a mixed list of examples and non-examples of a concept and have them sort it. Where
+  they place the tricky ones reveals what they really understand.
+tags:
+  - id: learning-design
+    how: >-
+      When designing, build in a sorting task: prepare a mixed list of examples and non-examples of the
+      concept you are teaching, so you have a quick, revealing check that the idea has landed.
+  - id: learning-facilitation
+    how: >-
+      When facilitating, hand out the mixed list and have learners sort it into "examples" and
+      "non-examples" and justify their choices; use where they disagree or misplace an item to reteach,
+      support individuals, or move on.
+  - id: seeking-evidence
+    how: >-
+      As an assessor, a sort is fast evidence of whether a learner grasps a concept's boundaries — where
+      they place the awkward non-examples tells you more than a definition can.
+  - id: checking-for-understanding
+  - id: making-thinking-visible
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  Asking learners to identify and sort examples and non-examples of something is a quick, powerful way
+  to find out what they actually know. Give them a mixed list — some genuine examples of the concept,
+  some near-misses — and ask them to sort it and say why. The near-misses do the work: a learner who
+  can place the tricky non-example correctly, and explain the boundary, genuinely understands the
+  concept; one who cannot has shown you exactly where to teach next. Use what the sort reveals to decide
+  your next move — support individuals, reteach to the whole group, or move on.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Sorting and justifying forces learners to make their own understanding explicit — and lets them
+    catch the edge of a concept themselves, rather than being told whether they "got it".
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      A sort surfaces what learners really grasp, giving both educator and learner data to act on
+      immediately.
+relatedSlugs:
+  - cf-make-thinking-visible
+  - cf-quick-checks
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Ask students to identify and name examples of non-examples of
+  something" technique in Making Learning and Thinking Visible.

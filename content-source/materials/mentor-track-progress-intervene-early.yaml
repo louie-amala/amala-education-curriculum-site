@@ -6,7 +6,8 @@ title: "Track progress and intervene early"
 summary: >-
   Don't wait for a deadline to discover a mentee is off track. Watch progress against milestones on
   a regular rhythm, and act the moment someone slips.
-mentorRole: progress
+tags:
+  - id: progress
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

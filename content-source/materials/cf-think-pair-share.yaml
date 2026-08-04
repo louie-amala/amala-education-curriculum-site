@@ -1,0 +1,52 @@
+id: cf-think-pair-share
+slug: cf-think-pair-share
+access: public
+type: educator-move
+title: "Think, pair, share"
+summary: >-
+  Pose a question, protect solo thinking time, let pairs rehearse, then share. Everyone thinks before
+  anyone speaks — and quieter learners get a run-up.
+tags:
+  - id: learning-facilitation
+    how: >-
+      When facilitating, pose the question, protect individual think time, let pairs talk, then invite a
+      few to share their own or their partner's thinking.
+  - id: learning-design
+    how: >-
+      When designing, build think-pair-share in wherever you want everyone thinking before anyone
+      speaks — plan the question and the solo-then-pair beats into the sequence.
+  - id: making-thinking-visible
+  - id: questioning
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  Think-pair-share is a simple structure that gets everyone thinking before anyone speaks, and gives
+  quieter learners a rehearsal before facing the whole room. Pose a question; give learners time to
+  think on their own; let them talk it through with a partner; then select one or more to share their
+  own — or their partner's — thinking. The solo step means no one coasts on the group; the pair step
+  means the share is rehearsed and braver; and asking learners to voice a partner's idea rewards genuine
+  listening. It pairs naturally with wait time and with choosing who answers.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Everyone thinks and rehearses, so contributing to the room becomes something every learner can do,
+    not just the quickest or most confident.
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The pair step makes thinking a shared act — learners build and test ideas with each other before
+      the whole group.
+  - principle: safe-spaces
+    how: >-
+      Rehearsing with one partner first makes speaking to the whole group far less exposing.
+relatedSlugs:
+  - cf-make-thinking-visible
+  - cf-no-hands-up
+  - cf-wait-time
+sourceRefs:
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+provenanceNote: >-
+  Generalised from the Playbook's "Think-Pair-Share" technique (Wiliam & Leahy, 2015) in Making
+  Learning and Thinking Visible.

@@ -6,7 +6,8 @@ title: "Keep a running anecdote log"
 summary: >-
   The reference or recommendation you'll write later is only as good as what you remember. Note the
   small, telling moments as they happen.
-mentorRole: pathways
+tags:
+  - id: pathways
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

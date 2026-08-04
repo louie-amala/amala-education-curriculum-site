@@ -6,7 +6,8 @@ title: "Coach, don't rescue"
 summary: >-
   When a mentee is stuck on their work, hand the thinking back to them with a simple coaching
   structure — so they build the capacity to get unstuck next time.
-mentorRole: progress
+tags:
+  - id: progress
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring

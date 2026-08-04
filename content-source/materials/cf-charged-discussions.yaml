@@ -6,7 +6,9 @@ title: "Hold a charged discussion without losing the room"
 summary: >-
   When learners care fiercely, discussion can tip into conflict. Set the conditions for dialogue over
   debate, and steer it without taking sides.
-facilitationArea: learning-facilitation
+tags:
+  - id: learning-facilitation
+  - id: dialogue-climate
 facilitationContext:
   - group
 primaryContext: group

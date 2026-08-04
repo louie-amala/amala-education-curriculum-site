@@ -6,7 +6,8 @@ title: "Judge the competency, holistically, against the scale"
 summary: >-
   When it's time to assess, judge the person's proficiency — not the artefact — by weighing all your
   evidence against the proficiency scale, and give a fair, reasoned decision.
-assessmentArea: making-judgements
+tags:
+  - id: making-judgements
 educatorContent: |
   All the evidence-seeking leads to one moment: sitting down to judge a competency. Judge the person,
   not a single artefact. Bring together everything you have gathered — what you know of the learner,

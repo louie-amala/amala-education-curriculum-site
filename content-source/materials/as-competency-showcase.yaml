@@ -6,7 +6,8 @@ title: "Run a competency showcase or defence"
 summary: >-
   Have learners present and defend their evidence for chosen competencies, then question them live.
   It's hard to fake, strong for verbal learners, and real practice for their futures.
-assessmentArea: assessment-tools
+tags:
+  - id: assessment-tools
 educatorContent: |
   A competency showcase — a portfolio defence presentation, or a lighter viva voce — asks a learner to
   present the evidence that they have met chosen competencies, and then answer questions on it. The

@@ -44,111 +44,177 @@ export function typeMeta(type: string): TypeMeta {
   return TYPE_META[type] ?? TYPE_META.resource;
 }
 
-// The five parts of the mentor role an educator move can belong to (see MentorRoleSchema). `blurb`
-// heads each bucket on /educator-moves; `order` fixes the reading order (wellbeing → safeguarding →
-// progress → recognising growth → pathways).
-export interface MentorRoleMeta {
+// ---- Educator-move tags ----
+// One taxonomy for both AREA tags (which function bucket(s) a move appears under) and cross-cutting
+// PURPOSE tags (filter lenses). `function` + `order` apply to area tags; purpose tags carry `order`
+// among themselves. A move can carry several, and its per-tag `how` explains it in that context.
+export type EducatorFunctionKey = "mentor" | "course-facilitator" | "assessor";
+
+export interface TagMeta {
   label: string;
   blurb: string;
+  kind: "area" | "purpose";
+  function?: EducatorFunctionKey; // area tags only
   order: number;
 }
 
-export const MENTOR_ROLE_META: Record<string, MentorRoleMeta> = {
+export const TAG_META: Record<string, TagMeta> = {
+  // ---- Area tags: Mentor ----
   wellbeing: {
     label: "Wellbeing & belonging",
+    kind: "area",
+    function: "mentor",
+    order: 0,
     blurb:
       "Helping mentees feel safe, supported and able to raise concerns — and building their own tools for the challenges they face.",
-    order: 0,
   },
   safeguarding: {
     label: "Safeguarding & referral",
+    kind: "area",
+    function: "mentor",
+    order: 1,
     blurb:
       "Protecting mentees from harm by knowing and following your setting's own safeguarding policy and referral pathways. These moves never replace that policy.",
-    order: 1,
   },
   progress: {
     label: "Progress & achievement",
+    kind: "area",
+    function: "mentor",
+    order: 2,
     blurb:
       "Coaching mentees through their work, tracking how they are doing, and giving feedback that moves them forward.",
-    order: 2,
   },
   "recognising-growth": {
     label: "Recognising & evidencing growth",
+    kind: "area",
+    function: "mentor",
+    order: 3,
     blurb:
       "Helping mentees notice, name and evidence the skills they are developing — including from life outside the classroom.",
-    order: 3,
   },
   pathways: {
     label: "Pathways & futures",
+    kind: "area",
+    function: "mentor",
+    order: 4,
     blurb:
       "Supporting mentees to identify, apply for and move towards further education, employment or entrepreneurial pathways.",
-    order: 4,
   },
-};
-
-export function mentorRoleMeta(role: string): MentorRoleMeta {
-  return MENTOR_ROLE_META[role] ?? { label: role, blurb: "", order: 99 };
-}
-
-// Buckets within the course-facilitator function (mirrors the Course Facilitator Playbook's sections).
-export const FACILITATION_AREA_META: Record<string, MentorRoleMeta> = {
+  // ---- Area tags: Course facilitator ----
   "learning-design": {
     label: "Learning design",
+    kind: "area",
+    function: "course-facilitator",
+    order: 0,
     blurb:
       "Deciding what is worth learning and what success looks like — and designing a journey that gets learners there.",
-    order: 0,
   },
   "learning-facilitation": {
     label: "Learning facilitation",
+    kind: "area",
+    function: "course-facilitator",
+    order: 1,
     blurb:
       "Running the room well — making thinking visible, handling difficulty with care, and meeting learners where they are.",
-    order: 1,
   },
   "improving-practice": {
     label: "Improving learning design & facilitation",
+    kind: "area",
+    function: "course-facilitator",
+    order: 2,
     blurb:
       "Getting better together — opening your practice to colleagues and learners, and acting on what you find.",
-    order: 2,
   },
-};
-
-// Buckets within the assessor function. The competency lives in the person, not the artefact: build a
-// picture of proficiency, judge it against the scale, and use tools to draw evidence out.
-export const ASSESSMENT_AREA_META: Record<string, MentorRoleMeta> = {
+  // ---- Area tags: Assessor ----
   "seeking-evidence": {
     label: "Seeking evidence of proficiency",
+    kind: "area",
+    function: "assessor",
+    order: 0,
     blurb:
       "Building the fullest possible picture of what a learner can do — by knowing them well, questioning them, and watching them work in real contexts.",
-    order: 0,
   },
   "making-judgements": {
     label: "Making the judgement",
+    kind: "area",
+    function: "assessor",
+    order: 1,
     blurb:
       "Bringing the evidence together to judge a competency against the proficiency scale — fairly, holistically, and with others.",
-    order: 1,
   },
   "assessment-tools": {
     label: "Assessment tools",
+    kind: "area",
+    function: "assessor",
+    order: 2,
     blurb:
       "Structured ways to draw evidence out — competency reflections, showcases, portfolios and rubrics.",
+  },
+  // ---- Purpose tags (cross-cutting lenses) ----
+  "making-thinking-visible": {
+    label: "Making thinking visible",
+    kind: "purpose",
+    order: 0,
+    blurb: "Surfacing what learners actually know and think, so it can be supported and built on.",
+  },
+  "checking-for-understanding": {
+    label: "Checking for understanding",
+    kind: "purpose",
+    order: 1,
+    blurb: "Finding out, in the moment, whether learning has landed — so you know what to do next.",
+  },
+  questioning: {
+    label: "Questioning",
+    kind: "purpose",
     order: 2,
+    blurb: "Using questions well — to reveal thinking, probe depth, and move learning forward.",
+  },
+  feedback: {
+    label: "Feedback",
+    kind: "purpose",
+    order: 3,
+    blurb: "Giving and using feedback that moves the learner forward rather than judging them.",
+  },
+  "reflection-self-assessment": {
+    label: "Reflection & self-assessment",
+    kind: "purpose",
+    order: 4,
+    blurb: "Helping learners look back, judge their own work, and name what they are learning.",
+  },
+  "dialogue-climate": {
+    label: "Dialogue & climate",
+    kind: "purpose",
+    order: 5,
+    blurb: "Building a safe, inclusive space where hard conversations can happen well.",
   },
 };
 
+export function tagMeta(id: string): TagMeta {
+  return TAG_META[id] ?? { label: id, blurb: "", kind: "purpose", order: 99 };
+}
+
+// The ordered AREA tags belonging to one function — the buckets on that function's page.
+export function functionAreas(fn: EducatorFunctionKey): { id: string; meta: TagMeta }[] {
+  return Object.entries(TAG_META)
+    .filter(([, m]) => m.kind === "area" && m.function === fn)
+    .sort((a, b) => a[1].order - b[1].order)
+    .map(([id, meta]) => ({ id, meta }));
+}
+
+// All cross-cutting purpose tags, ordered — the options for the "filter by purpose" control.
+export const PURPOSE_TAGS: { id: string; meta: TagMeta }[] = Object.entries(TAG_META)
+  .filter(([, m]) => m.kind === "purpose")
+  .sort((a, b) => a[1].order - b[1].order)
+  .map(([id, meta]) => ({ id, meta }));
+
 // The three functions an Amala educator can perform. Educators take on one or more of these; few do
-// all three, and none do all of them all the time. Each function has its own set of educator moves.
+// all three, and none do all of them all the time. Buckets are derived from the area tags (TAG_META).
 export interface EducatorFunctionMeta {
-  key: string;
+  key: EducatorFunctionKey;
   label: string;
   blurb: string;
   href: string;
-  // Whether the function's moves are authored yet. Un-built functions are shown on the hub but not
-  // linked, so we never surface an empty page.
-  status: "active" | "in-development";
   accent: string;
-  // The material field that assigns a move to this function, and the bucket metadata within it.
-  field: "mentorRole" | "facilitationArea" | "assessmentArea";
-  areas: Record<string, MentorRoleMeta>;
 }
 
 export const EDUCATOR_FUNCTIONS: EducatorFunctionMeta[] = [
@@ -158,10 +224,7 @@ export const EDUCATOR_FUNCTIONS: EducatorFunctionMeta[] = [
     blurb:
       "Walking alongside individual learners — supporting their academic progress and their wellbeing, and helping them recognise growth and reach their pathways.",
     href: "/educators/mentoring",
-    status: "active",
     accent: "border-terracotta",
-    field: "mentorRole",
-    areas: MENTOR_ROLE_META,
   },
   {
     key: "course-facilitator",
@@ -169,10 +232,7 @@ export const EDUCATOR_FUNCTIONS: EducatorFunctionMeta[] = [
     blurb:
       "Designing and facilitating learning — clarifying what success looks like, making thinking visible, and handling discussion and difficulty well.",
     href: "/educators/course-facilitation",
-    status: "active",
     accent: "border-teal",
-    field: "facilitationArea",
-    areas: FACILITATION_AREA_META,
   },
   {
     key: "assessor",
@@ -180,10 +240,7 @@ export const EDUCATOR_FUNCTIONS: EducatorFunctionMeta[] = [
     blurb:
       "Judging learners' competencies fairly and with evidence — getting to know learners, seeking evidence of proficiency, and making sound, moderated judgements.",
     href: "/educators/assessment",
-    status: "active",
     accent: "border-plum",
-    field: "assessmentArea",
-    areas: ASSESSMENT_AREA_META,
   },
 ];
 
