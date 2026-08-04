@@ -1,0 +1,59 @@
+# Competency module for FSL2 "Set and pursue goals" — the general (non-Cox's-Bazar) sequencing layer
+# for the Agency in Learning material library, mirroring how FSI1 uses investigating-real-world-issues.
+# Groups the generic ail-* materials into the four skills of the self-directed learning cycle. It is a
+# cross-cutting competency path (materials -> skill -> competency); it does NOT replace the
+# agency-in-learning course, which still develops FSL2 through its objectives.
+# Unlike FSI1's five independent research skills, these four are phases of ONE cycle run on a single
+# goal: understand -> set -> pursue -> track. Work them in order for a full guided cycle; the "drop
+# into one skill" affordance is weaker here, because you cannot track a goal you have not yet set.
+id: mod-set-and-pursue-goals
+slug: set-and-pursue-goals
+access: public
+grain: competency
+title: Set and pursue goals
+competencyCode: FSL2
+summary: >-
+  The full self-directed learning cycle of FSL2, broken into the four skills that make it up —
+  understanding yourself as a learner, setting a clear and meaningful goal, planning and taking
+  deliberate steps, and tracking progress, using feedback, and reflecting on growth. Run the skill
+  modules in order for one full, guided goal cycle; a learning journal, started early, runs through all
+  four as the record a learner watches their own growth in.
+agencyNote: >-
+  Setting and pursuing your own goals is the engine of agency: it is the point at which a learner stops
+  waiting to be told what to learn and takes hold of their own growth and the future it builds towards.
+  Running a full cycle on a real goal of their own — deciding what to grow, taking deliberate steps, and
+  seeing the progress — is self-direction made concrete rather than talked about.
+# How the whole module develops and demonstrates FSL2 (the four skills below each carry their own).
+anchorContribution:
+  develops: >-
+    Learners develop FSL2 by running a full goal cycle on their own learning: they come to understand
+    themselves as learners, set a clear and meaningful goal, plan and take deliberate steps between
+    sessions, and track progress, use feedback, and adapt. Practised across the whole module and
+    supported by mentoring, goal-setting becomes a habit rather than a one-off exercise, and learners
+    move from goals set with support towards goals they set, pursue, and revise more independently.
+  demonstrates: >-
+    Assess this from the artefacts of self-direction a learner produces across the cycle: a learner
+    profile, one or more written, milestoned goals connected to what matters to them, an action plan,
+    a progress tracker or learning journal kept over time, and an end-of-cycle reflection on growth
+    against the original goal. Together these show not just that a learner can name a goal, but that
+    they took deliberate, tracked steps towards it and adapted when things changed.
+# The four skills, in cycle order. Together they cover the FSL2 goal: "establish clear objectives for
+# learning and growth and take deliberate steps to make progress towards them."
+skillModuleSlugs:
+  - understanding-yourself-as-a-learner
+  - setting-meaningful-goals
+  - planning-and-taking-steps
+  - tracking-feedback-and-reflection
+sourceNotes:
+  - >-
+    Second module of the modules layer (after FSI1's investigating-real-world-issues). The four skills
+    mirror the Agency in Learning course objectives (understand -> set -> pursue -> track), but regroup
+    the shared FSL2 material library rather than a single course's objectives, so the same skills can be
+    reused by other courses that develop FSL2.
+  - >-
+    Sequences the generic ail-* materials (the general, literacy-assumed edition). The Cox's Bazar
+    edition sequences its own oral/visual cb-ail-* adaptations through the coxs-bazar-agency-in-learning
+    unit plan instead; this module is the general counterpart to that unit.
+  - >-
+    The four skills are phases of one cumulative cycle, not independently-droppable skills like FSI1's
+    research skills, so the module is framed to be worked in order on a single real goal.
