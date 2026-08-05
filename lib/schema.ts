@@ -215,6 +215,10 @@ export const ProgrammeSchema = z.object({
         structuredHours: z.number().optional(),
         facilitatedHours: z.number().optional(),
         independentHours: z.number().optional(),
+        // For components that are not time-bound (e.g. Mentoring and Wellbeing, which runs as regular
+        // 1:1 or group sessions throughout the programme rather than a fixed block of hours). Shown in
+        // place of the hours badge. Use one xor the other, not both.
+        cadence: z.string().optional(),
         deliveryOptions: z.array(z.string()).default([]),
         optional: z.boolean().optional(),
         // When set, this component is delivered as a full course; the programme links to it.

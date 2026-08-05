@@ -143,7 +143,7 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
                         </span>
                       )}
                     </h3>
-                    {c.structuredHours != null && (
+                    {c.structuredHours != null ? (
                       <span className="font-heading text-sm font-semibold text-plum">
                         {c.structuredHours} hours
                         {c.facilitatedHours != null && c.independentHours != null && (
@@ -152,6 +152,10 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
                           </span>
                         )}
                       </span>
+                    ) : (
+                      c.cadence && (
+                        <span className="font-heading text-sm font-semibold text-plum">{c.cadence}</span>
+                      )
                     )}
                   </div>
                   {c.summary && <p className="mt-2 text-sm text-cool-grey">{c.summary}</p>}
