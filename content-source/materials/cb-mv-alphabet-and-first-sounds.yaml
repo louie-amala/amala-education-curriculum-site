@@ -50,6 +50,30 @@ materialsAndPreparation:
 - "Something to trace with and in - the My Voice book, or paper; and, for tracing letters, a finger in sand or dust works when pencils are scarce."
 - Your own name ready to show and say first, and one or two example words that matter locally.
 - "Sensitivity: a name can carry family and story. Most learners are proud to work from their name, but if a learner would rather not, let them choose another word that matters to them (a place, a colour, a thing they like) and build the same steps from that."
+visuals:
+- kind: example
+  title: "The sound of my name"
+  caption: >-
+    Each first sound learners hear is tied to the letter that carries it, and to a real name in the room.
+    Sound first, then the letter.
+  spec:
+    type: zones
+    cardStyle: drawing
+    flow: across
+    flowLabel: "becomes"
+    zones:
+    - label: "First sound"
+      tone: known
+      cards:
+      - "fff…"
+      - "sss…"
+      - "rrr…"
+    - label: "Letter & name"
+      tone: positive
+      cards:
+      - "F — Fatima"
+      - "S — Sara"
+      - "R — Rashida"
 facilitationNotes: |
   This is the activity that decides whether a beginner believes written English is for them. Unlike a
   literate group transferring skills they already have, most learners here are meeting the idea that

@@ -26,6 +26,23 @@ materialsAndPreparation:
 - The "Where I am as a researcher" growth-path page from the research book (one per learner).
 - "Simple pictures or actions that show what a researcher does: asking, looking closely, keeping a record, weighing whether something is true."
 - Your own honest mark, ready to show, so learners see it is safe to say "I am near the start".
+visuals:
+- kind: example
+  title: "What a researcher does"
+  caption: >-
+    Shown in pictures and plain words — finding out for ourselves instead of guessing. This is a growth
+    path we all walk along, not a test to pass today.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "A researcher…"
+      tone: known
+      cards:
+      - "asks people"
+      - "looks closely"
+      - "keeps a record"
+      - "checks if it's true"
 facilitationNotes: >-
   The one thing to get right: this is a growth path, not a test. Say clearly, and more than once, that
   marking "near the start" is not failing — it is exactly where a researcher begins, and the point is to

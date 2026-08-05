@@ -48,6 +48,30 @@ materialsAndPreparation:
 - Picture cards or drawings for a small set of identity and classroom words (a door, a book, a friend, a family) for learners to point to — pictures, not written words.
 - A set of learners' own names ready to say aloud, and, if helpful, drawn or symbol markers learners can stand beside or point to.
 - "Sensitivity: hearing and sharing names can touch on family and story, and a name said wrong can sting. Say every name with care, let a learner who would rather not have their name used point to another marker instead, and never single out anyone who has not understood — repeat and support instead."
+visuals:
+- kind: example
+  title: "Listen, and do"
+  caption: >-
+    Learners respond with their bodies before they read a word — the heart of listening-first. You say it;
+    they show it.
+  spec:
+    type: zones
+    cardStyle: drawing
+    flow: across
+    flowLabel: "show me"
+    zones:
+    - label: "You hear"
+      tone: known
+      cards:
+      - "stand up"
+      - "point to the door"
+      - "fff…"
+    - label: "You do"
+      tone: positive
+      cards:
+      - "stand"
+      - "point to the door"
+      - "hands up for fff names"
 facilitationNotes: |
   Listening is the strand most often skipped at the very start, yet understanding comes before speaking —
   learners can take in far more than they can say, and being asked to produce language too early is exactly

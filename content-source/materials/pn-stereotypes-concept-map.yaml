@@ -1,0 +1,129 @@
+id: pn-stereotypes-concept-map
+slug: pn-stereotypes-concept-map
+access: public
+type: activity
+title: Stereotype, prejudice, discrimination — concept map
+summary: >-
+  Learners define stereotype, prejudice and discrimination with examples and non-examples, then build
+  a Generate-Sort-Connect-Elaborate concept map of how stories spread them.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Building the map together surfaces disagreement about what counts as a stereotype,
+      and that argument is the learning. Keep the "connect" stage collaborative so learners have to
+      justify the links they draw to each other.
+  - context: independent
+    how: >-
+      A learner can build the map alone in a notebook, but they lose the challenge of another person
+      disputing an example. Ask them to gather examples from three different sources (a proverb, an
+      advertisement, a news story) so a single viewpoint is still stretched by real material.
+duration: About 60 minutes.
+grouping: Small groups of three or four, then whole-group comparison.
+whatLearnersDo:
+  - Agree working definitions of stereotype, prejudice and discrimination, with examples and non-examples.
+  - Generate examples of stereotypes carried in jokes, proverbs, media, and advertising.
+  - Sort, connect and elaborate the examples into a concept map showing how stories spread stereotypes.
+  - Compare maps and draw out where stereotypes come from and how they harden.
+materialsAndPreparation:
+  - Poster paper, sticky notes and pens, or a shared board online.
+  - Short, plain definitions of stereotype, prejudice and discrimination ready to offer once learners have tried their own.
+  - "Optional: a few example texts (an advert, a proverb, a headline) to seed the map if learners stall."
+facilitationNotes: >-
+  The one thing to get right: keep the examples about media and messages, not about people in the room.
+  The map studies how stories spread stereotypes, so anchor every example to a text (a joke, an image,
+  a headline) rather than a group anyone present belongs to. Sensitivity: naming stereotypes can wound
+  if it lands on a learner's own identity. Agree up front that the target is the story, not any person,
+  and let learners pass on examples that feel too close.
+steps:
+  - title: Define the three words
+    duration: 15 min
+    guidance: >-
+      In groups, learners draft definitions of stereotype, prejudice and discrimination, each with an
+      example and a non-example. The non-example does the real work: it forces the boundary of the
+      concept. Offer plain definitions only after they have wrestled with their own.
+    keyPrompts:
+      - What is an example of this, and what is something close to it that does NOT count?
+      - Where is the line between a stereotype and a fair observation about one person?
+    watchOuts:
+      - "The three words get used interchangeably. Hold the distinction: a stereotype is a belief, prejudice is a feeling, discrimination is an action."
+  - title: Generate examples from stories
+    duration: 15 min
+    guidance: >-
+      Learners brainstorm stereotypes carried in everyday stories: jokes, proverbs, sayings, adverts,
+      films, news. One idea per sticky note. Aim for volume. This is where the invisible becomes
+      visible, as learners realise how many they can name once they look.
+    keyPrompts:
+      - What stereotype hides inside a joke or proverb you have heard?
+      - Which adverts or films repeat the same picture of a group?
+    watchOuts:
+      - Learners name only stereotypes about distant groups. Include ones aimed at groups they belong to, but keep them attached to a text, not a person.
+  - title: Sort, connect and elaborate
+    duration: 20 min
+    guidance: >-
+      Learners cluster the notes (sort), draw links between related ones and label why (connect), then
+      add new ideas the links suggest (elaborate). The labelled links are the point: they turn a pile of
+      examples into an argument about how stereotypes travel and grow.
+    keyPrompts:
+      - Why does this example connect to that one? Name the link.
+      - What new idea does this connection make you think of?
+    watchOuts:
+      - Groups draw lines everywhere without labels. Require a reason written on each link, or it does not count.
+  - title: Compare and trace the source
+    duration: 10 min
+    guidance: >-
+      Groups view each other's maps and discuss where stereotypes come from and what makes them stick.
+      Draw out the role of repetition: a stereotype is a story told so often it feels like fact. Connect
+      to the idea of a single story becoming the only story.
+    keyPrompts:
+      - What did every map show about where stereotypes come from?
+      - What would it take to break one of these stereotypes?
+    watchOuts:
+      - The conversation ends at "stereotypes are bad". Push toward how they function and spread, which is what makes them changeable.
+closing: >-
+  Ask each learner to name one stereotype they want to challenge through a story later in the course.
+  The map is kept and feeds directly into work on othering and on producing a story that challenges a
+  stereotype.
+learnerContent: |
+  Three words that are often confused:
+
+  - **Stereotype**: a fixed, oversimplified belief about a whole group.
+  - **Prejudice**: a feeling (often negative) toward a group based on that belief.
+  - **Discrimination**: an action that treats people unfairly because of it.
+
+  Find stereotypes hiding in everyday stories, jokes, proverbs, adverts, films, news, one per note.
+  Then build a map: cluster them, draw links and say **why** each link exists, and add new ideas the
+  links suggest. Keep every example about the **story**, not about anyone in the room.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Seeing exactly how stereotypes are manufactured and spread through ordinary stories turns a vague
+    sense of unfairness into a map a learner can act on. Understanding the mechanism is what lets them
+    target it, in the stories they choose to challenge and the ones they refuse to pass on.
+principlesForegrounded: [authentic-challenges, collaboration]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The map is built from real stereotypes circulating in the learners' own media and sayings, not a
+      textbook list, so it engages a live problem in their context rather than a hypothetical one.
+  - principle: collaboration
+    how: >-
+      The connect stage requires learners to justify each labelled link to their group, so the analysis
+      is argued into being together rather than asserted by one person.
+competencyCodes: [AUS1, FUS2]
+competencyDevelopment:
+  - code: AUS1
+    how: >-
+      The activity is direct practice at recognising unfair stereotypes and tracing how they operate,
+      the groundwork for helping others overcome them. The map and the source discussion are the evidence.
+  - code: FUS2
+    how: >-
+      Distinguishing stereotype, prejudice and discrimination, and finding non-examples, sharpens
+      learners' account of what drives people's judgements of others.
+objectiveIds: [powerful-narratives--o1]
+relatedSlugs: [pn-dont-put-people-in-boxes, pn-the-house-burgle-and-buy, pn-two-truths-and-a-lie]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 3: Stories and stereotypes)", "ONLINE Powerful Narratives Course Planner (Week 3)"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners, Week 3 "Activity 2: Stories and stereotypes",
+  which uses a Generate-Sort-Connect-Elaborate concept-mapping protocol.

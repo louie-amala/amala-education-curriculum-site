@@ -1,0 +1,123 @@
+id: pn-the-house-burgle-and-buy
+slug: pn-the-house-burgle-and-buy
+access: public
+type: activity
+title: The House — burgle and buy
+summary: >-
+  Half the group reads a description of a house as a burglar, half as a house-buyer; they compare what
+  each noticed and remembered, revealing how a purpose silently shapes perception.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, and it needs the split: the whole demonstration rests on two halves of the room
+      reading the same words with different purposes and getting different memories. Do not tell anyone
+      the other half exists until the reveal.
+duration: About 60 to 90 minutes.
+grouping: Two halves of the group, each given a different secret purpose.
+whatLearnersDo:
+  - Read the same description of a house, secretly assigned the role of either a burglar or a house-buyer.
+  - From memory, list the details they noticed and can recall.
+  - Compare the two halves' lists and discover each half remembered different things.
+  - Discuss how a purpose, held silently, shaped what they saw, kept, and forgot.
+materialsAndPreparation:
+  - A neutral written description of a house with many mixed details (some matter to a burglar, some to a buyer, some to neither). The classic text is Pichert and Anderson's "The House"; any rich, even-handed description works.
+  - Two secret role instructions ("read this as a burglar" / "read this as someone thinking of buying the house"), handed out so neither half sees the other's.
+  - Paper for the recall lists.
+facilitationNotes: >-
+  The one thing to get right: keep the two purposes secret until after the recall. If learners know
+  there are two roles, they read for both and the effect collapses. Assign roles quietly, collect the
+  recall lists before any discussion, and only then reveal that the room read with two different
+  purposes. The gap between the lists is the entire lesson, so let it land before you explain it.
+steps:
+  - title: Assign secret purposes and read
+    duration: 15 min
+    guidance: >-
+      Split the group in two. Quietly give one half the burglar purpose and the other the buyer purpose,
+      making clear they should not share it. Everyone reads the same house description once, at a normal
+      pace, with their purpose in mind. Do not hint that the purposes differ.
+    keyPrompts:
+      - As you read, what jumped out at you?
+      - What felt important to hold on to?
+    watchOuts:
+      - Learners announce their role or ask why theirs differs. Keep roles private; if someone guesses, ask them to keep it to themselves.
+  - title: Recall from memory
+    duration: 15 min
+    guidance: >-
+      Take the text away. Ask learners to list, from memory, every detail of the house they can recall.
+      Working alone keeps each person's memory honest. Collect or have them hold their lists before any
+      talking, so nothing is added after the reveal.
+    keyPrompts:
+      - What do you remember about the house, in as much detail as you can?
+      - Which details felt worth remembering, and which slipped away?
+    watchOuts:
+      - Learners start comparing lists early. Keep this step silent and individual until the reveal.
+  - title: Reveal and compare
+    duration: 20-30 min
+    guidance: >-
+      Reveal the two purposes. Compare what each half remembered: burglars recall the flat-screen and
+      the side door, buyers recall the damp and the garden. Let the pattern emerge from their own lists
+      before you name it. The surprise is the teaching.
+    keyPrompts:
+      - What did your half remember that the other half missed entirely?
+      - You all read the exact same words. Why are your memories so different?
+    watchOuts:
+      - The pattern is uneven and some lists do not fit. Treat exceptions as interesting, not failures; perception is a tendency, not a law.
+  - title: Draw out the lesson
+    duration: 15 min
+    guidance: >-
+      Move from the house to the world. A purpose we are not even aware of shapes what we notice about
+      people and events. Connect to how a storyteller, a journalist, or our own assumptions read the
+      same reality and keep different things.
+    keyPrompts:
+      - What "purposes" do we carry without noticing when we meet a new person or read the news?
+      - If purpose shapes what we see, how should that change how we tell and trust stories?
+    watchOuts:
+      - Discussion stays about the house. Keep pulling it toward perception of people and events, which is the point.
+closing: >-
+  Ask each learner to name one "lens" they suspect they carry without noticing. This sets up the course's
+  work on invisible narratives and on how perspective shapes the stories we tell.
+learnerContent: |
+  You will read a description of a house. You will be given a secret purpose: keep it to yourself.
+
+  Read the description once, with your purpose in mind. Then, from memory, list every detail of the
+  house you can recall.
+
+  Afterwards, we will compare what everyone remembered. You all read the same words, so any difference
+  in what you kept came from the purpose you were reading with, a purpose you may not even have noticed
+  shaping you.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Catching your own mind keeping some details and dropping others, purely because of a purpose you did
+    not choose consciously, is a hold on how perception works. It lets learners question their own first
+    readings of people and events instead of trusting them, which is the beginning of thinking for
+    themselves rather than for the lens they were handed.
+principlesForegrounded: [feedback-and-data, lifeworthy-competencies]
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      The two recall lists are real evidence produced by the learners themselves; the demonstration
+      proves its point with their own data rather than by assertion.
+  - principle: lifeworthy-competencies
+    how: >-
+      Recognising that purpose shapes perception is a transferable critical-thinking skill for reading
+      media, evidence, and people well beyond this course.
+competencyCodes: [FUS1, FUS2]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      The activity makes visible how the learner's own frame filters what they notice, which is direct
+      practice at self-awareness. Their recall list, set against the other half's, is the evidence.
+  - code: FUS2
+    how: >-
+      Understanding that others perceive the same reality differently, and why, is the foundation of
+      understanding what drives other people's behaviour and judgements.
+objectiveIds: [powerful-narratives--o1]
+relatedSlugs: [pn-stereotypes-concept-map, pn-two-truths-and-a-lie, iceberg-model]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 5: The House — Burgle and Buy)", "ONLINE Powerful Narratives Course Planner (Week 5)"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners, Week 5 "Activity 1: The House". Based on the
+  classic perspective study by Pichert and Anderson (1977); facilitators supply the house description
+  rather than it being reproduced here.

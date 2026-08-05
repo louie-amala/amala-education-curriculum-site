@@ -1,0 +1,189 @@
+id: pip-planning-template
+slug: pip-planning-template
+access: public
+type: activity
+title: "Writing your PIP plan"
+summary: >-
+  Learners turn a chosen focus into a first written plan, naming their area, why it matters to them, what
+  they already know, and their intended outcome and next steps.
+facilitationContext:
+  - group
+  - one-to-one-mentoring
+  - independent
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners or teams draft the plan in the session, then it goes to a mentor for written
+      feedback and back to them to respond. Drafting in the room lets learners borrow each other's phrasing
+      when they get stuck, so keep the shared drafting time even if the feedback loop happens between
+      sessions.
+  - context: one-to-one-mentoring
+    how: >-
+      A strong fit. The plan is where a mentor adds most value, pressure-testing whether the intended
+      outcome is realistic and whether the focus is the right size. Draft it with the learner, then give
+      the same written feedback so there is a record to return to.
+  - context: independent
+    how: >-
+      Workable, and suits a team completing the plan in their own time, but a plan written alone can set an
+      outcome that is far too big or too vague. Insist the completed plan is submitted for written feedback
+      before any action begins, and that the learner responds to that feedback in writing.
+duration: "1.5-2 hours facilitated, plus a feedback loop across a few days"
+grouping: "Individually or in teams of up to 4; works with 5-35 learners"
+timingNote: >-
+  The drafting is one to two hours. The value depends on a feedback loop that runs over several days:
+  learners submit the plan, the mentor adds specific written feedback, and learners are given time to
+  respond. Build that turnaround into the timetable rather than treating the plan as done when it is first
+  written.
+whatLearnersDo:
+  - "Decide whether you are working alone or in a small team of up to four."
+  - "Complete the planning template: people involved, area of focus, personal interest, current understanding, intended outcome, and next steps."
+  - "Submit the plan for written feedback from a mentor."
+  - "Respond to the feedback and update your plan, knowing plans change and will be revised again later."
+materialsAndPreparation:
+  - "The PIP planning template, one per learner or team (printed, in the workbook, or copied): six short prompts to complete."
+  - "A way to collect plans and return written feedback (paper, a shared document, or email), planned before the session so the loop actually happens."
+  - "A generic worked example of a completed plan, not from a real learner, to show the level of detail wanted in each field."
+facilitationNotes: |
+  The one thing to get right is that the plan is a living draft, not a contract. Its job is to get ideas
+  out of heads and onto paper so they can be examined and improved, and every plan will change as the
+  project unfolds. The single most valuable move is the feedback loop: specific, written feedback that
+  tests whether the intended outcome is realistic for the time available, and time for learners to respond
+  to it. Watch for the two usual faults: an intended outcome so large it could never be reached in the
+  PIP, and a personal-interest field left thin, which is the field that predicts whether a learner will
+  sustain the work. If a learner cannot say why the focus matters to them, that is the thing to fix first.
+steps:
+  - title: "Decide who is involved: alone or as a team"
+    duration: "10 min"
+    guidance: |
+      Ask each learner to decide whether they will work alone or in a small team of up to four. Where two
+      learners found a shared challenge in the brainstorm, a team may make sense. Be clear about how teams
+      work in the PIP: they can produce a joint artefact and a joint presentation as long as each person's
+      contribution is clear, but every learner writes their own reflection. Let this be a real choice, not
+      a default to friends.
+    keyPrompts:
+      - "Is this a project that is genuinely stronger as a team, or are you teaming up to feel safer?"
+      - "If you work together, what would each of you actually be responsible for?"
+    watchOuts:
+      - "Teams forming for comfort, not fit. Ask what each member brings; if nobody can say, suggest working alone."
+      - "Learners assuming a team means shared everything. Restate that the reflection is always individual."
+  - title: "Draft the plan, field by field"
+    duration: "45-60 min"
+    guidance: |
+      Learners complete the six fields. Walk through what each asks: people involved; the area of focus
+      (the challenge, topic or idea); the personal interest (why it matters to them); current understanding
+      (what they already know or have done); intended outcome (what they hope to achieve); and next steps.
+      Move around and prompt. Spend most attention on personal interest and intended outcome, since these
+      two decide whether the project is motivating and achievable.
+    keyPrompts:
+      - "In one sentence, what is this project actually about?"
+      - "Why does this matter to you, specifically? What is your stake in it?"
+      - "By the end of the PIP, what do you hope will be different or exist that does not now?"
+    watchOuts:
+      - "An intended outcome the size of a career, not a project. Help them name the part they could reach in the time."
+      - "A blank or generic personal-interest field. Do not let this pass; it is the field that carries the whole project."
+  - title: "Submit for feedback, then respond and revise"
+    duration: "spread across a few days"
+    guidance: |
+      Collect the plans and return specific, written feedback within a few days, focused on whether the
+      outcome is realistic and the focus well chosen. Give learners time to read it and respond, adjusting
+      the plan where the feedback lands. Emphasise that revising a plan is a sign of good thinking, not of
+      having got it wrong, and that they will revisit it again through their check-ins.
+    keyPrompts:
+      - "Which piece of the feedback changes your plan most, and how will you adjust?"
+      - "After this feedback, is your intended outcome now something you could actually reach?"
+    watchOuts:
+      - "Feedback that only praises. Make it specific and testing, or the loop adds nothing."
+      - "Learners treating the returned plan as final. Frame it as version one of many; the plan travels with them."
+    adaptation: >-
+      Low bandwidth or no devices: the template is paper, and feedback can be handwritten on the sheet. If
+      the turnaround cannot happen between sessions, run the feedback as a paired peer review in the room
+      against the two test questions (is the outcome realistic, is the interest clear), then a mentor
+      confirms at the first check-in.
+closing: >-
+  Each learner or team leaves with a written, feedback-improved plan they can act on, and the
+  understanding that they will return to it and revise it as the project develops. The plan is also their
+  first PIP submission.
+learnerContent: |
+  Planning gets your ideas out of your head and onto paper, where you can look at them, improve them, and
+  come back to them to decide your next move. Most plans change as you go, so update yours as the project
+  develops.
+
+  Complete these six fields:
+  - People involved: the names of everyone working on this project.
+  - Area of focus: briefly describe the challenge, problem, topic or idea the project will focus on.
+  - Personal interest: briefly describe why this matters to you.
+  - Current understanding: briefly describe what you already know, or have already done, about it.
+  - Intended outcome: briefly describe what you hope to achieve by the end of the project.
+  - Next steps: briefly describe how you will get started.
+
+  Then submit your plan for feedback, and give yourself time to respond to it. Revising your plan is a good
+  sign, not a bad one.
+agencyContribution:
+  indicators:
+    - control-of-future-pathways
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Writing the plan is where a learner takes hold of the project: they name what they will do, why, and
+    what they are aiming for, in their own words. Committing an intended outcome to paper and being
+    accountable for it is a concrete act of self-direction over an extended piece of work.
+principlesForegrounded:
+  - feedback-and-data
+  - builds-on-identities
+  - collaboration
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      The plan is deliberately built around a feedback loop: draft, specific written feedback, and a
+      revision in response. Learners experience feedback as the thing that improves the plan, not a verdict
+      on it, from the very first PIP submission.
+  - principle: builds-on-identities
+    how: >-
+      The personal-interest field makes the learner's own stake in the project explicit and central, so the
+      plan is anchored in what matters to them rather than an assigned task.
+  - principle: collaboration
+    how: >-
+      The plan is where learners decide whether to work as a team and name each person's contribution,
+      making collaboration a considered choice with clear responsibilities rather than a default.
+competencyCodes:
+  - FSL2
+  - FR1
+competencyDevelopment:
+  - code: FSL2
+    how: >-
+      The plan is the learner setting a clear objective for their project and the first deliberate steps
+      towards it, which is this competency directly. The intended-outcome and next-steps fields are early
+      evidence of goal-setting.
+  - code: FR1
+    how: >-
+      Naming the people involved and, in next steps, the help the project will need starts learners
+      thinking about the people, materials and opportunities that could support them.
+objectiveIds:
+  - pip--o1
+  - pip--o3
+relatedSlugs:
+  - pip-introduction-to-students
+  - pip-strengths-and-growth-reflection
+  - pip-challenges-brainstorm
+  - pip-mentor-check-ins
+downloads:
+  - label: "PIP planning template (guided worksheet)"
+    file: /downloads/pip-planning-template-worksheet.docx
+    format: Word
+    role: worksheet
+    note: >-
+      The six fields with their guiding prompts and space to write, plus a short note on how team plans
+      work and on submitting for feedback. Print one per learner or team.
+  - label: "PIP planning template (blank)"
+    file: /downloads/pip-planning-template-template.docx
+    format: Word
+    role: template
+    note: The six field headings with no prompts, for a learner or team revising their plan later in the PIP.
+sourceRefs:
+  - "PIP Planning TEMPLATE.docx"
+  - "PIP Resource_ PIP Planning Template.docx"
+  - "Amala GSD Course Planner - Personal Interest Project (PIP) - 2025.docx"
+provenanceNote: >-
+  Authored from the "PIP Planning Template" resource (both the blank and the prompted versions) and the
+  course planner's "The PIP Plan" section, including the submit-for-feedback loop and the guidance on
+  teams. Mapped to PIP objectives 1 and 3.

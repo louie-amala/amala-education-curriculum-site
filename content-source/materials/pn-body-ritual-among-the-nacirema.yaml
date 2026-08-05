@@ -1,0 +1,85 @@
+id: pn-body-ritual-among-the-nacirema
+slug: pn-body-ritual-among-the-nacirema
+access: public
+type: case-study
+title: "Body Ritual among the Nacirema"
+summary: >-
+  Learners read a scholarly-sounding account of a strange tribe's rituals, then discover the tribe is
+  their own mirror, revealing how language can make any culture seem exotic and other.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, and the reveal works best in a room: the collective groan when learners realise
+      "Nacirema" is "American" backwards is part of the lesson. Read at least part together so the loaded
+      language is felt before it is decoded.
+  - context: independent
+    how: >-
+      A learner can read alone and meet the reveal in the text, but they lose the shared reaction. Ask
+      them to underline the words that made the tribe seem strange before the reveal, then reread and
+      note how those same words could describe familiar life.
+duration: About 60 minutes.
+grouping: Whole group or small groups, with individual close reading.
+whatLearnersDo:
+  - Read Horace Miner's description of the rituals of the "Nacirema" people.
+  - React to how strange, primitive, and other the tribe appears.
+  - Discover that "Nacirema" is "American" spelled backwards, and the rituals are ordinary hygiene.
+  - Reread to find the language choices that made the familiar seem foreign, and discuss what that reveals.
+educatorContent: |
+  Horace Miner's 1956 article "Body Ritual among the Nacirema" describes ordinary American daily
+  hygiene (brushing teeth, visiting the doctor) in the exoticising language anthropologists once used
+  for peoples they studied. Read straight, the Nacirema sound like a bizarre, superstitious tribe. Then
+  the trick lands: Nacirema is American backwards, and the "mouth-rite with a bundle of hog hairs" is
+  brushing your teeth.
+
+  Do not give away the twist. Let learners feel how strange the tribe seems, then reveal it, then reread
+  to trace exactly which word choices did the othering. The point is transferable and sharp: the same
+  technique that made "us" look exotic is used every day on real groups in the news. It is one of the
+  safest ways to teach othering, because the group being othered is the learners themselves.
+learnerContent: |
+  Read the description of the **Nacirema** people and their strange body rituals. Notice how odd,
+  primitive, and superstitious they seem.
+
+  Now say "Nacirema" backwards.
+
+  The strange tribe is a mirror. Reread the text and underline the words that made ordinary life sound
+  exotic and other. Then ask: where else is this exact technique used, on real groups, in the stories we
+  read every day?
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Being tricked into othering your own culture, and then seeing exactly how the language did it, is a
+    lasting inoculation. Once learners can name the technique, they can spot it turned on real groups and
+    refuse to be steered by it, which is thinking for themselves rather than for the frame handed to them.
+principlesForegrounded: [authentic-challenges, collaboration]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The text turns the tools of othering on the reader, so learners meet the real technique in action
+      rather than a description of it, and the discomfort is genuine.
+  - principle: collaboration
+    how: >-
+      Decoding the loaded language together, pooling the words each learner noticed, builds a fuller map
+      of the technique than any single reader would produce.
+competencyCodes: [FUS1, FUS3]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      Catching your own quick judgement of the "strange tribe", then seeing it was your own culture, is
+      direct practice at noticing the assumptions that shape your thinking. The reread annotations are the
+      evidence.
+  - code: FUS3
+    how: >-
+      The reveal exposes how easily one culture is made to seem alien, sharpening learners' ability to
+      approach unfamiliar customs without the exoticising lens.
+links:
+  - label: "Body Ritual among the Nacirema (Wikipedia overview)"
+    url: https://en.wikipedia.org/wiki/Body_Ritual_Among_the_Nacirema
+    note: "Background on Miner's 1956 article. Facilitators source the text itself; simplified versions exist for lower reading levels."
+objectiveIds: [powerful-narratives--o1]
+relatedSlugs: [pn-iceberg-of-othering, pn-danger-of-a-single-story, pn-stereotypes-concept-map]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Weeks 3-4: The Nacirema)", "Resources/EAL check/week 4/Body Ritual Among the Nacirema"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners (Week 3 pre-read, Week 4 reveal). The source pack
+  includes a simplified, reading-level-adjusted version of Miner's text for EAL learners.

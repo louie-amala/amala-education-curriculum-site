@@ -1,0 +1,108 @@
+id: pn-dont-put-people-in-boxes
+slug: pn-dont-put-people-in-boxes
+access: public
+type: activity
+title: Don't put people in boxes
+summary: >-
+  A movement game in which learners sort into groups by surface labels and then discover unexpected
+  things they share, surfacing how quickly we box people and how much boxing misses.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The activity needs bodies in a room moving between groups; the surprise of finding
+      something in common with someone you had boxed differently is physical, not verbal. If space is
+      tight, run the "step into the circle" round seated, with learners standing where they are.
+duration: About 40 to 60 minutes.
+grouping: Whole group, moving freely.
+whatLearnersDo:
+  - Sort themselves into groups by simple, visible categories, noticing who ends up where.
+  - Respond to a series of prompts by stepping forward or into a circle when a statement is true for them.
+  - Watch new, criss-crossing groups form around shared experiences that cut across the first labels.
+  - Reflect on the "boxes" we put people in, where they come from, and what they hide.
+materialsAndPreparation:
+  - Open floor space where learners can move and regroup.
+  - A prepared list of "step into the circle" statements, mixing light and meaningful (e.g. likes the same food, has moved home, speaks more than one language, has felt like an outsider).
+  - "Optional: a short video on labelling people, used only as a closing reflection. The game works fully without it."
+facilitationNotes: >-
+  The one thing to get right: the boxes must first feel real, then be broken. Start with easy visible
+  sorting so the "us and them" reflex shows itself, then run prompts that keep re-mixing the room until
+  learners see the labels dissolve. Sensitivity: some prompts touch belonging and exclusion. Keep early
+  statements light, let learners choose whether to step in, and never single anyone out or ask them to
+  explain why they did or did not move.
+steps:
+  - title: Sort by simple labels
+    duration: 10 min
+    guidance: >-
+      Ask learners to form groups by an easy visible or factual category (month of birth, favourite
+      colour, number of siblings). Do two or three rounds. Let them notice how fast we sort and how it
+      feels to be in the big group or the group of one. Keep it light and quick.
+    keyPrompts:
+      - How quickly did you know which group you belonged to?
+      - What did it feel like to be in the largest group, or on your own?
+    watchOuts:
+      - A learner is always the odd one out and feels exposed. Choose categories where groupings shift each round so no one is repeatedly alone.
+  - title: Step into the circle
+    duration: 15 min
+    guidance: >-
+      Learners stand in a loose circle. Read statements; anyone for whom it is true steps in, looks
+      around, and steps back. Move from light to more meaningful. The point is watching unexpected
+      groups form: people who looked different sharing an experience, people who looked alike not.
+    keyPrompts:
+      - Who did you step in with that you did not expect?
+      - Which groupings crossed the lines you drew earlier?
+    watchOuts:
+      - "Prompts get too personal too fast and someone feels forced to reveal something. Always keep stepping in optional, and read the room before deepening."
+  - title: Reflect on the boxes
+    duration: 15-30 min
+    guidance: >-
+      Bring learners together to name the "boxes" they and others get put in, where those boxes come
+      from (family, media, habit), and what a box hides about a person. If you use a short labelling
+      video, play it here as a mirror on what they just felt, then discuss.
+    keyPrompts:
+      - What boxes do people put you in, and what do those boxes miss?
+      - Where do we learn to sort people this way, and who does it serve?
+    watchOuts:
+      - Discussion turns into confession or blame. Keep it on the mechanism of boxing, not on judging individuals for the boxes they hold.
+closing: >-
+  Ask each learner to finish the sentence "People often assume I am ... but actually ...". This links
+  directly to later work on stereotypes and on telling a fuller story of oneself.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, contribution-to-community]
+  how: >-
+    Feeling, in the body, how fast we box people and how much the box hides gives learners a hold on a
+    process that usually runs automatically. Seeing it lets them refuse it, in how they read others and
+    in how they insist on being read themselves, which is the ground of connection across difference.
+principlesForegrounded: [safe-spaces, builds-on-identities]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      The activity deliberately surfaces belonging and exclusion, so it only works inside clear
+      agreements: stepping in is always optional, no one is asked to explain a move, and early prompts
+      are kept light so trust is built before anything deeper.
+  - principle: builds-on-identities
+    how: >-
+      Every grouping is drawn from the learners actually in the room and what they have lived, so the
+      lesson about labels comes from their own identities rather than an abstract example.
+competencyCodes: [FUS2, FLC2, AUS1]
+competencyDevelopment:
+  - code: FUS2
+    how: >-
+      The whole activity is practice at seeing past a surface label to the person, which is the core of
+      understanding what shapes other people. The reflection on what boxes hide is the evidence.
+  - code: FLC2
+    how: >-
+      Discovering shared experience across visible difference is a direct, felt experience of what
+      creates belonging, the raw material of fostering connection.
+  - code: AUS1
+    how: >-
+      Naming the boxes we put people in, and where they come from, is the first move in recognising and
+      overcoming unfair perspectives about groups.
+objectiveIds: [powerful-narratives--o1]
+relatedSlugs: [pn-stereotypes-concept-map, pn-status-cards, pn-two-truths-and-a-lie]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 3: Don't put people in boxes)", "ONLINE Powerful Narratives Course Planner (Week 3)"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners, Week 3 "Activity 1: Don't put people in boxes".
+  The original pairs the movement game with a viral labelling video; here the video is optional so the
+  activity survives if the link changes.

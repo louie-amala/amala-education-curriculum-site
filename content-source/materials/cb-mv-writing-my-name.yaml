@@ -52,6 +52,27 @@ materialsAndPreparation:
 - Space to air-write, so learners can make big letter shapes in the air with a whole arm before the small ones on paper.
 - Your own name ready to write slowly and large, so learners see how a letter is formed stroke by stroke.
 - "Sensitivity: for many learners this is the first time they have ever held a pencil, and being seen to struggle with it can bring deep shame. Show the grip quietly and one to one, never single out a learner's marks in front of others, let anyone who wishes trace with a finger before a pencil, and keep every word of praise for the effort and the try, not the neatness."
+visuals:
+- kind: example
+  title: "Trace, then copy"
+  caption: >-
+    The hand learns the shape over a model, then makes it fresh underneath. A name written is a big first
+    win — celebrate it.
+  spec:
+    type: zones
+    cardStyle: drawing
+    flow: across
+    flowLabel: "then"
+    zones:
+    - label: "Trace over the model"
+      tone: known
+      cards:
+      - "Rashida (dotted)"
+    - label: "Copy it fresh"
+      tone: positive
+      cards:
+      - "Rashida"
+      - "rice"
 facilitationNotes: |
   This activity is the first physical act of writing, pitched far earlier than the source it grows from:
   that source has literate learners composing sentences from frames, but here many learners have never held

@@ -1,0 +1,37 @@
+id: single-story
+slug: single-story
+access: public
+term: Single story
+category: content
+matchPhrases:
+- single story
+- single-story
+- danger of a single story
+definition: >-
+  An incomplete story about a person or group, repeated until it becomes the only story, so that a
+  stereotype forms.
+explainer: |
+  The idea comes from the writer Chimamanda Ngozi Adichie. Her point is that the problem with a
+  stereotype is not always that it is untrue, but that it is incomplete: it makes one story become
+  the only story about a group. Show a people as only one thing, over and over, and that is what
+  they become in the audience's mind.
+
+  Single stories are told from a position of power: the group with the microphone decides which story
+  of another group gets repeated. The response is not to replace one single story with another, but
+  to insist on a fuller picture, telling many stories, and to notice who is missing from the ones we
+  are given.
+
+  A single story is how a [stereotype](/glossary/stereotype) is built and sustained; it is a form of
+  [othering](/glossary/othering) and often hardens into a [dominant narrative](/glossary/dominant-narrative).
+furtherReading:
+- title: "Adichie, C. N. — The Danger of a Single Story (2009)"
+  url: https://www.ted.com/talks/chimamanda_ngozi_adichie_the_danger_of_a_single_story
+  source: TED
+  note: The talk that gives this course its central idea about incompleteness and power in stories.
+examples:
+- A whole continent shown in media only through images of war and hunger, so that nothing else about it registers.
+nonExamples:
+- Telling one true story about a place while making clear it is one of many, and pointing to others.
+useInContext: >-
+  Learners find the single story a text tells about a group, then write a story that complicates it.
+relatedTermIds: [stereotype, othering, dominant-narrative]

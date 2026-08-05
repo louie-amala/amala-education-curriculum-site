@@ -1,0 +1,39 @@
+id: stereotype
+slug: stereotype
+access: public
+term: Stereotype
+category: content
+matchPhrases:
+- stereotype
+- stereotypes
+- stereotyping
+definition: >-
+  A widely held, fixed and oversimplified image of a particular group, applied to individuals as if
+  they were all the same.
+explainer: |
+  A stereotype takes a whole group of people, reduces them to a single fixed set of characteristics,
+  and then applies that image to any individual from the group. Stereotypes are not always negative
+  on the surface, but because they replace a real person with a generalisation, they deny people
+  their individuality and are often used to justify unfair treatment.
+
+  Stereotypes feel like knowledge because they are mental shortcuts, and they are reinforced every
+  time a story, joke, advertisement, or news report repeats them. The danger, as Chimamanda Ngozi
+  Adichie argues, is not always that a stereotype is untrue but that it is incomplete: it becomes the
+  [single story](/glossary/single-story) of a group.
+
+  Stereotyping works hand in hand with [othering](/glossary/othering), which marks a group as "them",
+  and with [framing](/glossary/framing); its lightest-looking form is
+  [tokenism](/glossary/tokenism).
+furtherReading:
+- title: "Lippmann, W. — Public Opinion (1922)"
+  url: https://www.gutenberg.org/ebooks/6456
+  source: Project Gutenberg
+  note: Introduced "stereotype" in its modern social sense, as the pictures in our heads.
+examples:
+- Assuming a person must be good or bad at something because of their gender, nationality, or religion.
+nonExamples:
+- A specific, evidenced statement about one individual based on what they have actually done.
+useInContext: >-
+  Learners identify stereotypes at work in media and craft narratives that challenge rather than
+  reinforce them.
+relatedTermIds: [othering, single-story, tokenism, framing]

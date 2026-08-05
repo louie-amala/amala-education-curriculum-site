@@ -1,0 +1,32 @@
+id: othering
+slug: othering
+access: public
+term: Othering
+category: content
+matchPhrases:
+- othering
+definition: >-
+  Using language and stories to present a group as fundamentally different, and therefore
+  threatening or less valuable, in order to exclude them.
+explainer: |
+  Othering is the move that divides people into "us" and "them". It presents another group as not
+  fitting the norms of one's own group, and treats that difference as a reason to fear, distrust, or
+  exclude them. We often define who we are against who we are not, so othering can happen quietly,
+  through everyday words and images that make a group seem strange, exotic, or dangerous.
+
+  Because it works below the surface, othering is easiest to see when the technique is turned on a
+  familiar group. Horace Miner's "Body Ritual among the Nacirema" describes ordinary Americans as an
+  exotic tribe, and the discomfort readers feel reveals how loaded such descriptions are. Naming
+  othering lets learners notice it in media coverage of migrants, minorities, and outsiders.
+
+  Othering rests on [stereotypes](/glossary/stereotype) and [binary thinking](/glossary/binary-thinking),
+  and at its most harmful it feeds the [cultural violence](/glossary/cultural-violence) that makes
+  exclusion seem normal.
+examples:
+- News language that calls one group's customs "barbaric" while calling similar customs of the in-group "traditions".
+nonExamples:
+- Describing a genuine difference between groups with respect, without implying one is threatening or lesser.
+useInContext: >-
+  Learners map the techniques of othering in a text and separate the visible language from the hidden
+  attitudes beneath it.
+relatedTermIds: [stereotype, single-story, binary-thinking, cultural-violence]

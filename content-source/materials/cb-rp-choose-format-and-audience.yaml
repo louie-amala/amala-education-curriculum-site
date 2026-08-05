@@ -28,6 +28,51 @@ materialsAndPreparation:
 - The evidence log, to check each part of the plan against what we actually found.
 - A few example formats to point to — a poster, a picture story, a short spoken talk with drawings.
 - The planning page from the research book (one per learner or per team).
+visuals:
+- kind: setup
+  title: "Who hears it, and how"
+  caption: >-
+    Start from who most needs to hear what we found, then let the format follow — whatever we choose must
+    work when spoken and shown, not only read.
+  spec:
+    type: zones
+    flow: across
+    flowLabel: "then"
+    zones:
+    - label: "Who hears it"
+      tone: neutral
+      cards:
+      - "peers"
+      - "families"
+      - "the wider community"
+      - "a camp committee"
+    - label: "How we tell them"
+      tone: known
+      cards:
+      - "a poster"
+      - "a talk with pictures"
+      - "a role-play or story"
+      - "a simple infographic"
+- kind: example
+  title: "Our plan: each claim on its evidence"
+  caption: >-
+    For each thing we say, we mark where our evidence for it comes from — and we plan to show the limits
+    honestly too ("we only spoke to a few people"). No names go in.
+  spec:
+    type: zones
+    flow: across
+    flowLabel: "backed by"
+    zones:
+    - label: "What we'll say"
+      tone: neutral
+      cards:
+      - "trees hold the soil"
+      - "bare hills lose soil in rain"
+    - label: "Our evidence for it"
+      tone: known
+      cards:
+      - "many people + the science"
+      - "we saw mud on the path"
 facilitationNotes: >-
   The one thing to get right: match format to purpose and audience — there is no single required output.
   Start from who we want to reach and what we want them to understand, then let the format follow from

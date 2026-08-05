@@ -31,6 +31,23 @@ requirements:
     Structured learning should include both live sessions (individual and/or group)
     and independent learning (individual and/or group tasks).
 
+# Professional-learning vocabulary a facilitator should hold before planning. Slugs into the
+# glossary; depth (in-depth explanation + further reading) lives on each term page. Extracted from
+# the 2025 Powerful Narratives planners (in-person + online).
+keyConcepts:
+  - narrative
+  - framing
+  - stereotype
+  - othering
+  - single-story
+  - dominant-narrative
+  - narrative-agency
+  - foundational-story
+  - public-narrative
+  - binary-thinking
+  - tokenism
+  - informed-consent
+
 objectives:
   - statement: >-
       Recognise and analyse how narratives influence human thinking, relationships,

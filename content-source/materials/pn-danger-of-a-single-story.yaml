@@ -1,0 +1,87 @@
+id: pn-danger-of-a-single-story
+slug: pn-danger-of-a-single-story
+access: public
+type: case-study
+title: "The danger of a single story"
+summary: >-
+  Using Chimamanda Ngozi Adichie's talk, learners examine how one repeated story about a group becomes
+  a stereotype, then write a short story that complicates a single story they have met.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The talk lands harder when learners then share single stories they have been on the
+      receiving end of, so keep the sharing circle. The children's-story writing task can run in the
+      session or as follow-up.
+  - context: independent
+    how: >-
+      A learner can watch the talk and do the writing task alone. Ask them to name a single story told
+      about a group they belong to, and one they have told about others, so the self-examination still
+      happens without a group to prompt it.
+duration: A phase of about 2 to 3 hours, including a writing task.
+grouping: Whole group for the talk and discussion, individually for the writing.
+whatLearnersDo:
+  - Watch Adichie's talk and identify her central argument about stories and power.
+  - Discuss single stories they have been subject to, and ones they have held about others.
+  - Analyse how a single story forms, from repetition and from who holds the microphone.
+  - Write a short story that complicates a single story, giving a fuller picture of a group.
+educatorContent: |
+  Chimamanda Ngozi Adichie's argument is that the problem with a stereotype is not always that it is
+  untrue, but that it is incomplete: it makes one story the only story. She adds that single stories
+  are told from power, the group that controls the telling decides which story of another group gets
+  repeated. This is the conceptual spine of the whole course.
+
+  Run it as watch, share, analyse, create. After the talk, invite learners to name single stories told
+  about them (kept safe and optional), which makes the idea personal rather than abstract. Then draw out
+  how a single story is built (repetition, and who gets to speak) and connect it to the glossary term.
+  Finally, learners write a short story, often a children's story, that complicates a single story they
+  have met, which turns analysis into creation.
+learnerContent: |
+  Watch Chimamanda Ngozi Adichie's talk **The Danger of a Single Story**.
+
+  Her point: a stereotype is not always a lie. Often it is just **incomplete**, one story about a group
+  told so many times it becomes the only story. And single stories come from power: whoever controls the
+  telling decides which story gets repeated.
+
+  Where have you been reduced to a single story? Where have you told one about others? Then write a
+  short story that gives a fuller picture, one that complicates a single story you have met.
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Naming the single stories told about your own group, and the ones you tell about others, hands
+    learners a direct grip on how stereotypes are made and who makes them. Writing a story that
+    complicates one is a first act of using narrative to push back, which is exactly the change the
+    course is preparing them to make.
+principlesForegrounded: [authentic-challenges, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      Learners work from single stories that actually circulate about groups they know, including their
+      own, so the challenge is real rather than hypothetical.
+  - principle: responsible-action
+    how: >-
+      The task asks learners to consider whose stories they tell and how, foregrounding the
+      responsibility that comes with the power to represent a group.
+competencyCodes: [AUS1, FUS2]
+competencyDevelopment:
+  - code: AUS1
+    how: >-
+      Tracing how a single story hardens into a stereotype, and writing one that complicates it, is
+      direct practice at recognising and helping overcome unfair perspectives. The story they produce is
+      the evidence.
+  - code: FUS2
+    how: >-
+      Examining the incompleteness of stories about a group sharpens learners' understanding of how easily
+      other people are misjudged, and why.
+links:
+  - label: "Adichie, C. N. — The Danger of a Single Story (TED, 2009)"
+    url: https://www.ted.com/talks/chimamanda_ngozi_adichie_the_danger_of_a_single_story
+    note: The talk this case study is built on; subtitles available in many languages.
+objectiveIds: [powerful-narratives--o1]
+relatedSlugs: [pn-stereotypes-concept-map, pn-hair-love, pn-immigration-myths]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 3: The danger of a single story)"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners, Week 3 "Activity 3: The danger of a single
+  story", built around Adichie's TED talk and a story-writing task. Pairs with the glossary term
+  single-story.

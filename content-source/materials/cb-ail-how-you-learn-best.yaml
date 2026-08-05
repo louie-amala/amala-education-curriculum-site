@@ -41,6 +41,27 @@ materialsAndPreparation:
 - Your own honest example of a condition that helps you learn and one that trips you up, to model first.
 - "The student workbook, and the time picture cards (in the [Picture Cards pack](/downloads/agency-in-learning-picture-cards.pdf)): morning, midday, night."
 - "Sensitivity: helpers and hindrances, and hard learning memories, can touch on home, family, and displacement. Let learners keep these private, choose a lower-stakes memory, and never require anyone to share details aloud."
+visuals:
+- kind: example
+  title: "What helps me learn"
+  caption: >-
+    A learner's own picture of the conditions they learn best in — theirs to name and carry into every
+    goal they set.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "Helps me learn"
+      tone: positive
+      cards:
+      - "early morning"
+      - "with a friend"
+      - "quiet, outside"
+    - label: "Gets in my way"
+      tone: warn
+      cards:
+      - "noise at home"
+      - "too tired at night"
 facilitationNotes: |
   Knowing how you learn best is the ground every later goal and plan is built on: a plan that ignores
   how a learner actually works will quietly fail. The one thing to get right is that learners mark the

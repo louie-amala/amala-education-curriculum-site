@@ -44,6 +44,46 @@ materialsAndPreparation:
 - The student workbook (a strip of empty boxes for step-pictures, and simple pictures for who or what a step needs).
 - Small stones, bottle caps, or scraps the learner can lay out and reorder as steps, so no writing is needed.
 - "Sensitivity: a goal can touch on family, work, or leaving the camp. Let learners keep the goal private, choose a simpler one, and never require anyone to say their reasons aloud."
+visuals:
+- kind: setup
+  title: "Lay out the plan"
+  caption: >-
+    Steps in order, the first one marked with its by-when, and an if–then for the thing that usually gets
+    in the way. Stones or cards, not writing.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "Steps, in order"
+      tone: neutral
+      cards:
+      - "1 → 2 → 3"
+    - label: "First step + by-when"
+      tone: positive
+      cards:
+      - "by Tuesday"
+    - label: "If… then…"
+      tone: question
+      cards:
+      - "a back-up step"
+- kind: example
+  title: "My first small step"
+  caption: >-
+    The finished picture-plan: a first step with a day, and an if–then so a hard day does not stop the
+    whole goal.
+  spec:
+    type: zones
+    flow: across
+    flowLabel: "if not"
+    zones:
+    - label: "My first step"
+      tone: positive
+      cards:
+      - "ask teacher for a book — by Tuesday"
+    - label: "If it doesn't happen…"
+      tone: question
+      cards:
+      - "then read one page at home instead"
 facilitationNotes: |
   An action plan only helps if it is small enough to act on this week. The one thing to get right is
   to stop learners drawing a big, overwhelming plan they will never start. Keep it to a real goal, a

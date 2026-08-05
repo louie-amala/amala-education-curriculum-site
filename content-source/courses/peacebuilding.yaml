@@ -36,6 +36,19 @@ requirements:
     Structured learning includes both live sessions (individual and/or group) and
     independent learning (individual and/or group tasks).
 
+# Professional-learning vocabulary a facilitator should hold before planning. Slugs into the
+# glossary; depth (in-depth explanation + further reading) lives on each term page.
+keyConcepts:
+  - peace
+  - negative-peace
+  - positive-peace
+  - conflict
+  - direct-violence
+  - structural-violence
+  - cultural-violence
+  - violence-triangle
+  - non-violent-communication
+
 objectives:
   - statement: >-
       Contribute to the collective understanding of the causes of violence in a

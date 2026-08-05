@@ -1,0 +1,39 @@
+id: public-narrative
+slug: public-narrative
+access: public
+term: Public narrative
+category: content
+matchPhrases:
+- public narrative
+- self us now
+- self, us, now
+definition: >-
+  A leadership practice, developed by Marshall Ganz, of motivating others to act by linking a story
+  of self, a story of us, and a story of now.
+explainer: |
+  Public narrative is a way of using story to lead. It joins three linked stories. The story of
+  **self** shares the experiences and choices that shaped your values and called you to act. The
+  story of **us** names the shared values and experience of a community you belong to. The story of
+  **now** points to an urgent challenge that community faces and calls for a specific action, right
+  now.
+
+  The power of the structure is that it moves from the personal to the collective to the concrete:
+  it earns trust through a real story, builds a sense of shared identity, and then channels the
+  feeling into a clear ask. It is a practical tool for anyone trying to move others toward positive
+  change, and it gives learners a frame for telling their own story with purpose.
+
+  Public narrative is how a storyteller turns [narrative agency](/glossary/narrative-agency) into
+  collective action, and it is one of the clearest routes from a [narrative](/glossary/narrative) to
+  [agency for positive change](/glossary/agency-for-positive-change).
+furtherReading:
+- title: "Ganz, M. — What Is Public Narrative: Self, Us & Now (2009)"
+  url: https://www.ndi.org/sites/default/files/Public%20Narrative%20Worksheet%20Ganz.pdf
+  source: Marshall Ganz / NDI
+  note: "The worksheet that sets out the self / us / now structure. [to verify: hosting mirror may change]"
+examples:
+- A campaign launch where a leader tells their own story, names what the community shares, and asks for one concrete action this week.
+nonExamples:
+- A list of facts and demands with no personal story and no shared identity to connect an audience.
+useInContext: >-
+  Learners build a self / us / now story to lead on an issue that matters in their community.
+relatedTermIds: [narrative-agency, narrative, agency-for-positive-change]

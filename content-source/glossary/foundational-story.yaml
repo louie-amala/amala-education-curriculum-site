@@ -1,0 +1,32 @@
+id: foundational-story
+slug: foundational-story
+access: public
+term: Foundational story
+category: content
+matchPhrases:
+- foundational story
+- foundational stories
+definition: >-
+  A story so well known within a culture that it seems always to have existed — a myth, legend,
+  fable, scripture, or folktale — carrying that culture's values.
+explainer: |
+  Foundational stories are the oldest and most repeated stories a community holds: creation myths,
+  legends, fables, religious scripture, and folktales. They feel less like something someone wrote and
+  more like part of the landscape, present as far back as anyone can remember. That is exactly why
+  they are powerful: they quietly pass on a culture's values, its ideas of good and bad, hero and
+  villain, belonging and exclusion.
+
+  Studying foundational stories lets learners see where many of their own assumptions come from, and
+  compare how different cultures answer the same big questions. Retelling one, changing whose point of
+  view it takes, is a first, safe way to feel the power a storyteller holds.
+
+  A foundational story is a [narrative](/glossary/narrative) that a whole culture has kept, and when
+  its values go unquestioned it can underpin a [dominant narrative](/glossary/dominant-narrative).
+examples:
+- A well-known myth, fable, or folktale that most people in a community learned as children.
+nonExamples:
+- A news item from last week, which has neither the age nor the shared, taken-for-granted status.
+useInContext: >-
+  Learners research a foundational story from their culture, then retell it to reveal the values it
+  carries.
+relatedTermIds: [narrative, dominant-narrative]

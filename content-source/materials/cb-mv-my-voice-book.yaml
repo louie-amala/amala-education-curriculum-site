@@ -52,6 +52,44 @@ materialsAndPreparation:
 - Your own My Voice book started as a model, with your name, one sound, and one or two picture-words, to show first.
 - Picture and word cards from "Words about me" to reuse in the recycling games, if you have them; the games also run on the learners' own book pages.
 - "Sensitivity: the words a learner chooses to collect can touch on home, family, and where they are from, which may carry loss or separation. Learners always choose their own words, and a lighter, everyday word — a food, a colour, a thing they like — is always welcome and always enough. No one has to explain why a word matters to them."
+visuals:
+- kind: setup
+  title: "How to add a word: draw, name, translate"
+  caption: >-
+    Every entry follows the same three steps, so the book becomes a routine learners own — a picture, the
+    English word, and their own language.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "Draw it"
+      tone: neutral
+      cards:
+      - "a picture"
+    - label: "Name it in English"
+      tone: known
+      cards:
+      - "rice"
+    - label: "In my language"
+      tone: positive
+      cards:
+      - "my own word"
+- kind: example
+  title: "A page of my Voice book"
+  caption: >-
+    The book's spine: my name and its first sound, then picture-words I have collected — each drawn, named,
+    and translated.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "My Voice book"
+      tone: positive
+      cards:
+      - "Rashida — R, rrr"
+      - "rice"
+      - "my mother"
+      - "blue"
 facilitationNotes: |
   This is the emergent-literacy rebuild of two source ideas at once: the personal Phonics Table that a
   learner grows across the course, and the recycling games that keep collected words alive. The source Table

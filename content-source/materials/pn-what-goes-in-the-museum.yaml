@@ -1,0 +1,125 @@
+id: pn-what-goes-in-the-museum
+slug: pn-what-goes-in-the-museum
+access: public
+type: activity
+title: What goes in the museum?
+summary: >-
+  Learners present an ordinary household object as a precious museum artefact, inventing a persuasive
+  story for it, then the group decides which objects earn a place, learning how narrative confers value.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The pitch-and-vote makes the persuasion real: learners feel the difference between an
+      object with a story and one without. Keep the vote, and ask voters to say what won them over.
+  - context: independent
+    how: >-
+      A learner can write and record a pitch for their object alone, but they lose the audience that
+      decides. Ask them to pitch it to one person and note which parts of the story moved that listener,
+      so persuasion is still tested against a real reaction.
+duration: About 60 minutes.
+grouping: Individually to prepare, then whole group to pitch and vote.
+whatLearnersDo:
+  - Choose a mundane everyday object they have with them or brought from home.
+  - Invent a persuasive story that presents it as a precious artefact worth a place in a museum.
+  - Pitch the object to the group as a curator would.
+  - Vote on which objects earn a place, and discuss what made those stories persuasive.
+materialsAndPreparation:
+  - Ask learners in advance to bring one ordinary household item (or supply a box of mundane objects).
+  - A simple "museum" space to display the shortlisted objects.
+  - "Optional: brief definitions of archaeologist and curator to set the frame."
+facilitationNotes: >-
+  The one thing to get right: value here is made by the story, not the object, so keep the objects
+  deliberately ordinary. A spoon or a bottle cap with a gripping story should beat a pretty object with
+  none. Draw that out in the vote by asking what actually persuaded people. Keep it playful; the serious
+  point (that narrative confers worth) lands better through a game than a lecture.
+steps:
+  - title: Choose an ordinary object
+    duration: 10 min
+    guidance: >-
+      Each learner picks a mundane object. Set the frame: you are a curator, and future visitors will
+      decide this object mattered because of the story you tell about it. Stress that the plainer the
+      object, the more the story has to do, which is the whole point.
+    keyPrompts:
+      - What could this ordinary object be made to mean?
+      - Whose life could it have touched, and how?
+    watchOuts:
+      - Learners hunt for an already-impressive object. Nudge them toward the dullest thing they have; it makes the better challenge.
+  - title: Invent the artefact's story
+    duration: 20 min
+    guidance: >-
+      Learners build a persuasive narrative: where the object came from, who used it, why it matters,
+      what it reveals about a people or a time. They are using the storytelling tools from earlier in the
+      course on purpose now. Encourage vivid, specific detail over grand claims.
+    keyPrompts:
+      - What single detail would make a visitor stop and care about this object?
+      - What does your object let people understand that they could not otherwise?
+    watchOuts:
+      - Stories stay vague and grand ("very important, very old"). Push for one concrete, human detail that does the persuading.
+  - title: Pitch to the museum
+    duration: 20 min
+    guidance: >-
+      Learners present their object and its story in a minute or two, as a curator making the case. Keep
+      the room generous and attentive. Notice which pitches use the story craft the course has built:
+      character, stakes, a telling detail.
+    keyPrompts:
+      - Why does this object deserve a place when space is limited?
+      - What do you want us to feel as we look at it?
+    watchOuts:
+      - Quiet learners get steamrolled by confident performers. Protect equal time and judge the story, not the showmanship.
+  - title: Vote and name what persuaded you
+    duration: 10 min
+    guidance: >-
+      The group votes on which objects enter the museum. Crucially, ask voters to say what won them
+      over. The answer is almost always the story, not the object, which is exactly the lesson: narrative
+      is what confers value. Connect to how the same move works in advertising, heritage, and politics.
+    keyPrompts:
+      - What actually made you vote for that object, the thing or the story?
+      - Where else do we see plain things made precious by the story around them?
+    watchOuts:
+      - The vote becomes a popularity contest between people. Keep returning attention to which stories worked and why.
+closing: >-
+  Ask each learner what their object teaches about how value is made. Link forward to how narratives
+  decide what a society treasures, whose stories get kept, and whose are left out of the "museum".
+learnerContent: |
+  You are a museum curator. In front of you is an ordinary object, a spoon, a cup, a bottle cap.
+
+  Your job is to make people believe it belongs in a museum. Invent its story: where it came from, who
+  used it, why it matters, what it reveals about a people or a time. One vivid, specific detail will
+  persuade more than a hundred grand claims.
+
+  Then pitch it. The group will vote on which objects earn a place, and say what won them over. Notice:
+  it is almost never the object. It is the story.
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Making people care about a worthless object, on the strength of a story alone, is persuasion the
+    learner performs and then dissects. It hands them a deliberate tool for conferring value and moving
+    an audience, which they can turn on the things and people their community overlooks.
+principlesForegrounded: [lifeworthy-competencies, collaboration]
+principleAlignment:
+  - principle: lifeworthy-competencies
+    how: >-
+      Persuading an audience to value something is a transferable skill for advocacy, pitching, and
+      leadership; the museum frame is just a safe arena to practise it.
+  - principle: collaboration
+    how: >-
+      The vote and the "what persuaded you" discussion make the group the judge, so learners get direct,
+      collective feedback on what in their storytelling actually worked.
+competencyCodes: [FLC3, FPS1]
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      The pitch is influential communication in miniature: building a narrative designed to move an
+      audience to a decision. The vote is an immediate, honest measure of how persuasive it was.
+  - code: FPS1
+    how: >-
+      Turning a random ordinary object into a compelling artefact demands adaptable, inventive thinking
+      under constraint, which is exactly what this competency names.
+objectiveIds: [powerful-narratives--o2, powerful-narratives--o3]
+relatedSlugs: [pn-recipe-for-a-great-story, pn-self-us-now, pn-storytelling-manifesto]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 9: What goes in the museum?)", "ONLINE Powerful Narratives Course Planner (Week 9)"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners, Week 9 "Visions of the future — What goes in
+  the museum?", a persuasion and vision activity using a learner-brought everyday item.

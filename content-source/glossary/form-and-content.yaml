@@ -1,0 +1,38 @@
+id: form-and-content
+slug: form-and-content
+access: public
+term: Form and content
+category: content
+matchPhrases:
+- form and content
+- formal analysis
+definition: >-
+  Two ways of looking at an artwork: its form (how it is made — line, colour, shape, sound,
+  structure) and its content (what it shows or is about).
+explainer: |
+  Form and content are the two questions at the heart of reading any artwork. Form is the how:
+  the materials and the choices an artist makes with them — line, colour, texture, composition,
+  rhythm, the handling of space. Content is the what: the subject, the story, the idea or feeling
+  the work carries. Looking closely at form before rushing to meaning is called formal analysis.
+
+  The point of holding both together is that form carries content. A message of grief is not just
+  in what a painting shows but in its dark palette and heavy lines; a hopeful song is not only in its
+  words but in its rising melody. Learners who notice only content ("it's a picture of a war") miss
+  how the work makes them feel what it means.
+
+  Form and content work with [symbolism](/glossary/symbolism) (a specific way content is encoded) and
+  with [artistic context](/glossary/artistic-context) (which shapes how both are read), and they
+  feed judgements of [aesthetics](/glossary/aesthetics).
+furtherReading:
+- title: Formalism
+  url: https://www.tate.org.uk/art/art-terms/f/formalism
+  source: Tate
+  note: Short glossary entry on analysing art through its form; useful background for formal analysis.
+examples:
+- Noticing that a painting's jagged lines and dark palette (form) create the unease that matches its subject of war (content)
+nonExamples:
+- Judging only whether you like an artwork, without looking at how its form carries its meaning
+useInContext: >-
+  Learners describe a work's form before interpreting its content, using the Description /
+  Interpretation / Judgment frame.
+relatedTermIds: [aesthetics, symbolism, artistic-context]

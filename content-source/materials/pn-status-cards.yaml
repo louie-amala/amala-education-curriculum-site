@@ -1,0 +1,117 @@
+id: pn-status-cards
+slug: pn-status-cards
+access: public
+type: activity
+title: Status cards
+summary: >-
+  Each learner wears a hidden playing card and is treated by others according to its rank; the group
+  then guesses their own status, revealing how quickly we assign and internalise social standing.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The lesson lives in being treated a certain way without knowing why and feeling it
+      change how you behave; that cannot be simulated alone. Keep groups small enough that everyone is
+      interacted with. Debrief carefully, since being "low status", even in a game, can sting.
+duration: About 45 to 60 minutes including debrief.
+grouping: Whole group or groups of six to eight, moving and interacting.
+whatLearnersDo:
+  - Wear a playing card on their forehead, unable to see their own rank, and mingle.
+  - Treat everyone else according to the rank on their card (high cards with deference, low cards dismissively).
+  - Guess their own status from how they were treated, then line up by perceived rank.
+  - Reveal the cards and discuss how status was assigned, felt, and acted on.
+materialsAndPreparation:
+  - A deck of playing cards (or numbered cards), one per learner, spread across high and low ranks.
+  - Tape or headbands so cards sit on foreheads, visible to others but not the wearer.
+  - A clear, low-stakes task to mingle around (e.g. planning an imaginary party, choosing who does what).
+facilitationNotes: >-
+  The one thing to get right: the debrief carries the learning and protects the group. Being treated as
+  low status stings even in a game, so keep interactions about the card's rank, never real put-downs,
+  cut the round before it drags, and give everyone space to name how it felt. Sensitivity: this touches
+  real experiences of being looked down on. Let learners opt for a lighter role, and close by
+  separating the card from the person: no one's worth was ever on the card.
+steps:
+  - title: Set up the hidden cards
+    duration: 10 min
+    guidance: >-
+      Give each learner a card they cannot see, placed on the forehead. Explain the one rule: treat
+      others according to the rank showing on their card, high cards get respect and attention, low
+      cards get dismissed, without ever saying a number aloud. Give a light group task to interact around.
+    keyPrompts:
+      - How will you show someone respect, or brush them off, without naming their card?
+      - What does high status look like in how we speak and stand?
+    watchOuts:
+      - "Treatment tips into real insults. Set the boundary now: play the rank, never attack the person."
+  - title: Mingle in role
+    duration: 10 min
+    guidance: >-
+      Learners move and interact on the task, treating each other by rank. Watch how quickly people
+      start behaving like their treatment: high cards grow confident and expansive, low cards shrink and
+      withdraw, without knowing their own number. Cut it before it drags.
+    keyPrompts:
+      - How are people starting to carry themselves?
+      - What is it like when the room keeps turning toward, or away from, you?
+    watchOuts:
+      - A learner is visibly upset by repeated dismissal. End their round early and check in; no game is worth real distress.
+  - title: Guess and line up
+    duration: 10 min
+    guidance: >-
+      Without looking at their cards, learners place themselves in a line from lowest to highest status
+      based only on how they were treated. Then they reveal the cards. The accuracy of the line is
+      striking: we read our status off other people's behaviour with very little else to go on.
+    keyPrompts:
+      - Where did you place yourself, and what told you that?
+      - How close was your guess, and what does that say about how we learn our "place"?
+    watchOuts:
+      - Learners laugh off the reveal to cover discomfort. Let the humour land, then bring them into a serious debrief.
+  - title: Debrief and separate card from self
+    duration: 15-20 min
+    guidance: >-
+      Talk about how status was assigned (instantly, on no real information) and how fast it changed
+      behaviour. Then connect to real life: the stories society tells about who is high or low status,
+      and how people internalise them. End by making explicit that the card was random and no one's
+      worth was ever on it.
+    keyPrompts:
+      - Where in real life are people handed a "card" they did not choose?
+      - What happens to a person who is treated as low status for years, not minutes?
+    watchOuts:
+      - "The session ends on the sting rather than the insight. Always close by separating the card from the person and naming the real target: the social stories, not the people."
+closing: >-
+  Ask each learner to name one place in the world where status is assigned like a hidden card, and one
+  story that props it up. This feeds the course's work on dominant narratives and internalised stories.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Feeling your own behaviour bend to how you are treated, in minutes, exposes how status is a story
+    laid on people rather than a truth about them. Seeing the mechanism is what lets learners refuse the
+    "card" society hands them and hold onto their own sense of worth, which is power over their own
+    self-direction.
+principlesForegrounded: [safe-spaces, builds-on-identities]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      The activity deliberately induces the discomfort of low status, so it is bounded by firm rules
+      (play the rank, never the person), an early exit for anyone distressed, and a debrief that
+      explicitly detaches the card from the learner's worth.
+  - principle: builds-on-identities
+    how: >-
+      The debrief connects the game to the real status stories learners live inside, so the insight is
+      rooted in their own experience of how they are seen rather than an abstract model.
+competencyCodes: [FUS1, FUS2]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      Noticing your own behaviour and confidence shift with how you are treated is immediate
+      self-awareness of how outside stories act on you. What learners say in the debrief about how it
+      felt is the evidence.
+  - code: FUS2
+    how: >-
+      The game makes visible how instantly and thinly people assign status to others, sharpening
+      learners' understanding of what drives how people treat each other.
+objectiveIds: [powerful-narratives--o1]
+relatedSlugs: [pn-dont-put-people-in-boxes, pn-the-house-burgle-and-buy, pn-stereotypes-concept-map]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 7: Internalising narratives — Status Cards)"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planner, Week 7 "Internalising narratives — Status Cards",
+  a drama-based status game used to open the theme of internalised dominant narratives.

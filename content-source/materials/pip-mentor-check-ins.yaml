@@ -1,0 +1,123 @@
+id: pip-mentor-check-ins
+slug: pip-mentor-check-ins
+access: public
+type: tools-approaches
+title: "Running PIP mentor check-ins with the GROW model"
+summary: >-
+  A coaching structure for the three PIP check-ins: a supportive conversation, not an inspection, that
+  helps a learner review their goal, face their reality, weigh options, and commit to a next step.
+facilitationContext:
+  - one-to-one-mentoring
+  - group
+toolsFacet: facilitation
+primaryContext: one-to-one-mentoring
+deliveryAdaptations:
+  - context: one-to-one-mentoring
+    how: >-
+      As designed. The check-in is a one-to-one coaching conversation between a learner and their PIP
+      mentor, around 30 minutes, at least three times across the project. The GROW structure keeps it from
+      drifting into a general progress update. Keep a shared record of what was agreed to open the next one.
+  - context: group
+    how: >-
+      A partial fit, useful when mentor time is scarce. Learners can coach each other in pairs or threes
+      using the same GROW questions, which builds their questioning skill, but a peer cannot see across the
+      cohort to spot a learner falling behind. Use peer GROW between the formal check-ins, not instead of
+      them, since at least three mentor check-ins are required.
+educatorContent: |
+  A PIP check-in is a meeting between a learner and their PIP mentor, usually one of their facilitators.
+  Its purpose is to help the learner move forward, not to evaluate them. Each learner has at least three
+  check-ins across the PIP: one near the start (by the end of it they should be ready to begin), one around
+  a third of the way through, and one around two thirds through. If a check-in reveals a learner is not
+  engaging at all, that is a genuine concern, because completing the PIP is a graduation requirement, and
+  is the signal to offer more support early.
+
+  A reliable structure is the GROW coaching model:
+  - G, Goal: what have you committed to doing?
+  - R, Reality: where are you now in relation to that?
+  - O, Options: what could you do from here?
+  - W, Will: what will you commit to doing next?
+
+  GROW keeps a check-in specific rather than a vague catch-up. It works best aimed at a concrete goal. For
+  example, take the goal every learner shares, "keep a reflective journal throughout the PIP". Reality: the
+  learner says they have never kept a journal and do not know how. Options: explore formats (a paper
+  diary, an online tool), what could go in it (questions, mind-maps, photos, voice notes, reflections), and
+  ways of reflecting. Will: the learner commits to a paper diary and to trying one or two new reflective
+  tools over the next few weeks, to be reviewed at the next session.
+
+  Keep a shared record of what was discussed and agreed, held by both mentor and learner. It guides the
+  next conversation and can itself be evidence of learning. Between check-ins, remind learners they do not
+  need to wait for a session to make progress: they can start as soon as they have time, and can ask for a
+  coaching conversation whenever they are stuck.
+learnerContent: |
+  You will have at least three check-ins with your PIP mentor. They are there to support you, not to
+  judge you. Prepare for each one so you get the most from it: think about what you want feedback on, what
+  questions you have, and what would be the best use of your time together.
+
+  Your mentor may structure the conversation around four questions (the GROW model):
+  - Goal: what did you commit to doing?
+  - Reality: where are you now with it?
+  - Options: what could you do from here?
+  - Will: what will you commit to doing next?
+
+  Come with something specific you are working on or stuck on. After each check-in, note what you agreed,
+  so you and your mentor can pick it up next time. And remember: you do not have to wait for a check-in to
+  keep going. Start as soon as you have time, and ask for help whenever you need it.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+    - control-of-future-pathways
+  how: >-
+    A GROW check-in hands the thinking back to the learner: they name their own goal, face their own
+    reality, choose their own options, and decide their own next step. Being coached rather than directed
+    is how the check-in builds the self-direction the PIP is meant to develop, over a long, largely
+    independent project.
+principlesForegrounded:
+  - collaboration
+  - feedback-and-data
+  - safe-spaces
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The check-in is the core collaborative relationship of the PIP: a mentor who guides and challenges
+      through questions rather than instructions, so the learner stays the author of the project while
+      being genuinely supported.
+  - principle: feedback-and-data
+    how: >-
+      The shared record of what was discussed and agreed turns each check-in into data the next one builds
+      on, and the conversation treats feedback as help to move forward rather than a verdict on the work.
+  - principle: safe-spaces
+    how: >-
+      Naming the check-in explicitly as support and not evaluation, and coaching rather than correcting,
+      makes it safe for a learner to admit where they are stuck, which is exactly where help is needed.
+competencyCodes:
+  - ASL1
+  - FSL2
+  - AR3
+competencyDevelopment:
+  - code: ASL1
+    how: >-
+      Preparing for a check-in, receiving a mentor's input, and deciding what to act on is using feedback
+      directly. The next step a learner commits to, and how it reflects the conversation, is the evidence.
+  - code: FSL2
+    how: >-
+      The Goal and Will stages keep the learner setting and re-committing to objectives across a long
+      project, and the Reality stage holds them accountable for progress towards them.
+  - code: AR3
+    how: >-
+      The Options stage is where a learner who has hit a barrier explores alternative approaches rather
+      than stalling, which is resilience in practice, coached rather than imposed.
+objectiveIds:
+  - pip--o3
+  - pip--o4
+relatedSlugs:
+  - pip-planning-template
+  - pip-preparing-your-reflection
+  - pip-introduction-to-students
+sourceRefs:
+  - "Amala GSD Course Planner - Personal Interest Project (PIP) - 2025.docx"
+  - "Personal Interest Project (PIP) - Information for Facilitators.pptx"
+provenanceNote: >-
+  Authored from the course planner's "PIP Check-in" sections (check-ins 1, 2 and 3, the GROW model, the
+  worked reflective-journal example, and the guidance to keep a shared record) and the facilitator
+  information deck's account of the mentor role. Mapped to PIP objectives 3 and 4. The GROW model is a
+  widely used coaching framework named in the source.

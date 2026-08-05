@@ -1,7 +1,7 @@
 # Contextualised, fully offline SECONDARY SOURCE PACK for the Research Project component of Learning
 # Bridge+ (Cox's Bazar). Shared challenge: what is happening to the trees on the hills where we live.
 # Each source has three reading levels (original / B1 / A1-A2), a per-source glossary feeding the
-# programme word bank, and printed CRAAP trust signals for offline source-evaluation. DRAFT for review.
+# programme word bank, and printed source-checking signals (corroboration-led) for offline evaluation.
 id: cb-rp-secondary-source-pack
 slug: cb-rp-secondary-source-pack
 access: public
@@ -38,11 +38,16 @@ educatorContent: |
   information and grow in difficulty — they are scaffolded, not dumbed down.
 
   The pack deliberately mixes strong sources with a weak one, so evaluating sources (course objective 3)
-  has something real to bite on. Every source card prints its trust signals as a CRAAP test — Who made
-  it? When? Why? Do they show how they know? Does it help our question? Offline, learners cannot go and
-  check a source, so the pack gives them what they need to judge it, and the "check it another way" move
-  becomes triangulation: does this source agree with the other sources, and with our own primary
-  research on the hills?
+  has something real to bite on. We teach source-checking as THREE MOVES, not a long checklist, and we
+  lead with corroboration — because that is what skilled fact-checkers actually do: they do not just
+  study a source on its own, they check it against others. (Online this is called lateral reading;
+  offline, with a curated pack and no internet, it becomes triangulation.) The three moves: (1) Who made
+  this, and why? (2) How do they know — and is it still true? (3) Does it hold up when we check it
+  against the OTHER sources and against what WE found? Each card prints the signals that feed these moves
+  (who, when, why, whether they show their evidence, and whether it agrees with the rest), so learners
+  can judge a source without going online. The strongest evidence is what several sources AND our own
+  primary research agree on. (We deliberately move past the old CRAAP-style checklist, which research
+  finds novices apply poorly, toward this corroboration-first habit.)
 
   Every word explained on a card also collects in the programme word bank at the end.
 
@@ -100,9 +105,11 @@ learnerContent: |
 
   - Each source has three versions: the real article, an easier B1 version, and a simplest A1/A2
     version. Read the one that is right for you, or listen while your teacher reads.
-  - Each source tells you who made it, when, and why — use this to decide how much to trust it.
-  - Add what you find to your evidence log. Then check it another way: does it agree with the other
-    sources, and with what we saw and heard on our own hills?
+  - Do not believe a source just because it sounds right. Check it, with three questions: Who made it,
+    and why? How do they know — and is it still true? And the big one: does it agree with the OTHER
+    sources, and with what WE found by asking and looking?
+  - Add what you find to your evidence log. The strongest evidence is what many sources AND our own
+    research agree on. One source on its own — even a good one — is only a start.
 
   ## Source A — Trees keep the land cool
 

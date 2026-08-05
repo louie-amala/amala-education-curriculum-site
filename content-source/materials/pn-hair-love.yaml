@@ -1,0 +1,81 @@
+id: pn-hair-love
+slug: pn-hair-love
+access: public
+type: case-study
+title: "Hair Love: reading a story and its message"
+summary: >-
+  Learners analyse the animated short film Hair Love against the elements of a story, then look
+  beneath the surface at what it says about identity, family, and representation.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Watching together and pooling observations lets learners catch what others noticed,
+      and the discussion of what the film is "really about" is richer with several readings in the room.
+  - context: independent
+    how: >-
+      A learner can watch and analyse alone using the story-elements grid and the reflection questions.
+      Ask them to write both a surface analysis (the plot) and a reading of the deeper message, so a
+      single viewer still has to push past the obvious.
+duration: About 60 minutes, or 2 hours if you add the follow-up articles.
+grouping: Whole group or small groups, with individual reflection.
+whatLearnersDo:
+  - Watch the short film Hair Love once for the story, once for the craft.
+  - Analyse it against the elements of a story (character, setting, plot, conflict, resolution).
+  - Discuss what the film is really about beneath the surface plot.
+  - Reflect on how a story about one family carries a message about identity and representation.
+educatorContent: |
+  Hair Love is a short animated film about a father learning to style his daughter's hair while her
+  mother is unwell. On the surface it is a small domestic story; beneath it, it is about Black hair,
+  identity, love, and being seen. It is an ideal first case study because it rewards two readings: the
+  visible story elements, and the message carried underneath.
+
+  Run it in two passes. First, watch for the story and map the elements (this reuses the "recipe for a
+  great story"). Second, watch for the craft and the message: how visual choices, with no dialogue,
+  carry meaning, and what the film says about representation that a plain plot summary misses. The
+  optional follow-up articles (on the history of the Afro and on diversity in film) deepen the second
+  reading; the film alone is enough for a strong session.
+learnerContent: |
+  Watch **Hair Love** twice. The first time, just follow the story. The second time, watch how it is
+  made.
+
+  Map the story elements: who are the characters, what is the setting, what is the conflict, how is it
+  resolved? Then look underneath. This is a story about one family styling hair, but what is it really
+  about? What does it say about identity, love, and being seen, without using a single word of dialogue?
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Learning to read a story on two levels at once, the surface plot and the message underneath, gives
+    learners a tool they will use on every story that is aimed at them. Seeing how a film shapes meaning
+    without stating it is what lets a person accept or resist that meaning deliberately.
+principlesForegrounded: [builds-on-identities, lifeworthy-competencies]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The film centres a family's identity and the everyday act of caring for hair, opening space for
+      learners to connect it to their own experiences of identity and representation.
+  - principle: lifeworthy-competencies
+    how: >-
+      Reading craft and message beneath a surface story is a transferable media-literacy skill that
+      serves learners across every kind of text they will meet.
+competencyCodes: [FLC3, FUS2]
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      Analysing exactly how the film moves an audience, through visual choices rather than words, builds
+      learners' grasp of what makes communication influential. Their reading of the message is the evidence.
+  - code: FUS2
+    how: >-
+      Interpreting what the film says about a family's experience is practice at understanding lives and
+      perspectives that may differ from the learner's own.
+links:
+  - label: "Hair Love (Wikipedia overview)"
+    url: https://en.wikipedia.org/wiki/Hair_Love
+    note: "Background on the Oscar-winning short. Facilitators source the film itself (Sony Pictures Animation released it free online)."
+objectiveIds: [powerful-narratives--o1, powerful-narratives--o2]
+relatedSlugs: [pn-recipe-for-a-great-story, pn-danger-of-a-single-story, pn-stereotypes-concept-map]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 1-2: Hair Love)", "Assessed Task Template_ Provocation Response"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners (Week 1 case study and Week 2 revisit). The
+  course's assessed "Provocation Response" task is built on this film plus two follow-up articles.

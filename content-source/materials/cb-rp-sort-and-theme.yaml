@@ -29,6 +29,46 @@ materialsAndPreparation:
 - Cards, paper scraps, or sticky notes, and pens — one idea per card.
 - A large clear floor or wall where the whole group can see and reach the cards.
 - The "our themes" sheet from the research book (one per learner), to record the clusters at the end.
+visuals:
+- kind: setup
+  title: "One pile, spread on the floor"
+  caption: >-
+    One idea per card — from the people we asked, from what we saw, from the sources. Spread them all
+    where everyone can see and reach, then move them until the groups feel right. The moving is the thinking.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "All our evidence, one idea per card"
+      tone: neutral
+      cards:
+      - "rain washes soil"
+      - "bare land is hot"
+      - "wood for cooking"
+      - "new saplings"
+      - "elders remember forest"
+- kind: example
+  title: "Our themes, named"
+  caption: >-
+    Once the clusters feel right, each gets a name — a theme — in a word or a drawing. The patterns are
+    what keeps coming up across the whole floor.
+  spec:
+    type: zones
+    zones:
+    - label: "Losing the soil"
+      tone: warn
+      cards:
+      - "rain washes soil"
+      - "mud slides in storms"
+    - label: "Heat on bare land"
+      tone: neutral
+      cards:
+      - "very hot, no shade"
+    - label: "Bringing it back"
+      tone: positive
+      cards:
+      - "new saplings planted"
+      - "roots hold the soil"
 facilitationNotes: >-
   The one thing to get right is that the sorting is the analysis — moving the cards around IS how the
   thinking happens, so resist doing it for them or rushing to tidy groups. Put one idea on each card so

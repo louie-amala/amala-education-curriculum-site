@@ -51,6 +51,37 @@ materialsAndPreparation:
 - The learner's own words, name page, and picture-words from earlier in the unit, so the card is built from work they already own.
 - Your own simple example card, made beforehand, to show what one can look like — kept modest, so no one feels theirs must be elaborate.
 - "Sensitivity: identity, home, family, and marriage can carry real pain here. Make it plain from the start that learners choose completely what to put on the card and what to say — a lighter, everyday focus (a colour, a food, a thing they like) is always welcome and always enough, and nothing personal is ever required or asked for."
+visuals:
+- kind: setup
+  title: "Make, then rehearse in pairs"
+  caption: >-
+    Each learner plans and makes their own card while you circulate; at the end, same-gender pairs rehearse
+    how they will introduce it.
+  spec:
+    type: groups
+    facilitator: true
+    clusters:
+    - size: 1
+      count: 6
+      label: "each making their own card"
+    - size: 2
+      count: 3
+      label: "rehearsal pairs"
+- kind: example
+  title: "A finished name card"
+  caption: >-
+    The capstone artefact: a decorated name, a few picture-words that are true for me, and one sentence I
+    can say aloud.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "My Name, My Voice"
+      tone: positive
+      cards:
+      - "RASHIDA"
+      - "rice · blue · goat"
+      - "I like rice"
 facilitationNotes: |
   This is where the whole unit comes together and where learners feel its point: they use their new
   English to show who they are, to real people. Made visual first, the card carries the meaning — a name

@@ -1,0 +1,33 @@
+id: cultural-violence
+slug: cultural-violence
+access: public
+term: Cultural violence
+category: content
+matchPhrases:
+- cultural violence
+definition: >-
+  Aspects of culture — beliefs, religion, ideology, language, or stories — used to justify or
+  make normal the other forms of violence.
+explainer: |
+  Cultural violence is not an act of harm but the *legitimising* of harm. It is the ideas, symbols,
+  and narratives that make [direct violence](/glossary/direct-violence) and
+  [structural violence](/glossary/structural-violence) look acceptable, natural, or even right —
+  a belief that one group is superior, a story that casts another as the enemy, a tradition that
+  treats inequality as the natural order.
+
+  Galtung added this third form to explain why violence persists: it changes the moral colour of
+  an act from wrong to right, or at least to tolerable. This makes it powerful and hard to see,
+  because it lives in what a community takes for granted.
+
+  Addressing cultural violence means working on beliefs and narratives — exactly the ground of
+  dialogue, reflection, and [non-violent communication](/glossary/non-violent-communication). It
+  is the top of the [violence triangle](/glossary/violence-triangle), shaping how the other two
+  forms are understood and excused.
+examples:
+- Teachings or media narratives that portray a particular group as less than human or deserving of harm
+nonExamples:
+- The act of attacking that group (direct violence) or the system excluding them (structural violence)
+useInContext: >-
+  Learners examine the beliefs and narratives in a context that make violence seem normal or
+  justified.
+relatedTermIds: [direct-violence, structural-violence, violence-triangle, non-violent-communication]

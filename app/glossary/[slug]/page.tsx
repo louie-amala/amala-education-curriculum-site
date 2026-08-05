@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Prose } from "@/components/Prose";
 import { getExploredIn, getGlossaryTerm, glossaryTerms } from "@/lib/content";
 import { typeMeta } from "@/lib/ui";
 
@@ -39,6 +40,15 @@ export default async function TermPage({ params }: { params: Promise<{ slug: str
         <p className="mt-4 rounded-lg border-l-4 border-teal bg-teal/5 p-4 text-dark-navy/90">
           {term.useInContext}
         </p>
+      )}
+
+      {term.explainer && (
+        <section className="mt-8">
+          <h2 className="text-xs font-semibold uppercase tracking-wide text-cool-grey">In depth</h2>
+          <div className="mt-2 leading-relaxed">
+            <Prose text={term.explainer} gloss skip={[term.slug]} />
+          </div>
+        </section>
       )}
 
       <div className="mt-8 grid gap-6 sm:grid-cols-2">
@@ -84,10 +94,48 @@ export default async function TermPage({ params }: { params: Promise<{ slug: str
         </section>
       )}
 
+      {term.furtherReading.length > 0 && (
+        <section className="mt-8">
+          <h2 className="text-xs font-semibold uppercase tracking-wide text-cool-grey">Further reading</h2>
+          <ul className="mt-2 space-y-3">
+            {term.furtherReading.map((r, i) => (
+              <li key={i} className="text-sm">
+                <a
+                  href={r.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-navy underline underline-offset-2 hover:no-underline"
+                >
+                  {r.title}
+                </a>
+                {r.source && <span className="ml-2 text-xs text-cool-grey">{r.source}</span>}
+                {r.note && <span className="mt-0.5 block text-dark-navy/80">{r.note}</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {/* Explored in — generated from the reverse index */}
-      {(explored.competencies.length > 0 || explored.materials.length > 0) && (
+      {(explored.competencies.length > 0 ||
+        explored.materials.length > 0 ||
+        explored.courses.length > 0) && (
         <section className="mt-10 border-t border-cool-grey/20 pt-6">
           <h2 className="font-heading text-lg font-semibold text-dark-navy">Explored in</h2>
+          {explored.courses.length > 0 && (
+            <div className="mt-3">
+              <p className="text-xs font-semibold uppercase tracking-wide text-cool-grey">Courses</p>
+              <ul className="mt-1 flex flex-wrap gap-2">
+                {explored.courses.map((c) => (
+                  <li key={c.slug}>
+                    <Link href={`/courses/${c.slug}`} className="text-sm text-navy hover:underline">
+                      {c.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
           {explored.competencies.length > 0 && (
             <div className="mt-3">
               <p className="text-xs font-semibold uppercase tracking-wide text-cool-grey">Competencies</p>

@@ -133,6 +133,24 @@ export const CourseSchema = z.object({
     .default([]),
 });
 
+// The kind of downloadable artefact, so the worksheet/template distinction is machine-real and can be
+// rendered under labelled groups rather than one undifferentiated list:
+//   - explainer: the method written up (what it is, why, when to use it).
+//   - worksheet: the fully-scaffolded, guided sheet a learner works through; embeds the blank template.
+//   - template:  the blank final product on its own, for the learner who has done it once already.
+//   - example:   a worked/filled example to show what "good" looks like.
+// Optional and defaulted so existing downloads (which predate the field) remain valid.
+// Declared before ProgrammeSchema (which references it) so it is initialised first.
+export const DownloadRoleSchema = z.enum(["explainer", "worksheet", "template", "example"]);
+
+export const DownloadSchema = z.object({
+  label: z.string(),
+  file: z.string(),
+  format: z.string().nullable().optional(),
+  role: DownloadRoleSchema.optional(),
+  note: z.string().nullable().optional(),
+});
+
 // ---- Programme ----
 export const ProgrammeSchema = z.object({
   id: z.string(),
@@ -257,6 +275,10 @@ export const ProgrammeSchema = z.object({
         .default([]),
     })
     .optional(),
+  // Programme-level downloadable guides (e.g. a Coordinator Guide and Educator Guide for the whole
+  // programme, distinct from a unit's or material's downloads). `file` is a path under /public and is
+  // validated in validateGraph(). Rendered near the top of the programme page.
+  downloads: z.array(DownloadSchema).default([]),
 });
 
 // ---- Facilitation materials (§4.3) ----
@@ -330,23 +352,6 @@ export const AREA_TAG_IDS = [
 export const MoveTagSchema = z.object({
   id: EducatorTagSchema,
   how: z.string().nullable().optional(),
-});
-
-// The kind of downloadable artefact, so the worksheet/template distinction is machine-real and can be
-// rendered under labelled groups rather than one undifferentiated list:
-//   - explainer: the method written up (what it is, why, when to use it).
-//   - worksheet: the fully-scaffolded, guided sheet a learner works through; embeds the blank template.
-//   - template:  the blank final product on its own, for the learner who has done it once already.
-//   - example:   a worked/filled example to show what "good" looks like.
-// Optional and defaulted so existing downloads (which predate the field) remain valid.
-export const DownloadRoleSchema = z.enum(["explainer", "worksheet", "template", "example"]);
-
-export const DownloadSchema = z.object({
-  label: z.string(),
-  file: z.string(),
-  format: z.string().nullable().optional(),
-  role: DownloadRoleSchema.optional(),
-  note: z.string().nullable().optional(),
 });
 
 export const AgencyIndicatorSchema = z.enum([

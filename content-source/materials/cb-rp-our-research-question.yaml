@@ -30,6 +30,48 @@ materialsAndPreparation:
 - Space to show the three sub-questions as pictures the group builds up together.
 - The "what we know / what we still need to find out" wall and the community map from the earlier activities, nearby.
 - Simple sentence frames on hand, such as "Before, …; now, …", for learners to lean on.
+visuals:
+- kind: setup
+  title: "One question, three things to find out"
+  caption: >-
+    The given question, broken into the three sub-questions the cohort will actually go and find out —
+    built up together as pictures on the wall.
+  spec:
+    type: zones
+    zones:
+    - label: "1. Before & now"
+      tone: neutral
+      cards:
+      - "what changed?"
+    - label: "2. Rain & hot sun"
+      tone: neutral
+      cards:
+      - "damage to a bare hill?"
+    - label: "3. Roots & trees"
+      tone: neutral
+      cards:
+      - "what they do for us"
+- kind: example
+  title: "How we'll answer each part"
+  caption: >-
+    For each sub-question the cohort decides: can we find this out by asking and looking here, or does the
+    source pack help? This sets up the next phase.
+  spec:
+    type: zones
+    flow: across
+    zones:
+    - label: "Ask & look here"
+      sublabel: "primary — our own community"
+      tone: known
+      cards:
+      - "Before & now: ask elders"
+      - "See a slope in the rain"
+    - label: "The source pack"
+      sublabel: "secondary — supplied reading"
+      tone: neutral
+      cards:
+      - "What roots do for soil"
+      - "What science found"
 facilitationNotes: >-
   The one thing to get right: the question is given, but the framing work is real. The cohort does not
   invent a question from nothing — one shared question keeps a single focus and suits this cohort — but

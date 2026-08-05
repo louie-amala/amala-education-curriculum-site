@@ -55,6 +55,42 @@ materialsAndPreparation:
 - The learner's picture-words from earlier My Voice sessions (their drawn words for name, place, and things they like), so the frames are filled with real words that are theirs.
 - The My Voice book and something to draw or trace with, for those who want to keep a written version.
 - "Sensitivity: the frame 'I am from ___' can touch displacement, loss, and separation. Offer the lighter road openly and often — a learner can name a smaller, safer place, or fill the frame with a colour, a food, or a thing they like instead. No one has to say where they are from, and choosing the easy word is never a failing."
+visuals:
+- kind: setup
+  title: "Find someone who — mingle"
+  caption: >-
+    In the final game the whole room mixes: learners move, ask and answer, and find someone for each
+    prompt. You move among them.
+  spec:
+    type: groups
+    facilitator: true
+    clusters:
+    - size: 2
+      count: 6
+      label: "moving and mixing, asking and answering"
+- kind: example
+  title: "am, is, are — who goes with which"
+  caption: >-
+    Match the person to the right word, then build a sentence from cards. Point at real people in the room
+    to make it stick.
+  spec:
+    type: zones
+    cardStyle: drawing
+    flow: across
+    flowLabel: "goes with"
+    zones:
+    - label: "Who"
+      tone: known
+      cards:
+      - "I"
+      - "she / he"
+      - "we / they"
+    - label: "Word"
+      tone: positive
+      cards:
+      - "am"
+      - "is"
+      - "are"
 facilitationNotes: |
   This is the practice layer that makes the Unit 1 grammar easy rather than merely met — the verb "to be",
   the subject pronouns, and simple sentences. The sources it grows from are eight paper fill-in exercises

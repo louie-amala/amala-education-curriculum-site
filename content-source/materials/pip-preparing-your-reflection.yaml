@@ -1,0 +1,162 @@
+id: pip-preparing-your-reflection
+slug: pip-preparing-your-reflection
+access: public
+type: activity
+title: "Writing your PIP reflection"
+summary: >-
+  Learners look back over the whole project and produce a reflection, in any format they choose, on the
+  approach they took, how well it worked, and what they learned.
+facilitationContext:
+  - independent
+  - group
+  - one-to-one-mentoring
+primaryContext: independent
+deliveryAdaptations:
+  - context: independent
+    how: >-
+      As designed. The reflection is personal and individual, even for team projects, and is often written
+      in the learner's own time. Give the guiding questions in writing and let the learner choose the
+      length, depth and format, then set a point where it is discussed or submitted.
+  - context: group
+    how: >-
+      A useful warm-up, not a replacement. A group can talk through the guiding questions to loosen
+      thinking and hear how others judge their own success, but the reflection itself must be written
+      individually. Keep any group work to sparking ideas, then send learners away to write their own.
+  - context: one-to-one-mentoring
+    how: >-
+      A strong fit for a learner who finds honest self-evaluation hard. A mentor can ask the guiding
+      questions aloud and help the learner be specific about what worked and what they would change,
+      without writing it for them. The written reflection remains the learner's own.
+duration: "About 1 hour facilitated, plus independent writing"
+grouping: "Individual, always, even within team projects; works with 5-35 learners"
+whatLearnersDo:
+  - "Look back over the whole PIP: the approach you took and how it unfolded."
+  - "Judge how well your approach worked and how you know."
+  - "Identify what you learned, and what you would do differently in a similar situation."
+  - "Produce the reflection in a format and depth of your choosing (written, video, audio, or another form)."
+materialsAndPreparation:
+  - "The guiding questions, given in writing so learners can work through them at their own pace."
+  - "The learner's journal and check-in records to hand, since the reflection draws on the trail kept throughout the PIP."
+  - "A clear submission method and deadline, and clarity that the format is the learner's choice."
+facilitationNotes: |
+  The one thing to get right is honesty over performance. A PIP reflection is not a report of success; it
+  is a genuine look at the approach taken, how well it worked, and what the learner would change. The
+  richest reflections often come from projects that did not go to plan, so make clear that naming what did
+  not work, and what they learned from it, is exactly the point and is valued. The reflection is always
+  individual, even when the artefact and presentation were joint. Learners choose the format, so a learner
+  who expresses themselves better in speech than writing can record it. The journal and check-in notes
+  kept through the PIP are the raw material; a learner who kept them well has an easier task here, which is
+  worth pointing out to the next cohort at the start.
+steps:
+  - title: "Look back over the whole journey"
+    duration: "15-20 min"
+    guidance: |
+      Learners revisit their journal, plan and check-in notes to reconstruct the arc of the project: what
+      approach they took and how it actually unfolded, including the changes along the way. The aim is to
+      recall the real story, not a tidied version. Prompt learners who kept few notes to talk it through
+      with a peer or mentor first, so they have something to reflect on.
+    keyPrompts:
+      - "What approach did you take, and how did it change as you went?"
+      - "What is the moment from this PIP you will remember, good or difficult?"
+    watchOuts:
+      - "A smoothed-over story with no bumps. Ask specifically about what went wrong; that is where the learning is."
+      - "Learners with thin journals feeling they have nothing. Reconstruct the arc in conversation before they write."
+  - title: "Judge how well it worked, with evidence"
+    duration: "20-25 min"
+    guidance: |
+      Learners assess how appropriate their approach was and to what extent they succeeded, and crucially,
+      how they know. Push for evidence rather than feeling: what actually happened that tells them it worked
+      or did not? This is where reflection becomes evaluation. Reassure learners that a partial or failed
+      attempt, honestly assessed, is a strong reflection, not a weak one.
+    keyPrompts:
+      - "How well did your approach work, and what is your evidence for that judgement?"
+      - "If you fell short of your intended outcome, what does that tell you, rather than what does it cost you?"
+    watchOuts:
+      - "Success claimed with no evidence. Ask 'how do you know?' until the answer points at something real."
+      - "Learners equating an unfinished project with failure. Separate genuine engagement and learning from a polished result."
+  - title: "Draw out what you learned, and write it your way"
+    duration: "20-25 min plus independent time"
+    guidance: |
+      Learners identify what they learned and what they would do differently in a similar situation in
+      future, then produce the reflection in their chosen format and depth. Give them the guiding questions
+      to work from and confirm the submission method. Emphasise the reflection is individual even for teams,
+      and that its honesty matters more than its polish.
+    keyPrompts:
+      - "What did you learn from this PIP that you will carry into what comes next?"
+      - "Faced with a similar situation again, what would you do differently, and why?"
+    watchOuts:
+      - "A reflection that only lists activities. Redirect to what the learner now understands, not what they did."
+      - "Team members submitting near-identical reflections. Restate that this piece is each person's own, in their own voice."
+    adaptation: >-
+      No devices or low bandwidth: a written reflection needs only paper. A learner who reflects better
+      aloud can record audio on a basic phone, or give the reflection verbally to a mentor who notes it,
+      preserving the learner's own words.
+closing: >-
+  Each learner produces an honest, evidence-informed reflection on their PIP, in a format that suits them,
+  completing the third of the three final submissions alongside the artefact and the presentation.
+learnerContent: |
+  Your PIP reflection is your honest look back at the whole project. It is not a report of success. It is
+  a chance to think about what you did, how well it worked, and what you learned. You choose the length, the
+  depth and the format: written, video, audio, or another form that suits you.
+
+  Use these guiding questions:
+  - What approach did you take to the PIP?
+  - How appropriate was this approach?
+  - To what extent were you successful, and how do you know?
+  - How would you adapt your approach to a similar situation in future?
+  - What did you learn from completing this PIP?
+
+  Be honest. Some of the best reflections come from projects that did not go to plan. Naming what did not
+  work, and what you learned from it, is exactly the point. Your journal and check-in notes are your best
+  source. Even in a team project, your reflection is your own.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+    - control-of-future-pathways
+  how: >-
+    Reflecting honestly on what worked, what did not, and what they would change is how a learner turns a
+    finished project into learning they own and can carry forward. Judging their own success on their own
+    evidence is self-direction at its most developed, and points them towards what they do next.
+principlesForegrounded:
+  - recognise-communicate-growth
+  - safe-spaces
+  - connect-to-futures
+principleAlignment:
+  - principle: recognise-communicate-growth
+    how: >-
+      The reflection is the learner's own account of their growth: what they learned, how they changed, and
+      what they would do differently, articulated in their own words and format.
+  - principle: safe-spaces
+    how: >-
+      By valuing honesty over polish and treating a project that did not go to plan as a rich source of
+      learning, the reflection makes it safe to be truthful about difficulty and failure.
+  - principle: connect-to-futures
+    how: >-
+      Asking what the learner would do differently next time, and what they will carry forward, deliberately
+      turns the reflection towards the futures and next steps the PIP was building.
+competencyCodes:
+  - FSL1
+  - APS2
+competencyDevelopment:
+  - code: FSL1
+    how: >-
+      The whole reflection is structured self-examination of the learner's decisions, approach and growth,
+      which is this competency at its fullest. The finished reflection is direct evidence of it.
+  - code: APS2
+    how: >-
+      Judging how well the approach worked and how they know, on the basis of what actually happened, is
+      evidence-informed evaluation of their own decisions rather than assertion.
+objectiveIds:
+  - pip--o5
+relatedSlugs:
+  - pip-preparing-your-presentation
+  - pip-preparing-your-artefact
+  - pip-mentor-check-ins
+  - pip-assessment-rubric
+sourceRefs:
+  - "Amala GSD Course Planner - Personal Interest Project (PIP) - 2025.docx"
+  - "Personal Interest Project (PIP) - Information for Facilitators.pptx"
+provenanceNote: >-
+  Authored from the course planner's "Preparing the PIP Reflection" section, including its five guiding
+  questions and the learner's choice of length, depth and format, and the facilitator deck's point that
+  the reflection is individual even for team projects. Mapped to PIP objective 5.

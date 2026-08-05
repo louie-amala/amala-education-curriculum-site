@@ -29,6 +29,47 @@ materialsAndPreparation:
 - The "our themes" pages from the sorting activity, and the evidence log.
 - The "our insights" sheet from the research book (one per learner or group).
 - Two labels or spaces for sorting statements — "the evidence shows this" and "this is our opinion".
+visuals:
+- kind: example
+  title: "From a finding to an insight"
+  caption: >-
+    A finding is what the evidence says; an insight is what it means and why it matters — and often, what
+    could be done. Every insight must point back to evidence.
+  spec:
+    type: zones
+    flow: across
+    flowLabel: "so…"
+    zones:
+    - label: "A finding"
+      sublabel: "what the evidence says"
+      tone: neutral
+      cards:
+      - "rain washes soil off bare hills"
+      - "bare land gets very hot"
+    - label: "An insight"
+      sublabel: "what it means, what could be done"
+      tone: positive
+      cards:
+      - "plants would hold the soil"
+      - "shade would cool the ground"
+- kind: setup
+  title: "Evidence, or opinion?"
+  caption: >-
+    Sort each draft statement: can we point to the evidence for it? If yes, it is a claim we can stand
+    behind. If no, it is opinion — kept, but in its own place, so we do not mix the two.
+  spec:
+    type: zones
+    zones:
+    - label: "The evidence shows this"
+      tone: known
+      cards:
+      - "many said rain washes soil"
+      - "we saw mud on the path"
+    - label: "This is our opinion"
+      tone: question
+      cards:
+      - "trees are nicer"
+      - "everyone should plant"
 facilitationNotes: >-
   The one thing to get right is the difference between a finding and an insight, so model it plainly: a
   finding is what the evidence says ("many people said the rain washes the soil away"); an insight is

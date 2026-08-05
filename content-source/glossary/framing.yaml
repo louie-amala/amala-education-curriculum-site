@@ -1,0 +1,37 @@
+id: framing
+slug: framing
+access: public
+term: Framing
+category: content
+matchPhrases:
+- framing
+definition: >-
+  The choice of what to include, emphasise, and leave out of a story, which guides how an audience
+  understands an issue and what they think should be done about it.
+explainer: |
+  To frame something is to put a border around it: to decide what is inside the picture and what is
+  left out. Every story frames its subject by emphasising some details, background, and causes while
+  omitting others. Two true accounts of the same event can lead audiences to opposite conclusions
+  simply because they are framed differently.
+
+  Framing is rarely neutral. The words chosen (is it a "riot" or an "uprising"?), the cause implied,
+  and who is placed at the centre all steer how people judge an issue and who they hold responsible.
+  Learning to notice the frame, and to ask what sits just outside it, is a core critical skill for
+  reading media and for telling stories responsibly.
+
+  Framing is one of the main tools by which a [narrative](/glossary/narrative) does its work, and
+  repeated framing in the same direction is how a [stereotype](/glossary/stereotype) or a
+  [dominant narrative](/glossary/dominant-narrative) takes hold.
+furtherReading:
+- title: "Entman, R. — Framing: Toward Clarification of a Fractured Paradigm (1993)"
+  url: https://doi.org/10.1111/j.1460-2466.1993.tb01304.x
+  source: Journal of Communication
+  note: Sets out how the selection and salience of details in a text steer an audience's understanding.
+examples:
+- Describing arrivals as "a flood of migrants" versus "families seeking safety" frames the same people to invite fear or empathy.
+nonExamples:
+- A spelling or grammar choice that does not change which parts of the issue are emphasised.
+useInContext: >-
+  Learners identify how a news story is framed, then reframe it to foreground a perspective that was
+  left out.
+relatedTermIds: [narrative, stereotype, dominant-narrative]

@@ -1,0 +1,37 @@
+id: negative-peace
+slug: negative-peace
+access: public
+term: Negative peace
+category: content
+matchPhrases:
+- negative peace
+definition: >-
+  The absence of direct violence — no fighting, no physical or verbal harm. Necessary, but on
+  its own not a lasting or just peace.
+explainer: |
+  Negative peace is "peace as absence": the guns are silent, no one is being attacked. Johan
+  Galtung called it *negative* not because it is bad but because it is defined by what is missing.
+  It is genuinely important — stopping [direct violence](/glossary/direct-violence) saves lives —
+  but it can coexist with deep injustice.
+
+  A society can have negative peace while [structural violence](/glossary/structural-violence)
+  quietly continues: people excluded, impoverished, or denied rights without a shot being fired.
+  Because those conditions tend to reignite direct violence, negative peace achieved on its own
+  is often fragile. It pairs with [positive peace](/glossary/positive-peace), which addresses the
+  conditions underneath.
+
+  For planning, negative peace is a useful checkpoint but a poor finish line: an initiative that
+  only stops the fighting has done necessary work, not complete work.
+furtherReading:
+- title: "Galtung, J. — Violence, Peace, and Peace Research (1969)"
+  url: https://journals.sagepub.com/doi/10.1177/002234336900600301
+  source: Journal of Peace Research
+  note: Where the negative/positive peace distinction was first set out.
+examples:
+- A neighbourhood where fighting has stopped after a ceasefire, though old grievances remain
+nonExamples:
+- A community that has resolved the underlying injustices and rebuilt trust (that is positive peace)
+useInContext: >-
+  Learners recognise that ending direct violence is necessary but ask what conditions still need
+  to change for peace to hold.
+relatedTermIds: [positive-peace, direct-violence, peace, structural-violence]

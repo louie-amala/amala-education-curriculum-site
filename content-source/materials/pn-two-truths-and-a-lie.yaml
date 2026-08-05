@@ -1,0 +1,103 @@
+id: pn-two-truths-and-a-lie
+slug: pn-two-truths-and-a-lie
+access: public
+type: activity
+title: Two truths and a lie
+summary: >-
+  Learners tell three short stories about themselves, one invented, and the group guesses the lie, then
+  examines how the assumptions behind their guesses reveal the stories they carry about each other.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The insight comes from the guessing and the reasons behind it: "I thought that was
+      the lie because you don't look like someone who...". Those reasons are the assumptions the activity
+      exists to surface, so always debrief the why, not just the answer.
+duration: About 30 minutes, plus preparation.
+grouping: Small groups of four to six, or whole group.
+whatLearnersDo:
+  - "Prepare three short stories about their own life: two true, one convincing invention."
+  - Tell the three stories to the group without giving away which is false.
+  - Guess which of each person's stories is the lie, and say what made them think so.
+  - Examine how their guesses were shaped by assumptions about each other.
+materialsAndPreparation:
+  - Ask learners to prepare their three stories in advance (a short independent task).
+  - "Nothing else required; works with no resources."
+facilitationNotes: >-
+  The one thing to get right: the lesson is in the reasons for the guesses, not the guessing. When
+  someone says why they picked a story as the lie, that reason is usually an assumption about the
+  teller, and that is exactly what the activity is meant to expose. Keep drawing out the "why". As a
+  warm activity it also builds trust early in a group, but only if learners share at a level that feels
+  safe; make clear all three stories can be light.
+steps:
+  - title: Prepare three stories
+    duration: 10 min
+    guidance: >-
+      Learners write three short life stories, two true and one invented, and craft the lie to be
+      believable and the truths to be surprising. The best rounds come when the true stories are as
+      unexpected as the lie, so nothing can be guessed on plausibility alone. This can be set beforehand.
+    keyPrompts:
+      - What is true about you that others would never guess?
+      - How can you make your invented story just as believable as your real ones?
+    watchOuts:
+      - Learners share something they later regret. Remind them all three stories can be trivial; nothing personal is required.
+  - title: Tell and guess
+    duration: 10 min
+    guidance: >-
+      Each learner tells their three stories with a straight face; the group guesses the lie. Keep it
+      warm and quick. Before revealing the answer, collect a few guesses and, crucially, the reasons
+      behind them.
+    keyPrompts:
+      - Which story do you think is the lie?
+      - What made you think that one was false?
+    watchOuts:
+      - The group rushes to the answer and skips the reasons. Slow down and always ask "why that one?" before revealing.
+  - title: Examine the assumptions
+    duration: 10 min
+    guidance: >-
+      Reveal the answers, then turn to the reasons people gave. Draw out how often a guess rested on an
+      assumption ("you seem too shy to have done that"). Name these gently as the small stories we tell
+      about each other on very little evidence, the same machinery as stereotypes, in miniature.
+    keyPrompts:
+      - How many guesses were based on what someone actually said, versus what we assumed about them?
+      - Where did those assumptions come from?
+    watchOuts:
+      - 'Debrief tips into calling people out for "prejudice". Keep it curious and shared: everyone does this, and noticing it is the win.'
+closing: >-
+  Ask each learner to name one assumption others made about them today that was wrong. This connects the
+  warm game directly to the course's work on stereotypes, perception, and telling a fuller story of
+  oneself.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Catching the group guessing wrong about you, and hearing why, shows learners how thin the stories
+    others hold about them can be. Seeing that those stories are guesses rather than facts is what lets a
+    learner push back on them and insist on telling their own fuller story.
+principlesForegrounded: [safe-spaces, collaboration]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Because learners choose what to share and are told all three stories can be trivial, the activity
+      builds trust without requiring exposure, and the debrief is framed as shared curiosity rather than
+      catching anyone out.
+  - principle: collaboration
+    how: >-
+      The insight is produced by the group together: it is the pooled guesses and reasons, laid side by
+      side, that reveal the assumptions no single person would have seen alone.
+competencyCodes: [FUS1, FUS2]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      Hearing the wrong stories others tell about you, and recognising the same reflex in your own
+      guesses, is direct practice at self-awareness. What learners name in the debrief is the evidence.
+  - code: FUS2
+    how: >-
+      The activity makes visible how quickly and thinly we form judgements about other people, sharpening
+      learners' sense of what actually drives those judgements.
+objectiveIds: [powerful-narratives--o1]
+relatedSlugs: [pn-dont-put-people-in-boxes, pn-stereotypes-concept-map, pn-the-house-burgle-and-buy]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Weeks 4-5: Two truths and a lie)", "ONLINE Powerful Narratives Course Planner (Week 5)"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners, where two truths and a lie is prepared as a Week
+  4 task and run in Week 5 to surface the assumptions behind our guesses.

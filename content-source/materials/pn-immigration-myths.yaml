@@ -1,0 +1,89 @@
+id: pn-immigration-myths
+slug: pn-immigration-myths
+access: public
+type: case-study
+title: Immigration myths
+summary: >-
+  Learners separate the two meanings of "myth", test common claims about immigration against evidence,
+  and examine how myths about a group are made, spread, and challenged.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Dividing the myths among small groups to research and report back covers more ground
+      and models how a claim is checked. Keep the closing discussion on how myths spread, which matters
+      more than winning any single argument.
+  - context: independent
+    how: >-
+      A learner can work through the myths and evidence alone. Ask them to pick two myths, find who
+      benefits from each being believed, and write a short evidence-based reply, so the analysis still
+      goes beyond reading.
+duration: About 75 minutes.
+grouping: Whole group to frame, small groups to research, whole group to share.
+whatLearnersDo:
+  - Distinguish the two meanings of myth, a traditional story, and a widely believed falsehood.
+  - Surface common myths about immigration and about groups they themselves belong to.
+  - Test a set of immigration claims against evidence, in small research groups.
+  - Discuss how such myths are made, who benefits from them, and how they can be challenged.
+educatorContent: |
+  This case study uses "myth" in two senses: the old sense of a traditional explanatory story, and the
+  everyday sense of a widely held false belief. Immigration is a field thick with the second kind. The
+  activity has learners meet a set of common immigration myths (the source article lists ten), divide
+  them up, check each against evidence, and report back.
+
+  The real lesson is not the individual facts but the pattern: how a myth about a group takes hold, whom
+  it serves, and what it takes to unpick one. Start by asking about myths told about groups the learners
+  themselves belong to, so it is not only about distant others. Handle with care: immigration and refugee
+  status may be personal for learners, so keep it possible to engage the ideas without disclosing one's
+  own status.
+
+  Localisation warning: the standard source article is written for a United States context, and its
+  specific figures and laws will not transfer. Use it as a model of the method, checking a claim against
+  evidence, and substitute myths and evidence relevant to your own context.
+learnerContent: |
+  The word **myth** has two meanings: an old traditional story, and a belief that is widely held but
+  false. Immigration attracts a lot of the second kind.
+
+  What myths have you heard about immigrants, or about a group you belong to? Take a set of common claims
+  about immigration and test each one against evidence. Then step back: how did this myth take hold? Who
+  benefits from people believing it? What does it take to challenge it?
+
+  You never have to share anything about your own situation to take part.
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: >-
+    Learning to take a widely believed claim about a group and test it against evidence, then trace whom
+    the myth serves, equips learners to challenge the stories used against people like them. That is a
+    concrete tool for contributing to a fairer conversation in their own community.
+principlesForegrounded: [feedback-and-data, responsible-action]
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      Each myth is tested against evidence rather than opinion, so learners practise grounding a claim in
+      what can actually be shown.
+  - principle: responsible-action
+    how: >-
+      Handling myths about vulnerable groups, without requiring anyone to expose their own status,
+      foregrounds the care needed when a topic is personal for people in the room.
+competencyCodes: [AUS1, FPS2]
+competencyDevelopment:
+  - code: AUS1
+    how: >-
+      Dismantling myths about immigrants is direct practice at recognising and countering unfair
+      stereotypes about a group. The evidence-based replies learners produce are the evidence.
+  - code: FPS2
+    how: >-
+      Testing each claim against evidence, and asking who produced and benefits from it, is exactly the
+      work of evaluating the credibility of sources.
+links:
+  - label: "Immigration myths (source article context)"
+    url: https://www.learningforjustice.org/
+    note: "The standard source is a Learning for Justice article listing ten immigration myths (US context). [to verify exact URL] Substitute context-relevant myths and evidence."
+objectiveIds: [powerful-narratives--o1]
+relatedSlugs: [pn-danger-of-a-single-story, pn-stereotypes-concept-map, pn-iceberg-of-othering]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 7: Immigration Myths)", "Resources/EAL check/week 7/Ten Myths About Immigration"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners, Week 7 "Immigration Myths", which pairs the two
+  meanings of myth with a research task on a ten-myths article. The source article is US-specific and
+  carries a facilitator localisation note in the original pack.

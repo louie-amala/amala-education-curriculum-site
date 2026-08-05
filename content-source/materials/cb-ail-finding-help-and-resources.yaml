@@ -43,6 +43,40 @@ materialsAndPreparation:
 - Small stones or caps and simple people-pictures (a friend, a teacher, a family member, a facility worker) to lay out and sort.
 - Your own honest example of a helper you sought out for a goal, and what you said to reach them, to model first.
 - "Sensitivity: a goal, and who a learner can safely ask, can touch on family, gender and safety. Keep help within safe, same-gender or trusted reach, let learners keep details private, and never push anyone towards a contact that feels unsafe."
+visuals:
+- kind: setup
+  title: "Sort help: near and far"
+  caption: >-
+    The people and things that could help, sorted by what a learner can actually reach now. Small groups
+    pool who they know.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "Can reach now"
+      tone: positive
+      cards: []
+    - label: "Harder to reach"
+      tone: neutral
+      cards: []
+- kind: example
+  title: "My helpers, sorted"
+  caption: >-
+    Sorted, then one real ask chosen and rehearsed — ‘please can you help me with…’.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "Can reach now"
+      tone: positive
+      cards:
+      - "a friend down the path"
+      - "an older sibling"
+      - "the facility worker"
+    - label: "Harder to reach"
+      tone: neutral
+      cards:
+      - "a teacher in another block"
 facilitationNotes: |
   Learners often treat a goal as something they must reach alone, and so stall. The one thing to get
   right is the shift from what do I know to who and what could help me, and then the courage to ask.

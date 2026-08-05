@@ -1,0 +1,38 @@
+id: aesthetics
+slug: aesthetics
+access: public
+term: Aesthetics
+category: content
+matchPhrases:
+- aesthetics
+- aesthetic
+definition: >-
+  The qualities that make something beautiful, moving, or pleasing to the senses, and the study of
+  how and why people respond to them.
+explainer: |
+  Aesthetics is one of the ways we experience art. It asks what draws us in: the beauty of a shape,
+  the pull of a sound, the feeling a colour gives us. In this course an aesthetic goal (to show
+  beauty) sits alongside other goals a work can have — expressive, didactic, and social — and most
+  works serve several at once.
+
+  What counts as beautiful is not fixed or universal. Ideas about beauty are learned, and they sit
+  below the waterline of the [cultural iceberg](/glossary/cultural-iceberg): a pattern, sound, or
+  proportion prized in one culture may read as ordinary in another. Treating aesthetics as
+  culturally shaped, rather than a single global standard, is what lets learners appreciate
+  unfamiliar art on its own terms instead of measuring it against their own.
+
+  Aesthetic response is also separate from an object's use. A bowl can be judged for how it looks
+  and, separately, for what it does — and the two questions do not always agree.
+furtherReading:
+- title: The Concept of the Aesthetic
+  url: https://plato.stanford.edu/entries/aesthetic-concept/
+  source: Stanford Encyclopedia of Philosophy
+  note: An educator-facing overview of what "aesthetic" means and why it is contested.
+examples:
+- A learner explaining why a particular textile pattern is considered beautiful within their culture
+nonExamples:
+- The practical function of an object (what it is used for), which is a separate question from its aesthetic quality
+useInContext: >-
+  Learners weigh the aesthetic goal of a work against its expressive, didactic, and social goals
+  when interpreting or making art.
+relatedTermIds: [form-and-content, symbolism, artistic-context]

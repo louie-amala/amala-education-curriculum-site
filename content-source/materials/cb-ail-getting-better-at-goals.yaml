@@ -44,6 +44,21 @@ materialsAndPreparation:
 - The growth-path sheet (in the provided downloads) and the student workbook page for it.
 - Your own honest example of a next step in setting and pursuing your own goals, to model that no one is finished growing.
 - "Sensitivity: placing yourself on a path can feel exposing. Make clear it is not a test, there is no failing, and a learner at the start is not behind, only beginning."
+visuals:
+- kind: setup
+  title: "The path of getting better at goals"
+  caption: >-
+    Not a test — a path everyone moves along. Learners find where they are now and name their next step.
+  spec:
+    type: zones
+    zones:
+    - label: "The path →"
+      tone: neutral
+      cards:
+      - "can say how a goal works"
+      - "set a goal & took steps"
+      - "reached a goal, know what helped"
+      - "reach goals again and again"
 facilitationNotes: |
   This is a map of how people grow at setting and pursuing their own goals, the competency this whole
   course builds. The one thing to get right is that it is not a test and there is no failing: a learner

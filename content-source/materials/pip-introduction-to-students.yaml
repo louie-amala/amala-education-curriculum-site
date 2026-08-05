@@ -1,0 +1,182 @@
+id: pip-introduction-to-students
+slug: pip-introduction-to-students
+access: public
+type: activity
+title: "Introducing the Personal Interest Project"
+summary: >-
+  Learners meet the PIP, understand the freedom and the requirements it carries, and begin to picture
+  where they could make an impact and what story they want to tell.
+facilitationContext:
+  - group
+  - one-to-one-mentoring
+  - independent
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Launch it with the whole cohort so learners hear the range of possible projects from
+      each other. The warm-up and the first mind-map work best out loud, since one learner naming an
+      interest sparks a bolder one from the next. Keep the paired discussion of the impact question even
+      if you shorten the framing.
+  - context: one-to-one-mentoring
+    how: >-
+      A workable launch for a single learner, and a good chance to tie the PIP to what a mentor already
+      knows about them. What is lost is the range of ideas a cohort produces, so bring two or three
+      contrasting example journeys to stand in for the peers who are not in the room.
+  - context: independent
+    how: >-
+      Weakest fit. A learner can read what the PIP is and its requirements alone, but the point of this
+      session is the spark of possibility, which is hard to strike by yourself. Give the warm-up and the
+      kinds-of-PIP examples in writing, and set a short conversation with a mentor or peer before they
+      settle on anything.
+duration: "45-60 min facilitated"
+grouping: "Whole cohort, with pair and small-group talk; works with 5-35 learners"
+whatLearnersDo:
+  - "Hear what the PIP is: an extended project on something that matters to you, with real freedom over topic, approach and what you produce."
+  - "Understand what the PIP asks of you: around 50 hours, a reflective journal, at least three mentor check-ins, and a final artefact, reflection and presentation."
+  - "Warm up by discussing where you feel you can make an impact, and what story you would like to tell."
+  - "See the kinds of shape a PIP can take, and start a first mind-map of possibilities for your own."
+materialsAndPreparation:
+  - "A short way to show the PIP at a glance: the freedom it gives, the requirements, and the rough shape over the coming months. Slides, a handout, or drawn on a board all work."
+  - "The warm-up keywords written where everyone can see them: dilemma, goal, change, opportunity, perform, create, produce."
+  - "Two or three contrasting example projects ready to name, so learners grasp that a PIP can be a question, a personal aim, or a piece of self-expression."
+  - "Paper or a journal for each learner to start capturing ideas from the first session; the reflective journal begins here."
+facilitationNotes: |
+  The one thing to get right is that learners leave believing the PIP is genuinely theirs. The freedom is
+  the point: they choose the topic, the approach and what they produce. Say plainly that it is not a test,
+  and that artefacts they make can later evidence Amala competencies. Balance that freedom with the real
+  requirements so nobody is surprised later: the hours, the journal, the three check-ins, and the final
+  artefact, reflection and presentation. Do not push anyone to fix on an idea today. The aim is an open
+  head full of possibilities and a first note in their journal, not a decision. Learners who want a
+  ready-made answer are the ones to watch; keep steering them back to what they actually care about.
+steps:
+  - title: "Explain what the PIP is, and that it is yours"
+    duration: "10-15 min"
+    guidance: |
+      Introduce the PIP as an extended chance to engage deeply with something that matters to the learner,
+      applying their Amala learning to their own life. Stress the three freedoms: over the topic, over how
+      they approach it, and over what they produce. Say it can be something new or a project they have
+      already begun. Make clear it is not assessed, though the work can evidence competencies. The message
+      to land is ownership, so speak to what they care about rather than what you want them to do.
+    keyPrompts:
+      - "This project is yours to choose. What is something you genuinely care about or want to get better at?"
+      - "It does not have to be new. Is there something you have already started that you could take further?"
+      - "If nobody was grading this, what would you actually want to spend time on?"
+    watchOuts:
+      - "Learners hearing school and waiting to be told a topic. Name that habit and hand the choice firmly back to them."
+      - "Learners assuming freedom means it is optional or unimportant. Hold both together: real freedom, and a real graduation requirement."
+  - title: "Walk through what the PIP asks of you"
+    duration: "10-15 min"
+    guidance: |
+      Set out the requirements honestly so the freedom sits inside a clear frame: around 50 hours of
+      engagement across the coming months, a reflective journal kept from today with photos, audio, writing
+      or video, at least three check-ins with a PIP mentor, and three things at the end (an artefact they
+      are proud of, a reflection in any format, and a short presentation to a real audience). Sketch the
+      rough shape over time so learners see this is a long, paced project, not a one-off task.
+    keyPrompts:
+      - "Fifty hours across many months. What might keeping a journal from day one look like for you?"
+      - "Your three check-ins are support, not inspection. What would you want a mentor's help with?"
+      - "How could you organise your own time so this steady project does not get squeezed out?"
+    watchOuts:
+      - "The hours frightening people. Point out that much of it is independent work spread over months, not extra classes."
+      - "The journal being heard as a chore. Show quick formats (a voice note, a photo, two lines) so it reads as easy evidence, not homework."
+  - title: "Warm up: where can you make an impact?"
+    duration: "10-15 min"
+    guidance: |
+      Move from information to imagination. In pairs, ask learners where they feel they can make an impact
+      and what story they would like to tell. Put the keywords up (dilemma, goal, change, opportunity,
+      perform, create, produce) and ask each pair to pick a few and say what they mean to them. This
+      loosens the sense that a PIP must be a formal research project and lets personal aims and creative
+      work in on equal terms.
+    keyPrompts:
+      - "Where in your life or community do you feel you could actually change something?"
+      - "Which of these words pulls at you most: dilemma, goal, change, opportunity, perform, create, produce?"
+      - "What story would you like to be able to tell at the end of this?"
+    watchOuts:
+      - "Pairs staying abstract. Ask for one concrete example from their own life before they move on."
+      - "Quieter learners deferring to a confident partner. Give a minute of silent thinking first, then share."
+  - title: "See the shapes a PIP can take, and mind-map your own"
+    duration: "10-15 min"
+    guidance: |
+      Show that a PIP can take very different shapes: a question to investigate (for example, how to widen
+      education access for refugees), a personal aim (pursuing a career direction, learning a skill), or a
+      piece of self-expression (telling a story through art, poetry or film). Give a contrasting example of
+      each. Then ask learners to mind-map every possibility they can think of for themselves, with no
+      filtering yet. Tell them the next sessions will help them choose; today is only about opening the field.
+    keyPrompts:
+      - "Which shape appeals to you: a question to explore, a personal goal, or something to create or perform?"
+      - "Put nothing off the list yet. What are all the things this could be for you?"
+      - "What is on your mind-map that surprises you, or that you would not usually admit to wanting?"
+    watchOuts:
+      - "Learners narrowing to one safe idea immediately. Push for quantity now; choosing comes later, with the brainstorm and reflection tools."
+      - "Copying a neighbour's idea. Fine as a spark, but ask what their own version would be, since the reflection must be individual."
+    adaptation: >-
+      Low-bandwidth or no-device: the mind-map is paper and pen, and the examples can be told aloud. If
+      running asynchronously, send the three example shapes and the keywords in writing and ask for a
+      photographed mind-map before the first check-in.
+closing: >-
+  Ask each learner to write one line in their new journal: the possibility they are most curious about
+  today, and why. Tell them the next sessions (a strengths reflection and a challenges brainstorm) will
+  help them turn this open field into a focus they can commit to.
+learnerContent: |
+  The Personal Interest Project is your chance to spend a long stretch of time on something you genuinely
+  care about, using what you have learned at Amala. You choose the topic. You choose how you approach it.
+  You choose what you produce. It might be a question you want to investigate, a personal goal like a
+  career direction or a new skill, or something you want to create or perform.
+
+  It is not a test. But it does ask a few things of you: around 50 hours over the coming months, a journal
+  you keep from the very start (photos, voice notes, writing, video, anything that captures your thinking),
+  at least three check-in meetings with your mentor, and three things at the end: an artefact you are proud
+  of, a reflection in whatever form you like, and a short presentation to a real audience.
+
+  Start your journal today. Write one line: the possibility you are most curious about right now, and why.
+agencyContribution:
+  indicators:
+    - control-of-future-pathways
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    The launch hands learners real control over an extended piece of their own learning: what to work on,
+    how, and what to make of it. Naming that freedom, and the responsibility that comes with it, is the
+    first act of agency in the PIP, before any topic is chosen.
+principlesForegrounded:
+  - builds-on-identities
+  - connect-to-futures
+  - safe-spaces
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The whole session directs learners towards what matters to them: their interests, experiences and
+      the communities they care about, rather than a set topic. The warm-up asks explicitly where they
+      feel they can make an impact and what story they want to tell.
+  - principle: connect-to-futures
+    how: >-
+      The PIP is framed from the outset as a way to strengthen the futures learners are building, whether
+      that is a career direction, further study or a cause they want to act on, and the kinds-of-PIP
+      examples make that link concrete.
+  - principle: safe-spaces
+    how: >-
+      Saying clearly that the PIP is not assessed, and that no idea is off the list today, creates the
+      trust learners need to name a genuine interest instead of a safe, expected one.
+competencyCodes:
+  - FSL1
+competencyDevelopment:
+  - code: FSL1
+    how: >-
+      The warm-up and first mind-map ask learners to notice their own interests, strengths and what they
+      care about, which is the opening move of self-reflection. The line they write in their journal is
+      the first small piece of evidence for it.
+objectiveIds:
+  - pip--o1
+relatedSlugs:
+  - pip-strengths-and-growth-reflection
+  - pip-challenges-brainstorm
+  - pip-examples-of-student-journeys
+  - pip-planning-template
+sourceRefs:
+  - "Amala GSD Course Planner - Personal Interest Project (PIP) - 2025.docx"
+  - "PIP INTRODUCTION TO STUDENTS.pptx"
+provenanceNote: >-
+  Authored from the PIP course planner's "PIP Introduction" section (introduction plus the philosophy of
+  the PIP) and the "PIP Introduction to Students" slide deck (objectives, requirements, the warm-up
+  keywords, and the worked kinds-of-PIP examples). Mapped to PIP objective 1. No learner data from the
+  source pack is reproduced.

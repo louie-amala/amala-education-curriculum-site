@@ -55,6 +55,27 @@ materialsAndPreparation:
 - Simple bingo grids with pictures or letters, hand-drawn if needed; and an open space to run a listening race.
 - The My Voice book and something to trace or draw with, so learners keep the sounds and words they have owned.
 - "Sensitivity: these are games, and that is a strength here — no one is asked to reveal anything about themselves, and the only word a learner must build is their own name, which most are proud to make. If a learner would rather not use their name, they build another word that matters to them; if racing in front of others feels exposing, they play quietly beside a partner or the mentor first. A game is a place to try, not a test."
+visuals:
+- kind: example
+  title: "Build a word from sound cards"
+  caption: >-
+    Lay the sound cards in order to spell a word; change one card and you have a new word. Reading and
+    spelling made physical.
+  spec:
+    type: zones
+    cardStyle: drawing
+    flow: across
+    flowLabel: "change one"
+    zones:
+    - label: "Build it"
+      tone: known
+      cards:
+      - "m · a · t → mat"
+    - label: "New word"
+      tone: positive
+      cards:
+      - "m · a · n → man"
+      - "s · a · t → sat"
 facilitationNotes: |
   This is where the sounds learners met in the alphabet and sound-games activities are recycled until they
   become automatic. The sources it grows from are built for learners who can already write — they use

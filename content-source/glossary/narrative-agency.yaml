@@ -1,0 +1,32 @@
+id: narrative-agency
+slug: narrative-agency
+access: public
+term: Narrative agency
+category: content
+matchPhrases:
+- narrative agency
+definition: >-
+  The degree to which the person a story is about is shown as able to make choices, act, and shape
+  their own life, rather than appearing only as a passive victim or object.
+explainer: |
+  Every story positions the people in it. Some are given the power to decide, act, and change things;
+  others are shown only as things that happen to, to be pitied or rescued. Narrative agency is that
+  difference: how much autonomy and power the storyteller grants the people portrayed.
+
+  This matters most when telling other people's stories. A refugee's story can be told so that they
+  are only a wound to be displayed, or so that they are a person making choices under hard
+  circumstances. The first strips agency for the sake of an emotional reaction; the second respects
+  it. Storytellers can build agency into a narrative through self-mastery, earned status, achievement,
+  and empowerment, and can also hand agency back by letting people tell their own stories.
+
+  Narrative agency is the storytelling face of [agency for positive change](/glossary/agency-for-positive-change);
+  it is constrained by [dominant narratives](/glossary/dominant-narrative) and protected by
+  [informed consent](/glossary/informed-consent) when someone shares their story.
+examples:
+- A profile that shows a displaced person planning, deciding, and acting, not just suffering.
+nonExamples:
+- A charity appeal that reduces a whole community to helpless figures waiting to be saved.
+useInContext: >-
+  Learners judge how much agency a story grants its subjects, then retell it so the people portrayed
+  hold more of it.
+relatedTermIds: [narrative, dominant-narrative, agency-for-positive-change, public-narrative]

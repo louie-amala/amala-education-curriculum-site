@@ -1,0 +1,59 @@
+id: pn-peer-review-sheet
+slug: pn-peer-review-sheet
+access: public
+type: resource
+title: Story peer review sheet
+summary: >-
+  A printable feedback form for learners to review each other's stories or presentations, prompting
+  specific, useful, and kind feedback on what worked and what would make the story stronger.
+facilitationNotes: >-
+  The one thing to get right: feedback must be specific and kind, not a grade. Set the norm before
+  handing the sheet out, learners point to what actually worked and what one change would strengthen
+  the story, in the words they would want to receive. The sheet has two copies so a learner can review
+  more than one peer. It pairs with any activity where learners produce and share a story.
+learnerContent: |
+  Use this sheet to give a fellow storyteller feedback on a story or presentation.
+
+  Be **specific** (point to the actual moment that worked, or that could be stronger) and be **kind**
+  (say it as you would want to hear it). Note what you enjoyed, the most powerful element, whether it
+  suits its audience, and two or three things you would try next.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learning to give feedback that is both honest and useful lets learners strengthen each other's work,
+    which turns a group of individual storytellers into a community that lifts its own standard. Being
+    reviewed well, in turn, hands each learner concrete direction over how their next story develops.
+principlesForegrounded: [collaboration, feedback-and-data]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The sheet structures a genuine exchange between learners, so stories improve through peer support
+      rather than facilitator judgement alone.
+  - principle: feedback-and-data
+    how: >-
+      It gives learners real audience data on their story, what landed and what did not, which is exactly
+      what they need to revise it well.
+competencyCodes: [FLC3, FSL1]
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      Judging what makes a peer's story land, and saying so precisely, sharpens the learner's own grasp of
+      influential communication. Their completed sheets are the evidence.
+  - code: FSL1
+    how: >-
+      Applying clear quality criteria to another's work, and receiving the same on their own, supports
+      learners in recognising strengths and areas for development.
+downloads:
+  - label: Story peer review sheet
+    file: /downloads/pn-peer-review-sheet.docx
+    format: Word
+    role: worksheet
+    note: >-
+      A feedback form with two copies (one per peer reviewed). Print one each, or have learners copy the
+      prompts into a notebook.
+objectiveIds: [powerful-narratives--o2]
+relatedSlugs: [pn-recipe-for-a-great-story, pn-self-us-now, pn-what-goes-in-the-museum, pn-storytelling-manifesto]
+sourceRefs: ["Resources/Archive/Peer Review Sheet (Powerful Narratives source pack)"]
+provenanceNote: >-
+  Extracted from the Powerful Narratives source pack "Peer Review Sheet" and regenerated as a printable
+  Word document via scripts/downloads/generate-pn-worksheets.js.

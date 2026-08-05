@@ -30,6 +30,47 @@ materialsAndPreparation:
 - The "our questions to ask" page from the research book (one per learner).
 - A few example questions prepared, some open and some leading, to sort together.
 - Marks or simple symbols agreed for recording survey answers (for example, faces or tally marks), for those not yet writing.
+visuals:
+- kind: setup
+  title: "Open, or leading?"
+  caption: >-
+    Sort a few prepared questions into two piles. An open question lets a person tell us what they think;
+    a leading question puts words in their mouth. We want open questions.
+  spec:
+    type: zones
+    zones:
+    - label: "Open question"
+      sublabel: "lets people tell us"
+      tone: positive
+      cards:
+      - "What happens when it rains?"
+      - "What were the hills like before?"
+    - label: "Leading question"
+      sublabel: "pushes an answer"
+      tone: warn
+      cards:
+      - "The rain ruins it, doesn't it?"
+      - "Trees are better, right?"
+- kind: example
+  title: "Our questions, by sub-question"
+  caption: >-
+    The finished set: one or two short, open questions for each of our three sub-questions, tried on each
+    other first and made clearer.
+  spec:
+    type: zones
+    zones:
+    - label: "Before & now"
+      tone: neutral
+      cards:
+      - "hills before & now?"
+    - label: "Rain & hot sun"
+      tone: neutral
+      cards:
+      - "what happens in rain?"
+    - label: "Roots & trees"
+      tone: neutral
+      cards:
+      - "what do roots do?"
 facilitationNotes: >-
   The one thing to get right: questions come from our sub-questions, not from nowhere. Keep pointing
   back to the wall — every question we design should help answer one of the three things we want to

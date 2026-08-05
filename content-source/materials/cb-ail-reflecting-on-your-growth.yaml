@@ -43,6 +43,28 @@ materialsAndPreparation:
 - A short set of spoken reflection prompts you can say in the learners' own language.
 - Coloured pencils and a facilitator pen, to draw the next step and scribe a few words when asked.
 - "Sensitivity: some learners will feel they made little progress, or will have had a hard period through displacement or loss. Say clearly that an honest look back is not judging yourself, and that noticing one small step, or naming what got in the way, is real growth. No one must share, and a learner may only draw."
+visuals:
+- kind: example
+  title: "How far I have come"
+  caption: >-
+    Turning back through the workbook from the first page, a learner sees the distance travelled and names
+    one thing to carry forward.
+  spec:
+    type: zones
+    flow: across
+    flowLabel: "now"
+    zones:
+    - label: "When I started"
+      tone: known
+      cards:
+      - "couldn't set a goal"
+      - "goal: read one page"
+    - label: "Now"
+      tone: positive
+      cards:
+      - "reached my goal"
+      - "I focus best in the morning"
+      - "next: read a whole story"
 facilitationNotes: |
   Looking back is where learning becomes visible and where the next goal comes from. The one thing to get right
   is that learners look at real evidence, their own workbook and goal page, not a vague feeling. Left to a

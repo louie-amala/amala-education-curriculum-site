@@ -77,6 +77,20 @@ competencyDevelopment:
       In Take 2 learners bring research findings back to the template and decide which band each
       piece of evidence belongs in, which is interpretation rather than collection. The revised
       iceberg and their answer on which band was hardest and why are the evidence.
+downloads:
+  - label: Iceberg worksheet (guided)
+    file: /downloads/iceberg-model-worksheet.docx
+    format: Word
+    role: worksheet
+    note: >-
+      Walks the four levels with their guiding prompts and space to write, sets out the two passes
+      (Take 1 now, Take 2 after research), and ends with the blank template. Print one each, or show it
+      and have learners work in notebooks.
+  - label: Iceberg template (blank)
+    file: /downloads/iceberg-model-template.docx
+    format: Word
+    role: template
+    note: The four levels with no prompts — the clean sheet, for a learner who has done it once and is applying it to a new problem.
 objectiveIds: [social-entrepreneurship--o1]
 relatedSlugs: [systems-thinking-iceberg-model, problem-tree, stakeholder-community-mapping, leverage-points]
 sourceRefs: ["iceberg-graphics-questions.pdf", "planner-new.txt"]

@@ -30,6 +30,42 @@ materialsAndPreparation:
 - The "Where I am as a researcher" growth-path page (cb-rp-researcher-growth-path) each learner marked at the start of the course.
 - The "how I have grown as a researcher" reflection page from the research book (one per learner).
 - Step-back and referral guidance to hand, in case the sharing or looking-back touches a hard memory.
+visuals:
+- kind: setup
+  title: "Share with the audience we chose"
+  caption: >-
+    A celebration, not an exam. No one is made to stand and speak alone if that is not safe for them —
+    showing, telling from a seat, or sharing alongside a friend are all real ways to share.
+  spec:
+    type: groups
+    facilitator: true
+    clusters:
+    - size: 3
+      count: 1
+      label: "those sharing"
+    - size: 8
+      count: 1
+      label: "the audience they chose"
+- kind: example
+  title: "How far we have come"
+  caption: >-
+    Each learner returns to the growth path they marked on the first day, marks where they are now, and
+    names one way they have moved from guessing to finding out.
+  spec:
+    type: zones
+    flow: across
+    flowLabel: "grew"
+    zones:
+    - label: "On the first day"
+      tone: question
+      cards:
+      - "we only wondered"
+      - "near the start of the path"
+    - label: "Now"
+      tone: positive
+      cards:
+      - "we found out for ourselves"
+      - "further along the path"
 facilitationNotes: >-
   The one thing to get right: this is a celebration, not an exam. Every learner has grown, and the day is
   for showing that, warmly and together. No one is forced to present in a way that is unsafe for them —

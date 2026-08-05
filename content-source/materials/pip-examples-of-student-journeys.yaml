@@ -1,0 +1,130 @@
+id: pip-examples-of-student-journeys
+slug: pip-examples-of-student-journeys
+access: public
+type: case-study
+title: "Examples of student PIP journeys"
+summary: >-
+  Five short, contrasting accounts of how past students shaped a PIP, used to show learners that a
+  project can take almost any form as long as it goes deep.
+facilitationContext:
+  - group
+  - one-to-one-mentoring
+  - independent
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners read the five journeys, then compare them in small groups against the four
+      questions. The value is in noticing how different the projects are, so keep the comparison in the
+      room even if you shorten the reading by giving one journey per pair to summarise for the others.
+  - context: one-to-one-mentoring
+    how: >-
+      Works well for a learner who is stuck on what shape their PIP could take. Read one or two journeys
+      that contrast with each other and ask which feels closest to what they want. What is lost is the
+      breadth of a group's reactions, so pick the journeys that stretch their thinking most.
+  - context: independent
+    how: >-
+      Reading alone is fine, but the comparison loses force with no one to react to. Ask the learner to
+      write their answers to the four questions and, in particular, what approach is not represented that
+      they might take, then discuss those notes with a mentor or peer.
+educatorContent: |
+  These five journeys exist to do one job: to show learners that a PIP can be almost anything, as long as
+  it is a deeper engagement with something they care about. Learners arriving from school often assume a
+  project must be a formal research report. The journeys break that assumption open by putting a research
+  article next to a charity relaunch, a skills-at-work project, and a human-centred design inquiry.
+
+  Run it as a short reading and comparison. Give learners the five accounts, then work the four questions
+  in small groups: how are these PIPs similar, how are they different, what other approaches are not shown
+  here, and what does this make you think about for your own PIP. The facilitator's real aim, stated in the
+  planner, is that learners leave believing the form is open and the depth is what matters.
+
+  Use these as illustrations of shape, not as templates to copy. Note that several journeys describe
+  students who did not finish everything they hoped to (one completed only the ideation stage of a design
+  process), which is honest and worth pointing out: a PIP is judged on genuine engagement and learning, not
+  on a polished finished product.
+learnerContent: |
+  Here are five ways past students have shaped a PIP. They are very different on purpose.
+
+  1. Building on an existing project. A student took a charity project they were already running and used
+  the PIP to reimagine it, setting a clear new goal rather than carrying on unchanged. They tried expanding
+  it to a new age group, found it did not catch on, went back to research and revised their plan, and ended
+  by curating an exhibition and a celebration event. Their biggest lesson: however well you know your
+  subject, never be afraid to go back to the beginning and ask why something is not working.
+
+  2. A brand-new goal. A student took a long time to find inspiration, then used the United Nations
+  Sustainable Development Goals to identify a community need. They researched the issue deeply, wrote a
+  careful report, ran an inquiry in their community, and ended with recommendations, planning to act on
+  them after the PIP.
+
+  3. A research question. A student wanting to study a subject at university used the PIP to produce an
+  independent piece of research, learning to reference properly and to think critically about an ethical
+  issue. They ended with a journal-style article they could add to their transcript.
+
+  4. Learning on the job. A student wanting to grow at work asked their boss what skills the industry
+  needed, chose ones to develop, enrolled in online courses, and put the learning straight into practice in
+  their job, asking for feedback as they went.
+
+  5. Human-centred design. A student who had learned human-centred design applied it to a community inquiry
+  using a field guide. They only reached the ideation stage in the time they had, and used that work to
+  pitch a project idea at their final presentation.
+
+  As you read, ask yourself: how are these similar? How are they different? What other approach could a PIP
+  take that is not shown here? And what does this make you think about for your own?
+agencyContribution:
+  indicators:
+    - control-of-future-pathways
+  how: >-
+    Seeing five genuinely different journeys widens a learner's sense of what they are allowed to choose,
+    which is the precondition for taking real control of the project. It shows that a PIP can serve a
+    university application, a job, a community, or a personal cause, so learners choose a shape that fits
+    the future they are building.
+principlesForegrounded:
+  - connect-to-futures
+  - authentic-challenges
+  - lifeworthy-competencies
+principleAlignment:
+  - principle: connect-to-futures
+    how: >-
+      The journeys are chosen to show the PIP feeding directly into futures learners recognise: a
+      university transcript, employability at work, a community project carried on afterwards. They make
+      the link between the project and a real next step concrete.
+  - principle: authentic-challenges
+    how: >-
+      Every journey is anchored in a real situation the student faced, from a stalled charity project to a
+      community need, so learners see that the strongest PIPs grow from genuine problems rather than
+      invented ones.
+  - principle: lifeworthy-competencies
+    how: >-
+      Across the five, learners can see research, communication, human-centred design, and
+      self-management being built and used, which shows the PIP as a vehicle for transferable competencies,
+      not just a topic.
+competencyCodes:
+  - FSL1
+competencyDevelopment:
+  - code: FSL1
+    how: >-
+      Comparing the journeys against their own hopes, and articulating what shape would suit them and why,
+      is reflective self-positioning. The learner's answer to 'what does this make you think about for your
+      own PIP' is early evidence of it.
+objectiveIds:
+  - pip--o1
+relatedSlugs:
+  - pip-introduction-to-students
+  - pip-strengths-and-growth-reflection
+  - pip-challenges-brainstorm
+  - pip-planning-template
+downloads:
+  - label: "Examples of student PIP journeys (reading)"
+    file: /downloads/pip-examples-of-student-journeys.docx
+    format: Word
+    role: example
+    note: >-
+      The five journeys written up as a one-page reading, followed by the four discussion questions.
+      Hand out, project, or read aloud.
+sourceRefs:
+  - "PIP Resource_ Examples of Student Journeys.docx"
+  - "Amala GSD Course Planner - Personal Interest Project (PIP) - 2025.docx"
+provenanceNote: >-
+  Drawn from the PIP "Examples of Student Journeys" resource, which is already anonymised in the source
+  ("Student 1" to "Student 5"). Retold faithfully without adding detail. The four discussion questions and
+  the facilitator's aim come from the course planner. Mapped to PIP objective 1.

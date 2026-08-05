@@ -1,0 +1,161 @@
+id: pn-self-us-now
+slug: pn-self-us-now
+access: public
+type: tools-approaches
+title: Self, Us, Now (public narrative)
+summary: >-
+  A three-part structure for telling a story that leads: a story of self, a story of us, and a story
+  of now, used to move a community toward a specific action.
+facilitationContext: [group, independent]
+primaryContext: group
+toolsFacet: facilitation
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, across two or three sittings. Modelling is everything: the facilitator shares their
+      own self / us / now first, and learners build theirs in pairs so they can hear how a listener
+      reacts before they face a bigger audience.
+  - context: independent
+    how: >-
+      A learner can draft a self / us / now story alone using the prompts, but they lose the audience
+      that tells them whether it lands. Ask them to record it and play it back, or share it with one
+      trusted person, and to note where a listener leaned in or drifted.
+educatorContent: |
+  Self, Us, Now (Marshall Ganz's public narrative) is a structure for using story to lead. It links
+  three stories:
+
+  - **Story of Self**: the experiences and choices that shaped your values and called you to act. Not
+    your whole life, but a few chosen moments that reveal what you care about.
+  - **Story of Us**: the shared values and experience of a community you belong to, and what it is
+    capable of together.
+  - **Story of Now**: an urgent challenge that community faces, and a specific action you call on them
+    to take right now.
+
+  The power is in the sequence: a real personal story earns trust, the story of us builds shared
+  identity, and the story of now turns that feeling into a concrete ask. Teach it by modelling. Share
+  three points from your own life journey and name the values they reveal, then let learners find their
+  own. The single most common failure is a story of now with no specific action, so insist on a clear,
+  small, doable ask ("join me in doing X, this week") rather than a vague hope.
+
+  Build it in stages: Self first, then Us, then Now, with a mindmap for Us so learners can see the
+  groups they belong to and what those groups share. Obama's 2004 convention speech is a well-known
+  worked example if you want one, but learners' own stories are the point.
+duration: >-
+  A phase of roughly 3 to 4 hours of facilitated time, best split across two or three sittings, plus
+  independent drafting time.
+grouping: Individually and in pairs, with whole-group modelling and sharing.
+whatLearnersDo:
+  - Identify a few moments from their own life journey and the values those moments reveal (Self).
+  - Map the groups they belong to and the experiences and values those groups share (Us).
+  - Name an urgent challenge and a specific action they would call their group to take (Now).
+  - Draft and share a short public narrative, then reflect on how well the structure works for them.
+materialsAndPreparation:
+  - Space for learners to write and for a mindmap (paper or board).
+  - The facilitator's own worked example of three life-journey points and the values they reveal, prepared in advance.
+  - "Optional: a well-known speech as a worked example (e.g. a public figure's), and a public-narrative worksheet."
+facilitationNotes: >-
+  The one thing to get right: a story of now must end in a specific, doable action, not a wish. Model
+  with your own story before asking for theirs, and let learners choose which life moments to share.
+  Sensitivity: this asks people to draw on personal and community experience, which can touch loss or
+  displacement. Make clear that learners choose what to share and can keep a story private, and never
+  require anyone to perform pain.
+steps:
+  - title: Model a story of self
+    duration: 30-40 min
+    guidance: >-
+      Share three moments from your own life journey and name the values they reveal, then ask learners
+      to choose three of their own and tell a partner. Keep it to journey points that shaped who they
+      are, not necessarily hard ones. The modelling gives permission and sets the level.
+    keyPrompts:
+      - Which moments in your life shaped what you care about most?
+      - What value does that moment show about you, without you having to state it?
+    watchOuts:
+      - Learners reach for their most painful memory because it feels "important". Make clear that ordinary, chosen moments work best and no one has to share pain.
+  - title: Build a story of us with a mindmap
+    duration: 45-60 min
+    guidance: >-
+      Learners map the groups they belong to (family, community, faith, interests, nation) and brainstorm
+      what those groups have lived through and value together. A mindmap makes the shared experience
+      visible. Seat learners who share a group together if it helps.
+    keyPrompts:
+      - Which groups do you belong to, and what have they been through together?
+      - What does your group understand or value because of that shared experience?
+    watchOuts:
+      - The "us" stays abstract ("all humans"). Push for a specific group the learner actually belongs to and can speak for.
+  - title: Name the story of now and the ask
+    duration: 45-60 min
+    guidance: >-
+      From the shared experience, learners identify an urgent issue their group could act on, and turn
+      it into a specific call to action. This is the hardest and most important step. Use the difference
+      between a vague hope and a concrete, time-bound ask to push them toward the latter.
+    keyPrompts:
+      - What urgent challenge could you call on your group to face together?
+      - What is the specific action, small and doable, you would ask them to take now?
+    watchOuts:
+      - "The ask is a wish (\"people should care more\"). Insist on an action a named group could actually do this week."
+  - title: Draft, share, and reflect
+    duration: 45-60 min
+    guidance: >-
+      Learners assemble the three parts into a short public narrative in a form they choose (a spoken
+      piece, a storyboard, a social post) and share it. Reflection focuses on how the structure felt and
+      where it was hard, not on performance quality.
+    keyPrompts:
+      - Where in your story does the personal turn into the shared, and the shared into the call?
+      - How confident do you feel using this structure, and what would help?
+    watchOuts:
+      - "Sharing feels like a performance test. Keep it low-stakes: pairs or small groups, with the focus on the structure rather than delivery."
+    adaptation: >-
+      Independent or low-attendance version: learners record their narrative and play it back, or share
+      with one person, instead of presenting to the group.
+closing: >-
+  Ask each learner which of the three stories was hardest to build and why. Keep the drafts; the
+  structure returns whenever learners want to move others to act, and pairs directly with writing a
+  storytelling manifesto.
+learnerContent: |
+  **Self, Us, Now** is a way of telling a story that leads people to act. It has three linked parts.
+
+  - **Self**: choose a few moments from your life that shaped what you care about. Tell them so your
+    values show, without having to name them.
+  - **Us**: name a group you belong to. What has it been through together? What does it value?
+  - **Now**: what urgent challenge could your group face together? End with one **specific action** you
+    ask them to take now, not a wish, a real, doable step.
+
+  You choose what to share, and you can keep any story private.
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    The structure hands learners a repeatable way to move a community they belong to toward an action
+    they choose, linking their own story to a shared purpose. That is agency in two directions at once:
+    authoring their own narrative, and using it to contribute to change around them.
+principlesForegrounded: [builds-on-identities, connect-to-futures]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The story of self and story of us are built entirely from the learner's own lived experience,
+      identities, and communities, so the tool starts from who they already are rather than an imposed
+      example.
+  - principle: connect-to-futures
+    how: >-
+      The story of now points at a real challenge and a concrete action, connecting the storytelling
+      skill directly to change the learner wants to make in their own community.
+competencyCodes: [FLC3, FLC2, ALC4]
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      The whole tool is influential communication: building a narrative deliberately structured to move
+      an audience from feeling to commitment. The finished public narrative is the evidence.
+  - code: FLC2
+    how: >-
+      The story of us is explicit practice at articulating shared values and belonging, the raw material
+      of fostering connection in a community.
+  - code: ALC4
+    how: >-
+      Ending in a specific call to action is practice at motivating others toward meaningful action;
+      how concrete and doable the ask is shows how well the learner can inspire, not just express.
+objectiveIds: [powerful-narratives--o2, powerful-narratives--o3]
+relatedSlugs: [pn-recipe-for-a-great-story, pn-storytelling-manifesto, pn-what-goes-in-the-museum]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 2: Self, Us, Now)", "Creating Powerful Narratives Learning Engagements (Self, Us, Now 1 & 2)"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners (Week 2 Self/Us/Now sequence) and the
+  facilitator learning-engagement document, which build on Marshall Ganz's public narrative framework.
+  The optional worked example uses a public figure's convention speech.

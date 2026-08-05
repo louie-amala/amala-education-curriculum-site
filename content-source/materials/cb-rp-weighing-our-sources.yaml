@@ -1,8 +1,8 @@
 # Contextualised, fully offline ANALYSIS activity for the Research Project component of Learning Bridge+
 # (Cox's Bazar). Learners meet, in plain terms, how a researcher decides how far to trust a source, and
 # apply it to BOTH their primary evidence and the supplied source pack, marking how much weight each
-# piece can bear. Evaluate evidence phase (objective 3). Reuses the source pack's "Can we trust it?"
-# CRAAP questions. Oral and visual first; hands-on; warm tone; no learner speaks from their own life.
+# piece can bear. Evaluate evidence phase (objective 3). Uses the source pack's corroboration-led three
+# checks. Oral and visual first; hands-on; warm tone; no learner speaks from their own life.
 id: cb-rp-weighing-our-sources
 slug: cb-rp-weighing-our-sources
 access: public
@@ -21,7 +21,7 @@ primaryContext: group
 duration: "2 hours facilitated + 1 hour independent"
 grouping: "Whole group to model, then pairs; a short independent think between sessions"
 whatLearnersDo:
-- Meet five plain questions a researcher asks of any source, and use them on a source together.
+- Meet the three checks a researcher makes of any source — leading with checking it against others.
 - Weigh the sources in the pack — some strong, one weak — and say which can carry more weight.
 - "Weigh their own primary evidence too: one person's strong opinion is not the same as a pattern across many."
 - Mark, in the research book, how much weight each piece of evidence can bear.
@@ -30,31 +30,71 @@ materialsAndPreparation:
 - The evidence log from earlier in the course, with what learners have gathered so far.
 - The "can we trust it?" sheet from the research book (one per learner).
 - A floor or wall where cards can be placed along a line from "trust more" to "trust less".
+visuals:
+- kind: setup
+  title: "A trust line on the floor"
+  caption: >-
+    Make a line from ‘trust more’ at one end to ‘trust less’ at the other. In pairs, learners make the
+    three checks and place each source along it, saying why. It fills up as you go.
+  spec:
+    type: zones
+    zones:
+    - label: "Trust more"
+      tone: positive
+      cards: []
+    - label: "Trust less"
+      tone: warn
+      cards: []
+- kind: example
+  title: "The line, weighed"
+  caption: >-
+    There is no single right order — the reasons are the point. The strongest evidence is what many
+    sources AND our own research agree on.
+  spec:
+    type: zones
+    zones:
+    - label: "Trust more"
+      tone: positive
+      cards:
+      - "what many people said"
+      - "what we saw ourselves"
+      - "the science article"
+      - "the UN report"
+    - label: "Trust less"
+      tone: warn
+      cards:
+      - "a company selling trees"
+      - "one person's opinion"
 facilitationNotes: >-
   The one thing to get right is that trust is not yes-or-no — it is how much weight a piece of evidence
-  can carry. Keep it plain and hands-on: the five questions, then a line on the floor from "trust more"
-  to "trust less", and learners place each source along it and say why. Use the source pack's built-in
-  weak source (the company's website) so the judging has something real to bite on. When you turn to the
-  learners' own primary evidence, keep it warm and general — no learner has to speak from their own life;
-  weigh "what one person told us" and "what many people said" as examples, not anyone's story.
+  can carry, and the way to judge that is to check a source against others, not just to study it on its
+  own. Keep it plain and hands-on: the three checks, then a line on the floor from "trust more" to
+  "trust less", and learners place each source along it and say why. Lead with the third check — does it
+  agree with the other sources and with what we found? — because checking a source against others is the
+  habit that matters most (and the one we can do offline). Use the pack's built-in weak source (the
+  company's website) so the judging has something real to bite on. When you turn to the learners' own
+  primary evidence, keep it warm and general — no learner has to speak from their own life; weigh "what
+  one person told us" and "what many people said" as examples, not anyone's story.
 steps:
-- title: "Five questions a researcher asks"
+- title: "Three checks a researcher makes"
   duration: "30 min"
   guidance: >-
-    Introduce, in plain terms, the five questions we ask of any piece of evidence: Who said it? When?
-    Why did they say it? Do they show how they know? And does it help our question? Add one more idea
-    out loud: could they be mistaken, or have a reason to shape the story so it sounds better? These are
-    the same questions printed on the "Can we trust it?" card in our source pack.
+    Introduce, in plain terms, the three checks we make of any piece of evidence. One: who made it, and
+    why — could they have a reason to tell the story one way (a company selling trees wants trees to
+    sound good)? Two: how do they know — do they show it (numbers, named people, a study), and is it
+    still true? Three, the big one: does it agree with the OTHER sources, and with what we found by
+    asking and looking ourselves? A good researcher does not just study one source on its own — they
+    check it against others. These are the signals printed on the "Can we trust it?" card in our pack.
   keyPrompts:
-  - "Who made this, and how do they know?"
-  - "Could they have a reason to tell it one way?"
-  - "Does other evidence agree with it?"
+  - "Who made this, and could they have a reason to tell it one way?"
+  - "Do they show how they know — and is it still true?"
+  - "Does it agree with the other sources, and with what we found ourselves?"
 - title: "Weigh the source pack on a line"
   duration: "45 min"
   guidance: >-
     Make a line on the floor or wall, from "trust more" at one end to "trust less" at the other. In
-    pairs, learners take a source from the pack, ask it the five questions, and place it on the line,
-    saying why. Draw out why the company's website sits low (it sells trees and shows no proof) and why
+    pairs, learners take a source from the pack, make the three checks, and place it on the line, saying
+    why. Draw out why the company's website sits low (it sells trees and shows no proof) and why
     the science and the UN sources sit higher. There is no single right order — the reasons are the point.
   keyPrompts:
   - "Why does this source sit here and not further along?"
@@ -81,20 +121,20 @@ learnerContent: |
   Not every piece of evidence is equal. Some we can lean on hard; some we should treat with care. A
   researcher does not just ask "is this true or false?" — they ask "how much weight can this carry?"
 
-  For every source, and for everything people told us, ask five questions:
+  For every source, and for everything people told us, make three checks:
 
-  - Who said it?
-  - When?
-  - Why did they say it?
-  - Do they show how they know?
-  - Does it help our question?
+  - Who made it, and why? Could they have a reason to tell the story one way? (A company selling trees
+    wants trees to sound good.)
+  - How do they know — and is it still true? Do they show where their facts come from — numbers, named
+    people, a study — or do they just say it?
+  - Does it hold up? Does it agree with the OTHER sources, and with what WE found by asking and looking?
 
-  And one more: could they be mistaken, or have a reason to tell the story one way? A company selling
-  trees wants trees to sound good. One person's strong opinion is not the same as a pattern many people
-  described. Something we saw ourselves on the hills carries real weight.
+  The third check matters most. One source on its own — even a good one — is only a start. One person's
+  strong opinion is not the same as a pattern many people described; something we saw ourselves on the
+  hills carries real weight. The strongest evidence is what many sources AND our own research agree on.
 
-  We do the same for the source pack and for our own evidence. Then we mark how much weight each piece
-  can bear — so we build our findings on the evidence we can trust, not on a single shaky claim.
+  We do this for the source pack and for our own evidence, then mark how much weight each piece can bear
+  — so we build our findings on evidence we can trust, not on a single shaky claim.
 worksheet:
   slug: cb-rp-can-we-trust-it
   note: "In the research book (student workbook): the 'Can we trust it?' page. Print one per learner."
@@ -126,7 +166,7 @@ objectiveIds: [research-project--o3]
 relatedSlugs: [cb-rp-secondary-source-pack, cb-rp-can-we-trust-it, cb-rp-source-pack-evidence-log, cb-rp-sort-and-theme]
 provenanceNote: >-
   Authored for the Learning Bridge+ (Cox's Bazar) Research Project edition. The source-evaluation
-  activity for the "Evaluate evidence and develop insights" phase (objective 3). Reuses the "Can we
-  trust it?" CRAAP questions printed on every card of the supplied source pack (cb-rp-secondary-source-pack),
+  activity for the "Evaluate evidence and develop insights" phase (objective 3). Uses the corroboration-
+  led three checks printed on every card of the supplied source pack (cb-rp-secondary-source-pack),
   applied to both primary evidence and the pack. Fully offline, oral and visual first, hands-on. Its
   printable "can we trust it?" sheet compiles into the Research Project student workbook.

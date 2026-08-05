@@ -1,0 +1,31 @@
+id: direct-violence
+slug: direct-violence
+access: public
+term: Direct violence
+category: content
+matchPhrases:
+- direct violence
+- physical violence
+definition: >-
+  Visible harm done by an identifiable actor to an identifiable victim — physical or verbal:
+  hitting, killing, threatening, humiliating.
+explainer: |
+  Direct violence is the form most people picture when they hear "violence": one person or group
+  deliberately harming another. It has a clear actor, a clear act, and a clear victim, which makes
+  it the most visible point of the [violence triangle](/glossary/violence-triangle).
+
+  Its visibility is also a trap. Because direct violence is what we see, responses often stop
+  there — ending the fighting — while the [structural violence](/glossary/structural-violence) and
+  [cultural violence](/glossary/cultural-violence) that fed it continue. Galtung's insight is that
+  direct violence is usually the eruption of pressures built up in the other two forms.
+
+  Ending direct violence achieves [negative peace](/glossary/negative-peace). Lasting change means
+  also addressing the structures and beliefs beneath it.
+examples:
+- Assault, armed attack, or verbal abuse and intimidation by an identifiable person or group
+nonExamples:
+- Poverty caused by an unfair system with no single attacker (that is structural violence)
+useInContext: >-
+  Learners distinguish the visible, direct violence in a context from the structural and cultural
+  forces underneath it.
+relatedTermIds: [structural-violence, cultural-violence, violence-triangle, negative-peace]

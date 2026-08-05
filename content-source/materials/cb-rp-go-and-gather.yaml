@@ -26,7 +26,36 @@ materialsAndPreparation:
 - The community map (who and what we can safely learn from).
 - The interview or survey questions the group designed.
 - The gathering-record page in the research book, one per learner.
-- Step-back and referral guidance to hand.
+- A gender-responsive gathering plan, so girls can take part safely — see the facilitation notes.
+- "An agreed safeguarding and referral pathway, set up with the programme before this block: who a facilitator turns to if a learner, or someone they speak to, becomes distressed or is at risk. Follow NRC's Code of Conduct and protection principles."
+visuals:
+- kind: setup
+  title: "Gather in same-gender pairs"
+  caption: >-
+    Gathering happens mostly between sessions, in pairs, with the consent routine already practised. Plan
+    it so girls can take part safely — see the facilitation notes. You hold the check-in and the ethics line.
+  spec:
+    type: groups
+    facilitator: true
+    clusters:
+    - size: 2
+      count: 6
+      label: "same-gender pairs, out to one or two people or places"
+- kind: example
+  title: "A gathering record"
+  caption: >-
+    What one learner found when they asked and looked — in marks, drawings, and a few words. We never
+    write anyone's name.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "What I found when I asked and looked"
+      tone: known
+      cards:
+      - "elder: forest was thick before"
+      - "saw mud across the path"
+      - "many said the rain is worse now"
 facilitationNotes: >-
   The one thing to get right: protect this block and keep the ethics line, every time. Consent is always
   asked, no names are written, no one is pressed to answer, and no learner is ever sent anywhere unsafe
@@ -34,6 +63,15 @@ facilitationNotes: >-
   check-in in same-gender pairs or the group — who did you speak to, what did you find, what got in the
   way. When gathering is disrupted — by a fire, an illness, a week kept indoors — adapting the plan and
   picking it up again is part of the skill, not a failure.
+
+  Plan gathering so every learner can take part safely — this especially means girls. In this community,
+  adolescent girls being seen in public, or approaching people they do not know, can be unsafe or not
+  culturally accepted, so do not send girls out to gather the same way as boys. Arrange gathering that
+  fits: girls gather from people in their own home and from women in their close networks, or gather
+  accompanied by a female facilitator or a trusted female relative, or contribute through careful
+  observation and through the evidence the group gathers together. The aim is that no learner is left out
+  of the investigation because of how gathering is arranged. Plan this with the community and the
+  programme, and have the agreed safeguarding and referral pathway in place before you begin.
 steps:
 - title: "Check in on our gathering"
   duration: "30 min"

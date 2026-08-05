@@ -39,6 +39,27 @@ materialsAndPreparation:
 - Learners' goal page from the last session (the goal they drew).
 - The student workbook (the step-ladder page, with three rungs to draw or colour).
 - Your own goal and its first small step, to model the ladder aloud.
+visuals:
+- kind: example
+  title: "My goal, broken into steps"
+  caption: >-
+    A big goal split into small rungs, with the first step — small enough for a day or two — chosen and
+    coloured in.
+  spec:
+    type: zones
+    flow: across
+    flowLabel: "steps"
+    zones:
+    - label: "My goal"
+      tone: neutral
+      cards:
+      - "read a short story"
+    - label: "My steps (first one first)"
+      tone: positive
+      cards:
+      - "learn 5 letters this week"
+      - "read 3 words"
+      - "read one page"
 facilitationNotes: |
   A goal on the page does nothing until a learner takes a step towards it. The one thing to get right
   is that the first step is small enough to actually be done this week: a first step that is really the

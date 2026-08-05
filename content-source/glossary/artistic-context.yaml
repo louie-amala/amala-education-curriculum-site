@@ -1,0 +1,34 @@
+id: artistic-context
+slug: artistic-context
+access: public
+term: Context (in art)
+category: content
+matchPhrases:
+- artistic context
+- context of an artwork
+definition: >-
+  The circumstances around an artwork — the time, place, culture, artist, and viewer — that shape
+  what it means.
+explainer: |
+  An artwork does not carry a single fixed meaning; meaning is made where the work meets a viewer, in
+  a context. This course separates three kinds. Historical context: the time and place a work was
+  made — its politics, beliefs, and technology. The artist's context: who made it, their life and
+  worldview. The viewer's context: who is looking, and how their age, gender, culture, and
+  experience shape what they see.
+
+  Context is why the same image reads differently as a museum piece, a phone case, or a protest
+  poster, and why an artwork made centuries ago can mean something new today. It also underpins the
+  difference between a subjective reading (what the work means to you) and an attempt at an
+  objective one (what it meant in its own time and place); good interpretation holds both.
+
+  Attending to context is what turns a quick reaction into understanding. It works alongside
+  [form and content](/glossary/form-and-content) and [symbolism](/glossary/symbolism), and it is
+  central to reading art across [cultural interaction](/glossary/cultural-interaction).
+examples:
+- Reading Hokusai's Great Wave differently once you know Japan's isolation and relationship with the sea at the time
+nonExamples:
+- Assuming an artwork means the same thing to everyone, regardless of who is looking or when it was made
+useInContext: >-
+  Learners investigate the historical, artist, and viewer context of a work before deciding what it
+  is about.
+relatedTermIds: [form-and-content, symbolism, cultural-interaction]

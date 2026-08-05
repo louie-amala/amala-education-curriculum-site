@@ -1,0 +1,148 @@
+id: pn-storytelling-manifesto
+slug: pn-storytelling-manifesto
+access: public
+type: tools-approaches
+title: Writing a storytelling manifesto
+summary: >-
+  Learners study example manifestos, then write their own short set of principles for telling stories
+  responsibly, committing to how they will handle other people's stories, consent, and truth.
+facilitationContext: [group, independent]
+primaryContext: group
+toolsFacet: facilitation
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Reading manifestos aloud and hearing others' principles sharpens each learner's own;
+      a principle sounds different once you say it to a room. Keep the sharing round so commitments are
+      made in public, which is what gives a manifesto its force.
+  - context: independent
+    how: >-
+      A learner can draft a manifesto alone from the example texts, and it works well as reflective
+      writing. Ask them to share it with one person and explain why each principle matters to them, so
+      the commitment is witnessed rather than private.
+educatorContent: |
+  A manifesto is a short, public statement of the principles someone commits to live by. Here, learners
+  write their own principles for telling stories: especially other people's stories, which the course
+  has shown can empower or harm.
+
+  Run it as: read, then write, then declare. Give learners one or two example storytelling manifestos to
+  analyse for what a principle looks like (concrete, first-person, actionable) versus a vague slogan.
+  Then they draft their own, up to around eight points. Push for principles they could actually be held
+  to ("I will ask permission before I tell someone else's story") over abstractions ("I will be good").
+  Finally they read them aloud, because a commitment spoken to others carries more weight than one kept
+  in a notebook.
+
+  This tool works best late in the course, once learners have met consent, narrative agency, tokenism,
+  and the harm a careless story can do; the manifesto is where they decide what they will do about it.
+duration: About 90 minutes, or set the drafting as independent work.
+grouping: Individually, with whole-group reading and sharing.
+whatLearnersDo:
+  - Analyse one or two example storytelling manifestos for what makes a principle strong.
+  - Draft their own set of up to about eight storytelling principles.
+  - Test each principle against the question "could someone hold me to this?".
+  - Read their manifesto aloud and commit to it in front of others.
+materialsAndPreparation:
+  - One or two example manifestos on ethical or storytelling practice for learners to analyse.
+  - A simple template or blank page for drafting.
+  - "Recommended after learners have covered consent, narrative agency, and the potential harms of storytelling."
+facilitationNotes: >-
+  The one thing to get right: principles must be concrete enough to be held to. "Be respectful" commits
+  a learner to nothing; "I will let people read what I wrote about them before I publish it" commits
+  them to something. Keep pushing drafts from slogans toward actions. The reading-aloud is not optional
+  decoration: a manifesto declared in public is a real commitment, which is the point of the tool.
+steps:
+  - title: Read manifestos as models
+    duration: 20 min
+    guidance: >-
+      Learners read one or two example manifestos and pull out what makes a principle work. Contrast a
+      concrete, first-person, testable principle with a vague slogan. They are building a quality bar
+      before they write, so they can judge their own draft against it.
+    keyPrompts:
+      - Which of these principles could you actually be held to, and which are just nice words?
+      - What makes a principle specific enough to guide a real decision?
+    watchOuts:
+      - Learners treat the examples as the answer to copy. Frame them as models of form, not content; their principles must be their own.
+  - title: Draft your principles
+    duration: 30 min
+    guidance: >-
+      Learners write up to about eight principles for how they will tell stories, especially other
+      people's. Encourage them to draw on what unsettled them earlier in the course: a story that took
+      someone's agency, a consent that was never asked. Fewer, sharper principles beat a long vague list.
+    keyPrompts:
+      - After all we have seen, what will you refuse to do when telling a story?
+      - What will you always do, even when it is inconvenient?
+    watchOuts:
+      - Manifestos balloon into twenty soft points. Cap it and demand each point earns its place.
+  - title: Test each principle
+    duration: 15 min
+    guidance: >-
+      Learners run each principle through one question: could a friend hold me to this next week? Any
+      principle that fails gets rewritten into an action. This is the step that turns aspiration into
+      commitment, so give it real time.
+    keyPrompts:
+      - If I broke this principle, would anyone be able to point to it?
+      - How would I rewrite this so it names something I actually do?
+    watchOuts:
+      - Learners defend vague principles as "deep". Deep is fine only if it is also testable; hold the line.
+  - title: Declare it
+    duration: 20 min
+    guidance: >-
+      Learners read their manifesto aloud to the group. Keep it respectful and unhurried. Hearing others
+      commit publicly raises the stakes for everyone and often prompts a learner to strengthen a point
+      they now realise they mean.
+    keyPrompts:
+      - Which of your principles matters most to you, and why?
+      - Having heard others, is there a commitment you want to add or sharpen?
+    watchOuts:
+      - The reading becomes a performance to judge. Receive each manifesto as a commitment witnessed, not a piece to critique.
+    adaptation: >-
+      Independent version: learners record their manifesto or share it with one trusted person instead
+      of reading to the whole group.
+closing: >-
+  Ask learners to keep their manifesto somewhere they will see it while making their later story
+  projects, and to revisit whether they held to it. It pairs with the evidencing template "Storytelling
+  Manifesto" as a reflection artefact.
+learnerContent: |
+  A **manifesto** is a short, public statement of the principles you commit to live by.
+
+  Write your own storytelling manifesto: up to about eight principles for how you will tell stories,
+  especially other people's stories. Draw on what unsettled you in this course, a story that took
+  someone's agency, a consent never asked for.
+
+  Test each principle with one question: **could someone hold me to this?** "Be respectful" fails. "I
+  will let people read what I wrote about them before I share it" passes. Then read it aloud, a
+  commitment spoken to others is a real one.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, contribution-to-community]
+  how: >-
+    Deciding, and declaring, the principles you will tell stories by is an act of self-authorship: the
+    learner sets their own ethical terms rather than absorbing whatever the culture models. Because
+    those principles govern how they handle other people's stories, the commitment also protects the
+    community whose stories they will go on to tell.
+principlesForegrounded: [responsible-action, recognise-communicate-growth]
+principleAlignment:
+  - principle: responsible-action
+    how: >-
+      The entire tool is about responsibility in storytelling: consent, representation, truth, and the
+      power to harm. Learners convert that awareness into stated commitments they can be held to.
+  - principle: recognise-communicate-growth
+    how: >-
+      Writing and declaring principles makes a learner's ethical growth explicit and shareable, and the
+      manifesto becomes evidence they can point to of what they now stand for.
+competencyCodes: [FLC1, FLC3]
+competencyDevelopment:
+  - code: FLC1
+    how: >-
+      Articulating principles for handling stories ethically, and committing to them publicly, is direct
+      practice at taking actions guided by personal moral principles. The manifesto is the evidence.
+  - code: FLC3
+    how: >-
+      A manifesto is itself a persuasive form; writing one so its principles are sharp and declarable is
+      practice at communicating a stance that could move and commit others.
+objectiveIds: [powerful-narratives--o2]
+relatedSlugs: [pn-self-us-now, pn-recipe-for-a-great-story, pn-what-goes-in-the-museum]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 8: Writing a manifesto)", "EVIDENCE TEMPLATE_ Storytelling Manifesto"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planner, Week 8 "Writing a manifesto", which has learners
+  analyse existing storytelling manifestos and write their own. The course's evidencing template
+  "Storytelling Manifesto" is the paired reflection artefact.

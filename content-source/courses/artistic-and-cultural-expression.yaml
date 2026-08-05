@@ -36,6 +36,19 @@ requirements:
     objective and must have opportunities to explore the ideas and practices
     described in the "To meet this objective, learners are supported to…" column.
 
+# Enriched glossary entries carrying the course's key concepts (explainer + furtherReading),
+# following the course-key-concepts pattern. Sourced from the 2019 unit planner's concept lists
+# and Objective 1's named art-theory concepts (form, content, symbolism, context).
+keyConcepts:
+  - aesthetics
+  - form-and-content
+  - symbolism
+  - artistic-context
+  - cultural-iceberg
+  - cultural-heritage
+  - cultural-interaction
+  - cultural-appropriation
+
 objectives:
   - statement: >-
       Explore and interpret how artistic expression reflects and shapes

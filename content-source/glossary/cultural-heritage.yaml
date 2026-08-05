@@ -1,0 +1,38 @@
+id: cultural-heritage
+slug: cultural-heritage
+access: public
+term: Cultural heritage
+category: content
+matchPhrases:
+- cultural heritage
+- intangible heritage
+definition: >-
+  The inherited traditions, objects, sites, and practices a group values and chooses to keep and pass
+  on — both tangible (buildings, artefacts) and intangible (music, craft, ritual, language).
+explainer: |
+  Cultural heritage is not simply everything old; it is what people value from the past and decide
+  is worth keeping and handing on. It comes in two forms. Tangible heritage is physical:
+  buildings, monuments, objects, sites. Intangible heritage is living practice: songs, dances,
+  crafts, oral stories, languages, and the knowledge of how to make and do things.
+
+  Heritage can be lost. When the last people who hold a skill stop practising it, it can disappear —
+  as nearly happened with many traditional crafts — which is why communities and bodies like UNESCO
+  work to protect and revive it. The question of what to preserve, and who decides, is itself
+  worth examining: heritage is about values as much as objects.
+
+  In this course heritage is where the [cultural iceberg](/glossary/cultural-iceberg) meets time: it
+  is the part of a culture a group carries forward, and it is constantly reshaped by
+  [cultural interaction](/glossary/cultural-interaction).
+furtherReading:
+- title: What is Intangible Cultural Heritage?
+  url: https://ich.unesco.org/en/what-is-intangible-heritage-00003
+  source: UNESCO
+  note: Clear educator-facing explanation of intangible heritage and why it is safeguarded.
+examples:
+- A weaving technique passed down through generations that a community works to keep alive
+nonExamples:
+- A mass-produced object with no particular meaning to, or connection with, a community's identity
+useInContext: >-
+  Learners decide what counts as heritage and design an artwork or event that helps preserve or revive
+  something at risk of being lost.
+relatedTermIds: [cultural-interaction, cultural-iceberg]

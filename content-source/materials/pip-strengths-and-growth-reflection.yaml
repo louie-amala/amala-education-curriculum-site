@@ -1,0 +1,196 @@
+id: pip-strengths-and-growth-reflection
+slug: pip-strengths-and-growth-reflection
+access: public
+type: activity
+title: "Strengths and growth: a knowledge, skills, attitudes and values reflection"
+summary: >-
+  Learners map what they know, can do, and believe, and where they want to grow, then use that picture
+  to surface project ideas aligned with their own purpose.
+facilitationContext:
+  - group
+  - one-to-one-mentoring
+  - independent
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners fill the table individually, then compare in small groups. The comparison is
+      where ideas multiply and where learners spot others with a shared interest they might work with, so
+      keep the small-group discussion even if you shorten the individual writing.
+  - context: one-to-one-mentoring
+    how: >-
+      A strong fit. A mentor who knows the learner can gently challenge a thin self-picture, name strengths
+      the learner undersells, and help turn the reflection into first project ideas. What is lost is
+      hearing peers' ideas, so ask the learner to share the table with one peer afterwards.
+  - context: independent
+    how: >-
+      Workable for the writing, weaker for the turning-into-ideas. Alone, learners tend to fill the
+      strengths column and rush the rest. Give the guiding questions in full, ask them to write at least
+      two entries per cell, and set a conversation with a mentor or peer to draw project ideas out of it.
+duration: "40-50 min facilitated"
+grouping: "Individual writing, then small groups of 3-5; works with 5-35 learners"
+whatLearnersDo:
+  - "Fill in a table across knowledge (what you know), skills (what you can do), and attitudes and values (what you believe)."
+  - "For each, note a strength you could use to make an impact, and an area you would like to develop."
+  - "Discuss with a small group what you learned about yourself and where your ideas overlap with others."
+  - "Draw out first ideas for a PIP that fit your own strengths, purpose and the ways you want to grow."
+materialsAndPreparation:
+  - "The reflection table, one per learner (printed, in the workbook, or copied into a journal): three columns, and rows for strength, for development, and for a concluding idea."
+  - "The guiding questions for each cell, shown or read aloud, so learners know what a strong entry looks like."
+  - "A worked example of one filled cell, generic and not from a real learner, to show the level of specificity wanted."
+facilitationNotes: |
+  The one thing to get right is that this reflection produces project ideas, not just a tidy table. Its
+  purpose is to help learners filter towards a PIP aligned with their own purpose, mission and values, so
+  always land the final step where strengths and growth areas become candidate ideas. Watch two failure
+  modes: learners who fill only the knowledge and skills columns and skip attitudes and values, which is
+  where the most personal projects come from; and learners who treat development areas as confessions of
+  weakness rather than exciting places to grow. Keep the tone one of possibility. This is sensitive
+  ground for some, so let learners choose how much to share in the group.
+steps:
+  - title: "Introduce why we reflect before choosing"
+    duration: "5 min"
+    guidance: |
+      Explain that jumping straight to a project idea often lands learners somewhere that does not really
+      fit them. Reflecting first on what they know, can do and believe helps them choose a PIP aligned with
+      their own purpose. Show the three columns and read the guiding questions for each, and give one
+      generic worked example so the level of detail is clear. Keep it short: the reflection itself is where
+      the value is.
+    keyPrompts:
+      - "Why might it be worth knowing your own strengths before picking a project?"
+      - "Which of these three feels hardest to write about for you: what you know, what you can do, or what you believe?"
+    watchOuts:
+      - "Learners wanting to skip to ideas. Hold the line: ten minutes of honest reflection saves weeks on the wrong project."
+  - title: "Fill in your strengths across the three columns"
+    duration: "12-15 min"
+    guidance: |
+      Learners work individually. For each column, they name things they are knowledgeable about, things
+      they can do well, and the principles and beliefs that guide their choices, and note how each could be
+      used to make a positive impact. Move around and prompt the ones who freeze, especially on attitudes
+      and values, which many find harder to put into words. Reassure them there are no wrong answers here.
+    keyPrompts:
+      - "What is something you know about that most people around you do not?"
+      - "What is a skill others come to you for?"
+      - "What belief or value of yours actually changes what you decide to do?"
+    watchOuts:
+      - "The attitudes and values column left blank. Offer a concrete prompt (what makes you angry, what you would defend) to unlock it."
+      - "Learners underselling real strengths as ordinary. Point out that a strength does not have to be rare to be useful."
+  - title: "Name where you want to grow"
+    duration: "8-10 min"
+    guidance: |
+      In the same three columns, learners note what they would like to know more about, do better, or
+      believe more firmly, and how they might learn it. Frame development as the exciting part: a PIP is a
+      chance to grow, not only to display what you already have. Encourage them to write the areas they are
+      genuinely curious about, since these often make the most motivating projects.
+    keyPrompts:
+      - "What is something you have always wanted to understand or be able to do, but never had the excuse to learn?"
+      - "If this project could help you grow in one way, what would you choose?"
+    watchOuts:
+      - "Development read as failure. Reframe every gap as a possible project, not a shortcoming."
+      - "Vague entries like 'communication'. Push for the specific version: communication with whom, to do what?"
+  - title: "Discuss and draw out project ideas"
+    duration: "12-15 min"
+    guidance: |
+      In small groups, learners share what they learned about themselves, as much or as little as they
+      choose. Then each writes concluding notes: what project ideas are emerging from their strengths and
+      growth areas? Ask groups to notice where two people have overlapping interests, since the PIP can be
+      done in a small team. Close by having each learner commit one or two candidate ideas to their journal.
+    keyPrompts:
+      - "What did this reflection tell you about the kind of project that would actually suit you?"
+      - "Does anyone here share an interest you could build a project on together?"
+      - "Which one or two ideas will you carry into the challenges brainstorm next?"
+    watchOuts:
+      - "Groups sharing so much that private things are exposed. Remind them they choose what to share; the reflection stays theirs."
+      - "Learners leaving with a table but no idea. Do not let anyone finish without at least one candidate idea written down."
+    adaptation: >-
+      No devices or low bandwidth: the table is entirely paper-based. If run asynchronously, learners
+      complete the table alone and bring their candidate ideas to the next session or a check-in, with the
+      guiding questions supplied in writing so the growth columns are not skipped.
+closing: >-
+  Each learner ends with one or two candidate project ideas in their journal, drawn from their own
+  strengths and the ways they want to grow. These feed straight into the challenges brainstorm and,
+  later, the PIP plan.
+learnerContent: |
+  Before you choose a project, it helps to look honestly at what you already bring and where you want to
+  grow. Fill in this table for yourself.
+
+  Three columns:
+  - Knowledge: things you know about the world.
+  - Skills: things you can do well in the world.
+  - Attitudes and values: the principles and beliefs that shape your choices, judgements and actions.
+
+  For each column, write two things:
+  - Strength: what are you knowledgeable about, good at, or guided by, and how could you use it to make a
+    positive impact?
+  - Development: what do you want to know more about, do better, or believe more firmly, and how could you
+    learn or practise it?
+
+  Then conclude: looking at your strengths and the ways you want to grow, what ideas for a personal
+  interest project are starting to emerge? Write down one or two to carry forward.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+    - contribution-to-community
+  how: >-
+    Choosing a project from an honest account of your own strengths, values and growth areas is
+    self-direction in practice: the PIP becomes an expression of who the learner is and wants to become,
+    rather than a task handed to them. Grounding it in what they can offer also points their contribution
+    where it can be real.
+principlesForegrounded:
+  - builds-on-identities
+  - lifeworthy-competencies
+  - safe-spaces
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The reflection starts from the learner's own knowledge, skills and, crucially, their values and
+      beliefs, so the project that emerges is rooted in their identity and purpose rather than a topic
+      chosen for them.
+  - principle: lifeworthy-competencies
+    how: >-
+      By naming skills they have and skills they want, learners connect the PIP to competencies that
+      matter beyond it, and see the project as a deliberate chance to develop transferable strengths.
+  - principle: safe-spaces
+    how: >-
+      Learners decide how much of their reflection to share, and development areas are framed as places to
+      grow rather than weaknesses, so honest self-examination feels safe.
+competencyCodes:
+  - FSL1
+  - FSL3
+competencyDevelopment:
+  - code: FSL1
+    how: >-
+      The whole activity is structured self-reflection: learners identify and exemplify their knowledge,
+      skills, expertise and areas for development, which is this competency exactly. The completed table
+      and the ideas drawn from it are direct evidence.
+  - code: FSL3
+    how: >-
+      Naming what they want to learn and how they might learn it is the learner setting their own
+      continuous-learning agenda, which the PIP then acts on.
+objectiveIds:
+  - pip--o1
+relatedSlugs:
+  - pip-introduction-to-students
+  - pip-challenges-brainstorm
+  - pip-examples-of-student-journeys
+  - pip-planning-template
+downloads:
+  - label: "Strengths and growth reflection (guided worksheet)"
+    file: /downloads/pip-strengths-and-growth-reflection-worksheet.docx
+    format: Word
+    role: worksheet
+    note: >-
+      The three-column table with every guiding question in place and space to write, ending with the
+      concluding prompt that turns the reflection into project ideas. Print one each, or copy the table
+      into a journal.
+  - label: "Strengths and growth reflection (blank template)"
+    file: /downloads/pip-strengths-and-growth-reflection-template.docx
+    format: Word
+    role: template
+    note: The three columns and rows with no questions, for a learner who has done it once and wants a clean sheet.
+sourceRefs:
+  - "PIP Resource_ Knowledge, skills, attitudes and values reflection.docx"
+  - "Amala GSD Course Planner - Personal Interest Project (PIP) - 2025.docx"
+provenanceNote: >-
+  Authored from the PIP "Knowledge, skills, attitudes and values reflection" resource and the course
+  planner's "PIP Initial Reflections" section. The table structure and guiding questions follow the
+  source template; the facilitation is built to the materials standard. Mapped to PIP objective 1.

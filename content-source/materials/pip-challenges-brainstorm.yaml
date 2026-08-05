@@ -1,0 +1,198 @@
+id: pip-challenges-brainstorm
+slug: pip-challenges-brainstorm
+access: public
+type: activity
+title: "Challenges brainstorm: personal, community and global"
+summary: >-
+  Learners generate challenges across three levels, personal, community and global, then pick the ones
+  they care about most and could realistically act on within the PIP.
+facilitationContext:
+  - group
+  - one-to-one-mentoring
+  - independent
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners fill the three columns individually, then compare in small groups. The
+      comparison surfaces shared challenges that could become team projects and shows the range of what
+      counts, so keep the small-group compare-and-contrast even if you shorten the solo brainstorm.
+  - context: one-to-one-mentoring
+    how: >-
+      A good fit for focusing. A mentor can help one learner widen a thin list and then test which
+      challenge is the right size for the time they have. What is lost is the volume and variety a cohort
+      produces, so ask the learner to brainstorm widely before the session rather than in it.
+  - context: independent
+    how: >-
+      Workable for generating, weaker for judging scope. Alone, learners often list a few obvious
+      challenges and stop, or pick one far too big. Ask for at least three entries per column and have
+      them test their final choice against the time-and-impact question with a peer or mentor.
+duration: "40-45 min facilitated"
+grouping: "Individual, then small groups of 3-5; works with 5-35 learners"
+whatLearnersDo:
+  - "Brainstorm challenges you face personally, in the columns for personal, community and global."
+  - "Remember that community can mean many things: your camp or village, a religious or sports group, or people who share a situation with you."
+  - "Compare and contrast your columns with a small group, and notice challenges you share."
+  - "Choose the challenges that interest you most and that you could realistically make an impact on in the time you have."
+materialsAndPreparation:
+  - "The three-column table, one per learner (printed, in the workbook, or copied into a journal): personal, community, global."
+  - "The prompts that sit under each column (what counts as a personal, a community, and a global challenge), shown or read aloud."
+  - "A broad definition of community ready to give, since many learners read it too narrowly at first."
+facilitationNotes: |
+  The one thing to get right is the closing judgement: out of everything listed, which challenge both
+  matters to the learner and is the right size to act on within the PIP, not so small it is trivial and
+  not so big it cannot move. Push for volume first, then narrow, since a wide brainstorm produces a far
+  better final choice than a first safe guess. This activity can surface hard personal ground: money,
+  health, displacement, family, safety. Let learners choose what they write and what they share, never
+  require anyone to disclose, and be ready to steer a learner gently towards a community or global angle
+  if a personal challenge is too raw to work on. Keep the definition of community broad, or learners
+  default to only the largest, most abstract issues.
+steps:
+  - title: "Set up the three levels and a broad idea of community"
+    duration: "5-8 min"
+    guidance: |
+      Introduce the three columns and what each holds: personal challenges the learner faces, challenges
+      faced by a community they belong to, and global challenges that would cause problems for the world if
+      left unaddressed. Spend real time on community, giving a broad definition (a village or camp, a
+      religious group, a sports team, women in their community, people with a shared difficulty), because
+      many learners otherwise skip this richest column. Give one neutral example per column.
+    keyPrompts:
+      - "What is a community you belong to? Now name another, and another. Which of those face challenges you see up close?"
+      - "What counts as a global challenge? What makes it global rather than personal or local?"
+    watchOuts:
+      - "Community read as only 'my country'. Widen it deliberately with several small, concrete examples."
+      - "Learners jumping to solutions already. Hold them on naming challenges for now; ideas come after."
+  - title: "Brainstorm widely across the three columns"
+    duration: "12-15 min"
+    guidance: |
+      Learners work individually to fill all three columns with as many challenges as they can, without
+      filtering. Encourage quantity over polish. Move around and prompt anyone stuck, offering the
+      under-column examples as sparks rather than answers. Reassure learners they will not have to act on
+      everything they write, which frees them to be honest about difficult things.
+    keyPrompts:
+      - "What gets in the way of your own learning or plans, week to week?"
+      - "What do people in one of your communities struggle with that outsiders might not notice?"
+      - "What worries you about the wider world that connects to your own life?"
+    watchOuts:
+      - "A learner writing something they clearly find distressing. Quietly check in, and remind them they need not choose it as their focus."
+      - "Short, generic lists. Ask a second and third question per column to push past the obvious first answer."
+  - title: "Compare and contrast in small groups"
+    duration: "10-12 min"
+    guidance: |
+      In small groups, learners compare their tables. The aim is twofold: to widen each person's thinking
+      by borrowing challenges from others, and to spot where two people share a challenge they might work
+      on together, since a PIP can be a small team. Keep it comparative, not confessional, so nobody feels
+      pressed to explain a personal entry they would rather keep private.
+    keyPrompts:
+      - "Whose challenge on someone else's list do you wish you had thought of?"
+      - "Did two of you write the same thing? Could that be a project you do together?"
+      - "What kind of challenge is missing from all your lists?"
+    watchOuts:
+      - "Pressure to explain personal entries. Make clear the compare step is about the community and global columns unless a learner chooses otherwise."
+      - "One learner's list dominating. Give each person a fixed turn so quieter members are heard."
+  - title: "Choose what matters, and what is the right size"
+    duration: "8-10 min"
+    guidance: |
+      Each learner returns to their table and answers the closing question: which challenges interest them
+      most, and which could they realistically make an impact on in the PIP's timeframe, not too small and
+      not too big? Ask them to write a short conclusion naming one or two candidate challenges and why.
+      This is the bridge from brainstorm to project, so do not let anyone leave without it.
+    keyPrompts:
+      - "Of everything here, which challenge do you actually care about acting on?"
+      - "Is this the right size? Could you make some real impact on it in the months you have?"
+      - "If it feels too big, what smaller part of it could you take on instead?"
+    watchOuts:
+      - "Choosing the biggest global issue for its importance. Redirect to a version they could actually move within the time and access they have."
+      - "Choosing something they do not care about because it looks easy. Motivation carries a long project; interest matters more than ease."
+    adaptation: >-
+      No devices or low bandwidth: the table is paper only, and the compare step works with learners simply
+      swapping sheets. If run asynchronously, learners complete and narrow the table alone using the
+      written prompts, then test their choice at the next check-in.
+closing: >-
+  Each learner leaves with one or two candidate challenges named and a sentence on why each matters and
+  why it is the right size. With the strengths reflection, this is the raw material for the PIP plan.
+learnerContent: |
+  Now generate a list of challenges that could become your project. Use three columns.
+
+  - Personal challenge: challenges you face yourself. For example, money or internet access, time, family
+    responsibilities, a skill you lack, or worries about your future.
+  - Community challenge: challenges faced by a community you belong to. Community is broad. It could be
+    your camp or village, a religious group, a sports team, women in your community, or anyone who shares
+    a situation with you.
+  - Global challenge: challenges that, if left unaddressed, would cause problems for the world. For
+    example, climate change, inequality, or the loss of nature.
+
+  Write as many as you can in each column. Do not filter yet, and do not worry about solving them.
+
+  Then conclude: out of all the challenges you have identified, which interest you the most? Which feel
+  like ones you could make a realistic impact on in the time you have for the PIP, not too small, but not
+  too big? Write down one or two to carry forward.
+agencyContribution:
+  indicators:
+    - contribution-to-community
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Scanning personal, community and global challenges and choosing one to act on is the moment a learner
+    turns concern into a possible contribution. Testing it for the right size keeps the contribution real
+    rather than gestural, and choosing what matters to them keeps the project their own.
+principlesForegrounded:
+  - authentic-challenges
+  - builds-on-identities
+  - safe-spaces
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      Every challenge on the table is one the learner actually faces or sees, drawn from their own life,
+      community and world, so the PIP that grows from it is grounded in a real situation rather than a
+      hypothetical one.
+  - principle: builds-on-identities
+    how: >-
+      The personal and community columns start from the learner's own experience and the groups they
+      belong to, so the challenge they choose reflects who they are and where they come from.
+  - principle: safe-spaces
+    how: >-
+      Learners control what they write and what they share, and are never required to choose or disclose a
+      painful personal challenge, so the activity can surface difficult things without exposing anyone.
+competencyCodes:
+  - FSI1
+  - FSL1
+competencyDevelopment:
+  - code: FSI1
+    how: >-
+      Identifying challenges that affect people and communities, and singling out one worth investigating,
+      is the first step of investigating a real-world issue. The chosen challenge and the learner's reason
+      for it are early evidence towards this competency.
+  - code: FSL1
+    how: >-
+      Deciding which challenge genuinely matters to them, and which is the right size for them to act on,
+      requires learners to weigh their own interests and capacity, which is self-reflection applied to a
+      choice.
+objectiveIds:
+  - pip--o1
+relatedSlugs:
+  - pip-introduction-to-students
+  - pip-strengths-and-growth-reflection
+  - pip-examples-of-student-journeys
+  - pip-planning-template
+downloads:
+  - label: "Challenges brainstorm (guided worksheet)"
+    file: /downloads/pip-challenges-brainstorm-worksheet.docx
+    format: Word
+    role: worksheet
+    note: >-
+      The three columns with their prompts and space to write, the broad definition of community, and the
+      closing question that narrows the list to one or two candidate challenges. Print one each, or copy
+      the table into a journal.
+  - label: "Challenges brainstorm (blank template)"
+    file: /downloads/pip-challenges-brainstorm-template.docx
+    format: Word
+    role: template
+    note: The three columns with no prompts, for a learner who has done it once and wants a clean sheet.
+sourceRefs:
+  - "PIP Resource_ Challenges Brainstorm.docx"
+  - "Amala GSD Course Planner - Personal Interest Project (PIP) - 2025.docx"
+provenanceNote: >-
+  Authored from the blank "PIP Challenges Brainstorm" template and the course planner's "Challenge
+  Brainstorm" section. The three-column structure and the closing time-and-impact question follow the
+  source; facilitation is built to the materials standard. Filled-in student copies in the source pack,
+  which contain named learners' personal data, are deliberately not reproduced.

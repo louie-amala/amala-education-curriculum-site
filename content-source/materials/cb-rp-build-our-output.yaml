@@ -29,6 +29,19 @@ materialsAndPreparation:
 - The evidence log and the cohort's insight statements, to check each claim against.
 - Simple making materials — paper, pens, and whatever the chosen format needs; a space to rehearse.
 - The building page from the research book (one per learner).
+visuals:
+- kind: setup
+  title: "Small teams make; teams show teams"
+  caption: >-
+    Most of the making happens in the independent hours; use session time for feedback and rehearsal, not
+    to make from scratch. Teams show a first version to another team, then rehearse.
+  spec:
+    type: groups
+    facilitator: true
+    clusters:
+    - size: 4
+      count: 4
+      label: "small making teams"
 facilitationNotes: >-
   The one thing to get right: this is where findings become something another person can follow and
   trust. Most of the making happens in the independent hours; use session time to give and act on

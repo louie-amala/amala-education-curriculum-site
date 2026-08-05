@@ -577,6 +577,11 @@ export function validateGraph(): ValidationReport {
         );
       }
     }
+    for (const d of prog.downloads) {
+      if (d.file.startsWith("/") && !existsSync(join(process.cwd(), "public", d.file))) {
+        errors.push(`Programme "${prog.id}" download "${d.label}" points to missing file "${d.file}".`);
+      }
+    }
   }
 
   const materialSlugs = new Set(materials.map((m) => m.slug));

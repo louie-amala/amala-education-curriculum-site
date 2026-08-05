@@ -25,6 +25,44 @@ materialsAndPreparation:
 - A picture (or a story you tell) of the hills before the camps and now — bare slopes, few trees.
 - 'The research question written or drawn big to show at the end: "What happens to our hills without trees, and what changes when trees and plants grow back?"'
 - Step-back and referral guidance to hand, in case the talk touches a landslide or a lost shelter.
+visuals:
+- kind: setup
+  title: "The hills, before and now"
+  caption: >-
+    Show one picture, or a wall in two halves — the forested hills of before, the bare slopes of now.
+    Let learners look and react before you explain anything.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "Before"
+      sublabel: "the hills the elders remember"
+      tone: positive
+      cards:
+      - "hills full of trees"
+      - "shade and cool"
+    - label: "Now"
+      sublabel: "the hills today"
+      tone: warn
+      cards:
+      - "bare slopes"
+      - "soil slides in rain"
+- kind: example
+  title: "Our wonder-wall"
+  caption: >-
+    The wonderings gathered in step 2 — the first seeds of our research. No question is too small, and a
+    drawn one counts.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "What we wonder"
+      tone: question
+      cards:
+      - "Why did the trees go?"
+      - "Where does the mud go?"
+      - "Will the trees come back?"
+      - "Why is it so hot now?"
 facilitationNotes: >-
   The one thing to get right: keep the tone one of curiosity and hope — the land is greening again — not
   disaster. The trees are a safe subject, but they touch landslides and lost shelters, so no learner has

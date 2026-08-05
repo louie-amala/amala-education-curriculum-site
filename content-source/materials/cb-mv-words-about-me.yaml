@@ -51,6 +51,24 @@ materialsAndPreparation:
 - Your own simple picture-words ready to show and say first, so learners see what a picture-word is.
 - A lighter, everyday set of words always ready as an alternative to home and family — a food, a colour, a game, a thing they like.
 - "Sensitivity: home, where I am from, and family words can touch displacement, loss, separation, and marriage. Never ask a learner to name a person or place that is gone. Always offer the everyday focus instead — what I like, a food, a colour — and make clear that is a full and good answer. Follow the programme's step-back and referral guidance if a word opens grief, and let the learner decide what, if anything, to share."
+visuals:
+- kind: example
+  title: "My words about me"
+  caption: >-
+    A personal word wall — the picture-words that are true for this learner, each a drawing and a word in
+    their book.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "Words that are true for me"
+      tone: positive
+      cards:
+      - "Rashida"
+      - "rice"
+      - "blue"
+      - "my mother"
+      - "goat"
 facilitationNotes: |
   This activity gives learners the words they will need to say who they are — but here those words are
   learned as picture-words and spoken aloud, never read, because most learners are not yet reading in any

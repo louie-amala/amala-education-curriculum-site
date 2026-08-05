@@ -50,6 +50,21 @@ materialsAndPreparation:
 - The learner's picture-words from cb-mv-words-about-me (their drawn or chosen words for name, place, and things they like), so they have real words to put in the frames.
 - The three frames ready to show large and simple on paper or the ground, as pictures-plus-a-few-words that learners point to rather than read.
 - "Sensitivity: 'I am from ___' can touch displacement, loss, and separation. Let a learner name a smaller, safer place, or fill the frame with a colour, a food, or a thing they like instead; no one has to say where they are from."
+visuals:
+- kind: example
+  title: "My first sentences"
+  caption: >-
+    The three sentence frames, made into strips a learner can say aloud and keep. Chorus, then pairs, then
+    on their own.
+  spec:
+    type: zones
+    zones:
+    - label: "I can say…"
+      tone: positive
+      cards:
+      - "I am Fatima"
+      - "I am from my village"
+      - "I like rice"
 facilitationNotes: |
   This is the step where single words become whole sentences, and for many learners the first English
   sentence they ever speak. Unlike a literate group that can read the frames and drill them on paper,

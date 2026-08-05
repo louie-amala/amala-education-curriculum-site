@@ -30,6 +30,44 @@ materialsAndPreparation:
 - The community map made earlier in the course, to point to the real people and places learners might ask.
 - The "asking permission" reminder page from the research book (one per learner), and referral guidance to hand.
 - Step-back and referral guidance ready, in case practice touches something personal.
+visuals:
+- kind: setup
+  title: "Two ways to find out"
+  caption: >-
+    Show the two ways side by side, with pictures. Point to the community map — those are the real people
+    the first way will take us to.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "Ask & look here"
+      sublabel: "primary — first-hand"
+      tone: known
+      cards:
+      - "what a neighbour remembers"
+      - "a bare slope after rain"
+    - label: "The source pack"
+      sublabel: "secondary — what others found"
+      tone: neutral
+      cards:
+      - "what science found"
+      - "a UN report"
+- kind: example
+  title: "Our rules for asking"
+  caption: >-
+    The consent routine and rules, rehearsed aloud until they come easily. Asking well is a gift, not a
+    hurdle — and same-gender pairs where that keeps a learner safe.
+  spec:
+    type: zones
+    zones:
+    - label: "Every time we ask, we…"
+      tone: positive
+      cards:
+      - "Ask first"
+      - "Say why"
+      - "Let them stop"
+      - "Use no names"
+      - "Put no one at risk"
 facilitationNotes: >-
   The one thing to get right: teach the ethics as the heart of the work, not a footnote at the end.
   Learners are about to speak with real neighbours, so being fair and safe is not a rule bolted on — it

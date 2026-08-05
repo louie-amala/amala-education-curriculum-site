@@ -50,6 +50,44 @@ materialsAndPreparation:
 - The frames from cb-mv-i-am-sentences fresh in mind (I am ___, I am from ___, I like ___), as the language learners bring to the meeting.
 - A trusted volunteer or a mentor to be your partner when you model the exchange, so learners see a real two-person meeting.
 - "Sensitivity: introducing yourself can invite questions about home and family. Keep the exchange short and light, and make clear a learner can share only their name and one small thing they like; nothing more is ever required."
+visuals:
+- kind: setup
+  title: "Model it, then role-play in pairs"
+  caption: >-
+    You and a volunteer show a meeting first; then same-gender pairs try it, swapping partners. Later,
+    threes practise 'this is my friend'.
+  spec:
+    type: groups
+    facilitator: true
+    clusters:
+    - size: 2
+      count: 5
+      label: "role-play pairs (rotating)"
+    - size: 3
+      count: 2
+      label: "threes — 'this is my friend'"
+- kind: example
+  title: "Meeting someone new"
+  caption: >-
+    The shape of the exchange: one person asks, the other replies. Learners make it their own with their
+    real name and home.
+  spec:
+    type: zones
+    flow: across
+    flowLabel: "reply"
+    zones:
+    - label: "Person A asks"
+      tone: known
+      cards:
+      - "Hello."
+      - "What is your name?"
+      - "Where are you from?"
+    - label: "Person B replies"
+      tone: neutral
+      cards:
+      - "Hello."
+      - "I am Rashida."
+      - "I am from my village."
 facilitationNotes: |
   Role-play is where the unit's language becomes something a learner can actually use — meeting a
   neighbour, a new classmate, a health worker — which is exactly what makes it worth the effort to them.

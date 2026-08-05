@@ -1,0 +1,48 @@
+id: positive-peace
+slug: positive-peace
+access: public
+term: Positive peace
+category: content
+matchPhrases:
+- positive peace framework
+- positive peace
+definition: >-
+  The presence of the attitudes, institutions, and structures that create and sustain peaceful
+  societies — not just the absence of violence, but the conditions that prevent it.
+explainer: |
+  Where [negative peace](/glossary/negative-peace) is the absence of violence, positive peace is
+  the presence of what makes peace last: fair institutions, good relationships between groups,
+  the equitable sharing of resources, and acceptance of others' rights. It targets the conditions
+  underneath conflict rather than only its visible outbreaks.
+
+  The Institute for Economics & Peace turned this idea into a practical, measurable framework —
+  the eight *Pillars of Positive Peace* (for example, a well-functioning government, a sound
+  business environment, equitable distribution of resources, and acceptance of the rights of
+  others). These are the systemic factors most strongly associated with societies that stay
+  peaceful over time.
+
+  Positive peace is the natural counterpart to [structural violence](/glossary/structural-violence):
+  building it means dismantling the structures that harm people and replacing them with ones that
+  let people flourish. In planning, it gives learners a constructive question — *what conditions
+  would make violence less likely here?* — rather than only *how do we stop the fighting?*
+furtherReading:
+- title: "The Eight Pillars of Positive Peace"
+  url: https://www.visionofhumanity.org/the-eight-pillars-of-positive-peace/
+  source: Vision of Humanity (Institute for Economics & Peace)
+  note: The eight measurable pillars, with short explanations of each.
+- title: "Positive Peace"
+  url: https://www.economicsandpeace.org/research/positive-peace/
+  source: Institute for Economics & Peace
+  note: The research programme behind the framework, including reports to download.
+- title: "Kant, I. — Perpetual Peace: A Philosophical Sketch (1795)"
+  url: https://archive.org/details/perpetualpeaceph00kant
+  source: Immanuel Kant (via Internet Archive)
+  note: An early argument that lasting peace rests on institutions and conditions, not just the end of war — background depth for the framework above.
+examples:
+- Building fair institutions and cross-community relationships so disputes are resolved without violence
+nonExamples:
+- Simply enforcing a ceasefire while inequality and exclusion continue unchanged
+useInContext: >-
+  Learners use the positive peace framework to identify which conditions in their context could
+  be strengthened to make violence less likely.
+relatedTermIds: [negative-peace, structural-violence, peace, violence-triangle]

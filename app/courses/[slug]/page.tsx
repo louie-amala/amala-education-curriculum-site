@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Term } from "@/components/Term";
 import {
   courses,
   getCompetencyByCode,
@@ -8,6 +9,7 @@ import {
   getCourseCompetencies,
   getCourseObjectives,
   getCourseStream,
+  getGlossaryTerm,
   getMaterialsForObjective,
   getPrinciple,
   getProgrammeForCourse,
@@ -37,6 +39,9 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
     ? getCompetencyByCode(course.throughline.anchorCompetency)
     : undefined;
   const supportingComps = anchor ? courseComps.filter((c) => c.code !== anchor.code) : [];
+  const keyConcepts = course.keyConcepts
+    .map((slug) => getGlossaryTerm(slug))
+    .filter((t): t is NonNullable<typeof t> => Boolean(t));
 
   return (
     <main className="mx-auto max-w-4xl px-6 py-12">
@@ -115,6 +120,27 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
             {req.liveIndependentSplit && <Stat label="Live / independent" value={req.liveIndependentSplit} />}
           </dl>
           {req.notes && <p className="mt-3 text-sm text-cool-grey">{req.notes}</p>}
+        </section>
+      )}
+
+      {/* Key concepts — professional learning for the facilitator. Curated glossary terms; the
+          depth (definition, "in depth", further reading) lives on each term page. */}
+      {keyConcepts.length > 0 && (
+        <section className="mt-10 rounded-lg border border-teal/25 bg-teal/[0.04] p-5">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">Key concepts for facilitators</h2>
+          <p className="mt-1 text-sm text-cool-grey">
+            Understand these before planning. Hover for a definition, or open the term for an
+            in-depth explanation and further reading.
+          </p>
+          <ul className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-base">
+            {keyConcepts.map((t) => (
+              <li key={t.slug}>
+                <Term slug={t.slug} definition={t.definition}>
+                  {t.term}
+                </Term>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 

@@ -1,0 +1,36 @@
+id: dominant-narrative
+slug: dominant-narrative
+access: public
+term: Dominant narrative
+category: content
+matchPhrases:
+- dominant narrative
+- dominant narratives
+- invisible narrative
+- invisible narratives
+definition: >-
+  A widely accepted, often invisible story that a society treats as simply "the way things are",
+  shaping beliefs and behaviour while benefiting some and silencing others.
+explainer: |
+  A dominant narrative is not printed in one book or spoken by one person. It is woven through a
+  culture, in countless stories, images, and assumptions, until it comes to feel normal, natural, and
+  obvious. Because it is everywhere and nowhere, it is often invisible: people act on it without
+  noticing it is a story at all. "Hard work always leads to success" (the idea of a meritocracy) is
+  one example.
+
+  Dominant narratives are powerful because they get internalised: people come to believe what the
+  story says about them and behave accordingly. Whoever controls the dominant narrative holds power,
+  since it sets the terms of what counts as true and reasonable. Change often begins by making an
+  invisible narrative visible, and asking who it serves, who it harms, and who it silences.
+
+  A dominant narrative is a [narrative](/glossary/narrative) that has won, built and held in place by
+  [framing](/glossary/framing) and [othering](/glossary/othering); resisting it is a matter of
+  [narrative agency](/glossary/narrative-agency).
+examples:
+- The unspoken story that a person's poverty is simply their own fault, so the systems around them go unquestioned.
+nonExamples:
+- A clearly attributed opinion piece that one author openly argues and signs, which the reader can accept or reject.
+useInContext: >-
+  Learners surface a dominant narrative shaping their context and interrogate who it benefits and who
+  it silences.
+relatedTermIds: [narrative, framing, othering, narrative-agency]

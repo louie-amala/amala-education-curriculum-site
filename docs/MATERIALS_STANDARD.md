@@ -210,7 +210,49 @@ This applies to every unit-planned component (the Cox's Bazar editions first). C
 the rule and ship per-activity download files (e.g. Agency in Learning) are migrated as they are next
 touched, not all at once.
 
-## 11. Open questions
+**Standalone bank materials are the exception.** A material used across courses that does not belong to a
+unit-planned component (e.g. the iceberg tool in Social Entrepreneurship) has no component workbook to
+compile into. It therefore ships its **own** artefacts as `downloads`, each tagged with a `role`
+(§11.1): a guided **worksheet** (scaffolding, ends with the template embedded) and, where useful, a
+blank **template**. So the delivery vehicle is decided by context: unit-planned component → one
+workbook; standalone bank method → its own role-tagged files. The `role` tag is the same either way, so
+the worksheet/template distinction is machine-real regardless of how the file is delivered.
+
+## 11. Reading order on the page
+
+**A material page is read top-to-bottom in the order an educator works, not in the order the curriculum
+is modelled.** [judgement, reinforcing §2] §2 forbids actionable guidance as front-matter preamble; the
+same logic governs the whole page. Curriculum-mapping (agency, principles, competencies) is justification
+for the designer and moderator, not instructions for the person about to teach. It must sit **after** the
+educator can already understand and run the material, never above it.
+
+The canonical section order, each block appearing only when the material populates it:
+
+1. **Does it fit** — type, title, `summary`, timing (§4), grouping, contexts. A fit decision in seconds.
+2. **Understand it** — what the material is for and, for a concept or tool, the method itself
+   (`educatorContent`; the "one thing to get right" from `facilitationNotes`). This is how an educator
+   *understands it themselves*.
+3. **Prepare** — `materialsAndPreparation`, resource-dependency flags, sensitivity note (§7).
+4. **Run it** — `steps`, `whatLearnersDo`, `deliveryAdaptations`, `shortVersion`, `closing`. This is how
+   they *use it with students*.
+5. **For your students** — `learnerContent`, the Student worksheet callout (§10), and any `downloads`
+   (workbook, or role-tagged worksheet/template). The artefacts learners actually receive.
+6. **How it fits the curriculum** — agency, principles, competencies, objectives. Demoted here on
+   purpose: it answers *why this belongs in the curriculum*, for designers and moderators.
+7. **Connections** — modules, related materials.
+
+This order is enforced structurally in the one shared material-page template, so it applies to every
+material at once; authoring only decides which blocks are populated, never their sequence.
+
+### 11.1 Download roles
+
+Every entry in `downloads` may carry a `role` so artefacts render under labelled, ordered groups rather
+than one undifferentiated list: `explainer` (the method written up) → `worksheet` (guided, embeds the
+template) → `example` (a worked/filled sheet) → `template` (the blank final product). The worksheet
+*contains* the template; the standalone `template` is for a learner who has done it once and wants a
+clean sheet. See §10 for which materials ship their own files versus a component workbook.
+
+## 12. Open questions
 
 1. Should tools and case studies really carry full steps, or is "how to use it" enough?
 2. Is `shortVersion` sufficient, or do we also need a longer/extended variant?

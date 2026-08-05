@@ -27,6 +27,37 @@ materialsAndPreparation:
 - The supplied secondary source pack (cb-rp-secondary-source-pack), printed from the student workbook or shown on screen.
 - The evidence log sheet from the student workbook (one per learner).
 - The word wall started earlier in the course.
+visuals:
+- kind: setup
+  title: "Model together, then read in pairs"
+  caption: >-
+    Read one source aloud with the whole group first, thinking out loud as a researcher. Then pairs take
+    another source at a level that suits them; you circulate and read aloud where needed.
+  spec:
+    type: groups
+    facilitator: true
+    clusters:
+    - size: 2
+      count: 8
+      label: "pairs, each at their own reading level"
+- kind: example
+  title: "Our evidence log — from one source"
+  caption: >-
+    For each source, pull out what it tells us and what it does not — and always note which source it came
+    from. Marks and drawings count.
+  spec:
+    type: zones
+    zones:
+    - label: "What it tells us"
+      tone: known
+      cards:
+      - "rain washes soil off bare slopes"
+      - "roots hold the soil"
+    - label: "What it does NOT tell us"
+      tone: question
+      cards:
+      - "nothing about OUR hills"
+      - "how many trees were lost"
 facilitationNotes: >-
   The one thing to get right: this is real reading and real research, not a worksheet to fill. Model how
   a researcher reads a source before asking learners to — read one aloud together, and think out loud:

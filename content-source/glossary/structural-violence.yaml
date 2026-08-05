@@ -1,0 +1,38 @@
+id: structural-violence
+slug: structural-violence
+access: public
+term: Structural violence
+category: content
+matchPhrases:
+- structural violence
+definition: >-
+  Harm built into the way a society is organised — poverty, exclusion, or denial of rights — that
+  damages people without any single attacker.
+explainer: |
+  Structural violence is harm caused not by a person but by the *structure*: the systems, rules,
+  and arrangements that give some people far less access to resources, health, safety, or a say in
+  decisions. No one throws a punch, yet people are damaged — through preventable hunger, denied
+  education, or blocked opportunity. Galtung defined it as the gap between how well people *could*
+  live and how well the structure actually lets them.
+
+  Because it is slow and normalised, structural violence is often invisible — it can look like
+  "just how things are." Naming it lets learners see that a context without open fighting can still
+  be deeply violent, and connects directly to [positive peace](/glossary/positive-peace), which is
+  precisely the work of changing those structures.
+
+  It sits at the base of the [violence triangle](/glossary/violence-triangle): unaddressed
+  structural violence generates the grievances that later erupt as
+  [direct violence](/glossary/direct-violence).
+furtherReading:
+- title: "Galtung, J. — Violence, Peace, and Peace Research (1969)"
+  url: https://journals.sagepub.com/doi/10.1177/002234336900600301
+  source: Journal of Peace Research
+  note: The paper that introduced the concept of structural violence.
+examples:
+- A group systematically denied schooling or healthcare by how services and resources are allocated
+nonExamples:
+- A one-off physical attack by an identifiable person (that is direct violence)
+useInContext: >-
+  Learners investigate the structural violence in a context — the systems and inequalities that
+  harm people even when no fighting is visible.
+relatedTermIds: [direct-violence, cultural-violence, violence-triangle, positive-peace]

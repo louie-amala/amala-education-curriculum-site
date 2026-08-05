@@ -44,6 +44,31 @@ materialsAndPreparation:
 - "The key words ready to say and show: goal, plan, step, feedback, reflect, progress, each with a plain meaning."
 - The student workbook, with a page for the four objectives and space to mark or draw an approach to each.
 - "Sensitivity: talking about why learning matters can raise hard feelings about the future. Keep it about the learning learners can steer now — which can be for themselves or the people they care about — and away from dwelling on far-off futures that feel blocked; let anyone stay quiet."
+visuals:
+- kind: setup
+  title: "The four things we will learn"
+  caption: >-
+    The journey of the whole component, as four picture-cards. Keep it on the wall and come back to it, so
+    learners always know where they are.
+  spec:
+    type: zones
+    zones:
+    - label: "Know yourself"
+      tone: neutral
+      cards:
+      - "my strengths"
+    - label: "Choose a goal"
+      tone: neutral
+      cards:
+      - "what to learn"
+    - label: "Plan & take steps"
+      tone: neutral
+      cards:
+      - "one small step"
+    - label: "See how I grow"
+      tone: neutral
+      cards:
+      - "look back"
 facilitationNotes: |
   This is the map of the whole course, and a chance to hear what learners already know. The one thing
   to get right is that you listen more than you talk in the second half: how learners say they would

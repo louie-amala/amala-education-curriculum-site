@@ -1,0 +1,33 @@
+id: narrative
+slug: narrative
+access: public
+term: Narrative
+category: content
+matchPhrases:
+- narrative
+- narratives
+definition: >-
+  A set of events and experiences selected and arranged into a story that carries meaning, so
+  that things seem to connect, matter, and point somewhere.
+explainer: |
+  A narrative is more than a list of things that happened. It is a shaping: someone chooses which
+  events to include, what order to tell them in, whose point of view to take, and what it all adds
+  up to. That shaping is what turns a series of events into a story with meaning.
+
+  Because every narrative is selected and arranged by someone, it always carries a perspective. This
+  is what makes narratives powerful. The same facts can be built into very different stories, and
+  the story people believe shapes how they think, feel, and act. Much of this course is about
+  learning to see that shaping at work, in the stories we are told and the ones we tell.
+
+  How a narrative is built is a matter of [framing](/glossary/framing); when one narrative becomes
+  the accepted, taken-for-granted account it becomes a [dominant narrative](/glossary/dominant-narrative);
+  and the room a story gives a person to act within it is their
+  [narrative agency](/glossary/narrative-agency).
+examples:
+- A report lists what happened at a protest; a narrative decides who the hero is, what caused it, and what it all means.
+nonExamples:
+- A raw, unordered list of dates and facts with no point of view or meaning attached.
+useInContext: >-
+  Learners analyse how a narrative is constructed, then build their own to communicate truth and
+  empathy.
+relatedTermIds: [framing, dominant-narrative, foundational-story, narrative-agency]

@@ -43,6 +43,45 @@ materialsAndPreparation:
 - The word "yet" ready to show on paper, a board, or the ground, or simply said aloud.
 - The student workbook (page for drawing a growth example and a "not yet" step).
 - "Sensitivity: a hard learning memory can touch on displacement, loss, or family. Let learners choose an easy, everyday example, and make clear no one has to say theirs aloud."
+visuals:
+- kind: setup
+  title: "‘I cannot’ becomes ‘I cannot yet’"
+  caption: >-
+    The whole hinge is one word. A ‘cannot’ is a closed door; ‘cannot yet’ is a door you have not opened
+    yet.
+  spec:
+    type: zones
+    flow: across
+    flowLabel: "yet"
+    zones:
+    - label: "I cannot…"
+      tone: warn
+      cards:
+      - "I cannot read this"
+      - "I can't do maths"
+    - label: "I cannot… yet"
+      tone: positive
+      cards:
+      - "I cannot read this yet"
+      - "not yet — but I can start"
+- kind: example
+  title: "One ‘cannot’, turned into a step"
+  caption: >-
+    Each learner changes one of their own ‘cannot’s into ‘cannot yet’, and names one small step toward it.
+  spec:
+    type: zones
+    flow: across
+    flowLabel: "step"
+    zones:
+    - label: "I cannot read this… yet"
+      tone: warn
+      cards:
+      - "the door I want to open"
+    - label: "My first step"
+      tone: positive
+      cards:
+      - "ask my sister to help"
+      - "learn 5 letters this week"
 facilitationNotes: |
   This activity underpins the whole component: a learner who believes ability is fixed will not set a
   goal to grow. The one thing to get right is that the shift comes from the learner's own real example

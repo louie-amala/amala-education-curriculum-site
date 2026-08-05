@@ -1,0 +1,120 @@
+id: pip-assessment-rubric
+slug: pip-assessment-rubric
+access: public
+type: resource
+title: "PIP presentation assessment rubric"
+summary: >-
+  A facilitator's rubric for responding to a PIP presentation across four criteria, focus, methodology,
+  knowledge and understanding, and critical thinking, with room for developmental comments.
+facilitationContext:
+  - one-to-one-mentoring
+  - group
+primaryContext: one-to-one-mentoring
+deliveryAdaptations:
+  - context: one-to-one-mentoring
+    how: >-
+      As designed. The facilitator completes one rubric per learner while, or just after, watching their
+      presentation, writing developmental comments against each criterion. It is a tool for feedback and
+      for spotting which competencies a learner may have evidenced, not a grade.
+  - context: group
+    how: >-
+      Usable as a shared lens when peers observe each other's presentations. Give observers the four
+      criteria and the comment prompts so their feedback is structured, but keep the formal completion with
+      the facilitator, since judging evidence of competencies is their responsibility.
+educatorContent: |
+  This is a facilitator-facing rubric for responding to a learner's PIP presentation. The PIP itself is not
+  graded, so treat the rubric as a structured way to give developmental feedback and to notice which Amala
+  competencies a learner may have evidenced, rather than as a pass or fail instrument. Make a copy per
+  learner.
+
+  It has four criteria, each with a plain passing description:
+
+  - Focus: a focus is established (for example, a problem the learner intends to address is outlined and
+    described), and the reason for it is made clear (why the problem matters).
+  - Methodology: the approach the learner took during the PIP is outlined, for example how they
+    investigated a problem, analysed data, worked towards a solution, and monitored, evaluated and improved
+    it.
+  - Knowledge and understanding: the learner shows an understanding of the important facts and knowledge
+    that support the project, and has used a variety of sources.
+  - Critical thinking: the learner evaluates the trustworthiness of the sources they used, and sets out
+    findings and recommendations supported by evidence, from their investigation or from the literature.
+
+  Against each criterion, write developmental comments rather than a score. Useful prompts: In what ways did
+  the learner meet the passing description? In what ways did they exceed it? In what ways could they improve
+  the presentation, and the project itself? Which competency success indicators might this presentation have
+  evidenced?
+
+  A note on fit: the four criteria lean towards investigative and research-style PIPs. For a PIP that is a
+  personal aim or a piece of self-expression, read the criteria generously. Focus and methodology still
+  apply (what did they set out to do, and how did they go about it); knowledge and critical thinking may
+  show up as reflection on their practice and honest evaluation of their choices rather than source
+  evaluation. Do not penalise a creative or personal project for not being a research report.
+learnerContent: |
+  Your presentation is not graded, but your facilitator may use a rubric to give you helpful feedback and
+  to notice which competencies your work shows. It looks at four things, so it is worth making sure your
+  presentation touches each:
+
+  - Focus: is it clear what you set out to do, and why it mattered?
+  - Methodology: have you explained the approach you took during the project?
+  - Knowledge and understanding: do you show you understand the important facts behind your project, and
+    have you drawn on a range of sources?
+  - Critical thinking: have you weighed how trustworthy your sources were, and are your findings and
+    recommendations backed by evidence?
+
+  If your PIP was a personal or creative project rather than an investigation, these still apply: show what
+  you set out to do and how, and reflect honestly on how your choices worked out.
+agencyContribution:
+  indicators:
+    - contribution-to-community
+  how: >-
+    Used well, the rubric helps a facilitator show a learner exactly where their project and its
+    communication were strong and where they could go further, which sharpens the learner's ability to make
+    their contribution land with an audience. Framed as feedback rather than a grade, it develops the work
+    rather than ranking it.
+principlesForegrounded:
+  - feedback-and-data
+  - recognise-communicate-growth
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      The rubric is a feedback instrument by design: its comment prompts ask how a learner met, exceeded
+      and could improve on each criterion, so the response is specific and developmental rather than a
+      verdict.
+  - principle: recognise-communicate-growth
+    how: >-
+      By linking the presentation to the competency success indicators it might evidence, the rubric helps
+      turn the learner's communicated work into recognised, transcript-worthy growth.
+competencyCodes:
+  - FLC3
+  - FPS2
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      The focus and methodology criteria assess how clearly the learner communicated what they did and why,
+      so completing the rubric surfaces evidence of influential communication in the presentation.
+  - code: FPS2
+    how: >-
+      The critical-thinking criterion asks directly whether the learner evaluated the trustworthiness of
+      their sources, so the rubric is a place where evidence of source evaluation is recognised.
+objectiveIds:
+  - pip--o5
+relatedSlugs:
+  - pip-preparing-your-presentation
+  - pip-preparing-your-artefact
+  - pip-preparing-your-reflection
+downloads:
+  - label: "PIP presentation assessment rubric"
+    file: /downloads/pip-assessment-rubric.docx
+    format: Word
+    role: explainer
+    note: >-
+      The four criteria with their passing descriptions and a column for developmental comments. Make a
+      copy per learner. It is a feedback and evidence-spotting tool, not a grade sheet.
+sourceRefs:
+  - "Personal Interest Project (PIP) Assessment Rubric MAKE A COPY FOR EACH STUDENT.docx"
+  - "Amala GSD Course Planner - Personal Interest Project (PIP) - 2025.docx"
+provenanceNote: >-
+  Transcribed from the "Personal Interest Project (PIP) Assessment Rubric" resource: the four criteria
+  (focus, methodology, knowledge and understanding, critical thinking), their passing descriptions, and the
+  facilitator-comment prompts. The generous-reading note for personal and creative PIPs is added guidance,
+  consistent with the planner's insistence that a PIP can take almost any form. Mapped to PIP objective 5.

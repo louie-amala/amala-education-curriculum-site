@@ -27,6 +27,50 @@ materialsAndPreparation:
 - "A big wall or floor space split into two sides: \"what we already know\" and \"what we still need to find out\", with a simple picture or symbol over each."
 - Cards, paper, and pens or chalk for marks and drawings; no writing required.
 - Step-back and referral guidance to hand, in case the talk touches a landslide or a lost shelter.
+visuals:
+- kind: setup
+  title: "The wall, before you start"
+  caption: >-
+    One big space, split down the middle with a simple symbol over each side. It starts almost empty;
+    learners fill it with marks and drawings. Nothing is written — a drawn card counts.
+  spec:
+    type: zones
+    flow: across
+    cardStyle: drawing
+    zones:
+    - label: "What we already know"
+      sublabel: "our own memory, as evidence"
+      tone: known
+      cards:
+      - "the hills, before"
+      - "the mud when it rains"
+    - label: "What we still need to find out"
+      sublabel: "the things we only assume"
+      tone: question
+      cards: []
+- kind: example
+  title: "A wall in full flow"
+  caption: >-
+    Later in the activity: lived knowledge is up on the left as real evidence, and the things the group
+    only assumed have moved across to the right. This wall stays up and grows all through the course.
+  spec:
+    type: zones
+    flow: across
+    cardStyle: drawing
+    zones:
+    - label: "What we already know"
+      tone: known
+      cards:
+      - "hills were green before"
+      - "trees cut for firewood"
+      - "mud slides in heavy rain"
+      - "bare slopes get very hot"
+    - label: "What we still need to find out"
+      tone: question
+      cards:
+      - "how many trees were lost?"
+      - "which slopes are worst?"
+      - "what grows back fastest?"
 facilitationNotes: >-
   The one thing to get right: treat what learners already know as real evidence, not as chatter to get
   past. Their memory of the hills before, and of the mud and the heat, is data this investigation starts
@@ -43,6 +87,17 @@ steps:
   keyPrompts:
   - "Why do the trees and our hills matter to you?"
   - "What is good about a hill with trees on it?"
+  visuals:
+  - kind: setup
+    title: "In pairs"
+    caption: "Same-gender pairs talk and draw one reason; you move between them, gathering a few aloud."
+    spec:
+      type: groups
+      facilitator: true
+      clusters:
+      - size: 2
+        count: 8
+        label: "same-gender pairs"
 - title: "Pool what we already know"
   duration: "50 min"
   guidance: >-

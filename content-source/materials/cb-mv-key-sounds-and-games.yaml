@@ -52,6 +52,48 @@ materialsAndPreparation:
 - The My Voice book, and something to draw with, for keeping a picture-word beside each sound.
 - Your own voice ready to say each sound clearly, and one or two example words that matter locally for each.
 - "Sensitivity: the games are light and playful by design, and that is a strength here — no one is asked to reveal anything about themselves. If a learner is anxious about making a wrong sound in front of others, let them play quietly beside you or a partner first; the game is a place to try, not a test."
+visuals:
+- kind: setup
+  title: "Sound corners"
+  caption: >-
+    Name a corner for each sound. Learners say a word and walk to its corner — the sorting is in the feet,
+    not on paper.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "sss corner"
+      tone: neutral
+      cards:
+      - "snake"
+      - "sun"
+    - label: "mmm corner"
+      tone: neutral
+      cards:
+      - "mat"
+      - "moon"
+    - label: "walk to your corner"
+      tone: question
+      cards:
+      - "pot? cat?"
+- kind: example
+  title: "One sound changes the word"
+  caption: >-
+    Minimal pairs: change a single sound and the word changes. Hearing that difference is the whole game.
+  spec:
+    type: zones
+    cardStyle: drawing
+    flow: across
+    flowLabel: "one sound"
+    zones:
+    - label: "pat"
+      tone: known
+      cards:
+      - "quiet p"
+    - label: "bat"
+      tone: warn
+      cards:
+      - "buzzy b"
 facilitationNotes: |
   This activity is where the sounds learners met by ear in the alphabet activity become automatic through
   play. The sources it grows from assume learners can read and write — they use dictation and word-building

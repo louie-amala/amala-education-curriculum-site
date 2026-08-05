@@ -1,0 +1,161 @@
+id: pip-preparing-your-artefact
+slug: pip-preparing-your-artefact
+access: public
+type: activity
+title: "Choosing and preparing your PIP artefact"
+summary: >-
+  Learners decide what single piece of work best represents their PIP, and prepare it so it tells the
+  story of the action they took and what came of it.
+facilitationContext:
+  - group
+  - one-to-one-mentoring
+  - independent
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners discuss what they have produced and which piece best represents their PIP, then
+      prepare it. Hearing the range of possible artefacts helps learners who assume it must be a written
+      report, so keep the shared discussion of what counts even if the preparation is independent.
+  - context: one-to-one-mentoring
+    how: >-
+      A good fit. A mentor helps a learner choose between possible artefacts and see which best tells the
+      story of their work, and can advise on presenting it well. What is lost is the range of examples a
+      group surfaces, so offer two or three contrasting artefact types yourself.
+  - context: independent
+    how: >-
+      Workable, since the artefact is often produced independently anyway, but a learner alone may default
+      to whatever is easiest rather than what best represents the PIP. Give the guiding questions in
+      writing and confirm the choice at a check-in before they finalise it.
+duration: "About 1 hour facilitated, plus independent preparation"
+grouping: "Individually or in project teams; works with 5-35 learners"
+whatLearnersDo:
+  - "Look back at what you have produced through your PIP."
+  - "Decide which single piece of work best represents the action you took and the story of your project."
+  - "Prepare it so it stands on its own and clearly shows what you did."
+  - "Check that, if you worked in a team, each person's contribution to the artefact is clear."
+materialsAndPreparation:
+  - "A prompt for learners to gather what they have produced so far (drafts, photos, recordings, reports, creative work) before choosing."
+  - "Two or three contrasting examples of what an artefact can be, generic and not from a real learner, to widen the sense of what counts."
+  - "A clear submission method, arranged in advance, so learners know how and when to hand the artefact in."
+facilitationNotes: |
+  The one thing to get right is that the artefact represents the PIP, rather than being an extra task
+  bolted on at the end. It is a piece of work the learner is proud of that best shows the action they took:
+  a research report, a video of an event they ran, an exhibition, a collection of poems, a workshop plan.
+  Widen learners' sense of what counts, because many assume it must be a written report. The same artefact
+  can also evidence Amala competencies, so it is worth choosing well. For teams, be clear that a joint
+  artefact is fine as long as each person's contribution is clearly explained. Do not let learners
+  manufacture something new to impress; the strongest artefact is usually already in the work they did.
+steps:
+  - title: "Gather what you have produced"
+    duration: "15-20 min"
+    guidance: |
+      Before choosing, learners lay out everything the PIP has generated: reports and drafts, photos and
+      recordings, plans, creative pieces, anything. The aim is to see the whole trail of work so the choice
+      is made from what exists, not from what they think they should submit. Prompt learners who feel they
+      have nothing to look again, since a journal, notes and photos are all real products of the work.
+    keyPrompts:
+      - "What have you actually made or done through this PIP, however rough?"
+      - "Which of these are you most proud of, and which best shows the effort you put in?"
+    watchOuts:
+      - "Learners believing they have produced nothing. Walk through the journey with them; the trail is almost always there."
+      - "Overlooking non-written work. Remind them a video, an event or an artwork counts fully."
+  - title: "Choose the artefact that best tells your story"
+    duration: "20-25 min"
+    guidance: |
+      Learners choose the single piece that best represents their PIP and the action they took. Use the
+      guiding questions: what have you produced, and how could you effectively tell the story of your PIP?
+      Offer contrasting examples so the choice feels open, for instance a video of a community art event,
+      or an in-depth investigation report with findings and recommendations. If a learner worked in a team,
+      confirm the artefact can show each person's contribution.
+    keyPrompts:
+      - "If someone saw only this one piece, would they understand what your PIP was and what you did?"
+      - "Which piece best shows the action you took, not just the topic you chose?"
+    watchOuts:
+      - "Choosing the most polished thing over the most representative. Steer them to what shows their actual work and journey."
+      - "In teams, an artefact where one person's contribution disappears. Make sure each person's part is visible or credited."
+  - title: "Prepare it and submit"
+    duration: "20-25 min plus independent time"
+    guidance: |
+      Learners prepare the artefact so it stands on its own: a report is finished and readable, a video is
+      edited, an artwork is presented with a short explanatory note. Remind them the artefact can double as
+      evidence towards competencies, so a little context (what it is, what they did) makes it far more
+      useful. Confirm the submission method and deadline so nothing is lost at the end.
+    keyPrompts:
+      - "What short note or context would help someone understand this without you standing next to it?"
+      - "Is this finished enough to stand on its own, or does it need one more pass?"
+    watchOuts:
+      - "An artefact that only makes sense with the learner explaining it. Add a short written or recorded note so it is self-contained."
+      - "Last-minute submission problems. Confirm the method and deadline now, not on the day."
+    adaptation: >-
+      No devices or low bandwidth: physical artefacts (a written report, a poster, an artwork, a
+      photographed event) work without any technology. A learner who cannot submit digitally can present
+      the physical artefact at the event with a handwritten explanatory note.
+closing: >-
+  Each learner leaves having chosen and started preparing the one artefact that best represents their PIP,
+  with a clear plan and method for submitting it. The artefact can also serve as evidence towards their
+  Amala competencies.
+learnerContent: |
+  Your PIP artefact is one piece of work that best represents your project: something you are proud of that
+  shows the action you took. It does not have to be a written report. It could be a video of an event you
+  ran, an exhibition, a collection of poems, a workshop you designed, or an in-depth investigation with
+  findings and recommendations.
+
+  Choose it in three moves:
+  - Gather everything your PIP produced, however rough.
+  - Ask: what have I produced, and how could I best tell the story of my PIP? Choose the one piece that
+    answers that.
+  - Prepare it so it stands on its own. A short note explaining what it is and what you did makes it much
+    stronger, and helps it count as evidence towards your competencies.
+
+  If you worked in a team, a joint artefact is fine, as long as each person's contribution is clear.
+agencyContribution:
+  indicators:
+    - contribution-to-community
+    - control-of-future-pathways
+  how: >-
+    Choosing the artefact is the learner deciding how their action will be represented and remembered:
+    what they made, what it shows, and what it is worth. Preparing it as evidence they can carry forward
+    turns the work of the PIP into something that can support their future pathways.
+principlesForegrounded:
+  - recognise-communicate-growth
+  - lifeworthy-competencies
+  - builds-on-identities
+principleAlignment:
+  - principle: recognise-communicate-growth
+    how: >-
+      The artefact is a deliberate act of making the work visible: the learner selects and prepares the
+      piece that best communicates what they did and produced through the PIP.
+  - principle: lifeworthy-competencies
+    how: >-
+      Because the artefact can double as evidence towards Amala competencies, choosing and framing it well
+      connects the PIP's product to competencies that matter beyond it, and to the learner's transcript.
+  - principle: builds-on-identities
+    how: >-
+      The range of accepted artefacts, from an artwork to a research report, lets each learner represent
+      their PIP in a form that fits who they are and how they work, rather than one prescribed format.
+competencyCodes:
+  - FLC3
+  - FSL1
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      Selecting and preparing an artefact so it clearly communicates what the learner did, to an audience
+      who was not there, is influential communication in a produced rather than spoken form.
+  - code: FSL1
+    how: >-
+      Deciding which piece best represents their journey requires learners to look back over their own
+      work and judge what shows it best, which is reflective self-assessment.
+objectiveIds:
+  - pip--o5
+relatedSlugs:
+  - pip-preparing-your-presentation
+  - pip-preparing-your-reflection
+  - pip-assessment-rubric
+sourceRefs:
+  - "Amala GSD Course Planner - Personal Interest Project (PIP) - 2025.docx"
+  - "Personal Interest Project (PIP) - Information for Facilitators.pptx"
+provenanceNote: >-
+  Authored from the course planner's "Preparing the PIP Artefact" section (the guiding questions, the
+  examples of artefacts, and the submission arrangement) and the facilitator deck's account of the PIP
+  artefact as evidence towards credit. Mapped to PIP objective 5.

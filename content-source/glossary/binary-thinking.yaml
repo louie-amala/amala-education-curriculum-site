@@ -1,0 +1,32 @@
+id: binary-thinking
+slug: binary-thinking
+access: public
+term: Binary thinking
+category: content
+matchPhrases:
+- binary thinking
+- binary thought
+- either/or thinking
+definition: >-
+  Simplifying a complex issue into only two opposing sides, ignoring the range of possibilities in
+  between.
+explainer: |
+  Binary thinking splits the world into two: good or bad, us or them, right or wrong, with us or
+  against us. It is comfortable because it is simple and quick, and sometimes two categories are
+  genuinely enough. But most real situations, and most people, live in the wide space between the two
+  poles, and that space is exactly what binary thinking hides.
+
+  In stories, binary thinking produces flat heroes and villains and makes [othering](/glossary/othering)
+  easy: once a group is placed on the "them" side, every complication is ignored. The counter-move is
+  sometimes called full-spectrum thinking: deliberately looking for the grey area, the exceptions, and
+  the third and fourth options a two-sided frame leaves out.
+
+  Binary thinking is a common engine of [stereotypes](/glossary/stereotype), and noticing it is a step
+  toward reading a [narrative](/glossary/narrative) more critically.
+examples:
+- Treating a debate as if there are only two possible positions, so anyone who disagrees with one must hold the other.
+nonExamples:
+- Mapping several distinct positions on an issue and the trade-offs between them.
+useInContext: >-
+  Learners spot binary thinking in a story or argument and open up the middle ground it leaves out.
+relatedTermIds: [othering, stereotype]

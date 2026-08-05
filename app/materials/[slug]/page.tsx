@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ActivityVisuals } from "@/components/ActivityVisual";
 import { GlossedText } from "@/components/GlossedText";
 import { Prose } from "@/components/Prose";
 import {
@@ -14,7 +15,7 @@ import {
   getPrinciple,
   materials,
 } from "@/lib/content";
-import { CONTEXT_LABEL, typeMeta } from "@/lib/ui";
+import { CONTEXT_LABEL, downloadRoleMeta, tagMeta, typeMeta } from "@/lib/ui";
 
 export function generateStaticParams() {
   return materials.map((m) => ({ slug: m.slug }));
@@ -53,9 +54,21 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         <Link href="/materials" className="hover:text-navy hover:underline">Materials</Link>
       </nav>
 
-      <span className={`mt-3 inline-block rounded px-2 py-0.5 text-xs font-medium ${t.bg} ${t.text}`}>
-        {t.label}
-        {m.toolsFacet ? ` · ${m.toolsFacet}` : ""}
+      <span className="mt-3 flex flex-wrap items-center gap-2">
+        <span className={`inline-block rounded px-2 py-0.5 text-xs font-medium ${t.bg} ${t.text}`}>
+          {t.label}
+          {m.toolsFacet ? ` · ${m.toolsFacet}` : ""}
+        </span>
+        {m.tags
+          .filter((tag) => tagMeta(tag.id).kind === "area")
+          .map((tag) => (
+            <span
+              key={tag.id}
+              className="inline-block rounded px-2 py-0.5 text-xs font-medium bg-terracotta/10 text-terracotta"
+            >
+              {tagMeta(tag.id).label}
+            </span>
+          ))}
       </span>
       <h1 className="mt-2 font-heading text-3xl font-bold text-navy">{m.title}</h1>
       {m.summary && (
@@ -167,88 +180,17 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </section>
       )}
 
-      {/* Why this material earns its place — each link explained */}
-      <section className="mt-8 divide-y divide-cool-grey/15 overflow-hidden rounded-xl border border-cool-grey/20 bg-white">
-        <div className="p-5">
-          <p className="text-xs font-semibold uppercase tracking-widest text-orange">
-            Builds agency for positive change
-          </p>
-          <div className="mt-2 flex flex-wrap gap-2">
-            {m.agencyContribution.indicators.map((i) => (
-              <span
-                key={i}
-                className="rounded-full bg-orange/10 px-3 py-1 text-sm font-medium text-dark-navy"
-              >
-                {INDICATOR_LABEL[i] ?? i}
-              </span>
-            ))}
+      {/* Understand it — the educator-facing explanation of what this is and how it works, lifted to
+          lead so a facilitator understands the material before the running detail and, lower down, the
+          curriculum mapping. See MATERIALS_STANDARD.md §11 (reading order). */}
+      {m.educatorContent && (
+        <section className="mt-8">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">For educators</h2>
+          <div className="mt-3 rounded-lg border border-cool-grey/20 bg-white p-5">
+            <Prose text={m.educatorContent} />
           </div>
-          {m.agencyContribution.how && (
-            <p className="mt-3 text-sm leading-relaxed text-dark-navy/75">{m.agencyContribution.how}</p>
-          )}
-        </div>
-
-        <div className="p-5">
-          <p className="text-xs font-semibold uppercase tracking-widest text-plum">
-            Principles in the learning design
-          </p>
-          <p className="mt-1 text-sm text-dark-navy/70">
-            How the design of this {t.label.toLowerCase()} puts Amala&rsquo;s principles into practice.
-          </p>
-          <ul className="mt-3 space-y-3">
-            {(m.principleAlignment.length > 0
-              ? m.principleAlignment
-              : m.principlesForegrounded.map((pid) => ({ principle: pid, how: "" }))
-            ).map(({ principle: pid, how }) => {
-              const p = getPrinciple(pid);
-              if (!p) return <li key={pid}>{pid}</li>;
-              return (
-                <li key={pid}>
-                  <Link
-                    href={`/foundations#${pid}`}
-                    className="font-medium text-dark-navy hover:text-plum hover:underline"
-                  >
-                    {p.statement}
-                  </Link>
-                  <p className="mt-0.5 text-sm text-dark-navy/70">{how || p.gloss}</p>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-
-        <div className="p-5">
-          <p className="text-xs font-semibold uppercase tracking-widest text-navy">
-            Develop and demonstrate proficiency in
-          </p>
-          <p className="mt-1 text-sm text-dark-navy/70">
-            How this {t.label.toLowerCase()} gives learners the chance to build proficiency, and to
-            show it.
-          </p>
-          <ul className="mt-3 space-y-3">
-            {(m.competencyDevelopment.length > 0
-              ? m.competencyDevelopment
-              : m.competencyCodes.map((code) => ({ code, how: "" }))
-            ).map(({ code, how }) => {
-              const c = getCompetencyByCode(code);
-              const fallback = (conditions.get(code) ?? [])[0] ?? "";
-              return (
-                <li key={code}>
-                  <Link
-                    href={`/competencies/${code.toLowerCase()}`}
-                    className="font-medium text-dark-navy hover:text-navy hover:underline"
-                  >
-                    <span className="font-mono text-xs text-cool-grey">{code}</span> {c?.title ?? code}
-                  </Link>
-                  {(how || fallback) && (
-                    <p className="mt-0.5 text-sm text-dark-navy/70">{how || fallback}</p>
-                  )}
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* What learners do */}
       {m.whatLearnersDo.length > 0 && (
@@ -272,23 +214,51 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </section>
       )}
 
-      {/* Downloadable resources this material provides */}
-      {m.downloads.length > 0 && (
-        <section className="mt-8 rounded-xl border border-olive/30 bg-olive/[0.06] p-5">
-          <h2 className="font-heading text-xl font-semibold text-dark-navy">Resources to download</h2>
-          <ul className="mt-3 space-y-3">
-            {m.downloads.map((d) => (
-              <li key={d.file}>
-                <a href={d.file} download className="inline-flex items-baseline gap-2 font-medium text-navy hover:underline">
-                  <span className="rounded bg-olive px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white">{d.format ?? "File"}</span>
-                  {d.label}
-                </a>
-                {d.note && <p className="mt-0.5 text-sm text-cool-grey">{d.note}</p>}
-              </li>
-            ))}
-          </ul>
+      {/* Activity-wide "how to set it up" diagrams — a schematic so an educator can picture the
+          arrangement at a glance. "Example" (what-good-looks-like) visuals render after the steps. */}
+      {m.visuals.some((v) => v.kind === "setup") && (
+        <section className="mt-6">
+          <ActivityVisuals visuals={m.visuals.filter((v) => v.kind === "setup")} />
         </section>
       )}
+
+      {/* Downloadable resources this material provides. Grouped by role so the guided worksheet and the
+          blank template read as distinct artefacts (explainer → worksheet → example → template). */}
+      {m.downloads.length > 0 &&
+        (() => {
+          // Group by role, then order the groups (and preserve authoring order within each).
+          const groups = new Map<string, { label: string; order: number; items: typeof m.downloads }>();
+          for (const d of m.downloads) {
+            const meta = downloadRoleMeta(d.role);
+            const key = d.role ?? "_other";
+            if (!groups.has(key)) groups.set(key, { label: meta.label, order: meta.order, items: [] });
+            groups.get(key)!.items.push(d);
+          }
+          const ordered = [...groups.values()].sort((a, b) => a.order - b.order);
+          return (
+            <section className="mt-8 rounded-xl border border-olive/30 bg-olive/[0.06] p-5">
+              <h2 className="font-heading text-xl font-semibold text-dark-navy">Resources to download</h2>
+              <div className="mt-3 space-y-5">
+                {ordered.map((g) => (
+                  <div key={g.label}>
+                    <h3 className="text-xs font-semibold uppercase tracking-wide text-cool-grey">{g.label}</h3>
+                    <ul className="mt-2 space-y-3">
+                      {g.items.map((d) => (
+                        <li key={d.file}>
+                          <a href={d.file} download className="inline-flex items-baseline gap-2 font-medium text-navy hover:underline">
+                            <span className="rounded bg-olive px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white">{d.format ?? "File"}</span>
+                            {d.label}
+                          </a>
+                          {d.note && <p className="mt-0.5 text-sm text-cool-grey">{d.note}</p>}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </section>
+          );
+        })()}
 
       {/* Running this in different settings — the delivery-mode axis */}
       {m.deliveryAdaptations.length > 0 && (
@@ -349,6 +319,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
                     <Prose text={step.guidance} gloss skip={stepSkips[i]} />
                   </div>
                 )}
+                {step.visuals.length > 0 && <ActivityVisuals visuals={step.visuals} className="mt-3" />}
                 {step.keyPrompts.length > 0 && (
                   <div className="mt-3">
                     <p className="text-xs font-semibold uppercase tracking-wide text-teal">Key prompts</p>
@@ -381,6 +352,17 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </section>
       )}
 
+      {/* "What it looks like when it's working" — the finished-output visual(s), placed after the flow
+          so an educator can check what they're steering toward. */}
+      {m.visuals.some((v) => v.kind === "example") && (
+        <section className="mt-8">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">What it looks like when it&rsquo;s working</h2>
+          <div className="mt-3">
+            <ActivityVisuals visuals={m.visuals.filter((v) => v.kind === "example")} />
+          </div>
+        </section>
+      )}
+
       {/* Closing */}
       {m.closing && (
         <section className="mt-8">
@@ -400,14 +382,98 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
           </div>
         </section>
       )}
-      {m.educatorContent && (
-        <section className="mt-8">
-          <h2 className="font-heading text-xl font-semibold text-dark-navy">For educators</h2>
-          <div className="mt-3 rounded-lg border border-cool-grey/20 bg-white p-5">
-            <Prose text={m.educatorContent} />
+
+      {/* How this fits the curriculum — the agency/principles/competency mapping. Demoted below the
+          teaching content on purpose (MATERIALS_STANDARD.md §11): it is justification for the designer
+          and moderator, read after an educator can already understand and run the material. */}
+      <section className="mt-10">
+        <h2 className="font-heading text-xl font-semibold text-dark-navy">How this fits the curriculum</h2>
+        <div className="mt-3 divide-y divide-cool-grey/15 overflow-hidden rounded-xl border border-cool-grey/20 bg-white">
+          <div className="p-5">
+            <p className="text-xs font-semibold uppercase tracking-widest text-orange">
+              Builds agency for positive change
+            </p>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {m.agencyContribution.indicators.map((i) => (
+                <span
+                  key={i}
+                  className="rounded-full bg-orange/10 px-3 py-1 text-sm font-medium text-dark-navy"
+                >
+                  {INDICATOR_LABEL[i] ?? i}
+                </span>
+              ))}
+            </div>
+            {m.agencyContribution.how && (
+              <p className="mt-3 text-sm leading-relaxed text-dark-navy/75">{m.agencyContribution.how}</p>
+            )}
           </div>
-        </section>
-      )}
+
+          {(m.principleAlignment.length > 0 || m.principlesForegrounded.length > 0) && (
+          <div className="p-5">
+            <p className="text-xs font-semibold uppercase tracking-widest text-plum">
+              Principles in the learning design
+            </p>
+            <p className="mt-1 text-sm text-dark-navy/70">
+              How the design of this {t.label.toLowerCase()} puts Amala&rsquo;s principles into practice.
+            </p>
+            <ul className="mt-3 space-y-3">
+              {(m.principleAlignment.length > 0
+                ? m.principleAlignment
+                : m.principlesForegrounded.map((pid) => ({ principle: pid, how: "" }))
+              ).map(({ principle: pid, how }) => {
+                const p = getPrinciple(pid);
+                if (!p) return <li key={pid}>{pid}</li>;
+                return (
+                  <li key={pid}>
+                    <Link
+                      href={`/foundations#${pid}`}
+                      className="font-medium text-dark-navy hover:text-plum hover:underline"
+                    >
+                      {p.statement}
+                    </Link>
+                    <p className="mt-0.5 text-sm text-dark-navy/70">{how || p.gloss}</p>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          )}
+
+          {(m.competencyDevelopment.length > 0 || m.competencyCodes.length > 0) && (
+          <div className="p-5">
+            <p className="text-xs font-semibold uppercase tracking-widest text-navy">
+              Develop and demonstrate proficiency in
+            </p>
+            <p className="mt-1 text-sm text-dark-navy/70">
+              How this {t.label.toLowerCase()} gives learners the chance to build proficiency, and to
+              show it.
+            </p>
+            <ul className="mt-3 space-y-3">
+              {(m.competencyDevelopment.length > 0
+                ? m.competencyDevelopment
+                : m.competencyCodes.map((code) => ({ code, how: "" }))
+              ).map(({ code, how }) => {
+                const c = getCompetencyByCode(code);
+                const fallback = (conditions.get(code) ?? [])[0] ?? "";
+                return (
+                  <li key={code}>
+                    <Link
+                      href={`/competencies/${code.toLowerCase()}`}
+                      className="font-medium text-dark-navy hover:text-navy hover:underline"
+                    >
+                      <span className="font-mono text-xs text-cool-grey">{code}</span> {c?.title ?? code}
+                    </Link>
+                    {(how || fallback) && (
+                      <p className="mt-0.5 text-sm text-dark-navy/70">{how || fallback}</p>
+                    )}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          )}
+        </div>
+      </section>
 
       {/* Part of these modules (skill / competency modules) */}
       {inModules.length > 0 && (

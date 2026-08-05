@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 480" role="img" aria-label="Galtung's violence triangle. Direct violence sits at the top above a waterline that marks the visible from the hidden. Below the line are the two invisible forms: structural violence at the bottom left and cultural violence at the bottom right. Arrows show the reinforcing cycle: cultural violence justifies both structural and direct violence, and structural violence produces direct violence.">
+  <style>
+    .node { font: 700 17px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; fill: #041E42; }
+    .sub { font: 400 11.5px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; fill: #4b5563; }
+    .band { font: 700 11px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; fill: #97999B; letter-spacing: .1em; }
+    .rel { font: 400 11.5px italic system-ui, -apple-system, Segoe UI, Roboto, sans-serif; fill: #004976; }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#004976"/>
+    </marker>
+  </defs>
+
+  <!-- triangle body -->
+  <polygon points="280,95 110,380 450,380" fill="#004976" fill-opacity="0.05" stroke="#004976" stroke-width="1.5"/>
+
+  <!-- waterline: visible above, hidden below -->
+  <line x1="40" y1="182" x2="520" y2="182" stroke="#004976" stroke-width="1" stroke-dasharray="5 4" stroke-opacity="0.55"/>
+  <text class="band" x="44" y="172">VISIBLE — “the tip”</text>
+  <text class="band" x="44" y="200">HIDDEN — beneath the surface</text>
+
+  <!-- reinforcing-cycle arrows, just inside each edge -->
+  <!-- cultural -> structural (bottom) -->
+  <path d="M424 360 L146 360" fill="none" stroke="#004976" stroke-width="1.3" stroke-opacity="0.7" marker-end="url(#arrow)"/>
+  <text class="rel" x="285" y="353" text-anchor="middle">justifies</text>
+  <!-- structural -> direct (left edge) -->
+  <path d="M150 356 L258 138" fill="none" stroke="#004976" stroke-width="1.3" stroke-opacity="0.7" marker-end="url(#arrow)"/>
+  <text class="rel" x="168" y="258" text-anchor="middle" transform="rotate(-64 168 258)">produces</text>
+  <!-- cultural -> direct (right edge) -->
+  <path d="M410 356 L302 138" fill="none" stroke="#004976" stroke-width="1.3" stroke-opacity="0.7" marker-end="url(#arrow)"/>
+  <text class="rel" x="392" y="258" text-anchor="middle" transform="rotate(64 392 258)">justifies</text>
+
+  <!-- nodes -->
+  <circle cx="280" cy="95" r="9" fill="#BD472A"/>
+  <text class="node" x="280" y="58" text-anchor="middle">Direct violence</text>
+  <text class="sub" x="280" y="76" text-anchor="middle">visible harm — an act, an actor, a victim</text>
+
+  <circle cx="110" cy="380" r="9" fill="#4797A8"/>
+  <text class="node" x="118" y="410" text-anchor="middle">Structural violence</text>
+  <text class="sub" x="118" y="428" text-anchor="middle">harm built into unfair systems</text>
+
+  <circle cx="450" cy="380" r="9" fill="#8F993E"/>
+  <text class="node" x="442" y="410" text-anchor="middle">Cultural violence</text>
+  <text class="sub" x="442" y="428" text-anchor="middle">beliefs that make it seem normal</text>
+</svg>

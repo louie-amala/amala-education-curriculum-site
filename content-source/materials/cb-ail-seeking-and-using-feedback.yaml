@@ -43,6 +43,43 @@ materialsAndPreparation:
 - Two spoken example requests ready (one vague, one specific), so you can model the difference aloud.
 - A simple keep, wait, leave sort the group can point to, drawn large as three spots on the floor or table.
 - "Sensitivity: hearing what could be better can sting or feel shaming. Say clearly that asking for help is a strength, no one is being graded, and a learner may keep their work private and only say their goal aloud."
+visuals:
+- kind: setup
+  title: "Keep, wait, leave — three spots"
+  caption: >-
+    Three spots on the floor. After listening without defending, the learner puts each piece of advice on
+    the spot that fits.
+  spec:
+    type: zones
+    zones:
+    - label: "Keep (act now)"
+      tone: positive
+      cards: []
+    - label: "Wait"
+      tone: question
+      cards: []
+    - label: "Leave"
+      tone: neutral
+      cards: []
+- kind: example
+  title: "Advice sorted, one change chosen"
+  caption: >-
+    The advice sorted, and one change picked to try. You do not have to take every piece — you choose.
+  spec:
+    type: zones
+    zones:
+    - label: "Keep (act now)"
+      tone: positive
+      cards:
+      - "add more detail here"
+    - label: "Wait"
+      tone: question
+      cards:
+      - "try a new style later"
+    - label: "Leave"
+      tone: neutral
+      cards:
+      - "make it longer"
 facilitationNotes: |
   Advice only helps a learner who asks for it well and can hear it without defending. The one thing to get right
   is the shift from advice as judgement to advice the learner controls: they choose what to ask about, and they

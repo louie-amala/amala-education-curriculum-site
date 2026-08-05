@@ -1,0 +1,34 @@
+id: tokenism
+slug: tokenism
+access: public
+term: Tokenism
+category: content
+matchPhrases:
+- tokenism
+- tokenistic
+definition: >-
+  Including a person or group only for show — a single, surface-level representative — rather than
+  out of genuine understanding or a real share of power.
+explainer: |
+  Tokenism is representation without substance. A story, organisation, or campaign includes one
+  member of a group so it can appear diverse or fair, while that person carries the whole weight of
+  representing everyone like them and holds no real influence. It is the "one only" pattern: when an
+  audience regularly sees just one person of a group, and always in the same limited role, they
+  absorb a message about who matters and who does not.
+
+  Tokenism looks like inclusion, which is what makes it worth naming. The test is whether the
+  representation is genuine: does the person have a full, individual story and a real say, or are they
+  a symbol added to tick a box? Authentic storytelling gives people depth and voice rather than a
+  walk-on part.
+
+  Tokenism is a subtle form of [stereotyping](/glossary/stereotype): the single token becomes a
+  [single story](/glossary/single-story) of the whole group, and it sits alongside
+  [othering](/glossary/othering) as a way representation can go wrong.
+examples:
+- A film with one character from a minority group who has no story of their own and exists only to signal variety.
+nonExamples:
+- A cast in which characters from many backgrounds each have their own full, distinct storylines and choices.
+useInContext: >-
+  Learners test whether a story includes a group authentically or tokenistically, and redesign it to
+  give real voice.
+relatedTermIds: [stereotype, single-story, othering]

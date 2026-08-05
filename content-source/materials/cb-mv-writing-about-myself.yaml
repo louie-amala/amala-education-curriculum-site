@@ -50,6 +50,28 @@ materialsAndPreparation:
 - One or two frames ready to complete, shown large and simple with a picture — for example "I am from ___" — for learners who are ready to try a whole sentence.
 - Paper or the My Voice book, and something to write with; for tracing, a finger in sand or dust works where pencils are scarce.
 - "Sensitivity: writing a place or a family word can touch loss and separation. Let learners choose lighter, everyday words — a colour, a food, a thing they like — and never require anyone to write down anything painful."
+visuals:
+- kind: example
+  title: "Copy your words, then one sentence"
+  caption: >-
+    Two paces on one page: everyone copies their own words; those ready complete one sentence frame. Both
+    are real writing.
+  spec:
+    type: zones
+    cardStyle: drawing
+    flow: across
+    flowLabel: "if ready"
+    zones:
+    - label: "Copy your words"
+      tone: known
+      cards:
+      - "Rashida"
+      - "rice"
+      - "blue"
+    - label: "Complete one sentence"
+      tone: positive
+      cards:
+      - "I am from my village"
 facilitationNotes: |
   Writing here is emergent, not the sentence-from-frames writing the source assumes. Most learners are
   copying and completing a few words, not composing, and some are holding a pencil for the first time —

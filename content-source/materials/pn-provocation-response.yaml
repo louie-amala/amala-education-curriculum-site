@@ -1,0 +1,63 @@
+id: pn-provocation-response
+slug: pn-provocation-response
+access: public
+type: resource
+title: Provocation response (analysis task)
+summary: >-
+  A printable task and rubric for analysing a provocation, an image, article, film, or object chosen to
+  spark thought, recording purpose, bias, meaning, and a critical judgement of its ideas.
+facilitationNotes: >-
+  The one thing to get right: the framework is a scaffold, not a form to fill in mechanically. The value
+  is the thinking a provocation provokes, so encourage learners to write beyond the prompts where a
+  heading sparks something. The formative rubric is for improving the response before submission, not for
+  grading. The task is deliberately generic, choose any provocation that fits your context (the course
+  uses a short film), and add your own summative success indicators.
+learnerContent: |
+  A **provocation** is something chosen to make you think, an image, article, film, or object, and to
+  spark investigation.
+
+  Use this task to record and analyse the thinking it provokes. Work through the headings, purpose,
+  process, content, then reporting, interpreting, and critiquing, and write beyond them wherever a
+  heading sparks more. Then reflect on how the analysis helped you learn, and check your response against
+  the formative rubric before you submit.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    A repeatable method for taking apart any provocation, asking who made it, why, with what bias, and
+    whether its ideas hold, is a tool for thinking for oneself rather than absorbing a message whole. That
+    critical independence is the ground of directing one's own beliefs and choices.
+principlesForegrounded: [feedback-and-data, lifeworthy-competencies]
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      The task turns a first reaction into evidenced analysis, and the formative rubric gives learners a
+      clear standard to revise against before they submit.
+  - principle: lifeworthy-competencies
+    how: >-
+      Critically analysing a source, its purpose, bias, meaning, and limits, is a transferable skill that
+      serves learners across study, work, and civic life.
+competencyCodes: [FPS2, FLC3]
+competencyDevelopment:
+  - code: FPS2
+    how: >-
+      Asking who produced a provocation, why, and with what bias is exactly the work of evaluating the
+      credibility of sources. The completed analysis is the evidence.
+  - code: FLC3
+    how: >-
+      Turning the analysis into a clear written response is practice at communicating a reasoned judgement
+      others can follow.
+downloads:
+  - label: Provocation response task and rubric
+    file: /downloads/pn-provocation-response.docx
+    format: Word
+    role: worksheet
+    note: >-
+      A generic analysis task with a six-part framework, a reflection section, and a formative rubric.
+      Choose any provocation that suits your context; the facilitator adds the summative success indicators.
+objectiveIds: [powerful-narratives--o1]
+relatedSlugs: [pn-hair-love, pn-danger-of-a-single-story, pn-immigration-myths]
+sourceRefs: ["Resources/03. Assessed Tasks/Assessed Task Template_ Provocation Response (Powerful Narratives source pack)"]
+provenanceNote: >-
+  Extracted from the Powerful Narratives source pack "Assessed Task Template: Provocation Response",
+  generalised (film-specific detail removed) and regenerated as a printable Word document via
+  scripts/downloads/generate-pn-worksheets.js. In the original it is built on the Hair Love film.

@@ -50,6 +50,32 @@ materialsAndPreparation:
 - A few simple pictures for the phrases to keep in the My Voice book if you have them — optional, since the phrases live in voice and gesture, not on paper.
 - Two or three warm-up games chosen to run regularly, so learners come to know and expect them.
 - "Sensitivity: speaking a new language aloud in front of others is exposing, and some learners will have been shamed for mistakes before. Never put a single learner on the spot or correct harshly in front of the group; let the shy speak first to a partner or quietly to you, and treat every attempt, however imperfect, as a win. Being understood beats being perfect."
+visuals:
+- kind: example
+  title: "Say it, with the action"
+  caption: >-
+    Each classroom phrase is tied to a gesture, so meaning is carried by the body as well as the word. It
+    is always okay to ask.
+  spec:
+    type: zones
+    cardStyle: drawing
+    flow: across
+    flowLabel: "with"
+    zones:
+    - label: "Say"
+      tone: known
+      cards:
+      - "hello"
+      - "thank you"
+      - "again, please"
+      - "I don't understand"
+    - label: "Do"
+      tone: positive
+      cards:
+      - "wave"
+      - "hand on heart"
+      - "circling hand"
+      - "open hands, shrug"
 facilitationNotes: |
   The source displays the classroom phrases in writing for learners to read from a wall. Here almost no one
   reads yet, so this is rebuilt to run entirely by ear, gesture, and repetition — and it does a bigger job

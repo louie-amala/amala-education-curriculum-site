@@ -1,0 +1,121 @@
+id: pn-iceberg-of-othering
+slug: pn-iceberg-of-othering
+access: public
+type: activity
+title: The iceberg of othering
+summary: >-
+  Learners map a text that others a group onto an iceberg: the visible techniques of language above the
+  waterline, and the hidden attitudes and beliefs that drive them below.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Filling the lower band together, the attitudes beneath the words, is where learners
+      push each other past the obvious surface techniques. Keep a shared iceberg visible so the two bands
+      build up in front of everyone.
+  - context: independent
+    how: >-
+      A learner can build the iceberg alone from a text, but nobody is there to challenge a thin base.
+      Give the guiding question for the hidden band in writing and ask for at least three attitudes under
+      the waterline, so a single reader is still pushed below the surface.
+duration: About 60 minutes.
+grouping: Small groups of three or four, then whole-group comparison.
+whatLearnersDo:
+  - Read a short text or clip that presents a group as other (from the news, film, or the Nacirema text).
+  - List the visible techniques above the waterline, the specific words and images that do the othering.
+  - Name the hidden attitudes and beliefs below the waterline that those techniques rest on.
+  - Compare icebergs and discuss how surface language and deep belief hold each other up.
+materialsAndPreparation:
+  - A short text or clip that others a group (a news item, an advert, or the Nacirema reading).
+  - A large iceberg outline (drawn, printed, or projected) with a waterline.
+  - "Guiding questions for each band, ready to hand out if learners stall on the hidden layer."
+facilitationNotes: >-
+  The one thing to get right: most learners fill the visible band easily and stall at the hidden one, so
+  spend your energy below the waterline. Keep asking what a person would have to believe for this
+  language to feel normal. Sensitivity: the texts name real groups. Keep analysis on the text and the
+  technique, not on any group present, and choose examples that do not target a group in the room.
+steps:
+  - title: Read for the techniques
+    duration: 15 min
+    guidance: >-
+      Learners read the text closely and pull out the specific moves that make the group seem other:
+      loaded words, comparisons, what is emphasised and what is left out. These are the visible tip of the
+      iceberg. Keep it concrete, exact words and images, not general impressions.
+    keyPrompts:
+      - Which exact words or images make this group seem strange, threatening, or lesser?
+      - What is emphasised, and what is left out?
+    watchOuts:
+      - Learners summarise the gist instead of quoting the technique. Push them back to the actual words on the page.
+  - title: Dig below the waterline
+    duration: 20 min
+    guidance: >-
+      Now the hard part. For each surface technique, ask what belief it rests on: what would someone have
+      to assume about this group, and about "us", for the language to feel natural? Those assumptions are
+      the hidden mass of the iceberg, and they are where the real work of othering happens.
+    keyPrompts:
+      - What would a person have to believe for this wording to seem fair?
+      - What does the text assume about "us" that it never states?
+    watchOuts:
+      - The hidden band stays empty or just repeats the surface words. Model one link out loud, then hand it back to the groups.
+  - title: Compare and connect the layers
+    duration: 20 min
+    guidance: >-
+      Groups view each other's icebergs and discuss how the two bands support each other: the attitudes
+      make the techniques feel normal, and the techniques keep the attitudes alive. Connect to how this
+      works at scale in media, where repeated surface techniques quietly maintain deep beliefs.
+    keyPrompts:
+      - How do the hidden attitudes make the surface language feel acceptable?
+      - What would have to change below the waterline for the language above it to stop working?
+    watchOuts:
+      - Discussion stays at "this is biased". Push toward the mechanism, how surface and depth hold each other up, which is what makes it changeable.
+closing: >-
+  Ask each learner to name one hidden attitude they will now listen for beneath everyday news language.
+  The iceberg is kept and connects to the systems iceberg used elsewhere in the programme.
+learnerContent: |
+  Draw an iceberg with a waterline. Take a text that presents a group as "other".
+
+  **Above the water** (visible): list the exact techniques, the loaded words, images, and comparisons
+  that make the group seem strange, threatening, or lesser.
+
+  **Below the water** (hidden): for each technique, ask what someone would have to *believe* about that
+  group, and about "us", for the language to feel normal. Those beliefs are the real mass of the iceberg.
+
+  Then look at how the two layers hold each other up.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Separating the visible techniques of othering from the hidden beliefs beneath them gives learners a
+    repeatable way to take apart a harmful narrative and show others how it works. Understanding a
+    problem at that depth is what makes their response to it effective rather than aimed at the surface.
+principlesForegrounded: [authentic-challenges, feedback-and-data]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The iceberg is only ever built against a real text that others a real group, so the analysis engages
+      a live problem in the media learners actually encounter.
+  - principle: feedback-and-data
+    how: >-
+      The two-band structure forces learners to evidence each hidden attitude from a specific surface
+      technique, so the deep reading is grounded in the text rather than asserted.
+competencyCodes: [AUS1, FUS2]
+competencyDevelopment:
+  - code: AUS1
+    how: >-
+      Mapping how othering works, surface to depth, is direct practice at recognising unfair perspectives
+      well enough to help others see and overcome them. The completed iceberg is the evidence.
+  - code: FUS2
+    how: >-
+      Naming the beliefs a text assumes about a group sharpens learners' account of what drives how people
+      judge and exclude others.
+links:
+  - label: "Othering (background reading)"
+    url: https://en.wikipedia.org/wiki/Other_(philosophy)
+    note: "General background on othering. The source pack includes a simplified 'Othering' article for classroom use."
+objectiveIds: [powerful-narratives--o1]
+relatedSlugs: [pn-body-ritual-among-the-nacirema, pn-stereotypes-concept-map, iceberg-model]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 4: Iceberg Models / Othering)", "Resources/EAL check/week 4/Othering"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners, Week 4 "Iceberg Models" applied to othering. Uses
+  the same iceberg structure as the systems-thinking iceberg-model tool, applied here to narrative and
+  attitude rather than systems.

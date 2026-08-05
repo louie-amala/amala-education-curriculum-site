@@ -39,6 +39,48 @@ materialsAndPreparation:
 - "The four goal-test picture cards (in the [Picture Cards pack](/downloads/agency-in-learning-picture-cards.pdf)): small, clear, it matters, by-when."
 - A set of spoken example goals at mixed quality, some vague, some too big, some with no by-when, close to your learners' real goals.
 - One weak goal and the same goal improved, to model the fix aloud.
+visuals:
+- kind: setup
+  title: "The four tests of a good goal"
+  caption: >-
+    Kept on the wall as a reference: a good goal passes all four. Learners judge goals against them, then
+    test their own.
+  spec:
+    type: zones
+    zones:
+    - label: "Small enough"
+      tone: neutral
+      cards:
+      - "not too big"
+    - label: "Clear"
+      tone: neutral
+      cards:
+      - "a clear finish"
+    - label: "It matters"
+      tone: neutral
+      cards:
+      - "matters to me"
+    - label: "By when"
+      tone: neutral
+      cards:
+      - "has a day"
+- kind: example
+  title: "A weak goal made strong"
+  caption: >-
+    ‘Get better at English’ fails the tests — not clear, no by-when. Sharpened, it passes all four.
+  spec:
+    type: zones
+    flow: across
+    flowLabel: "becomes"
+    zones:
+    - label: "Weak goal"
+      tone: warn
+      cards:
+      - "get better at English"
+    - label: "Strong goal"
+      tone: positive
+      cards:
+      - "say 10 new English words by Friday"
 facilitationNotes: |
   Learners draft goals in the next sessions; here they build the judgement to tell a good goal from a
   weak one and fix it. The one thing to get right is that learners apply the tests to the examples

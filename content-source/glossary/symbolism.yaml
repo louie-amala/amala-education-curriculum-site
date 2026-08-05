@@ -1,0 +1,43 @@
+id: symbolism
+slug: symbolism
+access: public
+term: Symbolism
+category: content
+matchPhrases:
+- symbolism
+- symbolic
+definition: >-
+  The use of an image, object, colour, or action to stand for an idea or feeling beyond its literal
+  meaning.
+explainer: |
+  A symbol is something that means more than itself. A dove is a bird, but it also stands for peace;
+  a colour can carry mourning in one place and celebration in another. Symbolism is how art packs
+  large ideas into small signs, and reading it is a core skill in interpreting a work's
+  [content](/glossary/form-and-content).
+
+  Symbols run from the religious (a cross, a crescent) through the cultural (a flower, an animal, a
+  gesture) to the everyday and modern (emoji). Some feel almost universal, but most are learned
+  inside a culture and do not travel intact — which is exactly why a symbol's meaning depends on
+  [artistic context](/glossary/artistic-context). Much of a symbol's power sits below the waterline
+  of the [cultural iceberg](/glossary/cultural-iceberg): you only recognise it if you share the
+  culture that assigned it.
+
+  The study of the symbols and subjects in a work, and what they conventionally mean, is called
+  iconography.
+furtherReading:
+- title: Symbolism
+  url: https://www.tate.org.uk/art/art-terms/s/symbolism
+  source: Tate
+  note: Covers the Symbolist movement and, more broadly, the use of images to signify ideas.
+- title: Iconography
+  url: https://www.tate.org.uk/art/art-terms/i/iconography
+  source: Tate
+  note: On reading the symbols and subject matter in an artwork.
+examples:
+- A dove standing for peace, or a colour that means one thing in one culture and something else elsewhere
+nonExamples:
+- A picture of an object meant only to show the object itself, with no further meaning intended
+useInContext: >-
+  Learners identify symbols in artworks and design their own, testing whether a symbol reads the same
+  across cultures.
+relatedTermIds: [artistic-context, form-and-content, cultural-iceberg]

@@ -1,0 +1,91 @@
+id: pn-internalising-narratives
+slug: pn-internalising-narratives
+access: public
+type: case-study
+title: How narratives get internalised
+summary: >-
+  Using two classic studies of children and prejudice, learners examine how a narrative about a group
+  can be absorbed by its own members and start to shape how they see themselves.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, with a careful debrief. The studies are affecting, so watch the room and give time
+      for reactions before moving to analysis. Keep discussion on the mechanism of internalisation, not
+      on anyone's personal experience of it, unless a learner chooses to offer one.
+  - context: independent
+    how: >-
+      A learner can watch the studies and respond in writing, which some may prefer for such sensitive
+      material. Give reflection questions that stay on how internalisation works, and make clear the
+      learner controls how much of their own experience they bring to it.
+duration: About 90 minutes across the two studies, plus debrief.
+grouping: Whole group for viewing and debrief, individual reflection.
+whatLearnersDo:
+  - Watch two classic studies of how children absorb narratives about race and group difference.
+  - Notice how the children come to apply a harmful narrative to themselves or to peers.
+  - Analyse how a narrative gets internalised, so a person believes what it says about them.
+  - Connect this to their own narrative identity map, looking only at what they choose to share.
+educatorContent: |
+  This case study pairs two well-known demonstrations of internalised narrative. In the "doll test",
+  young children, asked to choose between otherwise identical dolls of different skin tones, show they
+  have already absorbed which is "good" or "nice", including about dolls that look like them. In Jane
+  Elliott's "Blue Eyes, Brown Eyes" exercise (filmed as A Class Divided), a teacher divides children by
+  eye colour and treats one group as superior; within hours the children's behaviour and even
+  performance shift to match the story they have been given.
+
+  Together they show how quickly and deeply a narrative about a group can be internalised, believed about
+  oneself, and acted on. That is the concept the course is building toward: dominant narratives are most
+  powerful when the people they describe come to hold them too.
+
+  Handle with real care. This material touches race, discrimination, and, for some learners, lived
+  experience of being on the receiving end of exactly these narratives. Keep the analysis on the
+  mechanism, never require personal disclosure, watch for distress, and give the group a way to step back.
+  Warn that the older footage contains language and attitudes that are offensive by design.
+learnerContent: |
+  You will watch two famous studies of how children take in narratives about who is "better" or "worse".
+  In one, small children have already learned which dolls are "nicer", even dolls that look like them. In
+  the other, children told that one eye colour is superior begin, within hours, to act as if it were true.
+
+  As you watch, focus on **how** a narrative gets inside a person, so that they believe what it says about
+  them. You are studying the process, not being asked to relive anything. You choose what, if anything, of
+  your own experience you bring to the discussion, and you can step out at any time.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Seeing how a narrative gets inside a person, so that they act out a story someone else wrote for them,
+    is what lets a learner ask which stories they have internalised about themselves. Naming that process
+    is the first step to loosening its grip and reclaiming authorship of one's own self-image.
+principlesForegrounded: [safe-spaces, builds-on-identities]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      The material is emotionally heavy and may be personal, so it runs only inside firm care: analysis
+      stays on the mechanism, no one is required to disclose, distress is watched for, and stepping back is
+      always available.
+  - principle: builds-on-identities
+    how: >-
+      The connection to learners' own narrative identity maps lets them relate the studies to their own
+      sense of self, but strictly on their own terms and only as much as they choose.
+competencyCodes: [FUS1, AUS1]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      Understanding how narratives become internalised gives learners a lens on the stories they may hold
+      about themselves without noticing, which is deep practice at self-awareness. Their written reflection
+      is the evidence.
+  - code: AUS1
+    how: >-
+      The studies make visible how prejudice is absorbed and reproduced, informing how learners might help
+      others recognise and unlearn internalised negative narratives.
+links:
+  - label: "A Class Divided (PBS Frontline, Jane Elliott exercise)"
+    url: https://www.pbs.org/wgbh/frontline/documentary/class-divided/
+    note: "The Blue Eyes/Brown Eyes documentary. [to verify URL] The doll-test studies are widely available; facilitators source an appropriate version."
+objectiveIds: [powerful-narratives--o1]
+relatedSlugs: [pn-status-cards, pn-letting-go-of-stories, pn-stereotypes-concept-map]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 7: Internalising narratives — Doll Test / Blue Eyes, Brown Eyes)"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners, Week 7 "Internalising narratives", which uses the
+  doll test and the Blue Eyes/Brown Eyes (A Class Divided) exercise. Combined here into one case study
+  with added safeguarding framing for a public site.

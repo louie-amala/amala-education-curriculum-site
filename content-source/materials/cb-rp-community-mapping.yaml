@@ -29,6 +29,45 @@ materialsAndPreparation:
 - Pens, chalk, cards, or small objects for people, groups, places, and things; no writing required.
 - The "what we know / what we still need to find out" wall from the previous activity, nearby.
 - Step-back and referral guidance to hand, and a clear sense of who learners should NOT be sent to approach.
+visuals:
+- kind: setup
+  title: "Everyone around one shared map"
+  caption: >-
+    One big sheet, cloth, or cleared floor the whole group can reach. Pairs add people and things; you
+    move around and hold the line on who is safe to approach.
+  spec:
+    type: groups
+    facilitator: true
+    clusters:
+    - size: 10
+      count: 1
+      label: "whole group, one map they all reach"
+- kind: example
+  title: "Our map: people, harms, and helps"
+  caption: >-
+    The finished map sorts what is connected to the hills, and marks who it is safe and kind to learn from
+    later. We always ask permission, and never use anyone's name.
+  spec:
+    type: zones
+    zones:
+    - label: "People"
+      tone: neutral
+      cards:
+      - "elders who remember"
+      - "families on the slopes"
+      - "who cuts / who plants"
+    - label: "What harms the hills"
+      tone: warn
+      cards:
+      - "wood-cutting"
+      - "bare slopes"
+      - "where mud slides"
+    - label: "What helps"
+      tone: positive
+      cards:
+      - "people who plant"
+      - "new saplings"
+      - "roots holding soil"
 facilitationNotes: >-
   The one thing to get right: this map does double duty, so build it with both jobs in mind. It surfaces
   the contributing factors — what strips the hills and what helps them recover — and it becomes the list

@@ -1,0 +1,138 @@
+id: pn-recipe-for-a-great-story
+slug: pn-recipe-for-a-great-story
+access: public
+type: activity
+title: Recipe for a great story
+summary: >-
+  Learners brainstorm what makes a story work, build and present their own "recipe" of story
+  ingredients and steps, then test it by analysing a real short film.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The value is in the comparison: hearing another group's recipe, and finding a story
+      that breaks it, is what turns a list of ingredients into an understanding of how stories work.
+      Keep the presentation round even when time is short.
+  - context: independent
+    how: >-
+      A learner can build a recipe alone in a notebook and then test it on a story they choose, but
+      they lose the disagreement that does the teaching. Ask them to find one story that does NOT fit
+      their recipe and to revise it, so a single perspective still gets challenged.
+duration: About 45 minutes on its own, or 60 minutes with the film-analysis step.
+grouping: Whole group to gather ideas, then small groups of three or four.
+whatLearnersDo:
+  - Brainstorm the "ingredients" that make a story different from a report of events.
+  - Build a short "recipe for a great story" (ingredients plus method) on poster paper.
+  - Present their recipe and compare it with other groups' and with a shared list of story elements.
+  - Test the recipe by analysing a real short film against it.
+materialsAndPreparation:
+  - Poster paper and pens, or a shared board if working online.
+  - A short film or story every learner can access to test the recipe on (optional but recommended).
+  - "Optional: a short 'elements of a story' video or handout. The activity works fully without it."
+facilitationNotes: >-
+  The one thing to get right: this is about noticing, not about a correct answer. There is no official
+  recipe. The learning happens when groups compare recipes and hit a story that breaks their rules, so
+  protect the compare-and-challenge step even if you drop the film. Resist handing out a "proper"
+  definition of story at the start; let the ingredients come from them first, then offer a shared list
+  as one more recipe to argue with.
+steps:
+  - title: Brainstorm the ingredients of a story
+    duration: 10 min
+    guidance: >-
+      Ask the whole group what makes something a story rather than just a report of what happened.
+      Collect every idea on the board without judging it. Push past "a beginning, middle and end" by
+      asking what a story makes you feel that a report does not. You are building raw material, so
+      breadth matters more than precision here.
+    keyPrompts:
+      - What is the difference between telling the story of your day and listing what you did?
+      - What does a story make us feel or wonder that a plain report does not?
+    watchOuts:
+      - "Learners converge too fast on one tidy definition. Keep adding ideas: ask for one more ingredient from each person before you stop."
+  - title: Build a recipe in small groups
+    duration: 15 min
+    guidance: >-
+      In groups of three or four, learners turn the ingredients into a "recipe": first the list of
+      ingredients, then the method, the steps to cook up a good story. The recipe format keeps it
+      playful and stops them writing an essay. Tell them they will present it, so it needs to be clear
+      to others, not just to themselves.
+    keyPrompts:
+      - Which ingredients are essential, and which are optional extras?
+      - In what order would you add them to make the story work?
+    watchOuts:
+      - One learner writes while others watch. Give each group member responsibility for one ingredient to explain in the presentation.
+  - title: Present and compare recipes
+    duration: 10 min
+    guidance: >-
+      Each group presents in two or three minutes. As they go, draw out where recipes agree and where
+      they differ. Then offer a shared list of common story elements (character, setting, plot, conflict,
+      climax, resolution) as simply one more recipe, and ask what it adds and what it misses.
+    keyPrompts:
+      - What did every recipe include, and what did only one group think of?
+      - Is there a story you love that would fail this recipe?
+    watchOuts:
+      - Groups treat the shared elements list as the right answer that cancels their own. Frame it as another recipe to test, not a correction.
+    adaptation: >-
+      Low bandwidth or short on time: skip the shared elements list and just compare the groups' recipes
+      with each other.
+  - title: Test the recipe on a real story
+    duration: 15-20 min
+    guidance: >-
+      Learners watch or read a short story and analyse it against their recipe: which ingredients are
+      present, how, and where the story surprises them. This is where an abstract list becomes a tool
+      for reading. Close by asking whether they would change their recipe now.
+    keyPrompts:
+      - Which of your ingredients does this story use, and which does it do without?
+      - After seeing it work in a real story, what would you add to or cut from your recipe?
+    watchOuts:
+      - Learners just retell the plot. Keep pointing them back to their own recipe as the lens for the analysis.
+    adaptation: >-
+      Can be set as independent work: learners pick their own short film or story and write the analysis
+      in their journal.
+closing: >-
+  Ask each learner to name one ingredient they now think matters most in a story, and why. Keep the
+  recipe posters up; learners return to them whenever they build a story of their own later in the course.
+learnerContent: |
+  A story is more than a report of what happened. It is shaped so that we care.
+
+  In your group, write a **recipe for a great story**. First list the **ingredients** (what a good story
+  needs). Then write the **method**: the steps for putting them together. Make it clear enough that
+  another group could follow it.
+
+  Then test your recipe on a real short film or story. Which ingredients does it use? Where does it
+  surprise you? Would you change your recipe now that you have seen one work?
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Naming for themselves what makes a story land, rather than being handed a definition, gives learners
+    a tool they own. It is the first step toward telling their own story deliberately instead of by
+    accident, which is where narrative becomes something they direct rather than something that happens
+    to them.
+principlesForegrounded: [lifeworthy-competencies, collaboration]
+principleAlignment:
+  - principle: lifeworthy-competencies
+    how: >-
+      Understanding how a story is built is a transferable communication skill that serves learners in
+      pitching, advocacy, teaching, and leadership, not only in this course.
+  - principle: collaboration
+    how: >-
+      The recipe is built and tested against other groups' recipes; the disagreement between them is the
+      mechanism of learning, so the knowledge is genuinely co-produced.
+competencyCodes: [FLC3, FUS2]
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      Learners work out what gives a story its pull on an audience and record it as a reusable method,
+      which is the groundwork for communicating in a way that influences and inspires. The recipe and
+      their analysis of a real story are the evidence.
+  - code: FUS2
+    how: >-
+      Testing the recipe on a real story forces the question of what an audience feels and why, which is
+      practice at reading other people's responses rather than only their own.
+objectiveIds: [powerful-narratives--o2]
+relatedSlugs: [pn-self-us-now, pn-storytelling-manifesto, pn-what-goes-in-the-museum]
+sourceRefs: ["Amala Course Planner - Powerful Narratives - 2025 (Week 1: What is a story?)", "ONLINE Powerful Narratives Course Planner (Week 1)"]
+provenanceNote: >-
+  Extracted from the 2025 Powerful Narratives planners, Week 1 "Engagement 1: What is a story?" and the
+  Hair Love story-elements analysis. The evidencing template "A Recipe for Making Stories" pairs with
+  this activity as a reflection artefact.

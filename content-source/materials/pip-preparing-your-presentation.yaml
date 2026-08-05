@@ -1,0 +1,161 @@
+id: pip-preparing-your-presentation
+slug: pip-preparing-your-presentation
+access: public
+type: activity
+title: "Preparing your PIP presentation"
+summary: >-
+  Learners plan and rehearse a short PIP presentation for a real audience, deciding what story to tell,
+  shaping it clearly, and improving it through practice and feedback.
+facilitationContext:
+  - group
+  - one-to-one-mentoring
+  - independent
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners plan their presentations, then rehearse in small groups so several can practise
+      at once and give each other feedback. The peer rehearsal is the most useful part, so keep it even if
+      the planning is done independently.
+  - context: one-to-one-mentoring
+    how: >-
+      Works well for a nervous presenter or a solo project. A mentor helps shape the story and gives close
+      feedback on a run-through. What is lost is the audience practice a group provides, so arrange at least
+      one rehearsal in front of a few peers before the event.
+  - context: independent
+    how: >-
+      Planning alone is fine, but a presentation improves fastest when it is heard. If a learner prepares
+      independently, insist on at least one live or recorded rehearsal with feedback before the real thing,
+      since reading it silently hides the pacing and clarity problems.
+duration: "2 hours facilitated, plus independent preparation and rehearsal"
+grouping: "Individually or in project teams; rehearse in small groups; works with 5-35 learners"
+whatLearnersDo:
+  - "Decide what story your presentation will tell: what you learned, your journey, or a pitch for your idea."
+  - "Shape it to fit the time you are given, including time for questions and answers."
+  - "Apply a few simple presentation principles: speak slowly and clearly, and keep slides light on text."
+  - "Rehearse, get feedback from peers or a mentor, and improve it before the real audience."
+materialsAndPreparation:
+  - "The agreed length for each presentation, including question time, decided in advance so learners can shape to it."
+  - "A short, shared list of what makes a clear presentation (pace, clarity, little text on slides), to give learners a common standard."
+  - "Time and a space for rehearsal, ideally in small groups so several run at once; any projector or display the real event will use, so learners can practise with it."
+facilitationNotes: |
+  The one thing to get right is that learners own the purpose of their presentation. Unlike a school talk,
+  a PIP presentation can do different jobs: one learner reports what they learned, another tells the story
+  of their journey, another pitches an idea for others to take up. Help each learner choose its job first,
+  because everything else follows from that. The second priority is rehearsal with feedback, which is what
+  actually improves a talk; a presentation only read through silently will run long and land flat. This is
+  a celebratory, high-stakes moment for many learners, some speaking to an outside audience for the first
+  time, so protect time to practise and build confidence rather than only polishing slides.
+steps:
+  - title: "Decide what story your presentation will tell"
+    duration: "20-30 min"
+    guidance: |
+      Start with purpose, not slides. Ask each learner what they want their presentation to do: share what
+      they learned, tell the story of their PIP journey, or pitch a project idea to the audience. Have them
+      write a one-sentence aim and the two or three things the audience should leave knowing. This decision
+      shapes everything, so do not let learners open a slide tool until they can say what the talk is for.
+    keyPrompts:
+      - "What is the one thing you want your audience to take away?"
+      - "Is this a report of what you did, the story of your journey, or a pitch for something you want others to support?"
+    watchOuts:
+      - "Learners building slides before deciding the purpose. Send them back to the one-sentence aim first."
+      - "Trying to say everything. Help them cut to the two or three points that matter most for their chosen purpose."
+  - title: "Shape it to the time and to a clear structure"
+    duration: "30-40 min"
+    guidance: |
+      Learners draft the presentation to fit the agreed length, leaving room for questions. Encourage a
+      simple shape: an opening that sets up the focus and why it matters, a middle that shows what they did
+      and found, and a close that lands their main message. Introduce a few plain principles: speak slowly
+      and clearly, and keep slides light on text so the audience listens to them rather than reads.
+    keyPrompts:
+      - "If you had to cut this in half, what would you keep? That is probably your real presentation."
+      - "Where does your audience most need to hear why this mattered to you?"
+    watchOuts:
+      - "Slides dense with text. Remind them slides support the speaker; the words belong in their mouth, not on screen."
+      - "No time left for questions. Have them time a run-through and trim until the Q and A fits."
+  - title: "Rehearse, get feedback, and improve"
+    duration: "40-50 min"
+    guidance: |
+      Learners rehearse aloud, ideally in small groups so several practise at once and hear each other.
+      Give a simple feedback frame: one thing that was clear and strong, one thing that would make it
+      clearer. Learners then revise. If the real event uses a projector or a particular space, let them
+      practise with it so the setting is not a surprise on the day.
+    keyPrompts:
+      - "What was the clearest moment in that run, and what made it clear?"
+      - "Where did you lose the thread as a listener, and what would fix it?"
+    watchOuts:
+      - "Feedback that is only reassurance. Ask every listener for one concrete improvement, kindly put."
+      - "A learner too nervous to rehearse in front of others. Let them practise first with a mentor or record themselves, then build up to peers."
+    adaptation: >-
+      No devices or low bandwidth: a presentation needs no slides at all; a spoken talk with a poster or
+      simple visuals is often stronger. For learners who cannot rehearse in a group, a recorded
+      run-through on a basic phone, watched back once, still surfaces pacing and clarity problems.
+closing: >-
+  Each learner leaves with a rehearsed, feedback-improved presentation shaped to its purpose and time,
+  ready to deliver to the real audience at the culminating PIP event.
+learnerContent: |
+  Your PIP presentation is a chance to share your project with a real audience. You have full choice over
+  what it does. It might explain what you learned, tell the story of your journey, or pitch an idea you
+  want others to support.
+
+  Prepare it in three moves:
+  - Decide its purpose. Write one sentence: what do you want your audience to take away?
+  - Shape it to your time. A simple structure works well: set up your focus and why it matters, show what
+    you did and found, and end on your main message. Leave room for questions.
+  - Rehearse and improve. Practise aloud, get feedback from a peer or your mentor (one thing that was
+    clear, one thing to make clearer), and revise.
+
+  Two simple habits carry a presentation: speak slowly and clearly, and keep little text on your slides so
+  people listen to you rather than read.
+agencyContribution:
+  indicators:
+    - contribution-to-community
+    - control-of-future-pathways
+  how: >-
+    Standing in front of a real audience to communicate what they did and learned is where a learner's
+    work becomes a contribution others can see and respond to. Choosing the presentation's purpose, and
+    delivering it, is an act of public voice that also strengthens the pathways the PIP was building
+    towards.
+principlesForegrounded:
+  - recognise-communicate-growth
+  - feedback-and-data
+  - connect-to-futures
+principleAlignment:
+  - principle: recognise-communicate-growth
+    how: >-
+      The presentation is the point where learners make their growth visible to others, telling the story
+      of what they did, learned and became through the PIP, to an authentic audience.
+  - principle: feedback-and-data
+    how: >-
+      Rehearsal with structured peer or mentor feedback is built into the preparation, so the presentation
+      is improved through data about how it actually lands, not only the learner's own sense of it.
+  - principle: connect-to-futures
+    how: >-
+      Presenting to an audience that may include employers, universities and community organisations links
+      the PIP directly to the futures learners are building, and lets a pitch invite real support.
+competencyCodes:
+  - FLC3
+  - ASL1
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      Shaping a clear, purposeful talk for a real audience, and delivering it, is influential
+      communication directly. The rehearsed presentation and how well it moves its audience are the
+      evidence.
+  - code: ASL1
+    how: >-
+      Rehearsing, taking specific feedback, and revising the presentation in response is a tight cycle of
+      using feedback, with the improvement between run-throughs as evidence.
+objectiveIds:
+  - pip--o5
+relatedSlugs:
+  - pip-preparing-your-artefact
+  - pip-preparing-your-reflection
+  - pip-assessment-rubric
+sourceRefs:
+  - "Amala GSD Course Planner - Personal Interest Project (PIP) - 2025.docx"
+  - "Personal Interest Project (PIP) - Information for Facilitators.pptx"
+provenanceNote: >-
+  Authored from the course planner's "Preparing the PIP Presentation" and "The PIP Presentation" sections
+  (autonomy over the presentation's purpose, the presentation principles, rehearsal and feedback, and the
+  authentic-audience event). Mapped to PIP objective 5.

@@ -1,0 +1,40 @@
+id: violence-triangle
+slug: violence-triangle
+access: public
+term: Galtung's violence triangle
+category: content
+matchPhrases:
+- galtung's violence triangle
+- violence triangle
+definition: >-
+  Johan Galtung's model showing three connected forms of violence — direct, structural, and
+  cultural — that reinforce one another.
+explainer: |
+  The violence triangle is a planning tool for seeing violence as a system rather than a set of
+  isolated incidents. Galtung placed three forms at its corners:
+
+  - [Direct violence](/glossary/direct-violence) — visible harm by an identifiable actor.
+  - [Structural violence](/glossary/structural-violence) — harm built into unfair systems.
+  - [Cultural violence](/glossary/cultural-violence) — beliefs and narratives that justify the other two.
+
+  The point of the triangle is the connections between the corners. Cultural violence legitimises
+  structural violence, which produces the grievances that erupt as direct violence — a cycle that
+  keeps regenerating unless all three are addressed. Focusing only on the visible corner (stopping
+  the fighting) leaves the engine running.
+
+  For facilitators, the triangle turns "why is there violence here?" into three sharper questions:
+  what harm is visible, what structures produce it, and what beliefs make it seem acceptable?
+  Working towards [positive peace](/glossary/positive-peace) means acting on all three.
+furtherReading:
+- title: "Galtung, J. — Violence, Peace, and Peace Research (1969)"
+  url: https://journals.sagepub.com/doi/10.1177/002234336900600301
+  source: Journal of Peace Research
+  note: Introduces direct and structural violence; cultural violence was added in Galtung's later work.
+examples:
+- Mapping a conflict by asking what is visible, what is structural, and what beliefs justify it
+nonExamples:
+- Treating an outbreak of fighting as a self-contained event with no deeper causes
+useInContext: >-
+  Learners use the violence triangle to analyse a context across all three forms of violence, not
+  just the visible one.
+relatedTermIds: [direct-violence, structural-violence, cultural-violence, positive-peace]

@@ -42,6 +42,42 @@ materialsAndPreparation:
 - "The student workbook (a two-part page: strengths, and areas to grow)."
 - "The strengths picture cards (in the [Picture Cards pack](/downloads/agency-in-learning-picture-cards.pdf)): asking questions, sticking at hard things, helping others, remembering, trying again."
 - "Sensitivity: naming an area to grow can feel exposing. Make clear everyone, including you, has areas to grow, that naming one is a sign of a strong learner, and that no one has to share anything they would rather keep private."
+visuals:
+- kind: setup
+  title: "Two sides: good at, want to grow"
+  caption: >-
+    The workbook page, drawn big: what I'm good at on one side, what I want to grow on the other. Wanting
+    to grow is normal, not a weakness.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "What I'm good at"
+      tone: positive
+      cards: []
+    - label: "What I want to grow"
+      tone: question
+      cards: []
+- kind: example
+  title: "A filled strengths board"
+  caption: >-
+    Filled by the learner, then added to by what their group sees in them — an honest picture to choose a
+    goal from.
+  spec:
+    type: zones
+    cardStyle: drawing
+    zones:
+    - label: "What I'm good at"
+      tone: positive
+      cards:
+      - "asking questions"
+      - "trying again"
+      - "helping others"
+    - label: "What I want to grow"
+      tone: question
+      cards:
+      - "sticking with hard tasks"
+      - "speaking up"
 facilitationNotes: |
   This is where self-directed learning starts: a learner cannot aim a goal well until they know their
   own strengths and where they want to grow. The one thing to get right is the tone around areas to

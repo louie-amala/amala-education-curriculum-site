@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getCourse, getProgramme, getUnitsForProgramme, programmes } from "@/lib/content";
+import { educatorMoves, getCourse, getProgramme, getUnitsForProgramme, programmes } from "@/lib/content";
+import { tagMeta } from "@/lib/ui";
 
 export function generateStaticParams() {
   return programmes.map((p) => ({ slug: p.slug }));
@@ -47,6 +48,38 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
         {prog.accreditation && <p className="mt-4 text-sm text-cool-grey">{prog.accreditation}</p>}
         {prog.targetContext && (
           <p className="mt-4 max-w-3xl text-sm text-dark-navy/90">{prog.targetContext}</p>
+        )}
+
+        {/* Programme-level downloads (e.g. Coordinator Guide + Educator Guide). Kept near the top so
+            the people running the programme can grab their guide first. */}
+        {prog.downloads.length > 0 && (
+          <section className="mt-10 rounded-2xl border border-cool-grey/25 bg-white p-6 shadow-sm">
+            <p className="font-heading text-xs font-bold uppercase tracking-[0.14em] text-olive">
+              Start here · for the people running it
+            </p>
+            <h2 className="mt-1 font-heading text-lg font-bold text-navy">Programme guides to download</h2>
+            <ul className="mt-4 grid gap-2.5 sm:grid-cols-2">
+              {prog.downloads.map((d) => (
+                <li key={d.file}>
+                  <a
+                    href={d.file}
+                    download
+                    className="group flex items-start gap-3 rounded-xl border border-cool-grey/25 bg-aqua/[0.04] p-3.5 transition hover:border-navy/40 hover:bg-white"
+                  >
+                    <span className="mt-0.5 rounded-lg bg-navy px-2 py-1 font-heading text-[10px] font-bold uppercase tracking-wide text-white">
+                      {d.format ?? "File"}
+                    </span>
+                    <span className="min-w-0">
+                      <span className="block font-semibold text-navy group-hover:underline">{d.label}</span>
+                      {d.note && (
+                        <span className="mt-0.5 block text-[13px] leading-snug text-cool-grey">{d.note}</span>
+                      )}
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
         )}
 
         {/* Versions (e.g. Learning Bridge / Learning Bridge+) */}
@@ -145,11 +178,88 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
                         View the unit plan →
                       </Link>
                     )}
+                    {prog.mentoring && c.title === "Mentoring and Wellbeing" && (
+                      <Link
+                        href="#mentoring"
+                        className="inline-block text-sm font-medium text-plum hover:underline"
+                      >
+                        How mentoring works here →
+                      </Link>
+                    )}
                   </div>
                 </div>
                 );
               })}
             </div>
+          </section>
+        )}
+
+        {/* Mentoring and Wellbeing — programme-specific mentoring guidance, contextualising the
+            generic mentor moves by role area (e.g. the Cox's Bazar Learning Bridge+). */}
+        {prog.mentoring && (
+          <section id="mentoring" className="mt-12 scroll-mt-6">
+            <h2 className="font-heading text-2xl font-semibold text-navy">
+              Mentoring and Wellbeing in this programme
+            </h2>
+            <p className="mt-3 max-w-3xl text-dark-navy">{prog.mentoring.intro}</p>
+
+            {prog.mentoring.context.length > 0 && (
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                {prog.mentoring.context.map((c) => (
+                  <div
+                    key={c.title}
+                    className="rounded-lg border-l-4 border-plum border-y border-r border-cool-grey/20 bg-white p-5 shadow-sm"
+                  >
+                    <h3 className="font-heading text-lg font-semibold text-dark-navy">{c.title}</h3>
+                    <p className="mt-2 text-sm text-cool-grey">{c.detail}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {prog.mentoring.areas.length > 0 && (
+              <>
+                <p className="mt-8 max-w-3xl text-sm text-dark-navy/90">
+                  The shared practice is the{" "}
+                  <Link href="/educators/mentoring" className="font-medium text-navy hover:underline">
+                    mentor moves
+                  </Link>{" "}
+                  on the Educators pages. Here is how each part of the mentor role is held in this
+                  context, with the moves that apply.
+                </p>
+                <div className="mt-6 space-y-4">
+                  {prog.mentoring.areas.map((a) => {
+                    const meta = tagMeta(a.area);
+                    const moves = educatorMoves.filter((m) => m.tags.some((t) => t.id === a.area));
+                    return (
+                      <div
+                        key={a.area}
+                        className="rounded-lg border border-cool-grey/20 bg-white p-5 shadow-sm"
+                      >
+                        <h3 className="font-heading text-lg font-semibold text-dark-navy">
+                          {meta.label}
+                        </h3>
+                        <p className="mt-2 text-sm text-dark-navy/90">{a.contextNote}</p>
+                        {moves.length > 0 && (
+                          <ul className="mt-3 flex flex-wrap gap-2">
+                            {moves.map((m) => (
+                              <li key={m.slug}>
+                                <Link
+                                  href={`/materials/${m.slug}`}
+                                  className="inline-block rounded-full border border-terracotta/40 bg-terracotta/5 px-3 py-1 text-xs font-medium text-terracotta hover:bg-terracotta/10"
+                                >
+                                  {m.title}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </>
+            )}
           </section>
         )}
 
