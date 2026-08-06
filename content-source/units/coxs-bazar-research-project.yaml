@@ -384,6 +384,14 @@ downloads:
   file: /downloads/research-project-student-workbook.docx
   format: Word
   note: "The learner book: the source cards to read (graded B1 and A1/A2 versions), the research word bank, and a blank evidence log. Print one per learner."
+- label: "Research Project — Assessment Record (FSI1)"
+  file: /downloads/research-project-assessment-rubric.docx
+  format: Word
+  note: "Facilitator record for judging FSI1 proficiency at the midway and end points, from evidence across the research book. Make one copy per learner; full guidance is in the facilitator guide."
+- label: "Research Project — Picture-word Cards"
+  file: /downloads/research-project-picture-cards.docx
+  format: Word
+  note: "Printable cards for the research words (the word, its meaning, and a space to draw it), to build the word wall. Includes blank cards for learners' own words."
 sourceNotes:
   - Sequences the (to-be-authored) cb-rp-* contextualised activities for the Research Project component of Learning Bridge+ (Cox's Bazar); sibling of the coxs-bazar-agency-in-learning unit.
   - >-

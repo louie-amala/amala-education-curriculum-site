@@ -1,0 +1,120 @@
+# Facilitator assessment resource for the Research Project component of Learning Bridge+ (Cox's Bazar).
+# FSI1 (Investigate real-world issues) is the anchor and one of the two certificated LB+ competencies.
+# Gives the educator the proficiency scale, the two assessment points, the evidence to gather across the
+# research book, and how to make the judgement. A printable rubric compiles into the offline pack.
+id: cb-rp-assessing-the-research
+slug: cb-rp-assessing-the-research
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Assessing the investigation (FSI1)"
+summary: >-
+  The educator's guide to judging each learner's proficiency in Investigate real-world issues (FSI1) —
+  the anchor competency and one of the two certificated Learning Bridge+ competencies: the proficiency
+  scale, the two assessment points, the evidence to gather across the research book, and how to judge.
+facilitationContext:
+- group
+- one-to-one-mentoring
+primaryContext: group
+educatorContent: |
+  ## What is assessed, and how
+
+  This component develops and demonstrates one anchor competency: FSI1, Investigate real-world issues —
+  "the learner can conduct primary and secondary research into challenges affecting people and the
+  planet to develop actionable insights." On Learning Bridge+ this is one of the two certificated
+  competencies, so the judgement matters.
+
+  You judge each learner's proficiency by your own professional judgement against Amala's proficiency
+  scale, built up from evidence gathered across the whole investigation. You do NOT mark it from the
+  final output alone: a learner who made a beautiful poster but could not turn evidence into an insight,
+  and one who reached a defensible insight from messy evidence, are showing different proficiency, even
+  with similar-looking posters.
+
+  Assess at two points:
+
+  - Midway (formative), around the end of the "Plan and conduct research" phase — to see where each
+    learner is and adjust your support.
+  - At the end (summative), during the showcase — the judgement that informs the readiness decision.
+
+  Do not over-assess. Two considered judgements, built from evidence gathered over time, are worth far
+  more than repeated testing, which this cohort does not need and should not carry.
+
+  ## What FSI1 looks like across the research cycle
+
+  Look for the whole cycle, not one moment. A proficient investigator, at this level:
+
+  - Frames a researchable focus — makes the given question their own and turns it into things they can
+    actually find out.
+  - Gathers evidence ethically — asks and looks (primary) and reads the source pack (secondary), with
+    consent and no names.
+  - Weighs the evidence — checks a source against others and against what they found, rather than
+    believing whatever sounded good.
+  - Develops actionable insight — moves from "what the evidence says" to "what it means, and why it
+    matters," backed by evidence.
+  - Communicates it — shares findings honestly, including their limits, and answers questions about them.
+
+  ## The proficiency scale
+
+  A working scale for FSI1 in this component. Align it to Amala's official proficiency scale before
+  certification; the bands below are written to match its usual shape.
+
+  - Emerging: takes part in the investigation with support. Can say what we are finding out and gather a
+    piece of evidence when guided, but leans on the facilitator to frame, weigh, and interpret.
+  - Developing: carries out parts of the cycle with less support — gathers evidence, sorts it, and
+    begins to weigh how far to trust it, but may still jump from a single source to a claim.
+  - Proficient: runs the whole cycle for the shared question with growing independence — frames what to
+    find out, gathers and weighs evidence (checking sources against each other and their own findings),
+    and reaches an insight they can point to the evidence for, and communicate.
+  - Extending: does the above and more — notices where the evidence is thin or disagrees, treats their
+    own knowledge critically, asks a sharper question of their own, and helps others weigh evidence.
+
+  ## Where to find the evidence (in the research book)
+
+  All of it lives in the learner's research book and in how they talk about their work:
+
+  - The question and plan they framed, and their sub-questions.
+  - The interview and survey questions they designed.
+  - The evidence log, and how they marked how far to trust each piece.
+  - The move from findings to insight — their insight statements and the evidence behind them.
+  - The final research output, and how they answer questions about it.
+
+  ## Making the judgement
+
+  Read across all of that and place the learner on the scale as a whole — do not average a checklist.
+  Weight the analytical heart most: gathering evidence is necessary, but turning it into a defensible,
+  evidence-backed insight is what FSI1 is really about. Where a learner is disrupted (a missed week, a
+  fire), judge the proficiency they show when they are there, not their attendance.
+
+  Use the printable rubric (a copy per learner) to record, at each point, where the learner sits on the
+  scale and one or two lines of evidence for why — developmental notes, not a grade.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    A fair, evidence-based judgement of a learner's research proficiency is what makes the certificated
+    competency real — it opens the readiness decision and the future pathways it unlocks, rather than
+    ranking learners.
+principlesForegrounded: [feedback-and-data, recognise-communicate-growth]
+principleAlignment:
+- principle: feedback-and-data
+  how: The judgement is built from evidence gathered across the whole investigation, at two considered points, not from a single test.
+- principle: recognise-communicate-growth
+  how: Assessing against the proficiency scale turns a learner's investigation into recognised, certificated growth.
+competencyCodes: [FSI1]
+competencyDevelopment:
+- code: FSI1
+  how: This resource is the instrument for judging FSI1 proficiency — the anchor competency the whole component develops and demonstrates.
+objectiveIds: []
+relatedSlugs: [cb-rp-running-this-offline, cb-rp-share-and-reflect, cb-rp-researcher-growth-path]
+downloads:
+- label: "Assessment Record — FSI1 (copy per learner)"
+  file: /downloads/research-project-assessment-rubric.docx
+  format: Word
+  role: explainer
+  note: "The proficiency-scale record for the midway and end assessment points. Make one copy per learner."
+provenanceNote: >-
+  Authored facilitator assessment resource for the Learning Bridge+ (Cox's Bazar) Research Project
+  edition. FSI1 goal is quoted from framework/competencies.yaml; the four-band proficiency scale is a
+  working scale (the framework does not yet define FSI1 bands) written to match Amala's usual proficiency
+  shape and flagged to align with the official scale before certification. Its printable rubric compiles
+  into the Research Project offline pack.

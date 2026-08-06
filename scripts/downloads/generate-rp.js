@@ -130,10 +130,14 @@ function facilitatorPlan() {
   c.push(hr());
   c.push(H2('How this unit hands over control'));
   c.push(...body(unit.deliveryApproach));
-  c.push(H2('Assessing the anchor competency'));
-  c.push(...body(unit.assessmentNote));
   c.push(H2('How to use this plan'));
-  c.push(P('This plan is set out in hours, not weeks. Work through the phases in order; within a phase, the blocks build on each other. Each block carries its full guidance inline. The secondary source pack the learners read is reproduced in Appendix A, and the full original articles behind it (facilitator reference) in Appendix B. Deliver in the language you share with learners. Times are generous on purpose.', { size: 22 }));
+  c.push(P('This plan is set out in hours, not weeks. Work through the phases in order; within a phase, the blocks build on each other. Each block carries its full guidance inline. Read "Before you start" and "Safeguarding and protection" first; the source pack the learners read is in Appendix A, the full original articles in Appendix B, and how to assess FSI1 in "Assessing the investigation". Deliver in the language you share with learners. Times are generous on purpose.', { size: 22 }));
+
+  // Before you start — facilitator resources the activity materials assume exist.
+  const runOff = mat['cb-rp-running-this-offline'];
+  if (runOff && runOff.educatorContent) { c.push(pageBreak()); c.push(H1('Before you start')); c.push(...mdBlocks(runOff.educatorContent)); }
+  const safe = mat['cb-rp-safeguarding-and-protection'];
+  if (safe && safe.educatorContent) { c.push(pageBreak()); c.push(H1('Safeguarding and protection')); c.push(...mdBlocks(safe.educatorContent)); }
   c.push(pageBreak());
 
   unit.phases.forEach((ph, pi) => {
@@ -171,6 +175,10 @@ function facilitatorPlan() {
     });
     if (pi < unit.phases.length - 1) c.push(pageBreak());
   });
+
+  // Assessing FSI1 — the educator's assessment guide.
+  const assess = mat['cb-rp-assessing-the-research'];
+  if (assess && assess.educatorContent) { c.push(pageBreak()); c.push(H1('Assessing the investigation (FSI1)')); c.push(...mdBlocks(assess.educatorContent)); }
 
   // Appendix A — the source pack (facilitator copy: educator notes + all graded readings + word bank)
   const pack = mat['cb-rp-secondary-source-pack'];
@@ -272,12 +280,88 @@ function workbook() {
   return new Document({ styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } }, sections: [{ properties: { page: LETTER }, children: c }] });
 }
 
+// ============================================================ PICTURE-WORD CARDS
+// Parse the programme word bank out of the source pack's learnerContent (bullets "term — meaning (Source X)").
+function wordBank() {
+  const pack = mat['cb-rp-secondary-source-pack'];
+  const lc = (pack && pack.learnerContent) || '';
+  const out = [];
+  let inWB = false;
+  for (const raw of lc.split('\n')) {
+    const t = raw.trim();
+    if (t.startsWith('## Programme word bank')) { inWB = true; continue; }
+    if (inWB && t.startsWith('## ')) break;
+    if (inWB && t.startsWith('- ')) {
+      const item = t.slice(2);
+      const parts = item.split(' — ');
+      const term = parts[0].trim();
+      const meaning = parts.slice(1).join(' — ').replace(/\s*\(Sources?[^)]*\)\s*$/, '').trim();
+      if (term) out.push({ term, meaning });
+    }
+  }
+  return out;
+}
+const cardCell = (term, meaning) => new TableCell({
+  width: { size: 5400, type: WidthType.DXA },
+  children: [
+    new Paragraph({ children: [new TextRun({ text: term || ' ', bold: true, size: 30, color: NAVY })], spacing: { after: 40 } }),
+    new Paragraph({ children: [new TextRun({ text: meaning || '', size: 18, color: GREY })], spacing: { after: 200 } }),
+    new Paragraph({ children: [new TextRun({ text: term ? '(draw it here)' : '(your own word)', italics: true, size: 14, color: LINE })] }),
+  ],
+});
+function cards() {
+  const c = [];
+  c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 44, color: NAVY })], spacing: { after: 40 } }));
+  c.push(P('Picture-word cards — our research words', { size: 26, bold: true, color: PLUM, after: 40 }));
+  c.push(P("Learning Bridge+ (Cox's Bazar)  ·  The trees on our hills", { size: 20, color: GREY, after: 160 }));
+  c.push(P('Print and cut out along the lines. Each card has a research word, what it means, and a space to draw it. Draw the picture together with the group, and build the cards into the word wall as the course goes. There are blank cards at the end for learners’ own words.', { size: 22, after: 160 }));
+  const items = [
+    { term: 'Our hills — before', meaning: 'the hills full of trees, long ago (draw the forested hills)' },
+    { term: 'Our hills — now', meaning: 'the bare slopes today (draw the bare hills)' },
+    ...wordBank(),
+    { term: '', meaning: '' }, { term: '', meaning: '' },
+  ];
+  if (items.length % 2 === 1) items.push({ term: '', meaning: '' });
+  const rows = [];
+  for (let i = 0; i < items.length; i += 2) {
+    rows.push(new TableRow({ height: { value: 2600, rule: 'atLeast' }, cantSplit: true, children: [cardCell(items[i].term, items[i].meaning), cardCell(items[i + 1].term, items[i + 1].meaning)] }));
+  }
+  c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [5400, 5400], rows }));
+  return new Document({ styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } }, sections: [{ properties: { page: LETTER }, children: c }] });
+}
+
+// ============================================================ ASSESSMENT RECORD (facilitator, copy per learner)
+function rubricDoc() {
+  const c = [];
+  c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 44, color: NAVY })], spacing: { after: 40 } }));
+  c.push(P('Assessment record — Investigate real-world issues (FSI1)', { size: 24, bold: true, color: PLUM, after: 40 }));
+  c.push(P("Learning Bridge+ (Cox's Bazar)  ·  Facilitator — make one copy per learner", { size: 20, color: GREY, after: 160 }));
+  c.push(P('Judge each learner by your professional judgement against the proficiency scale, from evidence gathered across the whole research book — not from the final output alone. Full guidance is in the facilitator guide ("Assessing the investigation"). Record where the learner sits and one or two lines of evidence for why. Developmental notes, not a grade.', { size: 22, after: 120 }));
+  c.push(P('Learner: ______________________________', { size: 22, after: 200 }));
+  const bands = ['Emerging', 'Developing', 'Proficient', 'Extending'];
+  const point = (title) => {
+    c.push(H2(title));
+    c.push(P('Circle the band that best fits, from evidence across the research book:', { size: 20, color: GREY, after: 60 }));
+    c.push(P(bands.join('        ·        '), { size: 22, bold: true, color: NAVY, after: 100 }));
+    c.push(P('Evidence and developmental notes (question & plan · evidence log & how they weighed sources · findings → insight · output & answering questions):', { size: 18, color: GREY, after: 40 }));
+    c.push(box(2600, ''));
+  };
+  point('Midway (formative) — around the end of "Plan and conduct research"');
+  c.push(pageBreak());
+  point('End (summative) — at the showcase');
+  c.push(P('The four bands (full descriptors in the facilitator guide): Emerging — takes part with support; Developing — carries out parts of the cycle with less support; Proficient — runs the whole cycle for the shared question with growing independence and reaches an evidence-backed insight; Extending — does that and notices where evidence is thin or disagrees, asks a sharper question of their own, and helps others weigh evidence.', { size: 18, color: GREY, before: 200 }));
+  c.push(P('Align to Amala’s official proficiency scale before certification.', { size: 18, italics: true, color: GREY, before: 80 }));
+  return new Document({ styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } }, sections: [{ properties: { page: LETTER }, children: c }] });
+}
+
 // ============================================================ WRITE
 async function main() {
   if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
   const jobs = [
     ['research-project-facilitator-unit-plan.docx', facilitatorPlan()],
     ['research-project-student-workbook.docx', workbook()],
+    ['research-project-assessment-rubric.docx', rubricDoc()],
+    ['research-project-picture-cards.docx', cards()],
   ];
   for (const [name, doc] of jobs) {
     const buf = await Packer.toBuffer(doc);

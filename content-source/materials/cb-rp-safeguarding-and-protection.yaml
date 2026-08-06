@@ -1,0 +1,112 @@
+# Facilitator safeguarding & protection resource for the Research Project component of Learning Bridge+
+# (Cox's Bazar). Consolidates the protection guidance the activity materials repeatedly reference
+# ("referral guidance to hand", "no learner speaks from their own life", consent, gender-responsive
+# gathering) into one place the facilitator holds. Follows NRC's Code of Conduct and protection principles.
+id: cb-rp-safeguarding-and-protection
+slug: cb-rp-safeguarding-and-protection
+access: public
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Safeguarding and protection in the Research Project"
+summary: >-
+  The one place a facilitator holds the protection guidance the whole component depends on: the hopeful
+  tone, no learner speaking from their own life, the consent routine, no names, girls' safe
+  participation in the fieldwork, how to respond if someone is distressed, and the referral pathway.
+facilitationContext:
+- group
+primaryContext: group
+educatorContent: |
+  ## Protection comes first
+
+  This component asks learners to investigate a real, local challenge and to talk with real people in
+  their community. That is powerful, and it carries responsibility. Protection comes before the research,
+  every time. Read this before you begin, agree the referral pathway with your programme, and follow
+  NRC's Code of Conduct and protection principles throughout. If ever the research and a learner's safety
+  or dignity pull against each other, safety wins — full stop.
+
+  ## Before you start
+
+  - Agree the referral pathway with your programme: who you turn to, and how, if a learner — or someone a
+    learner speaks to — is distressed, discloses harm, or is at risk. Have the names and the steps written
+    down and to hand before the first session, not looked for in the moment.
+  - Know your step-back options: how a learner can pause, leave the space, or sit out an activity without
+    being singled out or questioned.
+  - Plan the fieldwork with the community, not alone (see "Girls and gathering" below).
+
+  ## The tone: hopeful, not disaster
+
+  The trees are a safe and hopeful subject — the land is greening again — and that is how to hold it.
+  Keep the tone one of curiosity and care, not disaster. The subject does touch landslides and lost
+  shelters, so keep watch for when it becomes personal, and steer gently back to the hills and the trees.
+
+  ## No learner speaks from their own life
+
+  No learner ever has to speak about their own experience of a landslide, a lost shelter, displacement,
+  or loss. Every activity is designed so learners can take part fully by talking about the hills, the
+  trees, and other people — never themselves. If a learner chooses to share something personal, receive
+  it warmly, do not press for more, and follow up privately and through your referral pathway if needed.
+
+  ## Research ethics: consent and no names
+
+  Primary research means talking to real people, so ethics is the heart of the work, not a footnote.
+  Teach and hold the consent routine every time:
+
+  - Ask before you ask: "May I ask you some questions?"
+  - Explain why you are asking.
+  - Let people say no, or stop at any time, with no pressure.
+  - Use no names — never record who said what.
+  - Put no one at risk to get an answer, including yourself.
+
+  Protect the people learners speak to as carefully as the learners themselves: anonymity, consent, and
+  do no harm.
+
+  ## Girls and gathering
+
+  In this community, adolescent girls being seen in public, or approaching people they do not know, can
+  be unsafe or not culturally accepted — and it is a real reason girls drop out. So do not send girls out
+  to gather the same way as boys. Plan gathering that fits, with the community:
+
+  - Girls gather from people in their own home and from women in their close networks.
+  - Or girls gather accompanied by a female facilitator or a trusted female relative.
+  - Or girls contribute through careful observation and through the evidence the group gathers together.
+
+  The aim is that no learner is left out of the investigation because of how gathering is arranged. Use
+  same-gender pairs throughout, and a female facilitator wherever girls' participation depends on it.
+
+  ## If a learner becomes distressed
+
+  - Stop the activity for that learner. Do not press them to continue or to explain.
+  - Offer a quiet break and a calm, familiar presence. Let a friend sit with them if that helps.
+  - Do not probe for details. Listen if they choose to speak; reassure them it was right to.
+  - Follow up privately, and use your referral pathway for anything beyond ordinary upset.
+  - Look after yourself too, and debrief with a colleague — this work can be heavy.
+
+  ## When gathering is disrupted
+
+  Fires, illness, a week kept indoors — disruption is normal here. Adapting the plan and picking the
+  investigation up again is part of the skill, not a failure. Never let the pressure to gather evidence
+  push a learner somewhere unsafe.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Protection is what makes agency possible: only in a space that is safe, consenting, and free of
+    pressure can a learner take real ownership of an investigation into their own community.
+principlesForegrounded: [safe-spaces, responsible-action]
+principleAlignment:
+- principle: safe-spaces
+  how: The whole resource exists to keep the space physically, emotionally, and culturally safe — the precondition for everything else.
+- principle: responsible-action
+  how: Consent, anonymity, do-no-harm, and the referral pathway make the learners' research ethical and the facilitator accountable.
+competencyCodes: [FLC1]
+competencyDevelopment:
+- code: FLC1
+  how: The consent and do-no-harm routines are how learners (and the facilitator) act ethically throughout the investigation.
+objectiveIds: []
+relatedSlugs: [cb-rp-running-this-offline, cb-rp-go-and-gather, cb-rp-two-ways-and-ethics]
+provenanceNote: >-
+  Authored facilitator safeguarding resource for the Learning Bridge+ (Cox's Bazar) Research Project
+  edition: consolidates the protection guidance the activity materials repeatedly reference but that was
+  never gathered in one place (referral pathway, no-one-speaks-from-own-life, consent, no names,
+  gender-responsive gathering, responding to distress). Follows NRC's Code of Conduct. Rendered into the
+  facilitator guide.
