@@ -110,6 +110,18 @@ const ARC_ROWS = [
   ['After Week 12', 'Amala moderation. Amala reviews a sample of judgements against the evidence to confirm they are consistent and fair, and the readiness decision is confirmed.'],
 ];
 
+// The shared example week, used by both guides so the two timetables cannot drift. Days are numbered
+// (not named) on purpose: each site places its own rest day (e.g. Friday) and start day.
+const EXAMPLE_WEEK_HEADER = ['Day', 'In-person sessions (about 1 hour each)'];
+const EXAMPLE_WEEK_ROWS = [
+  ['Day 1', 'English  ·  Agency in Learning'],
+  ['Day 2', 'Research Project  ·  mentoring check-ins'],
+  ['Day 3', 'English  ·  Agency in Learning'],
+  ['Day 4', 'Research Project  ·  mentoring check-ins'],
+  ['Day 5', 'English  ·  Agency in Learning'],
+  ['Day 6', 'Research Project  ·  a short small-group wellbeing check and reflection'],
+];
+
 // ============================================================ COORDINATOR GUIDE
 function coordinatorGuide() {
   const c = [];
@@ -152,15 +164,8 @@ function coordinatorGuide() {
   c.push(P('All three taught components run side by side across the same 10–12 weeks. At 3 hours in-person and 2 hours independent each, a full week is about 9 hours in-person and 6 hours of independent tasks (done at home between sessions), with mentoring folded into the in-person time — around 150 hours of taught learning in total.', { size: 22 }));
   c.push(H2('An example week'));
   c.push(P('One way to place the hours across a six-day week. Each in-person session is about an hour, mentoring is folded in, and the independent tasks are done at home between sessions.', { size: 22 }));
-  c.push(twoCol(['Day', 'In-person sessions (about 1 hour each)'], [
-    ['Day 1', 'English  ·  Agency in Learning'],
-    ['Day 2', 'Research Project  ·  mentoring check-ins'],
-    ['Day 3', 'English  ·  Agency in Learning'],
-    ['Day 4', 'Research Project  ·  mentoring check-ins'],
-    ['Day 5', 'English  ·  Agency in Learning'],
-    ['Day 6', 'Research Project  ·  a short small-group wellbeing check and reflection'],
-  ]));
-  c.push(P('This is one example — adapt it to your site. The fixed points are the weekly hours per component (3h in-person, 2h independent) and that the components run side by side; how you place them across the week is yours. Fewer learning days? Run longer sessions on fewer days. Early cohorts, before the Research Project’s shared challenge is agreed, run Agency in Learning and English only — about six hours in-person a week — and add the Research Project when it is ready.', { size: 22 }));
+  c.push(twoCol(EXAMPLE_WEEK_HEADER, EXAMPLE_WEEK_ROWS));
+  c.push(P('This is one example — adapt it to your site. The fixed points are the weekly hours per component (3h in-person, 2h independent) and that the components run side by side; how you place them across the week is yours, including which day is the rest day (for example Friday). Fewer learning days? Run longer sessions on fewer days. Early cohorts, before the Research Project’s shared challenge is agreed, run Agency in Learning and English only — about six hours in-person a week — and add the Research Project when it is ready.', { size: 22 }));
   c.push(H2('The 12-week rhythm'));
   c.push(P('Around that weekly learning, hold this assessment rhythm: five weeks of learning, a supported assessment, five more weeks, then the final assessment. Your job is to protect the two assessment windows and keep them on the calendar.', { size: 22 }));
   c.push(twoCol(['When', 'What happens'], ARC_ROWS));
@@ -247,14 +252,7 @@ function educatorGuide() {
 
   c.push(H2('What a week looks like'));
   c.push(P('You deliver three taught components side by side — Agency in Learning, the Research Project, and English — each 3 hours in-person and 2 hours independent per week, with your mentoring folded into the in-person time. One example week:', { size: 22 }));
-  c.push(twoCol(['Day', 'In-person sessions (about 1 hour each)'], [
-    ['Day 1', 'English  ·  Agency in Learning'],
-    ['Day 2', 'Research Project  ·  mentoring check-ins'],
-    ['Day 3', 'English  ·  Agency in Learning'],
-    ['Day 4', 'Research Project  ·  mentoring check-ins'],
-    ['Day 5', 'English  ·  Agency in Learning'],
-    ['Day 6', 'Research Project  ·  a short small-group wellbeing check and reflection'],
-  ]));
+  c.push(twoCol(EXAMPLE_WEEK_HEADER, EXAMPLE_WEEK_ROWS));
   c.push(P('Adapt it with your coordinator — the fixed points are the weekly hours per component; how you place them is yours. The 2 independent hours per component are the between-session tasks set in each activity (asking someone at home, gathering evidence, practising English), done at home. Before the Research Project’s challenge is agreed, you run Agency in Learning and English only.', { size: 22 }));
 
   c.push(pageBreak());
