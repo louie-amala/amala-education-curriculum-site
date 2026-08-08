@@ -141,8 +141,28 @@ function coordinatorGuide() {
   c.push(numbered('Make the safeguarding pathway concrete at each site. Before any facilitator takes a mentoring caseload, make sure they know NRC’s Code of Conduct and the camp MHPSS and protection referral pathway — who to hand a concern to, and how.', 'setup'));
   c.push(numbered('Run diagnostic intake. Place each learner, check English proficiency where needed (the cohort is below B1, many not yet literate in any language), and pair each learner with a mentor.', 'setup'));
 
-  c.push(H1('4. The 12-week rhythm'));
-  c.push(P('Each component runs at a cadence of 3 hours in-person plus 2 hours independent per week, across a minimum of 10 weeks of learning. Around that learning, hold this assessment rhythm: five weeks of learning, a supported assessment, five more weeks, then the final assessment. Your job is to protect the two assessment windows and keep them on the calendar.', { size: 22 }));
+  c.push(H1('4. The programme structure and the 12-week rhythm'));
+  c.push(P('The programme has three taught components plus ongoing mentoring, running side by side across the same weeks.', { size: 22 }));
+  c.push(twoCol(['Component', 'Hours and cadence'], [
+    ['Agency in Learning', 'About 50 hours · 3h in-person + 2h independent per week. Develops Set and Pursue Goals (assessed).'],
+    ['Research Project', 'About 50 hours · 3h in-person + 2h independent per week. Develops Investigate Real World Issues (assessed).'],
+    ['English Language Development', 'About 50 hours · 3h in-person + 2h independent per week. Compulsory in this edition; assessed formatively against A1 Can-Do outcomes, not one of the two graded competencies.'],
+    ['Mentoring and Wellbeing', 'Ongoing · short 1:1 or small-group conversations folded into the weekly in-person time. Not a fixed block of hours.'],
+  ]));
+  c.push(P('All three taught components run side by side across the same 10–12 weeks. At 3 hours in-person and 2 hours independent each, a full week is about 9 hours in-person and 6 hours of independent tasks (done at home between sessions), with mentoring folded into the in-person time — around 150 hours of taught learning in total.', { size: 22 }));
+  c.push(H2('An example week'));
+  c.push(P('One way to place the hours across a six-day week. Each in-person session is about an hour, mentoring is folded in, and the independent tasks are done at home between sessions.', { size: 22 }));
+  c.push(twoCol(['Day', 'In-person sessions (about 1 hour each)'], [
+    ['Day 1', 'English  ·  Agency in Learning'],
+    ['Day 2', 'Research Project  ·  mentoring check-ins'],
+    ['Day 3', 'English  ·  Agency in Learning'],
+    ['Day 4', 'Research Project  ·  mentoring check-ins'],
+    ['Day 5', 'English  ·  Agency in Learning'],
+    ['Day 6', 'Research Project  ·  a short small-group wellbeing check and reflection'],
+  ]));
+  c.push(P('This is one example — adapt it to your site. The fixed points are the weekly hours per component (3h in-person, 2h independent) and that the components run side by side; how you place them across the week is yours. Fewer learning days? Run longer sessions on fewer days. Early cohorts, before the Research Project’s shared challenge is agreed, run Agency in Learning and English only — about six hours in-person a week — and add the Research Project when it is ready.', { size: 22 }));
+  c.push(H2('The 12-week rhythm'));
+  c.push(P('Around that weekly learning, hold this assessment rhythm: five weeks of learning, a supported assessment, five more weeks, then the final assessment. Your job is to protect the two assessment windows and keep them on the calendar.', { size: 22 }));
   c.push(twoCol(['When', 'What happens'], ARC_ROWS));
   c.push(callout('The two assessment points, in one line', [
     'Week 6 — supported assessment: a first, provisional judgement, made with Amala’s support. A checkpoint and a rehearsal.',
@@ -224,6 +244,18 @@ function educatorGuide() {
   c.push(P('Goal-setting is reframed around near-term learning goals the learner can actually act on, not futures that are currently blocked. Keep the conversation about the next controllable step — honest and hopeful.', { size: 22 }));
   c.push(H3('Modular, so stop-start attendance never breaks the sequence'));
   c.push(P('Sessions are self-contained. When a learner returns after an absence, re-anchor the goal, break the next step down small, and treat the return as progress — not a fresh start. Fully offline throughout: assume no internet, and often no power or devices.', { size: 22 }));
+
+  c.push(H2('What a week looks like'));
+  c.push(P('You deliver three taught components side by side — Agency in Learning, the Research Project, and English — each 3 hours in-person and 2 hours independent per week, with your mentoring folded into the in-person time. One example week:', { size: 22 }));
+  c.push(twoCol(['Day', 'In-person sessions (about 1 hour each)'], [
+    ['Day 1', 'English  ·  Agency in Learning'],
+    ['Day 2', 'Research Project  ·  mentoring check-ins'],
+    ['Day 3', 'English  ·  Agency in Learning'],
+    ['Day 4', 'Research Project  ·  mentoring check-ins'],
+    ['Day 5', 'English  ·  Agency in Learning'],
+    ['Day 6', 'Research Project  ·  a short small-group wellbeing check and reflection'],
+  ]));
+  c.push(P('Adapt it with your coordinator — the fixed points are the weekly hours per component; how you place them is yours. The 2 independent hours per component are the between-session tasks set in each activity (asking someone at home, gathering evidence, practising English), done at home. Before the Research Project’s challenge is agreed, you run Agency in Learning and English only.', { size: 22 }));
 
   c.push(pageBreak());
   c.push(H1('3. Mentoring'));
