@@ -41,7 +41,7 @@ educatorContent: |
 
   ## What FSI1 looks like across the research cycle
 
-  Look for the whole cycle, not one moment. A proficient investigator, at this level:
+  Look for the whole cycle, not one moment. A learner achieving the goal, at this level:
 
   - Frames a researchable focus — makes the given question their own and turns it into things they can
     actually find out.
@@ -55,18 +55,37 @@ educatorContent: |
 
   ## The proficiency scale
 
-  A working scale for FSI1 in this component. Align it to Amala's official proficiency scale before
-  certification; the bands below are written to match its usual shape.
+  Use Amala's official proficiency scale (the Competency Framework and Proficiency Scale for the cohort
+  year). It is one generic five-level ladder, applied to any competency by reading each level against
+  the goal that competency names — here, conducting primary and secondary research into challenges
+  affecting people and the planet to develop actionable insights. Credit begins at Practitioner.
 
-  - Emerging: takes part in the investigation with support. Can say what we are finding out and gather a
-    piece of evidence when guided, but leans on the facilitator to frame, weigh, and interpret.
-  - Developing: carries out parts of the cycle with less support — gathers evidence, sorts it, and
-    begins to weigh how far to trust it, but may still jump from a single source to a claim.
-  - Proficient: runs the whole cycle for the shared question with growing independence — frames what to
-    find out, gathers and weighs evidence (checking sources against each other and their own findings),
-    and reaches an insight they can point to the evidence for, and communicate.
-  - Extending: does the above and more — notices where the evidence is thin or disagrees, treats their
-    own knowledge critically, asks a sharper question of their own, and helps others weigh evidence.
+  - No Level Awarded (GPA 0.0, no credit). Does not have a rationale for what they would do to achieve
+    the goal in at least one scenario. Here: cannot say what they would try to find out about the issue,
+    or how they would find it out, and why.
+  - Theorist (GPA 2.0, no credit). Has a rationale for what they would do to achieve the goal in at
+    least one scenario. Here: can say what they want to find out, who they would ask and what they would
+    read to find it out, and why that would tell them something — but has not acted on it.
+  - Practitioner (GPA 3.0, credit awarded). Has attempted to achieve the goal in at least one scenario
+    and has a clear rationale for their actions. Here: actually investigated — asked and looked
+    (primary) and used the source pack (secondary) — with reasons for how they went about it, even if
+    the research has not yet developed into an actionable insight.
+  - Reflective Practitioner (GPA 3.5). Has achieved the goal in at least one scenario with a clear
+    rationale, and has identified strengths, weaknesses and improvements they would make in their
+    approach in that scenario, supporting their claims with evidence. Here: the research reached an
+    insight they can point to the evidence for and communicate, and they can say what worked in how they
+    investigated, what did not, and what they would do differently, with evidence for those claims.
+  - Expert Practitioner (GPA 4.0). Has achieved the goal in two or more scenarios with a clear
+    rationale, has identified strengths, weaknesses and improvements across those scenarios with
+    evidence, and has implemented improvements, demonstrating growth over time. Here: a second, distinct
+    investigation in which they carried through an improvement identified in the first.
+
+  Two things to hold on to. Credit turns on an attempt, not on a polished plan: a learner who talks
+  fluently about how they would research but never gathers anything is a Theorist, however good the
+  plan. And Expert requires two or more genuinely different scenarios — this component runs one shared
+  challenge, so a second scenario normally comes from elsewhere in the learner's work, not from
+  repeating the same investigation. Expect most learners to sit at Practitioner or Reflective
+  Practitioner at the end of this component.
 
   ## Where to find the evidence (in the research book)
 
@@ -85,8 +104,12 @@ educatorContent: |
   evidence-backed insight is what FSI1 is really about. Where a learner is disrupted (a missed week, a
   fire), judge the proficiency they show when they are there, not their attendance.
 
-  Use the printable rubric (a copy per learner) to record, at each point, where the learner sits on the
-  scale and one or two lines of evidence for why — developmental notes, not a grade.
+  Use the printable assessment record (a copy per learner) to record, at each point, the level the
+  learner sits at and one or two lines of evidence for why. At the midway point this is developmental —
+  a provisional judgement, made with Amala's support and calibration, that tells you where to put your
+  support next. The end judgement is the one that counts towards the certificated competency, and
+  readiness for the accredited secondary pathway is set at Practitioner (Amala's pass, where credit
+  begins). Aim to get as many learners as possible beyond that, to Reflective Practitioner or higher.
 agencyContribution:
   indicators:
   - control-of-future-pathways
@@ -112,9 +135,13 @@ downloads:
   format: Word
   role: explainer
   note: "The proficiency-scale record for the midway and end assessment points. Make one copy per learner."
+sourceRefs:
+- framework/proficiency-scale.yaml
+- framework/competencies.yaml
 provenanceNote: >-
   Authored facilitator assessment resource for the Learning Bridge+ (Cox's Bazar) Research Project
-  edition. FSI1 goal is quoted from framework/competencies.yaml; the four-band proficiency scale is a
-  working scale (the framework does not yet define FSI1 bands) written to match Amala's usual proficiency
-  shape and flagged to align with the official scale before certification. Its printable rubric compiles
-  into the Research Project offline pack.
+  edition. FSI1 goal is quoted from framework/competencies.yaml; the five proficiency levels, their GPA
+  values and generic descriptors are Amala's official scale (framework/proficiency-scale.yaml, from the
+  Competency Framework and Proficiency Scale for cohorts starting 2025), with an FSI1 reading of each
+  level added for this component. Its printable assessment record compiles into the Research Project
+  offline pack.

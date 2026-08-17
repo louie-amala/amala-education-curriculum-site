@@ -3,7 +3,7 @@
 # set of interview questions and, if useful, a very short oral survey, recorded with marks and pictures
 # rather than writing. The facilitator models open vs leading questions; learners draft, try their
 # questions on each other, and improve them. Plan and conduct research phase (objective 2). Oral and
-# visual first; questions tie back to the three sub-questions of our given research question.
+# visual first; questions tie back to the four sub-questions of our given research question.
 id: cb-rp-design-our-questions
 slug: cb-rp-design-our-questions
 access: public
@@ -12,7 +12,7 @@ type: activity
 title: "Design our interview and survey questions"
 summary: >-
   Learners design the questions they will ask their community — a short set of oral interview questions
-  and, if useful, a very short oral survey — all tied to our three sub-questions about the hills. They
+  and, if useful, a very short oral survey — all tied to our four sub-questions about the hills. They
   learn the difference between a question that opens people up and one that leads them, draft their own,
   try them on each other, and make them better.
 facilitationContext:
@@ -22,11 +22,11 @@ duration: "2 hours facilitated + 1 hour independent"
 grouping: "Whole group to model, then pairs and small groups to draft and try questions"
 whatLearnersDo:
 - See the difference between an open question that lets people tell us what they think, and a leading question that pushes an answer.
-- Design a short set of oral interview questions, one or two for each of our three sub-questions about the hills.
+- Design a short set of oral interview questions, one or two for each of our four sub-questions about the hills.
 - Decide whether a very short oral survey — one or two questions asked of many people — would help, and shape it so it can be answered with a mark or a picture.
 - Try their questions on each other, notice what was confusing, and improve them.
 materialsAndPreparation:
-- The research question and its three sub-questions, big on the wall (before/now; a bare hill in rain and hot sun; what roots, grass, and trees do).
+- The research question and its four sub-questions, big on the wall (before/now; a bare hill in rain and hot sun; what roots, grass, and trees do; what people are doing to help and whether it is working).
 - The "our questions to ask" page from the research book (one per learner).
 - A few example questions prepared, some open and some leading, to sort together.
 - Marks or simple symbols agreed for recording survey answers (for example, faces or tally marks), for those not yet writing.
@@ -54,7 +54,7 @@ visuals:
 - kind: example
   title: "Our questions, by sub-question"
   caption: >-
-    The finished set: one or two short, open questions for each of our three sub-questions, tried on each
+    The finished set: one or two short, open questions for each of our four sub-questions, tried on each
     other first and made clearer.
   spec:
     type: zones
@@ -92,7 +92,7 @@ steps:
 - title: "Design our questions, sub-question by sub-question"
   duration: "50 min"
   guidance: >-
-    Working from the three sub-questions on the wall, small groups draft one or two oral interview
+    Working from the four sub-questions on the wall, small groups draft one or two oral interview
     questions for each. Then decide together whether a very short survey would help — one or two simple
     questions we could ask many people and record with a mark or picture. Keep everything short and easy
     to say aloud.
@@ -111,13 +111,13 @@ steps:
 learnerContent: |
   ## Our questions to ask
 
-  We are going to ask people in our community to help answer our three sub-questions about the hills.
+  We are going to ask people in our community to help answer our four sub-questions about the hills.
   Good questions let people tell us what they really think.
 
   An open question invites anything: "What happens to this slope when it rains?" A leading question
   pushes one answer: "The rain ruins the bare slope, doesn't it?" We want open questions.
 
-  For each of our three sub-questions, we design one or two short questions to ask:
+  For each of our four sub-questions, we design one or two short questions to ask:
 
   - What were our hills like before, and what are they like now?
   - What happens to a bare hill when it rains, and in the hot sun?
@@ -127,7 +127,7 @@ learnerContent: |
   mark or a picture. We try our questions on each other first, and make the confusing ones clearer.
 worksheet:
   slug: cb-rp-our-questions-sheet
-  note: "In the research book (student workbook): the 'Our questions to ask' page, grouped by our three sub-questions. Print one per learner."
+  note: "In the research book (student workbook): the 'Our questions to ask' page, grouped by our four sub-questions. Print one per learner."
 agencyContribution:
   indicators:
   - contribution-to-community
@@ -154,6 +154,6 @@ objectiveIds: [research-project--o2]
 relatedSlugs: [cb-rp-two-ways-and-ethics, cb-rp-our-questions-sheet, cb-rp-go-and-gather, cb-rp-our-research-question]
 provenanceNote: >-
   Authored activity for the Learning Bridge+ (Cox's Bazar) Research Project edition. Learners design
-  short, oral, open-question interview and survey instruments tied to the three sub-questions of the
+  short, oral, open-question interview and survey instruments tied to the four sub-questions of the
   given research question. Plan and conduct research phase (objective 2); fully offline, oral and visual
   first. Its printable questions page compiles into the Research Project student workbook.

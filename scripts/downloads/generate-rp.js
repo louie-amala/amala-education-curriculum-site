@@ -28,6 +28,8 @@ for (const f of fs.readdirSync(path.join(CS, 'materials')).filter((f) => f.start
   const m = rd(path.join(CS, 'materials', f));
   mat[m.slug] = m;
 }
+// Amala's official proficiency scale — read from the framework so this record cannot drift from it.
+const scale = rd(path.join(CS, 'framework', 'proficiency-scale.yaml'));
 const objStatement = (oid) => {
   if (!oid) return null;
   const n = parseInt(oid.split('--o')[1], 10);
@@ -114,6 +116,20 @@ const ORIGINALS = {
     ],
   },
   H: { ref: 'UNHCR, "Rohingya refugees restore depleted forest in Bangladesh," around 2021 (CONFIRM date). unhcr.org.', note: 'UN agency first-person story (a plantation guardian); reproducible for educational/non-commercial use with attribution, but full text not to hand - summarised only. Confirm date and any quotes at the source.' },
+  I: {
+    ref: 'International Organization for Migration (IOM), "UN Agencies and Government Distribute LPG Stoves to Rohingya Refugees to Save Remaining Forests." iom.int. Reproducible for educational/non-commercial use with attribution.',
+    text: [
+      'To slow the deforestation driven by families cutting firewood to cook, UN agencies and the government distributed LPG (bottled cooking gas) stoves to Rohingya refugee and host-community families through the SAFE Plus programme. In 2024 alone, agencies distributed nearly 1.8 million LPG cylinders.',
+      'The switch away from firewood let local vegetation begin to regenerate, reduced the protection risks women and girls faced collecting wood in the forest, and cut the smoke inside shelters.',
+    ],
+  },
+  J: {
+    ref: 'Food and Agriculture Organization of the United Nations (FAO), "Restoring degraded land in Rohingya refugee camps in Cox’s Bazar, Bangladesh." openknowledge.fao.org. Reproducible for educational/non-commercial use with attribution.',
+    text: [
+      'Through planting on degraded slopes and the shift to LPG, agencies report that green cover in and around the camps has increased (about 43% between 2018 and 2024) and that landslide frequency has fallen from the early years as slope-stabilisation and afforestation took hold.',
+      'The fuller picture is that forest cover inside the camps fell drastically after the 2017 influx (from over half the land to almost none), so recovery is partial and ongoing. Effectiveness claims here come from the organisations delivering the work and should be weighed against independent evidence and local observation.',
+    ],
+  },
 };
 
 // ============================================================ FACILITATOR PLAN & GUIDE
@@ -193,7 +209,7 @@ function facilitatorPlan() {
   c.push(pageBreak());
   c.push(H1('Appendix B - Full original articles (facilitator reference)'));
   c.push(P('The complete originals behind the graded source cards. For your reference and the strongest readers; the student workbook carries the graded versions only.', { size: 22, color: GREY }));
-  for (const key of ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H']) {
+  for (const key of ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']) {
     const o = ORIGINALS[key];
     c.push(H2(`Source ${key}`));
     c.push(P(o.ref, { size: 20, color: GREY, italics: true }));
@@ -331,26 +347,52 @@ function cards() {
 }
 
 // ============================================================ ASSESSMENT RECORD (facilitator, copy per learner)
+// The levels, GPA values and generic descriptors come from framework/proficiency-scale.yaml — Amala's
+// official scale — so the record can never drift from it. Only the FSI1 reading is written here.
+const FSI1_READING = {
+  none: 'Cannot say what they would try to find out about the issue, or how, and why.',
+  theorist: 'Can say what they want to find out, who they would ask and what they would read, and why — but has not acted on it.',
+  practitioner: 'Actually investigated — asked and looked, and used the source pack — with reasons for how they went about it, even if it has not yet become an insight.',
+  reflective: 'The research reached an evidence-backed insight they can communicate, and they can say what worked in how they investigated, what did not, and what they would do differently, with evidence.',
+  expert: 'A second, distinct investigation in which they carried through an improvement identified in the first.',
+};
+const scaleTable = () => {
+  const colW = [300, 2500, 5200, 2800];
+  const head = ['', 'Level', 'The learner (Amala’s scale)', 'In this component (FSI1)'];
+  const rows = [new TableRow({ tableHeader: true, children: head.map((t, i) => new TableCell({
+    width: { size: colW[i], type: WidthType.DXA },
+    children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 18, color: NAVY })] })],
+  })) })];
+  for (const lv of scale.levels) {
+    const title = lv.title + (lv.creditAwarded ? '' : '  (no credit)') + `\nGPA ${lv.gpa.toFixed(1)}`;
+    const cells = ['☐', title, lv.genericDescriptor, FSI1_READING[lv.id] || ''];
+    rows.push(new TableRow({ height: { value: 900, rule: 'atLeast' }, cantSplit: true, children: cells.map((t, i) => new TableCell({
+      width: { size: colW[i], type: WidthType.DXA },
+      children: String(t).split('\n').map((line, j) => new Paragraph({ children: [new TextRun({ text: line, size: i === 0 ? 26 : 17, bold: i === 1 && j === 0, color: i === 1 ? NAVY : (i === 3 ? GREY : undefined) })] })),
+    })) }));
+  }
+  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: colW, rows });
+};
 function rubricDoc() {
   const c = [];
   c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 44, color: NAVY })], spacing: { after: 40 } }));
   c.push(P('Assessment record — Investigate real-world issues (FSI1)', { size: 24, bold: true, color: PLUM, after: 40 }));
   c.push(P("Learning Bridge+ (Cox's Bazar)  ·  Facilitator — make one copy per learner", { size: 20, color: GREY, after: 160 }));
-  c.push(P('Judge each learner by your professional judgement against the proficiency scale, from evidence gathered across the whole research book — not from the final output alone. Full guidance is in the facilitator guide ("Assessing the investigation"). Record where the learner sits and one or two lines of evidence for why. Developmental notes, not a grade.', { size: 22, after: 120 }));
+  c.push(P('Judge each learner by your professional judgement against Amala’s proficiency scale, from evidence gathered across the whole research book — not from the final output alone. Full guidance is in the facilitator guide ("Assessing the investigation"). Tick the level and write one or two lines of evidence for why.', { size: 22, after: 120 }));
+  c.push(P('The scale is generic: one ladder, read against the goal FSI1 names — the learner can conduct primary and secondary research into challenges affecting people and the planet to develop actionable insights. Credit begins at Practitioner, which is also the readiness bar for the accredited secondary pathway. Expert needs two or more genuinely different scenarios, so it rarely comes from this component alone.', { size: 20, color: GREY, after: 160 }));
   c.push(P('Learner: ______________________________', { size: 22, after: 200 }));
-  const bands = ['Emerging', 'Developing', 'Proficient', 'Extending'];
   const point = (title) => {
     c.push(H2(title));
-    c.push(P('Circle the band that best fits, from evidence across the research book:', { size: 20, color: GREY, after: 60 }));
-    c.push(P(bands.join('        ·        '), { size: 22, bold: true, color: NAVY, after: 100 }));
-    c.push(P('Evidence and developmental notes (question & plan · evidence log & how they weighed sources · findings → insight · output & answering questions):', { size: 18, color: GREY, after: 40 }));
-    c.push(box(2600, ''));
+    c.push(scaleTable());
+    c.push(P('Evidence for the judgement (question & plan · evidence log & how they weighed sources · findings → insight · output & answering questions):', { size: 18, color: GREY, after: 40, before: 160 }));
+    c.push(box(2200, ''));
   };
   point('Midway (formative) — around the end of "Plan and conduct research"');
+  c.push(P('Provisional, made with Amala’s support and calibration: a checkpoint that tells you where to put your support next, not the final grade.', { size: 18, italics: true, color: GREY, before: 80 }));
   c.push(pageBreak());
   point('End (summative) — at the showcase');
-  c.push(P('The four bands (full descriptors in the facilitator guide): Emerging — takes part with support; Developing — carries out parts of the cycle with less support; Proficient — runs the whole cycle for the shared question with growing independence and reaches an evidence-backed insight; Extending — does that and notices where evidence is thin or disagrees, asks a sharper question of their own, and helps others weigh evidence.', { size: 18, color: GREY, before: 200 }));
-  c.push(P('Align to Amala’s official proficiency scale before certification.', { size: 18, italics: true, color: GREY, before: 80 }));
+  c.push(P('This is the judgement that counts towards the certificated competency and the readiness decision.', { size: 18, italics: true, color: GREY, before: 80 }));
+  c.push(P('Levels, GPA values and generic descriptors are Amala’s official Competency Framework and Proficiency Scale (cohorts starting 2025).', { size: 16, color: GREY, before: 200 }));
   return new Document({ styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } }, sections: [{ properties: { page: LETTER }, children: c }] });
 }
 
