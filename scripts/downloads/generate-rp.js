@@ -130,6 +130,7 @@ const ORIGINALS = {
       'The fuller picture is that forest cover inside the camps fell drastically after the 2017 influx (from over half the land to almost none), so recovery is partial and ongoing. Effectiveness claims here come from the organisations delivering the work and should be weighed against independent evidence and local observation.',
     ],
   },
+  K: { ref: 'One Tree Planted, "How trees improve soil quality." onetreeplanted.org.', note: 'Tree-planting charity, rights reserved - not reproduced. Cite and summarise only. Strengthens sub-question 3 (what trees do for the soil and for us).' },
 };
 
 // ============================================================ FACILITATOR PLAN & GUIDE
@@ -209,7 +210,7 @@ function facilitatorPlan() {
   c.push(pageBreak());
   c.push(H1('Appendix B - Full original articles (facilitator reference)'));
   c.push(P('The complete originals behind the graded source cards. For your reference and the strongest readers; the student workbook carries the graded versions only.', { size: 22, color: GREY }));
-  for (const key of ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']) {
+  for (const key of ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']) {
     const o = ORIGINALS[key];
     c.push(H2(`Source ${key}`));
     c.push(P(o.ref, { size: 20, color: GREY, italics: true }));
