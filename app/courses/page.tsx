@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { courses, getCourse, getProgramme, programmes } from "@/lib/content";
+import { courses, getCourse, getProgramme, publicProgrammes } from "@/lib/content";
 
 export const metadata: Metadata = { title: "Courses" };
 
@@ -8,7 +8,9 @@ export default function CoursesIndex() {
   const gsd = getProgramme("gsd");
 
   // Component-based programmes (e.g. Learning Bridge) deliver some components as full courses.
-  const componentProgrammes = programmes
+  // Public programmes only throughout this page — a password-protected programme must not be
+  // named here, even though the courses it shares with a public programme are themselves public.
+  const componentProgrammes = publicProgrammes
     .filter((p) => p.components.some((c) => c.courseSlug))
     .map((p) => ({
       programme: p,
@@ -21,9 +23,9 @@ export default function CoursesIndex() {
   // Standalone courses: authored courses not placed in any GSD stream/component or programme
   // component (e.g. English for Impact, whose programme placement is still to be decided).
   const placedCourseIds = new Set<string>([
-    ...programmes.flatMap((p) => p.streams.flatMap((s) => s.courses.map((c) => c.courseId))),
-    ...programmes.flatMap((p) => p.ongoingComponents.map((c) => c.courseId)),
-    ...programmes.flatMap((p) =>
+    ...publicProgrammes.flatMap((p) => p.streams.flatMap((s) => s.courses.map((c) => c.courseId))),
+    ...publicProgrammes.flatMap((p) => p.ongoingComponents.map((c) => c.courseId)),
+    ...publicProgrammes.flatMap((p) =>
       p.components.filter((c) => c.courseSlug).map((c) => getCourse(c.courseSlug!)?.id ?? ""),
     ),
   ]);
@@ -31,7 +33,7 @@ export default function CoursesIndex() {
 
   // Other stream-based programmes (e.g. English for Impact): a programme whose courses are its
   // units. GSD is rendered above with its streams as headers; these render under the programme name.
-  const streamProgrammes = programmes.filter(
+  const streamProgrammes = publicProgrammes.filter(
     (p) => p.id !== "gsd" && p.streams.length > 0,
   );
 

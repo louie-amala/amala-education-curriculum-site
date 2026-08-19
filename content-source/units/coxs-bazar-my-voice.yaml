@@ -8,7 +8,7 @@
 # blocks carry a description.
 id: coxs-bazar-my-voice
 slug: coxs-bazar-my-voice
-access: public
+access: partner
 title: "My Voice — Cox's Bazar unit plan"
 programmeSlug: learning-bridge-coxs-bazar
 componentTitle: English Language Development

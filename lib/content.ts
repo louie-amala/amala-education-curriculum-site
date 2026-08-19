@@ -1,6 +1,7 @@
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
+import { PROTECTED_DOWNLOADS, PROTECTED_PAGES } from "./protected-paths.generated";
 import {
   AREA_TAG_IDS,
   AgencySchema,
@@ -251,9 +252,12 @@ export function getAreaCompetencies(areaId: string): Competency[] {
   return competencies.filter((c) => c.areaId === areaId);
 }
 
+// Used for the breadcrumb on a course page. Deliberately searches public programmes only: courses
+// are shared between programmes (e.g. Agency in Learning sits in both Learning Bridge editions),
+// and a public page must not advertise a password-protected one.
 export function getProgrammeForCourse(courseId: string): Programme | undefined {
   const course = courseById.get(courseId);
-  return programmes.find(
+  return publicProgrammes.find(
     (p) =>
       p.streams.some((s) => s.courses.some((c) => c.courseId === courseId)) ||
       p.ongoingComponents.some((c) => c.courseId === courseId) ||
@@ -276,6 +280,17 @@ export function getCourseStream(courseId: string) {
 // Learning Bridge) keep their own page but are excluded from the generic library, search, and
 // objective/course/competency listings. `libraryMaterials` is the generic-only view those surfaces use.
 export const libraryMaterials: FacilitationMaterial[] = materials.filter((m) => !m.edition);
+
+// ---- access ----
+// Content tagged `access: staff` or `access: partner` sits behind the shared-password gate
+// (middleware.ts). It still loads and still builds a page — the gate is at request time — but it
+// must be kept out of anything public: listings, the search index, and cross-page links.
+export function isPublic(entity: { access?: string }): boolean {
+  return (entity.access ?? "public") === "public";
+}
+
+/** Programmes safe to list publicly. */
+export const publicProgrammes: Programme[] = programmes.filter(isPublic);
 
 // Educator moves — small, named, repeatable practices (the first set are mentor moves). Grouped by
 // `mentorRole` on /educator-moves. Programme-agnostic, so they live in the generic library too.
@@ -829,6 +844,67 @@ export function validateGraph(): ValidationReport {
     }
   }
 
+  // ---- access: the gate's coverage must match the content tags ----
+  // The middleware reads a generated manifest (it runs on the edge and cannot read
+  // content-source/), so a stale manifest would quietly publish protected content. Fail the build
+  // instead — `npm run build` regenerates the manifest first, so this only fires if the generator
+  // was not run or a route mapping is missing.
+  const protectedProgrammeSlugs = new Set(programmes.filter((p) => !isPublic(p)).map((p) => p.slug));
+
+  for (const unit of units) {
+    if (protectedProgrammeSlugs.has(unit.programmeSlug) && isPublic(unit)) {
+      errors.push(
+        `Unit "${unit.slug}" belongs to protected programme "${unit.programmeSlug}" but is access: public — it would be served to anyone.`,
+      );
+    }
+  }
+  for (const m of materials) {
+    if (m.edition && protectedProgrammeSlugs.has(m.edition) && isPublic(m)) {
+      errors.push(
+        `Material "${m.slug}" is an edition material of protected programme "${m.edition}" but is access: public — it would be served to anyone.`,
+      );
+    }
+  }
+
+  const expectedPages = [
+    ...courses.filter((c) => !isPublic(c)).map((c) => `/courses/${c.slug}`),
+    ...programmes.filter((p) => !isPublic(p)).map((p) => `/programmes/${p.slug}`),
+    ...units.filter((u) => !isPublic(u)).map((u) => `/units/${u.slug}`),
+    ...materials.filter((m) => !isPublic(m)).map((m) => `/materials/${m.slug}`),
+    ...modules.filter((m) => !isPublic(m)).map((m) => `/modules/${m.slug}`),
+    ...glossaryTerms.filter((t) => !isPublic(t)).map((t) => `/glossary/${t.slug}`),
+    ...educatorModules.filter((e) => !isPublic(e)).map((e) => `/educators/training/${e.slug}`),
+  ].sort();
+  const manifestPages = [...PROTECTED_PAGES].sort();
+  if (expectedPages.join("\n") !== manifestPages.join("\n")) {
+    const missing = expectedPages.filter((p) => !PROTECTED_PAGES.includes(p));
+    const extra = manifestPages.filter((p) => !expectedPages.includes(p));
+    errors.push(
+      `lib/protected-paths.generated.ts is out of date — run \`npm run gen:protected-paths\`.` +
+        (missing.length ? ` Ungated: ${missing.join(", ")}.` : "") +
+        (extra.length ? ` Gated but no longer protected: ${extra.join(", ")}.` : ""),
+    );
+  }
+
+  // Downloads declared by protected content must be gated too, unless a public page also offers
+  // the same file (in which case gating it would break that page — see the generator).
+  const publicDownloads = new Set<string>();
+  const protectedDownloads = new Set<string>();
+  const collect = (entity: { access?: string }, files: { file: string }[]) => {
+    for (const d of files) (isPublic(entity) ? publicDownloads : protectedDownloads).add(d.file);
+  };
+  for (const p of programmes) collect(p, p.downloads);
+  for (const u of units) collect(u, u.downloads);
+  for (const m of materials) collect(m, m.downloads);
+  for (const file of protectedDownloads) {
+    if (publicDownloads.has(file)) continue;
+    if (!PROTECTED_DOWNLOADS.includes(file)) {
+      errors.push(
+        `Download "${file}" is offered only by protected content but is not gated — run \`npm run gen:protected-paths\`.`,
+      );
+    }
+  }
+
   return { errors, warnings };
 }
 
@@ -877,7 +953,7 @@ function clip(s: string, max = 160): string {
 export function getSearchIndex(): SearchRecord[] {
   const records: SearchRecord[] = [];
 
-  for (const m of libraryMaterials) {
+  for (const m of libraryMaterials.filter(isPublic)) {
     const courseTitles = [
       ...new Set(
         m.objectiveIds
@@ -898,7 +974,7 @@ export function getSearchIndex(): SearchRecord[] {
     });
   }
 
-  for (const c of courses) {
+  for (const c of courses.filter(isPublic)) {
     records.push({
       id: `course:${c.slug}`,
       kind: "Course",
@@ -910,7 +986,7 @@ export function getSearchIndex(): SearchRecord[] {
     });
   }
 
-  for (const mod of modules) {
+  for (const mod of modules.filter(isPublic)) {
     const comp = competencyByCode.get(mod.competencyCode);
     records.push({
       id: `module:${mod.slug}`,
@@ -947,7 +1023,7 @@ export function getSearchIndex(): SearchRecord[] {
     });
   }
 
-  for (const t of glossaryTerms) {
+  for (const t of glossaryTerms.filter(isPublic)) {
     records.push({
       id: `glossary:${t.slug}`,
       kind: "Glossary",
@@ -959,7 +1035,7 @@ export function getSearchIndex(): SearchRecord[] {
     });
   }
 
-  for (const p of programmes) {
+  for (const p of publicProgrammes) {
     records.push({
       id: `programme:${p.slug}`,
       kind: "Programme",

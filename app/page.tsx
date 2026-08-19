@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { areas, competencies, courses, principles, programmes } from "@/lib/content";
+import { areas, competencies, courses, principles, publicProgrammes } from "@/lib/content";
 
 export default function Home() {
   const objectives = courses.reduce((n, c) => n + c.objectives.length, 0);
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
 
           <p className="mt-10 text-sm text-cool-grey">
-            {programmes.length} programmes · {courses.length} courses · {areas.length} competency
+            {publicProgrammes.length} programmes · {courses.length} courses · {areas.length} competency
             areas · {competencies.length} competencies · {principles.length} principles ·{" "}
             {objectives} objectives · {links} competency links — all validated at build time.
           </p>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { programmes } from "@/lib/content";
+import { publicProgrammes } from "@/lib/content";
 
 export const metadata: Metadata = { title: "Programmes" };
 
@@ -14,7 +14,7 @@ export default function ProgrammesIndex() {
       </p>
 
       <ul className="mt-10 grid gap-4 sm:grid-cols-2">
-        {programmes.map((p) => (
+        {publicProgrammes.map((p) => (
           <li key={p.slug}>
             <Link
               href={`/programmes/${p.slug}`}

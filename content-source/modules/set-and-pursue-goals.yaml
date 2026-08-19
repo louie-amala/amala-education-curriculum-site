@@ -1,4 +1,4 @@
-# Competency module for FSL2 "Set and pursue goals" — the general (non-Cox's-Bazar) sequencing layer
+# Competency module for FSL2 "Set and pursue goals" — the general (non-contextualised) sequencing layer
 # for the Agency in Learning material library, mirroring how FSI1 uses investigating-real-world-issues.
 # Groups the generic ail-* materials into the four skills of the self-directed learning cycle. It is a
 # cross-cutting competency path (materials -> skill -> competency); it does NOT replace the
@@ -51,9 +51,9 @@ sourceNotes:
     the shared FSL2 material library rather than a single course's objectives, so the same skills can be
     reused by other courses that develop FSL2.
   - >-
-    Sequences the generic ail-* materials (the general, literacy-assumed edition). The Cox's Bazar
-    edition sequences its own oral/visual cb-ail-* adaptations through the coxs-bazar-agency-in-learning
-    unit plan instead; this module is the general counterpart to that unit.
+    Sequences the generic ail-* materials: the general, literacy-assumed edition. Contextualised
+    programme editions sequence their own adaptations through their own unit plans instead, so this
+    module is the general counterpart to those units rather than a replacement for them.
   - >-
     The four skills are phases of one cumulative cycle, not independently-droppable skills like FSI1's
     research skills, so the module is framed to be worked in order on a single real goal.

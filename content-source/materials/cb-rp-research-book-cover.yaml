@@ -3,7 +3,7 @@
 # compiles into the Research Project student workbook (the research book). Learning Bridge+ (Cox's Bazar).
 id: cb-rp-research-book-cover
 slug: cb-rp-research-book-cover
-access: public
+access: partner
 edition: learning-bridge-coxs-bazar
 type: resource
 title: "My research book — cover and how I use it"

@@ -23,3 +23,7 @@ yarn-error.log*
 
 # local tooling
 .claude/
+
+# env (added by `vercel link`) — but the template is committed
+.env*
+!.env.example

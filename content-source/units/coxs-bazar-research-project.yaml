@@ -24,7 +24,7 @@
 # coxs-bazar-agency-in-learning.yaml; same shape and same deliberate release of control.
 id: coxs-bazar-research-project
 slug: coxs-bazar-research-project
-access: public
+access: partner
 title: "Research Project — Cox's Bazar unit plan"
 programmeSlug: learning-bridge-coxs-bazar
 componentTitle: Research Project

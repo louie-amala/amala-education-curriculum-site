@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "gen:protected-paths": "node scripts/generate-protected-paths.js",
+    "dev": "npm run gen:protected-paths && next dev",
+    "build": "npm run gen:protected-paths && next build",
     "start": "next start",
     "lint": "next lint"
   },
