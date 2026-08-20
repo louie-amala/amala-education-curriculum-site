@@ -12,7 +12,7 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('yaml');
 const {
-  Document, Packer, Paragraph, TextRun,
+  Document, Packer, Paragraph, TextRun, AlignmentType,
   Table, TableRow, TableCell, WidthType, BorderStyle, PageBreak, HeadingLevel,
 } = require('docx');
 
@@ -41,12 +41,19 @@ const KIND = { activity: 'Activity', practice: 'Practice', orientation: 'Orienta
 
 // ---- text helpers (shared style with generate-docx.js) ----
 const NAVY = '1F3A5F', PLUM = '7A3B69', GREY = '5A6473', OLIVE = '6E7A2E', LINE = 'B9B3A6';
-const toParas = (s) => String(s || '').trim().split(/\n\s*\n/).map((p) => p.replace(/\s*\n\s*/g, ' ').trim()).filter(Boolean);
-const P = (text, opts = {}) => new Paragraph({ children: [new TextRun({ text, size: opts.size || 22, bold: opts.bold, italics: opts.italics, color: opts.color })], spacing: { after: opts.after == null ? 120 : opts.after, before: opts.before || 0 }, alignment: opts.align, border: opts.border });
+// Source YAML and educatorContent are markdown-flavoured. These documents are printed and read on
+// paper, where a raw link target is noise — so reduce inline markdown to its text before it becomes
+// a docx run. Keeps [Picture Cards pack](/downloads/…) reading as "Picture Cards pack".
+const plain = (s) => String(s == null ? '' : s)
+  .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+  .replace(/`([^`]+)`/g, '$1')
+  .replace(/\*\*([^*]+)\*\*/g, '$1');
+const toParas = (s) => plain(s).trim().split(/\n\s*\n/).map((p) => p.replace(/\s*\n\s*/g, ' ').trim()).filter(Boolean);
+const P = (text, opts = {}) => new Paragraph({ children: [new TextRun({ text: plain(text), size: opts.size || 22, bold: opts.bold, italics: opts.italics, color: opts.color })], spacing: { after: opts.after == null ? 120 : opts.after, before: opts.before || 0 }, alignment: opts.align, border: opts.border });
 const runs = (arr) => new Paragraph({ children: arr, spacing: { after: 120 } });
 const body = (s) => toParas(s).map((t) => P(t, { size: 22, after: 120 }));
-const bullet = (text, level = 0) => new Paragraph({ children: [new TextRun({ text, size: 22 })], bullet: { level }, spacing: { after: 60 } });
-const label = (lab, text) => new Paragraph({ children: [new TextRun({ text: lab + ' ', bold: true, size: 22, color: PLUM }), new TextRun({ text, size: 22 })], spacing: { after: 120 } });
+const bullet = (text, level = 0) => new Paragraph({ children: [new TextRun({ text: plain(text), size: 22 })], bullet: { level }, spacing: { after: 60 } });
+const label = (lab, text) => new Paragraph({ children: [new TextRun({ text: lab + ' ', bold: true, size: 22, color: PLUM }), new TextRun({ text: plain(text), size: 22 })], spacing: { after: 120 } });
 const H1 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { before: 240, after: 100 }, children: [new TextRun({ text: t, bold: true, size: 30, color: NAVY })] });
 const H2 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_2, spacing: { before: 200, after: 80 }, children: [new TextRun({ text: t, bold: true, size: 26, color: PLUM })] });
 const H3 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_3, spacing: { before: 160, after: 60 }, children: [new TextRun({ text: t, bold: true, size: 23, color: NAVY })] });
@@ -134,11 +141,15 @@ const ORIGINALS = {
 };
 
 // ============================================================ FACILITATOR PLAN & GUIDE
-function facilitatorPlan() {
+// opts.embedded drops the cover block and the closing "offline pack" note, so the one-stop Educator
+// Guide can carry this plan as one of its parts without repeating its own covers.
+function facilitatorPlanChildren(opts = {}) {
   const c = [];
-  c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 52, color: NAVY })], spacing: { after: 40 } }));
-  c.push(P('Facilitator Unit Plan & Guide', { size: 30, bold: true, color: PLUM, after: 40 }));
-  c.push(P("Learning Bridge+ (Cox's Bazar)  ·  The trees on our hills", { size: 22, color: GREY, after: 200 }));
+  if (!opts.embedded) {
+    c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 52, color: NAVY })], spacing: { after: 40 } }));
+    c.push(P('Facilitator Unit Plan & Guide', { size: 30, bold: true, color: PLUM, after: 40 }));
+    c.push(P("Learning Bridge+ (Cox's Bazar)  ·  The trees on our hills", { size: 22, color: GREY, after: 200 }));
+  }
   c.push(...body(unit.summary));
   c.push(runs([
     new TextRun({ text: `${unit.totalFacilitatedHours + unit.totalIndependentHours} hours total`, bold: true, size: 22, color: NAVY }),
@@ -219,11 +230,13 @@ function facilitatorPlan() {
     c.push(hr());
   }
 
-  c.push(pageBreak());
-  c.push(H2('The offline pack'));
-  c.push(P('This guide is part of a fully offline pack: this Facilitator Unit Plan & Guide, and the Student Workbook (the source cards, word bank, and evidence log). Both are editable so you can adapt and distribute them without the internet.', { size: 22 }));
+  if (!opts.embedded) {
+    c.push(pageBreak());
+    c.push(H2('The offline pack'));
+    c.push(P('This guide is part of a fully offline pack: this Facilitator Unit Plan & Guide, and the Student Workbook (the source cards, word bank, and evidence log). Both are editable so you can adapt and distribute them without the internet.', { size: 22 }));
+  }
   c.push(P("Cox's Bazar edition · Research Project component of Learning Bridge+ · not for redistribution outside the programme. Reproduced articles are used with attribution under educational / non-commercial permission; see the copyright notes in Appendix A.", { size: 18, color: GREY, before: 120 }));
-  return new Document({ styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } }, sections: [{ properties: { page: LETTER }, children: c }] });
+  return c;
 }
 
 // ============================================================ STUDENT WORKBOOK
@@ -256,7 +269,7 @@ const box = (h, labelText) => new Table({
 // The student workbook IS the research book: the source cards to read, then one labelled page per
 // activity (in course order), each = the worksheet's instructions + space to fill. Compiled from the
 // unit + cb-rp materials, so it stays a faithful copy of the site.
-function workbook() {
+function workbookChildren() {
   const c = [];
   c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 52, color: NAVY })], spacing: { after: 40 } }));
   c.push(P('Student Workbook — Our Research Book', { size: 30, bold: true, color: PLUM, after: 40 }));
@@ -294,7 +307,7 @@ function workbook() {
 
   c.push(pageBreak());
   c.push(P("Cox's Bazar edition · Research Project component of Learning Bridge+ · not for redistribution outside the programme.", { size: 18, color: GREY }));
-  return new Document({ styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } }, sections: [{ properties: { page: LETTER }, children: c }] });
+  return c;
 }
 
 // ============================================================ PICTURE-WORD CARDS
@@ -326,7 +339,7 @@ const cardCell = (term, meaning) => new TableCell({
     new Paragraph({ children: [new TextRun({ text: term ? '(draw it here)' : '(your own word)', italics: true, size: 14, color: LINE })] }),
   ],
 });
-function cards() {
+function cardsChildren() {
   const c = [];
   c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 44, color: NAVY })], spacing: { after: 40 } }));
   c.push(P('Picture-word cards — our research words', { size: 26, bold: true, color: PLUM, after: 40 }));
@@ -344,7 +357,7 @@ function cards() {
     rows.push(new TableRow({ height: { value: 2600, rule: 'atLeast' }, cantSplit: true, children: [cardCell(items[i].term, items[i].meaning), cardCell(items[i + 1].term, items[i + 1].meaning)] }));
   }
   c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [5400, 5400], rows }));
-  return new Document({ styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } }, sections: [{ properties: { page: LETTER }, children: c }] });
+  return c;
 }
 
 // ============================================================ ASSESSMENT RECORD (facilitator, copy per learner)
@@ -374,7 +387,7 @@ const scaleTable = () => {
   }
   return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: colW, rows });
 };
-function rubricDoc() {
+function rubricChildren() {
   const c = [];
   c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 44, color: NAVY })], spacing: { after: 40 } }));
   c.push(P('Assessment record — Investigate real-world issues (FSI1)', { size: 24, bold: true, color: PLUM, after: 40 }));
@@ -394,22 +407,35 @@ function rubricDoc() {
   point('End (summative) — at the showcase');
   c.push(P('This is the judgement that counts towards the certificated competency and the readiness decision.', { size: 18, italics: true, color: GREY, before: 80 }));
   c.push(P('Levels, GPA values and generic descriptors are Amala’s official Competency Framework and Proficiency Scale (cohorts starting 2025).', { size: 16, color: GREY, before: 200 }));
-  return new Document({ styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } }, sections: [{ properties: { page: LETTER }, children: c }] });
+  return c;
 }
+
+
+// A document wrapper around a children array. The children builders above are exported so the
+// one-stop Educator Guide (generate-lb-guides.js) embeds exactly this content, with no drift.
+const { Footer, PageNumber } = require('docx');
+// A running footer with the page number — these plans are long enough to be printed and paged through.
+const pageFooter = (text) => new Footer({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [
+  new TextRun({ text: `${text}    `, size: 16, color: GREY }), new TextRun({ children: [PageNumber.CURRENT], size: 16, color: GREY }),
+] })] });
+const FOOTER_TEXT = "Research Project  ·  Learning Bridge+ (Cox's Bazar)";
+const doc = (children) => new Document({ styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } }, sections: [{ properties: { page: LETTER }, footers: { default: pageFooter(FOOTER_TEXT) }, children }] });
+
+module.exports = { unit, mat, facilitatorPlanChildren, workbookChildren, cardsChildren, rubricChildren };
 
 // ============================================================ WRITE
 async function main() {
   if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
   const jobs = [
-    ['research-project-facilitator-unit-plan.docx', facilitatorPlan()],
-    ['research-project-student-workbook.docx', workbook()],
-    ['research-project-assessment-rubric.docx', rubricDoc()],
-    ['research-project-picture-cards.docx', cards()],
+    ['research-project-facilitator-unit-plan.docx', doc(facilitatorPlanChildren())],
+    ['research-project-student-workbook.docx', doc(workbookChildren())],
+    ['research-project-assessment-rubric.docx', doc(rubricChildren())],
+    ['research-project-picture-cards.docx', doc(cardsChildren())],
   ];
-  for (const [name, doc] of jobs) {
-    const buf = await Packer.toBuffer(doc);
+  for (const [name, d] of jobs) {
+    const buf = await Packer.toBuffer(d);
     fs.writeFileSync(path.join(OUT, name), buf);
     console.log('wrote', path.join(OUT, name));
   }
 }
-main().catch((e) => { console.error(e); process.exit(1); });
+if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
