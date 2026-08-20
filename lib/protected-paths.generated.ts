@@ -97,6 +97,7 @@ export const PROTECTED_PAGES: readonly string[] = [
 // page are deliberately left open.
 export const PROTECTED_DOWNLOADS: readonly string[] = [
   "/downloads/agency-in-learning-action-plan.docx",
+  "/downloads/agency-in-learning-assessment-record.docx",
   "/downloads/agency-in-learning-facilitator-unit-plan.docx",
   "/downloads/agency-in-learning-feedback.docx",
   "/downloads/agency-in-learning-getting-better-at-goals.docx",
