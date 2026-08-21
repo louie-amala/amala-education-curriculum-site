@@ -36,7 +36,7 @@ const objStatement = (oid) => {
   const o = course.objectives[n - 1];
   return o ? o.statement.trim() : null;
 };
-const LEAD = { 'facilitator-led': 'You lead', shared: 'Shared', 'learner-led': 'Learners lead' };
+const LEAD = { 'facilitator-led': 'You model it first — support stays high', shared: 'Shared — you and the learners, support stays high', 'learner-led': 'Learners own it — support stays high' };
 const KIND = { activity: 'Activity', practice: 'Practice', orientation: 'Orientation', consolidation: 'Consolidation', assessment: 'Assessment' };
 
 // ---- text helpers (shared style with generate-docx.js) ----
@@ -269,12 +269,224 @@ const box = (h, labelText) => new Table({
 // The student workbook IS the research book: the source cards to read, then one labelled page per
 // activity (in course order), each = the worksheet's instructions + space to fill. Compiled from the
 // unit + cb-rp materials, so it stays a faithful copy of the site.
-function workbookChildren() {
+// opts.embedded drops the cover block and the closing colophon, so the programme-wide student
+// workbook (generate-lb-guides.js) can carry these pages behind its own single cover. The orienting
+// paragraph is kept — it reads as the opener of that part. Standalone download is unchanged.
+// ---- SCAFFOLD HELPERS ----------------------------------------------------
+// The workbook must scaffold a pre-literate learner who is alone with the page (facilitator stepped
+// back, or a session missed). So every page carries a persistent model and a structure to fill IN
+// PLACE — a worked example, sentence stems on a line, labelled slots, sort-mats, checklists — never a
+// bare "draw here" box. Literacy-free: draw/mark, or say it and the teacher scribes.
+
+// A standing line, so no learner is stuck because they cannot write.
+const scribe = () => new Paragraph({ children: [new TextRun({ text: 'You can draw or say your answer — your teacher will write it for you if you ask.', italics: true, size: 16, color: GREY })], spacing: { before: 60, after: 140 } });
+
+// "Like this:" — a shaded worked example that persists as a model (shaded so it does not read as a
+// place to write). Lines are short and concrete; parenthesised bits are drawing cues.
+const example = (lines) => new Table({
+  width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [10800],
+  rows: [new TableRow({ children: [new TableCell({
+    width: { size: 10800, type: WidthType.DXA }, shading: { fill: 'F1EEE6' },
+    margins: { top: 100, bottom: 100, left: 160, right: 160 },
+    children: [
+      new Paragraph({ children: [new TextRun({ text: 'Like this:', bold: true, size: 18, color: OLIVE })], spacing: { after: 60 } }),
+      ...lines.map((l) => new Paragraph({ children: [new TextRun({ text: l, italics: true, size: 20, color: '3F4A34' })], spacing: { after: 40 } })),
+    ],
+  })] })],
+});
+
+// A sentence stem with a writing line: "Before, ______".
+const stem = (text) => new Paragraph({ children: [
+  new TextRun({ text: text + '  ', size: 22 }),
+  new TextRun({ text: '______________________________________', size: 22, color: LINE }),
+], spacing: { after: 150 } });
+
+// Choices to circle (literacy-light decision aid): "( ) poster  ( ) talk  ( ) role-play".
+const choices = (label, options) => new Paragraph({ children: [
+  ...(label ? [new TextRun({ text: label + '   ', bold: true, size: 22 })] : []),
+  ...options.flatMap((o) => [new TextRun({ text: '(   ) ', size: 22, color: PLUM }), new TextRun({ text: o + '    ', size: 22 })]),
+], spacing: { after: 130 } });
+
+// A tick-box line for a checklist / captured tool.
+const check = (text) => new Paragraph({ children: [new TextRun({ text: '[   ]  ', size: 22, color: PLUM }), new TextRun({ text, size: 22 })], spacing: { after: 70 } });
+
+// A labelled slot to fill IN PLACE (a titled box tall enough to draw or write in).
+const slot = (labelText, h = 1100) => new Table({
+  width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [10800],
+  rows: [new TableRow({ height: { value: h, rule: 'atLeast' }, children: [new TableCell({
+    width: { size: 10800, type: WidthType.DXA }, margins: { top: 60, bottom: 60, left: 120, right: 120 },
+    children: [new Paragraph({ children: [new TextRun({ text: labelText, size: 17, color: PLUM })] })],
+  })] })],
+});
+
+// A sort-mat: labelled columns (shaded header), each a tall cell to fill.
+const zones = (labels, h = 2000) => {
+  const w = Math.floor(10800 / labels.length);
+  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: labels.map(() => w), rows: [
+    new TableRow({ children: labels.map((l) => new TableCell({ width: { size: w, type: WidthType.DXA }, shading: { fill: 'F1EEE6' }, margins: { top: 60, bottom: 60, left: 100, right: 100 }, children: [new Paragraph({ children: [new TextRun({ text: l, bold: true, size: 18, color: NAVY })] })] })) }),
+    new TableRow({ height: { value: h, rule: 'atLeast' }, children: labels.map(() => new TableCell({ width: { size: w, type: WidthType.DXA }, children: [new Paragraph('')] })) }),
+  ] });
+};
+
+// A grid page (evidence log / gathering record) with a filled worked example row.
+const grid = (cols, colW, exampleRow, nRows) => {
+  const head = new TableRow({ tableHeader: true, children: cols.map((t, i) => new TableCell({ width: { size: colW[i], type: WidthType.DXA }, shading: { fill: 'F1EEE6' }, margins: { top: 60, bottom: 60, left: 100, right: 100 }, children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 19, color: NAVY })] })] })) });
+  const ex = new TableRow({ children: exampleRow.map((t, i) => new TableCell({ width: { size: colW[i], type: WidthType.DXA }, shading: { fill: 'F1EEE6' }, margins: { top: 40, bottom: 40, left: 100, right: 100 }, children: [new Paragraph({ children: [new TextRun({ text: t, italics: true, size: 17, color: '3F4A34' })] })] })) });
+  const rows = [head, ex];
+  for (let r = 0; r < nRows; r++) rows.push(new TableRow({ height: { value: 1000, rule: 'atLeast' }, children: cols.map((_, i) => new TableCell({ width: { size: colW[i], type: WidthType.DXA }, children: [new Paragraph('')] })) }));
+  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: colW, rows });
+};
+
+// The repeating WEEKLY PURSUIT spread — a scaffolded self-regulation loop for between-session work.
+const weeklySpread = (n, withExample) => {
   const c = [];
-  c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 52, color: NAVY })], spacing: { after: 40 } }));
-  c.push(P('Student Workbook — Our Research Book', { size: 30, bold: true, color: PLUM, after: 40 }));
-  c.push(P("The trees on our hills  ·  Learning Bridge+ (Cox's Bazar)", { size: 22, color: GREY, after: 200 }));
-  c.push(P('This is your research book. It has the sources we read, our research words, and a page for each step of our investigation. Read the version that is right for you, or listen while your teacher reads. You can use drawings, marks, and a few words — no neat writing needed.', { size: 22 }));
+  c.push(new Paragraph({ children: [new TextRun({ text: `My research week ${n}`, bold: true, size: 23, color: PLUM })], spacing: { before: 160, after: 60 } }));
+  if (withExample) c.push(example([
+    'This week I will:  ask my grandmother what the hills looked like before.',
+    'Did I do it?  ( ✓ ) yes.',
+    'What happened:  she said there used to be big trees and shade.',
+    'What got in the way:  nothing this time.',
+    'If I cannot find her, then I will:  ask another elder.',
+    'Next week I will:  draw what she told me for our wall.',
+  ]));
+  c.push(stem('This week I will'));
+  c.push(choices('Did I do it?', ['yes', 'not yet']));
+  c.push(stem('What happened'));
+  c.push(stem('What got in the way'));
+  c.push(new Paragraph({ children: [new TextRun({ text: 'If  ', size: 22 }), new TextRun({ text: '____________________  ', size: 22, color: LINE }), new TextRun({ text: 'then I will  ', size: 22 }), new TextRun({ text: '____________________', size: 22, color: LINE })], spacing: { after: 150 } }));
+  c.push(stem('Next week I will'));
+  c.push(hr());
+  return c;
+};
+
+// Per-page scaffolds, keyed by worksheet slug. Each returns the page body (after eyebrow + title).
+const eyebrow = (t) => new Paragraph({ children: [new TextRun({ text: t.toUpperCase(), bold: true, size: 15, color: PLUM })], spacing: { after: 40 } });
+const title = (t) => new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 30, color: NAVY })], spacing: { after: 120 } });
+const bold = (t, o = {}) => P(t, Object.assign({ bold: true, size: 22 }, o));
+
+const SCAFFOLD = {
+  'cb-rp-my-first-thoughts': () => [
+    example(['(a drawing of bare hills, brown mud)', 'I see:  bare hills.', 'I wonder:  will the trees come back?']),
+    bold('What I SEE on our hills — draw it:', { before: 80 }), box(1600, ''),
+    stem('I wonder'), stem('I wonder'), scribe(),
+  ],
+  'cb-rp-research-book-cover': () => [
+    example(['My name / my mark', '(a small drawing of our hills)']),
+    bold('My name, or my own mark:', { before: 80 }), box(900, ''),
+    bold('A drawing of our hills:'), box(1600, ''),
+    bold('How I use my book:'),
+    check('I can draw'), check('I can make marks'), check('I can use a few words'), check('No one marks my book right or wrong'),
+  ],
+  'cb-rp-researcher-growth-path': () => [
+    P('A researcher grows from guessing to finding out. Put a mark where you are — at the start, and again at the end.', { size: 22 }),
+    example(['guess  —  ask  —  check  —  FIND OUT', '                        ○  (near the start)']),
+    bold('At the START of our course:', { before: 100 }),
+    P('guess  —  ask  —  check  —  find out', { size: 24, color: NAVY }), box(500, 'put a ○ where you are'),
+    bold('At the END of our course:', { before: 140 }),
+    P('guess  —  ask  —  check  —  find out', { size: 24, color: NAVY }), box(500, 'put a ✓ where you are now'),
+  ],
+  'cb-rp-what-we-know-page': () => [
+    example(['We know:  the hills were full of trees before.', 'We want to find out:  why the soil slides now.']),
+    zones(['What we KNOW about our hills', 'What we WANT to find out'], 2600),
+    stem('We know'), stem('We want to find out'), scribe(),
+  ],
+  'cb-rp-our-community-map': () => [
+    P('Draw a map of who and what is near our hills.', { size: 22 }),
+    example(['(a hut)  (an elder)  (a bare slope)  (someone planting)']),
+    box(2800, 'our map — draw here'),
+    bold('Try to show on your map:'),
+    check('Someone who remembers the forest'), check('A place that floods or slides'),
+    check('Someone who plants — or an agency helping'), check('A bare place, and a green place'),
+  ],
+  'cb-rp-our-question-page': () => [
+    bold('OUR QUESTION:', { color: PLUM }),
+    P('What happens to our hills without trees, and what changes when trees and plants grow back?', { size: 22, color: NAVY, after: 140 }),
+    bold('Our four sub-questions — for each, circle how we will find out:'),
+    ...['1.  Before, and now — what changed?', '2.  A bare hill in the rain and the hot sun', '3.  What trees, grass, and roots do for the soil and for us', '4.  What people are doing to help — and is it working?']
+      .flatMap((sq) => [P(sq, { size: 22, before: 60 }), choices('We will:', ['ask & look', 'source pack', 'both'])]),
+  ],
+  'cb-rp-asking-permission': () => [
+    bold('Our asking words — say them every time:'),
+    example(['"May I ask you some questions?"', '"Thank you for helping me."']),
+    slot('Our asking words, in our own language (draw or write):', 900),
+    bold('The rules — keep them every time:', { before: 80 }),
+    check('Ask first'), check('Say why I am asking'), check('They can say no, or stop'), check('No names'), check('Keep everyone safe'),
+  ],
+  'cb-rp-our-questions-sheet': () => [
+    example(['Sub-question 1  →  I will ask: "What were the hills like before?"', 'Who I will ask:  an elder.']),
+    bold('For each sub-question, one question to ask, and who to ask:'),
+    ...[1, 2, 3, 4].flatMap((n) => [bold(`Sub-question ${n}:`, { before: 60 }), stem('My question'), stem('Who I will ask')]),
+  ],
+  'cb-rp-can-we-trust-it': () => [
+    example(['Source:  the company website.', 'Who & why?  a company — it sells trees.', 'How do they know?  no proof shown.', 'Does it agree?  only a little  →  trust LESS.']),
+    bold('For each source, make the three checks:'),
+    stem('Who made it, and why?'),
+    stem('How do they know — is it still true?'),
+    stem('Does it agree with the other sources, and with what WE found?'),
+    bold('How much can we trust it?', { before: 80 }), choices('', ['a lot', 'some', 'a little']),
+  ],
+  'cb-rp-our-themes': () => [
+    example(['Theme:  "the bare hills are hotter."   ( MANY people said this )']),
+    bold('Group what we found into themes. Name each, and how many said it:'),
+    ...[1, 2, 3].flatMap((n) => [bold(`Theme ${n}:`, { before: 60 }), stem('What keeps coming up'), choices('How many said it?', ['few', 'some', 'many'])]),
+  ],
+  'cb-rp-our-root-cause': () => [
+    example(['The problem:  the soil slides when it rains.', '→ Why?  the hills are bare.', '→ Why?  the trees were cut.', '→ Why?  families needed wood.', '→ Why?  there was no other fuel.', 'ROOT CAUSE:  no other fuel, and many people arrived fast.']),
+    stem('The problem'),
+    stem('→ Why?'), stem('→ Why?'), stem('→ Why?'), stem('→ Why?'), stem('→ Why?'),
+    bold('The ROOT CAUSE (the reason we cannot easily push past):', { before: 60 }), box(800, ''),
+    choices('Does our evidence support it?', ['yes', 'not sure']),
+  ],
+  'cb-rp-looking-deeper-page': () => [
+    example(['Power:  agencies, families, the monsoon.', 'Beliefs:  "the trees are not ours to plant."', 'Hurt:  families on bare slopes.   Helped:  everyone, if it works.']),
+    zones(['Who or what has POWER?', 'What do people BELIEVE?', 'Who is HELPED / HURT?'], 2200),
+    stem('One thing looking deeper shows me'), scribe(),
+  ],
+  'cb-rp-our-insights': () => [
+    example(['Many people said the bare hills are hotter,', 'so I think shade matters,', 'because we felt it is cooler under a tree.']),
+    bold('Write our insights. Use the frame, and point to our evidence:'),
+    ...[1, 2].flatMap((n) => [bold(`Insight ${n}:`, { before: 60 }), stem('Many people said / I saw'), stem('so I think'), stem('because (our evidence)')]),
+  ],
+  'cb-rp-our-plan': () => [
+    example(['Who:  our families.', 'How:  a poster with pictures.', 'One thing:  trees keep our hills safe.']),
+    choices('Who most needs to hear this?', ['friends', 'families', 'community', 'camp leaders']),
+    choices('How will we show it?', ['poster', 'talk with pictures', 'role-play', 'story']),
+    stem('The ONE thing we want them to understand'),
+  ],
+  'cb-rp-build-our-output-sheet': () => [
+    example(['Main message:  trees keep our hills safe.', 'Evidence:  elders remember; we saw bare hills slide; the science agrees.', 'Honest limit:  we only asked a few people.']),
+    stem('Our main message (one thing)'),
+    bold('Our evidence for it:'), stem('•'), stem('•'), stem('•'),
+    stem('An honest limit (we only ___)'),
+    bold('Before we share:', { before: 60 }), check('We practised saying it'), check('We can answer questions about it'),
+  ],
+  'cb-rp-how-i-have-grown': () => [
+    example(['My question was about our hills and trees.', 'I got to:  FIND OUT (I started by guessing).', 'What helped:  asking elders, and looking myself.', 'I would do differently:  ask more people.']),
+    stem('My question was about'),
+    bold('I got to here as a researcher — put a ✓ on the path:'),
+    P('guess  —  ask  —  check  —  find out', { size: 24, color: NAVY }), box(500, '✓'),
+    stem('What helped me'),
+    stem('One way I have grown'),
+    stem('What I would do differently next time'),
+    stem('One thing I still want to find out'), scribe(),
+  ],
+};
+
+// ============================================================ STUDENT WORKBOOK
+// The student workbook IS the research book: the source cards to read, a repeating weekly pursuit
+// spread for between-session work, then one SCAFFOLDED page per activity (worked example + frames/
+// stems/slots to fill in place), in course order. Compiled from the unit + cb-rp materials.
+// opts.embedded drops the standalone cover and colophon so the programme-wide student workbook
+// (generate-lb-guides.js) can carry these pages behind its own single cover.
+function workbookChildren(opts = {}) {
+  const c = [];
+  if (!opts.embedded) {
+    c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 52, color: NAVY })], spacing: { after: 40 } }));
+    c.push(P('Student Workbook — Our Research Book', { size: 30, bold: true, color: PLUM, after: 40 }));
+    c.push(P("The trees on our hills  ·  Learning Bridge+ (Cox's Bazar)", { size: 22, color: GREY, after: 200 }));
+  }
+  c.push(P('This is your research book. It has the sources we read, a page for each week of our research, and a page for each step of our investigation. Every page shows an example first, then a place for you to add your own. You can draw, make marks, or use a few words — no neat writing needed.', { size: 22 }));
+  c.push(scribe());
 
   // The source pack, as learners read it (graded readings + word bank; no full originals)
   const pack = mat['cb-rp-secondary-source-pack'];
@@ -284,8 +496,13 @@ function workbookChildren() {
     c.push(...mdBlocks(pack.learnerContent));
   }
 
-  // One research-book page per activity worksheet, in unit (course) order.
-  const gridSlugs = new Set(['cb-rp-source-pack-evidence-log', 'cb-rp-gathering-record']);
+  // My research weeks — the between-session pursuit loop, scaffolded and printed several times.
+  c.push(pageBreak());
+  c.push(H1('My research weeks'));
+  c.push(P('Between our meetings, I do one small step of our research. Each week, I fill one of these. The first one is done as an example.', { size: 22 }));
+  for (let w = 1; w <= 6; w++) c.push(...weeklySpread(w, w === 1));
+
+  // One SCAFFOLDED page per activity worksheet, in unit (course) order.
   unit.phases.forEach((ph) => {
     ph.blocks.forEach((b) => {
       const m = b.materialSlug ? mat[b.materialSlug] : null;
@@ -293,20 +510,29 @@ function workbookChildren() {
       const ws = mat[m.worksheet.slug];
       if (!ws) return;
       c.push(pageBreak());
-      c.push(new Paragraph({ children: [new TextRun({ text: ('Research book · ' + m.title).toUpperCase(), bold: true, size: 15, color: PLUM })], spacing: { after: 40 } }));
-      c.push(new Paragraph({ children: [new TextRun({ text: ws.title, bold: true, size: 30, color: NAVY })], spacing: { after: 120 } }));
-      if (ws.learnerContent) c.push(...mdBlocks(ws.learnerContent));
-      if (gridSlugs.has(ws.slug)) {
-        c.push(P('Fill one space for each source or person.', { size: 20, color: GREY, before: 80 }));
-        c.push(evidenceGrid(6));
+      c.push(eyebrow('Research book · ' + m.title));
+      c.push(title(ws.title));
+      if (ws.slug === 'cb-rp-source-pack-evidence-log') {
+        c.push(P('For each source, write or draw what it tells us — the first row is done as an example.', { size: 20, color: GREY, after: 60 }));
+        c.push(grid(['Which source', 'What it tells us', 'New words I met', 'Can I trust it?'], [1700, 4600, 2200, 2300],
+          ['Source B (FAO)', 'workers plant trees to hold the soil', 'crib wall, monsoon', 'a lot — UN, with numbers'], 6));
+      } else if (ws.slug === 'cb-rp-gathering-record') {
+        c.push(P('For each person or place, write or draw what you found — no names. The first row is an example.', { size: 20, color: GREY, after: 60 }));
+        c.push(grid(['Who or place (no names)', 'What I found', 'One thing that surprised me'], [3200, 4400, 3200],
+          ['an elder', 'the hills had big trees and shade before', 'how fast the trees went'], 7));
+      } else if (SCAFFOLD[ws.slug]) {
+        c.push(...SCAFFOLD[ws.slug]());
       } else {
-        c.push(box(3200, 'My drawing, marks, and words'));
+        if (ws.learnerContent) c.push(...mdBlocks(ws.learnerContent));
+        c.push(box(2600, 'draw, mark, or write here'));
       }
     });
   });
 
-  c.push(pageBreak());
-  c.push(P("Cox's Bazar edition · Research Project component of Learning Bridge+ · not for redistribution outside the programme.", { size: 18, color: GREY }));
+  if (!opts.embedded) {
+    c.push(pageBreak());
+    c.push(P("Cox's Bazar edition · Research Project component of Learning Bridge+ · not for redistribution outside the programme.", { size: 18, color: GREY }));
+  }
   return c;
 }
 
