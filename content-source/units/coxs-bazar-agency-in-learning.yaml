@@ -21,15 +21,18 @@ summary: >-
 totalFacilitatedHours: 30
 totalIndependentHours: 20
 deliveryApproach: >-
-  This unit hands over ownership as it goes, but the scaffolding stays high the whole way through: you
-  are always supporting, never leaving learners to sink. Early on you lead, with directed, structured
-  activities in a safe space. In the middle it is shared: learners choose and shape their own goals while
-  you guide closely, and the workbook, the sheets and the check-ins hold every step. Later the learners
-  lead: they own and pursue their own goals, but the structure never withdraws, the workbook carries each
-  independent task, every session opens with a warm check-in, and you coach, prompt and steady them.
-  Releasing control means shifting from directing to coaching, not removing support. Do it gradually.
-  Some learners need heavy structure for the whole course, and that is fine. Autonomy is offered, never
-  imposed: if a learner flounders, add support, not less, and never withdraw help as a test.
+  The scaffolding stays high the whole way through — what changes is whose goal it is, not how much
+  support there is. You are always supporting, never leaving learners to sink, and the workbook (My
+  Learning Book) is the constant scaffold: every page carries an example and a frame, so a learner can
+  keep going even when you are helping someone else or a session was missed. Early on you lead, with
+  directed, structured activities in a safe space. In the middle it is shared: learners choose and shape
+  their own goals while you guide closely, and the workbook, the sheets and the check-ins hold every
+  step. Later the learners lead the goal — they own and pursue a goal of their own — but the support does
+  not drop: the workbook still carries each task, every session opens with a warm check-in, and you
+  coach, prompt and steady them. Shifting ownership is not withdrawing help. If a learner flounders, add
+  support, not less, and never withdraw help as a test. Some learners need heavy structure for the whole
+  course, and that is exactly right for them — the aim is a well-supported learner directing a goal of
+  their own, not a learner left to manage alone.
 assessmentNote: >-
   On Learning Bridge+, a learner's proficiency in the anchor competency, setting and pursuing goals
   (FSL2), is judged by the educator against Amala's proficiency scale at two points: midway (formative)
@@ -169,8 +172,10 @@ phases:
         independentHours: 3
         description: >-
           The heart of independent learning. Between sessions, learners take real steps towards their
-          goal and make one small mark or drawing in their learning book each time. Open each session
-          with a short, warm check-in in same-gender pairs or the group: what step did you take, what
+          goal and fill a row on the My weekly steps pages in their workbook each week — the step they
+          will take, whether it happened, and what got in the way — using their if–then when a week is
+          hard. Open each session with a short, warm check-in in same-gender pairs or the group: what
+          step did you take, what
           happened, what is next? A step taken, however small, is celebrated. This block is where the
           20 independent hours mostly live, so protect it and keep the check-ins going. When a step does
           not work, or something changes, that is normal, not a failure: help learners choose a smaller
@@ -200,8 +205,8 @@ phases:
         facilitatedHours: 1
         independentHours: 2.5
         description: >-
-          Learners keep pursuing their goal and marking their book, now using the feedback they gathered
-          and adjusting their steps when something is not working. Keep the short warm check-ins that
+          Learners keep pursuing their goal and filling the My weekly steps pages, now using the feedback
+          they gathered and adjusting their steps when something is not working. Keep the short warm check-ins that
           open each session. By the end of this block most learners have taken real, tracked steps
           towards a goal they set themselves, which is the evidence of self-directed learning. In the
           camps, plans get disrupted by fires, illness, or a week kept indoors; treat adapting the plan

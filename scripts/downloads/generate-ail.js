@@ -18,7 +18,7 @@ const S = require('./lib/docx-style');
 const {
   NAVY, PLUM, GREY, OLIVE,
   toParas, P, body, bullet, label, H1, H2, H3, eyebrow, hr, pageBreak,
-  box, gridBoxes, refTable, makeDoc, Paragraph, TextRun, AlignmentType,
+  box, gridBoxes, refTable, callout, makeDoc, Paragraph, TextRun, AlignmentType,
   LOGO, image, iconLine, imgRun, icon,
 } = S;
 
@@ -43,9 +43,9 @@ const objStatement = (oid) => {
   return o ? o.statement.trim() : null;
 };
 const LEAD = {
-  'facilitator-led': 'You lead (directed, safe)',
-  shared: 'Shared (learners choose, you guide closely)',
-  'learner-led': 'Learners lead (you coach and steady)',
+  'facilitator-led': 'You lead — directed and safe (scaffolding stays high)',
+  shared: 'Shared — learners choose, you scaffold closely (scaffolding stays high)',
+  'learner-led': 'Learners lead the goal — support stays high (you coach, prompt, steady)',
 };
 const KIND = { activity: 'Activity', practice: 'Practice', orientation: 'Orientation', consolidation: 'Consolidation', assessment: 'Assessment' };
 const ADAPT = { group: 'With a group', 'one-to-one-mentoring': 'In 1:1 mentoring', independent: 'If a learner works alone' };
@@ -159,7 +159,46 @@ const fillLine = (lead) => new Paragraph({
 });
 const tickLine = (t) => new Paragraph({ children: [new TextRun({ text: '☐    ' + t, size: 22 })], spacing: { after: 100 } });
 
-function workbookChildren() {
+// --- Scaffolding helpers: turn a blank "capture" page into a supported one. ---
+// A worked example the learner can look at when no adult is beside them. Persists in the book.
+const example = (lines) => callout('Example  ·  you can do yours your own way', Array.isArray(lines) ? lines : [lines], OLIVE);
+// One row of a decision-aid checklist: a tick box, an icon, and the test in plain words.
+const checkItem = (iconName, t) => new Paragraph({
+  children: [new TextRun({ text: '☐   ', size: 26 }), imgRun(icon(iconName), 24, 24), new TextRun({ text: '    ' + t, size: 22 })],
+  spacing: { before: 120, after: 40 },
+});
+// An if–then (WOOP) frame: name the usual obstacle, and the smaller thing you will still do.
+const ifThenFrame = () => [
+  new Paragraph({ children: [new TextRun({ text: 'If this gets in the way…', bold: true, size: 22, color: PLUM })], spacing: { before: 120, after: 40 } }),
+  box(1000, 'draw the thing that usually stops you'),
+  new Paragraph({ children: [new TextRun({ text: '→   then I will still do this…', bold: true, size: 22, color: OLIVE })], spacing: { before: 80, after: 40 } }),
+  box(1000, 'draw the smaller step you will still take'),
+];
+// A repeating weekly loop — the scaffold for the between-session pursuit. One row per week:
+// the step, whether it happened, and what got in the way. This replaces the blank sticker grid.
+const weeklySpread = (weeks) => {
+  const W = [900, 3900, 1500, 4500];
+  const headCell = (t, i) => new TableCell({
+    width: { size: W[i], type: WidthType.DXA }, shading: { fill: 'F0ECE3' },
+    margins: { top: 60, bottom: 60, left: 120, right: 120 },
+    children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 18, color: NAVY })] })],
+  });
+  const rows = [new TableRow({ tableHeader: true, children: ['Week', 'This week I will (my step)', 'Did I?', 'What happened / what got in the way'].map(headCell) })];
+  for (let i = 1; i <= weeks; i++) {
+    rows.push(new TableRow({ height: { value: 1100, rule: 'atLeast' }, cantSplit: true, children: [
+      new TableCell({ width: { size: W[0], type: WidthType.DXA }, margins: { top: 80, left: 120 }, children: [new Paragraph({ children: [new TextRun({ text: String(i), bold: true, size: 24, color: PLUM })] })] }),
+      new TableCell({ width: { size: W[1], type: WidthType.DXA }, children: [new Paragraph('')] }),
+      new TableCell({ width: { size: W[2], type: WidthType.DXA }, margins: { top: 80, left: 120 }, children: [new Paragraph({ children: [new TextRun({ text: '☐ yes', size: 18 })] }), new Paragraph({ children: [new TextRun({ text: '☐ not yet', size: 18 })] })] }),
+      new TableCell({ width: { size: W[3], type: WidthType.DXA }, children: [new Paragraph('')] }),
+    ] }));
+  }
+  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: W, rows });
+};
+
+// opts.embedded drops the cover page, so the programme-wide student workbook (generate-lb-guides.js)
+// can carry these pages behind its own single cover instead of a fourth one. The standalone
+// download passes nothing and is unchanged.
+function workbookChildren(opts = {}) {
   const c = [];
   const page = (phase, title, heading, instr) => {
     c.push(eyebrowPair(phase, title));
@@ -167,13 +206,16 @@ function workbookChildren() {
   };
 
   // --- Cover ---
-  c.push(image(LOGO, 150, 77, { align: AlignmentType.CENTER, before: 300, after: 200 }));
-  c.push(new Paragraph({ children: [new TextRun({ text: 'My Learning Book', bold: true, size: 60, color: NAVY })], alignment: AlignmentType.CENTER, spacing: { before: 200, after: 120 } }));
-  c.push(new Paragraph({ children: [new TextRun({ text: 'Agency in Learning', size: 28, color: PLUM })], alignment: AlignmentType.CENTER, spacing: { after: 500 } }));
-  c.push(fillLine('My name:'));
-  c.push(fillLine('My place:'));
-  c.push(P('You do not have to write. You can draw, colour, and say your answers.', { size: 22, color: GREY, before: 300 }));
-  c.push(pageBreak());
+  if (!opts.embedded) {
+    c.push(image(LOGO, 150, 77, { align: AlignmentType.CENTER, before: 300, after: 200 }));
+    c.push(new Paragraph({ children: [new TextRun({ text: 'My Learning Book', bold: true, size: 60, color: NAVY })], alignment: AlignmentType.CENTER, spacing: { before: 200, after: 120 } }));
+    c.push(new Paragraph({ children: [new TextRun({ text: 'Agency in Learning', size: 28, color: PLUM })], alignment: AlignmentType.CENTER, spacing: { after: 500 } }));
+    c.push(fillLine('My name:'));
+    c.push(fillLine('My place:'));
+    c.push(P('You do not have to write. You can draw, colour, and say your answers — ask, and someone will write them for you.', { size: 22, color: GREY, before: 300 }));
+    c.push(P('This book is yours. Each page shows you an example and what to do, so you can keep going even between sessions.', { size: 22, color: GREY, before: 120 }));
+    c.push(pageBreak());
+  }
 
   // --- Getting started ---
   page('Getting started', 'What we will learn', 'Our four learning steps', 'Draw or mark how you would try each one.');
@@ -205,12 +247,14 @@ function workbookChildren() {
 
   // --- Understand yourself ---
   page('Understand yourself', 'You can grow', 'You can grow', 'Draw a time you got better at something that was hard at first.');
-  c.push(box(3600, 'draw here'));
+  c.push(example(['A learner could not read the letters. She practised a little each day and asked a friend to help.', 'Now she can read short words. What helped: practising, and asking for help.']));
+  c.push(box(3400, 'draw here'));
   c.push(fillLine('I got better at:'));
   c.push(fillLine('What helped me:'));
   c.push(pageBreak());
 
   page('Understand yourself', 'What I am good at', 'What I am good at', 'Draw or mark what you are good at as a learner.');
+  c.push(example(['Good at: remembering stories · helping younger children · fixing things with my hands.', 'Want to grow: speaking in front of others · writing my letters.']));
   c.push(P('I am good at…', { size: 22, bold: true, color: PLUM, before: 80 }));
   c.push(box(2600));
   c.push(P('What I want to grow', { size: 22, bold: true, color: PLUM, before: 200 }));
@@ -239,10 +283,20 @@ function workbookChildren() {
   c.push(pageBreak());
 
   // --- Set your goal ---
+  page('Set your goal', 'Is my goal a good goal?', 'Is my goal a good goal?', 'A good goal passes these four tests. Check your goal against each one. Keep this page — use it every time you set a goal.');
+  c.push(checkItem('target', 'Small  —  I can reach it soon, not in a far-off future.'));
+  c.push(checkItem('mirror', 'Clear  —  I can tell when I have reached it.'));
+  c.push(checkItem('plant', 'It matters  —  to me, and maybe to people I care about.'));
+  c.push(checkItem('sun', 'By-when  —  I have picked a day to reach it by.'));
+  c.push(P('If a test does not pass, change your goal a little until it does.', { size: 20, color: GREY, before: 160 }));
+  c.push(pageBreak());
+
   page('Set your goal', 'My goal', 'My goal', 'Draw the thing you want to be able to do.');
-  c.push(box(3800, 'draw your goal here'));
+  c.push(example(['I want to be able to read a short story out loud.', 'It matters because I want to read to my little sister.']));
+  c.push(box(3400, 'draw your goal here'));
   c.push(fillLine('I want to be able to:'));
   c.push(fillLine('It matters to me because:'));
+  c.push(fillLine('It could help (someone I care about):'));
   c.push(pageBreak());
 
   page('Set your goal', 'My steps', 'My steps', 'Draw your steps. Colour the first step you can reach.');
@@ -265,40 +319,60 @@ function workbookChildren() {
     c.push(fillLine('What I need:'));
   });
   c.push(fillLine('My first step this week:'));
+  c.push(P('My if–then — for when something gets in the way', { size: 22, bold: true, color: NAVY, before: 220 }));
+  c.push(...ifThenFrame());
   c.push(P('There is an Action Plan sheet you can use again for other goals.', { size: 20, color: GREY, before: 120 }));
   c.push(pageBreak());
 
-  page('Plan and take steps', 'My time', 'My time', 'Mark when you will work on your goal.');
+  page('Plan and take steps', 'My time', 'My time', 'Mark when you will work on your goal, and protect one small slot you can really keep.');
   c.push(P('Days:  Sat · Sun · Mon · Tue · Wed · Thu · Fri', { size: 22, before: 80 }));
-  c.push(box(3000, 'Draw or mark the times you will work on your goal'));
+  c.push(box(2800, 'Draw or mark the times you will work on your goal'));
+  c.push(fillLine('My one small slot I will protect:'));
   c.push(fillLine('The most important thing I will do first:'));
+  c.push(fillLine('If my week gets hard, the smaller thing I will still do:'));
   c.push(pageBreak());
 
-  page('Plan and take steps', 'Who and what can help me', 'Who and what can help me', 'Draw the people and things that can help you reach your goal.');
-  c.push(box(4200, 'draw here'));
-  c.push(fillLine('I will ask:'));
+  page('Plan and take steps', 'Who and what can help me', 'Who and what can help me', 'Draw the people and things that can help you reach your goal. Asking for help is not weakness — no one reaches a goal alone.');
+  c.push(box(3800, 'draw here'));
+  c.push(fillLine('The person I will ask:'));
+  c.push(fillLine('What I will ask them for:'));
   c.push(pageBreak());
 
-  page('Plan and take steps', 'My progress', 'My progress', 'Make one small mark or drawing each time you take a step towards your goal.');
-  c.push(gridBoxes(4, 5, 1200, 'one small drawing or mark each time'));
+  page('Plan and take steps', 'My weekly steps', 'My weekly steps', 'Each week, one small step towards your goal. Fill one row every week you work on it.');
+  c.push(P('Remember your if–then: if the week gets hard, do the smaller step — do not stop.', { size: 20, color: OLIVE, bold: true, after: 140 }));
+  c.push(weeklySpread(6));
+  c.push(P('Every time you take a step, make one small mark or drawing here:', { size: 20, color: GREY, before: 220 }));
+  c.push(gridBoxes(6, 2, 700, ''));
   c.push(pageBreak());
 
   // --- Track and reflect ---
-  page('Track and reflect', 'Feedback I got', 'Feedback I got', 'Draw or write one thing someone said you could do better.');
-  c.push(box(3600, 'draw or write here'));
-  c.push(fillLine('One thing I will try:'));
+  page('Track and reflect', 'Feedback I got', 'Feedback I got', 'Ask one person: "what is one thing I could do better?" Listen, then decide what to do with it.');
+  c.push(fillLine('Who I asked:'));
+  c.push(P('What they said — draw or write it here:', { size: 22, bold: true, color: PLUM, before: 140 }));
+  c.push(box(2200, 'draw or write here'));
+  c.push(P('What will I do with it? Mark one:', { size: 22, bold: true, color: NAVY, before: 180 }));
+  c.push(tickLine('Keep it  —  I will try this now.'));
+  c.push(tickLine('Hold it  —  useful later, not now.'));
+  c.push(tickLine('Leave it  —  not for me.'));
+  c.push(fillLine('The one thing I will try:'));
   c.push(pageBreak());
 
-  page('Track and reflect', 'How I have grown', 'How I have grown', 'Draw yourself before, and now.');
+  page('Track and reflect', 'How I have grown', 'How I have grown', 'Look back through your book. Draw yourself before, and now, then say how far you came.');
   c.push(P('Before', { size: 22, bold: true, color: PLUM, before: 80 }));
-  c.push(box(2600, 'draw here'));
-  c.push(P('Now', { size: 22, bold: true, color: PLUM, before: 200 }));
-  c.push(box(2600, 'draw here'));
-  c.push(fillLine('Now I can:'));
+  c.push(box(2000, 'draw here'));
+  c.push(P('Now', { size: 22, bold: true, color: PLUM, before: 160 }));
+  c.push(box(2000, 'draw here'));
+  c.push(fillLine('My goal was:'));
+  c.push(fillLine('How far I got:'));
+  c.push(fillLine('What helped me:'));
+  c.push(fillLine('What I would do differently next time:'));
   c.push(pageBreak());
 
   page('Track and reflect', 'My next goal', 'My next goal', 'Draw one goal you will keep working on after this course.');
-  c.push(box(4000, 'draw here'));
+  c.push(P('If your goal was hard to reach, your next goal can be a smaller step of it. That is not failing — that is how goals work.', { size: 20, color: OLIVE, before: 40, after: 140 }));
+  c.push(box(3400, 'draw here'));
+  c.push(fillLine('My next goal:'));
+  c.push(fillLine('My first small step:'));
   c.push(tickLine('I shared one way I have grown with my group.'));
   return c;
 }
