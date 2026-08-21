@@ -28,13 +28,17 @@ totalIndependentHours: 20
 deliveryApproach: >-
   This unit is built for learners who may never have read or written in any language, so it leads with
   the ear and the voice and treats reading and writing as something that grows out of speaking, not a
-  gate in front of it. Early on you lead: a warm, talking-out-loud space, listening games, and everyone
-  starting from the sound of their own name. In the middle it is shared: learners gather their own
-  words and the simple frames to say who they are, and practise them aloud in same-gender pairs, with
-  recognition and tracing coming before free writing. Later the learners lead: they choose what
-  represents them, make their "My Name, My Voice" card, and share it. Release control gradually and
-  never withdraw support as a test — some learners will speak long before they write, and that is
-  success, not falling short. Because identity, home, and family can touch displacement and loss,
+  gate in front of it. The scaffold stays high the whole way through; what changes is ownership, not the
+  amount of support. Early on the model is yours to give: a warm, talking-out-loud space, listening
+  games, and everyone starting from the sound of their own name, with a worked example on every workbook
+  page. In the middle the words become the learner's own — they gather their own picture-words and fill
+  the same sentence frames to say who they are, and practise them aloud in same-gender pairs, with
+  recognition and tracing coming before free writing. Later the learner owns the whole piece — they
+  choose what represents them, make their "My Name, My Voice" card, and share it — but the frames, the
+  worked examples, and the My Voice book are beside them at every step, and the support never withdraws.
+  Never withdraw support as a test: some learners will speak long before they write, and that is success,
+  not falling short. The workbook is built to hold the scaffold when you step back or a session is
+  missed: every page shows a worked example and gives a frame or stem, not a blank box. Because identity, home, and family can touch displacement and loss,
   every activity lets a learner choose what to share, offers a lighter everyday focus, and never
   requires anything personal. Translanguaging is welcomed throughout: bridges to Rohingya, Chittagonian,
   Burmese, and Arabic are how these learners will move fastest. Two habits run under everything. First,
@@ -195,17 +199,19 @@ phases:
         facilitatedHours: 1
         independentHours: 2
         description: >-
-          Speaking practice, where fluency and confidence grow. Between sessions, learners use their
-          greeting and their simple sentences with real people — a neighbour, a family member, someone
-          at the learning facility. This is where "practice everywhere" becomes concrete: point learners
-          to the rest of the programme as places to use English — greet the group and your mentor in
-          English at the start of Agency in Learning and mentoring sessions, say one thing about yourself,
-          and use the "Practice everywhere" page and practice log in the My Voice book to plan who to
-          speak to and to mark each time. Open each session with a short, warm check-in in same-gender
-          pairs: who did you speak English with, what did you say, what happened? A sentence tried,
-          however small, is celebrated. This block carries a large share of the independent hours, so
-          protect it and keep the check-ins going. When someone is too shy to speak outside, practising
-          with one trusted person, or with a partner in the room, counts fully.
+          The between-session engine, where fluency and confidence grow — and it runs on the "My practice
+          weeks" spread in the My Voice book, a scaffolded weekly loop the learner can use without you
+          beside them. Each week the loop asks the learner to choose who they will speak English with and
+          what they will say (from the frames they already know), do it, then record what happened, what
+          got in the way, and what they will try next; a worked-example week shows them how, and a
+          simple if-then ("if I feel shy, I will…") is built in. Set one small, achievable spoken mission
+          at the end of each session to match. Point learners to the rest of the programme as places to
+          use English: greet the group and your mentor in English at the start of Agency in Learning and
+          mentoring sessions, and say one thing about yourself. Open each session with the loop, in
+          same-gender pairs: who did you speak English with, what happened, what got in the way, what is
+          next? A sentence tried, however small, is celebrated. This block carries a large share of the
+          independent hours, so protect it and keep the weekly loop going. When someone is too shy to
+          speak outside, practising with one trusted person, or with a partner in the room, counts fully.
         independentTask: "Keep using your English greeting and sentences with people you meet, and notice what gets easier."
       - title: "Writing a little about myself"
         kind: activity
@@ -236,15 +242,19 @@ phases:
         facilitatedHours: 2
         independentHours: 1.5
         description: >-
-          Close the course. Learners rehearse their introduction in same-gender pairs first, which makes
-          the sharing far less frightening, then present their card to a warm audience — a small group or
-          the class, with applause, no correction during sharing, and one kind response from listeners.
-          No one is ever forced to share, and presenting to just a partner or mentor still counts. Then
-          learners look back: they revisit the "I can…" self-check they marked at the start, mark where
-          they are now, and name one way they have grown, and each sets one English thing to keep working
-          on. On Learning Bridge+, this is the point to gather the evidence of each learner's English
-          progress and self-awareness (FUS1) — from the My Voice book, the spoken introduction, the card,
-          and the self-check — to inform the formative judgement and the support each learner needs next.
+          Close the course. Learners rehearse their introduction using the "My spoken introduction"
+          scaffold in the My Voice book — a ticked checklist of what to say (hello, my name is, I am from,
+          I like, thank you) with a worked example — in same-gender pairs first, which makes the sharing
+          far less frightening. Then they present their card to a warm audience — a small group or the
+          class, with applause, no correction during sharing, and one kind response from listeners. No
+          one is ever forced to share, and presenting to just a partner or mentor still counts. Then
+          learners look back with the structured "How my voice has grown" page: they revisit the "I can…"
+          self-check they marked at the start, mark where they are now, and complete the reflection stems
+          — at the start I could not ___, now I can ___, what helped me ___, what I want to keep learning
+          ___ — so the growth is named, not just felt. On Learning Bridge+, this is the point to gather
+          the evidence of each learner's English progress and self-awareness (FUS1) — from the My Voice
+          book, the spoken introduction, the card, and the structured reflection — to inform the formative
+          judgement and the support each learner needs next.
         independentTask: "Choose one way your English has grown to share, and one thing you want to keep learning after the course."
 downloads:
   - label: Facilitator Unit Plan & Guide
