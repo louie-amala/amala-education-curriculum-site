@@ -153,6 +153,9 @@ closing: |
   if you secretly think you cannot. The "not yet" and the step stay in the workbook, to be proved wrong
   over the weeks ahead. Independent task: tell one person at home about a time you got better at
   something that was hard, and what helped.
+worksheet:
+  slug: cb-ail-you-can-grow-page
+  note: "In the learner's book (My Learning Book): the 'You can grow' page. Print one per learner."
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

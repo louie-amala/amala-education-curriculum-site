@@ -124,6 +124,9 @@ closing: |
   holding up the page. Draw out how much the room has changed since the start. Say aloud that this look back, and
   the next goal it produced, go back into the workbook: growth is a cycle they now know how to run themselves.
   Independent task: before the next session, make one mark in your workbook about the next step you have chosen.
+worksheet:
+  slug: cb-ail-how-i-have-grown-page
+  note: "In the learner's book (My Learning Book): the 'How I have grown' page. Print one per learner."
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

@@ -132,6 +132,9 @@ closing: |
   way. This picture lives in the workbook next to their strengths: it is the honest self-portrait the
   goals and plans they set next will be built to fit. Independent task: over the next two days, notice
   when and where you focus best, and mark it on your workbook picture-clock.
+worksheet:
+  slug: cb-ail-how-i-learn-page
+  note: "In the learner's book (My Learning Book): the 'How I learn best' page. Print one per learner."
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

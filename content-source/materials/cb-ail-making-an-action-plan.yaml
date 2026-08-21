@@ -166,6 +166,9 @@ closing: |
   abandoned. Remind them the point is not a tidy picture but a first deliberate step actually taken
   before you next meet. Independent task: take your first small step, then mark in the workbook
   whether it happened and what got in the way.
+worksheet:
+  slug: cb-ail-action-plan-page
+  note: "In the learner's book (My Learning Book): the 'My action plan' page. Print one per learner."
 agencyContribution:
   indicators:
   - control-of-future-pathways

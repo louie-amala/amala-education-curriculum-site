@@ -165,7 +165,11 @@ function partDivider(c, number, title, blurb, outline) {
   if (outline) outline.push({ level: 0, text: `Part ${number} — ${title}` });
   c.push(pageBreak());
   c.push(P(`PART ${number}`, { size: 24, bold: true, color: OLIVE, before: 1800, after: 60 }));
-  c.push(new Paragraph({ children: [new TextRun({ text: title, bold: true, size: 44, color: NAVY })], spacing: { after: 120 } }));
+  c.push(new Paragraph({
+    heading: S.HeadingLevel.HEADING_1,
+    children: [new TextRun({ text: `Part ${number} — ${title}`, bold: true, size: 44, color: NAVY })],
+    spacing: { after: 120 },
+  }));
   c.push(P(blurb, { size: 23, color: GREY }));
 }
 
@@ -304,22 +308,32 @@ function phasesIntoOutline(unit, outline) {
 }
 
 function contentsPage(outline) {
-  const c = [pageBreak(), H1('Contents')];
-  c.push(P('Every page is numbered at the foot. The list below is the shape of the guide; in Word, the detailed contents underneath it fills in with page numbers when you open the file.', { size: 20, color: GREY, after: 160 }));
-  outline.forEach((e) => c.push(outlineLine(e)));
-  c.push(pageBreak());
-  c.push(H2('Detailed contents, with page numbers'));
-  c.push(P('This table fills itself in when the file is opened in Word. If it looks empty, right-click it and choose “Update field”.', { size: 19, italics: true, color: GREY }));
+  // deliberately NOT a heading: a contents page that lists itself is noise
+  const c = [pageBreak(), P('Contents', { size: 36, bold: true, color: NAVY, after: 140 })];
+  c.push(P('The shape of the guide, and then the contents with page numbers.', { size: 20, color: GREY, after: 160 }));
+  // The nine parts only. The detailed list follows with real page numbers, so repeating every
+  // section here just made the contents long enough that nobody would read either one.
+  outline.filter((e) => e.level === 0).forEach((e) => c.push(outlineLine(e)));
+  c.push(H2('Contents, with page numbers'));
+  c.push(P('This table fills itself in when the file is opened in Word. If it looks empty, right-click it and choose “Update field”.', { size: 19, color: GREY }));
   c.push(toc('1-2'));
   return c;
 }
 
 // ============================================================ EDUCATOR GUIDE
+// Build a component pack's children one outline level down, so its headings nest under the Part
+// that carries them instead of competing with it. `embedded: true` also drops each pack's own cover,
+// printing notes and contents page — three of those were landing inside the guide.
+function embed(build, shift = 1) {
+  S.setHeadingShift(shift);
+  try { return build(); } finally { S.setHeadingShift(0); }
+}
+
 function educatorGuide() {
   const c = [];
   const outline = [];
   // Push a numbered section heading and record it for the contents page.
-  const sec = (title) => { outline.push({ level: 1, text: title }); c.push(H1(title)); };
+  const sec = (title) => { outline.push({ level: 1, text: title }); c.push(H2(title)); };
   const part = (n, title, blurb) => partDivider(c, n, title, blurb, outline);
   titleBlock(c, 'Educator Guide', 'Facilitate, mentor, assess',
     'Everything you need to run the programme, in one document.');
@@ -480,17 +494,17 @@ function educatorGuide() {
   part(4, 'Agency in Learning', 'The full 50-hour plan — 30 hours in-person, 20 independent. Develops Set and Pursue Goals (FSL2), one of the two assessed competencies.');
   phasesIntoOutline(AIL.unit, outline);
   c.push(pageBreak());
-  c.push(...AIL.facilitatorPlanChildren());
+  c.push(...embed(() => AIL.facilitatorPlanChildren({ embedded: true })));
 
   part(5, 'English — My Voice', 'The full 50-hour plan — 30 hours in-person, 20 independent. Compulsory in this edition; assessed formatively against the A1 Can-Do outcomes. Read "How to teach this well" before you start.');
   phasesIntoOutline(MV.unit, outline);
   c.push(pageBreak());
-  c.push(...MV.facilitatorPlanChildren({ embedded: true }));
+  c.push(...embed(() => MV.facilitatorPlanChildren({ embedded: true })));
 
   part(6, 'Research Project', 'The full 50-hour plan — 30 hours in-person, 20 independent. Develops Investigate Real World Issues (FSI1), the second assessed competency. Includes the source pack and the full original articles for your reference.');
   phasesIntoOutline(RP.unit, outline);
   c.push(pageBreak());
-  c.push(...RP.facilitatorPlanChildren({ embedded: true }));
+  c.push(...embed(() => RP.facilitatorPlanChildren({ embedded: true })));
 
   // ---------------------------------------------------------------- PART 7: the learner books
   part(7, 'The learner books — print one per learner', 'Three books, one per component. Print each learner a copy before Week 1, or work from one held-up copy and learners’ own notebooks.');
@@ -498,31 +512,31 @@ function educatorGuide() {
   sec('7A  Agency in Learning — “My Learning Book”');
   c.push(P('One visual-first page per activity: the Learner Profile pages, the goal, the plan, and the growth pages. It is the learner’s record of the whole component, and it is where most of your Set and Pursue Goals evidence comes from.', { size: 22, color: GREY }));
   c.push(pageBreak());
-  c.push(...AIL.workbookChildren());
+  c.push(...embed(() => AIL.workbookChildren({ embedded: true }), 2));
 
   c.push(pageBreak());
   sec('7B  English — the “My Voice book”');
   c.push(P('One sheet per activity, in unit order: the name pages, the sound and word pages, the sentence frames, the My Name My Voice card, and the "I can…" sheet you mark at the start and again at the end.', { size: 22, color: GREY }));
   c.push(pageBreak());
-  c.push(...MV.workbookChildren());
+  c.push(...embed(() => MV.workbookChildren({ embedded: true }), 2));
 
   c.push(pageBreak());
   sec('7C  Research Project — “Our Research Book”');
   c.push(P('The source cards learners read (graded B1 and A1/A2 versions), the research word bank, and a page for each step of the investigation.', { size: 22, color: GREY }));
   c.push(pageBreak());
-  c.push(...RP.workbookChildren());
+  c.push(...embed(() => RP.workbookChildren({ embedded: true }), 2));
 
   // ---------------------------------------------------------------- PART 8: the cards
   part(8, 'Cards to print and cut out', 'One set per group. Print on the heaviest paper you have, cut along the lines, and keep each set together.');
   c.push(pageBreak());
   sec('8A  English — letter & picture cards');
   c.push(pageBreak());
-  c.push(...MV.cardsChildren());
+  c.push(...embed(() => MV.cardsChildren()));
 
   c.push(pageBreak());
   sec('8B  Research Project — picture-word cards');
   c.push(pageBreak());
-  c.push(...RP.cardsChildren());
+  c.push(...embed(() => RP.cardsChildren()));
 
   c.push(pageBreak());
   sec('8C  Agency in Learning — picture cards');
@@ -532,10 +546,10 @@ function educatorGuide() {
   part(9, 'Assessment records', 'Two records, one per assessed competency. Make one copy of each per learner, put their name on it, and fill it at Week 6 and again at Week 12.');
   c.push(pageBreak());
   sec('9A  Agency in Learning — Set and pursue goals (FSL2)');
-  c.push(...AIL.rubricChildren());
+  c.push(...embed(() => AIL.rubricChildren()));
   c.push(pageBreak());
   sec('9B  Research Project — Investigate real-world issues (FSI1)');
-  c.push(...RP.rubricChildren());
+  c.push(...embed(() => RP.rubricChildren()));
 
   c.push(pageBreak());
   c.push(P('This guide is the complete, fully offline, editable pack for Learning Bridge+ (Cox’s Bazar) educators. Levels, GPA values and generic descriptors are Amala’s official Competency Framework and Proficiency Scale (cohorts starting 2025). Reproduced articles in Part 6 are used with attribution under educational / non-commercial permission. Not for redistribution outside the programme.', { size: 18, color: GREY, before: 240 }));
@@ -746,15 +760,15 @@ function studentWorkbook() {
   // ---------------------------------------------------------------- PARTS 1-3: the component books
   learnerPartDivider(c, 1, BOOK_PARTS[0]);
   c.push(pageBreak());
-  c.push(...AIL.workbookChildren({ embedded: true }));
+  c.push(...embed(() => AIL.workbookChildren({ embedded: true })));
 
   learnerPartDivider(c, 2, BOOK_PARTS[1]);
   c.push(pageBreak());
-  c.push(...MV.workbookChildren({ embedded: true }));
+  c.push(...embed(() => MV.workbookChildren({ embedded: true })));
 
   learnerPartDivider(c, 3, BOOK_PARTS[2]);
   c.push(pageBreak());
-  c.push(...RP.workbookChildren({ embedded: true }));
+  c.push(...embed(() => RP.workbookChildren({ embedded: true })));
 
   // ---------------------------------------------------------------- PART 4: programme-level pages
   learnerPartDivider(c, 4, BOOK_PARTS[3]);

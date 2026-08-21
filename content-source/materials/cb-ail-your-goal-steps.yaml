@@ -120,6 +120,9 @@ closing: |
   small steps. Remind them that next session begins by asking how the first step went, and that a step
   taken, however small, is proof they can steer their own learning. Independent task: take your first
   step this week, and be ready to say what happened.
+worksheet:
+  slug: cb-ail-my-steps-page
+  note: "In the learner's book (My Learning Book): the 'My steps' page. Print one per learner."
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

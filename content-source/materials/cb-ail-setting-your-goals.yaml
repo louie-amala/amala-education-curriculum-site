@@ -104,6 +104,9 @@ closing: |
   Ask two or three learners to say their goal aloud. Confirm the goal lives in the workbook and is not
   fixed forever: it will be revisited and adjusted. A goal on the page is the start of directing your
   own learning. Independent task: tell one person at home your learning goal, and why it matters to you.
+worksheet:
+  slug: cb-ail-my-goal-page
+  note: "In the learner's book (My Learning Book): the 'My goal' page. Print one per learner."
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

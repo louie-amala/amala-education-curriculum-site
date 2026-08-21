@@ -270,13 +270,13 @@ const SUBQ = [
 const SCAFFOLD = {
   'cb-rp-my-first-thoughts': () => [
     example(['(a drawing of bare hills, brown mud)', 'I see:  bare hills.', 'I wonder:  will the trees come back?']),
-    bold('What I SEE on our hills — draw it:'), box(3600, ''),
+    bold('What I SEE on our hills — draw it:'), box(3600, 'Draw or write it here'),
     ...writeBox('I wonder', 1), ...writeBox('I wonder', 1), scribe(),
   ],
   'cb-rp-research-book-cover': () => [
     example(['My name / my mark', '(a small drawing of our hills)']),
     ...writeBox('My name, or my own mark:', 1),
-    bold('A drawing of our hills:'), box(6200, ''),
+    bold('A drawing of our hills:'), box(6200, 'Draw or write it here'),
     bold('How I use my book:'),
     check('I can draw'), check('I can make marks'), check('I can use a few words'), check('No one marks my book right or wrong'),
   ],
@@ -296,7 +296,7 @@ const SCAFFOLD = {
   'cb-rp-our-community-map': () => [
     P('Draw a map of who and what is near our hills.', { size: BOOK, line: 300 }),
     example(['(a hut)  (an elder)  (a bare slope)  (someone planting)']),
-    box(6400, 'our map — draw here'),
+    box(6400, 'Our map — draw or write here'),
     bold('Try to show on your map:'),
     check('Someone who remembers the forest'), check('A place that floods or slides'),
     check('Someone who plants — or an agency helping'), check('A bare place, and a green place'),
@@ -596,8 +596,8 @@ function workbookChildren(opts = {}) {
     if (t && (t.answers || []).length) withAnswers.push({ m, t });
   }));
   if (withAnswers.length) {
-    c.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, spacing: { after: 140 },
-      children: [new TextRun({ text: 'Answers — try it yourself', bold: true, size: 36, color: NAVY })] }));
+    c.push(pageBreak());
+    c.push(H1('Answers — try it yourself'));
     c.push(P('Do the "Try it yourself" on the Learn it page first, then look here. Getting one wrong is useful — go back and read that page again, and see why.', { size: BOOK, line: 300 }));
     withAnswers.forEach(({ m, t }) => {
       c.push(H2(m.learnerTeaching.title));

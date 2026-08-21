@@ -114,6 +114,9 @@ closing: |
   build on: goals go in it, small marks are made in it each time, and growth is looked back on from it. A kept
   book is how a learner watches their own learning move. Independent task: before the next session, make one
   small mark or drawing in your book about something you learned or did.
+worksheet:
+  slug: cb-ail-learning-book-cover
+  note: "In the learner's book (My Learning Book): the 'My Learning Book — the cover' page. Print one per learner."
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

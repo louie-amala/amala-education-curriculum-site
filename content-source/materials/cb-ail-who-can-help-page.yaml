@@ -1,0 +1,36 @@
+# Student worksheet (resource) for the activity cb-ail-finding-help-and-resources. Thin per §3: what the page is and how the
+# learner uses it. Ships no file of its own — its printable version compiles into the Agency in
+# Learning student workbook ("My Learning Book"). Learning Bridge+ (Cox's Bazar) edition.
+id: cb-ail-who-can-help-page
+slug: cb-ail-who-can-help-page
+access: partner
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Who and what can help me"
+summary: >-
+  The person the learner will ask, what they will ask for, and the if–then plan for when something gets in the way.
+facilitationContext:
+- group
+- independent
+primaryContext: independent
+learnerContent: |
+  ## Who and what can help me
+
+  This page is yours. You can draw, write, or say your answer — someone will write it for you if you
+  ask — and nobody marks it right or wrong.
+
+  - Say who you will ask, and what you will ask them for.
+  - Name the thing that usually stops you, and the smaller step you will still take.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Keeping their own record of what they decided, and why, is what lets a learner carry a goal
+    between sessions without an adult holding it for them.
+objectiveIds: [agency-in-learning--o3]
+relatedSlugs: [cb-ail-finding-help-and-resources]
+provenanceNote: >-
+  Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Agency in Learning edition,
+  paired to cb-ail-finding-help-and-resources. Thin by design; its printable version compiles into the component workbook rather
+  than shipping its own file. Added (August 2026) when the workbook was rebuilt to be driven by the
+  unit plan, so a page cannot go missing when the plan changes.

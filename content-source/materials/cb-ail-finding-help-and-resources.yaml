@@ -159,6 +159,9 @@ closing: |
   asking for help is a skill they will use for every goal ahead, not just this one, and that the map
   lives in their workbook to add to as they go. Independent task: make your one request, then mark in
   the workbook what happened and how it felt to ask.
+worksheet:
+  slug: cb-ail-who-can-help-page
+  note: "In the learner's book (My Learning Book): the 'Who and what can help me' page. Print one per learner."
 agencyContribution:
   indicators:
   - control-of-future-pathways

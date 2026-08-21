@@ -90,12 +90,23 @@ const label = (lab, text) => new Paragraph({
   children: [new TextRun({ text: lab + ' ', bold: true, size: GUIDE, color: PLUM }), new TextRun({ text: plain(text), size: GUIDE })],
   spacing: { after: 140, line: LEAD_GUIDE },
 });
+// ---- outline levels ----
+// A heading carries two separate things: how big it LOOKS, and how deep it sits in the document
+// outline (which is what a contents page is built from). Inside the one-stop Educator Guide the
+// component packs are nested one level down — a component's phase is a section of a Part, not a peer
+// of it — but it should still look the same as it does in the standalone download. So the shift moves
+// the outline level only; sizes never change.
+let HEADING_SHIFT = 0;
+const setHeadingShift = (n) => { HEADING_SHIFT = n || 0; };
+const OUTLINE = [HeadingLevel.HEADING_1, HeadingLevel.HEADING_2, HeadingLevel.HEADING_3, HeadingLevel.HEADING_4, HeadingLevel.HEADING_5];
+const lvl = (base) => OUTLINE[Math.min(base - 1 + HEADING_SHIFT, OUTLINE.length - 1)];
+
 // Headings: each step is >=20% larger than the one below, so the hierarchy survives greyscale.
-const H1 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { before: 320, after: 140 }, keepNext: true,
+const H1 = (t) => new Paragraph({ heading: lvl(1), spacing: { before: 320, after: 140 }, keepNext: true,
   children: [new TextRun({ text: plain(t), bold: true, size: 36, color: NAVY })] });
-const H2 = (t, br) => new Paragraph({ heading: HeadingLevel.HEADING_2, spacing: { before: 280, after: 100 }, keepNext: true, pageBreakBefore: !!br,
+const H2 = (t, br) => new Paragraph({ heading: lvl(2), spacing: { before: 280, after: 100 }, keepNext: true, pageBreakBefore: !!br,
   children: [new TextRun({ text: plain(t), bold: true, size: 28, color: PLUM })] });
-const H3 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_3, spacing: { before: 220, after: 80 }, keepNext: true,
+const H3 = (t) => new Paragraph({ heading: lvl(3), spacing: { before: 220, after: 80 }, keepNext: true,
   children: [new TextRun({ text: plain(t), bold: true, size: 24, color: NAVY })] });
 // A small labelled lead-in. Was bold + italic; now bold + letterspaced small caps, which stays legible.
 const mini = (t) => new Paragraph({
@@ -268,14 +279,15 @@ const slot = (labelText, nLines = 2) => new Table({
   ],
 });
 
-// A plain open box: a DRAWING area. No guide rules — lines through a drawing help nobody.
-const box = (h, labelText) => new Table({
-  width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [COL], borders: HAIRLINE,
-  rows: [new TableRow({ height: { value: h, rule: 'atLeast' }, children: [new TableCell({
-    width: { size: COL, type: WidthType.DXA }, margins: { top: 80, bottom: 80, left: 140, right: 140 },
-    children: labelText ? [new Paragraph({ children: [new TextRun({ text: plain(labelText), size: 18, bold: true, color: PLUM })], spacing: { line: 260 } })] : [new Paragraph('')],
-  })] })],
-});
+// An open capture area, sized in twips for callers that think in heights. Every one of these carries
+// the same feint guide lines as a write box: an unlined box quietly says "draw", and we do not mean
+// that — a learner may draw OR write in any of them, and one who is writing in a second script needs
+// the baseline. Drawing across a feint line costs nothing.
+const box = (h, labelText) => {
+  const n = Math.max(1, Math.round(h / 460));
+  return labelText ? slot(labelText, n) : linedArea(n);
+};
+
 
 // A sort-mat: labelled columns (shaded header), each a tall cell to fill.
 const zones = (labels, h = 2600) => {
@@ -351,7 +363,7 @@ const eyebrowChip = (chip, t, br) => new Paragraph({
 // The part heading that opens each phase in the learner book. HEADING_1, so it is what the contents
 // page lists — the contents stays one short page of parts instead of thirty page titles.
 const partHead = (n, t, br) => new Paragraph({
-  heading: HeadingLevel.HEADING_1, keepNext: true, pageBreakBefore: !!br,
+  heading: lvl(1), keepNext: true, pageBreakBefore: !!br,
   children: [
     new TextRun({ text: `Part ${n}   `, bold: true, size: 26, color: PLUM, characterSpacing: 20 }),
     new TextRun({ text: plain(t), bold: true, size: 34, color: NAVY }),
@@ -359,7 +371,7 @@ const partHead = (n, t, br) => new Paragraph({
   spacing: { before: 0, after: 200 },
 });
 const title = (t) => new Paragraph({
-  heading: HeadingLevel.HEADING_2, keepNext: true,
+  heading: lvl(2), keepNext: true,
   children: [new TextRun({ text: plain(t), bold: true, size: 38, color: NAVY })],
   spacing: { before: 160, after: 180 },
 });
@@ -525,7 +537,7 @@ const makeDoc = (children, opts = {}) => new Document({
 module.exports = {
   BRAND, LOGO, icon, imgRun, image, iconLine, pageFooter, toc, contents, printNotes, plain,
   NAVY, PLUM, GREY, OLIVE, LINE, RULE, PAGE, COL, scaleW, BOOK, GUIDE, LEAD_BOOK, LEAD_GUIDE,
-  NO_BORDERS, HAIRLINE, accentLeft,
+  NO_BORDERS, HAIRLINE, accentLeft, setHeadingShift,
   toParas, P, runs, body, bullet, numbered, label, H1, H2, H3, mini, hr, pageBreak,
   eyebrow, eyebrowChip, partHead, title, bold,
   scribe, example, noteBox, visualTable, stem, ruled, linedArea, writeBox, choices, check, slot,

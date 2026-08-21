@@ -146,6 +146,9 @@ closing: |
   picture their first learning goal will be held up against next week: you cannot aim a goal well until
   you know where you are starting from. Independent task: ask one or two people who know you well, "what
   am I good at as a learner?", and mark what they say on your page.
+worksheet:
+  slug: cb-ail-good-at-page
+  note: "In the learner's book (My Learning Book): the 'What I am good at' page. Print one per learner."
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

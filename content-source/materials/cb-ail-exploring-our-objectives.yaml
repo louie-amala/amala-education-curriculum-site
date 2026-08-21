@@ -141,6 +141,9 @@ closing: |
   course is going and why it is theirs. Answer any last questions, and reassure them that everyone
   starts from a different place and that is fine. Independent task: tell one person at home the one of
   the four things you most want to get better at, and why.
+worksheet:
+  slug: cb-ail-our-four-steps-page
+  note: "In the learner's book (My Learning Book): the 'Our four learning steps, and why they matter to me' page. Print one per learner."
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

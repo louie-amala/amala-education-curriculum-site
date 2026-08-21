@@ -152,7 +152,7 @@ const bigTitle = (t, instr) => [
 ];
 // A learner writes big, and a drawing is always a valid answer — so a "fill line" is the shared
 // lined write box, not a run of underscores.
-const fillLine = (lead, nLines = 1) => S.writeBox(lead.replace(/:\s*$/, ''), nLines);
+const fillLine = (lead, nLines = 2) => S.writeBox(lead.replace(/:\s*$/, ''), nLines);
 const tickLine = (t) => S.check(t);
 
 // --- Scaffolding helpers: turn a blank "capture" page into a supported one. ---
@@ -199,8 +199,10 @@ function workbookChildren(opts = {}) {
   // Every activity page is followed by a whole sheet of open, lined space. The scaffolded pages ask
   // for particular things in particular slots; this is where anything they did not ask for can go.
   let currentPage = null;
-  const page = (phase, title, heading, instr) => {
+  const emitted = new Set(['cb-ail-learning-book-cover']);
+  const page = (phase, title, heading, instr, sheet) => {
     currentPage = heading;
+    if (sheet) emitted.add(sheet);
     c.push(eyebrowPair(phase, title));
     c.push(...bigTitle(heading, instr));
   };
@@ -225,23 +227,56 @@ function workbookChildren(opts = {}) {
   }
 
   // --- Getting started ---
-  page('Getting started', 'What we will learn', 'Our four learning steps', 'Draw or mark how you would try each one.');
+  page('Getting started', 'What we will learn', 'Our four learning steps', 'These are the four things this book helps you do. They are yours to use long after this course.', 'cb-ail-our-four-steps-page');
   const STEP_ICONS = ['mirror', 'target', 'ladder', 'plant'];
-  ['Get to know yourself as a learner', 'Choose a learning goal that matters to you', 'Make a plan and take steps', 'See how you are doing, and grow'].forEach((t, i) => {
+  const STEPS = [
+    ['Get to know yourself as a learner', 'When you know what helps you learn and what gets in your way, you stop guessing. You can set up your learning so that it works for you.'],
+    ['Choose a learning goal that matters to you', 'A goal you choose yourself is one you come back to. A goal someone else picks for you is one you drop when it gets hard.'],
+    ['Make a plan and take steps', 'A goal with no first step stays a wish. Small steps you can really take are what move you.'],
+    ['See how you are doing, and grow', 'Looking back tells you what worked, so the next goal is easier than the last. This is how people get better at getting better.'],
+  ];
+  STEPS.forEach(function (row, i) {
     c.push(new Paragraph({
       children: [
-        new TextRun({ text: `${i + 1}.  `, bold: true, size: 22, color: PLUM }),
+        new TextRun({ text: (i + 1) + '.  ', bold: true, size: 24, color: PLUM }),
         imgRun(icon(STEP_ICONS[i]), 28, 28),
-        new TextRun({ text: '   ' + t, bold: true, size: 22, color: PLUM }),
+        new TextRun({ text: '   ' + row[0], bold: true, size: 24, color: PLUM }),
       ],
-      spacing: { before: 160, after: 60 },
+      spacing: { before: 200, after: 40 },
     }));
-    c.push(slot('I would start by…', 3));
+    c.push(P(row[1], { size: 21, color: NAVY, after: 80 }));
   });
   endPage();
 
-  page('Getting started', 'Getting better at goals', 'Getting better at goals', 'How people grow at setting and pursuing goals. Mark where you are now, and again at the end.');
-  c.push(P('Each step is a bit further along. Mark the one most like you now.', { size: 20, color: GREY }));
+  // Why each one matters TO THIS LEARNER. The unit-plan block is "What we will learn, AND WHY", and
+  // the second half of that was missing from the book: learners were asked how they would try each
+  // objective, never why any of it was worth their time.
+  page('Getting started', 'What we will learn', 'Why these matter to me', 'For each one, say or write why it matters to YOU, and how you would start. There is no right answer here — these are your own reasons.', 'cb-ail-our-four-steps-page');
+  STEPS.forEach(function (row, i) {
+    c.push(new Paragraph({
+      children: [
+        new TextRun({ text: (i + 1) + '.  ', bold: true, size: 22, color: PLUM }),
+        new TextRun({ text: row[0], bold: true, size: 22, color: PLUM }),
+      ],
+      spacing: { before: 200, after: 60 },
+    }));
+    c.push(slot('This matters to me because…', 2));
+    c.push(slot('I would start by…', 2));
+  });
+  endPage();
+
+  // The page used to be a ladder to tick and nothing else — half a sheet of white space, and no
+  // reason given anywhere in the book for why setting goals is worth a learner's time. Offline, if it
+  // is not on this page it is nowhere.
+  page('Getting started', 'Getting better at goals', 'Why goals, and where am I now?', 'Setting a goal is a skill. Like any skill, you can be a beginner at it and get better.', 'cb-ail-why-goals-page');
+  c.push(S.noteBox('Why this matters', [
+    'Much of life in the camp is decided by other people. A goal you set yourself is a piece of it that is yours.',
+    'A goal turns "I wish" into "I will" — it names one thing, and the first step towards it.',
+    'People who set their own goals keep going for longer when things get hard, because the reason is theirs.',
+    'And it carries: the same four steps work for learning English, for a job, for anything you want next.',
+  ]));
+  c.push(P('Nobody starts good at this. Here is how people grow at it — each step is a bit further along than the one before.', { size: 22, before: 200 }));
+  c.push(P('Mark the one most like you NOW. At the end of the course, come back and mark it again.', { size: 20, color: GREY }));
   [
     'I am not sure how to set a goal or work towards one yet.',
     'I can say how I would set a goal and take steps towards it.',
@@ -249,24 +284,25 @@ function workbookChildren(opts = {}) {
     'I reached a goal, and I can say what helped and what I would do better.',
     'I keep reaching goals, and I keep getting better at it.',
   ].forEach((t) => c.push(tickLine(t)));
-  c.push(...fillLine('My next step:'));
+  c.push(...fillLine('The one thing I most want to be able to do by the end', 2));
+  c.push(...fillLine('My next step', 2));
   endPage();
 
   // --- Understand yourself ---
-  page('Understand yourself', 'You can grow', 'You can grow', 'Draw a time you got better at something that was hard at first.');
+  page('Understand yourself', 'You can grow', 'You can grow', 'Draw a time you got better at something that was hard at first.', 'cb-ail-you-can-grow-page');
   c.push(example(['A learner could not read the letters. She practised a little each day and asked a friend to help.', 'Now she can read short words. What helped: practising, and asking for help.']));
-  c.push(box(5000, 'Draw it here'));
+  c.push(box(5000, 'Draw or write it here'));
   c.push(...fillLine('I got better at:'));
   c.push(...fillLine('What helped me:'));
   endPage();
 
-  page('Understand yourself', 'What I am good at', 'What I am good at', 'Draw or mark what you are good at as a learner.');
+  page('Understand yourself', 'What I am good at', 'What I am good at', 'Draw or mark what you are good at as a learner.', 'cb-ail-good-at-page');
   c.push(example(['Good at: remembering stories · helping younger children · fixing things with my hands.', 'Want to grow: speaking in front of others · writing my letters.']));
   c.push(slot('I am good at…', 4));
   c.push(slot('I want to get better at…', 4));
   endPage();
 
-  page('Understand yourself', 'How I learn best', 'How I learn best', 'Mark when you learn best, and who and what helps you.');
+  page('Understand yourself', 'How I learn best', 'How I learn best', 'Mark when you learn best, and who and what helps you.', 'cb-ail-how-i-learn-page');
   c.push(new Table({
     width: { size: 100, type: WidthType.PERCENTAGE },
     columnWidths: [3600, 3600, 3600],
@@ -281,13 +317,13 @@ function workbookChildren(opts = {}) {
     })) })],
   }));
   c.push(bold('Where I learn best, and who helps me — draw it:'));
-  c.push(box(3800));
+  c.push(box(3800, 'Draw or write it here'));
   c.push(...fillLine('What helps me learn:'));
   c.push(...fillLine('What gets in my way:'));
   endPage();
 
   // --- Set your goal ---
-  page('Set your goal', 'Is my goal a good goal?', 'Is my goal a good goal?', 'A good goal passes these four tests. Check your goal against each one. Keep this page — use it every time you set a goal.');
+  page('Set your goal', 'Is my goal a good goal?', 'Is my goal a good goal?', 'A good goal passes these four tests. Check your goal against each one. Keep this page — use it every time you set a goal.', 'cb-ail-good-goal-page');
   c.push(checkItem('target', 'Small  —  I can reach it soon, not in a far-off future.'));
   c.push(checkItem('mirror', 'Clear  —  I can tell when I have reached it.'));
   c.push(checkItem('plant', 'It matters  —  to me, and maybe to people I care about.'));
@@ -295,15 +331,15 @@ function workbookChildren(opts = {}) {
   c.push(P('If a test does not pass, change your goal a little until it does.', { size: 20, color: GREY, before: 160 }));
   endPage();
 
-  page('Set your goal', 'My goal', 'My goal', 'Draw the thing you want to be able to do.');
+  page('Set your goal', 'My goal', 'My goal', 'Draw the thing you want to be able to do.', 'cb-ail-my-goal-page');
   c.push(example(['I want to be able to read a short story out loud.', 'It matters because I want to read to my little sister.']));
-  c.push(box(4600, 'Draw your goal here'));
+  c.push(box(4600, 'Draw or write your goal here'));
   c.push(...fillLine('I want to be able to:'));
   c.push(...fillLine('It matters to me because:'));
   c.push(...fillLine('It could help (someone I care about):'));
   endPage();
 
-  page('Set your goal', 'My steps', 'My steps', 'Draw your steps. Colour the first step you can reach.');
+  page('Set your goal', 'My steps', 'My steps', 'Draw your steps. Colour the first step you can reach.', 'cb-ail-my-steps-page');
   c.push(slot('My goal — at the top…', 3));
   c.push(slot('Step 3 — before that, I will…', 3));
   c.push(slot('Step 2 — before that, I will…', 3));
@@ -311,7 +347,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Plan and take steps ---
-  page('Plan and take steps', 'My action plan', 'My action plan', 'Draw or write the steps to reach your goal, in order. For each step, what do you need?');
+  page('Plan and take steps', 'My action plan', 'My action plan', 'Draw or write the steps to reach your goal, in order. For each step, what do you need?', 'cb-ail-action-plan-page');
   c.push(...fillLine('My goal:'));
   ['Step 1 (first)', 'Step 2 (next)', 'Step 3 (then)'].forEach((t) => {
     c.push(P(t, { size: 22, bold: true, color: PLUM, before: 200 }));
@@ -324,16 +360,16 @@ function workbookChildren(opts = {}) {
   c.push(P('There is an Action Plan sheet you can use again for other goals.', { size: 20, color: GREY, before: 120 }));
   endPage();
 
-  page('Plan and take steps', 'My time', 'My time', 'Mark when you will work on your goal, and protect one small slot you can really keep.');
+  page('Plan and take steps', 'My time', 'My time', 'Mark when you will work on your goal, and protect one small slot you can really keep.', 'cb-ail-my-time-page');
   c.push(P('Days:  Sat · Sun · Mon · Tue · Wed · Thu · Fri', { size: 22, before: 80 }));
-  c.push(box(3600, 'Draw or mark the times you will work on your goal'));
+  c.push(box(3600, 'Draw, mark or write the times you will work on your goal'));
   c.push(...fillLine('My one small slot I will protect:'));
   c.push(...fillLine('The most important thing I will do first:'));
   c.push(...fillLine('If my week gets hard, the smaller thing I will still do:'));
   endPage();
 
-  page('Plan and take steps', 'Who and what can help me', 'Who and what can help me', 'Draw the people and things that can help you reach your goal. Asking for help is not weakness — no one reaches a goal alone.');
-  c.push(box(5000, 'Draw it here'));
+  page('Plan and take steps', 'Who and what can help me', 'Who and what can help me', 'Draw the people and things that can help you reach your goal. Asking for help is not weakness — no one reaches a goal alone.', 'cb-ail-who-can-help-page');
+  c.push(box(5000, 'Draw or write it here'));
   c.push(...fillLine('The person I will ask:'));
   c.push(...fillLine('What I will ask them for:'));
   endPage();
@@ -346,7 +382,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Track and reflect ---
-  page('Track and reflect', 'Feedback I got', 'Feedback I got', 'Ask one person: "what is one thing I could do better?" Listen, then decide what to do with it.');
+  page('Track and reflect', 'Feedback I got', 'Feedback I got', 'Ask one person: "what is one thing I could do better?" Listen, then decide what to do with it.', 'cb-ail-feedback-page');
   c.push(...fillLine('Who I asked:'));
   c.push(slot('What they said was…', 4));
   c.push(P('What will I do with it? Mark one:', { size: 22, bold: true, color: NAVY, before: 180 }));
@@ -356,11 +392,11 @@ function workbookChildren(opts = {}) {
   c.push(...fillLine('The one thing I will try:'));
   endPage();
 
-  page('Track and reflect', 'How I have grown', 'How I have grown', 'Look back through your book. Draw yourself before, and now, then say how far you came.');
+  page('Track and reflect', 'How I have grown', 'How I have grown', 'Look back through your book. Draw yourself before, and now, then say how far you came.', 'cb-ail-how-i-have-grown-page');
   c.push(P('Before', { size: 22, bold: true, color: PLUM, before: 80 }));
-  c.push(box(2800, 'Draw it here'));
+  c.push(box(2800, 'Draw or write it here'));
   c.push(P('Now', { size: 22, bold: true, color: PLUM, before: 160 }));
-  c.push(box(2800, 'Draw it here'));
+  c.push(box(2800, 'Draw or write it here'));
   c.push(...fillLine('My goal was:'));
   c.push(...fillLine('How far I got:'));
   c.push(...fillLine('What helped me:'));
@@ -369,10 +405,23 @@ function workbookChildren(opts = {}) {
 
   page('Track and reflect', 'My next goal', 'My next goal', 'Draw one goal you will keep working on after this course.');
   c.push(P('If your goal was hard to reach, your next goal can be a smaller step of it. That is not failing — that is how goals work.', { size: 20, color: OLIVE, before: 40, after: 140 }));
-  c.push(box(5000, 'Draw it here'));
+  c.push(box(5000, 'Draw or write it here'));
   c.push(...fillLine('My next goal:'));
   c.push(...fillLine('My first small step:'));
   c.push(tickLine('I shared one way I have grown with my group.'));
+  // The book is hand-composed, so nothing stops a page quietly going missing when the unit plan gains
+  // an activity — which is exactly what had happened to "What we will learn, and why". Check it on
+  // every build, and fail rather than ship a book that no longer matches the plan.
+  const missing = [];
+  unit.phases.forEach((ph) => ph.blocks.forEach((b) => {
+    const m = b.materialSlug ? mat[b.materialSlug] : null;
+    if (m && m.type === 'activity' && m.worksheet && !emitted.has(m.worksheet.slug)) {
+      missing.push(`  - ${b.title}  (${m.worksheet.slug})`);
+    }
+  }));
+  if (missing.length) {
+    throw new Error('Agency in Learning workbook has no page for these unit-plan activities:\n' + missing.join('\n'));
+  }
   return c;
 }
 

@@ -150,6 +150,9 @@ closing: |
   they, not their partner, chose what to keep. Say aloud that asking for help is a loop they can run themselves:
   one clear question, an open ear, and one small change. Independent task: before the next session, try your one
   small change, and mark in your workbook whether it helped.
+worksheet:
+  slug: cb-ail-feedback-page
+  note: "In the learner's book (My Learning Book): the 'Feedback I got' page. Print one per learner."
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

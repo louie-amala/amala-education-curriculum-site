@@ -1,0 +1,37 @@
+# Student worksheet (resource) for the activity cb-ail-managing-time-and-priorities. Thin per §3: what the page is and how the
+# learner uses it. Ships no file of its own — its printable version compiles into the Agency in
+# Learning student workbook ("My Learning Book"). Learning Bridge+ (Cox's Bazar) edition.
+id: cb-ail-my-time-page
+slug: cb-ail-my-time-page
+access: partner
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "My time"
+summary: >-
+  The one time slot the learner will protect, what matters most, and the smaller thing they will still do on a hard week.
+facilitationContext:
+- group
+- independent
+primaryContext: independent
+learnerContent: |
+  ## My time
+
+  This page is yours. You can draw, write, or say your answer — someone will write it for you if you
+  ask — and nobody marks it right or wrong.
+
+  - Mark the times you will work on your goal.
+  - Name the one slot you will protect.
+  - Name the smaller thing you will still do if the week gets hard.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Keeping their own record of what they decided, and why, is what lets a learner carry a goal
+    between sessions without an adult holding it for them.
+objectiveIds: [agency-in-learning--o3]
+relatedSlugs: [cb-ail-managing-time-and-priorities]
+provenanceNote: >-
+  Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Agency in Learning edition,
+  paired to cb-ail-managing-time-and-priorities. Thin by design; its printable version compiles into the component workbook rather
+  than shipping its own file. Added (August 2026) when the workbook was rebuilt to be driven by the
+  unit plan, so a page cannot go missing when the plan changes.

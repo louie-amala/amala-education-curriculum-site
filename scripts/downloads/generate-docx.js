@@ -223,7 +223,7 @@ function workbookChildren(opts = {}) {
   } else {
     c.push(new Paragraph({ children: [new TextRun({ text: 'Set up your My Voice pages', bold: true, size: 32, color: NAVY })], spacing: { after: 120 } }));
   }
-  c.push(bold('Draw yourself:'));
+  c.push(bold('Draw yourself — or write your name big:'));
   c.push(box(3600));
   // the cover has no worksheet page to close, so it takes a plain break — endPage() would append a
   // notes sheet for a page that does not exist
@@ -429,7 +429,7 @@ function workbookChildren(opts = {}) {
   c.push(modelBox(['My name is Nur.', 'I am from Myanmar.'], { label: 'Like this', size: 24 }));
   c.push(new Paragraph({ children: [new TextRun({ text: 'Now you:', size: 22, color: PLUM, bold: true })], spacing: { before: 160, after: 20 } }));
   frames(['My name is ________________________', 'I am from ________________________']);
-  c.push(box(3000, 'Draw one thing about you:'));
+  c.push(box(3000, 'Draw or write one thing about you'));
   c.push(scribeNote());
   endPage();
 
@@ -469,7 +469,7 @@ function workbookChildren(opts = {}) {
   ]));
   c.push(new Paragraph({ spacing: { before: 200, after: 40 }, children: [new TextRun({ text: 'At the start I could not:  ', bold: true, size: 22, color: PLUM }), new TextRun({ text: '______________________________', size: 22, color: NAVY })] }));
   c.push(new Paragraph({ spacing: { before: 80, after: 60 }, children: [new TextRun({ text: 'Now I can:  ', bold: true, size: 22, color: PLUM }), new TextRun({ text: '______________________________', size: 22, color: NAVY })] }));
-  c.push(box(2600, 'Draw or say what you can do now:'));
+  c.push(box(2600, 'Draw, write or say what you can do now'));
   c.push(new Paragraph({ spacing: { before: 160, after: 40 }, children: [new TextRun({ text: 'What helped me?  (circle)  ', bold: true, size: 22, color: PLUM }), new TextRun({ text: 'practising  ·  my facilitator  ·  my buddy  ·  my family', size: 21, color: NAVY })] }));
   c.push(new Paragraph({ spacing: { before: 120, after: 40 }, children: [new TextRun({ text: 'I want to keep learning:  ', bold: true, size: 22, color: PLUM }), new TextRun({ text: '______________________________', size: 22, color: NAVY })] }));
   c.push(new Paragraph({ spacing: { before: 180, after: 40 }, children: [new TextRun({ text: 'How far have I come?  Mark it:      start  •————————————————•  now', size: 21, color: OLIVE })] }));

@@ -110,6 +110,9 @@ closing: |
   end of the course to see how far each learner has moved. Remind them there is no failing here: the
   only thing that matters is taking your next step. Revisit: in the final phase, learners look at the
   path again, mark where they are now, and celebrate the movement.
+worksheet:
+  slug: cb-ail-why-goals-page
+  note: "In the learner's book (My Learning Book): the 'Why goals, and where am I now?' page. Print one per learner."
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

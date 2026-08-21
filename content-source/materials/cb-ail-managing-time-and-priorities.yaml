@@ -109,6 +109,9 @@ closing: |
   not obeyed. Remind them that protecting time and wellbeing is a skill they are practising, and that a
   small step kept every week beats a big plan kept for none. Independent task: keep your slot once this
   week, then mark in the workbook whether it happened and what threatened it.
+worksheet:
+  slug: cb-ail-my-time-page
+  note: "In the learner's book (My Learning Book): the 'My time' page. Print one per learner."
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction
