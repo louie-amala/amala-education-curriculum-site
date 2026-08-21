@@ -254,7 +254,9 @@ const check = (text) => new Paragraph({ children: [
 // A labelled slot to fill IN PLACE (a titled box tall enough to draw or write in).
 // A slot is a write box that carries its own label INSIDE the top of the box — for pages that repeat
 // the same shape several times and cannot afford a label line above each one. Same feint rules.
-const slot = (labelText, nLines = 2) => new Table({
+const gap = (h = 90) => new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: h } });
+const slot = (labelText, nLines = 2) => [gap(), slotTable(labelText, nLines)];
+const slotTable = (labelText, nLines = 2) => new Table({
   width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [COL],
   borders: {
     top: { style: BorderStyle.SINGLE, size: 6, color: LINE },
@@ -285,7 +287,7 @@ const slot = (labelText, nLines = 2) => new Table({
 // the baseline. Drawing across a feint line costs nothing.
 const box = (h, labelText) => {
   const n = Math.max(1, Math.round(h / 460));
-  return labelText ? slot(labelText, n) : linedArea(n);
+  return labelText ? slotTable(labelText, n) : linedArea(n);
 };
 
 
@@ -541,7 +543,7 @@ module.exports = {
   toParas, P, runs, body, bullet, numbered, label, H1, H2, H3, mini, hr, pageBreak,
   eyebrow, eyebrowChip, partHead, title, bold,
   scribe, example, noteBox, visualTable, stem, ruled, linedArea, writeBox, choices, check, slot,
-  zones, tallyMat, grid, notesPage, NOTES_LINES,
+  zones, tallyMat, grid, notesPage, NOTES_LINES, gap,
   writeLine, box, gridBoxes, refTable, twoCol, callout, mdTable, mdBlocks, NUMBERING, makeDoc,
   AlignmentType, Paragraph, TextRun, Table, TableRow, TableCell, WidthType, BorderStyle,
   HeadingLevel, TabStopType, LeaderType,

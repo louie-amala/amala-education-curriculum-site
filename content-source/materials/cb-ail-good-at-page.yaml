@@ -8,7 +8,8 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "What I am good at"
 summary: >-
-  What the learner is already good at as a learner, and what they want to get better at.
+  What the learner is already good at as a learner and what they want to get better at — and, for each
+  one, the evidence: a time it actually happened.
 facilitationContext:
 - group
 - independent
@@ -20,7 +21,9 @@ learnerContent: |
   ask — and nobody marks it right or wrong.
 
   - Draw or write what you are good at.
+  - For each one, give your evidence: a time it really happened, what you did, and what came of it.
   - Draw or write what you want to get better at.
+  - For each one, say what makes you say that — again, a time it happened.
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

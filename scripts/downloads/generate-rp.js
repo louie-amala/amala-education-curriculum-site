@@ -311,7 +311,7 @@ const SCAFFOLD = {
   'cb-rp-asking-permission': () => [
     bold('Our asking words — say them every time:'),
     example(['"May I ask you some questions?"', '"Thank you for helping me."']),
-    slot('Our asking words, in our own language (draw or write):', 2),
+    ...slot('Our asking words, in our own language (draw or write):', 2),
     bold('The rules — keep them every time:', { before: 80 }),
     check('Ask first'), check('Say why I am asking'), check('They can say no, or stop'), check('No names'), check('Keep everyone safe'),
   ],
@@ -567,7 +567,7 @@ function workbookChildren(opts = {}) {
             new TextRun({ text: 'Who I asked (no names)  ', size: 21 }), new TextRun({ text: '____________________     ', size: 21, color: LINE }),
             new TextRun({ text: 'When  ', size: 21 }), new TextRun({ text: '____________________', size: 21, color: LINE }),
           ], spacing: { after: 120 } }));
-          SUBQ.forEach((sq, i) => c.push(slot(`${i + 1}.  ${sq}  —  what they said (draw, mark, or write):`, 3)));
+          SUBQ.forEach((sq, i) => c.push(...slot(`${i + 1}.  ${sq}  —  what they said (draw, mark, or write):`, 3)));
           c.push(...writeBox('One thing that surprised me', 1));
           c.push(scribe());
         }

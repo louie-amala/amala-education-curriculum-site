@@ -166,9 +166,9 @@ const checkItem = (iconName, t) => new Paragraph({
 // An if–then (WOOP) frame: name the usual obstacle, and the smaller thing you will still do.
 const ifThenFrame = () => [
   new Paragraph({ children: [new TextRun({ text: 'If this gets in the way…', bold: true, size: 22, color: PLUM })], spacing: { before: 120, after: 40 } }),
-  slot('What usually stops me is…', 3),
+  ...slot('What usually stops me is…', 3),
   new Paragraph({ children: [new TextRun({ text: '→   then I will still do this…', bold: true, size: 22, color: OLIVE })], spacing: { before: 80, after: 40 } }),
-  slot('Then I will still…', 3),
+  ...slot('Then I will still…', 3),
 ];
 // A repeating weekly loop — the scaffold for the between-session pursuit. One row per week:
 // the step, whether it happened, and what got in the way. This replaces the blank sticker grid.
@@ -260,8 +260,8 @@ function workbookChildren(opts = {}) {
       ],
       spacing: { before: 200, after: 60 },
     }));
-    c.push(slot('This matters to me because…', 2));
-    c.push(slot('I would start by…', 2));
+    c.push(...slot('This matters to me because…', 2));
+    c.push(...slot('I would start by…', 2));
   });
   endPage();
 
@@ -284,6 +284,7 @@ function workbookChildren(opts = {}) {
     'I reached a goal, and I can say what helped and what I would do better.',
     'I keep reaching goals, and I keep getting better at it.',
   ].forEach((t) => c.push(tickLine(t)));
+  c.push(...fillLine('What makes me say that is where I am — a time it happened', 2));
   c.push(...fillLine('The one thing I most want to be able to do by the end', 2));
   c.push(...fillLine('My next step', 2));
   endPage();
@@ -296,10 +297,32 @@ function workbookChildren(opts = {}) {
   c.push(...fillLine('What helped me:'));
   endPage();
 
-  page('Understand yourself', 'What I am good at', 'What I am good at', 'Draw or mark what you are good at as a learner.', 'cb-ail-good-at-page');
-  c.push(example(['Good at: remembering stories · helping younger children · fixing things with my hands.', 'Want to grow: speaking in front of others · writing my letters.']));
-  c.push(slot('I am good at…', 4));
-  c.push(slot('I want to get better at…', 4));
+  page('Understand yourself', 'What I am good at', 'What I am good at', 'Not just WHAT you are good at — how you know. For each one, think of a time it actually happened.', 'cb-ail-good-at-page');
+  c.push(example([
+    'I am good at: helping younger children.',
+    'How I know: last month I taught my cousin to count to twenty. She can do it on her own now.',
+  ]));
+  c.push(S.gap());
+  c.push(S.noteBox('How do I know?', [
+    'Anyone can say "I am good at helping people." A researcher asks: how do you know?',
+    'The answer is a time it really happened — what you did, and what came of it.',
+    'That is what makes it true, and it is what you will do with every claim in this programme.',
+  ]));
+  c.push(...slot('I am good at…', 2));
+  c.push(...slot('How I know — a time it happened…', 3));
+  c.push(...slot('I am also good at…', 2));
+  c.push(...slot('How I know — a time it happened…', 3));
+  endPage();
+
+  page('Understand yourself', 'What I am good at', 'What I want to get better at', 'And the same question again: what makes you say that?', 'cb-ail-good-at-page');
+  c.push(example([
+    'I want to get better at: speaking in front of other people.',
+    'What makes me say that: at the group meeting I had something to say and I did not say it.',
+  ]));
+  c.push(...slot('I want to get better at…', 2));
+  c.push(...slot('What makes me say that — a time it happened…', 3));
+  c.push(...slot('And I want to get better at…', 2));
+  c.push(...slot('What makes me say that — a time it happened…', 3));
   endPage();
 
   page('Understand yourself', 'How I learn best', 'How I learn best', 'Mark when you learn best, and who and what helps you.', 'cb-ail-how-i-learn-page');
@@ -340,10 +363,10 @@ function workbookChildren(opts = {}) {
   endPage();
 
   page('Set your goal', 'My steps', 'My steps', 'Draw your steps. Colour the first step you can reach.', 'cb-ail-my-steps-page');
-  c.push(slot('My goal — at the top…', 3));
-  c.push(slot('Step 3 — before that, I will…', 3));
-  c.push(slot('Step 2 — before that, I will…', 3));
-  c.push(slot('Step 1 — I can reach this one soon. I will…  (colour this one)', 3));
+  c.push(...slot('My goal — at the top…', 3));
+  c.push(...slot('Step 3 — before that, I will…', 3));
+  c.push(...slot('Step 2 — before that, I will…', 3));
+  c.push(...slot('Step 1 — I can reach this one soon. I will…  (colour this one)', 3));
   endPage();
 
   // --- Plan and take steps ---
@@ -351,7 +374,7 @@ function workbookChildren(opts = {}) {
   c.push(...fillLine('My goal:'));
   ['Step 1 (first)', 'Step 2 (next)', 'Step 3 (then)'].forEach((t) => {
     c.push(P(t, { size: 22, bold: true, color: PLUM, before: 200 }));
-    c.push(slot('This step: I will…', 3));
+    c.push(...slot('This step: I will…', 3));
     c.push(...fillLine('What I need:'));
   });
   c.push(...fillLine('My first step this week:'));
@@ -384,7 +407,7 @@ function workbookChildren(opts = {}) {
   // --- Track and reflect ---
   page('Track and reflect', 'Feedback I got', 'Feedback I got', 'Ask one person: "what is one thing I could do better?" Listen, then decide what to do with it.', 'cb-ail-feedback-page');
   c.push(...fillLine('Who I asked:'));
-  c.push(slot('What they said was…', 4));
+  c.push(...slot('What they said was…', 4));
   c.push(P('What will I do with it? Mark one:', { size: 22, bold: true, color: NAVY, before: 180 }));
   c.push(tickLine('Keep it  —  I will try this now.'));
   c.push(tickLine('Hold it  —  useful later, not now.'));
@@ -399,6 +422,7 @@ function workbookChildren(opts = {}) {
   c.push(box(2800, 'Draw or write it here'));
   c.push(...fillLine('My goal was:'));
   c.push(...fillLine('How far I got:'));
+  c.push(...fillLine('How I know I have grown — a time it showed', 2));
   c.push(...fillLine('What helped me:'));
   c.push(...fillLine('What I would do differently next time:'));
   endPage();
