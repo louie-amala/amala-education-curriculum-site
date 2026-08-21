@@ -1,0 +1,145 @@
+id: pb-barnga
+slug: pb-barnga
+access: public
+type: resource
+title: "Barnga (published simulation): using it in this course"
+summary: >-
+  A card game played in silence, in which everyone is quietly given different rules. How it fits
+  the Peacebuilding course, and where to get it.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Barnga is group-only and needs enough learners for at least three tables of four. It cannot be
+      run one-to-one or independently, because the whole mechanism is moving between tables that turn
+      out to be playing different games.
+materialsAndPreparation:
+  - "The published game. You need the book to run it properly, because it carries the rule sheets, the table structure and the debrief. Details and purchase links are below."
+  - Playing cards, one part-deck per table, with the higher cards removed.
+  - Enough room for several tables far enough apart that gestures cannot be compared across them.
+  - Time. Budget 75 minutes or more, most of it for the debrief.
+educatorContent: |
+  Barnga is a published simulation by Sivasailam "Thiagi" Thiagarajan with Barbara Steinwachs. Small
+  groups play a simple card game in silence, having each been given rule sheets they believe are
+  identical. They are not. The sheets differ in small ways, over which suit is trumps and who wins a
+  tie. Players then rotate between tables, and the conflicts begin: each person is confident they know
+  the rules, each behaves correctly by their own, and nobody may speak to sort it out.
+
+  ## Why it belongs in this course, and where
+
+  The course spends its first weeks establishing that group conflict runs through identity, and that
+  people who mean each other no harm still collide when their assumptions differ. Barnga makes that
+  happen in a room in twenty minutes, and it does it without anyone's real identity being on the
+  table, which is why it works in groups where the personal material is close to the bone.
+
+  Its natural slot is alongside the identity work, before violence and conflict are separated. It
+  pairs particularly well with the identity bags activity, which shows learners constructing an
+  account of another person from fragments. Barnga shows the same reflex operating on rules rather
+  than people, and it adds something the other activities do not: the discovery that being certain
+  you are right is not evidence that you are.
+
+  ## What to hold on to in the debrief
+
+  The debrief matters more than the game, as with every simulation in this course. Three things are
+  worth protecting:
+
+  - **Nobody cheated.** Every player followed the rules they were given. Learners reach for blame
+    first, and the correction is the whole lesson.
+  - **The silence is the point.** Barred from explaining, players resorted to insistence, gesture and
+    force of personality. Ask which of those they use when they can speak.
+  - **Certainty is not evidence.** The strongest players were often the most confidently wrong.
+
+  The four-pass debrief used across the other simulations here works well: facts, then feelings, then
+  what it represented, then what each learner will do differently.
+
+  ## Getting it
+
+  Barnga is a commercial publication and Amala does not reproduce it. Buy the book, which is short and
+  inexpensive, and run it from there. Several universities publish adapted lesson plans free of charge
+  under the citation "Adapted from Sivasailam 'Thiagi' Thiagarajan with Raja Thiagarajan (2006),
+  Barnga: A Simulation Game on Cultural Clashes, Boston: Intercultural Press", and those are linked
+  below as a way of seeing how others have run it.
+
+  Two cautions. An Internet Archive scan of the 1994 edition is tagged "Public Domain Mark", which is
+  an uploader's error rather than a rights determination: the book is in copyright. And the publisher's
+  permission covers use in training settings, not republication, so run it with your learners and do
+  not post the rule sheets anywhere.
+learnerContent: |
+  You will play a card game in small groups, in silence. You may not talk. You can gesture, but you
+  cannot explain.
+
+  After a few rounds, some of you will move to a different table.
+
+  That is all you need to know before you start. Afterwards, the questions are:
+
+  - What happened when you moved tables?
+  - Did anyone break the rules?
+  - What did you do when someone played a card you thought was wrong? What did you do next?
+  - How certain were you that you were right?
+  - Where else do you meet people who are following rules you cannot see?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Being confidently, blamelessly wrong in front of a group is difficult to arrange and hard to
+    forget. Learners who have felt it are slower to read a difference in behaviour as bad faith, which
+    is the single most useful disposition a peacebuilder can carry into someone else's community.
+principlesForegrounded: [safe-spaces, authentic-challenges, collaboration]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      The differences that cause the conflict are invented and printed on a card, so a group can
+      experience cultural collision without anyone's actual culture being the material.
+  - principle: authentic-challenges
+    how: >-
+      The mechanism is real rather than illustrated: learners genuinely do not know why the other
+      table is behaving as it is, and genuinely cannot ask.
+  - principle: collaboration
+    how: >-
+      Play only becomes possible once players work out a way to establish shared rules without
+      language, which is a small piece of the work the course is about.
+competencyCodes: [FUS1, FUS2, AUS2]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      The gap between how certain a learner felt and how right they were is direct, uncomfortable
+      evidence about their own judgement.
+  - code: FUS2
+    how: >-
+      Learners have to reconstruct why the other table acted as it did, from behaviour alone, with no
+      explanation available.
+  - code: AUS2
+    how: >-
+      Establishing workable shared rules across groups that cannot speak to each other is intercultural
+      work stripped down to its mechanism.
+objectiveIds: [peacebuilding--o1, peacebuilding--o3]
+relatedSlugs: [pb-identity-bags, pb-colour-groups, pb-planet-of-aliens, cf-debrief-a-simulation]
+links:
+  - label: "Barnga: A Simulation Game on Cultural Clashes (publisher page)"
+    url: https://www.hachette.co.uk/titles/sivasailam-thiagarajan/barnga/9781931930307/
+    note: "The book itself, 25th Anniversary Edition, John Murray Press. This is what you need in order to run it."
+  - label: "Barnga lesson plans and adaptations (Purdue CILMAR)"
+    url: https://hubicl.org/toolbox/tools/6/links
+    note: "Freely published lesson plans and two adaptations, with the standard attribution. Useful for seeing how others run and debrief it."
+  - label: "Barnga (STAR E training methods)"
+    url: https://star-e.icja.de/engaging-young-people/training-methods/barnga/
+    note: "A European youth-work write-up of the same activity, with the same attribution."
+rights:
+  status: linked-not-reproduced
+  holder: Sivasailam Thiagarajan and Barbara Steinwachs; Intercultural Press / Nicholas Brealey (John Murray Press, Hachette)
+  basis: >-
+    Barnga is a commercial publication that remains in copyright. Nothing of it is reproduced here:
+    this page describes what the simulation does, argues where it fits the course, and links to the
+    publisher and to freely published adaptations. All wording is Amala's own.
+  note: >-
+    Never add Barnga's rule sheets, table structure or debrief script to this page. The publisher's
+    reproducible-materials permission covers use in educational and training settings, not
+    republication; anything further needs written permission from John Murray Press, who quote up to
+    eight weeks. The Internet Archive scan tagged "Public Domain Mark" is an uploader error, not a
+    rights determination.
+sourceRefs:
+  - "Thiagarajan, S. with Steinwachs, B. — Barnga: A Simulation Game on Cultural Clashes (Intercultural Press, 1990/1994); 25th Anniversary Edition with Raja Thiagarajan, 2006, ISBN 9781931930307"
+  - "Listed but not extracted in the Amala Peacebuilding resource pack (Week 1, Exploring Identity)"
+provenanceNote: >-
+  Amala's resource pack lists Barnga as a Week 1 identity activity but contains only a link, not the
+  game. This page is written from scratch as a pointer to the published source.

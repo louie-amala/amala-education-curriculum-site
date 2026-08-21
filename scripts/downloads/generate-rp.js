@@ -14,6 +14,7 @@ const yaml = require('yaml');
 const {
   Document, Packer, Paragraph, TextRun, AlignmentType,
   Table, TableRow, TableCell, WidthType, BorderStyle, PageBreak, HeadingLevel,
+  TabStopType, LeaderType, TableOfContents, Header,
 } = require('docx');
 
 const ROOT = path.resolve(__dirname, '..', '..');
@@ -39,46 +40,19 @@ const objStatement = (oid) => {
 const LEAD = { 'facilitator-led': 'You model it first — support stays high', shared: 'Shared — you and the learners, support stays high', 'learner-led': 'Learners own it — support stays high' };
 const KIND = { activity: 'Activity', practice: 'Practice', orientation: 'Orientation', consolidation: 'Consolidation', assessment: 'Assessment' };
 
-// ---- text helpers (shared style with generate-docx.js) ----
-const NAVY = '1F3A5F', PLUM = '7A3B69', GREY = '5A6473', OLIVE = '6E7A2E', LINE = 'B9B3A6';
-// Source YAML and educatorContent are markdown-flavoured. These documents are printed and read on
-// paper, where a raw link target is noise — so reduce inline markdown to its text before it becomes
-// a docx run. Keeps [Picture Cards pack](/downloads/…) reading as "Picture Cards pack".
-const plain = (s) => String(s == null ? '' : s)
-  .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
-  .replace(/`([^`]+)`/g, '$1')
-  .replace(/\*\*([^*]+)\*\*/g, '$1');
-const toParas = (s) => plain(s).trim().split(/\n\s*\n/).map((p) => p.replace(/\s*\n\s*/g, ' ').trim()).filter(Boolean);
-const P = (text, opts = {}) => new Paragraph({ children: [new TextRun({ text: plain(text), size: opts.size || 22, bold: opts.bold, italics: opts.italics, color: opts.color })], spacing: { after: opts.after == null ? 120 : opts.after, before: opts.before || 0 }, alignment: opts.align, border: opts.border });
-const runs = (arr) => new Paragraph({ children: arr, spacing: { after: 120 } });
-const body = (s) => toParas(s).map((t) => P(t, { size: 22, after: 120 }));
-const bullet = (text, level = 0) => new Paragraph({ children: [new TextRun({ text: plain(text), size: 22 })], bullet: { level }, spacing: { after: 60 } });
-const label = (lab, text) => new Paragraph({ children: [new TextRun({ text: lab + ' ', bold: true, size: 22, color: PLUM }), new TextRun({ text: plain(text), size: 22 })], spacing: { after: 120 } });
-const H1 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { before: 240, after: 100 }, children: [new TextRun({ text: t, bold: true, size: 30, color: NAVY })] });
-const H2 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_2, spacing: { before: 200, after: 80 }, children: [new TextRun({ text: t, bold: true, size: 26, color: PLUM })] });
-const H3 = (t) => new Paragraph({ heading: HeadingLevel.HEADING_3, spacing: { before: 160, after: 60 }, children: [new TextRun({ text: t, bold: true, size: 23, color: NAVY })] });
-const mini = (t) => new Paragraph({ children: [new TextRun({ text: t, bold: true, italics: true, size: 21, color: OLIVE })], spacing: { before: 80, after: 40 } });
-const hr = () => new Paragraph({ text: '', border: { bottom: { style: BorderStyle.SINGLE, size: 6, color: LINE } }, spacing: { after: 120 } });
-const pageBreak = () => new Paragraph({ children: [new PageBreak()] });
-const LETTER = { size: { width: 12240, height: 15840 } };
-
-// minimal markdown -> docx blocks (headings, bullets, paragraphs) for resource content
-function mdBlocks(md) {
-  const out = [];
-  const lines = String(md || '').replace(/\r/g, '').split('\n');
-  let i = 0; let para = [];
-  const flush = () => { if (para.length) { out.push(P(para.join(' '), { size: 22 })); para = []; } };
-  while (i < lines.length) {
-    const t = lines[i].trim();
-    if (t === '') { flush(); i++; continue; }
-    if (t.startsWith('### ')) { flush(); out.push(H3(t.slice(4))); i++; continue; }
-    if (t.startsWith('## ')) { flush(); out.push(H2(t.slice(3))); i++; continue; }
-    if (t.startsWith('- ')) { flush(); while (i < lines.length && lines[i].trim().startsWith('- ')) { out.push(bullet(lines[i].trim().slice(2))); i++; } continue; }
-    para.push(t); i++;
-  }
-  flush();
-  return out;
-}
+// ---- house style ----------------------------------------------------------
+// Every measurement, and the reasoning behind it, lives in lib/docx-style.js. It is shared with the
+// other component packs and with the one-stop Educator Guide, so the standalone downloads and the
+// combined book cannot drift apart.
+const S = require('./lib/docx-style');
+const {
+  NAVY, PLUM, GREY, OLIVE, LINE, PAGE, COL, scaleW, BOOK, GUIDE, LEAD_BOOK, LEAD_GUIDE,
+  NO_BORDERS, HAIRLINE, accentLeft, NOTES_LINES,
+  plain, toParas, P, runs, body, bullet, label, H1, H2, H3, mini, hr, pageBreak,
+  eyebrow, eyebrowChip, partHead, title, bold,
+  scribe, example, noteBox, visualTable, stem, ruled, linedArea, writeBox, choices, check, slot,
+  zones, tallyMat, grid, notesPage, box, mdBlocks, contents, printNotes, makeDoc,
+} = S;
 
 // Full original articles — facilitator reference only (Appendix B of the guide). Only sources whose
 // licence permits reproduction are held here; the others carry a note.
@@ -159,7 +133,9 @@ function facilitatorPlanChildren(opts = {}) {
   c.push(H2('How this unit hands over control'));
   c.push(...body(unit.deliveryApproach));
   c.push(H2('How to use this plan'));
-  c.push(P('This plan is set out in hours, not weeks. Work through the phases in order; within a phase, the blocks build on each other. Each block carries its full guidance inline. Read "Before you start" and "Safeguarding and protection" first; the source pack the learners read is in Appendix A, the full original articles in Appendix B, and how to assess FSI1 in "Assessing the investigation". Deliver in the language you share with learners. Times are generous on purpose.', { size: 22 }));
+  c.push(P('This plan is set out in hours, not weeks. Work through the phases in order; within a phase, the blocks build on each other. Each block carries its full guidance inline, and where a block teaches a research skill it opens with "What you need to know before you teach this" — the subject knowledge itself, so you do not have to find it elsewhere. The teaching the learners receive is printed in their own research book, on a "Learn it" page before each step; read it aloud to the group. Read "Before you start" and "Safeguarding and protection" first; the source pack the learners read is in Appendix A, the full original articles in Appendix B, and how to assess FSI1 in "Assessing the investigation". Deliver in the language you share with learners. Times are generous on purpose.', { size: 22 }));
+
+  if (!opts.embedded) c.push(...printNotes('guide', ['If paper is short, print the phase you are teaching now, plus "Before you start" and "Safeguarding and protection".']), ...contents('The phases of the unit and the reference sections, with the page each one starts on. Blocks are numbered inside each phase (3.2 is the second block of Phase 3). Word fills the numbers in when this file is opened.'));
 
   // Before you start — facilitator resources the activity materials assume exist.
   const runOff = mat['cb-rp-running-this-offline'];
@@ -174,8 +150,8 @@ function facilitatorPlanChildren(opts = {}) {
     const os = objStatement(ph.objectiveId);
     if (os) c.push(label('Course objective:', os));
     if (ph.summary) c.push(...body(ph.summary));
-    ph.blocks.forEach((b) => {
-      c.push(H2(b.title));
+    ph.blocks.forEach((b, bi) => {
+      c.push(H2(`${pi + 1}.${bi + 1}   ${b.title}`));
       const hrsBits = [KIND[b.kind] || 'Activity', `${b.facilitatedHours}h facilitated`];
       if (b.independentHours) hrsBits.push(`${b.independentHours}h independent`);
       c.push(P(hrsBits.join('   ·   '), { size: 20, color: OLIVE, bold: true, after: 100 }));
@@ -183,11 +159,22 @@ function facilitatorPlanChildren(opts = {}) {
       if (b.description) c.push(...body(b.description));
       if (m) {
         c.push(mini(`Activity in the material bank: ${m.title}`));
+        // The subject brief: what the facilitator needs to KNOW to teach this block, not just how to
+        // run it. Placed before the practical detail (MATERIALS_STANDARD.md 11: understand it, then
+        // prepare, then run it). Offline, this is the only place they can read it.
+        if (m.educatorContent) c.push(...mdBlocks(m.educatorContent));
         if (m.duration) c.push(label('Timing:', m.duration));
         if (m.grouping) c.push(label('Grouping:', m.grouping));
         if (m.whatLearnersDo && m.whatLearnersDo.length) { c.push(mini('What learners do')); m.whatLearnersDo.forEach((x) => c.push(bullet(x))); }
         if (m.materialsAndPreparation && m.materialsAndPreparation.length) { c.push(mini('Materials and preparation')); m.materialsAndPreparation.forEach((x) => c.push(bullet(x))); }
+        // The authored diagrams, printed rather than described: the same sort mats and finished-output
+        // pictures the site shows, so a facilitator working only from paper has them too.
+        (m.visuals || []).forEach((v) => { c.push(...visualTable(v)); });
         if (m.facilitationNotes) { c.push(mini('Facilitation notes')); c.push(...body(m.facilitationNotes)); }
+        // The teaching itself lives in the learner's book so learners keep it; point the facilitator at it.
+        if (m.learnerTeaching) {
+          c.push(label('Read aloud to the group:', `the "${m.learnerTeaching.title}" page in the learners' research book. That page carries the teaching for this block, and the learners keep it.`));
+        }
         (m.steps || []).forEach((s, si) => {
           c.push(H3(`Step ${si + 1}: ${s.title}${s.duration ? '  (' + s.duration + ')' : ''}`));
           c.push(...body(s.guidance));
@@ -236,107 +223,18 @@ function facilitatorPlanChildren(opts = {}) {
     c.push(P('This guide is part of a fully offline pack: this Facilitator Unit Plan & Guide, and the Student Workbook (the source cards, word bank, and evidence log). Both are editable so you can adapt and distribute them without the internet.', { size: 22 }));
   }
   c.push(P("Cox's Bazar edition · Research Project component of Learning Bridge+ · not for redistribution outside the programme. Reproduced articles are used with attribution under educational / non-commercial permission; see the copyright notes in Appendix A.", { size: 18, color: GREY, before: 120 }));
-  return c;
+  return c.filter(Boolean);
 }
 
 // ============================================================ STUDENT WORKBOOK
-const evidenceGrid = (nRows) => {
-  const cols = ['Which source', 'What it tells us about our question', 'New words I met', 'Can I trust it?'];
-  const colW = [1700, 4600, 2200, 2300];
-  const headRow = new TableRow({ tableHeader: true, children: cols.map((t, i) => new TableCell({
-    width: { size: colW[i], type: WidthType.DXA },
-    children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 20, color: NAVY })] })],
-  })) });
-  const rows = [headRow];
-  for (let r = 0; r < nRows; r++) {
-    rows.push(new TableRow({ height: { value: 1100, rule: 'atLeast' }, children: cols.map((_, i) => new TableCell({
-      width: { size: colW[i], type: WidthType.DXA }, children: [new Paragraph('')],
-    })) }));
-  }
-  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: colW, rows });
-};
+const evidenceGrid = (nRows) => grid(
+  ['Which source', 'What it tells us about our question', 'New words I met', 'Can I trust it?'],
+  [1700, 4600, 2200, 2300],
+  ['a source', 'what it says about our question', 'new words', 'how far we trust it'],
+  nRows,
+);
 
 // A full-width blank box for the learner to draw/mark/write in.
-const box = (h, labelText) => new Table({
-  width: { size: 100, type: WidthType.PERCENTAGE },
-  columnWidths: [10800],
-  rows: [new TableRow({ height: { value: h, rule: 'atLeast' }, children: [new TableCell({
-    width: { size: 10800, type: WidthType.DXA },
-    children: labelText ? [new Paragraph({ children: [new TextRun({ text: labelText, size: 18, color: GREY })] })] : [new Paragraph('')],
-  })] })],
-});
-
-// The student workbook IS the research book: the source cards to read, then one labelled page per
-// activity (in course order), each = the worksheet's instructions + space to fill. Compiled from the
-// unit + cb-rp materials, so it stays a faithful copy of the site.
-// opts.embedded drops the cover block and the closing colophon, so the programme-wide student
-// workbook (generate-lb-guides.js) can carry these pages behind its own single cover. The orienting
-// paragraph is kept — it reads as the opener of that part. Standalone download is unchanged.
-// ---- SCAFFOLD HELPERS ----------------------------------------------------
-// The workbook must scaffold a pre-literate learner who is alone with the page (facilitator stepped
-// back, or a session missed). So every page carries a persistent model and a structure to fill IN
-// PLACE — a worked example, sentence stems on a line, labelled slots, sort-mats, checklists — never a
-// bare "draw here" box. Literacy-free: draw/mark, or say it and the teacher scribes.
-
-// A standing line, so no learner is stuck because they cannot write.
-const scribe = () => new Paragraph({ children: [new TextRun({ text: 'You can draw or say your answer — your teacher will write it for you if you ask.', italics: true, size: 16, color: GREY })], spacing: { before: 60, after: 140 } });
-
-// "Like this:" — a shaded worked example that persists as a model (shaded so it does not read as a
-// place to write). Lines are short and concrete; parenthesised bits are drawing cues.
-const example = (lines) => new Table({
-  width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [10800],
-  rows: [new TableRow({ children: [new TableCell({
-    width: { size: 10800, type: WidthType.DXA }, shading: { fill: 'F1EEE6' },
-    margins: { top: 100, bottom: 100, left: 160, right: 160 },
-    children: [
-      new Paragraph({ children: [new TextRun({ text: 'Like this:', bold: true, size: 18, color: OLIVE })], spacing: { after: 60 } }),
-      ...lines.map((l) => new Paragraph({ children: [new TextRun({ text: l, italics: true, size: 20, color: '3F4A34' })], spacing: { after: 40 } })),
-    ],
-  })] })],
-});
-
-// A sentence stem with a writing line: "Before, ______".
-const stem = (text) => new Paragraph({ children: [
-  new TextRun({ text: text + '  ', size: 22 }),
-  new TextRun({ text: '______________________________________', size: 22, color: LINE }),
-], spacing: { after: 150 } });
-
-// Choices to circle (literacy-light decision aid): "( ) poster  ( ) talk  ( ) role-play".
-const choices = (label, options) => new Paragraph({ children: [
-  ...(label ? [new TextRun({ text: label + '   ', bold: true, size: 22 })] : []),
-  ...options.flatMap((o) => [new TextRun({ text: '(   ) ', size: 22, color: PLUM }), new TextRun({ text: o + '    ', size: 22 })]),
-], spacing: { after: 130 } });
-
-// A tick-box line for a checklist / captured tool.
-const check = (text) => new Paragraph({ children: [new TextRun({ text: '[   ]  ', size: 22, color: PLUM }), new TextRun({ text, size: 22 })], spacing: { after: 70 } });
-
-// A labelled slot to fill IN PLACE (a titled box tall enough to draw or write in).
-const slot = (labelText, h = 1100) => new Table({
-  width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [10800],
-  rows: [new TableRow({ height: { value: h, rule: 'atLeast' }, children: [new TableCell({
-    width: { size: 10800, type: WidthType.DXA }, margins: { top: 60, bottom: 60, left: 120, right: 120 },
-    children: [new Paragraph({ children: [new TextRun({ text: labelText, size: 17, color: PLUM })] })],
-  })] })],
-});
-
-// A sort-mat: labelled columns (shaded header), each a tall cell to fill.
-const zones = (labels, h = 2000) => {
-  const w = Math.floor(10800 / labels.length);
-  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: labels.map(() => w), rows: [
-    new TableRow({ children: labels.map((l) => new TableCell({ width: { size: w, type: WidthType.DXA }, shading: { fill: 'F1EEE6' }, margins: { top: 60, bottom: 60, left: 100, right: 100 }, children: [new Paragraph({ children: [new TextRun({ text: l, bold: true, size: 18, color: NAVY })] })] })) }),
-    new TableRow({ height: { value: h, rule: 'atLeast' }, children: labels.map(() => new TableCell({ width: { size: w, type: WidthType.DXA }, children: [new Paragraph('')] })) }),
-  ] });
-};
-
-// A grid page (evidence log / gathering record) with a filled worked example row.
-const grid = (cols, colW, exampleRow, nRows) => {
-  const head = new TableRow({ tableHeader: true, children: cols.map((t, i) => new TableCell({ width: { size: colW[i], type: WidthType.DXA }, shading: { fill: 'F1EEE6' }, margins: { top: 60, bottom: 60, left: 100, right: 100 }, children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 19, color: NAVY })] })] })) });
-  const ex = new TableRow({ children: exampleRow.map((t, i) => new TableCell({ width: { size: colW[i], type: WidthType.DXA }, shading: { fill: 'F1EEE6' }, margins: { top: 40, bottom: 40, left: 100, right: 100 }, children: [new Paragraph({ children: [new TextRun({ text: t, italics: true, size: 17, color: '3F4A34' })] })] })) });
-  const rows = [head, ex];
-  for (let r = 0; r < nRows; r++) rows.push(new TableRow({ height: { value: 1000, rule: 'atLeast' }, children: cols.map((_, i) => new TableCell({ width: { size: colW[i], type: WidthType.DXA }, children: [new Paragraph('')] })) }));
-  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: colW, rows });
-};
-
 // The repeating WEEKLY PURSUIT spread — a scaffolded self-regulation loop for between-session work.
 const weeklySpread = (n, withExample) => {
   const c = [];
@@ -356,119 +254,203 @@ const weeklySpread = (n, withExample) => {
   c.push(new Paragraph({ children: [new TextRun({ text: 'If  ', size: 22 }), new TextRun({ text: '____________________  ', size: 22, color: LINE }), new TextRun({ text: 'then I will  ', size: 22 }), new TextRun({ text: '____________________', size: 22, color: LINE })], spacing: { after: 150 } }));
   c.push(stem('Next week I will'));
   c.push(hr());
-  return c;
+  return c.filter(Boolean);
 };
 
 // Per-page scaffolds, keyed by worksheet slug. Each returns the page body (after eyebrow + title).
-const eyebrow = (t) => new Paragraph({ children: [new TextRun({ text: t.toUpperCase(), bold: true, size: 15, color: PLUM })], spacing: { after: 40 } });
-const title = (t) => new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 30, color: NAVY })], spacing: { after: 120 } });
-const bold = (t, o = {}) => P(t, Object.assign({ bold: true, size: 22 }, o));
+// The page locator strip: where in the book am I. Small, letterspaced, above a hairline rule, so it
+// reads as furniture rather than content and stays findable when flicking through.
+const SUBQ = [
+  'Before, and now — what changed?',
+  'A bare hill in the rain and the hot sun',
+  'What trees, grass and roots do for the soil and for us',
+  'What people are doing to help — and is it working?',
+];
 
 const SCAFFOLD = {
   'cb-rp-my-first-thoughts': () => [
     example(['(a drawing of bare hills, brown mud)', 'I see:  bare hills.', 'I wonder:  will the trees come back?']),
-    bold('What I SEE on our hills — draw it:', { before: 80 }), box(1600, ''),
-    stem('I wonder'), stem('I wonder'), scribe(),
+    bold('What I SEE on our hills — draw it:'), box(3600, ''),
+    ...writeBox('I wonder', 1), ...writeBox('I wonder', 1), scribe(),
   ],
   'cb-rp-research-book-cover': () => [
     example(['My name / my mark', '(a small drawing of our hills)']),
-    bold('My name, or my own mark:', { before: 80 }), box(900, ''),
-    bold('A drawing of our hills:'), box(1600, ''),
+    ...writeBox('My name, or my own mark:', 1),
+    bold('A drawing of our hills:'), box(6200, ''),
     bold('How I use my book:'),
     check('I can draw'), check('I can make marks'), check('I can use a few words'), check('No one marks my book right or wrong'),
   ],
   'cb-rp-researcher-growth-path': () => [
-    P('A researcher grows from guessing to finding out. Put a mark where you are — at the start, and again at the end.', { size: 22 }),
+    P('A researcher grows from guessing to finding out. Put a mark where you are — at the start, and again at the end.', { size: BOOK, line: 300 }),
     example(['guess  —  ask  —  check  —  FIND OUT', '                        ○  (near the start)']),
     bold('At the START of our course:', { before: 100 }),
-    P('guess  —  ask  —  check  —  find out', { size: 24, color: NAVY }), box(500, 'put a ○ where you are'),
+    P('guess  —  ask  —  check  —  find out', { size: 30, color: NAVY, before: 120 }), box(1100, 'put a ○ where you are'),
     bold('At the END of our course:', { before: 140 }),
-    P('guess  —  ask  —  check  —  find out', { size: 24, color: NAVY }), box(500, 'put a ✓ where you are now'),
+    P('guess  —  ask  —  check  —  find out', { size: 30, color: NAVY, before: 120 }), box(1100, 'put a ✓ where you are now'),
   ],
   'cb-rp-what-we-know-page': () => [
     example(['We know:  the hills were full of trees before.', 'We want to find out:  why the soil slides now.']),
-    zones(['What we KNOW about our hills', 'What we WANT to find out'], 2600),
-    stem('We know'), stem('We want to find out'), scribe(),
+    zones(['What we KNOW about our hills', 'What we WANT to find out'], 5200),
+    ...writeBox('The one thing we most want to find out', 2), scribe(),
   ],
   'cb-rp-our-community-map': () => [
-    P('Draw a map of who and what is near our hills.', { size: 22 }),
+    P('Draw a map of who and what is near our hills.', { size: BOOK, line: 300 }),
     example(['(a hut)  (an elder)  (a bare slope)  (someone planting)']),
-    box(2800, 'our map — draw here'),
+    box(6400, 'our map — draw here'),
     bold('Try to show on your map:'),
     check('Someone who remembers the forest'), check('A place that floods or slides'),
     check('Someone who plants — or an agency helping'), check('A bare place, and a green place'),
   ],
   'cb-rp-our-question-page': () => [
     bold('OUR QUESTION:', { color: PLUM }),
-    P('What happens to our hills without trees, and what changes when trees and plants grow back?', { size: 22, color: NAVY, after: 140 }),
+    P('What happens to our hills without trees, and what changes when trees and plants grow back?', { size: BOOK, line: 300, color: NAVY, after: 140 }),
     bold('Our four sub-questions — for each, circle how we will find out:'),
     ...['1.  Before, and now — what changed?', '2.  A bare hill in the rain and the hot sun', '3.  What trees, grass, and roots do for the soil and for us', '4.  What people are doing to help — and is it working?']
-      .flatMap((sq) => [P(sq, { size: 22, before: 60 }), choices('We will:', ['ask & look', 'source pack', 'both'])]),
+      .flatMap((sq) => [P(sq, { size: BOOK, line: 300, before: 60 }), choices('We will:', ['ask & look', 'source pack', 'both'])]),
   ],
   'cb-rp-asking-permission': () => [
     bold('Our asking words — say them every time:'),
     example(['"May I ask you some questions?"', '"Thank you for helping me."']),
-    slot('Our asking words, in our own language (draw or write):', 900),
+    slot('Our asking words, in our own language (draw or write):', 2),
     bold('The rules — keep them every time:', { before: 80 }),
     check('Ask first'), check('Say why I am asking'), check('They can say no, or stop'), check('No names'), check('Keep everyone safe'),
   ],
+  // Four pages: our questions (one open question + its follow-up + the four checks, per sub-question),
+  // our short survey with a tally mat, who we will ask, and what we fixed after trying them out. Each
+  // scaffolds the method taught on the Learn it page immediately before it.
   'cb-rp-our-questions-sheet': () => [
-    example(['Sub-question 1  →  I will ask: "What were the hills like before?"', 'Who I will ask:  an elder.']),
-    bold('For each sub-question, one question to ask, and who to ask:'),
-    ...[1, 2, 3, 4].flatMap((n) => [bold(`Sub-question ${n}:`, { before: 60 }), stem('My question'), stem('Who I will ask')]),
+    example([
+      'Sub-question 1  →  My question:  "What were the hills like when you were young?"',
+      'After they answer I will say:  "Tell me more."',
+      'Checks:  ✓ open   ✓ one thing   ✓ short   ✓ safe',
+    ]),
+    bold('For each sub-question: one open question, and what you will say after they answer.'),
+    ...SUBQ.flatMap((sq, i) => [
+      ...(i === 2 ? [pageBreak(), eyebrow('Design our interview and survey questions'), title('Our questions to ask (2)')] : []),
+      bold(`Sub-question ${i + 1}:  ${sq}`, { before: 100, color: PLUM }),
+      ...writeBox('My question', 3),
+      ...writeBox('After they answer I will say', 2),
+      new Paragraph({ children: [
+        new TextRun({ text: 'Checks:   ', bold: true, size: 19 }),
+        ...['open', 'one thing', 'short', 'safe'].flatMap((t) => [
+          new TextRun({ text: '□  ', size: 20, color: PLUM }), new TextRun({ text: t + '      ', size: 19 }),
+        ]),
+      ], spacing: { after: 40 } }),
+    ]),
+    scribe(),
+
+    eyebrow('Design our interview and survey questions', true),
+    title('Our short survey'),
+    P('A survey question is a small question we ask MANY people, so we can COUNT the answers. So the question must offer people a small number of answers to choose from.', { size: BOOK, line: 300 }),
+    example([
+      'Our survey question:  "Where is it cooler — on the bare hill, or under the trees?"',
+      'The answers people can choose:   on the bare hill   /   the same   /   under the trees',
+      'We asked 10 people:      | |         |         | | | |  | |',
+      'Most people said:  under the trees.  That is 7 out of 10.',
+    ]),
+    ...writeBox('Our survey question', 2),
+    bold('Write or draw the answers people can choose. Then put ONE mark under the answer each person gives.', { before: 100 }),
+    P('A tally is easiest: one mark for each person, and a line across every fifth mark, so we can count in fives.', { size: 20, color: GREY, after: 80 }),
+    tallyMat(3, 3400),
+    stem('How many people we asked in all'),
+    ...writeBox('The answer most people gave', 2),
+    scribe(),
+
+    eyebrow('Design our interview and survey questions', true),
+    title('Who we will ask'),
+    P('Ask FIVE different kinds of people. If everyone we ask is like us, we only learn one thing.', { size: BOOK, line: 300 }),
+    grid(['Which kind of person', 'What they might know that the others do not'], [4200, 6600],
+      ['an elder who lived here before', 'what the hills looked like, and when the trees went'], 5),
+    scribe(),
+
+    eyebrow('Design our interview and survey questions', true),
+    title('We tried it, and we fixed it'),
+    P('Try your questions on your partner first. A question that confuses your partner will confuse a stranger.', { size: BOOK, line: 300 }),
+    example([
+      'The question I tried:  "The rain ruins it, doesn\u2019t it?"',
+      'What went wrong:  I already said the answer. My partner just agreed.',
+      'My better question:  "What happens here when it rains?"',
+    ]),
+    ...[1, 2].flatMap((n) => [
+      bold(`Question ${n}:`, { before: 100 }),
+      ...writeBox('The question I tried', 1),
+      ...writeBox('What went wrong', 2),
+      ...writeBox('My better question', 2),
+    ]),
+    scribe(),
+  ],
+  // The pair's readiness page, filled together before they go out to gather.
+  'cb-rp-ready-to-gather': () => [
+    example([
+      'Our one most important question:  "Tell me about the last big rain."',
+      'Who:  an elder near the water point.   Where:  her shelter.   When:  after school, Thursday.',
+      'If she is not there we will ask:  the man who plants on the slope.',
+    ]),
+    bold('What we are carrying:'),
+    check('Our questions, and our follow-ups'), check('Our survey page, and our marks'),
+    check('Our asking words'), check('Our gathering page'), check('Something to draw with'),
+    bold('Our ONE most important question — the one we ask if they only have a moment:', { before: 100 }),
+    box(800, ''),
+    stem('Who we will ask'), stem('Where'), stem('When'),
+    ...writeBox('If they are not there, we will ask', 2),
+    bold('The things we never do:', { before: 100 }),
+    check('We never write anyone\u2019s name'), check('We never press someone who says no'),
+    check('We never argue with an answer'), check('We never go alone, and never anywhere unsafe'),
+    scribe(),
   ],
   'cb-rp-can-we-trust-it': () => [
     example(['Source:  the company website.', 'Who & why?  a company — it sells trees.', 'How do they know?  no proof shown.', 'Does it agree?  only a little  →  trust LESS.']),
     bold('For each source, make the three checks:'),
-    stem('Who made it, and why?'),
-    stem('How do they know — is it still true?'),
-    stem('Does it agree with the other sources, and with what WE found?'),
+    ...writeBox('Who made it, and why?', 2),
+    ...writeBox('How do they know — is it still true?', 2),
+    ...writeBox('Does it agree with the other sources, and with what WE found?', 2),
     bold('How much can we trust it?', { before: 80 }), choices('', ['a lot', 'some', 'a little']),
   ],
   'cb-rp-our-themes': () => [
     example(['Theme:  "the bare hills are hotter."   ( MANY people said this )']),
     bold('Group what we found into themes. Name each, and how many said it:'),
-    ...[1, 2, 3].flatMap((n) => [bold(`Theme ${n}:`, { before: 60 }), stem('What keeps coming up'), choices('How many said it?', ['few', 'some', 'many'])]),
+    ...[1, 2, 3].flatMap((n) => [bold(`Theme ${n}:`), ...writeBox('What keeps coming up', 2), choices('How many said it?', ['few', 'some', 'many'])]),
   ],
   'cb-rp-our-root-cause': () => [
     example(['The problem:  the soil slides when it rains.', '→ Why?  the hills are bare.', '→ Why?  the trees were cut.', '→ Why?  families needed wood.', '→ Why?  there was no other fuel.', 'ROOT CAUSE:  no other fuel, and many people arrived fast.']),
-    stem('The problem'),
-    stem('→ Why?'), stem('→ Why?'), stem('→ Why?'), stem('→ Why?'), stem('→ Why?'),
-    bold('The ROOT CAUSE (the reason we cannot easily push past):', { before: 60 }), box(800, ''),
+    ...writeBox('The problem', 1),
+    ...[1, 2, 3, 4, 5].flatMap((n) => writeBox(`→ Why? (${n})`, 1)),
+    ...writeBox('The ROOT CAUSE (the reason we cannot easily push past):', 2),
     choices('Does our evidence support it?', ['yes', 'not sure']),
   ],
   'cb-rp-looking-deeper-page': () => [
     example(['Power:  agencies, families, the monsoon.', 'Beliefs:  "the trees are not ours to plant."', 'Hurt:  families on bare slopes.   Helped:  everyone, if it works.']),
-    zones(['Who or what has POWER?', 'What do people BELIEVE?', 'Who is HELPED / HURT?'], 2200),
-    stem('One thing looking deeper shows me'), scribe(),
+    zones(['Who or what has POWER?', 'What do people BELIEVE?', 'Who is HELPED / HURT?'], 5000),
+    ...writeBox('One thing looking deeper shows me', 2), scribe(),
   ],
   'cb-rp-our-insights': () => [
     example(['Many people said the bare hills are hotter,', 'so I think shade matters,', 'because we felt it is cooler under a tree.']),
     bold('Write our insights. Use the frame, and point to our evidence:'),
-    ...[1, 2].flatMap((n) => [bold(`Insight ${n}:`, { before: 60 }), stem('Many people said / I saw'), stem('so I think'), stem('because (our evidence)')]),
+    ...[1, 2].flatMap((n) => [bold(`Insight ${n}:`), ...writeBox('Many people said / I saw', 2), ...writeBox('so I think', 1), ...writeBox('because (our evidence)', 1)]),
   ],
   'cb-rp-our-plan': () => [
     example(['Who:  our families.', 'How:  a poster with pictures.', 'One thing:  trees keep our hills safe.']),
     choices('Who most needs to hear this?', ['friends', 'families', 'community', 'camp leaders']),
     choices('How will we show it?', ['poster', 'talk with pictures', 'role-play', 'story']),
-    stem('The ONE thing we want them to understand'),
+    ...writeBox('The ONE thing we want them to understand', 3),
+    ...writeBox('How we will show it — draw or write our plan', 3),
   ],
   'cb-rp-build-our-output-sheet': () => [
     example(['Main message:  trees keep our hills safe.', 'Evidence:  elders remember; we saw bare hills slide; the science agrees.', 'Honest limit:  we only asked a few people.']),
-    stem('Our main message (one thing)'),
-    bold('Our evidence for it:'), stem('•'), stem('•'), stem('•'),
-    stem('An honest limit (we only ___)'),
+    ...writeBox('Our main message (one thing)', 2),
+    ...writeBox('Our evidence for it — one, two, three', 3),
+    ...writeBox('An honest limit (we only ___)', 2),
     bold('Before we share:', { before: 60 }), check('We practised saying it'), check('We can answer questions about it'),
   ],
   'cb-rp-how-i-have-grown': () => [
     example(['My question was about our hills and trees.', 'I got to:  FIND OUT (I started by guessing).', 'What helped:  asking elders, and looking myself.', 'I would do differently:  ask more people.']),
-    stem('My question was about'),
+    ...writeBox('My question was about', 2),
     bold('I got to here as a researcher — put a ✓ on the path:'),
-    P('guess  —  ask  —  check  —  find out', { size: 24, color: NAVY }), box(500, '✓'),
-    stem('What helped me'),
-    stem('One way I have grown'),
-    stem('What I would do differently next time'),
-    stem('One thing I still want to find out'), scribe(),
+    P('guess  —  ask  —  check  —  find out', { size: 30, color: NAVY, before: 120 }), box(1100, 'put a ✓ where you are now'),
+    ...writeBox('What helped me', 1),
+    ...writeBox('One way I have grown', 2),
+    ...writeBox('What I would do differently next time', 1),
+    ...writeBox('One thing I still want to find out', 1), scribe(),
   ],
 };
 
@@ -483,9 +465,10 @@ function workbookChildren(opts = {}) {
   if (!opts.embedded) {
     c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 52, color: NAVY })], spacing: { after: 40 } }));
     c.push(P('Student Workbook — Our Research Book', { size: 30, bold: true, color: PLUM, after: 40 }));
-    c.push(P("The trees on our hills  ·  Learning Bridge+ (Cox's Bazar)", { size: 22, color: GREY, after: 200 }));
+    c.push(P("The trees on our hills  ·  Learning Bridge+ (Cox's Bazar)", { size: BOOK, line: 300, color: GREY, after: 200 }));
   }
-  c.push(P('This is your research book. It has the sources we read, a page for each week of our research, and a page for each step of our investigation. Every page shows an example first, then a place for you to add your own. You can draw, make marks, or use a few words — no neat writing needed.', { size: 22 }));
+  if (!opts.embedded) c.push(...printNotes('book', ['If you cannot print the whole book, print in this order: the Learn it pages and the pages the learners write on, then the source pack, then the answers page (one copy for the group is enough — it does not have to be in every book).']), ...contents('The parts of your book, and the page each one starts on. Word fills the numbers in when this file is opened.'));
+  c.push(P('This is your research book. It has the sources we read, a page for each week of our research, and pages for each step of our investigation. Before each step there is a LEARN IT page: it teaches you how to do that step — how to ask a good question, how to weigh a source, how to find what our evidence means. Read it again any time, even after our session; it stays in your book. Some Learn it pages end with a TRY IT YOURSELF — you can do it on your own, and the answers are at the back of this book, so you can check them yourself. Then comes an example, and then a place for you to add your own. You can draw, make marks, or use a few words — no neat writing needed.', { size: BOOK, line: 300 }));
   c.push(scribe());
 
   // The source pack, as learners read it (graded readings + word bank; no full originals)
@@ -499,41 +482,139 @@ function workbookChildren(opts = {}) {
   // My research weeks — the between-session pursuit loop, scaffolded and printed several times.
   c.push(pageBreak());
   c.push(H1('My research weeks'));
-  c.push(P('Between our meetings, I do one small step of our research. Each week, I fill one of these. The first one is done as an example.', { size: 22 }));
+  c.push(P('Between our meetings, I do one small step of our research. Each week, I fill one of these. The first one is done as an example.', { size: BOOK, line: 300 }));
   for (let w = 1; w <= 6; w++) c.push(...weeklySpread(w, w === 1));
 
-  // One SCAFFOLDED page per activity worksheet, in unit (course) order.
-  unit.phases.forEach((ph) => {
+  // One SCAFFOLDED page per activity worksheet, in unit (course) order, grouped under a part heading
+  // per phase so the book has a shape a learner can hold and the contents page stays short.
+  let partOpen = 0;
+  unit.phases.forEach((ph, pi) => {
     ph.blocks.forEach((b) => {
       const m = b.materialSlug ? mat[b.materialSlug] : null;
       if (!m || !m.worksheet || !m.worksheet.slug) return;
       const ws = mat[m.worksheet.slug];
       if (!ws) return;
-      c.push(pageBreak());
-      c.push(eyebrow('Research book · ' + m.title));
+      // LEARN IT — the method, taught, before the learner is asked to use it. Offline there is nothing
+      // else to look it up in, so the research book has to be a textbook as well as a workbook. It is
+      // its own page, not a header on the working page, so a learner can re-read the method while their
+      // own page is already filled in.
+      // returns the part heading when a new part opens, and reports whether it took the page break
+      const openPart = () => {
+        if (partOpen === pi + 1) return [];
+        partOpen = pi + 1;
+        return [partHead(pi + 1, ph.title, true)];
+      };
+      const lt = m.learnerTeaching;
+      if (lt) {
+        const head = openPart();
+        c.push(...head);
+        c.push(eyebrowChip('learn it', m.title, head.length === 0));
+        c.push(title(lt.title));
+        // drop the readAloud's own top-level heading; the page title already carries it
+        c.push(...mdBlocks(String(lt.readAloud || '').replace(/^\s*##\s+.*\n/, '')));
+        if (lt.words && lt.words.length) {
+          c.push(noteBox('New words for our word wall:', lt.words.map((w) => `${w.term} — ${w.meaning}`)));
+        }
+        // TRY IT YOURSELF — printed so a learner can do it alone, with the answers (where the skill has
+        // right answers) at the BACK of the book rather than on the page. It never says what the
+        // facilitator will do: they may run the group version their own way, or not at all.
+        if (lt.tryIt) {
+          const t = lt.tryIt;
+          c.push(new Paragraph({ children: [new TextRun({ text: 'Try it yourself', bold: true, size: 23, color: PLUM })], spacing: { before: 200, after: 60 } }));
+          c.push(...toParas(t.intro).map((x) => P(x, { size: BOOK, line: 300 })));
+          (t.items || []).forEach((it, i) => {
+            c.push(P(`${i + 1}.   ${it}`, { size: BOOK, line: 300, before: 80, after: 20, keepNext: true }));
+            if ((t.chooseFrom || []).length) {
+              c.push(new Paragraph({ children: [
+                ...t.chooseFrom.flatMap((o) => [new TextRun({ text: '○  ', size: BOOK, color: PLUM }), new TextRun({ text: o + '      ', size: BOOK })]),
+              ], indent: { left: 340 }, spacing: { after: 60, line: 280 } }));
+            }
+          });
+          if (t.then) c.push(...toParas(t.then).map((x) => P(x, { size: BOOK, line: 300, before: 60 })));
+          if ((t.answers || []).length) {
+            c.push(P('The answers are at the back of your book, on the "Answers — try it yourself" page. Try it first, then check.', { size: 20, italics: true, color: GREY, before: 80 }));
+          }
+        }
+        c.push(scribe());
+      }
+      const head2 = openPart();
+      c.push(...head2);
+      c.push(eyebrow(`${m.title}`, head2.length === 0));
       c.push(title(ws.title));
       if (ws.slug === 'cb-rp-source-pack-evidence-log') {
         c.push(P('For each source, write or draw what it tells us — the first row is done as an example.', { size: 20, color: GREY, after: 60 }));
         c.push(grid(['Which source', 'What it tells us', 'New words I met', 'Can I trust it?'], [1700, 4600, 2200, 2300],
           ['Source B (FAO)', 'workers plant trees to hold the soil', 'crib wall, monsoon', 'a lot — UN, with numbers'], 6));
       } else if (ws.slug === 'cb-rp-gathering-record') {
-        c.push(P('For each person or place, write or draw what you found — no names. The first row is an example.', { size: 20, color: GREY, after: 60 }));
-        c.push(grid(['Who or place (no names)', 'What I found', 'One thing that surprised me'], [3200, 4400, 3200],
-          ['an elder', 'the hills had big trees and shade before', 'how fast the trees went'], 7));
+        // One page per interview, anchored to our four sub-questions, so the answers land against the
+        // question they answer instead of in one undifferentiated pile. Three pages — the target is
+        // three interviews each. Then a page for what we saw with our own eyes.
+        c.push(P('Use one page for each person you ask. Write or draw what they said, next to the sub-question it answers. Never write anyone\u2019s name.', { size: 20, color: GREY, after: 60 }));
+        c.push(example([
+          'Who I asked:  an elder, near the water point.    When:  Thursday, after school.',
+          '1. Before & now  →  "there were big trees, and shade all the way up" (drew tall trees)',
+          '2. Rain & hot sun  →  "the water comes down fast now, it takes the path away"',
+          'One thing that surprised me:  how fast the trees went — she said only a few years.',
+        ]));
+        for (let n = 1; n <= 3; n++) {
+          if (n > 1) {
+            c.push(eyebrow('Go and gather', true));
+            c.push(title(`Interview ${n}`));
+          } else {
+            c.push(new Paragraph({ children: [new TextRun({ text: 'Interview 1', bold: true, size: 26, color: PLUM })], spacing: { before: 160, after: 80 } }));
+          }
+          c.push(new Paragraph({ children: [
+            new TextRun({ text: 'Who I asked (no names)  ', size: 21 }), new TextRun({ text: '____________________     ', size: 21, color: LINE }),
+            new TextRun({ text: 'When  ', size: 21 }), new TextRun({ text: '____________________', size: 21, color: LINE }),
+          ], spacing: { after: 120 } }));
+          SUBQ.forEach((sq, i) => c.push(slot(`${i + 1}.  ${sq}  —  what they said (draw, mark, or write):`, 3)));
+          c.push(...writeBox('One thing that surprised me', 1));
+          c.push(scribe());
+        }
+        c.push(eyebrow('Go and gather', true));
+        c.push(title('What I saw with my own eyes'));
+        c.push(P('Not everything comes from asking. Go and look — at a bare place, and at a green place. What is different?', { size: BOOK, line: 300 }));
+        c.push(grid(['The place', 'What I saw there', 'What it tells us about our question'], [2800, 4000, 4000],
+          ['the bare slope by the path', 'cracks, and a channel the water cut', 'water runs fast where nothing holds it'], 4));
+        c.push(scribe());
       } else if (SCAFFOLD[ws.slug]) {
         c.push(...SCAFFOLD[ws.slug]());
       } else {
         if (ws.learnerContent) c.push(...mdBlocks(ws.learnerContent));
-        c.push(box(2600, 'draw, mark, or write here'));
+        c.push(...writeBox('Draw, mark, or write here:', 3));
       }
+      c.push(...notesPage(m.title));
     });
   });
 
+  // ANSWERS — at the BACK, so a learner can try each "Try it yourself" honestly and then check it
+  // themselves. Only skills with right answers appear here; a generative task has no key.
+  const withAnswers = [];
+  unit.phases.forEach((ph) => ph.blocks.forEach((b) => {
+    const m = b.materialSlug ? mat[b.materialSlug] : null;
+    const t = m && m.learnerTeaching && m.learnerTeaching.tryIt;
+    if (t && (t.answers || []).length) withAnswers.push({ m, t });
+  }));
+  if (withAnswers.length) {
+    c.push(new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, spacing: { after: 140 },
+      children: [new TextRun({ text: 'Answers — try it yourself', bold: true, size: 36, color: NAVY })] }));
+    c.push(P('Do the "Try it yourself" on the Learn it page first, then look here. Getting one wrong is useful — go back and read that page again, and see why.', { size: BOOK, line: 300 }));
+    withAnswers.forEach(({ m, t }) => {
+      c.push(H2(m.learnerTeaching.title));
+      t.items.forEach((it, i) => {
+        c.push(P(`${i + 1}.   ${it}`, { size: 21, bold: true, before: 80, after: 30 }));
+        c.push(P(`${t.answers[i]}`, { size: 21, color: '3F4A34', after: 40 }));
+      });
+      c.push(hr());
+    });
+  }
+
   if (!opts.embedded) {
-    c.push(pageBreak());
+    // the colophon rides at the foot of the last page; on its own sheet it cost a page per learner
+    c.push(hr());
     c.push(P("Cox's Bazar edition · Research Project component of Learning Bridge+ · not for redistribution outside the programme.", { size: 18, color: GREY }));
   }
-  return c;
+  return c.filter(Boolean);
 }
 
 // ============================================================ PICTURE-WORD CARDS
@@ -557,8 +638,21 @@ function wordBank() {
   }
   return out;
 }
+// Words introduced by the activities' own teaching pages (learnerTeaching.words), so the picture cards
+// and the word wall carry the METHOD vocabulary as well as the subject vocabulary from the source pack.
+function teachingWords() {
+  const out = []; const seen = new Set();
+  for (const m of Object.values(mat)) {
+    for (const w of (m.learnerTeaching && m.learnerTeaching.words) || []) {
+      const k = w.term.toLowerCase();
+      if (!seen.has(k)) { seen.add(k); out.push({ term: w.term, meaning: w.meaning }); }
+    }
+  }
+  return out;
+}
 const cardCell = (term, meaning) => new TableCell({
-  width: { size: 5400, type: WidthType.DXA },
+  width: { size: Math.floor(COL / 2), type: WidthType.DXA },
+  margins: { top: 120, bottom: 120, left: 160, right: 160 },
   children: [
     new Paragraph({ children: [new TextRun({ text: term || ' ', bold: true, size: 30, color: NAVY })], spacing: { after: 40 } }),
     new Paragraph({ children: [new TextRun({ text: meaning || '', size: 18, color: GREY })], spacing: { after: 200 } }),
@@ -575,6 +669,7 @@ function cardsChildren() {
     { term: 'Our hills — before', meaning: 'the hills full of trees, long ago (draw the forested hills)' },
     { term: 'Our hills — now', meaning: 'the bare slopes today (draw the bare hills)' },
     ...wordBank(),
+    ...teachingWords(),
     { term: '', meaning: '' }, { term: '', meaning: '' },
   ];
   if (items.length % 2 === 1) items.push({ term: '', meaning: '' });
@@ -582,8 +677,22 @@ function cardsChildren() {
   for (let i = 0; i < items.length; i += 2) {
     rows.push(new TableRow({ height: { value: 2600, rule: 'atLeast' }, cantSplit: true, children: [cardCell(items[i].term, items[i].meaning), cardCell(items[i + 1].term, items[i + 1].meaning)] }));
   }
-  c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [5400, 5400], rows }));
-  return c;
+  const cardW = Math.floor(COL / 2);
+  c.push(new Table({
+    width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [cardW, cardW],
+    // dashed, because these are meant to be cut apart — the border is a cutting line, and saying so
+    // with the line itself beats a sentence telling people to cut carefully
+    borders: {
+      top: { style: BorderStyle.DASHED, size: 4, color: LINE },
+      bottom: { style: BorderStyle.DASHED, size: 4, color: LINE },
+      left: { style: BorderStyle.DASHED, size: 4, color: LINE },
+      right: { style: BorderStyle.DASHED, size: 4, color: LINE },
+      insideHorizontal: { style: BorderStyle.DASHED, size: 4, color: LINE },
+      insideVertical: { style: BorderStyle.DASHED, size: 4, color: LINE },
+    },
+    rows,
+  }));
+  return c.filter(Boolean);
 }
 
 // ============================================================ ASSESSMENT RECORD (facilitator, copy per learner)
@@ -633,19 +742,16 @@ function rubricChildren() {
   point('End (summative) — at the showcase');
   c.push(P('This is the judgement that counts towards the certificated competency and the readiness decision.', { size: 18, italics: true, color: GREY, before: 80 }));
   c.push(P('Levels, GPA values and generic descriptors are Amala’s official Competency Framework and Proficiency Scale (cohorts starting 2025).', { size: 16, color: GREY, before: 200 }));
-  return c;
+  return c.filter(Boolean);
 }
 
 
 // A document wrapper around a children array. The children builders above are exported so the
 // one-stop Educator Guide (generate-lb-guides.js) embeds exactly this content, with no drift.
-const { Footer, PageNumber } = require('docx');
-// A running footer with the page number — these plans are long enough to be printed and paged through.
-const pageFooter = (text) => new Footer({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [
-  new TextRun({ text: `${text}    `, size: 16, color: GREY }), new TextRun({ children: [PageNumber.CURRENT], size: 16, color: GREY }),
-] })] });
-const FOOTER_TEXT = "Research Project  ·  Learning Bridge+ (Cox's Bazar)";
-const doc = (children) => new Document({ styles: { default: { document: { run: { font: 'Calibri', size: 22 } } } }, sections: [{ properties: { page: LETTER }, footers: { default: pageFooter(FOOTER_TEXT) }, children }] });
+// The document shell, the contents page and the printing notes all come from the shared house style.
+const FOOTER_GUIDE = "Research Project  ·  Learning Bridge+ (Cox's Bazar)";
+const FOOTER_BOOK = 'Our Research Book  ·  you can draw or say your answer';
+const doc = (children, opts = {}) => makeDoc(children, { footerText: opts.footer || FOOTER_GUIDE });
 
 module.exports = { unit, mat, facilitatorPlanChildren, workbookChildren, cardsChildren, rubricChildren };
 
@@ -654,7 +760,7 @@ async function main() {
   if (!fs.existsSync(OUT)) fs.mkdirSync(OUT, { recursive: true });
   const jobs = [
     ['research-project-facilitator-unit-plan.docx', doc(facilitatorPlanChildren())],
-    ['research-project-student-workbook.docx', doc(workbookChildren())],
+    ['research-project-student-workbook.docx', doc(workbookChildren(), { footer: FOOTER_BOOK })],
     ['research-project-assessment-rubric.docx', doc(rubricChildren())],
     ['research-project-picture-cards.docx', doc(cardsChildren())],
   ];

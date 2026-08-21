@@ -1,0 +1,44 @@
+id: dehumanisation
+slug: dehumanisation
+access: public
+term: Dehumanisation
+category: content
+matchPhrases:
+- dehumanisation
+- dehumanization
+- dehumanise
+definition: >-
+  Presenting a group as less than fully human, which removes the normal restraint against
+  harming them.
+explainer: |
+  Dehumanisation is the mechanism that converts hostility into permission. Once a group is described
+  as vermin, disease, or cargo, the ordinary human reluctance to harm people stops applying to them,
+  because the category "people" has been withdrawn.
+
+  It sits at the far end of a continuum learners have already met.
+  [Stereotype](/glossary/stereotype) simplifies a group, [prejudice](/glossary/prejudice) attaches
+  hostile feeling to it, [othering](/glossary/othering) makes it alien, and dehumanisation removes it
+  from the moral circle altogether. In Glasl's model of
+  [conflict escalation](/glossary/conflict-escalation) this is precisely stage 7, where limited
+  destructive blows become legitimate because the opponent is no longer seen as a human being.
+
+  Two facts are worth putting in front of learners. Dehumanisation is **deliberate and taught**:
+  militaries train it, propaganda manufactures it, and both use repetition and imagery rather than
+  argument. And because it is taught, it can be untaught. If a society can deliberately train people
+  to kill, it can deliberately train them to build peace, which is the hopeful reading of an
+  otherwise grim mechanism.
+furtherReading:
+- title: "Seville Statement on Violence"
+  url: https://en.wikipedia.org/wiki/Seville_Statement_on_Violence
+  source: Wikipedia
+  note: >-
+    Overview of the 1986 UNESCO-adopted statement that war and violence are not biologically
+    inevitable in humans. Useful as the hopeful counterweight to this term.
+examples:
+- Propaganda that describes a minority as insects to be cleared away
+nonExamples:
+- Strongly criticising the actions of a government while treating its supporters as people
+useInContext: >-
+  Learners examine how dehumanising language is manufactured, and consider what deliberate
+  rehumanising would involve.
+relatedTermIds: [othering, cultural-violence, conflict-escalation, prejudice, violence]

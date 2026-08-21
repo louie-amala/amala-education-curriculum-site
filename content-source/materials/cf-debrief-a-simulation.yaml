@@ -1,0 +1,91 @@
+id: cf-debrief-a-simulation
+slug: cf-debrief-a-simulation
+access: public
+type: educator-move
+title: "Debrief a simulation in four passes"
+summary: >-
+  End the roles, then go facts, feelings, evaluation, application. Analysing before the feelings are
+  dealt with turns a debrief into a continuation of the argument.
+tags:
+  - id: learning-facilitation
+    how: >-
+      When facilitating, close the simulation explicitly, mix the groups, and hold the room to one
+      pass at a time rather than letting it jump to conclusions.
+  - id: learning-design
+    how: >-
+      When designing, budget more time for the debrief than for the simulation, and write the four
+      passes into the plan so they do not get compressed when the activity overruns.
+  - id: reflection-self-assessment
+  - id: dialogue-climate
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  A simulation without a debrief is an experience. The debrief is where it becomes learning, and it
+  reliably needs more time than the simulation itself.
+
+  ## First, end the roles
+
+  Say plainly that the simulation is over, that nobody is in role, and that nothing done inside it is
+  held against anyone. Use a physical marker: remove the armbands, shake it out, shake hands. Then
+  **mix the groups**, so that the debrief happens across the former divide rather than inside each
+  side. Debriefing in the original teams entrenches them.
+
+  ## Then four passes, in order
+
+  **1. Facts.** What actually happened. Briefing sheets read aloud, materials described, observers
+  reporting without interpretation. This is the pass people most want to skip and the one that makes
+  the rest possible: a group that has not agreed what happened will argue about what it meant.
+  Guide people back when they jump ahead.
+
+  **2. Feelings.** What did you notice about the other group, what surprised you, what frustrated
+  you, what behaviours created good feeling and what created resentment. Ask the disadvantaged party
+  directly and early, and name any inequality you engineered as yours rather than theirs.
+
+  **3. Evaluation.** What did this represent, and how many parallels can you find? What would you do
+  differently? This is where the simulation becomes about the world.
+
+  **4. Application.** How will you behave differently because of this? Specific, personal, and future
+  tense. Without this pass the group has had an interesting hour.
+
+  ## Two practicalities
+
+  Small mixed groups work better than a whole-group discussion for passes 1 and 2, with you moving
+  between them and a spokesperson summarising. And write down what people say to each other during
+  the simulation itself: quoting it back in pass 1 is the best evidence you will have.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    The move exists so learners leave with their own conclusions rather than yours, and so nobody
+    carries an unresolved feeling out of the room. Both are conditions for a learner being willing to
+    take a risk in the next activity.
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Explicit de-roling, dealing with feelings before analysis, and owning any engineered inequality
+      are what make a deliberately uncomfortable simulation survivable.
+  - principle: feedback-and-data
+    how: >-
+      The facts pass builds a shared, evidenced account of what happened before anyone interprets it,
+      which is the same discipline the course teaches for analysing a conflict.
+relatedSlugs:
+  - cf-charged-discussions
+  - cf-trauma-sensitive
+  - cf-first-and-second-thinking
+  - pb-jah-and-kay
+  - pb-paper-factory-simulation
+rights:
+  status: own-expression
+  holder: Barbara Steinwachs (the debriefing sequence)
+  basis: >-
+    Generalised from the debrief structures across Amala's own simulations, which follow the sequence
+    set out in Steinwachs (1992). Credited, not quoted.
+sourceRefs:
+  - "Jah and Kay Simulation (Peacebuilding resources folder)"
+  - "Paper Factory Simulation (Peacebuilding resources folder)"
+  - "The Foundations of Positive Peace / Barriers to Positive Peace Exercise (Peacebuilding resources folder)"
+provenanceNote: >-
+  Generalised from the debrief structures used across Amala's peacebuilding simulations, which follow
+  the factual, interpretive, evaluative sequence set out in Steinwachs (1992), "How to Facilitate a
+  Debriefing".

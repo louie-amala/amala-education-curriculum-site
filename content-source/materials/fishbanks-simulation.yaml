@@ -1,0 +1,128 @@
+id: fishbanks-simulation
+slug: fishbanks-simulation
+access: public
+type: resource
+title: "Fishbanks (published simulation): using it in this course"
+summary: >-
+  Fishing companies compete for a shared stock until there is none left. Where it fits the
+  curriculum, and where to get it free.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only, and it is web-based: each team needs a device with a connection, and the facilitator
+      runs the session from a dashboard. Where devices are not available, Amala's own resource-sharing
+      activities cover related ground on paper.
+materialsAndPreparation:
+  - Free facilitator access from MIT Sloan, linked below. Register there and set up the session in advance.
+  - One device with an internet connection per team, plus one for the facilitator.
+  - A trial run. The dashboard has options for auctions, permits and quotas, and it is worth knowing which you will use before the room is waiting.
+  - Time for the debrief, which is where the systems thinking happens.
+educatorContent: |
+  Fishbanks was created by Jason Jay at the MIT Sloan Sustainability Initiative. Teams run fishing
+  companies. They buy and sell ships, decide where to fish, negotiate with each other, and try to
+  maximise their net worth. The fish stock is modelled and shared.
+
+  Almost every group fishes it to collapse. They do so while behaving rationally, and usually while
+  being perfectly aware, in the abstract, that overfishing is possible.
+
+  ## Why it belongs in the curriculum, and where
+
+  **Economics for Positive Change** asks learners to build a collective understanding of an economic
+  system, and then to test initiatives that meet human needs within the means of the planet. Fishbanks
+  is that second clause made concrete: a system in which individually sensible decisions produce a
+  collectively catastrophic outcome. It is the cleanest demonstration of a commons problem available,
+  and it sets up every later conversation about regulation, quotas and shared resources.
+
+  **Science Informed Action** takes objective 2 from it. Learners can see the stock data throughout,
+  and they still collapse it. That gap, between having the evidence and acting on it, is the honest
+  subject of the course.
+
+  Jay's own summary of the lesson is worth giving learners at the end rather than the start: good
+  intentions cannot overcome a broken system; only good structure and governance can.
+
+  ## What to protect in the debrief
+
+  - **Do not let it become a morality tale.** Nobody in the room set out to destroy the fishery. Ask
+    what each decision looked like at the time it was made.
+  - **Find the moment it was still recoverable.** There is always one, and locating it is what turns
+    the session into a lesson about intervening early.
+  - **Ask what rule would have saved it.** Then ask who would have had to agree to it, and how. That is
+    the bridge to the governance work.
+  - **Connect it to a local commons.** Water, grazing, firewood, fishing grounds. Most learners can
+    name one, and the mechanism transfers exactly.
+
+  ## Getting it
+
+  MIT Sloan make Fishbanks free for educators through their teaching resources library, linked below.
+  Amala does not reproduce it: it is a hosted web simulation, so linking is the only sensible option.
+learnerContent: |
+  Your team runs a fishing company. You can buy ships, sell ships, and choose where to fish. You are
+  trying to build the most valuable company.
+
+  You share the sea with the other companies.
+
+  Afterwards:
+
+  - What happened to the fish? When did you notice?
+  - What did each of your decisions look like **at the time you made it**?
+  - Was there a moment when it could still have been saved? What would that have taken?
+  - **What rule would have prevented this? Who would have had to agree to it?**
+  - What shared resource in your own community works like this?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners experience a collapse they caused while behaving reasonably, which is what makes the case
+    for governance land as something practical rather than as a restriction. They leave able to
+    recognise the same structure around a local shared resource.
+principlesForegrounded: [authentic-challenges, responsible-action, collaboration]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The model is a real one and the collapse is genuinely produced by the group's own decisions.
+  - principle: responsible-action
+    how: >-
+      The debrief moves from what went wrong to what rule would have prevented it and who would have
+      had to agree, which is where responsibility becomes actionable.
+  - principle: collaboration
+    how: >-
+      Teams may negotiate throughout, and whether they build any shared restraint decides the outcome.
+competencyCodes: [FPS3, APS2, APS1, FSI1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The debrief is an exercise in identifying which feature of the system, rather than which
+      decision-maker, produced the collapse.
+  - code: APS2
+    how: >-
+      Stock data is visible throughout, so learners can examine directly why having the evidence did
+      not change their behaviour.
+  - code: APS1
+    how: >-
+      Every purchase has consequences for a shared resource that nobody intended, which is unintended
+      consequence in its purest form.
+  - code: FSI1
+    how: >-
+      The closing task, naming a commons in the learner's own community that works this way, turns the
+      simulation into a research question.
+objectiveIds: [economics-for-positive-change--o1, science-informed-action--o2]
+relatedSlugs: [world-climate-simulation, the-trading-game, pb-sharing-the-earths-resources, systems-thinking-iceberg-model]
+links:
+  - label: "Fishbanks: A Renewable Resource Management Simulation (MIT Sloan)"
+    url: https://mitsloan.mit.edu/teaching-resources-library/fishbanks-a-renewable-resource-management-simulation
+    note: "Free for educators. Web-based: register, then run the session from a facilitator dashboard. Options for auctions, permits and quotas."
+rights:
+  status: linked-not-reproduced
+  holder: MIT Sloan School of Management (Jason Jay)
+  basis: >-
+    Fishbanks is a hosted web simulation made free to educators by MIT Sloan. Nothing of it is
+    reproduced here: this page describes what it does, argues where it fits the curriculum, and links
+    to MIT's own version. All wording is Amala's own.
+  note: >-
+    MIT state no open licence, so link rather than copy, and do not attempt to rebuild the model.
+sourceRefs:
+  - "Fishbanks: A Renewable Resource Management Simulation, MIT Sloan Sustainability Initiative (Jason Jay)."
+provenanceNote: >-
+  Identified in August 2026 while researching simulations for the courses that had no materials.
+  Written from scratch as a pointer to MIT Sloan's published simulation.

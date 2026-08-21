@@ -1,0 +1,140 @@
+id: pillars-of-positive-peace
+slug: pillars-of-positive-peace
+access: public
+type: concept
+title: "The pillars of positive peace"
+summary: >-
+  The eight measurable conditions that peaceful societies share, used as a checklist for what a
+  place would need in order to stay peaceful.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Introduce the eight only after a group has generated its own list from an activity. Handed over
+      cold it is a poster; arrived at, it is a confirmation that their own thinking was heading
+      somewhere real. Then run it as an audit of the learners' own context, pillar by pillar.
+  - context: independent
+    how: >-
+      The framework reads perfectly well alone and the audit works as an independent walk through a
+      learner's community. What is lost is the argument over whether a pillar is present or absent,
+      so ask for evidence against each judgement rather than a yes or no.
+educatorContent: |
+  Positive peace is the presence of the attitudes, institutions and structures that create and
+  sustain peaceful societies. The Institute for Economics and Peace turned that idea into something
+  measurable by asking a statistical question: what do the most peaceful countries have in common
+  that the least peaceful do not? Eight factors emerged, and they are known as the Pillars of
+  Positive Peace.
+
+  ## The eight
+
+  - **Well-functioning government:** services delivered, decisions made and enforced, trust in
+    public institutions.
+  - **Equitable distribution of resources:** access to what people need to live, not concentrated
+    in a few hands.
+  - **Free flow of information:** people can find out what is happening and hold power to account.
+  - **Good relations with neighbours:** across borders and, at smaller scales, across communities.
+  - **High levels of human capital:** health and education, so people can develop and use their
+    capabilities.
+  - **Acceptance of the rights of others:** formally in law and informally in how people treat each
+    other.
+  - **Low levels of corruption:** resources reach their purpose, and the rules apply to everyone.
+  - **Sound business environment:** livelihoods exist that do not depend on conflict.
+
+  ## Why it earns its place in a course
+
+  Two reasons. First, it converts a value into a to-do list. "Build peace" is not actionable; "there
+  is no free flow of information in this camp, and here is what that produces" is. Second, it works
+  at any scale. The pillars were derived at country level, and learners apply them perfectly well to
+  a school, a block or a neighbourhood.
+
+  ## How to use it
+
+  Never as the opening move. The pillars land when a group has already produced its own list of what
+  a peaceful society needs, usually from a simulation of an unpeaceful one, and then meets a
+  framework that contains most of what they said plus two or three things they missed. The
+  conversation to have is about the gap: what did we name that this does not, and what does it name
+  that we did not?
+
+  The natural follow-on is an audit. Which pillars are strong here, which are weak, what is the
+  evidence, and which weak pillar could a learner's project actually touch? That question turns a
+  diagnostic framework into a project brief.
+
+  ## Its limits
+
+  The pillars are correlates derived from country-level data, not a recipe with a guaranteed
+  outcome, and they describe conditions rather than routes to them. They also say nothing about
+  sequence: knowing that low corruption accompanies peace does not tell anyone how to reduce
+  corruption. Treat the framework as a good map of where to look and a poor map of how to get there.
+learnerContent: |
+  Positive peace is not just the absence of fighting. It is the presence of the things that keep a
+  place peaceful. Researchers looked at the most peaceful countries in the world and asked what they
+  had that the least peaceful ones did not. Eight things came up:
+
+  - **Well-functioning government**
+  - **Equitable distribution of resources**
+  - **Free flow of information**
+  - **Good relations with neighbours**
+  - **High levels of human capital** (health and education)
+  - **Acceptance of the rights of others**
+  - **Low levels of corruption**
+  - **Sound business environment**
+
+  Now take them to your own community, at whatever scale you can actually see: your block, your
+  school, your neighbourhood.
+
+  For each pillar, ask: **is it here?** What is your evidence? Not what you assume, what you have
+  seen or been told.
+
+  Then: which of these is weakest where you live, and what does that weakness produce? That is often
+  where a project belongs.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    The pillars give a learner a way to say precisely what is missing from their own context rather
+    than that things are bad. A precise absence can be worked on by one person; a general sense of
+    injustice cannot.
+principlesForegrounded: [authentic-challenges, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The framework is used as an audit of the learners' own context, which produces a specific and
+      arguable list of weaknesses rather than a general one.
+  - principle: responsible-action
+    how: >-
+      Requiring evidence for each judgement, rather than impression, is what stops the audit becoming
+      a list of complaints about neighbours.
+competencyCodes: [FPS3, FSI1, APS3]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Each pillar names a systemic factor, so auditing them is direct practice at identifying what in
+      a system contributes to a problem.
+  - code: FSI1
+    how: >-
+      The audit requires evidence for each judgement, which turns an opinion about a community into an
+      investigation of it.
+  - code: APS3
+    how: >-
+      The framework itself is a pattern found across many contexts, and using it means testing whether
+      that pattern holds in one more.
+objectiveIds: [peacebuilding--o1, peacebuilding--o2]
+relatedSlugs: [pb-four-kinds-of-peace, pb-tower-of-arzenia, galtungs-violence-triangle, pb-rights-tree]
+links:
+  - label: "The Eight Pillars of Positive Peace"
+    url: https://www.visionofhumanity.org/the-eight-pillars-of-positive-peace/
+    note: "Vision of Humanity's summary of each pillar."
+  - label: "Positive Peace"
+    url: https://www.economicsandpeace.org/research/positive-peace/
+    note: "The Institute for Economics and Peace research programme behind the framework, with reports."
+rights:
+  status: own-expression
+  holder: Institute for Economics and Peace
+  basis: >-
+    The eight pillars are IEP's framework, credited and linked. The pillar names are short labels;
+    every description and all guidance here is written from scratch.
+sourceRefs:
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 2a Part 2"
+provenanceNote: >-
+  The framework is the Institute for Economics and Peace's Pillars of Positive Peace. Paired with
+  the glossary term "Positive peace", which carries the short definition.

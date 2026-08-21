@@ -1,0 +1,195 @@
+id: pb-analysing-violence-in-your-community
+slug: pb-analysing-violence-in-your-community
+access: public
+type: activity
+title: "Analysing a violence in your own community"
+summary: >-
+  The independent analysis: choose a violence in your own community, use every tool on it, and
+  produce a short report others can question.
+facilitationContext: [independent, one-to-one-mentoring, group]
+primaryContext: independent
+deliveryAdaptations:
+  - context: independent
+    how: >-
+      As designed. This is the course's main independent piece and needs around 4 hours across the
+      week. The learner chooses the violence, does the analysis and produces the report on their own
+      schedule.
+  - context: one-to-one-mentoring
+    how: >-
+      The natural place for a mid-point check. A mentor reads the analysis so far and asks two
+      questions only: who have you not spoken to, and what are you assuming? Do not supply findings.
+  - context: group
+    how: >-
+      The sharing stage works well in a group: analyses are posted or presented and peers ask
+      questions. Do not run the analysis itself as group work, because the choice of subject and the
+      research have to be the learner's own.
+duration: About 4 hours of independent work across a week.
+grouping: Individual, with peer questioning afterwards.
+materialsAndPreparation:
+  - "The analysis tools the learner has met: needs-fears map, systems map, problem tree, Galtung's triangle."
+  - Somewhere to publish or present the report so others can comment.
+  - Agree with the learner beforehand what is safe to research and what is not, and how they will approach anyone they interview.
+whatLearnersDo:
+  - Choose a violence in their own community that they want to explore further.
+  - Use all the analysis tools on it, not just one.
+  - Interview members of the community where they can do so respectfully and safely.
+  - "Produce a short report: written, presented, filmed or drawn."
+  - Share it, and invite questions and comments from other learners.
+facilitationNotes: >-
+  The one thing to get right is the safety conversation, before any learner leaves the room. This
+  task sends young people to ask their neighbours about violence in their own community, and that
+  carries real risk: to them, and to the people they talk to. Agree what is in scope and what is not.
+  Rehearse how they will introduce themselves and how they will stop a conversation. Name do no harm
+  explicitly, as an obligation rather than a value. A learner who cannot research their chosen
+  subject safely should choose another, and that is a finding rather than a failure.
+steps:
+  - title: "Choose the violence"
+    duration: 30 minutes
+    guidance: >-
+      The learner picks an example of violence in their own community. It might come from their
+      family, their friends, their wider community, or any system they can influence. A community
+      walk, asking people what issues they face, is a good way to find one. Remind them it can be
+      structural or cultural, not only direct: those are often the more workable subjects.
+    keyPrompts:
+      - "Which violence do you actually have some access to?"
+      - "Is this one you can research safely?"
+    watchOuts:
+      - "Learners pick the largest violence in their context, which is often the least researchable
+        and the most dangerous. Ask what they could reach."
+      - "A learner picks something involving their own household. Handle individually, and follow your
+        safeguarding route rather than the activity."
+  - title: "Apply all the tools"
+    duration: 2 hours
+    guidance: >-
+      Every tool, not a favourite. The point established in the previous session is that each one
+      shows something the others do not, and this is where that gets tested. Learners should expect
+      the tools to disagree, and the disagreements are worth recording rather than resolving.
+    keyPrompts:
+      - "What did this tool show you that the last one did not?"
+      - "Where do your tools disagree?"
+    watchOuts:
+      - "The learner uses one tool well and the others as a formality. Ask for one finding from each
+        that is not in the others."
+  - title: "Go and ask"
+    duration: 1 hour
+    guidance: >-
+      Interviews with members of the community, to fill what the tools revealed as missing. Rehearse
+      the introduction and the questions in advance. Open questions work best: what have you noticed
+      about this, what do you think is causing it, what might help. Remind the learner they are
+      guests in someone's account of their own life.
+    keyPrompts:
+      - "How will you introduce yourself and what you are doing?"
+      - "What will you do if someone becomes upset?"
+    watchOuts:
+      - "A learner plans to interview people about a conflict they are inside. Talk it through
+        individually; sometimes it is fine and sometimes it is not, and the difference matters."
+      - "Interviews become interrogations. Practise once, with you as the interviewee."
+    adaptation: >-
+      Where interviews are not safe or possible, use secondary sources and say so explicitly in the
+      report, naming what that means for the analysis. An honest limitation is better than an invented
+      finding.
+  - title: "Produce the report"
+    duration: 30 minutes
+    guidance: >-
+      Written, presented, filmed or drawn, whichever suits the learner. It should include a brief
+      description of the example, the potential causes and how they know, and some potential areas
+      where they might help reduce this violence. That third element is what makes it a peacebuilding
+      analysis rather than a description.
+    keyPrompts:
+      - "How do you know that is a cause, rather than something you assumed?"
+      - "Where could someone actually act on this?"
+    watchOuts:
+      - "Reports assert causes without evidence. Ask for the source of each claim; the honest answer
+        is sometimes that they do not know, which belongs in the report."
+  - title: "Share and invite questions"
+    duration: 30 minutes
+    guidance: >-
+      Post or present the analysis and invite questions and comments from other learners. This does
+      two things: others learn from the range of contexts in the group, and the questions asked expose
+      gaps the author could not see. Ask learners to note which question was hardest to answer, since
+      that is where their next research goes.
+    keyPrompts:
+      - "Which question were you least able to answer?"
+      - "What did someone else's analysis make you want to check in yours?"
+    watchOuts:
+      - "Comments are all encouragement. Ask each reader for one genuine question, and require it."
+closing: >-
+  Ask each learner for the one thing they still do not know and would most want to find out. That
+  question is what carries into the project design work: an intervention built on an analysis with a
+  known gap is honest, and one built on an analysis whose gaps have been papered over is not. Note
+  the learner's chosen violence and whether it is a plausible project subject.
+learnerContent: |
+  This is about 4 hours of work across the week.
+
+  **1. Choose a violence in your own community** that you want to explore in more detail. It could
+  come from your family, your friends, your wider community, or any system you have some influence
+  on. Remember it can be **structural or cultural**, not only direct.
+
+  If you are not sure, take a community walk and ask people what issues they are facing.
+
+  **2. Use all the analysis tools** we have looked at. Not just your favourite. Each one will show
+  you something the others do not.
+
+  **3. You will probably need to talk to people.** Be respectful. Remember the peacebuilding
+  principle: **do no harm.** Agree with your facilitator beforehand what is safe to ask and who is
+  safe to ask.
+
+  **4. Produce a short report:** written, a presentation, a video, or drawn. It should include:
+
+  - A brief description of the example you chose
+  - The potential causes, **and how you know**
+  - Some potential areas where you might help reduce this violence
+
+  **5. Share it** and invite questions and comments from other learners. Then note: which question
+  were you least able to answer? That is where your next piece of research goes.
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: >-
+    This is the point where the course's tools stop being classroom exercises. A learner who has
+    analysed a real violence in their own community, spoken to people about it and identified where
+    someone could act has done a piece of work nobody else could have done, in a place they can
+    return to.
+principlesForegrounded: [authentic-challenges, responsible-action, feedback-and-data]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The subject is a real violence in the learner's own community, chosen by them, researched by
+      them, with real people involved.
+  - principle: responsible-action
+    how: >-
+      Do no harm is named as an obligation, the safety of both the learner and the interviewees is
+      agreed in advance, and unsafe subjects are changed rather than attempted.
+  - principle: feedback-and-data
+    how: >-
+      The sharing stage exists to get questions the author could not ask themselves, and the hardest
+      question becomes the next research task.
+competencyCodes: [FSI1, FPS3, FUS2, FLC1]
+competencyDevelopment:
+  - code: FSI1
+    how: >-
+      Primary and secondary research into the causes of a violence in a real context, over several
+      hours, producing a documented account.
+  - code: FPS3
+    how: >-
+      The report must establish causes with evidence, and distinguish what is known from what is
+      assumed.
+  - code: FUS2
+    how: >-
+      Interviewing people about violence in their own community requires listening for what they mean
+      rather than confirming what the learner expected.
+  - code: FLC1
+    how: >-
+      Deciding what is safe to ask, of whom, and how to stop, is ethical judgement exercised outside
+      the classroom without supervision.
+objectiveIds: [peacebuilding--o1, peacebuilding--o2]
+relatedSlugs: [pb-consolidating-analysis-tools, needs-fears-mapping, conflict-systems-mapping, problem-tree, pb-identities-in-your-community]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced.
+sourceRefs:
+  - "Week 6 - Analysing violence in your own community (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 6 independent work"
+provenanceNote: >-
+  Adapted from Amala's "Analysing violence in your own community", the Week 6 independent task.

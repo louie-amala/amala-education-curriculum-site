@@ -1,0 +1,162 @@
+id: pb-respect-and-humiliation
+slug: pb-respect-and-humiliation
+access: public
+type: case-study
+title: "Respect and humiliation: what Gandhi did"
+summary: >-
+  A grandfather is lied to by his grandson. Learners decide how they would respond, then find out
+  what he actually did, and whether it was non-violent.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners write responses on separate notes and place them on a continuum, and the
+      spread across the room is what makes the reveal land.
+  - context: independent
+    how: >-
+      Works alone: write your responses, place them, then read what happened. What is lost is the
+      spread of other people's answers, so ask the learner to predict the range before writing their
+      own.
+duration: 45 minutes.
+grouping: Individual writing, whole group for the continuum and discussion.
+materialsAndPreparation:
+  - Post-it notes or small slips, several per learner.
+  - Wall or floor space for a continuum from constructive to destructive.
+  - The scenario and the outcome, in the educator content. Do not reveal the outcome early.
+whatLearnersDo:
+  - Hear the scenario and stop at the moment of decision.
+  - Write constructive and destructive responses they could take, one per note.
+  - Place the notes on a continuum from constructive to destructive.
+  - Consider what emotions each response would produce in the other person, and what it would do to the relationship.
+  - Hear what actually happened, and judge whether it was truly non-violent.
+facilitationNotes: >-
+  The one thing to get right is not to present the ending as the correct answer. The obvious move is
+  to reveal that the grandfather was Gandhi and let the room be impressed. The material is far better
+  used as a question, and the source asks it explicitly: is this approach truly non-violent? A man
+  who was disappointed walked many miles home while his frightened grandson drove behind him for
+  hours. Learners split on this, and the split is the most valuable discussion available in the week
+  on approaches to conflict.
+educatorContent: |
+  ## The scenario
+
+  You are a grandparent. Your grandson is just old enough to drive. You have an engagement in town.
+  You ask him to drive you in for your appointment, take the car for an oil change while you are
+  busy, and pick you up at an agreed time.
+
+  Your grandson arrives to pick you up almost an hour late. While waiting, you grow worried. You call
+  the garage and discover that he missed the appointment. When he returns, he immediately says the
+  oil change took longer than expected.
+
+  What do you do?
+
+  ## What actually happened
+
+  Do not read the outcome ahead of the group. It is set out in the Beyond Intractability material
+  linked below, and in Arun Gandhi's own writing about his childhood.
+
+  In outline: the grandson was Arun Gandhi, sent to live with his grandfather for two years as a badly
+  behaved teenager, and the grandfather was Gandhi. Gandhi's response to the lie was neither to punish
+  nor to let it pass. He chose something that cost him rather than his grandson, and the boy ended up
+  distressed on his account for hours. Read the full account before you run this, because the detail
+  is what makes the closing question bite.
+
+  ## How to run the discussion
+
+  Build the continuum first, from the learners' own responses, before any reveal. Then ask, for the
+  responses at each end: what emotions would the grandson feel, are they positive or negative, and
+  how would that affect the relationship between them in future? Doing this for both ends is what
+  separates a discussion about being nice from a discussion about consequences.
+
+  Then reveal what happened, and ask two questions:
+
+  - Where would this response fit on the continuum you built? Why?
+  - **Is this approach truly non-violent? Why, or why not?**
+
+  Expect disagreement, and do not resolve it. Some learners will find it a striking act of moral
+  seriousness that caused no harm to anyone. Others will point out that it caused hours of distress
+  to a frightened teenager, and that a punishment which makes someone suffer for your disappointment
+  is not obviously non-violent whatever it is called. Both readings are defensible, and holding both
+  is a better outcome than settling it.
+
+  ## Closing
+
+  Ask learners to complete the sentence: in order to transform conflicts, approaches to conflict
+  should be... The sentence comes from the continuum and the argument, so the answers are usually
+  specific rather than platitudinous.
+learnerContent: |
+  You are a grandparent. Your grandson is just old enough to drive. You have an engagement in town.
+
+  You ask him to drive you in for your appointment, take the car for an oil change while you are
+  busy, and pick you up at an agreed time.
+
+  He arrives almost an hour late. While waiting, you grew worried, called the garage, and found out
+  he never took the car in. When he returns, he immediately says the oil change took longer than
+  expected.
+
+  **What do you do?**
+
+  Write the responses you could take, one per note. Constructive ones and destructive ones. Then
+  place them on a line from **constructive** to **destructive**.
+
+  Then, for each end of the line:
+
+  - What emotions would your grandson feel? Positive or negative?
+  - How would that affect the relationship between you in future?
+
+  Then you will find out what actually happened.
+
+  - Where would that response fit on your line? Why?
+  - **Is this approach truly non-violent? Why, or why not?**
+
+  Finish the sentence: in order to transform conflicts, approaches to conflict should be...
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Learners are asked to judge a revered figure's action rather than admire it, and to defend the
+    judgement. Being willing to examine an example that arrives with authority attached is the same
+    disposition that lets someone question a leader, a rule or a settlement.
+principlesForegrounded: [authentic-challenges, responsible-action, safe-spaces]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The scenario is an ordinary family situation with no clean answer, and the real outcome is
+      genuinely contestable rather than exemplary.
+  - principle: responsible-action
+    how: >-
+      Asking what each response would do to the other person, and to the relationship afterwards, is
+      the habit of weighing consequences before acting.
+  - principle: safe-spaces
+    how: >-
+      The conflict examined is somebody else's, which lets learners discuss punishment, disappointment
+      and family authority without offering their own experience of it.
+competencyCodes: [FLC1, FUS2, ALC3]
+competencyDevelopment:
+  - code: FLC1
+    how: >-
+      Judging whether a famous act of non-violence was actually non-violent is ethical reasoning
+      applied against the grain of an authority.
+  - code: FUS2
+    how: >-
+      The continuum questions require learners to model the grandson's emotional experience of each
+      response, including responses they would have chosen.
+  - code: ALC3
+    how: >-
+      The closing sentence asks learners to state what an approach to conflict must be like if it is
+      to transform rather than punish.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [pb-finish-the-story, pb-emotions-in-conflict, conflict-resolution-or-transformation, pb-dilemmas-in-peacebuilding]
+links:
+  - label: "Beyond Intractability"
+    url: https://www.beyondintractability.org/
+    note: "The knowledge base this activity was developed from, with extensive material on conflict transformation."
+rights:
+  status: linked-not-reproduced
+  holder: Arun Gandhi (the account); Beyond Intractability (the activity framing)
+  basis: >-
+    The scenario is the planner's own. Arun Gandhi's account of what happened is not reproduced here:
+    this page summarises it in a line and sends facilitators to the source. All framing and discussion
+    guidance is Amala's own.
+  note: >-
+    Do not paste the full account onto this page. Beyond Intractability's copyright page is currently
+    unreachable, so treat their material as all rights reserved and link rather than copy.

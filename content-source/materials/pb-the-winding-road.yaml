@@ -1,0 +1,143 @@
+id: pb-the-winding-road
+slug: pb-the-winding-road
+access: public
+type: activity
+title: "The winding road"
+summary: >-
+  Learners draw the road that brought them to this course, marking the moments that shaped it,
+  then walk the room to read each other's.
+facilitationContext: [group, one-to-one-mentoring, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, and the gallery walk is the point. Reading twelve roads in silence tells a group
+      more about itself in ten minutes than an hour of introductions.
+  - context: one-to-one-mentoring
+    how: >-
+      A strong early mentoring tool: the road gives a learner something to point at, which is easier
+      than answering questions about their life. Draw your own alongside theirs. Without a gallery
+      there is no peer recognition, so expect to spend longer on the road itself.
+  - context: independent
+    how: >-
+      A learner can draw this alone in a journal and it still does reflective work, but the moment
+      where you see your own path as one among many is lost entirely. If used independently, pair it
+      with a later session where roads are shared.
+duration: 30-40 minutes.
+grouping: Individual drawing, then whole-group gallery walk.
+materialsAndPreparation:
+  - One sheet of paper per learner, as large as you can manage. A notebook page works.
+  - Pens, and colours if you have them.
+  - Wall space, floor space or desks where the sheets can be laid out and walked past.
+whatLearnersDo:
+  - Write their date of birth in the bottom left corner and "this present moment" in the top right.
+  - Draw a winding road between the two.
+  - Mark the moments along it that made them who they are now, with a picture or a line of writing each.
+  - Walk the room reading everyone else's road.
+facilitationNotes: >-
+  The one thing to get right is that learners choose what goes on the road. Journeys into an Amala
+  classroom often run through displacement and loss, and an instruction to mark "the important
+  moments" can read as an instruction to display the worst ones. Say plainly that they choose what
+  to show and what to leave off, that a road can be mostly ordinary, and that nothing here is
+  checked. Draw your own alongside them, and include something small and unremarkable on it, because
+  what you model is the permission you give.
+steps:
+  - title: "Set the two ends of the road"
+    duration: 5 minutes
+    guidance: >-
+      Hand out paper. Ask everyone to write their date of birth in the bottom left corner and the
+      words "this present moment" in the top right. Then ask them to draw a winding road between the
+      two. Make the road wind: a straight line invites a tidy list, a winding one invites the turns.
+      Say now, before anyone starts, that they decide what appears on it.
+    keyPrompts:
+      - "What is on your road is your choice. What do you want us to know?"
+    watchOuts:
+      - "Learners ask how many moments they should mark. Refuse to give a number; a number turns it
+        into a task to complete."
+  - title: "Mark the moments"
+    duration: 12-15 minutes
+    guidance: >-
+      Ask learners to place the defining moments along the road, each with a small drawing or a line
+      or two of writing. Work on your own road while they work, and keep the room quiet. Do not
+      circulate and read over shoulders during this step; the drawing is private until they decide it
+      is not.
+    keyPrompts:
+      - "What changed you, even if it looked small at the time?"
+      - "What is on this road that you would not have expected to be?"
+    watchOuts:
+      - "Someone becomes upset. Have a quiet route out of the room agreed in advance and do not make
+        their leaving an event."
+      - "A learner draws only the hardest events because they think that is what is wanted. Say
+        aloud, once, that ordinary good moments belong on the road too."
+    adaptation: >-
+      Short on time: cut the drawing to eight minutes and ask for three moments only. Do not cut the
+      gallery walk instead; the walk is where the recognition happens.
+  - title: "Walk the roads"
+    duration: 10 minutes
+    guidance: >-
+      Lay the sheets out and walk the room in near silence, reading. Let learners leave a sheet
+      face-down if they would rather not display it, without asking why. Ten minutes is usually
+      right: long enough to read everyone, short enough that it stays a walk rather than a
+      conversation.
+    keyPrompts:
+      - "What did you see on someone else's road that surprised you?"
+    watchOuts:
+      - "Loud commentary breaks the mood and makes people regret what they put down. Ask for quiet
+        reading, and save reactions for the close."
+      - "A learner interrogates another about something on their sheet. Redirect: you may ask them
+        later, in private, if they want to talk about it."
+closing: >-
+  Bring the group back and ask for two or three things people noticed, not about individuals but
+  about the roads as a set. Learners usually arrive at it themselves: everyone's road is longer and
+  more turned than it looks from outside. Say the thing the course rests on, once, and leave it
+  there. Everyone in this room came a long way to be in it, and none of that is visible unless we ask.
+learnerContent: |
+  In the bottom left corner of your paper, write the date you were born. In the top right, write
+  "this present moment".
+
+  Now draw a winding road between the two. That is your road to this course.
+
+  Along it, mark the moments that made you who you are now. A picture, or a sentence or two. Big
+  moments, small ones, good ones, hard ones: **you choose what goes on it and what stays off it.**
+  Nobody is checking, and nothing here has to be explained.
+
+  Afterwards we will lay the roads out and walk around reading them. If you would rather not show
+  yours, turn it over. That is fine and nobody will ask.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, control-of-future-pathways]
+  how: >-
+    Learners narrate their own past rather than having it summarised for them, and choose what of it
+    is public. Seeing your life as a road with turns, rather than a fixed situation, is the first
+    move towards believing the next stretch can be steered.
+principlesForegrounded: [builds-on-identities, safe-spaces]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The experience of displacement and journey that most learners carry becomes the actual content
+      of the session, held by the learner and shown on their terms.
+  - principle: safe-spaces
+    how: >-
+      Every disclosure is chosen: what to mark, what to omit, and whether to turn the sheet over. The
+      silent gallery walk removes the pressure to narrate aloud.
+competencyCodes: [FUS1, FUS2]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      Selecting which moments were formative, and being able to say why, is self-awareness made
+      visible on a page.
+  - code: FUS2
+    how: >-
+      Reading a dozen roads in silence gives learners an unusually direct sense of how different the
+      routes into the same room have been.
+objectiveIds: [peacebuilding--o3]
+relatedSlugs: [pb-one-minute-name-story, pb-class-agreements, pb-identity-wheels]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced.
+sourceRefs:
+  - "Establishing a Safe Learning Community - The Winding Road (Peacebuilding resources folder)"
+provenanceNote: >-
+  Adapted from Amala's "The Winding Road", one of the establishing-a-safe-learning-community
+  activities in the Peacebuilding resource pack.

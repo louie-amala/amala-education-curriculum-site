@@ -1,0 +1,152 @@
+id: pb-brown-eyes-blue-eyes
+slug: pb-brown-eyes-blue-eyes
+access: public
+type: case-study
+title: "Brown eyes, blue eyes"
+summary: >-
+  Learners study a classroom experiment in which a teacher divided children by eye colour, and
+  track how identity became prejudice, discrimination and finally violence.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Watching together, stopping the recording repeatedly to fill in the table, is what
+      keeps the analysis attached to the evidence. The pooled table at the end catches what
+      individuals missed.
+  - context: independent
+    how: >-
+      Works well alone, and the pause-and-rewind control is an advantage: an independent learner can
+      take the time each entry needs. What is lost is the pooling, so ask for the completed table and
+      send back two or three things they did not record.
+duration: 90 minutes, including at least 30 minutes with the recording.
+grouping: Pairs for the table, whole group for the pooled version and the debrief.
+materialsAndPreparation:
+  - A recording of Jane Elliott's blue-eyes/brown-eyes exercise. Documentary versions run roughly 15 minutes and are widely available.
+  - "The concept table, blank: othering, conflict, violence, identity, prejudice, stereotype, discrimination, each with columns for definition, examples and non-examples."
+  - "The analysis table, blank: rows for the teacher, the blue-eyed children and the brown-eyed children; columns for identity, prejudice, stereotypes, discrimination and violence."
+  - Check the recording plays before the session. If there is no way to show it, the exercise can be described and the tables completed from your account, though it loses considerable force.
+whatLearnersDo:
+  - Define the seven concepts in pairs, and draw a concept map showing how they connect.
+  - Watch the recording, stopping frequently to fill in what each group did and had done to them.
+  - Pool their entries into a single class table.
+  - Work out what the teacher and each group of children represent, and how the violence came about.
+facilitationNotes: >-
+  The one thing to get right is that the concepts come before the recording. Learners who have
+  already defined othering, prejudice and discrimination watch analytically and fill a table;
+  learners who meet the recording cold watch a shocking film and remember it as shocking. Budget the
+  full 30 minutes with the recording, because the stopping and writing is the work. Expect it to hit
+  hard: children turn on each other within an hour on the strength of an invented hierarchy, and for
+  learners who have lived through group violence the parallel is immediate rather than academic.
+educatorContent: |
+  In 1968, the day after Martin Luther King's assassination, an American primary school teacher told
+  her class that blue-eyed children were superior to brown-eyed children. She gave the blue-eyed
+  group privileges, restricted the brown-eyed group, and let the class run. Within hours the
+  favoured children were treating their classmates with contempt, the disfavoured children's
+  schoolwork declined, and playground fights had broken out. The next day she reversed the
+  hierarchy, and the pattern reversed with it.
+
+  The exercise has been filmed and repeated many times. It is used here for one reason: it makes the
+  chain visible from end to end, within a single hour, on a characteristic that is manifestly
+  meaningless.
+
+  ## What the table is for
+
+  Each row of the analysis table is one party: the teacher, the blue-eyed children, the brown-eyed
+  children. Each column is a concept the course has just defined. Filling every cell forces learners
+  to notice things a single viewing skims over. That the teacher supplies the stereotype rather than
+  the children inventing it. That the disfavoured group's own performance drops, which is violence in
+  Galtung's sense and has no visible perpetrator. That the discrimination is written into the rules of
+  the room, not just into individual behaviour, which is structural violence in miniature.
+
+  ## The questions that matter most
+
+  What do the teacher, the blue-eyed children and the brown-eyed children represent? Learners
+  usually reach it: an authority that manufactures the hierarchy, a group given an interest in
+  maintaining it, and a group made to carry it. Once they have said that, the sentence-completion at
+  the end (violent approaches to conflict are more likely when...) tends to produce genuinely
+  original answers rather than recited ones.
+
+  ## Handling it
+
+  This material is upsetting by design. Some learners will recognise it as a description of
+  something they lived through, and a few will recognise themselves in the favoured group rather
+  than the disfavoured one, which is harder to say aloud. Have the class agreements to hand, offer a
+  route out of the room, and do not require anybody to connect it to their own experience.
+learnerContent: |
+  Before you watch anything, define these seven words with a partner, with an example and a
+  non-example of each: **othering, conflict, violence, identity, prejudice, stereotype,
+  discrimination**. Then draw a map showing how they connect to each other.
+
+  Now watch. You are filling in this table as you go, so stop the recording as often as you need:
+
+  | | Identity | Prejudice | Stereotypes | Discrimination | Violence |
+  |---|---|---|---|---|---|
+  | The teacher | | | | | |
+  | The blue-eyed children | | | | | |
+  | The brown-eyed children | | | | | |
+
+  Then:
+
+  - What might the teacher, the blue-eyed children and the brown-eyed children each represent?
+  - How was the identity of each group of children built? What did that do to how they treated each other?
+  - Where is the othering, and how was it created?
+  - Where is the violence, and how did it come about?
+  - How might authority figures have shaped how **you** see other people?
+  - Finish this sentence: violent approaches to conflict are more likely when...
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Seeing a hierarchy built from nothing in a single morning, and taken apart the next day, is what
+    convinces learners that group divisions in their own context are constructed and therefore
+    changeable. A peacebuilder who believes divisions are natural has nothing to work on.
+principlesForegrounded: [authentic-challenges, safe-spaces, collaboration]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The case is real, documented, and shows the full chain from a manufactured identity to
+      violence, which is exactly the chain learners will later have to trace in their own context.
+  - principle: safe-spaces
+    how: >-
+      The analysis is conducted on a distant classroom rather than on the learners' own experience,
+      so the mechanism can be examined without anyone being asked to supply the evidence from their
+      own life.
+  - principle: collaboration
+    how: >-
+      The pooled class table is deliberately built from everyone's entries, because no single viewer
+      catches all of it, and the pooling itself demonstrates why one analyst is never enough.
+competencyCodes: [FPS3, FUS2, AUS1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Learners establish, from evidence in the recording, exactly which people and rules produced the
+      harm, rather than describing the harm alone.
+  - code: FUS2
+    how: >-
+      Filling a row for each party requires holding three incompatible experiences of the same
+      morning, including that of the children who enjoyed it.
+  - code: AUS1
+    how: >-
+      The case shows a stereotype being manufactured and installed in real time, which is the
+      strongest available demonstration that stereotypes are made rather than found.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [pb-colour-groups, pb-choose-your-engineer, pb-identity-charts, pn-iceberg-of-othering]
+links:
+  - label: "A Class Divided"
+    url: https://www.pbs.org/wgbh/frontline/documentary/class-divided/
+    note: "The PBS Frontline documentary about Jane Elliott's exercise and a reunion with her former students."
+rights:
+  status: own-expression
+  holder: Jane Elliott (the exercise); PBS Frontline (the documentary)
+  basis: >-
+    The exercise is credited to Jane Elliott and the documentary is linked rather than hosted. The
+    account and all analysis here are written from scratch.
+  note: >-
+    Do not host or embed the documentary. Elliott is protective of the exercise, so seek permission
+    before any Amala use beyond study of the recording.
+sourceRefs:
+  - "Identity, Conflict and Violence - Brown Eyes/Blue Eyes Experiment (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 1b Part 4"
+provenanceNote: >-
+  Adapted from Amala's "Brown Eyes/Blue Eyes Experiment" activity. The exercise is Jane Elliott's,
+  first run in Riceville, Iowa in 1968 and filmed several times since.

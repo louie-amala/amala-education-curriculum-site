@@ -300,3 +300,59 @@ export function creditBadge(level: string): string {
     ? "bg-navy/10 text-navy"
     : "bg-gold/20 text-terracotta";
 }
+
+// ---- Rights and provenance (see RightsSchema in lib/schema.ts) ----
+// `label` names the status for an editor; `blurb` says what it means for whoever is about to use the
+// material. Two statuses block publication entirely and are enforced in validateGraph().
+export type RightsMeta = { label: string; blurb: string; tone: "neutral" | "notice" | "blocked" };
+
+export const RIGHTS_META: Record<string, RightsMeta> = {
+  "amala-own": {
+    label: "Amala's own",
+    blurb: "Written by Amala, or built only from Amala's own course materials.",
+    tone: "neutral",
+  },
+  "own-expression": {
+    label: "Our words, credited method",
+    blurb:
+      "The method is someone else's, or has no traceable author. Nothing on this page is copied: the write-up is Amala's own, and the originator is credited where known.",
+    tone: "neutral",
+  },
+  "public-domain": {
+    label: "Public domain",
+    blurb: "Out of copyright, or a method that copyright does not reach.",
+    tone: "neutral",
+  },
+  "openly-licensed": {
+    label: "Openly licensed",
+    blurb: "Third-party work under a licence that permits us to republish it.",
+    tone: "neutral",
+  },
+  cleared: {
+    label: "Permission held",
+    blurb: "Third-party work we have written permission to publish.",
+    tone: "neutral",
+  },
+  "linked-not-reproduced": {
+    label: "Linked, not reproduced",
+    blurb:
+      "The original is someone else's and is not reproduced here. This page explains the method and how to use it; you obtain the activity itself from the source.",
+    tone: "notice",
+  },
+  "permission-needed": {
+    label: "Permission needed",
+    blurb: "Third-party work reproduced here without permission. Not publishable.",
+    tone: "blocked",
+  },
+  "unknown-provenance": {
+    label: "Provenance unknown",
+    blurb: "We cannot establish where this came from, so we cannot clear it. Not publishable.",
+    tone: "blocked",
+  },
+};
+
+export function rightsMeta(status: string): RightsMeta {
+  return (
+    RIGHTS_META[status] ?? { label: status, blurb: "", tone: "neutral" as const }
+  );
+}

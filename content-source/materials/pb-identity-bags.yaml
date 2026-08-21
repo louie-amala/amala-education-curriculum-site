@@ -1,0 +1,157 @@
+id: pb-identity-bags
+slug: pb-identity-bags
+access: public
+type: activity
+title: "Identity bags: the identity someone builds for you"
+summary: >-
+  Learners swap bags of personal objects and construct each other's identity in silence, then
+  find out how accurate the construction was.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, and it cannot be done otherwise. The material is the gap between a partner's
+      construction and your own sense of yourself, so it needs two people and real objects.
+duration: 30-40 minutes, plus preparation set in an earlier session.
+grouping: Pairs.
+materialsAndPreparation:
+  - Each learner brings 2 or 3 small objects that represent something important to them, in a bag. Set this at least one session ahead.
+  - Spare objects for anyone who forgets, or let them draw three objects instead. Do not exclude anyone for arriving empty-handed.
+  - Paper and pens for the silent construction.
+  - If learners meet twice a week, ask for objects at the first session. If three times, the second.
+whatLearnersDo:
+  - Bring two or three objects that represent what matters to them, without telling anyone what they are.
+  - Swap bags with a partner and, in silence, write the identity of that person from their objects alone.
+  - Read their construction back to their partner.
+  - Compare it with how the partner actually sees themselves, and name the assumptions that produced the gap.
+facilitationNotes: >-
+  The one thing to get right is the silence. The moment learners can ask "what is this?", the
+  activity becomes a conversation about objects and the point evaporates. The point is that everyone
+  fills gaps with assumption, quickly and confidently, and that the assumption is built from their own
+  world rather than their partner's. Warn learners not to bring anything valuable or irreplaceable,
+  and pair people who do not already know each other well, because close friends construct from prior
+  knowledge rather than from evidence.
+steps:
+  - title: "Set the bags a session in advance"
+    duration: 5 minutes, in a previous session
+    guidance: >-
+      Ask for two or three objects that represent something important, brought in a bag, and stress
+      that they must not tell anyone what is inside or why. Say plainly that objects should be small
+      and not precious, since they will pass through someone else's hands. Have a fallback ready for
+      those who forget, because someone always does.
+    keyPrompts:
+      - "What would you put in a bag if it had to say something true about you?"
+    watchOuts:
+      - "Learners bring an expensive or sentimental item and worry about it all session. Say
+        explicitly: nothing you would mind losing."
+      - "Some learners have very few possessions. Offer drawing three objects as an equal option from
+        the start, not as a concession afterwards."
+  - title: "Swap and construct in silence"
+    duration: 10 minutes
+    guidance: >-
+      Pair learners, swap bags, and give 5 to 10 minutes of complete silence to write who this person
+      is, based only on the objects. Insist on writing it down rather than holding it in the head:
+      written constructions are specific, and specific ones produce a sharper comparison. Hold the
+      silence firmly; this is the whole method.
+    keyPrompts:
+      - "Who is this person? Write it as if you were describing them to someone else."
+    watchOuts:
+      - "Talking starts almost immediately. Re-state the rule once, then simply hold the room quiet."
+      - "A learner writes three cautious lines to avoid being wrong. Being wrong is the point. Ask
+        them to commit to a guess."
+  - title: "Read the construction back"
+    duration: 8 minutes
+    guidance: >-
+      Each partner reads out the identity they built. The other listens without correcting until the
+      reading is finished. That order matters: interrupting to correct turns it into a quiz, while
+      hearing the whole construction first lets the learner feel what it is like to be summarised by
+      somebody else.
+    keyPrompts:
+      - "Listen to the whole thing before you say anything. What did it feel like?"
+    watchOuts:
+      - "A construction is unkind or mocking. Stop it and re-set: the task was to build a serious
+        account, not to be funny about someone's belongings."
+  - title: "Compare and name the assumptions"
+    duration: 10-15 minutes
+    guidance: >-
+      Work the comparison questions in pairs, then take two or three answers to the whole group. How
+      much do you agree with the identity your partner built? Where did it differ from how you see
+      yourself? What assumptions did you make when you built theirs, and where did those assumptions
+      come from? The last question is the one that transfers.
+    keyPrompts:
+      - "What did your partner get wrong, and what made them think it?"
+      - "Where do we do this in everyday life, and what does it change about how we treat people?"
+    watchOuts:
+      - "Learners conclude only that assumptions are bad. Push once further: assumptions are
+        unavoidable and made from our own world. The question is what we do once we notice one."
+    adaptation: >-
+      Short on time: cut the whole-group share and hold the comparison entirely in pairs. Do not cut
+      the assumption question, which is the only step that generalises.
+closing: >-
+  Ask the question the activity was built for and take a few answers plainly: do others always see
+  you the way you want to be seen? Then connect it forwards. In two weeks you will study how groups
+  construct identities for other groups and act on them. It works exactly the way it just worked
+  here, from fragments, at speed, and with confidence.
+learnerContent: |
+  Bring two or three small objects that mean something to you, in a bag. **Do not tell anyone what
+  they are or why you chose them.** Nothing precious, because someone else will handle them.
+
+  In the session you will swap bags with a partner. Then, in **complete silence**, you write down who
+  you think that person is, using only their objects. Commit to a real guess rather than a safe one.
+
+  Then you read your version of them out loud, and they read theirs of you.
+
+  Afterwards:
+
+  - How much do you agree with the identity your partner built for you?
+  - What did they see differently from how you see yourself?
+  - What assumptions did **you** make? Where did those assumptions come from?
+  - When do we do this to people in ordinary life, and what does it change about how we treat them?
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Being on the receiving end of someone else's confident construction of you, and then catching
+    yourself doing the same to them, is how a learner starts noticing the assumptions running under
+    their own judgements. Noticing is the precondition for choosing differently.
+principlesForegrounded: [safe-spaces, collaboration, authentic-challenges]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      The learner controls exactly what enters the room, because they choose the objects, so the
+      exposure is bounded and self-selected even though the subject is personal.
+  - principle: collaboration
+    how: >-
+      The insight is only available in a pair. Neither learner can produce it alone, and each is the
+      evidence the other needs.
+  - principle: authentic-challenges
+    how: >-
+      Learners meet their own assumption-making in real time on a real person, rather than reading
+      about the tendency to assume.
+competencyCodes: [FUS1, FUS2, AUS1]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      Catching yourself building a confident story from three objects, and being able to say where
+      that story came from, is precisely the self-awareness this competency describes.
+  - code: FUS2
+    how: >-
+      Learners get direct feedback on how accurate their reading of another person was, which is rare
+      and hard to arrange any other way.
+  - code: AUS1
+    how: >-
+      The assumptions that surface are usually cultural, and naming them in a low-stakes setting is
+      the groundwork for addressing bias where the stakes are higher.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [pb-identity-wheels, pb-identity-charts, pb-choose-your-engineer]
+rights:
+  status: own-expression
+  basis: >-
+    A widely circulated exercise with no traceable author, absent from Amala's own source notes.
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced.
+sourceRefs:
+  - "Exploring Identity - Identity Bags and Making Assumptions (Peacebuilding resources folder)"
+provenanceNote: >-
+  Adapted from Amala's "Identity Bags and Making Assumptions" activity in the Peacebuilding
+  resource pack.

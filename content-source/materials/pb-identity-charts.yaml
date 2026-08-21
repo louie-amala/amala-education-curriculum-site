@@ -1,0 +1,194 @@
+id: pb-identity-charts
+slug: pb-identity-charts
+access: public
+type: activity
+title: "Identity charts, and the bear who wasn't"
+summary: >-
+  Learners build an identity chart for themselves, then for a character whose identity is
+  overwritten by others, and see what it costs him.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The Venn comparison of how the bear sees himself against how others see him works
+      best argued out loud, because learners disagree about which labels go where and the argument is
+      the learning.
+  - context: independent
+    how: >-
+      Both charts can be built alone and the story read alone. What is lost is the pooling of
+      categories, which is where most learners discover a facet of identity they had not considered.
+      Ask an independent learner to send you their category list and send back two they missed.
+duration: 60-75 minutes.
+grouping: Individual charts, pairs for the story, whole group for the category pooling.
+materialsAndPreparation:
+  - Paper and pens.
+  - A copy of Frank Tashlin's "The Bear That Wasn't", or your own retelling of it. It is short. Read it aloud if you cannot print it.
+  - "Optional: a substitute story from your own context in which someone is repeatedly told they are not what they are. This often lands harder than the bear."
+whatLearnersDo:
+  - "Build an identity chart for themselves: their name in the centre, the parts of who they are around it."
+  - Sort those parts into categories, and compare category lists across the group.
+  - Build an identity chart for the bear in the story.
+  - Separate, in a Venn diagram, how the bear sees himself from how others in the story see him.
+  - Discuss what happened to him, and why it became harder and harder to hold on to who he was.
+facilitationNotes: >-
+  The one thing to get right is the order: self first, bear second. Learners who build their own
+  chart before meeting the story read the bear as a version of themselves rather than as a fable,
+  and the closing questions land. Reversed, the story stays a story. The chart is also the tool the
+  rest of the course reuses, on communities and on parties to a conflict, so it is worth the time to
+  make sure everyone can build one. Tell learners in advance if charts will be shared, and let
+  anyone keep theirs private and discuss one or two facets instead.
+steps:
+  - title: "Build your own identity chart"
+    duration: 15 minutes
+    guidance: >-
+      Name in the middle, everything that makes them who they are around it, connected by lines. Give
+      a definition to work against, the dictionary one is fine: who a person is, or the qualities that
+      make a person or group different from others. Keep this fast and generous. The chart is not
+      meant to be finished, and learners will add to it twice more before the session ends.
+    keyPrompts:
+      - "What would somebody have to know about you to know you?"
+    watchOuts:
+      - "Charts come out as lists of hobbies. Offer four category prompts (role in a family,
+        interests, background, physical characteristics) and let learners find the rest."
+      - "A learner does not want to write something down at all. Say once that nothing here has to be
+        shown, and move on without singling them out."
+  - title: "Pool the categories"
+    duration: 10 minutes
+    guidance: >-
+      Ask learners to name the categories their own entries fall into, and collect these where all
+      can see. Then let everyone add to their chart from the pooled list. This is the step that turns
+      a private page into a shared tool: the class ends up with an agreed set of categories it can
+      apply to anyone, which is what makes the chart reusable later on communities and conflict parties.
+    keyPrompts:
+      - "What category does that one belong to?"
+      - "Which category on this list is missing from your own chart, and why?"
+    watchOuts:
+      - "The pooled list stays superficial because nobody names the uncomfortable categories. Add one
+        or two yourself, plainly and without ceremony."
+  - title: "Ask what changes and what stays"
+    duration: 10 minutes
+    guidance: >-
+      Three short discussions, in pairs then briefly as a group. Which parts of your identity have
+      stayed constant across your life, and why? Which have changed, and what changed them? And the
+      one that opens the story: are any of these labels other people put on you? Leave the last
+      question sitting rather than resolving it.
+    keyPrompts:
+      - "Which parts of your identity feel central, and which depend on the room you are in?"
+      - "Which of these did somebody else decide about you?"
+    watchOuts:
+      - "Learners treat identity as fixed and the discussion goes nowhere. Ask what they were like
+        five years ago; the answer usually breaks the assumption for them."
+    adaptation: >-
+      Short on time: cut this step and ask the two questions during the bear discussion instead,
+      where they arise naturally.
+  - title: "Read the story and chart the bear"
+    duration: 20 minutes
+    guidance: >-
+      Read "The Bear That Wasn't". A bear wakes to find a factory built over his den, and is told by
+      each official in turn that he is not a bear but a silly man who needs a shave. Ask learners to
+      build an identity chart for him, then split it in two with a Venn diagram: how he sees himself,
+      how others see him, and what sits in the overlap. Expect the overlap to shrink as the story goes on.
+    keyPrompts:
+      - "Which labels on this chart did the bear choose, and which were given to him?"
+      - "Why did it get harder and harder for him to hold on to what he was?"
+    watchOuts:
+      - "The fable reads as comedy and stays there. Move to the second question quickly: what were
+        the consequences for him of being defined by others."
+      - "In a group with recent experience of being denied a status or a document, this bites hard.
+        Do not force the parallel. If learners draw it themselves, follow them; if not, leave it."
+  - title: "Close on the group and the self"
+    duration: 10 minutes
+    guidance: >-
+      Two questions, discussed in threes, then a short whole-group round. Whose opinions have the
+      greatest effect on how you see yourself? And why is it so difficult for a person to go against
+      the group they are in? These are the questions that connect a children's story to the identity
+      simulations and the escalation model later in the course.
+    keyPrompts:
+      - "Whose view of you carries the most weight, and why theirs?"
+      - "Why is it so hard to go against your own group?"
+    watchOuts:
+      - "Learners answer the second question about the bear rather than about themselves. Ask for one
+        real instance, from anyone, before opening it up."
+closing: >-
+  Say what the bear demonstrates without moralising it. Identity is not simply held; it is negotiated
+  with everybody who has the power to name you, and when enough of them agree, holding on gets hard.
+  Then point forward: for the rest of the course you will build these charts for communities and for
+  parties to a conflict, and the same question will apply each time. Who decided this label, and what
+  does it cost the person carrying it?
+learnerContent: |
+  **Your chart.** Put your name in the middle of the page. Around it, write everything that makes you
+  who you are, joined to the centre with lines. Roles, background, things you love, things you are
+  good at, things about your body, anything.
+
+  Then find the categories. What kind of thing is each entry? Once the class has pooled its
+  categories, add anything you missed.
+
+  Three questions:
+
+  - Which parts of your identity have stayed the same all your life? Why those?
+  - Which have changed? What changed them?
+  - Are any of these labels that **other people** put on you?
+
+  **The bear's chart.** Now build the same chart for the bear in the story. Then split it: which
+  labels are how he sees himself, which are how others see him, and which are in both?
+
+  Last: whose opinion has the biggest effect on how you see yourself, and why is it so hard for
+  anyone to go against their own group?
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    The bear's problem is that he accepts other people's account of him. Learners who can separate
+    the labels they chose from the labels assigned to them are better placed to refuse the assigned
+    ones, which is the most basic form of thinking for yourself the course can offer.
+principlesForegrounded: [builds-on-identities, authentic-challenges, safe-spaces]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      Learners chart their own identity first and set the categories the class will use, so the tool
+      is calibrated to the room rather than imported.
+  - principle: authentic-challenges
+    how: >-
+      Being told you are not what you are is not a hypothetical for many Amala learners, and the
+      fable gives a safe object to think it through on before anyone is asked about their own case.
+  - principle: safe-spaces
+    how: >-
+      The bear carries the weight, so learners can discuss having an identity overwritten without
+      having to volunteer their own experience of it.
+competencyCodes: [FUS1, FUS2, FPS3]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      Distinguishing chosen from assigned labels on your own chart is a specific and demanding piece
+      of self-awareness, and the chart is the evidence.
+  - code: FUS2
+    how: >-
+      The Venn step requires learners to hold two accounts of one person at once, the bear's and the
+      officials', which is the core move of understanding another's perspective.
+  - code: FPS3
+    how: >-
+      Tracing why the bear's grip on his identity weakened as he moved through the factory is causal
+      analysis of a system's effect on a person, in miniature.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [pb-identity-wheels, pb-identity-bags, pb-identities-in-your-community, pn-iceberg-of-othering]
+links:
+  - label: "Identity Charts"
+    url: https://www.facinghistory.org/resource-library/teaching-strategies/identity-charts
+    note: "Facing History's teaching-strategy page for identity charts, with worked examples."
+  - label: "The Bear That Wasn't"
+    url: https://www.facinghistory.org/resource-library/bear-wasnt
+    note: "Facing History's version of Frank Tashlin's story, with discussion questions."
+rights:
+  status: own-expression
+  holder: Facing History and Ourselves; Frank Tashlin ("The Bear That Wasn't", 1946)
+  basis: >-
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced. Tashlin's story is described and linked, never reproduced: it remains in copyright.
+  note: >-
+    Do not add the text of "The Bear That Wasn't" to this page. Facilitators source it themselves.
+sourceRefs:
+  - "Exploring Identity - Identity Charts (Peacebuilding resources folder)"
+  - "Exploring Identity - The Bear Who Wasn't - Identity Leading to Conflict (Peacebuilding resources folder)"
+provenanceNote: >-
+  Combines Amala's "Identity Charts" and "The Bear Who Wasn't" activities, both drawn from Facing
+  History and Ourselves. The story is Frank Tashlin's "The Bear That Wasn't" (1946).

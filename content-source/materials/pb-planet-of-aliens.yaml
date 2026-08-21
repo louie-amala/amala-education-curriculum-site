@@ -1,0 +1,190 @@
+id: pb-planet-of-aliens
+slug: pb-planet-of-aliens
+access: public
+type: activity
+title: "Planet of aliens"
+summary: >-
+  Three alien cultures must build a shelter together. It goes badly. Then peacebuilders are added
+  to each group and it is run again.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only and it needs a reasonable number of learners, at least twelve, to make four groups
+      work. The second run is what distinguishes it from other culture simulations, and it cannot be
+      done alone.
+duration: 90 minutes.
+grouping: Four groups. Three alien cultures with role cards, plus invisible aliens who observe.
+materialsAndPreparation:
+  - "Building materials for the shelters. Anything to hand: paper, card, cloth, sticks, tape. The same materials for each group."
+  - Four role cards. Three describe distinct alien cultures with their own norms of behaviour; the fourth briefs the invisible aliens as observers.
+  - The story that opens the activity, read aloud to everyone before groups are formed.
+  - Extra facilitators if you have them, one per group for the in-role discussion, though it works with one.
+whatLearnersDo:
+  - Hear the story of arriving on a shared planet.
+  - Take on an alien culture and develop its rituals, symbols and norms.
+  - Build a shelter together with the other cultures, in role.
+  - Discuss, still in role, how it went.
+  - Run it again with peacebuilders in each group and invisible aliens building a transformative platform.
+  - Compare the two runs and de-role.
+facilitationNotes: >-
+  The one thing to get right is the second run, because it is what makes this an application activity
+  rather than another simulation about cultural misunderstanding. In the first run, three cultures
+  with incompatible norms try to build something and it goes wrong. Then one member of each group is
+  told to act as a peacebuilder encouraging win-win solutions, and the invisible aliens are told to
+  build a transformative platform. The same task is repeated and the difference is the evidence. De-role
+  thoroughly at the end; the source's instruction, shaking the body to get rid of the role, is a good one.
+steps:
+  - title: "Tell the story and form the cultures"
+    duration: 15 minutes
+    guidance: >-
+      Read the story to everyone. Divide into four groups: three alien cultures with role cards, and
+      the invisible aliens already living on the planet, who observe and take notes. Give each culture
+      ten minutes to read its role and get into it, agreeing rituals, making a flag, whatever helps
+      them inhabit it.
+    keyPrompts:
+      - "What are your people like? How do you greet each other? What is rude here?"
+    watchOuts:
+      - "Groups treat the role as a costume rather than a set of norms. Ask what their culture does
+        when someone disagrees, which is the norm that will matter in the build."
+      - "Learners map their alien culture onto a real ethnic group and play a caricature. Stop that
+        immediately; the cultures are invented and stay invented."
+  - title: "Build the shelter, in role"
+    duration: 15 minutes
+    guidance: >-
+      All three cultures must build one shelter together, in 15 minutes, in role. Do not intervene.
+      Invisible aliens watch and take notes. What usually happens is that incompatible norms about
+      speaking, deciding and touching collide, and the shelter suffers.
+    keyPrompts:
+      - "Fifteen minutes. One shelter, between all of you."
+    watchOuts:
+      - "Frustration becomes real rather than in-role. Watch for it and be ready to call time early."
+  - title: "Discuss, still in role"
+    duration: 10 minutes
+    guidance: >-
+      Back in their own groups, still representing their culture, learners discuss: how did you feel
+      building it, are you happy with the result, what do you think about the building process, did
+      you feel respected at all times, when did someone not respect you, and what do you think of the
+      other cultures? Facilitators move between groups. The invisible aliens can distribute themselves.
+    keyPrompts:
+      - "When did someone not respect you? What exactly did they do?"
+    watchOuts:
+      - "Groups slip out of role into general complaint. Ask what their people would say about it."
+  - title: "Add peacebuilders and run it again"
+    duration: 20 minutes
+    guidance: >-
+      Take one member from each alien group and tell them to act as a peacebuilder within their team,
+      encouraging win-win solutions. Tell the invisible aliens they are now peacebuilders too, and
+      their job is to build a transformative platform so a win-win can be found. Repeat the build.
+      This is the half most facilitators cut for time, and it is the half that matters.
+    keyPrompts:
+      - "Your job now is to find something everyone can live with. How will you start?"
+      - "Invisible aliens: what conditions do these three need in order to agree anything?"
+    watchOuts:
+      - "The peacebuilders take over and simply direct the build, which is not peacebuilding. Ask them
+        what they did that made space for others rather than what they decided."
+    adaptation: >-
+      Short on time: shorten both builds to ten minutes rather than dropping the second. A ten-minute
+      second run teaches more than a twenty-minute first run alone.
+  - title: "Come out of role and compare"
+    duration: 25 minutes
+    guidance: >-
+      Circle. Share results from the group discussions, then ask everyone to shake out their role and
+      become themselves again. Then the comparison: how did the second simulation compare with the
+      first, and what caused the difference? Then the wider questions about whether people from
+      different cultures can live together peacefully and why some resist it.
+    keyPrompts:
+      - "How did the second run compare? What made the difference?"
+      - "Was it easy or difficult to work together? Looking back, what could you have improved?"
+      - "Why do you think some people resist living together peacefully?"
+    watchOuts:
+      - "The de-roling is skipped because the group is talking well. Do it anyway; learners carry
+        in-role irritation out of the door otherwise."
+closing: >-
+  Ask the last question of the set and take it seriously: how can we reach a peaceful society? The
+  group has just answered it twice, practically, by running the same task with and without people
+  whose job was to make agreement possible. Say that plainly, and note that the peacebuilders in the
+  second run were not more powerful than anyone else. They were just doing a different job.
+learnerContent: |
+  You will be given a role: one of three alien cultures, or the **invisible aliens** who already live
+  on this planet.
+
+  **Cultures:** read your role and become your people. Agree your rituals, make a flag, decide how
+  you greet each other and what counts as rude.
+
+  **Invisible aliens:** watch, and take notes. Do not join in.
+
+  Then, all together, you must **build a shelter**. Fifteen minutes.
+
+  Afterwards, still in role, in your own group:
+
+  - How did you feel building the shelter?
+  - Are you happy with the result?
+  - What do you think of the building process?
+  - **Did you feel respected at all times? When did someone not respect you?**
+  - What do you think of the aliens from the other planets?
+
+  **Then we run it again.** Some of you will be given a new job.
+
+  At the end:
+
+  - How did the second simulation compare with the first? What made the difference?
+  - Was it easy or difficult to work together? Why?
+  - Looking back, what could you have improved?
+  - Was this realistic? Have you seen anything like it?
+  - Is it possible to live together peacefully with people from different cultures?
+  - **Why do some people resist that? How can we reach a peaceful society?**
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    The second run shows that one person in a group, with no extra authority, changed what the group
+    could achieve. That is the most direct demonstration the course offers that a learner's own
+    presence in a difficult group is worth something.
+principlesForegrounded: [collaboration, safe-spaces, authentic-challenges]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The task cannot be completed by any one culture, and the second run makes explicit that the
+      quality of the collaboration is itself something people work on.
+  - principle: safe-spaces
+    how: >-
+      The cultures are invented rather than mapped onto real groups, and the de-roling at the end is
+      physical and explicit so nothing is carried out of the room.
+  - principle: authentic-challenges
+    how: >-
+      Building something together across incompatible norms is what actually happens in mixed
+      communities, and the second run is a genuine test of whether the course's ideas do anything.
+competencyCodes: [FUS3, AUS2, ALC2, ALC3]
+competencyDevelopment:
+  - code: FUS3
+    how: >-
+      Inhabiting an invented culture with its own norms, and colliding with two others, makes cultural
+      difference something learners have to negotiate rather than describe.
+  - code: AUS2
+    how: >-
+      The second run requires learners to adapt how they work across cultural difference, and the
+      shelter is the measure of whether they managed it.
+  - code: ALC2
+    how: >-
+      The peacebuilders' job is to enable a decision that includes everyone, which is precisely this
+      competency, performed under time pressure.
+  - code: ALC3
+    how: >-
+      The invisible aliens build a transformative platform and can see, in the second shelter, whether
+      it worked.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [pb-transformative-platform, pb-paper-factory-simulation, pb-battle-for-orange, cf-debrief-a-simulation]
+rights:
+  status: own-expression
+  basis: >-
+    Origin not recorded in Amala's pack. The role cards are referenced rather than reproduced, and
+    facilitators are told to write their own cultures.
+  note: >-
+    Origin not established.
+sourceRefs:
+  - "Week 5 - Planet of Aliens Activity (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 5 Activity 3.2"
+provenanceNote: >-
+  Adapted from Amala's "Planet of Aliens Activity". Role cards are referenced rather than reproduced;
+  facilitators should write three cultures suited to their own group.

@@ -1,0 +1,188 @@
+id: pb-finish-the-story
+slug: pb-finish-the-story
+access: public
+type: activity
+title: "Finish the story"
+summary: >-
+  A road-rage confrontation is read up to the moment before it happens. Groups write the ending,
+  then hear what actually occurred.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. What makes it work is that most groups write violence and then hear a different
+      ending, and hearing several groups' versions before the reveal makes the pattern visible.
+  - context: independent
+    how: >-
+      Works alone: write the ending, then read part 2. The learner loses the moment of seeing that
+      everyone else wrote the same thing, so ask them to predict what most people would write before
+      they write their own.
+  - context: one-to-one-mentoring
+    how: >-
+      A quick, useful mentoring opener with a learner who is heading into a confrontation. Read part
+      1, ask what happens next, then read part 2 and ask what made the difference.
+duration: 20-30 minutes.
+grouping: Small groups of two to four.
+materialsAndPreparation:
+  - The story, in two parts. Both are in the educator content below and can be read aloud.
+  - Paper for the endings.
+  - Do not let learners see part 2 before they have written their own.
+whatLearnersDo:
+  - Listen to part 1 of the story, which stops at the moment of confrontation.
+  - Write the next part, in small groups.
+  - Hear the other groups' endings.
+  - Hear what actually happened, and work out what made the difference.
+facilitationNotes: >-
+  The one thing to get right is stopping the reading in the right place, mid-breath, before anything
+  is decided. Almost every group writes an escalation, usually a fight, because a former special
+  forces soldier and an angry man running at him is a setup with one obvious continuation. The value
+  is entirely in the gap between what they wrote and what the man actually said. Do not moralise
+  afterwards. Ask what he did, in words, and the group will produce the analysis themselves.
+steps:
+  - title: "Read part 1 and stop"
+    duration: 5 minutes
+    guidance: >-
+      Read part 1 aloud and stop exactly where it stops, on the deep breath, before anything is
+      decided. Do not signal that a twist is coming and do not read ahead to check. The whole
+      activity depends on the group inheriting a situation with an obvious continuation and no
+      resolution.
+    keyPrompts:
+      - "He takes a deep breath, and..."
+    watchOuts:
+      - "Learners have seen the story before and say so. Ask them to keep it to themselves and to
+        write what most people would write instead."
+  - title: "Groups write the ending"
+    duration: 8 minutes
+    guidance: >-
+      In twos, threes or fours, learners write the next part of the story. Give them enough time to
+      write more than a sentence, since a one-line answer will simply be a punch. Do not comment on
+      what you see as you circulate, because any reaction from you will steer the endings and the
+      pattern is what matters.
+    keyPrompts:
+      - "How does this end? Write the next part."
+    watchOuts:
+      - "A group writes a deliberately absurd ending for laughs. Fine, but ask for a realistic one as
+        well, and use that in the round."
+  - title: "Hear the endings, then read part 2"
+    duration: 8 minutes
+    guidance: >-
+      Take every group's ending before you read anything, so the pattern becomes visible in the room.
+      Then read part 2. Say nothing after it. Let the difference between what they wrote and what
+      happened sit for a few seconds before you ask anything.
+    keyPrompts:
+      - "Now listen to what actually happened."
+    watchOuts:
+      - "Reading part 2 too soon, before all the endings are out, wastes the strongest thing the
+        activity has."
+  - title: "Analyse what he actually said"
+    duration: 8 minutes
+    guidance: >-
+      Work at the level of the words. What did the father say, and what did each part of it do? He
+      spoke first, named the other man's feeling, accepted responsibility provisionally, and asked a
+      question. Point out that he did it firmly and loudly, since learners often hear de-escalation
+      as softness and it was not.
+    keyPrompts:
+      - "What did he actually say? What did those words do?"
+      - "Why did most groups write the ending they wrote?"
+    watchOuts:
+      - "Learners take this as a general rule that a calm question always works. It does not. Say so,
+        and ask when leaving would be the right response instead."
+closing: >-
+  Ask when this approach could work and when it could not, and take the second half of that question
+  seriously: some situations are dangerous and the right response is to leave. Then name the finding.
+  The father had an option the whole room failed to imagine, and the reason they failed to imagine it
+  was the frame the story handed them, not any fact about the situation.
+educatorContent: |
+  ## Part 1: read this, then stop
+
+  A young man is driving with his father, a former special forces soldier. While they are driving, a
+  car behind them begins aggressively blowing its horn at them. When they reach the traffic lights, a
+  large man gets out of the car and starts aggressively running towards the car with the young man
+  and his former special forces soldier father in it. Against his son's wishes, the father gets out
+  of the car and looks on as the angry man runs towards him. He takes a deep breath and...
+
+  ## Part 2: read this after the groups have written
+
+  ...he calmly, but firmly and loudly says, as the man is running towards him, "Hi, I must have done
+  something to upset you. Please, what was it and maybe we can talk about it?" The angry man
+  immediately stops running. He pauses, and his face clearly changes from angry to more calm. He
+  begins to approach more slowly and says, "yes, your car came out in front of me dangerously. I have
+  my small son in the car, you should be more careful."
+
+  The two men discuss calmly. The father apologises and they both get on their way, feeling
+  understood and pleased with the outcome.
+
+  ## What to do with it
+
+  Take the groups' endings first, all of them, before the reveal. The point is made by the pattern,
+  not by any one version, and it is made most strongly if the group notices the pattern themselves.
+
+  After the reveal, the question is what the father actually did, at the level of the words. Three
+  things: he spoke first, he named the other man's feeling and accepted responsibility provisionally
+  ("I must have done something to upset you"), and he asked a question rather than making a
+  statement. He also did it firmly and loudly, which is worth pointing out, because learners often
+  hear de-escalation as being soft and it was not.
+
+  The second question is why the groups wrote what they wrote. The setup contains a former soldier
+  and a running man, and the frame does the rest. This connects directly to the arm-wrestle game,
+  where learners also supplied a constraint that was never in the rules.
+
+  ## A caution
+
+  This is not a claim that a calm question defuses every confrontation, and it should not be
+  presented as one. Some situations are dangerous and the right response is to leave. Say so if
+  anyone raises it, because a learner who takes this as a general safety rule has been badly served.
+learnerContent: |
+  Listen to the first part of the story.
+
+  Now, in your group: **how do you think it ends?** Write the next part.
+
+  After every group has read theirs, you will hear what actually happened.
+
+  Then:
+
+  - What did the father actually **say**? What did those words do?
+  - He was firm and loud, not soft. Does that change how you think about calming a situation down?
+  - **Why did most groups write the ending they wrote?** What in the story made you expect it?
+  - When could this work? When would it not, and what would you do then?
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Learners see that they predicted violence because the setup invited it, and that the person in
+    the story had an option they had not imagined. Widening the set of options you can imagine is
+    what makes a different response possible when the moment is real.
+principlesForegrounded: [authentic-challenges, lifeworthy-competencies]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The situation is an ordinary confrontation of the kind learners encounter, rather than a formal
+      negotiation, and the response is one an individual could actually use.
+  - principle: lifeworthy-competencies
+    how: >-
+      Naming what the other person is feeling and asking a question, rather than defending, is a
+      transferable move with immediate everyday use.
+competencyCodes: [FUS2, FPS1, ALC3]
+competencyDevelopment:
+  - code: FUS2
+    how: >-
+      The father's opening line works by acknowledging the other man's state before defending his own
+      position, which is understanding another person turned into a sentence.
+  - code: FPS1
+    how: >-
+      The gap between what learners wrote and what happened is direct evidence of how a framing
+      narrows the options they can see.
+  - code: ALC3
+    how: >-
+      The story is de-escalation compressed into one exchange, and the analysis is of exactly which
+      words did it.
+objectiveIds: [peacebuilding--o3]
+relatedSlugs: [pb-emotions-in-conflict, pb-the-mm-game, pb-respect-and-humiliation]
+rights:
+  status: amala-own
+  basis: >-
+    The story appears in Amala's resource pack with no attribution, and the only link it carries points
+    at an internal Amala document rather than an outside source. Treated as Amala's own.
+  note: >-
+    Checked in August 2026: no external origin found. Anecdotes of this shape circulate widely, so if
+    one turns up, credit it and consider replacing the text with a summary.

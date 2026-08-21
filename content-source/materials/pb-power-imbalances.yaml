@@ -1,0 +1,154 @@
+id: pb-power-imbalances
+slug: pb-power-imbalances
+access: public
+type: activity
+title: "Imbalance challenges"
+summary: >-
+  Pairs compete at small physical and verbal contests in which one of them is handicapped, so the
+  room can name the kinds of power at work.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only. The learning is in the watching as much as the competing: the circle names the type
+      of power imbalance in each challenge, and different learners see different ones.
+duration: 30-45 minutes.
+grouping: Whole group in a circle, pairs competing in the middle.
+materialsAndPreparation:
+  - Chairs in a large circle.
+  - A blindfold, a short rope, a book, a pencil and a dry-erase marker, or whatever local equivalents you have.
+  - Check who can take part in each challenge before it is announced, and have the alternatives below ready.
+  - Pick challenges that suit your group. Anyone can be a judge or a caller rather than a competitor.
+whatLearnersDo:
+  - Watch pairs compete at short challenges in which one competitor is deliberately disadvantaged.
+  - Name the type of power imbalance in each challenge.
+  - Say what it felt like to compete with less power, and with more.
+  - Connect the types of power to real conflicts they know.
+facilitationNotes: >-
+  The one thing to get right is that this is about types of power, not about winning. Conflicts
+  rarely unfold on an equal playing field: one party may have more supporters, more money, more
+  physical ability, more verbal ability, more conviction, and each of those is a form of power that
+  is more or less useful depending on the situation. Run the challenges quickly and let the circle
+  name the type each time. Keep them gentle and safe, and make sure the person with less power in
+  each challenge is asked how it felt before anyone analyses it.
+steps:
+  - title: "Set the frame"
+    duration: 5 minutes
+    guidance: >-
+      Seats in a circle. Explain that pairs will come into the middle for short challenges, and that
+      in each one, one competitor will be put in a position of less power. Ask everyone in the circle
+      to watch for the types of power and power imbalance they see. Say that anyone may opt out of
+      competing and take a judging role.
+    keyPrompts:
+      - "Watch for what kind of power is being used, and what kind is being taken away."
+    watchOuts:
+      - "Learners with disabilities are put in the disadvantaged role by default, which turns a
+        teaching device into an insult. Assign roles deliberately and offer the judging role first."
+  - title: "Run the physical power challenges"
+    duration: 8 minutes
+    guidance: >-
+      Two learners balance on one leg, but one may use both. Two balance a book, one on the palm and
+      one on an index finger. Two write a word on the board, one blindfolded. Fast, gentle, one after
+      another. After each, ask the circle to name what kind of power was at play.
+    keyPrompts:
+      - "What kind of power was that?"
+    watchOuts:
+      - "It becomes competitive rather than illustrative. Keep the challenges short and move on
+        quickly."
+  - title: "Run the power-in-numbers and communication challenges"
+    duration: 12 minutes
+    guidance: >-
+      Power in numbers: a one-leg balance where one competitor may pick a teammate to help; a gentle
+      tug-of-war where one may pick a teammate. Communicative power: a storytelling race where one
+      competitor may use only words beginning with B; a listening challenge where the circle whispers
+      a word and one competitor has their hands over their ears. Then resource power: balancing a
+      marker against balancing a pencil.
+    keyPrompts:
+      - "What did the extra person actually give them?"
+      - "What kind of power is being able to hear?"
+    watchOuts:
+      - "The communication challenges are funny and the analysis gets lost. Take one sentence from
+        the circle after each before moving on."
+    adaptation: >-
+      Short on time, or a group that cannot move much: run one challenge from each category rather
+      than all of them. Four challenges is enough for the discussion.
+  - title: "Discuss the types of power"
+    duration: 15 minutes
+    guidance: >-
+      Work the questions. What types of power imbalance did you see? What did it feel like to compete
+      with less power, and with more? How do different types of power factor into real conflicts? Can
+      you think of real conflicts with a large power imbalance? And the one that matters for a
+      peacebuilder: what can we do to add to or take away from our own power, or others'?
+    keyPrompts:
+      - "What did it feel like to be the one who could not win?"
+      - "What real conflicts have a power imbalance this large?"
+      - "What can anyone do to change the balance of power in a conflict?"
+    watchOuts:
+      - "The last question is treated as impossible. Point at the power-in-numbers challenges: the
+        weaker party's most available move is usually to add people."
+closing: >-
+  Name the finding once the group has produced it. Power is not one thing, and being weaker in one
+  kind does not mean being weaker in all of them. That matters for the next few sessions, because a
+  conflict where power is badly unequal cannot be transformed at a table, and one of the four
+  conditions of a transformative platform is precisely equal power dynamics.
+learnerContent: |
+  Pairs will come into the middle for short challenges. In each one, **one competitor will have less
+  power** than the other.
+
+  Everyone else: watch for the **types** of power, and the imbalances.
+
+  Afterwards:
+
+  - What types of power imbalance did you see?
+  - What did it feel like to compete with **less** power? With **more**?
+  - How do different types of power factor into real conflicts?
+  - Can you think of real conflicts with a big power imbalance?
+  - **What can we do to add to, or take away from, our own power? Or someone else's?**
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Learners come out with a list of kinds of power rather than a single sense of being powerless.
+    A person who can name which kind they lack, and which they hold, has somewhere to start; and the
+    power-in-numbers challenges point at the move most available to them.
+principlesForegrounded: [authentic-challenges, safe-spaces]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      Learners feel a rigged contest and then apply the experience to conflicts where the imbalance is
+      real and consequential.
+  - principle: safe-spaces
+    how: >-
+      Roles are assigned deliberately rather than by ability, opting out is offered before challenges
+      begin, and the disadvantaged competitor is asked how it felt before anyone analyses it.
+competencyCodes: [FPS3, FUS2, ALC3]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Naming the type of power at work in each challenge is practice at identifying which factor
+      actually determined an outcome.
+  - code: FUS2
+    how: >-
+      Every learner is asked how it felt from the weaker position, which is the position most analyses
+      of a conflict fail to occupy.
+  - code: ALC3
+    how: >-
+      The closing question, about what changes a balance of power, is the practical precondition for
+      any transformative process.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [pb-paper-factory-simulation, pb-the-mm-game, pb-transformative-platform, pb-wealth-allocation-game]
+links:
+  - label: "Compiled conflict resolution activities"
+    url: https://cpb-us-e1.wpmucdn.com/blogs.uoregon.edu/dist/8/11350/files/2015/05/Compiled-Activities-1-r5x71c.pdf
+    note: "University of Oregon collection, the source of the imbalance challenges."
+rights:
+  status: own-expression
+  holder: University of Oregon (the compiled activity collection)
+  basis: >-
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced. The collection is linked; its challenges are summarised, not copied.
+sourceRefs:
+  - "Power Imbalances (Peacebuilding resources folder)"
+provenanceNote: >-
+  Adapted from Amala's "Power Imbalances", itself from a University of Oregon collection of conflict
+  resolution activities.

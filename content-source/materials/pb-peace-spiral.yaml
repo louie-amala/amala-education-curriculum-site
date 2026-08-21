@@ -1,0 +1,164 @@
+id: pb-peace-spiral
+slug: pb-peace-spiral
+access: public
+type: activity
+title: "The peace spiral: what does peace mean to you?"
+summary: >-
+  Learners build outwards from themselves to family, community, country and world, describing what
+  peace would look like at each level and how the levels connect.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Comparing spirals is where the value is: learners find that their personal ring is
+      full and their world ring is vague, or the reverse, and that others have the opposite problem.
+  - context: independent
+    how: >-
+      Draws perfectly well alone and makes a good independent task or journal entry. What is lost is
+      the comparison, so set two or three specific questions to answer in writing instead of the
+      group discussion.
+  - context: one-to-one-mentoring
+    how: >-
+      A strong mentoring opener, because the innermost ring is a direct route into how a learner is
+      actually doing. Draw your own alongside theirs and start from the outside ring if the personal
+      one feels too close too soon.
+duration: 30-40 minutes.
+grouping: Individual drawing, then small groups.
+materialsAndPreparation:
+  - One sheet of paper per learner, and pens.
+  - Decide your rings in advance and adapt them to your context. Me, my family, my community, my country, my world is the default; camp block, host community or region may fit better.
+  - The quadrant variant needs only a folded sheet of paper, and works better with groups who find drawing spirals fiddly.
+whatLearnersDo:
+  - Write "me" in the centre of the page and describe what peace looks like at a personal level.
+  - Spiral outwards through family, community, country and world, describing peace at each level.
+  - Share their spiral and compare it with others.
+  - Work out how peace at one level depends on peace at another.
+facilitationNotes: >-
+  The one thing to get right is the direction of travel: inside out, and slowly. Learners who start
+  at the world level produce a list of headlines; learners who start with themselves produce
+  something they can actually work on. The activity exists to establish two ideas early, that peace
+  has domains and that the domains are connected, both of which the rest of the course leans on
+  heavily. If drawing a spiral is awkward, use the quadrant version instead. The shape is not the
+  point.
+steps:
+  - title: "Start in the middle"
+    duration: 8 minutes
+    guidance: >-
+      Write "me" in the centre of the page. Ask what peace looks like at a personal level, for them,
+      and let them fill that ring properly before anything else is drawn. Give an example that is
+      unglamorous rather than lofty, something like sleeping without worrying, so learners understand
+      the register.
+    keyPrompts:
+      - "What would peace look like for you, personally, on an ordinary day?"
+    watchOuts:
+      - "Learners jump straight to world peace because it feels like the right answer. Hold them in
+        the middle ring until it is full."
+      - "The personal ring is close to the bone for some learners. Nothing has to be shared, and say
+        so before they start writing."
+  - title: "Spiral outwards"
+    duration: 10-12 minutes
+    guidance: >-
+      Draw a spiral around the centre and label it "my family". Fill it. Then again for community,
+      country and world. Keep the pace steady and do not let any one ring take over. Learners will
+      find some rings much harder than others, and that difficulty is data for the discussion.
+    keyPrompts:
+      - "What would peace look like here that is different from the ring inside it?"
+      - "Which ring was hardest to fill? Why that one?"
+    watchOuts:
+      - "The outer rings become slogans. Ask for one concrete thing that would be different if peace
+        existed at that level."
+    adaptation: >-
+      Prefer the quadrant version if drawing is a barrier: fold a sheet into four and complete the
+      sentence 'peace is...' once in each quadrant, for me, my community, my country, my world.
+      Groups of four then agree a single short definition and make a poster of it.
+  - title: "Share and compare"
+    duration: 10 minutes
+    guidance: >-
+      In small groups, learners share their spirals and look for similarities and differences.
+      Discourage the discussion from settling into a single agreed definition too early. The
+      variation across the room is the finding, and it prepares learners for the fact that parties to
+      a conflict are often not disagreeing about facts but about what peace would even look like.
+    keyPrompts:
+      - "What did you have in common? Where did you differ?"
+      - "Would everyone in your community have drawn this the same way?"
+    watchOuts:
+      - "Groups converge on the blandest shared version. Ask them instead to name the most
+        interesting difference they found."
+  - title: "Connect the rings"
+    duration: 8 minutes
+    guidance: >-
+      The closing discussion, and the reason the activity exists. What is the difference between
+      peace at a personal level and at a country level? And how might peace at a personal level
+      matter for peace at a wider one? Take answers in both directions, since the influence runs
+      outwards and inwards, and both matter later in the course.
+    keyPrompts:
+      - "How could peace at a personal level matter for peace at a wider level?"
+      - "And the other way round: what does a country at war do to peace inside a person?"
+    watchOuts:
+      - "Learners conclude that personal peace is all that matters and structures are irrelevant.
+        Push back with the second question; the rings run both ways."
+closing: >-
+  Keep the spirals; they are referred to again when the course reaches positive peace and again when
+  learners choose a project. Say the finding once: everyone in this room wants peace and no two
+  people in it drew the same picture of it. That is not a problem to be tidied away. It is the
+  reason peacebuilding starts by asking people what they want rather than telling them.
+learnerContent: |
+  Write **me** in the middle of your page.
+
+  Around it, write or draw what peace would look like for you personally. Ordinary things count.
+
+  Now draw a spiral around that and write **my family**. Fill it in the same way. Then **my
+  community**. Then **my country**. Then **my world**.
+
+  Afterwards, with others:
+
+  - What was similar between your spiral and theirs? What was different?
+  - What is the difference between peace at a personal level and peace at a country level?
+  - How might peace at a personal level matter for peace at a wider level? And the other way round?
+
+  Keep this. You will come back to it.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, contribution-to-community]
+  how: >-
+    Peace becomes something the learner has defined rather than received, and it has a level they can
+    actually reach. Starting at the innermost ring means the answer to "what could I do about peace"
+    is not automatically "nothing".
+principlesForegrounded: [builds-on-identities, connect-to-futures]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The definition of peace comes from the learner's own life and their own community, in their own
+      terms, before any theoretical distinction is introduced.
+  - principle: connect-to-futures
+    how: >-
+      The spiral is a description of a wanted future at five scales, and it is what later project
+      ideas are tested against.
+competencyCodes: [FUS1, FSL1, FLC3]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      The innermost ring requires learners to articulate what they personally need in order to be at
+      peace, which most have never been asked to state.
+  - code: FSL1
+    how: >-
+      Noticing which ring was hardest to fill, and why, is reflection on the learner's own thinking
+      rather than on the topic.
+  - code: FLC3
+    how: >-
+      Explaining your own picture of peace to people who drew a different one is the first small
+      instance of the communication the course builds towards.
+objectiveIds: [peacebuilding--o1, peacebuilding--o3]
+relatedSlugs: [pb-four-kinds-of-peace, pb-defining-conflict, pillars-of-positive-peace]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced. The spiral and quadrant devices are common in peace education and are not attributable to one author.
+sourceRefs:
+  - "Peace Spiral - What does Peace mean to you? (Peacebuilding resources folder)"
+  - "Peace Quadrants - What does peace mean to you? (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 2a Activity 1.1"
+provenanceNote: >-
+  Consolidated from Amala's "Peace Spiral" and "Peace Quadrants" activities, offered in the 2025
+  course planner as two options for the same purpose.

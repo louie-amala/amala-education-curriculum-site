@@ -1,0 +1,152 @@
+id: pb-four-kinds-of-peace
+slug: pb-four-kinds-of-peace
+access: public
+type: case-study
+title: "Four kinds of peace"
+summary: >-
+  Four places where the fighting stopped: Sri Lanka, the Cold War, France and Germany, Northern
+  Ireland. Learners work out why one of them is different.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners argue about which case is the odd one out and the argument is what
+      produces the definitions. If it is handed over as a completed comparison it teaches nothing.
+  - context: independent
+    how: >-
+      The four cases can be read and tabled alone, and an independent learner will usually spot the
+      Franco-German case. What is lost is the disagreement that sharpens the definitions, so ask for
+      written definitions of positive and negative peace before you send the standard ones back.
+duration: 60 minutes.
+grouping: Small groups for the table, whole group for the comparison.
+materialsAndPreparation:
+  - The four case cards, each a short paragraph. They are reproduced in the learner content below and can be read aloud if you cannot print.
+  - "The comparison table, blank: one row per case, columns for what is good about this state of peace and what is bad about it."
+  - "Check whether any of these conflicts is close to your learners' own experience. If so, consider substituting a case from elsewhere: the point is the contrast, not these four countries."
+whatLearnersDo:
+  - Read four short accounts of what happened after fighting stopped.
+  - Fill a table saying what is good and what is bad about each state of peace.
+  - Decide which case is different from the others, and why.
+  - Write their own definitions of positive peace and negative peace from the cases.
+facilitationNotes: >-
+  The one thing to get right is that the definitions come last and come from the learners. Case C,
+  France and Germany, is the odd one out because something was built there: a joint history
+  textbook, city partnerships, youth exchange, a shared television channel. The other three stopped
+  the fighting and built nothing, or built a wall. Learners can see this. Let them see it, then ask
+  them to name the two kinds of peace they have just distinguished, and only then offer the standard
+  wording. Say clearly that definitions in peacebuilding are debated, so the version they produced
+  is not wrong for being different.
+educatorContent: |
+  Four cases, each a place where large-scale violence ended, and each a different kind of ending.
+
+  **A. Sri Lanka.** In May 2009 the government defeated the Tamil Tiger rebels, ending 26 years of
+  civil war. Today the majority of Tamils live in poverty, many without homes or livelihoods.
+  Thousands are internally displaced, and war crimes and human rights abuses remain unpunished.
+
+  **B. The Cold War.** After the Second World War the United States and the Soviet Union each feared
+  attack by the other. Both built enough nuclear weapons to destroy all human life, each believing
+  the threat of total destruction would stop the other starting a war.
+
+  **C. France and Germany.** The two fought three wars across the 19th and 20th centuries and were
+  long-standing enemies. After the Second World War they began a process of reconciliation:
+  partnerships between German and French cities, youth exchange, promotion of each other's language,
+  a joint Franco-German history textbook written to give a shared vision of the past, and a shared
+  cultural television channel. They are now close allies.
+
+  **D. Northern Ireland.** Conflict between Catholic and Protestant populations ran for many years,
+  known as the Troubles. The government built "peace walls" in Northern Irish cities to separate the
+  communities and stop the violence between them.
+
+  ## What learners are meant to find
+
+  All four are peace in the sense that large-scale killing has stopped. Only C did anything about
+  the relationship. A left a defeated population in poverty with grievances unaddressed; B kept the
+  peace through mutual terror; D keeps it through physical separation. Each is stable, and each
+  leaves the causes intact.
+
+  Learners will usually pick C quickly. The productive question is the second one: which of these
+  states of peace is most desirable and why. That is where they generate the language of dialogue,
+  mutual understanding, building bridges rather than walls, and it is that language you convert into
+  the two terms.
+
+  ## The definitions
+
+  Offer these only after the group has produced its own:
+
+  - **Positive peace:** the presence of cooperation, dialogue, equity, equality and a culture of peace.
+  - **Negative peace:** the absence of war and direct violence.
+
+  Stress that a lot of definitions in peacebuilding are debatable. There are no right answers, but
+  there are general understandings most people agree on.
+
+  ## A caution
+
+  Case D is not a neutral illustration for everyone, and neither is A. If your learners come from a
+  context where separation is the current arrangement, expect the discussion to be less abstract than
+  the material assumes, and let it be.
+learnerContent: |
+  Read the four cases. In each one, the large-scale fighting has stopped.
+
+  Fill in this table:
+
+  | Case | What is good about this state of peace? | What is bad about it? |
+  |---|---|---|
+  | A. Sri Lankan civil war | | |
+  | B. The Cold War | | |
+  | C. France and Germany | | |
+  | D. The Troubles, Northern Ireland | | |
+
+  Then:
+
+  - **Which case seems different from the others, and why?**
+  - Which shows a state of peace that is more desirable? Why?
+  - Using the cases, write your own definitions of **positive peace** and **negative peace**, and
+    list some features of each.
+
+  | | Positive peace | Negative peace |
+  |---|---|---|
+  | Your definition | | |
+  | Features of this type of peace | | |
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners generate the distinction between the two kinds of peace themselves, from evidence, which
+    means they can apply it to their own context rather than recite it. It also sets the standard
+    their own project will later be judged against: did this build anything, or only stop something?
+principlesForegrounded: [authentic-challenges, collaboration]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      Four real post-conflict settlements, each with consequences that are still running, rather than
+      a constructed teaching example.
+  - principle: collaboration
+    how: >-
+      The definitions are built by the group from disagreement about the cases, which produces
+      wording learners can defend rather than wording they have been given.
+competencyCodes: [FPS3, FUS3, FSI1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Judging what is good and bad about each settlement requires identifying what was left in place,
+      and what that continues to produce.
+  - code: FUS3
+    how: >-
+      The Franco-German case turns on cultural work, shared history, language and broadcasting, which
+      makes the cultural dimension of peace concrete rather than decorative.
+  - code: FSI1
+    how: >-
+      Learners read four real contexts and extract a general distinction from them, which is the
+      analytic core of investigating a real-world issue.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [pb-peace-spiral, pillars-of-positive-peace, pb-land-of-harmonia, galtungs-violence-triangle]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced. The four case summaries are the planner's own and are brief factual accounts.
+sourceRefs:
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 2a Activity 1.4"
+provenanceNote: >-
+  The four cases and the comparison table are from the 2025 Peacebuilding course planner. Case
+  summaries are the planner's own and are deliberately brief.

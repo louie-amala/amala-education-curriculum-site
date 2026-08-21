@@ -1,6 +1,7 @@
 # Unit plan (scheme of work) for the Research Project component of Learning Bridge+ (Cox's Bazar).
-# HOURS-BASED, not weeks: it sets out the full 54 hours (33 in-person + 21 independent) so an educator
+# HOURS-BASED, not weeks: it sets out the full 50 hours (30 in-person + 20 independent) so an educator
 # can fit them into their own weekly schedule (minimum 10 weeks). Treated as a standalone component.
+# The 50 hours match the figure the programme bills this component at (learning-bridge-coxs-bazar.yaml).
 #
 # CHALLENGE SET (2026-08-04): the whole cohort investigates ONE shared challenge — what is happening to
 # the trees on the hills where they live (deforestation → bare slopes → landslides, heat, floods → the
@@ -30,7 +31,7 @@ programmeSlug: learning-bridge-coxs-bazar
 componentTitle: Research Project
 courseSlug: research-project
 summary: >-
-  The full 54-hour plan for delivering the Research Project component fully offline in the Cox's Bazar
+  The full 50-hour plan for delivering the Research Project component fully offline in the Cox's Bazar
   camps, as a standalone course. It is set out in hours, not weeks, so you can fit it into your own
   timetable over a minimum of 10 weeks. The whole cohort investigates one shared, local challenge —
   what is happening to the trees on the hills where they live — working from a research question they
@@ -40,31 +41,41 @@ summary: >-
   work, weigh what they find, and turn it into insights they share. Because there is no internet, all
   secondary sources are supplied ready-made. Times are deliberately generous, because oral and visual
   delivery with drawing and translation takes longer than it first appears.
-totalFacilitatedHours: 33
-totalIndependentHours: 21
-deliveryApproach: >-
+totalFacilitatedHours: 30
+totalIndependentHours: 20
+deliveryApproach: |-
   This unit runs one real cycle of investigation on a single challenge the whole cohort shares. The aim
   is to move learners from doing research to being researchers — and the way we get there is to keep the
   SUPPORT constant while shifting who OWNS the work, from the facilitator's example to the learner's own.
-  We do not withdraw the scaffold as the work gets harder; if anything, the hardest steps — weighing
+
+  We do not withdraw the scaffold as the work gets harder. If anything, the hardest steps — weighing
   evidence, reaching an insight, reflecting on how we have grown — need the most support, so that is
-  where the workbook scaffolds hardest. Early on you model each move first (introduce the challenge and
-  the given question, show how to take a question apart, read a source aloud); then learners take each
+  where the workbook scaffolds hardest. Early on you model each move first: introduce the challenge and
+  the given question, show how to take a question apart, read a source aloud. Then learners take each
   move on themselves — designing their questions, gathering, sorting, reaching insights, sharing — but
-  always with the same scaffolds beside them. Crucially, the scaffold lives in the learner's research
-  book, not only in you: every page shows a worked example and gives frames, sentence stems, and
-  labelled slots to fill, and a repeating weekly spread carries the between-session work — so a learner
-  who is alone, or who returns after a missed session, still has a model and a structure to work from.
-  Some learners keep more support for longer, and that is exactly right. Three
-  cautions specific to research in this context. First, primary research means learners talking to real
-  people, so protection comes first: the challenge must be safe to research here, consent is always
-  asked, no one is pressed to answer, and girls gather in same-gender pairs where that is what keeps
-  them safe. Second, offline does not mean thin: secondary research is real research done on a supplied,
-  curated pack of sources rather than by searching the internet. Third, language: this cohort works in
-  English at around A1, growing towards B1 across the programme, so build every activity on pictures,
-  drawing, and translation, introduce research words a few at a time on a shared word wall, and give
-  learners simple sentence frames ("Before, …; now, …") to lean on — English is a scaffold the learners
-  grow into, never the gate on whether they can show they can investigate.
+  always with the same scaffolds beside them. Some learners keep more support for longer, and that is
+  exactly right.
+
+  Crucially, the scaffold lives in the learner's research book, not only in you. Every step is taught
+  before it is done: a "Learn it" page carries the method, then a worked example, then frames, sentence
+  stems and labelled slots to fill. A repeating weekly spread carries the between-session work. So a
+  learner who is alone, or who returns after a missed session, still has both the teaching and a
+  structure to work from.
+
+  Three cautions are specific to research in this context.
+
+  **Protection comes first.** Primary research means learners talking to real people. The challenge must
+  be safe to research here, consent is always asked, no one is pressed to answer, and girls gather in
+  same-gender pairs where that is what keeps them safe.
+
+  **Offline does not mean thin.** Secondary research here is real research, done on a supplied, curated
+  pack of sources rather than by searching the internet.
+
+  **Language is a scaffold, never a gate.** This cohort works in English at around A1, growing towards
+  B1 across the programme. Build every activity on pictures, drawing and translation, introduce research
+  words a few at a time on a shared word wall, and give learners simple sentence frames ("Before, …;
+  now, …") to lean on. English is something learners grow into — it is never what decides whether they
+  can show that they can investigate.
 assessmentNote: >-
   On Learning Bridge+, a learner's proficiency in the anchor competency, investigating real-world
   issues (FSI1), is judged by the educator against Amala's proficiency scale at two points: midway
@@ -84,16 +95,27 @@ phases:
       Learners meet the shared challenge and the big idea: a researcher does not guess or argue from
       opinion, they find out.
     blocks:
-      - title: "Welcome and our research space"
+      - title: "Welcome, and our research book"
         kind: orientation
-        facilitatedHours: 1
-        independentHours: 0
+        materialSlug: cb-rp-set-up-research-book
+        facilitatedHours: 2
+        independentHours: 0.5
         description: >-
-          Open the course. Build a safe, welcoming space: names, a simple agreement about how the group
-          treats each other and each other's ideas, and reassurance that no one has to read, write, or
-          share anything they would rather keep private. Introduce the big idea in your own words: this
-          course is about finding things out for ourselves, carefully and fairly, instead of guessing or
-          repeating what people say. Keep it warm, oral, and unhurried.
+          Open the course and set up the book in one session — in practice they are the same session, and
+          the book is the best possible way to welcome people into it. Build a safe, welcoming space:
+          names, a simple agreement about how the group treats each other and each other's ideas, and
+          reassurance that no one has to read, write, or share anything they would rather keep private.
+          Introduce the big idea in your own words: this course is about finding things out for
+          ourselves, carefully and fairly, instead of guessing or repeating what people say. Then set up
+          the research book each learner keeps through the whole course — it holds their question, their
+          evidence, and their thinking, mostly as drawings, marks, and a few words — and model making the
+          first pages together. It runs through every phase and becomes the record the educator draws on
+          for assessment, so set it up early and keep coming back to it. Keep the whole session warm,
+          oral, and unhurried.
+        independentTask: "Put your name, or your own mark, on the front of your research book, and show it to one person at home."
+        flexNote: >-
+          The research book is to the Research Project what the learning book is to Agency in Learning:
+          the visual-first spine that carries evidence across a stop-start attendance pattern.
       - title: "Meet our challenge"
         kind: activity
         materialSlug: cb-rp-meet-our-challenge
@@ -120,20 +142,6 @@ phases:
           personal the flooding or landslides are for them, tells you how much to lead in the framing
           phase and where the protection risks are. This same orientation shape works for Agency in
           Learning too.
-      - title: "Set up your research book"
-        kind: orientation
-        materialSlug: cb-rp-set-up-research-book
-        facilitatedHours: 1.5
-        independentHours: 0.5
-        description: >-
-          Set up the research book each learner keeps through the whole course: it holds their question,
-          their evidence, and their thinking, mostly as drawings, marks, and a few words. Model making
-          the first pages together. It runs through every phase and becomes the record the educator
-          draws on for assessment, so set it up early and keep coming back to it.
-        independentTask: "Make one small mark or drawing about our challenge on the first page of your research book."
-        flexNote: >-
-          The research book is to the Research Project what the learning book is to Agency in Learning:
-          the visual-first spine that carries evidence across a stop-start attendance pattern.
       - title: "What good research looks like"
         kind: activity
         materialSlug: cb-rp-what-good-research-looks-like
@@ -155,7 +163,7 @@ phases:
       - title: "Why this challenge matters, and what we already know"
         kind: activity
         materialSlug: cb-rp-what-we-already-know
-        facilitatedHours: 2
+        facilitatedHours: 1.5
         independentHours: 1
         description: >-
           Learners explore why the trees and hills matter to them and their community, and pool what
@@ -168,7 +176,7 @@ phases:
       - title: "Who and what is connected to our challenge"
         kind: activity
         materialSlug: cb-rp-community-mapping
-        facilitatedHours: 2
+        facilitatedHours: 1.5
         independentHours: 1
         description: >-
           A community-mapping activity: learners map the people, groups, and things connected to the
@@ -215,7 +223,7 @@ phases:
       - title: "Two ways to find out, and being a fair and safe researcher"
         kind: activity
         materialSlug: cb-rp-two-ways-and-ethics
-        facilitatedHours: 2
+        facilitatedHours: 1.5
         independentHours: 0.5
         description: >-
           Introduce, in plain terms with pictures, the two ways a researcher finds things out: asking
@@ -229,21 +237,56 @@ phases:
       - title: "Design our interview and survey questions"
         kind: activity
         materialSlug: cb-rp-design-our-questions
-        facilitatedHours: 2
+        facilitatedHours: 3
         independentHours: 1
         description: >-
-          Learners design the simple instruments they will use to gather primary evidence about the
-          research question: a short set of interview questions and, if useful, a very short survey that
-          can be run orally and recorded with marks or pictures rather than writing. Model the
-          difference between a question that opens people up and one that leads them to an answer.
-          Learners draft, then try their questions on each other, notice what was confusing, and improve
-          them. Keep instruments short, oral-friendly, and safe.
-        independentTask: "Try one of your interview questions on a family member, and notice whether it was clear."
+          Teach, then design. The quality of every piece of primary evidence this investigation will
+          have is decided in this block, so it opens with real teaching, not with drafting: the four
+          kinds of question (open, closed, leading, two-in-one), how to repair a leading question with
+          the six starter words, why we ask what a person SAW rather than what they think in general,
+          and the three follow-ups — "tell me more", "why do you think that?", and waiting quietly for
+          five seconds. Model it with a fishbowl: interview one learner in front of the group for three
+          minutes, then do a minute badly on purpose and let the group name every fault. Only then do
+          learners design — one or two open interview questions for each of our four sub-questions, each
+          with the follow-up they will use and a four-point check (open, one thing, short, safe). They
+          then shape a very short survey of closed questions that can be recorded with a tally or a
+          three-face scale rather than writing, and decide who to ask: five DIFFERENT kinds of people,
+          because a group who only asks people like themselves learns only one thing. They finish by
+          trying their questions on each other and fixing what confused or led.
+        independentTask: "Try one of your interview questions on a family member, use a follow-up afterwards, and notice what came out that you would have missed."
+        flexNote: >-
+          If time is short, protect the teaching and the fishbowl and shorten the drafting — a group with
+          four good questions they understand gathers better evidence than a group with twelve they do
+          not. The survey is the part to drop first if the group is struggling; the interviews carry the
+          investigation.
+      - title: "Practise being an interviewer, and get ready to go"
+        kind: practice
+        materialSlug: cb-rp-practise-interviewing
+        facilitatedHours: 1.5
+        independentHours: 0
+        description: >-
+          A rehearsal, not a briefing. Learners have good questions now; what they do not have is the
+          experience of being the person asking. They run the whole arc of an interview on each other,
+          in order — greet, ask permission, ask, follow up, record on the real gathering page while the
+          person is still speaking, thank — then do it again with one named improvement each. Then the
+          three hard moments, played by their partner: the person who says no (which the group learns to
+          treat as a good outcome, not a failure), the person in a hurry (choose your one most important
+          question), and the person who answers in one word (use a follow-up, or wait). They close by
+          filling the readiness page with their gathering partner and saying aloud, pair by pair, one
+          open question, its follow-up, who they will ask, where, when, and who they will ask instead if
+          that person is not there. Confirm the gender-responsive gathering plan and the safeguarding
+          and referral pathway out loud with the whole group before anyone leaves.
+        flexNote: >-
+          This block absorbs the briefing that used to sit inside "Go and gather", so gathering itself is
+          now purely independent work with a check-in afterwards. Do not let it slide back into
+          question-drafting: fix a weak question in the moment if you must, but the point of the block is
+          that learners have physically done the thing before they do it for real. A pair who cannot say
+          all six readiness answers is not ready — keep them back and rehearse again.
       - title: "Work the source pack"
         kind: activity
         materialSlug: cb-rp-work-the-source-pack
-        facilitatedHours: 2
-        independentHours: 1.5
+        facilitatedHours: 1.5
+        independentHours: 2
         description: >-
           Learners work through the supplied source pack — the ready-made, translated, level-appropriate
           set of secondary sources about how trees, soil, rain, and heat work, supplied on USB or in
@@ -267,15 +310,19 @@ phases:
       - title: "Go and gather"
         kind: practice
         materialSlug: cb-rp-go-and-gather
-        facilitatedHours: 1
+        facilitatedHours: 0.5
         independentHours: 3
         description: >-
-          The heart of primary research, and where much of the independent time lives. Between sessions,
-          in the pairs and with the consent routine already practised, learners gather primary evidence
+          The heart of primary research, and where almost all of the independent time lives. The briefing
+          for this block now happens in the rehearsal that precedes it, so the half hour here is the
+          check-in AFTER gathering, not a send-off before it. Between sessions, in the pairs and with the
+          whole interview already rehearsed, learners gather primary evidence
           about the research question from the people and places on their community map, and record it in
-          their research book with marks, drawings, and a few words. Open each session with a short, warm
-          check-in in same-gender pairs or the group: who did you speak to, what did you find, what got in
-          the way? Protect this block and keep the check-ins going. Hold the ethics line throughout:
+          their research book with marks, drawings, and a few words. Open each following session with a
+          short, warm check-in in same-gender pairs or the group: who did you speak to, what did you
+          find, what got in the way, and what will you do differently next time? Protect this block and
+          keep the check-ins going — they are where a pair who is stuck gets unstuck, and where you see
+          the evidence accumulating. Hold the ethics line throughout:
           consent every time, no names, no pressure, and no learner sent anywhere unsafe to get evidence.
           Plan gathering so girls can take part safely — in their own home and from women in their close
           networks, or with a female facilitator — not the same way as boys, so no learner is left out of
@@ -307,8 +354,8 @@ phases:
       - title: "Sort and theme what we found"
         kind: activity
         materialSlug: cb-rp-sort-and-theme
-        facilitatedHours: 2
-        independentHours: 1.5
+        facilitatedHours: 1.5
+        independentHours: 1
         description: >-
           Learners organise all the evidence — primary and secondary — so that patterns can be seen:
           physically grouping cards, drawings, or marks into themes on the floor or wall, and naming
@@ -319,7 +366,7 @@ phases:
       - title: "Dig for the root cause"
         kind: activity
         materialSlug: cb-rp-root-cause
-        facilitatedHours: 1.5
+        facilitatedHours: 1
         independentHours: 0.5
         description: >-
           One way to analyse what we found: dig past the surface problem to its root cause, using the Five
@@ -331,7 +378,7 @@ phases:
       - title: "Who, what, and why — looking deeper"
         kind: activity
         materialSlug: cb-rp-looking-deeper
-        facilitatedHours: 1.5
+        facilitatedHours: 1
         independentHours: 0.5
         description: >-
           A second way to analyse: see the problem as a human system, through three questions — who or what
@@ -368,7 +415,7 @@ phases:
       - title: "Choose our format and our audience"
         kind: activity
         materialSlug: cb-rp-choose-format-and-audience
-        facilitatedHours: 1.5
+        facilitatedHours: 1
         independentHours: 1
         description: >-
           Learners decide who most needs to hear what they found — peers, families, the wider community,
@@ -381,7 +428,7 @@ phases:
         kind: practice
         materialSlug: cb-rp-build-our-output
         facilitatedHours: 2
-        independentHours: 3
+        independentHours: 2.5
         description: >-
           Learners build their chosen output, structuring their findings and insights into a clear,
           honest, evidence-based account a non-expert can follow, and rehearsing how they will present it
@@ -400,8 +447,8 @@ phases:
       - title: "Share our findings, and look back"
         kind: consolidation
         materialSlug: cb-rp-share-and-reflect
-        facilitatedHours: 2.5
-        independentHours: 3
+        facilitatedHours: 2
+        independentHours: 2.5
         description: >-
           Close the course. Hold a warm, celebratory sharing where learners present their research
           output to the audience they chose, and answer questions about it, with no one forced to

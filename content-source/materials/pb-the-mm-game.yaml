@@ -1,0 +1,154 @@
+id: pb-the-mm-game
+slug: pb-the-mm-game
+access: public
+type: activity
+title: "The arm-wrestle game"
+summary: >-
+  Pairs arm-wrestle for sweets, one point per win, one minute. Almost nobody works out that they
+  could both have won dozens.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only and pair-based. The finding depends on comparing what different pairs did, and on at
+      least one pair, occasionally, discovering the cooperative solution while the others did not.
+duration: 20-30 minutes.
+grouping: Pairs, deliberately unequal in strength where possible.
+materialsAndPreparation:
+  - Small sweets or tokens, plenty of them. Enough that a pair could in principle collect dozens.
+  - A table or flat surface for each pair, or use the floor.
+  - Check for anyone who should not arm-wrestle and give them the timekeeper or observer role before pairs are formed.
+whatLearnersDo:
+  - Arm-wrestle a partner for one minute, earning a sweet each time they pin their opponent's wrist.
+  - Report how many they won.
+  - Discover that letting each other win alternately would have earned both of them far more.
+  - Work out why that solution did not occur to them, and what it implies for conflict.
+facilitationNotes: >-
+  The one thing to get right is the wording of the rules, which must be true and must not hint. You
+  win every time you make your opponent's wrist hit the table. Every win earns a sweet. Your goal is
+  to get as many sweets as possible. One minute. Nothing in that says your partner must lose, and
+  almost every pair assumes it does. Pair people of visibly unequal strength where you can: it
+  produces a stark win-lose result and gives the weaker party a genuine experience of a rigged
+  contest, which the debrief needs.
+steps:
+  - title: "Set the rules exactly"
+    duration: 5 minutes
+    guidance: >-
+      Give the four rules, in these words, and do not elaborate. You will arm-wrestle your opponent.
+      You win every time you make your opponent's wrist hit the table. Every time you win, you get a
+      sweet. Your goal is to get as many sweets as possible, and you have one minute. Answer no
+      questions about strategy.
+    keyPrompts:
+      - "Your goal is to get as many sweets as possible. You have one minute."
+    watchOuts:
+      - "Someone asks whether they are allowed to cooperate. Repeat the rules verbatim rather than
+        answering; the rules already permit it."
+      - "The word opponent does the framing work and should stay. Do not soften it to partner."
+  - title: "Run the minute"
+    duration: 2 minutes
+    guidance: >-
+      Time one minute exactly. Watch for any pair that works it out, because they are gold in the
+      debrief. Expect most pairs to strain against each other and produce two or three wins between
+      them, usually all to one person.
+    keyPrompts:
+      - "One minute. Go."
+    watchOuts:
+      - "It gets physical beyond arm-wrestling. Stop that pair."
+  - title: "Distribute and ask the weaker party"
+    duration: 5 minutes
+    guidance: >-
+      Go round asking how many each person won, and hand out the sweets. Then ask the people who lost
+      how it felt to be the weaker party, what outcome it produced, and how it would leave them
+      feeling if this were real. Do this before revealing the alternative, so the win-lose experience
+      is registered on its own terms.
+    keyPrompts:
+      - "How did it feel to be the weaker one? What did that produce?"
+    watchOuts:
+      - "Winners are triumphant and it stings. Let it, briefly. That sting is the argument the next
+        step makes."
+  - title: "Reveal the cooperative solution"
+    duration: 10 minutes
+    guidance: >-
+      Explain that they could have kept every rule and simply let each other win, alternating as fast
+      as they could for the whole minute, ending with a large and equal number of sweets each. Then
+      the questions that matter. Why did that not occur to you? Do win-win solutions come naturally?
+      What does that tell you about how we enter conflicts?
+    keyPrompts:
+      - "Why didn't you think of that?"
+      - "Do win-win solutions come naturally to us?"
+      - "Which of these is conflict management, and which is conflict transformation?"
+    watchOuts:
+      - "Learners feel tricked and dismiss it. Concede the trick and hold the finding: nothing in the
+        rules said your partner had to lose. They supplied that."
+    adaptation: >-
+      Short on time: run the minute, reveal the solution, and ask only why it did not occur to them.
+      That single question carries most of the value.
+closing: >-
+  Ask what both parties would have had to agree before the cooperative strategy could work, and let
+  the group get to trust on its own. Then say it plainly. The obstacle was not cleverness. It was
+  that the word opponent, and one minute of pressure, made a shared gain literally unthinkable. That
+  is what conflict does to people, and noticing it is the beginning of working against it.
+learnerContent: |
+  The rules:
+
+  - You will arm-wrestle your opponent.
+  - You win every time you make your opponent's wrist hit the table.
+  - Every time you win, you get a sweet.
+  - **Your goal is to get as many sweets as possible.** You have one minute.
+
+  Afterwards:
+
+  - How many did you win? How many did your partner win?
+  - If you were the weaker one: how did that feel? What did it produce? How would it leave you
+    feeling if this were real?
+
+  Then you will find out what you could have done instead.
+
+  - **Why didn't you think of that?**
+  - Do win-win solutions come naturally to us?
+  - Which of the two approaches is conflict management, and which is conflict transformation?
+  - What would both parties have needed to agree before the better strategy could work?
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Learners catch themselves inventing a constraint that was never in the rules. That is a habit of
+    mind they can go looking for afterwards, in negotiations, arguments and their own project design,
+    and it costs nothing to check.
+principlesForegrounded: [collaboration, authentic-challenges]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The optimal strategy is unavailable to either learner alone and requires trusting a person you
+      have just been told is your opponent.
+  - principle: authentic-challenges
+    how: >-
+      The assumption examined is one the learners just made, under time pressure, for real sweets.
+competencyCodes: [FPS1, ALC3, FUS2]
+competencyDevelopment:
+  - code: FPS1
+    how: >-
+      The reveal is a direct demonstration that a fixed framing produced a poor outcome, and that
+      adjusting the framing was always available.
+  - code: ALC3
+    how: >-
+      The distinction between managing a conflict and transforming it is made concrete by two
+      strategies under one set of rules.
+  - code: FUS2
+    how: >-
+      Asking the weaker party how it felt, before revealing the alternative, puts the stronger party
+      in contact with an experience they did not have.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [pb-battle-for-orange, pb-chair-simulation, pb-apple-arguments, pb-power-imbalances]
+rights:
+  status: own-expression
+  basis: >-
+    A widely used negotiation exercise of uncertain origin.
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced.
+sourceRefs:
+  - "The M and M game: Win-Win Solutions (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 5 Activity 1.2"
+provenanceNote: >-
+  Adapted from Amala's "The M and M game", renamed here since any small sweet or token works. A
+  widely used negotiation exercise of uncertain origin.

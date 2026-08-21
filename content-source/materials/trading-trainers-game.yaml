@@ -1,0 +1,117 @@
+id: trading-trainers-game
+slug: trading-trainers-game
+access: public
+type: resource
+title: "Trading Trainers (published simulation): using it in this course"
+summary: >-
+  Working flat out making trainers for a market that pays too little to live on. Where it fits, and
+  where to download it free.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only. It is a manufacturing simulation, so it needs a room where people can work in teams
+      and a facilitator playing the market. No technology required.
+materialsAndPreparation:
+  - The game itself. Christian Aid publish it free as a short PDF, linked below.
+  - Paper, scissors and basic classroom equipment, per the download.
+  - No technology.
+  - Time for the debrief, and a plan for how to hold the discussion about effort and reward without it becoming despairing.
+educatorContent: |
+  Trading Trainers is published free by Christian Aid. It is set in an imaginary shanty-town, where
+  participants manufacture trainers to sell in the local market. They work hard. The market pays what
+  the market pays. The gap between the two is the whole point.
+
+  Where the Trading Game shows how unequal starting positions produce unequal outcomes between
+  countries, Trading Trainers works one level down, on the person doing the labour, and asks why
+  effort does not translate into a living.
+
+  ## Why it belongs in the curriculum, and where
+
+  **Economics for Positive Change**, objective 1, asks learners to build a collective understanding of
+  a local economic system. Many Amala learners are in exactly this position: working, and not earning
+  enough to get out. That makes this material more delicate than most, and more useful, because it
+  offers a structural explanation for something learners may currently read as personal failure.
+
+  **Making Societal Change**, objective 1, gets the supply-chain version of the same point: the
+  conditions in the shanty-town are set a long way from the shanty-town.
+
+  ## A note on running it
+
+  Handle the debrief carefully. For a group whose families are in informal or piecework labour, this
+  is not a thought experiment. That is the reason to run it, and the reason to run it well. Two things
+  help:
+
+  - **Keep the analysis on the system.** The question is what determines the price, not whether the
+    workers tried hard enough. Learners will supply the second question themselves; redirect it.
+  - **Do not end on despair.** Close on where in the chain the price is actually set, and who could
+    change it. That is a peacebuilding and a societal-change question, and it leaves learners with
+    somewhere to put the feeling.
+
+  ## Getting it
+
+  Free from Christian Aid, linked below. Amala does not reproduce it.
+learnerContent: |
+  You are making trainers to sell in your local market. The better and faster you work, the more you
+  can sell.
+
+  Afterwards:
+
+  - How hard did you work? What did you earn?
+  - What determined the price you got? Was it anything you controlled?
+  - What would you have had to do to earn enough to live well?
+  - **Where in the chain is the price actually set? Who could change it?**
+  - Where have you seen this?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    It offers a structural explanation for something many learners currently experience as personal
+    failure, and then asks where the price is set and who could change it. That is the move from
+    self-blame to analysis, and it is one of the most valuable things this curriculum can do.
+principlesForegrounded: [authentic-challenges, builds-on-identities, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      For many Amala learners this is their household economy rather than a case study, which is why
+      the structural analysis matters so much.
+  - principle: builds-on-identities
+    how: >-
+      Learners' own experience of informal or piecework labour is the most authoritative evidence in
+      the room, and the debrief should treat it that way.
+  - principle: responsible-action
+    how: >-
+      Closing on where the price is set, and who could change it, keeps the session from ending in
+      resignation.
+competencyCodes: [FPS3, FSI1, FUS2]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The debrief is about what determines the price, which is a systemic factor invisible from inside
+      the workshop.
+  - code: FSI1
+    how: >-
+      The closing question sends learners to look at a real chain in their own context.
+  - code: FUS2
+    how: >-
+      Learners have to reason about actors far up the chain whose incentives they never see.
+objectiveIds: [economics-for-positive-change--o1, making-societal-change--o1]
+relatedSlugs: [the-trading-game, fishbanks-simulation, starpower-simulation]
+links:
+  - label: "Trading Trainers Game (free download, Christian Aid)"
+    url: https://developmenteducation.ie/resource/trading-trainers-game-a-simulation-game-about-working-hard-for-a-living-and-staying-poor/
+    note: "A short free game about working hard for a living and staying poor, hosted by DevelopmentEducation.ie. Christian Aid's original."
+rights:
+  status: linked-not-reproduced
+  holder: Christian Aid
+  basis: >-
+    Christian Aid publish the game free for educators. Nothing of it is reproduced here: this page
+    describes what it does, argues where it fits the curriculum, and links to the download. All
+    wording is Amala's own.
+  note: >-
+    Christian Aid state no explicit licence beyond their general copyright, so link rather than copy.
+sourceRefs:
+  - "Trading Trainers Game, Christian Aid."
+provenanceNote: >-
+  Identified in August 2026 while researching simulations for the courses that had no materials.
+  Written from scratch as a pointer to Christian Aid's published game.

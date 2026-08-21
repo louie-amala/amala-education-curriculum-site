@@ -1,0 +1,175 @@
+id: pb-sharing-the-earths-resources
+slug: pb-sharing-the-earths-resources
+access: public
+type: activity
+title: "Sharing the Earth's resources"
+summary: >-
+  Food is distributed around the room in the proportions of global wealth, then the group votes on
+  how to fix it with votes weighted by what they hold.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only. The material is the unequal distribution felt in a room, and the weighted vote at
+      the end only means anything if the people voting are the people holding the crackers.
+duration: 45-60 minutes.
+grouping: Four unequal groups, seated apart.
+materialsAndPreparation:
+  - Crackers, biscuits, or any small shareable food. Work out the quantities in advance from the proportions below.
+  - "For a group of 10, divide as follows: 5 learners get half a cracker each (representing 70% of the world's population holding around 3% of its wealth), 2 learners get one cracker each, 2 learners get five crackers each, and 1 learner gets 40 crackers. Scale to your group size."
+  - Paper and pens for the recommendations.
+  - Check for food restrictions and allergies before you choose the item, and have an equivalent non-food token available for anyone who cannot take part with food.
+whatLearnersDo:
+  - Receive food in the proportions of global wealth distribution, in four separate groups.
+  - Say how many they have, and guess what the distribution represents.
+  - Discuss, in role, how their group feels about what it received.
+  - Write recommendations for a fairer distribution, at global and national level.
+  - Vote on the recommendations, with votes weighted by how much food each person holds.
+facilitationNotes: >-
+  The one thing to get right is the weighted vote at the end. Everything before it produces a sense
+  of unfairness, which learners already have; the vote produces the finding they do not have, that
+  the people who benefit from a distribution are also the people who decide whether it changes. Do
+  not announce that in advance. Run the vote, let the outcome land, and ask what just happened.
+  Distribute the food before any explanation, so the inequality is felt before it is framed.
+steps:
+  - title: "Distribute before you explain"
+    duration: 5 minutes
+    guidance: >-
+      Seat the four groups in separate corners and hand out the food in the planned proportions
+      without saying why. Let the group with 40 crackers have them visibly. Say nothing about what
+      the distribution means. Then ask each group, in turn, to say how many they have per person.
+    keyPrompts:
+      - "How many do you have each?"
+      - "What do you think the food and the numbers represent?"
+    watchOuts:
+      - "The group with most starts eating immediately, which is realistic but ends the activity.
+        Ask everyone to hold what they have until told otherwise."
+      - "Someone cannot eat the item. Give them a non-food token of the same quantity and treat them
+        identically."
+  - title: "Reveal what the proportions are"
+    duration: 5 minutes
+    guidance: >-
+      Explain that the amounts represent the distribution of wealth and resources in the world. Then
+      ask the question that turns a snack into an analysis: which group is better able to satisfy its
+      need for food, what further inequalities follow from that, and what kind of violence is at
+      work here. Learners who have met Galtung will name it as structural.
+    keyPrompts:
+      - "Which group can meet its needs? What else follows from being able to?"
+      - "Is there violence here? Who is harming whom?"
+    watchOuts:
+      - "Learners treat it as unfairness rather than violence. Ask what the consequences are for
+        someone who cannot meet their need for food, health care or schooling."
+  - title: "Feel it from inside the group"
+    duration: 10 minutes
+    guidance: >-
+      Ask each group to talk about how they feel about what they received, staying in the perspective
+      of the group they belong to. Remind them that the resources they hold determine what needs they
+      can meet, food, education, health care, shelter, and what wants they can reach beyond that. Take
+      one response from each group.
+    keyPrompts:
+      - "From where your group is sitting, what do you think of this?"
+    watchOuts:
+      - "The wealthiest learner is teased or blamed personally. Redirect to the position rather than
+        the person; they did not choose the corner they were put in."
+  - title: "Write recommendations"
+    duration: 10-15 minutes
+    guidance: >-
+      Each group writes recommendations for a fairer distribution of wealth and resources, at global
+      and national level, and a spokesperson presents them. Expect ideas like fair trade, aid,
+      reduced military spending, progressive taxation, land reform. Do not steer, and do not correct
+      economics. What matters is that each group has a proposal it is invested in before the vote.
+    keyPrompts:
+      - "What would you change, globally? And in a single country?"
+    watchOuts:
+      - "The wealthiest group proposes nothing because it has no complaint. Ask them what they would
+        propose if they had to defend the arrangement publicly."
+    adaptation: >-
+      Short on time: take one recommendation per group verbally rather than in writing, and go
+      straight to the vote. The vote is the part that cannot be cut.
+  - title: "Vote, weighted by what you hold"
+    duration: 10 minutes
+    guidance: >-
+      Announce the voting rule only now. Those with half a cracker get one vote; those with one or
+      two crackers get two votes; the learner with 40 gets ten. Hold the vote. Then ask what
+      happened, and why. This reinforces the point that decision-making power tends to follow the
+      possession of resources, and it produces genuine indignation, which is exactly right.
+    keyPrompts:
+      - "What just happened to your recommendation?"
+      - "Where else do the people who benefit from an arrangement also decide whether it changes?"
+    watchOuts:
+      - "The room turns on the person with ten votes. Say clearly that the rule was the facilitator's,
+        not theirs, and turn the question to who writes such rules in the world."
+closing: >-
+  Share the food out fairly, all of it, before anyone leaves. That matters: the activity ends with
+  the group repairing the distribution it has just been made to feel, and it sends everyone out
+  level. Then ask the closing question and take a few answers: how does this compare to the
+  situation in your own community, and what would you say are the features of a violent society?
+learnerContent: |
+  You will be given some food. How much depends on which group you are in.
+
+  Hold what you are given until you are asked to do something with it.
+
+  - How many do you have each? How many does each other group have?
+  - What do you think this represents?
+  - Which group can meet its needs? What follows from being able to, or not being able to?
+  - **What kind of violence is at work here?**
+  - How does your group feel about what it received?
+
+  Now, with your group, write recommendations for a fairer distribution of wealth and resources: one
+  set for the world, one for a single country.
+
+  Then you will vote on them. Pay attention to who ends up deciding.
+
+  Last:
+
+  - How does this compare with your own community?
+  - Finish the sentence: some features of a violent society might be...
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners come out able to describe why unequal distribution is a form of violence and why it is
+    hard to change, which is the difference between resenting an arrangement and being able to
+    analyse one. Sharing the food out at the end also shows that a distribution is changeable.
+principlesForegrounded: [authentic-challenges, responsible-action, safe-spaces]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The distribution modelled is the real one, and the weighted vote reproduces a real feature of
+      international decision-making rather than a moral fable about it.
+  - principle: responsible-action
+    how: >-
+      Learners produce policy recommendations and then discover what stands between a good
+      recommendation and its adoption, which is a more honest lesson than the recommendation alone.
+  - principle: safe-spaces
+    how: >-
+      The roles are assigned by the facilitator and named as such, so no learner is treated as
+      responsible for the position they were placed in, and the food is shared out at the end.
+competencyCodes: [FPS3, FSI2, FLC1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Learners trace what an unequal distribution produces downstream, which is identifying systemic
+      contributing factors rather than describing an outcome.
+  - code: FSI2
+    how: >-
+      Each group generates concrete proposals at two scales and has to defend them to a room with
+      different interests.
+  - code: FLC1
+    how: >-
+      The weighted vote puts learners in the position of holding disproportionate power over a
+      decision that affects others, and asks what they did with it.
+objectiveIds: [peacebuilding--o1, peacebuilding--o2]
+relatedSlugs: [pb-tower-of-arzenia, pb-wealth-allocation-game, pillars-of-positive-peace, pb-power-imbalances]
+rights:
+  status: own-expression
+  basis: >-
+    One of the hunger-banquet family of distribution exercises, which has no single owner.
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced.
+sourceRefs:
+  - "Sharing the Earth's Resources Equitably (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 2a Activity 2.2"
+provenanceNote: >-
+  Adapted from Amala's "Sharing the Earth's Resources Equitably". The wealth proportions are the
+  source's own and are indicative rather than current figures.

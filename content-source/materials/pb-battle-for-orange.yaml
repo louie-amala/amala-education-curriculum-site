@@ -1,0 +1,179 @@
+id: pb-battle-for-orange
+slug: pb-battle-for-orange
+access: public
+type: activity
+title: "The battle for the orange"
+summary: >-
+  Two groups are each told they need the orange, for reasons they never share. Observers record
+  what happens when nobody asks the other side why.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only, and it needs at least seven learners so there can be two parties and an observer
+      group. The observers are not a spare role: their factual account is what the debrief is built on.
+duration: 45-60 minutes, of which the confrontation is 3 minutes.
+grouping: Three groups. A and B in conflict, C observing.
+materialsAndPreparation:
+  - One orange. Any object works if you adapt the role cards, but an orange is ideal because its parts are genuinely separable.
+  - Three role briefs, given separately. Group A needs the peel to make a cake. Group B needs the pulp to make juice. Group C observes and records facts.
+  - Paper and pens for the observers.
+  - Two rows of seats facing each other, with a space between them for the orange.
+whatLearnersDo:
+  - Receive a brief, in a separate group, saying what they need from the orange and why.
+  - Face the other group with three minutes to get what they need.
+  - Watch and record, if they are observers, sticking to facts rather than interpretation.
+  - Work out what the conflict actually was, and whether the outcome was win-win, win-lose or lose-lose.
+facilitationNotes: >-
+  The one thing to get right is not intervening. Groups do all sorts: split it down the middle, seize
+  it, argue about entitlement, occasionally ask each other what they need and solve it in twenty
+  seconds. Every one of those outcomes is good material and none of them needs rescuing. Randomise
+  the groups so learners work with people they do not know, brief the two parties out of each other's
+  hearing, and say once that there is to be no physical struggle over the orange. Then sit down and
+  watch.
+steps:
+  - title: "Brief the three groups separately"
+    duration: 10 minutes
+    guidance: >-
+      Randomise into three groups. Send A outside. Brief B where A cannot hear: your goal is to get
+      the orange pulp, because you need the juice. Then go outside and brief A: your goal is to get
+      the orange, because you need the peel for a cake. Brief C as observers, whose job is to write
+      down what they see and stick to facts rather than interpretations.
+    keyPrompts:
+      - "Your goal is to get what you need. You have three minutes."
+    watchOuts:
+      - "Groups leak their brief before it starts. Brief them fully out of earshot and tell them not
+        to discuss it until the activity begins."
+      - "Observers think they are spare and stop paying attention. Tell them their record is what the
+        whole debrief runs on, because it is."
+  - title: "Run the confrontation"
+    duration: 5 minutes
+    guidance: >-
+      Seat A and B facing each other, with C where they can see everything. Place the orange between
+      them and say go. Three minutes. Do not interfere, hint, or answer questions, however tempting.
+      If nothing at all is happening after a minute or so, stop it early: a stalemate is itself a
+      result worth debriefing.
+    keyPrompts:
+      - "Three minutes. Go."
+    watchOuts:
+      - "A physical scramble for the orange. Say the no-grabbing rule before you start, and stop it
+        if it happens."
+      - "One group simply asks the other what they need and it is over in twenty seconds. Excellent.
+        Debrief that: why did that happen here and not usually?"
+  - title: "End the roles and mix the groups"
+    duration: 5 minutes
+    guidance: >-
+      Say clearly that the activity is over and nobody is in role any more. Use a gesture that suits
+      your context, a handshake or similar, to mark it. Then reform the room into small groups
+      containing at least one person from A, B and C each, so the debrief happens across the divide
+      rather than within it.
+    keyPrompts:
+      - "That is the end of the activity. You are no longer in your roles."
+    watchOuts:
+      - "Debriefing in the original groups entrenches the sides. Mix them, every time."
+  - title: "Observers report facts first"
+    duration: 10 minutes
+    guidance: >-
+      Observers report what they saw, without interruption, and sticking to facts. Then ask A and B
+      whether the observations match what they think happened. This order matters: an agreed account
+      of what happened has to exist before anyone discusses what it meant, or the debrief becomes a
+      re-run of the argument.
+    keyPrompts:
+      - "What did you actually see? Not what you thought it meant."
+      - "Does that match what you think happened?"
+    watchOuts:
+      - "Observers editorialise. Redirect once to facts, and let the group notice how hard it is to
+        report without judging."
+  - title: "Name the conflict and the outcome"
+    duration: 15 minutes
+    guidance: >-
+      Give the definition of conflict the group built earlier: two or more parties with competing
+      needs or goals. Then work the table: what were A's needs, what were B's, and how did they
+      compete? Ask how being in conflict felt, whether their approach was constructive or
+      destructive, and which of win-win, win-lose or lose-lose describes their outcome. Then ask for
+      a constructive win-win.
+    keyPrompts:
+      - "What were their needs? Did anyone ask?"
+      - "Was that a win-win, a win-lose or a lose-lose?"
+      - "What would have made the win-win findable?"
+    watchOuts:
+      - "The group that split the orange in half thinks it did well. Ask what each half was actually
+        for; a fair-looking compromise that meets neither need is the classic lose-lose."
+      - "Learners conclude the lesson is to communicate more. Push once further: they were talking.
+        What they did not do was ask why."
+    adaptation: >-
+      Short on time: cut the constructive-and-destructive table and close on the win-win question,
+      which is the finding. The table can move to the following session.
+closing: >-
+  Build the two-column list, features of constructive approaches and features of destructive
+  approaches, from what the group has just done rather than from theory. Then say the finding once.
+  Both groups could have had everything they wanted, and the only thing standing in the way was that
+  nobody asked the other side what they needed and why. That question is most of peacebuilding.
+learnerContent: |
+  You will be put into one of three groups and given a brief. Do not share it with the other group.
+
+  You will have **three minutes** to get what you need. No grabbing.
+
+  Afterwards, the activity is over and nobody is in role.
+
+  Then:
+
+  - **Observers:** what did you actually see? Facts, not opinions.
+  - What were each group's **needs and goals**? How were they competing?
+  - How did being in conflict feel?
+  - Was your approach **constructive or destructive**?
+  - Which describes your outcome?
+    - **Win-win:** both parties got what they needed.
+    - **Win-lose:** one did, one did not.
+    - **Lose-lose:** both compromised and neither got what they actually needed.
+  - Now work out a **win-win** together.
+  - What are the features of a constructive approach to conflict? Of a destructive one?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners discover, on themselves, that they went into a conflict without asking the other side
+    what it needed. That is a correctable habit, and correcting it is the single highest-yield change
+    a would-be peacebuilder can make.
+principlesForegrounded: [collaboration, authentic-challenges, safe-spaces]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The win-win only exists jointly, and the debrief is deliberately run in mixed groups so the
+      solution is found across the former divide.
+  - principle: authentic-challenges
+    how: >-
+      The conflict is real for its three minutes, and learners behave as they actually behave rather
+      than as they would say they behave.
+  - principle: safe-spaces
+    how: >-
+      Explicit de-roling and a physical gesture to mark the end are what let a group argue hard and
+      then debrief together without residue.
+competencyCodes: [FUS2, ALC3, FSI2]
+competencyDevelopment:
+  - code: FUS2
+    how: >-
+      The whole failure mode is not having reconstructed the other party's need, and learners meet
+      that failure as their own rather than as a warning.
+  - code: ALC3
+    how: >-
+      Working out the win-win after the event is a first, small piece of conflict transformation, and
+      learners can see exactly what would have made it available earlier.
+  - code: FSI2
+    how: >-
+      The closing task asks for a solution that meets both parties' needs, which is idea generation
+      under a genuine constraint.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [pb-apple-arguments, pb-the-mm-game, pb-defining-conflict, cf-debrief-a-simulation]
+rights:
+  status: own-expression
+  basis: >-
+    A long-established negotiation exercise of uncertain origin, taught in many collections.
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced.
+sourceRefs:
+  - "Battle for Orange (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 5 Activity 1.1"
+provenanceNote: >-
+  Adapted from Amala's "Battle for Orange". The orange negotiation is a long-established
+  negotiation-training exercise of uncertain origin.

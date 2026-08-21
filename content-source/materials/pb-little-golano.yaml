@@ -1,0 +1,143 @@
+id: pb-little-golano
+slug: pb-little-golano
+access: public
+type: resource
+title: "Little Golano (published simulation): using it in this course"
+summary: >-
+  A fictional territorial dispute between two real neighbours, run over one to three days. Where it
+  fits, what it demands, and where to download it free.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only, and unusually long: the authors put it at six to sixteen hours, spread across one to
+      three days. It works with mixed and international groups, and the authors report using it with
+      participants from very diverse backgrounds.
+materialsAndPreparation:
+  - The simulation itself. Free from SSRN or from Syracuse University's E-PARCC collection, both linked below. It carries the full teaching guide, the role material and the background.
+  - Printed role material for every participant, and separate spaces for delegations to caucus.
+  - "Serious timetable space. This is not a session: budget at least a full day, and read the authors' guidance on splitting it across days."
+  - "A decision about depth. The authors note it suits participants with some background in conflict resolution or international relations, so place it late in the course rather than early."
+educatorContent: |
+  Little Golano is a peer-reviewed simulation by Noam Ebner and Yael Efron, and the winner of the
+  2010-11 collaborative governance teaching case and simulation competition. Two countries, the United
+  States and Mexico, dispute a piece of land. The dispute, the war that produced it and the treaty
+  that ended it are all fictional, but they are set inside real countries with real history, which the
+  authors call a pseudo-reality: familiar enough to feel weighty, invented enough that nobody in the
+  room is defending their own country's actual position.
+
+  Participants take roles across delegations and third parties, and work through analysis,
+  negotiation, mediation and questions of international law.
+
+  ## Why it belongs in this course, and where
+
+  Everything else in the Peacebuilding bank is short. Simulations of an hour teach a mechanism
+  cleanly, and they cannot teach what it is like to still be in a conflict on day two. Little Golano
+  can, and that is its whole argument for inclusion.
+
+  Over six to sixteen hours, learners hit things a one-hour game never reaches: positions hardening
+  because of something said yesterday, the cost of a bad first meeting, the difficulty of holding a
+  delegation together, and the point at which people simply become tired of each other. Those are
+  ordinary features of real processes and they are invisible in short activities.
+
+  Its slot is late, as a capstone for objectives 1 and 3, after learners have the analysis tools and
+  the transformative-platform criteria. They can then use both under sustained pressure rather than
+  on a case study.
+
+  ## What it demands, honestly
+
+  This is the most expensive material in the bank in timetable terms, and the authors pitch it at
+  participants with some background in conflict resolution, international relations or international
+  law. For an Amala cohort that means late in the course, with the earlier materials done, and with a
+  facilitator willing to prepare properly. If you cannot give it a day, do not start it: a truncated
+  Little Golano is worse than a well-run hour-long simulation.
+
+  ## What to protect in the debrief
+
+  - **Debrief along the way, not only at the end.** Over a multi-day run, learners forget what day one
+    felt like. Short reflective pauses preserve the evidence.
+  - **Ask what the first meeting cost.** In long simulations, the opening interaction usually shapes
+    everything after it, which is a finding worth naming.
+  - **Ask about fatigue.** Deals get made at hour twelve that nobody would have accepted at hour two.
+    That is true of real negotiations and worth being honest about.
+
+  ## Getting it
+
+  Free from SSRN, and also hosted by Syracuse University's E-PARCC collection of peer-reviewed
+  collaboration simulations, which is worth browsing more widely.
+learnerContent: |
+  You will take a role in a dispute between two countries over a piece of land. The land, the war
+  behind it and the treaty that ended that war are invented. The countries are not.
+
+  This runs for a long time, possibly across several days. That is deliberate.
+
+  Along the way, and at the end:
+
+  - What happened in the very first meeting? What did it cost you later?
+  - When did a position harden? What hardened it?
+  - How hard was it to keep your own delegation together?
+  - **What would you have accepted at the end that you refused at the start? Why?**
+  - Which of the analysis tools from this course did you actually use, and which did you forget?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Sustained pressure teaches something short simulations cannot: that a process is survived as much
+    as it is designed, and that early moves constrain late ones. A learner who has felt that is far
+    better prepared to be patient with a real one in their own community.
+principlesForegrounded: [authentic-challenges, collaboration, safe-spaces]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The length is what makes it authentic: learners meet fatigue, hardened positions and the cost of
+      a bad opening, none of which a one-hour activity can produce.
+  - principle: collaboration
+    how: >-
+      Learners must hold their own delegation together while negotiating outward, which is the double
+      task every real negotiator faces.
+  - principle: safe-spaces
+    how: >-
+      The dispute is fictional and placed inside countries most Amala learners have no personal stake
+      in, so the pressure stays professional rather than personal.
+competencyCodes: [FSI1, FUS2, ALC3, FLC3]
+competencyDevelopment:
+  - code: FSI1
+    how: >-
+      The background material is substantial and learners have to investigate it before they can
+      negotiate from it.
+  - code: FUS2
+    how: >-
+      Sustained contact with a delegation whose interests oppose yours forces a working model of their
+      position, and tests it repeatedly.
+  - code: ALC3
+    how: >-
+      The simulation is long enough for a relationship to deteriorate and be repaired, which is where
+      transformation becomes visible rather than theoretical.
+  - code: FLC3
+    how: >-
+      Delegations must persuade across a real divide, over days, and can see which arguments moved
+      anyone.
+objectiveIds: [peacebuilding--o1, peacebuilding--o3]
+relatedSlugs: [pb-flashpoint-syria, pb-paper-factory-simulation, pb-transformative-platform, needs-fears-mapping, cf-debrief-a-simulation]
+links:
+  - label: "Little Golano: An International Conflict Management Simulation (free download, SSRN)"
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2237985
+    note: "The full simulation with teaching guide and role material. Marked for free educational and research use."
+  - label: "Little Golano (E-PARCC, Syracuse University)"
+    url: https://www.maxwell.syr.edu/research/program-for-the-advancement-research-on-conflict-collaboration/e-parcc/cases-simulations-syllabi/little-golano
+    note: "The peer-reviewed E-PARCC edition. The wider E-PARCC collection holds around a hundred more collaboration simulations worth browsing."
+rights:
+  status: linked-not-reproduced
+  holder: Noam Ebner (Creighton University) and Yael Efron (Zefat Academic College)
+  basis: >-
+    The simulation is published and remains the authors'. Nothing of it is reproduced here: this page
+    describes what it does, argues where it fits the course, and links to the free downloads. All
+    wording is Amala's own.
+  note: >-
+    Do not copy the role material or background documents onto this page. E-PARCC's own terms of use
+    were not stated on their site, so link rather than mirror.
+sourceRefs:
+  - "Ebner, N. & Efron, Y. Little Golano: An International Conflict Management Simulation. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2237985"
+provenanceNote: >-
+  Identified in August 2026 while researching simulations for the curriculum. Written from scratch as
+  a pointer to the authors' published simulation.

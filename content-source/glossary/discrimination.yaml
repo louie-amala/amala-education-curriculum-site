@@ -1,0 +1,36 @@
+id: discrimination
+slug: discrimination
+access: public
+term: Discrimination
+category: content
+matchPhrases:
+- discrimination
+- discriminatory
+definition: >-
+  Treating people unequally because of the group they belong to. It is the acting-out of
+  prejudice, and it denies people rights or opportunities others receive.
+explainer: |
+  Discrimination is the visible end of the chain that runs [stereotype](/glossary/stereotype) →
+  [prejudice](/glossary/prejudice) → discrimination. The first is a belief, the second a feeling,
+  the third an action that changes what someone can actually do. Because it is an action, it is the
+  step that leaves a trace: who was hired, who was let into the school, who was served.
+
+  Discrimination is where individual attitude meets social structure. A single act of exclusion is
+  personal; the same act repeated and written into rules becomes
+  [structural violence](/glossary/structural-violence), harming people with no identifiable attacker.
+  Asking learners whether a case they have described is one person's choice or a system's design is a
+  reliable way to move analysis from the visible corner of the
+  [violence triangle](/glossary/violence-triangle) to the hidden ones.
+
+  Discrimination is also a common starting point for a learner's peacebuilding project, because it
+  shows up in the everyday texture of a community: who is served first, who is not called on, whose
+  language the notices are written in.
+examples:
+- Refusing to rent a room to someone because of their ethnicity
+- A rule requiring one group, and only that group, to seek permission to marry
+nonExamples:
+- Selecting a candidate because they were the only applicant with the required qualification
+useInContext: >-
+  Learners identify an instance of discrimination in their own community and trace the stereotypes
+  and prejudices that made it possible.
+relatedTermIds: [prejudice, stereotype, structural-violence, othering, violence]

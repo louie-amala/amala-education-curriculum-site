@@ -1,0 +1,35 @@
+id: bias
+slug: bias
+access: public
+term: Bias
+category: content
+matchPhrases:
+- bias
+- biases
+- unconscious bias
+definition: >-
+  A tilt in judgement that runs ahead of evidence. Bias shapes what we notice, believe, and
+  decide, usually without our being aware of it.
+explainer: |
+  Bias is the general mechanism; [stereotype](/glossary/stereotype) and
+  [prejudice](/glossary/prejudice) are two of its products. It is not a character flaw but a feature
+  of how minds work fast: we fill gaps with expectations, and the expectations come from what we have
+  been exposed to.
+
+  For peacebuilding, bias matters twice over. It matters in the **conflict**, where it hardens
+  perceptions of the other side, and it matters in the **analysis**, because a peacebuilder's own
+  bias shapes which causes they see and which they miss. This is the reason conflict analysis
+  deliberately uses more than one tool and more than one perspective: not because any single tool is
+  bad, but because each carries the tilt of whoever is holding it.
+
+  Activities that reveal bias work better than arguments against it. The move is always the same:
+  let learners make a fast judgement, then show them the evidence that their judgement outran, and
+  ask them where the expectation came from.
+examples:
+- Assuming a surgeon in a story is a man, and finding the riddle unsolvable as a result
+nonExamples:
+- Preferring one plan over another after comparing both against agreed criteria
+useInContext: >-
+  Learners notice their own snap judgements in an activity, then ask which sources taught them
+  that expectation.
+relatedTermIds: [stereotype, prejudice, othering, discrimination]

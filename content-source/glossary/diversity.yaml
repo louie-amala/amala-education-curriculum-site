@@ -1,0 +1,39 @@
+id: diversity
+slug: diversity
+access: public
+term: Diversity
+category: content
+matchPhrases:
+- diversity
+- diverse
+definition: >-
+  The range of different identities, experiences and perspectives present in a group, and the
+  strength a community draws from that range.
+explainer: |
+  Diversity is often defended on grounds of fairness. In peacebuilding the argument is also
+  practical: a group that thinks in one way solves problems in one way, and a conflict that has
+  resisted one way of thinking will keep resisting it.
+
+  Two claims are worth separating so learners can hold both.
+
+  **Difference makes a community more resilient.** A group in which everyone shares the same
+  vulnerability falls together; a group with a range of strengths can catch each other. This is
+  easiest to demonstrate physically rather than argue: link a group arm in arm, let one member fall
+  and the others hold them, then let a whole category fall at once and watch what happens.
+
+  **Focusing on what unites is what makes difference safe.** Diversity does not by itself produce
+  cohesion, and difference is precisely what [othering](/glossary/othering) exploits. What holds a
+  diverse group together is the discovery of shared ground: common values, common needs, common
+  fears. Doing both halves in sequence — map the differences, then find the shared values — is far
+  more durable than either alone.
+
+  The teaching risk to avoid is a diversity that stays decorative. If learners can list differences
+  but have not used them (to get a better answer, to see a conflict from a second angle), the point
+  has not landed.
+examples:
+- A group finding that its members have very different backgrounds and the same three core values
+nonExamples:
+- Naming the different groups present in a room and then working only within them
+useInContext: >-
+  Learners map the identities present in their own community and the values that cut across them.
+relatedTermIds: [identity, social-identity, othering, interdependence]

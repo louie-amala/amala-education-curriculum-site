@@ -8,9 +8,9 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "What I found when I asked and looked"
 summary: >-
-  The learner's gathering-record page: a place to record, in marks, drawings, and a few words, what they
-  found when they asked people and looked at places from our community map — and where each thing came
-  from, without naming anyone.
+  The learner's gathering-record pages: one page per person interviewed, with the answers recorded
+  against the sub-question each one answers, plus a page for what the learner saw with their own eyes —
+  all in marks, drawings, and a few words, and without naming anyone.
 facilitationContext:
 - independent
 - group
@@ -18,15 +18,21 @@ primaryContext: independent
 learnerContent: |
   ## What I found when I asked and looked
 
-  Use one space for each person you asked or place you looked at. For each one, record — in a drawing,
-  a mark, or a few words:
+  These are the pages where your evidence lives.
 
-  - What kind of person or place it was (do NOT write anyone's name).
-  - What I found out about our question.
-  - One thing that surprised me, or that I want to check.
+  There is **one page for each person you ask** — three of them, because we each ask three people. On
+  each page, write or draw what the person said **next to the sub-question it answers**, so we can see
+  later what we learned about each part of our question. Each page has room for:
 
-  Remember: ask permission first, every time. If someone does not want to answer, that is fine. Keep
-  this page in your research book so all our evidence stays in one place.
+  - What kind of person it was, and when you asked (do NOT write anyone's name).
+  - What they said about each of our four sub-questions.
+  - One thing that surprised you, or that you want to check.
+
+  Then there is a page for **what you saw with your own eyes** — a bare place and a green place, what
+  was different, and what that tells us about our question.
+
+  Remember: ask permission first, every time. If someone does not want to answer, that is fine — thank
+  them and go on. Keep these pages in your research book so all our evidence stays in one place.
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

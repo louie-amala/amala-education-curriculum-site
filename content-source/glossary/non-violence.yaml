@@ -1,0 +1,45 @@
+id: non-violence
+slug: non-violence
+access: public
+term: Non-violence
+category: content
+matchPhrases:
+- non-violence
+- nonviolence
+- non-violent
+definition: >-
+  A deliberate approach that pursues change without inflicting harm, treating the opponent as
+  someone with whom a future relationship is still possible.
+explainer: |
+  Non-violence is easily mistaken for passivity. Historically it has been the opposite: organised,
+  demanding, and often more disciplined than armed struggle. Boycotts in apartheid South Africa,
+  Pakistan's lawyers' movement, sit-ins by activists trained not to retaliate under assault. In each
+  case the restraint was rehearsed, not spontaneous.
+
+  Two ideas make it teachable.
+
+  First, it is a **choice about method, not about goals**. Non-violent movements have pursued
+  outcomes as radical as any armed one. What they refuse is the instrument, partly on principle and
+  partly on a calculation: harming the opponent hardens the relationship you will still have to live
+  inside afterwards.
+
+  Second, it is **harder than it sounds and worth interrogating**. Gandhi's grandson tells of his
+  grandfather, disappointed at being lied to, walking many miles home rather than ride with him,
+  while the boy drove behind in distress. The story is usually offered as an example of non-violent
+  discipline, and it works better as a question: was that response truly non-violent? Asking it
+  stops non-violence becoming a slogan.
+
+  Non-violence rests on the finding, set out in the Seville Statement, that violence is not
+  biologically inevitable in human beings.
+furtherReading:
+- title: "International Center on Nonviolent Conflict — case studies"
+  url: https://www.nonviolent-conflict.org/
+  source: ICNC
+  note: Documented non-violent movements, useful as contextual case material.
+examples:
+- Activists trained to remain seated and not react while being assaulted at a segregated counter
+nonExamples:
+- Refusing to fight while quietly funding others to do it for you
+useInContext: >-
+  Learners examine real non-violent movements and judge what made the discipline hold.
+relatedTermIds: [violence, peacebuilder, conflict-transformation, non-violent-communication]

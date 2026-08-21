@@ -1,0 +1,190 @@
+id: pb-transforming-inner-conflicts
+slug: pb-transforming-inner-conflicts
+access: public
+type: activity
+title: "Transforming inner conflicts"
+summary: >-
+  Learners sort seventeen responses to inner conflict from more peaceful to less peaceful, then
+  build an action plan for a conflict they are facing now.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Sorting the statements collectively produces disagreement about several of them,
+      and the argument is what makes the features list precise rather than a list of platitudes.
+  - context: independent
+    how: >-
+      The sort and the action plan both work alone, and the action plan is arguably better in private.
+      What is lost is the argument over borderline statements, so ask the learner to name the two they
+      were least sure about and write the case for each placement.
+  - context: one-to-one-mentoring
+    how: >-
+      The natural home for the second half. A mentor can run the action plan on a live difficulty
+      without the sort, provided the learner has met the statements before. The mentor asks the five
+      questions and does not answer them.
+duration: 45-60 minutes.
+grouping: Small groups for the sort, individual for the action plan.
+materialsAndPreparation:
+  - The seventeen statements, cut into slips and shuffled so the paired opposites are not adjacent.
+  - Two poster sheets, for the features of more peaceful and less peaceful responses.
+  - Space for a continuum, on a wall, a table or the floor.
+  - This follows on directly from the activity on looking at inner conflicts, and works much better if that has been done.
+whatLearnersDo:
+  - Sort seventeen responses to inner conflict along a continuum from more peaceful to less peaceful.
+  - Identify what the responses at each end have in common.
+  - Write down an inner conflict they are facing right now and struggling to decide about.
+  - Build an action plan for it, using five questions drawn from the features they identified.
+facilitationNotes: >-
+  The one thing to get right is shuffling the statements so the pairs are separated. Many of the
+  seventeen come in opposed pairs, and if a group sees them side by side the sort becomes a matching
+  exercise with an obvious answer rather than a judgement. The second thing: the action plan at the
+  end is about a live difficulty, not a past one, so give it real time and real quiet, and do not ask
+  anyone to share it. What learners take out of the door is the plan, not the continuum.
+steps:
+  - title: "Sort the statements"
+    duration: 20 minutes
+    guidance: >-
+      Give each group the shuffled slips and a continuum from more peaceful to less peaceful. Learners
+      place each statement and must be able to justify it. Circulate and ask why one sits above
+      another rather than below. Do not confirm placements; several are genuinely arguable and the
+      arguing is the work.
+    keyPrompts:
+      - "Why is that one more peaceful than the one next to it?"
+      - "Which two were hardest to place?"
+    watchOuts:
+      - "Groups sort by whether a statement sounds positive rather than by what it would lead to. Ask
+        what the person saying it would actually do next."
+      - "One learner sorts and the others watch. Give each learner three slips of their own to place
+        and defend."
+  - title: "Name the features at each end"
+    duration: 10 minutes
+    guidance: >-
+      Build the two posters from the sorted continuum: what are the features of a more peaceful
+      response to inner conflict, and of a less peaceful one? Expect the peaceful end to gather
+      ownership, effort, willingness to hear others, treating difficulty as growth, and persistence
+      after a first attempt fails. Get the group to say those rather than saying them yourself.
+    keyPrompts:
+      - "What do all the ones at this end have in common?"
+    watchOuts:
+      - "The lists come out as advice (be positive). Ask for the observable version: what does someone
+        with that response actually do on Monday morning?"
+  - title: "Write a live inner conflict"
+    duration: 5 minutes
+    guidance: >-
+      Each learner writes down an inner conflict they are facing right now and are struggling to
+      decide about. Private, unshared, and not collected. Give real quiet for this. A learner who
+      writes a past conflict because it is safer will get less from the next step, so say plainly that
+      the plan only works on something live.
+    keyPrompts:
+      - "Something you are actually in the middle of, not something finished."
+    watchOuts:
+      - "Some learners cannot think of one, which is fine. Ask them to write one they can see someone
+        close to them facing, and build the plan for that."
+  - title: "Build the action plan"
+    duration: 15-20 minutes
+    guidance: >-
+      Learners work through the five questions on their own conflict: how is this an opportunity for
+      growth, how would dealing with it make your life better, how might you get different
+      perspectives on it, what steps can you take, and what will you do if those do not work. The
+      questions come straight out of the peaceful end of the continuum, which is why the sort has to
+      come first.
+    keyPrompts:
+      - "Where could you get a perspective on this that is not your own?"
+      - "And if that does not work, then what?"
+    watchOuts:
+      - "Plans stop at the first step. The last question is the one that distinguishes a plan from an
+        intention; make sure everyone answers it."
+      - "A learner's conflict turns out to involve harm or risk to them. Do not process it here.
+        Follow it up individually and through your safeguarding route."
+    adaptation: >-
+      Short on time: run the sort and the features, and set the action plan as independent work with
+      the five questions written down. It works alone, and arguably better.
+closing: >-
+  Do not ask anyone to share their plan. Ask instead for one word about what it was like to make one,
+  and leave it there. Then say the connection the week rests on: the features the group listed at the
+  peaceful end, ownership, seeking other perspectives, persisting after a failed attempt, are the same
+  features that make a community conflict transformable. The scale changes and the features do not.
+learnerContent: |
+  **Sort these responses to inner conflict**, from more peaceful to less peaceful. Be ready to say why.
+
+  - There's nothing I can do about this conflict
+  - By dealing with this conflict, I can make my life and the lives of others better
+  - I can transform this conflict with hard work
+  - It's better that I avoid or ignore this challenging conflict
+  - I should willingly accept this challenging conflict
+  - Dealing with this conflict is an opportunity for me to grow as a person
+  - If what I try doesn't work, I will give up
+  - If what I try doesn't work, I will try something else
+  - Dealing with this conflict will be hard work, but worth it
+  - There's no point in putting in the hard work to deal with this conflict
+  - I shouldn't have got into this conflict in the first place, so what is the point of solving it
+  - I'm in this conflict now, so it is better to focus on solving it and then work out what caused it
+  - When people talk to me about this conflict, I get defensive and take it as a personal attack
+  - I find people talking to me about this conflict useful, and use it to learn and get better
+  - I blame others for this conflict
+  - The fact that I am having conflicts makes me feel like giving up
+  - The conflict reminds me to work harder to make things more peaceful
+
+  Then:
+
+  - What are the features of a **more peaceful** response to inner conflict?
+  - What are the features of a **less peaceful** one?
+
+  **Now write down an inner conflict you are facing right now** and are struggling to decide about.
+  Nobody will see this.
+
+  Build a plan for it:
+
+  - How is this conflict an opportunity for growth?
+  - How will dealing with it make your life better?
+  - How might you gain different perspectives on it?
+  - What steps can you take to try to deal with it?
+  - **What can you do if those don't work?**
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    The activity ends with a written plan for something the learner is actually stuck on, built from
+    criteria they derived themselves. That is agency in its most immediate form: a difficulty that
+    was being endured becomes something with steps attached.
+principlesForegrounded: [safe-spaces, lifeworthy-competencies, feedback-and-data]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      The live conflict is written privately, never collected, and never shared, which is what makes
+      it possible for learners to choose something that actually matters.
+  - principle: lifeworthy-competencies
+    how: >-
+      The five-question plan is portable and will outlast the course, because inner conflicts do not
+      stop arriving.
+  - principle: feedback-and-data
+    how: >-
+      Seeking other perspectives on your own difficulty, rather than deciding alone, is built into the
+      plan as a step rather than offered as advice.
+competencyCodes: [FSL1, FSL2, FPS1]
+competencyDevelopment:
+  - code: FSL1
+    how: >-
+      Sorting responses and then recognising your own habitual one is reflection with a mirror
+      attached.
+  - code: FSL2
+    how: >-
+      The action plan sets a direction and steps for a real personal difficulty, including what to do
+      when the first attempt fails.
+  - code: FPS1
+    how: >-
+      The distinguishing feature at the peaceful end is trying something else when the first approach
+      fails, which is adaptable thinking stated as a behaviour.
+objectiveIds: [peacebuilding--o2]
+relatedSlugs: [pb-looking-at-inner-conflicts, pb-emotions-in-conflict, ail-growth-mindset, pb-chair-simulation]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced. The seventeen statements are Amala's own.
+sourceRefs:
+  - "Week 4 - Transforming inner conflicts for a more peaceful outcome (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 4"
+provenanceNote: >-
+  Adapted from Amala's "Transforming inner conflicts for a more peaceful outcome". The seventeen
+  statements are reproduced from the source.

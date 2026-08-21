@@ -1,0 +1,158 @@
+id: pb-identity-wheels
+slug: pb-identity-wheels
+access: public
+type: resource
+title: "Personal and social identity wheels: using them in this course"
+summary: >-
+  Two worksheets that separate the identity you claim from the identity you are assigned. Why the
+  distinction carries the whole course, and where to get them.
+facilitationContext: [group, one-to-one-mentoring, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      The comparison across a group is what makes assigned identity visible at all: a learner only
+      discovers that they never think about their own language because the person beside them thinks
+      about theirs daily. Run both wheels, then compare in small groups.
+  - context: one-to-one-mentoring
+    how: >-
+      Works, and the third wheel described below turns naturally into goal-setting. What is lost is the
+      comparison, which the mentor has to supply by offering how differently others answer. That is
+      weaker than hearing it, so treat it as preparation for a group session where possible.
+  - context: independent
+    how: >-
+      The personal wheel works alone. The social wheel is the weakest independently, because most
+      learners cannot see their own assigned identity without someone else's answer beside it. Set it
+      as preparation, not as the whole thing.
+materialsAndPreparation:
+  - The two worksheets. The University of Michigan publishes both free, along with the discussion questions that go with them. Links below.
+  - Paper and pens. Learners can draw the wheels themselves from the segment headings if you cannot print.
+  - Decide before you start whether wheels will be shared, and say so. The social wheel touches faith, gender, class and status.
+educatorContent: |
+  The personal and social identity wheels are two worksheets published by the University of Michigan's
+  inclusive teaching programme. On the first, a learner fills segments with what they consider
+  important about themselves. On the second, they fill segments with the categories society places
+  them in. Michigan also publishes a set of spectrum questions to discuss afterwards, in which
+  learners move to a sign naming the identity category that answers each question.
+
+  ## Why this belongs in this course, and where
+
+  The distinction between the two wheels is the hinge the whole Peacebuilding course turns on, and it
+  is worth being explicit about why.
+
+  Personal identity is what a learner holds to be important about themselves. Social identity is the
+  set of categories other people sort them into, and it operates whether or not they agree with it.
+  Two things follow, and learners find both by comparing their own two sheets rather than by being
+  told:
+
+  - **Choice.** You can change the first far more easily than the second, so the consequences attached
+    to the second are consequences you did not opt into.
+  - **Visibility.** People whose assigned identity matches the local norm often cannot see it at all.
+
+  That is the mechanism behind every group conflict the course goes on to study. It is social identity
+  that gets mobilised, that gets othered, and that ends up in the cultural corner of Galtung's
+  triangle. Run these wheels in the first week, before conflict and violence are separated, and the
+  rest of the course has something to refer back to.
+
+  A third wheel is worth adding, and it is Amala's own extension rather than Michigan's: ask learners
+  to draw the identity they **want**, with no limits, then ask what is on it that is not on the other
+  two, and what one step this month would move them towards it. That turns a descriptive activity into
+  one about agency, and it connects the session to the pathways work.
+
+  ## What to protect
+
+  - **Disclosure stays optional at every step.** Segments may be left blank, and a learner may name a
+    category without filling it. Say this before anyone writes, not when someone hesitates.
+  - **Keep the privilege question descriptive.** Ask what a category costs or saves you here, not
+    whether anyone deserves it. Guilt closes the discussion down; description keeps it open.
+  - **Do not let the third wheel become a fantasy list.** Ask for one step that is real.
+  - When a learner notices their wanted identity is blocked by their assigned one, do not smooth it
+    over. It is true, it is the subject of the course, and saying so is more use than reassurance.
+
+  ## Getting them
+
+  Michigan publishes both worksheets and the spectrum questions free on their inclusive teaching site,
+  linked below. Take them from there. Amala does not reproduce them here: Michigan states no licence
+  for the material, and their versions are complete and better maintained than a paraphrase.
+learnerContent: |
+  You are going to fill in two wheels.
+
+  **The first is who you say you are.** In each segment, something you think is important about you: a
+  role you hold, something you are good at, something you believe, something you love.
+
+  **The second is who you are taken to be.** The categories other people put you in. Leave any segment
+  blank if you would rather not fill it. Nobody will ask why.
+
+  Then compare them:
+
+  - **How much of the first wheel did you choose? How much of the second?**
+  - Are there parts of the second that make some things easier for you, or harder, than for the person
+    next to you?
+  - Which parts of your social identity do you never have to think about? Why not?
+
+  **Then a third wheel, which is ours rather than Michigan's: who do you want to be?** No limits.
+
+  - What is on this wheel that is not on the other two?
+  - What is one step you could actually take this month towards it?
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, control-of-future-pathways]
+  how: >-
+    Separating the identity you chose from the identity you were assigned tells a learner precisely
+    where their own agency sits, and the third wheel turns that from an observation into a direction.
+    Learners who can name which constraints are external stop treating all of them as personal failure.
+principlesForegrounded: [builds-on-identities, safe-spaces, connect-to-futures]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The content is the learners' own identities, examined by them, in their own terms, before any
+      theory about group conflict arrives.
+  - principle: safe-spaces
+    how: >-
+      Disclosure is optional at every step and segments may be left blank, which is necessary because
+      the social wheel touches faith, gender and status.
+  - principle: connect-to-futures
+    how: >-
+      The third wheel asks what identity a learner is building towards and what step moves them there,
+      linking this to the pathways work rather than leaving it as self-description.
+competencyCodes: [FUS1, FUS2, FSL1, AUS2]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      Naming which parts of yourself you chose, which were assigned, and which you never had to think
+      about is a precise piece of self-awareness most learners have never been asked for.
+  - code: FUS2
+    how: >-
+      Comparing wheels across a group gives direct evidence of how differently the same category is
+      experienced by different people in one room.
+  - code: FSL1
+    how: >-
+      The third wheel requires learners to reflect on the distance between who they are and who they
+      want to be, and to state a step across it.
+  - code: AUS2
+    how: >-
+      In a mixed group the comparison makes cultural difference concrete rather than abstract.
+objectiveIds: [peacebuilding--o1, peacebuilding--o3]
+relatedSlugs: [pb-identity-charts, pb-identity-bags, pb-one-minute-name-story, pb-identities-in-your-community]
+links:
+  - label: "Personal Identity Wheel (University of Michigan)"
+    url: https://sites.lsa.umich.edu/inclusive-teaching/2017/08/16/1213/
+    note: "The worksheet for the identity a learner claims, with facilitation guidance."
+  - label: "Social Identity Wheel (University of Michigan)"
+    url: https://sites.lsa.umich.edu/inclusive-teaching/2017/08/16/social-identity-wheel/
+    note: "The companion worksheet for assigned identity, and the spectrum questions used in the closing discussion."
+rights:
+  status: linked-not-reproduced
+  holder: University of Michigan, LSA Inclusive Teaching
+  basis: >-
+    The worksheets and their spectrum questions are Michigan's and are not reproduced here. This page
+    describes what the wheels do, argues where they fit the course, and links to Michigan's own free
+    versions. The third wheel and all guidance here are Amala's own.
+  note: >-
+    Do not copy Michigan's segment headings or spectrum questions onto this page. Michigan states no
+    licence for the material, so link rather than reproduce.
+sourceRefs:
+  - "Exploring Personal Identity and Social Identity (Peacebuilding resources folder)"
+  - "Exploring Identity - Identity Wheels and Reflection (Peacebuilding resources folder)"
+provenanceNote: >-
+  Amala's pack builds on the University of Michigan Inclusive Teaching identity wheels and spectrum
+  activity. Rewritten here as a pointer, with Amala's own third wheel retained.

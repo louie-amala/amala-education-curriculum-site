@@ -1,0 +1,46 @@
+id: conflict-escalation
+slug: conflict-escalation
+access: public
+term: Conflict escalation
+category: content
+matchPhrases:
+- conflict escalation
+- escalation of conflict
+- glasl
+definition: >-
+  The stepwise intensification of a conflict. Friedrich Glasl's model describes nine stages,
+  from hardened positions through dehumanisation to mutual destruction.
+explainer: |
+  Glasl's nine-stage model is the most useful single diagnostic in a peacebuilding course, because it
+  turns "this is getting worse" into a position on a scale, and a position implies a response.
+
+  The nine stages run: **1 Hardening** (positions firm up, but people still believe discussion will
+  work) · **2 Debate and polemics** (black-and-white thinking, felt superiority) · **3 Actions not
+  words** (talking is abandoned, empathy is lost) · **4 Images and coalitions** (each side casts the
+  other in a role and recruits supporters) · **5 Loss of face** (public attacks on the opponent's
+  moral integrity) · **6 Strategies of threat** (ultimatums and counter-threats) · **7 Limited
+  destructive blows** (the opponent stops being seen as human, so harming them becomes legitimate)
+  · **8 Fragmentation** (destroying the other side's system is the goal) · **9 Together into the
+  abyss** (one's own destruction is an acceptable price).
+
+  Two teaching points carry the model. The first is the **threshold at stage 7**: dehumanisation is
+  what makes serious violence thinkable, which links the model directly to
+  [cultural violence](/glossary/cultural-violence). The second is that the **stages are asymmetric** —
+  one party, or one individual within a group, can be several stages further along than the other,
+  and identifying that gap is often where an intervention finds its opening.
+
+  The practical use is prevention. Naming the stage a conflict has reached tells a peacebuilder which
+  responses are still available, because the responses that work at stage 2 are useless at stage 7.
+furtherReading:
+- title: "Conflict Analysis Tools"
+  url: https://www.css.ethz.ch/content/dam/ethz/special-interest/gess/cis/center-for-securities-studies/pdfs/Conflict-Analysis-Tools.pdf
+  source: Swisspeace / ETH Zurich Center for Security Studies
+  note: Sets out Glasl's model alongside needs-fears mapping and the multi-causal role model.
+examples:
+- A dispute moving from argument to public accusation to each side recruiting allies
+nonExamples:
+- Two parties disagreeing sharply but still expecting to settle it in conversation (stage 1, not yet escalated)
+useInContext: >-
+  Learners place case studies on the nine stages and identify what could have stopped each one
+  moving further down.
+relatedTermIds: [conflict, dehumanisation, violence, conflict-transformation]

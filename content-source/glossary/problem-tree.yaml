@@ -1,0 +1,40 @@
+id: problem-tree
+slug: problem-tree
+access: public
+term: Problem tree
+category: content
+matchPhrases:
+- problem tree
+- solution tree
+definition: >-
+  A diagram that places an issue at the trunk, its causes as roots and its consequences as
+  branches, so that root causes can be separated from symptoms.
+explainer: |
+  The problem tree is a causal diagram with a built-in discipline. The issue goes in the trunk. Its
+  **consequences** branch upwards. Its **causes** run downwards as roots, and each root is pressed
+  with the same question — *why?* — until that line of enquiry is exhausted. The repeated "why" is
+  the whole method: it is what carries analysis past the first plausible cause, which is usually a
+  symptom of something else.
+
+  Its counterpart is the **solution tree**, built by mirroring the completed problem tree: the trunk
+  becomes the desired alternative, each root cause becomes a potential solution, and the question
+  changes from *why?* to *how?* Built in that order, the solutions attach to causes the learner has
+  actually evidenced rather than to whatever came to mind first.
+
+  In peacebuilding the tree pairs naturally with Galtung's
+  [violence triangle](/glossary/violence-triangle): the visible incident sits in the trunk, and the
+  deeper roots usually turn out to be structural or cultural. The prompts that get learners moving
+  are worth keeping to hand — what disagreements sit under this, what beliefs, what assumptions,
+  whose needs are in conflict?
+
+  Like [needs-fears mapping](/glossary/needs-fears-mapping), it shows one face of a conflict. It is
+  strong on causal depth and weak on relationships between parties, which is why it is used
+  alongside a systems map rather than on its own.
+examples:
+- Tracing a school fight down through exclusion, then through language policy, to a law on citizenship
+nonExamples:
+- Listing everything known about an issue with no causal direction between the items
+useInContext: >-
+  Learners build a problem tree for a violence in their own community, then mirror it into a
+  solution tree to find where an intervention could act.
+relatedTermIds: [needs-fears-mapping, violence-triangle, systems-thinking, leverage-point]

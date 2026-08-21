@@ -1,0 +1,41 @@
+id: transformative-platform
+slug: transformative-platform
+access: public
+term: Transformative platform
+category: content
+matchPhrases:
+- transformative platform
+- transformational platform
+definition: >-
+  The conditions a peacebuilder creates so conflicting parties can state their own vision of
+  peace and find common ground: open dialogue, a voice for all, neutral ground, equal power.
+explainer: |
+  A transformative platform is not a meeting, a document, or an agreement. It is the set of
+  conditions under which a genuinely different outcome becomes possible. Assemble them and parties
+  can move towards [conflict transformation](/glossary/conflict-transformation); leave one out and
+  the talks reproduce the conflict in a quieter register.
+
+  Four conditions recur:
+
+  - **Open dialogue** — every concern can be voiced, including the ones the stronger party would
+    rather not hear.
+  - **A voice for all parties** — including those affected but not represented at the table.
+  - **Neutral ground** — talks held somewhere neither side owns.
+  - **Equal power dynamics** — no party can simply impose the outcome.
+
+  The fastest way to teach these is by their absence. Run a negotiation where one delegation sits at
+  a table and the other is made to sit on the floor, or read a transcript of talks held on one
+  party's territory, and learners derive the four conditions themselves from what went wrong. That
+  is more durable than being handed the list, and it makes the conditions feel like requirements
+  rather than good manners.
+
+  The practical test for a learner's own project: whose voice is missing, whose ground are we on,
+  and who could end this conversation unilaterally?
+examples:
+- Holding talks on neutral ground with an agreed facilitator and equal speaking time for both parties
+nonExamples:
+- Inviting a weaker party to a meeting on the stronger party's territory, with no agenda of their own
+useInContext: >-
+  Learners design the platform for a conflict in their own community, naming who must be present
+  and where the conversation should happen.
+relatedTermIds: [conflict-transformation, win-win-solution, non-violence, positive-peace]

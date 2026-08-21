@@ -39,15 +39,46 @@ requirements:
 # Professional-learning vocabulary a facilitator should hold before planning. Slugs into the
 # glossary; depth (in-depth explanation + further reading) lives on each term page.
 keyConcepts:
+  # Peace and violence
   - peace
   - negative-peace
   - positive-peace
-  - conflict
+  - violence
   - direct-violence
   - structural-violence
   - cultural-violence
   - violence-triangle
+  # Identity, and how it becomes exclusion
+  - identity
+  - social-identity
+  - bias
+  - stereotype
+  - prejudice
+  - discrimination
+  - othering
+  - dehumanisation
+  - diversity
+  # Conflict and how it moves
+  - conflict
+  - conflict-escalation
+  - conflict-resolution
+  - conflict-transformation
+  - win-win-solution
+  - transformative-platform
+  # Analysis
+  - needs-fears-mapping
+  - problem-tree
+  - systems-thinking
+  - interdependence
+  # The peacebuilder
+  - peacebuilder
+  - three-track-peacebuilding
+  - non-violence
   - non-violent-communication
+  - do-no-harm
+  - empathy
+  - compassion
+  - abundance-mindset
 
 objectives:
   - statement: >-

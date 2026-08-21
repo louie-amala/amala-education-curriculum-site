@@ -1,0 +1,164 @@
+id: pb-rights-tree
+slug: pb-rights-tree
+access: public
+type: activity
+title: "The rights tree"
+summary: >-
+  Groups draw a tree whose fruits are the rights everyone should have, and whose roots are the
+  conditions that make people flourish.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Groups argue about whether something is a root or a fruit, and that argument is
+      the analysis: it forces a distinction between what people should have and what has to be in
+      place for them to have it.
+  - context: independent
+    how: >-
+      A learner can draw a tree alone and it still separates conditions from entitlements. What is
+      lost is the presentation, where each group has to justify its choices, so ask for a written
+      justification of three items instead.
+duration: 45-60 minutes.
+grouping: Small groups of three or four, then presentations.
+materialsAndPreparation:
+  - A full sheet of large paper per group, and pens.
+  - "Optional: a copy of the Universal Declaration of Human Rights in a simplified form, held back until after the groups have drawn their own trees."
+whatLearnersDo:
+  - Draw a large tree on a full sheet of paper.
+  - Write on the branches, leaves and fruits the rights they think all people should have to live with dignity.
+  - Write on the roots the things that make humans flourish.
+  - Present the tree and explain why each item is where it is.
+  - Connect the tree to positive peace and to the demands parties make in a conflict.
+facilitationNotes: >-
+  The one thing to get right is the difference between the roots and the fruits, because that is
+  where the thinking happens. Fruits are what people should have; roots are what has to exist for
+  the fruits to grow: good governance, just application of laws, non-exploitative economic
+  conditions, people's participation, equitable distribution of the fruits of development, justice,
+  low corruption. Learners routinely put an item in the wrong place, and the argument that follows is
+  the point rather than an error to correct. Hold back the Universal Declaration until after the
+  trees are drawn.
+steps:
+  - title: "Draw the tree and fill the fruits"
+    duration: 15 minutes
+    guidance: >-
+      Each group draws a large tree, taking up the whole sheet, with visible roots. On the branches,
+      leaves and fruits they write the rights they think all people should have in order to live with
+      dignity. Encourage quantity rather than precision at this stage; the sorting happens next.
+    keyPrompts:
+      - "What must a person have in order to live with dignity?"
+    watchOuts:
+      - "Groups list only legal or political rights. Ask what a person needs on an ordinary day, and
+        the material rights appear."
+  - title: "Fill the roots"
+    duration: 15 minutes
+    guidance: >-
+      Now the roots: the things that make humans flourish, meaning the conditions that have to exist
+      for the fruits to grow at all. Offer one example if a group is stuck, and only one, because
+      supplying the list removes the work. This is where groups start moving items they had already
+      written on a branch.
+    keyPrompts:
+      - "What has to be true of a place before that right actually exists there?"
+      - "Is that a fruit or a root? Why?"
+    watchOuts:
+      - "A group treats roots and fruits as the same list twice. Ask them to name one thing that is
+        clearly a condition rather than an entitlement, and work outwards from it."
+    adaptation: >-
+      Short on time: give groups a pre-drawn tree outline and ask for five fruits and five roots
+      only, then go straight to the presentations.
+  - title: "Present and defend"
+    duration: 15 minutes
+    guidance: >-
+      Each group presents its tree and explains its reasons for the items included and for where they
+      sit. Encourage other groups to ask why something is a root rather than a fruit. Keep
+      presentations short, two or three minutes each, since the value is in the questions.
+    keyPrompts:
+      - "Why is that one a root and not a fruit?"
+      - "What is on their tree that is missing from yours?"
+    watchOuts:
+      - "Presentations become a reading of the list. Ask each group for the one item they argued about
+        most, and start there."
+  - title: "Connect it to conflict and to peace"
+    duration: 15 minutes
+    guidance: >-
+      The reflection questions carry the material into the course. How does understanding rights help
+      you understand what parties in a conflict are actually demanding? Were these rights respected in
+      the cases of negative peace you studied? And what conditions in a peace process might produce
+      negative peace instead of positive peace? Take these slowly; they are the point of the activity.
+    keyPrompts:
+      - "How does knowing about rights help you understand what stakeholders in a conflict are demanding?"
+      - "Think back to the cases of negative peace. Were these rights respected there?"
+      - "What might make a peace process end in negative peace instead of positive peace?"
+    watchOuts:
+      - "The discussion becomes abstract and drifts from the trees. Keep pointing at specific items
+        on the sheets."
+closing: >-
+  Show the Universal Declaration now, if you have it, and let learners compare. Groups usually find
+  they produced most of it, which is worth saying out loud. Then leave the finding that the activity
+  exists for: rights are the fruits, and fruits do not grow without roots. A peace settlement that
+  promises rights while leaving the roots untouched is promising fruit from a dead tree.
+learnerContent: |
+  In your group, draw a large tree on a full sheet of paper. Make the roots visible.
+
+  **On the branches, leaves and fruits:** write the rights you think all people should have in order
+  to live with dignity.
+
+  **On the roots:** write the things that make humans flourish. What has to exist in a place before
+  those rights are real? Some possibilities: good governance, just application of laws,
+  non-exploitative economic conditions, people's participation, equitable distribution of the fruits
+  of development, justice, low corruption.
+
+  Present your tree and explain why each item is where you put it.
+
+  Then:
+
+  - How does understanding rights help you understand what stakeholders in a conflict are demanding?
+  - In the cases of negative peace you looked at, were these rights respected?
+  - What has to be respected when you first bring stakeholders together to talk about peace?
+  - What conditions in a peacebuilding process might lead to negative peace rather than positive peace?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners produce their own account of what people are entitled to and what has to be true for
+    those entitlements to be real. That account becomes the standard they hold their own community
+    and their own project against, and it is theirs rather than borrowed.
+principlesForegrounded: [collaboration, responsible-action, authentic-challenges]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The tree is negotiated inside a group and then defended to other groups, so the list has to
+      survive disagreement before it counts.
+  - principle: responsible-action
+    how: >-
+      Distinguishing entitlements from the conditions that produce them is what stops a peace proposal
+      being a list of promises, which is the same discipline a learner needs for their own project.
+  - principle: authentic-challenges
+    how: >-
+      The closing questions apply the tree directly to real cases of negative peace the group has
+      already studied.
+competencyCodes: [FPS3, FLC1, FSI1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The roots are systemic contributing factors by another name, and sorting an item into root or
+      fruit is exactly the judgement this competency asks for.
+  - code: FLC1
+    how: >-
+      Deciding what all people are entitled to, and defending it to a group that disagrees, is
+      reasoning from moral principle in public.
+  - code: FSI1
+    how: >-
+      The closing questions send learners back to real cases to test whether the rights they listed
+      were present there.
+objectiveIds: [peacebuilding--o1, peacebuilding--o2]
+relatedSlugs: [pillars-of-positive-peace, pb-four-kinds-of-peace, problem-tree, pb-land-of-harmonia]
+rights:
+  status: amala-own
+  basis: >-
+    From the 2025 course planner. Tree diagrams of rights are common across human rights education and
+    are not attributable to a single author; the write-up here is Amala's own.
+sourceRefs:
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 2a Activity 2.3"
+provenanceNote: >-
+  From the 2025 Peacebuilding course planner, "Right's Tree: Foundations for positive peace explored
+  further". The root suggestions are the planner's own.

@@ -1,0 +1,40 @@
+id: abundance-mindset
+slug: abundance-mindset
+access: public
+term: Abundance mindset
+category: content
+matchPhrases:
+- abundance mindset
+- scarcity mindset
+definition: >-
+  The belief that there is enough to go round and that win-win outcomes are possible, as
+  opposed to a scarcity mindset in which another's gain is your loss.
+explainer: |
+  The pair is best understood as two starting assumptions a person brings to a conflict. Under
+  **scarcity**, resources and success are finite, so any gain for the other party is a loss for
+  yours, and competition is rational. Under **abundance**, there is enough for everyone to live a
+  fulfilled life if it can be distributed well, so cooperation is rational and
+  [win-win solutions](/glossary/win-win-solution) are worth looking for.
+
+  This matters for peacebuilding in a direct way. A peacebuilder who does not believe a win-win
+  outcome exists will not search for one, and the search is most of the work. Scarcity thinking also
+  runs in the other direction: the belief that resources are running out is one of the most reliable
+  producers of group conflict, whether or not the scarcity is real.
+
+  Neither mindset is a fixed trait. It is closer to a habit of attention, related to Dweck's
+  [growth mindset](/glossary/growth-mindset), and it shifts with practice: noticing your own
+  scarcity thoughts, marking what is working, and treating others' success as information rather
+  than as threat.
+
+  A caution worth passing on. Abundance thinking is not the claim that resources are unlimited, and
+  it should never be used to wave away real deprivation. It is the claim that the *framing* of a
+  situation as zero-sum is often an assumption rather than a finding, and that the assumption is
+  worth testing before it hardens into conflict.
+examples:
+- Two learners taking turns to let each other win an arm wrestle, so both collect the maximum reward
+nonExamples:
+- Assuming that another group's school place is one fewer for your own community
+useInContext: >-
+  Learners notice which mindset they brought to a simulation, and what it cost them in the
+  outcome.
+relatedTermIds: [win-win-solution, growth-mindset, conflict-transformation]

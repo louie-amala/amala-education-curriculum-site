@@ -285,6 +285,52 @@ export const ProgrammeSchema = z.object({
   downloads: z.array(DownloadSchema).default([]),
 });
 
+// ---- Rights and provenance ----
+// Almost every material in this bank descends from something: an Amala course planner, a published
+// simulation, a university teaching collection. `provenanceNote` records WHERE it came from, in prose.
+// `rights` records whether we may PUBLISH it, in a form the build can check.
+//
+// The distinction that matters: running an activity with a group and publishing its instructions on a
+// public website are different acts. Training publishers routinely permit the first and prohibit the
+// second, so "we use this in class" is not evidence that we may put it online. Copyright also reaches
+// expression rather than method, so describing how an activity works in our own words is usually fine
+// where reproducing its role cards, statement banks or case texts is not.
+export const RightsStatusSchema = z.enum([
+  // Written by Amala, or descending only from Amala's own course materials.
+  "amala-own",
+  // The underlying method belongs to someone else, or has no traceable author, but no third-party
+  // expression appears on this page: every word is ours. Copyright reaches expression rather than
+  // method, so this is publishable. Credit the method's originator in `holder` where known.
+  "own-expression",
+  // Out of copyright, or a fact, idea or method that copyright does not reach.
+  "public-domain",
+  // Third party, under a licence that permits republication. Name the licence in `basis`.
+  "openly-licensed",
+  // Third party, and we hold written permission. Record who granted it and when in `basis`.
+  "cleared",
+  // Third party and deliberately NOT reproduced here: this page describes the method in our own words
+  // and points the educator at the source to obtain. Requires at least one entry in `links`.
+  "linked-not-reproduced",
+  // Third party, reproduced here, permission not yet held. Must not be published.
+  "permission-needed",
+  // We cannot establish where this came from, so we cannot clear it. Must not be published.
+  "unknown-provenance",
+]);
+
+export const RightsSchema = z.object({
+  status: RightsStatusSchema,
+  // Who owns the underlying work, where that is someone other than Amala.
+  holder: z.string().nullable().optional(),
+  // WHY this status holds: the licence, the permission reference, or what makes it publishable.
+  basis: z.string().nullable().optional(),
+  // What an editor or facilitator must know, e.g. what must never be added to this page.
+  note: z.string().nullable().optional(),
+});
+
+// Statuses that block publication. Enforced in validateGraph(): a material carrying one of these
+// cannot also be publicly readable.
+export const UNPUBLISHABLE_RIGHTS_STATUSES = ["permission-needed", "unknown-provenance"] as const;
+
 // ---- Facilitation materials (§4.3) ----
 export const FacilitationContextSchema = z.enum([
   "group",
@@ -438,6 +484,48 @@ export const ActivityStepSchema = z.object({
   visuals: z.array(ActivityVisualSchema).default([]),
 });
 
+// ---- "Try it yourself" ----
+// The self-serve rehearsal on a Learn it page. `items` are printed for the learner to attempt;
+// `chooseFrom` renders them as options to circle, so a learner who is not yet writing can still answer.
+// `answers` (when the skill HAS right answers — classifying, judging, spotting) are printed at the back
+// of the workbook, and the page points there. A generative or personal task has no key: give `intro`
+// and `then` only, and leave `items`/`answers` empty.
+export const TryItSchema = z.object({
+  intro: z.string(),
+  // Options for the learner to circle under each item, e.g. ["open", "closed", "leading"].
+  chooseFrom: z.array(z.string()).default([]),
+  items: z.array(z.string()).default([]),
+  // Must be empty, or the same length as `items` (checked in validateGraph).
+  answers: z.array(z.string()).default([]),
+  // What to do once they have tried it — e.g. "now fix the leading one".
+  then: z.string().nullable().optional(),
+});
+
+// ---- Learner teaching ("Learn it") ----
+// The METHOD, taught to the learner, BEFORE they are asked to do it. A fully offline component has no
+// internet to look anything up in, so the learner book has to be a textbook as well as a workbook:
+// each activity's page in the component workbook becomes a spread — Learn it (this), then Like this
+// (the worked example), then Your turn (the slots to fill). Written oral- and visual-first for a
+// largely pre-literate cohort: short sentences, concrete examples, a good/poor contrast, graded to the
+// component's English level so a facilitator can read it aloud. `words` feed the word wall and the
+// picture-word cards; `tryIt` is a short rehearsal done before the real task. Rendered on the material
+// page and compiled into the workbook by the download generators, so print and site cannot drift.
+export const LearnerTeachingSchema = z.object({
+  // The teaching page's own title, phrased as the skill: "How to ask a good question".
+  title: z.string(),
+  // The teaching itself, markdown. Read aloud by the facilitator; also readable alone by a learner
+  // who missed the session.
+  readAloud: z.string(),
+  // New words this teaching introduces, for the word wall and the picture-word cards.
+  words: z.array(z.object({ term: z.string(), meaning: z.string() })).default([]),
+  // A short rehearsal of the method the learner can do BY THEMSELVES, before the real task. It must
+  // never script the facilitator ("your teacher will read four questions aloud") — a facilitator may
+  // well want to run the group version differently, and a learner working alone, or catching up after a
+  // missed session, has no facilitator at all. So the items are printed on the page, and where the skill
+  // has right answers they are printed at the BACK of the workbook for the learner to check themselves.
+  tryIt: TryItSchema.nullable().optional(),
+});
+
 export const FacilitationMaterialSchema = z.object({
   id: z.string(),
   slug: z.string(),
@@ -472,6 +560,9 @@ export const FacilitationMaterialSchema = z.object({
   closing: z.string().nullable().optional(),
   educatorContent: z.string().nullable().optional(),
   learnerContent: z.string().nullable().optional(),
+  // The method taught to the learner before they do it (see LearnerTeachingSchema). On an
+  // activity in a unit-planned component this becomes the "Learn it" page of the workbook spread.
+  learnerTeaching: LearnerTeachingSchema.nullable().optional(),
   agencyContribution: AgencyContributionSchema,
   // Legacy flat lists (still valid). Preferred are the explained forms below, which say HOW this
   // specific material connects to each principle and competency.
@@ -518,16 +609,22 @@ export const FacilitationMaterialSchema = z.object({
   downloads: z.array(DownloadSchema).default([]),
   sourceRefs: z.array(z.string()).optional(),
   provenanceNote: z.string().nullable().optional(),
+  // Whether we may publish this material, and on what basis. See RightsSchema above.
+  rights: RightsSchema.optional(),
 });
 
 export type FacilitationContext = z.infer<typeof FacilitationContextSchema>;
 export type MaterialType = z.infer<typeof MaterialTypeSchema>;
+export type LearnerTeaching = z.infer<typeof LearnerTeachingSchema>;
+export type TryIt = z.infer<typeof TryItSchema>;
 export type EducatorTag = z.infer<typeof EducatorTagSchema>;
 export type MoveTag = z.infer<typeof MoveTagSchema>;
 export type DownloadRole = z.infer<typeof DownloadRoleSchema>;
 export type Download = z.infer<typeof DownloadSchema>;
 export type ActivityVisual = z.infer<typeof ActivityVisualSchema>;
 export type ActivityVisualSpec = z.infer<typeof ActivityVisualSpecSchema>;
+export type RightsStatus = z.infer<typeof RightsStatusSchema>;
+export type Rights = z.infer<typeof RightsSchema>;
 export type FacilitationMaterial = z.infer<typeof FacilitationMaterialSchema>;
 
 // ---- Unit plan (scheme of work) ----

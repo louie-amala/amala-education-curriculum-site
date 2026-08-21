@@ -1,0 +1,35 @@
+id: prejudice
+slug: prejudice
+access: public
+term: Prejudice
+category: content
+matchPhrases:
+- prejudice
+- prejudiced
+definition: >-
+  A negative feeling or hostile attitude towards a group, held in advance of any evidence about
+  the individuals in it.
+explainer: |
+  Prejudice is the feeling stage in a three-step chain that runs from thought to action:
+  a [stereotype](/glossary/stereotype) is the oversimplified belief ("girls cannot play football"),
+  prejudice is the hostile feeling that attaches to it ("I dislike girls who play football"), and
+  [discrimination](/glossary/discrimination) is the act that follows ("I will not let her play with
+  us"). Setting the three side by side is one of the most useful teaching moves in this part of a
+  peacebuilding course, because learners routinely use the words interchangeably and then cannot see
+  where an intervention could bite.
+
+  Prejudice is prejudgement: the word means exactly that. It is formed before contact, usually
+  absorbed from family, media, and community rather than reasoned into. That is why it survives
+  counter-evidence, and why activities that surface a learner's own quick judgements work better
+  than activities that argue against prejudice in the abstract.
+
+  In the [violence triangle](/glossary/violence-triangle), widespread prejudice belongs to the
+  cultural corner: it is part of what makes unequal treatment feel normal and deserved.
+examples:
+- Feeling suspicious of a newly arrived family before having met any of them
+nonExamples:
+- Distrusting a specific person because of something they have actually done
+useInContext: >-
+  Learners trace how a stereotype they hold becomes a feeling and then an action, and consider
+  where in that chain it could be interrupted.
+relatedTermIds: [stereotype, discrimination, othering, cultural-violence, bias]

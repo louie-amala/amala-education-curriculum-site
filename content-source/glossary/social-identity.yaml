@@ -1,0 +1,41 @@
+id: social-identity
+slug: social-identity
+access: public
+term: Social identity
+category: content
+matchPhrases:
+- social identity
+- social identities
+definition: >-
+  The part of identity made of the groups society places a person in, largely without their
+  choosing: race, gender, class, nationality, faith, ability, language.
+explainer: |
+  The distinction between personal and social identity is small to state and large in effect.
+  Personal identity is what a person holds to be important about themselves: what they are good at,
+  what they love, the roles they have chosen. Social identity is the set of categories others sort
+  them into, and it operates whether or not the person agrees with it.
+
+  Two consequences make it worth teaching explicitly. First, **choice**. Learners can usually change
+  their personal identity over time; they can rarely change their social identity, which means the
+  consequences attached to it (advantage in some rooms, suspicion in others) are consequences they
+  did not opt into. Second, **visibility**. People whose social identity matches the local norm often
+  cannot see it at all, which is why a learner who speaks the majority language may never have thought
+  about language as part of who they are, while a classmate thinks about it daily.
+
+  In peacebuilding this is the mechanism behind group conflict. It is social identity, not personal
+  identity, that gets mobilised: leaders appeal to a category, [othering](/glossary/othering) hardens
+  the boundary, and the beliefs that justify unequal treatment become
+  [cultural violence](/glossary/cultural-violence).
+furtherReading:
+- title: "Social Identity Wheel"
+  url: https://sites.lsa.umich.edu/inclusive-teaching/2017/08/16/social-identity-wheel/
+  source: University of Michigan, Inclusive Teaching
+  note: The worksheet and the discussion questions that go with it.
+examples:
+- Being read as a refugee before anything else is known about you
+nonExamples:
+- Describing yourself as someone who loves cooking (that is personal identity, chosen)
+useInContext: >-
+  Learners complete a personal and a social identity wheel side by side, then discuss which parts
+  they chose and which were assigned.
+relatedTermIds: [identity, othering, structural-violence, prejudice]

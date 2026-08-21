@@ -1,0 +1,78 @@
+id: cf-co-create-norms
+slug: cf-co-create-norms
+access: public
+type: educator-move
+title: "Co-create the norms, then point at them"
+summary: >-
+  Have the group write the agreements it will work under, in observable terms, and put them
+  somewhere you can point at when something goes wrong.
+tags:
+  - id: learning-facilitation
+    how: >-
+      When facilitating, draw the agreements out of the group rather than issuing them, press every
+      suggestion into something observable, and then actually refer back to the poster when the room
+      needs it.
+  - id: learning-design
+    how: >-
+      When designing, put this at the start of anything that will later ask learners to discuss
+      violence, identity, faith or personal experience, and build in the moments where the agreements
+      get revisited.
+  - id: dialogue-climate
+  - id: wellbeing
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  A rule sheet you read out is yours. A list the group wrote is theirs, and the difference shows up
+  the first time somebody breaks one.
+
+  The move has three parts, and skipping the second is the usual failure. **Draw the suggestions
+  out**, taking everything, including the negatives. **Push each one into something observable**, by
+  asking what it looks like and what would happen if we all did it, so that "be respectful" becomes
+  "listen without interrupting". And **write them as actions, positively phrased**, on something that
+  stays visible.
+
+  Then use them. Agreements referred to once in week one are decoration. The value comes from
+  pointing at the poster when a discussion turns raw, and from letting learners point at it too,
+  including at you. That last part is what makes it a transfer of authority rather than a
+  participation exercise.
+
+  Two refinements worth the time. Have small groups act one agreement out, positively, which fixes
+  them in the body as well as on the wall. And revisit them: a short reflection on how we are living
+  by these, a few weeks in, is a better use of ten minutes than most reviews.
+
+  This matters most in courses that will later ask for personal disclosure. Do it before the content
+  arrives, not after somebody has been hurt.
+agencyContribution:
+  indicators:
+    - contribution-to-community
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    The group sets and can enforce the conditions of its own learning, including against the
+    facilitator. That is a small, real experience of negotiating the terms of a shared space rather
+    than receiving them.
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Agreements written by the group, in observable terms, are what a facilitator can point at when
+      a discussion turns difficult, and what a learner can point at when it turns on them.
+  - principle: collaboration
+    how: >-
+      Reconciling many suggestions into one short agreed list is a genuine negotiation, and it happens
+      before the group is asked to negotiate anything harder.
+relatedSlugs:
+  - cf-charged-discussions
+  - cf-trauma-sensitive
+  - cf-check-in-and-check-out
+  - pb-class-agreements
+rights:
+  status: own-expression
+  holder: Emory University (SEE Learning)
+  basis: >-
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced. Licence terms unverified, so nothing is quoted.
+sourceRefs:
+  - "Establishing Collaborative Norms / Class Agreements (Peacebuilding resources folder)"
+provenanceNote: >-
+  Generalised from Amala's "Establishing Collaborative Norms / Class Agreements", itself drawn from
+  the SEE Learning curriculum (Emory University).

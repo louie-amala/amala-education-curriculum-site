@@ -45,9 +45,9 @@ structure: >-
   of 10 weeks, with mentoring folded into that weekly in-person time. As the certificated (Learning Bridge+) tier, it includes diagnostic intake,
   a midpoint formative assessment, a summative exit assessment, and Amala moderation. The Agency in
   Learning component is authored and offline-ready first, followed by the English Language Development
-  component (a Cox's Bazar contextualisation of the My Voice course); the Research Project is deferred
-  until the shared local challenge is agreed with NRC and the community. All artefacts are supplied as
-  editable files for facilitators, distributed offline.
+  component (a Cox's Bazar contextualisation of the My Voice course) and the Research Project, whose
+  shared local challenge — the trees on the hills where learners live — is now set. All artefacts are
+  supplied as editable files for facilitators, distributed offline.
 ageRange: "14–24"
 minDurationWeeks: 10
 # Three taught components at ~50h each: Agency in Learning, Research Project, and English Language
@@ -76,6 +76,16 @@ downloads:
       full facilitator unit plan for all three taught components. Parts 7–9: the three learner books, the
       printable cards, and the two assessment records. The component packs below are the same content
       split into separate files, for when you only need one piece. Editable.
+  - label: Student Workbook — one book per learner
+    file: /downloads/lb-coxs-bazar-student-workbook.docx
+    format: Word
+    note: >-
+      Everything a learner needs for the whole twelve weeks, in one book to print and bind — so a site
+      runs one print job per learner instead of three. Parts 1–3 are the three component learner books
+      (My Learning Book, the My Voice book, Our Research Book); Part 4 is the learner's mentoring page and
+      the growth self-check they fill at week 6 and again at week 12. Oral- and visual-first throughout:
+      drawing, marking and speaking are full answers. The group cards are not in it — they are one set per
+      group, printed and cut up, so they stay in the Educator Guide and the component packs. Editable.
 
 studentGains:
   - Self-directed learning habits, goal-setting, planning, tracking progress, and reflecting on growth, built to work for learners who are not yet reading fluently.
@@ -98,14 +108,18 @@ components:
       - Fully offline (printed materials and editable files, distributed via USB or hard drive)
   - title: Research Project
     summary: >-
-      Deferred. The Research Project is a single shared challenge for the whole cohort; the challenge
-      will be agreed with NRC and the community before this component is contextualised and authored.
+      Authored and offline-ready. The whole cohort investigates one shared local challenge — what is
+      happening to the trees on the hills where they live — from a research question they are given, and
+      turns the evidence they gather into insights they share. Secondary research is done from a supplied,
+      graded source pack because there is no internet. Each step is taught before it is done: the learner's
+      research book carries a "Learn it" page ahead of every working page, and the facilitator unit plan
+      carries the subject knowledge to teach it.
     structuredHours: 50
     facilitatedHours: 30
     independentHours: 20
     courseSlug: research-project
     deliveryOptions:
-      - Fully offline (to be authored once the shared challenge is agreed)
+      - Fully offline (printed materials and editable files, distributed via USB or hard drive)
   - title: Mentoring and Wellbeing
     summary: >-
       Ongoing 1:1 and small-group support for progress and wellbeing, with embedded psychosocial
@@ -253,7 +267,8 @@ grading:
       description: >-
         The ability to conduct primary and secondary research into challenges affecting people and
         the planet to develop actionable insights. Developed through the Research Project component
-        (deferred in this edition until the shared challenge is agreed).
+        (authored in this edition around the shared challenge of the trees on the hills where
+        learners live).
   scale:
     - grade: Pass
       requirement: Practitioner in both competencies.
@@ -270,5 +285,5 @@ sourceNotes:
   - Contextualised edition of the Learning Bridge programme (see programmes/learning-bridge.yaml); components and competencies are shared, delivery and sequencing are rebuilt for the Cox's Bazar context.
   - Authored for Amala's consultancy to the Norwegian Refugee Council (NRC) Bangladesh, Consultancy 8201056 (Aug–Dec 2026). Amala is the remote technical consultant; NRC leads implementation.
   - Context and delivery constraints are drawn from the NRC Terms of Reference and a commissioned context briefing on Rohingya youth in Cox's Bazar (literacy, language, protection, and funding realities).
-  - Being built component by component; the Agency in Learning component is authored first, then the English Language Development component (a fully offline, emergent-literacy contextualisation of the My Voice course; see units/coxs-bazar-my-voice.yaml and the cb-mv-* materials). Research Project is deferred until the shared local challenge is agreed.
+  - Being built component by component; the Agency in Learning component is authored first, then the English Language Development component (a fully offline, emergent-literacy contextualisation of the My Voice course; see units/coxs-bazar-my-voice.yaml and the cb-mv-* materials), then the Research Project (see units/coxs-bazar-research-project.yaml and the cb-rp-* materials), built around the shared challenge of the trees on the hills where learners live.
   - My Voice is contextualised for this edition as emergent literacy, not literacy transfer - it assumes no prior reading in any language and is delivered oral and visual first - because the source English for Impact course assumes strong Home-Language literacy and is unsuitable as-is for this cohort.

@@ -1,0 +1,188 @@
+id: pb-categorising-violence
+slug: pb-categorising-violence
+access: public
+type: activity
+title: "Categorising violence"
+summary: >-
+  Learners collect examples of violence anonymously, invent their own categories for them, then
+  compare their scheme with Galtung's and see what they missed.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Anonymity across a whole group is what makes the collection honest, and the
+      gallery walk means learners see the range before they start sorting.
+  - context: independent
+    how: >-
+      A learner can collect examples and build a categorisation alone, and the comparison with
+      Galtung still works. What is lost is the anonymity, so use the prepared example bank rather
+      than personal examples, and the volume, so expect a thinner set to sort.
+duration: 60-75 minutes.
+grouping: Individual collection, small groups for the sorting, whole group for the comparison.
+materialsAndPreparation:
+  - Post-it notes or small slips of paper, several per learner.
+  - Large paper for the categorisation.
+  - The prepared example bank, to supplement if the group produces too few or if personal examples are not appropriate for your group.
+  - Galtung's categorisation of violence, ready to show but held back until step 5.
+  - Read the sensitivity note in the facilitation notes before deciding how to run the collection step.
+whatLearnersDo:
+  - Agree a definition of violence and represent it visually.
+  - Write examples of violence they have experienced or witnessed, one per slip, anonymously.
+  - Walk the room reading everyone's examples.
+  - Sort the examples into categories they invent, and name the categories.
+  - Compare their scheme with Galtung's, then place the examples onto his three forms.
+facilitationNotes: >-
+  Some learners in an Amala classroom have experienced serious violence, and an instruction to write
+  down what they have experienced can be a trigger. Decide in advance: personal examples, or the
+  prepared bank of case examples, or a free choice between the two. Say which before anyone writes.
+  Beyond that, the one thing to get right is that the categories come from the learners first. The
+  finding this activity produces is that almost everything the group collects is direct violence,
+  because direct violence is the visible kind, and that finding only lands if the group built the
+  pile themselves and then saw the gap.
+steps:
+  - title: "Agree a definition of violence"
+    duration: 10 minutes
+    guidance: >-
+      In small groups, give the definition: the cause of the difference between what is and what
+      could have been. Ask what they disagree with in it, how it differs from their definition of
+      conflict, and then to represent it visually. The drawing matters: most groups end up with two
+      levels and a gap between them, which is the definition made spatial.
+    keyPrompts:
+      - "What in that definition do you disagree with?"
+      - "How is this different from the definition of conflict we built?"
+    watchOuts:
+      - "Learners reject the definition as too broad. Take the objection seriously and hold it open;
+        the sorting step is what makes the breadth make sense."
+  - title: "Collect examples anonymously"
+    duration: 15 minutes
+    guidance: >-
+      One example per slip, unsigned, as many as each learner can produce. Ask for at least five each
+      so there is enough to sort. Give the full time; this step is slow and being slow is fine. Watch
+      that learners are writing examples of violence rather than of conflict, and correct that
+      quietly and individually rather than from the front.
+    keyPrompts:
+      - "One example per slip. No names, not yours and not anyone else's."
+    watchOuts:
+      - "A learner is distressed by their own writing. Have a quiet exit agreed in advance and use it
+        without ceremony."
+      - "Slips describe conflicts rather than violence. A quiet word at the desk is better than a
+        general correction, which makes people self-conscious."
+    adaptation: >-
+      If personal examples are not appropriate for your group, use the prepared example bank instead
+      and lose nothing analytically. The sorting works identically.
+  - title: "Shuffle, scatter and walk"
+    duration: 10 minutes
+    guidance: >-
+      Collect the slips, shuffle them thoroughly in front of the group so anonymity is visibly real,
+      and scatter them around the room. Learners walk and read. This is quiet and often heavy, and
+      the silence should be allowed rather than filled. It is also the moment the group sees how much
+      of this there is.
+    keyPrompts:
+      - "Read them all before you say anything."
+    watchOuts:
+      - "Learners try to guess who wrote what. Stop it immediately; it breaks the condition the
+        collection was made under."
+  - title: "Invent categories and sort"
+    duration: 15 minutes
+    guidance: >-
+      Distribute the slips evenly among small groups. Ask them to categorise the examples, name the
+      categories and build a visual representation. Do not steer towards any particular scheme. Groups
+      produce all sorts, by severity, by setting, by who is harmed, and every one of them is useful
+      material for the comparison.
+    keyPrompts:
+      - "What do these examples have in common that those ones do not?"
+      - "What would you call this category?"
+    watchOuts:
+      - "A group waits to be told the right categories. There are none yet; say so and leave them
+        with it."
+  - title: "Compare with Galtung, and find the gap"
+    duration: 15 minutes
+    guidance: >-
+      Show Galtung's three forms as one way of categorising violence, not as the correct answer.
+      Ask how it compares with theirs, what they would change about each, and then have them place
+      their examples onto direct, structural and cultural. The pile will be overwhelmingly direct.
+      Ask why, and introduce the iceberg: what we can see is a small part of what is there.
+    keyPrompts:
+      - "Which type has the most examples? Why do you think that is?"
+      - "Why are the other types harder to see?"
+      - "How might the idea of an iceberg apply to this model?"
+    watchOuts:
+      - "Presenting Galtung as correct deflates the groups' own schemes. Say explicitly that this is
+        one categorisation and ask what theirs had that his does not."
+      - "Learners cannot tell structural from cultural. Structure is how a system is arranged;
+        culture is what makes that arrangement feel right. Give one worked pair."
+closing: >-
+  Ask two reflective questions and let learners answer them privately if they prefer. How has this
+  changed what you notice, and how could you use this categorisation to see the violence affecting
+  your own life and community? Then say the finding once: the group collected mostly the violence it
+  could see, and the two forms it collected least of are the ones that produce the rest.
+learnerContent: |
+  Here is a definition of violence: **the cause of the difference between what is, and what could
+  have been.**
+
+  - What do you disagree with in it?
+  - How is it different from our definition of conflict?
+  - Draw it.
+
+  Now, on separate slips of paper, write examples of violence you have experienced or witnessed. One
+  per slip. **No names.** Try for at least five. If you would rather not use your own experience, use
+  the examples provided.
+
+  The slips will be shuffled and spread around the room. Read them all.
+
+  In your group, **sort them into categories you invent**. Name your categories. Draw them.
+
+  Then you will see one well-known way of categorising violence and compare it with yours.
+
+  - Which category has the most examples? Why?
+  - Why are some types of violence harder to see than others?
+  - How could you use this to notice the violence in your own community?
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Learners leave able to name forms of harm they previously experienced as just how things are.
+    Having a word for something is what makes it discussable, and discussable is the first condition
+    of changeable.
+principlesForegrounded: [safe-spaces, authentic-challenges, builds-on-identities]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Anonymity is real and visibly protected, the alternative example bank is offered before anyone
+      writes, and no learner is asked to speak to their own slip.
+  - principle: authentic-challenges
+    how: >-
+      The data being categorised is the group's own experience of violence rather than a supplied
+      list, which is why the pattern in it is worth discovering.
+  - principle: builds-on-identities
+    how: >-
+      Learners build their own categorisation before meeting an established one, so their reading of
+      their own context is treated as knowledge rather than as a first draft to be corrected.
+competencyCodes: [FPS3, APS3, FUS1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Sorting harms by what produces them, rather than by how they look, is the move from describing
+      violence to identifying its contributing factors.
+  - code: APS3
+    how: >-
+      Building a categorisation from a pile of unlabelled examples, and then testing it against an
+      established one, is pattern identification with a check on it.
+  - code: FUS1
+    how: >-
+      The reflection asks what the learner now notices that they did not before, which is awareness of
+      their own perception rather than of the topic.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [galtungs-violence-triangle, pb-examples-of-violence, pb-land-of-harmonia, systems-thinking-iceberg-model]
+rights:
+  status: amala-own
+  holder: Johan Galtung (the three-form categorisation)
+  basis: >-
+    Amala's activity, rewritten here. Galtung's categorisation is a model rather than a text: it is
+    credited and its papers are linked, and none of his wording appears on this page.
+sourceRefs:
+  - "Categorising Violence (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 3 Activity 2.1"
+provenanceNote: >-
+  Adapted from Amala's "Categorising Violence". The definition and the three-form categorisation are
+  Johan Galtung's.

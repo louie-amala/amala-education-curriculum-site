@@ -1,0 +1,46 @@
+# Student worksheet (resource) for the activity cb-rp-practise-interviewing. Thin per §3. Ships no file
+# of its own — its printable version compiles into the Research Project student workbook as the "How to
+# do the whole interview" teaching page and the "Are we ready to go?" readiness page a pair fills in
+# together before they gather. Learning Bridge+ (Cox's Bazar) edition.
+id: cb-rp-ready-to-gather
+slug: cb-rp-ready-to-gather
+access: partner
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Are we ready to go?"
+summary: >-
+  The pair's readiness page, filled in together before they go out to gather: the teaching page on doing
+  a whole interview, then the checklist of what they are carrying, their one most important question,
+  who they will ask and when, who they will ask instead, and the things they will never do.
+facilitationContext:
+- group
+- independent
+primaryContext: group
+learnerContent: |
+  ## Are we ready to go?
+
+  Fill this page in with your gathering partner, before you go out. It is one page for the two of you.
+
+  It has room to:
+
+  - Tick what you are carrying: our questions, our follow-ups, our survey page and our marks, our asking
+    words, our gathering page, something to write or draw with.
+  - Write or draw your **one most important question** — the one you will ask if the person only has a
+    moment.
+  - Say who you will ask, where, and when.
+  - Say **who you will ask instead**, if that person is not there.
+  - Tick the things we never do: no names, no pressing, no arguing, never alone, never anywhere unsafe.
+
+  Keep it in your research book and look at it just before you knock.
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  how: >-
+    Planning the encounter themselves — including what they will do when it does not go to plan — is
+    what lets a pair go out and act without a facilitator beside them.
+objectiveIds: [research-project--o2]
+relatedSlugs: [cb-rp-practise-interviewing, cb-rp-go-and-gather, cb-rp-asking-permission, cb-rp-our-questions-sheet]
+provenanceNote: >-
+  Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Research Project edition (August
+  2026), paired to cb-rp-practise-interviewing. Thin by design; its printable version compiles into the
+  Research Project student workbook rather than shipping its own file.

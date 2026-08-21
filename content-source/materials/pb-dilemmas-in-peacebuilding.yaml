@@ -1,0 +1,173 @@
+id: pb-dilemmas-in-peacebuilding
+slug: pb-dilemmas-in-peacebuilding
+access: public
+type: activity
+title: "Dilemmas in peacebuilding"
+summary: >-
+  Four scenarios in which the peaceful option is also the compromised one. Pairs decide whether
+  each is a legitimate approach, and discover the group does not agree.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The disagreement is the material, and it needs a room. Pairs decide first, then the
+      whole group discovers how divided it is.
+  - context: independent
+    how: >-
+      A learner can reason through the four alone and write a position. What is lost is the discovery
+      that reasonable people disagree, so send back two contrary positions from other learners and ask
+      them to respond to both.
+duration: 45 minutes.
+grouping: Pairs, then whole group.
+materialsAndPreparation:
+  - The four scenarios, printed or read aloud. They are in the learner content.
+  - Nothing else. This is a discussion activity and needs no materials.
+  - Be ready for one of these to be close to something a learner has lived through, particularly the first and third.
+whatLearnersDo:
+  - Discuss four scenarios in pairs and decide whether each is a legitimate peacebuilding approach.
+  - Share their positions with the group.
+  - Notice how much the group disagrees.
+  - Work out what that disagreement implies for their own practice.
+facilitationNotes: >-
+  The one thing to get right is refusing to adjudicate. Every scenario here trades something real for
+  something else real: impunity for a warlord against an end to killing, an unfair ceasefire against
+  time to negotiate, force against a chance of talks, partiality against a fairer balance of power.
+  There is no answer key and offering one would be dishonest. The finding the activity produces is
+  the one in the debrief question: not everyone agreed, and in peacebuilding everyone will have an
+  opinion, so what do you have to be mindful of? That question is the point.
+steps:
+  - title: "Set up the pairs and the task"
+    duration: 5 minutes
+    guidance: >-
+      Pairs, four scenarios, one question for each: is this a legitimate approach in peacebuilding?
+      Tell them plainly that there is no correct answer and that they will be asked to explain their
+      reasoning, not to reach a verdict you approve of. Say that they may disagree with their partner
+      and report two positions.
+    keyPrompts:
+      - "Legitimate, or not? And why?"
+    watchOuts:
+      - "Pairs try to work out what you want them to say. Say once, clearly, that you do not have a
+        preferred answer and you are not scoring this."
+  - title: "Work the four scenarios"
+    duration: 20 minutes
+    guidance: >-
+      Five minutes each, roughly, with pairs sharing after each rather than at the end. Sharing as
+      they go means positions get challenged while the scenario is fresh, and it stops the last two
+      being rushed. Circulate and press each pair for the cost of their own answer: what are you
+      accepting by taking that position?
+    keyPrompts:
+      - "What are you accepting by choosing that?"
+      - "Who pays for that decision, and are they in the room?"
+    watchOuts:
+      - "Pairs choose the humane-sounding option without noticing what it costs. Every scenario has a
+        price on both sides; make them name theirs."
+      - "The first scenario, a deal granting a warlord immunity, will be personal for some learners.
+        Let strong positions stand and do not require anyone to argue against their own experience."
+    adaptation: >-
+      Short on time: take two scenarios rather than four, and choose the first and the last, which pull
+      in opposite directions.
+  - title: "Debrief the disagreement"
+    duration: 15 minutes
+    guidance: >-
+      The question the activity exists for: did you agree with everything the other groups said? What
+      does that imply for peacebuilding, where everyone will have an opinion? What might you have to
+      be mindful of? Let learners reach the conclusion that peacebuilders work among people whose
+      ethical judgements differ from theirs and who are not going to be argued out of them.
+    keyPrompts:
+      - "Did you agree with what the other groups said?"
+      - "In real peacebuilding, everyone will have an opinion. What follows from that?"
+    watchOuts:
+      - "The group tries to settle on a shared position. Resist it; the unresolved disagreement is the
+        accurate representation of the field."
+      - "Learners conclude that since nobody agrees, ethics do not matter. Push back: the point is
+        that ethical reasoning has to be done in public and defended, not that it is optional."
+  - title: "Name your own line"
+    duration: 5 minutes
+    guidance: >-
+      Ask each learner to write privately: what is one thing you would not do, even if it produced
+      peace? Nobody shares it unless they want to. Having an answer, in writing, before they design a
+      project is worth more than any discussion of ethics in the abstract.
+    keyPrompts:
+      - "What would you not do, even if it worked?"
+    watchOuts:
+      - "Answers are generic. Ask for one they can imagine actually being tempted by."
+closing: >-
+  Say the finding once, plainly. Peacebuilders work inside ethical frameworks that are complex and
+  sometimes contradictory, and the job requires a balance between idealism and pragmatism that nobody
+  else will strike for them. The room did not agree today, and the room will not agree in a real
+  process either. What a peacebuilder can control is whether their own reasoning is stated, defended
+  and open to challenge.
+learnerContent: |
+  Four situations. In pairs, decide: **is this a legitimate approach in peacebuilding?** Be ready to
+  explain your reasoning. There is no correct answer.
+
+  1. In order to stop a violent conflict, a deal is signed with a war lord which would allow them to
+     be free of being convicted for past crimes that they have committed.
+
+  2. You know that a ceasefire you have agreed is unfair and flawed. However, it means the violence
+     will stop for a while, giving you more time to negotiate a full peace agreement.
+
+  3. Permission for the use of force is authorised in order to pressure the parties in a violent
+     conflict to begin negotiating for peace.
+
+  4. A peacebuilder supports the weaker party in a violent conflict so that they have a stronger
+     negotiating position.
+
+  For each: **what are you accepting by choosing that? Who pays, and are they in the room?**
+
+  Then:
+
+  - Did you agree with everything the other groups said?
+  - In real peacebuilding, everyone will have an opinion. **What does that mean for you?**
+  - What might you have to be mindful of?
+
+  Finally, privately: **what is one thing you would not do, even if it produced peace?**
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Learners are asked to reach and defend an ethical position that nobody will confirm for them, and
+    to write down a line they would not cross. Both are exercises in judging for yourself in
+    conditions where authority is not available to lean on.
+principlesForegrounded: [responsible-action, safe-spaces, collaboration]
+principleAlignment:
+  - principle: responsible-action
+    how: >-
+      Every scenario forces learners to name what their preferred option costs and who bears it, which
+      is the discipline behind every later decision about their own project.
+  - principle: safe-spaces
+    how: >-
+      Several scenarios touch impunity and the use of force, which some learners will have lived near.
+      Strong positions are allowed to stand, and nobody is required to argue against their own
+      experience.
+  - principle: collaboration
+    how: >-
+      The finding is produced by the group's disagreement with itself rather than by any individual's
+      reasoning.
+competencyCodes: [FLC1, FUS2, APS1]
+competencyDevelopment:
+  - code: FLC1
+    how: >-
+      This is ethical reasoning without a correct answer, defended in public, which is the hardest
+      version of the competency and the one that occurs in practice.
+  - code: FUS2
+    how: >-
+      The disagreement makes it concrete that reasonable people hold incompatible ethical positions,
+      which learners will meet again in every real process.
+  - code: APS1
+    how: >-
+      Naming who pays for each decision is direct practice at identifying the harms an intervention
+      would cause to people who are not at the table.
+objectiveIds: [peacebuilding--o2]
+relatedSlugs: [pb-profile-of-a-peacebuilder, pb-respect-and-humiliation, pb-jah-and-kay, conflict-resolution-or-transformation]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced. The four scenarios are the planner's own.
+sourceRefs:
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 4"
+  - "Ethical Peacebuilding (Peacebuilding resources folder)"
+provenanceNote: >-
+  Scenarios reproduced from the 2025 Peacebuilding course planner activity "Dilemmas in
+  Peacebuilding".

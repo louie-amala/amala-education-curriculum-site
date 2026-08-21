@@ -16,6 +16,7 @@ import {
   ProficiencyScaleSchema,
   ProgrammeSchema,
   UnitSchema,
+  UNPUBLISHABLE_RIGHTS_STATUSES,
   type Agency,
   type Area,
   type Competency,
@@ -601,6 +602,9 @@ export function validateGraph(): ValidationReport {
 
   const materialSlugs = new Set(materials.map((m) => m.slug));
   const programmeSlugs = new Set(programmes.map((p) => p.slug));
+  // Materials predating the rights field. Reported as one line rather than several hundred, so
+  // the rest of the validation report stays readable. See RightsSchema in schema.ts.
+  const untaggedRights: string[] = [];
   for (const m of materials) {
     if (m.edition && !programmeSlugs.has(m.edition)) {
       errors.push(`Material "${m.slug}" names unknown edition "${m.edition}" (no such programme).`);
@@ -655,6 +659,29 @@ export function validateGraph(): ValidationReport {
     if (m.type === "tools-approaches" && !m.toolsFacet) {
       warnings.push(`Tools material "${m.slug}" has no toolsFacet.`);
     }
+    // ---- Rights (see RightsSchema in schema.ts) ----
+    // Publishing a material is a different act from running it with a group, so a material whose
+    // rights are unsettled must not be publicly readable, however freely we may use it in a session.
+    {
+      const blocked = new Set<string>(UNPUBLISHABLE_RIGHTS_STATUSES);
+      const isPublic = (m.access ?? "public") === "public";
+      if (m.rights && blocked.has(m.rights.status) && isPublic) {
+        errors.push(
+          `Material "${m.slug}" is publicly readable but its rights status is "${m.rights.status}". ` +
+            `Clear the rights, rewrite it to describe the method and link to the source instead of ` +
+            `reproducing it, or gate it behind a non-public access level.`,
+        );
+      }
+      // "We point at the source instead of reproducing it" is only true if we actually point at it.
+      if (m.rights?.status === "linked-not-reproduced" && m.links.length === 0) {
+        errors.push(
+          `Material "${m.slug}" claims rights status "linked-not-reproduced" but carries no links to the source.`,
+        );
+      }
+      if (!m.rights) {
+        untaggedRights.push(m.slug);
+      }
+    }
     {
       const areaSet = new Set<string>(AREA_TAG_IDS);
       const areaTags = m.tags.filter((t) => areaSet.has(t.id));
@@ -691,6 +718,19 @@ export function validateGraph(): ValidationReport {
         errors.push(`Material "${m.slug}" download "${d.label}" points to missing file "${d.file}".`);
       }
     }
+    // A "Try it yourself" answer key must line up with its items, or a learner checking the back of the
+    // workbook reads the wrong answer against the wrong question.
+    const t = m.learnerTeaching?.tryIt;
+    if (t && t.answers.length && t.answers.length !== t.items.length) {
+      errors.push(
+        `Material "${m.slug}" tryIt has ${t.items.length} item(s) but ${t.answers.length} answer(s); they must match.`,
+      );
+    }
+    if (t && /\byour (teacher|facilitator)\b/i.test(t.intro)) {
+      warnings.push(
+        `Material "${m.slug}" tryIt tells the learner what their teacher will do; it should be doable by the learner alone.`,
+      );
+    }
     if (m.worksheet) {
       const ws = materialBySlug.get(m.worksheet.slug);
       if (!ws) {
@@ -699,6 +739,13 @@ export function validateGraph(): ValidationReport {
         warnings.push(`Material "${m.slug}" worksheet "${m.worksheet.slug}" should be a resource, not "${ws.type}".`);
       }
     }
+  }
+
+  if (untaggedRights.length > 0) {
+    warnings.push(
+      `${untaggedRights.length} materials have no rights block, so whether they may be published is ` +
+        `unrecorded. First few: ${untaggedRights.slice(0, 5).join(", ")}.`,
+    );
   }
 
   const termSlugs = new Set(glossaryTerms.map((t) => t.slug));
@@ -748,6 +795,19 @@ export function validateGraph(): ValidationReport {
           if (bm && bm.type === "activity" && !bm.worksheet) {
             warnings.push(
               `Unit "${u.slug}" activity "${b.materialSlug}" has no student worksheet (materials rule).`,
+            );
+          }
+          // Rule: an offline component's workbook must teach the method, not only capture the answer.
+          // Every activity in a unit plan carries `learnerTeaching` (the "Learn it" page of the spread)
+          // and `educatorContent` (the facilitator's subject brief for the block).
+          if (bm && bm.type === "activity" && !bm.learnerTeaching) {
+            warnings.push(
+              `Unit "${u.slug}" activity "${b.materialSlug}" has no learnerTeaching ("Learn it" page).`,
+            );
+          }
+          if (bm && bm.type === "activity" && !bm.educatorContent) {
+            warnings.push(
+              `Unit "${u.slug}" activity "${b.materialSlug}" has no educatorContent (what the facilitator needs to know).`,
             );
           }
         }

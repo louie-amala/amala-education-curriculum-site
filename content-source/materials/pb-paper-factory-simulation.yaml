@@ -1,0 +1,232 @@
+id: pb-paper-factory-simulation
+slug: pb-paper-factory-simulation
+access: public
+type: activity
+title: "The paper factory: negotiating from unequal ground"
+summary: >-
+  Two republics meet over a polluting factory. One sits at a table on its own territory; the other
+  is brought in early and told to sit on the floor.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only. The inequality is staged physically, in a room, and the finding depends on the
+      weaker delegation actually experiencing it rather than being told about it.
+duration: 75-90 minutes, of which the negotiation is 10 to 15.
+grouping: Three groups. Gonzo, Liper, and observers.
+materialsAndPreparation:
+  - A drawn or printed map showing the two republics with a river running from Liper down into Gonzo. Drawing it on large paper is fine.
+  - The three role briefs, printed or written out. They are summarised in the educator content.
+  - "Deliberately unequal seating: a table and comfortable chairs for Gonzo, nothing for Liper. Learners have run this with plastic chairs against upholstered ones; the floor is the strongest version."
+  - Separate rooms or spaces for the two delegations to prepare.
+  - Paper and pens for the observers.
+whatLearnersDo:
+  - Take a role as Gonzo, Liper, or an observer, and prepare a position from a briefing sheet.
+  - Meet, on Gonzo's territory, under conditions the two delegations do not share.
+  - Negotiate for as long as it lasts.
+  - "Debrief in four passes: facts, feelings, evaluation, and analysis of the conflict itself."
+facilitationNotes: >-
+  The one thing to get right is the staged inequality, and the one thing you must then do is own it
+  in the debrief. Liper are interrupted early, walked into the other party's territory, made to sit
+  on the floor, and hit with a presentation they were never told about. That is engineered by you,
+  not by the learners playing Gonzo, and saying so protects the room. Everything the simulation
+  teaches about transformative platforms comes from the absence of the conditions: no neutral ground,
+  no shared agenda, no equal power. Do not name those conditions in advance.
+steps:
+  - title: "Set the room unequally and brief separately"
+    duration: 15 minutes
+    guidance: >-
+      Put the map where everyone can see it and tell learners the room is now the Gonzo Republic.
+      Split into three groups and brief them apart: Gonzo stay in the room with the table and chairs,
+      Liper prepare outside, observers get their four questions. Arrange the seating inequality
+      visibly, so it reads as a condition of the meeting rather than an accident.
+    keyPrompts:
+      - "This room is Gonzo. Read your brief, and do not share it."
+    watchOuts:
+      - "The inequality is set up out of sight and nobody registers it. Make the table and chairs an
+        obvious feature before Liper come in."
+  - title: "Interrupt Liper and walk them in"
+    duration: 5 minutes
+    guidance: >-
+      Liper are told they have 15 minutes. After 5, interrupt them and say Gonzo are ready and want
+      the meeting now. Walk them into Gonzo's space. Seat Gonzo at the table and Liper on the floor.
+      Be creative with the inequality if you can: this has been run with comfortable chairs on one
+      side and cheap plastic ones on the other.
+    keyPrompts:
+      - "Gonzo are ready. They want the meeting now."
+    watchOuts:
+      - "You apologise while doing it, which tells learners it is a device. Do it straight."
+  - title: "Gonzo present, then let it run"
+    duration: 15 minutes
+    guidance: >-
+      Gonzo give the 2-minute presentation Liper were never told about. Then let the negotiation run
+      for 10 to 15 minutes. Do not intervene, do not answer questions, do not rescue either side.
+      Observers write. Stop it clearly when it has run its course.
+    keyPrompts:
+      - "Gonzo, your presentation. Then you may talk."
+    watchOuts:
+      - "Liper walk out. That is a legitimate move and excellent debrief material; do not treat it as
+        a failure of the activity."
+  - title: "End the roles and mix the groups"
+    duration: 5 minutes
+    guidance: >-
+      Say the simulation is over, that nobody is in role, and that nothing inside it is held against
+      anyone. Shake hands, or whatever gesture suits the context. Then mix the groups so each small
+      group has Gonzo, Liper and observers in it before any discussion starts.
+    keyPrompts:
+      - "The simulation is finished."
+    watchOuts:
+      - "Debriefing in the original delegations. Mix them, every time."
+  - title: "Debrief in four passes and answer the conceptual question"
+    duration: 45 minutes
+    guidance: >-
+      Facts, feelings, evaluation, and then analysis of the conflict itself. The full question set is
+      in the educator notes. Own the engineered inequality explicitly during the feelings pass: the
+      floor was your decision, not Gonzo's. Close on the retrieval chart and the conceptual question.
+    keyPrompts:
+      - "Liper, how did it feel to be told to sit on the floor?"
+      - "How might a power imbalance during conflict act as a barrier to positive transformation?"
+    watchOuts:
+      - "Liper hold it against the learners who played Gonzo. Name the inequality as yours, clearly,
+        early in the feelings pass."
+      - "The win-win question gets rushed at the end. It is the most important one; protect its time."
+    adaptation: >-
+      Short on time: cut the negotiation to 8 minutes rather than cutting the debrief. The debrief is
+      where the learning is.
+closing: >-
+  Complete the retrieval chart together, a row for each republic covering their response to the power
+  imbalance and its consequences, then put the conceptual question to the group in writing: how might
+  a power imbalance during conflict act as a barrier to positive transformation? Ask them to answer it
+  individually. They have just lived the answer from one of two sides, and writing it is what turns
+  the experience into something they can use.
+educatorContent: |
+  ## The set-up
+
+  **Gonzo (Group A).** Liper is building a paper factory upstream of a river Gonzo depends on for
+  agriculture and drinking water. Gonzo believes it will pollute the water. Citizens are protesting.
+  Gonzo sees its role as getting the best for its people. The Haber Republic, which has oil interests
+  in the region and strong trade agreements with Gonzo but not Liper, has demanded a meeting and
+  decided it will be held in Gonzo. Gonzo gets 5 minutes to prepare, stays in the room, and may
+  consult Haber (that is, you).
+
+  **Liper (Group B).** The Liper president wants the factory: it will create thousands of jobs in a
+  poor country. Liperi people in Gonzo do not feel safe; there are historical tensions, and their
+  government is telling them it is unsafe to travel to Gonzo while the Gonzo government says the
+  opposite. The two cultures are very similar. Liper sees its role as getting the best for its
+  people. They are told they have 15 minutes to prepare, must prepare outside, and will be invited in.
+
+  **Observers (Group C).** Two or three learners, recording what they see, guided by four questions:
+  how is each team behaving, what assumptions is each country making about the other, how do those
+  assumptions produce the behaviour, and do they look like they are seeking win-win solutions.
+
+  ## What you do
+
+  After 5 minutes, interrupt Liper and tell them Gonzo is ready and wants the meeting now. Walk them
+  in. Seat Gonzo at the table; Liper sits on the floor. Gonzo delivers a 2-minute presentation Liper
+  were never told about. Then let it run for 10 to 15 minutes and stop it clearly.
+
+  ## The four-pass debrief
+
+  Do not shorten this. It is longer than the simulation on purpose.
+
+  **Facts.** Both sides read their briefing sheets aloud, so each finally learns what the other was
+  working from. What was your plan? Observers, what did you see, factually? Guide people back if they
+  jump to feelings; recalling what happened has to come first. Small mixed groups work better than a
+  whole-group discussion here.
+
+  **Feelings.** What was the first thing you noticed about the other group, their behaviour, their
+  body language? Liper, what was your motivation, and how did it feel to be told to sit on the floor?
+  What was surprising, what was frustrating? What behaviours created a positive feeling, and what
+  hindered communication or fostered resentment?
+
+  **Evaluation.** What do Gonzo and Liper symbolise, and how many parallels can the group find? If
+  you had it to do again, what would you do to make a win-win more likely? How will you change your
+  behaviour when you next go into a conflict situation?
+
+  **The conflict itself.** What was the conflict? What violence was exhibited, including the
+  non-physical kind? What might win-win solutions look like? The last one is the important question
+  and deserves real time.
+
+  ## Retrieval and the conceptual question
+
+  Close on a chart with a row for each republic: response to power imbalance, and consequences. Then
+  the conceptual question the whole simulation exists to answer: **how might a power imbalance during
+  conflict act as a barrier to positive transformation?**
+learnerContent: |
+  You will be given a role: **Gonzo**, **Liper**, or **observer**. Read your brief and prepare.
+  Do not share it with the other side.
+
+  **Observers:** write down what you see. Try to keep it factual. Think about how each team is
+  behaving, what assumptions each is making about the other, how those assumptions show up in what
+  they do, and whether they look like they are searching for win-win solutions.
+
+  Afterwards, the simulation is over and nobody is in role.
+
+  **What happened:**
+
+  - Both sides read your briefs out loud. What was the other side actually working from?
+  - What was your plan? Observers, what did you see?
+
+  **How it felt:**
+
+  - What was the first thing you noticed about the other group?
+  - Liper: how did it feel to be told to sit on the floor?
+  - What was surprising? What was frustrating?
+  - What behaviours helped? What made things worse?
+
+  **What it means:**
+
+  - What do Gonzo and Liper stand for? How many parallels can you find?
+  - What would you do differently to make a win-win more likely?
+  - What was the conflict? What violence was there, including the kind nobody could see?
+  - **How might a power imbalance during a conflict stop it being transformed?**
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners who have negotiated from the floor know, rather than believe, that where and how a
+    conversation is arranged determines what it can produce. They will notice the arrangement of a
+    real meeting, and that noticing is what lets someone insist on better conditions.
+principlesForegrounded: [authentic-challenges, safe-spaces, collaboration]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The scenario is a recognisable transboundary resource conflict, with jobs on one side and water
+      on the other, and no clean answer available to either delegation.
+  - principle: safe-spaces
+    how: >-
+      The inequality is engineered by the facilitator and must be named as such in the debrief, so
+      that no learner carries responsibility for how the other side was treated.
+  - principle: collaboration
+    how: >-
+      The debrief is deliberately run in mixed groups, so the reconstruction of what happened is
+      built jointly by people who experienced opposite versions of it.
+competencyCodes: [FUS2, ALC3, FLC1, FPS3]
+competencyDevelopment:
+  - code: FUS2
+    how: >-
+      Reading the other side's brief aloud after the negotiation gives learners direct evidence of
+      how wrong their model of the other party was.
+  - code: ALC3
+    how: >-
+      The closing question is precisely about what prevents transformation, answered from the inside
+      rather than from a definition.
+  - code: FLC1
+    how: >-
+      Gonzo has to decide how to use an advantage it did not earn, in front of observers, and then
+      account for it.
+  - code: FPS3
+    how: >-
+      The analysis pass requires learners to name the structural features of the meeting, not the
+      personalities in it, as the cause of the outcome.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [pb-jah-and-kay, pb-battle-for-orange, pb-power-imbalances, cf-debrief-a-simulation]
+rights:
+  status: own-expression
+  basis: >-
+    Origin not recorded in Amala's pack, and the document carries no link. The role briefs are
+    summarised rather than reproduced, and all wording here is Amala's own.
+  note: >-
+    Searched in August 2026 without success. It belongs to the transboundary-water negotiation genre
+    that Harvard's Program on Negotiation publishes several examples of, so a published ancestor is
+    likely. Ask whoever built Amala's version before the briefs are published anywhere.

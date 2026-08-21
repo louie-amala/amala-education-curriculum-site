@@ -1,0 +1,145 @@
+id: pb-chair-simulation
+slug: pb-chair-simulation
+access: public
+type: activity
+title: "The chair game: scarcity and abundance"
+summary: >-
+  Musical chairs with one chair too few, then with two chairs too many. Learners compare how the
+  same group behaved under each.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only. The whole finding is the contrast between how one group behaved in two rounds, and
+      it needs enough learners that the scramble is real. Eight or more works well.
+duration: 20-30 minutes.
+grouping: Whole group.
+materialsAndPreparation:
+  - Chairs. One fewer than the number of learners for the first round, two more for the second.
+  - Clear floor space. Move desks out of the way and arrange the chairs in a single line rather than a circle, which is safer.
+  - Music, or clapping, or any sound you can start and stop.
+  - Check who should not take part physically and give them the music or timekeeping role before you start.
+whatLearnersDo:
+  - Walk around the chairs, and sit when the music stops. Someone misses out.
+  - Play a second round with more chairs than people, where everyone gets a seat.
+  - Compare how each round felt, and what each one produced.
+  - Work out what each round models about how people think, and how that connects to conflict.
+facilitationNotes: >-
+  The one thing to get right is the surprise of the second round, so do not signal it. Learners
+  laugh when they see the extra chairs, and the laugh is the recognition that the entire competition
+  in round one existed only because of an arrangement, not because of anything about them. Safety is
+  the standing constraint: chairs in a line, walking not running, no barging, and stop it if it gets
+  physical. This is short, and it earns its place because it is the fastest route to the
+  scarcity-abundance distinction that the mindset week rests on.
+steps:
+  - title: "Round one: one chair short"
+    duration: 8 minutes
+    guidance: >-
+      Arrange chairs in a line, one fewer than the number of learners. Give the instruction as
+      written: while the music plays you walk around the chairs, and when it stops you find a chair.
+      No running, no barging. Play a round. Note who is left standing. Play one or two more, and
+      consider removing a second chair so two people miss out.
+    keyPrompts:
+      - "Walk. Don't run, and don't barge into anyone."
+    watchOuts:
+      - "It turns physical immediately. Stop, re-state the rule, and restart. If it happens twice,
+        end the round; the point is already made."
+      - "The same learner is out every time and it becomes uncomfortable. Two or three rounds is
+        enough."
+  - title: "Round two: two chairs too many"
+    duration: 5 minutes
+    guidance: >-
+      Without explanation, add chairs until there are two more than there are learners. Let them see
+      you do it. Play the same game. Everyone sits. Expect laughter, and do not fill it with
+      commentary.
+    keyPrompts:
+      - "Same game."
+    watchOuts:
+      - "Learners ask what the point is before playing. Say you will discuss it afterwards and start
+        the music."
+  - title: "Compare the two rounds"
+    duration: 10-15 minutes
+    guidance: >-
+      Work the questions in order. What was different between the rounds? How did each make you feel,
+      and why? What was the conflict in round one, and was it resolved constructively or
+      destructively? What happened to that conflict in round two, and why? Then the question that
+      opens the room: which round more accurately reflects your experience of the world?
+    keyPrompts:
+      - "What was the conflict in the first round? Where did it go in the second?"
+      - "Which round is more like the world you live in?"
+    watchOuts:
+      - "Learners say round one is simply how the world is, and the discussion closes. Take the claim
+        seriously: for many of them scarcity is real. Then ask which scarcities are natural and which
+        are arranged, which is a different question."
+    adaptation: >-
+      No music: clap, or count aloud and stop. No chairs: use marked spots on the floor. The
+      mechanism does not depend on the equipment.
+closing: >-
+  Name the two mindsets once the group has described them. The first round is a world of scarcity,
+  where resources are limited and therefore we compete. The second is a world of abundance, where
+  cooperation is the sensible move. Then ask the two questions that carry into the week: how does
+  scarcity thinking lead to violent conflict, and how does abundance thinking lead to constructive
+  approaches? Note that the arrangement changed, and the people did not.
+learnerContent: |
+  While the music plays, walk around the chairs. When it stops, find a chair. **Walk, do not run, and
+  do not barge into anyone.**
+
+  We will play a few rounds. Then we will play again.
+
+  Afterwards:
+
+  - What was different between the two rounds?
+  - How did the first round make you feel? Why?
+  - How did the second round make you feel? Why?
+  - **What was the conflict in the first round?** Was it handled constructively or destructively?
+  - What happened to that conflict in the second round? Why?
+  - Which round more accurately reflects your experience of the world?
+
+  The first round is a world of **scarcity**: there is not enough, so we have to compete. The second
+  is a world of **abundance**: there is enough, so we can cooperate.
+
+  - How might scarcity thinking lead to violent conflict?
+  - How might abundance thinking lead to constructive approaches to conflict?
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    The same group behaved completely differently in two rounds, and the only thing that changed was
+    the number of chairs. Learners who register that will look for the arrangement behind a
+    competition rather than assuming the competition is natural.
+principlesForegrounded: [authentic-challenges, safe-spaces]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      Learners meet their own competitive behaviour under an artificial shortage, which is a more
+      persuasive demonstration than being told about scarcity thinking.
+  - principle: safe-spaces
+    how: >-
+      The physical rules are stated and enforced, alternative roles are offered before pairs form, and
+      the second round deliberately ends the game with everyone included.
+competencyCodes: [FPS1, FUS1, ALC3]
+competencyDevelopment:
+  - code: FPS1
+    how: >-
+      The contrast shows learners that their approach was a response to a framing rather than a fixed
+      disposition, which is the premise of adaptable thinking.
+  - code: FUS1
+    how: >-
+      Learners notice how quickly they competed, and how it felt, which is self-knowledge produced by
+      behaviour rather than by reflection alone.
+  - code: ALC3
+    how: >-
+      The conflict in round one disappears in round two without anyone resolving it, which is a vivid
+      demonstration that changing conditions can dissolve a conflict.
+objectiveIds: [peacebuilding--o2]
+relatedSlugs: [pb-the-mm-game, pb-wealth-allocation-game, pb-sharing-the-earths-resources]
+rights:
+  status: own-expression
+  basis: >-
+    A variant of musical chairs, which has no owner.
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced.
+sourceRefs:
+  - "Scarcity Mindset - Chair Simulation (Peacebuilding resources folder)"
+provenanceNote: >-
+  Adapted from Amala's "Scarcity Mindset - Chair Simulation" in the Peacebuilding resource pack.

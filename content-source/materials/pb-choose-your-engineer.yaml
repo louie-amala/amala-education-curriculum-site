@@ -1,0 +1,174 @@
+id: pb-choose-your-engineer
+slug: pb-choose-your-engineer
+access: public
+type: activity
+title: "Choose your engineer"
+summary: >-
+  Learners hire one of seven candidates by firing six, one at a time, as each new layer of
+  personal information is revealed. Then they examine what they used to decide.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Group pressure is part of the mechanism: learners defend their firings to each
+      other and hear reasons they had not admitted to themselves.
+  - context: independent
+    how: >-
+      Works alone, and the private version can be more honest because nothing has to be defended.
+      What is lost is the discovery that others fired different people for the same reason. Ask an
+      independent learner to record their reason at each round before moving on, or the reasoning
+      disappears and only the result remains.
+duration: 45 minutes.
+grouping: Individually or in pairs for the firing, small groups for the reflection.
+materialsAndPreparation:
+  - "The slide deck and educator notes. Kopin publish both free, linked below. The deck carries the seven candidates and reveals the layers in order."
+  - Paper and pens, so each learner keeps their own line-up and crosses a name out each round.
+  - "Read Kopin's educator notes first. They include short definitions of the terms the deck uses, which you will need to hand if the group has not met them."
+  - Consider swapping the categories for ones that carry weight where you are teaching. The activity works on whichever differences actually get used against people locally.
+whatLearnersDo:
+  - Line up seven candidates for a demanding engineering job.
+  - Fire one candidate after each layer of information is revealed, down to a single hire.
+  - Record, at each round, who they fired and why.
+  - Examine which of their decisions rested on a stereotype, a prejudice, or an act of discrimination.
+facilitationNotes: >-
+  The one thing to get right is that learners must fire someone at every round, including the first,
+  when they know nothing but seven first names. That forced choice on no information is what makes
+  the activity work: it produces a decision the learner cannot justify and therefore has to explain.
+  Do not let anyone hold back or opt out of a round. Also note the qualification layer comes last on
+  purpose, so learners discover they have already discarded the best-qualified candidate on grounds
+  that had nothing to do with the job.
+steps:
+  - title: "Set the job and the rule"
+    duration: 5 minutes
+    guidance: >-
+      Describe the job as something worth wanting: an engineer to set up life on the moon,
+      history-making, needing resilience, determination, expertise and people skills. Lay out the
+      seven candidates. State the rule and hold to it: after each new piece of information, one
+      candidate must be fired. No abstaining.
+    keyPrompts:
+      - "You need one engineer. Who goes first?"
+    watchOuts:
+      - "Learners refuse to fire anyone on no information. Insist, without explaining why. The
+        refusal itself is worth returning to in the debrief."
+  - title: "Reveal the layers and fire, one at a time"
+    duration: 20 minutes
+    guidance: >-
+      Reveal one layer, allow a short discussion, take the firing, then reveal the next. Names, then
+      surnames, then appearance, then sexual orientation, then health and disability, then finally
+      profession and qualification. Insist that learners write down who they fired and their reason
+      at each round, before the next layer appears. Reasons written afterwards are reasons invented
+      afterwards.
+    keyPrompts:
+      - "Who goes, and what is your reason?"
+      - "Write the reason down now, before you see the next line."
+    watchOuts:
+      - "Learners give a socially acceptable reason rather than the real one. You cannot force
+        honesty here, so do not try. The qualification round usually exposes the gap for them."
+      - "Someone in the room shares a characteristic with a candidate being discussed dismissively.
+        This is a real risk and the reason the class agreements exist. Be ready to stop and re-set."
+    adaptation: >-
+      No slides or printing: read the layers aloud and let learners keep their own list of seven
+      names on paper, crossing one out each round. It works exactly as well.
+  - title: "Reveal the qualifications last"
+    duration: 5 minutes
+    guidance: >-
+      The final layer is the professional one: doctor of engineering, army engineering officer,
+      engineer and project manager, firefighter, entrepreneur. Let learners see who they have
+      already discarded. Say nothing while they work it out. This moment does more than any
+      subsequent explanation.
+    keyPrompts:
+      - "Look at who you fired before you knew any of this."
+    watchOuts:
+      - "Learners rush to justify. Let the silence sit for a few seconds before you open discussion."
+  - title: "Name what you used: stereotype, prejudice, discrimination"
+    duration: 10 minutes
+    guidance: >-
+      Individually first, then in small groups. What choice did you make and why? What stereotypes
+      did you use? What prejudices were in play? To what extent were your decisions discriminatory?
+      Give the three definitions if the group does not have them yet: an oversimplified belief about
+      a group, a hostile feeling towards a group, an action that denies a group equal treatment.
+      Learners then label their own recorded reasons.
+    keyPrompts:
+      - "Which of your reasons was a belief, which was a feeling, and which became an action?"
+      - "What influenced your decisions? Where did those ideas come from?"
+    watchOuts:
+      - "The group concludes it was a trick and therefore proves nothing about them. Concede the
+        design and hold the finding: the reasons were still theirs."
+      - "The mood becomes confessional and heavy. Move to the last question, which points outward:
+        when has somebody judged you on incomplete information, and how did it feel?"
+closing: >-
+  Take two answers to the last question, about being judged on incomplete information, and stop
+  there. Do not resolve it with reassurance. The chain the group has just walked, from a belief about
+  a group, to a feeling about a group, to an action that costs someone a job, is the same chain they
+  will trace in the escalation of a real conflict later in the course. Only the stakes change.
+learnerContent: |
+  You need to hire one engineer to set up life on the moon. It is a big job: it needs resilience,
+  determination, engineering expertise and real people skills.
+
+  There are seven candidates. **After each new piece of information about them, you must fire one.**
+  You cannot skip a round.
+
+  Every time you fire someone, write down **who** and **why**, before you see the next piece of
+  information.
+
+  At the end:
+
+  - What choice did you make, and why?
+  - What stereotypes did you use to make it?
+  - What prejudices were you carrying?
+  - To what extent were your decisions discriminatory?
+  - When has someone judged **you** with incomplete information? How did that feel?
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Learners catch their own judgements in writing, before they have had a chance to tidy them. Being
+    able to see your own reasoning is what makes it possible to overrule it, in yourself and later in
+    a room where a decision about somebody's life is being made.
+principlesForegrounded: [authentic-challenges, safe-spaces]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The judgements examined are the learners' own, made minutes earlier under pressure, not a case
+      study of somebody else's prejudice.
+  - principle: safe-spaces
+    how: >-
+      The candidates are fictional, which is what allows learners to be honest about their reasoning
+      without anyone in the room being the subject. The class agreements need to be in place first.
+competencyCodes: [FUS1, AUS1, FPS2]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      The written round-by-round reasons are direct evidence of a learner's own assumptions, produced
+      by them and available for them to examine.
+  - code: AUS1
+    how: >-
+      The activity exists to surface negative stereotypes in use and to give learners the vocabulary
+      to separate stereotype from prejudice from discrimination.
+  - code: FPS2
+    how: >-
+      Learners see what happens when a decision is made on the wrong evidence, and what changes when
+      the relevant evidence finally arrives.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [pb-identity-bags, pb-brown-eyes-blue-eyes, pn-stereotypes-concept-map, pb-colour-groups]
+rights:
+  status: linked-not-reproduced
+  holder: Kopin (Koperazzjoni Internazzjonali, Malta)
+  basis: >-
+    Traced in August 2026 to Kopin's session "Prejudice, Stereotypes, Discrimination and Inclusion",
+    where the activity appears as "The apprentice". Kopin's slide deck and educator notes are not
+    reproduced here: this page explains what the activity does, argues where it fits the course, and
+    links to Kopin's free downloads. All facilitation guidance here is Amala's own.
+  note: >-
+    Do not copy Kopin's candidate cards or slides onto this page. Kopin state no licence but publish
+    the materials free for educators, so link rather than reproduce.
+links:
+  - label: "Prejudice, Stereotypes, Discrimination and Inclusion (Kopin)"
+    url: https://kopin.org/portfolio-items/activity-2-prejudice-stereotypes-discrimination-and-inclusion/
+    note: "The original session, with the slide deck and educator notes free to download. Written for ages 10-14; the notes include definitions of the terms the deck uses."
+sourceRefs:
+  - "02. Exploring Stereotypes - Choose your Engineer (Peacebuilding resources folder)"
+provenanceNote: >-
+  Amala's pack carries this as an unattributed slide deck. Traced in August 2026 to Kopin's session
+  "Activity 2: Prejudice, Stereotypes, Discrimination and Inclusion", where it is called "The
+  apprentice". Rewritten here as a pointer to Kopin's own free materials.

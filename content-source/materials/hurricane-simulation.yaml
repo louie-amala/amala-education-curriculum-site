@@ -1,0 +1,129 @@
+id: hurricane-simulation
+slug: hurricane-simulation
+access: public
+type: resource
+title: "Hurricane (published simulation): using it in this course"
+summary: >-
+  Counties facing the same storm decide, day by day, whether to pool resources or protect their own.
+  Where it fits, and where to download it free.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only, and it needs enough learners for several county teams. The download carries the
+      author's own guidance on numbers and timing. No technology is required beyond the printed
+      materials.
+materialsAndPreparation:
+  - The simulation itself. Download it free from SSRN, linked below. It carries the teaching guide and the participant material.
+  - Printed role material, one set per county team.
+  - Separate spaces for the teams to caucus, or a room big enough that they cannot overhear each other.
+  - Time for a debrief at least as long as the play.
+educatorContent: |
+  Hurricane is a published simulation by Noam Ebner. Several counties face the same approaching storm
+  and must run evacuation operations. Each day, each county decides whether to pool resources with its
+  neighbours or hold them back for its own residents. Like Pasta Wars and Ore Wars, it is an iterated
+  multi-party prisoner's dilemma, but the pressures on the decision are political rather than
+  commercial: incomplete trust, role-based incentives, and an electorate each team answers to.
+
+  ## Why it belongs in the curriculum, and where
+
+  **Ethical Leadership** asks learners to advance a project using ethical leadership principles, and
+  then to influence others to lead more ethically. Hurricane puts the two in tension. A county
+  official who holds resources back is not behaving badly by their own lights: they are doing the job
+  they were given, for the people who depend on them. That is the actual shape of most ethical
+  failure in institutions, and it is far more instructive than a scenario with an obvious villain.
+  Objective 2 is the natural home.
+
+  **Making Societal Change** gets objective 3 from it: collaborating ethically to build collective
+  action. The counties need each other and cannot compel each other, which is the position most
+  coalitions are actually in.
+
+  It also completes a set. Ore Wars strips out communication, Pasta Wars adds parties and history, and
+  Hurricane adds accountability to somebody outside the room. Run more than one and learners can see
+  which variable did what.
+
+  ## What to protect in the debrief
+
+  - **Ask what each team was answerable to.** The reason cooperation fails here is rarely greed; it is
+    a duty to a constituency. Get that named.
+  - **Find the round where trust broke, and what it cost.** As in the other dilemma games, recovery
+    takes longer than the breach.
+  - **Ask what would have made pooling safe.** That is the transformative-platform question again, in
+    an institutional setting.
+
+  ## Getting it
+
+  Ebner publishes the full pre-print free on SSRN with the teaching guide and participant material,
+  marked for free educational and research use. Download it and run it from there.
+learnerContent: |
+  Your team runs a county. A hurricane is coming, and it is coming for everyone.
+
+  Each day you decide one thing: do you pool your resources with the other counties, or keep them for
+  your own residents?
+
+  You answer to the people who live in your county. They will notice what you did.
+
+  Afterwards:
+
+  - What were you answerable to? How did that shape what you chose?
+  - Which day did trust break? What happened, and how long did it take to recover?
+  - **What would have had to be true for pooling resources to feel safe?**
+  - Where have you seen institutions behave like this?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners discover that people can act badly collectively while each doing their job honourably,
+    which is the most common and least understood form of institutional failure. Naming it is what
+    lets someone try to change the incentives rather than blame the people.
+principlesForegrounded: [responsible-action, collaboration, authentic-challenges]
+principleAlignment:
+  - principle: responsible-action
+    how: >-
+      Every choice trades a duty to your own people against a duty to everyone, with real consequences
+      in the model, and learners have to justify theirs afterwards.
+  - principle: collaboration
+    how: >-
+      The counties need each other and cannot compel each other, so cooperation has to be built and
+      maintained rather than assumed.
+  - principle: authentic-challenges
+    how: >-
+      The pressures are the real ones on public officials: incomplete information, political
+      accountability and no time.
+competencyCodes: [FLC1, ALC2, FLC2, FUS2]
+competencyDevelopment:
+  - code: FLC1
+    how: >-
+      Ethical action is tested where both options are defensible, which is harder and more realistic
+      than a scenario with a clear right answer.
+  - code: ALC2
+    how: >-
+      Reaching a joint response across independent counties with no authority over each other is
+      collaborative decision making under genuine constraint.
+  - code: FLC2
+    how: >-
+      Whether the counties come to see themselves as one group facing one storm turns out to determine
+      the outcome.
+  - code: FUS2
+    how: >-
+      Teams have to work out what the others are answerable to, which is usually not what they assumed.
+objectiveIds: [ethical-leadership--o2, making-societal-change--o3]
+relatedSlugs: [pb-pasta-wars, pb-ore-wars, starpower-simulation, cf-debrief-a-simulation]
+links:
+  - label: "Hurricane: A Multi-County Emergency Management Simulation (free download, SSRN)"
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6997718
+    note: "The full pre-print with teaching guide and participant material. Marked for free educational and research use."
+rights:
+  status: linked-not-reproduced
+  holder: Noam Ebner
+  basis: >-
+    The simulation is published and remains the author's. Nothing of it is reproduced here: this page
+    describes what it does, argues where it fits the curriculum, and links to the author's free
+    download. All wording is Amala's own.
+  note: >-
+    Do not copy the role material or payoff structure onto this page. Send facilitators to SSRN.
+sourceRefs:
+  - "Ebner, N. (2026). Hurricane: A Multi-County Emergency Management Simulation. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6997718"
+provenanceNote: >-
+  Identified in August 2026 while researching simulations for the courses that had no materials.
+  Written from scratch as a pointer to the author's published simulation.

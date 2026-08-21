@@ -1,0 +1,139 @@
+id: the-trading-game
+slug: the-trading-game
+access: public
+type: resource
+title: "The Trading Game (published simulation): using it in this course"
+summary: >-
+  Countries manufacture and sell paper shapes, but they do not start with the same tools. Where it
+  fits the curriculum, and where to download it free.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only, and it wants a real room. Christian Aid pitch it at age 13 and up with up to about
+      30 players, which suits a full cohort. It has no independent or one-to-one form: the whole point
+      is what happens between groups who cannot see each other's starting position.
+materialsAndPreparation:
+  - The game itself. Christian Aid publish it free, linked below, as a set of PDFs including the shapes diagram, the introduction, the facilitator instructions and follow-up discussion.
+  - "Paper, scissors, rulers, pencils and similar. Ordinary classroom equipment, distributed deliberately unequally between the groups: the download says who gets what."
+  - No technology of any kind. This is one of the few simulations in the bank that runs anywhere.
+  - Time and a plan for the debrief. The trading itself is fast and the argument afterwards is the lesson.
+educatorContent: |
+  The Trading Game is published free by Christian Aid. Groups represent countries. Each country
+  manufactures paper shapes to precise specifications and sells them to a banker at set prices, and
+  the country that accumulates the most wealth wins.
+
+  What the groups are not told is that they do not start equally. Some receive the tools to
+  manufacture and little raw material; others receive plenty of paper and nothing to cut it with.
+  Prices move during the game. Discoveries can be announced. Within minutes the room has produced
+  trade, alliances, resentment and, usually, some rule-breaking.
+
+  ## Why it belongs in the curriculum, and where
+
+  This is the strongest available answer to a question both Economics for Positive Change and Making
+  Societal Change put to learners early: **why do some places stay poor while working hard?** The game
+  answers it structurally rather than morally. Nobody in the room is lazy and nobody is corrupt, and
+  the outcome is still wildly unequal, because the starting distribution and the terms of trade decided
+  it before anyone began.
+
+  In **Economics for Positive Change** it belongs at the start of objective 1, where learners are
+  building a collective understanding of an economic system. It gives them a system they have been
+  inside, which makes the analysis of a real one far less abstract.
+
+  In **Making Societal Change** it serves objective 1 directly: systems, structures and policies
+  shaping people's lives. The rules of the game are the policy, and learners can name exactly which
+  rule produced which outcome, which is a rehearsal for doing the same to a real one.
+
+  ## What to protect in the debrief
+
+  - **Feelings before analysis.** The game produces genuine resentment between groups in about twenty
+    minutes. Deal with that first, name that the distribution was the facilitator's doing, and only
+    then think.
+  - **Resist the merit story.** The winning group will explain their success in terms of their own
+    cleverness. They are not lying, and they are not right. Ask what they would have achieved with the
+    other group's materials.
+  - **Rule-breaking is data, not misbehaviour.** Groups cheat, form cartels and steal. Ask what made
+    that reasonable, and you are most of the way to a conversation about why rules get broken in real
+    economies.
+  - **End on the rules.** Which single rule, changed, would have produced the fairest outcome? That
+    question turns the session from an experience into a piece of policy analysis.
+
+  ## Getting it
+
+  Download it free from Christian Aid, linked below. Amala does not reproduce it: their version is
+  complete, free and maintained, and it costs nothing to send an educator there.
+learnerContent: |
+  Your group is a country. You manufacture paper shapes and sell them to the banker. The country with
+  the most wealth at the end wins.
+
+  You will be given materials. Different countries have different materials. That is all you need to
+  know before you start.
+
+  Afterwards:
+
+  - How did your country do? Why?
+  - What did you have that others did not? What did they have that you did not?
+  - Did anyone break the rules? What made that seem reasonable at the time?
+  - The winners: what would you have achieved with another country's materials?
+  - **Which single rule, if it had been different, would have produced the fairest outcome?**
+  - Where do you see this in the real world?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners come out able to argue that an unequal outcome was produced by a rule rather than by
+    effort or merit. That is the analytic move that makes economic injustice something to change
+    rather than something to endure, and they reach it from their own experience of the room.
+principlesForegrounded: [authentic-challenges, responsible-action, collaboration]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The mechanism is the real one. Unequal endowments and unequal terms of trade produce unequal
+      outcomes in the room exactly as they do between countries.
+  - principle: responsible-action
+    how: >-
+      The closing question asks learners to name a specific rule change and defend it, which is more
+      demanding, and more useful, than concluding that the system is unfair.
+  - principle: collaboration
+    how: >-
+      Groups have to negotiate, form alliances and decide whether to honour them, and the quality of
+      those decisions visibly changes what they achieve.
+competencyCodes: [FPS3, FSI1, FLC1, FLC2]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The debrief is an exercise in separating the contributing factor (the starting distribution and
+      the rules) from the visible outcome (who got rich).
+  - code: FSI1
+    how: >-
+      Learners investigate a system they have been inside, which sharpens what they then look for in a
+      real local economy.
+  - code: FLC1
+    how: >-
+      Cartels, cheating and hoarding all arise, and the group has to reason about them afterwards
+      rather than simply be told they were wrong.
+  - code: FLC2
+    how: >-
+      Whether a country can build workable alliances turns out to matter as much as what it was given,
+      which makes belonging a visible economic asset.
+objectiveIds: [economics-for-positive-change--o1, making-societal-change--o1]
+relatedSlugs: [trading-trainers-game, starpower-simulation, fishbanks-simulation, cf-debrief-a-simulation]
+links:
+  - label: "The Trading Game (free download, Christian Aid)"
+    url: https://www.christianaid.org.uk/get-involved/schools/trading-game
+    note: "The full game: shapes diagram, introduction, facilitator instructions and follow-up discussion. Free PDFs, age 13+, up to about 30 players."
+rights:
+  status: linked-not-reproduced
+  holder: Christian Aid
+  basis: >-
+    Christian Aid publish the game free for educators. Nothing of it is reproduced here: this page
+    describes what it does, argues where it fits the curriculum, and links to their download. All
+    wording is Amala's own.
+  note: >-
+    Christian Aid state no explicit licence beyond their general copyright, so link rather than copy.
+    Do not paste the shapes diagram, price list or facilitator instructions onto this page.
+sourceRefs:
+  - "The Trading Game, Christian Aid. https://www.christianaid.org.uk/get-involved/schools/trading-game"
+provenanceNote: >-
+  Identified in August 2026 while researching simulations for the courses that had no materials.
+  Written from scratch as a pointer to Christian Aid's published game.

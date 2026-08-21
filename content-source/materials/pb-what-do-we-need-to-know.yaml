@@ -1,0 +1,167 @@
+id: pb-what-do-we-need-to-know
+slug: pb-what-do-we-need-to-know
+access: public
+type: activity
+title: "What do we need to know to transform this?"
+summary: >-
+  Before meeting any analysis tool, learners list the questions they would need answered about a
+  violence, and how they would find each answer.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Different groups ask different questions about the same case, and pooling them
+      shows how partial any one set is, which is the argument for using several tools.
+  - context: independent
+    how: >-
+      Works alone and the table is the same. What is lost is the pooling, so send back three questions
+      from other learners that they did not ask, and ask why they think they missed them.
+duration: 30-45 minutes.
+grouping: Groups of two or three.
+materialsAndPreparation:
+  - Cases of violence. The example bank works, or use local cases.
+  - "Paper for the two-column table: question, and how we might find the answer."
+  - Learners should keep this table to hand through the following activities, so make it something they can carry.
+whatLearnersDo:
+  - Recall the difference between conflict and violence.
+  - Read a case of violence and list the questions they would need answered to understand it.
+  - Say, for each question, how they might find the answer.
+  - Keep the table, and check it against each analysis tool they meet afterwards.
+facilitationNotes: >-
+  The one thing to get right is that this comes before the tools, not after. Its whole function is to
+  generate a felt need for them: a group that has just written twenty questions and no way of
+  answering half of them will use a needs-fears map as an answer rather than as a worksheet. Keep the
+  table alive across the following sessions and return to it. The second column, how we might find
+  the answer, is where the research skills of the course get their purpose.
+steps:
+  - title: "Separate conflict from violence again"
+    duration: 8 minutes
+    guidance: >-
+      Ask for the features of conflicts, with examples, and then of violence, with examples. Then have
+      learners complete the sentence: the difference between conflict and violence is. This is
+      retrieval rather than new content, and it matters here because the questions learners generate
+      next depend on which of the two they think they are analysing.
+    keyPrompts:
+      - "Finish this: the difference between conflict and violence is..."
+    watchOuts:
+      - "The distinction has faded since week 2. Do not re-teach it from the front; ask for examples
+        until the group reconstructs it."
+  - title: "Generate the questions"
+    duration: 15 minutes
+    guidance: >-
+      In groups, with a case in front of them, learners list the questions they would need answered to
+      understand this violence and its causes. Push for quantity and for specificity. "What caused
+      it?" is not a question you can go and answer; "what did the landlord say when they were told?"
+      is. Circulate and ask, of each vague question, who would know that.
+    keyPrompts:
+      - "Who would know the answer to that?"
+      - "What would you have to ask to find that out?"
+    watchOuts:
+      - "Groups ask only about the people named in the case. Prompt them towards history, rules and
+        the people who are not mentioned."
+  - title: "Say how you would find each answer"
+    duration: 10 minutes
+    guidance: >-
+      Second column: how might you find the answer to this? Expect a mixture of asking someone,
+      reading something, observing, and I do not know. The last one is valuable and should be
+      recorded rather than filled in. Questions with no route to an answer are exactly what the
+      analysis tools are for.
+    keyPrompts:
+      - "Which of these could you actually answer this week?"
+      - "Which ones have no route at all?"
+    watchOuts:
+      - "Learners write 'research it' for everything. Ask what they would type, or whose door they
+        would knock on."
+    adaptation: >-
+      Short on time: generate the questions and mark which are answerable, without completing the
+      second column in full. The distinction between answerable and not is the part that matters here.
+  - title: "Ask whether this looks simple"
+    duration: 8 minutes
+    guidance: >-
+      Two closing questions. Does the process of analysing violence and its causes seem simple or
+      complex? And explain why. Learners will have twenty questions with partial answers in front of
+      them, so the conclusion is available to them from their own work. Say that the next activities
+      introduce tools that help answer some of these, and ask them to keep the table.
+    keyPrompts:
+      - "Simple or complex? What in front of you makes you say that?"
+    watchOuts:
+      - "The complexity reads as discouraging. Frame it as the reason for the tools rather than as an
+        obstacle: they now know what they are looking for."
+closing: >-
+  Ask each group to mark the three questions they would most want answered, and to keep the table
+  visible in the sessions that follow. Say what the table is for: after each tool, they check it, and
+  see which of their questions the tool answered and which it did not. That is how they will discover
+  that no single tool is enough, from their own record rather than from being told.
+learnerContent: |
+  First, from memory:
+
+  - What are the features of a **conflict**? Give examples.
+  - What are the features of **violence**? Give examples.
+  - Finish this sentence: the difference between conflict and violence is...
+
+  Now read the case.
+
+  **What would you need to know** in order to understand this violence and what caused it? Write as
+  many questions as you can. Make them answerable: not "what caused it" but a question someone could
+  actually answer.
+
+  | Question | How we might find the answer |
+  |---|---|
+
+  For each one, say how you would find out. Asking someone? Reading something? Watching? If you have
+  no idea, write that. Those are the interesting ones.
+
+  Then:
+
+  - Which of these could you answer this week?
+  - Does analysing violence and its causes seem **simple or complex**? Why?
+
+  **Keep this table.** After each analysis tool you meet, come back and see which of your questions it
+  answered, and which it did not.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners establish for themselves that understanding a violence requires information they do not
+    have and could go and get. That is the moment a conflict stops being a fixed feature of the world
+    and becomes something with an unanswered question at its centre.
+principlesForegrounded: [authentic-challenges, feedback-and-data, collaboration]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The questions are generated about a real case and several of them are answerable only by going
+      and asking someone in the learner's own context.
+  - principle: feedback-and-data
+    how: >-
+      The table is designed to be revisited after each tool, so learners audit their own understanding
+      against a record they made before they knew anything.
+  - principle: collaboration
+    how: >-
+      Pooling questions across groups is what shows learners that their own list was partial, which no
+      individual would discover alone.
+competencyCodes: [FSI1, FPS2, APS3]
+competencyDevelopment:
+  - code: FSI1
+    how: >-
+      Turning a case into a set of answerable questions with routes to their answers is the design of
+      an investigation.
+  - code: FPS2
+    how: >-
+      Deciding who would know an answer, and whether their account could be trusted, begins the
+      evaluation of sources.
+  - code: APS3
+    how: >-
+      Returning to the same table after each tool shows learners which kinds of question each tool
+      answers, which is a pattern about the tools rather than about the case.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [needs-fears-mapping, conflict-systems-mapping, problem-tree, pb-consolidating-analysis-tools, pb-jah-and-kay]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced.
+sourceRefs:
+  - "Week 6 - What do we need to know in order to understand and transform violence? (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 6"
+provenanceNote: >-
+  Adapted from Amala's "What do we need to know in order to understand and transform violence?"

@@ -1,0 +1,184 @@
+id: pb-consolidating-analysis-tools
+slug: pb-consolidating-analysis-tools
+access: public
+type: activity
+title: "One conflict, four tools"
+summary: >-
+  Groups analyse the same conflict with different tools and present. The differences between their
+  accounts are the lesson.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, and the comparison across groups is the entire point. One group cannot produce it,
+      because the finding is that four analyses of one conflict do not agree.
+  - context: independent
+    how: >-
+      A learner can apply two tools to the same conflict and compare their own outputs, which
+      preserves the finding in weaker form. Choose the two tools yourself so the contrast is sharp,
+      and ask what each one made invisible.
+duration: 60-75 minutes.
+grouping: Groups of three, one tool each, all on the same conflict.
+materialsAndPreparation:
+  - Large paper and pens for each group.
+  - "One systems-level conflict, chosen by you to suit your learners, with a stimulus: an article, a video, a briefing. Every group uses the same conflict."
+  - Choose the conflict carefully. A distant one is safer but produces flatter analysis; a close one produces better analysis and needs more care.
+  - "The tools the group has met, assigned one per group: needs-fears map, systems map, problem tree, Galtung's triangle."
+whatLearnersDo:
+  - List the analysis tools they have used so far.
+  - Apply one assigned tool to a systems-level conflict, using a shared stimulus.
+  - Prepare and give a short presentation of what their tool showed.
+  - Compare the four accounts and work out what each tool made visible and invisible.
+  - Write a short plan for analysing a violence in their own community.
+facilitationNotes: >-
+  The one thing to get right is that all groups analyse the same conflict. If each group takes a
+  different case, the presentations are interesting and teach nothing, because there is nothing to
+  compare. With one shared conflict, four groups produce four different accounts, and the discussion
+  writes itself: the choice of tool changed what they saw. That is a genuinely uncomfortable finding
+  for learners who assumed analysis is neutral, and it is the most valuable thing in the week.
+steps:
+  - title: "Recall the tools"
+    duration: 5 minutes
+    guidance: >-
+      In groups of two or three, list the analysis tools used so far. Keep it fast. This is retrieval,
+      and the list on the board is what you will assign from. If a tool is missing from every group's
+      list, that tells you something about the previous sessions worth knowing.
+    keyPrompts:
+      - "What have we used to analyse violence so far?"
+    watchOuts:
+      - "Groups list activities rather than tools. Ask what the tool was in that activity."
+  - title: "Assign a tool and analyse"
+    duration: 20 minutes
+    guidance: >-
+      Threes, one tool each, same conflict, same stimulus. Circulate and hold groups to the discipline
+      of their own tool rather than letting them drift into general discussion. A group using a
+      problem tree should be asking why repeatedly; a group using a needs-fears map should be listing
+      parties. The distinctness of the tools is what the comparison depends on.
+    keyPrompts:
+      - "Use your tool properly. What does it require you to do next?"
+    watchOuts:
+      - "Groups abandon the tool and just discuss the conflict. Redirect to the tool's own procedure."
+      - "The stimulus turns out to be too thin. That is useful and comes up in the debrief, but check
+        it in advance so it is not the only finding."
+  - title: "Present"
+    duration: 20 minutes
+    guidance: >-
+      Three to five minutes per group, or a gallery walk if time is short. Those watching take notes,
+      specifically on what this account includes that theirs did not. Do not let presentations become
+      a summary of the conflict; ask each group what their tool showed them.
+    keyPrompts:
+      - "What did your tool show you that you had not seen?"
+      - "What is in their account that is missing from yours?"
+    watchOuts:
+      - "Presentations describe the conflict rather than the analysis. Interrupt once with the
+        question of what the tool revealed, and the rest follow."
+    adaptation: >-
+      Short on time: use a gallery walk instead of presentations. Each group leaves its sheet and a
+      one-sentence note of what their tool revealed, and the room reads all four.
+  - title: "Compare the four accounts"
+    duration: 15 minutes
+    guidance: >-
+      The discussion that matters. Did all four methods bring out the same ideas? In what ways might
+      the choice of tool affect your perspective on a conflict? What should you consider when
+      analysing? Should any tool be used in isolation? And the sharpest one: to what extent is
+      conflict analysis useful if you do not then take initiative to transform the conflict?
+    keyPrompts:
+      - "How did the choice of tool change what you saw?"
+      - "What is the danger in carrying out conflict analysis?"
+      - "What is analysis worth if nobody acts on it?"
+    watchOuts:
+      - "The group concludes one tool was best. Push: best at what? Each was best at something and
+        blind to something else."
+      - "The danger question is skipped. It matters: an analysis produced by outsiders, presented as
+        the truth about a community, does harm."
+  - title: "Write a plan for your own community"
+    duration: 10 minutes
+    guidance: >-
+      Five minutes, and it can be as simple as a list. Which tools would you use to analyse a violence
+      in your own community, in what order, and what would you need for each? This converts a
+      comparison exercise into the beginning of the learner's own independent analysis, which is the
+      next piece of work.
+    keyPrompts:
+      - "Which tool would you start with, and why that one first?"
+    watchOuts:
+      - "Plans list all four tools with no order or reason. Ask what the first one would tell them
+        that would change how they used the second."
+closing: >-
+  Ask each group for the one thing their tool made invisible. Collect those, and leave them visible.
+  That list, of what each tool hides, is more useful to a learner starting their own analysis than
+  any list of what the tools do. Then name the finding: analysis is not neutral, the instrument
+  shapes the account, and the only defence is to use more than one and to check with the people
+  inside the conflict.
+learnerContent: |
+  **All groups are analysing the same conflict. Your group has one tool.**
+
+  First, list the analysis tools we have used so far.
+
+  Now apply your assigned tool to the conflict, using the stimulus provided. Use it properly: follow
+  what your tool actually requires, rather than discussing the conflict in general.
+
+  Prepare a short presentation of **what your tool showed you**, not a summary of the conflict.
+
+  While others present, note what their account contains that yours does not.
+
+  Then:
+
+  - Did the stimulus give you enough information? What else would you have needed?
+  - **What is a potential danger when carrying out conflict analysis?**
+  - Did all the methods bring out the same ideas?
+  - How might the **choice of tool** affect your perspective on the conflict?
+  - Should we ever use one conflict analysis tool on its own?
+  - To what extent is conflict analysis useful if we do not then act to transform the conflict?
+
+  Last: write a short plan for how you would analyse a violence in **your own community**. Which
+  tools, in what order, and what would you need for each?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners discover that their analysis of a conflict was shaped by the instrument they used, which
+    makes them harder to convince by a single confident account, including their own. That scepticism
+    is what stops a well-meant project from acting on a partial picture.
+principlesForegrounded: [feedback-and-data, collaboration, responsible-action]
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      The four accounts of one conflict function as feedback on each other, and the differences are
+      the data the discussion works from.
+  - principle: collaboration
+    how: >-
+      No group can reach the finding alone, because it consists entirely in the comparison between
+      groups.
+  - principle: responsible-action
+    how: >-
+      The question of what is dangerous about conflict analysis is asked directly, which is where
+      learners meet the risk of producing an authoritative account of a community they are outside of.
+competencyCodes: [FPS2, APS3, FSL1, FSI1]
+competencyDevelopment:
+  - code: FPS2
+    how: >-
+      Comparing four accounts of one conflict is evaluation of method as well as of source, and it
+      makes the limits of each visible from evidence.
+  - code: APS3
+    how: >-
+      Noticing which kinds of thing each tool surfaces is a pattern about instruments rather than
+      about the case.
+  - code: FSL1
+    how: >-
+      The presentation reflection asks what learners' own tool showed them and what it hid, which is
+      reflection on their own analytic process.
+  - code: FSI1
+    how: >-
+      The closing plan is the design of the learner's own investigation, sequenced and justified.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [needs-fears-mapping, conflict-systems-mapping, problem-tree, galtungs-violence-triangle, pb-analysing-violence-in-your-community]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced.
+sourceRefs:
+  - "Week 6 - Consolidating use of violence analysis tools (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 6"
+provenanceNote: >-
+  Adapted from Amala's "Consolidating use of violence analysis tools".

@@ -1,0 +1,126 @@
+id: pb-land-of-harmonia
+slug: pb-land-of-harmonia
+access: public
+type: case-study
+title: "The land of Harmonia"
+summary: >-
+  A short fictional country whose majority and minority live under very different rules, used as a
+  first case for analysing structural violence.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Being short and fictional, it works well as a shared first case that a whole group
+      can analyse together before anyone attempts a real one.
+  - context: independent
+    how: >-
+      Works alone and is a good short independent task. What is lost is the pooling of what learners
+      noticed, and different learners genuinely notice different harms in it, so ask for a written
+      list and return two they missed.
+duration: 30-45 minutes.
+grouping: Pairs or small groups.
+materialsAndPreparation:
+  - The case text below, read aloud or printed.
+  - "Whichever analysis frame the group has already met: Galtung's three forms of violence, or the pillars of positive peace, or both."
+whatLearnersDo:
+  - Read a short account of the country of Harmonia.
+  - List every harm they can find in it, and say who is harmed and by what.
+  - Sort the harms into direct, structural and cultural violence.
+  - Judge whether Harmonia is at peace, and say what would have to change.
+facilitationNotes: >-
+  The one thing to get right is that nobody in Harmonia hits anybody. There is no fighting in the
+  text at all, and learners will still fill a page with harms: no identity cards so no travel, a
+  language excluded from politics and schooling, children failing and then blamed for misbehaving,
+  women without the vote and out of school at twelve. That is the whole purpose of the case. It is
+  short, it is fictional, and it lets a group practise seeing violence with no perpetrator before
+  being asked to do it on a real context or their own.
+educatorContent: |
+  ## The case
+
+  For many years, the country of Harmonia was divided. The country has 70% Christians and 30%
+  Muslims. The minority Muslims were heavily discriminated against. They were not given ID cards, so
+  they could not leave the country. They spoke a different language from the Christian majority and
+  this was not recognised by the government, so politics and education used only the language of the
+  Christian majority. This meant many Muslims struggled at school and began misbehaving. In
+  Harmonia, women were also seen as inferior to men. They were not allowed to vote and were expected
+  to stay at home. They were not allowed to attend school past the age of 12.
+
+  ## What is in it
+
+  The case is deliberately dense for its length. Working through it, learners should find:
+
+  - **Structural violence**, everywhere: documents withheld, a language excluded from public life and
+    schooling, exclusion from the vote, a cut-off age for girls' education. Each one is a rule, not
+    an act.
+  - **Cultural violence**: the belief that women are inferior, which is what makes the rules about
+    women appear reasonable to those enforcing them.
+  - **A causal chain worth naming**: language exclusion produces school failure, school failure gets
+    read as misbehaviour, and misbehaviour then justifies further exclusion. Learners who spot this
+    have found how structural violence renews itself, and it is worth stopping on.
+  - **A second axis**: the case runs discrimination by religion and by gender at once, so a Muslim
+    woman in Harmonia is subject to both. Some groups find this and some do not.
+
+  ## Where to take it
+
+  Two questions carry the case. Is Harmonia at peace? Nobody is fighting, so by the standard of
+  negative peace it is, and learners feel the wrongness of that answer immediately, which is the best
+  possible argument for why the distinction matters. And what would need to change? That converts the
+  list of harms into a list of the roots underneath them and connects directly to the pillars of
+  positive peace.
+
+  ## A caution
+
+  Harmonia is fictional but very close to several real situations, including ones learners may have
+  lived through, and the withheld identity documents in particular will land hard in some rooms. Keep
+  the analysis on Harmonia unless a learner chooses to draw the parallel, and let them if they do.
+learnerContent: |
+  Read the account of Harmonia.
+
+  Now:
+
+  - **List every harm you can find.** For each, say who is harmed and by what.
+  - Who is doing the harming? Can you always name someone?
+  - Sort your harms into **direct**, **structural** and **cultural** violence.
+  - Follow one chain through: what does not recognising a language lead to? And what does that lead
+    to next?
+  - **Is Harmonia at peace?** Nobody is fighting. So is it?
+  - What would have to change for Harmonia to have positive peace, not just an absence of fighting?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners practise finding violence in a place where nothing visibly violent is happening. That is
+    the skill their own community most requires of them, and the fictional case lets them build it
+    before the stakes are personal.
+principlesForegrounded: [safe-spaces, authentic-challenges]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      The case is fictional and at a distance, so learners can analyse exclusion by religion and by
+      gender without any of them being the example.
+  - principle: authentic-challenges
+    how: >-
+      Everything in Harmonia has a real counterpart, so the analysis transfers directly rather than
+      being an exercise in reading comprehension.
+competencyCodes: [FPS3, FUS3]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The case rewards learners who trace chains, from language policy to school failure to
+      punishment, rather than listing harms in isolation.
+  - code: FUS3
+    how: >-
+      Identifying the belief that makes the rules about women appear normal is exactly the cultural
+      analysis this competency describes.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [galtungs-violence-triangle, pb-categorising-violence, pb-four-kinds-of-peace, pillars-of-positive-peace]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced. The case text is Amala's own fiction, reproduced with permission as their material.
+sourceRefs:
+  - "Positive Peace Case Study - The Land of Harmonia (Peacebuilding resources folder)"
+provenanceNote: >-
+  The case text is reproduced from Amala's "Positive Peace Case Study - The Land of Harmonia". The
+  country is fictional.

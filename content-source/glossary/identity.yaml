@@ -1,0 +1,50 @@
+id: identity
+slug: identity
+access: public
+term: Identity
+category: content
+matchPhrases:
+- identity
+- identities
+definition: >-
+  Who a person or group is: the qualities, roles, and belongings that make them themselves.
+  Identity is complex, changeable, and partly given to us by others.
+explainer: |
+  Identity is where a peacebuilding course usually begins, because almost every conflict that runs
+  along group lines runs through it. Three ideas do the work.
+
+  **Identity is multi-faceted.** No one has an identity; everyone has many, layered and sometimes in
+  tension: a role in a family, a language, a faith, a place of birth, a set of interests. Which one
+  matters most changes with the room a person walks into.
+
+  **Identity is partly chosen and partly assigned.** It is useful to separate *personal* identity
+  (what a person believes is important about themselves) from
+  [social identity](/glossary/social-identity) (the categories others place them in). The gap between
+  the two is where prejudice, exclusion, and grievance take root, and it is why activities that ask
+  learners to compare how they see themselves with how a partner reads them are so productive.
+
+  **Identity is dynamic.** It changes over a life, and it can be deliberately manipulated. The speed
+  with which a group identity can be constructed and turned hostile is the central finding of
+  identity simulations, and the reason peacebuilders treat identity as something built rather than
+  something fixed.
+
+  Held together, these ideas let learners see that identity is not itself a cause of violence. What
+  causes violence is what gets done with it: [othering](/glossary/othering), the hardening of one
+  facet into the whole person, and the treatment of difference as threat.
+furtherReading:
+- title: "Exploring Identity"
+  url: https://www.facinghistory.org/resource-library/teaching-holocaust-and-human-behavior/exploring-identity
+  source: Facing History and Ourselves
+  note: The identity-chart approach and the classroom framing behind it.
+- title: "Personal and Social Identity Wheels"
+  url: https://sites.lsa.umich.edu/inclusive-teaching/2017/08/16/social-identity-wheel/
+  source: University of Michigan, Inclusive Teaching
+  note: The two-wheel activity that separates chosen identity from assigned identity.
+examples:
+- A learner describing themselves as a sister, a Rohingya speaker, a footballer, and a student
+nonExamples:
+- A single label applied to a whole group, standing in for every individual in it
+useInContext: >-
+  Learners map their own identity, compare it with how others read them, and use the gap to
+  understand how group identities become a route to conflict.
+relatedTermIds: [social-identity, othering, stereotype, prejudice, diversity]

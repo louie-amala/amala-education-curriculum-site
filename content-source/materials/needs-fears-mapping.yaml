@@ -1,0 +1,172 @@
+id: needs-fears-mapping
+slug: needs-fears-mapping
+access: public
+type: tools-approaches
+title: "Needs-fears mapping"
+summary: >-
+  A table of every party to a conflict alongside what each one needs and fears, used to find the
+  shared ground an intervention could work from.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+toolsFacet: analytical
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Groups find different parties in the same case, and the gallery walk across
+      several completed maps is what teaches learners how much a single map misses.
+  - context: independent
+    how: >-
+      Works alone and is the natural tool for a learner researching a conflict in their own community.
+      What is lost is the challenge to a lazy entry, so require evidence beside every need and fear,
+      and ask who is missing before accepting the map as finished.
+  - context: one-to-one-mentoring
+    how: >-
+      Useful in mentoring for a learner stuck on a project, because a missing party usually explains
+      why the idea felt incomplete. The mentor asks who else is affected, repeatedly, and adds nothing.
+duration: 60-75 minutes to teach. 2 to 4 hours when applied to a real conflict with research.
+grouping: Individual warm-up, then groups of two or three.
+materialsAndPreparation:
+  - Large paper for the maps, and pens.
+  - Cases to map. The example bank works, or use conflicts your learners already know.
+  - Wall or floor space for a gallery walk of the finished maps.
+whatLearnersDo:
+  - List their own current needs and fears, and compare with a partner.
+  - Read a case of violence and list every party involved, including those not mentioned in it.
+  - Complete a table of needs and fears for each party, justified from evidence.
+  - Identify common needs, common fears, and what could be done about either.
+  - Judge what the map does not show, and what other tools would be needed.
+educatorContent: |
+  A needs-fears map is a table: parties down the left, what each one **needs** and what each one
+  **fears** across. That is all it is, and it repays the effort because of what filling it in forces
+  you to do.
+
+  ## Definitions to give learners
+
+  - A **need** is something required because it is essential or very important, rather than merely
+    desirable. "I need silence in the room in order to think."
+  - A **fear** is anything that brings about an undesirable emotion. "I fear speaking out in front of
+    others, because people might judge my opinion."
+
+  Start with learners' own needs and fears before any case. It takes ten minutes, it makes the two
+  columns concrete, and the pair discussion produces the two findings the tool depends on: that needs
+  compete (if mine are met, yours may not be), and that shared fears are a basis for supporting each
+  other.
+
+  ## Where the work is
+
+  **Finding the invisible parties.** Learners list the people named in the case and stop. The
+  discipline is to ask who is affected but unnamed. In an argument between a mother and a father, the
+  children are a party. Give the prompt directly: consider both those directly involved, who might be
+  labelled perpetrator and victim, and those indirectly involved or affected, who might be labelled
+  third parties.
+
+  **Justifying entries.** Every need and fear should be attributable to something in the case or in
+  research, not to what the learner assumes such a person would feel. An unjustified map is a record
+  of the analyst's own assumptions, and it will produce an intervention aimed at a problem nobody has.
+
+  ## Reading the map
+
+  Once complete, the map is read for openings:
+
+  - Are there common needs? What could be done to make people aware of them?
+  - Are there common fears? Same question.
+  - What could reduce the fears of each party?
+  - Which needs could be addressed without harming another party?
+  - What is worth following up or researching further?
+
+  Common fears are usually the strongest opening, and learners consistently underrate them.
+
+  ## Its limits, taught with it
+
+  Say plainly that no single analysis tool is sufficient. The needs-fears map is strong on what each
+  party wants and weak on how the parties are connected to each other, which is why it is paired with
+  a systems map, and weak on causal depth, which is why it is paired with a problem tree. The closing
+  question, in order to move towards a non-violent approach what other information would you want,
+  is what makes learners reach for the next tool rather than trusting this one.
+learnerContent: |
+  **First, on yourself.** Write a list of all the needs you have right now. A need is something you
+  require because it is essential, not just something you would like. Then a list of your fears:
+  anything that brings up an unwanted feeling.
+
+  With a partner:
+
+  - What do you notice?
+  - Are any of your needs **competing**? If yours are met, would theirs not be?
+  - Do you share any fears? How could you support each other?
+
+  **Now on a conflict.** Read the case.
+
+  List **every party**. Not just the people named. Who is affected but never mentioned? Think about
+  those directly involved, and those indirectly involved or affected.
+
+  | Party involved | Needs | Fears |
+  |---|---|---|
+
+  For every entry, be able to say **what evidence you have** for it. Not what you assume that kind of
+  person would feel.
+
+  Then read the map:
+
+  - Are there any **common needs** across parties? What could you do to make people aware of them?
+  - Any **common fears**? Same question.
+  - What could reduce the fears of each party?
+  - Which needs could you address **without harming another party**?
+  - What is worth researching further?
+
+  Last: what does this map **not** show you? What else would you need to know before acting?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    The map turns a conflict a learner feels strongly about into a set of parties with stated needs,
+    at least one of which they might be able to do something about. It converts indignation into a
+    place to start.
+principlesForegrounded: [authentic-challenges, responsible-action, feedback-and-data]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The tool is used on real conflicts, and the requirement to evidence each entry usually sends
+      learners out to ask people rather than infer.
+  - principle: responsible-action
+    how: >-
+      Asking which needs could be addressed without harming another party is a do-no-harm check built
+      into the tool rather than added afterwards.
+  - principle: feedback-and-data
+    how: >-
+      An entry without evidence is treated as a hypothesis, so the map generates questions to take
+      into research rather than conclusions to act on.
+competencyCodes: [FPS3, FUS2, FSI1, APS1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The map establishes, with evidence, which parties and which competing needs are contributing to
+      a conflict, which is precisely this competency.
+  - code: FUS2
+    how: >-
+      Filling a fears column for a party the learner disagrees with requires reconstructing their
+      inner position rather than judging their behaviour.
+  - code: FSI1
+    how: >-
+      The evidence requirement turns the map into an investigation, with named gaps to go and fill.
+  - code: APS1
+    how: >-
+      The question of which needs can be met without harming another party is a direct check for
+      unintended consequences before anything is designed.
+objectiveIds: [peacebuilding--o1, peacebuilding--o2]
+relatedSlugs: [conflict-systems-mapping, problem-tree, pb-examples-of-violence, glasls-conflict-escalation, pb-consolidating-analysis-tools]
+links:
+  - label: "Conflict Analysis Tools"
+    url: https://www.css.ethz.ch/content/dam/ethz/special-interest/gess/cis/center-for-securities-studies/pdfs/Conflict-Analysis-Tools.pdf
+    note: "Swisspeace's collection, with step-by-step instructions for needs-fears mapping, conflict mapping and three other tools."
+rights:
+  status: own-expression
+  holder: Swisspeace (the documented tool set)
+  basis: >-
+    Needs-fears mapping is a standard conflict analysis instrument with no single owner. Amala's
+    teaching version is rewritten here and the Swisspeace collection is linked.
+sourceRefs:
+  - "Week 6 - Analysing Violence: Needs/Fear Mapping (Peacebuilding resources folder)"
+  - "Week 6 - Student Worksheet: Needs/Fear Mapping (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 6"
+provenanceNote: >-
+  Adapted from Amala's "Analysing Violence: Needs/Fear Mapping" and its student worksheet. The tool
+  itself is a standard conflict analysis instrument, documented by Swisspeace among others.

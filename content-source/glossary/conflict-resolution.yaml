@@ -1,0 +1,32 @@
+id: conflict-resolution
+slug: conflict-resolution
+access: public
+term: Conflict resolution
+category: content
+matchPhrases:
+- conflict resolution
+definition: >-
+  A mutual attempt to settle the problem at the centre of a conflict, so that the presenting
+  issue is resolved and the relationship is changed constructively along the way.
+explainer: |
+  Conflict resolution asks: *how do we end something that is not wanted?* It is content-centred and
+  short-horizon. It aims at an agreement that removes the crisis, and it succeeds when the problem
+  itself is settled, even if feelings on both sides are not fully resolved.
+
+  That is a real achievement and often the right goal. A ceasefire, a negotiated boundary, a mediated
+  settlement between two neighbours: each ends a harm that was happening. The limit is in the
+  question it asks. Resolution treats the visible dispute as the thing to fix, which means it can
+  succeed completely and still leave the conditions that produced the dispute intact, delivering a
+  durable [negative peace](/glossary/negative-peace) and no more.
+
+  Set beside [conflict transformation](/glossary/conflict-transformation), the pair gives learners a
+  usable test for any peacebuilding idea: does this end something unwanted, or does it also build
+  something wanted?
+examples:
+- Two neighbours agreeing a rota for a shared water tap after a mediated conversation
+nonExamples:
+- Separating two groups with a wall so they cannot reach each other
+useInContext: >-
+  Learners sort real outcomes of conflicts into resolution and transformation, and argue for
+  where each one belongs.
+relatedTermIds: [conflict-transformation, conflict, negative-peace, win-win-solution]

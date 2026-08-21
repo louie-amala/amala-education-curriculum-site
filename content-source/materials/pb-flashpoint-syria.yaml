@@ -1,0 +1,154 @@
+id: pb-flashpoint-syria
+slug: pb-flashpoint-syria
+access: public
+type: resource
+title: "Flashpoint: Syria (published simulation): using it, and deciding whether to"
+summary: >-
+  A multi-party international conflict management simulation set in Syria in 2014. What it offers,
+  and the judgement each educator has to make before running it.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only, with delegations and third parties. Like the authors' other international simulation
+      it runs long, so budget properly. No technology needed beyond printed role material.
+materialsAndPreparation:
+  - The simulation itself. Free from SSRN, linked below, with the teaching guide and role material.
+  - Printed role material and separate caucus spaces for the delegations.
+  - Substantial timetable space. This is a multi-hour simulation, not a session.
+  - "Above all: the decision described below, taken deliberately, before anything is printed."
+educatorContent: |
+  Flashpoint: Syria, 2014 is a peer-reviewed simulation by Noam Ebner, Yael Efron and Nellie Munin.
+  Participants take roles across the parties and third parties to the Syrian conflict, and work
+  through conflict analysis, negotiation, mediation and public international law under multi-party
+  conditions. It is well constructed and free.
+
+  ## The decision to take first
+
+  **This is a simulation of a real, recent, ongoing conflict, and Amala teaches people who have lived
+  inside it.**
+
+  In a Jordan cohort, most learners are likely to be Syrian. Asking them to role-play the parties to
+  the war that displaced them is not a simulation, it is a re-enactment, and it risks doing real harm
+  to people in the room while teaching them nothing they do not already know at far greater cost than
+  any facilitator has paid. In that setting, do not run it.
+
+  In other settings the calculation is different. A cohort in Kakuma, or in a partner context with no
+  connection to Syria, may find it exactly as instructive as any other international simulation: a
+  complex, multi-party conflict with genuine legal and humanitarian dimensions, close enough to the
+  present to feel real. There, the case for running it is strong.
+
+  The judgement is the educator's, not ours, and it turns on one question: **is anyone in this room
+  being asked to play their own life?** That question is worth asking about any conflict simulation,
+  and it is the reason it is written into this page rather than left to be discovered.
+
+  ## Adapting it instead
+
+  A third option sits between running it and dropping it. The structure, multi-party talks, third
+  parties with their own interests, humanitarian access, questions of international law, is separable
+  from the setting. Facilitators have transposed simulations of this kind onto invented countries
+  before, and the authors' own Little Golano shows the technique: a fictional dispute placed inside
+  real geography, so it carries weight without anyone defending their own history.
+
+  If you want the structure without the setting, either adapt this one onto invented parties or use
+  Little Golano, which was built that way from the start.
+
+  ## Why it belongs in the course, where it is used
+
+  It serves objectives 1 and 3: a real context of violence with causes to be established, and
+  sustained work across parties who need each other and distrust each other. Its distinctive
+  contribution is the presence of third parties with their own agendas, which most of the shorter
+  simulations here leave out and which is a permanent feature of real peace processes.
+
+  ## What to protect in the debrief
+
+  - **Watch the room throughout, not just at the end.** If it is landing personally on anyone, stop.
+    That instruction outranks completing the simulation.
+  - **Ask what the third parties were actually pursuing.** Learners usually discover that the outside
+    actors were not neutral, which is the most transferable finding in it.
+  - **De-role thoroughly and explicitly**, and give it more time than you would after a shorter game.
+
+  ## Getting it
+
+  Free from SSRN, with the teaching guide and role material, marked for free educational and research
+  use.
+learnerContent: |
+  You will take a role in a multi-party international conflict: a delegation, or one of the outside
+  parties with an interest in the outcome.
+
+  Before this begins, your facilitator will have talked to the group about whether this simulation is
+  the right one for you. If at any point it stops being something you want to be inside, say so, or
+  step out. That is a reasonable thing to do and nobody will ask you to explain.
+
+  During and afterwards:
+
+  - What was your party actually trying to achieve? Was it what you said in the room?
+  - **What were the outside parties pursuing?** Were any of them neutral?
+  - Where did international law help, and where was it simply ignored?
+  - What would have had to be true for these parties to reach anything?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Multi-party talks with self-interested third parties are what real peace processes look like, and
+    a learner who has been inside one understands why they fail in ways that reading cannot teach. The
+    decision about whether to run it also models something worth modelling: that a good tool used in
+    the wrong room does harm.
+principlesForegrounded: [safe-spaces, authentic-challenges, responsible-action]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      This material carries a real risk of re-traumatising learners, and the page makes that decision
+      explicit, gives the test for making it, offers an adaptation, and tells learners they may step
+      out without explaining.
+  - principle: authentic-challenges
+    how: >-
+      Where it is appropriate to run, it is as authentic as a simulation gets: a real conflict with
+      real legal and humanitarian dimensions and no clean resolution available.
+  - principle: responsible-action
+    how: >-
+      The judgement the facilitator has to make before running it is itself an exercise in the
+      do-no-harm principle the course teaches.
+competencyCodes: [FSI1, FUS2, FUS3, ALC3]
+competencyDevelopment:
+  - code: FSI1
+    how: >-
+      The background is substantial and learners must investigate a real context before they can act
+      within it.
+  - code: FUS2
+    how: >-
+      Multi-party conditions force learners to model several opposed positions at once, including
+      third parties whose interests are hidden.
+  - code: FUS3
+    how: >-
+      The conflict runs across cultural, religious and national lines, and the simulation requires
+      learners to reason about them rather than around them.
+  - code: ALC3
+    how: >-
+      Learners test whether transformation is even available in a conflict this far escalated, which
+      is a harder and more honest question than the shorter simulations pose.
+objectiveIds: [peacebuilding--o1, peacebuilding--o3]
+relatedSlugs: [pb-little-golano, pb-transformative-platform, glasls-conflict-escalation, three-track-leadership, cf-debrief-a-simulation]
+links:
+  - label: "Flashpoint: Syria, 2014 (free download, SSRN)"
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2476968
+    note: "The full simulation with teaching guide and role material. Marked for free educational and research use."
+  - label: "Little Golano (the fictional alternative)"
+    url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2237985
+    note: "The same authors' international simulation, built on an invented dispute. The option to reach for where this one is not appropriate."
+rights:
+  status: linked-not-reproduced
+  holder: Noam Ebner, Yael Efron and Nellie Munin
+  basis: >-
+    The simulation is published and remains the authors'. Nothing of it is reproduced here: this page
+    describes what it does, sets out the judgement an educator has to make before using it, and links
+    to the authors' free download. All wording is Amala's own.
+  note: >-
+    Do not copy the role material onto this page. The suitability guidance above is Amala's own
+    editorial position and should be kept with the link wherever this material is referenced.
+sourceRefs:
+  - "Ebner, N., Efron, Y. & Munin, N. Flashpoint: Syria, 2014 - An International Conflict Management Simulation. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2476968"
+provenanceNote: >-
+  Identified in August 2026 while researching simulations for the curriculum. Published with explicit
+  suitability guidance rather than withheld, so that educators in contexts where it is appropriate can
+  use it and those elsewhere can make an informed decision.

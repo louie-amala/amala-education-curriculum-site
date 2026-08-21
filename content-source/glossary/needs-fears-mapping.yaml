@@ -1,0 +1,46 @@
+id: needs-fears-mapping
+slug: needs-fears-mapping
+access: public
+term: Needs-fears mapping
+category: content
+matchPhrases:
+- needs-fears mapping
+- needs/fear mapping
+- needs fear map
+definition: >-
+  A conflict analysis tool that lists every party to a conflict alongside what each one needs
+  and what each one fears, to reveal where an intervention could work.
+explainer: |
+  Needs-fears mapping is a table, and its power is in what the columns force you to do. Parties go
+  down the left. Their **needs** (what is essential to them, not merely desirable) and their
+  **fears** (what they are afraid of losing or suffering) go across.
+
+  Three things make it a strong first analysis tool:
+
+  - **It moves past positions.** A stated demand is a position; the need beneath it is negotiable in
+    ways the position is not. This is the same move that makes a
+    [win-win solution](/glossary/win-win-solution) findable.
+  - **It surfaces the invisible parties.** The discipline is to list those indirectly affected as
+    well as the obvious protagonists. In a dispute between two parents, the children are a party.
+    Learners consistently need prompting on this, and it is consistently where the useful findings are.
+  - **It finds shared ground.** Common needs across parties, and especially common fears, are the
+    most workable openings an intervention has.
+
+  Its limits should be taught with it. A map built from assumption rather than evidence simply
+  records the analyst's own [bias](/glossary/bias), so each entry needs justifying from something
+  actually observed, read, or heard. And like every analysis tool it shows one face of a conflict:
+  it is designed to be used alongside a [problem tree](/glossary/problem-tree), a systems map, and
+  Galtung's [violence triangle](/glossary/violence-triangle), not instead of them.
+furtherReading:
+- title: "Conflict Analysis Tools"
+  url: https://www.css.ethz.ch/content/dam/ethz/special-interest/gess/cis/center-for-securities-studies/pdfs/Conflict-Analysis-Tools.pdf
+  source: Swisspeace / ETH Zurich Center for Security Studies
+  note: The needs-fears table alongside conflict mapping, Glasl's escalation model and the multi-causal role model.
+examples:
+- Mapping a household conflict and finding that a child, never mentioned in the account, is a party with needs of their own
+nonExamples:
+- Listing what each side is demanding, without asking why they want it
+useInContext: >-
+  Learners map the needs and fears of every party to a violence they are investigating, then look
+  for a need they could address without harming anyone else.
+relatedTermIds: [problem-tree, win-win-solution, stakeholder-mapping, conflict, systems-thinking]

@@ -1,0 +1,42 @@
+id: empathy
+slug: empathy
+access: public
+term: Empathy
+category: content
+matchPhrases:
+- empathy
+- empathetic
+definition: >-
+  Understanding another person's experience from their point of view, accurately enough to see
+  why they act as they do.
+explainer: |
+  Empathy in peacebuilding is a working method rather than a warm feeling. It is the capacity to
+  reconstruct another party's needs, fears and reasoning well enough to predict them, and it is what
+  makes analysis tools like [needs-fears mapping](/glossary/needs-fears-mapping) produce anything
+  other than guesswork.
+
+  Three distinctions keep it useful.
+
+  **Empathy is not agreement.** Understanding why an opponent acts as they do does not endorse it.
+  Learners often resist empathy in conflict because they hear it as excusing, and saying this
+  explicitly removes the obstacle.
+
+  **Empathy is not sympathy.** Sympathy feels for someone from outside their situation; empathy
+  reconstructs the situation. Sympathy tends to produce help that was not asked for.
+
+  **Empathy is a skill, and it degrades under conflict.** Glasl's model of
+  [conflict escalation](/glossary/conflict-escalation) locates the loss of empathy precisely, at
+  stage 3, where talking stops and action begins. That makes empathy an early-warning indicator as
+  well as a capability.
+
+  It is practised through listening with the intent to understand rather than to reply, and it is
+  the antidote to [othering](/glossary/othering), which works by making another group's inner life
+  unimaginable.
+examples:
+- Reconstructing why a parent set a curfew, in terms of what they feared rather than what they said
+nonExamples:
+- Deciding what another community needs without asking anyone in it
+useInContext: >-
+  Learners interview someone affected by a conflict and represent that person's needs and fears in
+  their own analysis.
+relatedTermIds: [compassion, needs-fears-mapping, othering, non-violent-communication, do-no-harm]

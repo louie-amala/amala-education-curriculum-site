@@ -4,7 +4,7 @@ These scripts regenerate the downloadable offline pack for Learning Bridge+ (Cox
 is served from `public/downloads/` and wired as `downloads` on the programme, its units, and some
 materials.
 
-## The Educator Guide is the one-stop shop
+## Two one-stop documents: the Educator Guide, and the Student Workbook
 
 `generate-lb-guides.js` builds `lb-coxs-bazar-educator-guide.docx` — **everything an educator needs
 in one document**: the orientation, mentoring and assessment guidance, then the full facilitator unit
@@ -15,6 +15,19 @@ It does **not** re-author any of that. It `require()`s the component generators 
 exported *children builders* (`facilitatorPlanChildren`, `workbookChildren`, `cardsChildren`,
 `rubricChildren`), so the guide and the standalone downloads are the same content by construction and
 cannot drift. Each component generator is also runnable on its own (`if (require.main === module)`).
+
+`generate-lb-guides.js` also builds `lb-coxs-bazar-student-workbook.docx` — the same idea for the
+learner. **One book per learner for the whole twelve weeks**, so a site runs one print job instead of
+three. Parts 1–3 are the three component learner books, composed from the same `workbookChildren()`
+builders as the standalone downloads but called with `{ embedded: true }` (which drops each
+component's own cover, so the book has a single front). Part 4 is programme-level: the learner's
+mentoring page and the growth self-check, rendered from `cb-my-mentoring-conversations` and
+`cb-my-growth-across-the-programme`.
+
+The group cards are deliberately **not** in the Student Workbook. They are one set per group, printed
+and cut up — putting them in a per-learner book would multiply card printing by the cohort size and
+mean learners cutting pages out of their own book. They stay in the Educator Guide (Part 8) and in the
+component packs.
 
 **Re-run `generate-lb-guides.js` last**, after any component generator, and after editing any Cox's
 Bazar unit or `cb-*` material.
@@ -31,6 +44,7 @@ unit or its materials** so the printed plans match the site.
 | Script | Output | Contents |
 |---|---|---|
 | `generate-lb-guides.js` | `lb-coxs-bazar-educator-guide.docx` | The complete educator manual (see above). Composed from the other generators — run it last. |
+| `generate-lb-guides.js` | `lb-coxs-bazar-student-workbook.docx` | The complete learner book (see above). One per learner for all twelve weeks. Composed from the other generators — run it last. |
 | `generate-lb-guides.js` | `lb-coxs-bazar-coordinator-guide.docx` | For the NRC coordinator: what the programme is, who does what, setting up a cohort, the 12-week rhythm, and coordinating assessment and moderation |
 | `generate-ail.js` | `agency-in-learning-facilitator-unit-plan.docx` | The full 50-hour Agency in Learning plan, rendered from `coxs-bazar-agency-in-learning.yaml` + the `cb-ail-*` materials |
 | `generate-ail.js` | `agency-in-learning-student-workbook.docx` | "My Learning Book" — the visual-first learner pages |

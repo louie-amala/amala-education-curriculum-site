@@ -107,6 +107,34 @@ task scaffolds) paired with **evidencing templates** (assessment capture). This 
 Activity + Asset model, and the artefact/evidence pairing is a strong real-world signal for how the
 educator/learner dual-face and the assessment layer should work.
 
+### Peacebuilding — PROCESSED (2026-08)
+
+Source: the 2025 Changemaker Course Planner (65pp) plus `~/Downloads/Resources/` (161 files: per-week
+activity docs, simulations, case studies, protocols, a term list, 21 evidencing-opportunity templates,
+and a student workbook). Extracted into 55 materials, 23 glossary terms and 6 educator moves; the
+planner's weeks 7-10 (design thinking, networking, project) were wired to existing `dc-*` and project
+materials rather than duplicated. Not yet processed from that folder: the SEE Learning compassion,
+happiness and mindfulness set; several long simulations (Palmyra, Plane Hijacking, Doughnut
+Negotiation, Barnga); the check-in and icebreaker banks; the evidencing-opportunity templates (these
+belong to the assessment layer, not the materials layer); and the student workbook.
+
+**Rights pass (August 2026).** Every peacebuilding material now carries a `rights` status
+(docs/MATERIALS_STANDARD.md §12). Nine are `linked-not-reproduced`: we describe the method, argue
+where it fits the course, and link to the source rather than copying it. That covers Barnga, the two
+Noam Ebner simulations (Pasta Wars, Ore Wars), the University of Michigan identity wheels and name
+story, Kopin's stereotype activity, Mote Oo's spheres, the Web of Connectedness protocol, and the
+Arun Gandhi account.
+
+Provenance traced during that pass:
+- **Jah and Kay** descends from "Aid to Minorians" / "Minoria-Majoria" (Intercultural Sourcebook,
+  Hoopes and Ventura eds.; Kohls and Knight, Developing Intercultural Awareness) — Intercultural Press.
+- **Choose your Engineer** is Kopin's "The apprentice" (Malta), free slide deck and educator notes.
+- **Tower of Arzenia** adapts page 53 of the University of Houston "Diversity Activities Resource
+  Guide", withdrawn when UH closed its Center for Diversity and Inclusion in 2023; page unverified.
+- **Finish the Story** links only to an internal Amala doc; no external origin found.
+- **Paper Factory** remains unidentified. Transboundary-water negotiation genre; a published ancestor
+  is likely.
+
 ## Still needed to complete the content set
 
 - **GSD programme structure — DONE.** `programmes/gsd.yaml` now holds the 5 streams × 2 courses,

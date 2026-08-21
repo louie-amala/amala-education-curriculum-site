@@ -1,6 +1,7 @@
-/* Generate the two Learning Bridge+ (Cox's Bazar) programme guides:
+/* Generate the three programme-level Learning Bridge+ (Cox's Bazar) documents:
      - lb-coxs-bazar-coordinator-guide.docx   (for the NRC programme coordinator)
      - lb-coxs-bazar-educator-guide.docx      (for the facilitator / educator)
+     - lb-coxs-bazar-student-workbook.docx    (for the learner)
 
    The Coordinator Guide is a short authored narrative: what the programme is, who does what, the
    12-week rhythm, and the two assessment windows to protect.
@@ -13,6 +14,14 @@
    generate-docx.js, generate-rp.js), so the guide can never drift from the component packs or the
    authored YAML behind them.
 
+   The Student Workbook is the same idea for the learner: ONE book per learner for the whole twelve
+   weeks, so a site prints one job instead of three. Parts 1-3 are the three component learner books,
+   composed from the same workbookChildren() builders the standalone downloads use (with
+   { embedded: true }, which drops each component's own cover so the book has one front). Part 4 is
+   programme-level: the mentoring page and the growth self-check, rendered from their cb-* materials.
+   The group cards are deliberately NOT here - they are one set per group, printed and cut up, so
+   they stay in the Educator Guide and the standalone files.
+
    Run:  node scripts/downloads/generate-lb-guides.js
    Override output dir:  OUT_DIR=/tmp/pack node scripts/downloads/generate-lb-guides.js
    Re-run after editing any Cox's Bazar unit or cb-* material, and after re-running the component
@@ -23,13 +32,22 @@ const { Packer } = require('docx');
 const S = require('./lib/docx-style');
 
 const {
-  NAVY, PLUM, GREY, OLIVE,
+  NAVY, PLUM, GREY, OLIVE, LINE,
   P, body, bullet, numbered, H1, H2, H3, mini, hr, pageBreak,
-  refTable, twoCol, callout, makeDoc, toc, image, LOGO, Paragraph, TextRun,
+  refTable, twoCol, callout, makeDoc, toc, image, LOGO, icon, imgRun, Paragraph, TextRun,
+  box, mdBlocks, AlignmentType, Table, TableRow, TableCell, WidthType, BorderStyle,
 } = S;
 
 const ROOT = path.resolve(__dirname, '..', '..');
+const CS = path.join(ROOT, 'content-source');
 const OUT = process.env.OUT_DIR ? path.resolve(process.env.OUT_DIR) : path.join(ROOT, 'public', 'downloads');
+
+// The two programme-level learner pages (Part 4 of the Student Workbook). They belong to no single
+// component, so they are read here rather than by a component generator — but they are still read
+// from their authored YAML, so the printed page and the site page cannot drift.
+const yaml = require('yaml');
+const readMaterial = (slug) => yaml.parse(fs.readFileSync(path.join(CS, 'materials', `${slug}.yaml`), 'utf8'));
+const PROGRAMME_PAGES = ['cb-my-mentoring-conversations', 'cb-my-growth-across-the-programme'].map(readMaterial);
 
 // The three component packs, as children builders — embedded, never re-authored.
 const AIL = require('./generate-ail');
@@ -119,9 +137,10 @@ function weekMapTable() {
 const PACK_ROWS = [
   ['Educator Guide (this document)', 'You', 'One per educator. Everything below is inside it too — print the parts you need.'],
   ['Coordinator Guide', 'Your coordinator', 'One per coordinator. You do not need to print it.'],
-  ['Agency in Learning — student workbook (“My Learning Book”)', 'Learners', 'One per learner. Part 7A here.'],
-  ['My Voice — student workbook (“My Voice book”)', 'Learners', 'One per learner. Part 7B here.'],
-  ['Research Project — student workbook (“Our Research Book”)', 'Learners', 'One per learner. Part 7C here.'],
+  ['Student Workbook (“My Learning Book”) — the whole programme in one book', 'Learners', 'One per learner — the simplest thing to print. It holds all three learner books below, plus the learner’s mentoring page and growth check. Print this OR the three separate books, not both.'],
+  ['Agency in Learning — student workbook (“My Learning Book”)', 'Learners', 'One per learner. Part 7A here. Already inside the Student Workbook above.'],
+  ['My Voice — student workbook (“My Voice book”)', 'Learners', 'One per learner. Part 7B here. Already inside the Student Workbook above.'],
+  ['Research Project — student workbook (“Our Research Book”)', 'Learners', 'One per learner. Part 7C here. Already inside the Student Workbook above.'],
   ['My Voice — letter & picture cards', 'The group', 'One set per group, printed and cut out. Part 8A here.'],
   ['Research Project — picture-word cards', 'The group', 'One set per group, printed and cut out. Part 8B here.'],
   ['Agency in Learning — picture cards (PDF)', 'The group', 'One set per group, printed and cut out. On the USB only — a PDF, so it is not reproduced in this guide.'],
@@ -323,6 +342,7 @@ function educatorGuide() {
 
   c.push(H2('What to print, and for whom'));
   c.push(P('Everything below is inside this guide except the Agency in Learning picture-card PDF and the optional slides, which stay on the USB. Where there is no printer: show one copy on a screen, or hold up a printed sheet, and learners use their own notebooks — every activity is written to work that way.', { size: 22 }));
+  c.push(P('For the learners, the simplest thing to print is the Student Workbook: it is one book per learner for the whole twelve weeks, holding all three learner books plus their mentoring page and growth check. Print that, or the three component books separately — not both. The cards are separate either way, because they are one set per group and get cut up.', { size: 22 }));
   c.push(refTable(['File', 'For', 'How many'], PACK_ROWS.map((r) => [
     { lines: [r[0]] }, { lines: [r[1]], color: undefined }, { lines: [r[2]], color: GREY },
   ]), [4400, 1800, 4600]));
@@ -523,12 +543,299 @@ function educatorGuide() {
   return makeDoc(c, { footerText: "Educator Guide  ·  Learning Bridge+ (Cox's Bazar)", updateFields: true });
 }
 
+
+// ============================================================ STUDENT WORKBOOK
+// One book per learner for the whole twelve weeks, so a site prints one job instead of three.
+// Parts 1-3 are the three component learner books, composed from the SAME workbookChildren()
+// builders as the standalone downloads — passed { embedded: true } so each component drops its own
+// cover and the book has a single front. Part 4 is programme-level, rendered from the two cb-*
+// materials that belong to no component.
+//
+// The group cards are deliberately absent: they are one set per group, printed and cut up, so a
+// per-learner book is the wrong place for them (it would multiply card printing by the cohort size,
+// and mean learners cutting pages out of their own book). They stay in the Educator Guide, Part 8.
+
+// ---- reading the two programme-level pages out of their YAML --------------------------------
+// The learner pages are authored as materials, and the printable furniture (the rows, the tick
+// boxes) is drawn here from named sections of that learnerContent. Renaming a heading throws rather
+// than silently rendering an empty page, so the printed book cannot quietly drift from the site.
+function mdSection(md, heading) {
+  const lines = String(md || '').replace(/\r/g, '').split('\n');
+  const start = lines.findIndex((l) => l.trim() === heading);
+  if (start < 0) throw new Error(`learnerContent section not found: "${heading}"`);
+  const rest = lines.slice(start + 1);
+  const end = rest.findIndex((l) => l.trim().startsWith('## '));
+  return (end < 0 ? rest : rest.slice(0, end)).join('\n').trim();
+}
+// Bullets of a section, with wrapped continuation lines rejoined.
+function mdBullets(block) {
+  const out = [];
+  let inList = false;
+  for (const raw of block.split('\n')) {
+    const t = raw.trim();
+    if (t.startsWith('- ')) { out.push(t.slice(2).trim()); inList = true; continue; }
+    if (!t) { inList = false; continue; }
+    if (inList) out[out.length - 1] += ' ' + t;
+  }
+  return out;
+}
+// The prose of a section, up to its first bullet.
+const mdIntro = (block) => mdBlocks(block.split('\n').slice(0, (() => {
+  const i = block.split('\n').findIndex((l) => l.trim().startsWith('- '));
+  return i < 0 ? block.split('\n').length : i;
+})()).join('\n'));
+
+const page = (slug) => PROGRAMME_PAGES.find((m) => m.slug === slug);
+
+// ---- learner-facing furniture ----------------------------------------------------------------
+const bigFill = (lead) => new Paragraph({
+  children: [
+    new TextRun({ text: lead + '  ', size: 26, color: NAVY }),
+    new TextRun({ text: '________________________________________', size: 26, color: GREY }),
+  ],
+  spacing: { before: 240, after: 140 },
+});
+
+// A five-step ladder marked TWICE — once in the middle of the programme and once at the end — so a
+// learner who cannot read a rubric can still see the distance between their two marks. The steps are
+// the learner-facing reading of the same proficiency scale the educator records use.
+function twiceMarkedLadder(items) {
+  const colW = [1350, 1350, 8100];
+  const headCell = (t) => new TableCell({
+    width: { size: colW[0], type: WidthType.DXA },
+    shading: { fill: 'F0ECE3' },
+    margins: { top: 60, bottom: 60, left: 100, right: 100 },
+    children: t.split('\n').map((l, i) => new Paragraph({
+      alignment: AlignmentType.CENTER,
+      children: [new TextRun({ text: l, bold: i === 0, size: i === 0 ? 20 : 17, color: i === 0 ? NAVY : GREY })],
+    })),
+  });
+  const rows = [new TableRow({ tableHeader: true, children: [
+    headCell('Middle\nWeek 6'),
+    headCell('End\nWeek 12'),
+    new TableCell({
+      width: { size: colW[2], type: WidthType.DXA },
+      shading: { fill: 'F0ECE3' },
+      margins: { top: 60, bottom: 60, left: 140, right: 140 },
+      children: [new Paragraph({ children: [new TextRun({ text: 'Mark the one that is most like me now', bold: true, size: 20, color: NAVY })] })],
+    }),
+  ] })];
+  items.forEach((t) => rows.push(new TableRow({ height: { value: 700, rule: 'atLeast' }, cantSplit: true, children: [
+    ...[0, 1].map((i) => new TableCell({
+      width: { size: colW[i], type: WidthType.DXA },
+      margins: { top: 100, bottom: 100, left: 100, right: 100 },
+      children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: '☐', size: 44, color: GREY })] })],
+    })),
+    new TableCell({
+      width: { size: colW[2], type: WidthType.DXA },
+      margins: { top: 100, bottom: 100, left: 140, right: 140 },
+      children: [new Paragraph({ children: [new TextRun({ text: t, size: 22 })] })],
+    }),
+  ] })));
+  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: colW, rows });
+}
+
+// The mentoring log: one row per conversation. Only the next step is ever written here — never what
+// was talked about. The book goes home with the learner, so it must not be a place a disclosure is
+// recorded; the educator's own note stays with the educator, under NRC's policy.
+function mentoringRows(n) {
+  const colW = [1200, 7600, 2000];
+  const head = ['Week', 'The one step I will take before we meet again', 'Done'];
+  const rows = [new TableRow({ tableHeader: true, children: head.map((t, i) => new TableCell({
+    width: { size: colW[i], type: WidthType.DXA },
+    shading: { fill: 'F0ECE3' },
+    margins: { top: 60, bottom: 60, left: 120, right: 120 },
+    children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 20, color: NAVY })] })],
+  })) })];
+  for (let i = 0; i < n; i++) {
+    rows.push(new TableRow({ height: { value: 1150, rule: 'atLeast' }, cantSplit: true, children: [
+      new TableCell({ width: { size: colW[0], type: WidthType.DXA }, margins: { top: 80, bottom: 80, left: 120, right: 120 }, children: [new Paragraph({ children: [new TextRun({ text: '', size: 22, color: GREY })] })] }),
+      new TableCell({ width: { size: colW[1], type: WidthType.DXA }, margins: { top: 80, bottom: 80, left: 120, right: 120 }, children: [new Paragraph({ children: [new TextRun({ text: 'draw or write one step', size: 16, color: LINE })] })] }),
+      new TableCell({ width: { size: colW[2], type: WidthType.DXA }, margins: { top: 80, bottom: 80, left: 120, right: 120 }, children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: '☐', size: 44, color: GREY })] })] }),
+    ] }));
+  }
+  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: colW, rows });
+}
+
+// The four parts, each with the icon that stands for it on the visual contents page. Most of this
+// cohort is not yet reading, so the icon is how a learner finds their part, not the words.
+const BOOK_PARTS = [
+  { icon: 'target', title: 'My learning goal', sub: 'Agency in Learning', blurb: 'Getting to know myself as a learner, choosing a goal that matters to me, making a plan, and seeing how I have grown.' },
+  { icon: 'sunrise', title: 'My voice in English', sub: 'English', blurb: 'My name, the first sounds and words of English, saying who I am, and my own My Name, My Voice card.' },
+  { icon: 'plant', title: 'Our research', sub: 'Research Project', blurb: 'Our shared question about the hills, the sources we read, what we find out, and what we make with it.' },
+  { icon: 'ladder', title: 'My progress', sub: 'All twelve weeks', blurb: 'My mentoring page, and the page where I mark how I have grown — once in the middle, once at the end.' },
+];
+
+// A full-page divider opening each part, carrying the part's icon so it can be found by flicking.
+function learnerPartDivider(c, n, part) {
+  c.push(pageBreak());
+  c.push(new Paragraph({
+    alignment: AlignmentType.CENTER,
+    children: [imgRun(icon(part.icon), 110, 110)],
+    spacing: { before: 1500, after: 240 },
+  }));
+  c.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: `PART ${n}`, bold: true, size: 24, color: OLIVE })], spacing: { after: 80 } }));
+  c.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: part.title, bold: true, size: 48, color: NAVY })], spacing: { after: 100 } }));
+  c.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: part.sub, size: 26, color: PLUM })], spacing: { after: 200 } }));
+  c.push(P(part.blurb, { size: 23, color: GREY, align: AlignmentType.CENTER }));
+}
+
+function studentWorkbook() {
+  const c = [];
+
+  // ---------------------------------------------------------------- Cover
+  c.push(image(LOGO, 150, 77, { align: AlignmentType.CENTER, before: 400, after: 260 }));
+  c.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: 'My Learning Book', bold: true, size: 68, color: NAVY })], spacing: { after: 120 } }));
+  c.push(new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: "Learning Bridge+  ·  Cox's Bazar", size: 28, color: PLUM })], spacing: { after: 700 } }));
+  c.push(bigFill('My name'));
+  c.push(bigFill('My place'));
+  c.push(bigFill('My group'));
+  c.push(bigFill('My mentor'));
+  c.push(P('You do not have to write. You can draw, colour, and say your answers.', { size: 24, color: GREY, before: 500 }));
+
+  // ---------------------------------------------------------------- How to use this book
+  c.push(pageBreak());
+  c.push(H1('This book is yours'));
+  c.push(P('This one book holds everything you need for the whole programme. You keep it, you fill it, and you take it home with you.', { size: 24 }));
+  c.push(P('There are four parts. Your facilitator will tell you which page to turn to. You do not need to go in order, and you do not need to finish every page.', { size: 24 }));
+  c.push(H2('Three things to know'));
+  c.push(P('1.  You do not have to write.', { size: 24, bold: true, color: PLUM, before: 160 }));
+  c.push(P('Drawing is a full answer. A mark is a full answer. You can say your answer out loud and ask someone to write it for you.', { size: 23 }));
+  c.push(P('2.  There are no wrong answers here.', { size: 24, bold: true, color: PLUM, before: 160 }));
+  c.push(P('No one marks these pages right or wrong. They are for you to think with, and to look back on.', { size: 23 }));
+  c.push(P('3.  You never have to share.', { size: 24, bold: true, color: PLUM, before: 160 }));
+  c.push(P('You choose what you show and what you keep to yourself. If a question is hard, leave it and come back, or leave it empty.', { size: 23 }));
+  c.push(callout('If you miss some weeks', [
+    'Leave those pages empty and start again where the group is now. Coming back is progress. Your facilitator will help you pick up from where you are, not from where the plan says you should be.',
+  ], OLIVE));
+
+  // ---------------------------------------------------------------- What is in this book
+  c.push(pageBreak());
+  c.push(H1('What is in this book'));
+  c.push(P('Four parts. Look for the picture at the start of each one.', { size: 23, color: GREY, after: 200 }));
+  BOOK_PARTS.forEach((part, i) => {
+    c.push(new Paragraph({
+      children: [
+        imgRun(icon(part.icon), 46, 46),
+        new TextRun({ text: `    Part ${i + 1}  ·  `, size: 22, color: OLIVE, bold: true }),
+        new TextRun({ text: part.title, bold: true, size: 28, color: NAVY }),
+        new TextRun({ text: `    ${part.sub}`, size: 21, color: PLUM }),
+      ],
+      spacing: { before: 260, after: 60 },
+    }));
+    c.push(P(part.blurb, { size: 22, color: GREY }));
+  });
+
+  // ---------------------------------------------------------------- My twelve weeks
+  c.push(pageBreak());
+  c.push(H1('My twelve weeks'));
+  c.push(P('Every learning week you do all three: your goal, your English, and our research. They run side by side from the first week to the last.', { size: 23 }));
+  c.push(new Paragraph({
+    children: BOOK_PARTS.slice(0, 3).flatMap((p, i) => [
+      ...(i ? [new TextRun({ text: '        ', size: 22 })] : []),
+      imgRun(icon(p.icon), 56, 56),
+      new TextRun({ text: '  ' + p.title, size: 22, color: NAVY }),
+    ]),
+    alignment: AlignmentType.CENTER,
+    spacing: { before: 240, after: 300 },
+  }));
+  c.push(P('Twice you stop and look at how far you have come — in the middle, and at the end. Those two weeks are marked with a star.', { size: 23 }));
+  c.push(weekStrip());
+  c.push(P('On those two weeks you fill the same page twice, in Part 4, so you can see the distance you have moved.', { size: 22, color: GREY, before: 160 }));
+
+  // ---------------------------------------------------------------- PARTS 1-3: the component books
+  learnerPartDivider(c, 1, BOOK_PARTS[0]);
+  c.push(pageBreak());
+  c.push(...AIL.workbookChildren({ embedded: true }));
+
+  learnerPartDivider(c, 2, BOOK_PARTS[1]);
+  c.push(pageBreak());
+  c.push(...MV.workbookChildren({ embedded: true }));
+
+  learnerPartDivider(c, 3, BOOK_PARTS[2]);
+  c.push(pageBreak());
+  c.push(...RP.workbookChildren({ embedded: true }));
+
+  // ---------------------------------------------------------------- PART 4: programme-level pages
+  learnerPartDivider(c, 4, BOOK_PARTS[3]);
+
+  // --- My mentoring conversations ---
+  const mentoring = page('cb-my-mentoring-conversations');
+  const mLC = mentoring.learnerContent;
+  c.push(pageBreak());
+  c.push(H1(mentoring.title));
+  c.push(...mdIntro(mdSection(mLC, '## My mentoring conversations')));
+  c.push(bigFill('My mentor is'));
+  c.push(bigFill('We usually meet'));
+  c.push(P('One row for each conversation. Draw or write the one step you will take before you meet again, and tick it when it is done.', { size: 22, color: GREY, before: 240, after: 140 }));
+  c.push(mentoringRows(6));
+  c.push(pageBreak());
+  c.push(H2('My mentoring conversations, continued'));
+  c.push(mentoringRows(6));
+  const paras = (block) => block.split(/\n\s*\n/).map((p) => p.replace(/\s*\n\s*/g, ' ').trim()).filter(Boolean);
+  c.push(callout('What goes on this page, and what does not', paras(mdSection(mLC, '## What goes on this page, and what does not')), PLUM));
+  c.push(H3('If you miss some weeks'));
+  paras(mdSection(mLC, '## If you miss some weeks')).forEach((t) => c.push(P(t, { size: 22 })));
+
+  // --- How I have grown ---
+  const growth = page('cb-my-growth-across-the-programme');
+  const gLC = growth.learnerContent;
+  const LADDERS = [
+    ['## Setting a goal and going after it', 'My learning goal'],
+    ['## Finding out about a real thing', 'Our research'],
+  ];
+  c.push(pageBreak());
+  c.push(H1('How I have grown'));
+  c.push(...mdIntro(mdSection(gLC, '## How I have grown')));
+  LADDERS.forEach(([heading, eyebrowText], i) => {
+    if (i) c.push(pageBreak());
+    c.push(new Paragraph({ children: [new TextRun({ text: eyebrowText.toUpperCase(), bold: true, size: 15, color: OLIVE })], spacing: { before: 240, after: 40 } }));
+    c.push(H2(heading.replace(/^##\s*/, '')));
+    c.push(twiceMarkedLadder(mdBullets(mdSection(gLC, heading))));
+  });
+  c.push(pageBreak());
+  c.push(H2('In my own words'));
+  c.push(...mdIntro(mdSection(gLC, '## In my own words')));
+  mdBullets(mdSection(gLC, '## In my own words')).forEach((t) => {
+    c.push(P(t, { size: 23, bold: true, color: PLUM, before: 200, after: 100 }));
+    c.push(box(2000, 'draw, write, or say it out loud'));
+  });
+
+  c.push(pageBreak());
+  c.push(image(LOGO, 130, 67, { align: AlignmentType.CENTER, before: 2000, after: 240 }));
+  c.push(P('This book belongs to you. Keep it — it is the record of what you did, and how far you came.', { size: 24, color: NAVY, align: AlignmentType.CENTER }));
+  c.push(P("Learning Bridge+ (Cox's Bazar)  ·  Amala Education with the Norwegian Refugee Council", { size: 18, color: GREY, align: AlignmentType.CENTER, before: 300 }));
+  return makeDoc(c, { footerText: "My Learning Book  ·  Learning Bridge+ (Cox's Bazar)" });
+}
+
+// The twelve weeks as two rows of six, with the two "how I have grown" weeks starred. Visual on
+// purpose: a learner who cannot read the labels can still count to their week and see the stars.
+function weekStrip() {
+  const cols = 6, colW = Math.floor(10800 / cols);
+  const cell = (w) => {
+    const starred = w === 6 || w === 12;
+    return new TableCell({
+      width: { size: colW, type: WidthType.DXA },
+      shading: starred ? { fill: 'F0ECE3' } : undefined,
+      margins: { top: 120, bottom: 120, left: 80, right: 80 },
+      children: [
+        new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: `Week ${w}`, bold: true, size: 22, color: starred ? NAVY : GREY })] }),
+        new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: starred ? '★' : '', size: 30, color: OLIVE })], spacing: { before: 60 } }),
+        new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: starred ? 'How I have grown' : '', size: 16, color: OLIVE })] }),
+      ],
+    });
+  };
+  const row = (from) => new TableRow({ children: Array.from({ length: cols }, (_, i) => cell(from + i)) });
+  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: Array(cols).fill(colW), rows: [row(1), row(7)] });
+}
+
 // ============================================================ WRITE
 async function main() {
   fs.mkdirSync(OUT, { recursive: true });
   const jobs = [
     ['lb-coxs-bazar-coordinator-guide.docx', coordinatorGuide()],
     ['lb-coxs-bazar-educator-guide.docx', educatorGuide()],
+    ['lb-coxs-bazar-student-workbook.docx', studentWorkbook()],
   ];
   for (const [name, doc] of jobs) {
     const buf = await Packer.toBuffer(doc);

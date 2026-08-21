@@ -1,0 +1,178 @@
+id: pb-emotions-in-conflict
+slug: pb-emotions-in-conflict
+access: public
+type: activity
+title: "Emotions and what they lead to"
+summary: >-
+  Learners describe a time they were angry and what it produced, then build a table of the short
+  and long-term consequences of the emotions people feel in conflict.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The table is much richer when built collectively, because learners contribute
+      emotions and consequences the others had not considered, particularly humiliation.
+  - context: independent
+    how: >-
+      The personal reflection works alone and can be more honest. The table is thinner, so give the
+      learner the four starting emotions rather than asking them to generate the list.
+  - context: one-to-one-mentoring
+    how: >-
+      The first half is a good mentoring conversation on its own, especially with a learner who is
+      currently angry about something. Do not rush to the table; the noticing is the value.
+duration: 45 minutes.
+grouping: Individual reflection, then whole group for the table.
+materialsAndPreparation:
+  - Paper and pens, and a board or large sheet for the shared table.
+  - "The table headings ready: emotions, short-term consequences of this emotion, long-term consequences of this emotion."
+  - One worked row prepared. Fear leading to a pre-emptive strike, and then to the development of fear, anger and frustration in the other party plus the threat of retaliation.
+whatLearnersDo:
+  - Describe a situation in which they were angry, what it made them do, and whether it improved things.
+  - Consider whether their anger led to a positive or negative outcome.
+  - Brainstorm the other emotions people feel in conflict.
+  - Build a table of the short and long-term consequences of each emotion.
+  - Discuss why a peacebuilder needs to attend to emotions, including their own.
+facilitationNotes: >-
+  The one thing to get right is that this is not a lesson against anger. Anger is a useful signal
+  that something is wrong, and telling a group of learners who have plenty to be angry about that
+  they should not be will lose the room and deserve to. The argument is narrower and better: anger
+  is good at noticing and bad at deciding. The activity asks what an emotion produces, and it asks it
+  about the learner's own anger first, which is what stops the table becoming abstract. Humiliation
+  is the row most groups miss and the one most connected to serious escalation.
+steps:
+  - title: "Describe a time you were angry"
+    duration: 12 minutes
+    guidance: >-
+      Individually, in writing: what happened to make you angry, what did being angry make you do,
+      and did it make the situation better or worse? Then, in pairs if learners are willing: did your
+      anger lead to a positive or negative outcome, and why? Keep sharing optional; the writing is the
+      part that matters.
+    keyPrompts:
+      - "What did being angry make you do?"
+      - "Did it make the situation better or worse?"
+    watchOuts:
+      - "Learners describe injustices rather than their own responses. Redirect to what they did,
+        which is the part they control."
+      - "Someone's example is current and painful. Do not press for the outcome question; the
+        situation may not have one yet."
+  - title: "Ask what anger does to resolution"
+    duration: 8 minutes
+    guidance: >-
+      Open it up: how might experiencing anger during a conflict affect the chances of it being
+      resolved constructively? Take answers in both directions. Anger gets people to act on things
+      they would otherwise tolerate, and anger makes it very hard to hear what the other party needs.
+      Both are true and the group should end up holding both.
+    keyPrompts:
+      - "What is anger good at? What is it bad at?"
+    watchOuts:
+      - "The discussion becomes a moral instruction not to be angry. Say plainly that anger is a
+        signal worth having, and the question is what you do in the minutes after it."
+  - title: "Build the table"
+    duration: 15 minutes
+    guidance: >-
+      Ask what other emotions people in conflict might feel, and collect them: fear, anger,
+      frustration, humiliation, and whatever the group adds. Then fill the short and long-term
+      consequences for each. Model the fear row first so the level of specificity is clear. The
+      long-term column is where the good material is, because it is where consequences loop back into
+      the other party.
+    keyPrompts:
+      - "What does that emotion make someone do, straight away? And a year later?"
+      - "What does it do to the other party?"
+    watchOuts:
+      - "Groups skip humiliation. Add it yourself if they do; it is the emotion most closely tied to
+        the sharpest escalation steps."
+      - "Consequences are written only for the person feeling the emotion. Ask what it produces in
+        the other party, which is where cycles come from."
+    adaptation: >-
+      Short on time: build three rows well rather than six thinly. Fear, humiliation and anger carry
+      most of the content.
+  - title: "Turn it on the peacebuilder"
+    duration: 10 minutes
+    guidance: >-
+      Three questions. Why is it important to acknowledge the emotions of parties in a conflict? Why
+      is it important to consider your own emotions when acting as a peacebuilder? And how might we
+      create conditions that turn negative emotions into positive ones? The middle question is the one
+      that matters most and gets asked least.
+    keyPrompts:
+      - "Why do your own emotions matter when you are the one trying to help?"
+      - "What conditions make it easier for someone to stop being afraid?"
+    watchOuts:
+      - "Learners treat emotional management as something to do to other people. Keep returning the
+        question to themselves."
+closing: >-
+  Say the finding once. Peacebuilding requires emotional engagement to succeed, and it requires
+  peacebuilders who can notice their own responses well enough to choose what to do next. Then point
+  at the long-term column of the table, where an emotion in one party produces an emotion in the
+  other, and note that this is what a cycle of conflict is made of.
+learnerContent: |
+  Think of a time you were angry.
+
+  - What happened to make you angry?
+  - **What did being angry make you do?**
+  - Did being angry make the situation better or worse?
+
+  Then:
+
+  - Did your anger lead to a positive or a negative outcome? Why?
+  - How might feeling angry during a conflict affect the chances of resolving it constructively?
+
+  **Now the table.** What other emotions do people in conflict feel? Fill in what each one leads to,
+  now and later.
+
+  | Emotion | Short-term consequences | Long-term consequences |
+  |---|---|---|
+  | Fear | Pre-emptive strike against the other party | Fear, anger and frustration in the other party, and the threat of retaliation |
+  | Anger | | |
+  | Frustration | | |
+  | Humiliation | | |
+  | Any others? | | |
+
+  Last:
+
+  - Why is it important to acknowledge the emotions of the parties in a conflict?
+  - **Why is it important to consider your own emotions when you are acting as a peacebuilder?**
+  - How might we create conditions that turn negative emotions into positive ones?
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Learners get a working account of what their own anger produces, from their own example rather
+    than from instruction. Noticing an emotion arriving, and knowing what it usually leads you to do,
+    is what makes a different choice available.
+principlesForegrounded: [safe-spaces, authentic-challenges]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      The personal reflection is written rather than spoken, sharing is optional throughout, and no
+      learner is asked to account for an example in front of the group.
+  - principle: authentic-challenges
+    how: >-
+      The evidence for the table comes from the learners' own experiences of anger and its
+      consequences, which is why the long-term column is credible to them.
+competencyCodes: [FUS1, FUS2, ALC3]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      Describing what your own anger made you do, and whether it helped, is direct and uncomfortable
+      self-awareness.
+  - code: FUS2
+    how: >-
+      The long-term column requires learners to trace what their emotional response produced in
+      somebody else, which is the mechanism behind most escalation.
+  - code: ALC3
+    how: >-
+      The closing question about creating conditions that transform negative emotions is conflict
+      transformation applied at the emotional rather than the structural level.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [pb-looking-at-inner-conflicts, pb-transforming-inner-conflicts, glasls-conflict-escalation, pb-finish-the-story]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced.
+sourceRefs:
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 4"
+  - "Noticing Violence - What Makes You Angry? (Peacebuilding resources folder)"
+provenanceNote: >-
+  From the 2025 Peacebuilding course planner activity on the role of emotions and feelings in our
+  behaviours, with the anger-as-signal framing drawn from Amala's "Noticing Violence".

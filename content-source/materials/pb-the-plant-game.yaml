@@ -1,0 +1,138 @@
+id: pb-the-plant-game
+slug: pb-the-plant-game
+access: public
+type: activity
+title: "The plant game"
+summary: >-
+  A group links arms and catches whichever member falls. Then everyone is the same plant, and
+  nobody is left standing to catch anyone.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only, and it needs at least six people to work. The finding is physical: a diverse group
+      holds, a uniform group collapses, and the difference is felt rather than argued.
+duration: 10-15 minutes.
+grouping: Whole group, standing in a circle with arms linked.
+materialsAndPreparation:
+  - Clear floor space with nothing to fall against.
+  - Check for anyone who should not take weight or be leaned on. Offer them the caller's role or an observer's role, and do it before the circle forms rather than in front of everyone.
+  - A list of plant names, roughly one per learner, with several repeats and one unique.
+whatLearnersDo:
+  - Link arms in a circle and receive a plant name, quietly, so nobody knows anyone else's.
+  - Let themselves go when their plant is called, and take the weight when others do.
+  - Do it again when nearly everyone shares one plant name.
+  - Work out what the second round demonstrated.
+facilitationNotes: >-
+  The one thing to get right is safety, and it is the reason this short activity carries a long
+  preparation note. Learners must let themselves go, not throw themselves, and the circle must be
+  linked properly before anything is called. Beyond that, the design is simple and does the teaching
+  by itself: in the first rounds the group absorbs each fall easily, and in the last round almost
+  everyone has the same name and the circle goes down together. Do not explain the point in advance.
+  It is entirely legible from the floor.
+steps:
+  - title: "Link the circle and name the plants"
+    duration: 5 minutes
+    guidance: >-
+      Get the group into a circle with arms properly linked, then move round assigning plant names
+      quietly, one at a time, so no one knows anyone else's. Use several names with two or three
+      learners each and keep one name unique. State the safety rule clearly and more than once: let
+      yourself go, do not drop, do not pull.
+    keyPrompts:
+      - "Arms linked properly. Is everyone actually holding on?"
+    watchOuts:
+      - "Learners fall dramatically for effect and someone gets hurt. Say the rule twice and stop the
+        activity if it starts."
+      - "A learner cannot safely take weight. Sort this out before the circle forms, quietly."
+  - title: "Call plants and let the group hold"
+    duration: 3 minutes
+    guidance: >-
+      Call one plant name. Those learners let go, and the rest hold them. Call another, then another.
+      Do it three or four times so the group gets used to catching, and to the ease of it. Say
+      nothing about what is being demonstrated.
+    keyPrompts:
+      - "Cactus."
+    watchOuts:
+      - "The group finds it funny and stops holding properly. That is when someone falls. Reset the
+        circle before continuing."
+  - title: "Call the majority plant"
+    duration: 2 minutes
+    guidance: >-
+      Now assign, or reveal, that almost everyone is the same plant, with one exception. Call that
+      name. The circle goes down, because there is nobody left standing to hold it. Let the group sit
+      in what just happened for a moment before you ask anything.
+    keyPrompts:
+      - "What just happened that did not happen before?"
+    watchOuts:
+      - "A larger group falling is a genuine hazard. Make sure the floor is clear and warn learners
+        that this round may go further than the others."
+  - title: "Debrief"
+    duration: 5 minutes
+    guidance: >-
+      Two questions only. What might this teach us about diversity, and what situations does it
+      remind you of? Keep it short: this activity is a hinge into a longer session on shared values,
+      not a session in itself. Learners typically reach the point unprompted, which is why the
+      explanation should not come from you.
+    keyPrompts:
+      - "What does this tell us about a group where everyone is the same?"
+      - "What does it remind you of outside this room?"
+    watchOuts:
+      - "The conclusion becomes a slogan about diversity being nice. Push once: what specifically did
+        the mixed group have that the uniform one did not?"
+closing: >-
+  Name the mechanism, briefly, once they have said it. A group whose members share the same
+  vulnerability falls together, because when the pressure comes there is nobody standing who is not
+  already under it. Then hand it forward: difference is what let the circle hold, and the next
+  question is what holds a group of different people together in the first place.
+learnerContent: |
+  Stand in a circle and link arms properly. You will each be given the name of a plant, quietly. Do
+  not tell anyone else.
+
+  When your plant is called, **let yourself go**. Do not throw yourself, and do not pull anyone. The
+  rest of the circle will hold you.
+
+  Afterwards:
+
+  - What might this activity teach us about the importance of diversity?
+  - What situations outside this room does it remind you of?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Being held by a group, and then feeling the group fail because it was too alike, gives learners a
+    physical reason to seek out difference rather than a moral one. That is the disposition a
+    peacebuilder needs when assembling anyone around a problem.
+principlesForegrounded: [collaboration, safe-spaces]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The activity cannot be performed alone at all, and its finding is about what a group can absorb
+      that its members cannot.
+  - principle: safe-spaces
+    how: >-
+      Trust is built literally: learners take each other's weight, and the safety rules are stated and
+      enforced before anything is called.
+competencyCodes: [FLC2, FUS3]
+competencyDevelopment:
+  - code: FLC2
+    how: >-
+      Physically catching each other is about as direct an experience of belonging as a session can
+      offer, and the debrief names what made it work.
+  - code: FUS3
+    how: >-
+      The activity opens the argument that a group's range of perspectives is a practical asset,
+      which is the premise the intercultural work in this course rests on.
+objectiveIds: [peacebuilding--o3]
+relatedSlugs: [pb-colour-groups, pb-class-agreements, pb-identity-wheels]
+rights:
+  status: own-expression
+  basis: >-
+    A widely circulated group exercise with no traceable author.
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced.
+sourceRefs:
+  - "Embracing Diversity - The importance of diversity - The Plant Game (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 1b Activity 5.1"
+provenanceNote: >-
+  Adapted from Amala's "The Plant Game", which appears in the 2025 course planner as the opening
+  activity on diversity and tolerance.

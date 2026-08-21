@@ -1,0 +1,170 @@
+id: conflict-systems-mapping
+slug: conflict-systems-mapping
+access: public
+type: tools-approaches
+title: "Conflict systems mapping"
+summary: >-
+  Every party to a conflict drawn as a circle, with each connection labelled by what the
+  relationship is and whose needs are in tension across it.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+toolsFacet: analytical
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Deciding what to write on a line requires two people to agree, and the argument
+      about whether a relationship is positive or negative is where the map gets accurate.
+  - context: independent
+    how: >-
+      Works alone, and is the natural tool for a learner mapping their own community. The weakness is
+      that a solo map records one person's model of relationships they cannot all see, so require the
+      learner to check the map with people from the system before treating it as findings.
+  - context: one-to-one-mentoring
+    how: >-
+      Good in mentoring for a learner whose project keeps stalling. Drawing the system usually reveals
+      a party with many connections whom they had not planned to speak to.
+duration: 60-75 minutes to teach. Several hours when built on a real context with interviews.
+grouping: Groups of two or three, one map per group.
+materialsAndPreparation:
+  - Large poster paper, one sheet per group, and pens. Different colours help but are not required.
+  - Cases of violence to map. The example bank works, or use local cases.
+  - Wall space for the finished maps.
+  - Learners should already understand what a complex system is. If not, spend ten minutes on it first.
+whatLearnersDo:
+  - Recall what a complex system is, and consider why the causes of violence are likely to involve one.
+  - List every party involved in a case, including the less obvious ones.
+  - Draw each party as a circle on a large sheet.
+  - Connect pairs of parties with a line, and write on each line what the relationship is and how their needs relate.
+  - Read the map for where an intervention might act, and for what it could disturb.
+educatorContent: |
+  A systems map answers a different question from a needs-fears map. Needs-fears asks what each party
+  wants; a systems map asks how the parties are connected. Both are needed, and the point is more
+  obvious to learners if they build one after the other on the same case.
+
+  ## Building it
+
+  Parties become circles, spaced out anywhere on the sheet. Then two parties are chosen and a line
+  drawn between them, and on that line the group writes what the relationship is: whether the
+  connection is positive or negative, how their needs conflict, and how they might be complementary.
+  The source's worked example is a good model of the level of detail expected:
+
+  > *Wife and husband.* The wife needs to feel safe at home. She needs her husband to stop hitting
+  > her. The husband has a need to be in control. Their needs are conflicting, as the husband believes
+  > violence helps him keep control.
+  >
+  > *Wife and son.* The wife needs to feel safe at home. The son needs to feel safe at home. Seeing
+  > his father hit his mother does not make him feel safe. The needs of the wife and son are aligned.
+
+  Note two things about that example. The son is a party who would not appear in a summary of the
+  incident, and the second line records an alignment rather than a conflict. Learners map conflicts
+  and forget that a systems map records the whole system, including the relationships that could
+  carry a solution.
+
+  Groups continue until they have exhausted the possible connections. Some parties end up with many
+  lines and some with few, and that is not a defect: the parties with most connections are the ones
+  most involved, and they are usually where an intervention should look first.
+
+  ## Reading the map
+
+  Three questions do the work:
+
+  - What do you notice about your map?
+  - Is there a party with more connections than the others? Why might it be sensible to focus there?
+  - Given the complexity of this map, what should you be mindful of when designing an intervention?
+
+  The third is the important one. What learners should reach is that a change to one relationship
+  travels along the lines and produces effects the designer did not intend, which is the argument for
+  do-no-harm made visually rather than morally.
+
+  ## Its limits, taught with it
+
+  Ask what the map's strengths and weaknesses are, and which other tools could support it. It is
+  strong on relationships and weak on causal depth and on history, which is why it pairs with a
+  problem tree and with Galtung's triangle. Learners should be building a habit of using tools in
+  combination rather than trusting whichever one they used first.
+
+  ## The extension that matters
+
+  Set the map on a real local case and then send learners to interview parties in it, adding detail
+  they could not have known. Prepare them for that: it is a skill, it can offend or upset people if
+  done carelessly, and the questions should be open. What have you noticed about this? What do you
+  think the causes are? What might help?
+learnerContent: |
+  Before you start: what is a complex system? Name a few. In what way are the causes of violence
+  likely to involve one?
+
+  **Build the map.**
+
+  1. List **every party** in the case, including the ones nobody would mention: those directly
+     involved, and those indirectly involved or affected.
+  2. On a large sheet, draw each party as a circle. Spread them out. Give your map a title.
+  3. Pick two parties that are connected and draw a line between them. On the line, write:
+     - Is this connection positive or negative? Why?
+     - How do their needs conflict? How might they be complementary?
+  4. Keep going until you have exhausted the connections. Some parties will have many lines and some
+     few. That is fine, and it is information.
+
+  **Read the map:**
+
+  - What do you notice?
+  - Is there a party with more connections than the others? Why might that be a good place to focus?
+  - **Given how complex this is, what should you be careful about when designing an intervention?**
+  - What are the strengths of a systems map? What are its weaknesses?
+  - What other tools would you need alongside it?
+
+  **Then take it home.** Draw a systems map for a violence in your own community. It can be
+  structural, cultural or direct. Then go and ask people in it: what have you noticed about this?
+  What do you think is causing it? What might help? Ask carefully and respectfully. It is easy to
+  upset people with this, and you must not.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    A systems map shows a learner that a conflict has more than two sides and more than one point of
+    entry, including entry points a young person could actually reach. It also shows them what their
+    action would touch, which is the condition for acting responsibly rather than boldly.
+principlesForegrounded: [authentic-challenges, responsible-action, feedback-and-data]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The tool is applied to the learner's own community and the map is then improved by going out and
+      asking the people in it.
+  - principle: responsible-action
+    how: >-
+      The complexity question is designed to produce the recognition that interventions have
+      unintended consequences, and the interview extension carries an explicit warning about causing
+      harm while researching.
+  - principle: feedback-and-data
+    how: >-
+      The map is deliberately provisional, and the follow-up interviews exist to correct what the
+      learner assumed about relationships they cannot see from outside.
+competencyCodes: [FPS3, APS1, FSI1, FUS2]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Naming the parties and the relationships that sustain a conflict is systemic identification of
+      contributing factors rather than attribution to individuals.
+  - code: APS1
+    how: >-
+      The map makes it visible that a change to one relationship propagates, which is where
+      unintended consequences come from.
+  - code: FSI1
+    how: >-
+      The extension turns the map into primary research, with named people to interview and prepared
+      questions.
+  - code: FUS2
+    how: >-
+      Every line requires the learner to state both parties' needs, including those of parties they
+      may hold responsible for the harm.
+objectiveIds: [peacebuilding--o1, peacebuilding--o2]
+relatedSlugs: [needs-fears-mapping, problem-tree, systems-thinking-iceberg-model, pb-consolidating-analysis-tools]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced. Systems mapping is a standard analysis method with no single owner; this is Amala's teaching version.
+sourceRefs:
+  - "Week 6 - Analysing Violence - Systems Mapping (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 6"
+provenanceNote: >-
+  Adapted from Amala's "Violence Analysis - System Mapping". The worked husband, wife and son example
+  is the source's own.

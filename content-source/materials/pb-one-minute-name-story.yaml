@@ -1,0 +1,158 @@
+id: pb-one-minute-name-story
+slug: pb-one-minute-name-story
+access: public
+type: activity
+title: "One-minute name story"
+summary: >-
+  Each learner tells the story of the name they want to be called by, so the group learns names
+  through meaning and meets the histories in the room.
+facilitationContext: [group, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The point is collective: everyone hears everyone, and the room ends up holding a
+      set of names attached to stories rather than a set of labels.
+  - context: one-to-one-mentoring
+    how: >-
+      Works well as a first mentoring conversation, and the mentor should go first and go properly.
+      What is lost is the group's shared map of itself, so if the learner is also in a group
+      programme, treat this as rehearsal rather than replacement.
+duration: 30 minutes.
+grouping: Individual preparation, then whole group.
+materialsAndPreparation:
+  - Paper and pens for notes. Nothing else.
+  - Decide in advance how you will handle a learner who does not want to speak, and offer that route before you start rather than when they freeze.
+whatLearnersDo:
+  - Take 10 minutes to prepare a one-minute story about the name they want to be called in this class.
+  - Choose which of the prompts to answer and which to leave alone.
+  - Tell their story to the group, one at a time.
+  - In small groups, talk about how it felt to tell it.
+facilitationNotes: >-
+  The one thing to get right is that this is the name they want to use here, not the name on a
+  register. Some learners find their name hard for others to pronounce, some have chosen a name for
+  themselves, some carry a name they would rather not explain. Say clearly, before anyone prepares,
+  that they choose the name and choose which prompts to answer. Keep the prompts broad for the same
+  reason. Go first yourself, and tell a real story rather than a polished one, because the depth you
+  model is the depth you will get back.
+steps:
+  - title: "Set the frame and give the prompts"
+    duration: 5 minutes
+    guidance: >-
+      Explain that everyone will tell a one-minute story about their name, and that the name is
+      whichever one they want to be called here. Offer Michigan's prompts as options rather than a
+      checklist, and say explicitly that nobody has to answer all of them or any particular one. The
+      prompts are on the linked page; keep them broad, because narrow ones produce identical answers.
+    keyPrompts:
+      - "What name do you want us to use for you in this room?"
+      - "Which of these questions do you actually want to answer?"
+    watchOuts:
+      - "Treating the prompts as a form to complete produces flat, identical answers. Say out loud
+        that most people will use one or two."
+      - "A learner has no story they know, because nobody ever told them. That is itself an answer
+        and worth saying so before it becomes an embarrassment."
+  - title: "Give real preparation time"
+    duration: 10 minutes
+    guidance: >-
+      Ten quiet minutes, with paper available. Do not fill the silence. The quality of this activity
+      depends almost entirely on whether people had time to find something true to say, and a group
+      pushed straight into speaking will produce a round of "my mum liked it". Circulate quietly and
+      only help learners who ask.
+    keyPrompts:
+      - "Is there a story in your family about your name?"
+      - "What would you want people here to understand about it?"
+    watchOuts:
+      - "Learners write a script and then read it aloud, which kills the room. Ask for notes, not
+        sentences."
+    adaptation: >-
+      Short on time: set the preparation as pre-work in the previous session, and run only the
+      telling and the debrief. Do not cut the preparation and keep the telling; that produces the
+      thin version.
+  - title: "Go round, one story at a time"
+    duration: 12-15 minutes
+    guidance: >-
+      Go first. Then take stories one at a time with no cross-talk and no questions between them.
+      Hold roughly to a minute but do not cut someone off mid-story for the sake of it. If a learner
+      would rather not speak, let them say their name and pass without comment or negotiation, and
+      move straight on.
+    keyPrompts:
+      - "Thank you. Who would like to go next?"
+    watchOuts:
+      - "The group starts asking follow-up questions, which turns it into an interview and slows it
+        to a halt. Hold questions for the end."
+      - "A story turns out to be heavier than expected. Do not probe and do not rush past it either.
+        Acknowledge it simply, thank them, move on, and check in with them afterwards."
+  - title: "Debrief in threes"
+    duration: 5 minutes
+    guidance: >-
+      In twos or threes, ask how it felt to tell their name story and where that feeling came from.
+      Keep it short. The purpose is not analysis but noticing that something ordinary, a name, turned
+      out to carry family, place, migration and choice, which is the first quiet contact with the
+      idea of identity that the next materials open up properly.
+    keyPrompts:
+      - "How did it feel to tell that? Where do you think that feeling came from?"
+      - "What surprised you about somebody else's story?"
+    watchOuts:
+      - "The debrief becomes a second round of storytelling. Two questions, five minutes, stop."
+closing: >-
+  Say back three or four names with something from their story attached, to show it worked and that
+  you were listening. Then name what the group has just discovered without labouring it: everyone in
+  this room arrived carrying a history, and most of it is invisible until someone asks. Keep the
+  names. Use them.
+learnerContent: |
+  You have about ten minutes to prepare a one-minute story about your name.
+
+  It should be about the name you want us to call you here, not whatever is written on a list. If
+  you chose your own name, that is a story too.
+
+  Your facilitator will offer some prompts. You do not have to answer all of them, or any particular
+  one, and if there is something you would rather not say, do not say it.
+
+  Notes, not a script. If there is something you would rather not say, do not say it.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Each learner decides what they are called here and how much of themselves to put into the room.
+    Choosing the terms on which you are known is a small act of self-direction, and in a course that
+    will later examine how identities get assigned to people, it matters that the first one was
+    claimed rather than given.
+principlesForegrounded: [builds-on-identities, safe-spaces]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The first content of the course is the learners' own names, languages and family histories, so
+      what they bring is established as material rather than background before any theory arrives.
+  - principle: safe-spaces
+    how: >-
+      Control over the name and the prompts is handed to the learner, and passing is available
+      without negotiation, which makes disclosure genuinely optional in a session about the self.
+competencyCodes: [FUS1, FUS3, FLC2]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      Deciding what your own name means to you, and what you want understood about it, is direct
+      practice at articulating something about yourself you had not previously put into words.
+  - code: FUS3
+    how: >-
+      In a mixed group the round surfaces naming conventions, languages and traditions across several
+      cultures in fifteen minutes, from primary sources sitting in the room.
+  - code: FLC2
+    how: >-
+      Learning names through meaning rather than repetition is one of the fastest ways a group starts
+      to feel like one, which is the condition this competency describes.
+objectiveIds: [peacebuilding--o3]
+relatedSlugs: [pb-class-agreements, pb-the-winding-road, pb-identity-wheels]
+links:
+  - label: "Name Story"
+    url: https://sites.lsa.umich.edu/inclusive-teaching/2017/08/23/name-story/
+    note: "The University of Michigan inclusive-teaching page this activity is built from."
+rights:
+  status: linked-not-reproduced
+  holder: University of Michigan, LSA Inclusive Teaching
+  basis: >-
+    The activity and its prompt set are Michigan's and are not reproduced here. This page describes
+    what the round does, argues where it fits the course, and links to Michigan's own free version.
+    All facilitation guidance here is Amala's own.
+  note: >-
+    Do not copy Michigan's prompt list onto this page. Michigan states no licence for the material, so
+    link rather than reproduce.

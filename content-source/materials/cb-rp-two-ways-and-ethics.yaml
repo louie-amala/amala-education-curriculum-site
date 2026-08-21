@@ -109,6 +109,101 @@ steps:
   keyPrompts:
   - "How did it feel to ask? How did it feel to be asked?"
   - "What will you say if the person says no?"
+educatorContent: |
+  ## What you need to know before you teach this
+
+  Keep this light. It is the last block before learners start asking real people, so it has one job: to
+  leave every learner with five rules they can say back to you, and a felt sense that asking well is
+  ordinary courtesy rather than a hurdle. Do not turn it into a lecture on research ethics.
+
+  ### Consent is a moment, not a form
+
+  There is nothing to sign and nothing to file. Consent here is: I say who I am, I say what I am doing
+  and why, I ask if it is all right, and I accept whatever answer I get — including a no in the middle,
+  after they have already started. Model it in ten seconds, then have every learner say it aloud once in
+  the language they will actually use. Saying it out loud is the whole point; reading it is not enough.
+
+  ### Why no names
+
+  Learners will not see why anonymity matters, because these are their neighbours. Give them the real
+  reason in one sentence: what people say about the hills, about who cut trees, or about what agencies
+  do can travel back to them, and we will not be the reason it does. So we record "an elder", not a
+  name. This is also why the gathering pages have no name column — they are built so the rule is easy
+  to keep.
+
+  ### The line learners will actually hit
+
+  It is not consent. It is **pressing**: a shy answer, a learner who wants a better one, and one more
+  question. Name that out loud, and give them the alternative — thank them and go to the next person.
+  The second is asking about something painful. The trees touch landslides, lost shelters and lost
+  people. Learners do not have to avoid the subject, but they never ask a person to tell their own loss,
+  and if someone becomes upset they stop, stay kind, and tell you. Make sure they know they can, and
+  that you know your referral pathway.
+
+  ### Fairness as well as safety
+
+  Ethics here is not only protection. It is also being honest with the evidence: we write down what
+  people actually said, not what we hoped they would say, and if only three people said something we do
+  not later claim that everyone did. That thread is picked up again when they weigh sources and when
+  they write their honest limit.
+
+  ## Before they leave this block
+
+  Every learner can say the asking words aloud in their own language, and name the five rules. That is
+  the whole bar.
+learnerTeaching:
+  title: "How to ask people fairly and safely"
+  readAloud: |
+    ## How to ask people fairly and safely
+
+    Soon we will ask real people in our community. They are doing us a kindness. So we ask well.
+
+    ### Every time, we do these five things
+
+    - **Ask first.** "May I ask you some questions?" We wait for their answer.
+    - **Say why.** "We are finding out what happens to our hills without trees."
+    - **Let them say no.** They can say no at the start. They can stop in the middle. Both are fine.
+    - **No names.** We never write or say who told us. We write "an elder", not a name.
+    - **Keep everyone safe.** We never put another person, or ourselves, in danger to get an answer.
+
+    ### When someone gives a short answer
+
+    We may ask once more, gently. Then we stop. We never push for a better answer.
+
+    ### Some things we do not ask
+
+    Our hills have taken homes, and people have lost family. We never ask anyone to tell us their own
+    loss. If a person becomes sad, we stop, we stay kind, and we tell our teacher afterwards.
+
+    ### Being honest is part of being safe
+
+    We write down what people really said — not what we hoped. If only three people said something, we
+    do not later say "everyone thinks this."
+
+    Asking well is not a hurdle. Most people are glad someone asked them.
+  words:
+  - term: permission
+    meaning: asking someone first, and waiting for their answer
+  - term: fair
+    meaning: writing down what people really said, not what we hoped
+  - term: safe
+    meaning: no one is put in danger, or made to feel bad, by our questions
+  tryIt:
+    intro: >-
+      Is each of these all right to do, or not? Circle your answer. You can do this on your own.
+    chooseFrom: [all right, not all right]
+    items:
+    - "You ask a woman your question. She says she is busy. You ask her again as she walks away."
+    - "An elder tells you something interesting. You write 'an elder near the water point told me'."
+    - "A man starts to cry when he talks about the flood. You keep asking, because his answer is good."
+    - "You did not find anyone today. You write down what you think they would have said."
+    answers:
+    - Not all right. She has told you she is busy — that is a no. Thank her, and go to the next person.
+    - "All right. That is exactly how we record it: what kind of person, and never a name."
+    - Not all right. Stop asking. Stay kind, and tell your teacher afterwards.
+    - Not all right. That is not evidence, it is a guess. Write down nothing, and try again another day.
+    then: >-
+      If one of your answers surprises you, read the five rules again.
 learnerContent: |
   ## Two ways to find out — and doing it fairly and safely
 

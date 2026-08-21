@@ -15,7 +15,7 @@ import {
   getPrinciple,
   materials,
 } from "@/lib/content";
-import { CONTEXT_LABEL, downloadRoleMeta, tagMeta, typeMeta } from "@/lib/ui";
+import { CONTEXT_LABEL, downloadRoleMeta, tagMeta, typeMeta, rightsMeta} from "@/lib/ui";
 
 export function generateStaticParams() {
   return materials.map((m) => ({ slug: m.slug }));
@@ -157,6 +157,21 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
             <figcaption className="mt-2 text-center text-xs text-cool-grey">{m.diagram.caption}</figcaption>
           )}
         </figure>
+      )}
+
+      {/* Not reproduced here — the original belongs to someone else, so this page describes the method
+          and sends the educator to the source. Sits high, next to the links, because it changes what a
+          facilitator has to do before the session. See RightsSchema in lib/schema.ts. */}
+      {m.rights?.status === "linked-not-reproduced" && (
+        <section className="mt-6 rounded-xl border-l-4 border-terracotta border-y border-r border-cool-grey/20 bg-terracotta/5 p-5">
+          <p className="text-xs font-semibold uppercase tracking-widest text-terracotta">
+            You will need the original
+          </p>
+          <p className="mt-2 text-sm text-dark-navy">
+            {rightsMeta(m.rights.status).blurb}
+            {m.rights.holder ? ` The original is ${m.rights.holder}.` : ""}
+          </p>
+        </section>
       )}
 
       {/* External links (e.g. the video a resource is built around) */}
@@ -373,6 +388,72 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </section>
       )}
 
+      {/* "Learn it" — the method taught to the learner before they do it. In a fully offline component
+          this is the textbook half of the learner book; it compiles into the component workbook as the
+          first page of each activity spread (Learn it → Like this → Your turn). */}
+      {m.learnerTeaching && (
+        <section className="mt-10">
+          <h2 className="font-heading text-xl font-semibold text-dark-navy">
+            Learn it &mdash; {m.learnerTeaching.title}
+          </h2>
+          <p className="mt-1 text-sm text-cool-grey">
+            The method, taught to learners before they are asked to use it. Read it aloud; it is also in
+            the learner&rsquo;s workbook so a learner who missed the session can read it again.
+          </p>
+          <div className="mt-3 rounded-lg border-l-4 border-aqua bg-aqua/5 p-5">
+            <Prose text={m.learnerTeaching.readAloud} />
+            {m.learnerTeaching.words.length > 0 && (
+              <div className="mt-5 border-t border-aqua/30 pt-4">
+                <p className="text-xs font-semibold uppercase tracking-widest text-orange">
+                  New words for the word wall
+                </p>
+                <dl className="mt-2 space-y-1 text-sm">
+                  {m.learnerTeaching.words.map((w) => (
+                    <div key={w.term} className="flex flex-wrap gap-x-2">
+                      <dt className="font-semibold text-dark-navy">{w.term}</dt>
+                      <dd className="text-cool-grey">&mdash; {w.meaning}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+            )}
+            {m.learnerTeaching.tryIt && (
+              <div className="mt-5 border-t border-aqua/30 pt-4">
+                <p className="text-xs font-semibold uppercase tracking-widest text-orange">
+                  Try it yourself
+                </p>
+                <div className="mt-2">
+                  <Prose text={m.learnerTeaching.tryIt.intro} />
+                </div>
+                {m.learnerTeaching.tryIt.items.length > 0 && (
+                  <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm">
+                    {m.learnerTeaching.tryIt.items.map((it, i) => (
+                      <li key={i}>
+                        <span className="text-dark-navy">{it}</span>
+                        {m.learnerTeaching!.tryIt!.answers[i] && (
+                          <span className="text-cool-grey"> &mdash; {m.learnerTeaching!.tryIt!.answers[i]}</span>
+                        )}
+                      </li>
+                    ))}
+                  </ol>
+                )}
+                {m.learnerTeaching.tryIt.then && (
+                  <div className="mt-3">
+                    <Prose text={m.learnerTeaching.tryIt.then} />
+                  </div>
+                )}
+                {m.learnerTeaching.tryIt.answers.length > 0 && (
+                  <p className="mt-3 text-xs text-cool-grey">
+                    Answers are shown here for you; in the learner&rsquo;s workbook they are printed at the
+                    back, so the learner can try it first and check themselves.
+                  </p>
+                )}
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
       {/* Fallback content faces (concepts, tools, resources, case studies) */}
       {m.learnerContent && (
         <section className="mt-10">
@@ -536,6 +617,46 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
           </div>
         )}
       </section>
+
+      {/* Provenance and rights — editorial metadata, demoted to the foot of the page. It answers
+          "where did this come from and may we publish it", which is a question for designers and
+          moderators rather than for the person about to run the session. */}
+      {(m.rights || m.provenanceNote || (m.sourceRefs && m.sourceRefs.length > 0)) && (
+        <section className="mt-10 border-t border-cool-grey/20 pt-6">
+          <h2 className="text-sm font-semibold text-dark-navy">Provenance and rights</h2>
+          {m.rights && (
+            <p className="mt-2 text-sm text-cool-grey">
+              <span
+                className={`mr-2 inline-block rounded px-2 py-0.5 text-xs font-medium ${
+                  rightsMeta(m.rights.status).tone === "blocked"
+                    ? "bg-terracotta/15 text-terracotta"
+                    : rightsMeta(m.rights.status).tone === "notice"
+                      ? "bg-gold/20 text-dark-navy"
+                      : "bg-teal/10 text-teal"
+                }`}
+              >
+                {rightsMeta(m.rights.status).label}
+              </span>
+              {m.rights.holder && <span>Rights held by {m.rights.holder}. </span>}
+              {m.rights.basis}
+            </p>
+          )}
+          {m.rights?.note && (
+            <p className="mt-2 text-sm text-cool-grey">
+              <span className="font-semibold text-dark-navy">Editorial note. </span>
+              {m.rights.note}
+            </p>
+          )}
+          {m.provenanceNote && <p className="mt-2 text-sm text-cool-grey">{m.provenanceNote}</p>}
+          {m.sourceRefs && m.sourceRefs.length > 0 && (
+            <ul className="mt-2 space-y-1 text-xs text-cool-grey">
+              {m.sourceRefs.map((r) => (
+                <li key={r}>Source: {r}</li>
+              ))}
+            </ul>
+          )}
+        </section>
+      )}
 
     </main>
   );

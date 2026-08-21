@@ -1,0 +1,170 @@
+id: pb-class-agreements
+slug: pb-class-agreements
+access: public
+type: activity
+title: "Class agreements: the peace we build in this room"
+summary: >-
+  Learners write the agreements their own group will live by, then act each one out, so the
+  course's ground rules are theirs rather than the facilitator's.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. This material only works in a group, because the thing being made is a group's
+      agreement with itself. A facilitator cannot produce it on the group's behalf and a learner
+      cannot produce it alone.
+duration: 60 minutes.
+grouping: Whole group for the agreements, threes for the acting-out.
+materialsAndPreparation:
+  - A large sheet of paper for the final poster, headed "In our classroom we agree to...".
+  - A board or second sheet for rough ideas.
+  - Markers. If you have no paper, the agreements can be scratched on a board or spoken and repeated aloud, but find some way to keep them visible for the rest of the course.
+whatLearnersDo:
+  - Suggest what the group should agree to do so this is a safe, fair place to work.
+  - Push each suggestion into something observable ("what would that look like?").
+  - Turn the suggestions into short action statements and group them into a poster.
+  - In threes, act out one agreement so the group sees what it looks like in practice.
+facilitationNotes: >-
+  The one thing to get right is authorship. A list you write and read out is a rule sheet; a list
+  they write is an agreement, and only the second one holds when someone breaks it in week 6. Your
+  job is to press for specifics, not to supply content. This matters more in this course than in
+  most, because within three weeks the room will be discussing violence, discrimination and personal
+  experience. The agreements are the safety equipment for that, so make them early and make them
+  concrete enough to point at later.
+steps:
+  - title: "Ask what we should agree to, and take everything"
+    duration: 10-15 minutes
+    guidance: >-
+      Ask what the group can agree to do with each other so this is a fun, safe, caring place to
+      work. Take every suggestion and write it up where all can see. If the room is quiet, offer a
+      few starters (listening to each other, asking for help, not shouting, taking turns) but stop
+      offering as soon as suggestions start flowing. Quantity first; you will sharpen them next.
+    keyPrompts:
+      - "What could we agree to do with each other so that everyone can work well here?"
+      - "What would make you feel able to say something difficult in this room?"
+    watchOuts:
+      - "The group produces only negatives (don't shout, don't be mean). Accept them, then ask what
+        we would do instead, and write that version up. A rule you can perform beats a rule you can
+        only break."
+      - "One or two learners supply everything. Stop taking spoken suggestions and ask everyone to
+        write one on paper first, then collect them."
+  - title: "Push each suggestion into something observable"
+    duration: 10 minutes
+    guidance: >-
+      Take suggestions one at a time and ask the group what it means in practice. What does that
+      look like? What would happen if we all did it? What would happen if we did not? This is the
+      step that turns "be respectful", which means nothing when it is broken, into something you can
+      point at. Do not do this for every item if time is short; do it thoroughly for four or five.
+    keyPrompts:
+      - "What does that actually look like in this room?"
+      - "What would happen if none of us did it?"
+    watchOuts:
+      - "Abstract virtues survive unexamined because everyone nods. If nobody can describe what it
+        looks like, it is not yet an agreement. Keep asking, or drop it."
+      - "The questioning starts to feel like interrogation of the person who suggested it. Ask the
+        whole group, not the author."
+  - title: "Write the agreements as actions and group them"
+    duration: 10 minutes
+    guidance: >-
+      Rewrite the sharpened suggestions as short action statements, in the group's own words, and
+      sort them into a few categories with a heading each. Then make the poster. Keep it short
+      enough to read at a glance: a wall of twenty agreements is a wall nobody reads. Put it
+      somewhere it will stay for the whole course.
+    keyPrompts:
+      - "Which of these are really the same agreement said twice?"
+      - "What should we call this group of agreements?"
+    watchOuts:
+      - "The list grows past what anyone will remember. Merging near-duplicates in front of the
+        group is fine and is itself a useful negotiation."
+    adaptation: >-
+      Short on time: stop here. The poster alone is worth the session, and step 4 can open the
+      following session as a warm-up.
+  - title: "Act out an agreement in threes"
+    duration: 15-20 minutes
+    guidance: >-
+      Give each three one agreement to perform. Allow 3 to 5 minutes to decide and rehearse, then
+      each group performs and the rest guess which agreement it was. Insist on performing the
+      positive behaviour rather than a comic version of its opposite: the opposite is funnier and
+      teaches the wrong thing. This is the step that moves the agreements from words into something
+      the group has physically done.
+    keyPrompts:
+      - "Which agreement do you think that was, and what told you?"
+      - "Was there anything in that which we should add to our list?"
+    watchOuts:
+      - "Groups default to acting the bad version because it gets laughs. Say up front that only the
+        positive version may be performed."
+      - "A learner is genuinely uncomfortable performing. Let them direct or narrate for their three
+        rather than appear."
+closing: >-
+  Ask two questions and keep the answers short: is there anything about kindness you practised today
+  that you want to use again, and is there anything we should add to the agreements after what we
+  have just seen? Then say plainly how the poster will be used, that you will refer back to it when
+  something goes wrong, and that anyone may call on it, including calling on you.
+learnerContent: |
+  Over this course you are going to talk about conflict, about violence, and sometimes about things
+  that have happened to you or to people you know. That only works if this room is safe, and a room
+  is not made safe by the person at the front deciding it is.
+
+  So you write the rules. What do we agree to do with each other so that everyone here can think,
+  speak, disagree and ask for help? Say it as something we **do**, not something we do not: "listen
+  without interrupting" rather than "don't interrupt".
+
+  Then you will act one out, because an agreement nobody can picture is an agreement nobody keeps.
+  This poster stays up all course. It is yours, which means you can hold each other to it, and you
+  can hold the facilitator to it too.
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    The group sets the conditions it will work under and can enforce them, including against the
+    facilitator. That is a small, real experience of the thing the course is about: people
+    negotiating the terms of their shared life rather than receiving them.
+principlesForegrounded: [safe-spaces, collaboration, builds-on-identities]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      This is the material that constructs the safe space, and it does it before the course asks
+      anyone to discuss violence or discrimination. The agreements are the thing a facilitator points
+      at in week 6 when a discussion turns raw.
+  - principle: collaboration
+    how: >-
+      The agreements are negotiated rather than issued, so the group has to reconcile competing ideas
+      of what a good room looks like before it is asked to reconcile anything harder.
+  - principle: builds-on-identities
+    how: >-
+      Learners define safety in their own terms and their own language, so cultural and gender norms
+      about what can be said, and by whom, enter the agreements rather than being overridden by them.
+competencyCodes: [FLC2, ALC2, FUS2]
+competencyDevelopment:
+  - code: FLC2
+    how: >-
+      Building the conditions in which everyone can take part is exactly this competency, and here
+      learners do it for their own group rather than describing it in the abstract.
+  - code: ALC2
+    how: >-
+      Reconciling twenty suggestions into an agreed short list, in front of everyone, is collaborative
+      decision making with a visible product.
+  - code: FUS2
+    how: >-
+      Learners have to work out what other people in the room need in order to speak, which is often
+      not what they themselves need.
+objectiveIds: [peacebuilding--o3]
+relatedSlugs: [cf-co-create-norms, pb-one-minute-name-story, pb-the-winding-road]
+links:
+  - label: "SEE Learning"
+    url: https://seelearning.emory.edu/
+    note: "Emory University's Social, Emotional and Ethical Learning programme, the source of the class-agreements approach used here."
+rights:
+  status: own-expression
+  holder: Emory University (SEE Learning)
+  basis: >-
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced. SEE Learning is a free programme; its licence terms have not been checked, so nothing of
+    theirs is quoted here.
+  note: >-
+    Licence terms for SEE Learning material are unverified. Keep this page free of their wording.
+sourceRefs:
+  - "Establishing Collaborative Norms / Class Agreements (Peacebuilding resources folder)"
+provenanceNote: >-
+  Adapted from Amala's "Establishing Collaborative Norms / Class Agreements", itself drawn from the
+  SEE Learning middle school curriculum (Emory University).

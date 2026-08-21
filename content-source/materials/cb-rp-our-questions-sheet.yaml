@@ -1,7 +1,9 @@
 # Student worksheet (resource) for the activity cb-rp-design-our-questions. Thin per §3: what the sheet
 # is and how the learner uses it. Ships no file of its own — its printable version compiles into the
-# Research Project student workbook. The learner's own set of questions to ask, grouped by the three
-# sub-questions. Learning Bridge+ (Cox's Bazar) edition.
+# Research Project student workbook, where it is a four-page spread: the "How to ask a good question"
+# teaching page, then the questions page (grouped by our four sub-questions, with the follow-up and a
+# four-point check for each), the short survey page with its tally and faces, and the who we will ask
+# page. Learning Bridge+ (Cox's Bazar) edition.
 id: cb-rp-our-questions-sheet
 slug: cb-rp-our-questions-sheet
 access: partner
@@ -9,9 +11,10 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "Our questions to ask"
 summary: >-
-  The learner's page for the questions they will ask their community, grouped under our three
-  sub-questions about the hills, with room to write or draw each question and mark whether it is for an
-  interview or the short survey.
+  The learner's pages for the questions they will ask their community: the teaching page on how to ask a
+  good question, then their own questions grouped under our four sub-questions about the hills — each
+  with the follow-up they will use and a four-point check — plus their short survey with its tally, and
+  the five different kinds of people they will ask.
 facilitationContext:
 - group
 - independent
@@ -19,21 +22,26 @@ primaryContext: independent
 learnerContent: |
   ## Our questions to ask
 
-  This is where you keep the questions your group designed. They are grouped under our three
-  sub-questions, so each question helps answer one of them:
+  These pages hold everything you need to ask your community well.
 
-  - What were our hills like before, and what are they like now?
-  - What happens to a bare hill when it rains, and in the hot sun?
-  - What do trees, grass, and roots do for the soil and for us?
+  The first page teaches you how to ask a good question — the four kinds of question, how to fix a
+  leading one, how to follow up an answer, and how a survey is different from an interview. Read it
+  again any time, even after our session. It stays in your book.
 
-  For each question, the sheet has room to:
+  Then come your own pages:
 
-  - Write or draw the question in your own words.
-  - Mark whether it is an interview question (asked of one person) or a short survey question (asked of many).
-  - Note how a person can answer if they cannot write — with a mark, a face, or a picture.
+  - **Our questions.** Your questions are grouped under our four sub-questions, so each one helps answer
+    one of them. For each question there is room to write or draw it, to note the follow-up you will say
+    afterwards, and to tick the four checks: is it open, is it about one thing, is it short, is it safe.
+  - **Our short survey.** One or two questions you will ask many people, with the tally box and the three
+    faces already drawn, so you can record answers with a mark instead of writing.
+  - **Who we will ask.** Five different kinds of people, and what each one might know that the others do
+    not.
+  - **We tried it, and we fixed it.** After you try a question on your partner, note what was confusing
+    and write your better question underneath.
 
-  Keep this page in your research book and take it with you when you go to ask. Start every time by
-  asking permission first.
+  Keep these pages in your research book and take them with you when you go to ask. Start every time by
+  asking permission first, and never write anyone's name.
 agencyContribution:
   indicators:
   - contribution-to-community
@@ -42,8 +50,9 @@ agencyContribution:
     Holding their own list of questions, the learner carries the enquiry they helped shape into the
     community — deciding what gets asked, rather than reading someone else's script.
 objectiveIds: [research-project--o2]
-relatedSlugs: [cb-rp-design-our-questions, cb-rp-go-and-gather, cb-rp-asking-permission]
+relatedSlugs: [cb-rp-design-our-questions, cb-rp-practise-interviewing, cb-rp-go-and-gather, cb-rp-asking-permission]
 provenanceNote: >-
   Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Research Project edition, paired to
   cb-rp-design-our-questions. Thin by design; its printable version compiles into the Research Project
-  student workbook rather than shipping its own file.
+  student workbook rather than shipping its own file. Rebuilt (August 2026) from a single questions page
+  into the four-page spread that carries the teaching as well as the capture.

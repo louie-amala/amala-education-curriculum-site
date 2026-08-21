@@ -1,0 +1,159 @@
+id: conflict-resolution-or-transformation
+slug: conflict-resolution-or-transformation
+access: public
+type: concept
+title: "Resolution or transformation?"
+summary: >-
+  Two ways of answering a conflict: ending something unwanted, or ending something destructive and
+  building something desired. Learners sort real outcomes into the two.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Best taught by sorting real outcomes and arguing about the borderline ones. Show of hands
+      first on whether the two words differ at all, then the sort, then the comparison table. Handed
+      over as a definition it teaches nothing.
+  - context: independent
+    how: >-
+      A learner can sort the outcomes alone and write the summary. What is lost is the disagreement
+      about the borderline cases, so ask for the argument on both sides of two items before the
+      verdict.
+educatorContent: |
+  ## The two definitions
+
+  - **Conflict resolution:** a mutual attempt to resolve the problem in such a way that relationships
+    are constructively changed through the resolution of the problem. This does not mean all the
+    emotions have been resolved, but the problem itself is resolved.
+  - **Conflict transformation:** where there is a conscious decision by both parties to build new and
+    better relationships, leading to changed attitudes and behaviour, so there is no chance of the
+    conflict recurring.
+
+  ## The comparison that does the teaching
+
+  Lederach sets the two perspectives side by side across six questions, and his table is the clearest
+  statement of the difference available. It is published in full on Beyond Intractability, linked
+  below, and the honest way to teach it is to put the source in front of learners rather than a
+  paraphrase of it.
+
+  What learners should come away holding is the shape of the contrast. Resolution asks how to end
+  something unwanted; transformation asks how to end something destructive **and** build something
+  desired. Resolution is content-centred and works on the immediate relationship where the problem
+  showed up; transformation is relationship-centred and engages the wider system that relationship
+  sits inside. Resolution works to a short horizon and wants to de-escalate; transformation works to a
+  mid or long horizon and treats conflict as ebb and flow that can be turned to constructive change.
+
+  Neither column is the good one. Say that explicitly, because the wording tempts learners to hear
+  transformation as the correct answer and resolution as a failure of ambition.
+
+  ## The sorting task
+
+  Give paired outcomes and ask which column each belongs to. The pairs matter more than the items:
+
+  - Protesters in Hong Kong are arrested so they can no longer protest. / Protesters in Hong Kong are
+    invited to a forum to discuss their concerns with the government.
+  - Rohingya refugees are allowed back home and given police protection, but are still not granted
+    equal rights as full Myanmar citizens. / Rohingya refugees are allowed back to their homes in
+    Myanmar and granted equal rights as full citizens.
+  - The Iraqi army is disbanded on the fall of Saddam Hussein during the American-led invasion. /
+    Soldiers from the defeated Iraqi army are invited into dialogue about how they might continue in
+    their roles and form part of a new democracy.
+
+  Each pair holds the variable constant and changes only whether the relationship was addressed. That
+  is what makes the distinction visible without anyone defining it first.
+
+  ## Where learners get stuck
+
+  Two places. Some conclude transformation is simply better and resolution is a failure, which is
+  wrong: ending a harm that is happening now is a real achievement, and some conflicts need resolving
+  before anything can be transformed. And some cannot see the difference at all, because in their
+  experience nothing gets resolved either way. Both are worth taking seriously rather than correcting.
+
+  ## The output
+
+  Close with a short written piece: using the sorting and the comparison, how should peacebuilders
+  approach conflict? It is the first time on the course learners are asked to state a position of
+  their own about method rather than about a case.
+learnerContent: |
+  Two definitions:
+
+  - **Conflict resolution:** both sides try to resolve the problem, and the relationship changes
+    constructively through solving it. The emotions may not all be resolved, but the problem is.
+  - **Conflict transformation:** both sides consciously decide to build new and better relationships,
+    changing attitudes and behaviour, so the conflict is unlikely to come back.
+
+  Do you think there is a real difference? Hands up.
+
+  **Now sort these outcomes:**
+
+  - Protesters in Hong Kong are arrested so they can no longer protest.
+  - Protesters in Hong Kong are invited to a forum to discuss their concerns with the government.
+  - Rohingya refugees are allowed back home and given police protection, but are still not granted
+    equal rights as full Myanmar citizens.
+  - Rohingya refugees are allowed back to their homes in Myanmar and granted equal rights as full
+    citizens.
+  - The Iraqi army is disbanded on the fall of Saddam Hussein.
+  - Soldiers from the defeated Iraqi army are invited into dialogue about how they might continue in
+    their roles and become part of a new democracy.
+
+  Be ready to explain your answers.
+
+  Then:
+
+  - Which approach thinks more long-term? Why does that matter?
+  - Which is more centred on maintaining strong relationships? Why does that matter?
+  - What is the purpose behind each set of strategies?
+  - Which do you think is more beneficial?
+
+  **Write a short summary of how you think peacebuilders should approach conflict.**
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    The distinction gives learners a test they can apply to their own project: did this end something,
+    or did it also build something? Most first project ideas are resolution dressed as transformation,
+    and being able to tell the difference is what improves them.
+principlesForegrounded: [authentic-challenges, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The sorting items are real outcomes from real conflicts, several of them ongoing, rather than
+      constructed illustrations.
+  - principle: responsible-action
+    how: >-
+      The paired items make visible that an intervention can look successful, and be successful in its
+      own terms, while leaving the people it was meant to help without rights.
+competencyCodes: [ALC3, FPS3, FLC3]
+competencyDevelopment:
+  - code: ALC3
+    how: >-
+      This is the concept the competency names, taught by discrimination between real cases rather
+      than by definition.
+  - code: FPS3
+    how: >-
+      Deciding which column an outcome belongs in requires identifying whether the underlying causes
+      were touched or only the presenting problem.
+  - code: FLC3
+    how: >-
+      The closing summary asks learners to argue a position about method and defend it to peers who
+      sorted differently.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [pb-battle-for-orange, three-track-leadership, pb-transformative-platform, pb-four-kinds-of-peace]
+links:
+  - label: "Conflict Transformation"
+    url: https://www.beyondintractability.org/essay/transformation
+    note: "Lederach's essay setting out the comparison between the resolution and transformation perspectives."
+sourceRefs:
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 5 Activity 1.3"
+rights:
+  status: own-expression
+  holder: John Paul Lederach (the resolution/transformation comparison)
+  basis: >-
+    The definitions and sorting items are Amala's, from the 2025 course planner. Lederach's six-row
+    comparison table is credited and linked rather than reproduced; the characterisation of the
+    contrast on this page is written from scratch.
+  note: >-
+    Lederach's table itself belongs in the linked source, not on this page. It appears in "The Little
+    Book of Conflict Transformation" and on Beyond Intractability.
+provenanceNote: >-
+  Definitions and sorting items are from the 2025 Peacebuilding course planner. The
+  resolution/transformation comparison is John Paul Lederach's.

@@ -1,0 +1,172 @@
+id: pb-wealth-allocation-game
+slug: pb-wealth-allocation-game
+access: public
+type: activity
+title: "The wealth allocation game"
+summary: >-
+  Four rounds of distributing coins, with the rules changing each time, until those who did well
+  early decide everything and those who did badly cannot speak.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only, and it needs enough learners for a real negotiation, ideally 10 to 20. With very
+      large groups, split into sections and run them in parallel.
+duration: 60 minutes.
+grouping: Whole group negotiating; the facilitator sets rules and does not participate.
+materialsAndPreparation:
+  - "Tokens with no value marked on them: counters, buttons, bottle tops, printed slips. Enough for one per learner in round 1."
+  - A shareable treat for the end, large enough for everyone.
+  - Paper for recording each learner's holding at the end of round 2, which round 3 depends on.
+  - Work out the four rounds' quantities for your group size before the session. It is difficult to compute them live while ignoring twenty questions.
+whatLearnersDo:
+  - Decide as a group how to distribute coins amongst themselves, four times, under four different rules.
+  - Notice that coins get scarcer and that early winners gain advantages in later rounds.
+  - Discover, in round 3, that those with no coins have no vote and may not speak.
+  - Work out what the game models and what it implies for peace and conflict.
+facilitationNotes: >-
+  The one thing to get right is your own silence. Set each round's rules, then ignore the group
+  completely: do not answer questions, do not adjudicate, do not hint. Every instinct will be to
+  help, and helping destroys the activity, because the point is what a group does when nobody is
+  refereeing. Spend the time recording what learners say to each other instead, because those
+  quotations are the best material you will have in the debrief. The round that does the real work is
+  round 3, where learners with no coins are silenced.
+steps:
+  - title: "Round 1: consensus, enough for everyone"
+    duration: 8 minutes
+    guidance: >-
+      Put out one coin per learner. Tell them the distribution must be agreed by consensus and each
+      coin is worth five points. Then stop talking. Groups usually take one each within a minute,
+      which is the point: with enough to go round and a rule requiring agreement, fairness is easy.
+    keyPrompts:
+      - "You have consensus and one coin each available. Tell me when you have decided."
+    watchOuts:
+      - "The group finishes in thirty seconds and expects praise. Say nothing and move to round 2."
+  - title: "Round 2: majority vote, half the coins"
+    duration: 10 minutes
+    guidance: >-
+      Half as many coins as learners. Distribution decided by majority vote, one vote each, coins
+      still worth five points. This is where the group first has to exclude somebody, and how it does
+      so tells you a great deal. Record the arguments used. At the end of the round, write down each
+      learner's holding: round 3 depends on it.
+    keyPrompts:
+      - "Majority vote, one vote each. Half the coins. Go."
+    watchOuts:
+      - "The group invents a rota or a lottery to keep it fair. Allow it. It is a real strategy and
+        makes an excellent contrast when round 3 removes the option."
+  - title: "Round 3: weighted votes, and silence for the poorest"
+    duration: 12 minutes
+    guidance: >-
+      Half as many coins again, worth ten points each. Votes are weighted by coins held: three coins,
+      three votes. And the rule that matters, stated flatly and without comment: anyone with zero
+      coins has no vote and may not speak during the discussion. No redistribution until the round is
+      over. Then be quiet and watch what the silenced learners do.
+    keyPrompts:
+      - "If you have no coins, you have no vote and you may not speak in this round."
+    watchOuts:
+      - "Silenced learners protest, which is the correct response and must not be shut down as
+        misbehaviour. Note it, hold the rule for the round, and return to it in the debrief."
+      - "A learner with coins chooses to speak on behalf of the silenced. Excellent. Let it happen and
+        name it later; it is the closest thing to advocacy the game produces."
+  - title: "Round 4: absolute rulers"
+    duration: 8 minutes
+    guidance: >-
+      A quarter as many coins, given directly to the two learners with the most. They may redistribute
+      or keep them entirely as they choose. They may listen to arguments; the decision is theirs
+      alone. Watch how the rest of the group behaves towards them, and how the two respond to being
+      petitioned.
+    keyPrompts:
+      - "These coins belong to you two. You may do whatever you like with them."
+    watchOuts:
+      - "The rulers give everything away to be liked. That is a fine outcome and worth asking about:
+        what would have made it harder to do?"
+  - title: "Debrief: feelings, then the model"
+    duration: 20 minutes
+    guidance: >-
+      Feelings first, and properly. How did this make you feel, and were any decisions unfair? Make
+      clear the game is over and nobody is judged for how they played it. Then the analysis: how did
+      you decide who got points, who got them in each round, what problems does this lead to, and how
+      is it relevant to peace and conflict. Read back some of what you recorded people saying.
+    keyPrompts:
+      - "How did it feel when you could not speak?"
+      - "What did having coins early get you later? Was that anything to do with merit?"
+      - "What does this have to do with peace and conflict?"
+    watchOuts:
+      - "The group treats it as a game about greedy individuals. Point at the rules: the same people
+        behaved differently under different rules, which is the finding."
+    adaptation: >-
+      Short on time: run rounds 1, 2 and 3 and skip round 4. Round 3 carries the essential finding;
+      round 4 sharpens it. Never cut the debrief to fit more rounds in.
+closing: >-
+  Give the treat to the learner with most points, then ask them to share it with everyone, and let
+  them. The group ends level and calm, and the gesture makes its own point about redistribution
+  being a choice available to whoever holds the surplus. Then name what the game modelled: wealth
+  begets wealth, decision-making power follows resources, and those with least end up without a
+  voice in the arrangements that keep them there.
+learnerContent: |
+  You are going to decide, as a group, how to share out some coins. There will be four rounds. Each
+  round has different rules, and the coins are worth points. Whoever has the most points at the end
+  wins a treat.
+
+  I will tell you the rules for each round. I will not answer questions, help, or say whether
+  something is fair.
+
+  Afterwards:
+
+  - How did this make you feel? Were any decisions unfair?
+  - How did you decide who got the points?
+  - Who ended up with the points in each round, and why?
+  - What happened when some people could not vote or speak?
+  - **What problems could this lead to in the real world? What has it got to do with peace and conflict?**
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Being silenced in round 3, and noticing that it followed from an earlier round rather than from
+    anything you did, is how learners come to see structural disadvantage as cumulative rather than
+    deserved. That is the analysis a peacebuilder needs before they can argue about who is at a table.
+principlesForegrounded: [authentic-challenges, safe-spaces, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The rules model real features of international decision-making, weighted voting and accumulated
+      advantage, and the group has to live inside them rather than read about them.
+  - principle: safe-spaces
+    how: >-
+      The feelings-first debrief and the shared treat at the end are what bring a group back together
+      after a game designed to divide it, and neither is optional.
+  - principle: responsible-action
+    how: >-
+      Learners who end up with power over others' outcomes have to decide what to do with it, in
+      front of everyone, and then account for the choice.
+competencyCodes: [FPS3, ALC2, FLC1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The game makes the mechanism visible: early advantage compounds into later control, which
+      learners can then look for in real distributions.
+  - code: ALC2
+    how: >-
+      Every round is a group decision under a different decision rule, so learners experience how much
+      the rule shapes the outcome.
+  - code: FLC1
+    how: >-
+      Round 4 hands two learners unaccountable power and asks them to use it in public, which is
+      ethical action with an audience.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [pb-sharing-the-earths-resources, pb-tower-of-arzenia, pb-power-imbalances, cf-debrief-a-simulation]
+links:
+  - label: "Wealth Inequality Game"
+    url: http://activelearningps.com/2014/05/06/wealth-inequality-game/
+    note: "The original write-up of the four-round game by Amy Rosen."
+rights:
+  status: own-expression
+  holder: Amy Rosen, Active Learning in Political Science
+  basis: >-
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced. The original blog post is linked.
+sourceRefs:
+  - "Wealth Allocation Inequality Game (Peacebuilding resources folder)"
+provenanceNote: >-
+  Adapted from Amala's "Wealth Allocation Inequality Game", itself from Active Learning in Political
+  Science. Extra credit in the original is replaced here with a shared treat.

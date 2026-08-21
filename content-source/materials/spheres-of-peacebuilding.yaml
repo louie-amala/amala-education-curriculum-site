@@ -1,0 +1,128 @@
+id: spheres-of-peacebuilding
+slug: spheres-of-peacebuilding
+access: public
+type: concept
+title: "The spheres of peacebuilding"
+summary: >-
+  Four overlapping domains in which peacebuilding work happens, used to check that an idea is not
+  acting in only one of them.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Best taught by sorting: give the group a list of everyday actions and ask which sphere each one
+      belongs to, allowing more than one. The disagreements are the point, and the overlaps become
+      obvious from the arguing rather than from the diagram.
+  - context: independent
+    how: >-
+      A learner can sort the actions alone and then test their own project idea against the four
+      spheres. What is lost is the disagreement about overlaps, so ask for one action placed in three
+      spheres with reasons for each.
+educatorContent: |
+  Peacebuilding work is usually mapped into four overlapping spheres. The exact naming varies between
+  sources; what matters for teaching is that they are distinct kinds of work and that they overlap.
+
+  - **Personal or relational:** work on how individuals think, feel and behave towards each other:
+    trauma work, dialogue, contact between groups, changing how one person treats another.
+  - **Cultural:** work on the beliefs, stories, art, religion and language through which a society
+    makes sense of a conflict: shared history, media, education, the arts.
+  - **Structural:** work on how a society is organised: institutions, laws, distribution of
+    resources, who has access to what.
+  - **Political or governance:** work on how decisions are made and by whom: representation,
+    accountability, participation.
+
+  ## Why teach it
+
+  Two reasons.
+
+  **It maps onto the forms of violence.** Direct violence is met in the personal sphere, structural
+  violence in the structural and political spheres, cultural violence in the cultural sphere. Ask
+  learners directly how the spheres link to the types of violence they have already studied. That
+  connection is the point of the concept and it is worth the whole session.
+
+  **It is a completeness check.** A learner's project idea will nearly always sit in a single sphere,
+  usually the personal one, because that is the sphere an individual can act in. Naming the other
+  three does not oblige them to work in all four; it obliges them to notice what their idea leaves
+  untouched, and to say what would have to happen there for the change to hold.
+
+  ## How to run it
+
+  Give a list of ordinary actions and ask which sphere each sits in, allowing more than one. Mote Oo's
+  book, linked below, carries a good ready-made set covering things like joining a protest, asking a
+  religious leader what the texts say about war, telling friends to stop making discriminatory jokes,
+  and providing counselling after a conflict. Take the set from there, or write actions that your own
+  learners would recognise, which is better still.
+
+  Most such actions belong in more than one sphere, and learners who insist on one answer per item
+  have missed the structure.
+
+  ## The follow-on task
+
+  Take an example of violence from the learner's own context and design a response that touches all
+  four spheres, then justify why each part counts as peacebuilding. It is demanding and it produces
+  the first genuinely systemic thinking most learners do on the course.
+learnerContent: |
+  Peacebuilding happens in four overlapping spheres:
+
+  - **Personal and relational:** how people think, feel and behave towards each other.
+  - **Cultural:** the beliefs, stories, art, religion and language a society uses to make sense of
+    a conflict.
+  - **Structural:** how society is organised: laws, institutions, who gets access to what.
+  - **Political:** how decisions get made, and by whom.
+
+  Take a set of everyday actions and decide which sphere each one is in. **Most belong in more than
+  one.**
+
+  Then:
+
+  - How do these spheres link to the **types of violence** you have already studied?
+  - Take one example of violence from your own context. Design a response that touches **all four
+    spheres**. Write 100 words justifying why each part of it counts as peacebuilding.
+  - Which sphere does your own project idea sit in? What is it leaving untouched?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners discover that the sphere they can act in personally is one of four, which does two
+    things at once: it stops them overclaiming for a small intervention, and it stops them dismissing
+    it, because the personal sphere is genuinely one of the four rather than the consolation prize.
+principlesForegrounded: [responsible-action, authentic-challenges]
+principleAlignment:
+  - principle: responsible-action
+    how: >-
+      Checking an idea against all four spheres is how learners find what their intervention leaves
+      in place, which is the difference between a considered project and an enthusiastic one.
+  - principle: authentic-challenges
+    how: >-
+      The follow-on task requires designing a four-sphere response to a real example of violence from
+      the learner's own context.
+competencyCodes: [FSI2, FPS3, APS1]
+competencyDevelopment:
+  - code: FSI2
+    how: >-
+      Designing a response that reaches all four spheres forces a wider range of ideas than learners
+      generate unprompted.
+  - code: FPS3
+    how: >-
+      The spheres map onto the forms of violence, so placing an action means saying which contributing
+      factor it addresses.
+  - code: APS1
+    how: >-
+      Asking what an intervention leaves untouched in the other three spheres is how learners start
+      noticing consequences they had not designed for.
+objectiveIds: [peacebuilding--o2]
+relatedSlugs: [pb-profile-of-a-peacebuilder, three-track-leadership, galtungs-violence-triangle, pillars-of-positive-peace]
+links:
+  - label: "Mote Oo Education: Peace"
+    url: https://www.moteoo.org/en/
+    note: "The Mote Oo peace textbook the spheres material in the Amala pack is drawn from. Free teaching materials, developed in Myanmar."
+rights:
+  status: linked-not-reproduced
+  holder: Mote Oo Education
+  basis: >-
+    Reached through the 2025 planner, which sources it from Mote Oo's book on peace. Mote Oo's
+    materials, including the sorting set, are not reproduced here: this page explains the four spheres
+    in Amala's words, argues where they fit the course, and links to Mote Oo.
+  note: >-
+    Mote Oo publish free resources but state no licence, so link rather than copy. Do not paste their
+    sorting list onto this page.

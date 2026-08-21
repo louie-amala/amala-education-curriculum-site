@@ -1,0 +1,77 @@
+id: cf-track-who-speaks
+slug: cf-track-who-speaks
+access: public
+type: educator-move
+title: "Make participation visible"
+summary: >-
+  Pass a ball of string between speakers, or map the talk on a board. The pattern of who speaks
+  becomes something the group can see and change.
+tags:
+  - id: learning-facilitation
+    how: >-
+      When facilitating, hand the tracking over to the group rather than policing it yourself, and
+      let the picture do the correcting.
+  - id: improving-practice
+    how: >-
+      As a way of examining your own facilitation: a mapped discussion shows how much of it you were
+      driving, which is usually more than it felt like.
+  - id: dialogue-climate
+  - id: reflection-self-assessment
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  Pose a question, and pass a ball of string to whoever speaks. Each speaker holds their part of the
+  thread and throws the ball on. By the end, a web has formed between the people who spoke, and the
+  people who did not are visibly outside it.
+
+  The move does two different jobs depending on when you use it.
+
+  **As a way of shifting who talks.** Learners can see, without anyone naming it, that four people
+  are holding most of the string. That is a far better correction than asking quieter learners to
+  contribute more, because it is not addressed to anyone. Name the two options plainly: step up if
+  you have not spoken, step back if you have spoken a lot.
+
+  **As a way of stepping back yourself.** If learners pass the string themselves, the discussion stops
+  routing through you. Decide in advance whether you are in the web at all, and tell them, because a
+  facilitator who is unclear about this ends up holding the ball.
+
+  At the end of a course it does something else again: everyone throws the string to a person whose
+  contribution helped their learning and says how. The web then represents what the group built
+  together, which is a better closing than a summary.
+
+  Practicalities. It only works in a group small enough to sit in a circle. Remind people to hold the
+  thread tightly. And if any learner cannot hold or throw, do not adapt around them awkwardly: map the
+  same discussion on a board instead, writing names in a circle and drawing lines as people speak,
+  which produces exactly the same picture.
+agencyContribution:
+  indicators:
+    - contribution-to-community
+  how: >-
+    The group sees its own pattern of participation and adjusts it without being instructed to, which
+    is the group taking responsibility for who gets heard. That is a small rehearsal of the thing a
+    peacebuilder does at larger scales.
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The web makes visible that a fuller understanding was built from many contributions, and shows
+      exactly whose were missing.
+  - principle: safe-spaces
+    how: >-
+      The correction is addressed to the pattern rather than to any individual, so a quiet learner is
+      invited in without being singled out.
+links:
+  - label: "Web of Connectedness (University of Michigan)"
+    url: https://sites.lsa.umich.edu/inclusive-teaching/2017/08/16/web-of-connectedness/
+    note: "Michigan's own write-up of the protocol, with implementation notes and accessibility alternatives."
+relatedSlugs:
+  - cf-no-hands-up
+  - cf-wait-time
+  - cf-think-pair-share
+  - cf-charged-discussions
+rights:
+  status: linked-not-reproduced
+  holder: University of Michigan, LSA Inclusive Teaching
+  basis: >-
+    The protocol is Michigan's and is not reproduced here. This page names the move, says what it is
+    for and when to reach for it, and links to Michigan's own write-up for the running detail.

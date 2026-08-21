@@ -1,0 +1,79 @@
+id: cf-check-in-and-check-out
+slug: cf-check-in-and-check-out
+access: public
+type: educator-move
+title: "Check in to open, check out to close"
+summary: >-
+  Two minutes at each end where everyone says something. It readies a group for what is coming and
+  tells you who left the room carrying something.
+tags:
+  - id: learning-facilitation
+    how: >-
+      When facilitating, open with a short round that everyone answers and close with one that says
+      how they are leaving, and listen to the check-out rather than treating it as a formality.
+  - id: wellbeing
+    how: >-
+      As a mentor or facilitator, the check-out is often the only place you will find out that a
+      session landed badly on somebody, so treat what you hear there as information to act on.
+  - id: dialogue-climate
+facilitationContext:
+  - group
+  - one-to-one-mentoring
+primaryContext: group
+educatorContent: |
+  A check-in is a short round at the start where every person says something. A check-out is the same
+  at the end. Between them, they do three jobs that nothing else does as cheaply.
+
+  **Everyone's voice enters the room early.** A person who has spoken once in the first two minutes
+  is far more likely to speak again. This is the least effortful intervention available for a quiet
+  group.
+
+  **It gets people into the right frame for what is coming.** The prompt should suit the session:
+  something light before a difficult topic, something reflective before analytical work, something
+  physical if the group has been sitting.
+
+  **The check-out tells you who is leaving with something.** After a simulation, a difficult
+  discussion, or an activity about violence, this is where you find out that someone is not fine. A
+  check-out where everyone says one word about how they are leaving takes ninety seconds and is worth
+  more than any written evaluation.
+
+  Practicalities. Keep the prompt to something answerable in one sentence, and answer it yourself
+  first so the length is set. Passing must be genuinely allowed, though most people who pass in week
+  one will answer by week three. Vary the prompt, because the same question every session becomes
+  furniture.
+
+  Not every session needs one, and a check-in performed out of habit is worse than none. Sessions
+  that reliably need one: the first, anything on personal experience, anything after a break, and
+  anything you know is going to be hard.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    A round where everyone speaks establishes that every person's presence is registered, and the
+    check-out gives learners a sanctioned place to say that something was difficult without having to
+    raise it themselves.
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      The check-out is the main mechanism for noticing that a session landed badly on someone, and the
+      check-in makes speaking normal before anything hard is asked.
+  - principle: collaboration
+    how: >-
+      Hearing every voice at the start of a session changes who contributes during it, particularly in
+      groups where a few learners would otherwise carry the discussion.
+relatedSlugs:
+  - cf-co-create-norms
+  - cf-trauma-sensitive
+  - cf-debrief-a-simulation
+  - mentor-wellbeing-check-ins
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced. Generalised from Amala's own activity template.
+sourceRefs:
+  - "Check In Activities (Peacebuilding resources folder)"
+  - "Amala activity template, check-in and debrief sections (Peacebuilding resources folder)"
+provenanceNote: >-
+  Generalised from the check-in guidance built into Amala's peacebuilding activity template and its
+  accompanying bank of check-in activities.

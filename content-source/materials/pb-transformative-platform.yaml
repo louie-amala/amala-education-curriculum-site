@@ -1,0 +1,178 @@
+id: pb-transformative-platform
+slug: pb-transformative-platform
+access: public
+type: activity
+title: "Building a transformative platform for a conflict you know"
+summary: >-
+  Learners map the perspectives in a conflict from their own community, then design the conditions
+  under which those parties could actually talk.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners who know the same community argue about whose perspective has been
+      missed, which is where the map improves. In a mixed group, each learner maps their own conflict
+      and pairs read each other's for gaps.
+  - context: independent
+    how: >-
+      Works alone and makes a strong independent task, since the learner knows the conflict best. What
+      is lost is the outside reader who spots the missing party, so require the learner to show the
+      map to one person from the community before finishing it.
+  - context: one-to-one-mentoring
+    how: >-
+      A good mentoring session when a learner is converging on a project. The mentor's only job is to
+      keep asking who is not on the map and whose ground the conversation would be on.
+duration: 60 minutes.
+grouping: Individually or in pairs from the same community.
+materialsAndPreparation:
+  - Large paper and pens.
+  - The four features of a transformative platform, available but introduced only after learners have derived them or met them in an earlier activity.
+  - Learners need a conflict in mind. The identities map from earlier in the course is the natural source.
+whatLearnersDo:
+  - Choose a conflict their community is facing.
+  - Represent the multiple perspectives of the different stakeholders in it, as a picture, diagram or table.
+  - Work through what each feature of a transformative platform would mean for this conflict.
+  - Judge what is missing and what could realistically be arranged.
+facilitationNotes: >-
+  The one thing to get right is that the features are turned into specifics. "Equal power dynamics"
+  as an aspiration is worthless; "the camp committee would have to meet the block representatives
+  somewhere neither controls, with someone chairing who is not from either" is a plan. Push every
+  general answer once, with the question of what it would actually mean here. The most productive
+  discovery is usually a missing party: someone affected by the conflict who would not be in the
+  room under any arrangement the learner has imagined.
+steps:
+  - title: "Choose a conflict and describe it"
+    duration: 10 minutes
+    guidance: >-
+      Learners pick a conflict their community is facing and write a description, including which
+      types of violence are present. The identities map from earlier in the course is the obvious
+      source, and a learner who has one should use a line from it. Insist the conflict is real and
+      local; a national conflict produces a plan nobody can act on.
+    keyPrompts:
+      - "What conflict is your community actually facing? Not the country. The community."
+      - "What kinds of violence are in it?"
+    watchOuts:
+      - "Learners pick something enormous. Ask for the version of it that exists on their street."
+  - title: "Map the perspectives"
+    duration: 15 minutes
+    guidance: >-
+      A picture, diagram or table representing the multiple perspectives of the different
+      stakeholders. What each party wants, and why. Then the question that improves every map: who is
+      affected by this and is not on your page? Give them time to add the answers.
+    keyPrompts:
+      - "Who is affected by this and is not on your map?"
+      - "What would that party say if they were here?"
+    watchOuts:
+      - "Maps have two parties and a villain. Ask who benefits from the conflict continuing, and who
+        is harmed without being involved."
+  - title: "Turn each feature into something specific"
+    duration: 20 minutes
+    guidance: >-
+      Take the four features one at a time and ask what each would mean for this conflict. Open
+      dialogue: what concerns could not currently be voiced, and what would have to change? A voice
+      for all parties: who is missing, and how would they be brought in? Neutral ground: where, and
+      who owns it now? Equal power: who could currently end the conversation unilaterally?
+    keyPrompts:
+      - "Where would this conversation happen, and who owns that place?"
+      - "Who could walk out and end it? What would change that?"
+    watchOuts:
+      - "Answers stay at the level of the feature. Ask what it would mean here, by name and by place,
+        every time."
+      - "A learner concludes it is impossible. Often partly true. Ask which one feature could be
+        arranged, and start the plan there."
+    adaptation: >-
+      Short on time: work two features rather than four, and choose neutral ground and equal power,
+      which are the two learners most often overlook.
+  - title: "Read the plan back"
+    duration: 15 minutes
+    guidance: >-
+      Learners present their platform to a partner or small group, who ask two questions: who is
+      still missing, and what would make this fail? Adversarial reading is the point. A platform that
+      survives two hostile questions is worth taking into a project; one that does not needs another
+      pass.
+    keyPrompts:
+      - "Who is still not in this room?"
+      - "What is the most likely way this falls apart?"
+    watchOuts:
+      - "Readers are polite and ask nothing hard. Give them the two questions in writing and require
+        both."
+closing: >-
+  Ask each learner to name the one condition they could actually create, and to say who they would
+  have to speak to first. Then say the thing the material exists for. A platform is not a meeting. It
+  is the set of conditions under which a different conversation becomes possible, and arranging even
+  one of them is real peacebuilding work at track three.
+learnerContent: |
+  **Pick a conflict your community is facing.** A real one, and a local one.
+
+  Describe it, including what kinds of violence are in it.
+
+  **Map the perspectives.** A picture, a diagram or a table showing each stakeholder and what they
+  want, and why. Then ask: who is affected by this and is **not on my page**? Add them.
+
+  **Now design the platform.** For each feature, say what it would mean for this conflict
+  specifically. Names and places, not principles.
+
+  | Feature of a transformative platform | What this might look like for my conflict |
+  |---|---|
+  | Open dialogue, so all concerns can be voiced | |
+  | A voice for all parties | |
+  | Talks held on neutral ground | |
+  | Equal power dynamics | |
+
+  Then have someone read it and ask you two questions: **who is still missing**, and **what would
+  make this fail?**
+
+  Last: which one of these conditions could you actually help create, and who would you have to
+  speak to first?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    The learner ends with a named condition they could help arrange and a named person to approach.
+    That is a smaller ambition than solving the conflict and a far more achievable one, and it is how
+    a track-three peacebuilder actually starts.
+principlesForegrounded: [authentic-challenges, responsible-action, collaboration]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The conflict is one the learner's community is actually facing, and the output is a plan for
+      conditions that could really be arranged there.
+  - principle: responsible-action
+    how: >-
+      The missing-party question and the adversarial read are both checks against a well-meant plan
+      that would exclude or expose someone.
+  - principle: collaboration
+    how: >-
+      The plan is stress-tested by a peer whose only job is to find its holes, which is more useful
+      than encouragement at this stage.
+competencyCodes: [FSI2, FUS2, ALC2, APS1]
+competencyDevelopment:
+  - code: FSI2
+    how: >-
+      Designing conditions for a specific conflict, under four constraints, is idea generation
+      disciplined by criteria rather than open brainstorming.
+  - code: FUS2
+    how: >-
+      The perspectives map requires reconstructing what each party wants and why, including parties
+      the learner may be opposed to.
+  - code: ALC2
+    how: >-
+      A platform is precisely an arrangement that lets others contribute to a decision, which is what
+      this competency describes.
+  - code: APS1
+    how: >-
+      The adversarial read asks what would make the plan fail, which surfaces consequences the
+      designer did not intend.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [conflict-resolution-or-transformation, pb-paper-factory-simulation, pb-identities-in-your-community, stakeholder-community-mapping]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced.
+sourceRefs:
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 5 Activity 2.5"
+  - "The West Bank Case Study (Peacebuilding resources folder)"
+provenanceNote: >-
+  From the 2025 Peacebuilding course planner, "Applying your learning to a conflict relevant to you".
+  The four features are the planner's own, derived there from the West Bank case study.

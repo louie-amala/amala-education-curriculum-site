@@ -1,0 +1,49 @@
+id: three-track-peacebuilding
+slug: three-track-peacebuilding
+access: public
+term: Three tracks of peacebuilding
+category: content
+matchPhrases:
+- three track
+- three tracks
+- lederach's pyramid
+- track one
+- track two
+- track three
+definition: >-
+  John Paul Lederach's model of peacebuilding leadership at three levels: top-level negotiation,
+  middle-range facilitation, and grassroots work in communities.
+explainer: |
+  Lederach arranged peacebuilding leadership as a pyramid with three tracks.
+
+  - **Track 1, top-level leadership** — military, political and religious leaders with high
+    visibility. Their work is high-level negotiation, ceasefires, and settlements, often led by a
+    single prominent mediator. Few people, high profile.
+  - **Track 2, middle-range leadership** — respected figures in sectors and institutions: academics,
+    NGO leaders, leaders of industry, intellectuals. Their work is problem-solving workshops,
+    training in conflict resolution, and peace commissions. They are connected upwards and downwards,
+    which is why Lederach considered this the most strategically useful level.
+  - **Track 3, grassroots leadership** — local leaders, community elders, health officials, camp
+    leaders, teachers. Their work is local peace commissions, grassroots training, prejudice
+    reduction, psychosocial and post-war trauma work. Many people, little visibility.
+
+  Two points do the teaching. The **media focuses almost entirely on track 1**, which gives the
+  impression that peacebuilding is what famous people do at tables, and quietly excludes learners
+  from the category. And **track 3 is where most learners actually sit** — as students, community
+  members, teachers — so recognising it as real peacebuilding is often the moment the course becomes
+  personal.
+
+  The model also carries a warning: settlements made only at the top rarely hold, because the
+  relationships that sustain peace live at the levels below.
+furtherReading:
+- title: "Building Peace: Sustainable Reconciliation in Divided Societies"
+  url: https://www.usip.org/publications/1998/03/building-peace
+  source: United States Institute of Peace
+  note: Lederach's book, where the pyramid of actors and approaches is set out.
+examples:
+- A camp leader running dialogue sessions between two neighbourhoods (track 3 work)
+nonExamples:
+- Assuming peacebuilding only counts when a treaty is signed by heads of state
+useInContext: >-
+  Learners place peacebuilders they can name onto the three tracks, then locate themselves.
+relatedTermIds: [peacebuilder, conflict-transformation, positive-peace]

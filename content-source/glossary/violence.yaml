@@ -1,0 +1,45 @@
+id: violence
+slug: violence
+access: public
+term: Violence
+category: content
+matchPhrases:
+- violence
+definition: >-
+  Anything that stops people from reaching what they could have been. Galtung defines it as the
+  cause of the gap between the actual and the potential, which is far wider than physical harm.
+explainer: |
+  Most people, asked to define violence, describe a fist or a weapon. Johan Galtung's definition is
+  deliberately wider: violence is present when human beings are influenced so that their actual
+  realisation falls below their potential realisation. If someone dies of a disease that is curable
+  elsewhere, or is denied schooling their neighbours receive, violence is at work even though no one
+  struck a blow.
+
+  This wider definition is the hinge on which a peacebuilding course turns. It forces the question
+  "what could this person's life have been?" and makes the answer measurable against what it actually
+  is. That gap is the object of study. Galtung then sorts violence into three connected forms, held
+  together by the [violence triangle](/glossary/violence-triangle): [direct](/glossary/direct-violence),
+  [structural](/glossary/structural-violence) and [cultural](/glossary/cultural-violence).
+
+  Keep violence firmly distinct from [conflict](/glossary/conflict). Conflict is a clash of needs or
+  goals and is neutral, even necessary. Violence is one possible response to conflict, and always a
+  destructive one. Learners who blur the two conclude that conflict must be suppressed; learners who
+  separate them can look for responses that transform a conflict instead.
+furtherReading:
+- title: "Galtung, J. — Violence, Peace, and Peace Research (1969)"
+  url: https://journals.sagepub.com/doi/10.1177/002234336900600301
+  source: Journal of Peace Research
+  note: Where the actual/potential definition and the direct/structural distinction are set out.
+- title: "Galtung, J. — Cultural Violence (1990)"
+  url: https://journals.sagepub.com/doi/10.1177/0022343390027003005
+  source: Journal of Peace Research
+  note: Adds the third form, culture as what makes the other two look acceptable.
+examples:
+- A minority group denied identity cards, so they cannot travel, marry, or work as others can
+- One person striking another
+nonExamples:
+- Two neighbours disagreeing loudly about a boundary and then negotiating it (that is conflict, not violence)
+useInContext: >-
+  Learners collect examples of violence from their own context and sort them by form, discovering
+  that the harder forms to see are usually the ones producing the visible harm.
+relatedTermIds: [violence-triangle, direct-violence, structural-violence, cultural-violence, conflict, peace]

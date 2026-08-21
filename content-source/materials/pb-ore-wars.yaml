@@ -1,0 +1,143 @@
+id: pb-ore-wars
+slug: pb-ore-wars
+access: public
+type: resource
+title: "Ore Wars (published simulation): using it in this course"
+summary: >-
+  Two planets sell the same rare mineral to one buyer and may not speak to each other. How it fits
+  the Peacebuilding course, and where to download it free.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only. Best with two teams of three to six. Above twelve learners the author recommends
+      running two games at once rather than enlarging the teams, which matters: the pressure comes
+      from a small team having to hold a line together.
+materialsAndPreparation:
+  - The simulation itself. Download it free from SSRN, linked below. It carries the full process, the debrief and the three participant forms.
+  - The three forms, printed from the download.
+  - Two containers to pass written offers between the teams. The author suggests matchboxes wrapped in foil; folded paper thrown across the room works.
+  - Two separate rooms if possible, or one large room with a screen between the teams.
+  - Time. The author allows 100 to 110 minutes, of which 30 is debrief.
+educatorContent: |
+  Ore Wars is a published two-team simulation by Noam Ebner. Two planets each mine the same rare
+  mineral and sell it to a single buyer, an Empire that must buy and has no other supplier. Each round
+  a team decides, in private, what price to ask. What they earn depends on what the other team asked.
+  The teams may not communicate: offers pass between them written on slips, and the facilitator fines
+  any attempt to talk.
+
+  It is an iterated prisoner's dilemma, and the author states its learning goals plainly: the effects
+  of communication on conflict escalation and de-escalation, the dilemma between cooperating and
+  competing, and the fragile nature of trust and how it might be built and preserved.
+
+  ## Why it belongs in this course, and where
+
+  Ore Wars does one thing better than any other activity in this bank: it isolates **communication**
+  as a variable. Everything else in the course that involves parties in conflict lets them talk. Here
+  they cannot, and learners discover how much of what they took for negotiation was simply the ability
+  to explain themselves. What passes between the teams instead is a number on a slip of paper, which
+  each side reads as friendly or hostile with no way to check.
+
+  That makes it the natural partner to Glasl's escalation model. Learners can watch a relationship
+  descend a few steps in real time, driven by nothing but inference from ambiguous signals, and then
+  ask at which round it could have been stopped. Its slot is alongside the escalation work, or between
+  that and the conflict transformation week.
+
+  It also pairs with, rather than duplicates, the Pasta Wars. Pasta Wars has four parties and asks
+  whether cooperation can be built and held; Ore Wars has two parties and asks what happens to trust
+  when the channel is taken away.
+
+  ## What to protect in the debrief
+
+  The author allows 30 minutes and the four-pass structure used across the other simulations here fits
+  well. Three things worth holding:
+
+  - **What did you think the other side meant?** Every round produced an interpretation from almost no
+    evidence. Get those interpretations on the board and compare them with what the other team says it
+    intended.
+  - **When did it turn?** Nearly every run has a round where the relationship changes. Find it and ask
+    what happened.
+  - **What would one sentence have been worth?** Learners usually say they only needed to say one
+    thing. Ask what it was, and why the conditions that would have let them say it did not exist.
+
+  ## Getting it
+
+  The author publishes the full pre-print free on SSRN, marked "use freely for educational and
+  research purposes". It contains everything needed: setup, process, debrief and the three forms.
+  Download it and run it from there. Amala does not reproduce the forms or the payoff structure here.
+learnerContent: |
+  Your team represents a planet. Your planet mines Erandum, a rare mineral, and sells it to the
+  Empire. So does the other planet. The Empire must buy, and it can only buy from the two of you.
+
+  Each month, you decide one thing: what price to ask.
+
+  **You may not communicate with the other team.** You can talk within your own team. Between teams,
+  only the offer slips pass, and there is a fine if you try anything else.
+
+  Afterwards:
+
+  - What did you think the other side was doing? What made you think it?
+  - Ask them what they actually intended. How close were you?
+  - **Which round did it turn on?** What happened?
+  - What one sentence would you have said to them if you could have? Why couldn't you?
+  - What does that tell you about conflicts where the parties have stopped talking?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners experience how fast a relationship degrades when the only information available is
+    ambiguous behaviour, and how much they invented about the other side to fill the gap. That is the
+    strongest possible case for the thing peacebuilders actually do, which is restoring a channel.
+principlesForegrounded: [collaboration, authentic-challenges, safe-spaces]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The good outcome requires a cooperation the rules make almost impossible to arrange, which is
+      what makes learners notice the conditions cooperation depends on.
+  - principle: authentic-challenges
+    how: >-
+      Escalation happens for real, from real inference under real uncertainty, rather than being
+      described.
+  - principle: safe-spaces
+    how: >-
+      The parties are two invented planets, so a group can experience suspicion and betrayal without
+      any of it landing on a real division between them.
+competencyCodes: [FUS2, ALC3, FLC3, FPS1]
+competencyDevelopment:
+  - code: FUS2
+    how: >-
+      Every round requires learners to model the other team's reasoning from a single number, and the
+      debrief tells them how wrong they were.
+  - code: ALC3
+    how: >-
+      The simulation is escalation and de-escalation made visible, and learners can locate the round at
+      which transformation was still available.
+  - code: FLC3
+    how: >-
+      Removing communication and then asking what one sentence would have been worth is a sharp way to
+      show what communication actually does in a conflict.
+  - code: FPS1
+    how: >-
+      A strategy set in round one stops fitting by round four, and teams that cannot adapt lose.
+objectiveIds: [peacebuilding--o1, peacebuilding--o3]
+relatedSlugs: [pb-pasta-wars, glasls-conflict-escalation, pb-escalation-case-studies, pb-the-mm-game, cf-debrief-a-simulation]
+links:
+  - label: "Ore Wars: A Simulation-Game for Small Groups (free download, SSRN)"
+    url: https://ssrn.com/abstract=2757569
+    note: "The complete pre-print: setup, process, debrief and the three participant forms. Marked for free educational and research use."
+rights:
+  status: linked-not-reproduced
+  holder: Noam Ebner
+  basis: >-
+    The simulation is published and remains the author's. Nothing of it is reproduced here: this page
+    describes what it does, argues where it fits the course, and links to the author's own free
+    download. All wording is Amala's own. The pre-print is marked "use freely for educational and
+    research purposes", which is a grant to use it, not to republish it.
+  note: >-
+    Do not copy the participant forms or the price and payoff structure onto this page. Send
+    facilitators to the SSRN download.
+sourceRefs:
+  - "Ebner, N. (2010). Ore Wars: A Simulation-Game for Small Groups. In E. Biech (Ed.), The 2010 Pfeiffer Annual of Training. San Francisco: Pfeiffer. Pre-print at https://ssrn.com/abstract=2757569"
+provenanceNote: >-
+  Suggested by Louie in August 2026 as a link-out addition to the Peacebuilding course. This page is
+  written from scratch as a pointer to the author's published simulation.

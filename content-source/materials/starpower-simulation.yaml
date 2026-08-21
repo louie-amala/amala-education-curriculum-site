@@ -1,0 +1,145 @@
+id: starpower-simulation
+slug: starpower-simulation
+access: public
+type: resource
+title: "StarPower (published simulation): using it in this course"
+summary: >-
+  A trading game that quietly sorts players into classes, then hands the winners the power to
+  rewrite the rules. Where it fits, and how to obtain it.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only, designed for 12 to 35 players. It runs face to face with no computer, which makes it
+      one of the few simulations here that works in a fully offline setting.
+materialsAndPreparation:
+  - The published kit, from Simulation Training Systems. It is a commercial product and must be bought. Details below.
+  - No technology. Chips or tokens, the printed materials from the kit, and a room people can move around in.
+  - Time for a long debrief, and the nerve not to intervene while the game runs.
+  - Read the safeguarding note below before deciding to run it.
+educatorContent: |
+  StarPower was designed by R. Garry Shirts in 1969 and has been played by an estimated three million
+  people. Players trade tokens to build a score. On the basis of those scores they are sorted into
+  groups, and the highest-scoring group is then given the power to change the rules of the game as
+  they see fit.
+
+  What happens next is the simulation. The winners almost always change the rules to entrench their
+  own position, and they almost always believe they have earned the right to. The sorting that put
+  them there was substantially chance.
+
+  ## Why it belongs in the curriculum, and where
+
+  **Making Societal Change** opens by asking learners to recognise and analyse how systems, structures
+  and policies shape people's lives. StarPower does something none of our other materials manage: it
+  lets learners *hold* structural power and use it, and then examine what they did. Reading about how
+  the powerful entrench themselves is one thing. Watching yourself do it within forty minutes, having
+  believed throughout that you were being fair, is a different order of learning. That is objective 1.
+
+  **Ethical Leadership** takes objective 1 as developing moral principles to guide personal behaviour
+  and leadership. StarPower is a test of exactly that, administered before the principles are stated
+  rather than after, which is what makes the answers honest.
+
+  ## What to protect in the debrief
+
+  - **Deal with the feelings first, and thoroughly.** The bottom group experiences genuine humiliation
+    and the top group genuine embarrassment. Name that the sorting was rigged by chance and by the
+    facilitator, and say it plainly, because the top group will not believe it unaided.
+  - **Ask the top group what they thought they were doing.** Not to shame them. Almost everybody does
+    the same thing, and the useful finding is how reasonable it felt from inside.
+  - **Ask the bottom group what they stopped doing.** Withdrawal, resignation and rule-breaking all
+    appear, and each is a recognisable response to a structure people cannot win in.
+  - **Connect it out.** Which rules in your own community were written by people who benefit from them?
+    That question is the bridge from the game to a real analysis.
+
+  ## A note on running it
+
+  StarPower is powerful and can go badly. It manufactures real inequality in a real room, which means
+  it needs an established group, agreed ground rules and a facilitator with time to repair afterwards.
+  Do not run it in week one, and do not run it if you cannot give the debrief as long as the game.
+  Amala's class agreements material is the right groundwork.
+
+  ## Getting it
+
+  Unlike most of this list, StarPower is not free: it is a commercial kit from Simulation Training
+  Systems and has to be bought. It is worth the money for a partner running Making Societal Change or
+  Ethical Leadership repeatedly, and less so for a single cohort. The same publisher's BaFa BaFa,
+  which already appears in Amala's Artistic and Cultural Expression pack, is its cross-cultural
+  counterpart.
+learnerContent: |
+  You will trade tokens with other players to build up a score. Trade well and your score goes up.
+
+  After a round, everyone will be sorted into groups based on their scores.
+
+  Then the game continues, and something will change.
+
+  Afterwards:
+
+  - How did you end up in the group you ended up in? How much of that was you?
+  - If you finished at the top: what did you do with the power you were given? How did it feel at the time?
+  - If you finished at the bottom: what did you stop doing, and why?
+  - Did anyone break the rules? What made that reasonable?
+  - **Which rules in your own community were written by the people who benefit from them?**
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Most learners meet power as something exercised on them. StarPower briefly reverses that, and the
+    discovery that entrenching your own advantage feels reasonable from the inside is what makes a
+    learner able to recognise the same reasoning in the people who currently hold it.
+principlesForegrounded: [authentic-challenges, safe-spaces, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The stratification is produced live, by the group, and the rule changes the top group makes are
+      genuinely theirs rather than scripted.
+  - principle: safe-spaces
+    how: >-
+      The simulation deliberately humiliates one group, so it requires an established cohort, agreed
+      ground rules, explicit de-roling and a debrief at least as long as the game. Those are conditions
+      of use, not suggestions.
+  - principle: responsible-action
+    how: >-
+      Learners are handed unaccountable power and have to account for what they did with it in front of
+      the people it was used on.
+competencyCodes: [FPS3, FLC1, FUS1, ALC1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The debrief separates what the structure did from what individuals did, which is the analytic
+      move the whole of Making Societal Change depends on.
+  - code: FLC1
+    how: >-
+      Ethical action is tested rather than discussed, under conditions where the unethical option is
+      easy, legitimate and rewarded.
+  - code: FUS1
+    how: >-
+      Learners find out what they do with an advantage they did not earn, which is uncomfortable and
+      specific self-knowledge.
+  - code: ALC1
+    how: >-
+      The top group's rule changes are an exercise of leadership, and the debrief asks whose capacity
+      to act they expanded and whose they closed down.
+objectiveIds: [making-societal-change--o1, ethical-leadership--o1]
+relatedSlugs: [the-trading-game, pb-wealth-allocation-game, pb-tower-of-arzenia, pb-class-agreements, cf-debrief-a-simulation]
+links:
+  - label: "StarPower (Simulation Training Systems)"
+    url: https://www.simulationtrainingsystems.com/schools-and-charities/products/starpower/
+    note: "The publisher's page for schools and charities. A commercial kit: it must be purchased. 12 to 35 players, no computer needed."
+  - label: "StarPower: how and why it works"
+    url: https://www.simulationtrainingsystems.com/starpower-how-why-it-works/
+    note: "The publisher's own explanation of the mechanism, useful for deciding whether to buy it."
+rights:
+  status: linked-not-reproduced
+  holder: R. Garry Shirts / Simulation Training Systems
+  basis: >-
+    StarPower is a commercial simulation still sold by its publisher. Nothing of it is reproduced here:
+    this page describes what it does, argues where it fits the curriculum, and links to the publisher.
+    All wording is Amala's own.
+  note: >-
+    Never reproduce StarPower's rules, token values, sorting mechanism or printed materials. It is a
+    product for sale; partners must buy the kit.
+sourceRefs:
+  - "Shirts, R. G. (1969). StarPower. Simulation Training Systems. https://www.simulationtrainingsystems.com/"
+provenanceNote: >-
+  Identified in August 2026 while researching simulations for the courses that had no materials.
+  Written from scratch as a pointer to the published kit.

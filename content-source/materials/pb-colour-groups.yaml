@@ -1,0 +1,170 @@
+id: pb-colour-groups
+slug: pb-colour-groups
+access: public
+type: activity
+title: "Colour groups: being the only one"
+summary: >-
+  Learners are sorted by a sticker they cannot see, in silence, with one person left alone. Then
+  the stickers change and someone else is alone.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed and group-only. The whole material is what happens when a group sorts itself and
+      one person is left over. It has no independent or one-to-one form.
+duration: 30 minutes.
+grouping: Whole group standing in a circle.
+materialsAndPreparation:
+  - "Coloured stickers, one per learner. Anything that marks a forehead and cannot be seen by the wearer works: paper dots and tape, coloured card, a mark in washable pen."
+  - Plan the distribution in advance so exactly one learner has a unique colour. For 10 learners, 4 red, 3 green, 2 orange, 1 yellow works.
+  - Plan the second round too, so that the person who was alone is now in a group and someone different is the one left over.
+whatLearnersDo:
+  - Stand in a circle with eyes closed while a coloured sticker is placed on each forehead.
+  - Group themselves by colour without speaking.
+  - Say how the grouping felt, and whether they are satisfied with it.
+  - Repeat with the colours redistributed, so a different person is alone.
+  - Discuss what made them different, and how difference like this can become conflict.
+facilitationNotes: >-
+  The one thing to get right is running it twice, with a different person alone. Run once, and the
+  group has watched one person be excluded and will discuss them. Run twice, and everyone
+  understands that the position was arbitrary, which is the actual lesson: exclusion followed a mark
+  nobody chose and nobody could see. Watch the person who is alone. Some find it funny, some find it
+  genuinely hard, and you need to know which before you ask them to speak.
+steps:
+  - title: "Mark the group in silence"
+    duration: 5 minutes
+    guidance: >-
+      Circle, eyes closed. Place the stickers, making sure one learner has a unique colour. Then ask
+      them to open their eyes and say one sentence only: group yourselves, without talking. Do not
+      explain the aim, do not explain the rules beyond that, and do not answer questions.
+    keyPrompts:
+      - "Group yourselves. No talking."
+    watchOuts:
+      - "Learners peel their sticker off to look. Say beforehand that they must not touch it, and
+        watch for it once they open their eyes."
+      - "Talking starts because the instruction feels impossible. Hold the silence; the difficulty is
+        part of what is being demonstrated."
+  - title: "Let them sort, and stop when they say they are done"
+    duration: 5 minutes
+    guidance: >-
+      Do not intervene and do not help. Groups sort by pointing, steering and gesturing, and this is
+      worth watching: notice who does the sorting and who is sorted. When they say they are finished,
+      let them remove the stickers and see their own colour. Watch the reaction of the person who
+      ended up alone.
+    keyPrompts:
+      - "Are you finished? Take your stickers off and look."
+    watchOuts:
+      - "The group physically manhandles the lone learner into position. Stop it immediately and
+        re-set: direct without touching."
+      - "The room laughs at the person left over. Do not scold, but note it. It is the most useful
+        thing that will happen and you will return to it in the debrief."
+  - title: "Ask how the grouping felt, before explaining anything"
+    duration: 5 minutes
+    guidance: >-
+      Go round each group: how do you feel about this grouping, are you satisfied, why or why not?
+      Ask the lone learner too, but ask them among the others rather than first or last, so they are
+      not made into the exhibit. Resist explaining. The explanations that matter come from the group
+      in the final step.
+    keyPrompts:
+      - "How do you feel about the group you ended up in?"
+      - "Are you satisfied? Why not?"
+    watchOuts:
+      - "The lone learner is genuinely upset. Acknowledge it plainly, do not press them for
+        reflection, and check in privately afterwards."
+  - title: "Redistribute and run it again"
+    duration: 5 minutes
+    guidance: >-
+      Swap the stickers so the learner who was alone is now inside a group and a different person is
+      the odd one out. If you want to sharpen it, give the new lone person a visibly different marker,
+      something larger or oddly shaped, so they are more conspicuous than last time. Run the sort
+      again and stop it there.
+    keyPrompts:
+      - "Same instruction. Group yourselves, without talking."
+    watchOuts:
+      - "Learners who have worked out the game perform their reaction. Fine. The point is now visible
+        to them, which is what you wanted."
+  - title: "Debrief: from difference to conflict"
+    duration: 10 minutes
+    guidance: >-
+      Work through the questions in order and do not skip to the end. How did it feel to be alone
+      compared with being in the big group? What made you different from each other in this activity?
+      How does this relate to identity? And then the one the course needs: how might having different
+      identities lead to conflict? The chain from an arbitrary mark to exclusion to conflict is the
+      thing learners should be able to describe by the end.
+    keyPrompts:
+      - "What actually made you different from each other in this activity?"
+      - "Has there been a time in your life when you were in a group like that?"
+      - "How does having different identities lead to conflict?"
+    watchOuts:
+      - "The link to real life goes somewhere raw very fast, because for many learners it is not an
+        analogy. Take it seriously, keep it voluntary, and hold to the class agreements."
+      - "Learners conclude that difference itself causes conflict. Push back: the mark was
+        meaningless, and what caused the exclusion was the sorting, not the colour."
+    adaptation: >-
+      No stickers available: use whatever marks a person without their knowing, including a slip of
+      paper taped to the back. If the room cannot stand and move, deal cards face down that learners
+      hold up without looking at.
+closing: >-
+  Say the finding as plainly as you can, and only after they have said it themselves. The colour
+  meant nothing. Nobody chose it, nobody could see their own, and within two minutes it had produced
+  a group, an outsider, and a set of feelings about both. Note that in this room it lasted five
+  minutes and the marker came off. Elsewhere the marker is a language, a document, or a face.
+learnerContent: |
+  Stand in a circle and close your eyes. Something will be placed on your forehead. Do not touch it
+  and do not try to look at it.
+
+  Then, without talking, group yourselves.
+
+  Afterwards:
+
+  - How did it feel to be in your group? Were you satisfied?
+  - How did it feel to be on your own, or to watch someone be on their own?
+  - What actually made you different from each other here?
+  - How does this connect to identity?
+  - How might different identities lead to conflict?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Feeling an arbitrary marker turn into exclusion, and then watching it move to somebody else, is
+    what makes learners treat group boundaries as something made rather than something found. That is
+    the belief a peacebuilder needs before they will try to change one.
+principlesForegrounded: [safe-spaces, authentic-challenges]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      The exclusion is deliberately arbitrary and deliberately repeated with a different person, so
+      no one is left carrying the outsider role, and the debrief brings the group back together
+      before anything else happens.
+  - principle: authentic-challenges
+    how: >-
+      Learners feel the mechanism rather than read about it, and the feeling is what they will
+      recognise later when they meet it operating in a real context.
+competencyCodes: [FUS1, FUS2, FLC2]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      Learners notice their own behaviour under a sorting instruction, including whether they did the
+      sorting or were sorted, which is uncomfortable and specific evidence about themselves.
+  - code: FUS2
+    how: >-
+      Being alone in one round and inside a group in the other gives every learner both perspectives
+      on the same event, which is the fastest route to understanding the other position.
+  - code: FLC2
+    how: >-
+      The debrief asks directly what belonging felt like and what its absence felt like, which is the
+      material this competency works with.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [pb-brown-eyes-blue-eyes, pb-identity-charts, pb-the-plant-game]
+rights:
+  status: own-expression
+  basis: >-
+    A widely circulated youth-work exercise with no traceable author.
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced.
+sourceRefs:
+  - "Identities - Colour Groups (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 3 Activity 1.2 (Othering)"
+provenanceNote: >-
+  Adapted from Amala's "Identities - Colour Groups", which also appears in the 2025 course planner as
+  the Week 3 othering activity.

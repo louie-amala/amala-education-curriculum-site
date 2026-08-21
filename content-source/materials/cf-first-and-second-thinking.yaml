@@ -1,0 +1,77 @@
+id: cf-first-and-second-thinking
+slug: cf-first-and-second-thinking
+access: public
+type: educator-move
+title: "First thinking, second thinking"
+summary: >-
+  Capture a first answer before the input, a second after it, and then ask what changed and why.
+  The change is the evidence of learning.
+tags:
+  - id: learning-facilitation
+    how: >-
+      When facilitating, take the first response in writing before you teach anything, and do not
+      say that a second round is coming.
+  - id: learning-design
+    how: >-
+      When designing, use it around any activity meant to shift a belief rather than add a fact, and
+      plan where the first capture goes.
+  - id: making-thinking-visible
+  - id: checking-for-understanding
+  - id: reflection-self-assessment
+facilitationContext:
+  - group
+  - independent
+  - one-to-one-mentoring
+primaryContext: group
+educatorContent: |
+  Ask for a response to a prompt and have learners write their **first thinking**. Then give the
+  input: an activity, a text, a simulation, a piece of evidence. Then ask the same prompt again for
+  their **second thinking**. Then the question that does the work: to what extent has your thinking
+  changed, and why?
+
+  Two details make it work.
+
+  **Do not tell them a second round is coming.** Learners who know they will be asked again write a
+  hedged first answer, and a hedged first answer has nothing to move from. The first capture should
+  be their real, unguarded position.
+
+  **Keep both visible.** The point is not the second answer but the distance between the two, and
+  that distance is only arguable if the first one still exists in their handwriting.
+
+  It extends: first, second, third thinking across a sequence, which turns a week into a visible
+  trajectory rather than a series of sessions. It also works in reverse as a diagnostic. When the
+  second thinking is identical to the first, either the input did nothing or the learner had already
+  arrived, and asking which is more informative than any test.
+
+  The move is closely related to the "I used to think, and now I think" sentence stem, and the stem
+  is a good lightweight version when there is no time to capture anything in writing.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Learners see their own mind change, in their own handwriting, and have to account for what
+    changed it. That is a direct experience of being someone whose views respond to evidence rather
+    than being handed conclusions.
+principleAlignment:
+  - principle: feedback-and-data
+    how: >-
+      The pair of answers is data on whether the input did anything, available to both the learner and
+      the facilitator, and immediately actionable.
+  - principle: recognise-communicate-growth
+    how: >-
+      A visible shift between two written answers is evidence of learning that a learner can point at,
+      which is more persuasive than being told they have progressed.
+relatedSlugs:
+  - cf-make-thinking-visible
+  - cf-quick-checks
+  - cf-debrief-a-simulation
+  - pb-brown-eyes-blue-eyes
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced. Generalised from Amala's own protocol.
+sourceRefs:
+  - "Protocols - 1st Thinking, 2nd Thinking (Peacebuilding resources folder)"
+provenanceNote: >-
+  Generalised from Amala's "1st Thinking, 2nd Thinking" protocol in the Peacebuilding resource pack.

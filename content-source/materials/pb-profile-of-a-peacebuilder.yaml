@@ -1,0 +1,172 @@
+id: pb-profile-of-a-peacebuilder
+slug: pb-profile-of-a-peacebuilder
+access: public
+type: activity
+title: "What a peacebuilder is, and is not"
+summary: >-
+  Learners sort examples and non-examples of peacebuilding, write their own definition, then meet
+  a famous peacebuilder who was not perfect.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The sorting works because learners disagree about the borderline items, and the
+      disagreement is what produces a definition worth having.
+  - context: independent
+    how: >-
+      The sort and the definition work alone, and the reading works well as independent study. What
+      is lost is the argument over the contested items, so ask the learner to write the case for and
+      against two of them before deciding.
+duration: 60 minutes.
+grouping: Small groups for the sort, individual for the definition, whole group for the reading.
+materialsAndPreparation:
+  - The sorting items, written on slips or listed on a board. They are in the learner content below.
+  - An article on a peacebuilder who was flawed. Nelson Mandela is the source's choice and there are simplified versions available; a locally recognised figure often works better.
+  - Space for two columns, headed "peacebuilding" and "not peacebuilding".
+whatLearnersDo:
+  - Sort a set of actions into peacebuilding and not-peacebuilding.
+  - Argue about the borderline items and say what makes the difference.
+  - Write their own definition of a peacebuilder from the sort.
+  - Read about a well-known peacebuilder who was not perfect, and discuss what that means for them.
+facilitationNotes: >-
+  The one thing to get right is the second half. The sort produces a definition, and the definition
+  produces a standard most learners cannot imagine meeting, which quietly excludes them from the
+  role. The Mandela reading exists to undo that: one of the greatest peacebuilders of all time was
+  not perfect, no single person holds all the mindsets, skills and qualities, and the role asks for
+  commitment to developing them rather than for having them. Say the last part explicitly. Then
+  start calling learners peacebuilders and keep doing it for the rest of the course.
+steps:
+  - title: "Sort the examples"
+    duration: 15 minutes
+    guidance: >-
+      In small groups, sort the items into peacebuilding and not peacebuilding. Some are
+      straightforward and some are not: force to keep two parties apart, UN peacekeeping forces, and a
+      teacher who imposes their own beliefs are the ones that split a room. Let the groups sort before
+      any discussion of criteria.
+    keyPrompts:
+      - "Which ones did you argue about?"
+    watchOuts:
+      - "Groups sort fast and confidently, which usually means they have not noticed the borderline
+        items. Ask specifically about peacekeeping forces."
+  - title: "Argue the borderline cases"
+    duration: 15 minutes
+    guidance: >-
+      Take the contested items to the whole group and let both sides argue. Peacekeeping forces are
+      the richest: they stop killing, which is real, and they build nothing, which is also real. What
+      you want to surface is the criterion, not the verdict. Does this action strengthen conditions
+      that make violence less likely, or does it suppress the expression of a conflict?
+    keyPrompts:
+      - "Does that action build something, or does it hold something down?"
+      - "What is left when the soldiers leave?"
+    watchOuts:
+      - "The group wants a definitive ruling. Refuse to give one. The criterion is the output, not the
+        verdict on each item."
+      - "Learners with direct experience of armed peacekeepers have strong views. Those views are
+        evidence and should be heard rather than balanced away."
+  - title: "Write the definition"
+    duration: 10 minutes
+    guidance: >-
+      Each learner writes their own definition of a peacebuilder from the sorted items. Collect a few
+      and compare. The source's version is a useful reference point, not a target: someone who strives
+      to overcome barriers to positive peace and works hard to help people put in place the structures
+      that support it.
+    keyPrompts:
+      - "What does your definition include that theirs does not?"
+    watchOuts:
+      - "Definitions become slogans about wanting peace. Ask what a person would have to actually do
+        to meet it."
+    adaptation: >-
+      Short on time: collect the definition verbally as a whole group rather than individually, and
+      go straight to the reading. Do not cut the reading; it carries the second half of the point.
+  - title: "Read about an imperfect peacebuilder"
+    duration: 20 minutes
+    guidance: >-
+      Learners read about Mandela, or a figure closer to home. Then two questions: is it possible for
+      one person to have all the mindsets, skills and qualities of a peacebuilder, and does that
+      change how we should treat ourselves as peacebuilders? Take the second question seriously and
+      slowly. It is the step that decides whether learners see the role as available to them.
+    keyPrompts:
+      - "Can one person have all of it?"
+      - "What does that mean for how hard you should be on yourself?"
+    watchOuts:
+      - "The discussion becomes a debate about the figure's record. Redirect: the question is what
+        imperfection implies for the role, not whether he deserves his reputation."
+closing: >-
+  Say the three things that make up the rest of the course, and say them as the profile of the role
+  they are taking on: the mindsets of a peacebuilder, the skills of a peacebuilder, and the qualities
+  of a peacebuilder. Then tell the group plainly that from now on they will be referred to as
+  peacebuilders, and do it. The change of address does more than the definition.
+learnerContent: |
+  **Sort these into peacebuilding and not peacebuilding:**
+
+  - Using force to keep two conflicting parties apart
+  - Using violence to instil discipline in children
+  - Advocating for gender equality
+  - Listening carefully to the stories of parties on both sides of a conflict
+  - Working with communities to come up with win-win solutions to conflicts
+  - Building a wall to keep communities apart
+  - UN peacekeeping forces
+  - Teachers who force their own beliefs on students
+  - Teachers who help students establish their own peace-based values
+
+  Which ones did your group argue about? What made those hard?
+
+  **Now write your own definition** of a peacebuilder, using the sort. It might come out something
+  like: *a peacebuilder is someone who strives to overcome barriers to positive peace and works hard
+  to help people put in place the structures that support it.* Yours does not have to match.
+
+  **Then read about a famous peacebuilder.** Nelson Mandela is considered one of the greatest
+  peacebuilders of all time, and he was not perfect.
+
+  - Is it possible for one person to have all the mindsets, skills and qualities of a peacebuilder?
+  - Does that change how we should treat ourselves as peacebuilders?
+
+  From here on, you are peacebuilders. The rest of the course is about the mindsets, the skills and
+  the qualities.
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: >-
+    The material converts peacebuilding from something admirable that other people do into a role the
+    learner has just been given. The imperfection point is what makes it credible, because a standard
+    of moral perfection is one nobody applies for.
+principlesForegrounded: [lifeworthy-competencies, responsible-action, connect-to-futures]
+principleAlignment:
+  - principle: lifeworthy-competencies
+    how: >-
+      The definition the group builds sets out the mindsets, skills and qualities the rest of the
+      course develops, so learners know what they are working towards and why.
+  - principle: responsible-action
+    how: >-
+      The sorting criterion, whether an action builds conditions or suppresses expression, is a
+      demanding ethical test that learners then apply to their own project ideas.
+  - principle: connect-to-futures
+    how: >-
+      Taking the name is an identity claim about who the learner is becoming, and it is reinforced by
+      how they are addressed for the remainder of the course.
+competencyCodes: [FLC1, FUS1, FSL3]
+competencyDevelopment:
+  - code: FLC1
+    how: >-
+      Deciding which actions count as peacebuilding requires learners to state and defend a moral
+      criterion, and then apply it to cases they find uncomfortable.
+  - code: FUS1
+    how: >-
+      The imperfection discussion asks learners to consider what they demand of themselves, which is
+      self-awareness with immediate consequences for whether they act.
+  - code: FSL3
+    how: >-
+      The conclusion that the role requires ongoing development rather than arrival is a direct
+      argument for continuous learning.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [spheres-of-peacebuilding, three-track-leadership, pillars-of-positive-peace, pb-dilemmas-in-peacebuilding]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced. The sorting items are the planner's own.
+sourceRefs:
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 3 Part 3"
+provenanceNote: >-
+  From the 2025 Peacebuilding course planner, activities 2.2 and 2.4 on what peacebuilders are and
+  the profile of a peacebuilder. Sorting items are the planner's own.

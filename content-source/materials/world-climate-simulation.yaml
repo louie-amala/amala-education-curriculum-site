@@ -1,0 +1,142 @@
+id: world-climate-simulation
+slug: world-climate-simulation
+access: public
+type: resource
+title: "World Climate (published simulation): using it in this course"
+summary: >-
+  Learners negotiate as world regions and watch a real climate model answer them in the room. Where
+  it fits the curriculum, and where to get it free.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only. Climate Interactive publish a 6-region version for 18 to 60 people and a 3-region
+      version for 6 to 24, or for very large groups with limited time. They also publish guidance for
+      running it with children as young as 7 or 8, and for groups of several hundred.
+materialsAndPreparation:
+  - The facilitator kit. Climate Interactive publish it free, linked below, including the guide, slides, region briefing sheets, proposal forms and training videos. Available in many languages.
+  - "One computer for the facilitator, running the C-ROADS simulator. A projector or large screen if you have one: learners need to see the model respond."
+  - Printed briefing sheets and proposal forms, one set per region.
+  - "A decision about which version to run: 3 regions is the lighter option and works with 6 learners upwards."
+  - Check the technology before the day. This is the one simulation here that does not work on paper alone.
+educatorContent: |
+  World Climate, published by Climate Interactive, puts learners in the roles of national and regional
+  delegations at a climate summit. Each delegation proposes what its region will do about emissions.
+  The facilitator enters those proposals into C-ROADS, a real, peer-reviewed climate model, and the
+  room immediately sees the temperature the world would reach on those commitments.
+
+  Then they negotiate again. That loop, propose, see the answer, argue, propose again, is what makes
+  it different from a debate about climate change.
+
+  ## Why it belongs in the curriculum, and where
+
+  **Science Informed Action** asks learners to make decisions and take responsible action on the basis
+  of scientific understanding, and then to communicate that understanding to others. World Climate is
+  the only material in this bank where scientific evidence answers back in real time. Learners cannot
+  hold a position the model refutes, and they discover the gap between what sounds ambitious and what
+  is sufficient. That belongs in objective 2, and the delegation speeches serve objective 3.
+
+  **Making Societal Change** gets something different from it. The obstacle in the room is never the
+  science; it is that every region has a defensible reason to move slowly, and collectively that is a
+  catastrophe. Learners meet collective action as a structural problem rather than a failure of
+  goodwill, which is objective 3's territory.
+
+  ## What to protect in the debrief
+
+  - **The first round nearly always fails.** Let it. The gap between the group's first proposals and
+    what the model requires is the whole lesson, and rescuing them from it wastes the session.
+  - **Ask who the delegations were speaking for.** Regions arrive with real and conflicting interests,
+    and learners from countries that contributed least and suffer most will notice that quickly.
+  - **Separate the two failures.** Not understanding the problem, and understanding it while being
+    unable to act together, are different, and only the second one is what happened here.
+  - **End on what changed a position.** Which argument or which number actually moved a delegation?
+    That is the communication lesson, and it is more useful than the temperature figure.
+
+  ## Getting it
+
+  Everything is free from Climate Interactive, linked below. Unlike almost everything else in this
+  bank, World Climate is published under a Creative Commons Attribution licence, which means Amala
+  may adapt it as well as use it, if a contextualised version is ever wanted. For now this page points
+  at the original, which is complete, translated and better maintained than a copy would be.
+learnerContent: |
+  You are a delegation representing a region of the world at a climate summit.
+
+  Your job is to decide what your region will commit to: when your emissions peak, how fast they fall,
+  what you will do about deforestation, and what you will pay or receive.
+
+  When every delegation has proposed, those numbers go into a real climate model, and you will see
+  the temperature the world reaches if that is all anyone does.
+
+  Then you negotiate again.
+
+  Afterwards:
+
+  - What happened in the first round? Why?
+  - Who were you actually speaking for? What did your region need?
+  - Which regions bear the most cost from a slow response? Were they the ones causing it?
+  - **What argument, or what number, actually changed somebody's position?**
+  - Was the obstacle in this room a lack of understanding, or something else?
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: >-
+    Learners find out that the science is not the hard part, and that a defensible position held by
+    everyone can still produce a disaster. That reframes climate action from a knowledge problem into
+    an organising problem, which is one they can actually join.
+principlesForegrounded: [authentic-challenges, responsible-action, collaboration]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The model is real and peer-reviewed, and the negotiation reproduces the actual structure of
+      international climate talks rather than a simplified version of it.
+  - principle: responsible-action
+    how: >-
+      Every proposal has consequences the room can see immediately, which is a rare and direct
+      experience of decisions being answerable to evidence.
+  - principle: collaboration
+    how: >-
+      No delegation can solve it alone and the arithmetic makes that undeniable, so the group has to
+      build agreement rather than win an argument.
+competencyCodes: [FTS2, APS2, FLC3, ALC2]
+competencyDevelopment:
+  - code: FTS2
+    how: >-
+      Learners act on the output of a scientific model, revise, and act again, which is science
+      informing action in the most literal available sense.
+  - code: APS2
+    how: >-
+      Positions have to survive contact with the model, so evidence changes decisions in front of
+      everyone rather than in principle.
+  - code: FLC3
+    how: >-
+      Delegations have to persuade other regions with competing interests, and the debrief asks which
+      argument actually worked.
+  - code: ALC2
+    how: >-
+      Reaching a collective commitment across delegations with genuinely opposed interests is
+      collaborative decision making at its hardest.
+objectiveIds: [science-informed-action--o2, science-informed-action--o3, making-societal-change--o3]
+relatedSlugs: [fishbanks-simulation, the-trading-game, starpower-simulation, cf-debrief-a-simulation]
+links:
+  - label: "World Climate Simulation (free facilitator kit, Climate Interactive)"
+    url: https://www.climateinteractive.org/world-climate-simulation/
+    note: "Facilitator guide, slides, region briefing sheets, proposal forms and training videos. Free, in many languages, CC BY 4.0."
+  - label: "En-ROADS Climate Solutions Simulator"
+    url: https://www.climateinteractive.org/en-roads/
+    note: "The companion single-group simulator, in 23 languages. Lighter to run than the full negotiation if you have less time."
+rights:
+  status: linked-not-reproduced
+  holder: Climate Interactive
+  basis: >-
+    Climate Interactive publish the materials free under a Creative Commons Attribution 4.0 licence,
+    which would permit adaptation with attribution. Nothing is reproduced here in any case: this page
+    describes what the simulation does, argues where it fits the curriculum, and links to the source.
+  note: >-
+    This is the one simulation in the bank Amala may lawfully adapt, since CC BY 4.0 allows remixing
+    with attribution. If a contextualised version is ever built, credit Climate Interactive and keep
+    the licence notice.
+sourceRefs:
+  - "World Climate Simulation, Climate Interactive. https://www.climateinteractive.org/world-climate-simulation/ (CC BY 4.0)"
+provenanceNote: >-
+  Identified in August 2026 while researching simulations for the courses that had no materials.
+  Written from scratch as a pointer to Climate Interactive's published simulation.

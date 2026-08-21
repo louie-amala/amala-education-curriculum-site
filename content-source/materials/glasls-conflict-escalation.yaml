@@ -1,0 +1,158 @@
+id: glasls-conflict-escalation
+slug: glasls-conflict-escalation
+access: public
+type: tools-approaches
+title: "Glasl's nine stages of conflict escalation"
+summary: >-
+  A nine-stage model of how conflicts intensify, used to diagnose how far a conflict has gone and
+  which responses are still available.
+facilitationContext: [group, independent]
+primaryContext: group
+toolsFacet: analytical
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners disagree about which stage a case has reached, and the disagreement is
+      where the diagnosis gets precise. Work with the stage descriptions visible and let groups
+      argue against each other's placements.
+  - context: independent
+    how: >-
+      The model reads well alone and a learner can stage cases on their own. What is lost is the
+      argument, so require a written justification for each placement, naming the specific behaviour
+      in the case that puts it at that stage rather than the one below.
+duration: 60-90 minutes when used with case studies. 20 minutes to introduce the model alone.
+grouping: Pairs or small groups.
+materialsAndPreparation:
+  - The nine stages written out where everyone can see them, as a list or a downward staircase.
+  - Case studies to stage. The escalation case set that accompanies this tool works, or use conflicts your learners already know.
+  - Large paper for the storyboard task, if you use it.
+whatLearnersDo:
+  - Read the nine stages and check they can tell adjacent ones apart.
+  - Place case studies on the model and justify each placement from evidence in the case.
+  - Identify what could have stopped each conflict moving further down.
+  - Storyboard a conflict of their own devising, from stage 1 to stage 9, driven by the decisions people make.
+educatorContent: |
+  Friedrich Glasl's model describes conflict escalation as a staircase with nine steps. Its value in
+  a course is that it converts an impression ("this is getting worse") into a position, and a
+  position implies a set of available responses.
+
+  ## The nine stages
+
+  Glasl's own descriptions are set out in full in the Swisspeace collection linked below, and it is
+  worth having that open while you teach. In short, the staircase runs from positions hardening while
+  people still expect to talk it out, through polarised black-and-white argument, to the point where
+  talking is abandoned in favour of acting and empathy drops away. From there each side casts the
+  other into a role and recruits allies, attacks the other's integrity in public, and starts trading
+  threats and ultimatums. The last three steps turn on the opponent ceasing to be seen as a person:
+  harm becomes legitimate, then destroying the other side's system becomes the aim, and finally one's
+  own ruin becomes an acceptable price for theirs.
+
+  Teach it with the stage names visible and let learners meet the full descriptions in the source,
+  rather than working from a summary. The precision is the point: the difference between stage 4 and
+  stage 5 is what a learner has to be able to argue.
+
+  ## The two teaching points
+
+  **Stage 7 is the threshold.** What changes there is not intensity but category: the opponent stops
+  being a person. That is the same mechanism as cultural violence, and it is why dehumanising
+  language in a conflict is a warning signal rather than merely unpleasant.
+
+  **Stages are asymmetric.** The level of escalation of a group may differ from that of an individual
+  inside it, and the two parties are often at different stages. Say this early, because learners
+  otherwise assume a conflict has one number. The gap between the parties' stages is frequently where
+  an intervention finds its opening.
+
+  ## How to use it
+
+  Once the stage is identified, the practical question is whether the intervention being proposed
+  suits that stage. Responses that work at stage 2, facilitated conversation, restating positions,
+  are useless at stage 7, and interventions designed for stage 7 are heavy-handed at stage 2. Have
+  learners name both the stage and the response before they defend either.
+
+  The storyboard task is the strongest use of the model for a first encounter: write a conflict that
+  begins as a peaceful protest at stage 1 and descends to stage 9, with each step caused by a
+  decision somebody makes. Because the learner is choosing the decisions, they end up arguing that
+  the descent was avoidable, which is the point.
+
+  ## Its limits
+
+  The model is descriptive, not predictive: conflicts skip stages, stall, and reverse. It also says
+  nothing about who is right. A party defending itself and a party attacking can occupy the same
+  stage, and the model is not a moral scale.
+learnerContent: |
+  Conflicts do not jump straight to violence. They descend, step by step, and each step is caused by
+  something someone decides to do.
+
+  **The nine stages:**
+
+  1. Hardening
+  2. Debate and polemics
+  3. Actions, not words
+  4. Images and coalitions
+  5. Loss of face
+  6. Strategies of threat
+  7. Limited destructive blows
+  8. Fragmentation
+  9. Together into the abyss
+
+  Your facilitator will give you the full description of each stage. Read them properly: the
+  difference between two neighbouring stages is exactly what you have to be able to argue.
+
+  When you use it:
+
+  - Which stage is this conflict at? **What in the case tells you that, rather than the stage above or below?**
+  - Are both parties at the same stage? Is everyone within one group at the same stage?
+  - What might have stopped it moving further down?
+  - What would move it further down next?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    A learner who can stage a conflict knows both how bad it is and what is still possible in it.
+    That converts a feeling of being caught in something into a judgement about where to act, which
+    is what makes intervention thinkable rather than presumptuous.
+principlesForegrounded: [authentic-challenges, lifeworthy-competencies]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The model is applied to real conflicts, including ones learners are living near, and the
+      question it asks is what could still be done about them.
+  - principle: lifeworthy-competencies
+    how: >-
+      The staircase works on a family argument, a workplace, and a war. Learners who can see stage 2
+      turning into stage 3 in their own life have something they will use long after the course.
+competencyCodes: [FPS3, APS3, ALC3]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Justifying a stage from specific behaviours in a case, rather than from its severity, is
+      evidence-based identification of what is actually driving a conflict.
+  - code: APS3
+    how: >-
+      The model is a pattern claimed to recur across conflicts, and applying it means testing whether
+      the pattern fits this one.
+  - code: ALC3
+    how: >-
+      Matching an intervention to a stage is the core judgement of conflict transformation: the right
+      response at the wrong stage does nothing.
+objectiveIds: [peacebuilding--o1, peacebuilding--o3]
+relatedSlugs: [pb-escalation-case-studies, galtungs-violence-triangle, needs-fears-mapping, pb-defining-conflict]
+links:
+  - label: "Conflict Analysis Tools"
+    url: https://www.css.ethz.ch/content/dam/ethz/special-interest/gess/cis/center-for-securities-studies/pdfs/Conflict-Analysis-Tools.pdf
+    note: "Swisspeace's collection, which sets out Glasl's model with step-by-step instructions alongside four other analysis tools."
+sourceRefs:
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 3 Activity 2.2"
+  - "Conflict Analysis Tools (Peacebuilding resources folder)"
+rights:
+  status: own-expression
+  holder: Friedrich Glasl (the escalation model)
+  basis: >-
+    The nine-stage model is Glasl's and is credited as his. Glasl's own stage descriptions are not
+    reproduced here: this page characterises the staircase in Amala's words and sends facilitators to
+    the Swisspeace collection, which publishes the full table free of charge.
+  note: >-
+    Do not paste Glasl's stage descriptions onto this page. If a fuller treatment is wanted, seek
+    permission or keep pointing at the source.
+provenanceNote: >-
+  The model is Friedrich Glasl's nine-stage conflict escalation model, reached here through the 2025
+  Amala course planner and the Swisspeace conflict analysis collection.

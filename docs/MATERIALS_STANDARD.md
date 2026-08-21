@@ -170,6 +170,7 @@ Three tiers, so the standard bites without blocking authoring:
 - Every step has at least one key prompt and at least one watch-out (§5)
 - `deliveryAdaptations` covers every mode in `facilitationContext`, and `primaryContext` is one of them
 - `shortVersion` present on activities and tools (§4)
+- Rights are settled before a material is publicly readable (§12)
 
 **Warnings** (reported, do not block):
 - Word counts outside the ranges in §5 and §8
@@ -177,6 +178,7 @@ Three tiers, so the standard bites without blocking authoring:
 - Step durations that do not reconcile with facilitated time
 - A material claiming all three delivery modes with no weak-fit acknowledged
 - Sensitive-topic material with no sensitivity note
+- Materials with no `rights` block at all (§12), reported as a single count
 
 **Editorial** (human judgement, no automation):
 - Whether prompts are genuinely useful questions
@@ -218,6 +220,50 @@ blank **template**. So the delivery vehicle is decided by context: unit-planned 
 workbook; standalone bank method → its own role-tagged files. The `role` tag is the same either way, so
 the worksheet/template distinction is machine-real regardless of how the file is delivered.
 
+### 10.1 Teaching content: an offline workbook is a textbook too
+
+A learner working offline has nothing to look anything up in. So in a **fully offline** unit-planned
+component, the workbook must **teach the method**, not only capture the answer. [judgement]
+
+The failure this rule exists to prevent: a workbook page that asks a learner to write interview
+questions, having never told them what makes a question good. A worked example shows them the *shape*
+of an answer; it does not teach the method behind it.
+
+- Every **activity** in such a component carries `learnerTeaching`: a `title` phrased as the skill
+  ("How to ask a good question"), the teaching itself in `readAloud` (graded to the component's English
+  level, short sentences, concrete examples, a good/poor contrast), the `words` it introduces, and a
+  short `tryIt` rehearsal.
+- The workbook page for the activity becomes a spread with a fixed grammar: **Learn it** (the
+  `learnerTeaching` page) → **Like this** (the worked example) → **Your turn** (the slots to fill). Learn
+  it is its **own page**, never a header on the working page, so a learner can re-read the method while
+  their own page is already filled in.
+- Every such activity also carries `educatorContent`: the **subject brief** — what the facilitator needs
+  to *know* to teach the block, distinct from `facilitationNotes`, which is how to *run* it. It renders
+  in the component's facilitator unit plan as "What you need to know before you teach this", before the
+  practical detail (§11). Offline, that guide is the only place a facilitator can read it.
+- `learnerTeaching.words` feed the component's picture-word cards and word wall alongside the subject
+  vocabulary, so method vocabulary is taught the same way.
+- **`tryIt` must never script the facilitator.** "Your teacher will read four questions aloud" is wrong
+  twice over: a facilitator may want to run the group version their own way or not at all, and a learner
+  catching up after a missed session has no facilitator at all. Print the items on the page so the
+  learner can do it alone (`chooseFrom` renders them as options to circle, for learners not yet writing).
+  `validateGraph` warns on "your teacher" / "your facilitator" in `tryIt.intro`.
+- **Where the skill has right answers, put them at the BACK of the workbook**, not on the page — the
+  learner tries it first, then checks themselves. `validateGraph` errors if `answers` and `items` differ
+  in length, because a mis-aligned key is worse than none.
+- **When a `tryIt` key is needed, and when it is wrong.** A key belongs to skills with a *right answer* —
+  classifying (open / closed / leading), judging (is this all right to do?), spotting (which claim has no
+  evidence?). A generative or personal task — draw your map, choose your audience, say how you have
+  grown — has no key: give `intro` and `then` only, and say so, so the absence reads as deliberate rather
+  than missing.
+- Authored `visuals` are rendered into the printed facilitator guide as well as the site, so a
+  facilitator working only from paper has the diagrams too.
+- Enforcement (`validateGraph`): warns when an activity in a unit plan has no `learnerTeaching`, and
+  when it has no `educatorContent`.
+
+First built on `cb-rp-design-our-questions` (Research Project, Cox's Bazar). Other activities and
+components are migrated as they are next touched, not all at once — the warnings are the backlog.
+
 ## 11. Reading order on the page
 
 **A material page is read top-to-bottom in the order an educator works, not in the order the curriculum
@@ -252,7 +298,95 @@ template) → `example` (a worked/filled sheet) → `template` (the blank final 
 *contains* the template; the standalone `template` is for a learner who has done it once and wants a
 clean sheet. See §10 for which materials ship their own files versus a component workbook.
 
-## 12. Open questions
+## 12. Rights: may we publish this?
+
+Almost everything in this bank descends from something. **Running an activity with a group and
+publishing its instructions on a public website are different acts**, and training publishers
+routinely permit the first while prohibiting the second. "We use this in class" is therefore not
+evidence that we may put it online. [judgement — this is house policy, not legal advice]
+
+Two facts make the rule workable:
+
+- **Copyright reaches expression, not method.** Describing how an activity works, in our own words,
+  is a different act from reproducing its role cards, statement banks, case texts or tables.
+- **The risk concentrates in a few artefacts.** Rule sheets, briefing sheets, position cards,
+  sorting-statement sets and comparison tables are what a publisher sells. Steps, watch-outs and
+  learner content that we write are ours.
+
+### 12.1 The `rights` field
+
+Every material carries a `rights` block. `provenanceNote` says where it came from in prose; `rights`
+says whether we may publish it, in a form the build can check.
+
+| Status | Use when |
+| --- | --- |
+| `amala-own` | Amala wrote it, or it descends only from Amala's own course materials. |
+| `own-expression` | The method is someone else's, or has no traceable author, but every word on the page is ours. Credit the originator in `holder`. |
+| `public-domain` | Out of copyright, or a fact or method copyright does not reach. |
+| `openly-licensed` | Third party, under a licence permitting republication. Name the licence in `basis`. |
+| `cleared` | Third party, and we hold written permission. Record who granted it and when. |
+| `linked-not-reproduced` | Third party, deliberately not reproduced: the page describes the method and points at the source. Requires at least one `links` entry. |
+| `permission-needed` | Third party, reproduced here, no permission. **Blocks publication.** |
+| `unknown-provenance` | We cannot establish where it came from, so we cannot clear it. **Blocks publication.** |
+
+`basis` states *why* the status holds. `note` carries what an editor must not do, for example "never
+add the rule sheets to this page".
+
+### 12.2 Enforcement
+
+**Build errors:**
+- A material carrying `permission-needed` or `unknown-provenance` cannot also be publicly readable.
+  The three ways out are: clear the rights, rewrite it to the `linked-not-reproduced` pattern, or set
+  `access` to a gated value so it stays internal.
+- `linked-not-reproduced` with no `links` is incoherent and fails.
+
+**Warning:** materials with no `rights` block are counted in one summary line, so the gap is visible
+without swamping the report.
+
+### 12.3 The linked-not-reproduced pattern
+
+This is the default answer for a published third-party activity we want in the curriculum, and it is
+usually better than either reproducing it or dropping it. The page carries:
+
+1. **What it is**, in our own words, in enough detail to judge whether it fits.
+2. **Where it belongs in the course**, and what it does that our own materials do not. This is the
+   part only Amala can write, and it is the reason the page exists.
+3. **What to protect in the debrief**, which is where most of the value of a simulation sits.
+4. **How to get it**: publisher link first, then any freely published adaptations, with the
+   attribution their authors use.
+5. **Cautions**, including anything that might mislead someone into thinking it is free to reuse.
+
+Type it as a `resource` (§3), which is deliberately thin. `pb-barnga` is the worked example.
+
+### 12.4 Simulations: whose life is being played?
+
+Simulations are among the most effective materials in this bank and the most exposed, both on rights
+and on safeguarding. Two rules. [judgement]
+
+**On rights:** a simulation's value is concentrated in exactly the artefacts a publisher sells — role
+cards, briefing sheets, payoff tables, rule sheets. Assume `linked-not-reproduced` (§12.3) unless the
+licence says otherwise, and check whether a free author's copy exists: several excellent simulations
+are published free on SSRN, on university teaching repositories, or by NGOs.
+
+**On safeguarding:** before running any conflict simulation, ask **is anyone in this room being asked
+to play their own life?** Amala teaches people who have lived through displacement, war and
+persecution. A simulation of a structure they can recognise (flour mills, planets, invented countries)
+teaches; a re-enactment of the situation they fled does not, and can do real harm.
+
+This is a judgement for the educator in the room, not a decision to make centrally, because Amala
+works across very different contexts: a simulation that would be indefensible with one cohort may be
+exactly right with another. So the house position is **publish with the judgement written into the
+page**, rather than withhold. Where a material carries this risk, its page must:
+
+1. Name the risk plainly and say who it applies to.
+2. Give the test, so an educator elsewhere can apply it to their own room.
+3. Offer the adaptation — usually transposing the structure onto an invented setting — or point at a
+   fictional alternative.
+4. Tell learners, in `learnerContent`, that they may step out without explaining.
+
+`pb-flashpoint-syria` is the worked example.
+
+## 13. Open questions
 
 1. Should tools and case studies really carry full steps, or is "how to use it" enough?
 2. Is `shortVersion` sufficient, or do we also need a longer/extended variant?

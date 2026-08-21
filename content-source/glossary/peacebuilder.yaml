@@ -1,0 +1,43 @@
+id: peacebuilder
+slug: peacebuilder
+access: public
+term: Peacebuilder
+category: content
+matchPhrases:
+- peacebuilder
+- peacebuilders
+- peace-builder
+definition: >-
+  Someone who works to overcome the barriers to positive peace and to put in place the
+  structures that support it. A role, not a rank, and open to anyone.
+explainer: |
+  A working definition learners can reach themselves: a peacebuilder is someone who strives to
+  overcome barriers to [positive peace](/glossary/positive-peace) and works hard to help people put
+  in place the structures that support it.
+
+  Two clarifications make the term usable.
+
+  **Peacebuilding is not the same as keeping the peace.** Using force to hold two parties apart,
+  building a wall between communities, or imposing quiet through fear may all end visible fighting,
+  and none of them builds peace. The test is whether the action strengthens conditions that make
+  violence less likely, or merely suppresses its expression.
+
+  **No peacebuilder is complete.** Mandela is treated as one of the greatest and was not perfect; no
+  single person holds all the mindsets, skills, and qualities the role calls for. Making this
+  explicit matters, because learners who believe peacebuilding requires moral perfection exclude
+  themselves from it. What the role actually asks is a commitment to keep developing those mindsets,
+  skills, and qualities.
+
+  The practical consequence for a course is a shift in address. Once learners have defined the term,
+  they can be called peacebuilders and treated as such, which turns the rest of the course from
+  study of a subject into practice of a role.
+examples:
+- A teacher who helps students build their own peace-based values rather than imposing their beliefs
+- Someone listening carefully to the stories of parties on both sides of a conflict
+nonExamples:
+- Using force to keep two conflicting parties apart
+- Building a wall to keep communities separate
+useInContext: >-
+  Learners sort examples and non-examples of peacebuilding, then write their own definition and
+  take on the role for the rest of the course.
+relatedTermIds: [positive-peace, conflict-transformation, non-violence, do-no-harm]

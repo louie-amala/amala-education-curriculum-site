@@ -1,0 +1,37 @@
+id: compassion
+slug: compassion
+access: public
+term: Compassion
+category: content
+matchPhrases:
+- compassion
+- compassionate
+definition: >-
+  Noticing another's suffering and being moved to act on it. Empathy plus the wish to help.
+explainer: |
+  Compassion adds a motive to [empathy](/glossary/empathy). Empathy understands what another is
+  going through; compassion is moved by it towards doing something. That step from understanding to
+  action is why compassion, not empathy, is usually named as the quality a peacebuilder needs.
+
+  It is worth teaching as something practised rather than possessed. Compassion has a
+  self-directed side (not treating your own failures more harshly than you would a friend's) and an
+  other-directed side, and the two are connected: people who are relentless with themselves are
+  rarely generous with others. Work on inner conflict in a peacebuilding course rests on exactly
+  this observation.
+
+  The everyday form is what makes it real to a group. Compassion in a classroom looks like a set of
+  concrete behaviours — listening, sharing, asking for help, saying sorry — which is why the most
+  effective way into it is not a definition but a set of agreements a group writes for itself and
+  then has to live with.
+
+  The caution: compassion without analysis produces the helping failure that
+  [do no harm](/glossary/do-no-harm) guards against. Being moved to act is the start of the work,
+  not a substitute for understanding what is needed.
+examples:
+- A group noticing a member is left out and changing how it works so that stops happening
+nonExamples:
+- Feeling sorry for a community and delivering what you assumed it needed
+useInContext: >-
+  Learners turn compassion into a set of class agreements, then act out what each one looks like
+  in practice.
+relatedTermIds: [empathy, do-no-harm, peacebuilder, non-violent-communication]

@@ -1,0 +1,42 @@
+id: conflict-transformation
+slug: conflict-transformation
+access: public
+term: Conflict transformation
+category: content
+matchPhrases:
+- conflict transformation
+- transform the conflict
+definition: >-
+  A conscious decision by the parties to build new and better relationships, changing attitudes
+  and behaviour so that the conflict is far less likely to recur.
+explainer: |
+  Conflict transformation asks a two-part question: *how do we end something destructive, and build
+  something desired?* Where [conflict resolution](/glossary/conflict-resolution) is content-centred
+  and short-horizon, transformation is relationship-centred and mid-to-long range. It treats the
+  presenting dispute as a symptom and engages the system the relationship sits inside.
+
+  John Paul Lederach, whose framing this is, made the difference concrete. Resolution envisions the
+  need to de-escalate a conflict process. Transformation envisions conflict as ebb and flow, and asks
+  what constructive change the moment makes possible. The practical consequence is that a
+  transformative response does not stop when the fighting stops: it keeps working on the
+  relationships, structures, and beliefs that would otherwise regenerate the conflict.
+
+  Two things make it teachable. First, contrast: given the same case, learners can usually say which
+  of two responses merely ended something and which changed how the parties relate. Second, the
+  conditions it requires, which the field calls a
+  [transformative platform](/glossary/transformative-platform) — open dialogue, a voice for all
+  parties, neutral ground, and equal power. Without those conditions, transformation is asserted
+  rather than achieved.
+furtherReading:
+- title: "Conflict Transformation"
+  url: https://www.beyondintractability.org/essay/transformation
+  source: Beyond Intractability
+  note: Lederach's own comparison of the resolution and transformation perspectives.
+examples:
+- Former enemies building a joint history curriculum, youth exchanges and a shared TV channel
+nonExamples:
+- A treaty that halts fighting while leaving one group without citizenship or rights
+useInContext: >-
+  Learners test their own project idea against the question of whether it transforms a
+  relationship or only settles an incident.
+relatedTermIds: [conflict-resolution, transformative-platform, positive-peace, conflict]

@@ -1,0 +1,143 @@
+id: pb-pasta-wars
+slug: pb-pasta-wars
+access: public
+type: resource
+title: "The Pasta Wars (published simulation): using it in this course"
+summary: >-
+  Four rival flour mills, one buyer, and a repeated choice between cooperating and undercutting.
+  How it fits the Peacebuilding course, and where to download it free.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only, and it needs 8 to 24 learners so that four mills can form. The authors also publish
+      a guide to running it over video call, which is on pages 11 to 16 of the download.
+materialsAndPreparation:
+  - The simulation itself. Download it free from SSRN, linked below. It carries the full teaching guide, the three participant forms and an online-delivery guide.
+  - Four forms per group, printed. Everything needed is in the appendices of the download.
+  - A large room with four separate clusters, ideally four tables in four corners, plus a board for the debrief.
+  - Time. The authors suggest 20 minutes setup, 45 minutes play and 45 to 60 minutes debrief.
+educatorContent: |
+  The Pasta Wars is a published four-party negotiation simulation by Noam Ebner and Yifat Winkler.
+  Each group runs a family-owned flour mill selling to the only buyer in town, a pasta restaurant.
+  Every round, each mill decides privately whether to cooperate with the other mills or to undercut
+  them, and what a mill earns depends not on its own choice alone but on what the other three chose.
+  The four families have a history of hostility that has broken down communication between them, and
+  that has to be overcome before cooperation is possible. Structurally it is an iterated four-way
+  prisoner's dilemma, though learners are never told that.
+
+  ## Why it belongs in this course, and where
+
+  This course argues repeatedly that a conflict framed as zero-sum usually is not, and that people
+  who could all gain will still fail to, because they cannot get past the assumption that the other
+  side's gain is their loss. The arm-wrestle game makes that point in one minute with two people. The
+  Pasta Wars makes it over a series of rounds with four parties, which adds three things the shorter
+  activities cannot:
+
+  - **Cooperation has to be sustained, not just discovered.** One good round proves nothing. Learners
+    find out how quickly a single defection destroys something that took several rounds to build.
+  - **Trust is a live variable.** With four parties and limited communication, the question stops
+    being "what is the clever answer" and becomes "can we rely on them", which is the actual question
+    in a peace process.
+  - **History matters.** The families arrive already resentful, so learners have to work against a
+    relationship, not just towards an agreement.
+
+  Its natural slot is late in the work on conflict transformation, after learners have met win-win
+  solutions and the conditions of a transformative platform, and before they design their own
+  interventions. It also works, as the authors note, early in a long programme as a way of shaking a
+  group out of polite passivity.
+
+  ## What to protect in the debrief
+
+  The authors allow 45 to 60 minutes for debriefing, which is longer than the game, and they are
+  right. The four-pass structure used across the other simulations here fits it well. Three things
+  are worth holding on to:
+
+  - **What did a defection cost, and for how long?** Learners usually underestimate how many rounds
+    it takes to recover.
+  - **What would have made cooperation possible earlier?** This is the transformative-platform
+    question in miniature: what conditions were missing.
+  - **Who did you think the other mills were?** The families' hostility is given, not chosen, which
+    connects the game straight back to the identity work at the start of the course.
+
+  ## Getting it
+
+  The authors publish the full pre-print free on SSRN, including the teaching guide, the participant
+  forms, an online-delivery guide and translations of the materials into several languages. It states
+  "use freely for educational and research purposes", so download it and run it from there. Amala does
+  not reproduce the forms here: the published version is complete, current and better than anything we
+  would paraphrase.
+learnerContent: |
+  Your group runs a flour mill. There are four mills, and one customer: the local pasta restaurant.
+
+  Each month you decide what to produce. What you earn depends not only on your own decision but on
+  what the other three mills decide.
+
+  The families that own these mills have a long history with each other, and it is not a friendly one.
+
+  Afterwards, the questions are:
+
+  - When did you cooperate, and when did you not? What changed?
+  - What did it cost when somebody broke faith? How many rounds did it take to recover?
+  - **What would have had to be true for cooperation to start earlier?**
+  - What did you assume about the other mills before you had any evidence?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners find out, on themselves, how much better everyone could have done and what stopped them.
+    That is a more durable argument for cooperative strategy than being told it works, and it is the
+    disposition a peacebuilder needs when everyone in a room is certain the situation is zero-sum.
+principlesForegrounded: [collaboration, authentic-challenges, safe-spaces]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The best outcome is unavailable to any mill alone and requires trusting parties the scenario has
+      given you reason to distrust.
+  - principle: authentic-challenges
+    how: >-
+      The dilemma is real for the duration: learners behave as they actually behave under repeated
+      temptation, rather than as they would say they would behave.
+  - principle: safe-spaces
+    how: >-
+      The hostility belongs to fictional families, so a group can experience distrust and betrayal
+      without any of it attaching to real divisions in the room.
+competencyCodes: [FUS2, ALC3, ALC2, FPS1]
+competencyDevelopment:
+  - code: FUS2
+    how: >-
+      With communication limited, learners have to infer the other mills' reasoning from their choices
+      alone, which is exactly the inference a conflict analysis rests on.
+  - code: ALC3
+    how: >-
+      Recovering cooperation after a defection is conflict transformation compressed into a game, and
+      learners can see precisely what it took.
+  - code: ALC2
+    how: >-
+      Reaching and holding a joint strategy across four parties with no formal process is collaborative
+      decision making under realistic constraints.
+  - code: FPS1
+    how: >-
+      Strategies that worked in early rounds stop working, so learners have to adapt or keep losing.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [pb-ore-wars, pb-the-mm-game, pb-battle-for-orange, pb-transformative-platform, cf-debrief-a-simulation]
+links:
+  - label: "The Pasta Wars: A Dilemma Simulation-Game (free download, SSRN)"
+    url: https://ssrn.com/abstract=2200350
+    note: "The complete pre-print: teaching guide, the three participant forms, an online-delivery guide and multilanguage packs. Marked for free educational and research use."
+rights:
+  status: linked-not-reproduced
+  holder: Noam Ebner (Creighton University) and Yifat Winkler
+  basis: >-
+    The simulation is published and remains the authors'. Nothing of it is reproduced here: this page
+    describes what it does, argues where it fits the course, and links to the authors' own free
+    download. All wording is Amala's own. The authors mark the pre-print "use freely for educational
+    and research purposes", which is a grant to use it, not to republish it.
+  note: >-
+    Do not copy the participant forms, payoff tables or role material onto this page. Send facilitators
+    to the SSRN download, which is free, complete and kept current by the authors.
+sourceRefs:
+  - "Ebner, N. & Winkler, Y. (2009). The Pasta Wars: A Dilemma Simulation-Game. Simulation & Gaming 40(1), 134-146. Pre-print at https://ssrn.com/abstract=2200350"
+provenanceNote: >-
+  Suggested by Louie in August 2026 as a link-out addition to the Peacebuilding course. This page is
+  written from scratch as a pointer to the authors' published simulation.

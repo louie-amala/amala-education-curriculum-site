@@ -1,0 +1,262 @@
+# Contextualised, fully offline ACTIVITY for the Research Project component of Learning Bridge+ (Cox's
+# Bazar). The rehearsal between designing the questions and going out to use them: learners practise the
+# whole arc of a real interview — greet, ask permission, ask, follow up, record, thank — on each other
+# and on a stranger-role, and check they are ready to gather. Absorbs the briefing that used to sit
+# inside "Go and gather", so learners are rehearsed before they meet a real person rather than briefed
+# on the way out. Plan and conduct research phase (objective 2).
+id: cb-rp-practise-interviewing
+slug: cb-rp-practise-interviewing
+access: partner
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Practise being an interviewer, and get ready to go"
+summary: >-
+  Learners rehearse a whole interview from start to finish — greeting, asking permission, asking their
+  question, following up, recording the answer with marks or drawings, and thanking the person — first
+  with each other, then with a partner playing a stranger who is busy, shy, or says no. They finish by
+  checking, out loud and on the page, that they are ready to go and gather.
+facilitationContext:
+- group
+primaryContext: group
+duration: "1.5 hours facilitated"
+grouping: "Pairs, then same-gender gathering pairs for the readiness check"
+whatLearnersDo:
+- "Practise the whole arc of an interview in order: greet, ask permission, ask, follow up, record, thank."
+- Practise recording an answer while the person is still talking — with a mark, a drawing, or a few words — without losing the thread.
+- "Meet the three hard moments in a role-play: the person who says no, the person in a hurry, and the person who gives a one-word answer."
+- Practise the five-second wait until it stops feeling uncomfortable.
+- Check with their gathering partner that they have everything they need, and agree who they will ask, where, and when.
+materialsAndPreparation:
+- The questions pages the learners designed in the previous block, and the survey page with its tally.
+- The gathering-record page from the research book, so learners practise recording on the real page.
+- The consent words from "Asking permission", on the wall.
+- The good interviewer / poor interviewer columns from the previous block, still on the wall.
+- Role cards or spoken briefs for the three hard moments (says no, in a hurry, one-word answers).
+- The agreed safeguarding and referral pathway, and the gender-responsive gathering plan — confirm both before anyone goes out.
+visuals:
+- kind: setup
+  title: "The arc of an interview"
+  caption: >-
+    Rehearse the whole thing in order, not just the questions. Most of what goes wrong for a first-time
+    interviewer happens before the first question and after the last answer.
+  spec:
+    type: zones
+    zones:
+    - label: "Greet & ask permission"
+      sublabel: "may I ask you some questions?"
+      tone: positive
+      cards:
+      - "say why we are asking"
+      - "they can say no"
+    - label: "Ask & follow up"
+      sublabel: "one question, then wait"
+      tone: neutral
+      cards:
+      - "tell me more"
+      - "count to five"
+    - label: "Record & thank"
+      sublabel: "marks, not names"
+      tone: positive
+      cards:
+      - "draw or mark it"
+      - "thank you for helping me"
+facilitationNotes: >-
+  The one thing to get right: rehearse the parts that are not the questions. Learners have their
+  questions now, and they will assume that is the hard bit. It is not. What goes wrong for a first-time
+  interviewer is the greeting, the moment the person says no, the silence after a short answer, and
+  trying to record while listening. Make them do the whole arc, in order, several times, until it is
+  boring. Play the difficult person yourself first so nobody is embarrassed. And treat "they said no" as
+  a success in the rehearsal — a learner who can walk away warmly from a refusal is a safe researcher.
+steps:
+- title: "The whole arc, twice"
+  duration: "35 min"
+  guidance: >-
+    In pairs, learners run a full interview on each other, in order: greet, ask permission, ask one
+    question, use a follow-up, wait, record on the real gathering-record page, thank. Then swap. Then do
+    it a second time, and this time each learner is told one thing to improve from the first round.
+    Insist on the recording happening during the interview, on the real page — a learner who waits until
+    afterwards loses most of the answer.
+  keyPrompts:
+  - "Did you ask permission before your first question?"
+  - "What did you write or draw while they were still speaking?"
+  - "How long did you wait after the answer?"
+- title: "The three hard moments"
+  duration: "35 min"
+  guidance: >-
+    Now the partner plays someone difficult. Round one: the person says no — the learner thanks them
+    warmly and leaves, and the group agrees that this is a good outcome, not a failure. Round two: the
+    person is in a hurry — the learner has to choose their single most important question. Round three:
+    the person answers in one word — the learner uses the three follow-ups and the wait. Model each one
+    yourself first, badly and then well.
+  keyPrompts:
+  - "What will you say if they say no?"
+  - "If you only get one question, which one is it?"
+  - "They said 'yes, it is bad'. What now?"
+- title: "Are we ready to go?"
+  duration: "20 min"
+  guidance: >-
+    In their gathering pairs, learners work through the readiness page: do we have our questions, our
+    follow-ups, our survey page and marks, our consent words? Who will we ask, where, and when? What will
+    we do if we cannot find them? Confirm the gender-responsive plan and the safeguarding pathway out
+    loud with the whole group. Hear from every pair before they leave: one open question, its follow-up,
+    and who they will ask.
+  keyPrompts:
+  - "Who will you ask, and when?"
+  - "What if they are not there — who else?"
+  - "What is the one thing you will not do?"
+educatorContent: |
+  ## What you need to know before you teach this
+
+  This block exists because a briefing is not a rehearsal. Learners now have good questions on the page;
+  what they do not have is the experience of being the person asking. Almost everything that goes wrong
+  on a first real interview happens outside the questions — in the greeting, in the refusal, in the
+  silence, and in trying to write while listening. Rehearse those, not the questions.
+
+  ### Recording while listening is a skill, and it has to be practised on the real page
+
+  A learner who listens to a whole answer and then tries to record it will keep about a third of it. A
+  learner who tries to record every word will stop listening. Teach the middle: one mark, one drawing or
+  two words while the person is still speaking, then finish it the moment they stop. Practise on the
+  actual gathering-record page from the research book, not on scrap — the page has to become familiar
+  before it is used under pressure.
+
+  ### "They said no" is a success
+
+  A refusal is the single most likely thing to knock a first-time interviewer off course, and a learner
+  who feels it as failure will start pressing people. So rehearse it deliberately and celebrate it: the
+  learner thanks them, wishes them well, and walks away. Say plainly to the group that a researcher who
+  can accept a no is a researcher people will trust — and that anyone who cannot accept a no should not
+  be gathering.
+
+  ### The one-word answer
+
+  The most common real outcome is "yes, it is bad." That is not data. It is the moment the three
+  follow-ups exist for. Rehearse it until the learner's first instinct after a short answer is to wait
+  rather than to move to the next question.
+
+  ### Confirm the practical plan out loud
+
+  Before anyone leaves, three things must be settled and said aloud, not assumed: the gender-responsive
+  gathering plan (who gathers with whom, where, and at what time of day), the safeguarding and referral
+  pathway (who you turn to if a learner or a person they speak to becomes distressed or is at risk), and
+  what a pair does if the person they planned to ask is not there. Write the fallback into the readiness
+  page — a pair with no plan B will either give up or ask whoever is nearest, and both weaken the
+  evidence.
+
+  ### What this block is not
+
+  It is not more question-drafting. If a pair's questions are still weak, fix them here in the moment,
+  but do not let the group slide back into designing — the point of this hour and a half is that
+  learners have physically done the thing before they do it for real.
+
+  ## Before they leave this block
+
+  Every pair says aloud: one open question, the follow-up they will use, who they will ask, where, when,
+  and what they will do if that person is not there. A pair that cannot say all six is not ready; keep
+  them back for a few minutes and rehearse again rather than sending them out.
+learnerTeaching:
+  title: "How to do the whole interview"
+  readAloud: |
+    ## How to do the whole interview
+
+    Your questions are ready. Now we practise everything **around** the questions. That is the part that
+    is hard the first time.
+
+    ### The six steps, in order
+
+    - **Greet.** Say hello. Say your name.
+    - **Ask permission.** "May I ask you some questions?" Say why you are asking.
+    - **Ask.** One question. Then stop talking.
+    - **Follow up.** "Tell me more." "Why do you think that?" Or wait quietly and count to five.
+    - **Record.** Make your mark or your drawing **while they are still talking**. No names.
+    - **Thank them.** "Thank you for helping me."
+
+    ### Record while they talk
+
+    If you wait until the person has finished, you will forget most of it. If you try to catch every
+    word, you will stop listening.
+
+    Do this instead: one mark, one small drawing, or two words while they are speaking. Finish it as soon
+    as they stop.
+
+    ### Three hard moments — and what to do
+
+    - **They say no.** Say "thank you anyway" and leave, warmly. This is not a failure. A good researcher
+      accepts a no. Never ask again, and never press.
+    - **They are in a hurry.** Ask your **one most important** question. Know before you go which one
+      that is.
+    - **They answer with one word.** "Yes, it is bad." Now use a follow-up, or wait and count to five.
+      The real answer is the second one.
+
+    ### Before you go, know these things
+
+    - Who you will ask.
+    - Where, and when.
+    - **And who you will ask instead, if that person is not there.**
+
+    ### The things we never do
+
+    - We never write anyone's name.
+    - We never press someone who does not want to answer.
+    - We never argue with an answer.
+    - We never go somewhere that is not safe, and we go in our pair — never alone.
+  words:
+  - term: rehearse
+    meaning: to practise the whole thing before you do it for real
+  - term: consent
+    meaning: the person says yes, freely, before we ask them anything
+  - term: refuse
+    meaning: when someone says no — and that is always allowed
+  tryIt:
+    intro: >-
+      With your partner, do the whole thing once, in order: greet, ask permission, ask, follow up,
+      record, thank. Then swap.
+    then: >-
+      Now do it again — and this time your partner says **no**. Practise thanking them and walking away
+      warmly. There is no right answer to check for this one: the practice IS the answer.
+learnerContent: |
+  ## Practise being an interviewer
+
+  Today we do not write new questions. We practise **being** the person who asks.
+
+  We do the whole interview with a partner, from the greeting to the thank you, and we record the answer
+  on our real gathering page while our partner is still speaking. Then we do it again, better.
+
+  Then we practise the three hard moments: the person who says no, the person in a hurry, and the person
+  who answers with one word.
+
+  At the end, we check with our partner that we are ready: our questions, our follow-ups, our survey
+  page, our asking words — and who we will ask, where, when, and who we will ask instead if they are not
+  there.
+worksheet:
+  slug: cb-rp-ready-to-gather
+  note: "In the research book (student workbook): the 'How to do the whole interview' teaching page and the 'Are we ready to go?' readiness page. Print one per learner."
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  - contribution-to-community
+  how: >-
+    Rehearsing the whole encounter — including the refusal — is what turns a learner from someone
+    carrying questions into someone who can walk up to an adult in their community and hold a
+    conversation on their own terms. That confidence transfers far beyond this investigation.
+principlesForegrounded: [collaboration, authentic-challenges, feedback-and-data]
+principleAlignment:
+- principle: collaboration
+  how: Learners rehearse in pairs and give each other one thing to improve between rounds.
+- principle: authentic-challenges
+  how: The rehearsal is for a real conversation with real people in their own community, days away.
+- principle: feedback-and-data
+  how: Each round ends with a named improvement, and the readiness check surfaces what is still missing before it costs real evidence.
+competencyCodes: [FSI1, FTS3]
+competencyDevelopment:
+- code: FSI1
+  how: Conducting primary research well is part of the investigation itself, not preparation for it.
+- code: FTS3
+  how: Learners practise capturing data accurately at the moment it is given, which is what makes it usable later.
+objectiveIds: [research-project--o2]
+relatedSlugs: [cb-rp-design-our-questions, cb-rp-asking-permission, cb-rp-go-and-gather, cb-rp-ready-to-gather, cb-rp-safeguarding-and-protection]
+provenanceNote: >-
+  Authored activity for the Learning Bridge+ (Cox's Bazar) Research Project edition (August 2026). Added
+  because learners previously moved straight from designing questions to gathering in the community, with
+  only a briefing in between. It absorbs that briefing and adds the rehearsal: the whole arc of an
+  interview, the three hard moments, and a readiness check. Fully offline, oral and visual first.

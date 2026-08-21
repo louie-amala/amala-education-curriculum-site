@@ -1,0 +1,34 @@
+id: interdependence
+slug: interdependence
+access: public
+term: Interdependence
+category: content
+matchPhrases:
+- interdependence
+- interdependent
+definition: >-
+  The condition of mutual reliance between people, groups and systems, where what happens to
+  one part affects the others.
+explainer: |
+  Interdependence is the reason a peacebuilder has to think in systems. If parties were genuinely
+  separable, a conflict could be settled by separation. They are not, so it cannot: a wall between
+  two communities leaves both dependent on the same water, economy and future, and the dependence
+  keeps generating the conflict the wall was meant to end.
+
+  It works at every scale. A person depends on family; a family on a neighbourhood; a community on a
+  region; a country on its neighbours. The same structure repeats, which is what
+  [systems thinking](/glossary/systems-thinking) formalises, and it is why an intervention aimed at
+  one part of a conflict system reliably produces effects elsewhere. Anticipating those effects is
+  the analytic core of [do no harm](/glossary/do-no-harm).
+
+  Interdependence is also the ground of the hopeful half of peacebuilding. If harm propagates through
+  a system, so does repair, which is what makes small, local action at track 3 worth taking
+  seriously rather than dismissing as too small to matter.
+examples:
+- A factory upstream in one country determining the drinking water of another
+nonExamples:
+- Treating a neighbourhood's problem as contained within that neighbourhood
+useInContext: >-
+  Learners map the parties in a conflict as a connected system and trace how a change in one
+  relationship would travel through the rest.
+relatedTermIds: [systems-thinking, do-no-harm, diversity, structural-violence]

@@ -1,0 +1,196 @@
+id: pb-looking-at-inner-conflicts
+slug: pb-looking-at-inner-conflicts
+access: public
+type: activity
+title: "Looking at inner conflicts"
+summary: >-
+  Learners write an inner conflict on a card, place it on a good-for-me to bad-for-me line, then
+  add a second axis for good and bad for society.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The two-axis grid only works with many cards on it, because the interesting
+      quadrants are the ones where personal and social outcomes pull apart, and one learner rarely
+      produces a card in each.
+  - context: independent
+    how: >-
+      A learner can write cards and place them alone, and the reflection still works. What is lost is
+      the spread across the grid, so give them the four quadrants directly and ask for one example in
+      each, from their own life or from people they know.
+  - context: one-to-one-mentoring
+    how: >-
+      Strong in mentoring, where the two axes give a structured way into a decision a learner is
+      currently stuck on, without the mentor having to advise. Keep the cards anonymous even in a
+      one-to-one if the learner prefers.
+duration: 45-60 minutes.
+grouping: Individual cards, whole group for the continuum, small groups for the discussion.
+materialsAndPreparation:
+  - Card or paper for each learner, a few pieces each.
+  - Floor or wall space for a line, then for a grid with two axes.
+  - Two sheets headed "outcomes to inner conflict that are bad for me" and "outcomes to inner conflict that are good for me", and later two more for the combined version.
+  - "Have an example of an inner conflict ready. The source's is good: everyone is laughing at a racist joke you know is offensive, and you are deciding what to do."
+whatLearnersDo:
+  - Describe an inner conflict they have faced, what they did about it, and how it turned out.
+  - Place their card on a line from good for me to bad for me.
+  - Identify what the good-for-me cases had in common, and the bad-for-me ones.
+  - Add a second axis, good for society to bad for society, and place the cards again.
+  - Work out what links inner conflict to conflict at a social level.
+facilitationNotes: >-
+  The one thing to get right is defining inner conflict before anyone writes, because most learners
+  have not used the phrase. It is a conflict inside one person, where two of their own needs, values
+  or loyalties pull against each other, and the shame or difficulty is in the deciding. Give the
+  racist-joke example: join in and condone it, or object and be laughed at yourself. Keep the cards
+  anonymous, because the useful ones are the ones learners are not proud of, and those only appear if
+  nobody's name is on the card.
+steps:
+  - title: "Define inner conflict, then write one"
+    duration: 12 minutes
+    guidance: >-
+      Explain what an inner conflict is and give the example. Then each learner writes on a card:
+      describe an inner conflict you have faced, what you did about it, and what the outcome was.
+      Offer prompts for those who stall, about how they felt, whether they blamed themselves or
+      others, and whether they believed it could be resolved. Keep cards unsigned.
+    keyPrompts:
+      - "A conflict inside you, where two things you care about pulled in different directions."
+      - "What did you actually do about it?"
+    watchOuts:
+      - "Learners write conflicts with other people rather than within themselves. Give a second
+        example, and check a few quietly at the desk."
+      - "A learner picks something too raw. Say once, before writing, that they can use an inner
+        conflict that is not their own, or a small one."
+  - title: "Place the cards on one line"
+    duration: 8 minutes
+    guidance: >-
+      Lay out a line from good for me to bad for me, based on the outcome. Learners place their cards
+      face up, anonymously. Then everyone reads the line. Do not discuss individual cards; discuss the
+      ends of the line and what accumulates at each.
+    keyPrompts:
+      - "What is at this end that is not at that end?"
+    watchOuts:
+      - "Learners try to identify authors. Stop it; the anonymity is what made the honest cards
+        possible."
+  - title: "Name the features at each end"
+    duration: 10 minutes
+    guidance: >-
+      Build the two posters. What were the features of the conflicts, and of how they were
+      approached, that turned out badly for people? And what were the features of the ones that turned
+      out well? These lists come from the cards, so they are the group's own findings rather than
+      general advice about decision-making.
+    keyPrompts:
+      - "It is not just what happened. What did the person do that made the difference?"
+    watchOuts:
+      - "The lists become moral (be brave, be honest). Push for the behavioural version: what did they
+        actually do first?"
+  - title: "Add the second axis"
+    duration: 15 minutes
+    guidance: >-
+      Now add a vertical axis, good for society to bad for society, making four quadrants. Learners
+      place their cards again. The interesting cards are the ones that move off the diagonal: good for
+      me and bad for society, or bad for me and good for society. Ask about those specifically.
+    keyPrompts:
+      - "Were there cards that were good for you and bad for society? Why?"
+      - "Bad for you and good for society? What did that cost?"
+      - "What did the ones that were good for both have in common?"
+    watchOuts:
+      - "Every card lands on the diagonal, so the grid teaches nothing. Prompt with a scenario that
+        obviously splits: staying quiet keeps you safe and lets something continue."
+    adaptation: >-
+      Short on time: run the single axis and the two posters only, and add the second axis in the
+      following session. The two-axis version needs the full discussion or it is just a diagram.
+  - title: "Link the personal to the social"
+    duration: 10 minutes
+    guidance: >-
+      The closing questions. How do the features of conflicts at a personal level link to the
+      features of conflicts at a social level? And which outcomes would we like to make more common,
+      and why? This is where the week's premise gets stated by the group rather than by you: peaceful
+      interactions at a personal level support peaceful interactions at a societal level.
+    keyPrompts:
+      - "Do the same features show up in the community conflicts we have studied?"
+      - "Which of these outcomes should we be trying to make more common?"
+    watchOuts:
+      - "The link is asserted rather than shown. Ask for one specific feature that appears on both
+        the personal posters and in a community conflict the group has analysed."
+closing: >-
+  Point at the good-for-me-and-for-society quadrant and ask what it would take to end up there more
+  often. Keep both posters visible for the following session, which is about transforming inner
+  conflicts rather than describing them. Say the connection plainly, once: how a person handles the
+  conflict inside themselves is not separate from how their community handles the conflicts between
+  its members.
+learnerContent: |
+  An **inner conflict** is a conflict inside you: two things you care about pulling in different
+  directions, and you have to decide.
+
+  For example: people are laughing at a racist joke. You know it is offensive. Do you join in, and
+  let it pass? Or do you say something, and risk being laughed at yourself?
+
+  On a card, and **without your name on it**:
+
+  - Describe an inner conflict you have faced.
+  - What did you do about it?
+  - What was the outcome?
+
+  If it helps: how did you feel about it? Were you too hard on yourself? Was the resolution peaceful
+  for you, and for others? Did you blame yourself, or someone else? Did you believe you could resolve
+  it if you tried?
+
+  Now place your card on a line from **good for me** to **bad for me**, based on the outcome.
+
+  - What did the ones at the bad end have in common? What about the good end?
+
+  Now we add a second line: **good for society** to **bad for society**. Place your card again.
+
+  - Were any cards good for you but bad for society? Why?
+  - Any bad for you but good for society? Why?
+  - What did the ones that were good for both have in common?
+  - How do these features link to conflicts at a community level?
+  - **Which outcomes should we be trying to make more common?**
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, contribution-to-community]
+  how: >-
+    Learners produce, from their own cards, a description of what makes an inner conflict go well for
+    them and for others. That is a criterion they own and can apply to the next decision, which is
+    more use than any principle handed to them.
+principlesForegrounded: [safe-spaces, authentic-challenges, builds-on-identities]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Cards are anonymous throughout, learners may use a conflict that is not their own, and no card
+      is ever attributed to a person in the room.
+  - principle: authentic-challenges
+    how: >-
+      The material analysed is the learners' own difficult decisions, and the findings are drawn from
+      those rather than from case studies.
+  - principle: builds-on-identities
+    how: >-
+      What counts as a hard decision, and what it costs to make it, is entirely defined by the
+      learners' own lives and communities.
+competencyCodes: [FSL1, FUS1, FLC1]
+competencyDevelopment:
+  - code: FSL1
+    how: >-
+      Writing what you did, what it cost and what you would want to do differently is structured
+      self-reflection on a real decision.
+  - code: FUS1
+    how: >-
+      Placing your own card on two axes requires an honest judgement about whether an outcome that
+      suited you was good for anyone else.
+  - code: FLC1
+    how: >-
+      The off-diagonal quadrants are exactly the situations where personal interest and ethical action
+      diverge, which is where ethical action is actually tested.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [pb-transforming-inner-conflicts, pb-peace-spiral, pb-emotions-in-conflict]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced.
+sourceRefs:
+  - "Week 4 - Looking at inner conflicts (Peacebuilding resources folder)"
+  - "Having more peaceful interactions (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 4"
+provenanceNote: >-
+  Adapted from Amala's "Looking at inner conflicts", with the personal-to-societal framing drawn from
+  the companion note "Having more peaceful interactions".

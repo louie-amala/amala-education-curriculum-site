@@ -1,0 +1,183 @@
+id: pb-apple-arguments
+slug: pb-apple-arguments
+access: public
+type: activity
+title: "Apple arguments"
+summary: >-
+  Fifteen people all want the same apple, for fifteen incompatible reasons. Learners pair them up
+  and find where the conflict is about resources and where it is about values.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only. The pairings are read out to the room and analysed collectively, and the value is
+      in how differently the room reacts to a resource clash and to a values clash.
+duration: 45 minutes.
+grouping: Whole group in a circle, with pairs coming forward.
+materialsAndPreparation:
+  - An apple, or any object. The name of the activity does not matter; adapt the positions to whatever object suits your context.
+  - The fifteen position slips, cut up. They are listed in the learner content and can be rewritten freely.
+  - Board space to collect and categorise the group's own examples of conflict.
+whatLearnersDo:
+  - Give an example of a conflict they have been in or heard of, and group the examples by cause.
+  - "Sort those groups into two larger categories: resource conflicts and value conflicts."
+  - Take a secret position on what should happen to the apple.
+  - Meet another position in front of the group, and let the room analyse the clash.
+facilitationNotes: >-
+  The one thing to get right is the distinction the whole activity turns on. Resource conflicts are
+  about a limited commodity: land, money, time, materials, labour. They are typically easier to
+  settle, by competition, division, sharing or expanding the resource. Value conflicts are clashes
+  between beliefs about what is right, good or just, and they are harder because values are tied to
+  identity and culture. They are worked on through education, exposure, identifying underlying
+  interests and compromise. The apple positions are chosen so that both kinds appear, and learners
+  can feel the difference between arguing over a portion and arguing over what an apple is for.
+steps:
+  - title: "Collect conflicts and let the group categorise them"
+    duration: 15 minutes
+    guidance: >-
+      Ask every learner for an example of a conflict they have been in or heard of, and record them.
+      Aim for around twenty. Then ask the group to put similar ones together and name each category
+      in their own words. Do not offer categories; whatever they produce is the material for the next
+      step.
+    keyPrompts:
+      - "Which of these have similar causes? What would you call that group?"
+    watchOuts:
+      - "Only large political conflicts get offered. Ask for one from this week, in this building,
+        and the range opens up."
+  - title: "Sort the categories into resources and values"
+    duration: 10 minutes
+    guidance: >-
+      Now give the two super-categories and ask the group to sort their own categories into them.
+      Some will split, and the splitting is useful: a dispute over land is a resource conflict until
+      the land is sacred, at which point it is both. Note which of the group's examples turn out to be
+      value conflicts wearing resource clothing.
+    keyPrompts:
+      - "Is this about who gets it, or about what it means?"
+      - "Which of these is really both?"
+    watchOuts:
+      - "Learners treat the two as exclusive. Most serious conflicts are both, and the mixed ones are
+        the hardest and most interesting."
+  - title: "Run the pairings"
+    duration: 15 minutes
+    guidance: >-
+      Hand out the position slips, kept secret. Place the apple on a table in the middle. Two learners
+      at a time come forward and read or describe their positions to each other and to the room. Keep
+      each pairing brief, one or two minutes, because the analysis happens in the room rather than in
+      the exchange.
+    keyPrompts:
+      - "What does each of them need? Do those needs actually clash?"
+      - "What kind of conflict is this? Which of our categories?"
+      - "How could this escalate into violence?"
+      - "Is there a win-win here?"
+    watchOuts:
+      - "Learners play their position for laughs and the analysis is lost. Take one pairing, analyse
+        it fully in front of everyone, and the register settles."
+      - "The group declares every pairing solvable. Point at the pairings where a value forbids the
+        obvious compromise, and ask what could be done then."
+    adaptation: >-
+      Short on time: run four or five pairings rather than all fifteen, choosing a clear resource
+      clash, a clear value clash, and one that is both.
+  - title: "Draw out why categorising helps"
+    duration: 5 minutes
+    guidance: >-
+      In small groups: why might it be useful to categorise conflicts? Does conflict have to lead to
+      violence? How can people adapt their approaches so conflicts have positive outcomes? Learners
+      should reach the practical point, that knowing which kind of conflict you are in tells you which
+      approaches are worth trying.
+    keyPrompts:
+      - "How does knowing the type change what you would try first?"
+    watchOuts:
+      - "The answer stays at 'it helps you understand'. Ask for the specific approach they would use
+        for each type."
+closing: >-
+  Ask learners to take a conflict of their own and answer four questions privately: what were my
+  needs, what were the other party's, how were they not aligned, and how might I have changed my
+  approach so the outcome was positive for both. Then say the finding. Fifteen people wanted one
+  apple, several could have had exactly what they needed at the same time, and the ones who could
+  not were arguing about values rather than portions.
+learnerContent: |
+  First: give an example of a conflict you have been in or heard about. We will collect everyone's
+  and group the similar ones together.
+
+  Then sort your groups into two big categories:
+
+  - **Resource conflicts:** about a limited thing: land, money, time, materials, labour. Usually
+    easier to settle, by competing, dividing, sharing, or making more of the resource.
+  - **Value conflicts:** clashes between beliefs about what is right, good or just. Harder, because
+    values are tied to who people are. Worked on through education, exposure, finding the interests
+    underneath, and compromise.
+
+  **Now the apple.** You will each be given a secret position. Two at a time, come and tell each
+  other, and the room, what you want.
+
+  The positions are all different, and several of them cannot be satisfied at the same time. Some
+  want a **part** of the apple: the peel, the flesh, the seeds. Some want it **used** a particular
+  way: made into sauce, cut for printing, photographed as it decomposes. And some hold a **belief**
+  about it: it is sacred and must not be eaten, it is dangerous and must be destroyed, it must not be
+  wasted on anything but feeding someone.
+
+  Watch which kind of clash you are in. The first two kinds can often both be satisfied at once. The
+  third usually cannot, and that is the point of the activity.
+
+  For each pair, the room asks:
+
+  - What does each of them need? Do the needs actually clash?
+  - **What type of conflict is this?**
+  - How could it escalate into violence?
+  - Is there a win-win?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Learners leave able to ask, of a live conflict, whether it is about a limited thing or about what
+    is right. That single question changes which approaches they try first, and trying the wrong kind
+    of approach is how well-meant interventions fail.
+principlesForegrounded: [collaboration, authentic-challenges, lifeworthy-competencies]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The categories are built by the group from its own examples, and every pairing is analysed by
+      the whole room rather than by the two learners in it.
+  - principle: authentic-challenges
+    how: >-
+      The categorisation is applied to the group's own conflicts before it is applied to the apple, so
+      the framework is tested on real material first.
+  - principle: lifeworthy-competencies
+    how: >-
+      Diagnosing whether a dispute is about resources or values is a fast, portable judgement usable
+      in any argument a learner is in.
+competencyCodes: [APS3, FUS2, FSI2]
+competencyDevelopment:
+  - code: APS3
+    how: >-
+      Grouping twenty examples by cause, then collapsing the groups into two families, is pattern
+      identification carried out on the learners' own data.
+  - code: FUS2
+    how: >-
+      Several positions are unreasonable-sounding until the need beneath them is stated, which is
+      exactly the move learners keep failing to make in the negotiation activities.
+  - code: FSI2
+    how: >-
+      Finding a win-win for each pairing requires generating options rather than picking between the
+      two positions on offer.
+objectiveIds: [peacebuilding--o1, peacebuilding--o2]
+relatedSlugs: [pb-battle-for-orange, pb-defining-conflict, pb-the-mm-game, needs-fears-mapping]
+links:
+  - label: "Compiled conflict resolution activities"
+    url: https://cpb-us-e1.wpmucdn.com/blogs.uoregon.edu/dist/8/11350/files/2015/05/Compiled-Activities-1-r5x71c.pdf
+    note: "University of Oregon collection, the source of both this activity and the power imbalance challenges."
+sourceRefs:
+  - "Apple Arguments (Peacebuilding resources folder)"
+rights:
+  status: own-expression
+  holder: University of Oregon (the compiled activity collection)
+  basis: >-
+    The activity is credited and linked. The source's fifteen written position cards are not
+    reproduced here: this page describes the three kinds of position and leaves facilitators to take
+    the set from the linked collection or write their own for their context.
+  note: >-
+    Do not paste the fifteen position cards onto this page. Writing local positions is better practice
+    anyway, since an apple is not the right object everywhere.
+provenanceNote: >-
+  Adapted from Amala's "Apple Arguments", itself from a University of Oregon collection of conflict
+  resolution activities.

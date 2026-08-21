@@ -1,0 +1,128 @@
+id: pb-examples-of-violence
+slug: pb-examples-of-violence
+access: public
+type: resource
+title: "Example bank: cases of violence"
+summary: >-
+  A set of short cases spanning inner, personal, community and international violence, for
+  categorising and analysing when personal examples are not appropriate.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Hand out one case per small group, or use the whole set when a group needs to see the range.
+      The set is deliberately uneven in scale, so distributing them at random produces useful
+      arguments about whether something counts as violence at all.
+  - context: independent
+    how: >-
+      A learner working alone can take two or three cases at different scales. Choose them yourself
+      rather than letting the learner pick, since learners tend to pick the largest and lose the
+      quieter ones, which are the more instructive.
+  - context: one-to-one-mentoring
+    how: >-
+      Useful in mentoring as a way to discuss violence without asking a learner for their own
+      experience of it. Start with a case at a scale far from their life.
+materialsAndPreparation:
+  - Print the cases as separate slips or cards if you can. Reading them aloud works too.
+  - Choose which cases fit your context before the session. Several touch sexuality, religion, race and displacement, and some will be closer to your learners than others.
+  - Replace or add cases from your own context freely. A locally recognisable case does more work than a distant one.
+educatorContent: |
+  This bank exists so that a facilitator never has to choose between an analysis activity and a
+  learner's safety. Every violence-analysis material in this course (categorising violence,
+  needs-fears mapping, systems mapping, the problem tree) can be run on these cases instead of on
+  personal or local examples.
+
+  ## What is in it
+
+  The cases run deliberately across scales, so a group sorting them has to decide what counts:
+
+  - **Inner conflict:** a parent torn between work and children, feeling guilty in both directions.
+  - **Silence under power:** an employee who knows the chief executive is wrong and says nothing,
+    because dissent is punished.
+  - **Family and identity:** a young man from a devout family realising he is gay, in a household
+    that has said homosexuality is wrong.
+  - **Political violence:** a citizen who decides to kill a president whose policies they consider
+    racist.
+  - **Contested memory:** students campaigning to remove a statue of a slave owner, a hostile local
+    reaction, and a car driven into the protesters, killing one.
+  - **Segregation and non-violent resistance:** activists trained not to react, sitting at a
+    whites-only counter and being spat at and beaten.
+  - **Interstate war:** two countries claiming the same border land, escalating from troop build-up
+    to airstrike to full war.
+  - **Online bullying:** a new pupil finding himself labelled on a social media page, the postings
+    worsening, and school becoming frightening.
+  - **State persecution:** the Rohingya in Myanmar, restricted in movement, marriage, childbirth and
+    house repair, denied identity cards, and subject to violent clashes.
+
+  ## How to use it
+
+  Three things make the set worth more than its individual cases.
+
+  **Scale contrast.** Give different groups cases from different scales and they discover that the
+  same analysis tool works on a family and on a war. That is the argument for the tools.
+
+  **Boundary cases.** The first three are not obviously violence at all, and the argument about
+  whether they belong is where the definition gets tested. Do not settle it. Let groups disagree.
+
+  **Non-obvious parties.** Most cases have people who are affected but never named: the children in
+  the first, the colleagues in the second, the family in the third. Learners consistently miss them,
+  and needs-fears mapping and systems mapping both depend on finding them.
+
+  ## Localisation warning
+
+  These cases carry the assumptions of the places they were written about. Several are American or
+  European; the Rohingya case is close to home for some Amala partners and distant for others, and
+  it is written in summary. Check each case against your context before you use it, and be ready to
+  substitute. A case that a group recognises will always produce better analysis than one it does not.
+learnerContent: |
+  These are short accounts of situations where someone is harmed. They are here so you can practise
+  analysing violence without having to use your own life as the example.
+
+  Some of them are obviously violent. Some of them are not obviously violent at all, and whether
+  they belong in this set is a genuine question worth arguing about.
+
+  When you work on one, look for:
+
+  - **Everyone involved**, including people who are affected but never mentioned in the account.
+  - **What kind of violence** is present: direct, structural, cultural, or more than one.
+  - **What is missing from the account** that you would need to know before you could act.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Having a bank of cases means a learner is never forced to supply their own experience in order to
+    take part in the analysis. Choosing how much of your own life to bring into a classroom is a
+    small but real piece of self-direction.
+principlesForegrounded: [safe-spaces, authentic-challenges]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      The whole purpose of the bank is to make the violence-analysis sequence runnable without
+      requiring personal disclosure from anyone.
+  - principle: authentic-challenges
+    how: >-
+      The cases are real situations rather than exercises, and the localisation warning pushes
+      facilitators towards cases their own learners will recognise.
+competencyCodes: [FPS3, FPS2]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Each case is written thinly on purpose, so learners have to infer contributing factors rather
+      than read them off.
+  - code: FPS2
+    how: >-
+      Noticing what a short account leaves out, and what you would need to know before acting, is
+      evaluating a source rather than consuming it.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [pb-categorising-violence, needs-fears-mapping, conflict-systems-mapping, problem-tree]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced. Cases are paraphrased rather than reproduced, and facilitators are told to write local ones.
+sourceRefs:
+  - "Examples of violence (Peacebuilding resources folder)"
+  - "Conflict examples - violent and non-violent approaches (Peacebuilding resources folder)"
+provenanceNote: >-
+  Summarised from Amala's "Examples of violence" and "Conflict examples" case sets. Cases are
+  paraphrased here; facilitators should source or rewrite the full texts for their own context.

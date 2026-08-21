@@ -1,0 +1,143 @@
+id: three-track-leadership
+slug: three-track-leadership
+access: public
+type: concept
+title: "Lederach's three tracks of peacebuilding leadership"
+summary: >-
+  A pyramid of who does peacebuilding: top-level negotiators, middle-range facilitators, and
+  grassroots leaders. Most learners are on track three.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Teach it by sorting, not by presenting. Learners group a list of actors and a list of
+      approaches however they choose, then compare their groupings with Lederach's. Discovering that
+      their own grouping was close is what makes the model feel earned.
+  - context: independent
+    how: >-
+      The sorting works alone and so does placing named peacebuilders on the pyramid. What is lost is
+      the discussion of which track the media covers, so ask the learner to check three recent news
+      stories about peace efforts and record which track each one is about.
+educatorContent: |
+  John Paul Lederach arranged peacebuilding leadership as a pyramid with three levels. It is one of
+  the most consequential ideas a learner meets on this course, because it decides whether they
+  believe peacebuilding includes them.
+
+  ## The three tracks
+
+  **Track 1: top-level leadership.** Military, political and religious leaders with high visibility.
+  Approaches: focus on high-level negotiations, emphasis on ceasefire, led by a highly visible single
+  mediator. Very few people, very high profile.
+
+  **Track 2: middle-range leadership.** Leaders respected in sectors: academics and intellectuals,
+  leaders of NGOs and international NGOs, respected leaders of industry, ethnic and religious
+  leaders. Approaches: problem-solving workshops, training in conflict resolution, peace commissions.
+  Lederach regarded this level as strategically the most useful, because it is connected both upwards
+  and downwards.
+
+  **Track 3: grassroots leadership.** Local leaders, leaders of indigenous or local NGOs, community
+  leaders, local health officials, refugee camp leaders, teachers. Approaches: local peace
+  commissions, grassroots training, prejudice reduction, psychosocial work, post-war trauma work.
+  Many people, low visibility.
+
+  ## The two points that matter
+
+  **The media covers track 1 almost exclusively.** Ask learners which types of peacebuilder the news
+  focuses on and what impression that gives the world. The answer explains why most people believe
+  peacebuilding is done by famous people at tables, and why almost nobody thinks of a camp leader or
+  a teacher as a peacebuilder.
+
+  **Most learners are on track 3.** Once the pyramid is on the board, ask which group they most
+  associate themselves with. For an Amala cohort the answer is almost always the bottom, and that is
+  precisely the level Lederach argues carries the relationships peace actually rests on. This is
+  often the moment the course stops being about other people.
+
+  ## How to run it
+
+  Ask learners first to name peacebuilders they have heard of. Then give the list of actor types
+  unsorted and ask them to group them however they like. Then give the list of approaches and ask
+  them to match approaches to their groups. Only then show Lederach's pyramid and ask what is similar
+  and different. Finally, place the peacebuilders they named onto it, and ask where most of them
+  went and why they had heard of those ones.
+
+  ## Its limits
+
+  The pyramid describes who acts, not what works, and it can imply a tidier hierarchy than exists:
+  in many conflicts the same person operates across two tracks, and the middle level may be
+  destroyed or co-opted. It is also silent about who is excluded from all three, which is worth
+  asking directly.
+learnerContent: |
+  **First:** name some peacebuilders you have heard of.
+
+  **Now group these**, however you like:
+
+  Military leaders · Political leaders · Religious leaders · Ethnic group leaders · Academics ·
+  Intellectuals · Leaders of NGOs · Leaders of international NGOs · Respected leaders of industry ·
+  Local leaders · Leaders of indigenous or local NGOs · Community leaders · Local health officials ·
+  Refugee camp leaders · Teachers
+
+  **Now match these approaches to your groups:**
+
+  Focus on high-level negotiations · Emphasise ceasefire · Led by a highly visible single mediator ·
+  Problem-solving workshops · Training in conflict resolution · Peace commissions · Local peace
+  commissions · Grassroots training · Prejudice reduction · Psychosocial work · Post-war trauma work
+
+  Then compare your groupings with Lederach's three tracks.
+
+  - Place the peacebuilders you named at the start onto the pyramid. **Where did most of them go?**
+  - Why had you heard of those particular ones?
+  - Which types of peacebuilder does the news focus on? What impression does that give the world?
+  - **Which group do you most associate yourself with, and why?**
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: >-
+    The model names the level most learners already occupy as real peacebuilding leadership. That
+    reframing is the difference between a learner who thinks peace is made by other people and one
+    who thinks their community work counts, which changes what they attempt.
+principlesForegrounded: [builds-on-identities, connect-to-futures, lifeworthy-competencies]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      Camp leaders, teachers and community elders appear on the model as leadership, which recognises
+      the forms of authority learners actually live among rather than only the ones on television.
+  - principle: connect-to-futures
+    how: >-
+      Asking which track a learner associates themselves with turns an analytic model into a question
+      about the role they are heading towards.
+  - principle: lifeworthy-competencies
+    how: >-
+      Knowing which track you are on tells you which approaches are available to you, which is a
+      practical judgement rather than a piece of theory.
+competencyCodes: [FPS3, ALC1, FUS2]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Matching approaches to levels requires reasoning about which actors can actually affect which
+      parts of a conflict system.
+  - code: ALC1
+    how: >-
+      The model is about who leads and how, and it makes visible forms of leadership learners had not
+      counted as leadership.
+  - code: FUS2
+    how: >-
+      Asking why we have heard of certain peacebuilders surfaces how visibility, not contribution,
+      determines whose work is known.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [spheres-of-peacebuilding, pb-profile-of-a-peacebuilder, conflict-resolution-or-transformation]
+links:
+  - label: "Building Peace: Sustainable Reconciliation in Divided Societies"
+    url: https://www.usip.org/publications/1998/03/building-peace
+    note: "Lederach's book, where the pyramid of actors and approaches is set out."
+rights:
+  status: own-expression
+  holder: John Paul Lederach (the pyramid)
+  basis: >-
+    The model is Lederach's, credited and linked to the United States Institute of Peace edition.
+    The actor and approach lists are short category names; everything else is written from scratch.
+sourceRefs:
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 5 Activity 3.1"
+  - "Lederachs 3 Track Leadership in Peacebuilding Model (Peacebuilding resources folder)"
+provenanceNote: >-
+  The model is John Paul Lederach's. Actor and approach lists follow the 2025 Peacebuilding course
+  planner, which reproduces the pyramid.

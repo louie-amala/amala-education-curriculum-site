@@ -1,0 +1,188 @@
+id: pb-defining-conflict
+slug: pb-defining-conflict
+access: public
+type: activity
+title: "Defining conflict: the disagreement card"
+summary: >-
+  Learners analyse a real disagreement of their own on a card, layer by layer, and arrive at a
+  definition of conflict that has no violence in it.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The definition is built collectively at the end, from the cards, which is what
+      makes learners own it rather than receive it.
+  - context: independent
+    how: >-
+      The card works alone and the feelings check-in still registers a change. What is lost is the
+      collective move from many cards to one definition, so give the definition afterwards and ask
+      the learner to test it against their own card.
+  - context: one-to-one-mentoring
+    how: >-
+      Excellent in mentoring, and the card is a good tool to leave with a learner who is in the
+      middle of something difficult. The mentor asks the questions and does not fill in the answers.
+duration: 45-60 minutes.
+grouping: Individual cards, pairs for the definition, whole group to agree it.
+materialsAndPreparation:
+  - One card or piece of paper per learner, with room to write on both sides.
+  - Have your own example ready, ordinary and low-stakes. A curfew disagreement with a parent works in most contexts.
+  - Learners may use a disagreement that is not their own if that is more comfortable. Say so before you ask them to write.
+whatLearnersDo:
+  - Brainstorm disagreements they or people they know have faced.
+  - Write one disagreement in the centre of a card, and note how they feel about it on the back.
+  - Add the parties, then their own needs and goals, then the other party's needs and goals, then how the two differ.
+  - Note their feelings again on the back, and compare.
+  - Build a definition of conflict from the cards, and test it for whether violence belongs in it.
+facilitationNotes: >-
+  The one thing to get right is that the definition the group builds contains no violence. Almost
+  every learner arrives believing conflict means fighting, and the entire structure of the course
+  depends on prising the two apart: conflict is neutral, even necessary, and violence is one possible
+  response to it. Build the definition from their cards rather than announcing it. The second thing
+  worth knowing is that the two feelings check-ins usually show a real shift, because analysing a
+  disagreement makes it smaller, and that shift is itself part of the teaching.
+steps:
+  - title: "Brainstorm disagreements, not conflicts"
+    duration: 8 minutes
+    guidance: >-
+      Ask for disagreements they or people they know have faced, and use the word disagreement rather
+      than conflict. It keeps the register everyday and stops the room reaching for war. Offer your own
+      ordinary example. Then ask learners to group similar disagreements, without insisting on any
+      particular grouping; the sorting is only there to warm up the thinking.
+    keyPrompts:
+      - "What is a disagreement you have had, or seen, this month?"
+    watchOuts:
+      - "Learners offer only large political conflicts, and the personal thread is lost. Give a small
+        domestic example yourself and ask for that size."
+  - title: "Write the card: disagreement, parties, feelings"
+    duration: 10 minutes
+    guidance: >-
+      One disagreement in the centre of the card. Then the parties: who is a person, group or
+      organisation in this. Then, on the back, how they feel about it right now, in a few words. Do
+      not explain why you are asking for the feelings. You will ask again at the end and the
+      comparison works better if it is not anticipated.
+    keyPrompts:
+      - "Who are the parties here? Include anyone affected, not only those arguing."
+      - "How do you feel about this, right now?"
+    watchOuts:
+      - "A learner picks something too raw to work on for an hour. Offer the not-your-own option
+        again, quietly and individually."
+  - title: "Add both sides' needs and goals"
+    duration: 15 minutes
+    guidance: >-
+      Their own needs, feelings and goals first, then the other party's, then how the two differ.
+      This third step is where the work happens, and it is where learners get stuck, because
+      reconstructing the other party's needs is genuinely hard. Work your own example through aloud so
+      the level of detail is clear: not "my parents wanted me home" but "they needed to know I was
+      safe, and that mattered more to them than my evening did".
+    keyPrompts:
+      - "What did the other party actually need? Not what they said, what they needed."
+      - "Where exactly do the two sets of needs pull against each other?"
+    watchOuts:
+      - "Learners write the other party's position rather than their needs, and the card stays a
+        record of the argument. Ask why they wanted that, twice."
+      - "A learner insists the other party had no legitimate need at all. Do not argue. Ask what the
+        other party would say if they were here, and let the answer stand as a hypothesis."
+    adaptation: >-
+      Short on time: run the card to this point and build the definition next session. Do not cut
+      this step; it is the activity.
+  - title: "Check the feelings again"
+    duration: 5 minutes
+    guidance: >-
+      Ask learners to write on the back how they feel about the disagreement now, and compare it with
+      what they wrote before. Many will have shifted, usually towards something calmer or more
+      complicated. Ask what caused the change. The answer, that analysing something changes your
+      relationship to it, is a durable finding and one they can use outside this room.
+    keyPrompts:
+      - "Has anything changed since you first wrote your feelings? What caused it?"
+    watchOuts:
+      - "Nothing has changed for some learners, which is fine and should not be treated as a failure.
+        Ask what would need to change instead."
+  - title: "Build the definition"
+    duration: 10 minutes
+    guidance: >-
+      In pairs, ask what a definition of conflict might be, given what is on their cards. Collect
+      versions. Steer towards something like: when two or more parties have competing needs or goals.
+      Then point at what is missing from it, and ask the three questions that make the course work: is
+      violence part of the definition, does conflict have to lead to violence, and can conflict ever be
+      a good thing?
+    keyPrompts:
+      - "Is violence anywhere in the definition we just built?"
+      - "Can you think of a conflict that produced something good?"
+    watchOuts:
+      - "Learners resist separating conflict from violence, because in their experience the two arrive
+        together. Acknowledge that directly. The claim is not that violence is rare, it is that it is
+        a response and therefore a choice."
+closing: >-
+  Say the finding once, plainly, and let it stand for the rest of the course. Conflict is a neutral
+  word. It is neither good nor bad, and many would say it is necessary, because it is how a group
+  discovers that its needs have diverged. What can be good or bad is the response: constructive or
+  destructive, violent or non-violent. Everything from here is about the response.
+learnerContent: |
+  Take a card. In the middle, write a disagreement you have faced, or one you have seen. If you would
+  rather not use your own, use someone else's.
+
+  On the back: **how do you feel about it right now?** A few words.
+
+  Now build the card up:
+
+  1. **Who are the parties?** A party is a person, a group or an organisation. Include anyone
+     affected, not only the people arguing.
+  2. **What were your needs, feelings and goals?**
+  3. **What were the other party's needs, feelings and goals?** Not what they said. What they needed.
+  4. **How do the two differ?**
+
+  On the back again: **how do you feel about it now?** Compare with what you wrote at the start.
+
+  Last, with a partner: what is a definition of conflict? Look at your cards and build one.
+
+  Then check it. Is violence in your definition? Does conflict have to lead to violence? Can conflict
+  ever be a good thing?
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    A learner who can take a disagreement apart into parties, needs and competing goals has a
+    procedure to use on the next one, in their own life, without anyone facilitating. The change in
+    the feelings check-in is the evidence that the procedure does something.
+principlesForegrounded: [authentic-challenges, lifeworthy-competencies, safe-spaces]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The material analysed is a live disagreement from the learner's own life, and many report the
+      analysis changing how they intend to handle it.
+  - principle: lifeworthy-competencies
+    how: >-
+      The card is portable. Separating parties, needs and competing goals is the same move used later
+      on community conflicts, and it works on a family argument tonight.
+  - principle: safe-spaces
+    how: >-
+      Learners choose their disagreement, may use one that is not their own, and are never required
+      to read a card aloud.
+competencyCodes: [FUS2, FSL1, FPS3]
+competencyDevelopment:
+  - code: FUS2
+    how: >-
+      Reconstructing what the other party needed, as opposed to what they demanded, is the central and
+      hardest step of the card.
+  - code: FSL1
+    how: >-
+      The two feelings check-ins give learners direct evidence of how their own thinking changed
+      during a piece of analysis.
+  - code: FPS3
+    how: >-
+      Identifying which competing needs produced the disagreement is causal analysis at a scale a
+      learner can verify against their own memory.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [pb-peace-spiral, pb-apple-arguments, pb-battle-for-orange, needs-fears-mapping]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced.
+sourceRefs:
+  - "Defining Conflict - Conflict Cards (Peacebuilding resources folder)"
+  - "Responding to Conflict (Peacebuilding resources folder)"
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 2a"
+provenanceNote: >-
+  Adapted from Amala's "Defining Conflict - Conflict Cards", with the response-choices step drawn
+  from the companion "Responding to Conflict" activity.

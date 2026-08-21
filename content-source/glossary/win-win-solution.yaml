@@ -1,0 +1,37 @@
+id: win-win-solution
+slug: win-win-solution
+access: public
+term: Win-win solution
+category: content
+matchPhrases:
+- win-win
+- win win
+- win:win
+definition: >-
+  An outcome in which both parties get what they actually need, reached by working from
+  underlying needs rather than from stated positions.
+explainer: |
+  A win-win solution is possible far more often than it feels, and the reason people miss it is
+  almost always the same: they negotiate over **positions** (what each side says it wants) rather
+  than **needs** (why they want it). Two groups fighting over one orange cannot both win. Two groups
+  who discover that one needs the peel and the other needs the pulp can both win completely.
+
+  Three outcomes are worth naming so learners can tell them apart. **Win-lose**: one party gets what
+  it needs, the other does not. **Lose-lose**: both compromise and neither gets what it needed, which
+  is often mistaken for fairness. **Win-win**: both needs are met, usually because someone asked a
+  question that had not been asked.
+
+  The obstacle is rarely ingenuity. It is that conflict pushes people into a scarcity frame in which
+  any gain for the other side reads as a loss for their own, so the question "what do you actually
+  need?" never gets asked. This is why win-win thinking is taught alongside the
+  [abundance mindset](/glossary/abundance-mindset), and why it depends on the conditions of a
+  [transformative platform](/glossary/transformative-platform): parties who cannot speak safely
+  cannot disclose their real needs.
+examples:
+- Peeling the orange so one group takes the peel and the other the pulp
+nonExamples:
+- Cutting the orange in half so neither group has enough of the part it needed
+useInContext: >-
+  Learners look for the need beneath each party's stated position, then propose an option that
+  meets both.
+relatedTermIds: [transformative-platform, conflict-transformation, abundance-mindset, conflict]

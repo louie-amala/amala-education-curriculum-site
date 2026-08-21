@@ -1,0 +1,34 @@
+id: do-no-harm
+slug: do-no-harm
+access: public
+term: Do no harm
+category: content
+matchPhrases:
+- do no harm
+definition: >-
+  The peacebuilding principle that an intervention must not make things worse. Good intentions
+  are not a defence, so possible harms are anticipated before acting.
+explainer: |
+  Do no harm is the discipline that separates a peacebuilding project from a well-meant gesture. It
+  holds that anyone entering a conflict context becomes part of it, and that help delivered without
+  analysis can deepen the divisions it meant to ease: by strengthening one party, by displacing local
+  capability, or by handing a community a solution to a problem it did not have.
+
+  The failure mode is specific and common. Those doing the helping want to make a difference; those
+  being helped want the agency to help themselves. The helper arrives with resources, a plan and a
+  timetable, and never asks what the community was already building. The result is resentment on one
+  side and bewilderment on the other, from an intervention that was generous throughout.
+
+  In practice the principle produces a short list of obligations: analyse before acting; ask rather
+  than assume; treat the affected community as partner and guide rather than recipient; anticipate
+  who could be made less safe by what you do; and check for harm afterwards rather than assume its
+  absence. It is the reason conflict analysis comes before intervention design in this course, and
+  the reason learners are asked to identify unintended consequences of their own project ideas.
+examples:
+- Asking a community what it is already doing about an issue before proposing anything
+nonExamples:
+- Arriving with a prepared plan and superior materials, and presenting it as the way forward
+useInContext: >-
+  Learners test their project idea by naming who could be made worse off by it, and how they
+  would know.
+relatedTermIds: [peacebuilder, informed-consent, conflict-transformation]

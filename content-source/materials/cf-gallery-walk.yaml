@@ -1,0 +1,81 @@
+id: cf-gallery-walk
+slug: cf-gallery-walk
+access: public
+type: educator-move
+title: "Gallery walk instead of presentations"
+summary: >-
+  Put the work on the walls and let the group read it. Everyone sees everything, nobody performs,
+  and it takes a third of the time.
+tags:
+  - id: learning-facilitation
+    how: >-
+      When facilitating, lay the work out, give a clear reading task, and hold the room quiet enough
+      that people actually read rather than chat.
+  - id: learning-design
+    how: >-
+      When designing, use it wherever you were about to schedule six presentations, and write the
+      reading task into the plan rather than leaving it as "look at each other's".
+  - id: making-thinking-visible
+  - id: checking-for-understanding
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  Six groups presenting for three minutes each is eighteen minutes in which each learner is engaged
+  for three. A gallery walk covers the same work in ten, with everyone reading everything.
+
+  It has three specific advantages beyond speed.
+
+  **It supports learners working in an additional language.** Reading at your own pace, with the text
+  in front of you, is far more accessible than listening to five spoken presentations, and it removes
+  the burden of presenting in a language you are still building.
+
+  **It removes the performance.** Groups that would produce a thin spoken summary often produce a
+  much better poster, because the artefact is the thing rather than the delivery.
+
+  **Everyone sees everything.** In a presentation round, learners attend to their own turn. In a
+  gallery walk, the comparison across all the work is available at once, which is what most of these
+  activities are actually for.
+
+  How to run it. **Give a reading task**, not just permission to look: find two things missing from
+  your own, note the one you disagree with, count how many groups named this. Without a task it
+  becomes a stretch break. **Keep it quiet**, so people read rather than talk. **Come back together**
+  and take what people found, which is where the comparison gets said out loud.
+
+  It fails in two situations. When the work is not legible from a metre away, which is a briefing
+  problem to fix before the poster is made. And when the point genuinely is the explaining, in which
+  case have groups present but keep it to ninety seconds.
+agencyContribution:
+  indicators:
+    - contribution-to-community
+  how: >-
+    Every learner's work is read by everybody rather than heard by a distracted room, so contributing
+    something worth reading becomes the way to be present in the group. That is available to learners
+    whose spoken confidence is not yet there.
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The comparison across all groups' work happens in every learner's head at once, rather than
+      being summarised by whoever presented last.
+  - principle: safe-spaces
+    how: >-
+      Nobody has to speak to the whole room, which makes participation available to learners who are
+      working in an additional language or would not volunteer.
+relatedSlugs:
+  - cf-make-thinking-visible
+  - cf-think-pair-share
+  - cf-quick-checks
+  - pb-categorising-violence
+rights:
+  status: own-expression
+  basis: >-
+    A generic classroom technique with no identifiable author.
+    The method is credited to its originator. Everything on this page is written from scratch;
+    no wording from the source is reproduced.
+sourceRefs:
+  - "Identity - Characteristics of a Nation (Peacebuilding resources folder)"
+  - "Categorising Violence (Peacebuilding resources folder)"
+  - "Analysing Violence: Needs/Fear Mapping (Peacebuilding resources folder)"
+provenanceNote: >-
+  Generalised from the gallery walk used repeatedly across Amala's peacebuilding activities, where it
+  is consistently offered as the alternative to a round of presentations.

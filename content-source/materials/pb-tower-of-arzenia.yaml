@@ -1,0 +1,206 @@
+id: pb-tower-of-arzenia
+slug: pb-tower-of-arzenia
+access: public
+type: activity
+title: "The towers of Arzenia"
+summary: >-
+  A rigged tower-building game in which one group has everything and the other is jailed at
+  intervals, run so learners can name what a peaceful society would have needed.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group-only, and it needs at least eight learners plus a facilitator. The learning is
+      distributed across roles that cannot exist alone, and the debrief depends on hearing from every
+      role in turn.
+duration: 60-75 minutes, of which the game itself is only 5 to 10.
+grouping: "Four groups: government, police, White Shirts, Red Shirts."
+materialsAndPreparation:
+  - Plenty of paper cups, or anything stackable. Tape or glue.
+  - "Something to distinguish the groups: shirts of two colours, armbands, or paper labels."
+  - Room divided into four quarters, labelled Government, White Shirts, Red Shirts and Prison. The Government quarter and the White Shirt quarter get tables and chairs; the Red Shirts get nothing. A large bag of cups and the glue sits with the Government.
+  - Five cups each for White Shirts and Red Shirts at the start.
+  - Role cards, printed or written out, one per group. Nobody sees another group's card.
+  - The pillars of positive peace, to introduce after the debrief has produced the group's own list.
+  - Read the safety instruction below before you decide to run this.
+whatLearnersDo:
+  - Take a role as government, police, White Shirt or Red Shirt in the Kingdom of Arzenia.
+  - Build the tallest tower they can under rules that are applied unequally.
+  - Come out of role, and say how it felt.
+  - Analyse what happened, then name what a peaceful society would have needed that Arzenia did not have.
+facilitationNotes: >-
+  Say this before anything else and mean it: no physical contact, at all, in any direction. If
+  frustration reaches the point of touching, stop the game immediately. That instruction is the
+  condition on which this material can be run at all, and it belongs at the top rather than buried in
+  the rules. Beyond that, the one thing to get right is the debrief order. Feelings first, and
+  properly, before any analysis. The game manufactures real anger in five minutes, and a group taken
+  straight into analysis will analyse while still angry with each other. Bring them back to the room
+  first, name that the roles are over, then think.
+steps:
+  - title: "Set the room and the rules"
+    duration: 10 minutes
+    guidance: >-
+      Divide the room into four labelled quarters and set them up unequally, in view of everyone. Tell
+      all learners the shared information: you are citizens of Arzenia, of different ethnic groups,
+      the Kingdom needs towers built, the tallest tower will be rewarded, you may not leave your area,
+      and you may not talk to the other group. Police enforce; prison is the penalty. Then state the
+      no-contact rule, plainly, to everyone.
+    keyPrompts:
+      - "Whatever happens in this game, nobody touches anybody. Is that clear?"
+    watchOuts:
+      - "The set-up is done out of sight, so the inequality reads as accident rather than design.
+        Hand the Government the large bag of cups where the Red Shirts can see it."
+  - title: "Brief the roles separately"
+    duration: 5 minutes
+    guidance: >-
+      Give each group its card without letting the others see. The Government favours the White
+      Shirts openly, instructs the police never to punish them, has a Red Shirt jailed roughly every
+      minute until one is left, and orders the Red Shirts' tower knocked down at intervals. The White
+      Shirts may mock the Red Shirts, may leave their area, and may count their table as part of the
+      tower. The Red Shirts must obey the police. You can play the Head of Government yourself.
+    keyPrompts:
+      - "Read your card. Do not show it to anyone else."
+    watchOuts:
+      - "The police officer over-plays and starts pushing people. Brief them individually: you do as
+        the government says, and you do not touch anyone."
+      - "The White Shirts are reluctant to mock, which is a decent instinct but flattens the game.
+        Tell them privately that their role requires it and that the debrief will make it clear why."
+  - title: "Run it for five to ten minutes"
+    duration: 10 minutes
+    guidance: >-
+      Start, and let it run. Do not soften it. Jail a Red Shirt about every minute, praise and joke
+      with the White Shirts loudly, knock the Red Shirt tower over once or twice. Watch faces rather
+      than towers. Stop at the first sign of physical contact and stop anyway at ten minutes. Then
+      measure the towers, count the table as tower for the White Shirts as their card allows, and
+      announce their victory.
+    keyPrompts:
+      - "Time. Everyone stop building."
+    watchOuts:
+      - "Frustration boils into contact. Stop the game at once. This is the stated condition, not a
+        judgement call to weigh in the moment."
+      - "The game runs long and the feeling hardens. Ten minutes is more than enough; the debrief
+        needs the time far more than the game does."
+  - title: "Come out of role and deal with the feelings"
+    duration: 15 minutes
+    guidance: >-
+      Say clearly that the game is finished, that the roles are over, and that nobody holds a grudge
+      about anything done inside it. Remove armbands or labels as a physical marker. Then three
+      questions, taken from everyone: how did this game make you feel, what happened that made you
+      feel that, and what did it make you want to do. Do no analysis at all in this step.
+    keyPrompts:
+      - "How did that make you feel? What exactly made you feel it?"
+      - "What did it make you want to do?"
+    watchOuts:
+      - "The group jumps to explaining. Hold them: feelings first, reasons afterwards. This is the
+        most commonly skipped and most necessary step in the material."
+      - "A learner is genuinely angry with a classmate. Name it as the game's doing, which is true,
+        and let them say so directly to the room rather than carrying it out of the door."
+  - title: "Analyse by role"
+    duration: 15 minutes
+    guidance: >-
+      Now go role by role. Red Shirts: what was happening, how powerful did you feel, what did you
+      want to do? Government and White Shirts: explain your instructions to the others, how did the
+      role feel, and were the things you were doing right? Police: what were your instructions, and
+      what is wrong with a police force that works that way? Learners are usually most struck by how
+      quickly the favoured group accepted the arrangement.
+    keyPrompts:
+      - "White Shirts, was what you were doing right? What made it feel acceptable at the time?"
+      - "Police, what is wrong with a force that operates like that?"
+    watchOuts:
+      - "The favoured group gets defensive under questioning. Keep it about the role and its
+        instructions, not about the person who played it."
+  - title: "Name what was missing"
+    duration: 15 minutes
+    guidance: >-
+      Ask whether Arzenia was a peaceful society, and press for why not. Did the Red Shirts
+      experience violence, and does all violence have to be physical to cause harm? Then the question
+      the game was built for: what would need to be in place for peace to be achieved here? Collect
+      the group's list. Only then show the eight pillars of positive peace and ask which were missing
+      from the game.
+    keyPrompts:
+      - "Did the Red Shirts experience violence? Does violence have to be physical?"
+      - "What would this place have needed in order to be peaceful?"
+      - "How do any of your experiences in this game relate to experiences outside this room?"
+    watchOuts:
+      - "The final question, connecting to life outside, can go somewhere heavy fast. Ask it, take
+        what comes, and do not press anyone who does not answer."
+    adaptation: >-
+      Short on time: run the game, the feelings step and the missing-pillars question. The role-by-role
+      analysis can move to the next session; the feelings step cannot move anywhere.
+closing: >-
+  Say the finding once the group has produced it. Nobody in Arzenia was hit, and the Red Shirts were
+  harmed throughout: by rules applied unequally, by a police force that served one group, by a
+  government that distributed resources to its own. That is violence without a blow, and it is the
+  kind that most peace agreements never touch. Keep the group's list of what was missing. It is the
+  first draft of what positive peace means here.
+learnerContent: |
+  You are all citizens of the Kingdom of Arzenia, from different ethnic groups. The Kingdom needs
+  towers built, and the group with the tallest tower will be rewarded.
+
+  The rules:
+
+  - You must not leave your area.
+  - You must not talk to the other group or send them messages.
+  - The government and police are watching. If you break a rule, the police will take you to prison,
+    and you must go.
+  - **Nobody touches anybody, at any point, for any reason.**
+
+  You will each be given a role card. Do not show it to anyone.
+
+  Afterwards, the game is over and nobody holds anything from it against anybody.
+
+  Then:
+
+  - How did this make you feel? What exactly caused it?
+  - Was Arzenia a peaceful society? Why not?
+  - Did the Red Shirts experience violence? Does violence have to be physical to cause harm?
+  - **What would have needed to be in place for peace here?**
+  - How does any of this relate to things you have seen outside this room?
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Learners generate the conditions of a peaceful society from having felt their absence, which is a
+    different kind of knowing from being told. It also gives the favoured group a rare, safe
+    experience of noticing their own advantage from the inside while it is happening.
+principlesForegrounded: [authentic-challenges, safe-spaces, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The mechanism is real: unequal rules, a partial police force and a government that favours its
+      own produce grievance in ten minutes, exactly as they do at scale.
+  - principle: safe-spaces
+    how: >-
+      The no-contact rule, the explicit de-roling and the feelings-before-analysis debrief are what
+      make a deliberately unjust simulation survivable, and they are not optional parts of it.
+  - principle: responsible-action
+    how: >-
+      Asking the White Shirts whether what they were doing was right, while they still remember
+      finding it comfortable, is a direct encounter with how easily ethical judgement bends to a role.
+competencyCodes: [FPS3, FUS2, FLC1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The debrief requires learners to name which specific arrangements, not which individuals,
+      produced the harm in Arzenia.
+  - code: FUS2
+    how: >-
+      Each role sees a different game, and the analysis only works when all four accounts are on the
+      table, which forces learners to take positions they did not occupy seriously.
+  - code: FLC1
+    how: >-
+      The question of whether their own actions in role were right, asked of people who enjoyed the
+      role, is ethical reflection with something at stake.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [pillars-of-positive-peace, pb-wealth-allocation-game, pb-sharing-the-earths-resources, cf-debrief-a-simulation]
+rights:
+  status: own-expression
+  holder: University of Houston, Center for Diversity and Inclusion (the source guide)
+  basis: >-
+    Traced in August 2026 through the hyperlink in Amala's own document to the University of Houston
+    "Diversity Activities Resource Guide", whose page 53 Amala records adapting. Nothing of the guide
+    is reproduced here: the role cards are summarised and all wording is Amala's own.
+  note: >-
+    Page 53 could not be checked. UH withdrew the guide when its Center for Diversity and Inclusion
+    closed in August 2023, and the surviving third-party mirrors are image-only scans. If a readable
+    copy turns up, confirm the activity and credit its original compiler, who may not be UH.

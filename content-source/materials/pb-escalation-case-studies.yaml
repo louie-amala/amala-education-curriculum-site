@@ -1,0 +1,177 @@
+id: pb-escalation-case-studies
+slug: pb-escalation-case-studies
+access: public
+type: activity
+title: "Staging five conflicts, and writing a sixth"
+summary: >-
+  Learners place five conflicts, from a student group project to a global summit, on the escalation
+  model, then storyboard one descending all nine stages.
+facilitationContext: [group, independent]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The five cases are pitched at deliberately different scales so that different
+      pairs reach different conclusions and have to defend them, which is what makes the staging
+      precise.
+  - context: independent
+    how: >-
+      Both halves work alone: stage the cases, then write the storyboard. What is lost is the
+      argument over placement, so require written justification against the stage above and below,
+      and return one contested placement for them to defend again.
+duration: 90 minutes.
+grouping: Pairs for the staging, small groups or individuals for the storyboard.
+materialsAndPreparation:
+  - The nine stages of Glasl's model, visible throughout.
+  - The five cases, printed as slips or read aloud. They are summarised in the learner content below.
+  - Large paper for the storyboards.
+whatLearnersDo:
+  - Read five conflicts at five different scales.
+  - Decide which escalation stage each has reached, and justify it against the stages either side.
+  - Say what might have stopped each one going further, and what would push it further next.
+  - Storyboard a conflict that begins as a peaceful protest and descends all the way to stage 9.
+facilitationNotes: >-
+  The one thing to get right is the justification. "This is stage 5" is worth nothing; "this is stage
+  5 rather than 4 because the attack is now on her honesty in public, not on her position" is the
+  whole skill. Insist on the comparison with the stage above and below every time. The five cases are
+  deliberately borderline, and the answers in the source are posed as questions rather than given,
+  which is correct: there is no key, and if a pair can defend a placement it stands.
+steps:
+  - title: "Check the stages are distinguishable"
+    duration: 10 minutes
+    guidance: >-
+      Before touching the cases, check the group can separate adjacent stages. Ask for the difference
+      between debate and actions-not-words, and between loss of face and strategies of threat. If the
+      group cannot do this, the staging exercise becomes guesswork. Spend the time here rather than
+      rescuing it later.
+    keyPrompts:
+      - "What is the difference between stage 2 and stage 3?"
+      - "What changes at stage 7 that did not change at stage 6?"
+    watchOuts:
+      - "Learners read the stages as severity levels. Point out that each stage names a change in
+        behaviour, not an increase in volume."
+  - title: "Stage the five cases"
+    duration: 30 minutes
+    guidance: >-
+      Distribute the cases to pairs, ideally more than one each and at different scales. For each,
+      the pair decides a stage and writes the evidence for it. Circulate and ask, every time, why not
+      the stage above and why not the stage below. Resist giving answers; the cases are borderline by
+      design.
+    keyPrompts:
+      - "Why that stage rather than the one below it?"
+      - "Are both parties at the same stage here?"
+    watchOuts:
+      - "Pairs settle instantly and move on. Ask for the counter-argument for the adjacent stage
+        before you accept a placement."
+      - "The largest cases get treated as automatically later-stage. A student group chat can be at
+        stage 3 while a diplomatic dispute is at stage 2."
+    adaptation: >-
+      Short on time: give each pair one case only, then run a whole-group round where each pair
+      defends its placement. That preserves the argument and loses only the range.
+  - title: "Ask what would have stopped it"
+    duration: 15 minutes
+    guidance: >-
+      For each case: what might have stopped them going further down, and what subsequent events
+      might push them further? These two questions are what make the model useful rather than
+      descriptive. Take a couple of answers per case in the whole group and note where different
+      pairs propose different interventions for the same stage.
+    keyPrompts:
+      - "What would have had to happen, and who would have had to do it?"
+      - "What would push this one further down next week?"
+    watchOuts:
+      - "Answers are all of the form 'they should just talk'. Ask whether talking is still available
+        at that stage, which is exactly what the model helps them judge."
+  - title: "Storyboard a descent"
+    duration: 30 minutes
+    guidance: >-
+      Starting at stage 1, hardening, learners storyboard a conflict that begins as a peaceful
+      protest and ends at stage 9, together into the abyss. Each step down must be caused by a
+      decision somebody makes. That constraint is the whole task, because it forces learners to argue
+      that the descent was chosen rather than inevitable.
+    keyPrompts:
+      - "Who decided that, and what else could they have decided?"
+      - "Which step in your story would have been the easiest to stop?"
+    watchOuts:
+      - "Storyboards skip from stage 3 to stage 8 because the middle is less dramatic. Require every
+        stage; the middle stages are where interventions actually happen."
+      - "The storyboard becomes a war film. Ask for the small decisions between the big ones."
+closing: >-
+  Ask three questions and take short answers. How might you prevent a conflict moving down the
+  model? Why does it matter to address barriers to peace very early? And when have you faced a
+  conflict that escalated quickly, and how might you have stopped it? The last one is where the model
+  stops being about case studies. Note that the independent follow-on is to rewrite their own
+  storyboard with a positive outcome, choosing the stage at which to intervene.
+learnerContent: |
+  **Five conflicts. Where is each one on the escalation model?**
+
+  1. **The group project.** Three students disagree about their approach. After several heated
+     discussions, one posts a long message criticising another's "lack of practicality". She stops
+     replying and continues alone. The chat goes silent. Nobody apologises. *Is this still debate (2)
+     or has it shifted to actions, not words (3)?*
+  2. **The neighbourhood dispute.** Two neighbours: noise complaints, a barking dog, late music.
+     After months of arguments, one posts on the community group accusing the other of neglect. He
+     replies publicly, calling her a liar. Both gather supporters and threaten to go to the
+     authorities. *When does this cross from loss of face (5) to strategies of threat (6)?*
+  3. **The political rivalry.** Two factions in a student union fight over event funding. Both hack
+     social media accounts, leak private messages and sabotage shared resources. Meetings become
+     shouting matches. Some say they would rather dissolve the union than let the other side win.
+     *Is this fragmentation (8) or together into the abyss (9)?*
+  4. **The water border.** Two countries share a river. During drought, Country A diverts more water
+     upstream. Country B accuses A of violating the treaty and mobilises troops as a "warning".
+     Cyber-attacks disrupt water monitoring on both sides and talks collapse. Skirmishes occur
+     between patrols. *Strategies of threat (6), or limited destructive blows (7)?*
+  5. **Climate responsibility.** At a global summit, developing nations accuse industrialised
+     countries of failing to meet emission pledges. A coalition of small-island states walks out and
+     holds a press conference calling major powers "climate colonisers". Some developed countries
+     threaten to cut aid. Both sides form competing alliances, focused more on blame than solutions.
+     *Actions, not words (3), or already images and coalitions (4)?*
+
+  For each one: **why that stage, and not the one above or below it?** Point at the evidence.
+
+  Then: what might have stopped each conflict going further? What might push it further next?
+
+  **Now write your own.** Storyboard a conflict that starts as a peaceful protest at stage 1 and
+  descends all the way to stage 9. Every step down must be caused by a decision somebody makes.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    The storyboard constraint, that every descent is caused by a decision, is an argument that
+    escalation is chosen rather than fated. Learners who believe that will look for the decision
+    point in a real conflict instead of waiting for it to burn out.
+principlesForegrounded: [authentic-challenges, lifeworthy-competencies]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The cases run from a student group chat to an international summit, so learners practise on
+      conflicts at the scale they actually live in as well as the ones they read about.
+  - principle: lifeworthy-competencies
+    how: >-
+      Recognising the stage a conflict has reached, and knowing which responses are still open, is
+      usable in a family, a workplace and a community for the rest of a learner's life.
+competencyCodes: [FPS3, ALC3, FSI2]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Justifying a stage against the ones either side requires learners to identify the specific
+      behaviour that changed, rather than the general worsening.
+  - code: ALC3
+    how: >-
+      Asking what would have stopped each descent, at that stage, is exactly the judgement conflict
+      transformation requires.
+  - code: FSI2
+    how: >-
+      The storyboard and its positive-outcome rewrite are idea generation constrained by a model,
+      which is more demanding than open brainstorming.
+objectiveIds: [peacebuilding--o1, peacebuilding--o3]
+relatedSlugs: [glasls-conflict-escalation, pb-categorising-violence, pb-defining-conflict, pb-battle-for-orange]
+rights:
+  status: amala-own
+  holder: Friedrich Glasl (the escalation model)
+  basis: >-
+    The five cases and their prompts are the planner's own. The nine-stage model they are placed on is
+    Glasl's, credited and linked from the tool page rather than reproduced here.
+sourceRefs:
+  - "Amala Changemaker Course Planner - Peacebuilding in Your Community - 2025, Week 3 Activity 2.2"
+provenanceNote: >-
+  The five cases and their prompts are reproduced from the 2025 Peacebuilding course planner. The
+  model is Friedrich Glasl's.

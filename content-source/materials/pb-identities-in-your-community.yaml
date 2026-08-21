@@ -1,0 +1,185 @@
+id: pb-identities-in-your-community
+slug: pb-identities-in-your-community
+access: public
+type: activity
+title: "Identities in your community"
+summary: >-
+  Learners list the identities present in their own community, arrange them in a circle, and draw
+  in the lines where those identities could come into conflict.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Learners from the same community argue about which lines belong, and the argument
+      produces a better map than any one of them would draw. Where a group spans several communities,
+      have each learner map their own and then compare.
+  - context: independent
+    how: >-
+      Works alone and is a good independent task, since the learner knows their community better than
+      anyone in the room. The weakness is that a solo map records one person's view of who is in
+      conflict with whom. Require the learner to check it with two people from the community before
+      treating it as findings.
+  - context: one-to-one-mentoring
+    how: >-
+      Useful in mentoring when a learner is looking for a project focus, because the lines on the map
+      are candidate topics. The mentor's job is to keep asking why a line is there rather than to
+      supply lines.
+duration: 45-60 minutes.
+grouping: Individually or in pairs from the same community, then whole-group comparison.
+materialsAndPreparation:
+  - Large paper and pens. One sheet per map.
+  - Learners should have done identity charts or identity wheels first, so they have a working idea of what counts as an identity.
+  - Decide with the group what "your community" means here, and say it aloud. A camp, a neighbourhood, a school, a town. Ambiguity at this step ruins the map.
+whatLearnersDo:
+  - List every identity present in their community.
+  - Arrange the identities in a circle around the edge of the page.
+  - Draw a line between any two identities that could come into conflict, and write on the line why.
+  - Judge whether the resulting picture looks simple or complex, and what that means for anyone trying to intervene.
+facilitationNotes: >-
+  The one thing to get right is that a line means a potential conflict, not an accusation. Learners
+  are mapping where friction could arise between positions in their own community, and if that reads
+  as naming enemies, the map becomes either sanitised or inflammatory. Say it explicitly, and require
+  the reason to be written on every line. The reasons are what make it analysis rather than a list of
+  grievances, and they are what a learner will draw on when choosing a project focus later.
+steps:
+  - title: "Agree what community you are mapping"
+    duration: 5 minutes
+    guidance: >-
+      Have each learner name the specific community they will map, and write it at the top of the
+      page. A camp block, a school, a neighbourhood, a town. Communities can be nested, and a map
+      that slides between scales tells you nothing. If learners in a pair are mapping different
+      communities, split them.
+    keyPrompts:
+      - "Which community are you mapping? Write it at the top."
+    watchOuts:
+      - "A learner picks something so large that every identity on earth is in it. Ask for the
+        smallest community they could actually act in."
+  - title: "List the identities present"
+    duration: 10 minutes
+    guidance: >-
+      List every identity in that community. Expect the obvious categories first (faith, gender,
+      nationality, language) and push for the local ones after: newcomer and long-settled, those who
+      work outside and those who do not, age groups, those with documents and those without. The
+      local categories are where the real conflicts sit.
+    keyPrompts:
+      - "Who else is in your community that this list has not named?"
+      - "Which groups here do people actually talk about in those terms?"
+    watchOuts:
+      - "The list stays at the level of national census categories. Ask who gets treated differently
+        in a queue, and the specific categories appear."
+  - title: "Arrange them in a circle"
+    duration: 5 minutes
+    guidance: >-
+      Write the identities around the edge of the page, evenly spaced, leaving the middle empty for
+      lines. Placing them in a circle rather than a list matters, because a list implies ranking and a
+      circle does not, and because every pair has to be considered rather than only adjacent ones.
+    keyPrompts:
+      - "Is anything sitting in the middle that should be on the edge?"
+    watchOuts:
+      - "Learners cluster allied groups together, which pre-judges the map. Ask them to space
+        identities evenly."
+  - title: "Draw the lines and write the reasons"
+    duration: 15-20 minutes
+    guidance: >-
+      Connect any two identities that might come into conflict, and write on each line what the
+      conflict would be about. Insist on the reason. A line without a reason is a rumour; a line that
+      says "both need the same water point at the same hour" is the beginning of an analysis. Expect
+      the page to get crowded and let it.
+    keyPrompts:
+      - "What exactly would those two disagree about?"
+      - "Is that a conflict over a resource, or over a value?"
+    watchOuts:
+      - "The map becomes a list of accusations against one group. Return to the rule: a line is a
+        potential conflict between positions, and every line needs a stated reason."
+      - "A learner maps a conflict that touches their own family or their own safety. Let them work
+        at whatever distance they choose, and do not require them to present it."
+    adaptation: >-
+      Short on time: ask for the five lines the learner thinks matter most, with reasons, rather than
+      an exhaustive map. Better five reasoned lines than thirty unreasoned ones.
+  - title: "Read the map back"
+    duration: 10 minutes
+    guidance: >-
+      Three questions, in small groups, then briefly together. What are the potential conflicts you
+      found? Does your community look simple or complex? And how could understanding identity help
+      you approach any of these constructively? The complexity question is the one that carries
+      forward, because it is the argument for spending a whole week on analysis before anyone designs
+      an intervention.
+    keyPrompts:
+      - "Does this look simple or complicated? What follows from that?"
+      - "Which of these lines could you actually do something about?"
+    watchOuts:
+      - "The complexity is demoralising and the group concludes nothing can be done. Answer it
+        directly: complexity is why analysis comes first, and the point of the map is that it names
+        specific places to work rather than one large hopeless problem."
+closing: >-
+  Ask each learner to mark one line on their map they would be willing to look into further, and to
+  keep the map. It feeds directly into the conflict analysis work later in the course and, for many
+  learners, it is where their project topic comes from. Say plainly that a line on a page is a
+  hypothesis, not a finding, and that the next step is checking it with people who live inside it.
+learnerContent: |
+  Write the name of your community at the top of the page. Be specific: a block, a neighbourhood, a
+  school, a town, not "the world".
+
+  **List the identities in it.** All of them. The obvious ones, and the local ones that only someone
+  from there would name.
+
+  **Arrange them in a circle** around the edge of the page, evenly spaced, with the middle empty.
+
+  **Draw a line** between any two identities that might come into conflict. On every line, write
+  **why** they might. A line without a reason does not count.
+
+  Then:
+
+  - What potential conflicts have you found?
+  - Does your community look simple, or complex?
+  - How might understanding identity help you approach any of these constructively?
+
+  Keep this map. You will use it again, and there is a good chance your project starts on one of
+  these lines.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    The learner produces an original analysis of their own community that nobody else in the room is
+    better placed to make. It converts a general sense that things are tense into specific, named
+    places where a specific person could act.
+principlesForegrounded: [builds-on-identities, authentic-challenges, responsible-action]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The categories on the map are the ones that operate in the learner's own community, in their own
+      words, rather than imported ones.
+  - principle: authentic-challenges
+    how: >-
+      Learners analyse the real fault lines of the place they live, and the output is used to choose
+      what they will work on for the rest of the course.
+  - principle: responsible-action
+    how: >-
+      The insistence that every line carries a stated reason, and the closing warning that a line is a
+      hypothesis to check rather than a finding, are what keep the map from becoming a way of naming
+      enemies.
+competencyCodes: [FSI1, FPS3, FUS2]
+competencyDevelopment:
+  - code: FSI1
+    how: >-
+      The map is the first structured investigation of the learner's own context, and it defines what
+      they will go and research.
+  - code: FPS3
+    how: >-
+      Naming which groups and which competing interests contribute to a tension, with a reason on each
+      line, is this competency exactly.
+  - code: FUS2
+    how: >-
+      Working out what two different groups would disagree about requires reconstructing both
+      positions, including the one the learner does not hold.
+objectiveIds: [peacebuilding--o1]
+relatedSlugs: [pb-identity-charts, pb-identity-wheels, stakeholder-community-mapping, pb-characteristics-of-a-nation]
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala for its own Peacebuilding course, and rewritten for this page. No
+    third-party expression is reproduced.
+sourceRefs:
+  - "Identities in Your Community (Peacebuilding resources folder)"
+provenanceNote: >-
+  Adapted from Amala's "Identities in Your Community" activity in the Peacebuilding resource pack.

@@ -1,0 +1,130 @@
+id: pb-evolution-of-trust
+slug: pb-evolution-of-trust
+access: public
+type: resource
+title: "The Evolution of Trust: why the cooperative strategies worked"
+summary: >-
+  A short interactive that plays out the repeated prisoner's dilemma and shows which strategies
+  survive. The explanation behind the simulations learners have just played.
+facilitationContext: [group, independent]
+primaryContext: independent
+deliveryAdaptations:
+  - context: independent
+    how: >-
+      As designed. It is a self-paced interactive, roughly 30 minutes, and works best with one learner
+      per device moving at their own speed.
+  - context: group
+    how: >-
+      Works projected, with the facilitator driving and the group calling the decisions. Slower, and
+      you lose the self-pacing, but it needs only one device and turns the interactive into a shared
+      argument, which suits a room that has just finished a dilemma simulation.
+materialsAndPreparation:
+  - A device with a web browser and a connection, one per learner or pair, or one for the facilitator if you are projecting.
+  - Nothing else. It is free, needs no account, and takes about 30 minutes.
+  - Best placed immediately after a dilemma simulation, while the experience is fresh.
+educatorContent: |
+  The Evolution of Trust is a free browser interactive by Nicky Case, built on Robert Axelrod's work on
+  the repeated prisoner's dilemma. The learner plays a few rounds themselves, then runs tournaments
+  between simple strategies: one that always cheats, one that always cooperates, one that copies
+  whatever you did last, and several others. They watch which strategies take over a population, then
+  change the conditions and watch the answer change.
+
+  Three findings come out of it, and all three matter for this course:
+
+  - **Repetition changes everything.** In a one-off encounter, cheating wins. Once the same parties
+    meet repeatedly, strategies that begin by cooperating and retaliate only when cheated start to win.
+  - **Miscommunication is corrosive.** Introduce a small chance that an action is misread, and
+    strict retaliation collapses into endless feuding. Strategies that forgive the occasional signal
+    survive; unforgiving ones destroy themselves.
+  - **The payoffs decide the game.** If the situation is genuinely zero-sum, no amount of goodwill
+    helps. Change the payoffs and cooperation becomes rational.
+
+  ## Why it belongs in this course, and where
+
+  Amala's dilemma simulations, Pasta Wars, Ore Wars and Hurricane, produce the experience. This
+  produces the explanation, and it should come afterwards, never before.
+
+  Learners who have just spent an hour failing to sustain cooperation, or recovering from a defection
+  that took four rounds to repair, meet each of these findings as a description of what they did. The
+  miscommunication result in particular lands hard on anyone who has played Ore Wars, where the whole
+  point is that the parties cannot explain themselves.
+
+  The third finding is the one to take furthest. If cooperation depends on repetition, on forgiving
+  the occasional misread signal, and on payoffs that are not actually zero-sum, then a peacebuilder's
+  job is to change those three conditions. That is a considerably more concrete account of the work
+  than "build trust", and it maps directly onto the conditions of a transformative platform.
+
+  ## Getting it
+
+  It is on the web, free, needs no account, and is dedicated to the public domain by its author. Send
+  learners to it, or project it.
+learnerContent: |
+  You are going to play a short game against different opponents, then run tournaments between
+  strategies and watch which ones survive.
+
+  It takes about half an hour and there is nothing to sign up for.
+
+  As you go, keep the simulation you have just played in mind:
+
+  - Which of these strategies did **you** use?
+  - What happens when the same players meet again and again, instead of once?
+  - **What happens when there is a chance your action gets misread?** Which strategies survive that?
+  - What happens when you change the payoffs so that cooperating is worth more?
+  - If those three things decide whether trust is possible, what does that tell you about a
+    peacebuilder's actual job?
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    It converts trust from a virtue into a set of conditions: repetition, tolerance of misread
+    signals, and payoffs that are not zero-sum. Conditions can be worked on by somebody without
+    authority, which is precisely what a track-three peacebuilder needs to believe.
+principlesForegrounded: [lifeworthy-competencies, authentic-challenges]
+principleAlignment:
+  - principle: lifeworthy-competencies
+    how: >-
+      The three conditions for cooperation apply to a family, a classroom and a peace process, and a
+      learner who holds them has something usable for life.
+  - principle: authentic-challenges
+    how: >-
+      It explains behaviour the learners have just produced themselves in a live simulation, rather
+      than presenting theory in advance of experience.
+competencyCodes: [FUS2, ALC3, FPS1, APS3]
+competencyDevelopment:
+  - code: FUS2
+    how: >-
+      The strategies are models of how other people respond, and learners test their assumptions about
+      what the other side will do against what actually survives.
+  - code: ALC3
+    how: >-
+      It names the conditions under which a destructive relationship can become a cooperative one,
+      which is conflict transformation stated mechanically.
+  - code: FPS1
+    how: >-
+      Changing the conditions changes which strategy wins, so learners see directly that a fixed
+      approach fails when the situation moves.
+  - code: APS3
+    how: >-
+      The tournaments are pattern identification: which shapes of behaviour survive, and under what
+      conditions.
+objectiveIds: [peacebuilding--o2, peacebuilding--o3]
+relatedSlugs: [pb-ore-wars, pb-pasta-wars, pb-the-mm-game, pb-transformative-platform, glasls-conflict-escalation]
+links:
+  - label: "The Evolution of Trust (Nicky Case)"
+    url: https://ncase.me/trust/
+    note: "Free browser interactive, about 30 minutes, no account needed. Dedicated to the public domain by its author."
+rights:
+  status: linked-not-reproduced
+  holder: Nicky Case (dedicated to the public domain)
+  basis: >-
+    The interactive is dedicated to the public domain by its author, so there would be no rights
+    obstacle to reproducing it. It is not reproduced here because it is a hosted web experience that
+    cannot usefully be copied: this page explains what it shows, argues where it fits the course, and
+    links to it.
+  note: >-
+    Requires a device and a connection, so it is unavailable in fully offline contexts. Where devices
+    are scarce, project it and drive it as a whole group.
+sourceRefs:
+  - "Case, N. The Evolution of Trust. https://ncase.me/trust/ (public domain). Built on Axelrod, R. (1984), The Evolution of Cooperation."
+provenanceNote: >-
+  Identified in August 2026 while researching simulations to strengthen the dilemma-game sequence.
+  Written from scratch as a pointer to the published interactive.
