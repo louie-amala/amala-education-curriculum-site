@@ -1,0 +1,124 @@
+# Contextualised, fully offline ANALYSIS activity for the Research Project component of Learning Bridge+
+# (Cox's Bazar). A second way to analyse the evidence: look at the problem as a human system through
+# three lenses — who or what has power, what beliefs and attitudes shape it, and who benefits or suffers.
+# Evaluate evidence phase (objective 3). Oral and visual first; hands-on; warm, never blaming.
+id: cb-rp-looking-deeper
+slug: cb-rp-looking-deeper
+access: partner
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Who, what, and why — looking deeper"
+summary: >-
+  Another way to make sense of what we found: look at the problem as something people are part of, through
+  three questions — who or what has the power to change it, what beliefs and attitudes make it worse or
+  better, and who or what is helped or hurt by it. This makes our insights deeper and fairer.
+facilitationContext:
+- group
+primaryContext: group
+duration: "1.5 hours facilitated + 0.5 hour independent"
+grouping: "Whole group, with three areas on the wall or floor; pairs feed each one"
+whatLearnersDo:
+- Ask who or what has the power to make the problem worse or better — families, agencies, the government, and things like the monsoon and the hills themselves.
+- Ask what people believe or feel that causes the problem, or that could help solve it.
+- Ask who or what is helped, and who or what is hurt, by the problem and by what is being done about it.
+- Stand back and notice what these three lenses show that the evidence alone did not.
+materialsAndPreparation:
+- Three areas marked on the wall or floor — one for each question — where cards and drawings can be placed.
+- The themes and evidence from the earlier analysis, and the community map, nearby.
+- Cards or scraps of paper to write or draw on and move around.
+facilitationNotes: >-
+  The one thing to get right: keep it about understanding, not blaming. The point is to see the problem as
+  a system that people are part of — where power sits, what beliefs shape it, and who wins and loses —
+  because that is what makes an insight deep and fair rather than a simple "trees good, cutting bad". Take
+  the three questions one at a time, each as a short round, building up cards in its area. Handle beliefs
+  with special care: name attitudes gently and generally ("some people feel the trees are not theirs to
+  plant"), never pointing at anyone. Draw out that people who did harm often had little choice, and that
+  the same people can be part of the solution.
+steps:
+- title: "Who or what has power here?"
+  duration: "30 min"
+  guidance: >-
+    In the first area, gather who or what can make the problem worse or better: families who cook and
+    build, the agencies planting and giving gas, the government and the camp leaders, and forces like the
+    heavy monsoon and the steep hills themselves. Some have a lot of power, some a little. This shows who
+    could act, and who a solution depends on.
+  keyPrompts:
+  - "Who can change this — even a little?"
+  - "What has power here that is not a person (the rain, the hills)?"
+- title: "What do people believe or feel?"
+  duration: "30 min"
+  guidance: >-
+    In the second area, name the beliefs and attitudes that make the problem worse or could make it
+    better — gently and generally. For example: "we had no other choice but to cut wood"; "the trees are
+    not ours to plant"; "looking after the hills is the agencies' job"; and, on the other side, "we can
+    care for our own hills". Beliefs shape what people do, so they matter.
+  keyPrompts:
+  - "What do people believe that makes the problem harder to solve?"
+  - "What belief could help solve it?"
+- title: "Who is helped, and who is hurt?"
+  duration: "20 min"
+  guidance: >-
+    In the third area, sort who or what is hurt by the problem — families on bare slopes, the women who
+    used to collect firewood, the animals whose home was cleared — and who is helped when things improve.
+    Notice who carries the most harm, and who a good solution should protect first.
+  keyPrompts:
+  - "Who suffers most from this problem?"
+  - "Who is helped when the hills come back?"
+- title: "Stand back — what do we see now?"
+  duration: "10 min"
+  guidance: >-
+    Look at all three areas together. What do power, beliefs, and who-wins-and-loses show us that the plain
+    evidence did not? Draw one or two things the group notices — these feed our insights.
+  keyPrompts:
+  - "What does looking deeper show that our evidence alone did not?"
+learnerContent: |
+  ## Who, what, and why — looking deeper
+
+  A problem is not just a thing that happens — it is something people are part of. To understand it deeply,
+  we look at it through three questions:
+
+  - Who or what has power here? Who can make it worse or better — families, the agencies, the government,
+    and things like the monsoon and the hills themselves?
+  - What do people believe or feel? Some beliefs make the problem harder ("the trees are not ours to
+    plant"); some could help ("we can care for our own hills").
+  - Who is helped, and who is hurt? Who suffers most from the problem, and who is helped when things get
+    better?
+
+  We put our answers in three areas and look at them together. This is about understanding, never about
+  blaming anyone — people who did harm often had little choice, and the same people can be part of the
+  answer. What we see here makes our insights deeper and fairer.
+worksheet:
+  slug: cb-rp-looking-deeper-page
+  note: "In the research book (student workbook): the 'Looking deeper — power, beliefs, who is helped and hurt' page. Print one per learner."
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - control-of-future-pathways
+  how: >-
+    Seeing a problem as a human system — where power sits, what beliefs shape it, and who wins and loses —
+    is how a young person moves from noticing a problem to understanding how change actually happens, which
+    is the ground of real agency.
+principlesForegrounded: [responsible-action, builds-on-identities, authentic-challenges]
+principleAlignment:
+- principle: responsible-action
+  how: Asking who is hurt and who a solution should protect first builds a habit of weighing fairness, not just facts.
+- principle: builds-on-identities
+  how: Learners read power, beliefs, and harm through their own community and lives, in their own words and pictures.
+- principle: authentic-challenges
+  how: The lenses are applied to the real, local challenge the cohort has been investigating.
+competencyCodes: [FSI1, FPS3, ATS1]
+competencyDevelopment:
+- code: FSI1
+  how: Analysing the problem through power, beliefs, and beneficiaries is part of interpreting the evidence to reach deep, actionable insight.
+- code: FPS3
+  how: The three lenses surface contributing factors — the people, attitudes, and forces that make the problem worse or better.
+- code: ATS1
+  how: Learners analyse and interpret their evidence through a structured critical lens rather than taking it at face value.
+objectiveIds: [research-project--o3]
+relatedSlugs: [cb-rp-looking-deeper-page, cb-rp-root-cause, cb-rp-sort-and-theme, cb-rp-findings-to-insights]
+provenanceNote: >-
+  Authored analysis activity for the Learning Bridge+ (Cox's Bazar) Research Project edition, added at the
+  request for an activity examining who/what has agency in the problem, what beliefs and attitudes shape
+  it, and who benefits or suffers. A critical/systems lens for the "Evaluate evidence and develop insights"
+  phase (objective 3). Fully offline, oral and visual first. Its printable page compiles into the student
+  workbook.

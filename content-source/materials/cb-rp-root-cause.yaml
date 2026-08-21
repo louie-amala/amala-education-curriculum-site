@@ -1,0 +1,117 @@
+# Contextualised, fully offline ANALYSIS activity for the Research Project component of Learning Bridge+
+# (Cox's Bazar). One way to analyse the gathered evidence: dig past the surface problem to its root
+# cause, using the Five Whys (and, as another way, a simple problem tree). Evaluate evidence phase
+# (objective 3). Oral and visual first; drawn, not written; warm and hopeful.
+id: cb-rp-root-cause
+slug: cb-rp-root-cause
+access: partner
+edition: learning-bridge-coxs-bazar
+type: activity
+title: "Dig for the root cause"
+summary: >-
+  One way to make sense of what we found: dig past the problem we can see to the real reason underneath
+  it, by asking "why?" again and again — the Five Whys. Getting to the root cause means our insights, and
+  anything we suggest, deal with the real cause and not just the surface.
+facilitationContext:
+- group
+primaryContext: group
+duration: "1.5 hours facilitated + 0.5 hour independent"
+grouping: "Whole group to model; pairs or small groups to dig"
+whatLearnersDo:
+- Take one problem our evidence shows, and ask "why does this happen?" — then ask "why?" of the answer, again and again.
+- Draw the chain of whys going downward, until we reach a cause underneath that we cannot easily push past — the root cause.
+- Check the root cause against our evidence, and notice that one problem can have more than one root.
+materialsAndPreparation:
+- The themes and patterns from "Sort and theme what we found" — the problems our evidence surfaced.
+- Wall or floor space to draw a chain of "whys" going down (or a tree with its roots).
+- The community map and evidence log nearby, to check each "why" against what we found.
+facilitationNotes: >-
+  The one thing to get right: keep asking "why?" past the first easy answer. Learners (and all of us)
+  tend to stop at the surface — "the hills slide because it rains." Model going deeper, gently: why are
+  the hills bare, why were the trees cut, why was there no other choice. Each "why" should rest on our
+  evidence, not on blame or guessing — this is analysis, not fault-finding, so keep it warm and about the
+  hills, never about any person. Five is a guide, not a rule: stop when you reach a cause you cannot
+  easily push past. A problem tree (roots = causes, trunk = the problem, branches = what it leads to) is
+  another good way to draw the same thinking if your group prefers it.
+steps:
+- title: "Pick a problem, and ask the first why"
+  duration: "20 min"
+  guidance: >-
+    From our themes, choose one clear problem the evidence shows — for example, "the soil slides down our
+    hills when it rains." Write or draw it at the top. Ask the group: why does this happen? Draw the answer
+    below it, joined by an arrow.
+  keyPrompts:
+  - "What problem shall we dig into?"
+  - "Why does this happen?"
+- title: "Keep asking why, going down"
+  duration: "40 min"
+  guidance: >-
+    Ask "why?" of each answer in turn, drawing the chain downward — about five times, until you reach a
+    cause you cannot easily push past. For example: the soil slides → because the hills are bare → because
+    the trees were cut → because families needed wood to cook and build → because there was no other fuel
+    and many people arrived very fast. Let learners lead once you have modelled it, in pairs or small
+    groups, each digging one problem.
+  keyPrompts:
+  - "And why is that?"
+  - "Is that the real cause, or is there something underneath it?"
+- title: "Find the root, and check it"
+  duration: "30 min"
+  guidance: >-
+    Name the root cause (or causes — there is often more than one) at the bottom of the chain. Check it
+    against our evidence: do our sources and what people told us support it? Keep it hopeful — knowing the
+    root cause is what lets us think clearly about what could help.
+  keyPrompts:
+  - "What is the cause underneath all the others?"
+  - "Does our evidence support this root cause?"
+learnerContent: |
+  ## Dig for the root cause
+
+  The problem we can see is usually not the whole story. Under it is a deeper reason — the root cause. To
+  find it, we ask "why?" again and again, digging down like following a tree's roots into the ground.
+
+  Start with a problem our evidence shows. Ask why it happens. Then ask why THAT happens. Keep going —
+  about five times — until you reach a cause you cannot easily push past.
+
+  For example:
+
+  - The soil slides down our hills when it rains.
+  - Why? The hills are bare.
+  - Why? The trees were cut down.
+  - Why? Families needed wood to cook and to build shelters.
+  - Why? There was no other fuel, and very many people arrived very fast.
+
+  Now we can see a root cause, not just the surface. There is often more than one root. Check each one
+  against our evidence — and remember, this is about the hills, never about blaming any person.
+worksheet:
+  slug: cb-rp-our-root-cause
+  note: "In the research book (student workbook): the 'Dig for the root cause' page — a chain of whys to draw. Print one per learner."
+agencyContribution:
+  indicators:
+  - control-of-future-pathways
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Learning to look past a surface problem to its root cause is a way of thinking learners can turn on
+    any challenge in their lives — it is what separates treating a symptom from understanding what is
+    really going on.
+principlesForegrounded: [feedback-and-data, authentic-challenges]
+principleAlignment:
+- principle: feedback-and-data
+  how: Each "why" is checked against the evidence the cohort gathered, so the root cause rests on data, not on assumption or blame.
+- principle: authentic-challenges
+  how: The problems dug into are the real ones the learners' own evidence surfaced about their own hills.
+competencyCodes: [FSI1, FPS3, ATS1]
+competencyDevelopment:
+- code: FSI1
+  how: Digging to the root cause is part of interpreting the evidence to develop actionable insight — the analytical heart of the investigation.
+- code: FPS3
+  how: The Five Whys is a direct tool for identifying the contributing factors and the cause underneath them.
+- code: ATS1
+  how: Learners analyse and interpret their gathered data to move from a surface pattern to an underlying cause.
+objectiveIds: [research-project--o3]
+relatedSlugs: [cb-rp-our-root-cause, cb-rp-sort-and-theme, cb-rp-looking-deeper, cb-rp-findings-to-insights]
+provenanceNote: >-
+  Authored analysis activity for the Learning Bridge+ (Cox's Bazar) Research Project edition, added after
+  educator feedback (Kurshed, Anjali) that asked for explicit root-cause analysis. Uses the Five Whys
+  (with the problem tree noted as an alternative). One of the analysis methods in the "Evaluate evidence
+  and develop insights" phase (objective 3). Fully offline, oral and visual first. Its printable page
+  compiles into the Research Project student workbook.

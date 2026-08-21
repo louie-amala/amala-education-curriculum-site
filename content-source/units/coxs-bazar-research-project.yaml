@@ -1,5 +1,5 @@
 # Unit plan (scheme of work) for the Research Project component of Learning Bridge+ (Cox's Bazar).
-# HOURS-BASED, not weeks: it sets out the full 50 hours (30 in-person + 20 independent) so an educator
+# HOURS-BASED, not weeks: it sets out the full 54 hours (33 in-person + 21 independent) so an educator
 # can fit them into their own weekly schedule (minimum 10 weeks). Treated as a standalone component.
 #
 # CHALLENGE SET (2026-08-04): the whole cohort investigates ONE shared challenge — what is happening to
@@ -30,7 +30,7 @@ programmeSlug: learning-bridge-coxs-bazar
 componentTitle: Research Project
 courseSlug: research-project
 summary: >-
-  The full 50-hour plan for delivering the Research Project component fully offline in the Cox's Bazar
+  The full 54-hour plan for delivering the Research Project component fully offline in the Cox's Bazar
   camps, as a standalone course. It is set out in hours, not weeks, so you can fit it into your own
   timetable over a minimum of 10 weeks. The whole cohort investigates one shared, local challenge —
   what is happening to the trees on the hills where they live — working from a research question they
@@ -40,8 +40,8 @@ summary: >-
   work, weigh what they find, and turn it into insights they share. Because there is no internet, all
   secondary sources are supplied ready-made. Times are deliberately generous, because oral and visual
   delivery with drawing and translation takes longer than it first appears.
-totalFacilitatedHours: 30
-totalIndependentHours: 20
+totalFacilitatedHours: 33
+totalIndependentHours: 21
 deliveryApproach: >-
   This unit runs one real cycle of investigation on a single challenge the whole cohort shares, and
   hands over control as it goes: the aim is to move learners from doing research to being researchers.
@@ -310,6 +310,33 @@ phases:
           what many people said, where sources agree or disagree, what keeps coming up. Keep it hands-on
           and visual; the sorting is the analysis.
         independentTask: "Look at what you gathered and find two pieces of evidence that say a similar thing; be ready to explain the pattern."
+      - title: "Dig for the root cause"
+        kind: activity
+        materialSlug: cb-rp-root-cause
+        facilitatedHours: 1.5
+        independentHours: 0.5
+        description: >-
+          One way to analyse what we found: dig past the surface problem to its root cause, using the Five
+          Whys (or a problem tree). Take a problem the evidence shows — the soil slides when it rains — and
+          ask "why?" again and again, drawing the chain down until you reach a cause you cannot easily push
+          past. Each "why" rests on our evidence, and it stays about the hills, never about blaming anyone.
+          Getting to the root means our insights deal with the real cause, not just the symptom.
+        independentTask: "Take one problem about our hills and ask 'why?' three times, to see what is underneath it."
+      - title: "Who, what, and why — looking deeper"
+        kind: activity
+        materialSlug: cb-rp-looking-deeper
+        facilitatedHours: 1.5
+        independentHours: 0.5
+        description: >-
+          A second way to analyse: see the problem as a human system, through three questions — who or what
+          has the power to make it worse or better (families, agencies, the government, the monsoon, the
+          hills); what beliefs and attitudes shape it ("the trees are not ours to plant" versus "we can
+          care for our hills"); and who or what is helped or hurt by it. Build the three up on the wall.
+          This makes insights deeper and fairer — and it stays about understanding, never blaming.
+        independentTask: "Notice one person or group who is hurt by the bare hills, and one who could help make them green again."
+        flexNote: >-
+          Root cause and looking deeper are two ways to analyse the evidence — do one or both, depending on
+          your cohort and the time you have. Both feed the next block, where findings become insights.
       - title: "From findings to insights"
         kind: activity
         materialSlug: cb-rp-findings-to-insights
@@ -385,7 +412,7 @@ downloads:
 - label: "Research Project — Facilitator Unit Plan & Guide"
   file: /downloads/research-project-facilitator-unit-plan.docx
   format: Word
-  note: "The full 50-hour plan with all guidance inline, plus the source pack (Appendix A) and the full original articles for your reference (Appendix B)."
+  note: "The full 54-hour plan with all guidance inline, plus the source pack (Appendix A) and the full original articles for your reference (Appendix B)."
 - label: "Research Project — Student Workbook"
   file: /downloads/research-project-student-workbook.docx
   format: Word
@@ -425,7 +452,7 @@ sourceNotes:
       picture support (not picture-first): they carry real, level-appropriate text that stretches
       learners, supported by images, a shared research word wall, and simple sentence frames. English is
       a scaffold learners grow into, never the gate on whether a learner can demonstrate FSI1.
-  - Set out in hours, not weeks, as a standalone 50-hour component (30 in-person + 20 independent). Educators fit it to their own weekly schedule over a minimum of 10 weeks.
+  - Set out in hours, not weeks, as a standalone 54-hour component (33 in-person + 21 independent). Educators fit it to their own weekly schedule over a minimum of 10 weeks.
   - Activity times are generous (roughly 1.5 to 2 times a literate-group estimate) to reflect oral and visual delivery with drawing and translation.
   - Downloads (facilitator plan, student research workbook, source pack, slides) are deferred until those artefacts exist; the downloads list is intentionally empty for now.
   - >-
