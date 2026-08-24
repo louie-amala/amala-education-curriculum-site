@@ -350,6 +350,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Understand yourself ---
+  learnIt('cb-ail-growth-mindset');
   page('Understand yourself', 'You can grow', 'You can grow', 'Draw a time you got better at something that was hard at first.', 'cb-ail-you-can-grow-page');
   c.push(example(['A learner could not read the letters. She practised a little each day and asked a friend to help.', 'Now she can read short words. What helped: practising, and asking for help.']));
   c.push(box(5000, 'Draw or write it here'));

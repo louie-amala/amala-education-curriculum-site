@@ -81,7 +81,7 @@ competencyDevelopment:
       be redrawn. The interpretation itself is shown elsewhere, in the evidence log and the research
       report, where the revised iceberg is what they have to justify.
 objectiveIds: [social-entrepreneurship--o1, research-project--o1, peacebuilding--o1]
-relatedSlugs: [iceberg-model, wicked-problems, leverage-points, stakeholder-community-mapping]
+relatedSlugs: [iceberg-model, problem-tree, wicked-problems, leverage-points, stakeholder-community-mapping]
 sourceRefs: ["iceberg-graphics-questions.pdf", "planner-new.txt"]
 provenanceNote: >-
   Grounded in the 2025 course planner (Part 3.1 complexity; 3.2 and "Iceberg Analysis Take 2")

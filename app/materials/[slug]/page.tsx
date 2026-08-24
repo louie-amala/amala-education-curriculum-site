@@ -107,24 +107,39 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
           );
         })()}
 
-      {/* Resources for this activity — surfaced at the top so educators do not have to go digging */}
+      {/* Resources and tools for this activity — surfaced at the top so educators do not have to go
+          digging. A step that says "use the question ladder" is no use unless the ladder is one click
+          away, so any tool named in relatedSlugs is listed here alongside the learner-facing sheets. */}
       {m.type !== "resource" &&
         (() => {
-          const used = m.relatedSlugs
-            .map((s) => getMaterial(s))
-            .filter((r): r is NonNullable<typeof r> => r != null && r.type === "resource");
+          const pick = (type: string) =>
+            m.relatedSlugs
+              .map((s) => getMaterial(s))
+              .filter((r): r is NonNullable<typeof r> => r != null && r.type === type);
+          const resources = pick("resource");
+          const tools = m.type === "activity" ? pick("tools-approaches") : [];
+          const used = [...resources, ...tools];
           if (used.length === 0) return null;
+          const heading =
+            resources.length === 0
+              ? "Tools for this activity"
+              : tools.length === 0
+                ? "Resources for this activity"
+                : "Resources and tools for this activity";
           return (
             <section className="mt-6 rounded-xl border-l-4 border-teal border-y border-r border-cool-grey/20 bg-teal/5 p-5">
-              <p className="text-xs font-semibold uppercase tracking-widest text-teal">
-                Resources for this activity
-              </p>
+              <p className="text-xs font-semibold uppercase tracking-widest text-teal">{heading}</p>
               <ul className="mt-3 space-y-3">
                 {used.map((r) => (
                   <li key={r.slug}>
                     <Link href={`/materials/${r.slug}`} className="font-medium text-navy hover:underline">
                       {r.title}
                     </Link>
+                    {r.type === "tools-approaches" && (
+                      <span className="ml-2 rounded bg-white px-1.5 py-0.5 text-[11px] font-medium uppercase tracking-wide text-teal">
+                        Tool
+                      </span>
+                    )}
                     {r.summary && <span className="text-sm text-cool-grey"> &mdash; {r.summary}</span>}
                     {r.links.length > 0 && (
                       <div className="mt-1.5 flex flex-wrap gap-2">

@@ -1,0 +1,162 @@
+id: question-ladder
+slug: question-ladder
+access: public
+type: tools-approaches
+toolsFacet: both
+title: Question ladder
+summary: A set of question stems arranged in rungs, from simple factual questions up to ones that ask
+  someone to explain, compare, predict or advise, so a group generates a real range of questions rather
+  than the first few that come to mind.
+diagram:
+  src: /diagrams/question-ladder.svg
+  alt: >-
+    Five stacked rungs, simplest at the bottom. Fact ("What...?", "Who...?", "Where...?", "How many...?");
+    explanation ("How does...?", "Why does...?"); comparison ("What is the difference between...?",
+    "Which...?"); prediction ("What happens if...?", "What would change if...?"); judgement and advice
+    ("What would you do...?", "What should we...?"). An arrow up the side shows that the higher the rung,
+    the more the person answering has to explain rather than recall.
+  caption: The rungs of the question ladder, simplest at the bottom.
+facilitationContext:
+- group
+- one-to-one-mentoring
+- independent
+primaryContext: group
+deliveryAdaptations:
+- context: group
+  how: >-
+    As designed. Groups race for quantity at the lower rungs, then work up. The disagreement about
+    which rung a question sits on is useful, because arguing that a question is "really just a fact
+    question" is how learners hear the difference, so let that run rather than settling it from the front.
+- context: one-to-one-mentoring
+  how: >-
+    Works well for sharpening one learner's set. A mentor takes each question and asks which rung it
+    sits on and what a good answer would give them, but the learner loses the range a group generates,
+    so ask them to draft widely first and bring the whole list.
+- context: independent
+  how: >-
+    Usable alone, and the rungs still push a learner past their first three questions, but nobody is
+    there to say a question is closed or vague. Set a minimum per rung, and have the learner try their
+    top-rung questions out loud on one other person before using them for real.
+educatorContent: |
+  ## What it is
+
+  A question ladder is a short list of question stems arranged by how much they ask of the person
+  answering. At the bottom are fact questions, which someone can answer from memory in a few words.
+  Higher up are questions that ask them to explain, to compare, to say what would happen if something
+  changed, and finally to judge or advise. The rungs are a prompt, not a hierarchy of worth: a good
+  question set uses the whole ladder, because facts anchor the conversation and the higher rungs are
+  where someone actually teaches you something.
+
+  ## The rungs
+
+  - Fact. "What...?", "Who...?", "Where...?", "When...?", "How many...?" Gets the basics straight
+    and gives the other person an easy start.
+  - Explanation. "How does...?", "Why does...?" Asks them to account for something rather than
+    confirm it.
+  - Comparison. "What is the difference between...?", "Which...?", "How is this different from...?"
+    Puts two things side by side and makes the distinction visible.
+  - Prediction. "What happens if...?", "What would change if...?" Asks them to reason forward from
+    what they know.
+  - Judgement and advice. "What would you do...?", "What should we...?", "What do you wish people
+    understood about this?" Asks for their view, which is often the answer a learner remembers.
+
+  ## What it is for
+
+  Use it wherever learners have to produce questions rather than answers: preparing to interview an
+  expert or a community member, opening up a research question into sub-questions they could actually
+  investigate, interrogating a text or a data set, or preparing to question a visitor. It is equally a
+  facilitation tool, since a facilitator can climb the same rungs to move a discussion on from what a
+  group knows to what it thinks.
+
+  ## How to run it
+
+  Put the rungs where everyone can see them, drawn or printed, and start at the bottom for quantity:
+  first thoughts, no filtering, several fact questions fast. Then set a floor for the upper rungs, for
+  instance at least two questions that begin with how or why and one that asks for a view. Have learners
+  write beside each question why it is worth asking and what a good answer would give them, which is what
+  turns a list into a set. Finish by cutting and ordering: a warm question to open, the questions that
+  matter most in the middle, and nothing that repeats.
+
+  It is not a script. Learners do not need a question from every rung, and a set of six good questions
+  drawn from three rungs beats a tidy one drawn from five. If another technique gets a group to the same
+  place, use it: question stems on cards, turning every statement in a group's notes into a question, or
+  simply asking what they still do not understand and why.
+
+  ## Watch for
+
+  Yes or no questions dressed up as open ones ("Do you think the water is a problem?"), which get a
+  one-word answer; rewrite them at the explanation rung. Top-rung questions so abstract that nobody could
+  answer them ("What should society do about poverty?"), which usually need narrowing to this person and
+  this place. And questions generated from the ladder rather than from a genuine gap: if a learner cannot
+  say why they are asking, the question is not ready.
+learnerContent: |
+  A question ladder helps you think of more, and better, questions than the ones you think of first.
+
+  Climb the rungs:
+
+  - Fact: What...? Who...? Where...? How many...? These are easy to answer.
+  - Explanation: How does...? Why does...? These ask the person to explain.
+  - Comparison: What is the difference between...? Which...?
+  - Prediction: What happens if...? What would change if...?
+  - Judgement and advice: What would you do...? What should we...?
+
+  Start at the bottom and write as many as you can. Then push yourself up the ladder, because the higher
+  questions are the ones that make someone teach you something. Beside each question, write why you are
+  asking it and what a good answer would tell you.
+
+  Then check your list. Would any of these questions get the answer "yes" or "no"? Rewrite it as a how or
+  why question. Are any two the same question twice? Cut one. Finally, put them in order: a friendly
+  question first, the most important ones next, so you get to them while there is still time.
+agencyContribution:
+  indicators:
+  - contribution-to-community
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    Being able to ask a good question is how a learner gets knowledge out of someone who has it, whether
+    that is an expert, an official or a neighbour. A learner who can climb from facts to "what would you
+    do" is no longer dependent on what they are told, they can find out, and that is what lets their work
+    on a community challenge rest on real knowledge rather than assumption.
+principlesForegrounded:
+- lifeworthy-competencies
+- feedback-and-data
+principleAlignment:
+- principle: lifeworthy-competencies
+  how: >-
+    Asking questions that make someone explain rather than confirm is a skill learners reuse for life,
+    in an interview, a clinic, an office or a classroom, whenever they need to learn from a person who
+    knows more than they do.
+- principle: feedback-and-data
+  how: >-
+    The ladder is a way of gathering better evidence from people. Noting why each question is asked, and
+    what a good answer would give, keeps the questions tied to what the learner actually needs to find
+    out rather than to what is easy to ask.
+competencyCodes:
+- FSI1
+- FUS2
+competencyDevelopment:
+- code: FSI1
+  how: >-
+    Turning a gap in understanding into questions that would actually fill it is the planning half of
+    investigating a real-world issue; the question set a learner produces, and their reason for each
+    question, is the evidence.
+- code: FUS2
+  how: >-
+    Framing a question so that another person can and wants to answer it, opening gently before asking
+    for a view, is practice in understanding the person on the other side of the conversation, not just
+    the subject.
+objectiveIds:
+- research-project--o2
+relatedSlugs:
+- dc-expert-interview-preparation
+- dc-designing-survey-questions
+- community-mapping-and-empathy-interviews
+provenanceNote: >-
+  Authored as a tool material because activities referred learners to "a question ladder" without one
+  existing anywhere in the library. The rungs and stems here are written for Amala, drawing on the
+  question-ladder idea common in design and research toolkits (including Nesta's Development Impact and
+  You), with an original diagram. No third-party text or artwork is reproduced.
+rights:
+  status: own-expression
+  basis: >-
+    The question-ladder idea is a common technique with no single traceable author, and every word and
+    the diagram here are Amala's own, so no third party's expression is reproduced.

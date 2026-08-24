@@ -153,6 +153,163 @@ closing: |
   if you secretly think you cannot. The "not yet" and the step stay in the workbook, to be proved wrong
   over the weeks ahead. Independent task: tell one person at home about a time you got better at
   something that was hard, and what helped.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  This block underpins the whole component. A learner who believes ability is fixed will not set a goal
+  to grow — there would be no point. But it is also the block most easily taught badly, and taught
+  badly in this context it does real harm.
+
+  ### What a growth mindset actually is
+
+  The belief that ability changes with **effort, a different approach, and help from others**. Three
+  ingredients, and the middle one is the one people drop.
+
+  "Try harder" is not a growth mindset. A learner who tries the same failed method more times just
+  collects more evidence that they cannot do it. The move is: effort, AND something different, AND
+  someone to help. Say all three every time.
+
+  ### What it is not, and this matters more than the definition
+
+  It is **not** positive thinking, and it is **not** the claim that anyone can achieve anything if they
+  believe hard enough. Be careful here, because the popular version of this idea is much stronger than
+  the evidence behind it. Studies find real but modest effects, mostly for learners who were
+  struggling, and mostly when the teaching changed too — not from telling people to believe.
+
+  So teach it as what it is: a way of reading difficulty. Difficulty means this is new and I need
+  another approach — not difficulty means I am not the kind of person who can.
+
+  ### The harm to avoid, which is specific to this cohort
+
+  Taught carelessly, "you can do anything if you believe" tells a young person whose education was
+  destroyed by displacement that their situation is a failure of attitude. It is not. They did not
+  fail to try hard enough — a war and a border did that.
+
+  So draw the line explicitly, and say it out loud in the session: **some things are hard because they
+  are hard, and some things were taken from you. Neither is a mindset problem.** What a growth mindset
+  is for is the part that IS in your hands — what you can get better at, starting now.
+
+  A learner who hears you make that distinction will trust the rest of it. A learner who hears
+  unqualified optimism will correctly conclude you do not understand their life.
+
+  ### The proof has to be theirs
+
+  Nobody adopts this because they were told. The mechanism of the block is that each learner produces
+  their OWN evidence: a real memory of being unable to do something and then being able to. Everyone
+  has one — walking, a language, cooking, carrying water, minding a younger child, a trade.
+
+  Your job is to make them notice what made the difference. Push past "I just practised" to the
+  specifics: who showed you, what you changed, how long it took, what it felt like at the start. That
+  detail is the proof. Then name it: that is exactly what will happen with the goal you are about to
+  set.
+
+  ### Watch your own words all course
+
+  This block is undone in five seconds by praise of the wrong kind. Praise the process, not the person.
+
+  - "You worked that out" · "you kept going when it was hard" · "you tried it a different way" — good.
+  - "You are clever" · "you are a natural" · "you are good at this" — teaches that ability is a fixed
+    thing you either have or do not, and makes a learner afraid to try something they might be bad at.
+
+  The same applies to how you talk about yourself in front of them.
+
+  ### "Not yet" is the one phrase to make stick
+
+  Adding one word to "I cannot read this" changes it from a fact about who you are into a statement
+  about where you have got to. Use it yourself, every session, for the whole course — including about
+  yourself.
+
+  ## Before they leave this block
+
+  - Every learner has told someone a real story of getting better at something hard, with the detail of
+    what helped.
+  - They can name the three ingredients: keep going, try a different way, get help.
+  - They have turned one of their own "I cannot" statements into "I cannot YET".
+  - They have heard you say that some things are not a mindset problem — and can say the difference.
+learnerTeaching:
+  title: "How people get better at things"
+  readAloud: |
+    ## How people get better at things
+
+    Before you choose a goal, there is something you need to decide: **can you get better at things, or
+    are you just the way you are?**
+
+    This matters. If you believe you cannot change, there is no reason to set a goal at all.
+
+    ### Two ways of thinking
+
+    Listen to these two sentences. They are about the same person on the same day.
+
+    - "I cannot read this."
+    - "I cannot read this **yet**."
+
+    One word. But the first one is about who you are. The second one is about where you have got to so
+    far — and where you have got to always changes.
+
+    ### You already have the proof
+
+    You do not have to take anyone's word for this. You have your own proof.
+
+    Think of something you can do now that you could not do before. Carrying water. Cooking. Minding a
+    younger child. Speaking a second language. A trade. Walking.
+
+    You were not born able to do it. You got better at it. That already happened to you, more than
+    once.
+
+    ### What actually makes people grow — three things
+
+    Not one thing. Three, and you need all of them.
+
+    1. **Keep going.** Not giving up the first time it is hard.
+    2. **Try a DIFFERENT way.** This is the one people forget. If you do the same thing again and again
+       and it does not work, doing it more times will not help. Change something.
+    3. **Get help.** Ask someone who can already do it. This is not cheating and it is not weakness.
+       Nobody learns anything alone.
+
+    ### Hard does not mean you cannot
+
+    When something feels hard, that feeling is not a message that you are the wrong kind of person.
+
+    It is a message that this is **new**. That is all. Everything you can do now felt like that once.
+
+    ### But some things are not about your mind, and we should say so
+
+    Here is the honest part.
+
+    Some things are hard because they are genuinely hard. And some things were taken from you — school
+    that stopped, years you did not get, choices other people made about your life.
+
+    **That is not your fault, and no amount of believing changes it.** Anyone who tells you that you
+    just have to think differently about it is wrong.
+
+    What this is for is the part that IS in your hands. Not everything is. But some of it is — and that
+    part is worth going after.
+  words:
+    - term: yet
+      meaning: the word that turns "I cannot" into "I have not got there so far"
+    - term: effort
+      meaning: keeping going when something is hard
+    - term: approach
+      meaning: the way you try to do something — you can change it
+  tryIt:
+    intro: >-
+      Read each sentence. Is the person thinking "I can grow", or "I am stuck"? Or is it something else
+      altogether? Circle your answer, then check at the back of the book.
+    chooseFrom: ["I can grow", "I am stuck", "not about thinking"]
+    items:
+      - "I am just bad at numbers. I always have been."
+      - "I could not do it that way, so tomorrow I am going to ask my neighbour to show me."
+      - "I could not go to school for four years because we had to leave."
+      - "This is too hard for me. I will try again for a long time, exactly the same way."
+    answers:
+      - "I am stuck. \"Always have been\" makes it a fact about the person. Try: \"I am not good at numbers YET — what could I try?\""
+      - "I can grow. It has all three ingredients: they kept going, they are changing the way, and they are asking for help."
+      - "Not about thinking. This is something that happened TO you. It is not a mindset problem and it is not your fault. What you can choose is what you do from here."
+      - "I am stuck — even though it sounds like effort. Trying the same failed way for longer is not growing. The missing ingredient is a different approach, or someone to help."
+    then: >-
+      Now take one of your own "I cannot" sentences and add the word YET. Say it out loud. Then say
+      what you would try differently, and who you could ask.
 worksheet:
   slug: cb-ail-you-can-grow-page
   note: "In the learner's book (My Learning Book): the 'You can grow' page. Print one per learner."

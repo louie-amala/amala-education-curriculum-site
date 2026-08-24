@@ -240,7 +240,7 @@ competencyDevelopment:
 - code: ATS1
   how: Learners analyse and interpret their gathered data to move from a surface pattern to an underlying cause.
 objectiveIds: [research-project--o3]
-relatedSlugs: [cb-rp-our-root-cause, cb-rp-sort-and-theme, cb-rp-looking-deeper, cb-rp-findings-to-insights]
+relatedSlugs: [cb-rp-our-root-cause, problem-tree, cb-rp-sort-and-theme, cb-rp-looking-deeper, cb-rp-findings-to-insights]
 provenanceNote: >-
   Authored analysis activity for the Learning Bridge+ (Cox's Bazar) Research Project edition, added after
   educator feedback (Kurshed, Anjali) that asked for explicit root-cause analysis. Uses the Five Whys
