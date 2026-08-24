@@ -1,0 +1,192 @@
+id: ypar-tallest-tower
+slug: ypar-tallest-tower
+access: public
+type: activity
+title: "The tallest tower: what roles a group falls into under pressure"
+summary: >-
+  Small groups get five minutes to plan and ten to build the highest free-standing tower they can,
+  then examine the roles they took without ever deciding to take them.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group only, in teams of four to six. Smaller and no roles emerge, larger and two or three
+      learners stand about doing nothing, which is a finding of a sort but not a useful one. Where
+      you have only enough materials for one team, run it as a single group and take the roles
+      discussion straight from that.
+duration: 45 to 60 minutes, of which building is 15 and the discussion is the rest.
+grouping: Teams of four to six, then whole group for the discussion.
+materialsAndPreparation:
+  - "One identical set of building materials per team. Newspaper and masking tape is the cheapest reliable combination; paper, card, sticks, string or blocks all work."
+  - "The sets must be exactly identical. If one team gets more tape the whole discussion afterwards is about the tape."
+  - "Something to measure with, and a flat surface per team."
+  - "Sticky notes or scrap paper for the ground rules each group writes at the end."
+  - "No-resource route: this runs on waste paper and one roll of tape. Nothing else is needed."
+whatLearnersDo:
+  - Plan a tower for five minutes without being allowed to build anything.
+  - Build the tallest free-standing tower they can in ten minutes.
+  - Discuss, in their own team, how decisions actually got made and who did what.
+  - Write ground rules they want for the way this group works together.
+facilitationNotes: >-
+  The one thing to get right is that the towers are not the point and the measuring is over in ninety
+  seconds. What the activity produces is fifteen minutes of a group under time pressure, during which
+  roles appear that nobody chose: someone takes charge, someone is talked over, someone quietly does
+  the building while others argue about it. Watch for those and note names, because your observations
+  are what make the discussion specific rather than polite. The planning rule, five minutes of
+  touching nothing, is what forces the roles into the open, so enforce it.
+steps:
+  - title: "Warm up on roles they already know"
+    duration: 5 min
+    guidance: >-
+      Before anything is handed out, ask learners to think of the last time they worked with a group
+      on anything, at school, at home, in a community activity. What jobs did people end up doing? Take
+      four or five answers and leave them on the board. They will be tested against reality in twenty
+      minutes, which is much more useful than collecting them afterwards.
+    keyPrompts:
+      - "Last time you did something with a group, what job did you end up with?"
+      - "Did anyone choose that job, or did it just happen?"
+    watchOuts:
+      - "Answers are all positive roles (leader, organiser). Ask specifically about the person who said nothing and the person who did the work at the end."
+  - title: "Five minutes to plan, hands off the materials"
+    duration: 5 min
+    guidance: >-
+      Give each team its identical set and the rule: you may look and you may point, but you may not
+      touch anything for five minutes. This is where the roles surface. Walk between the teams and
+      write down what you see: who speaks first, who is interrupted, who withdraws, whose idea is
+      adopted and whether anyone noticed whose it was.
+    keyPrompts:
+      - "Plan it, but do not touch it."
+      - "Does everyone in this team know what the plan is?"
+    watchOuts:
+      - "A team starts building anyway. Stop them and restart their five minutes; the constraint is the whole mechanism."
+      - "One team is loud and confident and another is silent. The silent one is not failing, and saying so publicly at this point will not help. Note it for the discussion."
+  - title: "Ten minutes to build"
+    duration: 10 min
+    guidance: >-
+      Call time and let them build. Say nothing about technique and answer no questions about whether
+      something is allowed; a team that decides for itself what the rules permit is producing more
+      useful material than one that asks you. Call the last two minutes and the last thirty seconds
+      loudly. Then measure every tower in front of everybody.
+    keyPrompts:
+      - "Two minutes."
+      - "Hands off. Let us measure."
+    watchOuts:
+      - "The plan is abandoned in the first thirty seconds and nobody says so. That is one of the best things that can happen; note who noticed and who did not."
+      - "A team's tower collapses at the end and they are humiliated. Measure it where it fell and move quickly to the discussion, where their fifteen minutes is worth exactly as much as anyone's."
+  - title: "Discuss in teams how decisions actually got made"
+    duration: 10-15 min
+    guidance: >-
+      In their own teams, and this matters more than a whole-group discussion, ask four questions:
+      how did we make decisions, what helped, did anyone take charge, and what would we do differently.
+      Move between teams and put your observations in as questions rather than verdicts: I noticed the
+      plan changed after two minutes, who decided that?
+    keyPrompts:
+      - "How did this team actually decide things? Not how should it have, how did it?"
+      - "Was there anyone whose idea did not get heard?"
+      - "What helped us work well, specifically?"
+    watchOuts:
+      - "The discussion becomes a complaint about one person. Redirect to the process: not who was bossy, but how the group let a decision get made that way."
+      - "The quietest team member is silent here too. Ask each person for one answer in turn rather than opening it to the team."
+  - title: "Write the ground rules the group wants"
+    duration: 10 min
+    guidance: >-
+      Each team writes two or three ground rules for how this group should work together, one per
+      sticky note, based on what just happened rather than on what sounds good. Collect them, read
+      them out, and group the duplicates. Add them to the group's agreements. Rules written twenty
+      minutes after a group has watched itself go wrong are far more specific than rules written cold.
+    keyPrompts:
+      - "One rule, from something that actually happened in the last twenty minutes."
+      - "Which of these are the same rule written twice?"
+    watchOuts:
+      - "Rules are generic (respect each other, work as a team). Send them back with the instruction to name the moment it came from."
+      - "The notes are collected and never used again. Put them with the group's existing agreements the same day, or do not collect them."
+closing: >-
+  Ask each learner for one thing they noticed about themselves, not about their team: the role they
+  took, whether they chose it, and whether it is the one they take every time. Keep the answers
+  private if learners prefer. Most people take the same role in every group they are ever in, and
+  noticing that is the beginning of being able to take a different one.
+learnerContent: |
+  Your team gets the same materials as every other team, and one job: build the tallest tower you can.
+  It has to stand up on its own.
+
+  You get **five minutes to plan**, and you may not touch the materials during them. Then ten minutes
+  to build.
+
+  Then we measure. That bit takes about a minute, and it is the least interesting part of this.
+
+  What we are actually looking at is the fifteen minutes before it. In every group, jobs get handed
+  out that nobody handed out: somebody takes charge, somebody gets talked over, somebody does the
+  building while other people argue about it, somebody stops trying.
+
+  Afterwards, in your team, you will work out what happened in yours. Then you will write two or three
+  rules for how this group is going to work together, taken from things that actually happened, not
+  things that sound good.
+
+  One question for yourself at the end: **is the role you took today the role you always take?**
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Most people occupy the same position in every group they join, and have never noticed that it was
+    a position rather than a fact about them. Seeing it once, in a group where nothing is at stake, is
+    what makes it possible to take a different one later, in a group where something is.
+principlesForegrounded: [collaboration, feedback-and-data, safe-spaces]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The activity does not teach collaboration, it produces a specimen of this group's collaboration
+      and then examines it, which is the only way a group can improve at something it does
+      unconsciously.
+  - principle: feedback-and-data
+    how: >-
+      The tower is an objective, uncomfortable result that nobody can argue with, and the facilitator's
+      notes on who spoke and who did not turn a vague impression into evidence the group can discuss.
+  - principle: safe-spaces
+    how: >-
+      The discussion is held in teams before it is held publicly, and is steered to process rather than
+      persons, so a group can be honest about what went wrong without anybody being the example.
+competencyCodes: [ALC2, FUS1, FLC2]
+competencyDevelopment:
+  - code: ALC2
+    how: >-
+      Fifteen minutes of real decisions under time pressure, followed by an honest account of how
+      those decisions were actually taken, is the fastest route to a group understanding its own
+      decision-making, and it leads naturally into agreeing a process deliberately.
+  - code: FUS1
+    how: >-
+      The closing question, whether this is the role you always take, is direct self-awareness work,
+      and the evidence for it was generated by the learner minutes earlier.
+  - code: FLC2
+    how: >-
+      Naming who was talked over, and then writing a rule about it, is the practical form of fostering
+      connection and belonging: not a sentiment but a change to how the group operates.
+objectiveIds: []
+relatedSlugs:
+  - ypar-agreeing-how-we-decide
+  - ypar-forms-of-decision-making
+  - ypar-team-trail
+  - ypar-follow-the-leader
+  - cf-track-who-speaks
+  - pb-class-agreements
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section, free to download. The tower build appears in Understanding Roles in Teams."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free handbook the YPAR Hub team-building plans draw on."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to Youth in Focus (Youth REP: Step by Step)"
+  basis: >-
+    A timed tower build is a common team exercise with no single traceable author. Every word here is
+    written from scratch and none of the YPAR Hub's wording is reproduced.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Understanding Roles in Teams lesson plan"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Understanding Roles in Teams", supplied to Amala in August 2026. The
+  build, the five-minute hands-off planning rule and the ground-rules close are the source's. The
+  superhero drawing that opens the source plan is separated out as
+  [the community superhero](/materials/ypar-community-superhero), because it does different work.
+  Source issue, logged not fixed: that plan's stated objectives are copied from the Decision Making
+  Processes plan and describe forms of decision making rather than team roles.

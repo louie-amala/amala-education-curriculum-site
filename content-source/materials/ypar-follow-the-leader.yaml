@@ -1,0 +1,160 @@
+id: ypar-follow-the-leader
+slug: ypar-follow-the-leader
+access: public
+type: activity
+title: "Follow the leader: spotting who is really steering"
+summary: >-
+  One learner leaves the room, the group picks a secret leader whose movements everyone copies, and
+  the guesser returns to work out who is setting them.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group only, and it needs at least eight people so the copying is not obvious. The debrief is
+      what makes it worth doing; without it this is a party game, and with it, it is ten minutes that
+      changes how a group talks about leadership for the rest of the course.
+duration: 15 to 20 minutes, including two or three rounds and the debrief.
+grouping: Whole group standing in a circle, one learner outside it.
+materialsAndPreparation:
+  - "Nothing at all."
+  - "Space for a circle, and somewhere just outside the room where one learner can wait without hearing."
+  - "A quick check that there is somewhere safe and in sight for the guesser to wait. In some settings a learner should not be sent out of the room alone; send two, or turn them to face a corner with their ears covered instead."
+whatLearnersDo:
+  - Copy a secret leader's movements as a whole group, as quickly as possible.
+  - Take a turn as the leader, changing the movement without being caught doing it.
+  - Take a turn as the guesser, watching a group to work out who is steering it.
+  - Discuss how easy or hard it was to see leadership from outside.
+facilitationNotes: >-
+  The one thing to get right is that the debrief happens, and that it goes somewhere other than "it
+  was hard to tell". The question worth landing is that leadership is often invisible from outside,
+  and that the person visibly at the front is frequently not the one setting direction. In a
+  youth-led project that is not an abstraction: it is how a group tells whether the young people or
+  the supporting adults are actually deciding things. Two rounds is enough. A third only helps if
+  learners are still improving at hiding the change.
+steps:
+  - title: "Send the guesser out and pick a leader silently"
+    duration: 3 min
+    guidance: >-
+      Ask for a volunteer to guess and send them just outside, within sight. With the rest in a
+      circle, point at one person to be the leader rather than asking for a volunteer, so nobody
+      announces it aloud. Tell the leader to start a simple repeating movement, clapping, tapping a
+      shoulder, rubbing their head, and tell everyone else to copy it immediately.
+    keyPrompts:
+      - "Everybody copy, and copy fast. Slow copying is what gives the leader away."
+    watchOuts:
+      - "The whole group turns to look at the leader as soon as they start. Tell them before the guesser returns to look across the circle, not at the leader."
+      - "Sending a learner out of the room alone is not appropriate in your setting. Have them turn away with their ears covered, or send two out together."
+  - title: "Bring the guesser in and run the round"
+    duration: 4 min
+    guidance: >-
+      The guesser stands in the middle and watches. The leader changes the movement whenever they
+      think the guesser is looking elsewhere, and the group follows as fast as it can. Give the
+      guesser three guesses and cut the round after about two minutes whether or not they have got
+      it, so nobody is left failing in the middle of a circle.
+    keyPrompts:
+      - "Three guesses, then we tell you."
+      - "What are you looking for? Say it out loud as you look."
+    watchOuts:
+      - "The round drags and the guesser is stranded. Cap it at two minutes and reveal, every time."
+      - "The group laughs at a guesser who cannot find the leader. Point at the group's agreements and take the next turn as guesser yourself."
+  - title: "Swap and run it again"
+    duration: 4 min
+    guidance: >-
+      New guesser, new leader. The second round is usually better, because the group has learned not
+      to stare at the leader and the leader has learned to change movements at the right moment. Two
+      rounds is normally enough; run a third only if learners are visibly getting better at it rather
+      than repeating themselves.
+    keyPrompts:
+      - "What will you do differently this time, as a group?"
+    watchOuts:
+      - "The same confident learners volunteer for every role. Choose rather than ask, and pick people who have not had a turn."
+  - title: "Debrief: who was actually leading?"
+    duration: 5-8 min
+    guidance: >-
+      Ask the guessers what made it hard, then take the question outward. Was the leader the loudest
+      person? Could you tell from outside who was setting direction? Then ask for real examples: a
+      person who leads by supporting others, a group where the person who speaks most is not the one
+      deciding. Finish on the group itself, and ask who they think is steering this project.
+    keyPrompts:
+      - "Is it always easy to see who is leading? What made it hard here?"
+      - "Who do you know who leads by keeping a group going rather than by being at the front?"
+      - "In this project, who is actually deciding things?"
+    watchOuts:
+      - "The debrief stays inside the game. Push it out with one direct question about a real group they belong to."
+      - "The last question about this project is asked rhetorically. Ask it seriously and be ready for an uncomfortable answer, because in a youth-led project it is the most useful answer you will get all week."
+closing: >-
+  Ask the group to name two kinds of leader they have now seen: the one you can point at, and the one
+  you cannot. Keep the second one in the room. When the project later has to decide who speaks to a
+  community leader or who chairs a meeting, this is the conversation to come back to.
+learnerContent: |
+  One of you goes outside. The rest of us pick a leader in silence.
+
+  The leader starts a movement, and everybody copies it straight away. Then the leader changes it,
+  and everybody changes with them, and the person who went outside comes back into the middle and
+  tries to work out who is starting it.
+
+  Do not stare at the leader. Look across the circle. Copy fast.
+
+  Afterwards there is one question, and it matters more than the game: **could you tell who was
+  leading?**
+
+  Think about that in the places you actually spend your time. The person doing the most talking is
+  often not the person deciding. And in this project, it is worth all of us knowing honestly who is
+  steering it.
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Learning to read who is really steering a group is a prerequisite for taking the wheel. Young
+    people invited into consultations, committees and youth panels are frequently in rooms where the
+    visible leader and the actual decision-maker are different people, and being able to spot that is
+    what turns nominal participation into real influence.
+principlesForegrounded: [collaboration, safe-spaces]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The group only succeeds at hiding the leader if everyone copies at the same speed, so the round
+      is won or lost collectively and no individual can carry it.
+  - principle: safe-spaces
+    how: >-
+      The guesser is deliberately protected: guesses are capped, the round is cut short rather than
+      allowed to drag, and the facilitator takes a turn in the middle so the exposed position is not
+      only for learners.
+competencyCodes: [ALC1, FUS2]
+competencyDevelopment:
+  - code: ALC1
+    how: >-
+      The debrief names a form of leadership that consists of holding a group together rather than
+      standing in front of it, which is the version most useful to a young person supporting peers.
+  - code: FUS2
+    how: >-
+      Reading a group from outside, working out from behaviour alone who is influencing whom, is
+      exactly the observational skill the competency describes, practised here with an answer that can
+      be checked.
+objectiveIds: []
+relatedSlugs:
+  - ypar-agreeing-how-we-decide
+  - ypar-tallest-tower
+  - ypar-icebreakers
+  - ypar-energisers
+  - cf-track-who-speaks
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section, free to download. This activity is the warm-up in both Non-verbal Communication and Decision Making Processes."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free handbook the YPAR Hub team-building plans draw on."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to Youth in Focus (Youth REP: Step by Step) and Stanford's John W. Gardner Center (YELL)"
+  basis: >-
+    The game is a long-standing circle game with no traceable author. Every word here is written from
+    scratch and none of the YPAR Hub's wording is reproduced.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Non-verbal Communication and Decision Making Processes lesson plans (Follow the Leader warm-up, identical in both)"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Follow the Leader" warm-up, which appears word for word in two of the
+  ten lesson plans supplied to Amala in August 2026 and is given its own page here rather than
+  duplicated. The safeguarding note about sending a learner out of the room, the cap on guesses and
+  the closing question about who is steering this project are Amala's.

@@ -1,0 +1,188 @@
+id: ypar-decision-making-in-practice
+slug: ypar-decision-making-in-practice
+access: public
+type: case-study
+title: "Case study: a research group decides four things in four ways"
+summary: >-
+  An illustrative account of one youth research group working through four real decisions, showing
+  which form fitted each one and what it cost when the wrong form was used.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed: read it, then work the four questions in small groups and compare answers. Groups
+      routinely disagree about the third decision, which is the point of including it.
+  - context: independent
+    how: >-
+      Reads and works fine alone, and suits a task between sessions. What is lost is the disagreement,
+      so ask the learner to write down which decision they would have handled differently and bring it
+      back rather than simply answering the questions.
+  - context: one-to-one-mentoring
+    how: >-
+      Useful with a learner who is struggling in a group, particularly the second decision, which is
+      about being consulted and then overruled. It gives them a way to describe what is happening
+      without naming anyone.
+duration: 30 to 45 minutes.
+grouping: Read individually or aloud, then small groups of three or four.
+materialsAndPreparation:
+  - "The account below, read aloud or copied. Nothing else."
+  - "The four forms, ideally already taught. See [four ways a group can decide](/materials/ypar-forms-of-decision-making)."
+whatLearnersDo:
+  - Read an account of four decisions taken by a group like their own.
+  - Identify which of the four forms was used each time.
+  - Judge which decision was handled badly, and say what should have happened instead.
+  - Compare the account with decisions their own group has already made.
+educatorContent: |
+  This case study exists so that the four forms can be tested against something before a group has to
+  apply them to itself. Learners find it much easier to see a process failure in somebody else's group
+  than in their own, and having seen it, they recognise it faster when it happens to them.
+
+  **What this account is.** It is illustrative and composite, written by Amala to show the four forms
+  operating. It is not a report of a real project, and it should not be presented as one. The
+  situations are drawn from patterns that recur in youth research projects; the group, the people and
+  the events are invented.
+
+  **How to run it.** Read it aloud, or in pairs, then put the four questions to small groups. Do not
+  give the answers first. The third decision is deliberately arguable, and groups that split over it
+  are working correctly.
+
+  ## Suggested answers, for the facilitator
+
+  These are for your preparation, not for handing out.
+
+  **Decision one, the meeting time.** Representative, and rightly so. It was low stakes, it needed to
+  be settled quickly, and the person who decided it asked around first. The only thing wrong with it
+  is that it was never said out loud that this was how it would be done, so two members thought they
+  were going to be asked to vote.
+
+  **Decision two, the research question.** Majority, and this is where the cost shows. The vote was
+  five to four. The four who lost stopped volunteering for tasks within a fortnight, not out of
+  sulking but because the question was not theirs. This is the classic failure the majority form
+  produces: it settles the decision and leaves the commitment unsettled. Consensus would have been
+  slower and would have produced a question everyone could work on, possibly a better one, because the
+  group would have had to write a third option rather than choose between two.
+
+  **Decision three, who speaks to the head teacher.** Individual, taken by the adult facilitator, and
+  this is the arguable one. Some groups will say it was reasonable, because the facilitator had the
+  relationship and the meeting was arranged at two hours' notice. Others will say it was exactly the
+  kind of decision that should have gone to the group, because who represents the project is the most
+  visible expression of whether it is youth-led. Both readings are defensible. What is not defensible
+  is that it was never named as a decision at all: it simply happened, and the group only noticed
+  afterwards.
+
+  **Decision four, what to do with the finding.** Consensus, over two sessions, and worth the time.
+  The finding was awkward for one of the organisations the group depended on. A vote would have
+  produced a majority for publishing it and a minority who felt personally exposed, and the minority
+  were the ones who lived nearest. The group ended up with a third option, publishing the finding
+  without naming the organisation, that nobody had proposed at the start.
+
+  ## The pattern to land
+
+  Fast forms suit reversible, low-stakes decisions. Slow forms suit decisions the group has to carry
+  out together, or that expose some members more than others. And the most damaging thing a group can
+  do is not to choose the wrong form, but to leave the form unnamed, so that nobody can see how the
+  decision was made or object to how it was made.
+learnerContent: |
+  ## Four decisions
+
+  *This is an example, written to show the four forms at work. The group is not a real one.*
+
+  A group of nine young people spent a term researching why so few girls in their area finished
+  secondary school. Along the way they made four decisions.
+
+  **1. When to meet.** In the first week, one member asked everybody when they could come, then
+  announced that meetings would be on Wednesday afternoons. Nobody objected. Two members had thought
+  the group would vote on it.
+
+  **2. What to research.** Two ideas were on the table: why girls leave school, and why the clinic is
+  so far from where people live. After an hour of discussion the group voted. Five to four. Within two
+  weeks, three of the four who had voted the other way had stopped volunteering for tasks. One of them
+  said, much later, that it had never felt like her project.
+
+  **3. Who speaks to the head teacher.** A meeting came up at two hours' notice. The adult facilitator
+  went, because she knew the head teacher. She did not ask the group. The group found out afterwards.
+  Some of them thought that was sensible. Some of them thought it was the whole problem.
+
+  **4. What to do with an awkward finding.** The research turned up something uncomfortable about an
+  organisation the group depended on. The group talked about it across two sessions. Four members
+  wanted it published in full. Three were worried, because they lived close to that organisation and
+  would still be there after the project ended. They kept going until they found something nobody had
+  suggested at the start: publish the finding, do not name the organisation. Everyone could accept it.
+
+  ## Your questions
+
+  1. Which of the four forms was used each time?
+  2. Which decision was handled worst, and what should have happened instead?
+  3. Decision three splits most groups. Which side are you on, and what is the strongest argument
+     against you?
+  4. Think of a decision your own group has already made. Which form was it, and did anyone say so at
+     the time?
+facilitationNotes: >-
+  The one thing to get right is that this is not a quiz with four right answers. Decision three is
+  genuinely arguable and the discussion of it is worth more than the label. Say at the start that the
+  account is written as an example rather than reported from a real project, so nobody carries away a
+  fabricated fact about a real group. Then hold the final question, about the learners' own group, for
+  the end and give it proper time; it is the reason the case study exists.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    The fourth decision in the account is the one worth learners noticing: a group that took the slow
+    route found an option nobody had thought of, and protected the members who carried the most risk.
+    That is what a group deciding well actually buys, and it is more persuasive shown than asserted.
+principlesForegrounded: [collaboration, responsible-action, authentic-challenges]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The account shows the cost of a majority decision landing on the people who have to carry it out,
+      which is the argument for careful collaboration made concretely rather than as a value.
+  - principle: responsible-action
+    how: >-
+      The fourth decision turns on who bears the risk of publication, and the group's answer protects
+      the members who stay behind. That is research ethics arriving from inside the project rather than
+      from a checklist.
+  - principle: authentic-challenges
+    how: >-
+      All four decisions are ones a real youth research group faces, including the two that do not have
+      clean answers.
+competencyCodes: [ALC2, FLC1, APS2]
+competencyDevelopment:
+  - code: ALC2
+    how: >-
+      Learners diagnose four decision processes and argue about which was appropriate, which is the
+      analytical half of the competency practised on somebody else's group before their own.
+  - code: FLC1
+    how: >-
+      The awkward-finding decision requires learners to weigh honesty against the exposure of specific
+      people, which is the central ethical judgement in community research.
+  - code: APS2
+    how: >-
+      Judging which process fitted which decision, against stated criteria of stakes, speed and who
+      carries it out, is evidence-informed decision making applied to process rather than content.
+objectiveIds: [peacebuilding--o3]
+relatedSlugs:
+  - ypar-forms-of-decision-making
+  - ypar-agreeing-how-we-decide
+  - dc-being-an-ethical-researcher
+  - pb-class-agreements
+  - pb-dilemmas-in-peacebuilding
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The YPAR Hub lesson plans this material was written to accompany. Free to download."
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala in August 2026. The four-form frame it exercises comes from the YELL curriculum
+    by way of the YPAR Hub; the account, the questions and the facilitator's answers are original.
+  note: >-
+    The account is illustrative and composite. Never edit it to present the group, the people or the
+    organisation as real, and keep the labelling that says so on the learner-facing text.
+sourceRefs:
+  - "Written to accompany the YELL four-form decision-making frame as carried by the YPAR Hub (UC Berkeley) Decision Making Processes lesson plan"
+provenanceNote: >-
+  Authored by Amala in August 2026. The YPAR Hub's decision-making lesson plan ships a filled example
+  handout under a 2007 John W. Gardner Center copyright line, which Amala does not reproduce. This
+  case study is written from scratch to do the same job, and it is set in a youth research project
+  rather than in the abstract so that the four forms are tested against decisions Amala's learners
+  will actually face.

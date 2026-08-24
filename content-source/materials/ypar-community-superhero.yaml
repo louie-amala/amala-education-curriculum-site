@@ -1,0 +1,200 @@
+id: ypar-community-superhero
+slug: ypar-community-superhero
+access: public
+type: activity
+title: "The community superhero: what would someone need to change things here?"
+summary: >-
+  Learners design a hero for their own community, deciding what is in the tool belt and whether the
+  hero stands out or blends in, then explain every choice they made.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The value is concentrated in the explaining: twenty heroes shown to the room reveal
+      what this cohort collectively believes a person needs in order to change anything, which no
+      single drawing shows.
+  - context: independent
+    how: >-
+      Works well alone and suits a task between sessions, but a learner working alone loses the
+      comparison, which is where most of the meaning is. Ask them to bring the drawing back and
+      explain it to one other person before the group discussion, or the drawing stays private and
+      unexamined.
+  - context: one-to-one-mentoring
+    how: >-
+      Strong in mentoring, particularly with a learner who cannot say what they want to do. The hero
+      is a way of talking about their own capacities without having to claim them: it is easier to say
+      the hero needs patience than to say I am patient, and a mentor can work back from there.
+duration: 40 to 60 minutes in a group. About 20 minutes as an independent task.
+grouping: Individual drawing, then whole group for the showing.
+materialsAndPreparation:
+  - "Paper and something to draw with, one sheet per learner. Colour helps but is not needed."
+  - "Wall space to display the finished heroes, which matters more than it sounds: they should be looked at together, not passed round."
+  - "One example you have drawn yourself, badly. Drawing ability is the main barrier here and a facilitator's poor drawing removes it faster than any reassurance."
+  - "No-resource route: the hero can be described aloud, or acted, rather than drawn. Nobody should be excluded because they cannot draw or cannot write labels."
+whatLearnersDo:
+  - Design a hero for their own community, deciding what the hero wears and carries.
+  - Decide whether the hero stands out or looks like everybody else, and why.
+  - Explain each detail of their drawing to the group, and the reason for it.
+  - Look at all the heroes together and say what the group believes a person needs to change something.
+facilitationNotes: >-
+  The one thing to get right is that the explaining, not the drawing, is the activity. A learner
+  saying that their hero carries a notebook because nobody writes down what people here complain
+  about has just made a statement about their community, and that statement is the output. Keep the
+  drawing time short and protected, and give the explaining most of the session. The second thing is
+  the stand-out-or-blend-in question, which is where the most interesting answers come from and which
+  learners will skip unless you ask it directly.
+steps:
+  - title: "Ask the question before you hand out paper"
+    duration: 5 min
+    guidance: >-
+      Put the question up first: if there were somebody whose job was to make things better here, what
+      would they need? Take three or four answers aloud and leave them visible. Then show your own bad
+      drawing and explain two of its details, which sets both the standard for the art and the standard
+      for the explanation.
+    keyPrompts:
+      - "Somebody whose job was to make things better here. What would they need?"
+      - "Here is mine. It is not a good drawing. Ask me why it has that."
+    watchOuts:
+      - "Learners hear superhero and draw a costume from a film. Anchor it in this community, and this place, in the question itself."
+      - "The facilitator's example is too good and sets an art standard. Draw badly on purpose; it is the single most effective thing you can do here."
+  - title: "Draw the hero and everything they carry"
+    duration: 15 min
+    guidance: >-
+      Give three prompts and then leave people alone: what is in their tool belt, what do they wear,
+      and do they stand out or look like everybody else. Move round quietly and ask one learner at a
+      time why a particular thing is there, which rehearses the explanation and helps anyone who is
+      stuck. Say nothing about the quality of any drawing.
+    keyPrompts:
+      - "What is in the tool belt? Not weapons: things they would actually need here."
+      - "Why that? Tell me about that one thing."
+    watchOuts:
+      - "A learner is stuck because they cannot draw. Offer stick figures with labels, or a written list, or let them describe it aloud to you and you note it down."
+      - "The tool belt fills with superpowers. Ask for one thing in it that a real person could actually have."
+  - title: "Ask the stand out or blend in question properly"
+    duration: 5 min
+    guidance: >-
+      Stop the drawing and put this one question to the room before the showing: does your hero stand
+      out in a crowd, or look like anyone else in the street? Ask for hands both ways, then two reasons
+      from each side. It produces the sharpest thinking in the activity, because it is really a
+      question about whether visibility helps or endangers someone who is trying to change something.
+    keyPrompts:
+      - "Bright colours and everyone sees them coming, or looks like everybody else? Which did you choose?"
+      - "What is the advantage of not being noticed?"
+    watchOuts:
+      - "The question is treated as an aesthetic preference. Push once: what happens to somebody who is very visible while trying to change something here?"
+      - "The discussion goes somewhere genuinely risky for this context. Take it as far as the group takes it, do not press for specifics about real people or groups, and follow up privately."
+  - title: "Show the heroes and explain the details"
+    duration: 15-20 min
+    guidance: >-
+      Each learner shows their hero and explains the reasons behind the details, not the drawing
+      itself. Keep it to a minute each and hold the line: what is that for, why does the hero need it.
+      Put them all on the wall as they are shown so the group accumulates in front of everybody.
+    keyPrompts:
+      - "What is that for?"
+      - "Why would somebody here need that?"
+    watchOuts:
+      - "Learners describe the picture instead of the reasons. Ask what is that for, every time, until the pattern is set by the third learner."
+      - "The showing runs out of time and the last learners are rushed. A minute each, timed, from the first one."
+  - title: "Read the wall as a group portrait"
+    duration: 10 min
+    guidance: >-
+      Standing in front of all the heroes, ask what keeps recurring. What is in most of the tool belts?
+      What does this group think a person needs to change something here? Then the sharper question:
+      how much of that do the people in this room already have? That is the transition from a drawing
+      exercise to a conversation about themselves.
+    keyPrompts:
+      - "What has turned up in most of these?"
+      - "How much of that is already in this room?"
+    watchOuts:
+      - "The last question is asked as flattery. Ask it seriously and let the answer be partial; the point is a real inventory, not a motivational moment."
+closing: >-
+  Ask each learner to name one thing from their hero's tool belt that they already have, and one they
+  would like to have. Keep the answers. In a project that runs for months, this is a good sheet to
+  bring back out near the end, when learners can see how much of the second list has moved into the
+  first.
+learnerContent: |
+  Imagine somebody whose whole job was to make things better where you live.
+
+  Draw them. It does not have to be a good drawing.
+
+  Three questions to answer in the picture:
+
+  - **What is in their tool belt?** Not weapons. Things they would actually need here. A phone? A
+    notebook? Somebody's telephone number? Time?
+  - **What do they wear?**
+  - **Do they stand out, or do they look like everybody else?** Bright colours so everyone sees them
+    coming, or ordinary clothes so nobody notices them? Think about which one would work better here,
+    and why.
+
+  Then you will show it to the group. When you do, we are not interested in the drawing. We want the
+  **reasons**: what is that for, and why would somebody here need it?
+
+  At the end we will look at all of them together and see what this group thinks a person needs in
+  order to change something.
+
+  Then one last question: **how much of that is already in this room?**
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: >-
+    Learners describe what a person needs in order to act on their own community, which is a question
+    about agency asked indirectly enough to be answerable. The closing move, checking how much of that
+    inventory is already present in the room, converts an imagined figure into a realistic account of
+    what this group could actually do.
+principlesForegrounded: [builds-on-identities, connect-to-futures, authentic-challenges]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The hero is designed for this community rather than a generic one, so what counts as useful,
+      what counts as visible and what counts as risky are all defined by the learners' own knowledge of
+      where they live.
+  - principle: connect-to-futures
+    how: >-
+      The tool belt is an inventory of capacities, and the closing question asks learners which of them
+      they hold and which they would like to build, which is a first, oblique statement of what they
+      want to become.
+  - principle: authentic-challenges
+    how: >-
+      The stand-out-or-blend-in question is a genuine strategic problem for anyone trying to change
+      something in a place where visibility carries risk, and learners answer it from their own
+      knowledge rather than in the abstract.
+competencyCodes: [FUS1, FR1, FLC3]
+competencyDevelopment:
+  - code: FUS1
+    how: >-
+      Naming which of the hero's qualities a learner already has, and which they want, is
+      self-assessment done at one remove, which is often the only way to get an honest first answer.
+  - code: FR1
+    how: >-
+      The tool belt is literally an exercise in identifying resources: what does a person need here,
+      and what is actually available to them.
+  - code: FLC3
+    how: >-
+      Each learner has to justify a series of design choices to a room, briefly and with reasons, which
+      is a low-risk rehearsal of arguing for a decision.
+objectiveIds: [pip--o1]
+relatedSlugs:
+  - ypar-web-of-concerns
+  - ypar-tallest-tower
+  - pb-profile-of-a-peacebuilder
+  - pathways-finding-your-purpose
+  - ail-strengths-and-areas-to-grow
+  - community-mapping-and-empathy-interviews
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section, free to download. The superhero drawing appears in Understanding Roles in Teams."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to Youth in Focus (Youth REP: Step by Step)"
+  basis: >-
+    Every word here is written from scratch and none of the YPAR Hub's wording is reproduced. The
+    prompt about a community hero's tool belt and appearance is a method; the activity built around it
+    on this page is Amala's.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Understanding Roles in Teams lesson plan (community superhero)"
+provenanceNote: >-
+  Separated out from the YPAR Hub's "Understanding Roles in Teams" lesson plan, supplied to Amala in
+  August 2026, where it sits oddly as the opening of a session about team roles and is not returned
+  to. Given its own page here because it does something different and worth doing: it asks what a
+  person needs in order to act on their own community. The closing inventory question is Amala's.

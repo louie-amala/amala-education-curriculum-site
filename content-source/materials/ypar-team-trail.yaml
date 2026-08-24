@@ -1,0 +1,182 @@
+id: ypar-team-trail
+slug: ypar-team-trail
+access: public
+type: activity
+title: "The team trail: find the hidden path, in silence"
+summary: >-
+  A grid on the floor hides a route only the facilitator knows; the group finds it one wrong step at
+  a time, without speaking, learning from each other's failures.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The activity only works because a whole group watches individuals fail and has to
+      convert those failures into shared knowledge without discussing them. With fewer than about
+      eight learners there are not enough attempts for a pattern to build, so run the grid smaller,
+      four by four, and allow two lives per turn.
+duration: 35 to 50 minutes, including the debrief.
+grouping: Whole group, split into two lines taking alternate turns.
+materialsAndPreparation:
+  - "A grid of at least 36 squares (6 by 6) marked on the floor. Painter's tape is easiest; chalk, string, sticks or scratched lines in dirt all work. Squares roughly the size of a floor tile."
+  - "A paper copy of the same grid, for you only, with a route drawn on it from one side to the other. Draw it before the session and do not improvise it."
+  - "A signal for a wrong step. A single word, a clap or a bell. Choose it in advance and use exactly the same one every time."
+  - "Enough space around the grid for everyone to stand and see it from one end."
+  - "No-resource route: the grid is the only requirement and it can be made from anything that marks a line. This activity costs nothing to run."
+whatLearnersDo:
+  - Take turns stepping onto the grid to guess the next square on a hidden route.
+  - Watch every other attempt in silence and remember what has already failed.
+  - Reach the far side as a group, then all cross using the discovered route.
+  - Work out how the group managed to learn anything without being allowed to talk.
+facilitationNotes: >-
+  The one thing to get right is your own consistency. You are the only source of information in the
+  room, so the same signal must mean the same thing every time, and a hesitation on your part will be
+  read as a hint. Say nothing else at all once the round has begun. The second thing is the debrief:
+  this is an activity about how a group learns from mistakes, which is a much more useful topic for a
+  research team than teamwork in general, so steer it there rather than to "we worked well together".
+steps:
+  - title: "Lay the grid and set the rules"
+    duration: 8 min
+    guidance: >-
+      Mark the grid, split the group into two lines at one end, and give the goal: there is a route
+      from this side to that side, and only I know it. Three rules: nobody speaks, nobody signals to
+      anybody, and when I make the signal your turn is over and you go to the back of your line. Say
+      the third rule twice, because it is the one that produces the frustration the activity runs on.
+    keyPrompts:
+      - "One rule matters most: no talking, and no pointing, gesturing or mouthing either."
+      - "What is this signal going to mean, when you hear it?"
+    watchOuts:
+      - "The no-signalling rule is stated but not defined, and the group communicates by nodding and staring. Name gestures, mouthing and eyebrows explicitly at the start."
+      - "The route is improvised as the game goes on. Draw it beforehand; a group will detect an inconsistency instantly and the activity is over when they do."
+  - title: "Run the turns and say nothing"
+    duration: 15 min
+    guidance: >-
+      A learner from the first line steps onto a square in the first row. Silence means correct, and
+      they may try the next square. Your signal means their turn is over. Alternate lines. Keep your
+      face still and your timing even, and resist every urge to help; your silence is the entire
+      information system and the moment you soften it the group stops watching each other.
+    keyPrompts:
+      - "Next."
+    watchOuts:
+      - "The facilitator reacts before the foot lands, or pauses meaningfully before signalling. Wait for the step to complete and signal at the same speed every time."
+      - "Learners start talking as frustration builds. Stop the round, restate the rule, restart the turn. Enforcing it is more valuable than finishing quickly."
+      - "One learner is repeatedly ridiculed for a wrong step. Name it against the group's agreements at once; the whole design depends on wrong steps being useful rather than shameful."
+  - title: "Let the group cross"
+    duration: 5 min
+    guidance: >-
+      Once the route has been found, have every learner walk it. This is not a formality. Watching
+      twenty people use a path that was invisible twenty minutes ago, discovered entirely from other
+      people's failed attempts, is the image the debrief will refer back to, and it is worth the three
+      minutes it takes.
+    keyPrompts:
+      - "Everybody across. Same route."
+    watchOuts:
+      - "The group cheers the last person who found the route as though they had won. Say plainly that the route was found by everyone who stepped wrong first."
+  - title: "Debrief how the group learned without speaking"
+    duration: 10-15 min
+    guidance: >-
+      Ask first how it felt, take two answers, and move on quickly. Then the real questions: how did
+      information get from one person to another with nobody talking? Whose mistakes were most useful?
+      What would have happened if people had stopped watching once their own turn ended? Land it on
+      the idea that in this room a wrong answer was a contribution.
+    keyPrompts:
+      - "Nobody spoke. So how did the group get better?"
+      - "Whose mistake helped you most?"
+      - "What would it take for a wrong answer to be that useful in a normal lesson?"
+    watchOuts:
+      - "The debrief settles on we worked well as a team, which is true and empty. Push to the mechanism: attention, memory and other people's failures."
+      - "The facilitator supplies the lesson about learning from mistakes. Ask the question and take the silence; it is a conclusion a group reaches on its own if given ten seconds."
+  - title: "Carry it into how this group will work"
+    duration: 5 min
+    guidance: >-
+      Ask directly what this means for the project ahead. A research group will make wrong guesses in
+      public, about a question, a method, an interpretation. Ask what the group wants to agree now
+      about how those are treated, and add it to the group's agreements if anything worth keeping
+      comes out of it.
+    keyPrompts:
+      - "We will get things wrong in front of each other in this project. What do we want to agree about that?"
+    watchOuts:
+      - "The transfer is asserted rather than agreed. If the group produces nothing, leave it rather than writing a rule for them; the invitation matters more than the output."
+closing: >-
+  End on the grid itself, still on the floor: a path that nobody could see, found in twenty minutes,
+  by a group that was not allowed to talk, entirely out of steps that turned out to be wrong. Leave
+  the tape down if you can. It is a useful thing to point at later in the course.
+learnerContent: |
+  There is a path across this grid. Only the facilitator knows it.
+
+  One at a time, you step onto a square. If you are on the path, nothing happens and you can try the
+  next square. If you are not, you will hear the signal, and your turn is over.
+
+  Three rules: **no talking. No pointing. No signalling of any kind.**
+
+  That will be frustrating, and it is meant to be. It leaves you with one thing only: watching, and
+  remembering.
+
+  You will get across. And when you do, notice how it happened. Nobody explained anything to anybody.
+  The group got there on other people's wrong steps.
+
+  In this project you are going to be wrong in front of each other, about your question, about who to
+  ask, about what the evidence means. This is what it looks like when that is useful.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    A group that treats a wrong answer as a contribution can attempt harder things than one that
+    treats it as a failure, and that difference decides whether a young research team will risk a real
+    question or a safe one. This activity produces the experience directly rather than asserting it.
+principlesForegrounded: [collaboration, feedback-and-data, safe-spaces]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The route is a genuinely collective product: no individual could find it, and every learner's
+      failed attempt is part of what got the group across.
+  - principle: feedback-and-data
+    how: >-
+      A single unvarying signal is the only feedback available, and the group has to build knowledge
+      out of a sequence of negative results, which is much closer to how research actually proceeds
+      than most classroom tasks.
+  - principle: safe-spaces
+    how: >-
+      Being wrong is designed into the activity as the normal case rather than the exception, which
+      lowers what it costs a learner to attempt something in front of the group.
+competencyCodes: [FPS1, ALC2, FSL3]
+competencyDevelopment:
+  - code: FPS1
+    how: >-
+      Learners have to revise a hypothesis about the route on every turn, including their own, and
+      the ones who cling to a theory after it has been disproved are visible to everybody, including
+      themselves.
+  - code: ALC2
+    how: >-
+      The group has to coordinate without language, which strips collaborative decision making down to
+      attention and shared memory and shows how much of it is not talking.
+  - code: FSL3
+    how: >-
+      The debrief is explicitly about how learning happened, which turns an experience into a piece of
+      knowledge about the learner's own process.
+objectiveIds: []
+relatedSlugs:
+  - ypar-trust-walk
+  - ypar-tallest-tower
+  - ypar-trust-building-games
+  - cf-first-and-second-thinking
+  - ail-growth-mindset
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section, free to download. The Team Trail appears in Trust-Building."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free handbook the YPAR Hub team-building plans draw on."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to Youth in Focus (Youth REP: Step by Step) and Stanford's John W. Gardner Center (YELL)"
+  basis: >-
+    A hidden-path grid is a widely used group problem-solving exercise with no single traceable
+    author. Every word here is written from scratch and none of the YPAR Hub's wording is reproduced.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Trust-Building lesson plan (Team Trail Activity)"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Team Trail Activity", supplied to Amala in August 2026. The grid, the
+  silence rule and the two-line turn structure are the source's. The instruction to draw the route in
+  advance, the consistency discipline for the signal, and the debrief's focus on how a group learns
+  from public failure rather than on teamwork in general are Amala's.

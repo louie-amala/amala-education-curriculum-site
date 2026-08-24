@@ -1,0 +1,261 @@
+id: ypar-forms-of-decision-making
+slug: ypar-forms-of-decision-making
+access: public
+type: tools-approaches
+title: "Four ways a group can decide"
+summary: >-
+  One person decides, one person decides after asking, the majority decides, or everyone has to
+  accept it: the four forms, what each costs, and how to choose between them.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+toolsFacet: both
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. A group working out which form it uses, and which it wants to use, has to argue,
+      and the argument is where the understanding comes from. The four forms are useless as a lecture
+      and useful as a frame for a decision the group is actually facing.
+  - context: independent
+    how: >-
+      A learner can apply the four forms alone to decisions in their own life and will get real
+      insight from it, particularly about which forms they are on the receiving end of. What is lost
+      is the negotiation, so pair it with a decision they can then take back to a group.
+  - context: one-to-one-mentoring
+    how: >-
+      Useful with a learner who feels unheard in a group or a family. The frame lets them describe
+      what is happening without accusing anybody: this is a representative decision and I am one of the
+      people who gets consulted, or is not.
+duration: 30 to 45 minutes to teach. Ongoing, once the group is using it.
+grouping: Whole group, or small groups comparing examples.
+materialsAndPreparation:
+  - "Somewhere to write four headings where the group can see them."
+  - "Real decisions to test the forms against. The group's own, if you have them: who chooses the research question, who speaks to the community, how money is spent."
+  - "Nothing else. This is a frame, not a resource."
+whatLearnersDo:
+  - Sort decisions from their own lives into the four forms.
+  - Work out what each form costs and what it gives, from their own examples.
+  - Choose a form for a decision the group is genuinely facing.
+educatorContent: |
+  Almost every decision a group makes falls into one of four shapes. The value of naming them is not
+  taxonomy; it is that a group which can name what it is doing can choose to do something else.
+
+  ## The four
+
+  **Individual.** One person decides. Nobody else is asked.
+
+  **Representative.** One person, or a small group, gathers views and then decides for everyone.
+
+  **Majority.** The question is discussed and then voted on. More than half carries it.
+
+  **Consensus.** The question is discussed until everyone can accept the outcome. Note the wording:
+  consensus is not everybody's first choice, it is nobody's veto. A group that thinks consensus means
+  unanimous enthusiasm will conclude, correctly, that consensus is impossible.
+
+  ## What each one costs
+
+  These are the trade-offs to draw out of the group rather than to hand them. They are written here
+  so a facilitator can recognise the answers when they arrive.
+
+  **Individual.** Fast, needs nobody else's time, and responsibility is unmistakable. Against that:
+  the decision can only draw on what one person knows; it can easily be one that nobody else would
+  have chosen; and commitment to carrying it out is usually thin unless people are committed to the
+  person.
+
+  **Representative.** Still fast, and better informed than the individual form, because more than one
+  view feeds it. Against that: the people consulted may say what they think the decider wants; several
+  perspectives will still be missed; and it produces a particular kind of resentment, because being
+  asked and then overruled feels worse to most people than not being asked at all.
+
+  **Majority.** Works at any size, is familiar almost everywhere, and gives everyone an equal formal
+  say. Against that: it creates winners and losers, and the losers' commitment to the outcome is the
+  first thing a group loses. Disagreements become personal, because they attach to who voted with
+  whom rather than to the question. And a vote pushes a group towards the options already on the
+  table, because writing a better option takes longer than choosing between two.
+
+  **Consensus.** Airs the most perspectives, produces the broadest commitment, tends to synthesise
+  ideas rather than pick between them, and often teaches the group something along the way. Against
+  that: it is slow; it requires people to be adult about carrying out something that was not their
+  first choice; one person can hold the whole group up; it is very hard in a large group; and every
+  new member has to learn to trust the process before it works for them.
+
+  ## Choosing
+
+  Three questions decide it in practice:
+
+  1. **Who has to carry it out?** If the group has to act on it together, the cost of a majority vote
+     is higher than it looks, because a third of the group may implement it half-heartedly.
+  2. **How long have you got?** Consensus on a decision that has to be made this afternoon is not
+     principle, it is paralysis. Say so plainly.
+  3. **Who is affected but not in the room?** All four forms are silent on this, which is the frame's
+     main limitation. A group that reaches consensus can still make a decision about people it never
+     asked. In a research project about a community, that is the failure mode to watch.
+
+  ## The one to be honest about
+
+  Some decisions are not the group's to make. Safeguarding, budgets, legal obligations and staff
+  responsibilities usually sit with the adults, and a group that discovers this after being told it
+  decides everything will, reasonably, distrust the whole exercise. Name which decisions are the
+  group's, which are shared and which are not, before you ask the group to choose a form. A youth-led
+  project with an honest boundary is more genuinely youth-led than one with a pretended one.
+
+  ## Where it goes next
+
+  Use it with [agreeing how we will decide](/materials/ypar-agreeing-how-we-decide), which is the
+  session that turns this frame into the group's own working agreement, and see
+  [decision making in practice](/materials/ypar-decision-making-in-practice) for a worked example of
+  a group applying all four to its own decisions.
+facilitationNotes: >-
+  The one thing to get right is that the pros and cons come from the group's examples, not from you.
+  A facilitator who presents the trade-offs as a table has taught a vocabulary; a facilitator who
+  collects them from what learners have lived has taught a tool they will use. Fill the four headings
+  from the room, and add anything important that is missing at the very end rather than at the start.
+  Be honest, early, about which decisions in this programme are not the group's to make.
+steps:
+  - title: "Collect real decisions before naming any form"
+    duration: 10 min
+    guidance: >-
+      Ask learners to recall decisions they have been part of, or subject to: what the family eats,
+      what a class does, who gets a place on a course, where a facility is built. Take a dozen and
+      write them up. Do not categorise anything yet. The four forms mean much more when they arrive as
+      an explanation of examples already on the board.
+    keyPrompts:
+      - "A decision recently that affected you. Who actually made it?"
+      - "Were you asked? Did it change anything?"
+    watchOuts:
+      - "Examples are all trivial. Ask for one that mattered and one they had no part in, which usually shifts the level immediately."
+      - "A learner names a decision that is painful or political for this context. Take it without comment, write it up in neutral words, and let them decide whether to say more."
+  - title: "Name the four and sort the examples into them"
+    duration: 10 min
+    guidance: >-
+      Give the four headings and one sentence each. Then sort the examples the group produced,
+      arguing about the ones that do not fit cleanly. The arguments are the useful part: a decision
+      that was presented as consultation but was really individual is exactly the distinction worth
+      spending three minutes on.
+    keyPrompts:
+      - "Which of the four was that, really?"
+      - "They asked people first. Did that change the outcome, or was it already decided?"
+    watchOuts:
+      - "Consensus is understood as everyone being happy. Correct it explicitly: consensus means everyone can accept it, not that everyone prefers it."
+      - "The sorting becomes a quiz with right answers. Where the group disagrees about which form something was, that disagreement is the finding, not a problem."
+  - title: "Build the costs and benefits from the room"
+    duration: 15 min
+    guidance: >-
+      Take one form at a time and ask what is good about it and what it costs, drawing on the sorted
+      examples rather than in the abstract. Write the group's words. When they are done, add at most
+      two things they missed per form, and say that you are adding them. The list on the wall should
+      be visibly theirs.
+    keyPrompts:
+      - "That decision was made by one person and it was a good decision. What made it good?"
+      - "Who ended up carrying out a decision they voted against? What was that like?"
+    watchOuts:
+      - "The group concludes consensus is simply best. Push back with time: what if this has to be decided in ten minutes? The point is fit, not a ranking."
+      - "The facilitator's additions dominate the list. Two per form, at the end, announced as yours."
+  - title: "Apply it to a decision the group actually faces"
+    duration: 10 min
+    guidance: >-
+      Take one real, live decision, who chooses the research question, who speaks to a community
+      leader, how the group's time is spent, and ask which form fits it and why. Then ask the three
+      choosing questions: who carries it out, how long is there, and who is affected but not here.
+      That last question is the one that turns this from a group-process tool into a research ethic.
+    keyPrompts:
+      - "Which form for this decision, and what does that cost us?"
+      - "Who is affected by this and not in this room?"
+    watchOuts:
+      - "The group picks a form and the decision is then made a different way in practice. If that happens, name it the next time it comes up; the frame only has value if it is used."
+closing: >-
+  Leave the four headings on the wall with the group's own examples under them. The frame earns its
+  keep in the weeks afterwards, when somebody in the group can say out loud that a decision is being
+  made representatively and the group had thought it was deciding together. That sentence is the whole
+  purpose of teaching this.
+learnerContent: |
+  There are four ways a group can decide something.
+
+  - **One person decides.** Nobody else is asked.
+  - **One person decides after asking.** They gather views, then choose.
+  - **The majority decides.** Everyone discusses, then votes. More than half wins.
+  - **Everyone has to be able to accept it.** The group keeps going until nobody is blocking it.
+
+  That last one is worth being precise about. It does not mean everybody's favourite. It means
+  everybody can live with it.
+
+  None of the four is the best one. Fast decisions and shared ones pull in opposite directions, and
+  which you need depends on the decision.
+
+  Three questions will usually tell you which to use:
+
+  1. **Who has to carry it out?** If it is all of us, a vote that half of us lost will show.
+  2. **How much time is there?** Agreeing together takes time you may not have.
+  3. **Who is affected by this and is not in this room?** None of the four forms answers that one.
+     You have to.
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    A young person who can name the decision-making form being used in a room can also ask for a
+    different one, and can tell the difference between being consulted and being heard. That is the
+    practical difference between taking part in something and having a say in it, and it applies well
+    beyond the course: in a family, a workplace, a youth panel, a camp committee.
+principlesForegrounded: [collaboration, responsible-action, lifeworthy-competencies]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The frame gives a group language for how it works together, which is what lets it improve
+      deliberately rather than by drift.
+  - principle: responsible-action
+    how: >-
+      The third choosing question, who is affected and not in the room, attaches an ethical test to a
+      process tool, which is what stops a well-run group making confident decisions about people it
+      never asked.
+  - principle: lifeworthy-competencies
+    how: >-
+      This is a frame learners will use for the rest of their lives, in families, workplaces,
+      committees and community bodies, and it takes half an hour to acquire.
+competencyCodes: [ALC2, FLC1, FPS1]
+competencyDevelopment:
+  - code: ALC2
+    how: >-
+      This is the analytical half of facilitating collaborative decision making: knowing the available
+      forms, what each costs, and how to choose between them for a specific decision.
+  - code: FLC1
+    how: >-
+      Asking who is affected and not present turns a procedural choice into an ethical one, and gives
+      learners a habit they can carry into any decision they later have power over.
+  - code: FPS1
+    how: >-
+      Recognising that the right process depends on the decision, rather than looking for the single
+      best method, is adaptable thinking applied to something learners usually treat as fixed.
+objectiveIds: [peacebuilding--o3]
+relatedSlugs:
+  - ypar-agreeing-how-we-decide
+  - ypar-decision-making-in-practice
+  - ypar-tallest-tower
+  - ypar-island-paradise
+  - pb-class-agreements
+  - cf-co-create-norms
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section, free to download. Decision Making Processes is the source of the four forms."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free handbook the four forms come from. It carries the original Forms of Decision Making handout, which is not reproduced here; get it from the handbook if you want it."
+rights:
+  status: own-expression
+  holder: "The John W. Gardner Center for Youth and Their Communities, Stanford University (YELL curriculum); republished by the UC Berkeley YPAR Hub"
+  basis: >-
+    The four categories are an idea rather than an expression, and every word on this page, including
+    all of the pros and cons, is written from scratch for Amala's contexts. The YELL "Forms of Decision
+    Making" handout and its filled example, both carrying a 2007 John W. Gardner Center copyright line,
+    are deliberately not reproduced; the handbook is linked instead.
+  note: >-
+    Never paste the YELL handout tables onto this page. If a printable sheet is wanted, author one
+    from the material here.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Decision Making Processes lesson plan"
+  - "Attributed in that plan to Stanford University's Youth Engaged in Leadership and Learning (YELL) curriculum; the accompanying handouts carry the line 'From YELL (c)2007 John W. Gardner Center'"
+provenanceNote: >-
+  The four-form categorisation comes from the YELL curriculum by way of the YPAR Hub's "Decision
+  Making Processes" lesson plan, supplied to Amala in August 2026. That plan carries two handouts, a
+  blank pros and cons table and a filled example, both under a 2007 John W. Gardner Center copyright
+  line. Neither is reproduced. The trade-offs set out here, the three choosing questions, the
+  precision about what consensus means and the section on decisions that are not the group's to make
+  are Amala's own.

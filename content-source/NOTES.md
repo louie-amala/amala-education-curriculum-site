@@ -135,6 +135,50 @@ Provenance traced during that pass:
 - **Paper Factory** remains unidentified. Transboundary-water negotiation genre; a published ancestor
   is likely.
 
+### YPAR Hub team-building and oppression plans — PROCESSED (2026-08)
+
+Source: ten "Get Started" lesson plans from UC Berkeley's [YPAR Hub](https://yparhub.berkeley.edu/getting-started)
+(eight from Team Building, two from Understanding Oppression), supplied August 2026. Extracted into
+19 `ypar-*` materials plus one educator move (`cf-physical-and-contact-activities`) and two glossary
+terms (`stereotype-threat`, `consensus`). The plans bundle several activities each, so the split is by
+activity rather than by document: banks stayed banks where a facilitator picks one (icebreakers,
+energisers, getting to know each other, quick communication games, trust-building games) and
+individual activities were separated out where they earn a page (four corners, the web of concerns,
+follow the leader, trust walk, team trail, tallest tower, community superhero, island paradise).
+
+**Rights.** All are `own-expression`. The YPAR Hub plans carry a footer permitting non-profit
+reprinting by schools, colleges and universities with credit; we do not rely on it, because publishing
+on an open website is a wider act than reprinting a sheet for a class, and because the upstream works
+(Stanford's YELL curriculum, Youth in Focus' Youth REP, the Center for Education in Law and Democracy)
+are not the YPAR Hub's to sub-licence. Every word is written from scratch and the originators are
+credited and linked. The two YELL "Forms of Decision Making" handouts, which carry a 2007 John W.
+Gardner Center copyright line, are deliberately not reproduced: `ypar-forms-of-decision-making` argues
+the trade-offs in Amala's own words and `ypar-decision-making-in-practice` is an original,
+clearly-labelled illustrative case study written to do the same job.
+
+**Editorial decisions worth knowing.**
+- **Government, Rights and Power** is a United States civics lesson built on the Constitution and Bill
+  of Rights, which does not travel and is actively misleading for a learner without citizenship. Its
+  structure is kept in `ypar-rights-and-power`; its content is replaced with a rights instrument the
+  facilitator chooses (usually the UDHR), and its rights-removal exercise carries the materials
+  standard's simulation test (§12.4) with an invented-setting route and an analysis-only route,
+  because for many Amala cohorts that exercise re-enacts their own history.
+- **Physical and contact activities.** Several plans involve holding hands, taking another person's
+  weight or being blindfolded, with no adaptation offered. `cf-physical-and-contact-activities` carries
+  the judgement that has to sit alongside them, and `ypar-trust-walk` substitutes closed eyes for a
+  blindfold on purpose.
+- **Stereotype threat** is given its own page because the source states the effect more confidently
+  than the current evidence supports (its example is the girls-and-mathematics literature, the part
+  most affected by the publication-bias reassessment).
+- **Not carried across:** Widget Assembly (needs a large LEGO collection, craft-paper rolls and
+  partitions; `ypar-trust-walk` teaches the same lesson at no cost).
+- **Source issue, logged not fixed:** the "Understanding Roles in Teams" plan's stated objectives are
+  copy-pasted from "Decision Making Processes" and describe forms of decision making rather than team
+  roles.
+
+Not yet processed from the same YPAR Hub section: Introductions, Youth & Adult Power Sharing,
+Building Community Support, and YPAR Basics.
+
 ## Still needed to complete the content set
 
 - **GSD programme structure — DONE.** `programmes/gsd.yaml` now holds the 5 streams × 2 courses,

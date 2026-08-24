@@ -1,0 +1,272 @@
+id: ypar-four-corners
+slug: ypar-four-corners
+access: public
+type: activity
+title: "Four corners: take a position and stand in it"
+summary: >-
+  Learners hear a statement and walk to the corner that matches how strongly they agree, so a room's
+  disagreements become visible and can be discussed rather than guessed at.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The whole method is that opinion becomes a physical fact in the room: you can see
+      the split, count it, and ask the two ends to explain themselves to each other. Nothing about
+      that survives being written down, so if you are working with fewer than about six learners, run
+      it as a line across the floor instead of four corners and expect a discussion rather than a
+      pattern.
+duration: 20 to 40 minutes, depending on how many statements you use and how far you let the discussion run.
+grouping: Whole group, moving; occasional pairs at each corner before the group hears from them.
+materialsAndPreparation:
+  - "Four sheets of paper marked agree, somewhat agree, somewhat disagree, disagree, and something to fix them to the four corners of the room. Symbols or a simple drawing work if the group does not read fluently."
+  - "Your statements, written out in advance. Six is plenty. This is the real preparation and it takes longer than setting up the room."
+  - "Enough clear floor for everyone to cross the room without climbing over furniture."
+  - "No-resource route: if you have no paper, name the four corners aloud and point. If the room is fixed, run it as a line from one wall to the other, or as four rows of chairs."
+whatLearnersDo:
+  - Listen to a statement and move to the corner that matches their view of it.
+  - Explain to someone standing in the same corner why they chose it.
+  - Hear one reason from each corner, including the corners they did not choose.
+  - Move if something they hear changes their mind, and say what changed it.
+educatorContent: |
+  Four corners is one of the cheapest and most useful tools a facilitator can carry. It takes a
+  question the group would otherwise answer with polite nodding and turns it into a distribution you
+  can see and count.
+
+  ## What it is actually for
+
+  Three different jobs, and they need different statements:
+
+  - **Surfacing what a group already thinks**, before you teach anything. Use it at the start of a
+    unit so you find out what the room believes rather than what it repeats back to you.
+  - **Making disagreement legitimate.** When four learners walk to opposite corners in the first
+    week, the group learns that disagreeing here is normal and survivable. That is worth more than
+    any of the individual statements.
+  - **Evaluating.** Statements about the course, the project or the group ("we all had a say in
+    choosing our research question") give you a reading you will not get by asking for feedback.
+
+  ## Writing statements that work
+
+  A statement is only worth using if a reasonable person could stand in any of the four corners. Test
+  each one against that before the session. Statements that fail the test:
+
+  - **Statements of fact.** "This community has a rubbish problem" is a question of evidence, not
+    opinion, and four corners cannot settle it.
+  - **Statements with an obvious right answer.** "Young people should be listened to" puts everyone
+    in one corner and teaches nothing.
+  - **Double statements.** "Adults respect young people and give them responsibility" splits a
+    learner who thinks one and not the other, and they will end up in a corner that misrepresents
+    them.
+
+  Good statements for a youth research group tend to be about power, worth and possibility: whether
+  people your age can change anything here, whether adults listen, whether the people affected by a
+  problem are the ones who get asked about it, whether things in this community are getting better.
+
+  ## The variation: the question wheel
+
+  Instead of four corners, draw a large circle on the floor in chalk or tape and divide it into four
+  numbered quadrants. Learners stand on the number that matches their answer, on a scale you state
+  each time. It is quicker than four corners and it takes less space, and because everyone is packed
+  together in one circle rather than spread to the walls, the distribution is easier to see at a
+  glance and easier to photograph as a record. Use the wheel when you want to run a lot of statements
+  quickly; use corners when you want each position discussed.
+
+  ## Where it fits a research project
+
+  Run it in the first week on statements about the challenge, then run the same statements again at
+  the end. Movement between the two is evidence of learning, and it is evidence the learners
+  themselves can see, which is much harder to produce than a test score.
+
+  See also [community mapping](/materials/community-mapping-and-empathy-interviews) for the
+  next step, and [the web of concerns](/materials/ypar-web-of-concerns) if you want the group's
+  concerns connected rather than sorted.
+visuals:
+  - kind: setup
+    title: "The four corners, and what each holds"
+    caption: >-
+      One sign per corner, learners standing in the corner that matches their view. The point is the
+      distribution: a room with people in all four corners is a room that can now have a real
+      discussion.
+    spec:
+      type: zones
+      cardStyle: text
+      zones:
+        - label: Agree
+          tone: positive
+          cards: ["Seen it work", "It happens"]
+        - label: Somewhat agree
+          tone: neutral
+          cards: ["Sometimes"]
+        - label: Somewhat disagree
+          tone: neutral
+          cards: ["Depends who"]
+        - label: Disagree
+          tone: warn
+          cards: ["Not here"]
+facilitationNotes: >-
+  The one thing to get right is that nobody is asked to defend their corner against the facilitator.
+  Your questions go to every corner equally and in the same tone, including the corner you privately
+  think is wrong; the moment learners detect which answer you want, the tool stops measuring anything.
+  Keep the right to move real by inviting it explicitly after each round, and treat a learner changing
+  corner as the best thing that can happen rather than as backing down.
+steps:
+  - title: "Put up the four corners and explain the one rule"
+    duration: 5 min
+    guidance: >-
+      Fix the four signs up and walk the group round them once so everyone knows which is which. Give
+      the single rule: when you hear the statement, walk to the corner that fits you, not the one that
+      fits your friends. Say now, before the first statement, that anyone may move at any point and
+      that changing your mind in public is the point of the exercise, not a loss.
+    keyPrompts:
+      - "Which corner is which? Say them back to me."
+      - "What happens if you are genuinely in between two corners?"
+    watchOuts:
+      - "Learners follow their friends across the room. Ask everyone to decide silently and point to their corner before anyone walks, then release them all at once."
+      - "The signs are only words in a room where several learners do not read fluently. Add a drawing or a hand symbol to each and point as you say them."
+  - title: "Read a statement and let the room move"
+    duration: 3 min per statement
+    guidance: >-
+      Read the statement twice, in the same words both times, and then say nothing at all while
+      people move. Silence here is doing work: any hint of what you think will pull the room. Once
+      everyone has settled, say out loud what you can see, so the distribution is a shared
+      observation rather than something only you noticed.
+    keyPrompts:
+      - "Here is the statement. I will read it twice and then say nothing."
+      - "Look around. What can you see?"
+    watchOuts:
+      - "A statement produces one crowded corner and three empty ones every time. That is a badly written statement, not a united group. Change it rather than pressing the group to justify itself."
+      - "Learners ask what the statement means and the facilitator explains it into a particular answer. Repeat the words rather than paraphrasing, and let the ambiguity be theirs to resolve."
+  - title: "Talk in your corner, then send one reason across the room"
+    duration: 5-8 min per statement
+    guidance: >-
+      Give each corner two minutes to compare reasons among themselves, which lets the less confident
+      hear their view said aloud by somebody else before it is said in public. Then take one reason
+      from each corner in turn, starting with the smallest corner rather than the largest, so a
+      minority position is heard before the room has consolidated around the majority.
+    keyPrompts:
+      - "In your corner: what made you stand here?"
+      - "One reason from this corner. Not the best argument, just a real one."
+    watchOuts:
+      - "The same confident learner speaks for their corner every round. Ask the corner to choose someone who has not spoken yet."
+      - "A lone learner in a corner is put on the spot and folds. Go to them first, take a short answer, and move on quickly; or join their corner yourself if you can do so honestly."
+  - title: "Invite the room to move"
+    duration: 3 min per statement
+    guidance: >-
+      Ask directly whether anything anyone heard has changed their mind, and give it a proper silence
+      rather than a rhetorical one. If someone moves, ask what moved them, not why they were wrong
+      before. This is the step that separates four corners from a vote, and facilitators skip it
+      because it feels slow. It is the most valuable half-minute in the activity.
+    keyPrompts:
+      - "Has anything you heard moved you? Walk if it has."
+      - "What did you hear that changed it?"
+    watchOuts:
+      - "Nobody ever moves, session after session. That usually means the group has read moving as losing. Move yourself once, honestly, and say what changed your mind."
+      - "A learner is teased for moving. Name it immediately and point at the group's agreements."
+    adaptation: >-
+      Short on time: run three statements with no corner discussion, just move, look, and one reason
+      from each end. You lose the depth and you keep the thing that matters, which is that the room
+      can see its own disagreement.
+  - title: "Read the pattern with the group and write it down"
+    duration: 5-10 min
+    guidance: >-
+      Standing back in one group, ask what the whole set of statements showed. Where was the room
+      most divided, where was it united, and what does that tell them about themselves as a group?
+      Record the split for two or three statements so you can run them again later. Learners will not
+      remember where they stood in week one; a photograph or a tally will.
+    keyPrompts:
+      - "Which statement split us most? Why that one?"
+      - "What did we agree about without knowing we agreed?"
+    watchOuts:
+      - "The pattern is discussed and then lost. If you plan to repeat these statements at the end of the course, you have to record them now."
+      - "A divided result is treated as a problem to resolve. It is not; say plainly that the group does not have to agree, only to know where it stands."
+closing: >-
+  Ask each learner for one sentence: something they now know about this group that they did not know
+  an hour ago. Then keep your statements. Running the same six at the end of the course, and showing
+  the group both distributions side by side, is one of the few pieces of evidence of change that
+  learners find genuinely convincing about themselves.
+learnerContent: |
+  You are going to hear a statement, and then you walk. There are four corners in this room: **agree**,
+  **somewhat agree**, **somewhat disagree**, **disagree**. Go to the one that is true for you.
+
+  Not the one your friend went to. Not the one you think is the right answer. There is no right
+  answer, which is the whole point of doing it this way.
+
+  Then you will hear why people chose the corners they chose, including the corners furthest from
+  yours. And then you get asked one more question: has anything you just heard changed your mind?
+
+  If it has, walk. Changing your mind because of something somebody said is not losing an argument.
+  It is the thing this whole course is trying to teach you to do.
+
+  You can always stand in a corner and say nothing. Nobody has to explain themselves.
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Taking a position in public, in front of people who can see you take it, is a small act of
+    exposure that many young people have learned to avoid. Doing it repeatedly with no punishment,
+    and being invited to change it without shame, builds the specific nerve a person needs to say
+    what they think in a meeting, a consultation or a room full of adults.
+principlesForegrounded: [safe-spaces, collaboration, feedback-and-data]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      The activity makes disagreement ordinary and visible early, at low stakes, so that when the
+      group later disagrees about something that matters, it has already seen that the room survives
+      it. The right to stand silently in a corner keeps participation possible for learners who are
+      not yet ready to speak.
+  - principle: collaboration
+    how: >-
+      Learners have to hear reasons from the corners they did not choose before the discussion moves
+      on, which is the basic discipline of working with people who see something differently.
+  - principle: feedback-and-data
+    how: >-
+      The distribution is data about the group, collected in thirty seconds, and repeating the same
+      statements later gives a before and after that both facilitator and learners can read.
+competencyCodes: [FLC3, FUS2, FPS1]
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      Giving one real reason for a position, briefly, to a room that includes people who disagree, is
+      influential communication stripped to its smallest usable unit. Learners do it several times in
+      one session with immediate feedback from whether anyone moves.
+  - code: FUS2
+    how: >-
+      Hearing why somebody stood in the opposite corner, in their own words rather than as reported by
+      the facilitator, is direct evidence about how differently people in the same room read the same
+      sentence.
+  - code: FPS1
+    how: >-
+      The invitation to move after hearing others is deliberate practice at holding a position
+      loosely, and the facilitator's own visible change of mind is the model for it.
+objectiveIds: [research-project--o1]
+relatedSlugs:
+  - ypar-getting-to-know-each-other
+  - ypar-web-of-concerns
+  - ypar-busting-stereotypes
+  - cf-charged-discussions
+  - cf-make-thinking-visible
+  - pb-class-agreements
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section, free to download. Four corners and the question wheel appear in Getting to Know Each Other."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free handbook the YPAR Hub team-building plans draw on."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to Youth in Focus (Youth REP: Step by Step) and Stanford's John W. Gardner Center (YELL)"
+  basis: >-
+    Four corners is a widely used classroom method with no single owner, and every word on this page
+    is written from scratch. None of the YPAR Hub's wording or example statements is reproduced; the
+    statements suggested here are Amala's own and are written for Amala's cohorts.
+  note: >-
+    Do not copy the source's example statements onto this page. Several of them assume a United States
+    school context (going to college, the local community) that does not travel.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Getting to Know Each Other lesson plan (Four Corners and Question Wheel)"
+provenanceNote: >-
+  Separated out from the YPAR Hub's "Getting to Know Each Other" lesson plan, supplied to Amala in
+  August 2026, because four corners and the question wheel are stance-taking tools rather than
+  introductions and earn a page of their own. The remaining activities from that plan are at
+  [getting to know each other](/materials/ypar-getting-to-know-each-other). The statement-writing
+  guidance, the ordering of the steps and the before-and-after use are Amala's.

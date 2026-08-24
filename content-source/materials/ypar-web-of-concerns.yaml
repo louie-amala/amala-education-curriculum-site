@@ -1,0 +1,177 @@
+id: ypar-web-of-concerns
+slug: ypar-web-of-concerns
+access: public
+type: activity
+title: "The web of concerns: one ball of string, everyone connected"
+summary: >-
+  Standing in a circle, each learner names something they want changed and throws a ball of string
+  across, until the group is holding a visible web of everyone's concerns.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, and it needs at least eight people to make a web worth looking at. Below that the
+      string makes a few lines rather than a lattice and the image does not land; use a shared sheet
+      of paper with names round the edge and drawn lines instead.
+duration: 20 to 30 minutes, of which the string takes 10 and the discussion takes the rest.
+grouping: Whole group standing in one circle.
+materialsAndPreparation:
+  - "A ball of string, wool or thin rope, long enough for a throw across the circle per person. Roughly 3 metres per learner is plenty."
+  - "Floor space for the whole group to stand in a circle with arms free."
+  - "No-resource route: no string, no problem. Learners say their concern and then point at somebody, who repeats the last concern before adding their own. You lose the picture and keep the connection."
+  - "Something to write the concerns on afterwards, because the web has to be turned into a list before it is untied."
+whatLearnersDo:
+  - Name one thing about the world, or their community, that they want to be different.
+  - Hold their piece of the string and throw the ball to somebody else, who does the same.
+  - Look at the web the group has made and say what they notice about it.
+  - Watch what happens to the whole web when one person pulls or lets go.
+facilitationNotes: >-
+  The one thing to get right is the final move: this web is the group's first list of possible
+  research topics, and if it is untied without being written down you have run an icebreaker instead
+  of a beginning. Copy every concern onto paper while the group is still holding the string. The
+  second thing is to keep the framing on what they want changed rather than what has been done to
+  them, because the first produces a project and the second, in a cohort like Amala's, can open
+  something a session is not equipped to hold.
+steps:
+  - title: "Set the circle and the question"
+    duration: 5 min
+    guidance: >-
+      Stand the group in a circle, arms free, and hold the ball of string yourself. Give the question
+      in the form you want it answered: one thing you want to be different, in your community or in
+      the world. Keep it to a short phrase, not a speech. Say clearly that anyone can pass the ball on
+      without saying anything, and that a concern that somebody has already named can be said again.
+    keyPrompts:
+      - "One thing you want to be different. Not a whole speech, a few words."
+      - "Is there anyone who wants to hear it once more before we start?"
+    watchOuts:
+      - "The question drifts into what has happened to you. Keep restating it as what you want changed; that is a question about the future and it is a much safer place for a group to start."
+      - "The first speaker sets a very long or very personal level and everyone follows. Go first yourself, briefly and about something ordinary, and the room will match you."
+  - title: "Build the web"
+    duration: 10 min
+    guidance: >-
+      Say your own concern, hold the loose end of the string firmly, and throw the ball across the
+      circle to someone else. They hold their part of the string, say theirs, and throw on. Nobody
+      ever lets go. Keep it moving and do not comment on individual concerns as they are said; the
+      commentary comes later and interrupting the rhythm makes each person's turn feel judged.
+    keyPrompts:
+      - "Hold your string. Say the thing. Then throw."
+    watchOuts:
+      - "Learners let go once they have spoken and the web collapses. Say the rule twice before you begin and check hands as it grows."
+      - "Someone is left out because nobody throws to them. Ask the group to watch for who has not had it yet, or direct the throw yourself."
+      - "A learner names something raw, about violence, family or loss. Take it as seriously and as briefly as everything else, do not probe it in the circle, and follow it up with them privately afterwards."
+  - title: "Look at what you have made, and test it"
+    duration: 5 min
+    guidance: >-
+      Stop and let the group look at the web for a moment before anyone speaks. Then ask one person
+      to pull their string gently, and ask who felt it. Then ask one person to let go, and look at
+      what slackens. This is the whole argument of the activity, made physically rather than said:
+      nobody's concern sits by itself and nobody can drop out without it being felt.
+    keyPrompts:
+      - "Pull, gently. Who felt that?"
+      - "What happened to the web when one person let go?"
+    watchOuts:
+      - "Somebody yanks hard and it turns into a game. Say gently, and demonstrate the gentleness yourself first."
+      - "The facilitator explains the metaphor instead of asking for it. Ask what they noticed, wait, and let the group say it. It is not a subtle point and they will get there."
+  - title: "Turn the web into a list before you untie it"
+    duration: 5-10 min
+    guidance: >-
+      While everyone is still holding the string, go round and write every concern down where the
+      group can see it. Ask which ones are versions of the same thing, and group them roughly. Then
+      untie. You now have a list of things this specific group cares about, in their own words, which
+      is where a research question will come from later.
+    keyPrompts:
+      - "Which of these are really the same worry said in different words?"
+      - "Is there anything on this list that surprises you?"
+    watchOuts:
+      - "The list is tidied into the facilitator's language. Write their phrasing, however rough, because they will recognise their own words in six weeks and will not recognise yours."
+      - "Concerns are ranked or judged at this stage. Do not; grouping is enough. Choosing comes later and should not be contaminated by whose idea it was."
+closing: >-
+  Say plainly what the list is for: it is not a discussion that has now finished, it is the first
+  draft of what this group might investigate. Put it on the wall and leave it there. When the cohort
+  comes to choose a research question, start from this sheet rather than from a blank one, and let
+  them see that the question came from them.
+learnerContent: |
+  You are going to stand in a circle and hold a ball of string.
+
+  When it comes to you, say **one thing you want to be different**. In your community, in your
+  country, in the world. A few words is enough. Then hold on to your bit of the string and throw the
+  ball to somebody else.
+
+  Do not let go. By the end, all of us will be holding a web.
+
+  Then we will do two things. Somebody will pull their string, and you will feel it. Somebody will
+  let go, and you will see part of the web go slack.
+
+  That is the point. Your worry is attached to other people's worries, and a problem is still a
+  problem even when it is not happening to you.
+
+  You can pass without saying anything. And before we untie it, we will write everything down,
+  because this list is where our research is going to start.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    The activity moves a group from private concern to collective agenda in twenty minutes. Learners
+    arrive holding something they want changed and leave holding a shared list that a group could act
+    on, which is the exact transition that separates caring about something from being able to do
+    anything about it.
+principlesForegrounded: [builds-on-identities, collaboration, authentic-challenges]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The agenda for everything that follows is built out of what these particular learners say they
+      want changed, in their own words, rather than from a topic list brought into the room.
+  - principle: collaboration
+    how: >-
+      The web makes interdependence physical: you can feel another person's pull through the string,
+      and you can see what happens to everybody when one person lets go.
+  - principle: authentic-challenges
+    how: >-
+      The concerns named are real ones from the learners' own lives and communities, and the list
+      produced is the actual starting point for choosing what to research rather than an illustration
+      of one.
+competencyCodes: [FLC2, FSI1, FUS2]
+competencyDevelopment:
+  - code: FLC2
+    how: >-
+      Learners hear that other people in the room carry the same worry they thought was theirs alone,
+      which is the raw material of belonging in a group that is about to work together.
+  - code: FSI1
+    how: >-
+      Naming a concern in a phrase is the very first move of investigating a real-world issue, and the
+      grouped list is the raw material a researchable question is later narrowed out of.
+  - code: FUS2
+    how: >-
+      Hearing what twenty other people want changed, without discussion or ranking, gives a learner a
+      quick and honest picture of what matters to the people around them.
+objectiveIds: [research-project--o1]
+relatedSlugs:
+  - ypar-getting-to-know-each-other
+  - ypar-four-corners
+  - dc-importance-of-research
+  - community-mapping-and-empathy-interviews
+  - rp-choosing-a-research-question
+  - problem-tree
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section, free to download. The string activity appears in Getting to Know Each Other."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free handbook the YPAR Hub team-building plans draw on."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to Youth in Focus (Youth REP: Step by Step) and Stanford's John W. Gardner Center (YELL)"
+  basis: >-
+    A string web is a common youth-work method with no single traceable author. Every word here is
+    written from scratch and none of the YPAR Hub's wording is reproduced.
+  note: >-
+    Amala's Peacebuilding bank also references a "web of connectedness" protocol held as
+    linked-not-reproduced. Keep the two separate and do not import that protocol's wording here.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Getting to Know Each Other lesson plan (String)"
+provenanceNote: >-
+  Separated out from the YPAR Hub's "Getting to Know Each Other" lesson plan, supplied to Amala in
+  August 2026. The source runs it as an introduction activity; here it is repositioned as the opening
+  move of a research project, and the instruction to write the concerns down before untying the web,
+  which is what makes it a beginning rather than a game, is Amala's.

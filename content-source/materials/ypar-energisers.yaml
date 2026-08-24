@@ -1,0 +1,216 @@
+id: ypar-energisers
+slug: ypar-energisers
+access: public
+type: tools-approaches
+title: "Energisers: five games for a group that has stopped listening"
+summary: >-
+  Five short games a facilitator can reach for when attention has gone, chosen so that none needs
+  preparation, materials or more than a few minutes of the session.
+facilitationContext: [group]
+primaryContext: group
+toolsFacet: facilitation
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group only. An energiser works because a room full of people does something ridiculous at the
+      same time, and there is no version of that for one learner. If you are mentoring one to one and
+      attention has gone, the equivalent move is to stop, change the physical setting, and walk.
+duration: 5 to 15 minutes each. Rarely more than one in a session.
+grouping: Whole group, in a circle for three of the five, in pairs for one.
+materialsAndPreparation:
+  - "Nothing for categories, look up and scream, and penguins."
+  - "Who am I? needs slips of paper with a name on each, prepared before the session, plus tape. Use names your particular group will actually know."
+  - "Two truths and a lie needs scrap paper and pens, and two minutes of thinking time before it starts."
+  - "Room to stand in a circle. Penguins also needs the floor to be clear, because learners move with their eyes shut."
+whatLearnersDo:
+  - Stand up and take part in a short, loud, low-skill game partway through a long session.
+  - Return to the work with the room in a different physical state from the one it was in.
+educatorContent: |
+  An energiser is a repair, not a lesson. You use one when you can see that the group has stopped
+  taking anything in: after lunch, after an hour of sitting, after a heavy discussion, or in the last
+  session of a long day. It is worth being deliberate about this, because a tired group will keep
+  nodding at you for another forty minutes and absorb none of it.
+
+  One is enough. Two in a session reads as a facilitator filling time.
+
+  ## Who am I? (15 minutes)
+
+  Write a name on each slip of paper, real or fictional, living or dead, and tape one to each
+  learner's back without them seeing it. They then move around asking each other questions that can
+  only be answered yes or no, until they work out who they are.
+
+  The whole game depends on the names. Choose people your group will genuinely recognise, which
+  usually means asking a learner to help you draw up the list rather than writing it yourself. A list
+  of names nobody knows produces a room of people standing about politely.
+
+  ## Categories (15 minutes)
+
+  The group sits in a circle and claps a steady beat. Someone names a category, fruits, cities,
+  singers, colours. Going round the circle, each person names something in that category, on the
+  beat, without repeating anything already said. When someone stalls, start a new category.
+
+  Slow the beat down. Facilitators set it far too fast, which turns a warm-up into an elimination
+  game and takes out the least confident speakers first.
+
+  ## Two truths and a lie (10 minutes)
+
+  Everyone thinks of three statements about themselves, two true and one false, then reads them to
+  the group, which guesses the lie. Give two minutes of writing time first: without it, the truths
+  are all thin and the game is over quickly.
+
+  There is a version of this in the Powerful Narratives course,
+  [two truths and a lie](/materials/pn-two-truths-and-a-lie), which uses the same mechanism to teach
+  something about how believable stories are constructed. Use this version as a warm-up and that one
+  when you want the point.
+
+  ## Look up and scream! (5 to 10 minutes)
+
+  A tight circle, everyone looking down at their feet. On three, everyone looks up and straight at
+  one other person. If two people happen to be looking at each other, both scream. It takes two
+  minutes and it is very loud.
+
+  Check what is happening in the next room before you run this, and do not use it with a group that
+  has just been talking about something difficult.
+
+  ## Penguins (10 minutes)
+
+  In pairs, each pair agrees a sound only they will make, usually an animal noise. Then everyone
+  shuts their eyes and moves slowly around the room making their sound, trying to find their partner
+  by ear. Pairs who find each other open their eyes and step out to watch.
+
+  Clear the floor first, and station yourself where you can stop people walking into furniture. If a
+  learner is uncomfortable moving with their eyes closed, let them keep their eyes open and be the
+  one who stands still while their partner finds them.
+
+  ## Adapting for a low-language or mixed-language group
+
+  Categories and two truths and a lie both run on words and will exclude anyone whose command of the
+  session language is weakest. Look up and scream, penguins and who am I? need almost none, so they
+  are the ones to reach for in a multilingual room or in an early language course.
+facilitationNotes: >-
+  The one thing to get right is the timing of the decision, not the running of the game. By the time
+  a facilitator notices they have lost the room, they have usually lost it for ten minutes already,
+  so watch for the early signs: side conversations, phones, people leaning back, the same three
+  learners answering everything. Then stop the session cleanly, run one energiser, and go straight
+  back in. Do not use an energiser to rescue a piece of content that is not working. That is a
+  different problem and it will still be there afterwards.
+steps:
+  - title: "Notice the room has gone, and say so"
+    duration: 1 min
+    guidance: >-
+      Stop the current activity at a natural break rather than mid-sentence. Name it plainly and
+      without blame: we have been sitting for an hour and I can see we all need to move. A group that
+      is told why it is standing up cooperates; a group that is simply told to stand up complies.
+    keyPrompts:
+      - "We have been at this a while. Everybody up for five minutes?"
+    watchOuts:
+      - "The energiser is used to paper over content that is not landing. If the group is confused rather than tired, an energiser buys you nothing; go back and re-teach it."
+      - "The break is announced as a reward for good behaviour. That makes it a management tool and kills it as a repair."
+  - title: "Choose by what the room needs, and by who is in it"
+    duration: 1 min
+    guidance: >-
+      A quiet, flat group needs noise: look up and scream, or penguins. A restless group needs
+      focus: categories, with a slow beat. A group that does not yet know each other gets more from
+      who am I? or two truths and a lie. Check the language demand and the physical demand against
+      the people actually present before you commit.
+    keyPrompts:
+      - "Is this room flat, or is it fidgety? Those need opposite games."
+    watchOuts:
+      - "A word-heavy game is chosen in a room where several learners are working in a second or third language. They will stand at the edge of it."
+      - "Penguins is run in a cluttered room. Clear the floor first or choose something else."
+  - title: "Run it fast and keep it short"
+    duration: 5-10 min
+    guidance: >-
+      Give the rules in two sentences and start. Take part yourself, because a facilitator standing
+      at the edge with a clipboard tells the group this is something being done to them. Watch the
+      energy rather than the clock and cut it while it is still working, which is usually sooner than
+      you expect.
+    keyPrompts:
+      - "One more round and then we sit down."
+    watchOuts:
+      - "The game becomes an elimination contest, with the same confident learners lasting longest. Restart rather than let one person win the room."
+      - "The noise level makes it impossible to regain attention. Agree a stop signal, a hand up or a clap pattern, before you begin."
+  - title: "Go straight back to the work"
+    duration: 1 min
+    guidance: >-
+      Do not debrief an energiser. It has no lesson in it and pretending otherwise is the fastest way
+      to teach a group that reflection questions in this course are decoration. Sit down, restate in
+      one sentence where you had got to, and continue.
+    keyPrompts:
+      - "Right. We were deciding how we will gather this. Where had we got to?"
+    watchOuts:
+      - "The session never recovers its thread. Say where you were before you run the game, and repeat it afterwards."
+closing: >-
+  Nothing. The point of an energiser is that the session resumes as though it had never stopped, only
+  with a group that is awake.
+learnerContent: |
+  We are going to stop for five minutes and play something.
+
+  This is not a reward and it is not filler. Nobody can concentrate for two hours sitting still, and
+  the honest thing to do about that is to stand up rather than to keep going and pretend.
+
+  There is nothing to get right and nothing to learn from it. Afterwards we sit back down and carry on
+  from exactly where we stopped.
+
+  If you would rather not join in, that is fine. Stay where you are; nobody will ask why.
+
+  One thing worth taking away: **noticing that you have stopped taking anything in is a useful skill.**
+  If you can see it happening in yourself when you are working alone, you can do something about it
+  then, too.
+
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    Naming out loud that a group has run out of attention, and doing something about it rather than
+    pressing on, models something learners can then do for themselves: noticing your own state and
+    acting on it is the same skill they will need when they are working alone on a long project.
+    Groups that see this named often start asking for it, which is the outcome to want.
+principlesForegrounded: [safe-spaces, collaboration]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      Attention is a physical condition, not a matter of willingness, and a room where that is
+      acknowledged is a room where a learner can say they are struggling to concentrate without it
+      being read as rudeness.
+  - principle: collaboration
+    how: >-
+      Every one of these five games needs the whole group, and three of them fail immediately if one
+      person opts out of taking them seriously. That is a very cheap experience of mutual dependence.
+competencyCodes: [FLC2]
+competencyDevelopment:
+  - code: FLC2
+    how: >-
+      This is a facilitator's stock more than a learner's, and it matters for the learners who go on
+      to run meetings of their own: a young person leading a community group needs to know that a
+      flat room is fixable and how to fix it in five minutes with nothing.
+objectiveIds: []
+relatedSlugs:
+  - ypar-icebreakers
+  - ypar-getting-to-know-each-other
+  - pn-two-truths-and-a-lie
+  - cf-check-in-and-check-out
+  - cf-physical-and-contact-activities
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section, free to download."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free handbook the YPAR Hub team-building plans draw on."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; activities credited by the source to Youth in Focus (Youth REP: Step by Step) and Stanford's John W. Gardner Center (YELL)"
+  basis: >-
+    Every word on this page is written from scratch. The games are methods, which copyright does not
+    reach; none of the YPAR Hub, YELL or Youth REP wording is reproduced, and the originators are
+    credited and linked. We do not rely on the YPAR Hub's non-profit reprinting footer, because
+    publishing on an open website is a wider act than reprinting a sheet for your own class.
+  note: >-
+    Never paste YPAR Hub or YELL wording onto this page.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Energizers lesson plan"
+  - "Credited in that plan to Youth in Focus, Youth Research Evaluation and Planning: Step by Step; and Stanford University's Youth Engaged in Leadership and Learning (YELL) curriculum"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Energizers" lesson plan, supplied to Amala in August 2026. The five
+  games are the source's; the selection guidance, the language and access notes, and the rule against
+  debriefing an energiser are Amala's.

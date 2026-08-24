@@ -1,0 +1,206 @@
+id: ypar-agreeing-how-we-decide
+slug: ypar-agreeing-how-we-decide
+access: public
+type: activity
+title: "Agreeing how we will decide"
+summary: >-
+  The group examines decisions from its own life, sorts them into four forms, and then chooses and
+  writes down the form it will use for its own work.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group only, and necessarily so: the output is one group's agreement with itself about how it
+      will decide things. A facilitator cannot make it on the group's behalf and a learner cannot make
+      it alone. Where a cohort splits into project teams, run it once with everybody and let each team
+      adjust it afterwards.
+duration: 60 to 75 minutes.
+grouping: Three small groups for the sorting, whole group for the decision.
+materialsAndPreparation:
+  - "Three large sheets of paper, posted around the room before the session, and markers."
+  - "A note taker and a reporter in each small group, chosen by the group rather than by you."
+  - "A list of the real decisions this group will face in the coming weeks. Write it in advance; it is the difference between a discussion and an agreement."
+  - "An honest note of which of those decisions are not the group's to make, and why."
+  - "Somewhere permanent to write the final agreement, ideally beside the group's existing agreements."
+whatLearnersDo:
+  - Recall decisions from their own lives and describe how each was made.
+  - Sort those decisions into four forms and identify what each form cost.
+  - Name the forms they most often experience, and which they would change.
+  - Choose, as a group, the form this group will use for its own decisions, and record it.
+facilitationNotes: >-
+  The one thing to get right is that this session ends with a written agreement, not with an
+  understanding. A group that has discussed decision-making and then goes on deciding by whoever
+  speaks loudest has learned that discussions here do not change anything. Bring the list of real
+  decisions the group will face, and be honest at the start about which ones are not theirs, because
+  discovering that later is what destroys trust in a youth-led project. Most groups land on majority
+  or a mix, and either is fine; the group's ownership of the choice matters more than which choice it
+  makes.
+steps:
+  - title: "Warm up on who is really leading"
+    duration: 10 min
+    guidance: >-
+      Run [follow the leader](/materials/ypar-follow-the-leader) as the opening, and take its debrief
+      one step further than usual: if it is that hard to see who is leading a circle of ten people
+      copying a movement, how hard is it to see who is deciding in a meeting? That question opens the
+      session better than any introduction to the topic.
+    keyPrompts:
+      - "Was it obvious who was leading? What made it hard?"
+      - "How would you know, in a meeting, who was actually deciding?"
+    watchOuts:
+      - "The warm-up runs long and eats the session. Cap it at two rounds; the connection to decision-making matters more than a third guesser."
+  - title: "Gather decisions from your own lives, in threes"
+    duration: 15 min
+    guidance: >-
+      Split into three groups at the three sheets. Each group picks a note taker and a reporter. Then
+      they recall decisions they have been part of or subject to and write down how each was actually
+      made. Offer prompts across the range: among friends, in a classroom, at home, and a public
+      decision such as where something gets built or who gets a service.
+    keyPrompts:
+      - "You and your friends decided what to do. How was that decided?"
+      - "Something was decided about your area. Who decided it, and was anyone asked?"
+    watchOuts:
+      - "All the examples come from one part of life. Give the four prompts explicitly rather than leaving it open."
+      - "The note taker and reporter are the same two confident learners. Ask each group to choose people who have not had those roles."
+      - "A learner raises a decision made about their family, their status or their movement. Record it in the group's own neutral words and do not press for the story."
+  - title: "Name the four forms and put the examples in them"
+    duration: 15 min
+    guidance: >-
+      Back as a whole group, give the four forms with one sentence each: individual, representative,
+      majority, consensus. See [four ways a group can decide](/materials/ypar-forms-of-decision-making)
+      for the trade-offs to draw out. Sort the groups' examples together and build the costs and
+      benefits from what learners have actually lived through rather than from a prepared list.
+    keyPrompts:
+      - "Which of the four was that one, really?"
+      - "Who had to carry that decision out, and how did they feel about it?"
+    watchOuts:
+      - "Consensus is taken to mean everyone is happy. Say explicitly that it means everyone can accept it, or the group will decide it is impossible."
+      - "The facilitator delivers the pros and cons. Collect them; add at most two per form at the end and say that you are adding them."
+  - title: "Back in threes: which forms do you live under, and what would you change?"
+    duration: 10 min
+    guidance: >-
+      Send them back to their sheets with two questions: which form do you most often experience, and
+      what would you change about how decisions get made in your life? Then each reporter shares. This
+      is often the most political ten minutes of the session, and it is worth letting it be, because it
+      is where learners connect a process tool to their own position.
+    keyPrompts:
+      - "Which of these four happens to you most?"
+      - "What would you change, and what would it take?"
+    watchOuts:
+      - "The discussion turns into a list of grievances with no route out. Take it seriously, then ask the second question again: what would it take?"
+      - "A learner names something they have no power over at all. Do not offer false optimism; acknowledge it plainly and move to what this group can decide."
+  - title: "Choose the form this group will use, and write it down"
+    duration: 15 min
+    guidance: >-
+      Put the real decisions in front of the group and ask which form it wants for them. Then say
+      plainly which decisions are not the group's, and why: safeguarding, money, legal duties. Most
+      groups choose majority, or majority with consensus for anything that affects everybody, and both
+      are reasonable. Ask directly for objections, questions and changes before you write it up.
+    keyPrompts:
+      - "Which form do we want, for these decisions, and why that one?"
+      - "Any objections? Anything we should change before this goes on the wall?"
+    watchOuts:
+      - "The choice is made by acclamation after one person proposes it. Ask for objections twice, and wait; the agreement is worth nothing if it was itself made badly."
+      - "The boundary around adult decisions is left vague to keep the mood good. Name it now. A group that finds out in week six will conclude the whole thing was decoration."
+      - "The agreement is agreed and not recorded. Write it on the wall before anyone leaves the room."
+closing: >-
+  Read the written agreement back to the group, ask once more whether anyone wants it changed, and put
+  it beside the group's other agreements. Then say what happens when it is broken: that anybody may
+  point at it, including pointing at you. An agreement nobody may enforce against the facilitator is
+  not an agreement.
+learnerContent: |
+  How does your group decide things? Most groups never answer that question, and then wonder why the
+  same two people always get their way.
+
+  There are four ways it can go:
+
+  - **One person decides.**
+  - **One person decides, after asking others.**
+  - **The majority decides**, by voting.
+  - **Everyone has to be able to accept it** before it goes ahead.
+
+  Today you will look at decisions from your own life, work out which of the four each one was, and
+  say what it cost. Then you will choose one for this group and write it down.
+
+  A few things worth knowing before you choose:
+
+  - The last one does not mean everybody is happy. It means nobody is blocking it.
+  - Voting is fast, and the people who lost the vote are the ones who have to carry out something they
+    did not want.
+  - Some decisions here are not yours to make. You will be told which, today, so that you know.
+
+  Once it is written on the wall, anybody can point at it. Including pointing at the facilitator.
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    The group sets the rule by which it will exercise power over its own work, and can hold everyone
+    to it afterwards, including the adults. For learners who have spent most of their lives on the
+    receiving end of other people's decisions, being on the deciding side of one that will actually
+    govern the next several months is a small but real transfer of power rather than a description of
+    one.
+principlesForegrounded: [collaboration, safe-spaces, responsible-action]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The group has to reconcile competing preferences about how it will reconcile competing
+      preferences, which is the most fundamental collaborative act there is and is usually left
+      unexamined.
+  - principle: safe-spaces
+    how: >-
+      An agreed and visible decision procedure protects the quieter half of a group from the confident
+      half, and gives anyone a way to object to a process without having to accuse a person.
+  - principle: responsible-action
+    how: >-
+      Naming honestly which decisions belong to the adults, and why, is what makes the rest of the
+      agreement trustworthy; a youth-led project with a real boundary is more genuinely youth-led than
+      one with a pretended one.
+competencyCodes: [ALC2, FLC2, FLC1]
+competencyDevelopment:
+  - code: ALC2
+    how: >-
+      Learners run a real collaborative decision to a conclusion, with objections invited and a written
+      output, and the subject of the decision is the group's own decision-making.
+  - code: FLC2
+    how: >-
+      Choosing a procedure that protects people who do not speak first is the practical form of
+      building a group where everybody can take part.
+  - code: FLC1
+    how: >-
+      The step where the adults name which decisions are not the group's is an ethical practice
+      learners can see and copy: being clear about the limits of the power you are offering.
+objectiveIds: [peacebuilding--o3]
+relatedSlugs:
+  - ypar-forms-of-decision-making
+  - ypar-decision-making-in-practice
+  - ypar-follow-the-leader
+  - ypar-tallest-tower
+  - pb-class-agreements
+  - cf-co-create-norms
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section, free to download. This one is Decision Making Processes."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free handbook this lesson comes from, including the original Forms of Decision Making handout, which is not reproduced here."
+rights:
+  status: own-expression
+  holder: "The John W. Gardner Center for Youth and Their Communities, Stanford University (YELL curriculum); republished by the UC Berkeley YPAR Hub"
+  basis: >-
+    The lesson's shape is a method; every word here is written from scratch. The YELL handouts that
+    accompany the source plan, carrying a 2007 John W. Gardner Center copyright line, are not
+    reproduced, and the handbook is linked instead.
+  note: >-
+    Do not add the YELL handout tables to this page or to
+    [four ways a group can decide](/materials/ypar-forms-of-decision-making).
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Decision Making Processes lesson plan"
+  - "Attributed in that plan to Stanford University's Youth Engaged in Leadership and Learning (YELL) curriculum"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Decision Making Processes" lesson plan, supplied to Amala in August
+  2026. The structure, warm-up, small-group examples, the four forms, then a group decision about its
+  own procedure, is the source's. The insistence on a written agreement, the requirement to name which
+  decisions are not the group's before the choice is made, and the enforceability of the agreement
+  against the facilitator are Amala's. The source's own advice, that groups using this curriculum have
+  found democratic processes work best, is deliberately not carried across: it pre-empts the decision
+  the session exists to hand to the group.
