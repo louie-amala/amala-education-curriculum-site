@@ -196,6 +196,111 @@ relatedSlugs:
 - cb-mv-alphabet-and-first-sounds
 - cb-mv-words-about-me
 - cb-mv-writing-about-myself
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  For a learner who has never written anything, writing their own name is not a small task and it is
+  not a formality. It is often the single most emotionally significant moment in the whole programme.
+  Give it the time and the seriousness it deserves.
+
+  ### The hand needs teaching before the pencil does
+
+  An adult who has never held a pencil has undeveloped fine motor control — this is about muscles and
+  practice, not intelligence, and it is completely normal in this cohort.
+
+  So start big and get smaller: shapes in the air with the whole arm, then in dust or on the ground
+  with a finger, then large on paper, then normal size. Skipping to a pencil and a line produces
+  cramped, frustrating work.
+
+  ### Trace, then copy, then write — do not jump
+
+  Trace over the name you prepared. Then copy it underneath while looking at it. Then write it from
+  memory. Each step is a separate achievement and each deserves saying so.
+
+  Prepare each learner's name card in advance, written clearly and large.
+
+  ### Whichever spelling they choose is the correct one
+
+  Many learners will have seen their name written differently on different documents, or never seen it
+  written at all, or have a name that transliterates several ways. There is no correct version to
+  discover.
+
+  Let the learner choose, write it clearly, and treat that as their name from then on. Never correct a
+  learner's name to a "proper" spelling. See the safeguarding guidance.
+
+  ### Left hand, older learners, eyesight
+
+  Let left-handed learners write with their left hand and sit where their arm is free. Watch for
+  learners holding the paper very close or very far — uncorrected long sight is common and looks like
+  difficulty with the task. Tell your coordinator.
+
+  ### Say what it means, out loud
+
+  When a learner writes their own name for the first time, mark it. Not with fuss, but say it: that is
+  your name, and you wrote it. Many will want to take the page home. Let them.
+
+  ## Before they leave this block
+
+  - Every learner has traced their own name at least once.
+  - Every learner has made the shapes big, with the arm, before working small.
+  - Anyone who has written their name unaided has had it acknowledged.
+  - Nobody's chosen spelling has been corrected.
+learnerTeaching:
+  title: "How to write your own name"
+  readAloud: |
+    ## How to write your own name
+
+    Your name is the first thing you will write in English. It is worth taking your time over.
+
+    ### Big first, small later
+
+    Do not start with a pencil and a small line. Start big.
+
+    1. Make the shape **in the air**, with your whole arm.
+    2. Make it **on the ground**, or in dust, with your finger.
+    3. Make it **big on paper**.
+    4. Then make it normal size.
+
+    Your hand is learning a new movement. Big movements are easier to learn, and the small ones come
+    from them.
+
+    If your hand aches or the shapes come out wobbly, that is completely normal. It is your hand
+    getting stronger, not your English being wrong.
+
+    ### Three steps, in order
+
+    1. **Trace** — go over the name your facilitator wrote for you.
+    2. **Copy** — write it underneath, looking at theirs.
+    3. **Write** — write it without looking.
+
+    Each of those is a real achievement on its own. Do not rush from one to the next.
+
+    ### Your name is spelled the way YOU say it is
+
+    Some names can be written more than one way in English letters. You may have seen your own name
+    written differently in different places.
+
+    **There is no wrong one.** Choose the one you want. That is your name, and nobody will correct it.
+
+    ### Take your time
+
+    Some people in this room have written their name many times. Some have never written anything at
+    all.
+
+    Both are fine, and you are not behind. This is not a race, and there is no age at which it is too
+    late.
+
+    ### When you write it for the first time
+
+    Look at it. That is your name, and you wrote it.
+
+    That is worth stopping for.
+  words:
+    - term: trace
+      meaning: to write over the top of writing that is already there
+    - term: copy
+      meaning: to write it again underneath, looking at the first one
 worksheet:
   slug: cb-mv-writing-my-name-worksheet
   note: Included in the downloadable workbook as the My writing practice page.

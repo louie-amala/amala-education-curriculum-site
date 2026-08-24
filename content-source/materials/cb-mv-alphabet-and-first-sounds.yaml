@@ -189,6 +189,128 @@ relatedSlugs:
 - cb-mv-key-sounds-and-games
 - cb-mv-writing-my-name
 - cb-mv-my-voice-book
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The foundation of the unit, and the place to be most generous with time. Everything downstream —
+  reading a word, writing a name, spelling anything — rests on one idea landing here.
+
+  ### Letters and sounds are not the same thing, and the sound comes first
+
+  A learner who knows the letter is called "em" cannot use that to read. A learner who knows it makes
+  the sound /m/ can. So teach the SOUND of each letter, not its name — say /m/, not "em".
+
+  Learners who have seen an alphabet chart before will offer letter names. Accept it warmly and steer
+  back to the sound.
+
+  ### Start from their own name — every learner, every time
+
+  This is the pedagogical spine of the block. A learner's own name is the word they are most motivated
+  by and most likely to already recognise, and the first sound of it is their way in to the whole
+  system.
+
+  Prepare a card per learner with their name written clearly, before the session. Do not write thirty
+  names while everyone waits.
+
+  ### Recognition before production, always
+
+  The order is: hear it → point to it → trace it → copy it → write it. Never invert it.
+
+  A learner who can hear /m/ and point to the right card has learned the thing. Whether their pencil
+  can make the shape yet is a separate skill about hands, and it comes later. Do not let handwriting
+  hold up phonics.
+
+  ### Rohingya, Chittagonian, Burmese and Arabic are assets here
+
+  Some English sounds exist in learners' languages and some do not. Where a sound exists, say so and
+  use it — that is a free win. Where it does not (/p/ vs /f/, /v/, the short vowels), it will take
+  longer and needs more repetition, not more explanation.
+
+  Ask learners what the sound is like in their language. They are the experts on that, and being asked
+  changes the room.
+
+  ### The phonics progression exists — use it
+
+  The order the sounds come in is not arbitrary; it is set out in the appendix. Follow it. Do not teach
+  the alphabet A to Z, which front-loads difficult letters and delays the useful ones.
+
+  ### Go slowly, and recycle relentlessly
+
+  Little and often beats one long session. Open most later sessions with three minutes on sounds
+  already met. A sound met once is a sound lost.
+
+  ## Before they leave this block
+
+  - Every learner can say the first sound of their own name.
+  - Every learner has traced their own name at least once.
+  - Learners can hear and point to the sounds taught so far, whether or not they can write them.
+  - The group sound chart has its first entries on the wall.
+learnerTeaching:
+  title: "How letters and sounds work in English"
+  readAloud: |
+    ## How letters and sounds work
+
+    English is written with 26 letters. But here is the thing that matters most, and it is not
+    obvious:
+
+    ### A letter has a NAME and a SOUND. The sound is the useful one.
+
+    The letter **M** is called "em". But the sound it makes is **/m/** — the sound at the start of
+    "mother".
+
+    When you read a word, you use the **sounds**, not the names. So that is what we will learn first.
+
+    ### Start with your own name
+
+    Your name is the most important word in the world to you. So we start there.
+
+    - Say your name out loud.
+    - Say just the FIRST sound of it. Just that one sound.
+    - That sound has a letter. That letter is yours.
+
+    Everything else grows out of that.
+
+    ### Hearing comes before writing
+
+    We learn in this order, and it is the right order:
+
+    1. **Hear** the sound.
+    2. **Point** to the letter that makes it.
+    3. **Trace** the letter with your finger or pencil.
+    4. **Copy** it.
+    5. **Write** it on your own.
+
+    If you can hear a sound and point to its letter, **you have learned it.** Whether your hand can
+    make the shape neatly yet is a different thing — that is about your hand, not about your English,
+    and it comes with practice.
+
+    Nobody here is behind.
+
+    ### Your own language helps you
+
+    Some English sounds already exist in the language you speak at home. Those are easy — you already
+    know them, you just have to learn which letter they use.
+
+    Some English sounds do not exist in your language. Those will feel strange in your mouth, and they
+    take longer. That is not you being slow. That is just a new shape for your mouth to make, and
+    mouths learn.
+
+    Tell your facilitator when a sound feels strange. You know your own language best.
+
+    ### It comes back, again and again
+
+    You will not learn a sound once and have it. Nobody does.
+
+    We will come back to every sound many times, in games and songs and words. Each time it gets a
+    little easier. That is how it works for everybody.
+  words:
+    - term: sound
+      meaning: what a letter says — not what it is called
+    - term: letter
+      meaning: the written shape that makes a sound
+    - term: trace
+      meaning: to draw over a shape that is already there
 worksheet:
   slug: cb-mv-alphabet-and-first-sounds-worksheet
   note: Included in the downloadable workbook as the My name page.

@@ -222,6 +222,53 @@ relatedSlugs:
 - cb-mv-alphabet-and-first-sounds
 - cb-mv-words-about-me
 - cb-mv-i-can-checklist
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The My Voice book is the spine of the component: the "I can…" check, the growing word collection, the
+  name practice, the sentence frames, the practice loop, and the final card all live in it. This block
+  makes it theirs and makes using it habitual.
+
+  ### Make it theirs in the first five minutes
+
+  A drawing of themselves, or their name big on the front. Learners look after a thing that is theirs
+  and lose a thing that was handed out.
+
+  ### Show them it teaches, as well as records
+
+  Turn to a "Learn it" page and say what it is: this teaches you how, it stays in your book, and you
+  can read it again any time — after the session, at home, or when you come back from a week away.
+
+  Most learners have never had a book that was theirs to keep. Say it, or they will treat it as a
+  worksheet to hand in.
+
+  ### The word collection is the engine — start it today
+
+  Get one picture-word in on day one: draw a thing, say it, write the English word, add their own
+  language if they want. That page should be visibly longer every week, and pointing learners back to
+  it is one of the highest-value habits you have.
+
+  ### Fix when it comes out, and where it lives
+
+  One repeating moment each session, held even when the session overruns. Then ask out loud where books
+  will live between sessions, and offer the kept-at-the-centre option before anyone has to ask — some
+  learners cannot keep one dry or private at home, and nobody should have to explain that in front of
+  the group.
+
+  ### The book is not a diary
+
+  A working book for English, not a place for private things. It goes home with the learner, so nothing
+  sensitive belongs in it.
+
+  ## Before they leave this block
+
+  - Every learner has their name or drawing on the front and one picture-word inside.
+  - Every learner has seen a "Learn it" page and knows they can re-read it.
+  - The group has agreed the moment each session when books come out.
+  - Everyone knows where their book lives, without anyone having been singled out.
+learnerTeachingNotNeeded: >-
+  Procedural: how to set up, use and look after the My Voice book. The book's own front matter already tells the learner it is theirs, what a Learn it page is, and that a drawing is a full answer. A separate Learn it page would repeat it.
 worksheet:
   slug: cb-mv-my-voice-book-worksheet
   note: Included in the downloadable workbook as the cover and Draw yourself page.

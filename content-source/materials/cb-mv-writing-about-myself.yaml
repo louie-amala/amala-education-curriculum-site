@@ -191,6 +191,105 @@ relatedSlugs:
 - cb-mv-writing-my-name
 - cb-mv-i-am-sentences
 - cb-mv-design-my-name-my-voice
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The most exposing block in the unit for a learner who cannot yet write, so the scaffold has to be
+  visibly generous and the alternative has to be genuinely equal.
+
+  ### Three routes, all of them complete
+
+  Say these plainly at the start, and mean it:
+
+  1. **Copy** the sentence your facilitator wrote for you.
+  2. **Complete** a sentence frame with your own word.
+  3. **Say it and draw it**, and someone writes it for you.
+
+  Route 3 is not a lesser version. A learner who says a true sentence about themselves has done the
+  English; writing is a separate motor skill on its own timeline. If route 3 is treated as the sad
+  option, learners will attempt route 1 badly rather than be seen taking it.
+
+  ### Scribing is real teaching, not a favour
+
+  When you write a learner's words for them, say each word as you write it and let them watch. They see
+  their own speech become text — which is the Language Experience idea, and it is powerful precisely
+  because the words are theirs.
+
+  Then let them trace over it if they want to.
+
+  ### Content over accuracy, still
+
+  A true sentence with wrong spelling is a success. Do not correct spelling on a first attempt at
+  self-expression; you will get shorter, safer sentences from then on. Note what to recycle.
+
+  ### The subject is the learner, so the lighter twin applies
+
+  Every prompt about home, family or where you are from needs its everyday alternative available
+  without anyone asking for it. See the safeguarding guidance.
+
+  ### Nothing is read aloud without permission
+
+  Ask before sharing anything a learner has written, and accept no without a reason. This is the block
+  where a learner is most likely to have written something that felt risky.
+
+  ## Before they leave this block
+
+  - Every learner has produced at least one true sentence about themselves, by any of the three routes.
+  - Anyone who used route 3 has had it treated exactly like the others.
+  - Nothing has been read aloud without the learner agreeing.
+learnerTeaching:
+  title: "How to write a little about yourself"
+  readAloud: |
+    ## Writing a little about yourself
+
+    You can already SAY true sentences about yourself. Now we put some of them on paper.
+
+    ### There are three ways, and all three count
+
+    **1. Copy.** Your facilitator writes it, you copy it.
+
+    **2. Complete.** The start is printed — *I am from ______* — and you add your own word.
+
+    **3. Say and draw.** You say your sentence out loud, draw it, and someone writes the words for you.
+
+    ### Number three is not the easy option
+
+    Read this carefully, because it matters.
+
+    If you say a true sentence about yourself in English, **you have done the English.** All of it.
+    Writing is a separate skill — it is about your hand — and it arrives on its own timetable.
+
+    Nobody in this room is doing a lesser version. Choose the route that fits you today, and change
+    routes whenever you like.
+
+    ### When someone writes for you, watch
+
+    Watch the words appear as they are said. Those are YOUR words on that paper — you made them, you
+    just did not hold the pencil.
+
+    Then, if you want, trace over them.
+
+    ### Do not worry about spelling
+
+    Not yet. Not at all, in this block.
+
+    If someone can read it and understand you, it worked. Spelling gets tidy later, with practice — and
+    people who worry about spelling write less, which means they get better slower.
+
+    ### You choose what to say
+
+    These sentences are about you, so you decide how much of yourself to put in them.
+
+    Something everyday — a food you like, a colour, something you can do — is a full and complete
+    answer. Nobody will ask why you chose it.
+
+    And nothing you write will be read out unless you say yes.
+  words:
+    - term: copy
+      meaning: to write the same words again, looking at them
+    - term: complete
+      meaning: to finish a sentence that has already been started for you
 worksheet:
   slug: cb-mv-writing-about-myself-worksheet
   note: Included in the downloadable workbook as the Writing a little about myself page.

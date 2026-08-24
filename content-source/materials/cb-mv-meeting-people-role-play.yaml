@@ -194,6 +194,111 @@ objectiveIds:
 relatedSlugs:
 - cb-mv-i-am-sentences
 - cb-mv-classroom-language-and-warm-ups
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The bridge between saying sentences in a safe room and using English with a real person. That gap is
+  where most beginner English dies, so this block is more important than it looks.
+
+  ### Rehearsal reduces fear more than encouragement does
+
+  Telling a learner not to be shy achieves nothing. Having already done the exact thing, four times,
+  with four different partners, achieves a great deal.
+
+  So run it many times with rotation, not once well. Volume of repetition is the mechanism.
+
+  ### Model it badly on purpose, once
+
+  Do the meeting mumbling, no eye contact, no reply. Let the group name what was wrong. It is funny, it
+  makes the components explicit without a lecture, and it gives permission to be imperfect.
+
+  ### The whole arc, every time
+
+  Greet → say your name → ask theirs → say one thing → thank → goodbye. Learners practise the SHAPE,
+  so that when a real meeting happens they are not deciding what comes next while also finding words.
+
+  ### "This is my friend" is the stretch, and it is worth including
+
+  Introducing a third person uses "he is / she is", requires listening to your partner, and is what
+  turns pair work into a group. It also produces the moment where a learner hears their own name said
+  correctly by a peer, which lands.
+
+  ### Then push it outside, with a small mission
+
+  End with one achievable spoken mission before the next session — greet one person in English. Small
+  enough to certainly happen. Then ask about it, warmly, at the start of the next session, and
+  celebrate whoever did it.
+
+  If a learner is too shy to speak outside the space, practising with one trusted person counts fully.
+  Say so, so nobody quietly fails.
+
+  ### Same-gender pairs where it matters
+
+  Mixed pairs will silence some learners entirely. Arrange it so that everyone can actually speak.
+
+  ## Before they leave this block
+
+  - Every learner has run the whole arc at least three times, with different partners.
+  - Every learner has introduced someone else using "he is" or "she is".
+  - Everyone has a small spoken mission for before the next session.
+learnerTeaching:
+  title: "How to meet someone in English"
+  readAloud: |
+    ## How to meet someone in English
+
+    Saying sentences in this room is one thing. Saying them to a real person is another — and that is
+    the one that matters.
+
+    ### The shape of a meeting
+
+    Every meeting has the same six steps. Learn the shape, and you never have to wonder what comes next.
+
+    1. **Greet.**   "Hello."
+    2. **Say your name.**   "My name is ______ ."
+    3. **Ask theirs.**   "What is your name?"
+    4. **Say one thing.**   "I am from ______ ." or "I like ______ ."
+    5. **Thank them.**   "Thank you."
+    6. **Say goodbye.**   "Goodbye."
+
+    That is a complete conversation in English. You already know every word in it.
+
+    ### Introducing someone else
+
+    - **"This is my friend. This is ______ ."**
+    - **"He is from ______ ."**   /   **"She likes ______ ."**
+
+    To do that, you have to LISTEN to your friend first. That is part of it.
+
+    ### Practise until it is boring
+
+    Do the whole thing with one partner. Then a different partner. Then another.
+
+    By the fourth time it stops being frightening and starts being automatic. That is exactly what we
+    want — because when you meet someone for real, you want the words to come without thinking.
+
+    **Being nervous the first time is not a sign you are not ready. It is a sign you have not done it
+    enough times yet.**
+
+    ### Then try it outside
+
+    Before we next meet, greet **one person** in English. That is all. One.
+
+    A neighbour. A brother or sister. Someone at the water point. Your mentor.
+
+    If speaking to someone you do not know feels like too much, do it with one person you trust
+    completely. **That counts fully.** Nobody is checking, and nobody will ask why you chose them.
+
+    ### It will feel strange, and then it will not
+
+    Speaking a new language out loud feels odd at first — for everybody, in every language.
+
+    That feeling goes away, but only by doing it. There is no way to think your way past it.
+  words:
+    - term: greet
+      meaning: what you say when you meet someone — hello
+    - term: introduce
+      meaning: to tell someone who you are, or who your friend is
 worksheet:
   slug: cb-mv-meeting-people-role-play-worksheet
   note: Included in the downloadable workbook as the Meeting people prompt cards.

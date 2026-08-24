@@ -40,7 +40,7 @@ const {
   plain, toParas, P, runs, body, bullet, label, H1, H2, H3, mini, hr, pageBreak,
   eyebrow, title, bold, example, noteBox, stem, ruled, linedArea, writeBox, choices, check, slot,
   zones, grid, notesPage, box, writeLine, gridBoxes, mdTable, mdBlocks,
-  contents, printNotes, makeDoc,
+  contents, printNotes, makeDoc, eyebrowChip, scribe,
 } = S;
 
 // ---- scaffolding helpers (worked examples, stems, standing scribe note) ----
@@ -135,6 +135,12 @@ function facilitatorPlanChildren(opts = {}) {
         if (m.grouping) c.push(label('Grouping:', m.grouping));
         if (m.whatLearnersDo && m.whatLearnersDo.length) { c.push(mini('What learners do')); m.whatLearnersDo.forEach((x) => c.push(bullet(x))); }
         if (m.materialsAndPreparation && m.materialsAndPreparation.length) { c.push(mini('Materials and preparation')); m.materialsAndPreparation.forEach((x) => c.push(bullet(x))); }
+        // The subject brief: what a facilitator needs to KNOW to teach this block. Offline this is the
+        // only place they can read it, so it comes before the practical detail.
+        if (m.educatorContent) c.push(...mdBlocks(m.educatorContent));
+        if (m.learnerTeaching) {
+          c.push(P(`The learners have this taught in their own book, on the \u201c${m.learnerTeaching.title}\u201d page \u2014 read it aloud to the group.`, { size: 20, italics: true, color: GREY, after: 100 }));
+        }
         if (m.facilitationNotes) { c.push(mini('Facilitation notes')); c.push(...body(m.facilitationNotes)); }
         (m.steps || []).forEach((s, si) => {
           c.push(H3(`Step ${si + 1}: ${s.title}${s.duration ? '  (' + s.duration + ')' : ''}`));
@@ -206,6 +212,42 @@ function workbookChildren(opts = {}) {
     c.push(pageBreak());
   };
 
+  // LEARN IT — the method, taught, before the learner is asked to use it. Its own page, so a learner
+  // can re-read it while their own sheet is already filled in, and so someone who missed the session
+  // still has the teaching. Answers, where a skill has right ones, go at the BACK of the book.
+  const withAnswers = [];
+  const learnIt = (slug) => {
+    const m = mat[slug];
+    const lt = m && m.learnerTeaching;
+    if (!lt) return;
+    c.push(eyebrowChip('learn it', m.title));
+    c.push(...wbTitle(lt.title, ''));
+    c.push(...mdBlocks(String(lt.readAloud || '').replace(/^\s*##\s+.*\n/, '')));
+    if (lt.words && lt.words.length) {
+      c.push(noteBox('New words:', lt.words.map((w) => `${w.term} \u2014 ${w.meaning}`)));
+    }
+    const t = lt.tryIt;
+    if (t) {
+      c.push(new Paragraph({ children: [new TextRun({ text: 'Try it yourself', bold: true, size: 23, color: PLUM })], spacing: { before: 200, after: 60 } }));
+      toParas(t.intro).forEach((x) => c.push(P(x, { size: BOOK, line: 300 })));
+      (t.items || []).forEach((it, i) => {
+        c.push(P(`${i + 1}.   ${it}`, { size: BOOK, line: 300, before: 80, after: 20 }));
+        if ((t.chooseFrom || []).length) {
+          c.push(new Paragraph({ children: t.chooseFrom.flatMap((o) => [
+            new TextRun({ text: '\u25cb  ', size: BOOK, color: PLUM }), new TextRun({ text: o + '      ', size: BOOK }),
+          ]), indent: { left: 340 }, spacing: { after: 60, line: 280 } }));
+        }
+      });
+      if (t.then) toParas(t.then).forEach((x) => c.push(P(x, { size: BOOK, line: 300, before: 60 })));
+      if ((t.answers || []).length) {
+        c.push(P('The answers are at the back of your book. Try it first, then check.', { size: 20, italics: true, color: GREY, before: 80 }));
+        withAnswers.push({ m, t });
+      }
+    }
+    c.push(scribe());
+    c.push(pageBreak());
+  };
+
   const labelBoxes = (items, cols, cellH) => {
     const colW = Math.floor(10800 / cols);
     const rows = [];
@@ -257,6 +299,7 @@ function workbookChildren(opts = {}) {
   else c.push(pageBreak());
 
   // --- The "I can…" sheet ---
+  learnIt('cb-mv-i-can-checklist');
   head('Mark where I am now', 'I can…', 'Your facilitator reads each line. Circle the face that is true for you today. There are no wrong answers.');
   c.push(modelBox([
     'yes, I can  =  :)        a little  =  :|        not yet  =  :(',
@@ -332,6 +375,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Our classroom words ---
+  learnIt('cb-mv-classroom-language-and-warm-ups');
   head('The English of our classroom', 'Our classroom words', 'Your facilitator says each word. Draw a small picture in its box so you remember it, and say it aloud.');
   c.push(modelBox(['hello  →  draw a hand waving  →  say: "hello"'], { label: 'Like this — one box' }));
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: 100 } }));
@@ -340,11 +384,13 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Listening: hello and names ---
+  learnIt('cb-mv-listening-hello-and-names');
   head('Listening: hello and names', 'Listening: hello and names', 'Listen. Point to and mark what you hear. No writing needed.');
   c.push(labelBoxes(['a wave = hello', 'a hand up = my name', 'two people = hello to you', 'a face I know'], 2, 2900));
   endPage();
 
   // --- My name ---
+  learnIt('cb-mv-alphabet-and-first-sounds');
   head('The alphabet and your first sounds', 'My name', 'Your name is yours to keep. Trace it, then copy it. Do it as many times as you like.');
   c.push(modelBox([
     'Your facilitator writes your name BIG in the box. First trace it with your finger, then with a pencil. Then copy it on the lines.',
@@ -359,6 +405,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- My sounds and words (the learner's phonics-table tool: draw · English word · my word) ---
+  learnIt('cb-mv-key-sounds-and-games');
   head('Key sounds through games', 'My sounds and words', 'This is your own word collection — keep adding to it all course long. Draw a thing, write its English word, and add your own word.');
   const swW = [5400, 2700, 2700];
   const swCell = (t, opts = {}) => new TableCell({ width: { size: opts.w, type: WidthType.DXA }, margins: opts.tint ? MODEL_MARGINS : undefined, shading: opts.tint ? { type: ShadingType.CLEAR, color: 'auto', fill: TINT } : undefined, children: [new Paragraph({ children: [new TextRun({ text: t, bold: opts.bold, italics: opts.italics, size: 20, color: opts.color || NAVY })] })] });
@@ -372,6 +419,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Building sounds and words ---
+  learnIt('cb-mv-sound-and-letter-practice');
   head('Sound and letter practice', 'Building sounds and words', 'Build your name and words from letters, one box at a time. Say each sound as you put it down.');
   c.push(modelBox(['One letter in each box:', '[ s ]  [ u ]  [ n ]   →  say it together:  "sun"'], { label: 'Like this' }));
   c.push(new Paragraph({ children: [new TextRun({ text: 'Build my name, one letter at a time:', size: 22, color: PLUM })], spacing: { before: 160, after: 100 } }));
@@ -384,6 +432,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Words about me ---
+  learnIt('cb-mv-words-about-me');
   head('Words about me', 'Words about me', 'Draw in each box. Your facilitator helps with the English word. You choose what to show — a lighter, everyday thing is always fine.');
   c.push(modelBox(['My family:  draw your family, then say "mother", "brother".', 'Where I am from:  draw your place. You choose what to show.']));
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: 90 } }));
@@ -395,6 +444,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- My writing practice ---
+  learnIt('cb-mv-writing-my-name');
   head('Writing my name', 'My writing practice', 'Copy the word your facilitator writes for you at the start of each line. Take your time.');
   c.push(modelBox(['Your facilitator writes a word at the start of the line. You copy it along the line:', 'Nur          Nur          Nur          Nur']));
   c.push(new Paragraph({ children: [new TextRun({ text: 'My name', bold: true, size: 22, color: PLUM })], spacing: { before: 160, after: 80 } }));
@@ -404,6 +454,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- I can say who I am ---
+  learnIt('cb-mv-i-am-sentences');
   head('I am… — saying who you are', 'I can say who I am', 'Say each sentence out loud. Fill the ending with your own true words — write, trace, or say it and draw.');
   c.push(modelBox([
     'I am Fatima.',
@@ -417,6 +468,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Building sentences ---
+  learnIt('cb-mv-sentence-practice');
   head('Sentence practice', 'Building sentences', 'Put the word cards together to make a true sentence about you. Then say it out loud.');
   c.push(modelBox([
     '[ I ]   [ am from ]   [ Myanmar ]   →   "I am from Myanmar."',
@@ -430,6 +482,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Meeting people ---
+  learnIt('cb-mv-meeting-people-role-play');
   head('Meeting people', 'Meeting people', 'Use these picture cards to meet someone. Point and speak. No reading needed.');
   c.push(modelBox([
     'Nur:    Hello! My name is Nur. What is your name?',
@@ -441,6 +494,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Writing a little about myself ---
+  learnIt('cb-mv-writing-about-myself');
   head('Writing a little about myself', 'Writing a little about myself', 'Copy or finish a sentence about you. If writing is not comfortable yet, say it and draw it.');
   c.push(modelBox(['My name is Nur.', 'I am from Myanmar.'], { label: 'Like this', size: 24 }));
   c.push(new Paragraph({ children: [new TextRun({ text: 'Now you:', size: 22, color: PLUM, bold: true })], spacing: { before: 160, after: 20 } }));
@@ -463,6 +517,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- My Name, My Voice card (a labelled TEMPLATE with a worked example, not a blank canvas) ---
+  learnIt('cb-mv-design-my-name-my-voice');
   head('Make your My Name, My Voice card', 'My Name, My Voice', 'Make your card. It has a place for everything — your name, a picture, and your words. You choose what to show.');
   c.push(modelBox(['MY NAME:  Nur', '(a picture of Nur and a flower)', 'I am from Myanmar.    I like flowers.'], { label: 'Like this — a finished card' }));
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: 100 } }));
@@ -490,6 +545,20 @@ function workbookChildren(opts = {}) {
   c.push(new Paragraph({ spacing: { before: 120, after: 40 }, children: [new TextRun({ text: 'I want to keep learning:  ', bold: true, size: 22, color: PLUM }), new TextRun({ text: '______________________________', size: 22, color: NAVY })] }));
   c.push(new Paragraph({ spacing: { before: 180, after: 40 }, children: [new TextRun({ text: 'How far have I come?  Mark it:      start  •————————————————•  now', size: 21, color: OLIVE })] }));
   c.push(scribeNote());
+
+  // ANSWERS — at the back, so a learner can try each self-check honestly and mark themselves.
+  if (withAnswers.length) {
+    c.push(pageBreak());
+    c.push(...wbTitle('Answers \u2014 try it yourself', 'Do the "Try it yourself" on the Learn it page first, then look here. Getting one wrong is useful \u2014 go back and read that page again, and see why.'));
+    withAnswers.forEach(({ m, t }) => {
+      c.push(P(m.learnerTeaching.title, { size: 24, bold: true, color: NAVY, before: 160, after: 60 }));
+      (t.items || []).forEach((it, i) => {
+        c.push(P(`${i + 1}.   ${it}`, { size: 21, bold: true, before: 80, after: 30 }));
+        c.push(P(`${t.answers[i]}`, { size: 21, color: '3F4A34', after: 40 }));
+      });
+      c.push(hr());
+    });
+  }
 
   return c;
 }

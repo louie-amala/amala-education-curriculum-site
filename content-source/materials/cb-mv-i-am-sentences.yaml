@@ -199,6 +199,142 @@ relatedSlugs:
 - cb-mv-words-about-me
 - cb-mv-meeting-people-role-play
 - cb-mv-writing-about-myself
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  This is the block where words become a person. Learners have collected picture-words; here they put
+  them into sentences that say who they are — and for many this is the first true thing they have ever
+  said about themselves in English.
+
+  ### Teach the frame as a whole chunk, not as grammar
+
+  Do not explain the verb "to be". Teach **I am ___** as a single unbreakable piece, the way a phrase
+  is learned, and let the grammar arrive later through use.
+
+  Beginners learn chunks faster than rules, and a rule explained to someone who cannot yet hear the
+  difference between "am" and "are" is noise. The rule block comes next; this one is for fluency.
+
+  ### The three frames, and no more
+
+  **I am ___ · I am from ___ · I like ___.** Three. A fourth will cost you the fluency of the first
+  three.
+
+  Learners fill them with words they already collected, which is why the picture-word page comes first.
+  If a learner has no word for what they want to say, give them the word — do not send them away to
+  find one.
+
+  ### Choral, then pairs, then one at a time — and never skip the first
+
+  Everyone says it together first. It is loud, it protects the learner who is unsure, and nobody is
+  performing alone. Then pairs, many times. Only then, and only for volunteers, one at a time.
+
+  A learner who only ever says it in chorus and in pairs has succeeded in this block.
+
+  ### "I am from" needs care, every time
+
+  For a displaced cohort this is not a neutral question. Some learners were born in the camp. Some do
+  not remember the place they are from. Some have been told not to discuss it.
+
+  So offer both, plainly, before anyone answers: **the place you live now**, or **the place you are
+  from** — whichever you want to say. Both are correct answers to the same English sentence. Do not
+  single out anyone who takes the first, and do not ask a follow-up.
+
+  ### Then "he is / she is" — because it teaches listening
+
+  Introducing someone else — *this is Amina, she is from...* — does two things: it gets the pronouns in
+  through use rather than explanation, and it means learners have to LISTEN to each other, which is
+  what makes a class into a group.
+
+  ### Accept true over correct
+
+  A learner who says "I am from camp four" with the wrong stress and no article has succeeded. Correct
+  nothing during speaking. Note what to recycle tomorrow.
+
+  ## Before they leave this block
+
+  - Every learner can say at least two true sentences about themselves, aloud, to another person.
+  - Every learner has heard someone else introduced with "he is" or "she is".
+  - Nobody has been made to speak alone in front of the group.
+  - The three frames are on the wall and stay there.
+learnerTeaching:
+  title: "How to say who you are"
+  readAloud: |
+    ## How to say who you are
+
+    You have collected words. Now we put them into sentences — so you can tell someone who you are.
+
+    ### Three sentences. That is all you need to begin.
+
+    - **I am ______ .**   (your name)
+    - **I am from ______ .**   (a place)
+    - **I like ______ .**   (something you like)
+
+    With those three, you can introduce yourself to anyone in the world who speaks English.
+
+    ### Learn them as ONE piece
+
+    Do not try to understand why it is "I am" and not "I is". Not yet.
+
+    For now, take **"I am"** as one thing, like one word. Say it many, many times until it comes out
+    without thinking. The reason comes later, and it will make sense then.
+
+    This is how everybody learns a language at the start. Chunks first, rules after.
+
+    ### About "I am from"
+
+    You choose what to say here.
+
+    You can say the place you live now. You can say the place you are from. **Both are right.** It is
+    your sentence and nobody will ask you why you chose one.
+
+    ### Now for other people
+
+    - **He is ______ .**   (a boy, a man)
+    - **She is ______ .**   (a girl, a woman)
+
+    So you can introduce your friend:
+
+    **"This is Amina. She is from camp four. She likes cooking."**
+
+    Listen carefully when someone introduces you. Being introduced properly, and having your name said
+    correctly, feels good — so do it well for other people.
+
+    ### Say it out loud, a lot
+
+    You cannot learn this by looking at it. You learn it by saying it.
+
+    Say it with everyone together. Then say it to your partner. Then say it again to a different
+    partner. Then say it at home tonight.
+
+    ### It only has to be TRUE, not perfect
+
+    If someone understands you, you have succeeded. Perfect comes later, and it comes from using it —
+    not from waiting until you are ready.
+  words:
+    - term: I am
+      meaning: how you start a sentence about yourself
+    - term: he is / she is
+      meaning: how you start a sentence about someone else
+    - term: from
+      meaning: the word before a place
+  tryIt:
+    intro: >-
+      Choose the right word for each sentence. Circle it, then check at the back of the book.
+    chooseFrom: ["am", "is", "are"]
+    items:
+      - "I ______ Fatima."
+      - "She ______ my sister."
+      - "We ______ from the same camp."
+      - "He ______ from Myanmar."
+    answers:
+      - "am. \"I\" always goes with \"am\". Always. I am, I am, I am."
+      - "is. \"She\" goes with \"is\". So does \"he\", and so does one thing or one person."
+      - "are. \"We\" goes with \"are\". So does \"you\", and so does more than one."
+      - "is. \"He\" goes with \"is\", the same as \"she\"."
+    then: >-
+      Now say your own three sentences out loud. Then say two about a person next to you, using he or
+      she.
 worksheet:
   slug: cb-mv-i-am-sentences-worksheet
   note: Included in the downloadable workbook as the I can say who I am page.

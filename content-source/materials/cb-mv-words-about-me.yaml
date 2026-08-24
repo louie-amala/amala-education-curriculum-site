@@ -195,6 +195,111 @@ relatedSlugs:
 - cb-mv-my-voice-book
 - cb-mv-i-am-sentences
 - cb-mv-alphabet-and-first-sounds
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  Learners build a personal picture-vocabulary here — the raw material for every sentence, and for the
+  final card. The whole block turns on one decision: whose words are they?
+
+  ### Let learners choose the words, and supply what they ask for
+
+  A supplied word list produces a class that can say the same nine things. Ask what each learner wants
+  to be able to say about themselves, and give them THAT word.
+
+  This is slower and much better. A word a learner asked for is remembered; a word from a list is not.
+
+  ### Picture, word, home-language word — all three
+
+  Each entry gets a drawing, the English word, and the word in their own language if they want it.
+  Translanguaging is a bridge, not a crutch — a learner who can anchor "sister" to the word they
+  already have will hold it far better.
+
+  ### The drawing is not decoration
+
+  For a learner who cannot yet read, the drawing IS how they find the word again later. Give real time
+  for it. A page of neat English words a learner cannot read is a page they will never use.
+
+  ### Sensitive ground, and the lighter twin
+
+  "Words about me" invites family, home, and what a learner has. Some of those words are painful, and
+  some households have very little.
+
+  So say plainly, before anyone starts: you choose what to show, and an everyday thing is always a
+  full answer — a bird, a colour, a food, something you like. Never single out a learner who chooses
+  the everyday version. See the safeguarding guidance.
+
+  ### Keep adding all course
+
+  This is not a one-session page. Point learners back to it whenever a word comes up — in the research
+  component, in mentoring, in the corridor. The collection should be visibly longer in week ten than in
+  week four.
+
+  ## Before they leave this block
+
+  - Every learner has at least six words that they chose, each with a drawing.
+  - Home-language words are written where learners wanted them.
+  - No learner has been asked why they chose an everyday word.
+  - Learners know the page keeps growing.
+learnerTeaching:
+  title: "How to collect the words you need"
+  readAloud: |
+    ## How to collect your own words
+
+    You are going to build your own collection of English words. Not words someone chose for you —
+    **words you want.**
+
+    ### Start from what you want to say
+
+    Think of something you want to be able to tell someone about yourself. Your family. Something you
+    like. Something you can do. A place. A colour.
+
+    Then ask for that word. Your facilitator will give it to you.
+
+    A word you asked for is a word you will remember. A word from a list is not.
+
+    ### Three things for each word
+
+    In each box, put:
+
+    1. **A drawing** of the thing.
+    2. **The English word.**
+    3. **The word in your own language**, if you want it.
+
+    ### The drawing is the important part
+
+    This might seem backwards, but it is not.
+
+    Right now, if you write only the English word, you may not be able to read it next week. But you
+    will always know what your own drawing means.
+
+    **The drawing is how you find the word again.** So take your time over it, and draw it your way.
+
+    ### Your own language helps you
+
+    Writing the word you already know next to the new one builds a bridge between them. That is not
+    cheating and it is not a sign you are behind. It is how everyone who speaks more than one language
+    actually learns.
+
+    ### You choose what to show
+
+    Some of these words are about family and home. You choose which ones to put down.
+
+    If you would rather draw a bird, a colour, or a food you like, **that is a full answer.** Nobody
+    will ask you why.
+
+    ### It keeps growing
+
+    This page is not finished today. Add to it whenever you meet a word you want — in this class, in
+    the research sessions, with your mentor, anywhere.
+
+    By the end of the course it should be much longer than it is now. That growing list is your
+    English.
+  words:
+    - term: word collection
+      meaning: your own page of words, that you chose and drew
+    - term: translate
+      meaning: to say the same thing in another language
 worksheet:
   slug: cb-mv-words-about-me-worksheet
   note: Included in the downloadable workbook as the Words about me page.

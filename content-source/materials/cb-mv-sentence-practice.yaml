@@ -244,6 +244,146 @@ relatedSlugs:
 - cb-mv-i-am-sentences
 - cb-mv-meeting-people-role-play
 - cb-mv-writing-about-myself
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The previous block taught the frames as chunks, for fluency. This one makes the pattern visible, so
+  learners can build sentences they have not been given. It is the only grammar block in the unit, and
+  it must stay a game.
+
+  ### The whole rule, in one table
+
+  | Who | Word |
+  |---|---|
+  | I | am |
+  | he · she · it · one person · one thing | is |
+  | you · we · they · more than one | are |
+
+  That is all of it. Do not add exceptions, do not mention the past, and do not use the words "verb",
+  "pronoun" or "conjugate" — they add a second thing to learn and teach nothing about English.
+
+  ### Build it with the hands, not the eyes
+
+  Word cards on the floor or table: **I · you · he · she · we · they** in one colour, **am · is · are**
+  in another, then the words learners already collected.
+
+  Physically joining the right cards is what makes the pattern stick for a learner who cannot yet read
+  fluently. Reading the table does not. If you have five minutes, spend them on the cards, not the
+  table.
+
+  ### The error to expect, and what it means
+
+  "I is" and "he are" are the two you will hear. They are not carelessness — they are a learner
+  applying a pattern, which is a sign of progress.
+
+  Fix by ear, not by rule: say the correct version once, warmly, and have them repeat it. "I am. Say
+  it — I am." Do not explain again. The ear settles this faster than the head.
+
+  ### Questions come from the same three words
+
+  Turn the sentence round and you have the question:
+
+  - You are from ___ → **Are** you from ___?
+  - She is your sister → **Is** she your sister?
+
+  Show this once and let them find it in the cards. That single move gets them asking as well as
+  answering, which is what makes a real conversation possible.
+
+  ### Finish with mingling
+
+  "Find someone who…" gets every learner asking and answering many times in a few minutes, moving,
+  with no one on display. It is the highest-value activity in the block. Same-gender grouping where
+  that is what lets girls take part.
+
+  ### Accept true over correct, still
+
+  During the game, correct almost nothing. Note the two or three errors worth recycling tomorrow and
+  let the game run.
+
+  ## Before they leave this block
+
+  - Every learner can build a true sentence from cards without help.
+  - Every learner has asked at least three people a question and answered theirs.
+  - The am/is/are table is on the wall in a form learners can point at.
+learnerTeaching:
+  title: "How to build your own sentences"
+  readAloud: |
+    ## How to build your own sentences
+
+    You know **I am**, **he is**, **she is**. Now here is the whole pattern, so you can make sentences
+    nobody taught you.
+
+    ### The whole rule. It is short.
+
+    - **I** → **am**
+    - **he, she, it** → **is**   (also one person, one thing)
+    - **you, we, they** → **are**   (also more than one)
+
+    That is the entire rule. There is no more of it.
+
+    ### Say it, do not study it
+
+    Do not try to remember this as a list. Say the pairs out loud until they sound right:
+
+    **I am. He is. She is. You are. We are. They are.**
+
+    Again. And again.
+
+    Your ear will learn this faster than your head will. When "I is" starts to sound wrong to you, you
+    have got it — and that feeling of wrongness is worth more than remembering any rule.
+
+    ### Build sentences with the cards
+
+    Take a **who** card, then an **am/is/are** card, then one of your own words:
+
+    - **I** + **am** + *from camp four*
+    - **She** + **is** + *my sister*
+    - **We** + **are** + *learning English*
+
+    Move them with your hands. Swap one card and read the new sentence aloud. Then swap another.
+
+    ### Now turn it into a question
+
+    This is the useful part. Move the first two cards around and you have a question:
+
+    - You **are** from camp four.  →  **Are** you from camp four?
+    - She **is** your sister.  →  **Is** she your sister?
+
+    That is it. Same words, different order.
+
+    Now you can ASK as well as answer — and that is what a conversation is.
+
+    ### If you make a mistake
+
+    You will say "I is" sometimes. Everybody does at the start, and it means you are learning a
+    pattern, not that you are failing.
+
+    Just say the right one after it and carry on. Do not stop and worry. People who worry about
+    mistakes speak less, and people who speak less learn slower.
+  words:
+    - term: am / is / are
+      meaning: the three words that join a person to what they are
+    - term: question
+      meaning: what you make when you swap the first two words round
+  tryIt:
+    intro: >-
+      Is each sentence right, or does it need fixing? Circle your answer, then check at the back of the
+      book.
+    chooseFrom: ["right", "needs fixing"]
+    items:
+      - "I is from Myanmar."
+      - "They are my friends."
+      - "Is she your teacher?"
+      - "We is learning English."
+    answers:
+      - "Needs fixing. \"I\" always goes with \"am\": I AM from Myanmar. Say it aloud three times."
+      - "Right. \"They\" goes with \"are\" — and so does anything that is more than one."
+      - "Right — and it is a question. The \"is\" moved to the front. That is how you make any question with these words."
+      - "Needs fixing. \"We\" goes with \"are\": we ARE learning English."
+    then: >-
+      Now build three true sentences about yourself from the cards. Then turn one of them into a
+      question and ask someone.
 worksheet:
   slug: cb-mv-sentence-practice-worksheet
   note: Included in the downloadable workbook as the Building sentences sheet.

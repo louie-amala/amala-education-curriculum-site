@@ -183,6 +183,88 @@ objectiveIds:
 relatedSlugs:
 - cb-mv-my-voice-book
 - cb-mv-design-my-name-my-voice
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  A gentle, picture-based self-check, run twice — at the start and again at the end — and the whole
+  value is in the distance between the two marks.
+
+  ### It is not a test, and it must not feel like one
+
+  Say so before anyone marks. For a learner who has been out of education for years, anything that
+  looks like a test produces either fear or a performance, and both destroy the information.
+
+  ### Read every line aloud, and read the whole set first
+
+  Most of the cohort is not reading fluently. Read all the lines before anyone marks anything, so
+  learners are choosing between them rather than stopping at the first one they understood.
+
+  ### Listen hard — this is your best early diagnostic
+
+  It tells you, in one session, who arrives with some English and who is starting from nothing. That
+  shapes your pairing and your pace for the whole unit. Take notes.
+
+  ### Two marks on one page
+
+  Use a tick the first time and a cross the second, or two colours. A learner who cannot read a rubric
+  can still see two marks and the distance between them — and for this cohort that visible distance is
+  often the first evidence they have had that effort produces change.
+
+  Do not let anyone erase the first mark. The first mark is the point.
+
+  ### It anchors the formative assessment
+
+  English is assessed formatively here, against A1- Can-Do outcomes and each learner's own growth. This
+  page is where that growth is named. Where a learner's self-mark and your judgement disagree, that gap
+  is the conversation worth having.
+
+  ## Before they leave this block
+
+  - Every learner has marked every line, having heard them all read aloud.
+  - Learners know it is not a test and that they will mark it again at the end.
+  - You have a rough picture of who is starting from where.
+learnerTeaching:
+  title: "Marking where you are now"
+  readAloud: |
+    ## Where am I now?
+
+    Before we start, you mark where you are with English today. At the end of the course you will mark
+    the same page again.
+
+    ### This is not a test
+
+    Nobody passes or fails this. Nobody is marking it. It is not written down anywhere else.
+
+    It is for **you**, so that at the end you can see how far you came.
+
+    ### Mark what is true today
+
+    Not what you wish. Not what you think you should say. What is true right now.
+
+    If almost everything is "not yet", that is completely fine — that is what the beginning of a course
+    looks like. If it was all "yes" already, there would be nothing here for you.
+
+    ### Listen to all the lines first
+
+    Your facilitator will read every line before you mark anything. Listen to them all, then choose.
+
+    ### Why we do it twice
+
+    At the end of the course you will find this page again and mark it a second time, with a different
+    mark.
+
+    Then you will see both marks together — and the space between them is what you learned. Nobody can
+    take that off you, and you will be able to point at it.
+
+    ### Do not rub out the first mark
+
+    However much you improve, leave the first one there.
+
+    The first mark is the whole point. Without it, you cannot see the distance.
+  words:
+    - term: not yet
+      meaning: I cannot do it today — and "yet" means it can change
 worksheet:
   slug: cb-mv-i-can-checklist-worksheet
   note: Included in the downloadable workbook as the I can self-check page.

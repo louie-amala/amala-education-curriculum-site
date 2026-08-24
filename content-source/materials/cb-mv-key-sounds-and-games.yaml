@@ -218,6 +218,108 @@ relatedSlugs:
 - cb-mv-alphabet-and-first-sounds
 - cb-mv-my-voice-book
 - cb-mv-writing-my-name
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  This block is about the ear, and it must stay a game. The moment it becomes a lesson about the mouth
+  it stops working.
+
+  ### What you are training
+
+  Not pronunciation — **discrimination**. Can a learner hear that "ship" and "sheep" are different
+  words? Until they can hear the difference, they cannot reliably produce it, and correcting their
+  mouth is wasted effort.
+
+  So most of the work is listening and choosing, not speaking. Sound bingo, sorting into two piles,
+  standing on one side of the room or the other, clapping when you hear it.
+
+  ### The sounds this cohort will find hard, and why
+
+  Expect difficulty with **/p/ vs /f/**, **/v/**, and the short vowels. These are hard because they do
+  not exist, or do not contrast, in learners' languages — not because anyone is inattentive.
+
+  What helps is many short exposures over weeks. What does not help is explaining it again, or
+  repeating it louder.
+
+  ### Minimal pairs are the tool, but keep them meaningful
+
+  Two words that differ by one sound — ship/sheep, pan/fan — show that the sound CARRIES MEANING. That
+  is the point: it is not decoration, it changes what you said.
+
+  Attach both words to real objects or pictures wherever you can. An abstract pair is a puzzle; a pair
+  you can point at is a lesson.
+
+  ### Physical, always
+
+  Clap it, step it, stand up for one sound and sit for the other, pass an object on the sound. Movement
+  gives you many repetitions without it feeling like drilling, and it lets a shy learner take part
+  without speaking.
+
+  ### Do not turn it into phonetics
+
+  No diagrams of the mouth, no talk of voiced and unvoiced. Say the sound, have them say it, play the
+  game. If a sound will not come after a few tries, leave it and come back next week — it often arrives
+  on its own.
+
+  ### Recycle relentlessly
+
+  Dip into this bank in many later sessions, not only here. Three minutes at the start of a session,
+  every session, is worth more than an hour once.
+
+  ## Before they leave this block
+
+  - Learners can HEAR the difference in at least two minimal pairs, whether or not they can say them.
+  - Every learner has taken part physically, including those who have not spoken.
+  - New sounds are on the group sound chart with a word and a picture.
+learnerTeaching:
+  title: "Why small sounds matter"
+  readAloud: |
+    ## Why small sounds matter
+
+    In English, changing one small sound changes the whole word.
+
+    - **ship** — a boat.
+    - **sheep** — an animal.
+
+    One sound. Completely different thing.
+
+    - **pan** — for cooking.
+    - **fan** — for making air move.
+
+    So the small sounds are not decoration. They carry the meaning.
+
+    ### Hearing comes first
+
+    Before you can SAY a sound, you have to be able to HEAR it.
+
+    That is why we play listening games. When you point to the right picture, or stand on the right
+    side of the room, you are training your ear. That is the real work — even though it feels like
+    playing.
+
+    ### Some sounds will feel strange in your mouth
+
+    Every language uses different sounds. English has some that your language does not.
+
+    When a sound feels strange, that is not you being slow. Your mouth has simply never made that shape
+    before. Mouths learn — but they need many tries, spread over many days.
+
+    ### Little and often
+
+    You will not get a sound by trying hard for an hour. You will get it by meeting it for two minutes,
+    many days in a row.
+
+    So we come back to the same sounds again and again, in different games. If a sound will not come
+    today, leave it. It often arrives by itself next week.
+
+    ### Nobody is watching you fail
+
+    Everyone in this room is finding some sound hard. It is just a different sound for each person.
+  words:
+    - term: sound
+      meaning: one small piece of a word — change it and the word changes
+    - term: listen
+      meaning: to pay attention with your ears, before you try to say it
 worksheet:
   slug: cb-mv-key-sounds-and-games-worksheet
   note: Included in the downloadable workbook as the My sounds and words page.

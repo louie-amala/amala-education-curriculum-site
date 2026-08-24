@@ -198,6 +198,105 @@ objectiveIds:
 relatedSlugs:
 - cb-mv-listening-hello-and-names
 - cb-mv-meeting-people-role-play
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The English taught here gets used more than anything else in the unit, because it is the English of
+  the room itself. Teach it once, then use it every day for ten weeks.
+
+  ### The help phrases matter more than the greetings
+
+  Everyone teaches hello and thank you. The phrases that change what a learner can do are:
+
+  - **Again, please.**
+  - **I don't understand.**
+  - **How do you say ___?**
+  - **What does ___ mean?**
+
+  These hand the learner control of the pace. A learner who can say "again, please" is no longer stuck
+  when they miss something — and that is a small piece of agency inside the lesson itself.
+
+  Teach them early, and then **respond warmly every single time one is used**. If asking for
+  repetition ever produces impatience, the phrase dies and the learner goes quiet.
+
+  ### Model asking for help yourself
+
+  Ask a learner how to say something in their language, and use their phrase for repetition. It shows
+  that not knowing is normal and that the room learns in both directions.
+
+  ### Put them on the wall and keep them there
+
+  A display of the classroom phrases, with pictures, that stays up all course. Point at it rather than
+  translating — that is what it is for.
+
+  ### Routines are language teaching
+
+  The same greeting, the same closing, the same warm-up shape every session. Repetition of a predictable
+  routine is how the phrases become automatic, and predictability itself matters for a group whose
+  weeks are not predictable.
+
+  ### Keep the warm-ups moving and low-stakes
+
+  Short talking games, choral repetition, whole-group before pairs before individuals. Nobody performs
+  alone at this stage.
+
+  ## Before they leave this block
+
+  - Every learner has used at least one help phrase.
+  - The phrases are on the wall, with pictures.
+  - The session opening and closing routine has been used, and will be used every time.
+learnerTeaching:
+  title: "The English you will use every day"
+  readAloud: |
+    ## The English of our room
+
+    These are the first English words you will really use — because you will use them here, every time
+    we meet.
+
+    ### The polite ones
+
+    - **Hello.**
+    - **Thank you.**
+    - **Please.**
+    - **Goodbye.**
+
+    ### The ones that matter more
+
+    These four are the most useful English you will learn all course. They are not polite words. They
+    are **powerful** words, because they put you in charge.
+
+    - **Again, please.**   (when someone spoke too fast)
+    - **I don't understand.**   (say this — it is not a failure, it is information)
+    - **How do you say ______ ?**   (when you want a word you do not have)
+    - **What does ______ mean?**   (when you hear a word you do not know)
+
+    ### Why these are powerful
+
+    Without them, when you do not understand, you are stuck and quiet.
+
+    With them, you can stop the lesson and get what you need. **You control the speed.**
+
+    Every good language learner uses these constantly. Not the ones who understand everything — the
+    ones who ASK, all the time.
+
+    ### Saying "I don't understand" is a skill
+
+    It takes courage the first time. Then it gets easy.
+
+    Nobody here will be impatient with you for using it. That is what it is for, and it is why we
+    learned it on the first day.
+
+    ### Use them outside too
+
+    These four work anywhere in the world, with anyone who speaks English.
+
+    "How do you say ___?" alone will teach you hundreds of words over your life, from anyone you meet.
+  words:
+    - term: again
+      meaning: asking someone to say it one more time
+    - term: understand
+      meaning: to know what something means
 worksheet:
   slug: cb-mv-classroom-language-and-warm-ups-worksheet
   note: Included in the downloadable workbook as the Our classroom words sheet.

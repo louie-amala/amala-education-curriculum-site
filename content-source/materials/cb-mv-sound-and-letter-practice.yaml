@@ -223,6 +223,99 @@ relatedSlugs:
 - cb-mv-alphabet-and-first-sounds
 - cb-mv-phonics-table
 - cb-mv-writing-my-name
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  A bank of short, repeatable games rather than a session to work through. Its value is in being dipped
+  into over and over, in many later sessions — not in being "covered" here.
+
+  ### Spacing beats length, and this is the highest-leverage thing in the unit
+
+  Five minutes of sound practice at the start of most sessions produces far more than one long block.
+  Memory works on spacing and retrieval, not on time spent.
+
+  So: run a couple of games here to teach the format, then use them for three to five minutes at the
+  start of most sessions for the rest of the course. Always mix old sounds with new — that is the
+  retrieval, and it is what stops last month's sounds evaporating.
+
+  ### Emergent dictation, and what it actually is
+
+  Hear a sound or a word, then BUILD it from letter cards rather than write it. It separates the
+  spelling knowledge from the handwriting skill, so a learner whose hand is still developing can show
+  they know the sounds.
+
+  Start with two-sound words, then three. Their own name is the best possible first one.
+
+  ### Keep it low-stakes or you lose the quiet learners
+
+  Team scores, choosing rather than producing, everyone answering at once with cards held up. No
+  learner alone at the front getting a sound wrong in public.
+
+  A game where being wrong is cheap is a game where learners take risks, and risk is where learning is.
+
+  ### Watch for the two patterns
+
+  - **Sounds that will not come.** Usually ones absent from learners' languages. More exposure, not
+    more explanation, and leave it and return.
+  - **The learner who is always last to choose.** They may be copying their neighbour. Sit beside them
+    and check quietly — not by putting them on the spot.
+
+  ## Before they leave this block
+
+  - Learners know how at least two of the games work, so they can be run quickly in future sessions.
+  - Every learner has built at least one word from letter cards, their own name if possible.
+  - The games have stayed enjoyable.
+learnerTeaching:
+  title: "How to practise sounds so they stay"
+  readAloud: |
+    ## How to practise so it stays
+
+    Here is something worth knowing, because it will save you a lot of effort:
+
+    **A little, often, beats a lot, once.**
+
+    Five minutes today, five minutes tomorrow, five minutes the day after will teach you far more than
+    one long hard hour. That is true for everyone — it is how memory works.
+
+    ### Why we keep going back to old sounds
+
+    You will notice that we practise sounds you already know, mixed in with new ones.
+
+    That is on purpose. **Pulling something back out of your memory is what makes it stick** — much
+    more than looking at it again does.
+
+    So when a game feels a bit easy, it is still working.
+
+    ### Building words instead of writing them
+
+    In some games you will build a word from letter cards, rather than writing it.
+
+    This lets you show that you know the sounds, without your hand having to make the shapes yet. Those
+    are two different skills, and they grow at different speeds.
+
+    Start with short words. Your own name is a good one.
+
+    ### Games are proper learning
+
+    These are games so that being wrong costs nothing.
+
+    When being wrong is cheap, you try things — and trying things is how you find out what you know. A
+    learner who guesses and gets it wrong learns more than one who says nothing to be safe.
+
+    So guess. Point at one. It does not matter if it is wrong.
+
+    ### If a sound will not come
+
+    Leave it and come back next week.
+
+    Some sounds do not exist in your language, so your ear has never had to notice them. It will — but
+    it needs many meetings, not more effort in one.
+  words:
+    - term: practise
+      meaning: to do something again and again so it becomes easy
+    - term: build
+      meaning: to make a word by putting letter cards together
 worksheet:
   slug: cb-mv-sound-and-letter-practice-worksheet
   note: Included in the downloadable workbook as the Building sounds and words sheet.

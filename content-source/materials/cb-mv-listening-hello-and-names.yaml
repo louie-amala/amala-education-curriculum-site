@@ -189,6 +189,105 @@ objectiveIds:
 relatedSlugs:
 - cb-mv-alphabet-and-first-sounds
 - cb-mv-classroom-language-and-warm-ups
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The first English block proper, and its job is to prove to learners that they can already do
+  something. Listening is where that proof is cheapest to get.
+
+  ### Understanding comes before speaking, and the gap is normal
+
+  A beginner understands far more than they can say, in any language. Do not read silence as blankness.
+  A learner who points to the right picture has understood — that is the achievement, and it should be
+  named as one.
+
+  Expect and allow a silent period. Some learners will listen for weeks before they speak much. That is
+  a recognised stage, not a problem to solve by pressing.
+
+  ### Total Physical Response does the heavy lifting
+
+  Say it and do it: stand up, sit down, point to the door, show me your book. Learners respond with
+  their bodies rather than their mouths.
+
+  This works because it takes the pressure off speaking entirely, gives many repetitions in minutes,
+  and lets you see who has understood without testing anyone.
+
+  ### Names are the content, not the warm-up
+
+  Learners hear their own names inside English sentences — "this is Amina", "Amina is here". Their own
+  name is the anchor that makes an unfamiliar stream of sound resolve into words.
+
+  Learn to say every learner's name correctly before this session. Ask, and practise. Getting a name
+  wrong in the block where names are the material undoes it.
+
+  ### Do not translate every word
+
+  Repeat, gesture, point, act. Then translate if it is still not landing. If you translate immediately,
+  learners stop listening to the English and wait for the version they understand.
+
+  ### Grade your speech, do not simplify your manner
+
+  Slower, shorter sentences, more repetition, more pausing — yes. Loud, or exaggerated, or babyish — no.
+  These are teenagers and adults, and being spoken to as though they were small is noticed.
+
+  ## Before they leave this block
+
+  - Every learner has responded correctly to at least one spoken instruction, with their body.
+  - Every learner has heard their own name said correctly inside an English sentence.
+  - Nobody has been made to speak alone.
+  - Learners have noticed that they understood something.
+learnerTeaching:
+  title: "How listening works when you are just starting"
+  readAloud: |
+    ## Listening comes first
+
+    Here is something true about every language, including the one you speak best:
+
+    **You understand much more than you can say.**
+
+    That is not a problem. That is how learning a language works. Understanding comes first, and
+    speaking grows out of it.
+
+    ### So listening is real work
+
+    When you listen and point to the right picture, you have understood English. That is a real thing
+    you just did — even though you did not say a word.
+
+    When you listen and stand up because someone said "stand up", you have understood English.
+
+    Do not think of this as waiting until the real work starts. This IS the work.
+
+    ### You will not understand every word — and you do not need to
+
+    Nobody understands every word, ever. Not even in their own language.
+
+    Listen for **one word you know**. Then guess the rest from the face, the hands, and what is
+    happening.
+
+    That is not cheating. It is exactly what good listeners do in every language.
+
+    ### It is fine to be quiet at first
+
+    Some people speak in the first week. Some listen for a long time first, and then start.
+
+    **Both of those are normal.** If you are not ready to speak yet, keep listening — your turn will
+    come, and it will come more easily because of the listening you did.
+
+    Nobody here will make you speak before you want to.
+
+    ### Your name is your way in
+
+    When someone speaks English fast, it sounds like one long sound with no gaps.
+
+    But when your own name is in it, you hear it. Suddenly there are edges.
+
+    That is why we start with names. Your name is the handle you use to take hold of the rest.
+  words:
+    - term: listen
+      meaning: to take meaning in through your ears
+    - term: understand
+      meaning: to know what something means — even if you cannot say it back yet
 worksheet:
   slug: cb-mv-listening-hello-and-names-worksheet
   note: Included in the downloadable workbook as the listening sheet.
