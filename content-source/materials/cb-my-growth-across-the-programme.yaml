@@ -59,6 +59,17 @@ learnerContent: |
   - I have found out about more than one thing, and the second time I did it better because of what I
     learned the first time.
 
+  ## What I can do now, that is mine
+
+  These three are not about the courses. They are about you, and what you can change. Draw or mark
+  your answer, or say it out loud — a drawing is a full answer, and nobody marks this.
+
+  - **Something I made better for someone else.** Anything, however small: something I helped with,
+    taught someone, fixed, or spoke up about.
+  - **A next step I chose for myself.** Something I decided to do, that nobody told me to do.
+  - **Something I now decide about my own learning.** Something that used to be decided for me, or
+    that I used to think I could not change.
+
   ## In my own words
 
   Draw or write, or say your answer out loud and let someone write it down for you:
@@ -93,15 +104,35 @@ educatorContent: |
   against, in the first person and with the level names removed. Do not show learners the level names or
   the GPA values; they are for your record, not theirs.
 
-  Where the Research Project has not run yet, leave the second ladder blank and say so plainly, rather
-  than asking learners to mark something they have not done. Confirm with your coordinator which
-  competencies your cohort is assessed in.
+  If your cohort has not reached a ladder yet — for instance if the Research Project started later than
+  the other components — leave it blank and say so plainly, rather than asking learners to mark
+  something they have not done.
+
+  ## The three "what I can do now" lines
+
+  These three are the learner-facing reading of Amala's three indicators of agency for positive change
+  — contribution to community, control of future pathways, and power over wellbeing and self-direction
+  — in the order they appear on the page. Agency is what the whole programme is FOR, and until now the
+  only thing recorded at Week 6 and Week 12 was competency. These three lines are how movement in it
+  gets noticed in a cohort that is largely not yet literate: one plain question each, answerable by
+  speaking or drawing.
+
+  They are NOT a third grade, and there is no ladder to mark. Do not score them. What you do with them
+  is read them, and notice the difference between the Week-6 answer and the Week-12 one. A learner who
+  could not think of anything at Week 6 and names something real at Week 12 has moved, whatever their
+  competency judgement says.
+
+  Expect the first line — something I made better for someone else — to be the hardest, and expect
+  learners to undervalue what they already do. Prompt from camp life if they are stuck: who do you help
+  at home, who do you translate for, who asks you things. Their answer to that is legitimate evidence
+  for the Set and Pursue Goals judgement too.
 
   Do not over-assess. Two considered fills, five weeks apart, are worth more than repeated checking.
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction
   - control-of-future-pathways
+  - contribution-to-community
   how: >-
     Being able to see and name your own growth is the difference between being assessed and taking part in
     the assessment. Marking the same ladder twice makes progress visible to the learner themselves, not

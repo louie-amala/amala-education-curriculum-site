@@ -165,10 +165,13 @@ worksheet:
 agencyContribution:
   indicators:
   - control-of-future-pathways
+  - contribution-to-community
   how: >-
     Knowing how to find and reach the help that already exists in the camp means a learner is no longer
     limited by what they alone know or can do. Being able to open doors to mentors, workers and
-    community is what keeps the routes to their own future open and in their own hands.
+    community is what keeps the routes to their own future open and in their own hands. It also runs the
+    other way: a learner who has mapped who can help them can see where they are the help for someone
+    else, which is where an individual goal starts to touch the community around it.
 principlesForegrounded:
 - lifeworthy-competencies
 - collaboration
@@ -212,7 +215,7 @@ downloads:
 - label: Who and what can help me (student sheet)
   file: /downloads/agency-in-learning-who-can-help.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
+  note: "Instructions and a blank template learners can fill. Print one per learner if you can; otherwise share one between two or three, or hold up a single copy and learners draw in their own notebooks."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-finding-help-and-resources.yaml

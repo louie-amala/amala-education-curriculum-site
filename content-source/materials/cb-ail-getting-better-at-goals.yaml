@@ -157,7 +157,7 @@ downloads:
 - label: Getting better at goals (student sheet)
   file: /downloads/agency-in-learning-getting-better-at-goals.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
+  note: "Instructions and a blank template learners can fill. Print one per learner if you can; otherwise share one between two or three, or hold up a single copy and learners draw in their own notebooks."
 sourceRefs:
 - agency-in-learning.yaml
 - framework/proficiency-scale.yaml

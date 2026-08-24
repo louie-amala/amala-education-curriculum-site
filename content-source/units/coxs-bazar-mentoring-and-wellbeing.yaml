@@ -1,0 +1,262 @@
+# Unit plan for the Mentoring and Wellbeing component of Learning Bridge+ (Cox's Bazar).
+#
+# NOT hours-based, unlike its three siblings. Mentoring adds no hours of its own — it runs as short
+# conversations folded into the in-person time the taught components already have — so every block is
+# 0h and the unit carries a `cadence` instead. What it does have is an ARC: a mentoring relationship
+# over twelve weeks has phases, and which one you are in changes what the conversation is for.
+#
+# Why it exists: the programme calls this component "the spine of wellbeing support" and the thing that
+# keeps the Agency in Learning goal alive between sessions, and it had 343 words in a 100,000-word
+# Educator Guide — no plan, no conversation shape, no record, and a pointer to a website that a
+# facilitator in a CBLF cannot reach. This unit and the cb-mn-* materials are that gap closed.
+#
+# The shared practice lives in Amala's generic mentor-* educator moves; these materials contextualise
+# them for the camps rather than restating them, and the offline pack carries them so nothing depends
+# on the internet.
+id: coxs-bazar-mentoring-and-wellbeing
+slug: coxs-bazar-mentoring-and-wellbeing
+access: partner
+title: "Mentoring and Wellbeing — Cox's Bazar unit plan"
+programmeSlug: learning-bridge-coxs-bazar
+componentTitle: Mentoring and Wellbeing
+summary: >-
+  The plan for the fourth component: short 1:1 conversations, most weeks, folded into the in-person time
+  the other three components already use. It is set out as an arc rather than in hours, because a
+  mentoring relationship over twelve weeks has phases — getting known, keeping the goal alive, the
+  week-6 checkpoint, surfacing growth, and an honest closing conversation — and which phase you are in
+  changes what the conversation is for. It adds no hours to the timetable.
+totalFacilitatedHours: 0
+totalIndependentHours: 0
+cadence: "Ongoing · about 10 minutes per learner, most weeks"
+deliveryApproach: >-
+  Mentoring is the only component that touches the same learner across all twelve weeks and all three of
+  the others, and it is the one that makes the programme add up to a person rather than three courses.
+  Two things hold it together. The first is a fixed conversation shape — check in, pick up the last
+  step, look at what is in front of them, agree one next step — short enough to run while the rest of
+  the group works, and repeatable by a facilitator with limited training. The second is continuity: a
+  light paper record on your side and one step on the learner's side, so every conversation starts where
+  the last one ended and a learner who returns after three weeks away is picked up rather than
+  restarted. The release of control works differently here from the taught components. You are not
+  handing over a task; you are gradually asking the learner to do more of the naming — what got in the
+  way, what they already tried, what the next step is, and finally what has changed in them. By Week 12
+  the learner should be doing most of the talking in their own review. What never changes is that you
+  are not a counsellor: you notice, you steady, and you refer, and you know the referral pathway before
+  you take a single learner.
+assessmentNote: >-
+  Mentoring is not separately assessed, and it must not become a place where learners feel judged — the
+  moment conversations turn into progress checks, learners start managing you and you lose the early
+  warning the component exists for. But it is a major SOURCE of evidence for both graded competencies,
+  and mentors routinely under-use it. Much of the strongest evidence in this cohort is oral: a learner
+  who cannot yet write may show the whole of Set and Pursue Goals in conversation — choosing a goal,
+  adapting when a step failed, explaining why. If your only evidence is the workbook you will
+  under-judge exactly the learners this programme exists for. The mentor record is how that evidence
+  survives to Week 12; bring it to both judgement points.
+phases:
+  - title: "Before you start"
+    lead: facilitator-led
+    summary: >-
+      What must be in place before you take a single learner: the referral pathway, the caseload, the
+      pairing, and the shape of the conversation itself.
+    blocks:
+      - title: "Set up your mentoring"
+        kind: orientation
+        materialSlug: cb-mn-running-mentoring-here
+        facilitatedHours: 0
+        independentHours: 0
+        description: >-
+          Read this before Week 1. What mentoring is here and what it is not, how a caseload is sized,
+          how learners and mentors are paired for gender and language, where the conversations fit inside
+          the nine in-person hours, and what you keep a record of.
+      - title: "Know the referral pathway"
+        kind: orientation
+        materialSlug: cb-mn-safeguarding-and-referral
+        facilitatedHours: 0
+        independentHours: 0
+        description: >-
+          Do not take a caseload without this. The three things that must be in place before Week 1, the
+          confidentiality line and how to say it, what to do in the moment of a disclosure, the
+          protection risks common in displacement, the quieter signals, and looking after yourself
+          afterwards. NRC's Code of Conduct and referral pathways govern; this is how to hold them in a
+          conversation.
+      - title: "Learn the conversation shape"
+        kind: orientation
+        materialSlug: cb-mn-the-conversation
+        facilitatedHours: 0
+        independentHours: 0
+        description: >-
+          The four moves, the five-second wait, and what to do when a learner says nothing. Learn it once
+          and you can run it while tired, in a noisy room, in week eleven.
+      - title: "Set up your record"
+        kind: orientation
+        materialSlug: cb-mn-mentor-record
+        facilitatedHours: 0
+        independentHours: 0
+        description: >-
+          One page per learner, for the whole twelve weeks. What goes on it, what never does, where it
+          lives, and why it is legitimate assessment evidence.
+  - title: "Weeks 1–2 — getting known"
+    lead: facilitator-led
+    summary: >-
+      Almost no business. You are building the relationship everything else runs on, and setting the
+      terms the learner needs in order to be honest with you later.
+    blocks:
+      - title: "The first conversations"
+        kind: practice
+        materialSlug: cb-mn-the-conversation
+        facilitatedHours: 0
+        independentHours: 0
+        description: >-
+          Use the same four moves, but expect the check-in to take most of the time and expect the step
+          to be tiny. Three things have to happen in the first two weeks. Say the confidentiality line —
+          before anything is disclosed, not after. Set up the learner's mentoring page in their workbook
+          with them, so they know what is written and what is not. And find out how they want to be
+          talked to: which language, and whether they would rather show you things than tell you. A
+          learner who is silent in week one is not a problem; a learner who is silent in week five
+          because nobody built anything in week one is.
+        independentTask: "One small step, agreed out loud, small enough that it will certainly happen."
+        flexNote: >-
+          Resist the pull to get straight to goals. The Agency in Learning goal does not exist yet at this
+          point in the sequence anyway — learners set it around Week 5 — so there is nothing to chase, and
+          this is the cheapest time you will ever have to build the relationship.
+  - title: "Weeks 3–5 — keeping the goal alive"
+    lead: shared
+    summary: >-
+      The between-session engine. The Agency in Learning goal is set in this block, and mentoring is what
+      keeps it real in the days when nobody is teaching.
+    blocks:
+      - title: "Coach the goal, don't carry it"
+        kind: practice
+        materialSlug: cb-mn-the-conversation
+        facilitatedHours: 0
+        independentHours: 0
+        description: >-
+          Once a learner has a goal, the conversation has something to hold. Pick up the last step, ask
+          what got in the way, ask what they have already tried — and then wait, rather than solving it.
+          The instinct to rescue is strongest here and it takes the learning away. Where a step keeps not
+          happening, the answer is almost always to make it smaller, not to press harder.
+        independentTask: "One step towards the learning goal, marked on the learner's own mentoring page."
+        flexNote: >-
+          Watch for the goal that quietly shrinks to nothing, and for the learner who reports success
+          every week without evidence. Both usually mean the goal was never really theirs — go back and
+          re-choose it with them rather than continuing to check on a fiction.
+      - title: "Picking a learner back up"
+        kind: activity
+        materialSlug: cb-mn-re-anchoring-after-absence
+        facilitatedHours: 0
+        independentHours: 0
+        description: >-
+          Not a scheduled block — the most frequent conversation you will have, whenever it is needed. The
+          first ten minutes after a learner returns decide whether they come back again. Greet, do not
+          interrogate; re-anchor the goal before opening any other page; shrink the next step and then
+          shrink it again; point them at their book rather than at the group; and say out loud that
+          picking a broken plan back up is the skill this programme teaches.
+        flexNote: >-
+          Learn to tell a logistics absence from a drifting one. A learner missing every Thursday because
+          they work Thursdays needs a different day, not encouragement.
+  - title: "Week 6 — the checkpoint conversation"
+    lead: shared
+    summary: >-
+      Alongside the supported assessment: what the learner hears about their own provisional judgement,
+      and what the gap between their self-check and yours is telling you.
+    blocks:
+      - title: "The Week-6 conversation"
+        kind: assessment
+        materialSlug: cb-mn-mentor-record
+        facilitatedHours: 0
+        independentHours: 0
+        description: >-
+          Run the learner's growth self-check BEFORE you make your provisional judgement, not after, then
+          talk about it. Where their self-mark and your judgement disagree, that gap is the whole
+          conversation and the best guide you will get to evidence you have not gathered. Tell the learner
+          plainly that this is a checkpoint and not their grade. Expect most learners to sit low at this
+          point — the goal-pursuit weeks are still ahead — and say so, so a learner does not read a
+          provisional Theorist as a verdict on themselves.
+        flexNote: >-
+          Bring your mentor record. This is the point at which you find out which learners you have thin
+          evidence on, and the second block of five weeks is your chance to fix that.
+  - title: "Weeks 7–11 — surfacing growth"
+    lead: shared
+    summary: >-
+      Naming the capability a learner already has but does not count, and — where a site can manage it —
+      bringing an adult who matters into the picture.
+    blocks:
+      - title: "Surfacing the growth a learner cannot see"
+        kind: activity
+        materialSlug: cb-mn-surfacing-growth
+        facilitatedHours: 0
+        independentHours: 0
+        description: >-
+          One or two conversations that ask about a day rather than about the learner, catch a verb, slow
+          it down, and name what it actually was — first in ordinary words, then as the competency. This
+          is where the strongest FSL2 evidence in many learners' lives gets connected to the programme
+          for the first time, and where a learner's estimate of themselves changes.
+        independentTask: "Notice one thing you did this week that you would not normally count."
+        flexNote: >-
+          Watch for the learner whose honest day is too heavy. Name the capability and raise the load with
+          your coordinator — both can be true at once.
+      - title: "The significant adult meeting (optional)"
+        kind: activity
+        materialSlug: cb-mn-significant-adult-meeting
+        facilitatedHours: 0
+        independentHours: 0
+        description: >-
+          Optional, and genuinely demanding to organise: a three-way conversation between you, the
+          learner, and one adult the learner chooses and invites. The learner shows their own work and
+          names what has changed; the adult says what they have noticed; all three agree one thing that
+          would help. Run it for the learners you can — two well-run meetings are worth more than twenty
+          rushed ones, and a site that manages none has not failed.
+        flexNote: >-
+          Never run it where there is an open protection concern, a disclosure, or a household the learner
+          is not safe in. In those cases the answer is the referral pathway, not a meeting.
+  - title: "Week 12 — naming it, and what next"
+    lead: learner-led
+    summary: >-
+      The closing conversation: the learner does most of the talking, the judgement is given plainly, and
+      the next step is one that is genuinely inside their control.
+    blocks:
+      - title: "The what-next conversation"
+        kind: consolidation
+        materialSlug: cb-mn-what-next-conversation
+        facilitatedHours: 0
+        independentHours: 0
+        description: >-
+          Ask them first — twelve weeks, what is different about you now — and wait. Then name what you
+          saw, specifically, from your record. Then give the judgement plainly, and say what it does and
+          does not mean. Then find the next controllable step, which exists in every version of this
+          conversation including the hardest one. Hand back their book: it is theirs, and it is the most
+          persuasive object in the room.
+        independentTask: "One next step the learner chooses, that does not need anyone's permission."
+        flexNote: >-
+          The honest thing and the hopeful thing have to be the same sentence. Never promise a place, a
+          timeline, or an outcome that is not yours to give — it is a debt that comes due after you have
+          stopped seeing them.
+downloads:
+  - label: Mentoring Guide
+    file: /downloads/lb-coxs-bazar-mentoring-guide.docx
+    format: Word
+    note: >-
+      The whole component in one document: setting up, the conversation shape, safeguarding and referral,
+      the arc across twelve weeks, and the record. Also reproduced as Part 2 of the Educator Guide.
+      Editable.
+  - label: Mentor's Record
+    file: /downloads/lb-coxs-bazar-mentor-record.docx
+    format: Word
+    note: >-
+      One page per learner for the whole twelve weeks — the step agreed each conversation, what you
+      noticed, and the flags. Make one copy per learner on your caseload. Editable.
+sourceNotes:
+  - Authored for the Learning Bridge+ (Cox's Bazar) edition. Closes the gap that the programme named Mentoring and Wellbeing as a component and as "the spine of wellbeing support" but supplied no plan, no conversation shape, no record, and no offline guidance for it.
+  - >-
+      NOT hours-based, unlike the three taught units. Mentoring adds no hours of its own — it runs inside
+      the in-person time the taught components already have — so every block is 0h and the unit carries a
+      `cadence` instead. The phases are the arc of a mentoring relationship over twelve weeks, not a
+      curriculum sequence.
+  - >-
+      The shared practice is Amala's generic mentor-* educator moves. The cb-mn-* materials contextualise
+      them for the camps — a ten-minute conversation run while teaching a group, an oral and multilingual
+      setting, stop-start attendance, and the protection realities of displacement — rather than
+      restating them. Everything needed is in the offline pack, so nothing depends on reaching the site.
+  - >-
+      Safeguarding: mentoring is where disclosures actually happen. NRC's Code of Conduct, safeguarding
+      policy, and MHPSS and protection referral pathways govern; the cb-mn-safeguarding-and-referral
+      material says how to hold them in a conversation and does not replace them.

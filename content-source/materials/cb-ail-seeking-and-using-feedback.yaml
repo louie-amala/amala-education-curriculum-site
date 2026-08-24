@@ -156,11 +156,13 @@ worksheet:
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction
+  - contribution-to-community
   how: >-
-    Advice stops being a verdict handed down and becomes something the learner asks for and controls. Choosing
-    what to ask about, and choosing what to act on, keeps direction of their own growth in the learner's hands,
-    which is what lets them keep improving without waiting to be judged, even in a room where nothing is written
-    down.
+    Advice stops being a verdict handed down and becomes something the learner asks for and controls.
+    Choosing what to ask about, and choosing what to act on, keeps direction of their own growth in the
+    learner's hands, which is what lets them keep improving without waiting to be judged, even in a room
+    where nothing is written down. Asking is also a relationship: it draws the people around a learner
+    into their learning, and it teaches them how to give useful feedback back.
 principlesForegrounded:
 - feedback-and-data
 - collaboration
@@ -204,7 +206,7 @@ downloads:
 - label: Asking for feedback (student sheet)
   file: /downloads/agency-in-learning-feedback.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
+  note: "Instructions and a blank template learners can fill. Print one per learner if you can; otherwise share one between two or three, or hold up a single copy and learners draw in their own notebooks."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-seeking-and-using-feedback.yaml

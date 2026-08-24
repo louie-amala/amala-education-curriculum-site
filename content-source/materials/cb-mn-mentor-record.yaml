@@ -1,0 +1,112 @@
+# The mentor's own light paper record — the educator-side counterpart to cb-my-mentoring-conversations
+# (the learner's page). The programme said "mentors keep a light paper record of what they notice" and
+# supplied no such record. Its printable version compiles into the Educator Guide (Part 9) and the
+# standalone mentoring pack.
+id: cb-mn-mentor-record
+slug: cb-mn-mentor-record
+access: partner
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "The mentor's record — one page per learner"
+summary: >-
+  The light paper record a mentor keeps so each conversation starts where the last one ended: who the
+  learner is, what was agreed each week, what you noticed, and the flags. What goes on it, what never
+  does, and where it lives.
+facilitationContext:
+- one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  ## What this is for
+
+  One page per learner, kept by you, for the whole twelve weeks. It exists for exactly two reasons:
+
+  1. **Continuity.** So the conversation in Week 9 starts where Week 8 ended, and so a learner who has
+     been away for three weeks is picked up rather than restarted.
+  2. **Pattern.** Twelve one-line notes show you something no single conversation can — a "fine" that
+     has changed shape, a goal that has quietly shrunk, three weeks with nothing agreed.
+
+  It is not a case file, and it is not a progress report.
+
+  ## What goes on it
+
+  - The learner's name, the language you talk in, and who else knows them (their other facilitators).
+  - Their current learning goal, in a few words, updated when it changes.
+  - One row per conversation: the week, the step agreed, and whether the last one happened.
+  - One line of what you noticed. Facts, not diagnosis: "quieter than usual, third week" — not "seems
+    depressed."
+  - A flag column: a mark when something needs watching, and a mark when something was referred, with
+    the date.
+
+  ## What never goes on it
+
+  - **Details of a disclosure.** If something is disclosed, it goes to the person you refer to, written
+    separately and in the learner's own words — not into a running record you carry between sessions.
+  - **Your opinion of the learner or their family.** Write what you saw and heard.
+  - **Anything you would not be willing to read aloud to the learner.** That is the test. Apply it every
+    time.
+  - **Anything about another learner.** One page, one person.
+
+  ## Where it lives
+
+  Somewhere a learner cannot read another learner's, and somewhere it will not be lost or soaked. Paper
+  in a folder you keep is fine — this programme assumes no devices. If you share a space with other
+  facilitators, agree with your coordinator where the records are kept.
+
+  When a learner moves mentor, the record moves with them and is handed over in person, so the new
+  mentor starts warm rather than cold.
+
+  ## Using it
+
+  - **Open it before the conversation, not during.** Ten seconds beforehand tells you what to ask about.
+    Writing while a learner talks makes them watch your pen.
+  - **Fill it straight after**, while you still remember the words they used.
+  - **Read the whole page every few weeks**, not just the last row. The pattern is the point, and it is
+    invisible one row at a time.
+  - **Bring it to the Week-6 checkpoint.** It is the evidence you will wish you had for the FSL2
+    judgement — especially for learners whose strongest work is spoken, which in this cohort is most of
+    them.
+
+  ## It is legitimate assessment evidence
+
+  Say this plainly, because mentors under-use it: what you saw and heard in mentoring counts. A learner
+  who cannot yet write may show the whole of Set and Pursue Goals in conversation — choosing a goal,
+  adapting when a step failed, explaining why. If your only evidence is the workbook, you will
+  under-judge exactly the learners this programme exists for. Your record is how that evidence survives
+  to Week 12.
+learnerContent: |
+  ## What your mentor writes down
+
+  Your mentor keeps their own page about your conversations. It is fair that you know what is on it.
+
+  They write down:
+
+  - The step you agreed to take.
+  - Whether the last step happened.
+  - One line about how you seemed.
+
+  They do **not** write down the things you tell them privately. If you tell your mentor something hard,
+  it does not go on that page.
+
+  You can ask your mentor what is written about you, at any time, and they will show you.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    A record a learner may read at any time, and which holds only what a mentor would say to their face,
+    keeps the relationship one the learner is a party to rather than a subject of. It also protects the
+    evidence of oral, visual growth for learners who cannot yet write — without which the assessment
+    would quietly measure literacy instead of competency.
+principlesForegrounded:
+- feedback-and-data
+- safe-spaces
+competencyCodes: [FSL2]
+objectiveIds: []
+relatedSlugs: [cb-mn-running-mentoring-here, cb-mn-the-conversation, cb-mn-safeguarding-and-referral, cb-my-mentoring-conversations, cb-ail-assessing-the-goal-work, mentor-anecdote-log, mentor-build-evidence-habit]
+provenanceNote: >-
+  Authored for the Learning Bridge+ (Cox's Bazar) edition as the educator-side counterpart to
+  cb-my-mentoring-conversations. Contextualises Amala's mentor moves on keeping an anecdote log and
+  building the evidence habit for a paper-only, no-device setting. The separation between this record
+  and a disclosure record follows NRC safeguarding practice.
+rights:
+  status: amala-own
+  note: Authored by Amala for this edition; no third-party content.

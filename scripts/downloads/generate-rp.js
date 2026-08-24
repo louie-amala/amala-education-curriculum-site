@@ -90,13 +90,13 @@ const ORIGINALS = {
   },
   F: { ref: 'Ro Maung Shwe / RK News Desk, "Rohingya Youth Form Environmental Network to Protect Camps from Growing Ecological Crisis," Rohingya Khobor, 12 December 2025. rohingyakhobor.com.', note: 'Community outlet, rights reserved - not reproduced. Cite and summarise only.' },
   G: {
-    ref: 'Authors listed at the source (CONFIRM), "Land Cover Changes and Land Surface Temperature Dynamics in the Rohingya Refugee Area, Cox’s Bazar, Bangladesh: An Analysis from 2013 to 2024." Atmosphere (MDPI), 2025. doi:10.3390/atmos16030250. Open access (CC BY) - free to reproduce with attribution.',
+    ref: 'Authors listed at the source (full list unverified), "Land Cover Changes and Land Surface Temperature Dynamics in the Rohingya Refugee Area, Cox’s Bazar, Bangladesh: An Analysis from 2013 to 2024." Atmosphere (MDPI), 2025. doi:10.3390/atmos16030250. Open access (CC BY) - free to reproduce with attribution.',
     text: [
       'Using Landsat satellite imagery of the 34 refugee camps, the study found a 97% decline in mixed forest cover and a 161.78% increase in built-up area between 2013 and 2018, corresponding to a substantial rise in land surface temperature.',
       'The area with land surface temperature between 36.5 and 39.5 degrees C expanded by about 35% by 2018 compared with 2013, then reduced slightly (about 2%) from 2018 to 2024, attributed to reforestation efforts by government and NGOs.',
     ],
   },
-  H: { ref: 'UNHCR, "Rohingya refugees restore depleted forest in Bangladesh," around 2021 (CONFIRM date). unhcr.org.', note: 'UN agency first-person story (a plantation guardian); reproducible for educational/non-commercial use with attribution, but full text not to hand - summarised only. Confirm date and any quotes at the source.' },
+  H: { ref: 'UNHCR, "Rohingya refugees restore depleted forest in Bangladesh," around 2021 (exact date unverified). unhcr.org.', note: 'UN agency first-person story (a plantation guardian); reproducible for educational/non-commercial use with attribution, but full text not to hand - summarised only. Check the date and any quotes at the source if you can.' },
   I: {
     ref: 'International Organization for Migration (IOM), "UN Agencies and Government Distribute LPG Stoves to Rohingya Refugees to Save Remaining Forests." iom.int. Reproducible for educational/non-commercial use with attribution.',
     text: [
@@ -158,7 +158,9 @@ function facilitatorPlanChildren(opts = {}) {
       const m = b.materialSlug ? mat[b.materialSlug] : null;
       if (b.description) c.push(...body(b.description));
       if (m) {
-        c.push(mini(`Activity in the material bank: ${m.title}`));
+        // Label the full write-up without naming the website's material bank — a facilitator in a
+        // CBLF has no such thing, and the block heading already carries the activity's title.
+        c.push(mini('The activity, in full'));
         // The subject brief: what the facilitator needs to KNOW to teach this block, not just how to
         // run it. Placed before the practical detail (MATERIALS_STANDARD.md 11: understand it, then
         // prepare, then run it). Offline, this is the only place they can read it.

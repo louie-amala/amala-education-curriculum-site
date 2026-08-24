@@ -19,7 +19,7 @@ const {
   NAVY, PLUM, GREY, OLIVE,
   toParas, P, body, bullet, label, H1, H2, H3, eyebrow, hr, pageBreak,
   box, slot, writeBox, notesPage, bold, gridBoxes, refTable, callout, makeDoc, Paragraph, TextRun, AlignmentType,
-  LOGO, image, iconLine, imgRun, icon,
+  LOGO, image, iconLine, imgRun, icon, mdBlocks,
 } = S;
 
 const ROOT = path.resolve(__dirname, '..', '..');
@@ -123,8 +123,25 @@ function planFrontMatter() {
   return c;
 }
 
+// The three facilitator resources the Research Project part has and this one did not: what to prepare
+// and how to run it with no screen, the protection guidance the activities assume, and how to judge
+// FSL2. Rendered from their authored YAML, in the same order the Research Project uses, so the two
+// components read the same way for someone moving between them.
+function referenceSection(slug, heading) {
+  const m = mat[slug];
+  if (!m || !m.educatorContent) return [];
+  return [pageBreak(), H1(heading), ...mdBlocks(m.educatorContent)];
+}
+
 function facilitatorPlanChildren() {
-  return [...planFrontMatter(), pageBreak(), ...phaseChildren()];
+  return [
+    ...planFrontMatter(),
+    ...referenceSection('cb-ail-running-this-offline', 'Before you start'),
+    ...referenceSection('cb-ail-safeguarding-and-protection', 'Safeguarding and protection'),
+    pageBreak(),
+    ...phaseChildren(),
+    ...referenceSection('cb-ail-assessing-the-goal-work', 'Assessing the goal work (FSL2)'),
+  ];
 }
 
 function facilitatorPlan() {

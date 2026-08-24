@@ -1,0 +1,147 @@
+# The conversation for a learner returning after an absence. The programme repeatedly promises that
+# "stop-start attendance never breaks the sequence" and that "a return after absence is progress" —
+# and nowhere said how to actually run that conversation. In this context it is the single most
+# frequent mentoring situation there is.
+id: cb-mn-re-anchoring-after-absence
+slug: cb-mn-re-anchoring-after-absence
+access: partner
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Picking a learner back up after an absence"
+summary: >-
+  How to run the return conversation so a learner comes back rather than drops out: what to ask and what
+  never to ask, how to re-anchor the goal, how to shrink the next step, and how to work out whether an
+  absence is logistics or something else.
+facilitationContext:
+- one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+duration: "About 10 minutes, the day a learner returns"
+educatorContent: |
+  ## This is the most common conversation you will have
+
+  Attendance here is broken by things nobody chose: a fire, illness, a flood, a week kept indoors,
+  work, a family event, a household that needed someone that day. Over twelve weeks, most learners will
+  miss something, and some will miss a lot.
+
+  The programme's design assumes this — the sessions are modular, the workbooks carry the scaffold, and
+  every plan says a return is progress. But the moment that decides whether a learner actually comes
+  back is the first ten minutes after they walk in. Get it wrong and they quietly stop coming.
+
+  ## The two things that make a learner not return
+
+  1. **Being asked to account for themselves**, in front of anyone.
+  2. **Discovering they are now behind**, with a pile of catching up in front of them.
+
+  Everything below exists to avoid those two.
+
+  ## The return conversation
+
+  **Greet them like someone who was missed, not like someone who was absent.**
+
+  > "It's good to see you. I'm glad you're back."
+
+  That is the whole opening. Do not follow it with "where have you been?" — not because you do not want
+  to know, but because the honest answer may be one they cannot give in a room.
+
+  **Ask once, privately, and let them decline.**
+
+  Later in the conversation, once only:
+
+  > "Is everything all right at home?"
+
+  If they say yes, accept it and move on, even if you doubt it. If they say no, you are into the
+  safeguarding page. If they say nothing, note it and watch. Never ask twice in one conversation, and
+  never ask in front of the group.
+
+  **Re-anchor the goal before anything else.**
+
+  Do not open their book at the page the group is on. Open it at their goal.
+
+  > "This was your goal. Is this still the one you want?"
+
+  Ask it genuinely. A learner who has been away three weeks may have changed, or the goal may now be
+  impossible, or they may be embarrassed by it. **Changing the goal is allowed and is not a failure.**
+  A learner who quietly abandons a goal they no longer believe in has left the cycle; a learner who
+  chooses a new one is still in it.
+
+  **Shrink the next step. Then shrink it again.**
+
+  Whatever the step was, it is now too big. The right next step for someone re-entering is one they can
+  finish this week and probably today.
+
+  > "What is the smallest thing you could do this week that would count?"
+
+  If they name something large, halve it. If they name something small, take it and say so warmly. The
+  purpose of the next step after an absence is not progress; it is proving to the learner that they are
+  still in this.
+
+  **Point them at their book, not at the group.**
+
+  The book is the catch-up mechanism, and it is designed for exactly this: every page carries a worked
+  example and a frame, so a learner can do a page alone. Show them the one or two pages that matter,
+  not the four they missed.
+
+  > "You don't have to catch up on everything. These two pages are the ones that matter. The rest we
+  > can leave."
+
+  **Say the thing about adapting, out loud.**
+
+  > "Plans getting broken and picked back up — that IS the skill. That is what this course is teaching."
+
+  Say it because it is true, and because a learner who thinks the absence disqualified them will not
+  believe it unless someone says it.
+
+  ## Working out what kind of absence it is
+
+  Three broad kinds, and they need different things:
+
+  | Kind | What you see | What helps |
+  |---|---|---|
+  | **One-off** | A single week, an explanation offered easily, they return keen | The return conversation, and nothing more |
+  | **Practical and recurring** | Same day each week, work, childcare, a route that floods | Solve the logistics with your coordinator — a different day, a different time. Do not treat it as motivation |
+  | **Something else** | Vague reasons, drifting, arriving late and leaving early, a goal that has shrunk to nothing | Notice, do not push. Two short warm conversations beat one long one. Raise it with your coordinator if it continues, and read the quieter signals on the safeguarding page |
+
+  The mistake is treating the second kind as the third. A learner missing Thursdays because they work
+  Thursdays does not need encouragement; they need a different day.
+
+  ## If they have missed a lot
+
+  A learner who has missed several weeks may believe there is no point continuing. Two things help.
+
+  **Show them the distance they already covered.** Turn back through their book to the first pages.
+  That is what the book is for, and it is far more persuasive than reassurance.
+
+  **Be honest and specific about what is still possible.** Not "you can still catch up" if they cannot.
+  Something like: "You will not finish everything. You can still set a goal and take real steps, and
+  that is what the assessment is about." Honest and hopeful, both — an unrealistic promise costs you the
+  learner the week they discover it.
+
+  And tell your coordinator. A learner in danger of dropping out is a programme matter, not just yours.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
+  how: >-
+    Interrupted schooling teaches young people that education is something that happens to them and can
+    be taken away. A return conversation that re-anchors a goal the learner still owns — and treats the
+    interruption as something to adapt to rather than be disqualified by — is a direct challenge to
+    that, and it is where the promise that a plan can be picked back up either becomes real or does not.
+principlesForegrounded:
+- safe-spaces
+- builds-on-identities
+competencyCodes: [FSL2]
+competencyDevelopment:
+- code: FSL2
+  how: >-
+    Adapting a plan when circumstances break it, and choosing a smaller next step rather than
+    abandoning the goal, is a core part of setting and pursuing goals — and in this context it is the
+    part learners will most often be assessed on.
+objectiveIds: []
+relatedSlugs: [cb-mn-the-conversation, cb-mn-running-mentoring-here, cb-mn-safeguarding-and-referral, cb-ail-assessing-the-goal-work, mentor-coach-through-challenges, mentor-track-progress-intervene-early]
+provenanceNote: >-
+  Authored for the Learning Bridge+ (Cox's Bazar) edition. Makes runnable the promise the programme
+  makes in several places — that sessions are modular, that a return after absence is progress, and
+  that adapting a plan is the real skill — none of which previously had a conversation attached to it.
+rights:
+  status: amala-own
+  note: Authored by Amala for this edition; no third-party content.

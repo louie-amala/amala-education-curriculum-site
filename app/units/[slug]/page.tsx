@@ -96,10 +96,21 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-[#3C4655]">{u.summary}</p>
 
+        {/* A cadence-based component (Mentoring and Wellbeing) adds no hours of its own — it runs inside
+            the other components' in-person time — so it shows its rhythm instead of an hours badge. */}
         <div className="mt-6 flex flex-wrap gap-2 text-sm">
-          <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 font-semibold text-navy">{total} hours</span>
-          <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 text-[#5A6473]">{u.totalFacilitatedHours}h in-person · {u.totalIndependentHours}h independent</span>
-          <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 text-[#5A6473]">Set out in hours — fit your own schedule</span>
+          {u.cadence ? (
+            <>
+              <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 font-semibold text-navy">{u.cadence}</span>
+              <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 text-[#5A6473]">Runs alongside the taught components — no hours of its own</span>
+            </>
+          ) : (
+            <>
+              <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 font-semibold text-navy">{total} hours</span>
+              <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 text-[#5A6473]">{u.totalFacilitatedHours}h in-person · {u.totalIndependentHours}h independent</span>
+              <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 text-[#5A6473]">Set out in hours — fit your own schedule</span>
+            </>
+          )}
         </div>
 
         {/* Downloads */}
@@ -152,7 +163,9 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
                   <a href={`#phase-${pi + 1}`} className="flex items-baseline gap-3 px-4 py-3 hover:bg-[#FBFAF7]">
                     <span className={`${headFont.className} w-5 shrink-0 text-sm font-bold text-orange`}>{pi + 1}</span>
                     <span className="flex-1 font-semibold text-navy">{phase.title}</span>
-                    <span className="shrink-0 text-[13px] tabular-nums text-[#8A93A1]">{hrs(fac)} · {hrs(ind)}</span>
+                    {!u.cadence && (
+                      <span className="shrink-0 text-[13px] tabular-nums text-[#8A93A1]">{hrs(fac)} · {hrs(ind)}</span>
+                    )}
                   </a>
                 </li>
               );
@@ -196,9 +209,11 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
                       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 border-b border-[#F0ECE3] bg-[#FBFAF7] px-5 py-4">
                         {b.kind && <span className={`${headFont.className} rounded-md bg-plum/10 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-plum`}>{KIND_LABEL[b.kind] ?? b.kind}</span>}
                         <h3 className={`${headFont.className} text-lg font-bold text-[#26303F]`}>{b.title}</h3>
-                        <span className="ml-auto text-[13px] font-semibold tabular-nums text-[#5A6473]">
-                          {hrs(b.facilitatedHours)} in-person{b.independentHours > 0 ? ` · ${hrs(b.independentHours)} independent` : ""}
-                        </span>
+                        {!u.cadence && (
+                          <span className="ml-auto text-[13px] font-semibold tabular-nums text-[#5A6473]">
+                            {hrs(b.facilitatedHours)} in-person{b.independentHours > 0 ? ` · ${hrs(b.independentHours)} independent` : ""}
+                          </span>
+                        )}
                       </div>
 
                       <div className="px-5 py-5">
@@ -213,7 +228,7 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
 
                         {b.independentTask && (
                           <div className="mt-4 rounded-r-lg border-l-[3px] border-teal bg-teal/[0.07] px-4 py-3">
-                            <p className={`${eyebrow} text-teal`}>Independent task · {hrs(b.independentHours)}</p>
+                            <p className={`${eyebrow} text-teal`}>{u.cadence ? "Between conversations" : `Independent task · ${hrs(b.independentHours)}`}</p>
                             <p className="mt-1 text-[14px] leading-relaxed text-[#3C4655]">{b.independentTask}</p>
                           </div>
                         )}

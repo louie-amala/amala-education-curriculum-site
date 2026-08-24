@@ -126,10 +126,13 @@ worksheet:
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
   how: >-
     Choosing and taking a first step is the moment a learner moves from wanting to doing, on their own
     initiative. Breaking a goal into steps they control, and acting between sessions, is self-direction
-    in practice: the learner, not circumstance, decides the next move in their own learning.
+    in practice: the learner, not circumstance, decides the next move in their own learning. And a
+    learner who has proved to themselves that a step they chose actually moved them is a learner who can
+    believe a next step is worth taking — which is what makes a pathway feel reachable rather than given.
 principlesForegrounded:
 - recognise-communicate-growth
 - responsible-action
@@ -169,7 +172,7 @@ downloads:
 - label: My steps and first step (student sheet)
   file: /downloads/agency-in-learning-my-steps.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
+  note: "Instructions and a blank template learners can fill. Print one per learner if you can; otherwise share one between two or three, or hold up a single copy and learners draw in their own notebooks."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-setting-your-goals.yaml

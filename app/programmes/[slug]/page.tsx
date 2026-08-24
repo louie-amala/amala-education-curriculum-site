@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { educatorMoves, getCourse, getProgramme, getUnitsForProgramme, programmes } from "@/lib/content";
+import {
+  agency,
+  educatorMoves,
+  getCompetencyByCode,
+  getCourse,
+  getProgramme,
+  getUnitsForProgramme,
+  programmes,
+} from "@/lib/content";
 import { tagMeta } from "@/lib/ui";
+
+// Indicator ids are stable slugs; their wording lives in foundations/agency.yaml and is read from
+// there rather than re-typed, so a change to the Foundations flows through.
+const indicatorLabel = (id: string) =>
+  agency.indicators.find((i) => i.id === id)?.label ?? id;
 
 export function generateStaticParams() {
   return programmes.map((p) => ({ slug: p.slug }));
@@ -109,6 +122,113 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
                 </li>
               ))}
             </ul>
+          </section>
+        )}
+
+        {/* The agency thread — what the whole programme is for, and what each part contributes to it.
+            Agency for positive change is Amala's required outcome (foundations/agency.yaml); before
+            this block it was visible only on /foundations and on individual material pages, with
+            nothing joining them at programme level. Placed directly above the components, so a reader
+            meets the purpose before the parts. */}
+        {prog.agencyThread && (
+          <section id="agency" className="mt-12 scroll-mt-6">
+            <p className="font-heading text-xs font-bold uppercase tracking-widest text-plum">
+              What this programme is for
+            </p>
+            <h2 className="mt-1 font-heading text-2xl font-semibold text-navy">
+              Agency for positive change
+            </h2>
+            <p className="mt-3 max-w-3xl text-lg text-dark-navy">{prog.agencyThread.statement}</p>
+            {prog.agencyThread.inThisProgramme && (
+              <p className="mt-3 max-w-3xl text-dark-navy/90">{prog.agencyThread.inThisProgramme}</p>
+            )}
+            <p className="mt-4 text-sm text-cool-grey">
+              Measured against the three indicators of agency —{" "}
+              <Link href="/foundations" className="font-medium text-navy hover:underline">
+                see the Learning Foundations
+              </Link>
+              .
+            </p>
+
+            {prog.agencyThread.byComponent.length > 0 && (
+              <>
+                <h3 className="mt-8 font-heading text-lg font-semibold text-dark-navy">
+                  What each component contributes
+                </h3>
+                <div className="mt-4 space-y-4">
+                  {prog.agencyThread.byComponent.map((row) => (
+                    <div
+                      key={row.component}
+                      className="rounded-xl border border-cool-grey/25 bg-white p-5 shadow-sm"
+                    >
+                      <h4 className="font-heading font-bold text-navy">{row.component}</h4>
+                      <ul className="mt-2 flex flex-wrap gap-2">
+                        {row.indicators.map((id) => (
+                          <li
+                            key={id}
+                            className="rounded-full bg-plum/10 px-3 py-1 text-xs font-medium text-plum"
+                          >
+                            {indicatorLabel(id)}
+                          </li>
+                        ))}
+                      </ul>
+                      <p className="mt-3 text-dark-navy/90">{row.how}</p>
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
+
+            {prog.agencyThread.byCompetency.length > 0 && (
+              <>
+                <h3 className="mt-8 font-heading text-lg font-semibold text-dark-navy">
+                  What developing each competency contributes
+                </h3>
+                <div className="mt-4 space-y-4">
+                  {prog.agencyThread.byCompetency.map((row) => {
+                    const comp = getCompetencyByCode(row.code);
+                    return (
+                      <div
+                        key={row.code}
+                        className="rounded-xl border border-cool-grey/25 bg-white p-5 shadow-sm"
+                      >
+                        <h4 className="font-heading font-bold text-navy">
+                          <span className="text-aqua">{row.code}</span>{" "}
+                          {comp ? comp.title : row.code}
+                        </h4>
+                        <ul className="mt-2 flex flex-wrap gap-2">
+                          {row.indicators.map((id) => (
+                            <li
+                              key={id}
+                              className="rounded-full bg-plum/10 px-3 py-1 text-xs font-medium text-plum"
+                            >
+                              {indicatorLabel(id)}
+                            </li>
+                          ))}
+                        </ul>
+                        <p className="mt-3 text-dark-navy/90">{row.how}</p>
+                      </div>
+                    );
+                  })}
+                </div>
+              </>
+            )}
+
+            {prog.agencyThread.howWeSeeIt.length > 0 && (
+              <>
+                <h3 className="mt-8 font-heading text-lg font-semibold text-dark-navy">
+                  How we see it, and how we do not
+                </h3>
+                <ul className="mt-3 space-y-2">
+                  {prog.agencyThread.howWeSeeIt.map((x, i) => (
+                    <li key={i} className="flex gap-3 rounded-lg bg-plum/5 p-3 text-dark-navy">
+                      <span className="font-heading font-bold text-plum">·</span>
+                      <span>{x}</span>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
           </section>
         )}
 

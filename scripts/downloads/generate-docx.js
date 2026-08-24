@@ -95,6 +95,22 @@ function facilitatorPlanChildren(opts = {}) {
     c.push(H1('Practice everywhere'));
     c.push(...mdBlocks(practiceRes.educatorContent));
   }
+  // "Before you start" and "Safeguarding and protection" — the two reference sections the Research
+  // Project and Agency in Learning parts carry, so a facilitator moving between the three components
+  // finds the same things in the same order. The playbook above is the pedagogy; these are the kit,
+  // the preparation, and the protection guidance.
+  const startHere = mat['cb-mv-running-this-offline'];
+  if (startHere && startHere.educatorContent) {
+    c.push(pageBreak());
+    c.push(H1('Before you start'));
+    c.push(...mdBlocks(startHere.educatorContent));
+  }
+  const safe = mat['cb-mv-safeguarding-and-protection'];
+  if (safe && safe.educatorContent) {
+    c.push(pageBreak());
+    c.push(H1('Safeguarding and protection'));
+    c.push(...mdBlocks(safe.educatorContent));
+  }
   c.push(pageBreak());
   c.push(H2('How to use this plan'));
   c.push(P('This plan is set out in hours, not weeks. Work through the phases in order; within a phase, the blocks build on each other. Each activity block below carries its full facilitation guidance inline — what learners do, what to prepare, the steps, the prompts, what to watch for, and how to run it with no materials. Deliver in the language you share with learners, from this plain-English guide. Times are generous on purpose: oral and visual work, drawing, and translation take longer than they look.', { size: 22 }));

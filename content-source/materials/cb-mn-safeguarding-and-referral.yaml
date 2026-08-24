@@ -1,0 +1,145 @@
+# Safeguarding & referral resource for the Mentoring and Wellbeing component of Learning Bridge+
+# (Cox's Bazar). Mentoring is where disclosures actually happen — it is 1:1, it is trusted, and it asks
+# real questions — and the Educator Guide gave it three bullet points. Sibling of
+# cb-rp-safeguarding-and-protection and cb-ail-safeguarding-and-protection.
+id: cb-mn-safeguarding-and-referral
+slug: cb-mn-safeguarding-and-referral
+access: partner
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Safeguarding and referral in mentoring"
+summary: >-
+  What a mentor must have in place before taking a caseload, the confidentiality line and how to say it,
+  what to do in the moment of a disclosure, the protection risks common in displacement, and how to look
+  after yourself afterwards.
+facilitationContext:
+- one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  ## Read this before you take a single learner
+
+  Mentoring is where disclosures happen. It is one to one, it is trusted, and it asks real questions
+  about a young person's life. Over twelve weeks, across a cohort, something will surface. The question
+  is only whether you are ready.
+
+  Everything here sits under NRC's Code of Conduct, safeguarding policy, and MHPSS and protection
+  referral pathways. Those are the authority. This page is how to hold them in a mentoring conversation.
+
+  ## Three things in place before Week 1
+
+  1. **The referral pathway, written down and to hand.** The name of the person you hand a concern to,
+     how to reach them, what happens out of hours, and what you do if you cannot reach them. Not "I
+     think it's the protection focal point" — the actual name, on paper, in your bag.
+  2. **NRC's Code of Conduct, read.** Including the parts about physical contact, being alone with a
+     learner, transport, gifts, and contact outside the programme.
+  3. **Your own limits, named.** You are a mentor, not a counsellor. Write that sentence somewhere you
+     will see it. The pull to help more than you should is strongest with the learners you like most.
+
+  If any of these is missing, tell your coordinator before you start, not after something happens.
+
+  ## The confidentiality line, and how to say it
+
+  Say it in the first conversation, before anything is disclosed. Plainly, warmly, and in the language
+  you share:
+
+  > "What we talk about stays between us. There is one thing I have to tell you about: if I think you
+  > or someone else is in danger, I have to tell one person whose job it is to help. I would tell you
+  > first that I was doing it."
+
+  Then never move that line. Two rules follow from it:
+
+  - **Never promise secrecy**, even when asked directly, and especially when a learner says "promise
+    you won't tell anyone" before speaking. Say: "I can't promise that, but I can promise I will not
+    tell anyone who does not need to know, and I will tell you what I do."
+  - **Never break it casually.** Not to another facilitator over tea, not to make a point in a
+    training, not as an example. A learner who hears their own story repeated will never speak again,
+    and neither will their friends.
+
+  ## In the moment of a disclosure
+
+  Your steadiness is most of the intervention. The learner is watching your face to find out whether
+  what they said is survivable.
+
+  1. **Stay calm and stay ordinary.** Do not gasp, recoil, or become urgent.
+  2. **Listen. Do not investigate.** It is not your job to establish what happened. Do not ask probing
+     questions, do not ask for detail, do not ask "are you sure". Every extra question can damage a
+     formal process later and makes the learner tell the story more times than they should have to.
+  3. **Do not promise secrecy** — see above. If they have already asked, say the line.
+  4. **Believe them, out loud.** "Thank you for telling me. I am glad you did." That is all.
+  5. **Say what you will do next, in plain words.** "I am going to talk to ___, whose job it is to
+     help. I will tell you when I have."
+  6. **Do not leave them alone with it.** Stay a few minutes. Ask what would help right now.
+  7. **Refer the same day.** Not tomorrow, not when it is convenient.
+  8. **Write down what was said, in the learner's own words**, as soon as you can — facts, not your
+     interpretation, and not on the learner's own page. Give it to the person you refer to.
+
+  What you do **not** do: investigate, confront anyone, contact a family, promise an outcome, or handle
+  it yourself because you think it will be worse if you report it.
+
+  ## What may surface here
+
+  These are the protection risks common in displacement, so you are not surprised by them:
+
+  - **Child marriage**, including a marriage being arranged for a learner who has not told anyone.
+  - **Family separation**, and children heading households.
+  - **Gender-based violence**, in the household or on the routes learners walk.
+  - **Exploitative work**, trafficking, and pressure to earn instead of learn.
+  - **Self-harm and suicidal thinking**, including after a bereavement.
+  - **Pressure to stop learning**, often falling on girls, and often not framed as a decision.
+
+  For the last one in particular: it may not arrive as a disclosure at all. It arrives as attendance
+  quietly falling off. Notice absences and ask about them privately, kindly, and early — that
+  conversation is sometimes the only intervention that happens.
+
+  ## The quieter signals
+
+  Not every concern announces itself. Watch, across weeks rather than in one conversation, for:
+
+  - Withdrawal, or a "fine" that has changed shape.
+  - A learner who stops setting goals they care about, or whose goals shrink to nothing.
+  - Sudden attendance changes, especially around a household event.
+  - A learner who becomes reluctant to go home, or reluctant to leave.
+  - Flinching, hiding injuries, or new fear of a particular person or route.
+  - Marked change in appearance, eating, or energy.
+
+  One of these is a thing to note. A pattern is a thing to raise.
+
+  ## Step back, do not step in
+
+  Much of what a mentoring conversation touches is painful without being a safeguarding matter — a
+  death, a lost home, a family not all here. You do not have to fix it and you must not excavate it.
+
+  1. Do not ask a second question.
+  2. Acknowledge it, briefly and without drama.
+  3. Offer a way out: "you do not have to talk about that here."
+  4. Return to something in the learner's control, gently.
+  5. Note it, and watch.
+
+  ## Afterwards, look after yourself
+
+  Hearing this is heavy, and mentors in camp settings often carry the same displacement the learners
+  do. Do not hold a disclosure alone — that is what the referral is for, and it is for your sake as
+  well as theirs. Tell your coordinator when a conversation has affected you. A mentor running on empty
+  stops noticing, and noticing is the job.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    A learner develops power over their own wellbeing partly by learning that saying something true is
+    safe and produces help rather than exposure. A mentor who holds the confidentiality line honestly —
+    including the limit on it — teaches that lesson; one who promises secrecy and breaks it, or who
+    flinches, teaches the opposite to a whole cohort.
+principlesForegrounded:
+- safe-spaces
+competencyCodes: [FUS1]
+objectiveIds: []
+relatedSlugs: [cb-mn-running-mentoring-here, cb-mn-the-conversation, cb-mn-mentor-record, cb-ail-safeguarding-and-protection, cb-rp-safeguarding-and-protection, mentor-respond-to-disclosure, mentor-know-your-safeguarding-policy]
+provenanceNote: >-
+  Authored for the Learning Bridge+ (Cox's Bazar) edition. Contextualises Amala's mentor moves on
+  responding to a disclosure and knowing your safeguarding policy for the camp setting, using the
+  protection risks named in the programme's own mentoring block. It does not replace and cannot
+  override NRC's Code of Conduct, safeguarding policy, or MHPSS and protection referral pathways —
+  where this page and NRC policy differ, NRC policy governs.
+rights:
+  status: amala-own
+  note: Authored by Amala for this edition; no third-party content.

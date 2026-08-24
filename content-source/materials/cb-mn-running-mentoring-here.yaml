@@ -1,0 +1,133 @@
+# Facilitator start-here resource for the Mentoring and Wellbeing component of Learning Bridge+ (Cox's
+# Bazar). Sibling of cb-rp-running-this-offline and cb-ail-running-this-offline.
+#
+# Why: the programme calls mentoring "the spine of wellbeing support" and the thing that keeps the
+# Agency in Learning goal alive between sessions — and it had 343 words in a 100,000-word Educator
+# Guide, no plan, no conversation shape, and no record. This is the start of the fix.
+id: cb-mn-running-mentoring-here
+slug: cb-mn-running-mentoring-here
+access: partner
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Running mentoring here — start here"
+summary: >-
+  The facilitator's start-here for the mentoring component: what mentoring is and is not in this
+  programme, how a caseload works, how learners and mentors are paired, where the conversations fit
+  inside the three hours, and what you keep a record of.
+facilitationContext:
+- one-to-one-mentoring
+primaryContext: one-to-one-mentoring
+educatorContent: |
+  ## Start here
+
+  Read this before you take a caseload. Mentoring is the fourth component of this programme, and the
+  only one that touches the same learner across all twelve weeks and all three of the others. It adds
+  no hours of its own — it happens inside the in-person time you already have.
+
+  ## What mentoring is here, and what it is not
+
+  **It is** the place where a learner is known as one person rather than as a member of three classes.
+  It is where the goal they set in Agency in Learning stays alive between sessions, where you notice
+  early that something is wrong, where the skills they already use in daily life get named as
+  capability, and where "what next" stays honest and near-term.
+
+  **It is not counselling.** You are not trained for it, it is not your role, and attempting it puts a
+  learner at risk. Your job is to notice, steady, and refer. Know NRC's MHPSS and protection referral
+  pathway before you take a single learner — who you hand a concern to, and how — written down and to
+  hand, not looked for in the moment.
+
+  **It is not a progress meeting.** If your conversations become "have you done your work", learners
+  will start managing you rather than talking to you, and you will lose the early warning that is the
+  main reason this component exists.
+
+  ## Your caseload
+
+  - **Keep it small enough that each learner is genuinely known.** A mentor with too many learners has a
+    list, not a caseload. Agree the number with your coordinator before Week 1, not after.
+  - **Plan for female mentors and same-gender pairing** wherever girls' participation depends on it.
+    This is not a preference; in many households it is the condition of a girl attending at all.
+  - **Match language** so a learner can speak freely in the language they use at home. A learner
+    working in their third language will tell you less than one working in their first, every time.
+  - **A learner can ask to change mentor,** and does not have to say why. Agree with your coordinator
+    in advance how that happens, so it can happen quietly.
+
+  ## Where the conversations fit
+
+  You have nine in-person hours a week across the three components. Mentoring lives inside them.
+
+  While the rest of the group is working — drawing, sorting, practising in pairs — take two or three
+  learners aside in turn for a short conversation. Over the three learning days you get to everyone.
+  Ten minutes each, most weeks, is the target. It costs no extra hours.
+
+  Two practical things make this work:
+
+  1. **Set the group up on something self-sustaining first.** The workbook pages are designed for it —
+     every page carries a worked example and a frame, so learners can keep going while you are with
+     someone else. Choose the moment; do not pull someone out of the one activity they were enjoying.
+  2. **Take them aside, not out of sight.** Somewhere the conversation is private in sound but visible
+     in the room. That protects the learner and it protects you.
+
+  ## What a mentor keeps
+
+  You keep a light paper record — one page per learner — of what you notice and what was agreed. Not a
+  transcript. Its whole purpose is that the next conversation starts where the last one ended, and that
+  a learner who returns after three weeks away is picked up rather than restarted.
+
+  The learner keeps their own page in their workbook, and it holds only **the one step they chose**.
+  Nothing a learner tells you goes in their book: their book goes home with them.
+
+  Keep your record where a learner cannot read another learner's. See the mentor record page for what
+  goes on it, and what never does.
+
+  ## The rhythm across twelve weeks
+
+  The relationship has an arc, and it is worth knowing which part you are in.
+
+  | When | What the conversations are mostly for |
+  |---|---|
+  | Weeks 1–2 | Getting known. Almost no business. Build the thing everything else runs on. |
+  | Weeks 3–5 | Keeping the goal alive between sessions. Coach, don't rescue. |
+  | Week 6 | The checkpoint conversation, alongside the supported assessment. |
+  | Weeks 7–11 | Surfacing growth, and naming the capability a learner already has. The optional significant adult meeting sits here. |
+  | Week 12 | Naming the growth, and an honest, near-term conversation about what is next. |
+
+  The full guidance for each is in the mentoring plan.
+
+  ## Five habits worth more than any technique
+
+  1. **Start with a genuine check-in, every time, before anything else.** Not "how are you" as a way in
+     — actually wait for the answer.
+  2. **Ask, then be quiet.** Count five seconds before you fill the silence. Most of what you need to
+     hear arrives in second four.
+  3. **Coach, don't rescue.** The instinct to solve it is strong and it takes the learning away. Ask
+     what they have already tried.
+  4. **One step, agreed out loud, small enough to actually happen.** End every conversation with it.
+  5. **Watch the pattern, not the answer.** A learner whose "fine" has changed shape over four weeks is
+     telling you something no single conversation will.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
+  - contribution-to-community
+  how: >-
+    Mentoring is the only place in the programme where all three indicators are held together in one
+    learner's life across the whole twelve weeks. It is where self-direction is kept alive between
+    sessions rather than only taught in a session, where the capability a learner already exercises at
+    home is recognised as capability, and where the next step towards a pathway is kept honest enough
+    to be worth taking. Without it, the three taught components are three courses rather than one
+    person's development.
+principlesForegrounded:
+- safe-spaces
+- builds-on-identities
+- connect-to-futures
+competencyCodes: [FSL2, FUS1]
+objectiveIds: []
+relatedSlugs: [cb-mn-the-conversation, cb-mn-mentor-record, cb-mn-safeguarding-and-referral, cb-mn-significant-adult-meeting, cb-my-mentoring-conversations, mentor-name-your-role, mentor-wellbeing-check-ins]
+provenanceNote: >-
+  Authored for the Learning Bridge+ (Cox's Bazar) edition. Consolidates the mentoring guidance already
+  held in the programme YAML's `mentoring` block (roles, cadence, pairing, referral) with the shared
+  practice in Amala's mentor moves, into a start-here a facilitator holds. Does not replace NRC's Code
+  of Conduct, safeguarding policy, or MHPSS and protection referral pathways.
+rights:
+  status: amala-own
+  note: Authored by Amala for this edition; no third-party content.

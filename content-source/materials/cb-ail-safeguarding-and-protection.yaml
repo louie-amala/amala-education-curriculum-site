@@ -1,0 +1,133 @@
+# Facilitator safeguarding & protection resource for the Agency in Learning component of Learning
+# Bridge+ (Cox's Bazar). The Research Project has one of these; Agency in Learning did not — even
+# though its activities ask learners about their strengths, their families, their futures, and times
+# they failed, all of which touch loss and displacement. Sibling of cb-rp-safeguarding-and-protection.
+id: cb-ail-safeguarding-and-protection
+slug: cb-ail-safeguarding-and-protection
+access: partner
+edition: learning-bridge-coxs-bazar
+type: resource
+title: "Safeguarding and protection in Agency in Learning"
+summary: >-
+  The protection guidance this component depends on, in one place: why goal-setting is sensitive ground
+  here, the activities that most often surface something, the step-back routine, how to keep goals
+  inside a learner's control, and the referral pathway.
+facilitationContext:
+- group
+- one-to-one-mentoring
+primaryContext: group
+educatorContent: |
+  ## Why this component needs a protection guide at all
+
+  It looks like the safe one. It is not fieldwork, nobody goes anywhere, and nobody interviews a
+  stranger. But over ten weeks this component asks learners: what are you good at, what do you want to
+  get better at, what do you want to be able to do, who can help you, when did you fail at something,
+  and how have you changed. In a camp, every one of those questions has a door behind it — to an
+  interrupted education, a family that is not all here, a marriage being arranged, work that cannot be
+  done, a future that is currently blocked.
+
+  You are not doing anything wrong by asking. These are the right questions, and the whole point of the
+  component is that a young person gets to answer them for themselves. But ask them without preparation
+  and you will be standing in front of something you did not expect. Read this first, and follow NRC's
+  Code of Conduct and protection principles throughout.
+
+  ## Before you start
+
+  - **Know the referral pathway before the first session.** Who you hand a concern to, and how. Have the
+    names and steps written down and to hand, not looked for in the moment. Do not take a mentoring
+    caseload without this.
+  - **Know your step-back options.** How a learner can pause, sit out, or leave the space without being
+    singled out or asked why. Say them out loud in the first session so nobody has to invent a reason
+    later.
+  - **Agree same-gender grouping** wherever girls' participation depends on it, and match language so a
+    learner can speak in the language they use at home.
+
+  ## The rule that runs through everything: goals stay inside the learner's control
+
+  This edition deliberately reframes goal-setting around **learning** goals within a learner's own
+  control, and not around futures. That is a protection decision as much as a pedagogical one.
+
+  Asking a young person in a camp to set a life goal, or to plan the career they want, invites them to
+  name something that may be genuinely out of reach — and then to fail at it in front of you. Asking
+  what they want to be able to *do*, and what small step they could take this week, does not.
+
+  So: keep it near-term, keep it learnable, keep it theirs. If a learner reaches for something distant
+  or blocked, do not correct them and do not endorse a fantasy. Ask what the first step towards it would
+  be that they could take here, and let the goal be that step. Honest and hopeful, both.
+
+  ## The five activities that most often surface something
+
+  1. **What I am good at, what I want to grow.** Learners routinely undervalue what they already do —
+     caring for siblings, translating, earning, keeping a household running. Naming those out loud is
+     powerful and can also surface how much a young person is carrying. Notice; do not probe.
+  2. **How I learn best.** Asking about when and where a learner can concentrate can surface an
+     overcrowded shelter, unsafe routes, night work, or a household that does not support their
+     learning. Keep the conversation on conditions, not on the family.
+  3. **You can grow.** This asks for a memory of struggling and improving. Some learners will reach for
+     a memory from before displacement. Let them, and let it be warm — but be ready for it to turn.
+  4. **Who and what can help me.** Mapping helpers can make an absence visible: the person who would
+     have helped is not here. Have a plan for a learner whose map is nearly empty — the mentor, the
+     facilitator, and another learner are all legitimate entries, and you can offer them.
+  5. **Look back at how you have grown / my next goal.** Looking back over twelve weeks can prompt
+     looking back over more than twelve weeks. Keep the frame on this course.
+
+  ## The step-back routine
+
+  Practise it until it is automatic. When something opens up that should not be opened here:
+
+  1. **Do not follow it.** Do not ask a second question. The instinct to understand more is the wrong
+     instinct in the moment.
+  2. **Acknowledge and normalise, briefly.** "Thank you for saying that. A lot of people here would say
+     something like it."
+  3. **Offer the door out.** "You do not have to put that on the page. Would you like to sit with
+     ___ for a few minutes?"
+  4. **Move the group on** so the learner is not left being looked at.
+  5. **Come back to them afterwards, privately**, and follow the referral pathway if you need to.
+
+  Never promise secrecy — not before, not during. If a learner asks you to promise, say plainly and
+  warmly that you will not tell people who do not need to know, and that if they are in danger you have
+  to tell one person whose job it is to help.
+
+  ## Some things we do not do here
+
+  - No learner ever has to share anything about themselves, their family, or their past. Every activity
+    has a lighter, everyday version; use it without comment.
+  - No learner's book is read out, held up, or compared with another's. The book is theirs.
+  - Nothing a learner discloses goes in their own book. Their book goes home with them.
+  - No learner is asked to explain why they were absent in front of the group.
+  - No goal is set for a learner by anyone else — including by you, and including with good intentions.
+
+  ## If a learner becomes distressed
+
+  Stay calm and stay ordinary; your steadiness is most of the intervention. Give them a way out of the
+  room that does not look like being removed. Do not gather the group around them. Afterwards, follow
+  the referral pathway — your job is to notice, steady, and refer, not to counsel. Tell your coordinator
+  the same day.
+
+  ## Mentoring sits alongside this
+
+  Most of what surfaces in a session is better followed up in a 1:1 than in the room. The mentoring
+  guidance in Part 2 is the other half of this page, and the two are meant to be read together.
+agencyContribution:
+  indicators:
+  - power-over-wellbeing-and-self-direction
+  how: >-
+    A learner only sets an honest goal in a space where an honest answer is safe. Keeping goals inside
+    what a learner controls, and holding sensitive ground carefully, is what makes the self-direction
+    this component teaches real rather than performed — a learner who is protecting themselves from the
+    question is not directing anything.
+principlesForegrounded:
+- safe-spaces
+- builds-on-identities
+competencyCodes: [FSL2]
+objectiveIds: []
+relatedSlugs: [cb-ail-running-this-offline, cb-ail-assessing-the-goal-work, cb-rp-safeguarding-and-protection, cb-my-mentoring-conversations, mentor-respond-to-disclosure]
+provenanceNote: >-
+  Authored for the Learning Bridge+ (Cox's Bazar) edition as the Agency in Learning sibling of
+  cb-rp-safeguarding-and-protection, which had no equivalent. Consolidates the step-back and
+  goals-within-control guidance that the programme YAML and individual cb-ail-* materials reference but
+  never set out in one place a facilitator can hold. Does not replace NRC's own policy or referral
+  pathways.
+rights:
+  status: amala-own
+  note: Authored by Amala for this edition; no third-party content.

@@ -48,11 +48,60 @@ const OUT = process.env.OUT_DIR ? path.resolve(process.env.OUT_DIR) : path.join(
 const yaml = require('yaml');
 const readMaterial = (slug) => yaml.parse(fs.readFileSync(path.join(CS, 'materials', `${slug}.yaml`), 'utf8'));
 const PROGRAMME_PAGES = ['cb-my-mentoring-conversations', 'cb-my-growth-across-the-programme'].map(readMaterial);
+// Programme-level, belonging to no one component: the single closing showcase. (The optional
+// significant adult meeting belongs to Mentoring, and arrives with MN.guideChildren().)
+const SHOWCASE = readMaterial('cb-my-showcase');
+
+// The programme itself, for the agency thread. Agency for positive change is Amala's required
+// outcome, but it appeared in NONE of the three distributed documents — a facilitator holding the
+// complete manual was never told what the programme was ultimately for. These sections fix that, and
+// they render the authored YAML rather than a re-typed copy, so the guides and the site cannot drift.
+const PROGRAMME = yaml.parse(fs.readFileSync(path.join(CS, 'programmes', 'learning-bridge-coxs-bazar.yaml'), 'utf8'));
+const AGENCY = yaml.parse(fs.readFileSync(path.join(CS, 'foundations', 'agency.yaml'), 'utf8'));
+const COMPETENCIES = yaml.parse(fs.readFileSync(path.join(CS, 'framework', 'competencies.yaml'), 'utf8'));
+const indicatorLabel = (id) => (AGENCY.indicators.find((i) => i.id === id) || {}).label || id;
+const competencyTitle = (code) => {
+  const c = COMPETENCIES.find((x) => x.code === code);
+  return c ? c.title : code;
+};
+
+// The agency thread, as document children. `depth` picks the heading level so the same builder can
+// open the Coordinator Guide (H1 sections) and sit inside Part 1 of the Educator Guide (H2/H3).
+function agencyThreadChildren({ heading, sub, full = true }) {
+  const t = PROGRAMME.agencyThread;
+  if (!t) return [];
+  const c = [];
+  c.push(heading('Agency for positive change — what this is all for'));
+  c.push(P(t.statement, { size: 22 }));
+  if (t.inThisProgramme) c.push(P(t.inThisProgramme, { size: 22 }));
+  c.push(callout('The three indicators of agency', AGENCY.indicators.map((i) => i.label), PLUM));
+  if (full && t.byComponent.length) {
+    c.push(sub('What each component contributes'));
+    c.push(twoCol(['Component', 'What it builds, and which indicators'], t.byComponent.map((r) => [
+      r.component,
+      `${r.how}\n\nIndicators: ${r.indicators.map(indicatorLabel).join('  ·  ')}`,
+    ])));
+  }
+  if (full && t.byCompetency.length) {
+    c.push(sub('What developing each competency contributes'));
+    c.push(twoCol(['Competency', 'How developing it builds agency'], t.byCompetency.map((r) => [
+      `${r.code} — ${competencyTitle(r.code)}`,
+      `${r.how}\n\nIndicators: ${r.indicators.map(indicatorLabel).join('  ·  ')}`,
+    ])));
+  }
+  if (t.howWeSeeIt.length) {
+    c.push(sub('How you see it — and how not to turn it into another test'));
+    t.howWeSeeIt.forEach((x) => c.push(bullet(x)));
+  }
+  return c;
+}
 
 // The three component packs, as children builders — embedded, never re-authored.
 const AIL = require('./generate-ail');
 const MV = require('./generate-docx');
 const RP = require('./generate-rp');
+// Mentoring is a component like the others now, with its own generator and children builders.
+const MN = require('./generate-mentoring');
 
 // The three taught components, in the order the guide presents them. Drives the week-by-week map.
 const COMPONENTS = [AIL, MV, RP];
@@ -65,7 +114,8 @@ const ARC_ROWS = [
   ['Before Week 1', 'Diagnostic intake. Each learner is placed and, where needed, English proficiency is checked (below B1). Learners are paired with a mentor.'],
   ['Weeks 1–5', 'First block of learning. Educators deliver the component sessions and begin gathering evidence of each learner’s competency as they go — from workbooks, steps taken, and what learners say and do.'],
   ['Week 6', 'Supported (formative) assessment. Educators make a first, provisional judgement of each learner against the Proficiency Scale — with Amala’s support and calibration. This is a rehearsal and a checkpoint, not the final grade.'],
-  ['Weeks 7–11', 'Second block of learning. Educators keep building the competencies and keep gathering evidence, guided by what Week 6 surfaced about each learner.'],
+  ['Weeks 7–11', 'Second block of learning. Educators keep building the competencies and keep gathering evidence, guided by what Week 6 surfaced about each learner. The optional significant adult meetings, where a site is running them, sit in this block.'],
+  ['Last week of delivery', 'The showcase. One shared closing event for all three components, with guests the learners invited themselves. Fix the date early — invitations have to go out.'],
   ['Week 12', 'Final (summative) assessment. Educators make their final judgement of each learner in the two assessed competencies, against the Proficiency Scale.'],
   ['After Week 12', 'Amala moderation. Amala reviews a sample of judgements against the evidence to confirm they are consistent and fair, and the readiness decision is confirmed.'],
 ];
@@ -75,9 +125,13 @@ const ARC_ROWS = [
 // a week, THREE hours with you each day (one hour per component), and about TWO hours at home each
 // day. That is the whole weekly load — 9 in-person + 6 independent = 15 hours — laid out so an
 // educator can see it, not infer it. Days are numbered, not named: each site places its own rest day.
-const WEEK_HEADER = [
+// The middle column is written in the second person for the educator's own guide, and in the third
+// for the coordinator's — the same table, addressed to the person actually holding it.
+const weekHeader = (aud = 'educator') => [
   'Learning day',
-  'With you, in the CBLF — 3 hours',
+  aud === 'coordinator'
+    ? 'With the educator, in the CBLF — 3 hours'
+    : 'With you, in the CBLF — 3 hours',
   'At home before the next day — about 2 hours',
 ];
 // The three components rotate, so the same one is never always last, when the group is most tired.
@@ -101,10 +155,17 @@ const weekRows = () => WEEK_ROTATION.map((order, i) => {
     { lines: home, bold: false, color: GREY },
   ];
 });
-const exampleWeekTable = () => refTable(WEEK_HEADER, weekRows(), [1700, 4700, 4400]);
+const exampleWeekTable = (aud = 'educator') => refTable(weekHeader(aud), weekRows(), [1700, 4700, 4400]);
 
-const WEEK_MATHS = '3 learning days × 3 hours with you = 9 in-person hours. 3 days × about 2 hours at home = 6 independent hours. That is 15 hours a week, and about 150 hours across the 10 weeks of delivery — the full programme.';
-const WEEK_ADAPT = 'This is one way to place the hours, not the timetable. What is fixed is the weekly total per component — 3 hours in-person and 2 hours independent — and that all three run side by side. Everything else is yours to set with your coordinator: which days you use (place your own rest day, for example Friday), and whether you spread the same hours over more days with shorter sessions. Before the Research Project’s shared challenge is agreed, run Agency in Learning and English only — two hours a day with you instead of three.';
+const weekMaths = (aud = 'educator') => `3 learning days × 3 hours with ${aud === 'coordinator' ? 'the educator' : 'you'} = 9 in-person hours. 3 days × about 2 hours at home = 6 independent hours. That is 15 hours a week, and about 150 hours across the 10 weeks of delivery — the full programme.`;
+// Same guidance, addressed to the person holding the document: the educator sets their own days with
+// their coordinator; the coordinator sets them across sites with their educators.
+const WEEK_ADAPT_FIXED = 'This is one way to place the hours, not the timetable. What is fixed is the weekly total per component — 3 hours in-person and 2 hours independent — and that all three run side by side.';
+const WEEK_ADAPT_FREE = {
+  educator: 'Everything else is yours to set with your coordinator: which days you use (place your own rest day, for example Friday), and whether you spread the same hours over more days with shorter sessions.',
+  coordinator: 'Everything else is yours to set with your educators: which days each site uses (place the local rest day, for example Friday), and whether a site spreads the same hours over more days with shorter sessions.',
+};
+const weekAdapt = (aud = 'educator') => `${WEEK_ADAPT_FIXED} ${WEEK_ADAPT_FREE[aud] || WEEK_ADAPT_FREE.educator}`;
 
 // ---- The week-by-week map ---------------------------------------------------------------------
 // Computed from the unit YAMLs: walks each component's blocks, filling 3 in-person hours per week,
@@ -146,7 +207,7 @@ const PACK_ROWS = [
   ['Agency in Learning — picture cards (PDF)', 'The group', 'One set per group, printed and cut out. On the USB only — a PDF, so it is not reproduced in this guide.'],
   ['Agency in Learning — assessment record (FSL2)', 'You', 'One copy per learner. Part 9A here.'],
   ['Research Project — assessment record (FSI1)', 'You', 'One copy per learner. Part 9B here.'],
-  ['Session slides (Agency in Learning, My Voice)', 'Optional', 'Only for the minority of sites with a screen. On the USB only.'],
+  ['Mentor’s record', 'You', 'One copy per learner on your mentoring caseload. Part 9C here.'],
 ];
 
 function titleBlock(c, title, subtitle, blurb) {
@@ -187,6 +248,11 @@ function coordinatorGuide() {
   c.push(mini('The headline success measure'));
   c.push(P('Agreed with NRC: at least 70% of learners who complete the programme demonstrate the competencies needed to enrol in the accredited secondary education pathway, as measured by the final assessment. Everything below serves that measure.', { size: 22 }));
 
+  c.push(...agencyThreadChildren({
+    heading: (t) => H2(t),
+    sub: (t) => mini(t),
+  }));
+
   c.push(H1('2. Who does what'));
   c.push(twoCol(['Role', 'Responsibility'], [
     ['Amala', 'Remote technical consultant. Contextualises the curriculum, supplies ready-made offline resources, trains facilitators and you (the coordinator), supports the Week-6 assessment, and moderates the final judgements. Amala does not deliver in the camps.'],
@@ -200,10 +266,12 @@ function coordinatorGuide() {
   c.push(P('Work through this before Week 1. Most of it you do once per site, then maintain.', { size: 22 }));
   c.push(numbered('Confirm the sites (CBLFs) and the space each offers. A CBLF is often a room in a teacher’s shelter — plan for no internet, and often no reliable power or learner devices.', 'setup'));
   c.push(numbered('Confirm facilitators. Plan for female facilitators and same-gender grouping wherever girls’ participation depends on it, and match language so learners can take part in the language they use at home. Keep mentor caseloads small enough that each learner is genuinely known.', 'setup'));
-  c.push(numbered('Distribute the offline pack. Every resource is supplied ready-made and editable, distributed physically by USB or hard drive. The Educator Guide is the single document a facilitator delivers from — it carries the unit plans, the learner books, the cards and the assessment records inside it — with the slides and the picture-card PDF alongside on the USB.', 'setup'));
-  c.push(numbered('Check every site can print what it needs — at minimum one learner book per learner per component — or has a screen, or can work from a single held-up copy.', 'setup'));
+  c.push(numbered('Distribute the offline pack. Every resource is supplied ready-made and editable, distributed physically by USB or hard drive. The Educator Guide is the single document a facilitator delivers from — it carries the unit plans, the learner books, the cards and the assessment records inside it — with the picture-card PDF alongside on the USB.', 'setup'));
+  c.push(numbered('Agree with each site how the learner books will reach learners: one printed book each is best, one shared between two or three works, and a single displayed copy with learners using notebooks is the floor. The books carry the teaching and the worked examples, so what matters is that every learner can SEE them — not that every learner owns one. The books are editable Word files, so pages can be cut before printing if paper is short.', 'setup'));
   c.push(numbered('Make the safeguarding pathway concrete at each site. Before any facilitator takes a mentoring caseload, make sure they know NRC’s Code of Conduct and the camp MHPSS and protection referral pathway — who to hand a concern to, and how.', 'setup'));
   c.push(numbered('Run diagnostic intake. Place each learner, check English proficiency where needed (the cohort is below B1, many not yet literate in any language), and pair each learner with a mentor.', 'setup'));
+  c.push(numbered('Plan the closing showcase early. The programme ends with ONE shared event in the last week, not three separate ones: learners present their research, show their "My Name, My Voice" card, and name one way they have grown — and each learner invites at least one person themselves. You need a space that can hold guests, a date fixed early enough for invitations, and the guest arrangements cleared against NRC\u2019s Code of Conduct. Confirm the same-gender seating and grouping plan BEFORE invitations go out.', 'setup'));
+  c.push(numbered('Decide whether your sites will offer the optional significant adult meeting — a three-way conversation between a mentor, a learner, and one adult the learner chooses, best placed between Weeks 7 and 11. It is the fastest way to make a learner\u2019s growth visible to the people whose belief shapes what happens next, and it is genuinely demanding to organise. It is fine to run it for some learners and not others; it is not fine to run it where there is an open protection concern. Full guidance is in the Educator Guide, Part 2.3.', 'setup'));
 
   c.push(H1('4. The programme structure and the 12-week rhythm'));
   c.push(P('The programme has three taught components plus ongoing mentoring, running side by side across the same weeks.', { size: 22 }));
@@ -217,9 +285,9 @@ function coordinatorGuide() {
 
   c.push(H2('What a week could look like'));
   c.push(P('The simplest way to place the hours is three learning days a week: three hours with the educator each day — one hour per component — and about two hours of independent work at home before the next day. Mentoring check-ins happen inside the in-person time.', { size: 22 }));
-  c.push(exampleWeekTable());
-  c.push(P(WEEK_MATHS, { size: 21, color: OLIVE, bold: true, before: 140 }));
-  c.push(P(WEEK_ADAPT, { size: 22 }));
+  c.push(exampleWeekTable('coordinator'));
+  c.push(P(weekMaths('coordinator'), { size: 21, color: OLIVE, bold: true, before: 140 }));
+  c.push(P(weekAdapt('coordinator'), { size: 22 }));
 
   c.push(H2('The 12-week rhythm'));
   c.push(P('Around that weekly learning, hold this assessment rhythm: five weeks of learning, a supported assessment, five more weeks, then the final assessment. Your job is to protect the two assessment windows and keep them on the calendar.', { size: 22 }));
@@ -227,6 +295,12 @@ function coordinatorGuide() {
   c.push(callout('The two assessment points, in one line', [
     'Week 6 — supported assessment: a first, provisional judgement, made with Amala’s support. A checkpoint and a rehearsal.',
     'Week 12 — final assessment: the educators’ final judgement of the two competencies, which Amala then moderates.',
+  ], OLIVE));
+
+  c.push(callout('Reading the Week-6 results', [
+    'Expect most learners to sit at Theorist at Week 6. The goal-pursuit weeks in Agency in Learning, and the analysis and output weeks in the Research Project, both fall AFTER it — so Week 6 is measured before most of the evidence exists.',
+    'A low Week-6 picture is not a failing cohort. It is the checkpoint doing its job: it shows where to concentrate support across Weeks 7 to 11.',
+    'The 70% measure is taken at Week 12, on the final judgement, and nowhere else.',
   ], OLIVE));
 
   c.push(pageBreak());
@@ -344,7 +418,7 @@ function educatorGuide() {
   c.push(P('Read Parts 1 to 3 before you start — they take about an hour and they carry everything that is shared across the programme. After that you live in Parts 4 to 6, one part per component, session by session. Parts 7 to 9 are the things you print and hand out.', { size: 22 }));
   c.push(refTable(['Part', 'What is in it', 'When you use it'], [
     [{ lines: ['1'] }, { lines: ['Before you start — your three roles, how we deliver here, what a week could look like, the 12-week rhythm, and the week-by-week map of all three components.'] }, { lines: ['Read first.'], color: GREY }],
-    [{ lines: ['2'] }, { lines: ['Mentoring and wellbeing — how the 1:1 conversations run, and the safeguarding you must know before you take a caseload.'] }, { lines: ['Read first, then return to it.'], color: GREY }],
+    [{ lines: ['2'] }, { lines: ['Mentoring and wellbeing — the whole component: setting up, the ten-minute conversation, safeguarding and referral, the arc across twelve weeks, and the record.'] }, { lines: ['Read first, then return to it.'], color: GREY }],
     [{ lines: ['3'] }, { lines: ['Assessment — the two competencies you judge, what evidence to gather as you teach, and how the Week-6 and Week-12 judgements work.'] }, { lines: ['Read first, use throughout.'], color: GREY }],
     [{ lines: ['4'] }, { lines: ['Agency in Learning — the full 50-hour plan, every session’s guidance inline.'] }, { lines: ['Every session.'], color: GREY }],
     [{ lines: ['5'] }, { lines: ['English (My Voice) — the full 50-hour plan, plus how to teach beginner English to pre-literate learners, and the phonics reference.'] }, { lines: ['Every session.'], color: GREY }],
@@ -355,7 +429,13 @@ function educatorGuide() {
   ], [800, 6400, 3600]));
 
   c.push(H2('What to print, and for whom'));
-  c.push(P('Everything below is inside this guide except the Agency in Learning picture-card PDF and the optional slides, which stay on the USB. Where there is no printer: show one copy on a screen, or hold up a printed sheet, and learners use their own notebooks — every activity is written to work that way.', { size: 22 }));
+  c.push(P('Everything below is inside this guide except the Agency in Learning picture-card PDF, which stays on the USB. There are no slides — this pack assumes no screen, and every activity runs from paper, a wall, and your voice.', { size: 22 }));
+  c.push(callout('How much to print, in order of preference', [
+    'BEST — one learner book per learner. The book carries the teaching, the worked examples and the frames, and it is the evidence the assessment is made from. A learner who owns theirs can re-read a method after a missed session and take it home.',
+    'WORKABLE — one book shared between two or three learners, with each learner using an ordinary notebook for their own answers. You keep the teaching; you lose only the private page.',
+    'THE FLOOR — one copy, displayed on a screen or held up, and everyone works in a notebook. Say the page title aloud each time so a learner\u2019s notebook still has a shape you can both follow.',
+    'The books are Word files. If paper is short, NRC can cut pages before printing — start with the "My notes and drawings" pages, which an ordinary notebook does better.',
+  ], PLUM));
   c.push(P('For the learners, the simplest thing to print is the Student Workbook: it is one book per learner for the whole twelve weeks, holding all three learner books plus their mentoring page and growth check. Print that, or the three component books separately — not both. The cards are separate either way, because they are one set per group and get cut up.', { size: 22 }));
   c.push(refTable(['File', 'For', 'How many'], PACK_ROWS.map((r) => [
     { lines: [r[0]] }, { lines: [r[1]], color: undefined }, { lines: [r[2]], color: GREY },
@@ -372,6 +452,13 @@ function educatorGuide() {
   part(1, 'Before you start', 'Your three roles, how delivery is rebuilt for this context, what a week could look like, and the rhythm of the twelve weeks.');
   c.push(pageBreak());
 
+  sec('1.0  What this programme is for');
+  c.push(...agencyThreadChildren({
+    heading: () => P('Read this first. Everything after it is how.', { size: 21, italics: true, color: GREY, after: 120 }),
+    sub: (t) => H3(t),
+  }));
+
+  c.push(pageBreak());
   sec('1.1  Your three roles');
   c.push(P('In this programme one person holds three functions. They are not three jobs — they feed each other. What you notice as a mentor shapes how you facilitate; what you see in sessions is the evidence you assess from.', { size: 22 }));
   c.push(twoCol(['Role', 'What it means here'], [
@@ -394,13 +481,13 @@ function educatorGuide() {
   c.push(P('You deliver three taught components side by side — Agency in Learning, the Research Project, and English. Each one is 3 hours in-person and 2 hours independent per week, so across the three that is 9 hours with you and 6 hours the learners do at home.', { size: 22 }));
   c.push(P('The simplest way to place those hours is three learning days a week. On each of the three days you teach for three hours — one hour of each component — and learners do about two hours at home before the next day. Your mentoring is folded into the in-person time, not added on top.', { size: 22 }));
   c.push(exampleWeekTable());
-  c.push(P(WEEK_MATHS, { size: 21, color: OLIVE, bold: true, before: 140 }));
+  c.push(P(weekMaths(), { size: 21, color: OLIVE, bold: true, before: 140 }));
   c.push(mini('Where the mentoring goes'));
   c.push(P('While the rest of the group is working, take two or three learners aside for a short 1:1 check-in. Over the three days you get to everyone. It costs no extra hours — it happens inside the three.', { size: 22 }));
   c.push(mini('Where the two hours at home come from'));
   c.push(P('They are not homework you invent. Every activity in Parts 4 to 6 sets its own between-session task — ask someone at home, take one step towards your goal, gather one piece of evidence, practise your English. Those tasks are the independent hours. Say the task aloud at the end of each hour and check it at the start of the next.', { size: 22 }));
   c.push(mini('Adapting it'));
-  c.push(P(WEEK_ADAPT, { size: 22 }));
+  c.push(P(weekAdapt(), { size: 22 }));
 
   sec('1.4  The twelve weeks');
   c.push(P('Ten weeks of delivery sit inside a twelve-week rhythm: five weeks of learning, a supported assessment, five more weeks, then the final assessment. Your coordinator holds the calendar; you hold the evidence.', { size: 22 }));
@@ -414,34 +501,28 @@ function educatorGuide() {
   c.push(weekMapTable());
   c.push(P('Full guidance for every block listed above is in Part 4 (Agency in Learning), Part 5 (English) and Part 6 (Research Project).', { size: 21, italics: true, color: GREY }));
 
-  sec('1.6  Before Week 1 — your checklist');
+  sec('1.6  The showcase — one closing for the whole programme');
+  c.push(P(SHOWCASE.summary, { size: 22, italics: true, color: GREY }));
+  c.push(...mdBlocks(SHOWCASE.educatorContent));
+  c.push(mini('What the learners are told'));
+  c.push(...mdBlocks(SHOWCASE.learnerContent));
+
+  c.push(pageBreak());
+  sec('1.7  Before Week 1 — your checklist');
   c.push(bullet('You have read Parts 1 to 3 of this guide.'));
   c.push(bullet('You know NRC’s Code of Conduct and the camp referral pathway — who you hand a concern to, and how. Do not take a mentoring caseload without this.'));
-  c.push(bullet('Learner books printed, one per learner per component (Part 7), or a plan for how you will work without a printer.'));
+  c.push(bullet('Learner books printed — one per learner if you can, one per two or three if you cannot, or a plan for displaying one copy. Agree which with your coordinator before Week 1.'));
   c.push(bullet('Cards printed and cut out (Part 8).'));
   c.push(bullet('Assessment records copied, one per learner (Part 9), with learners’ names on them.'));
   c.push(bullet('You have skimmed Part 4 Phase 1 and Part 5 Phase 1, so you know how the first sessions open.'));
   c.push(bullet('You know which learners are on your mentoring caseload, and you have agreed the weekly timetable with your coordinator.'));
 
   // ---------------------------------------------------------------- PART 2
-  part(2, 'Mentoring and wellbeing', 'The spine of wellbeing support: where a learner is known as a person, where distress is noticed early, and where the goals set in Agency in Learning are kept alive.');
+  // Composed from generate-mentoring.js, exactly as Parts 4-6 compose the taught components. Was 343
+  // hand-written words for a component the programme calls "the spine of wellbeing support".
+  part(2, 'Mentoring and wellbeing', 'The spine of wellbeing support: where a learner is known as a person, where distress is noticed early, and where the goals set in Agency in Learning are kept alive. It adds no hours — it runs inside the in-person time you already have.');
   c.push(pageBreak());
-
-  sec('2.1  What mentoring is here');
-  c.push(P('1:1 mentoring is the spine of wellbeing support: it is where a learner is known as a person, where distress is noticed early, and where the learning goals set in Agency in Learning are kept alive. You are not a counsellor — you build the relationship, notice concerns, and refer along NRC’s pathways.', { size: 22 }));
-  c.push(mini('How it runs'));
-  c.push(bullet('Fold mentoring into the weekly in-person time as short 1:1 or very small-group conversations. No devices, no internet.'));
-  c.push(bullet('Start every meeting with a genuine check-in, spoken in the learner’s own language rather than as a written survey. Watch for withdrawal, or a change in how "fine" sounds over the weeks.'));
-  c.push(bullet('Keep a light paper record of what you notice, so each conversation builds on the last and survives stop-start attendance.'));
-  c.push(bullet('Surface the skills learners already use in camp life — caring for siblings, translating, running a stall, resolving disputes. Capture that growth orally and visually; it becomes evidence for the Set and Pursue Goals assessment.'));
-  c.push(P('The shared practice is the mentor moves on the Educators pages. Use them; this guide says how they are held in the Cox’s Bazar context.', { size: 21, italics: true, color: GREY }));
-
-  sec('2.2  Safeguarding');
-  c.push(callout('Before you take a caseload', [
-    'Know NRC’s safeguarding policy and the camp referral pathway before you mentor anyone.',
-    'No learner ever has to share. For sensitive ground — loss, family, marriage, displacement — step back; the materials give you clear step-back prompts.',
-    'Disclosures may involve protection risks common in displacement — child marriage, family separation, gender-based violence. Respond calmly, never promise secrecy, and refer. Your job is to notice, steady, and refer — not to counsel.',
-  ], PLUM));
+  c.push(...embed(() => MN.guideChildren({ embedded: true })));
   c.push(P('The Research Project has its own, fuller safeguarding and protection guidance, because learners go out and speak to people in the community. It is in Part 6, and you should read it before that component starts.', { size: 22 }));
 
   // ---------------------------------------------------------------- PART 3
@@ -466,6 +547,11 @@ function educatorGuide() {
   sec('3.3  The two assessment points');
   c.push(H3('Week 6 — supported assessment'));
   c.push(P('After the first five weeks of learning, make a first, provisional judgement of each learner against the Proficiency Scale. You do this with Amala’s support and calibration — it is a checkpoint and a rehearsal, not the final grade. Use what it surfaces: which learners you have thin evidence on, where your judgement felt uncertain, which competency needs more attention in the next block.', { size: 22 }));
+  c.push(callout('Most learners will look low at Week 6 — that is expected', [
+    'By Week 6 a learner has usually SET a goal and made a plan, but the goal-pursuit weeks are still ahead: most of the tracked steps happen in Weeks 7 to 11. So expect a lot of Theorist on Set and Pursue Goals at Week 6, and treat it as normal, not as a warning sign.',
+    'The same is true of the Research Project. At Week 6 most groups are still gathering; the weighing, the insights and the output — where Investigate Real World Issues really shows — come afterwards.',
+    'Judge what is in front of you honestly and record it. Week 6 tells you where to put your support, not whether the cohort is going to pass.',
+  ], OLIVE));
   c.push(H3('Week 12 — final assessment'));
   c.push(P('After the next five weeks, make your final judgement of each learner in the two competencies, against the same scale and on the fuller body of evidence. Amala then moderates a sample — reviewing judgements against the evidence — to confirm they are consistent and fair before the readiness decision is confirmed.', { size: 22 }));
   c.push(P('Fill the record in Part 9 at both points. Do not over-assess: two considered judgements, built from evidence gathered over time, are worth more than repeated testing.', { size: 22 }));
@@ -480,14 +566,13 @@ function educatorGuide() {
     ['Merit', 'Reflective Practitioner in one competency, Practitioner in the other.'],
     ['Distinction', 'Reflective Practitioner in both competencies.'],
   ]));
-  c.push(P('Note: the Research Project’s shared challenge is being finalised with NRC and the community. Confirm with your coordinator which competencies your cohort is assessed in and when.', { size: 21, italics: true, color: GREY }));
 
   sec('3.5  A few things that make this work');
   c.push(bullet('Deliver in the language you share with learners, from the plain-English guide. Times in the plans are generous on purpose — oral work, drawing, and translation take longer than they look.'));
   c.push(bullet('Let learners draw and speak. Reading and writing are not the point of most activities; showing the thinking is.'));
   c.push(bullet('Coach, don’t rescue. Re-anchor the goal, break the next step down, and let the learner take it.'));
   c.push(bullet('A return after absence is progress. Pick the learner up where they are.'));
-  c.push(bullet('No printer? Show one copy on a screen, or hold up a printed sheet, and learners use their own notebooks.'));
+  c.push(bullet('Short of paper, or no printer? Share one book between two or three learners, or display one copy, and let learners work in ordinary notebooks. Say the page title aloud so their notebook keeps the same shape.'));
   c.push(bullet('When something sensitive surfaces: step back, stay calm, do not promise secrecy, and refer.'));
 
   // ---------------------------------------------------------------- PARTS 4–6: the unit plans
@@ -543,13 +628,16 @@ function educatorGuide() {
   c.push(P('Every picture the Agency in Learning activities suggest, ready to print and cut out. This one is a PDF, so it is not reproduced here — print it from agency-in-learning-picture-cards.pdf on the USB. If you cannot print it, every activity tells you how to draw the picture on paper or on the ground instead.', { size: 22 }));
 
   // ---------------------------------------------------------------- PART 9: the records
-  part(9, 'Assessment records', 'Two records, one per assessed competency. Make one copy of each per learner, put their name on it, and fill it at Week 6 and again at Week 12.');
+  part(9, 'Records', 'Two assessment records, one per assessed competency, filled at Week 6 and again at Week 12 — plus the mentor’s record, one page per learner for the whole twelve weeks. Make one copy of each per learner and put their name on it.');
   c.push(pageBreak());
   sec('9A  Agency in Learning — Set and pursue goals (FSL2)');
   c.push(...embed(() => AIL.rubricChildren()));
   c.push(pageBreak());
   sec('9B  Research Project — Investigate real-world issues (FSI1)');
   c.push(...embed(() => RP.rubricChildren()));
+  c.push(pageBreak());
+  sec('9C  Mentoring — the mentor’s record');
+  c.push(...embed(() => MN.recordChildren()));
 
   c.push(pageBreak());
   c.push(P('This guide is the complete, fully offline, editable pack for Learning Bridge+ (Cox’s Bazar) educators. Levels, GPA values and generic descriptors are Amala’s official Competency Framework and Proficiency Scale (cohorts starting 2025). Reproduced articles in Part 6 are used with attribution under educational / non-commercial permission. Not for redistribution outside the programme.', { size: 18, color: GREY, before: 240 }));

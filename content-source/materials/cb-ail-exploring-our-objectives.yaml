@@ -147,10 +147,13 @@ worksheet:
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
   how: >-
     Understanding what the course will help them do, why it matters, and how they might approach it lets
     learners begin with intention rather than waiting to be led. Seeing the path as theirs, and being
-    asked how they would travel it, hands the direction of their learning to them from the first phase.
+    asked how they would travel it, hands the direction of their learning to them from the first phase —
+    and naming what this learning is FOR is the first time many learners connect what they do here with
+    where they are trying to get to.
 principlesForegrounded:
 - builds-on-identities
 - feedback-and-data
@@ -192,7 +195,7 @@ downloads:
 - label: What we will learn (student sheet)
   file: /downloads/agency-in-learning-what-we-will-learn.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
+  note: "Instructions and a blank template learners can fill. Print one per learner if you can; otherwise share one between two or three, or hold up a single copy and learners draw in their own notebooks."
 sourceRefs:
 - agency-in-learning.yaml
 - exploring-your-objectives.yaml

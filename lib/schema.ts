@@ -17,6 +17,20 @@ export const AreaSchema = z.object({
 
 export const CreditLevelSchema = z.enum(["Foundational", "Advanced"]);
 
+// ---- Agency for positive change ------------------------------------------------------------------
+// The three indicators from foundations/agency.yaml. Declared here, above CompetencySchema and
+// ProgrammeSchema (both of which reference it), so it is initialised first.
+export const AgencyIndicatorSchema = z.enum([
+  "contribution-to-community",
+  "control-of-future-pathways",
+  "power-over-wellbeing-and-self-direction",
+]);
+
+export const AgencyContributionSchema = z.object({
+  indicators: z.array(AgencyIndicatorSchema).min(1),
+  how: z.string(),
+});
+
 export const CompetencySchema = z.object({
   id: z.string(),
   code: z.string(),
@@ -24,6 +38,9 @@ export const CompetencySchema = z.object({
   creditLevel: CreditLevelSchema,
   title: z.string(),
   goal: z.string().nullable().optional(),
+  // How developing this competency builds agency for positive change. Optional: authored for the
+  // competencies a programme actually anchors on, not all 47.
+  agencyContribution: AgencyContributionSchema.optional(),
 });
 
 export const ProficiencyLevelSchema = z.object({
@@ -224,9 +241,50 @@ export const ProgrammeSchema = z.object({
         // When set, this component is delivered as a full course; the programme links to it.
         // Validated against the course collection in validateGraph().
         courseSlug: z.string().optional(),
+        // How working through this component builds agency for positive change, against the three
+        // indicators in foundations/agency.yaml. This is the component's link in the programme's
+        // agency thread; see `agencyThread` below.
+        agencyContribution: AgencyContributionSchema.optional(),
       }),
     )
     .default([]),
+  // ---- The agency thread -------------------------------------------------------------------------
+  // Agency for positive change is the required outcome (foundations/agency.yaml). It was previously
+  // stated only at the two extremes — the foundations page, and the `agencyContribution` on each
+  // individual material — with nothing joining them, so no document a facilitator or coordinator
+  // actually holds said what the programme was ultimately for. This block is the join: the statement,
+  // then one row per component and one per assessed competency, each naming the indicators it builds.
+  // Rendered on the programme page AND generated into the Educator and Coordinator Guides.
+  agencyThread: z
+    .object({
+      statement: z.string(),
+      // How the programme as a whole is designed to grow agency, in this context.
+      inThisProgramme: z.string().optional(),
+      // One per component title in `components` above. Validated in validateGraph().
+      byComponent: z
+        .array(
+          z.object({
+            component: z.string(),
+            indicators: z.array(AgencyIndicatorSchema).min(1),
+            how: z.string(),
+          }),
+        )
+        .default([]),
+      // How developing each named competency builds agency. `code` is validated against the framework.
+      byCompetency: z
+        .array(
+          z.object({
+            code: z.string(),
+            indicators: z.array(AgencyIndicatorSchema).min(1),
+            how: z.string(),
+          }),
+        )
+        .default([]),
+      // How movement in agency is noticed and recorded, given an oral, largely pre-literate cohort.
+      howWeSeeIt: z.array(z.string()).default([]),
+    })
+    .optional(),
+
   // Row-per-aspect comparison of the versions (e.g. LB vs LB+); `detail` describes both.
   versionComparison: z
     .array(z.object({ aspect: z.string(), detail: z.string() }))
@@ -402,17 +460,6 @@ export const AREA_TAG_IDS = [
 export const MoveTagSchema = z.object({
   id: EducatorTagSchema,
   how: z.string().nullable().optional(),
-});
-
-export const AgencyIndicatorSchema = z.enum([
-  "contribution-to-community",
-  "control-of-future-pathways",
-  "power-over-wellbeing-and-self-direction",
-]);
-
-export const AgencyContributionSchema = z.object({
-  indicators: z.array(AgencyIndicatorSchema).min(1),
-  how: z.string(),
 });
 
 // ---- Activity visuals (schematic diagrams that help an educator picture an activity) ----
@@ -646,7 +693,12 @@ export const UnitBlockSchema = z.object({
   description: z.string().nullable().optional(),
   // The task learners carry out in their independent hours (offline, from the workbook).
   independentTask: z.string().nullable().optional(),
+  // Facilitator-facing: how to flex this block with a real group. RENDERED into the printed plans.
   flexNote: z.string().nullable().optional(),
+  // Internal, for whoever is authoring the curriculum. NEVER rendered into a document or the site.
+  // Split out from flexNote because authoring to-dos ("the pack is still to be authored") were
+  // reaching facilitators in the printed Educator Guide, alongside the finished thing they described.
+  authoringNote: z.string().nullable().optional(),
 });
 
 export const UnitPhaseSchema = z.object({
@@ -674,6 +726,11 @@ export const UnitSchema = z.object({
   // Total hours this component takes, split facilitated / independent (e.g. 30 + 20 = 50).
   totalFacilitatedHours: z.number(),
   totalIndependentHours: z.number(),
+  // For a component that is NOT time-bound — Mentoring and Wellbeing runs as regular conversations
+  // folded into the other components' in-person time, so it adds no hours of its own. Such a unit sets
+  // both totals to 0 and describes its rhythm here; the hours badge is replaced by this. Mirrors the
+  // same xor on a programme component. Use one or the other, not both.
+  cadence: z.string().nullable().optional(),
   // A short note on the delivery approach for the whole unit, e.g. how it deliberately hands over
   // control from facilitator-led to learner-led (and the cautions in doing so).
   deliveryApproach: z.string().nullable().optional(),

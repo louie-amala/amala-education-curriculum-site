@@ -110,10 +110,13 @@ worksheet:
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction
+  - control-of-future-pathways
   how: >-
     Choosing your own small, meaningful learning goal is the moment a learner takes the wheel of their
     own growth rather than waiting to be told what to learn. In a place where much is outside their
-    control, their own learning is a thing they can direct, and the goal keeps that direction in their hands.
+    control, their own learning is a thing they can direct, and the goal keeps that direction in their
+    hands. It is a pathway move as much as a self-direction one: the goal a learner chooses is the first
+    piece of a future they picked rather than were assigned.
 principlesForegrounded:
 - builds-on-identities
 - recognise-communicate-growth
@@ -153,7 +156,7 @@ downloads:
 - label: My goal (student sheet)
   file: /downloads/agency-in-learning-my-goal.docx
   format: Word
-  note: "Instructions and a blank template learners can fill. Print one per learner; where there is no printer, hold up one copy and learners draw in their own book."
+  note: "Instructions and a blank template learners can fill. Print one per learner if you can; otherwise share one between two or three, or hold up a single copy and learners draw in their own notebooks."
 sourceRefs:
 - agency-in-learning.yaml
 - ail-setting-your-goals.yaml

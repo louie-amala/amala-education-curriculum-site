@@ -598,6 +598,33 @@ export function validateGraph(): ValidationReport {
         errors.push(`Programme "${prog.id}" download "${d.label}" points to missing file "${d.file}".`);
       }
     }
+    // The agency thread must stay pinned to the things it claims to join: every component it names
+    // must exist, every component must be covered, and every competency code must resolve.
+    if (prog.agencyThread) {
+      const titles = new Set(prog.components.map((c) => c.title));
+      for (const row of prog.agencyThread.byComponent) {
+        if (!titles.has(row.component)) {
+          errors.push(
+            `Programme "${prog.id}" agency thread names unknown component "${row.component}".`,
+          );
+        }
+      }
+      const covered = new Set(prog.agencyThread.byComponent.map((r) => r.component));
+      for (const t of titles) {
+        if (!covered.has(t)) {
+          warnings.push(
+            `Programme "${prog.id}" component "${t}" has no agency-thread entry — the thread is incomplete.`,
+          );
+        }
+      }
+      for (const row of prog.agencyThread.byCompetency) {
+        if (!competencyByCode.has(row.code)) {
+          errors.push(
+            `Programme "${prog.id}" agency thread cites unknown competency code "${row.code}".`,
+          );
+        }
+      }
+    }
   }
 
   const materialSlugs = new Set(materials.map((m) => m.slug));
@@ -1139,4 +1166,23 @@ if (report.errors.length > 0) {
     `Content graph validation failed with ${report.errors.length} error(s):\n- ` +
       report.errors.join("\n- "),
   );
+}
+// Warnings were computed and thrown away, so real drift sat unnoticed (e.g. a unit whose block hours
+// no longer summed to its declared total). Print the count on every build so drift is visible, and
+// the full list behind CONTENT_WARNINGS=1 — most of the standing warnings are the documented legacy
+// source issues in content-source/NOTES.md, and printing 150 lines every build trains people to
+// ignore them. `next build` collects page data in several workers, hence the once-per-process guard.
+const WARNED = Symbol.for("amala.content.warned");
+const g = globalThis as Record<symbol, unknown>;
+if (report.warnings.length > 0 && !g[WARNED]) {
+  g[WARNED] = true;
+  if (process.env.CONTENT_WARNINGS === "1") {
+    console.warn(
+      `\nContent graph: ${report.warnings.length} warning(s)\n- ` + report.warnings.join("\n- ") + "\n",
+    );
+  } else {
+    console.warn(
+      `\nContent graph: ${report.warnings.length} warning(s). Run with CONTENT_WARNINGS=1 to list them.\n`,
+    );
+  }
 }
