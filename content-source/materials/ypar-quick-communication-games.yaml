@@ -1,0 +1,241 @@
+id: ypar-quick-communication-games
+slug: ypar-quick-communication-games
+access: public
+type: tools-approaches
+title: "Three quick games that expose how a group communicates"
+summary: >-
+  Build a dog from newspaper, argue a case from three random words, or make an object out of bodies:
+  short tasks that surface a group's habits in under twenty minutes.
+facilitationContext: [group]
+primaryContext: group
+toolsFacet: facilitation
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group only. Each game produces its finding from watching several small groups solve the same
+      problem differently, so you want at least three groups of three to five. Below that, run one
+      game and compare rounds rather than groups.
+duration: 10 to 20 minutes each, plus 5 to 10 minutes of debrief.
+grouping: Small groups of three to five, formed fresh for each game.
+materialsAndPreparation:
+  - "Newspaper dog: a stack of old newspaper or any waste paper per group, and a roll of masking tape."
+  - "Wacky speech: one card or scrap of paper and a pen per learner."
+  - "Group sculptures: nothing, and clear floor space."
+  - "A decision about whether group sculptures suits this group: it involves learners arranging themselves into shapes together, sometimes touching."
+whatLearnersDo:
+  - Produce something as a small group against a short deadline.
+  - Notice, immediately afterwards, how their group decided what to do.
+  - Compare their group's habits with the way other groups worked.
+educatorContent: |
+  These three are quick diagnostic games rather than lessons. Each puts a small group under a short
+  deadline and then asks what happened. Used deliberately, in the first weeks, they give a facilitator
+  a fast read on a cohort: who leads, who defers, whether groups plan or plunge, and how they handle
+  an instruction that is deliberately underspecified.
+
+  Run one per session at most, and change the group membership each time, so learners discover that
+  their role shifts with the people around them.
+
+  ## Newspaper dog (10 minutes)
+
+  Groups of five, a stack of newspaper, a roll of tape, five minutes: make a dog. That is the whole
+  instruction, and its vagueness is the point. Some groups will argue about what a dog looks like,
+  some will start taping immediately, some will appoint someone.
+
+  The four questions afterwards are the material: what was the group dynamic, was there a dominant
+  style, what are our strengths as a group, and what does each person bring. It is a lighter version
+  of what [the tallest tower](/materials/ypar-tallest-tower) does at length, and it fits in a
+  quarter of the time.
+
+  ## Wacky speech (20 minutes)
+
+  In a circle, each learner writes down one thing they expect from adults, then passes their paper
+  left. On the paper they receive, they write their favourite animal or song, and pass left again.
+  Then what they would wish for if they had one wish, and pass once more. Everybody now holds a paper
+  with three unrelated things on it.
+
+  Each learner then makes a case to the group from those three things. Two rules: it has to be said
+  with real conviction, and it has to ask the group to do or think something specific involving all
+  three. It does not have to make any sense.
+
+  The absurdity is doing serious work. Learners who freeze when asked to speak persuasively about
+  something real will happily demand that the group respect goats, keep its promises and build a
+  bridge, and having done it once with conviction they are measurably easier to get speaking the next
+  time. It is the cheapest route into public speaking in this bank.
+
+  Note that the first prompt, what you expect from adults, is not incidental. Collect the papers
+  afterwards and read them: in a youth-led project, the group's expectations of the adults in it are
+  something you want to know and will rarely be told directly.
+
+  ## Group sculptures (15 minutes)
+
+  Learners move around the room; on the signal they form groups of three or four. Each group has three
+  minutes to choose an object and make it out of their own bodies, then show it while the others
+  guess. Two or three rounds, and you can name a category each round: things in a kitchen, things at a
+  market, things that carry water.
+
+  The debrief question is about method: how did each group decide which object, and who took which
+  part? Groups usually change method between rounds without noticing, which is the observation to draw
+  out.
+
+  This one involves learners physically arranging themselves next to and sometimes against each
+  other. See
+  [decide about touch before the session](/materials/cf-physical-and-contact-activities), and note
+  that it works perfectly well with a rule that nobody touches anybody.
+
+  ## What to do with what you see
+
+  Write down what you notice. These games are the cheapest observation opportunity a facilitator gets,
+  and the notes are what let you say something specific later: your group changed its plan three times
+  and nobody said so; you took the same role in all three games. Observations like that are worth more
+  than any amount of general encouragement.
+facilitationNotes: >-
+  The one thing to get right is the instruction's vagueness. Facilitators clarify by instinct, and
+  every clarification here removes the thing being measured: how this group handles not being told
+  enough. When asked what kind of dog, or whether the sculpture can move, say that is for your group
+  to decide, and say it in the same words every time. Keep the debrief on method rather than on
+  output, and change the group membership between games so learners see their role move.
+steps:
+  - title: "Pick the game for what you want to see"
+    duration: 2 min
+    guidance: >-
+      Newspaper dog shows you how a group handles a vague task. Wacky speech shows you who can be got
+      speaking, and collects the group's expectations of adults as a by-product. Group sculptures shows
+      you how a group allocates parts. Pick one, and pick it for what you want to learn about this
+      cohort rather than for variety.
+    keyPrompts:
+      - "What do I not yet know about how this group works?"
+    watchOuts:
+      - "All three are run in one session as a block of fun. One is a diagnostic; three is filler and the debriefs will blur into each other."
+  - title: "Form fresh groups and give the underspecified instruction"
+    duration: 3 min
+    guidance: >-
+      Mix the groups rather than letting friends cluster: number off, or use the last round's
+      sculptures to reshuffle. Give the instruction once, briefly, and start the clock. Answer every
+      request for clarification with the same sentence: that is for your group to decide.
+    keyPrompts:
+      - "Five minutes. Make a dog."
+      - "That is for your group to decide."
+    watchOuts:
+      - "The instruction is elaborated in response to the first question, and every group after that hears a different task. Fix your one clarifying sentence in advance and use only that."
+      - "Groups form by friendship every time, so the same person leads every time. Number off."
+  - title: "Run it, and watch rather than help"
+    duration: 5-15 min
+    guidance: >-
+      Stay out of it and take notes. Who spoke first, who was interrupted, whether the group planned
+      or started building, whether anyone checked that everybody agreed. Call the halfway point and the
+      last thirty seconds. Do not rescue a group that is stuck, because how a group behaves when it is
+      stuck is the single most useful thing you will see.
+    keyPrompts:
+      - "Halfway."
+      - "Thirty seconds."
+    watchOuts:
+      - "A group is genuinely paralysed and the time is running out on humiliation rather than on learning. Give them one narrow question, not a solution: what would you build if you had to start right now?"
+      - "The facilitator drifts into being a group member. Your notes are worth more than your contribution."
+  - title: "Debrief the method, not the product"
+    duration: 5-10 min
+    guidance: >-
+      Show the products quickly and move on. Then ask each group how they decided, and get them to
+      compare: one group appointed someone, one voted, one had somebody simply start and everyone
+      followed. Put those side by side. Learners are usually surprised that the same instruction
+      produced such different processes.
+    keyPrompts:
+      - "How did your group decide what to make? Not who decided, how."
+      - "Which group did it most differently from you, and what did they get out of that?"
+    watchOuts:
+      - "The best-looking product dominates the discussion. Ask about method first and show the products afterwards if you have to."
+      - "Learners describe what they wish had happened. Ask for the moment it was decided, and who was there."
+  - title: "Give back one observation each"
+    duration: 5 min
+    guidance: >-
+      Offer one specific thing you noticed to each group, phrased as an observation rather than a
+      judgement: your group changed plan twice and nobody said so out loud; three of you spoke and two
+      did not. Then ask what they want to do differently next time. This is what turns a game into a
+      piece of feedback the group can act on.
+    keyPrompts:
+      - "Here is one thing I saw. What do you make of it?"
+      - "What will your group do differently next time?"
+    watchOuts:
+      - "Observations name individuals rather than patterns. Say two people did not speak, not that Amina did not speak."
+closing: >-
+  If you ran wacky speech, keep the papers: what this group expects from the adults around it is
+  information you would otherwise have to ask for directly, and would not get an honest answer to.
+  Read them, and if there is a pattern, put it to the group as a question rather than a finding.
+learnerContent: |
+  Your group gets a short task and not enough instructions.
+
+  When you ask what exactly is meant, you will be told that it is for your group to decide. That is
+  not the facilitator being unhelpful. How a group handles not being told enough is the thing being
+  looked at, and it is something you will meet constantly once you are doing real work.
+
+  Afterwards, the question is not whose was best. It is **how did your group decide?** Different groups
+  in this room will have done it in completely different ways, and comparing them is the point.
+
+  If you get the wacky speech one: you are going to argue for something ridiculous, with real
+  conviction, in front of everybody. It is much easier than arguing for something you care about, and
+  people who have done it once find the second time far less frightening. That is what it is for.
+
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Two of these three put a learner in front of a group with something to say and no time to be
+    frightened about it. Speaking with conviction about something absurd is a small, safe rehearsal of
+    speaking with conviction about something that matters, which is what a young person needs when
+    they are eventually in a room with people who can change something.
+principlesForegrounded: [collaboration, feedback-and-data, safe-spaces]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      Each game requires a small group to reach a decision fast under an instruction that does not
+      tell them enough, which is the condition most real collaboration operates in.
+  - principle: feedback-and-data
+    how: >-
+      The facilitator's specific observations, offered back to each group, turn twenty minutes of play
+      into evidence about how this group works that it can act on.
+  - principle: safe-spaces
+    how: >-
+      Wacky speech makes public speaking safe by making the content nonsense, so the exposure a learner
+      risks is minimal while the practice is real.
+competencyCodes: [FLC3, ALC2, FUS1]
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      Wacky speech requires conviction and a specific ask, which are the two things most missing from
+      a nervous young person's first attempts at persuasion, practised here with nothing at stake.
+  - code: ALC2
+    how: >-
+      Comparing how three groups solved the same underspecified problem shows learners that a decision
+      procedure is a choice rather than a given.
+  - code: FUS1
+    how: >-
+      Taking a different role in a differently composed group, three times, is direct evidence to a
+      learner that their usual role is partly a product of who is in the room.
+objectiveIds: []
+relatedSlugs:
+  - ypar-tallest-tower
+  - ypar-trust-walk
+  - ypar-energisers
+  - cf-physical-and-contact-activities
+  - pathways-networking-and-personal-pitch
+  - dc-delivering-effective-presentations
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section, free to download. All three games appear in Verbal Communication."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free handbook the YPAR Hub team-building plans draw on."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to Youth in Focus (Youth REP: Step by Step) and Stanford's John W. Gardner Center (YELL)"
+  basis: >-
+    All three are common group games with no single traceable author. Every word here is written from
+    scratch and none of the YPAR Hub's wording is reproduced.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Verbal Communication lesson plan (Newspaper Dog, Wacky Speech, Group Sculptures)"
+provenanceNote: >-
+  Rewritten from three of the five activities in the YPAR Hub's "Verbal Communication" lesson plan,
+  supplied to Amala in August 2026. Island Paradise from the same plan is separated out at
+  [island paradise](/materials/ypar-island-paradise). Widget Assembly is deliberately not carried
+  across: it requires a large collection of LEGO, craft-paper rolls and partitions, which is not a
+  realistic ask of Amala's delivery partners, and [the trust walk](/materials/ypar-trust-walk) teaches
+  the same lesson about instructing someone who cannot see what you can see, at no cost.

@@ -1,0 +1,41 @@
+id: consensus
+slug: consensus
+access: public
+term: Consensus
+category: content
+matchPhrases:
+- consensus
+- consensus decision-making
+- consensus decision making
+definition: >-
+  A way of deciding in which a group keeps working on a proposal until everyone can accept it. Not
+  everyone's first choice; nobody's objection standing.
+explainer: |
+  Consensus is the most misunderstood of the four common decision forms, and the misunderstanding is
+  always the same: people take it to mean unanimous enthusiasm. It does not. It means that after
+  discussion, nobody is blocking the proposal. A person who would have preferred something else, but
+  can live with this and will help carry it out, is part of a consensus.
+
+  Get this wrong and a group will conclude, reasonably, that consensus is impossible.
+
+  **What it buys.** More perspectives are heard than in a vote. The commitment afterwards is broader,
+  because nobody is implementing a decision they lost. And because the group cannot simply pick
+  between the options on the table, it often writes a third one that nobody had proposed, which is
+  frequently better than either.
+
+  **What it costs.** Time, in quantity. A tolerance for carrying out something that was not your first
+  choice. Vulnerability to one person holding the group up. And difficulty at scale: consensus in a
+  group of thirty is a different proposition from consensus in a group of eight.
+
+  The practical question is never which form is best but which fits this decision: how fast it must be
+  made, and who has to carry it out. A group that has to act together pays a higher price for a
+  majority vote than it looks like at the time. See also the fourth question none of the forms answers:
+  who is affected by this decision and is not in the room.
+examples:
+- A research group talks through an awkward finding across two sessions until it arrives at an option nobody had proposed at the start, which everyone can accept
+nonExamples:
+- A group votes, seven to three, and records the outcome as agreed
+useInContext: >-
+  A group sorts decisions from its own life into four forms, then chooses which form it will use for
+  its own work and writes it down.
+relatedTermIds: []

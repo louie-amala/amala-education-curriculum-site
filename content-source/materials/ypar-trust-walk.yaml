@@ -1,0 +1,229 @@
+id: ypar-trust-walk
+slug: ypar-trust-walk
+access: public
+type: activity
+title: "Trust walk: gather the objects you cannot see"
+summary: >-
+  One partner cannot see; the other can only speak. Together they collect objects scattered around a
+  space, and then work out which instructions actually helped.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, in pairs or threes, with several pairs running at once so the debrief can compare
+      what different partners tried. It cannot be run alone or one to one, because the point is the
+      gap between what the instructor meant and what the walker heard, and that needs two people who
+      are not the facilitator.
+duration: 25 to 40 minutes, of which the walking is 10 and the debrief is the rest.
+grouping: Pairs, or threes with two instructing and one walking.
+materialsAndPreparation:
+  - "A dozen or so small objects to collect: pens, bottles, cups, stones. Nothing breakable and nothing sharp."
+  - "A clear, flat area with no steps, no cables and nothing at head height. Walk it yourself first, at the walker's pace, before anyone else does."
+  - "Blindfolds, or the better alternative: ask walkers to close their eyes, or use a cap pulled down. See the note on this below, it matters."
+  - "One person per group not walking and not instructing, if numbers allow, whose only job is to stop a collision."
+  - "No-resource route: the objects can be anything to hand, including screwed-up paper. The activity costs nothing."
+whatLearnersDo:
+  - Take turns as the walker, who cannot see, and the instructor, who cannot touch anything.
+  - Collect as many objects as possible using speech alone.
+  - Run a second round in which the instructor may make sounds but not use words.
+  - Work out which instructions helped, which did not, and why.
+educatorContent: |
+  This is a communication activity that gets mistaken for a trust activity. Trust is the condition it
+  runs on; what it actually teaches is precision, and it teaches it by making imprecision immediately
+  visible. An instructor who says "over there, a bit more, no, the other way" watches their partner
+  turn in a circle. An instructor who says "turn to your left until I say stop, now four small steps
+  forward, now reach down to your right" watches them pick something up.
+
+  ## Where it belongs
+
+  Use it before learners have to explain anything to anybody outside the room: before interviews,
+  before a community conversation, before a presentation. The failure mode it exposes, assuming the
+  listener can see what you can see, is the single most common weakness in a young researcher's
+  interview technique and in their reporting.
+
+  It also pairs well with the [tallest tower](/materials/ypar-tallest-tower), where the same
+  communication problem appears under time pressure with a group rather than a pair.
+
+  ## The blindfold question
+
+  The source activity uses blindfolds. Consider not using them.
+
+  Being blindfolded by another person, in a room of people you have just met, is a substantially
+  different experience from closing your own eyes, and for a learner who has experienced detention,
+  violence or abduction it may be an unacceptable one. Closing your eyes keeps the control with the
+  walker: they can open them, and knowing they can is what lets them keep them shut. The activity
+  works just as well, because the walkers who peek are obvious and the group will police it more
+  cheerfully than you can.
+
+  Where a learner does not want to do the non-seeing role at all, they instruct both rounds, or they
+  are the safety watcher. Say all three options before you announce the pairs. See
+  [decide about touch before the session](/materials/cf-physical-and-contact-activities).
+
+  ## The second round is where the learning is
+
+  Round one, the instructor speaks. Round two, the instructor may make sounds but no words. Almost
+  every group gets faster in the second round, and works out why in the debrief: they had to agree a
+  code first, so they started with a shared system instead of assuming one. That is the finding worth
+  leaving the session with, and it will not emerge if you only run one round.
+facilitationNotes: >-
+  The one thing to get right is safety, and it is your job rather than the group's. Walk the space
+  yourself first at a walker's pace, remove anything at head height, and station yourself where you
+  can see every pair. The second thing is the debrief: this activity is nearly always run as a bonding
+  exercise and left there, which wastes it. The findings you want are about the instructions, not the
+  feelings, so plan for the debrief to take longer than the activity.
+steps:
+  - title: "Prepare the space and give everyone a choice of role"
+    duration: 5 min
+    guidance: >-
+      Clear and walk the area yourself first. Then set out the three roles, walker, instructor and
+      safety watcher, and say that everyone will do at least two of them and nobody has to do all
+      three. Offer eyes closed rather than a blindfold as the normal option, not as a special
+      arrangement. Put the objects out only once everyone's eyes are shut.
+    keyPrompts:
+      - "Three jobs here: walking, instructing, and keeping people safe. All three are the activity."
+      - "Eyes closed is fine. Nobody has to wear anything over their face."
+    watchOuts:
+      - "A learner is publicly assigned a blindfold and has to object in front of the group. Offer the choice before you name any pairs."
+      - "The floor was checked before the objects went down but not after. Look again once the space is set."
+  - title: "Round one: words only, hands off"
+    duration: 8 min
+    guidance: >-
+      The walker closes their eyes; the instructor stays outside the area and may not touch the
+      walker or the objects. Run several pairs at once, which raises the noise and makes the task
+      properly hard, because instructors have to make themselves heard by one specific person. Stop
+      after about five minutes whether or not anyone has finished.
+    keyPrompts:
+      - "You cannot touch them and you cannot touch the objects. What have you got left?"
+    watchOuts:
+      - "An instructor takes their partner's arm to steer them. Stop the round, restate the rule, and restart; the moment touch is allowed the activity teaches nothing."
+      - "A walker moves fast and confidently towards a wall. Say stop loudly, by name, and do not wait to see whether their partner will."
+      - "The noise makes it impossible to hear a specific partner. That is a real part of the task, but if it is total, halve the number of pairs running at once."
+  - title: "Round two: sounds, but no words"
+    duration: 8 min
+    guidance: >-
+      Swap roles and remove language. Instructors may whistle, clap, click or hum but may not speak.
+      Give each pair a minute beforehand to agree what their sounds will mean, and watch what happens:
+      pairs who agree a system first tend to outperform the talkers from round one, which is the
+      finding the whole activity is built to produce.
+    keyPrompts:
+      - "One minute to agree your code. What will mean stop?"
+      - "Which was faster for you, and why do you think that is?"
+    watchOuts:
+      - "A pair skips the code-agreeing minute and improvises. Let them, and use them in the debrief as the comparison."
+      - "Sounds become shouting. Set a volume limit or the room becomes unusable."
+  - title: "Debrief the instructions, not the feelings"
+    duration: 10-15 min
+    guidance: >-
+      Start with the walkers: which instruction was the most useful thing your partner said, and
+      which was useless? Get specific words on the board. Then ask the instructors what they assumed
+      their partner could tell. Then the comparison question between rounds. Only then, briefly, the
+      trust question: what would have made you trust your partner more?
+    keyPrompts:
+      - "What is the single most useful thing your partner said?"
+      - "What did you assume they knew that they did not?"
+      - "Which round worked better, and what does that tell us about explaining things?"
+    watchOuts:
+      - "The debrief goes straight to how it felt and stays there. Feelings are quick to say and they crowd out the specific findings; ask about the words first."
+      - "The lesson is left inside the game. Finish with one direct transfer question about the group's own next task, an interview or a presentation."
+  - title: "Name one thing to change in your own explaining"
+    duration: 5 min
+    guidance: >-
+      Ask every learner for one sentence: something they will say differently next time they explain
+      something to somebody who cannot see what they can see. Write these down. When the group later
+      writes interview questions or briefs a partner organisation, this list is the checklist to
+      return to.
+    keyPrompts:
+      - "One thing you will do differently next time you explain something to someone."
+    watchOuts:
+      - "Answers are generic (be clearer, communicate better). Push for the specific move: say left before forward, agree the stop word first, check they have understood."
+closing: >-
+  Keep the list of what made an instruction useful. It is a communication checklist the group wrote
+  themselves, which is worth considerably more to them than one you could have handed out at the start.
+learnerContent: |
+  You are going to work in pairs. One of you closes your eyes. The other one can see everything, but
+  is not allowed to touch you, or the objects, at all.
+
+  The one who cannot see has to collect as many objects as possible. The one who can see has only
+  their voice.
+
+  You do not have to wear a blindfold. Closing your eyes is enough, and you can open them whenever you
+  want to. If you would rather not do this part at all, you can instruct both times, or be the person
+  who keeps everybody safe. All three are the activity.
+
+  Then we do it again with the roles swapped, and this time the instructor **cannot use words**. Only
+  sounds. You get one minute first to agree what your sounds will mean.
+
+  Most groups get faster the second time. Afterwards we work out why.
+
+  The question at the end is not "did you trust your partner". It is: **which of the things they said
+  actually helped?** That is the thing you will use when you interview someone, or explain your
+  research to a room.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Every piece of work a young researcher does outside the room depends on making themselves
+    understood by someone who does not already share their picture: an interviewee, an official, an
+    audience. This activity gives them immediate, unarguable feedback on how well they do that, and it
+    does it in ten minutes rather than after a failed interview.
+principlesForegrounded: [collaboration, feedback-and-data, safe-spaces]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      Neither role can complete the task; the objects only get collected when the pair builds a shared
+      system, and the second round makes the building of that system explicit.
+  - principle: feedback-and-data
+    how: >-
+      The feedback is immediate and physical. An unclear instruction produces a partner turning in a
+      circle, which no amount of facilitator commentary can match for directness.
+  - principle: safe-spaces
+    how: >-
+      The blindfold is replaced with closed eyes so control stays with the learner, three roles are
+      offered before pairs are named, and a safety watcher is built into the design rather than left
+      to chance.
+competencyCodes: [FLC3, FUS2, ALC2]
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      Influential communication here means being understood, and the activity supplies a hard test of
+      it: the instruction either produces the right movement or it does not. The debrief converts that
+      into a list of what worked, in the learners' own words.
+  - code: FUS2
+    how: >-
+      Instructors have to model what their partner can and cannot perceive, and they discover in real
+      time how much they assumed. That is the core of understanding another person's position.
+  - code: ALC2
+    how: >-
+      The wordless round forces a pair to negotiate a shared code before acting, which is a small,
+      clean instance of a group agreeing how it will work before it works.
+objectiveIds: []
+relatedSlugs:
+  - ypar-tallest-tower
+  - ypar-team-trail
+  - ypar-quick-communication-games
+  - cf-physical-and-contact-activities
+  - dc-designing-survey-questions
+  - dc-expert-interview-preparation
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section, free to download. Trust Walk appears in Non-verbal Communication."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free handbook the YPAR Hub team-building plans draw on."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to Youth in Focus (Youth REP: Step by Step) and Stanford's John W. Gardner Center (YELL)"
+  basis: >-
+    A guided walk with a non-seeing partner is a long-standing youth-work method with no single
+    author. Every word here is written from scratch and none of the YPAR Hub's wording is reproduced.
+  note: >-
+    Do not restore the blindfold as the default if this page is edited. The substitution of closed
+    eyes is a deliberate safeguarding decision, and the reasoning is on the page.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Non-verbal Communication lesson plan (Trust Walk)"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Trust Walk", supplied to Amala in August 2026. The source's variation,
+  removing speech in a second round, is kept and promoted to a full step because it carries the main
+  finding. The blindfold substitution, the safety-watcher role and the instruction-focused debrief are
+  Amala's.

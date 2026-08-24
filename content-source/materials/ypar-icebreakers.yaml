@@ -1,0 +1,221 @@
+id: ypar-icebreakers
+slug: ypar-icebreakers
+access: public
+type: tools-approaches
+title: "Icebreakers: four games for a group that has just met"
+summary: >-
+  A small bank of short games for the first hours of a group, each chosen because it makes people
+  laugh and cooperate before it asks them to say anything about themselves.
+facilitationContext: [group]
+primaryContext: group
+toolsFacet: facilitation
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group only, and that is not a limitation to work around: the thing being made is a group. None
+      of these games has any meaning run alone or one to one, so if you are working with a single
+      learner, use a mentoring check-in instead and come back to these when the cohort assembles.
+duration: 10 to 15 minutes per game. Two games is usually the right dose for one session.
+grouping: Whole group, breaking into pairs or halves as the game requires.
+materialsAndPreparation:
+  - "Nothing at all for three of the four games. Scribble drawing needs paper and something to draw with, one sheet per learner."
+  - "Floor space clear enough for the whole group to stand in a circle and move. If the room is fixed with desks, choose mirror image, which works seated."
+  - "A decision, before you start, about physical contact: the human knot requires holding hands across a circle. See the cautions below."
+whatLearnersDo:
+  - Play a short game with the whole group, with no preparation and nothing to get right.
+  - Cooperate with people they have not met, on a task with no stakes attached to it.
+  - In two of the games, discuss what the game showed about creativity or about how they want to win.
+educatorContent: |
+  These are opening games, not lessons. Their job is to get a new group moving, laughing and
+  cooperating in the first hour, so that when you later ask them to disagree with each other about
+  something real, they have already had one easy experience of being in a room together.
+
+  Choose one, at most two. A run of five icebreakers reads as filler and a group will start to
+  resent it. If you want more, the [energisers](/materials/ypar-energisers) bank is for lifting a
+  flagging group mid-session, and [getting to know each other](/materials/ypar-getting-to-know-each-other)
+  is for learning something about the people in the room.
+
+  ## Scribble drawing (10 minutes)
+
+  Everyone gets paper and a pen. They scribble for 5 to 10 seconds, until you say stop. Then they
+  swap papers and try to make a picture out of somebody else's scribble.
+
+  This is the one with a genuine debrief in it. The scribble was nothing, and somebody else made it
+  into something. Ask what that says about a mess, a setback, or a problem nobody has looked at yet.
+  It is a cheap, honest opening for a course about changing things.
+
+  ## The human knot (10 minutes)
+
+  The group stands in a tight circle, everyone puts their hands into the middle, and each person
+  takes hold of two different people's hands, not the person beside them. Now the group untangles
+  itself into a circle without letting go.
+
+  Split into two smaller circles if you have more than about twelve, or it becomes a scrum. **Read
+  the contact caution below before choosing this one.**
+
+  ## Mirror image (15 minutes)
+
+  Demonstrate first, with a volunteer, standing a metre apart. They copy everything you do as though
+  they were your reflection. Move slowly enough to be followed, and be a bit silly, because the
+  demonstration is what gives everyone else permission. Then the group pairs up and takes turns.
+
+  This works seated, works in a small room, and requires no contact, which makes it the safest
+  default of the four.
+
+  ## Swimming to flying (10 minutes)
+
+  Everyone starts as a fish, swimming around the room. Two fish who meet play one round of rock,
+  paper, scissors. The winner becomes a frog; the loser stays a fish and finds another fish. Frogs
+  play frogs; the winner becomes a bird and flies to the side to watch. The game ends when one fish,
+  one frog and a flock of birds are left.
+
+  Debrief this one. Almost everybody wins something, and the group notices that this feels different
+  from a game with a single winner. That is a useful thing to have noticed before you ask them to
+  work as a research team rather than compete inside it.
+
+  ## Cautions before you pick
+
+  **Physical contact.** The human knot puts strangers hand in hand and pressed together. In many of
+  the contexts Amala works in that is unremarkable, and in others it is not acceptable across gender,
+  or for a learner who has reason not to want to be held. Decide before the session, not during it,
+  and see
+  [running physical and contact activities](/materials/cf-physical-and-contact-activities).
+
+  **Losing in public.** Swimming to flying leaves a small number of people visibly still fish at the
+  end. Keep it short and keep the tone light.
+facilitationNotes: >-
+  The one thing to get right is stopping. An icebreaker works because it is brief, unimportant and
+  over before anyone has to be good at it; the common failure is running it until the energy sags and
+  then debriefing it heavily, which teaches a new group that this course will waste their time. Pick
+  one game, set it up in under a minute, play it, and move on. Two of these four have a real debrief
+  in them and the other two do not, so do not manufacture one.
+steps:
+  - title: "Pick the game the group actually needs"
+    duration: 2 min
+    guidance: >-
+      Decide before the session. If the group is silent and stiff, choose mirror image, which asks
+      for no words. If they are already talking, choose swimming to flying and let it be loud. If you
+      want an opening that connects to the course, choose scribble drawing. Choose the human knot
+      only if you have already settled the contact question for this group.
+    keyPrompts:
+      - "What does this group need in the next ten minutes: to move, to laugh, or to stop being silent?"
+    watchOuts:
+      - "The game is chosen for the facilitator's comfort rather than the group's state. If you always run the same one, you are choosing for yourself."
+      - "A game is chosen that excludes someone in the room. Check the physical demands against who is actually present before you announce it."
+  - title: "Set it up in under a minute"
+    duration: 2 min
+    guidance: >-
+      Give the rules in two or three sentences and start. Do not explain the purpose, do not
+      pre-empt the debrief, and do not apologise for it. Demonstrate rather than describe wherever
+      you can: mirror image in particular collapses if you explain it and lands if you show it. If
+      learners have partial or no shared language with you, demonstrate all four.
+    keyPrompts:
+      - "Who wants to help me show what this looks like?"
+    watchOuts:
+      - "The instructions take longer than the game. If you are still explaining after a minute, stop and demonstrate instead."
+      - "Someone has not understood but will not say so. Watch the first thirty seconds of play rather than the room as a whole, and re-show it to anyone standing still."
+  - title: "Play it, and stop it early"
+    duration: 5-10 min
+    guidance: >-
+      Join in where the game allows it. Watch for the moment the laughter peaks, and end it about
+      thirty seconds after that rather than waiting for it to die. Give anyone who does not want to
+      play a real job, counting, judging, keeping time, rather than a seat at the edge, which reads
+      as exclusion however you frame it.
+    keyPrompts:
+      - "Last round, then we stop."
+    watchOuts:
+      - "The game outlives the energy in it. Ending one round early is always better than one round late."
+      - "One learner will not join in. Offer a role rather than pressing them, and do not comment on it afterwards in front of the group."
+  - title: "Debrief only the two games that earn it"
+    duration: 5 min
+    guidance: >-
+      Scribble drawing and swimming to flying each carry one question worth asking, and the other two
+      do not. For scribble drawing, ask what it means that somebody else could make something out of
+      their mess. For swimming to flying, ask whether a game most people win is better or worse than
+      a game with one winner, and why. Take three answers and stop.
+    keyPrompts:
+      - "Somebody made something out of your scribble. Where else might that be true?"
+      - "Was that more fun or less fun than a game with one winner? Why?"
+    watchOuts:
+      - "A debrief is forced onto the human knot or mirror image. They are warm-ups; treating them as lessons makes the real debriefs later in the course feel equally hollow."
+      - "The facilitator supplies the insight. Ask, wait, and accept a thinner answer than the one in your head."
+closing: >-
+  Move straight into the next piece of work without ceremony. If you ran scribble drawing, keep the
+  drawings on the wall; a group that walks back in to see its own work already displayed starts the
+  second session differently from one that walks into an empty room.
+learnerContent: |
+  For the next ten minutes you are going to play a game with no point to it.
+
+  That is deliberate. This group is going to spend a long time working on something difficult
+  together, and it is much easier to disagree with somebody in week six if you have already been in a
+  circle laughing at nothing with them in week one.
+
+  Nobody has to be good at any of this. Nothing is being marked.
+
+  If a game involves holding hands or being close to other people and you would rather not, say so or
+  take the other job. You will be offered one, and you do not have to explain.
+
+  Two of these games have a real question at the end. Scribble drawing: somebody else made something
+  out of your mess, so where else might that be true? Swimming to flying: was that more fun than a
+  game with one winner?
+
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    A group cannot do anything together until it exists as a group, and it starts existing in these
+    first easy minutes rather than in the serious work that follows. Everything the cohort later does
+    collectively, agreeing a question, disagreeing about evidence, speaking to people outside the
+    room, rests on the fact that they were once in a circle laughing at nothing.
+principlesForegrounded: [safe-spaces, collaboration]
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      These games make the room feel survivable before anything is asked of anyone. Two of the four
+      are deliberately chosen to need neither disclosure nor physical contact, so a learner who is
+      guarded about either can take part fully rather than sit out on the first day.
+  - principle: collaboration
+    how: >-
+      Three of the four cannot be done alone: the knot, the mirror and the scribble swap each hand
+      the outcome to somebody else. That is a small, unthreatening rehearsal of the dependency the
+      cohort will rely on when the work gets harder.
+competencyCodes: [FLC2]
+competencyDevelopment:
+  - code: FLC2
+    how: >-
+      Fostering connection and belonging is the entire purpose here, and it is the facilitator's
+      competency as much as the learners'. Learners who go on to run sessions themselves, in a
+      research team or a community group, need a small stock of openings they can use, and this is
+      the stock.
+objectiveIds: []
+relatedSlugs:
+  - ypar-energisers
+  - ypar-getting-to-know-each-other
+  - ypar-follow-the-leader
+  - cf-physical-and-contact-activities
+  - cf-co-create-norms
+  - pb-class-agreements
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section. Free to download and the source of the games described here."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free 300-page handbook the YPAR Hub team-building plans draw on. Worth having if you are running a youth research team."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; activities credited by the source to Youth in Focus (Youth REP: Step by Step) and Stanford's John W. Gardner Center (YELL)"
+  basis: >-
+    Every word on this page is written from scratch. The games are methods, which copyright does not
+    reach; none of the YPAR Hub, YELL or Youth REP wording is reproduced, and the originators are
+    credited and linked. The YPAR Hub lesson plans carry a footer permitting non-profit reprinting by
+    schools, colleges and universities with credit, but we do not rely on that here, because
+    publishing on an open website is a wider act than reprinting a sheet for your own class.
+  note: >-
+    Never paste YPAR Hub or YELL wording onto this page. If a handout is ever wanted, author it fresh.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Fun Icebreakers lesson plan"
+  - "Credited in that plan to Youth in Focus, Youth Research Evaluation and Planning: Step by Step; and Stanford University's Youth Engaged in Leadership and Learning (YELL) curriculum"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Fun Icebreakers" lesson plan, one of ten Get Started plans supplied
+  to Amala in August 2026. The four games are the source's; the selection guidance, the contact
+  caution, the steps and the debrief judgements are Amala's.

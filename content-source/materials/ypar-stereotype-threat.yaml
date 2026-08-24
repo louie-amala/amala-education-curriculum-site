@@ -1,0 +1,187 @@
+id: ypar-stereotype-threat
+slug: ypar-stereotype-threat
+access: public
+type: concept
+title: "Stereotype threat"
+summary: >-
+  The idea that being reminded of a negative expectation about a group you belong to can make it
+  harder to perform, whether or not you believe the expectation yourself.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Used inside another activity rather than taught alone. It lands best immediately after a group
+      has seen how fast it can produce a list of expectations about a group of people, which is why it
+      sits inside [busting stereotypes](/materials/ypar-busting-stereotypes).
+  - context: independent
+    how: >-
+      A learner can read this and recognise it in their own experience, and many do so quickly. What is
+      lost is the check on over-application, so pair it with the caution below rather than the idea
+      alone.
+  - context: one-to-one-mentoring
+    how: >-
+      Genuinely useful in mentoring, and this is often where the concept does its best work: a learner
+      who avoids a subject or a role because people like them are not expected to do it has a name for
+      what is happening, which is the first step to deciding about it rather than being decided by it.
+educatorContent: |
+  ## The idea
+
+  Stereotype threat is the proposition that a person who is aware of a negative expectation about a
+  group they belong to can be affected by that awareness while performing, and can perform worse than
+  they otherwise would. The claim has a specific and important feature: the person does not have to
+  believe the stereotype. It is enough that they know it exists and know it might be applied to them.
+
+  The original demonstration is Claude Steele and Joshua Aronson's 1995 experiments with African
+  American college students taking a difficult verbal test. Describing the test as a measure of
+  intellectual ability, rather than as a laboratory problem-solving task, was associated with lower
+  performance. A large literature followed, extending the idea to gender and mathematics, to age, to
+  social class, and to many other pairings.
+
+  The mechanism usually offered is that the awareness itself consumes attention: some of the mental
+  capacity that would go to the task goes instead to monitoring how you are doing and what it will be
+  taken to mean.
+
+  ## What the evidence supports, and what it does not
+
+  Be careful here, and teach the caution alongside the concept.
+
+  The original finding is real and was replicated many times. However, the wider literature has been
+  substantially reassessed since around 2015. A meta-analysis of studies on girls and mathematics
+  found that publication bias may have seriously distorted the estimated size of the effect, and
+  several large pre-registered replications have found effects much smaller than the early literature
+  suggested, or none. The honest position is that the phenomenon is well evidenced in some settings
+  and that its size, its generality and the conditions under which it appears are contested.
+
+  What that means for teaching:
+
+  - **Do not present it as a law** that reliably makes people underperform. It is not, and a learner
+    who later reads that the literature is disputed will conclude the whole session was unreliable.
+  - **Do not use it to explain away a group's results.** That inverts the concept into exactly the
+    kind of expectation it describes, and it is the most common misuse.
+  - **Do present it as a described experience with a name**, which is where its value for learners
+    actually sits. Young people recognise it immediately: the exam you take knowing what people expect
+    of people like you, the meeting where you are the only one of something.
+
+  ## Why it belongs in this curriculum
+
+  It changes the argument about stereotypes. Without it, the case against a stereotype is that it is
+  unfair and inaccurate, which is true and easy to nod at. With it, the case is also that stereotypes
+  are load-bearing: they alter what people can do while they are being applied. That is a materially
+  different claim and it is the one that makes learners take the topic seriously about themselves
+  rather than about other people.
+
+  It also has a practical edge for a youth research group. Learners are about to interview adults,
+  present findings and be judged by people who may hold expectations about young people, about
+  refugees, about girls. Naming the effect in advance gives them something to do with the feeling when
+  it turns up.
+
+  ## Where it is used
+
+  Inside [busting stereotypes](/materials/ypar-busting-stereotypes), after the group's own list has
+  been examined. It also belongs in a mentoring conversation with a learner avoiding something, and in
+  the run-up to any assessment or public presentation.
+learnerContent: |
+  Here is something that has been studied for thirty years.
+
+  If you are about to do something difficult, and you know that people expect **people like you** to be
+  bad at it, that knowledge alone can make it harder. Not because the expectation is true. Not even
+  because you believe it. Just because part of your mind is now busy watching yourself instead of
+  doing the task.
+
+  It has a name: **stereotype threat**.
+
+  You may recognise it. The test you sat knowing what the teacher thought of your class. The room where
+  you were the only girl, or the only one from your camp, or the youngest person there. The feeling is
+  not weakness and it is not in your imagination. It is what happens when you are carrying somebody
+  else's expectation into a room along with everything else.
+
+  Two honest things about it:
+
+  - **Researchers disagree about how big the effect is.** The idea is well studied and the early
+    results were dramatic; more recent, more careful studies have often found smaller effects. So take
+    it as a real thing that happens, not as a law about what will happen to you.
+  - **It is not a reason to expect less of yourself.** That would turn it into exactly the sort of
+    expectation it describes. It is a name for something that gets in the way, and things that have
+    names can be talked about, prepared for, and told to somebody.
+
+  The useful question is not "is this affecting me". It is: **what would help, when it is?**
+facilitationNotes: >-
+  The one thing to get right is proportion. Overstated, this concept becomes a claim that certain
+  groups reliably underperform, which is the opposite of the point and lands badly with the very
+  learners it is meant to serve. Teach it as a described experience with a name and a contested
+  evidence base, not as a settled law. Never use it to explain a particular learner's result to them,
+  and never let a group use it to explain another group's. Sensitivity: naming the effect can prompt
+  learners to recall specific experiences of being judged, so leave room and follow up individually.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction]
+  how: >-
+    A feeling with a name can be prepared for, discussed and worked around. A feeling without one is
+    usually read by the person having it as evidence about themselves. Giving learners the name, with
+    the honest caveats attached, hands them a way to attribute the difficulty to the situation rather
+    than to their own capacity, which is precisely the reattribution that keeps a person in the room.
+principlesForegrounded: [builds-on-identities, safe-spaces, feedback-and-data]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The concept treats what learners carry into a room, as members of groups other people have
+      expectations about, as a real factor in their performance rather than as background noise.
+  - principle: safe-spaces
+    how: >-
+      Naming the effect makes it discussable, which is what allows a learner to say that a task feels
+      loaded without it sounding like an excuse.
+  - principle: feedback-and-data
+    how: >-
+      The concept is taught together with the state of the evidence for it, including the parts that
+      are contested, which models how a researcher should hold a finding they find persuasive.
+competencyCodes: [AUS1, FUS1, FPS2]
+competencyDevelopment:
+  - code: AUS1
+    how: >-
+      This is the mechanism by which a negative stereotype does damage to the person it is applied to,
+      which is what turns addressing bias from a matter of manners into a matter of consequence.
+  - code: FUS1
+    how: >-
+      Learners get a name for a state they have been in, which lets them notice it happening rather
+      than reading it afterwards as evidence about their own ability.
+  - code: FPS2
+    how: >-
+      The concept is presented with its own evidential problems attached, which gives learners a
+      worked example of holding an idea as well supported in places and disputed in others.
+objectiveIds: [powerful-narratives--o1]
+relatedSlugs:
+  - ypar-busting-stereotypes
+  - pn-internalising-narratives
+  - pn-status-cards
+  - pn-stereotypes-concept-map
+  - ail-growth-mindset
+  - mentor-coach-through-challenges
+links:
+  - label: "Steele, C. M. & Aronson, J. (1995), Stereotype threat and the intellectual test performance of African Americans"
+    url: https://psycnet.apa.org/record/1995-42876-001
+    note: "Journal of Personality and Social Psychology 69(5), 797-811. The original experiments."
+  - label: "Flore, P. C. & Wicherts, J. M. (2015), Does stereotype threat influence performance of girls in stereotyped domains? A meta-analysis"
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0022440514000831
+    note: "Journal of School Psychology 53(1), 25-44. Finds that publication bias may have seriously distorted the estimated effect size. Read this alongside the original."
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The Busting Stereotypes lesson plan, in the Understanding Oppression section, which introduces the concept."
+rights:
+  status: own-expression
+  holder: "The concept is Claude Steele and Joshua Aronson's; the teaching context comes from the UC Berkeley YPAR Hub"
+  basis: >-
+    A scientific concept is not something copyright reaches. Every word here is Amala's own, the
+    originators are credited, and the primary sources are linked rather than quoted.
+  note: >-
+    Do not strengthen the claims on this page. The caution about the contested evidence base is the
+    reason the concept has its own page rather than a paragraph inside the activity.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Understanding Oppression > Busting Stereotypes lesson plan"
+  - "Steele, C. M. and Aronson, J. (1995), Journal of Personality and Social Psychology 69(5), 797-811"
+  - "Flore, P. C. and Wicherts, J. M. (2015), Journal of School Psychology 53(1), 25-44"
+provenanceNote: >-
+  Written by Amala in August 2026 while adapting the YPAR Hub's "Busting Stereotypes" lesson plan,
+  which introduces stereotype threat in a single paragraph and states the effect more confidently than
+  the current evidence supports (its worked example is the girls-and-mathematics finding, which is the
+  part of the literature most affected by the publication-bias reassessment). Given its own page so
+  that the concept and its caveats travel together.

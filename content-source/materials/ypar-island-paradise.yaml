@@ -1,0 +1,211 @@
+id: ypar-island-paradise
+slug: ypar-island-paradise
+access: public
+type: activity
+title: "Island paradise: build a society, then discover the neighbours"
+summary: >-
+  Groups design an island they would all live on, agree how it will be run, and then learn that other
+  islands exist and must decide how to deal with them.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group only, and it needs at least sixteen people so there are two or three islands. With one
+      island there are no neighbours and the second half of the activity, which is where most of the
+      value is, cannot happen. If you have fewer than sixteen, run islands of five or six rather than
+      dropping to a single group.
+duration: 90 minutes to 2 hours. Do not attempt it in less; the last 20 minutes carry the learning.
+grouping: Groups of six to eight, one island each, then the whole cohort.
+materialsAndPreparation:
+  - "Something to build with, one lump per group: modelling clay is ideal, but dough, wet earth, sand in a tray, or paper and card all work. The material matters less than that it is shapeable and shared."
+  - "Paper and pens for the silent individual stage."
+  - "Separate spaces, or at least separate corners, so islands cannot overhear each other while they are forming."
+  - "A clear plan for how you will introduce the other islands, and at what minute. Write the timings down; this activity drifts."
+  - "Time. This is the longest activity in this bank and it does not survive being cut short."
+whatLearnersDo:
+  - Design, silently and alone, an island they would want to live on.
+  - Merge their individual ideas into one island with their group, in clay.
+  - Decide how their island will handle food, health, learning, safety and who decides things.
+  - Discover other islands exist and decide how their island will deal with them.
+  - "Examine what happened: who led, how decisions were made, and what happened when the islands met."
+facilitationNotes: >-
+  The one thing to get right is the reveal. The activity is built so that a group spends forty minutes
+  becoming invested in a society it made, and only then learns it is not alone; that sequence is what
+  produces a real reaction rather than a discussed one. Do not hint at it earlier, do not answer
+  questions about whether there are other islands, and do not shorten the island-building to make room
+  for the meeting. The other thing to protect is the debrief. This is a long activity and facilitators
+  routinely run out of time exactly where the value is. Budget 20 minutes and defend them.
+steps:
+  - title: "Ten silent minutes: your own island"
+    duration: 10 min
+    guidance: >-
+      Put learners in their groups but ask for silence. Each person draws, alone and on their own
+      paper, the island they would want to live on: what is on it, where they would shelter, what the
+      land is like. No discussion at all. This stage exists so that everyone arrives at the group with
+      something of their own, which is what stops the loudest learner defining the island by default.
+    keyPrompts:
+      - "Your island. On your own, no talking. Where would you sleep, and what is around you?"
+    watchOuts:
+      - "The silence breaks within a minute. Reset it once, firmly; if the individual stage collapses, the group stage will be dominated by two people."
+      - "A learner cannot draw and does nothing. Tell the room that words and lists on the page count exactly as much as pictures."
+  - title: "Build one island out of many"
+    duration: 40 min
+    guidance: >-
+      The group now makes a single island in clay that they would all live on. Give them the list of
+      things to settle: food, health, learning, safety, how people move about, and who decides things.
+      Most of this cannot be modelled and does not need to be; the clay gives the group something to
+      argue over while the real decisions get made. Circulate and ask questions rather than answering
+      them.
+    keyPrompts:
+      - "Who decides things on this island? How did you decide that?"
+      - "Somebody on your island is ill. What happens?"
+      - "Whose idea from the silent stage is not in this island, and how did that happen?"
+    watchOuts:
+      - "The group spends forty minutes on the shape of the mountains and none on how the island is run. Ask about food, illness and decisions at the fifteen-minute mark."
+      - "One learner's plan becomes the island and nobody notices. Ask the question directly, in front of the group: whose ideas are in here?"
+      - "A group finishes early and sits idle. Give them a harder question: what happens on your island to somebody who breaks the rules?"
+    adaptation: >-
+      Short on time: cut this stage to 25 minutes and give the list of things to settle at the start
+      rather than letting the group find its way to them. You lose some of the emergence and you keep
+      the sequence intact, which matters more.
+  - title: "Reveal the neighbours"
+    duration: 20 min
+    guidance: >-
+      Tell the islands that other islands exist, and that they may interact if they wish. Say nothing
+      more: not how, not whether they should, not what interaction means. The groups have to work out
+      whether to trade, to make rules between them, to ignore each other or to take something. Stand
+      back and watch what each island does in the first two minutes, because that is the part they
+      will not remember afterwards and you will need to tell them.
+    keyPrompts:
+      - "There are other islands. What you do about that is entirely up to you."
+      - "Who is speaking for your island, and who decided that?"
+    watchOuts:
+      - "The first move is aggressive and the room escalates fast. Let it run, note what happened, and do not intervene unless it stops being play. This is the material the debrief needs."
+      - "Islands wait to be told the rules of interaction. Repeat once that there are none, and let the silence sit; what a group does with an absence of rules is the finding."
+      - "Somebody appoints themselves ambassador without being chosen. Note it, name it in the debrief, and do not correct it in the moment."
+  - title: "Debrief the six things that happened"
+    duration: 20 min
+    guidance: >-
+      Work through them in order and keep each one short: leadership, whether anyone took charge and
+      how; decision-making, whether there was any process at all; communication, within islands and
+      between them; planning, what was good and what was not; right and wrong, whether any question of
+      fairness came up and what was done about it; and culture, whether the island developed one and
+      whether contact changed it.
+    keyPrompts:
+      - "Did anybody take charge of your island? Was that decided or did it just happen?"
+      - "When the other islands appeared, what was the first thing your island did?"
+      - "Did anything come up that felt unfair? What happened to it?"
+      - "Did your island change after you met the others?"
+    watchOuts:
+      - "The debrief becomes a retelling of events. Ask for the reasons, not the sequence: not what happened, but how the group came to do that."
+      - "The fairness question is skipped because nothing dramatic occurred. Ask it anyway; the answer that nobody thought about it is itself worth having."
+      - "Time runs out. If you have ten minutes rather than twenty, take decision-making and what happened at first contact, and drop the rest."
+  - title: "Bring it back to the world outside"
+    duration: 10 min
+    guidance: >-
+      One question, asked seriously: where have you seen what happened here happen for real? Between
+      countries, between communities, between groups in one place. Take three or four answers and
+      resist the urge to organise them into a lesson. The activity has already made the argument; your
+      job is to let learners connect it themselves.
+    keyPrompts:
+      - "Where have you seen this happen for real?"
+      - "What would it have taken, on your island, to do it differently?"
+    watchOuts:
+      - "Learners map it onto a live conflict involving people in the room. Take it seriously, keep it general, and do not press for detail about anyone's own experience in a whole-group setting."
+closing: >-
+  End on the second question rather than the first: what would it have taken to do it differently?
+  That is the only part of this activity that points forwards, and a group that has just watched
+  itself invent a governance problem in forty minutes is unusually well placed to answer it.
+learnerContent: |
+  You and your group are going to build an island that all of you would live on.
+
+  First, on your own and in silence, draw your island. What is on it? Where would you sleep? Nobody
+  talks during this part.
+
+  Then, as a group, make **one** island out of clay that you would all be happy to live on. You have
+  to agree more than the shape of it. Where does food come from? What happens when somebody is ill?
+  How do people learn things? Who is safe, and who keeps them safe? And the big one: **who decides?**
+
+  Later, something else will happen. You will find out what when it does.
+
+  Afterwards we will look at what your island actually did, not what it meant to do: who ended up in
+  charge, how decisions really got made, and what your island did in the first thirty seconds after
+  everything changed.
+
+  You are allowed to step out of this activity at any point, and you do not have to say why.
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Learners construct a society from nothing and then have to live with the arrangements they made,
+    including the ones they made by accident. Discovering that a group can invent its own rules, and
+    that failing to invent them is itself a decision with consequences, is the most direct experience
+    of collective agency this bank offers.
+principlesForegrounded: [collaboration, authentic-challenges, safe-spaces]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The silent individual stage guarantees that every learner arrives with a position, so the merge
+      into one island is a genuine negotiation rather than one person's plan with witnesses.
+  - principle: authentic-challenges
+    how: >-
+      The questions the islands face, how to feed people, who decides, what to do about the neighbours,
+      are the real questions of governance, and the activity does not simplify them into a right answer.
+  - principle: safe-spaces
+    how: >-
+      The islands are invented, which is deliberate. A group can play out first contact, competition
+      and the treatment of outsiders without anyone's actual history being the material, which is the
+      condition under which this is safe to run with Amala's learners at all.
+competencyCodes: [ALC2, FLC1, FUS3, FPS3]
+competencyDevelopment:
+  - code: ALC2
+    how: >-
+      Every island has to make dozens of decisions in forty minutes with no process handed to it, and
+      the debrief asks directly whether it had one. Groups that discover they had no process are the
+      ones best placed to choose one deliberately afterwards.
+  - code: FLC1
+    how: >-
+      Questions of fairness appear on their own, in what the island decides about illness, safety and
+      the neighbours, and the debrief names them as ethical decisions that were taken rather than
+      circumstances that occurred.
+  - code: FUS3
+    how: >-
+      Islands routinely develop something like a culture in under an hour, and often change it on
+      contact with another island. Watching that happen at speed is a compact demonstration of how
+      cultures form and adapt.
+  - code: FPS3
+    how: >-
+      Working out what an island needs in order to function, and what would go wrong without it, is
+      the practice of identifying contributing factors in a system small enough to hold in view.
+objectiveIds: [making-societal-change--o1]
+relatedSlugs:
+  - ypar-agreeing-how-we-decide
+  - ypar-forms-of-decision-making
+  - pb-land-of-harmonia
+  - pb-planet-of-aliens
+  - cf-debrief-a-simulation
+  - the-trading-game
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Team Building section, free to download. Island Paradise appears in Verbal Communication."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free handbook the YPAR Hub team-building plans draw on."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to Youth in Focus (Youth REP: Step by Step) and Stanford's John W. Gardner Center (YELL)"
+  basis: >-
+    Island-founding simulations are a long-standing genre with no single traceable author. Every word
+    here is written from scratch and none of the YPAR Hub's wording is reproduced.
+  note: >-
+    The setting is invented on purpose. If this page is ever adapted, do not transpose the islands onto
+    a real territory, border or displacement route; see the materials standard on simulations and whose
+    life is being played.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Team-Building > Verbal Communication lesson plan (Island Paradise)"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Island Paradise", supplied to Amala in August 2026. The three-stage
+  structure, silent individual design, group island, then the reveal of other islands, and the six
+  debrief topics are the source's. The instruction not to hint at the reveal, the timing discipline,
+  the low-cost material substitutions and the closing question about doing it differently are Amala's.

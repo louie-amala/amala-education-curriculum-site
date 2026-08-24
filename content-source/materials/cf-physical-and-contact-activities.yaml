@@ -1,0 +1,110 @@
+id: cf-physical-and-contact-activities
+slug: cf-physical-and-contact-activities
+access: public
+type: educator-move
+title: "Decide about touch before the session, not during it"
+summary: >-
+  Many team-building activities involve holding hands, being lifted, standing close or moving
+  blindfolded. Settle whether each one is right for this group before you announce it.
+tags:
+  - id: learning-facilitation
+    how: >-
+      At design time this is a filter on which activities go into the plan at all, and a prompt to
+      have a non-contact substitute ready for each one you keep.
+  - id: safeguarding
+    how: >-
+      In the room it is the discipline of never putting a learner in the position of having to object,
+      in public, to being touched.
+  - id: dialogue-climate
+    how: >-
+      How an opt-out is offered decides whether taking it costs anything. If the alternative is a real
+      job rather than a chair at the edge, the offer is genuine.
+facilitationContext:
+  - group
+primaryContext: group
+educatorContent: |
+  A large proportion of published team-building activities involve physical contact or the temporary
+  loss of a sense. The human knot has strangers holding hands across a circle. All aboard packs a
+  group onto a shrinking sheet. Push me pull me has a group lower a person's body towards the floor.
+  A trust walk asks a learner to move blindfolded on somebody else's instructions.
+
+  These activities work, which is why they are everywhere. They also carry three risks that a
+  facilitator has to decide about before the session, because there is no way to decide about them in
+  front of twenty people without cost to somebody.
+
+  ## The three questions
+
+  **Is contact across gender acceptable to this group and its community?** In many of the settings
+  Amala's partners work in, it is not, and the answer is not the facilitator's to guess. Ask a
+  colleague from the community, or a learner you have a relationship with, in advance. An activity
+  that is unremarkable in one classroom can end a young woman's attendance in another.
+
+  **Can a learner decline without it being visible?** A group standing in a circle holding hands
+  makes refusal an announcement. The only reliable protection is to choose the activity so that no
+  one has to refuse, or to structure it so that the alternative role is obviously a job rather than an
+  exclusion: timekeeper, judge, the person who watches for safety.
+
+  **What does this activity ask of somebody who has been hurt?** Being held, being unable to see,
+  being physically confined and being lowered by other people are all things that a learner who has
+  experienced violence may have very specific reasons to avoid, and none of those reasons will be
+  said aloud in a session. Assume at least one person in the room has one.
+
+  ## What to do about it
+
+  1. **Filter at planning time.** For every physical activity in the plan, write down the non-contact
+     version next to it. If you cannot think of one, that is the activity to drop, not the one to run
+     and hope.
+  2. **Offer the choice before the activity is announced**, not after. "In the next activity you can
+     either take part or be our safety watcher, and both are useful" costs nobody anything. "Does
+     anyone not want to hold hands?" costs the person who answers.
+  3. **Never ask why.** A learner who has to explain a decline has not been offered one.
+  4. **Substitute the sense, not the person.** Where an activity depends on not seeing, let the
+     learner close their eyes rather than be blindfolded, or turn to face a wall. It keeps them in the
+     activity and returns control to them, because they can open their eyes.
+  5. **Watch the physical risk separately.** Some of these activities can injure people regardless of
+     consent. Anything that involves taking another person's weight needs firm footing, no jewellery
+     or loose clothing, and a facilitator standing where they can stop it.
+  6. **Debrief the choosing, once.** Where a group has been offered real alternatives, it is worth
+     naming afterwards that people took different routes and all of them counted. That does more for
+     the room's climate than the activity itself.
+
+  ## The general rule
+
+  If the activity's value comes from the physical mechanism, adapt it or drop it. If its value comes
+  from the debrief, and the physical part is only how you get there, find another way to get there.
+  Most of the time it is the second.
+agencyContribution:
+  indicators:
+    - power-over-wellbeing-and-self-direction
+  how: >-
+    Deciding what happens to your own body, and being able to decide it without explaining yourself,
+    is the most basic form of self-direction there is. For learners whose bodies have not always been
+    their own to control, an activity that hands that decision back, quietly and without cost, teaches
+    more than the exercise it is attached to.
+principleAlignment:
+  - principle: safe-spaces
+    how: >-
+      A space is not safe because it is declared safe; it is safe when a learner can decline something
+      without being seen to decline it. This move is the practical mechanism for that.
+  - principle: builds-on-identities
+    how: >-
+      Norms about touch, gender and personal space are part of what learners bring, and the move
+      treats them as facts to design around rather than obstacles to talk a group out of.
+relatedSlugs:
+  - cf-trauma-sensitive
+  - cf-co-create-norms
+  - ypar-trust-walk
+  - ypar-trust-building-games
+  - ypar-icebreakers
+  - pb-class-agreements
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala in August 2026. The move describes Amala's own facilitation judgement; it
+    reproduces nothing from the YPAR Hub plans that prompted it.
+sourceRefs:
+  - "Written in response to the YPAR Hub (UC Berkeley) Get Started team-building lesson plans, several of which involve contact or blindfolding with no adaptation offered"
+provenanceNote: >-
+  Authored by Amala in August 2026 while adapting the YPAR Hub team-building plans. The source plans
+  are strong on what the activities teach and silent on who cannot take part in them, so this move
+  carries the judgement that has to sit alongside every one of them.

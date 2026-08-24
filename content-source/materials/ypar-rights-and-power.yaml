@@ -1,0 +1,273 @@
+id: ypar-rights-and-power
+slug: ypar-rights-and-power
+access: public
+type: activity
+title: "Rights and power: who decides, and what protects you from them"
+summary: >-
+  Learners map who holds power over their lives, work out which rights limit that power, and test
+  what changes when a right is taken away.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group only. Both halves depend on a group arguing: the power map is a collective picture nobody
+      holds alone, and the removal exercise only works if the people losing the right are a body that
+      has to decide together what to do about it.
+duration: 60 to 90 minutes.
+grouping: Small groups for the mapping, whole group for the removal exercise and the discussion.
+materialsAndPreparation:
+  - "Large paper and markers for the power maps, one sheet per small group."
+  - "A short, plain-language list of rights. The Universal Declaration of Human Rights in a simplified version is the usual choice and is freely available in many languages; a national constitution or a child rights summary also works. Choose one and know it yourself before the session."
+  - "Paper and pens for the writing at the end."
+  - "A decision, made before the session, about whether to run the rights-removal exercise at all, and in what setting. Read the caution below."
+  - "Awareness of what it is safe to say about government in the place where you are teaching, for your learners as much as for you."
+whatLearnersDo:
+  - Map who makes decisions that affect their lives, from the household to the national level.
+  - Work out which rights, if any, limit each of those powers.
+  - Take part in an exercise where a group loses one right at a time and has to decide what to do.
+  - Write privately about the right that matters most to them, or about how much of their life is
+    decided by people they have never met.
+educatorContent: |
+  ## What was adapted, and why
+
+  The source lesson is built on the United States Constitution and Bill of Rights and is written for
+  American students. That does not travel: almost nothing in it applies to a learner in Cox's Bazar,
+  Amman or Kakuma, and the parts that seem to apply are misleading, because a learner without
+  citizenship is in a fundamentally different relationship to a state's constitutional protections
+  than a citizen is.
+
+  What does travel is the underlying structure, which is genuinely good: map the power, find what
+  limits it, then feel what happens when the limits are removed. This page keeps that and replaces
+  the constitutional content with a rights instrument the facilitator chooses. The Universal
+  Declaration of Human Rights is the usual choice, and its advantage in Amala's settings is that it is
+  not tied to citizenship of anywhere.
+
+  ## The safeguarding judgement, which you must make before the session
+
+  The source's central exercise has a group progressively lose rights while two learners act as the
+  government: as each right goes, the government may enforce what its loss permits, scattering an
+  assembly, dictating what people may say, removing people from the room.
+
+  **For many of Amala's cohorts, this is not a thought experiment.** Learners in this curriculum have
+  had assemblies broken up, have been unable to say things aloud safely, have been searched, detained,
+  or removed. The materials standard asks one question of every simulation: is anyone in this room
+  being asked to play their own life? Here, frequently, the answer is yes.
+
+  Three routes, and the choice belongs to the educator in the room:
+
+  1. **Run it in an invented setting.** A fictional island or town, with invented rights, invented
+     rulers and no resemblance to any real state. This keeps the mechanism and removes the
+     re-enactment. It is the default we recommend, and it pairs naturally with
+     [island paradise](/materials/ypar-island-paradise) if you have already run it.
+  2. **Run it as analysis rather than performance.** Instead of enacting the loss, the group discusses
+     what would become possible for whoever holds power if each right disappeared. Slower and less
+     vivid; considerably safer; and for an older or more analytically minded group, often better.
+  3. **Do not run that half at all.** The power map and the rights discussion stand perfectly well on
+     their own, and [the rights tree](/materials/pb-rights-tree) is an alternative second half that
+     builds rather than removes.
+
+  Whichever you choose, tell learners what is going to happen before it happens, and make stepping out
+  a role rather than an absence: an observer, whose job is to write down what changed after each
+  round, is doing something genuinely useful.
+
+  ## Talking about government where you are
+
+  Be realistic about the setting. In some of the places Amala's partners work, a session that invites
+  young people to discuss the legitimacy of those in power carries risk for the learners, for the
+  partner organisation and for the facilitator. This is not a reason to avoid the topic. It is a
+  reason to keep the analysis at the level of forms of power in general, to use the invented setting,
+  and to let learners decide for themselves how far to bring their own examples in. Never require a
+  learner to name a real authority.
+
+  ## Where it sits
+
+  It follows well from [the web of concerns](/materials/ypar-web-of-concerns), because most of what a
+  group wants changed turns out to be held in place by somebody's decision, and it leads into
+  [community mapping](/materials/community-mapping-and-empathy-interviews), which asks the same
+  question with a view to doing something about the answer.
+facilitationNotes: >-
+  The one thing to get right is the safeguarding decision, and it has to be made before the session
+  rather than in it: whether to run the rights-removal exercise, and if so whether in an invented
+  setting or as analysis. The materials standard's test applies directly here, because a re-enactment
+  of assembly being broken up or people being removed is, for some of Amala's learners, a re-enactment
+  of their own history. Sensitivity: this activity can surface detention, displacement, policing and
+  family authority. Offer the observer role before you name the exercise, keep the closing writing
+  private, and follow up individually rather than in the group.
+steps:
+  - title: "Map who decides things in your life"
+    duration: 20 min
+    guidance: >-
+      In small groups, learners draw everyone who makes decisions that affect them: family, school,
+      camp or neighbourhood administration, employers, local officials, national government, agencies,
+      donors. Put each one on the sheet and draw what it decides. Do not lead with the state; starting
+      at the household makes power concrete before it becomes political.
+    keyPrompts:
+      - "Who decided something about your life this week without asking you?"
+      - "Who decides whether you can move about, work, or study?"
+    watchOuts:
+      - "The map is all national government and nothing else. Ask about the decisions closest to them, which are usually the ones they feel most and name last."
+      - "A learner names an authority whose naming could cause them difficulty. Write the role rather than the name, and say that is how the group will do it."
+  - title: "Compare forms of power"
+    duration: 15 min
+    guidance: >-
+      Ask the group for examples of different ways power gets held: one ruler, a small group, a
+      whole population voting, a body appointed by somebody else. Get historical or distant examples
+      rather than local ones. Then the question that matters: in each of these, how much power does one
+      ordinary person actually have, and where does it come from?
+    keyPrompts:
+      - "In that arrangement, what could one ordinary person actually do?"
+      - "How much power do you have over the decisions on your map?"
+    watchOuts:
+      - "The discussion becomes a comparison of real, current governments including the learners' own. Keep it to forms and to distant or historical examples unless learners take it further themselves."
+      - "Learners conclude they have no power at all. Do not argue them out of it; ask instead where the small amounts sit, and note that finding out is part of what the project is for."
+  - title: "Find the rights that limit each power"
+    duration: 15 min
+    guidance: >-
+      Hand out the plain-language rights list. Groups go back to their maps and try to attach a right
+      to each power: what is this authority not supposed to be able to do to you? The gaps are as
+      instructive as the matches, and so is the discovery that a right on paper and a right in practice
+      are different things.
+    keyPrompts:
+      - "Which right, if any, limits that one?"
+      - "Is that right real where you are, or only written down?"
+    watchOuts:
+      - "The activity turns into a claim that rights guarantee protection. They do not, and learners know it; the honest version, that a right is a claim you can make rather than a wall that stops things, is more useful and more accurate."
+      - "A learner discovers a right they clearly do not have. Take it seriously and plainly, do not minimise it, and follow it up outside the session."
+  - title: "Take the rights away, one at a time"
+    duration: 20 min
+    guidance: >-
+      Run the version you decided on in advance. In the invented setting, the group is the people of a
+      made-up place and two learners hold power there; every few minutes one right is removed, and
+      before each removal the group discusses what to do and votes in secret. As each right goes, those
+      holding power may do what its absence permits, within the fiction. Stop before it becomes
+      distressing rather than after.
+    keyPrompts:
+      - "That right has gone. What can they now do that they could not do before?"
+      - "What are you going to do about it, and how will you decide?"
+    watchOuts:
+      - "The exercise slides from the invented setting into the real one. Bring it back immediately; the fiction is the safeguard and it stops working the moment it is dropped."
+      - "A learner becomes genuinely distressed. Stop the round, not just their participation, and move to the discussion."
+      - "The learners holding power enjoy it too much and the group divides. That reaction is worth discussing afterwards, and it is a reason to keep the round short."
+    adaptation: >-
+      Where performance is not appropriate: run this as analysis. Read out each right in turn, remove
+      it on paper, and ask what becomes possible for whoever holds power. You lose the visceral part
+      and you keep the whole argument.
+  - title: "Discuss what just happened, then write privately"
+    duration: 15 min
+    guidance: >-
+      Ask what those holding power did, at what point resistance stopped being possible, and what the
+      group would have needed to do earlier. Then close with private writing, on one of three prompts,
+      and let learners choose whether to share. The privacy is deliberate: the honest answers here are
+      not ones people give aloud in a room.
+    keyPrompts:
+      - "At what point did it stop being possible to do anything?"
+      - "What would you have had to do earlier?"
+      - "Which right matters most to you, and why that one?"
+    watchOuts:
+      - "Sharing is expected. Offer it and mean the offer; several learners will have written something they do not want read out."
+      - "The session ends inside the fiction. Come out of it explicitly, name what was invented, and say plainly that the discussion is over before people leave."
+closing: >-
+  Come out of the exercise deliberately: say that the place was invented, that the roles are finished,
+  and that anybody who wants to talk about anything it raised can find you afterwards. Then keep the
+  power maps. When the group later chooses who to interview about its research question, the map
+  already contains the answer.
+learnerContent: |
+  Somebody decided, this week, something about your life that you had no say in. Probably several
+  people did.
+
+  First you are going to map them. All of them: at home, at school, wherever you live, wherever you
+  might work, and further out to the people whose decisions reach you without your ever seeing them.
+
+  Then a second question: **what limits them?**
+
+  There is a list of rights that is supposed to. You will look at it and try to attach a right to each
+  power on your map. Some will match. Some will not. And some rights will be written down but not real
+  where you are, and it is worth saying so out loud.
+
+  Then we will do something in an invented place, with invented rulers. One by one, the people there
+  will lose their rights, and you will have to decide, as a group, what to do about it, before each
+  one goes.
+
+  You do not have to take part in that. There is another job: **observer**, writing down what changes
+  after each round. It is a real job and it is useful.
+
+  At the end you will write, on your own and for nobody else to read unless you want them to:
+
+  - Which right matters most to you, and why?
+  - How much of your life is decided by people you have never met? What do you think about that?
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Agency requires knowing where power actually sits, and most young people have never drawn that
+    picture. The map makes the decisions that reach them visible and attributable rather than
+    atmospheric, and the second half shows that the limits on those decisions are things that can be
+    lost, which is what makes defending them a thing a person might choose to do.
+principlesForegrounded: [authentic-challenges, safe-spaces, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The power learners map is the power actually operating on their lives, and the gaps they find
+      between rights on paper and rights in practice are real gaps rather than teaching examples.
+  - principle: safe-spaces
+    how: >-
+      The whole design is organised around not asking a displaced young person to re-enact the loss of
+      the rights they have actually lost: the invented setting, the analysis-only route, the observer
+      role and the private writing all exist for that reason.
+  - principle: responsible-action
+    how: >-
+      The activity ends on what the group would have needed to do earlier, which points at collective
+      action rather than at outrage, and it is honest that rights are claims to be made rather than
+      walls that hold on their own.
+competencyCodes: [FPS3, FLC1, FSI1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The power map is an exercise in identifying the factors and actors behind a situation, done on the
+      learners' own circumstances and at several scales at once.
+  - code: FLC1
+    how: >-
+      Working out what an authority should not be able to do, and what happens when that limit
+      disappears, is where an ethical position about power is formed rather than asserted.
+  - code: FSI1
+    how: >-
+      The finished map is a directory of who could be asked about the group's research question and who
+      has the power to act on its findings, which is a real research asset rather than a by-product.
+objectiveIds: [making-societal-change--o1]
+relatedSlugs:
+  - pb-rights-tree
+  - ypar-island-paradise
+  - ypar-web-of-concerns
+  - pb-power-imbalances
+  - stakeholder-community-mapping
+  - cf-charged-discussions
+  - cf-trauma-sensitive
+links:
+  - label: "Universal Declaration of Human Rights (United Nations)"
+    url: https://www.un.org/en/about-us/universal-declaration-of-human-rights
+    note: "The full text, with official translations in more than 500 languages. Use a plain-language or simplified version with learners."
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plan, in the Understanding Oppression section. Free to download, and written for a United States classroom."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; the source plan credits the Center for Education in Law and Democracy's pARTicipation Curriculum [to verify]"
+  basis: >-
+    Every word here is written from scratch, and the constitutional content the source is built on has
+    been replaced rather than reproduced. The structure, mapping power, finding its limits, then
+    removing them, is a method rather than an expression.
+  note: >-
+    Do not restore the United States constitutional framing. It does not apply to Amala's learners, and
+    for a learner without citizenship it is actively misleading. The attribution to the Center for
+    Education in Law and Democracy is taken from the source document and has not been independently
+    verified.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Understanding Oppression > Government, Rights, and Power lesson plan"
+  - "Credited in that plan to the Center for Education in Law and Democracy's pARTicipation Curriculum [to verify: no publisher page located]"
+provenanceNote: >-
+  Adapted heavily from the YPAR Hub's "Government, Rights, and Power", supplied to Amala in August
+  2026. The source is a United States civics lesson built on the Constitution and the Bill of Rights;
+  its structure is kept and its content is replaced with a rights instrument the facilitator chooses,
+  usually the Universal Declaration, which is not tied to citizenship of anywhere. The power map, the
+  invented-setting and analysis-only routes, the observer role and the safeguarding judgement are
+  Amala's, and are the reason this material can be run with a displaced cohort at all.

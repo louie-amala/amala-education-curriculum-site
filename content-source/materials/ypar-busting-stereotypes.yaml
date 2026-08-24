@@ -1,0 +1,279 @@
+id: ypar-busting-stereotypes
+slug: ypar-busting-stereotypes
+access: public
+type: activity
+title: "Busting stereotypes: the two lists a group writes without thinking"
+summary: >-
+  Learners quickly list what a man is like and what a woman is like, then examine the lists they have
+  just produced and what those lists do to real people.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The activity depends on a collective list appearing on the board faster than anyone
+      can think about it, and on nobody being individually responsible for any item on it. A learner
+      doing this alone would produce a list they own, which is a different and much less useful
+      exercise.
+duration: 60 minutes.
+grouping: Individual lists, then small groups, then whole group.
+materialsAndPreparation:
+  - "A board or large sheet where the combined list can be built and seen by everybody."
+  - "Paper and pens, one sheet per learner. If some learners do not write, they draw or speak and somebody scribes."
+  - "A decision about which pair of categories you are using. Man and woman is the source's; see the note below before assuming it is right for your group."
+  - "A definition of stereotype to offer after the group has tried its own. See [stereotype](/glossary/stereotype)."
+  - "A plan for closing the session properly, because this one opens things it must also close."
+whatLearnersDo:
+  - Say what they think a stereotype is, before being told.
+  - Write, quickly, words describing what men are like and what women are like.
+  - Combine their lists into one group list and then examine it.
+  - Discuss where the words came from, whether they belong where they were put, and what they cost.
+  - Recall a time their own impression of someone was wrong, and a time someone was wrong about them.
+educatorContent: |
+  The mechanism of this activity is speed. Learners are asked to produce the words fast, in a race,
+  which is precisely the condition under which people supply what they have absorbed rather than what
+  they believe. The list on the board is then something the group made together and nobody owns, which
+  is what makes it examinable without anybody being the defendant.
+
+  ## What to teach after the list is up
+
+  Two things, and they are different.
+
+  **Stereotypes are incomplete rather than simply false.** Some men are strong. The trouble is not
+  that the word is wrong about every man but that it is applied in advance, to a person nobody has met
+  yet, and it crowds out everything else that might be true of them. Learners often try to defend a
+  list item by finding a case where it holds; the answer is not to dispute the case but to ask what
+  the word does to the next person it is applied to.
+
+  **Stereotype threat.** This is the finding worth giving them, and it is the part of this session
+  that stays with people. See [stereotype threat](/materials/ypar-stereotype-threat) for what it is,
+  what the research does and does not support, and how to teach it without overclaiming. Teach it
+  after the list is examined, not before, because it lands only once the group can see how quickly its
+  own list appeared.
+
+  ## Choosing the categories
+
+  The source uses man and woman, and there is a good reason for it: everybody in the room has
+  material, and both categories contain people who are present, which is what gives the second half
+  its force.
+
+  It also carries real risk in some of the settings Amala works in. Consider:
+
+  - **Gender may not be the safest opening pair** in a group where gender roles are actively contested
+    at home, or where a session that questions them could put a learner in difficulty outside the room.
+    In that case, run the same structure on a pair that is real but less exposed: young people and
+    adults, city people and village people, new arrivals and people who have always lived here.
+  - **Young people and adults** is the pair we would usually recommend for a youth research group, and
+    not only for safety. The project is about to send young people to talk to adults about a community
+    problem, and the assumptions running in both directions are about to become operationally
+    important.
+  - **Never use a pair that maps onto a live conflict in the room**, or onto the groups the learners
+    themselves have been displaced by or from. That is the case where the activity does harm rather
+    than insight.
+
+  Whichever pair you use, the structure is identical.
+
+  ## What this activity is not
+
+  It is not a session that resolves anything. It surfaces material and gives it a name. The
+  concept-map activity in Powerful Narratives,
+  [stereotype, prejudice, discrimination](/materials/pn-stereotypes-concept-map), is the natural next
+  step for a group that wants to work out where the words come from, and
+  [the danger of a single story](/materials/pn-danger-of-a-single-story) is the natural companion.
+visuals:
+  - kind: example
+    title: "What the board looks like after four minutes"
+    caption: >-
+      The list is produced fast, by everybody, so it belongs to nobody. That is what makes it possible
+      to examine it without anyone in the room having to defend it.
+    spec:
+      type: zones
+      cardStyle: text
+      flow: none
+      zones:
+        - label: "Men are..."
+          tone: neutral
+          cards: ["strong", "the one who earns", "does not cry", "decides"]
+        - label: "Women are..."
+          tone: neutral
+          cards: ["gentle", "looks after everyone", "cries easily", "asks first"]
+facilitationNotes: >-
+  The one thing to get right is that the group examines its own list rather than being told what is
+  wrong with it. Your questions do the work: is that fair, does that belong there, could it go in
+  both columns, is it true of everyone. If you supply the criticism, learners defend the list; if you
+  ask, they dismantle it themselves. Sensitivity: this activity can bring up real experiences of being
+  judged, restricted or humiliated, and in a group where gender roles are contested at home it can
+  create difficulty outside the room. Choose your categories deliberately, tell learners they may
+  pass, and close the session properly rather than at the moment of maximum discomfort.
+steps:
+  - title: "Ask what a stereotype is before defining it"
+    duration: 10 min
+    guidance: >-
+      Write the word up and ask the room. Take several answers, including partial ones, and write them
+      down without correcting them. Then give a plain definition: believing that everyone in a group is
+      the same because of the group they belong to. Putting the group's attempts up first means the
+      definition arrives as a sharpening of what they knew rather than as new information.
+    keyPrompts:
+      - "What is a stereotype? Say it however it comes out."
+      - "Is a stereotype always something bad?"
+    watchOuts:
+      - "Learners give the textbook answer and the room learns nothing about what it actually thinks. Ask for an example instead of a definition and the real understanding appears."
+      - "Nobody answers because the word is unfamiliar in the session language. Ask for the equivalent in their own languages first; it is usually a better question anyway."
+  - title: "Two columns, four minutes, no thinking"
+    duration: 10 min
+    guidance: >-
+      Two headings on the board and on each learner's page. Ask for words and phrases describing what
+      each group is like, and press for speed: the first thing that comes, not the considered answer.
+      Offer two or three examples yourself to start it moving, then stop offering as soon as the room
+      is producing. Speed is the mechanism here, so do not let it become thoughtful.
+    keyPrompts:
+      - "Fast. First thing that comes into your head, not the right answer."
+      - "What do people say about them? Not what you believe, what gets said."
+    watchOuts:
+      - "Learners write what they think they should write and the lists come out sanitised. Reframe it as what people say rather than what is true; the material appears immediately."
+      - "The room goes quiet because it senses a trap. Say plainly that these lists are going to be pulled apart in ten minutes and that nobody's name is attached to anything."
+  - title: "Build one list for the whole group"
+    duration: 10 min
+    guidance: >-
+      In small groups first, learners compare lists and add anything new, two minutes per column. Then
+      build the combined list on the board, taking contributions from everyone and writing them without
+      comment, expression or hesitation. Any editorialising at this stage tells the group which answers
+      are safe and the list stops being honest.
+    keyPrompts:
+      - "Anything on your sheet that is not yet on the board?"
+    watchOuts:
+      - "The facilitator winces at an item and the flow stops. Write everything at the same speed and in the same handwriting."
+      - "One group's list dominates. Go round each group in turn rather than taking hands."
+  - title: "Turn the group on its own list"
+    duration: 15 min
+    guidance: >-
+      Now ask the questions, and let the group do the work. Are you happy with these lists? Would you
+      change anything? Does anything sit under the wrong heading? Could anything go under both? Is it
+      fair to say all of them are like that? Take your time on the last one and let learners produce
+      the counter-examples themselves, including from the people in the room.
+    keyPrompts:
+      - "Is there anything up there that does not belong where it is?"
+      - "What could go in both columns?"
+      - "Is it fair to say that all of them are like that? Who here proves it is not?"
+    watchOuts:
+      - "A learner defends an item by naming a real case where it is true. Do not dispute the case. Ask what the word does to the next person it is used on before anyone has met them."
+      - "The discussion becomes an argument between two learners about gender. Take it back to the board: the question is about the words, not about who is right."
+      - "Someone is used as a living counter-example without having offered themselves. Never do this, and stop the group doing it."
+  - title: "Teach stereotype threat, then close on personal experience"
+    duration: 15 min
+    guidance: >-
+      Introduce stereotype threat briefly: being reminded of a negative expectation about a group you
+      belong to can make it harder to perform, whether or not you believe the expectation. Then close in
+      small groups on two questions about their own lives, which is where the session should end
+      because it returns the material to individual people rather than leaving it as a board full of
+      words.
+    keyPrompts:
+      - "Have you ever been wrong about somebody? What happened?"
+      - "Has somebody ever been wrong about you? What was that like?"
+    watchOuts:
+      - "Stereotype threat is overstated into a fixed law about how people perform. Say what it is and say that its size is debated; see the concept page."
+      - "The personal question is asked in the full group and nobody answers honestly. Keep it in threes and do not ask groups to report back."
+      - "The session ends on the raw material. Always close after this step, not before it."
+closing: >-
+  Bring the group back together and ask what stood out, not what they learned. Then do one deliberate
+  thing before anyone leaves: rub the lists off the board, in front of them, and say why. The words came
+  from outside this room, the group put them up in four minutes, and they can come down again. It is a
+  small gesture and groups remember it.
+learnerContent: |
+  In a minute you are going to write two lists, fast. Not carefully. The first words that arrive.
+
+  Then we are going to put everybody's lists together on the board, and then we are going to take
+  them apart.
+
+  Nobody's name goes next to anything. That is deliberate: the words on that board did not come from
+  you, they came from everywhere around you, and you have been hearing them since you could hear.
+
+  The questions afterwards are:
+
+  - Are you happy with these lists?
+  - Is anything under the wrong heading?
+  - Could anything go under **both**?
+  - Is it fair to say that **all** of them are like that?
+
+  Then two questions about you:
+
+  - Can you think of a time your idea of somebody turned out to be wrong?
+  - Can you think of a time somebody got you wrong? How did that feel?
+
+  You can pass on either. Nobody has to say why.
+
+  One thing worth knowing before we start. Being reminded of a bad expectation about a group you
+  belong to can make it harder to do well, even when you do not believe the expectation yourself. It
+  is called **stereotype threat**, and it means these words are not only unfair. They get in the way.
+agencyContribution:
+  indicators: [power-over-wellbeing-and-self-direction, contribution-to-community]
+  how: >-
+    Learners see a set of expectations about people like them assembled in four minutes out of things
+    that were in the air, and then see it dismantled. What that offers is separation: the words are
+    not a description of you, they are something that arrived from outside and can be examined. For
+    young people carrying labels about their gender, their status or where they come from, that
+    separation is the beginning of not being governed by them.
+principlesForegrounded: [builds-on-identities, safe-spaces, lifeworthy-competencies]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The material is entirely the learners' own: what they have heard said about the groups they
+      belong to, in their own words and their own languages, rather than examples imported from
+      somewhere else.
+  - principle: safe-spaces
+    how: >-
+      No item on the board is attributed to anybody, the personal questions are asked in threes and
+      never reported back, the right to pass is stated in advance, and the choice of categories is
+      treated as a safeguarding decision rather than a given.
+  - principle: lifeworthy-competencies
+    how: >-
+      Noticing an assumption arriving before the evidence does, and having a name for it, is a skill
+      that operates for the rest of a person's life, in hiring, in health care, in every room where
+      somebody is being sized up.
+competencyCodes: [AUS1, FUS1, FUS2]
+competencyDevelopment:
+  - code: AUS1
+    how: >-
+      This is the competency's core work: surfacing negative stereotypes, examining them against
+      evidence, and naming the mechanism by which they harm the people they are applied to. The board
+      is the evidence and the group produced it.
+  - code: FUS1
+    how: >-
+      Recalling a time their own impression of someone was wrong is direct self-awareness about their
+      own judgement, generated from a specific remembered case rather than in the abstract.
+  - code: FUS2
+    how: >-
+      Hearing what it was like to be got wrong, from people in the room, is a much more precise account
+      of the cost of stereotyping than any general statement of it.
+objectiveIds: [powerful-narratives--o1, living-peacefully--o2]
+relatedSlugs:
+  - ypar-stereotype-threat
+  - pn-stereotypes-concept-map
+  - pn-danger-of-a-single-story
+  - pn-dont-put-people-in-boxes
+  - ypar-four-corners
+  - pb-identity-charts
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plans, in the Understanding Oppression section. Free to download."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; the source plan credits Education World and Teacher Scholastic"
+  basis: >-
+    A two-column stereotype-listing exercise is a widely used method with no single traceable author.
+    Every word here is written from scratch, including all of the example words in the diagram; none of
+    the YPAR Hub's, Education World's or Scholastic's wording is reproduced.
+  note: >-
+    The source supplies its own list of typical responses. Do not copy it in; the point of the activity
+    is that the list comes from the room.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Understanding Oppression > Busting Stereotypes lesson plan"
+  - "Credited in that plan as adapted from Education World and Teacher Scholastic"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Busting Stereotypes", supplied to Amala in August 2026. The two-column
+  structure, the reflection questions and the stereotype-threat teaching point are the source's. The
+  guidance on choosing categories other than man and woman, the sensitivity handling, the answer to a
+  learner who defends an item with a real case, and the closing gesture of erasing the board are
+  Amala's. Stereotype threat is given its own page rather than delivered from a paragraph, because the
+  source's account of it states the effect more confidently than the evidence supports.

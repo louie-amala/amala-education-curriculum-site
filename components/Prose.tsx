@@ -3,10 +3,12 @@ import { GlossedText } from "@/components/GlossedText";
 import { findGlossaryMatches } from "@/lib/content";
 
 // Lightweight prose renderer for material content. Handles paragraphs, "## " headings,
-// "- " / "* " bullet lists, and inline markdown links [label](href) (internal href starting
-// with "/" becomes a Next Link; anything else opens in a new tab). With `gloss`, glossary terms
-// are marked on first mention, deduped across blocks (and continuing from `skip`).
-const LINK_RE = /\[([^\]]+)\]\(([^)]+)\)/g;
+// "- " / "* " bullet lists, inline markdown links [label](href) (internal href starting
+// with "/" becomes a Next Link; anything else opens in a new tab), and **bold**. With `gloss`,
+// glossary terms are marked on first mention, deduped across blocks (and continuing from `skip`).
+// One regex covers both inline forms so a link and a bold run cannot be split across passes:
+// groups 1-2 are a link's label and href, group 3 is bold text.
+const INLINE_RE = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*/g;
 
 export function Prose({
   text,
@@ -32,21 +34,29 @@ export function Prose({
     let last = 0;
     let i = 0;
     let m: RegExpExecArray | null;
-    LINK_RE.lastIndex = 0;
-    while ((m = LINK_RE.exec(s)) !== null) {
+    INLINE_RE.lastIndex = 0;
+    while ((m = INLINE_RE.exec(s)) !== null) {
       if (m.index > last) parts.push(glossSeg(s.slice(last, m.index), `${keyBase}-t${i++}`));
-      const [, label, href] = m;
-      parts.push(
-        href.startsWith("/") ? (
-          <Link key={`${keyBase}-l${i++}`} href={href} className="font-medium text-navy underline underline-offset-2 hover:no-underline">
-            {label}
-          </Link>
-        ) : (
-          <a key={`${keyBase}-l${i++}`} href={href} target="_blank" rel="noopener noreferrer" className="font-medium text-navy underline underline-offset-2 hover:no-underline">
-            {label}
-          </a>
-        ),
-      );
+      const [, label, href, bold] = m;
+      if (bold !== undefined) {
+        parts.push(
+          <strong key={`${keyBase}-b${i++}`} className="font-semibold text-dark-navy">
+            {glossSeg(bold, `${keyBase}-bt${i++}`)}
+          </strong>,
+        );
+      } else {
+        parts.push(
+          href.startsWith("/") ? (
+            <Link key={`${keyBase}-l${i++}`} href={href} className="font-medium text-navy underline underline-offset-2 hover:no-underline">
+              {label}
+            </Link>
+          ) : (
+            <a key={`${keyBase}-l${i++}`} href={href} target="_blank" rel="noopener noreferrer" className="font-medium text-navy underline underline-offset-2 hover:no-underline">
+              {label}
+            </a>
+          ),
+        );
+      }
       last = m.index + m[0].length;
     }
     if (last < s.length) parts.push(glossSeg(s.slice(last), `${keyBase}-t${i++}`));

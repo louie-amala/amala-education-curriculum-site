@@ -1,0 +1,46 @@
+id: stereotype-threat
+slug: stereotype-threat
+access: public
+term: Stereotype threat
+category: content
+matchPhrases:
+- stereotype threat
+definition: >-
+  The effect by which knowing that a negative expectation exists about a group you belong to can make
+  it harder to perform, even if you do not believe the expectation.
+explainer: |
+  Stereotype threat was demonstrated by Claude Steele and Joshua Aronson in 1995: describing a
+  difficult test as a measure of intellectual ability, rather than as a problem-solving exercise, was
+  associated with lower performance among students from a negatively stereotyped group. The proposed
+  mechanism is attentional. Some of the capacity that would go to the task goes instead to monitoring
+  how you are doing and what it will be taken to mean.
+
+  The feature that matters is that belief is not required. A person can reject a
+  [stereotype](/glossary/stereotype) entirely and still be affected by knowing that others hold it and
+  might apply it to them. This is what distinguishes stereotype threat from internalised
+  [prejudice](/glossary/prejudice), and it is why it changes the argument about stereotypes: they are
+  not only unfair, they are load-bearing, altering what people can do while they are being applied.
+
+  **Hold the size of the effect loosely.** The original finding is real and much replicated, but the
+  wider literature has been substantially reassessed. A 2015 meta-analysis of studies on girls and
+  mathematics found that publication bias may have seriously distorted the estimated effect size, and
+  several large pre-registered replications have found much smaller effects or none. Teach it as a
+  described experience with a name, not as a law, and never use it to explain away a group's results,
+  which inverts it into the very expectation it describes.
+furtherReading:
+- title: "Steele, C. M. & Aronson, J. — Stereotype threat and the intellectual test performance of African Americans (1995)"
+  url: https://psycnet.apa.org/record/1995-42876-001
+  source: Journal of Personality and Social Psychology 69(5), 797-811
+  note: The original experiments.
+- title: "Flore, P. C. & Wicherts, J. M. — Does stereotype threat influence performance of girls in stereotyped domains? A meta-analysis (2015)"
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0022440514000831
+  source: Journal of School Psychology 53(1), 25-44
+  note: Finds that publication bias may have seriously distorted the meta-analytic effect size. Read alongside the original.
+examples:
+- Being the only young person in a room of officials and finding it harder than usual to say what you came to say
+nonExamples:
+- Performing badly on a test because you did not prepare for it
+useInContext: >-
+  Learners are given the name after examining a list of expectations their own group produced, so the
+  concept explains something they have just seen happen.
+relatedTermIds: [stereotype, prejudice, bias, discrimination]
