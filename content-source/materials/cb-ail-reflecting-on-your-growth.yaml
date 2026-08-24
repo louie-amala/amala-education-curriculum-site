@@ -124,6 +124,126 @@ closing: |
   holding up the page. Draw out how much the room has changed since the start. Say aloud that this look back, and
   the next goal it produced, go back into the workbook: growth is a cycle they now know how to run themselves.
   Independent task: before the next session, make one mark in your workbook about the next step you have chosen.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  This is where the whole component pays off, and it is the block most often rushed because it falls at
+  the end when time is short. Protect it. A learner who did the work and cannot see that they did the
+  work has not finished the course.
+
+  ### Reflection must run on evidence, not on feeling
+
+  Left to a feeling, learners in this cohort will under-report almost every time. Asked "have you
+  grown?", many will say not much — because the goal is not fully reached, or because a hard week is
+  freshest in the mind.
+
+  So the mechanism is physical: turn back through the book, from page one, in order. The pages do the
+  arguing. A learner looking at their own first drawing next to their tenth is confronted with evidence
+  they cannot easily talk themselves out of.
+
+  Do not let anyone reflect without the book open.
+
+  ### The three questions that produce real answers
+
+  Not "what did you learn?" — that gets a shrug or a platitude. Ask:
+
+  1. **What can you do now that you could not do at the start?** Specific, and pointable-to.
+  2. **What was hard, and what did you do about it?** This is the one that shows the competency, and
+     it is the one you most want on record. The "what did you do about it" half is where a Practitioner
+     shows themselves.
+  3. **What do you still want to get better at?** This becomes the next goal, and it is the honest
+     answer to a goal not fully reached.
+
+  ### A goal not reached is not a failure — say it out loud
+
+  Many learners will not have reached their goal. Say plainly, to the group, before anyone shares:
+  reaching the goal was never the test. Setting one, taking real steps, and adapting when a step did
+  not work is what this course was about, and it is what is being assessed.
+
+  A learner who thinks they failed will under-report everything else too, and you will lose the
+  evidence.
+
+  ### Watch for the two reporting errors
+
+  - **The learner who says nothing changed.** Turn the pages for them and ask about a specific one.
+    "You could not do this in week two. Can you now?"
+  - **The learner who says everything changed.** Ask for the evidence, kindly. "Show me the page."
+
+  ### This is assessment evidence — take it down as they speak
+
+  What learners say here, in their own words, is among your strongest FSL2 evidence, especially the
+  rationale. Write it down the same day. Do not rely on recall in Week 12.
+
+  ## Before they leave this block
+
+  - Every learner has turned back through their own book from the first page.
+  - Each can name one specific thing they can do now that they could not do at the start, and point to
+    the page.
+  - Each has said what was hard AND what they did about it.
+  - Each has one thing they still want to get better at — the seed of the next goal.
+  - You have their words written down.
+learnerTeaching:
+  title: "How to see how far you have come"
+  readAloud: |
+    ## How to see how far you have come
+
+    You have been working for weeks. Now we look back — and this is not a small thing at the end. It is
+    one of the most useful things you will do.
+
+    ### Why we bother looking back
+
+    Because if you cannot see that you changed, you will not believe you can change again. And then the
+    next goal will feel pointless.
+
+    ### Do not trust your feeling. Look at your book.
+
+    If you just ask yourself "have I grown?", you will probably say not much. Everybody does. The hard
+    week is the one you remember, and the goal you did not fully reach is the one on your mind.
+
+    So do not ask your feeling. **Open your book at page one and turn through it, in order, slowly.**
+
+    Look at your first drawing. Look at what you wrote or marked in the second week. Look at what you
+    did last week.
+
+    The pages will tell you the truth better than your feeling will.
+
+    ### Three questions to answer
+
+    Answer these out loud, or by drawing. Point at the page each time.
+
+    1. **What can I do now that I could not do at the start?**
+    2. **What was hard — and what did I DO about it?**
+    3. **What do I still want to get better at?**
+
+    The second one matters most. Anyone can have an easy week. What shows you have really learned
+    something is what you did when it went wrong — when the step did not work, and you found a smaller
+    one, or a different one, and kept going.
+
+    ### If you did not reach your goal
+
+    Read this carefully.
+
+    **Reaching the goal was never the test.**
+
+    What this course was about is: did you set a goal of your own, did you take real steps, and did you
+    change your plan when something did not work. If you did those, you did this course — whether or not
+    you got all the way there.
+
+    A goal not reached is not a failure. It is usually just a goal that was slightly too big, which is
+    something you now know how to fix.
+
+    ### And the last question
+
+    What do you want to work on next?
+
+    You have the method now. It is yours, and you can use it on anything, for the rest of your life,
+    without asking anyone's permission.
+  words:
+    - term: reflect
+      meaning: to look back at what you did, and work out what changed
+    - term: evidence
+      meaning: the real marks in your book that show what you did
 worksheet:
   slug: cb-ail-how-i-have-grown-page
   note: "In the learner's book (My Learning Book): the 'How I have grown' page. Print one per learner."

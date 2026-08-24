@@ -114,6 +114,56 @@ closing: |
   build on: goals go in it, small marks are made in it each time, and growth is looked back on from it. A kept
   book is how a learner watches their own learning move. Independent task: before the next session, make one
   small mark or drawing in your book about something you learned or did.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The My Learning Book is the spine of the component: every later activity draws or marks into it, it
+  is the catch-up mechanism after a missed session, and it is the evidence the FSL2 judgement is built
+  from. This block exists to make using it habitual rather than a chore.
+
+  ### Make it theirs in the first five minutes
+
+  Name on the front, or their own mark if they would rather. A drawing on the cover. Whatever makes it
+  recognisably one person's book rather than a handout. Learners look after a thing that is theirs and
+  lose a thing that was given out.
+
+  ### An entry is a mark, not a paragraph
+
+  Most learners do not read or write fluently. Say clearly, once, and then never again in a way that
+  singles anyone out: a drawing is a full entry, a single mark is a full entry, and someone else can
+  write your words down for you if you ask. Nobody marks these pages and nobody reads them aloud.
+
+  Do one live, together, in the session. The first mark is the hardest and it should not happen alone.
+
+  ### Fix WHEN it gets used, or it will not
+
+  A book used when someone remembers is a book that stops being used by week four. Agree one moment
+  that repeats — the last five minutes of every session, before anyone leaves. Then hold it, every time,
+  including the sessions that overrun. The habit is worth more than the extra five minutes of activity.
+
+  ### Solve where it lives, practically
+
+  Ask the question out loud: where will your book be between sessions? Some learners cannot reliably
+  keep one dry or private at home. Offer the alternative before anyone has to ask for it — books kept
+  at the learning space, in one box, brought out each session. Do not make a learner explain why.
+
+  A lost book is a real problem, not an administrative one: it is the learner's assessment evidence.
+
+  ### It is not a diary
+
+  Be clear with yourself about this, because learners will take a cue from you. It is a working book
+  for their goal and their steps, not a place to write private things. Their book goes home with them,
+  so nothing sensitive should be in it — that is why the mentoring page holds only the step they chose.
+
+  ## Before they leave this block
+
+  - Every learner has their name or mark on their book, and has made one mark inside it.
+  - The group has agreed the one moment each session when books come out.
+  - Every learner knows where their book will live between sessions, and nobody has had to ask for the
+    kept-at-the-centre option in front of others.
+learnerTeachingNotNeeded: >-
+  Procedural: how to use and look after the book. The book's own front matter already tells the learner it is theirs, that a drawing is a full answer, and that nobody marks it. A separate Learn it page would be padding.
 worksheet:
   slug: cb-ail-learning-book-cover
   note: "In the learner's book (My Learning Book): the 'My Learning Book — the cover' page. Print one per learner."

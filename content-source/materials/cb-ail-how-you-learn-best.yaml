@@ -132,6 +132,103 @@ closing: |
   way. This picture lives in the workbook next to their strengths: it is the honest self-portrait the
   goals and plans they set next will be built to fit. Independent task: over the next two days, notice
   when and where you focus best, and mark it on your workbook picture-clock.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  Every plan a learner makes later assumes something about how they work. If that assumption is wrong,
+  the plan fails quietly and the learner blames themselves. This block makes the assumption explicit.
+
+  ### It is about conditions, not "learning styles"
+
+  Be clear in your own mind: this is not about visual, auditory or kinaesthetic learners — that idea
+  does not hold up, and teaching to a supposed style does not help anyone.
+
+  What this block is actually about is **conditions**: when in the day a learner can concentrate, where
+  they can be, how noisy it is, who is around, whether they are hungry or tired, and whether they learn
+  better by watching, doing, or being told. Those are real, they differ between people, and a learner
+  can plan around them.
+
+  ### The honest answer is the useful one
+
+  Learners will give you the answer that sounds studious: early morning, quiet, alone with a book. For
+  many, none of that is available or true.
+
+  So ask about what actually happened, not what should: when did you last concentrate well on
+  something? Where were you? Who was there? The answer is often surprising — while walking, while
+  cooking, with a younger sibling nearby, late at night, in a crowd.
+
+  Model it with your own honest answer first, including a slightly unimpressive one.
+
+  ### Careful: this can surface a difficult home
+
+  Asking where a learner can concentrate can surface an overcrowded shelter, unsafe routes, night work,
+  or a household that does not support their learning. Keep the conversation on conditions, not on the
+  family, and never ask a follow-up in front of the group. See the safeguarding guidance.
+
+  ### It has to become a decision
+
+  A block that ends with self-knowledge and no action was a nice conversation. End with each learner
+  naming one condition they will actually use when they plan their slot — that is the handover into the
+  time block.
+
+  ## Before they leave this block
+
+  - Each learner has named when and where they concentrate best, from a real memory rather than an ideal.
+  - Each has named one thing that helps and one that gets in the way.
+  - Each has one condition written or drawn that they will use when they choose their slot.
+learnerTeaching:
+  title: "How to notice how you learn best"
+  readAloud: |
+    ## How to notice how you learn best
+
+    Later in this course you will make a plan. That plan will only work if it fits how you actually
+    learn — so first you need to know how you actually learn.
+
+    ### Do not answer what SOUNDS right
+
+    Most people, asked this, say something like "early in the morning, somewhere quiet, on my own".
+
+    Is that true for you? For a lot of people it is not, and there is no quiet place anyway. If you
+    plan around an answer that is not true, the plan will fail in the first week and you will think it
+    was your fault.
+
+    ### Ask about a real time instead
+
+    Think of the last time you concentrated well on something. Anything.
+
+    - **When** was it? Morning, afternoon, night?
+    - **Where** were you?
+    - **Who** was around? Anyone? Nobody?
+    - **What were you doing** with your body — sitting, walking, cooking, carrying?
+
+    People's honest answers are often surprising. Some people think best while walking. Some while
+    doing something with their hands. Some late at night when the shelter is finally quiet. Some with a
+    younger child beside them. All of those are real.
+
+    ### Three more things worth knowing about yourself
+
+    **How do you take a new thing in best?** By watching someone do it, by trying it yourself, or by
+    being told? Most people have one they prefer.
+
+    **What helps you?** Someone to do it with. Saying it out loud. Drawing it. Repeating it many times.
+
+    **What gets in the way?** Noise. Being hungry. Being tired. Being worried. Being watched.
+
+    ### Then use it
+
+    This is not just interesting to know. Next time you plan, use it:
+
+    - Put your learning at the time of day you named.
+    - Put it where you said you concentrate.
+    - Do it the way you take things in best.
+
+    A plan that fits you is a plan that survives.
+  words:
+    - term: conditions
+      meaning: the when, where and who that make learning easier or harder for you
+    - term: concentrate
+      meaning: to keep your attention on one thing
 worksheet:
   slug: cb-ail-how-i-learn-page
   note: "In the learner's book (My Learning Book): the 'How I learn best' page. Print one per learner."

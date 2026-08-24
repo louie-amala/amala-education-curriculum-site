@@ -827,9 +827,9 @@ export function validateGraph(): ValidationReport {
           // Rule: an offline component's workbook must teach the method, not only capture the answer.
           // Every activity in a unit plan carries `learnerTeaching` (the "Learn it" page of the spread)
           // and `educatorContent` (the facilitator's subject brief for the block).
-          if (bm && bm.type === "activity" && !bm.learnerTeaching) {
+          if (bm && bm.type === "activity" && !bm.learnerTeaching && !bm.learnerTeachingNotNeeded) {
             warnings.push(
-              `Unit "${u.slug}" activity "${b.materialSlug}" has no learnerTeaching ("Learn it" page).`,
+              `Unit "${u.slug}" activity "${b.materialSlug}" has no learnerTeaching ("Learn it" page) and no learnerTeachingNotNeeded reason.`,
             );
           }
           if (bm && bm.type === "activity" && !bm.educatorContent) {

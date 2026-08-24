@@ -328,6 +328,7 @@ function workbookChildren(opts = {}) {
   // The page used to be a ladder to tick and nothing else — half a sheet of white space, and no
   // reason given anywhere in the book for why setting goals is worth a learner's time. Offline, if it
   // is not on this page it is nowhere.
+  learnIt('cb-ail-getting-better-at-goals');
   page('Getting started', 'Getting better at goals', 'Why goals, and where am I now?', 'Setting a goal is a skill. Like any skill, you can be a beginner at it and get better.', 'cb-ail-why-goals-page');
   c.push(S.noteBox('Why this matters', [
     'Much of life in the camp is decided by other people. A goal you set yourself is a piece of it that is yours.',
@@ -387,6 +388,7 @@ function workbookChildren(opts = {}) {
   c.push(...slot('What makes me say that — a time it happened…', 3));
   endPage();
 
+  learnIt('cb-ail-how-you-learn-best');
   page('Understand yourself', 'How I learn best', 'How I learn best', 'Mark when you learn best, and who and what helps you.', 'cb-ail-how-i-learn-page');
   c.push(new Table({
     width: { size: 100, type: WidthType.PERCENTAGE },
@@ -417,6 +419,7 @@ function workbookChildren(opts = {}) {
   c.push(P('If a test does not pass, change your goal a little until it does.', { size: 20, color: GREY, before: 160 }));
   endPage();
 
+  learnIt('cb-ail-setting-your-goals');
   page('Set your goal', 'My goal', 'My goal', 'Draw the thing you want to be able to do.', 'cb-ail-my-goal-page');
   c.push(example(['I want to be able to read a short story out loud.', 'It matters because I want to read to my little sister.']));
   c.push(box(4600, 'Draw or write your goal here'));
@@ -457,6 +460,7 @@ function workbookChildren(opts = {}) {
   c.push(...fillLine('If my week gets hard, the smaller thing I will still do:'));
   endPage();
 
+  learnIt('cb-ail-finding-help-and-resources');
   page('Plan and take steps', 'Who and what can help me', 'Who and what can help me', 'Draw the people and things that can help you reach your goal. Asking for help is not weakness — no one reaches a goal alone.', 'cb-ail-who-can-help-page');
   c.push(box(5000, 'Draw or write it here'));
   c.push(...fillLine('The person I will ask:'));
@@ -482,6 +486,7 @@ function workbookChildren(opts = {}) {
   c.push(...fillLine('The one thing I will try:'));
   endPage();
 
+  learnIt('cb-ail-reflecting-on-your-growth');
   page('Track and reflect', 'How I have grown', 'How I have grown', 'Look back through your book. Draw yourself before, and now, then say how far you came.', 'cb-ail-how-i-have-grown-page');
   c.push(P('Before', { size: 22, bold: true, color: PLUM, before: 80 }));
   c.push(box(2800, 'Draw or write it here'));

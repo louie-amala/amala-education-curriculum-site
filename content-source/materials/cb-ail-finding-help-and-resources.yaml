@@ -159,6 +159,118 @@ closing: |
   asking for help is a skill they will use for every goal ahead, not just this one, and that the map
   lives in their workbook to add to as they go. Independent task: make your one request, then mark in
   the workbook what happened and how it felt to ask.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  Learners stall on goals because they treat them as things to be reached alone. The shift this block
+  makes is from *what do I know* to *who and what could help me* — and then the harder part, actually
+  asking.
+
+  ### Reframe asking as a strategy, not a confession
+
+  Many learners read asking for help as admitting they cannot do it. Say the opposite plainly and early:
+  the researcher, the good student and the successful adult all ask constantly. Not asking is the
+  weakness.
+
+  It is worth naming why this bites here. A young person who has had to be self-sufficient — running a
+  household, translating, earning — has learned that asking is risky or shameful. That is a rational
+  adaptation, and it works against them in learning.
+
+  ### Widen "resources" beyond people
+
+  Learners will list people and stop. Push wider: a place (somewhere quiet, somewhere with light), a
+  thing (a book, a pencil, a radio, someone's phone), a time, and other learners in the group — who are
+  the most under-used resource in the room.
+
+  ### Sort by what is within reach
+
+  A map with the head of an agency on it is not useful. Sort the map: who could I actually speak to,
+  this week, without anyone's permission? That column is the one that matters, and it is usually
+  shorter and closer to home than learners expect — a sibling, a neighbour, the learner sitting beside
+  them, their mentor.
+
+  ### Practise the ask out loud, because that is what actually stops them
+
+  Knowing who to ask and not asking is the commonest failure. So rehearse the sentence: **what you
+  want, why you are asking them, and how small it is.** "Can you show me how to write these three
+  letters? It would take a few minutes." Small asks get said and get answered.
+
+  Have them practise on each other until it sounds normal, then commit to one real ask before the next
+  session.
+
+  ### The empty map
+
+  Some learners' maps will be nearly empty, and that is a real thing rather than a failure of
+  imagination — someone who would have helped is not here. Have entries ready to offer: you, their
+  mentor, another learner. Do it privately.
+
+  ## Before they leave this block
+
+  - A map with people AND things AND places on it.
+  - It has been sorted, and the learner can point to who is genuinely within reach this week.
+  - The ask has been said out loud, in practice, at least twice.
+  - One real ask committed to, with a name attached.
+learnerTeaching:
+  title: "How to find help, and how to ask for it"
+  readAloud: |
+    ## How to find help, and how to ask for it
+
+    Nobody reaches a goal alone. Not researchers, not teachers, not anyone.
+
+    So the question is not "can I do this by myself?" The question is **who and what could help me?**
+
+    ### Asking is not weakness — it is the skill
+
+    Some of us have learned to manage on our own, because we had to. That is something to be proud of.
+    But in learning it works against you.
+
+    People who learn fast are people who ask a lot. Not asking is what slows you down.
+
+    ### Help is not only people
+
+    Learners always list people and stop. Think wider:
+
+    - **A person** — someone who can already do the thing.
+    - **A place** — somewhere quiet, somewhere with light.
+    - **A thing** — a book, a pencil, a radio, a paper with words on it.
+    - **A time** — a moment when someone is free to show you.
+    - **The people in this room** — the most forgotten help of all. Someone here can already do the
+      thing you are trying to do.
+
+    ### Then sort it: who can I actually reach?
+
+    A long list is not useful if none of it is reachable.
+
+    Ask: **who could I actually speak to this week, without needing anyone's permission?**
+
+    That list is usually shorter and closer to home than you expect — a brother or sister, a neighbour,
+    the person sitting next to you, your mentor. Those are the ones that matter.
+
+    ### Now the hard part — the ask itself
+
+    Most people find who to ask and then never ask. So practise the words.
+
+    A good ask has three parts:
+
+    1. **What you want** — one small thing.
+    2. **Why them** — because they can already do it.
+    3. **How small it is** — so it is easy to say yes.
+
+    "Can you show me how to write these three letters? It would only take a few minutes."
+
+    ### Keep it small
+
+    Small asks get said, and small asks get answered. A big ask sits in your mouth for three weeks.
+
+    Ask for one thing. Then ask again another day.
+  words:
+    - term: resource
+      meaning: anything that could help you — a person, a place, a thing, or time
+    - term: within reach
+      meaning: something or someone you could actually get to this week
+    - term: the ask
+      meaning: the words you use when you ask someone for help
 worksheet:
   slug: cb-ail-who-can-help-page
   note: "In the learner's book (My Learning Book): the 'Who and what can help me' page. Print one per learner."

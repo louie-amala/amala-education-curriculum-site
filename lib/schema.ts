@@ -610,6 +610,11 @@ export const FacilitationMaterialSchema = z.object({
   // The method taught to the learner before they do it (see LearnerTeachingSchema). On an
   // activity in a unit-planned component this becomes the "Learn it" page of the workbook spread.
   learnerTeaching: LearnerTeachingSchema.nullable().optional(),
+  // A deliberate opt-out from `learnerTeaching`, carrying the REASON. Some activities are procedural
+  // rather than methodical — setting up a book, an orientation — and a "Learn it" page there is padding
+  // that costs paper in a programme where paper is scarce. Set this instead, so the missing page reads
+  // as a decision rather than a gap, and validateGraph() stops asking for it.
+  learnerTeachingNotNeeded: z.string().nullable().optional(),
   agencyContribution: AgencyContributionSchema,
   // Legacy flat lists (still valid). Preferred are the explained forms below, which say HOW this
   // specific material connects to each principle and competency.

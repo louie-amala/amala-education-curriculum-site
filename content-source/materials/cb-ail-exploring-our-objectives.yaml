@@ -141,6 +141,55 @@ closing: |
   course is going and why it is theirs. Answer any last questions, and reassure them that everyone
   starts from a different place and that is fine. Independent task: tell one person at home the one of
   the four things you most want to get better at, and why.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  This is the map of the whole course, and your first real chance to hear what learners already have.
+  It is a listening block disguised as an introduction.
+
+  ### Talk less in the second half
+
+  The first half is you laying out the four things the course will do. The second half is learners
+  saying how they would go about each one — and that is the part that matters. How a learner describes
+  approaching a goal tells you, in about a minute, whether they have ever done it before, and therefore
+  how much you will need to lead each later phase.
+
+  Take notes. This is your only cheap diagnostic.
+
+  ### Say what the course is FOR, not just what is in it
+
+  Learners have mostly experienced education as something done to them. Say the opposite out loud, in
+  your own words and in the language you share: here, a lot is decided by other people, but what you
+  learn is something you can choose, and this course is about taking hold of that.
+
+  That sentence is the reason the component exists. If a learner leaves this session having only heard a
+  list of four topics, the framing has been lost.
+
+  ### The four things, in plain terms
+
+  Understand yourself as a learner · set a goal that matters to you · plan and take real steps · notice
+  and use how you grow. Say them as things they will DO, not as objectives.
+
+  ### Expect low expectations, and do not argue with them
+
+  Some learners will say they are not good at learning, or that this is not for people like them. Do not
+  contradict it — you have no evidence yet and neither do they. Note who said it, and let the growth
+  block and their own goal do the work.
+
+  ### The learner pages for this are already in the book
+
+  The front of the My Learning Book already carries "this book is yours", "what is in this book" and the
+  four learning steps, with a page for why each one matters to the learner. Use those pages rather than
+  adding anything — the book should not repeat itself.
+
+  ## Before they leave this block
+
+  - Every learner can name, in their own words, at least two of the four things the course will do.
+  - You have heard every learner say something about how they would approach one of them.
+  - You have a rough sense of which learners have set and pursued a goal before, and which have not.
+learnerTeachingNotNeeded: >-
+  Orientation, not a method. The learner pages for it are already at the front of the My Learning Book — "this book is yours", "what is in this book", and the four learning steps with a page for why each matters. A Learn it page here would repeat the book's own front matter.
 worksheet:
   slug: cb-ail-our-four-steps-page
   note: "In the learner's book (My Learning Book): the 'Our four learning steps, and why they matter to me' page. Print one per learner."

@@ -110,6 +110,90 @@ closing: |
   end of the course to see how far each learner has moved. Remind them there is no failing here: the
   only thing that matters is taking your next step. Revisit: in the final phase, learners look at the
   path again, mark where they are now, and celebrate the movement.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  This is a map, not a test, and everything depends on learners believing that. It is run twice — here
+  at the start and again in the final phase — and the whole value is in the distance between the two
+  marks.
+
+  ### Why show learners the ladder at all
+
+  Because a learner who cannot see what getting better looks like has no way to notice that they have.
+  In this cohort that matters more than usual: schooling has been interrupted so often that many
+  learners have no experience of tracking their own progress at all, and will attribute any improvement
+  to luck or to a kind facilitator.
+
+  ### It is the same ladder you assess against
+
+  The five steps are the learner-facing reading of Amala's proficiency scale for FSL2, in the first
+  person and with the level names removed. Do not show learners the level names, the GPA values, or
+  where the readiness bar sits. They are for your record, not theirs — a learner who knows which rung
+  counts will mark that one.
+
+  ### Nobody starts high, and say so first
+
+  Mark it yourself, out loud, honestly, before you ask anyone else to. A learner low on the path is at
+  the beginning, which is exactly where a course like this expects them to be.
+
+  Watch for the learner who marks themselves at the top on day one. That is usually not arrogance — it
+  is either not understanding the ladder, or not trusting you enough to be honest. Either way, do not
+  correct them. Note it, and let the final marking do the work.
+
+  ### The mark is not evidence, the movement is
+
+  A self-mark is not your judgement and should not feed it directly. What is useful is the GAP between
+  their mark and yours at Week 6 — that gap is the conversation to have, and it usually shows you
+  evidence you have not gathered.
+
+  ## Before they leave this block
+
+  - Every learner has marked one rung, honestly, in their own book.
+  - They know it is not a test, and they know they will mark it again at the end.
+  - They can say in their own words what the next rung up would look like for them.
+learnerTeaching:
+  title: "What getting better at this actually looks like"
+  readAloud: |
+    ## What getting better at this looks like
+
+    This whole course is about one skill: **setting a goal for yourself and going after it.**
+
+    Like any skill, you can be a beginner at it and get better. So before we start, it helps to see
+    what getting better actually looks like — otherwise you would not notice it happening.
+
+    ### The path
+
+    Here is the path people take. Read it from the bottom.
+
+    1. **I am not sure how to set a goal for myself, or what to do about it.**
+    2. **I can say what goal I would set, and what steps I would take — but I have not done it yet.**
+    3. **I set a goal of my own, and I took real steps towards it. I can say why I chose it.**
+    4. **I reached a goal I set. I can say what helped, what did not, and what I would do differently.**
+    5. **I have reached more than one goal, and I did the second one better because of the first.**
+
+    ### Mark where you are now
+
+    Mark the one that is most like you **today**. Not where you want to be. Today.
+
+    Almost everybody is near the bottom at the start. That is not a bad thing — it is what the
+    beginning of a course looks like. If you were already at the top, there would be nothing here for
+    you.
+
+    This is not a test. Nobody is marking it. Nobody will see it but you and your facilitator.
+
+    ### You will mark it again
+
+    At the end of the course you will come back to this page and mark it again, with a different mark
+    so you can see both.
+
+    That is the point of doing it now. Two marks show you the distance you moved — and that distance is
+    yours, and nobody can take it off you.
+  words:
+    - term: skill
+      meaning: something you can get better at by practising
+    - term: path
+      meaning: the steps people go through as they get better at something
 worksheet:
   slug: cb-ail-why-goals-page
   note: "In the learner's book (My Learning Book): the 'Why goals, and where am I now?' page. Print one per learner."

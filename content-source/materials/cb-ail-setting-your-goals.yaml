@@ -104,6 +104,105 @@ closing: |
   Ask two or three learners to say their goal aloud. Confirm the goal lives in the workbook and is not
   fixed forever: it will be revisited and adjusted. A goal on the page is the start of directing your
   own learning. Independent task: tell one person at home your learning goal, and why it matters to you.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  Learners already know the four tests. This block is where they actually choose — and the choice has
+  to be theirs, or the next eight weeks are performance.
+
+  ### The goal must come from the profile they built
+
+  Point them back at their own pages: strengths, areas to grow, how they learn. A goal invented on the
+  spot, unconnected to any of that, is usually a goal they think you want.
+
+  ### The tell that a goal is not theirs
+
+  It sounds excellent and they cannot say why. Ask "what would be different for you if you did this?"
+  and listen for something concrete — a thing they could do, a person they could speak to, a place they
+  could go. If the answer comes back in the same borrowed words, it is not theirs yet. Say so warmly
+  and let them choose again. Do not accept a well-behaved goal.
+
+  ### Do not fix their goal for them
+
+  You will see goals you would have set differently. Unless a goal fails a test or is outside the
+  learner's control, leave it. A slightly worse goal that belongs to the learner beats a better one
+  that belongs to you — the whole component is about who is deciding.
+
+  Where a goal is genuinely too big or depends on someone else's decision, do not correct it: ask what
+  the first piece of it would be that is theirs to take, and let that be the goal.
+
+  ### Draw it, do not write it
+
+  Learners draw the thing they want to be able to do — themselves doing it. This is not a concession to
+  low literacy; a picture of yourself doing the thing is more motivating than a sentence about it, and
+  it is what they will turn back to when a week goes badly.
+
+  ### Say it aloud to a partner
+
+  A goal said to another person is much more likely to be pursued, and saying it aloud is where a vague
+  goal becomes specific — the partner's blank face does the work you would otherwise have to do.
+
+  ## Before they leave this block
+
+  - One goal per learner, drawn, that passes the four tests.
+  - Each learner can say why it matters TO THEM, in their own words, without hesitating.
+  - The goal is within their control, and connected to something on their profile.
+  - It has been said out loud to a partner.
+learnerTeaching:
+  title: "How to choose a goal that is really yours"
+  readAloud: |
+    ## How to choose a goal that is really yours
+
+    Now you choose. This is the important moment in the whole course, so take your time over it.
+
+    ### Start from your own pages, not from nothing
+
+    Turn back through your book. Look at:
+
+    - What you are good at.
+    - What you said you want to get better at.
+    - How you learn best.
+
+    Your goal should come from there. A goal that has nothing to do with any of it is usually not
+    really yours.
+
+    ### The test: can you say why it matters to YOU?
+
+    This is the one that decides everything.
+
+    Ask yourself: **what would actually be different for me if I could do this?**
+
+    If you can answer with something real — something you could do, someone you could talk to,
+    somewhere you could go — then it is your goal. Good.
+
+    If the answer is vague, or if it sounds like something a teacher would like to hear, choose again.
+    That is not a failure. It is much better to find out now than in six weeks.
+
+    **Nobody is marking your goal.** It does not have to be impressive. It has to be yours.
+
+    ### Choose something YOU can decide
+
+    Remember: some things are decided by other people. Make your goal the part that is in your hands.
+
+    ### Draw it
+
+    Draw **yourself doing the thing**. Not the words — you doing it.
+
+    This matters more than it sounds. On a week when everything goes wrong, you will turn back to this
+    page. A picture of yourself doing it pulls harder than a sentence about it.
+
+    ### Say it out loud to a partner
+
+    Tell someone your goal, out loud.
+
+    Two things happen. It becomes more real. And if their face goes blank, your goal was not clear
+    enough yet — so say it again, better. That is useful, not embarrassing.
+  words:
+    - term: my goal
+      meaning: the thing YOU chose that you want to be able to do
+    - term: matters to me
+      meaning: something would really be different for you if you did it
 worksheet:
   slug: cb-ail-my-goal-page
   note: "In the learner's book (My Learning Book): the 'My goal' page. Print one per learner."
