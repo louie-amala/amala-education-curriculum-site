@@ -129,6 +129,132 @@ learnerContent: |
   side: "what we still need to find out". Both sides help us. And our wall keeps growing as we learn more.
 
   You do not have to speak about your own life if you would rather not. Marks and drawings count.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  Two things happen here, and the second is the one that matters. Learners pool what they already know
+  — and then they learn to separate what they KNOW from what they only THINK.
+
+  ### Their own knowledge is data, not warm-up
+
+  Say this and mean it. These learners have watched these hills. Their memory of trees, of the mud when
+  it rains, of the heat, is primary evidence about a real place over real time — the kind a visiting
+  researcher would have to work hard to get.
+
+  Treat it as the investigation's starting evidence, not as chatter to get through before the real work.
+  A cohort that learns its own knowledge counts will gather far better later.
+
+  ### Then the move: know it, or only think it?
+
+  This is the intellectual content of the block. Take what has been pooled and sort it into two:
+
+  - **We know it** — someone saw it, or many people say the same thing.
+  - **We think it** — we have heard it, or it seems obvious, or everyone says so.
+
+  "Everyone knows" is the phrase to listen for. It almost always marks a "we think it".
+
+  The point is not to embarrass anyone. Nothing moves to "we think it" because it is wrong — it moves
+  because we have not checked it yet. Say that out loud. The "we think it" column is where the research
+  questions come from; it is the useful column, not the shameful one.
+
+  ### Do it on the wall, and keep it up all course
+
+  Two columns, in marks and drawings, that stay up for the whole component and get added to. When
+  something moves from "we think it" to "we know it" because the cohort found evidence, move the card
+  physically and say what happened. That moment is the whole method in miniature, and it is worth
+  stopping the session for.
+
+  ### Never single anyone out
+
+  Sort the ideas, not the people. Once a claim is on the wall it belongs to the group, and whoever
+  offered it should be able to see it moved without it being about them. Do not say "that was
+  Rashid's". If a learner argues for something being "known", do not overrule — ask what would show us,
+  and put that on the find-out side.
+
+  ## Before they leave this block
+
+  - A two-column wall in marks and drawings, with real content in both.
+  - At least one thing has moved from "we know" to "we think" without anyone being embarrassed.
+  - Learners can say why "everyone knows" is not the same as knowing.
+  - The find-out column has something in it that the cohort actually wants to find out.
+learnerTeaching:
+  title: "How to tell what we KNOW from what we only THINK"
+  readAloud: |
+    ## What we know, and what we only think
+
+    We are not starting from nothing. We live here. We have watched these hills. That counts, and it is
+    where our research starts.
+
+    But a researcher has to be careful about one thing: **not everything we believe is something we
+    know.**
+
+    ### Two piles
+
+    Everything we say about our hills goes into one of two piles.
+
+    **WE KNOW IT** — somebody saw it, or many people say the same thing.
+
+    - "There were trees on that slope. My grandmother saw them."
+    - "The path floods every monsoon. We all walk through it."
+
+    **WE ONLY THINK IT** — we heard it, or it seems obvious, or everyone says so.
+
+    - "The hills will all come down next year."
+    - "Nobody cares about the trees."
+    - "Everyone knows the planting does not work."
+
+    ### Watch out for "everyone knows"
+
+    When you hear yourself say "everyone knows", stop.
+
+    That phrase almost always means nobody checked. It is one of the easiest ways to be wrong while
+    feeling certain.
+
+    ### Being in the THINK pile is not being wrong
+
+    This is important, so read it twice.
+
+    Something goes in the THINK pile because **we have not checked it yet** — not because it is false.
+    Plenty of things in that pile will turn out to be true.
+
+    In fact the THINK pile is the better one. It is where our questions come from. If everything we
+    said was already known, there would be nothing to find out and no reason to do this.
+
+    ### The best moment in the whole course
+
+    Sometimes, weeks from now, we will find real evidence for something in the THINK pile — and we will
+    move it across to KNOW.
+
+    That is exactly what research is. Watch for it.
+
+    ### Ask yourself, every time
+
+    **How do I know that? Did I see it, or did I hear it?**
+  words:
+    - term: know
+      meaning: something we saw, or that many people say the same way
+    - term: assume
+      meaning: to believe something without having checked it
+    - term: check
+      meaning: to go and find out whether something is really true
+  tryIt:
+    intro: >-
+      Does each one go in "we KNOW it" or "we only THINK it"? Circle your answer, then check at the back
+      of the book.
+    chooseFrom: ["we know it", "we only think it"]
+    items:
+      - "The path by the water point floods every monsoon. We walk through it every year."
+      - "Everyone knows the tree planting is a waste of money."
+      - "My grandmother says there were big trees on that slope when she was young."
+      - "The whole hill is going to come down next year."
+    answers:
+      - "We know it. Many of us have seen it, again and again. That is about as strong as evidence gets."
+      - "We only think it. \"Everyone knows\" is the warning sign. Has anyone checked? That is a good thing to find out."
+      - "We know it — she saw it herself. One person's memory is not proof of everything, but a person who was there is real evidence."
+      - "We only think it. Nobody can see the future. Worth asking about; not something we know."
+    then: >-
+      Now add two of your own to our wall — one for each pile. Be honest about which pile yours goes in.
 worksheet:
   slug: cb-rp-what-we-know-page
   note: "In the research book (student workbook): the 'What we know / what we want to find out' page. Print one per learner."

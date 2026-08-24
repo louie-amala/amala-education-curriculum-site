@@ -79,6 +79,54 @@ learnerContent: |
   - A few words, when a word helps.
 
   No one marks your book right or wrong. It is yours. Keep it safe, and bring it every time we meet.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The research book is the spine of the component: it carries the teaching, every learner's evidence,
+  and the record the FSI1 judgement is built from. This block exists to make it theirs and to make
+  using it habitual.
+
+  ### Make it theirs in the first five minutes
+
+  Name or personal mark on the front, a drawing on the cover. Learners look after a thing that is
+  theirs and lose a thing that was handed out — and this book is their assessment evidence.
+
+  ### Show them it is a textbook as well as a workbook
+
+  Turn to a "Learn it" page in front of them and say what it is: this teaches you how to do the step,
+  it stays in your book, and you can read it again any time — after the session, at home, or when you
+  come back from a week away.
+
+  Most learners have never had a book that was theirs to keep. Say it explicitly, because otherwise
+  they will treat it as a worksheet to hand in.
+
+  ### An entry is a mark, not a paragraph
+
+  Say it once, clearly, and then never in a way that singles anyone out: a drawing is a full entry, a
+  single mark is a full entry, and someone can write your words for you if you ask. Do one live,
+  together — the first mark is the hardest and should not happen alone.
+
+  ### Fix when it gets used, and where it lives
+
+  Agree one repeating moment — the last five minutes of every session — and hold it even when the
+  session overruns. Then ask out loud where books will live between sessions, and offer the
+  kept-at-the-centre option before anyone has to ask for it. Some learners cannot keep one dry or
+  private at home, and none of them should have to explain why in front of the group.
+
+  ### It is not a diary
+
+  A working book for the investigation, not a place for private things. The book goes home with the
+  learner, so nothing sensitive belongs in it.
+
+  ## Before they leave this block
+
+  - Every learner has their name or mark on their book and has made one mark inside it.
+  - Every learner has seen a "Learn it" page and knows they can re-read it any time.
+  - The group has agreed the one moment each session when books come out.
+  - Everyone knows where their book lives between sessions, without anyone having been singled out.
+learnerTeachingNotNeeded: >-
+  Procedural: how to set up, use and look after the research book. The book's own front matter already tells the learner what a Learn it page is, that a drawing is a full answer, and that it stays theirs. A separate Learn it page would repeat it.
 worksheet:
   slug: cb-rp-research-book-cover
   note: "In the research book (student workbook): the 'My research book' cover and 'how I use my book' page. Print one per learner."

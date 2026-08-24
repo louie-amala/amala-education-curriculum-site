@@ -88,6 +88,81 @@ learnerContent: |
   This is a path we all walk along over the course. No one starts at the end. Today you will mark where
   you feel you are now — near the start is a fine place to be. At the end of the course we will look at
   your mark again, and see together how far you have grown.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  Short block, and a map rather than a test. It shows learners the competency the whole course grows,
+  so they can mark where they are now and again at the end and see the distance.
+
+  ### It is the same ladder you assess against
+
+  The five steps are the learner-facing reading of Amala's proficiency scale for FSI1, in the first
+  person with the level names removed. Do not show learners the level names, the GPA values, or where
+  the readiness bar sits — a learner who knows which rung counts will mark that one.
+
+  ### Nobody starts high, and say so first
+
+  Mark it yourself, out loud, honestly, before you ask anyone else to. A learner near the bottom is at
+  the beginning, which is where a course like this expects them to be. Do not correct a learner who
+  marks themselves high; note it, and let the final marking do the work.
+
+  ### The distance is the point
+
+  Run it again in the final block with a different mark, so both are visible on one page. For learners
+  whose schooling has stopped and started for years, a visible distance they can point to may be the
+  first evidence they have had that effort produces change.
+
+  ## Before they leave this block
+
+  - Every learner has marked one rung, honestly, in their own book.
+  - They know it is not a test and that they will mark it again at the end.
+  - They can say what a researcher does, in their own words.
+learnerTeaching:
+  title: "What a researcher does, and where I am now"
+  readAloud: |
+    ## What a researcher does
+
+    This whole course grows one skill: **finding things out properly, instead of guessing.**
+
+    A researcher does four things:
+
+    - **Asks a clear question** — small enough to actually answer.
+    - **Goes and finds out** — asks people, looks carefully, reads what others found. Fairly and
+      safely.
+    - **Weighs what they find** — how much can we trust this? Does anything else agree?
+    - **Says what it means** — and shares it with people who need to know.
+
+    ### The path
+
+    Like any skill, you can be a beginner and get better. Here is the path. Read it from the bottom.
+
+    1. **I am not sure how to find out about something. I would just guess.**
+    2. **I can say how I would find out — who I would ask, or where I would look — but I have not done
+       it.**
+    3. **I went and found out. I asked people or looked at sources, and I kept a record.**
+    4. **I found out, and I can say what it means, and which of my sources I trust more, and why.**
+    5. **I have done this more than once, and the second time I did it better because of the first.**
+
+    ### Mark where you are today
+
+    Not where you want to be. Today.
+
+    Almost everyone is near the bottom at the start, and that is exactly right — it is the beginning of
+    the course. If you were already at the top there would be nothing here for you.
+
+    This is not a test. Nobody is marking it.
+
+    ### You will mark it again at the end
+
+    With a different mark, on this same page, so you can see both.
+
+    That is why we do it now. The distance between the two marks is yours.
+  words:
+    - term: researcher
+      meaning: someone who finds things out carefully and fairly, instead of guessing
+    - term: proof
+      meaning: something that shows a thing is true, not just that we believe it
 worksheet:
   slug: cb-rp-researcher-growth-path
   note: "In the research book (student workbook): the 'Where I am as a researcher' growth-path page. Print one per learner."

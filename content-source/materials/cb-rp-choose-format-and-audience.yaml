@@ -132,6 +132,137 @@ learnerContent: |
   Then plan it. For each thing you want to say, ask: where is our evidence for this? And be honest about
   what we do NOT know — for example, "we only spoke to a few people". Never use the names of the people
   we spoke to.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  Research that nobody hears is not finished. This block decides who hears it — and the order matters:
+  **audience first, then message, then format.** Learners will want to pick the format first, because
+  making a poster is the fun part. A poster chosen before the audience will be aimed at nobody.
+
+  ### Audience is a real decision, not a formality
+
+  Push for a specific answer. Not "the community" — WHO? The families on the slope below? The younger
+  children who will still be here in five years? The people who cut wood because there is nothing else?
+
+  The test: **what do you want them to understand, that they do not understand now?** A learner who can
+  answer that has an audience. A learner who cannot has picked a word.
+
+  ### Then let the format follow
+
+  There is no required output. What fits an oral, visual community — a poster, a spoken presentation
+  with pictures, a role-play, a story, a simple picture-chart — depends on who is listening and what
+  they need to grasp.
+
+  Two useful pairings to offer: something that has to be FELT is often better as a story or a
+  role-play; something that has to be COMPARED (before and now, with roots and without) is often better
+  as a picture. Say that, and let them choose.
+
+  ### The constraint that helps: what have we actually got?
+
+  Ask early what materials exist. A group planning something they cannot make will discover it in the
+  final week. Paper, colours, their bodies, their voices, the wall — that is the real list, and it is
+  enough.
+
+  ### Connect it to the showcase now
+
+  The sharing happens at the programme showcase, in front of guests each learner invited themselves.
+  Learners should be planning with that room in mind from this block, not discovering it at the end —
+  it changes what they choose.
+
+  ### Watch for the two failures
+
+  - **The beautiful poster with no message.** Ask, before any making starts: what is the ONE thing you
+    want them to understand? If the group cannot say it in a sentence, they are not ready to build.
+  - **The group that plans for each other.** Peers are a legitimate audience, but check it is a
+    decision and not the path of least resistance.
+
+  ## Before they leave this block
+
+  - A named, specific audience — not "the community".
+  - One sentence saying what that audience should understand that they do not now.
+  - A format chosen AFTER those two, that fits both the message and what can actually be made.
+  - A rough plan of what it will say and show.
+learnerTeaching:
+  title: "How to choose who to tell, and how to tell them"
+  readAloud: |
+    ## How to choose who to tell, and how
+
+    We have found things out. Now we have to tell someone — because research nobody hears is not
+    finished.
+
+    There is an order to this, and getting it the wrong way round wastes the work.
+
+    ### First: WHO?
+
+    Not "the community". That is too big to aim at.
+
+    Ask: **who most needs to hear this?**
+
+    - The families living below the bare slope?
+    - The younger children, who will still be here in ten years?
+    - People who cut wood, because there is nothing else to cook with?
+    - The people we interviewed, who told us things and never heard what we found?
+    - Your own family?
+
+    Choose real people you could actually reach.
+
+    ### Second: WHAT do you want them to understand?
+
+    Say it in one sentence. Just one.
+
+    **"After we tell them, what do they understand that they did not understand before?"**
+
+    If you cannot answer that, do not start making anything yet. Go back and look at our insights.
+
+    ### Only THEN: how?
+
+    Now — and only now — choose the shape.
+
+    - **A poster** — good for showing a comparison. Before and now. With roots and without.
+    - **A talk with pictures** — good when you want to explain something step by step.
+    - **A role-play** — good when you want people to FEEL it, not just know it.
+    - **A story** — good for something that happened to a person.
+    - **A picture-chart** — good for numbers, or for "many people said this".
+
+    Ask: **which of these fits what I want them to understand?**
+
+    Something people must FEEL is usually better as a story or a play. Something people must COMPARE is
+    usually better as a picture.
+
+    ### Be honest about what you can make
+
+    What do we actually have? Paper, colours, our voices, our bodies, the wall. That is enough — but
+    plan for what exists, not for what you wish existed.
+
+    ### Remember who will be in the room
+
+    You will share this at our showcase, and each of us is inviting someone. So think about that room
+    now, while you are choosing — not at the end.
+  words:
+    - term: audience
+      meaning: the people you want to hear what you found
+    - term: format
+      meaning: the shape you give it — a poster, a talk, a play, a story
+    - term: message
+      meaning: the one thing you want people to understand
+  tryIt:
+    intro: >-
+      Is each of these a good way to choose, or the wrong way round? Circle your answer, then check at
+      the back of the book.
+    chooseFrom: ["good", "wrong way round"]
+    items:
+      - "Let us make a poster. We can decide what to put on it later."
+      - "We want the families below the slope to understand that the water runs faster because there are no roots. So we will draw two hills side by side."
+      - "We want to tell the community."
+      - "We want people to feel what it was like when the mud came. So we will act it out."
+    answers:
+      - "Wrong way round. The format came first, so it is aimed at nobody. Decide who, then what, then how."
+      - "Good. Who, then what they should understand, then a format that shows a comparison. This is the right order."
+      - "Wrong way round — and too big. Which people in the community? What should they understand? Get specific first."
+      - "Good. They knew what they wanted people to FEEL, and chose a format that does feeling well. A poster would not do that."
+    then: >-
+      Now do it for our research, in order. Who? What should they understand? Only then — how?
 worksheet:
   slug: cb-rp-our-plan
   note: >-

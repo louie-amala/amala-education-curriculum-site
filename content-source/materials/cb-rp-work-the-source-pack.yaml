@@ -111,6 +111,148 @@ learnerContent: |
   Read the version that is right for you — the real article, the B1 version, or the simpler A1/A2
   version — or listen while your teacher reads. Then write or draw what you found in your evidence log,
   and always note which source it came from.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  This is the only block that teaches reading a source, and it is the whole of the secondary-research
+  half of the competency. There is no internet, so the pack IS the world's knowledge as far as this
+  investigation is concerned — which makes reading it well more important, not less.
+
+  ### Reading a source is four questions, not comprehension
+
+  Learners' experience of text is answering questions about it. A researcher does something different,
+  and it is these four, in this order:
+
+  1. **What is this?** A news report, a study, a company's page, someone's story.
+  2. **Who made it, and how do they know?** Straight into the weighing they will do properly later.
+  3. **What does it tell us about OUR question?** Not "what does it say" — what does it say *that we
+     need*. Most of any source is irrelevant to us, and skipping past that is a skill.
+  4. **What does it NOT tell us?** The one learners never think to ask, and the most useful. A source
+     about roots holding soil tells us nothing about whether anyone is planting here.
+
+  Model all four out loud on one source before anyone reads in pairs. Think aloud, including the
+  hesitating — "hm, it says 4.5 degrees, but is that here or somewhere else?" That noise is the
+  demonstration.
+
+  ### Three reading levels, and how to use them without insult
+
+  Every source has the real article, a B1 version, and a simplest A1/A2 version. Differentiate the
+  ACCESS, not the content: read aloud, let a learner take the level they can hold, and let the pictures
+  carry meaning for anyone not yet reading fluently.
+
+  Two errors to avoid. Do not hand the simplest version to a learner who could stretch — the pack
+  climbs deliberately towards a B1 source at the end, and the stretch is part of what makes this
+  component develop English. And do not announce who is getting which version.
+
+  ### It is double duty, and that is deliberate
+
+  This block is also one of the largest pieces of English input in the whole programme: real, graded
+  prose, pitched a step above the group, with the new words glossed. Put them on the word wall as they
+  come up. A facilitator who treats this as a research block only is wasting half of it.
+
+  ### The evidence log is the output, not the reading
+
+  Learners are not finished when they have read. They are finished when something is written or drawn
+  in the log: which source, what it tells us, the new words, and how far we trust it. Without that, the
+  reading evaporates by the following week.
+
+  ### Groups can divide the work
+
+  If time is short, a group takes one sub-question and its sources, then teaches the rest of the
+  cohort. Teaching it is a better test of understanding than reading it again — and it is also the most
+  realistic thing in the block, because that is how research actually gets done.
+
+  ## Before they leave this block
+
+  - Every learner has heard the four questions modelled on a real source.
+  - Every pair has read at least one source and put something in the evidence log for it.
+  - At least one learner has said what a source does NOT tell us.
+  - New words are on the wall.
+learnerTeaching:
+  title: "How to read a source like a researcher"
+  readAloud: |
+    ## How to read a source like a researcher
+
+    We cannot ask people everything. Some things have already been found out by others, and written
+    down. Those are called **sources**, and our pack is full of them.
+
+    Reading a source is not like reading in school. You are not trying to remember it. You are trying
+    to get something out of it that helps OUR question.
+
+    ### Four questions, in this order
+
+    **1. What is this?**
+
+    A news report? A study by scientists? A company's page? One person telling their story? They are
+    not the same and they cannot be trusted the same.
+
+    **2. Who made it, and how do they know?**
+
+    Did they see it? Measure it? Or are they repeating what someone else said?
+
+    **3. What does it tell us about OUR question?**
+
+    This is the important one. Most of a source will have nothing to do with us. That is normal.
+
+    Do not try to understand every word. Hunt for the part that touches our question, and let the rest
+    go past.
+
+    **4. What does it NOT tell us?**
+
+    Almost nobody asks this, and it is the most useful question of the four.
+
+    A source can be completely true and still not answer what we need. A study about how roots hold
+    soil tells us nothing about whether anyone is planting on OUR hill. Knowing the gap is knowing
+    something.
+
+    ### About the three versions
+
+    Every source comes three ways: the real article, an easier one, and a simplest one.
+
+    Take the one you can hold today. There is no shame in any of them, and no prize for the hard one.
+    But if you can stretch, stretch — the English in these is meant to be a little above you, because
+    that is how you get better at it.
+
+    You can also just listen while someone reads it aloud. That is real reading too.
+
+    ### You are not finished when you have read it
+
+    You are finished when something is in your evidence log:
+
+    - Which source it was.
+    - What it tells us about our question.
+    - Any new words.
+    - How much we can trust it.
+
+    If it is not written or drawn down, it will be gone by next week. Every researcher finds this out
+    the hard way.
+  words:
+    - term: source
+      meaning: something already written or made by someone else, that we can learn from
+    - term: secondary research
+      meaning: finding out by studying what others have already found out
+    - term: evidence log
+      meaning: where we record what each source tells us, so we do not lose it
+  tryIt:
+    intro: >-
+      Our question is "what happens to our hills without trees?". A source says: "In Australia,
+      scientists measured cut and uncut forest for two years. Cut land was up to 4.5 degrees hotter."
+      Is each statement below true about that source? Circle your answer, then check at the back.
+    chooseFrom: ["true", "not true"]
+    items:
+      - "This source helps our question, even though it is not about our hills."
+      - "Because it is not about Cox's Bazar, we should throw it away."
+      - "This source tells us how many trees have been cut on our hills."
+      - "We should ask how they know — and they tell us: they measured it for two years."
+    answers:
+      - "True. It is about the same THING — what happens to land when trees go. We still have to check it against what we see here, but it helps."
+      - "Not true. A source from somewhere else can still teach us how something works. Use it, and check it against our own evidence."
+      - "Not true — and this is the question 4 answer. It tells us about heat, not about our hills or how many trees went. Knowing that gap is useful."
+      - "True. They measured it, for a long time, and they say so. That is what makes a source strong."
+    then: >-
+      Now take one source from our pack and answer all four questions about it. Put what you find in
+      your evidence log.
 worksheet:
   slug: cb-rp-source-pack-evidence-log
   note: "In the student workbook: the 'What our sources tell us' evidence log. Print one per learner from the Research Project workbook."

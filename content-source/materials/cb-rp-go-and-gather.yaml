@@ -102,6 +102,124 @@ learnerContent: |
 
   Do not write anyone's name. Never go anywhere that does not feel safe. Record what you find in your
   research book — a drawing, a mark, a few words — and bring it back to share.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The briefing happened in the rehearsal block before this one, so the half hour here is the check-in
+  AFTER gathering, not a send-off before it. Do not let it slide back into preparation.
+
+  ### Protect the check-in — it is where the block actually works
+
+  Open every session that follows with a short, warm check-in in same-gender pairs or the group: who
+  did you speak to, what did you find, what got in the way, what will you do differently. Ten minutes.
+
+  That check-in is where a stuck pair gets unstuck, where you see the evidence accumulating, and where
+  you catch a pair who has not gone at all — which you will otherwise discover in week nine.
+
+  ### "They said no" is a success, and keep saying so
+
+  Learners will come back deflated. Say it plainly and repeatedly: a person exercising their right to
+  decline means the consent process worked. Praise it as loudly as a good interview, or learners will
+  quietly start pressing people.
+
+  ### Record while they talk, not afterwards
+
+  The commonest quality failure. A pair who waits until they get home records a summary of an
+  impression. Remind them at every check-in: mark the page while the person is still speaking, even if
+  it is just a drawing and three words.
+
+  ### Hold the ethics line every single time
+
+  Consent every time. No names, ever. No pressure. No learner sent anywhere unsafe for a piece of
+  evidence. If gathering and safety pull against each other, safety wins — say that out loud, more than
+  once.
+
+  Girls gather differently: in their own home, from women in their close networks, or with a female
+  facilitator. That is a different plan, not a smaller investigation, and it should be agreed before
+  anyone leaves.
+
+  ### When it gets disrupted
+
+  Fires, illness, a week kept indoors. Adapting the plan and picking it back up is the skill, not a
+  setback — and a pair who lost their planned person needs the map, not encouragement. Have the
+  alternative ready.
+
+  ## Before they leave for gathering
+
+  - Every pair knows who, where, when, and who instead if that person is not there.
+  - Every learner can say the consent words without reading them.
+  - The gender-responsive plan is agreed out loud.
+  - Everyone knows the referral pathway if something surfaces.
+learnerTeaching:
+  title: "How to gather well, out there"
+  readAloud: |
+    ## How to gather well
+
+    You have your questions, and you have practised. Now you go and do it for real.
+
+    ### Every single time, before you ask anything
+
+    Ask permission. In your own words:
+
+    **"May I ask you some questions about our hills? It is for our school project. You do not have to,
+    and you can stop whenever you like."**
+
+    Then wait for them to say yes. Every person. Every time. No exceptions, even if you know them.
+
+    ### If they say no, that is a GOOD outcome
+
+    Read that again.
+
+    A person saying no means you asked properly and they felt free to refuse. That is exactly what is
+    supposed to happen. It is not a failure and it is not about you.
+
+    Say thank you, and go to the next person on your list. Never ask twice. Never persuade.
+
+    ### Write while they are talking, not after
+
+    This feels rude. It is not — and it is the difference between real evidence and a vague memory.
+
+    Mark your page while they are still speaking. A drawing and three words is enough. If you wait
+    until you get home you will write what you *think* they said, which is not the same thing.
+
+    You can say: "may I write this down while you talk, so I remember it properly?" People like that.
+
+    ### Never write anyone's name
+
+    Not on your page, not anywhere. Write **what kind of person** instead: "an elder, near the water
+    point". "A woman who cooks for many people."
+
+    This is how we keep people safe, and it is why they will talk to us.
+
+    ### Three things that will happen
+
+    - **Someone gives a one-word answer.** Use a follow-up: "tell me more". Or wait quietly and count
+      to five. People fill quiet.
+    - **Someone is in a hurry.** Ask your ONE most important question, thank them, and go.
+    - **Someone is not there.** Go to the person you chose instead. This is why we chose one.
+
+    ### Never put yourself, or anyone else, at risk
+
+    No answer is worth going somewhere unsafe, or asking about something that could put a person in
+    danger.
+
+    If a conversation turns to something painful or frightening, stop, thank them kindly, and tell your
+    facilitator afterwards. That is not failing. That is doing it right.
+
+    ### And when the week goes wrong
+
+    Fires, rain, illness, a week you cannot go out. It happens.
+
+    Picking it up again is part of the work. Tell your facilitator what happened and make a new plan —
+    that is what a researcher does.
+  words:
+    - term: consent
+      meaning: asking permission first, and accepting the answer
+    - term: gather
+      meaning: to go and collect evidence by asking and looking
+    - term: follow-up
+      meaning: a short question you ask after their first answer, to hear more
 worksheet:
   slug: cb-rp-gathering-record
   note: "In the research book (student workbook): the 'What I found when I asked and looked' gathering-record page. Print one per learner."

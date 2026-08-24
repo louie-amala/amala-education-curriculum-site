@@ -123,6 +123,106 @@ learnerContent: |
   As we build it, we notice what makes the problem worse and what helps. And we mark who we could safely
   and kindly learn from later. Before we ask anyone anything, we always ask their permission, and we never
   use anyone's name. This map shows us where our research can go.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The map does two jobs and the second is the one that makes the fieldwork possible: it develops the
+  "contributing factors" strand of the objective, AND it becomes the sampling frame — the list of who
+  the cohort will actually go and speak to.
+
+  ### Map things as well as people
+
+  Learners will draw people and stop. Push for what and where: the slope itself, the water that runs
+  off it, the paths, the cooking fires, the places that flood, the monsoon. A problem is a system, and
+  a map of only people invites blame.
+
+  ### Draw the arrows — that is where the thinking is
+
+  A map without connections is a list in a circle. Ask what causes what, and draw it: fires need
+  wood → wood comes from the hill → bare hill → water runs → mud on the path. The arrows are the
+  contributing factors, and they set up the root-cause block later.
+
+  ### Then the safety pass, and do it here rather than later
+
+  Go round the map and mark who it is appropriate and safe for learners to approach — and who is not,
+  or who should be reached another way, or only with a facilitator present.
+
+  Do this now, in the open, before anyone is enthusiastic about a plan. It is much easier than telling
+  a pair on the day that they cannot do the thing they organised.
+
+  Think about it separately for girls and boys: a person who is straightforward for one learner to
+  approach may not be for another, and the answer is a different plan rather than a smaller
+  investigation.
+
+  ### It stays on the wall
+
+  You will come back to it constantly — when planning who to ask, when a pair needs an alternative
+  because someone was not there, and again in the looking-deeper block, where the same people reappear
+  as power, beliefs, and helped-or-hurt.
+
+  ## Before they leave this block
+
+  - A shared map with people, places and things on it, and arrows.
+  - Every person on it marked: safe to approach, approach with a facilitator, or reach another way.
+  - A gender-aware plan for approaching, agreed out loud.
+  - The map is on the wall and staying there.
+learnerTeaching:
+  title: "How to map who and what is connected to our challenge"
+  readAloud: |
+    ## How to map what is connected
+
+    Before we can find things out, we need to know **who and what is part of this**. That is what a map
+    is for.
+
+    Put our hills in the middle. Then build outwards.
+
+    ### Not just people — things and places too
+
+    Most people draw only people. Draw more than that:
+
+    - **People**: who remembers the forest. Who lives on the slope. Who cuts wood. Who plants. Who has
+      to walk through the mud.
+    - **Places**: where it floods. Where it slides. Where it is bare. Where it is green.
+    - **Things**: the rain. The cooking fires. The paths. The sun.
+
+    The rain is not a person and it did not choose anything — but it has more power over our hills than
+    most people do. It goes on the map.
+
+    ### Then draw the arrows — this is the important part
+
+    A map with no arrows is just a list in a circle.
+
+    Ask: **what causes what?**
+
+    - Cooking fires → need wood → wood comes from the hill → the hill goes bare → water runs fast →
+      mud on the path.
+
+    Those arrows are the thinking. Draw as many as you can see. You will come back to them later.
+
+    ### Then: who could we actually learn from?
+
+    Now look at the people on your map and ask two questions about each one.
+
+    - **What might they know that we do not?**
+    - **Would it be all right, and safe, for me to ask them?**
+
+    Some people know a great deal — an elder who remembers, a person who works on the slopes. Some are
+    not ours to approach, or should be asked with a facilitator there. Your facilitator will go round
+    the map with you and mark which is which.
+
+    That is not us being stopped. It is how researchers work anywhere: you plan who you can talk to
+    before you set out.
+
+    ### This map stays up
+
+    We will use it all through the course — when we decide who to ask, when someone we planned to ask
+    is not there, and later when we look at who has power and who is hurt.
+  words:
+    - term: map
+      meaning: a picture of everyone and everything connected to our challenge
+    - term: connected
+      meaning: joined to our challenge — either affecting it, or affected by it
 worksheet:
   slug: cb-rp-our-community-map
   note: "In the research book (student workbook): the 'Our community map' page. Print one per learner."

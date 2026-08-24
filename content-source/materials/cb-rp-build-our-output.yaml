@@ -97,6 +97,147 @@ learnerContent: |
 
   Everyone should have a part that feels safe for them — no one has to present in a way that is not safe.
   And never use the names of the people we spoke to.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  This is where findings become something another person can follow AND trust. Both halves matter, and
+  the second is the one that gets dropped.
+
+  ### Structure: three parts, in this order
+
+  Give learners a shape, or they will produce a pile.
+
+  1. **What we found** — the evidence, plainly.
+  2. **What we think it means** — the insight, with its "so" and its "because".
+  3. **Why it matters to you, the person listening** — the part that makes an audience act.
+
+  Most groups do the first, some do the second, almost none do the third without being told.
+
+  ### Honest about limits is a strength — teach it that way
+
+  Learners assume that admitting a limit weakens their work. The opposite is true, and it is worth
+  making the case explicitly: a group that says "we only asked eleven people" is believed more than one
+  that implies they asked everybody, because an audience can tell when a claim is too big.
+
+  Build one line into every output: **what we could not find out, or how few people we asked.** Not as
+  an apology — as part of the finding. This is the same honest-hedging move taught in the insights
+  block, now made public.
+
+  ### Rehearsing the questions is the highest-value part
+
+  Making the poster is the visible work. Being able to answer "how do you know that?" is the work that
+  actually shows FSI1, and it is central assessment evidence.
+
+  So rehearse it: have another group ask three questions, including one hard one. The three that come
+  up in real life are always some version of *how do you know? · who told you? · what about the people
+  who disagree?* Prepare answers for those, and prepare the answer "we do not know — that is something
+  we would need to find out", which is a correct and impressive answer that learners will not believe
+  is allowed until you tell them.
+
+  ### Feedback in the session, making in the independent hours
+
+  Session time is for showing a first version and acting on what comes back. If groups spend the
+  facilitated hours colouring, you have spent your most valuable time on the least valuable part. Say
+  at the start: bring something rough, we will make it better together.
+
+  ### Everyone has a part
+
+  Groups will let the confident one do the talking. Assign parts so every learner has something they
+  say or show at the showcase — including the learners who will only manage one sentence. That is
+  their evidence too.
+
+  ## Before they leave this block
+
+  - An output with all three parts, in order — found, means, why it matters to you.
+  - One honest line about a limit, in the output itself.
+  - Rehearsed answers to "how do you know?" and at least one hard question.
+  - Every learner in the group has a part.
+learnerTeaching:
+  title: "How to build something people will follow and believe"
+  readAloud: |
+    ## How to build something people will follow — and believe
+
+    You know what you found. The person listening does not. Everything here is about crossing that gap.
+
+    ### Three parts, in this order
+
+    **1. What we found.** The evidence. Plainly.
+
+    **2. What we think it means.** Your insight — with the "so" and the "because".
+
+    **3. Why it matters to YOU, the person listening.**
+
+    Most groups do the first one. Some do the second. Almost nobody does the third — and the third is
+    the one that makes someone actually do something.
+
+    ### Say the most important thing FIRST
+
+    People stop listening sooner than you expect. Do not save the best part for the end.
+
+    Start with the one thing you most want them to understand, then show the evidence for it.
+
+    ### Now the part that feels wrong but is right: say what you do NOT know
+
+    You will want to sound certain. Do not.
+
+    Put one honest line in your output:
+
+    - "We asked eleven people. They all said this."
+    - "We only looked at one slope."
+    - "We could not find out whether the new planting is working."
+
+    **This makes people believe you MORE, not less.**
+
+    Think about it from their side: when someone tells you they know everything about something, do you
+    believe them? Neither does anyone else. A researcher who says exactly how much they know sounds
+    like someone who checked.
+
+    ### Get ready for questions — this is the real test
+
+    Making the poster is not the hard part. Answering questions is.
+
+    Three questions always come, in some form. Prepare for them:
+
+    - **"How do you know that?"** → point to your evidence. Who said it, what you saw.
+    - **"Who told you?"** → say what kind of person, never a name.
+    - **"What about people who disagree?"** → say so honestly. Disagreement is a finding.
+
+    And learn this answer, because you will need it and you may not know you are allowed to use it:
+
+    **"We do not know. That is something we would need to find out."**
+
+    That is a good answer. It is what real researchers say. It is much better than making something up.
+
+    ### Everyone has a part
+
+    Do not let one person do all the talking. Every one of you should have something you say or show —
+    even if it is one sentence. It is your research too.
+  words:
+    - term: output
+      meaning: the thing you make to share what you found — a poster, a talk, a play
+    - term: limit
+      meaning: what your research could not find out, said honestly
+    - term: overclaim
+      meaning: to say you know more than your evidence really shows
+  tryIt:
+    intro: >-
+      A group is presenting. Is each of these a strong thing to say, or a weak one? Circle your answer,
+      then check at the back of the book.
+    chooseFrom: ["strong", "weak"]
+    items:
+      - "Everyone in the camp knows the hills are dangerous."
+      - "We asked eleven people. Nine of them remember trees on this slope."
+      - "Someone asks how we know, and we say: we do not know that part — it is something we would need to find out."
+      - "We are sure the planting is working."
+    answers:
+      - "Weak. You did not ask everyone. An audience notices a claim that is too big, and then doubts the rest. Say \"the people we asked\"."
+      - "Strong. It says exactly how many, and exactly what they said. Anyone can check it, which is why they will believe it."
+      - "Strong — and it is what real researchers say. Admitting a gap makes everything else you said more believable, not less."
+      - "Weak, unless you can show the evidence. \"We are sure\" is a feeling. What did you find that shows it? Say that instead."
+    then: >-
+      Now look at your own output. Where is your honest line about what you could not find out? If there
+      is not one, add it.
 worksheet:
   slug: cb-rp-build-our-output-sheet
   note: >-
