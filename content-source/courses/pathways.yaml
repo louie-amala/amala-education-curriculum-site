@@ -129,7 +129,7 @@ objectives:
       - { code: FR1, citedTitle: Identifying resources, condition: "If learners identify people, materials, and opportunities that can support their progress." }
       - { code: FR2, citedTitle: Utilising resources, condition: "If learners make effective and ethical use of available supports." }
       - { code: AR1, citedTitle: Expanding resources, condition: "If learners grow their networks to access new opportunities." }
-      - { code: ALC2, citedTitle: Facilitating collaborative decision-making, condition: "If learners strengthen relationships by contributing positively to their networks." }
+      - { code: ALC2, citedTitle: Facilitating collaborative decision making, condition: "If learners strengthen relationships by contributing positively to their networks." }
       - { code: ASL1, citedTitle: Using feedback, condition: "If learners use insights from mentors, peers, or community contacts to improve their approach." }
 
   - statement: >-
@@ -197,6 +197,14 @@ principleMappings:
       - Sensitive topics (e.g., barriers to education, discrimination in employment) are explored with care.
       - Learners are supported to share personal aspirations at their own pace, with alternative ways to participate if they prefer.
 
+  - principle: connect-to-futures
+    inThisCourse:
+      - >-
+          The entire course is this principle: learners articulate the pathways they are working towards and test them against what is actually available to them.
+      - >-
+          Learners build the artefacts a pathway requires — a CV, a statement, a portfolio, a practised interview — and leave holding them.
+      - >-
+          Facilitators keep aspiration and realism together, so a learner leaves with both a direction and a next step they can take this month.
 designChecklist:
   - My course design includes ~50 hours of learning experiences/tasks.
   - There is a plan for interspersing the course throughout the programme, with at least 2 hours group instruction or supervised work (usually in-person or live online learning) for the pathways programme each semester.

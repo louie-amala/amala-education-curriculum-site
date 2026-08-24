@@ -51,7 +51,7 @@ objectives:
       - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners set and act on intentions to strengthen wellbeing." }
       - { code: FLC1, citedTitle: Ethical actions, condition: "If learners make choices aligned with personal values." }
       - { code: FUS1, citedTitle: Developing self-awareness, condition: "If learners recognise how experiences and identity shape perspectives." }
-      - { code: FTS3, citedTitle: Science Communication, condition: "If learners use their understanding of basic neuroscience to positively influence the behaviour of others." }
+      - { code: ATS2, citedTitle: Science communication, condition: "If learners use their understanding of basic neuroscience to positively influence the behaviour of others." }
 
   - statement: Build more constructive relationships with people who have differing beliefs and/or backgrounds.
     supportedTo:
@@ -144,6 +144,14 @@ principleMappings:
       - Learners develop shared norms for empathy, trust, and kindness.
       - Educators are attentive to signs of emotional distress and respond using trauma-informed and culturally sensitive practices.
 
+  - principle: connect-to-futures
+    inThisCourse:
+      - >-
+          Learners connect what they learn about their own responses and relationships to the settings they are heading into — study, work, family, community — where those responses will be tested.
+      - >-
+          Facilitators name the pathways this underwrites: any further education or employment depends on being able to work with people you did not choose.
+      - >-
+          Learners leave with one practice they intend to keep using, named and written down, rather than an experience that ends with the course.
 designChecklist:
   - My course design includes ~100 hours of learning experiences/tasks.
   - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).
@@ -159,9 +167,13 @@ sourceIssues:
       appears in multiple guides.
   - type: miscited-competency
     detail: >-
-      Objective 1 cites "FTS3 - Science Communication". Per competencies.yaml, FTS3 is
-      "Gather and organise data"; "Science communication" is the title of ATS2. Cited
-      code and title preserved verbatim in competencyEvidence.
+      Objective 1 cited "FTS3 - Science Communication". FTS3 is "Gather and organise data"; "Science
+      communication" is ATS2. CORRECTED to ATS2 (2026-08-24). The objective's own condition — "use
+      their understanding of basic neuroscience to positively influence the behaviour of others" —
+      restates ATS2's goal almost word for word and has nothing to do with gathering or categorising
+      data, so the CODE was the transcription error, not the title. Note that ATS2 is an Advanced
+      competency cited in a Foundational objective set: that is stretch evidence, and worth confirming
+      against the source guide if it can be found.
   - type: missing-principle
     detail: >-
       Guide lists 8 principles and omits connect-to-futures ("connect learning to the

@@ -323,3 +323,7 @@ provenanceNote: >-
   transfer); this version is rebuilt for emergent literacy — oral and visual first, no prior reading or
   pencil skill assumed, starting from the learner's own name, recognition before formation — for a
   largely pre-literate cohort in the camps. Objective 1 of the My Voice unit.
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

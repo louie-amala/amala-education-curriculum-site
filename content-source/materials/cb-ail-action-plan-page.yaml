@@ -35,3 +35,7 @@ provenanceNote: >-
   paired to cb-ail-making-an-action-plan. Thin by design; its printable version compiles into the component workbook rather
   than shipping its own file. Added (August 2026) when the workbook was rebuilt to be driven by the
   unit plan, so a page cannot go missing when the plan changes.
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

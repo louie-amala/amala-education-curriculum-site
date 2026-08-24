@@ -92,3 +92,7 @@ relatedSlugs: [social-enterprise-triple-bottom-line, pitch-deck-elevator-pitch, 
 sourceRefs: ["planner-new.txt", "social-entrepreneurship.yaml"]
 provenanceNote: >-
   Grounded in the 2025 course planner (Part 5.1 "Social Business Model Canvas") and the course guide's objective 2, which suggests learners draft a "concept note". The named "Social Business Model Canvas" is referenced in the planner; the concept note is the guide's own term.
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

@@ -52,7 +52,7 @@ objectives:
     competencyEvidence:
       - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners apply scientific methods to explore questions about the world." }
       - { code: FPS2, citedTitle: Evaluating sources, condition: "If learners assess scientific data or publications for credibility and accuracy." }
-      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners use scientific evidence to support conclusions." }
+      - { code: APS2, citedTitle: Evidence informed decision making, condition: "If learners use scientific evidence to support conclusions." }
       - { code: FSL3, citedTitle: Engage in continuous learning, condition: "If learners show curiosity in applying science to new or unfamiliar contexts." }
 
   - statement: >-
@@ -73,7 +73,7 @@ objectives:
         - Written or video reflections showing how science shaped their decision-making process.
     competencyEvidence:
       - { code: FTS2, citedTitle: Science informed action, condition: "If learners use scientific understanding to make better-informed decisions." }
-      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners base their choices on reliable scientific findings." }
+      - { code: APS2, citedTitle: Evidence informed decision making, condition: "If learners base their choices on reliable scientific findings." }
       - { code: APS1, citedTitle: Addressing unintended consequences, condition: "If learners anticipate outcomes using scientific reasoning." }
       - { code: FLC1, citedTitle: Ethical actions, condition: "If learners apply scientific evidence to act safely, ethically, and sustainably." }
       - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners take sustained, science-based action toward a clear aim." }
@@ -96,7 +96,7 @@ objectives:
         - Peer or public presentations explaining the science behind a project or everyday problem.
     competencyEvidence:
       - { code: FLC3, citedTitle: Influential communication, condition: "If learners use scientific communication to inform others' decisions." }
-      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners share accurate data to support reasoning in others." }
+      - { code: APS2, citedTitle: Evidence informed decision making, condition: "If learners share accurate data to support reasoning in others." }
       - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners promote dialogue about science within their communities." }
       - { code: AUS2, citedTitle: Intercultural understanding, condition: "If learners respect cultural perspectives while communicating scientific ideas." }
 
@@ -143,6 +143,14 @@ principleMappings:
       - Learners feel confident to ask questions, share misconceptions, and learn through trial and error.
       - Facilitators respect cultural and religious perspectives when discussing scientific ideas, helping learners see connections rather than conflict.
 
+  - principle: connect-to-futures
+    inThisCourse:
+      - >-
+          Learners connect scientific reasoning to the pathways it opens — health, environment, agriculture, engineering, teaching — and to the everyday decisions where evidence beats assumption.
+      - >-
+          Facilitators are explicit that the habit being built, checking a claim before acting on it, transfers to every pathway and to civic life.
+      - >-
+          Learners identify one issue they intend to keep following, and how they will judge what they are told about it.
 designChecklist:
   - My course design includes ~100 hours of learning experiences/tasks
   - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).

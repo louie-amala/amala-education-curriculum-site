@@ -71,3 +71,7 @@ relatedSlugs: [business-model-canvas-concept-note, leverage-points]
 sourceRefs: ["planner-new.txt", "social-entrepreneurship.yaml"]
 provenanceNote: >-
   Grounded in the 2025 course planner (Part 1.1 definitions of social enterprise and "Creating Shared Value"; Part 4 "Money-Making vs Problem-Solving"). The specific label "triple bottom line" (people, planet, profit) is a common framing of these ideas and is not used verbatim in the planner. [to verify] whether Amala wishes to use this named framework in learner-facing materials.
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

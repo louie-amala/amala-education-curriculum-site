@@ -162,3 +162,7 @@ provenanceNote: >-
   Project so it fits any shared challenge a cohort investigates, drawing on the objective's supported
   steps (narrowing a broad challenge into a researchable question) and its topic / question /
   researchable-question and question-storming activities. Linked to Research Project objective 1.
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

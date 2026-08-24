@@ -55,7 +55,7 @@ objectives:
       - { code: FLC1, citedTitle: Ethical actions, condition: "If learners consider the ethics of their primary research methods." }
       - { code: FTS3, citedTitle: Gather and organise data, condition: "If learners collect and structure data to better understand the challenge." }
       - { code: APS3, citedTitle: Pattern identification, condition: "If learners recognise patterns or trends from the data they have collected." }
-      - { code: ATS1, citedTitle: Analyze and interpret data, condition: "If learners analyse and interpret data to generate insights into the challenge." }
+      - { code: ATS1, citedTitle: Analyze and Interpret Data, condition: "If learners analyse and interpret data to generate insights into the challenge." }
 
   - statement: >-
       Develop an ethical revenue generating (social enterprise) concept (product
@@ -80,7 +80,7 @@ objectives:
       - { code: FSI2, citedTitle: Ideate sustainable solutions, condition: "If learners generate ideas for revenue-generating products or services that address a challenge." }
       - { code: FSI3, citedTitle: Pilot sustainable solutions, condition: "If learners test elements of their proposed social enterprise with potential users." }
       - { code: FLC1, citedTitle: Ethical actions, condition: "If learners explain how their enterprise concept is ethical and responsible." }
-      - { code: FTS1, citedTitle: Utilising technology, condition: "If learners make use of existing technology to develop their enterprise." }
+      - { code: FTS1, citedTitle: Utilising Technology, condition: "If learners make use of existing technology to develop their enterprise." }
       - { code: FTS2, citedTitle: Science informed action, condition: "If learners apply scientific understanding to inform their enterprise idea." }
       - { code: ATS3, citedTitle: Technological innovation, condition: "If learners create or adapt a new technological solution for their enterprise." }
       - { code: APS4, citedTitle: Solution analysis, condition: "If learners compare possible solutions and justify their chosen enterprise approach." }
@@ -154,6 +154,14 @@ principleMappings:
       - Learners choose challenges and actions that feel meaningful but safe for them.
       - Difficult topics (e.g. injustice, inequality) are explored with sensitivity to context and identity.
 
+  - principle: connect-to-futures
+    inThisCourse:
+      - >-
+          Learners test their idea against what it would actually take to run it, so the future they are imagining is costed rather than hoped for.
+      - >-
+          Facilitators connect learners with people running enterprises locally, and are honest about the routes that do not require starting a venture — working inside one, or bringing the mindset to employment.
+      - >-
+          Learners leave with a concrete next step for their idea, or a clear-eyed decision not to pursue it, which is an equally good outcome.
 designChecklist:
   - My course design includes ~100 hours of learning experiences/tasks.
   - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).

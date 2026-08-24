@@ -226,6 +226,14 @@ principleMappings:
       - Inclusive practices ensure cultural and gender norms are respected.
       - Facilitators consider trauma sensitivity when discussing sensitive topics.
 
+  - principle: connect-to-futures
+    inThisCourse:
+      - >-
+          Learners connect peacebuilding practice to the routes through which it is done — community mediation, civil society, education, humanitarian work, local leadership — and what an entry point looks like from where they are.
+      - >-
+          Facilitators help learners see the transferable core: analysing a conflict, holding a difficult conversation, and building agreement are wanted far beyond peacebuilding roles.
+      - >-
+          Learners name where they will apply this next, at whatever scale is genuinely open to them.
 designChecklist:
   - My course design includes ~100 hours of learning experiences/tasks (approx. 60 hours live, 40 hours independent/asynchronous).
   - My course design is appropriate for my context (relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).

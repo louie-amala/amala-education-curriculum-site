@@ -222,7 +222,7 @@ competencyDevelopment:
       from, so the whole body of research can be sorted, re-sorted and traced back. That organised,
       traceable set is what makes citing sources in the final product possible at all.
 objectiveIds: [social-entrepreneurship--o1, research-project--o3, research-project--o4]
-relatedSlugs: [affinity-mapping, iceberg-model, stakeholder-community-mapping, community-mapping-and-empathy-interviews, evidence-log-and-source-evaluation]
+relatedSlugs: [ iceberg-model, stakeholder-community-mapping, community-mapping-and-empathy-interviews, evidence-log-and-source-evaluation]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
   Enriched into a structured facilitation flow (duration, grouping, steps with prompts,
@@ -231,3 +231,7 @@ provenanceNote: >-
   ecosystem and iceberg take 2) and the SE course guide objective 1 furtherDetails
   (research report or presentation shared with classmates or community; posters,
   infographics, presentations or short videos).
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

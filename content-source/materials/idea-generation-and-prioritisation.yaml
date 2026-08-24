@@ -162,7 +162,7 @@ competencyDevelopment:
       alone. How they defend or discard an idea on those grounds shows whether the principle is
       being applied or recited.
 objectiveIds: [social-entrepreneurship--o2, peacebuilding--o2]
-relatedSlugs: [effort-impact-matrix, leverage-points, circle-of-influence, safe-to-fail-experiments, prototype-testing-with-users]
+relatedSlugs: [effort-impact-matrix, leverage-points, prototype-testing-with-users]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
   Grounded in the 2025 course planner (Part 4 developing and testing safe-to-fail ideas,
@@ -170,3 +170,7 @@ provenanceNote: >-
   furtherDetails (idea generation followed by structured prioritisation, effort/impact
   matrix). Enriched from the original prose blobs into a structured facilitation flow
   (whatLearnersDo, materials, steps with prompts, watch-outs and adaptations, closing).
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

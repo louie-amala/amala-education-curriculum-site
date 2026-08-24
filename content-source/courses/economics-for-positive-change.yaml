@@ -52,7 +52,7 @@ objectives:
     competencyEvidence:
       - { code: FSI1, citedTitle: Investigate real-world issues, condition: "If learners analyse interactions within local economic systems." }
       - { code: FPS3, citedTitle: Identifying contributing factors, condition: "If learners have problems in local economic activity." }
-      - { code: FSL3, citedTitle: Engaging in continuous learning, condition: "If learners build understanding through inquiry and dialogue." }
+      - { code: FSL3, citedTitle: Engage in continuous learning, condition: "If learners build understanding through inquiry and dialogue." }
       - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners engage others in building shared understanding." }
 
   - statement: >-
@@ -76,8 +76,8 @@ objectives:
         - Document learning through journals, photos, or short videos and link reflections to regenerative principles
         - Facilitate peer feedback sessions to evaluate how well initiatives address human needs within ecological limits
     competencyEvidence:
-      - { code: FSI3, citedTitle: Pilot sustainable solutions(F), condition: "If learners design, prototype, and test initiatives for regenerative change." }
-      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners use data and feedback to improve initiatives." }
+      - { code: FSI3, citedTitle: Pilot sustainable solutions, condition: "If learners design, prototype, and test initiatives for regenerative change." }
+      - { code: APS2, citedTitle: Evidence informed decision making, condition: "If learners use data and feedback to improve initiatives." }
       - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners take deliberate action to achieve sustainable outcomes." }
       - { code: FLC1, citedTitle: Ethical actions, condition: "If learners design solutions that balance human wellbeing and planetary health." }
 
@@ -104,7 +104,7 @@ objectives:
     competencyEvidence:
       - { code: FLC3, citedTitle: Influential communication, condition: "If learners communicate effectively to mobilise others." }
       - { code: ALC2, citedTitle: Facilitating collaborative decision making, condition: "If learners support constructive cooperation among stakeholders." }
-      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners use reasoning and data to strengthen their case for support." }
+      - { code: APS2, citedTitle: Evidence informed decision making, condition: "If learners use reasoning and data to strengthen their case for support." }
       - { code: FLC1, citedTitle: Ethical actions, condition: "If learners advocate transparently and responsibly." }
       - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners strengthen community ownership of change." }
 
@@ -151,6 +151,14 @@ principleMappings:
       - Learners engage with diverse worldviews about value, success, and wellbeing in open and non-judgmental ways.
       - Activities foster trust, inclusion, and curiosity — helping learners feel safe to challenge dominant economic ideas and imagine alternatives.
 
+  - principle: connect-to-futures
+    inThisCourse:
+      - >-
+          Learners connect economic reasoning to decisions they will actually make — earning, saving, pricing, borrowing, and the terms of work they may be offered.
+      - >-
+          Facilitators surface the pathways this thinking opens: enterprise, cooperatives, finance, policy, community organising — and what a first step towards each looks like from here.
+      - >-
+          Learners are supported to name one economic decision in their own life or household that they now approach differently, and what they will do about it next.
 designChecklist:
   - My course design includes ~100 hours of learning experiences/tasks.
   - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).

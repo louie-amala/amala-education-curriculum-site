@@ -170,11 +170,11 @@ objectives:
         - Preparation and delivery of a PIP presentation to an authentic audience.
         - Peer or mentor review sessions to celebrate and discuss growth.
     competencyEvidence:
-      - { code: ASL2, citedTitle: Managing time, priorities, and wellbeing, condition: "If learners balance responsibilities to complete their project successfully." }
+      - { code: ASL2, citedTitle: "Managing time, priorities and wellbeing", condition: "If learners balance responsibilities to complete their project successfully." }
       - { code: ASL4, citedTitle: Actualising pathways, condition: "If learners use their PIP to advance education, career, or personal goals." }
       - { code: FSL1, citedTitle: Self-reflection, condition: "If learners analyse their learning, decisions, and growth." }
       - { code: FLC3, citedTitle: Influential communication, condition: "If learners communicate their process and insights clearly to others." }
-      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners evaluate their results using evidence and reasoning." }
+      - { code: APS2, citedTitle: Evidence informed decision making, condition: "If learners evaluate their results using evidence and reasoning." }
 
 principleMappings:
   # Guide lists 8 principles (see sourceIssues). Stored in guide order.
@@ -220,6 +220,14 @@ principleMappings:
       - Individual projects are respected as personal journeys; facilitators ensure sensitivity where appropriate.
       - Learners are encouraged to take risks within safe boundaries and reflect honestly on their experiences.
 
+  - principle: connect-to-futures
+    inThisCourse:
+      - >-
+          The project is chosen by the learner, so the choice itself is a statement about the future they are exploring — facilitators treat it that way and ask what it is telling them.
+      - >-
+          Learners experience running something self-directed from start to finish, which is the closest rehearsal the programme offers for further study or self-employment.
+      - >-
+          The reflection asks explicitly what this project revealed about what the learner wants to do more of, and what they will do next about it.
 designChecklist:
   - Covers all content outlined in the course syllabus.
   - Generates evidence that can be used to evaluate proficiency in Amala competencies.

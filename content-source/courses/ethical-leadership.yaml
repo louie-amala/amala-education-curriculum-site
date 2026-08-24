@@ -78,7 +78,7 @@ objectives:
     competencyEvidence:
       - { code: FLC1, citedTitle: Ethical actions, condition: "If learners demonstrate consistent application of their moral principles in the project." }
       - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners create conditions where others feel respected and included in the project." }
-      - { code: ALC2, citedTitle: Facilitating collaborative decision-making, condition: "If learners design inclusive processes for project-related decisions." }
+      - { code: ALC2, citedTitle: Facilitating collaborative decision making, condition: "If learners design inclusive processes for project-related decisions." }
       - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners plan and follow through on project milestones." }
 
   - statement: >-
@@ -146,6 +146,14 @@ principleMappings:
       - Ethical dilemmas are discussed with sensitivity to cultural and religious perspectives.
       - Learners are supported to share personal stories without pressure, and alternative ways to contribute are offered.
 
+  - principle: connect-to-futures
+    inThisCourse:
+      - >-
+          Learners identify where they already hold influence — a family, a class, a team, a community group — and treat that as the place their leadership starts, rather than a future position they must wait for.
+      - >-
+          Facilitators make the transfer explicit: the ability to take a hard decision and explain it is wanted in every pathway, and learners are helped to say where they will use it next.
+      - >-
+          Conversations about the future stay honest about constraint, focusing on the next step a learner can genuinely take rather than the role they might eventually hold.
 designChecklist:
   - My course design includes ~100 hours of learning experiences/tasks
   - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).

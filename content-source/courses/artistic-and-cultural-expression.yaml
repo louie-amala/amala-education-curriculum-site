@@ -67,7 +67,7 @@ objectives:
     competencyEvidence:
       - { code: FUS2, citedTitle: Understanding other people, condition: "If learners interpret others' experiences through art." }
       - { code: AUS2, citedTitle: Intercultural understanding, condition: "If learners demonstrate understanding of how culture and worldview influence artistic expression." }
-      - { code: FSL3, citedTitle: Engaging in continuous learning, condition: "If learners extend their understanding through exploration and dialogue." }
+      - { code: FSL3, citedTitle: Engage in continuous learning, condition: "If learners extend their understanding through exploration and dialogue." }
       - { code: FUS1, citedTitle: Developing self-awareness, condition: "If learners reflect on how their identity shapes interpretation." }
 
   - statement: >-
@@ -157,6 +157,14 @@ principleMappings:
       - Learners co-create community agreements for giving and receiving feedback sensitively.
       - Educators approach artistic and cultural discussion with awareness of power, trauma, and belonging.
 
+  - principle: connect-to-futures
+    inThisCourse:
+      - >-
+          Learners are shown creative pathways that exist in reality — makers, performers, designers, teachers, cultural organisers — including the ones that sit alongside other work rather than replacing it.
+      - >-
+          Facilitators help learners name which of the transferable skills they are building here — composing an idea, working to a brief, presenting to an audience, taking critique — and where else those are wanted.
+      - >-
+          The portfolio is treated as something a learner keeps and uses beyond the course, not as an assessment artefact that ends with it.
 designChecklist:
   - My course design includes ~100 hours of learning experiences/tasks
   - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).

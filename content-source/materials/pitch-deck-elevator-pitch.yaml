@@ -101,3 +101,7 @@ objectiveIds: [social-entrepreneurship--o3, peacebuilding--o3]
 relatedSlugs: [business-model-canvas-concept-note]
 sourceRefs: ["planner-new.txt", "social-entrepreneurship.yaml"]
 provenanceNote: Grounded in the 2025 course planner (Part 5.3 "What Makes a Powerful Pitch?", 5.4 "Developing The Pitch", 5.5 "Pitch Day") and the course guide's objective 3 and Social Enterprise Idea Pitch rubric.
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

@@ -113,6 +113,38 @@ principleMappings:
     inThisCourse:
       - The public showcase makes visible how far learners have come, from introducing themselves in Unit 1 to persuading an audience here.
 
+  - principle: collaboration
+    inThisCourse:
+      - >-
+          Learners test arguments on each other before taking them to an audience, so the group is where positions get stronger.
+      - >-
+          Learners research and prepare together, dividing an issue between them and teaching each other what they found.
+      - >-
+          The persuasive speech is delivered to a real audience whose response is part of the work.
+  - principle: lifeworthy-competencies
+    inThisCourse:
+      - >-
+          The English being built — stating a position, giving reasons, acknowledging an objection — is the language of any application, interview, meeting or dispute.
+      - >-
+          Learners practise disagreeing without hostility, which transfers to every setting they will enter.
+      - >-
+          Structuring an argument is taught as a portable skill, not as the shape of a school exercise.
+  - principle: feedback-and-data
+    inThisCourse:
+      - >-
+          Learners rehearse and revise against peer feedback before the final speech, rather than being judged once.
+      - >-
+          Facilitators use the evidence of what learners can actually produce to decide what to recycle.
+      - >-
+          Learners assess their own progress against the Can-Do outcomes, and that judgement informs what they work on next.
+  - principle: safe-spaces
+    inThisCourse:
+      - >-
+          Learners choose the issue they argue for, and may decline one that is unsafe or too close to home, without explaining why.
+      - >-
+          Disagreement is structured so that positions are contested and people are not, with the norm set before the first debate.
+      - >-
+          Nobody presents alone if that is what would silence them; presenting to a small group counts fully.
 designChecklist:
   - The course includes ~20–40 hours of learning experiences integrating phonics, grammar, reading, writing, and speaking.
   - Grammar, phonics, and vocabulary are connected to the unit outcomes and the persuasive-action project.

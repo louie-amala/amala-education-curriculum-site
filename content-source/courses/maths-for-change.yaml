@@ -50,9 +50,9 @@ objectives:
         - Learners could investigate financial topics such as interest, inflation, or currency conversion and how they affect everyday life.
         - Learners could present short reflections or visual guides explaining how they used maths to solve a problem that mattered to them.
     competencyEvidence:
-      - { code: FTS1, citedTitle: Utilising technology, condition: "If learners use digital or technological tools (e.g. calculators, spreadsheets, or measurement apps) to solve problems." }
+      - { code: FTS1, citedTitle: Utilising Technology, condition: "If learners use digital or technological tools (e.g. calculators, spreadsheets, or measurement apps) to solve problems." }
       - { code: FTS3, citedTitle: Gather and organise data, condition: "If learners collect and organise numerical information to support everyday decisions." }
-      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners use calculations to justify choices in personal or community contexts." }
+      - { code: APS2, citedTitle: Evidence informed decision making, condition: "If learners use calculations to justify choices in personal or community contexts." }
       - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners plan, act, and reflect on how they use mathematics to meet real needs." }
       - { code: FLC1, citedTitle: Ethical actions, condition: "If learners apply mathematical reasoning to make fair or responsible use of resources." }
 
@@ -75,9 +75,9 @@ objectives:
         - Learners could reflect in writing or discussion on what the data suggests about fairness, opportunity, or responsibility.
     competencyEvidence:
       - { code: FTS3, citedTitle: Gather and organise data, condition: "If learners collect and categorise primary or secondary quantitative data." }
-      - { code: ATS1, citedTitle: Analyse and interpret data, condition: "If learners examine and visualise data to uncover patterns and generate insights." }
+      - { code: ATS1, citedTitle: Analyze and Interpret Data, condition: "If learners examine and visualise data to uncover patterns and generate insights." }
       - { code: FTS2, citedTitle: Science informed action, condition: "If learners use quantitative understanding of systems to make better-informed decisions." }
-      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners apply insights from data to support ethical and reasoned conclusions." }
+      - { code: APS2, citedTitle: Evidence informed decision making, condition: "If learners apply insights from data to support ethical and reasoned conclusions." }
       - { code: FLC1, citedTitle: Ethical actions, condition: "If learners recognise bias, limitations, or fairness issues when interpreting and presenting data." }
 
   - statement: >-
@@ -97,10 +97,10 @@ objectives:
         - Learners could gather feedback from peers or audiences on clarity and persuasiveness, refining their approach.
         - Learners could produce a reflective commentary linking their communication choices to ethical and social impact.
     competencyEvidence:
-      - { code: ATS1, citedTitle: Analyse and interpret data, condition: "If learners interpret and present data to support understanding or advocacy." }
+      - { code: ATS1, citedTitle: Analyze and Interpret Data, condition: "If learners interpret and present data to support understanding or advocacy." }
       - { code: ATS2, citedTitle: Science communication, condition: "If learners use quantitative evidence to positively influence others' thinking or behaviour." }
-      - { code: FTS1, citedTitle: Utilising technology, condition: "If learners use digital or visual tools to create accurate and engaging data presentations." }
-      - { code: APS2, citedTitle: Evidence-informed decision making, condition: "If learners integrate data and reasoning into persuasive, ethical communication." }
+      - { code: FTS1, citedTitle: Utilising Technology, condition: "If learners use digital or visual tools to create accurate and engaging data presentations." }
+      - { code: APS2, citedTitle: Evidence informed decision making, condition: "If learners integrate data and reasoning into persuasive, ethical communication." }
       - { code: FLC3, citedTitle: Influential communication, condition: "If learners communicate quantitative reasoning clearly and compellingly to diverse audiences." }
 
 principleMappings:
@@ -146,6 +146,14 @@ principleMappings:
       - Learners practise giving and receiving feedback constructively, focusing on reasoning rather than right answers.
       - Educators recognise and address maths anxiety, encouraging a growth mindset and celebrating progress at every level.
 
+  - principle: connect-to-futures
+    inThisCourse:
+      - >-
+          Learners see where the mathematics they are doing is required — further study, trades, budgeting, enterprise, data work — and what level each of those actually asks for.
+      - >-
+          Facilitators address maths anxiety as a pathway issue, because a learner who believes they cannot do maths will rule out routes long before anyone assesses them.
+      - >-
+          Learners identify one thing they can now calculate or judge for themselves that they previously deferred to someone else.
 designChecklist:
   - My course design includes ~100 hours of learning experiences/tasks
   - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).

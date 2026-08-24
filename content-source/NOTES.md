@@ -39,18 +39,29 @@ VS14). Extracted per-guide: `courses/*`.
 
 ## Open issues / decisions for Louie
 
-1. **Principle 7 missing from every course guide.** The 2025 course guides map only **8** principles;
-   they omit *"Learners connect their learning to the futures they are building"* (connect-to-futures).
-   So each course lacks a principle-7 "in this course this might look like" mapping. Decision: author
-   these, or accept 8-principle guides? (Logged per-course as `missing-principle`.)
+1. **Principle 7 — RESOLVED (2026-08-24).** The 2025 course guides map only **8** principles, omitting
+   *"Learners connect their learning to the futures they are building"* (connect-to-futures). The
+   decision was to author them: all 12 affected courses now carry a connect-to-futures mapping, written
+   from each course's own purpose rather than from a template. The five English for Impact courses were
+   also missing other principles (16 mappings in total); those are authored too, and every course now
+   maps all 9. These are **authored, not extracted** — the guides had nothing to transcribe.
 
 2. **Systemic checklist copy-paste error.** Multiple course guides' design checklist reads
    *"Meets the time and contextualisation requirements for the **Social Entrepreneurship** course"*
    regardless of the actual course. Confirm intended text per course. (Logged per-course.)
 
-3. **Mis-cited competency in Living Peacefully.** Objective 1 cites *"FTS3 – Science Communication"*.
-   Authoritative: FTS3 = "Gather and organise data"; Science communication = ATS2. This is the exact
-   error class the rebuild designs out — preserved verbatim + flagged.
+3. **Mis-cited competency in Living Peacefully — CORRECTED (2026-08-24).** Objective 1 cited
+   *"FTS3 – Science Communication"*. FTS3 = "Gather and organise data"; Science communication = ATS2.
+   Corrected to **ATS2**, because the objective's own condition — "use their understanding of basic
+   neuroscience to positively influence the behaviour of others" — restates ATS2's goal almost word for
+   word, so the CODE was the transcription error rather than the title. Note ATS2 is Advanced, cited in
+   a Foundational objective set: stretch evidence, worth confirming against the source guide if it can
+   be found. Reasoning recorded in the course's `sourceIssues`.
+
+   The **cosmetic title drift** (12 cases: "Analyse"/"Analyze", "Evidence-informed"/"Evidence informed",
+   a stray "(F)") is also resolved: every `citedTitle` is now aligned to the framework. Those titles were
+   never rendered — the site reads from the framework — so they produced only build noise. Each course's
+   `sourceIssues` still records what the guide actually said.
 
 4. **`observableBehaviours` are NOT in any source.** The spreadsheet holds only the generic scale +
    each competency's goal. Per-competency observable behaviours = genuine Phase-4 authoring, not migration.
@@ -178,6 +189,31 @@ clearly-labelled illustrative case study written to do the same job.
 
 Not yet processed from the same YPAR Hub section: Introductions, Youth & Adult Power Sharing,
 Building Community Support, and YPAR Basics.
+
+## Rights: 29 materials still need a human decision
+
+A `rights` block records whether a material may be published (docs/MATERIALS_STANDARD.md §12). On
+2026-08-24, 267 materials whose `sourceRefs` point only at Amala's own course materials or at other
+content in this repo were classified `amala-own` in bulk, from that provenance — **not** from an
+individual reading. The `basis` on each says so, and says to correct it if third-party expression turns
+up on the page.
+
+**29 were deliberately left untagged, because they need someone who knows the sources to decide.** They
+are the only remaining content-graph warning, and that warning should stay until they are settled:
+
+- Genuinely third-party expression, in copyright: `pn-body-ritual-among-the-nacirema` (Miner, 1956),
+  `pn-hair-love`, `pn-immigration-myths`, `pn-iceberg-of-othering`.
+- Third-party methods where our expression may be our own: `iceberg-model`,
+  `systems-thinking-iceberg-model`, `leverage-points` (Meadows), `wicked-problems`.
+- From a third-party guide: `se-case-study-fair-for-you`, `se-case-study-hisbe-food`,
+  `se-start-your-social-enterprise-guide` (all from Start-your-social-enterprise-guide-1.pdf).
+- Reproduces third-party sources under per-source terms already settled inside it, but the material
+  itself is untagged: `cb-rp-secondary-source-pack`.
+- Cite research but the expression is ours — probably `own-expression`, needs confirming:
+  `cb-mv-facilitator-playbook`, `cb-mv-practice-everywhere`.
+- Amala PIP/PN/Pathways resources whose sourceRefs are filenames rather than named Amala documents, so
+  the heuristic could not confirm them: the 12 `pip-*`, 4 remaining `pn-*`, and `pathways-journal`.
+  These are very likely `amala-own`; someone should confirm and tag them.
 
 ## Still needed to complete the content set
 

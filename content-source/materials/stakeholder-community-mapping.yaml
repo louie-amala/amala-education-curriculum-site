@@ -79,3 +79,7 @@ objectiveIds: [social-entrepreneurship--o1, research-project--o1, peacebuilding-
 relatedSlugs: [iceberg-model, systems-thinking-iceberg-model, leverage-points, problem-tree]
 sourceRefs: ["planner-new.txt"]
 provenanceNote: Grounded in the 2025 course planner (Part 1.5 mapping the local ecosystem; Part 3.4 "Ecosystems Mapping Take 1"; "Affinity Mapping"; "Ecosystem Mapping Take 2").
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

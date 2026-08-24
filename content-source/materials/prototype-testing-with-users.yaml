@@ -224,7 +224,7 @@ competencyDevelopment:
       prototype, and the log of what each round of testing changed in it, are the evidence; other
       projects will not develop this competency here.
 objectiveIds: [social-entrepreneurship--o2, peacebuilding--o2]
-relatedSlugs: [safe-to-fail-experiments, ladder-of-feedback, idea-generation-and-prioritisation, concept-note-and-refinement]
+relatedSlugs: [ idea-generation-and-prioritisation, concept-note-and-refinement]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
   Enriched into a structured facilitation flow (duration, grouping, steps with prompts,
@@ -234,3 +234,7 @@ provenanceNote: >-
   furtherDetails (market research and prototype testing; refinement cycles). ATS3 applies
   only where learners create or adapt a new technological solution [to verify per learner
   project].
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

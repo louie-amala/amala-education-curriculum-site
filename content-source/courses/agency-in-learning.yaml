@@ -145,7 +145,7 @@ objectives:
     competencyEvidence:
       - { code: FSL2, citedTitle: Set and pursue goals, condition: "If learners take deliberate, planned steps to make progress towards their goals." }
       - { code: FSL3, citedTitle: Engage in continuous learning, condition: "If learners seek out learning experiences that support progress towards their goals." }
-      - { code: ASL2, citedTitle: Managing time, priorities and wellbeing, condition: "If learners balance their time and priorities to sustain progress." }
+      - { code: ASL2, citedTitle: "Managing time, priorities and wellbeing", condition: "If learners balance their time and priorities to sustain progress." }
 
   - statement: >-
       Track progress, use feedback, and reflect on your growth.

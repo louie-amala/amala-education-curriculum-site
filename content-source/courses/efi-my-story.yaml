@@ -116,6 +116,38 @@ principleMappings:
     inThisCourse:
       - Narrating experience clearly is a communication skill learners reuse across study, work, and life.
 
+  - principle: authentic-challenges
+    inThisCourse:
+      - >-
+          The end-of-course narrative is written about something that actually happened to the learner, so the language is carrying real content rather than an exercise.
+      - >-
+          Learners choose which experience to write about, including the option of an everyday one, so nobody is required to make a difficulty public in order to complete the course.
+      - >-
+          The writing is shared with a real audience rather than submitted for marking only.
+  - principle: responsible-action
+    inThisCourse:
+      - >-
+          Learners consider what is theirs to tell: whose story is this, who else appears in it, and would they want it shared.
+      - >-
+          Facilitators model asking permission before repeating something someone else said, which is the same consent habit the wider programme teaches.
+      - >-
+          Difficult material is handled with a stated right to withhold, and an everyday alternative that is treated as a full answer.
+  - principle: connect-to-futures
+    inThisCourse:
+      - >-
+          Learners see that being able to give an account of your own experience in English is what a personal statement, an interview answer and an application all rest on.
+      - >-
+          Facilitators name the next step in the English sequence, and what level of writing the pathway a learner is aiming at will ask for.
+      - >-
+          The narrative is kept as work a learner can show someone.
+  - principle: feedback-and-data
+    inThisCourse:
+      - >-
+          Learners give and receive feedback on drafts against a shared, visible standard, rather than waiting for a facilitator's verdict.
+      - >-
+          Facilitators track which sounds, words and structures keep causing trouble, and recycle those rather than moving on by the plan.
+      - >-
+          The self-check at the start and end gives learners their own evidence of progress, and gives facilitators a check on their pacing.
 designChecklist:
   - The course includes ~20–40 hours of learning experiences integrating phonics, grammar, reading, writing, and speaking.
   - Grammar, phonics, and vocabulary are connected to the unit outcomes and the personal-narrative project.

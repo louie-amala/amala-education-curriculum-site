@@ -156,6 +156,14 @@ principleMappings:
       - Learners are supported to discuss sensitive issues safely and with empathy.
       - Educators remain alert to local sensitivities and adapt examples or terminology as needed.
 
+  - principle: connect-to-futures
+    inThisCourse:
+      - >-
+          Learners map the routes through which people actually change systems — organising, advocacy, media, law, public service, community leadership — and where each begins for someone in their position.
+      - >-
+          Facilitators connect learners with people already doing this work, so a pathway is a person they have met rather than an abstraction.
+      - >-
+          Learners name the change they intend to keep working on after the course, and the next concrete step towards it.
 designChecklist:
   - My course design includes ~100 hours of learning experiences/tasks
   - My course design is appropriate for my context (e.g. relevant problems, safe activities, resource-optimised, culturally and linguistically accessible).

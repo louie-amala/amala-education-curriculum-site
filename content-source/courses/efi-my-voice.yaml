@@ -122,6 +122,38 @@ principleMappings:
     inThisCourse:
       - The course is the first step of a bridge toward B1 and further study such as the GSD.
 
+  - principle: authentic-challenges
+    inThisCourse:
+      - >-
+          The identity artefact is made for a real audience and about the learner themselves, so the English is being used rather than practised.
+      - >-
+          Learners choose what represents them, which makes the task genuinely theirs rather than a form to complete.
+      - >-
+          Being able to say who you are in English is not a rehearsal for a real challenge — for a learner who cannot yet do it, it is the challenge.
+  - principle: collaboration
+    inThisCourse:
+      - >-
+          Almost all speaking practice happens in pairs and small groups, so learners are each other's main resource rather than an audience for the facilitator.
+      - >-
+          Learners introduce one another, which requires listening to a peer and representing them accurately.
+      - >-
+          Learners are encouraged to practise with family and neighbours, bringing the people around them into the learning.
+  - principle: responsible-action
+    inThisCourse:
+      - >-
+          Learners are taught to ask before repeating something about another person, and never to share a peer's work without agreement.
+      - >-
+          Facilitators set the norm that nobody is laughed at for an accent, a home language, or a slow start — handled the first time, not the third.
+      - >-
+          Every personal prompt has an everyday alternative, offered without comment, so no learner has to trade privacy for participation.
+  - principle: feedback-and-data
+    inThisCourse:
+      - >-
+          Correction is withheld during speaking and gathered for later recycling, so learners find out what to work on without being stopped mid-sentence.
+      - >-
+          The 'I can…' self-check, marked at the start and again at the end, is the learner's own record and the facilitator's clearest signal about pace.
+      - >-
+          Facilitators note which sounds are not landing and bring them back in short bursts rather than re-explaining.
 designChecklist:
   - The course includes ~20–40 hours of learning experiences, integrating phonics, grammar, vocabulary, reading, writing, and speaking.
   - Grammar, phonics, and vocabulary are connected to the unit outcomes and the identity-artifact project.

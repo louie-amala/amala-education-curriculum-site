@@ -204,7 +204,7 @@ competencyDevelopment:
       problem matters and what the ask would make possible. Whether a mentor says the ask is
       something they could say yes to is the clearest evidence available here.
 objectiveIds: [social-entrepreneurship--o3]
-relatedSlugs: [ladder-of-feedback, pitch-deck-and-concept-brief, final-showcase-pitch]
+relatedSlugs: [ pitch-deck-and-concept-brief, final-showcase-pitch]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
   Enriched into a structured facilitation flow (duration, grouping, steps with prompts,
@@ -213,3 +213,7 @@ provenanceNote: >-
   pitch, including practice rounds, pitch circles, checkpoints and feedback protocols)
   and the SE course guide objective 3 furtherDetails (simulated pitch sessions with
   peers, facilitators or invited mentors).
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

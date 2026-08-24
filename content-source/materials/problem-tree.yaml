@@ -68,3 +68,7 @@ relatedSlugs: [iceberg-model, systems-thinking-iceberg-model, stakeholder-commun
 sourceRefs: ["planner-new.txt"]
 provenanceNote: >-
   Grounded in the 2025 course planner (Part 3.2), which references a problem tree activity as a prior step that connects to the iceberg model. The planner refers to it rather than fully specifying it, so the facilitation detail here draws on standard problem tree practice. [to verify] against any dedicated Amala problem tree worksheet.
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

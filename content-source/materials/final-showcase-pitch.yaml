@@ -227,7 +227,7 @@ competencyDevelopment:
       communication done under real conditions rather than rehearsal ones. The pitch, the deck and
       the audience feedback captured on the day are the evidence.
 objectiveIds: [social-entrepreneurship--o3, peacebuilding--o3]
-relatedSlugs: [pitch-deck-and-concept-brief, simulated-pitch-and-feedback, identifying-mentors]
+relatedSlugs: [pitch-deck-and-concept-brief, simulated-pitch-and-feedback]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
   Enriched into a structured facilitation flow (duration, grouping, steps with prompts,
@@ -236,3 +236,7 @@ provenanceNote: >-
   Idea Pitch rubric, and Part 5.5 Pitch Day planning, running the event and follow-up)
   and the SE course guide objective 3 furtherDetails (final showcase pitch to an
   external or community audience; networking and follow-up).
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.

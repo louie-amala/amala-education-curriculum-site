@@ -201,7 +201,7 @@ competencyDevelopment:
       health, waste or an environmental effect. Those learners show it by explaining in the note why
       the intervention should work, rather than asserting that it does.
 objectiveIds: [social-entrepreneurship--o2]
-relatedSlugs: [business-model-canvas-concept-note, financial-modelling, prototype-testing-with-users, pitch-deck-and-concept-brief]
+relatedSlugs: [business-model-canvas-concept-note, prototype-testing-with-users, pitch-deck-and-concept-brief]
 sourceRefs: [planner-new.txt, social-entrepreneurship.yaml]
 provenanceNote: >-
   Enriched into a structured facilitation flow (duration, grouping, steps with prompts,
@@ -212,3 +212,7 @@ provenanceNote: >-
   (drafting a concept note; refinement cycles to a concept statement or prototype).
   FTS2 applies only where learners draw on scientific understanding to justify the idea
   [to verify per learner project].
+rights:
+  status: amala-own
+  basis: >-
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
