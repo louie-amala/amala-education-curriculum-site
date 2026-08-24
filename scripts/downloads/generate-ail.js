@@ -358,6 +358,7 @@ function workbookChildren(opts = {}) {
   c.push(...fillLine('What helped me:'));
   endPage();
 
+  learnIt('cb-ail-strengths-and-areas-to-grow');
   page('Understand yourself', 'What I am good at', 'What I am good at', 'Not just WHAT you are good at — how you know. For each one, think of a time it actually happened.', 'cb-ail-good-at-page');
   c.push(example([
     'I am good at: helping younger children.',
@@ -433,6 +434,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Plan and take steps ---
+  learnIt('cb-ail-making-an-action-plan');
   page('Plan and take steps', 'My action plan', 'My action plan', 'Draw or write the steps to reach your goal, in order. For each step, what do you need?', 'cb-ail-action-plan-page');
   c.push(...fillLine('My goal:'));
   ['Step 1 (first)', 'Step 2 (next)', 'Step 3 (then)'].forEach((t) => {
@@ -446,6 +448,7 @@ function workbookChildren(opts = {}) {
   c.push(P('There is an Action Plan sheet you can use again for other goals.', { size: 20, color: GREY, before: 120 }));
   endPage();
 
+  learnIt('cb-ail-managing-time-and-priorities');
   page('Plan and take steps', 'My time', 'My time', 'Mark when you will work on your goal, and protect one small slot you can really keep.', 'cb-ail-my-time-page');
   c.push(P('Days:  Sat · Sun · Mon · Tue · Wed · Thu · Fri', { size: 22, before: 80 }));
   c.push(box(3600, 'Draw, mark or write the times you will work on your goal'));

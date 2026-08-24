@@ -109,6 +109,161 @@ closing: |
   not obeyed. Remind them that protecting time and wellbeing is a skill they are practising, and that a
   small step kept every week beats a big plan kept for none. Independent task: keep your slot once this
   week, then mark in the workbook whether it happened and what threatened it.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  Between-session progress is where goals are reached or quietly abandoned, and time decides which.
+  This is not a time-management lesson in the office sense — most of what fills these learners' weeks
+  is not theirs to move.
+
+  ### Start from an honest week, or the whole block is theatre
+
+  Learners will draw the week they think they should have: study, study, study. That plan dies on day
+  one, and the learner concludes they are undisciplined.
+
+  So map the real week first, in pictures, and put everything in it — family, work, caring, cooking,
+  water, prayer, the walk, rest. Say plainly that all of it is legitimate and none of it is in the way.
+  A learner who is caring for three siblings does not have a time-management problem.
+
+  Go first with your own honest week, including the parts that are not work.
+
+  ### Then find one slot — one — and make it small
+
+  Not a schedule. One slot, small enough to be real, in a gap that actually exists.
+
+  Fifteen minutes is a fine slot. Learners will offer an hour a day because that sounds serious; an
+  hour a day will not happen and its failure will cost you the learner's belief in the whole plan.
+  Push down, not up. Then ask the test question: *did that happen last week, in that gap, reliably?*
+
+  Attach it to something that already happens — after the morning meal, while the rice cooks, on the
+  walk back. An anchored slot survives; a floating one does not.
+
+  ### Important, and easy to miss: it does not have to be sitting down
+
+  Much of what these learners are working on can be done while doing something else. Saying English
+  sentences while walking or carrying. Practising sounds while cooking. Thinking through a research
+  question while queuing.
+
+  For a learner whose whole week is accounted for, this is not a consolation prize — it may be the only
+  slot that exists. Teach it as a legitimate first choice, not a fallback.
+
+  ### The priority idea, in one move
+
+  Not a matrix. One question: **of the things I could do towards my goal, which one moves it most?**
+
+  Learners default to the easiest task, because finishing something feels good. Name that pattern out
+  loud — it is very human and completely normal — then ask them to do the important thing first, while
+  they still have energy, and let the easy thing wait.
+
+  ### Plan the hard week before it arrives
+
+  Every learner decides now what they will drop when the week goes badly, and what the smallest version
+  of their step looks like. This is the same move as the if–then, applied to the slot rather than the
+  step, and it is what stops one bad week becoming the end.
+
+  ### Do not let this become moral
+
+  There is a strong pull towards discipline language — commitment, dedication, making sacrifices. Avoid
+  it. A learner who misses their slot because their mother was ill has not failed at anything. Keep the
+  frame practical: what happened, what would fit better, what shall we try next week.
+
+  ## Before they leave this block
+
+  - An honest week map that contains more than study.
+  - ONE protected slot, small, anchored to something that already happens.
+  - The next step chosen to fit that slot — not the other way round.
+  - A decision about what the hard-week version looks like.
+learnerTeaching:
+  title: "How to find time that actually exists"
+  readAloud: |
+    ## How to find time that actually exists
+
+    Your goal will be reached, or quietly given up, in the days between our sessions. What decides it
+    is whether you have real time for it.
+
+    ### First: draw your week as it really is
+
+    Not the week you think you should have. The real one.
+
+    Put everything in it — family, work, looking after children, cooking, water, prayer, walking, rest.
+    All of it.
+
+    **None of that is in the way of your learning.** It is your life, and it is not a fault. We are not
+    trying to remove it. We are looking for where a small piece of learning could fit inside it.
+
+    ### Then: find ONE slot, and make it small
+
+    Not a timetable. One slot.
+
+    Small. Fifteen minutes is a real slot. An hour every day is not, for most people — and when it does
+    not happen you will feel you failed, when really the plan was wrong.
+
+    Ask yourself honestly: **did that gap actually happen last week?** If not, choose a different one.
+
+    ### Tie it to something that already happens
+
+    A slot floating in the day gets lost. A slot attached to something that already happens survives.
+
+    - After the morning meal.
+    - While the rice is cooking.
+    - On the walk back.
+    - Just before sleeping.
+
+    ### It does not have to be sitting down
+
+    This is important, especially if your week is completely full.
+
+    A lot of what you are learning can be done while you do something else:
+
+    - Say your English sentences while you walk.
+    - Practise your sounds while you cook.
+    - Think about your question while you queue.
+
+    That is not second best. For many people it is the only time that exists — and it works.
+
+    ### Do the important thing first, not the easy thing
+
+    When you finally have your slot, you will want to do the easiest task, because finishing something
+    feels good. Everybody does this.
+
+    But ask: **which of these moves my goal the most?** Do that one first, while you still have energy.
+    The easy one can wait.
+
+    ### Now plan for the bad week
+
+    Some weeks will go wrong. Decide now, not then:
+
+    - What will I drop?
+    - What is the smallest version of my step that still counts?
+
+    A week where you did the tiny version is a week you kept going. That is completely different from a
+    week where you stopped.
+  words:
+    - term: slot
+      meaning: a small piece of time you protect for working on your goal
+    - term: anchor
+      meaning: something that already happens every day, that you attach your slot to
+    - term: priority
+      meaning: the thing that moves your goal most, out of everything you could do
+  tryIt:
+    intro: >-
+      Is each of these a slot that will survive a real week, or one that will not? Circle your answer,
+      then check at the back of the book.
+    chooseFrom: ["will survive", "will not"]
+    items:
+      - "I will study for one hour every evening."
+      - "I will say my English sentences while I walk to fetch water each morning."
+      - "I will work on my goal whenever I get some free time."
+      - "After the evening meal, before I clear up, I will do ten minutes on my goal."
+    answers:
+      - "Will not. An hour a day is a lot, and the first evening it does not happen you will feel you failed. Try fifteen minutes — you can always do more."
+      - "Will survive. It is small, it is attached to something that already happens every day, and it does not need you to sit down."
+      - "Will not. \"Whenever I get free time\" is not a slot — free time does not arrive on its own, it gets taken. Name a real moment in a real day."
+      - "Will survive. Small, anchored to something that already happens, and at a moment you can picture. This is exactly the right shape."
+    then: >-
+      Now find your own slot. Say what it is anchored to, and how long. Then decide what you will do in
+      a week that goes badly.
 worksheet:
   slug: cb-ail-my-time-page
   note: "In the learner's book (My Learning Book): the 'My time' page. Print one per learner."

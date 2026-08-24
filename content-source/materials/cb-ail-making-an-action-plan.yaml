@@ -166,6 +166,162 @@ closing: |
   abandoned. Remind them the point is not a tidy picture but a first deliberate step actually taken
   before you next meet. Independent task: take your first small step, then mark in the workbook
   whether it happened and what got in the way.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The steps already exist — learners built the ladder last session. This block turns that ladder into
+  something that survives contact with a real week. Three things get added: an order, a by-when, and a
+  plan for the week going wrong.
+
+  ### The failure this block exists to prevent
+
+  Not "learners do not plan". Learners plan beautifully and then nothing happens, because the plan
+  assumed a week that did not arrive. Then they conclude they are the sort of person who does not
+  follow through. That conclusion is the real damage, and it is what the if–then is for.
+
+  ### Keep it small — resist the impulse to make it impressive
+
+  A plan that fills the page looks like good work and predicts nothing. Four or five steps, one first
+  step, one by-when. If a learner is drawing an elaborate plan, they are performing planning rather
+  than preparing to act.
+
+  Do not labour the words "action plan" either. It is just deciding what you will do and when.
+
+  ### What each step needs — ask it as a question, not a form
+
+  For each step: **what does this need?** A person, a thing, a place, or time. That question is what
+  turns "practise English" into "practise English — needs: someone to practise with", which
+  immediately surfaces that the step cannot happen yet. Better to find that now than on Thursday.
+
+  ### The if–then is the most valuable thing in the block
+
+  This is the part to protect if you are short of time.
+
+  **If [the thing that usually stops me] happens, then I will [smaller thing instead].**
+
+  Not "I will try harder". A specific, smaller alternative decided in advance, while the learner is
+  calm and can think — because in the moment the obstacle arrives they will not be.
+
+  Make them name the real obstacle, not a polite one. The honest answers here are things like: my
+  mother needs me, there is no light, I am too tired after work, my brother takes the book, it rains
+  and I cannot go. A learner who names "I get distracted" has given you a placeholder — push once, warmly.
+
+  Good if–thens sound small and slightly disappointing. That is correct. "If there is no light, then I
+  will say my sentences out loud instead of writing them" is worth more than any amount of resolve.
+
+  ### The by-when is a decision, not a deadline
+
+  Nobody is enforcing it and learners should know that. Its whole job is to convert "soon" into
+  something you can notice you have missed — which is information, not failure.
+
+  ### Say it aloud to a partner
+
+  End with each learner saying their first step and their if–then out loud to someone. A plan said to a
+  person is far more likely to happen, and it is where you hear which plans are still fantasy.
+
+  ## Before they leave this block
+
+  - Steps in an order, with the first one pointed at.
+  - A by-when on the first step.
+  - Each step has what it needs named — and any step that cannot happen yet has been spotted.
+  - An if–then with a REAL obstacle and a genuinely smaller alternative.
+  - First step and if–then said out loud to a partner.
+learnerTeaching:
+  title: "How to make a plan that survives a bad week"
+  readAloud: |
+    ## How to make a plan that survives a bad week
+
+    You have your steps. Now we turn them into a plan.
+
+    Here is the thing to understand first: **most plans do not fail because they were wrong. They fail
+    because the week went wrong.** Someone got ill, the rain came, you were needed at home, you were
+    too tired.
+
+    So we are going to plan for that from the start. Not because we expect you to fail — because that
+    is what a real plan does.
+
+    ### 1. Put your steps in order
+
+    Which one has to happen first? Which one cannot happen until another is done?
+
+    Point at the first one.
+
+    ### 2. Say when — a by-when
+
+    Put a time on your first step. By Thursday. Before the next session. This week.
+
+    Nobody is checking, and nothing bad happens if you miss it. The by-when is just so that "soon"
+    turns into something you can notice. Noticing you missed it is useful. It is not failing.
+
+    ### 3. For each step, ask: what does this need?
+
+    A person? A thing? A place? Time?
+
+    This one question saves a lot of wasted weeks. If your step is "practise English" and what it needs
+    is "someone to practise with" — and you do not have anyone yet — then that step cannot happen at
+    all. Much better to find that out now than on Thursday.
+
+    ### 4. Now the most important part: your if–then
+
+    Think about what USUALLY stops you. The real thing, not the polite thing.
+
+    - My mother needs me.
+    - There is no light.
+    - I am too tired after work.
+    - My brother takes the book.
+    - It rains and I cannot go.
+
+    Now decide, **now, while you are calm**, what you will do instead when that happens:
+
+    **If ______ happens, then I will ______ .**
+
+    The "then" must be SMALLER, not the same thing with more effort.
+
+    - "If I am too tired to write, then I will say my three sentences out loud instead."
+    - "If my mother needs me all evening, then I will do one word in the morning."
+
+    ### Why this works
+
+    When the obstacle actually arrives, you will be tired, or worried, or busy. That is the worst
+    moment to decide anything.
+
+    If you already decided, you do not have to think. You just do the smaller thing. And doing the
+    smaller thing means you did not stop — which is the whole point.
+
+    ### A good if–then sounds small and a bit disappointing
+
+    That is correct. It is supposed to. A tiny thing that actually happens beats a big thing that
+    does not.
+
+    ### Say it out loud
+
+    Tell your partner your first step and your if–then. Out loud, to a person. It makes it real.
+  words:
+    - term: action plan
+      meaning: your steps, in order, with when you will do them and what they need
+    - term: by-when
+      meaning: the time you decide you will have done a step by
+    - term: if–then
+      meaning: deciding now what you will do instead when the usual thing stops you
+  tryIt:
+    intro: >-
+      Is each of these a good if–then, or will it fail? Circle your answer, then check at the back of
+      the book.
+    chooseFrom: ["good if–then", "will fail"]
+    items:
+      - "If I am busy, then I will try harder."
+      - "If there is no light in the evening, then I will practise my words while I walk to the water point in the morning."
+      - "If I feel too shy to speak English to a stranger, then I will say it to my sister instead."
+      - "If I miss a day, then I will do double the next day."
+    answers:
+      - "Will fail. \"Try harder\" is not a plan — it is the same thing with more effort, decided by a tired person in a bad moment. What SMALLER thing could you do instead?"
+      - "Good. The obstacle is real and specific, and the \"then\" is smaller and happens somewhere else. This will survive the week."
+      - "Good. It keeps the step alive at a size you can manage, and speaking to one trusted person counts fully."
+      - "Will fail. Double is bigger, not smaller — so a bad day turns into a harder day, and then you stop. Try: \"if I miss a day, then I will do one small thing the next day and carry on.\""
+    then: >-
+      Now write or draw your own if–then. Use the REAL thing that stops you, and make the "then"
+      genuinely smaller.
 worksheet:
   slug: cb-ail-action-plan-page
   note: "In the learner's book (My Learning Book): the 'My action plan' page. Print one per learner."
