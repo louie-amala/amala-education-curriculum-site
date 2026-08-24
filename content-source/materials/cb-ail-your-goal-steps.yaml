@@ -120,6 +120,152 @@ closing: |
   small steps. Remind them that next session begins by asking how the first step went, and that a step
   taken, however small, is proof they can steer their own learning. Independent task: take your first
   step this week, and be ready to say what happened.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  A goal on a page does nothing. This is the block that turns it into something a learner can start on
+  Thursday. Everything after it — the action plan, the weekly steps, the whole between-session engine —
+  runs on what happens here.
+
+  ### Why break a goal into steps at all
+
+  Two reasons, and learners find the second one surprising.
+
+  1. **A big thing is hard to start.** Not because people are lazy, but because you cannot see where to
+     put your hand. Steps give you somewhere to put your hand.
+  2. **Steps are how you find out you are moving.** A learner working on a ten-week goal with no steps
+     has no evidence of progress for ten weeks, and will conclude nothing is happening. A learner who
+     finished step two knows something changed. That evidence is what keeps them going, and in this
+     cohort it is often the first evidence they have ever had that effort works.
+
+  ### What makes a step a step
+
+  A step is something you could **finish in one go, and know you had finished**. If a learner cannot
+  say when it would be done, it is not a step, it is a smaller goal.
+
+  Four or five steps is right. Ten means they are planning, not stepping. Two usually means the steps
+  are still goals in disguise.
+
+  ### The first step is the one that matters — make it embarrassingly small
+
+  This is the single most important judgement in the block, and facilitators consistently pitch it too
+  high.
+
+  A good first step is one the learner could do **today, without anyone's help, without anything they
+  do not already have.** "Ask my neighbour to teach me three words" is a first step. "Practise English
+  for an hour every day" is not — it is a habit, and habits are not first steps.
+
+  Learners will offer ambitious first steps because ambition feels like commitment. Push back warmly
+  and specifically: *could you do that before we next meet, even if this week goes badly?* If the
+  honest answer is no, halve it. Then check again.
+
+  The point of the first step is not progress. It is that the learner finds out they can move at all.
+
+  ### Ladders that go the wrong way
+
+  Watch for step ladders where the first rung is the hardest — a learner who puts "find someone to
+  teach me" at the bottom and "practise what they taught me" at the top has it upside down. Ask which
+  one they could do first, and re-order.
+
+  ### Say it out loud, to a person
+
+  The block ends with each learner saying their first step aloud to a partner. Do not cut this for
+  time. A step said to another person is far more likely to happen than one written on a page, and this
+  is also the moment you hear which steps are still too big.
+
+  ## Before they leave this block
+
+  - A drawn ladder with four or five steps, in an order that makes sense.
+  - A first step chosen and coloured, which the learner could genuinely do before the next session.
+  - The first step said out loud to a partner.
+  - You have personally checked the first step of any learner you are unsure about — this is worth your
+    time more than anything else in the block.
+learnerTeaching:
+  title: "How to break a goal into steps you can actually take"
+  readAloud: |
+    ## How to break a goal into steps
+
+    You have a goal now. A goal on a page does nothing on its own. This is how you turn it into
+    something you can start.
+
+    ### Why steps?
+
+    Two reasons.
+
+    **A big thing is hard to start.** Not because you are lazy — because you cannot see where to put
+    your hand first. Steps give you somewhere to put your hand.
+
+    **Steps are how you find out you are moving.** If your goal takes ten weeks and you have no steps,
+    you will not know for ten weeks whether anything is happening. If you finish step two, you KNOW you
+    moved. That is worth a lot.
+
+    ### What makes something a step
+
+    A step is something you could **finish in one go, and know you had finished it**.
+
+    - "Learn to read" — not a step. That is another goal.
+    - "Ask my neighbour to show me the letters in my name" — a step. You can finish it. You will know.
+
+    Four or five steps is about right. If you have ten, they are too small. If you have two, they are
+    probably still goals in disguise.
+
+    ### Put them in order
+
+    Which one has to happen first? Which one cannot happen until another is done?
+
+    Watch out for a ladder that is upside down. If your first step is the hardest one, swap it.
+
+    ### Now the important part: your FIRST step
+
+    Choose the first step. Then make it smaller.
+
+    A good first step is one you could do **today**, on your own, with what you already have.
+
+    - "Practise English for an hour every day" — this is not a first step. It is a habit, and habits
+      are hard to start.
+    - "Ask one person to teach me three words" — this is a first step. You could do it this afternoon.
+
+    Ask yourself honestly: **could I do this before we meet again, even if this week goes badly?**
+
+    If the answer is no, make it smaller. Then ask again.
+
+    ### Why so small?
+
+    Because the point of the first step is not to get a lot done. The point is to find out that you can
+    move at all. Everything after that is easier.
+
+    ### Say it out loud
+
+    Tell your partner your first step. Out loud, to a person.
+
+    A step you have said to someone is much more likely to actually happen than one you only wrote
+    down. Nobody knows why, but it is true.
+  words:
+    - term: step
+      meaning: something small you can finish in one go, on the way to your goal
+    - term: first step
+      meaning: the one you will do first — small enough to do today
+    - term: ladder
+      meaning: your steps drawn in order, from the one you do first to the one you do last
+  tryIt:
+    intro: >-
+      Someone's goal is "be able to introduce myself in English". Is each of these a good FIRST step, or
+      is it too big? Circle your answer, then check at the back of the book.
+    chooseFrom: ["good first step", "too big"]
+    items:
+      - "Practise English for one hour every evening."
+      - "Ask my facilitator to say the words \"my name is\" so I can hear them."
+      - "Become confident speaking English to strangers."
+      - "Say my name in English to one person in my family tonight."
+    answers:
+      - "Too big. This is a habit, not a step — and if you miss one evening it feels like you have already failed. Habits come later."
+      - "A good first step. You could do it today, it needs nothing you do not have, and you will know when it is done."
+      - "Too big. This is not a step at all, it is a bigger goal than the one you started with. Ask: what is the smallest piece of this?"
+      - "A good first step. Small, today, one person, and you will know. This is exactly the right size — it may even feel too easy, which is fine."
+    then: >-
+      Now look at your own first step. Could you do it before we meet again, even if this week goes
+      badly? If not, make it smaller.
 worksheet:
   slug: cb-ail-my-steps-page
   note: "In the learner's book (My Learning Book): the 'My steps' page. Print one per learner."

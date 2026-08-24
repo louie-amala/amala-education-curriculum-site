@@ -142,6 +142,135 @@ closing: |
   the difference. Remind them this is a lens they now own: every goal they set from here can be held up
   against small, clear, matters, and by-when. Independent task: think of one goal you might set next
   session, and check it against the four tests, or ask someone at home to hear it and help you.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  This is the block the rest of the component rests on. A learner with a weak goal will spend eight
+  weeks failing at something that was never reachable, and will conclude the failure was theirs. Most
+  of what looks like poor motivation later is a bad goal set here.
+
+  ### The four tests, and what each is actually guarding against
+
+  1. **Small enough to reach.** Guards against a goal that is really an ambition. "Learn English" is a
+     wish; "say five true sentences about myself" is a goal. The test: could you finish this in the
+     weeks we have?
+  2. **Clear enough to know when it is done.** Guards against a goal a learner can never tick.
+     "Get better at reading" has no finish line. "Read the words on the shop signs near my shelter"
+     does. The test: how will you KNOW?
+  3. **It matters to you.** Guards against the goal a learner thinks you want to hear. This is the
+     commonest failure in this block and the hardest to spot, because those goals sound excellent.
+  4. **It has a by-when.** Guards against the goal that is always about to start. The test: when will
+     you have done it?
+
+  ### The trap: goals set to please you
+
+  Learners who have been in school know what an adult wants to hear. You will get "study hard every
+  day" and "be a good student", said with real sincerity. They are not lying — they are answering the
+  question they think you asked.
+
+  The tell is that the learner cannot say WHY, or says why in the same borrowed words. Ask "what would
+  be different for you if you did that?" and listen for something concrete. If nothing comes, the goal
+  is not theirs yet. Do not accept it because it is well-behaved.
+
+  ### The other trap: goals about things they do not control
+
+  This edition deliberately reframes goal-setting around what is within a learner's control, and this
+  block is where that gets enforced. "Get a place at the secondary school" is not a goal a learner can
+  set — it depends on a decision someone else makes. "Be able to introduce myself in English" is. If a
+  learner reaches for the blocked thing, do not correct them and do not endorse it: ask what the first
+  step towards it would be that is theirs to take, and let the goal be that step.
+
+  ### Teach judgement on other people's goals first
+
+  Learners cannot yet judge their own — nobody can, at the start. So the sequence is: learn the tests,
+  judge examples that are not theirs, fix a weak one together, and only then turn the tests on their
+  own rough goal. Skipping to their own goal is the commonest way this block fails.
+
+  Use example goals close to your learners' real lives, not textbook ones. Include at least one that
+  fails only ONE test — those are the useful ones, because a goal that fails all four teaches nothing.
+
+  ## Before they leave this block
+
+  - Every learner can say the four tests without the page in front of them.
+  - They have judged at least four goals that are not their own, and said which test each one fails.
+  - They have fixed a weak goal out loud, as a group.
+  - They have run the tests on one rough goal of their own — the goal itself comes next session, so it
+    does not have to be finished, only tested.
+learnerTeaching:
+  title: "How to tell a good goal from a weak one"
+  readAloud: |
+    ## How to tell a good goal from a weak one
+
+    You are going to choose a goal of your own. Before you do, you need to be able to tell a good goal
+    from a weak one — because a weak goal wastes weeks, and it makes you feel it was your fault.
+
+    A good goal passes four tests.
+
+    ### Test 1 — Is it small enough to reach?
+
+    Small enough that you could finish it in the weeks we have.
+
+    - "Learn English" — too big. That takes years.
+    - "Say five true sentences about myself in English" — small enough.
+
+    A big wish is not a bad thing. But a goal is a piece of it you can actually reach.
+
+    ### Test 2 — Is it clear? Will you KNOW when it is done?
+
+    You must be able to tell whether you have done it.
+
+    - "Get better at reading" — how would you know? Better than what?
+    - "Read the words on the signs near my shelter" — you will know. You either can or you cannot.
+
+    Ask yourself: **how will I know I have done it?**
+
+    ### Test 3 — Does it matter to ME?
+
+    This is the most important one, and the easiest to get wrong.
+
+    Do not choose the goal you think your facilitator wants to hear. "Study hard every day" sounds
+    good and means nothing. Nobody is marking your goal.
+
+    Ask yourself: **what would be different for me if I did this?** If you cannot answer, it is not
+    your goal yet. Choose again.
+
+    ### Test 4 — Is there a by-when?
+
+    A goal with no time is always about to start. Say when: by the end of this course, in four weeks,
+    by the time the rains come.
+
+    ### One more thing: choose something YOU can decide
+
+    Some things are decided by other people. Whether you get a place somewhere is not yours to decide.
+
+    So make your goal the part that IS yours. Not "get into the school" — but "be able to introduce
+    myself in English". You can do that one. Nobody has to say yes first.
+  words:
+    - term: goal
+      meaning: something you decide you want to be able to do, and go after on purpose
+    - term: by-when
+      meaning: the time you say you will have done it by
+    - term: reachable
+      meaning: small enough that you really could finish it
+  tryIt:
+    intro: >-
+      Read each goal. Does it pass all four tests, or does it fail one? Circle your answer, and see if
+      you can say WHICH test it fails. Then check at the back of the book.
+    chooseFrom: ["good goal", "fails a test"]
+    items:
+      - "I want to be better."
+      - "By the end of this course, I want to be able to write my name and say three sentences about myself."
+      - "I want to study hard every day and be a good student."
+      - "I want to get a place at the secondary school next year."
+    answers:
+      - "Fails Test 2 — it is not clear. Better at what? How would you know? Ask: what would I be able to DO?"
+      - "A good goal. It is small, it is clear (you can tell), and it has a by-when. Whether it passes Test 3 only YOU can say."
+      - "Fails Test 3 — and probably Test 2. It sounds like the answer a teacher wants. What would actually be different for you? Answer that, and you will find your real goal."
+      - "Fails the last rule — it is not yours to decide. Someone else decides who gets a place. Make your goal the part you CAN decide: what would you need to be able to do to be ready?"
+    then: >-
+      Now take one rough goal of your own and run all four tests on it. It does not have to pass yet —
+      that is what next session is for.
 worksheet:
   slug: cb-ail-good-goal-page
   note: "In the learner's book (My Learning Book): the 'Is my goal a good goal?' page. Print one per learner."

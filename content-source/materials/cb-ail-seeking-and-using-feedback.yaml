@@ -150,6 +150,153 @@ closing: |
   they, not their partner, chose what to keep. Say aloud that asking for help is a loop they can run themselves:
   one clear question, an open ear, and one small change. Independent task: before the next session, try your one
   small change, and mark in your workbook whether it helped.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  Feedback is the block that most changes what a learner can do alone after the programme ends — but
+  only if it is taught as something the learner ASKS FOR. Feedback that arrives unasked is a verdict.
+  Feedback you requested, about a thing you chose, is a tool. That distinction is the whole block.
+
+  ### Why the vague ask fails
+
+  "How am I doing?" gets "fine, well done" every time, from everyone, and teaches nothing. Not because
+  people are being polite — because the question is unanswerable. Nobody can review your whole self on
+  the spot.
+
+  A specific ask gets a specific answer: *"When I said my sentences, what was hard to understand?"*
+  Narrow it to one thing, and to something the person actually saw you do.
+
+  ### The three-part ask
+
+  Teach it as a shape learners can reuse: **one thing · one person who saw it · one question they can
+  answer.** Learners who have this can get useful feedback for the rest of their lives, from anyone.
+
+  ### Listening without defending is the hard part, and it is a skill not a virtue
+
+  When someone names something you did badly, the body wants to explain. That is not rudeness or
+  fragility — it is what everyone does. But every word of explanation is a word you are not listening
+  with, and it teaches the other person not to tell you things.
+
+  Teach two concrete moves rather than "be open-minded":
+
+  1. **Say only "thank you" until they have finished.** Nothing else. Not "yes but".
+  2. **Ask one question to understand, not to argue.** "Can you show me where?" is understanding.
+     "But didn't you think the rest was all right?" is arguing.
+
+  Practise it in pairs, badly on purpose first — have one learner defend everything for thirty seconds
+  so the group can watch what it does to the conversation. It is funny, and it lands.
+
+  ### Feedback is information, not instruction
+
+  Learners will either take every piece of advice or none. Both are ways of not deciding. The move is:
+  listen to all of it, then choose ONE thing to change. The choosing is theirs — that is what keeps
+  the goal in their hands, and it is what makes this an agency block rather than a compliance one.
+
+  Some advice will be wrong. Say so plainly: you are allowed to decide a piece of advice does not fit,
+  as long as you thought about it.
+
+  ### Who to ask, in this context
+
+  Learners will default to the facilitator, which is the least useful answer — you are the person most
+  likely to be kind and least likely to have seen them at home. Push them towards someone who actually
+  saw the thing: a partner in the group, a sibling, the person they practised English with, their
+  mentor. A younger sibling is a genuinely good source and learners are surprised by that.
+
+  ## Before they leave this block
+
+  - Every learner has ONE specific thing they will ask about, and one named person who saw it.
+  - They have practised receiving feedback without defending, and can name the two moves.
+  - They know they choose what to act on — and that choosing to ignore something, having considered it,
+    is allowed.
+  - They have one change written or drawn in their book to try before the next session.
+learnerTeaching:
+  title: "How to ask for feedback, and what to do with it"
+  readAloud: |
+    ## How to ask for feedback
+
+    Feedback is not someone judging you. Feedback is you **asking** for something you want to know.
+
+    That difference matters. When someone tells you what they think without you asking, it can feel
+    like a verdict. When you asked, about a thing you chose, it is a tool — and you decide what to do
+    with it.
+
+    ### Why "how am I doing?" is a waste of a question
+
+    Ask "how am I doing?" and you will get "fine, well done." Every time, from everyone.
+
+    Not because people are being polite. Because the question cannot be answered. Nobody can look at
+    your whole self and give you something useful on the spot.
+
+    ### Ask for one thing, from one person who saw it
+
+    A good ask has three parts:
+
+    - **One thing.** Not everything. One.
+    - **One person who actually saw it.** Not just anyone.
+    - **A question they can answer.**
+
+    Compare these:
+
+    - "How am I doing with English?" — unanswerable.
+    - "When I said my sentences yesterday, which word was hard to understand?" — they can answer that.
+
+    ### Who to ask
+
+    Not always your facilitator. Ask the person who SAW the thing:
+
+    - The person you practised English with.
+    - Your partner in the group.
+    - Your brother or sister — younger ones are surprisingly good at this, because they say what they
+      actually think.
+    - Your mentor.
+
+    ### The hard part: listening without defending
+
+    When someone says something you did not do well, your body wants to explain. Everybody's does.
+    This is normal and it is also the thing that ruins feedback — because while you are explaining, you
+    are not listening, and the person learns not to tell you things.
+
+    Two things to do instead:
+
+    1. **Say "thank you" and nothing else** until they have finished. Not "yes, but".
+    2. **Ask one question to understand.** "Can you show me where?" is understanding. "But wasn't the
+       rest all right?" is arguing.
+
+    You can think about whether you agree afterwards. Not while they are talking.
+
+    ### Then YOU choose
+
+    You do not have to do everything you are told. You also should not ignore all of it.
+
+    Listen to all of it. Then choose **one** thing to change, and try it.
+
+    Some advice will not fit you, and you are allowed to decide that — as long as you really thought
+    about it. Choosing is your job. That is what keeps this your goal.
+  words:
+    - term: feedback
+      meaning: what someone tells you about something you did, when you asked them
+    - term: specific
+      meaning: about one exact thing, not about everything
+    - term: defending
+      meaning: explaining why you did it, instead of listening
+  tryIt:
+    intro: >-
+      Is each of these a good ask for feedback, or a weak one? Circle your answer, then check at the
+      back of the book.
+    chooseFrom: ["good ask", "weak ask"]
+    items:
+      - "Am I doing all right?"
+      - "When I told you my three sentences yesterday, which part did you not understand?"
+      - "Is my English good?"
+      - "You watched me ask my neighbour those questions. What is one thing I could do better next time?"
+    answers:
+      - "Weak. It cannot be answered, so you will get \"yes, fine\" — which tells you nothing."
+      - "Good. One thing, one person who was there, and a question they can answer. This will get you something real."
+      - "Weak. Good compared with what? Ask about one thing you actually did, that they actually heard."
+      - "Good. It names what they saw, asks for ONE thing, and asks about next time — which is easier for someone to answer honestly than asking what was wrong."
+    then: >-
+      Now write or draw your own ask: one thing, one person who saw it, one question. Then go and ask it.
 worksheet:
   slug: cb-ail-feedback-page
   note: "In the learner's book (My Learning Book): the 'Feedback I got' page. Print one per learner."

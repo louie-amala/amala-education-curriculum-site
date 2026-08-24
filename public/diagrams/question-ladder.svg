@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="The question ladder: five rungs of question, from the bottom up. Fact questions (what, who, where, how many); explanation questions (how does, why does); comparison questions (what is the difference between, which); prediction questions (what happens if, what would change if); judgement and advice questions (what would you do, what should we). The higher the rung, the more the person answering has to explain rather than recall.">
+  <style>
+    .rl { font: 700 15px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; fill: #041E42; }
+    .rs { font: 400 13px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; fill: #4b5563; }
+    .ax { font: 700 12px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; fill: #004976; letter-spacing: .08em; }
+  </style>
+
+  <!-- upward arrow: the higher the rung, the more the person has to explain -->
+  <defs>
+    <marker id="ql-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#004976"/>
+    </marker>
+  </defs>
+  <line x1="42" y1="372" x2="42" y2="34" stroke="#004976" stroke-width="1.5" marker-end="url(#ql-arrow)"/>
+  <text class="ax" x="26" y="203" text-anchor="middle" transform="rotate(-90 26 203)">MORE FOR THEM TO EXPLAIN</text>
+
+  <!-- rung 5 (top): judgement and advice -->
+  <rect x="80" y="30" width="490" height="58" rx="6" fill="#893B67" fill-opacity="0.16" stroke="#004976" stroke-opacity="0.35"/>
+  <text class="rl" x="100" y="55">Judgement and advice</text>
+  <text class="rs" x="100" y="75">&#8220;What would you do&#8230;?&#8221; &#8220;What should we&#8230;?&#8221;</text>
+
+  <!-- rung 4: prediction -->
+  <rect x="80" y="98" width="490" height="58" rx="6" fill="#F0B323" fill-opacity="0.20" stroke="#004976" stroke-opacity="0.35"/>
+  <text class="rl" x="100" y="123">Prediction</text>
+  <text class="rs" x="100" y="143">&#8220;What happens if&#8230;?&#8221; &#8220;What would change if&#8230;?&#8221;</text>
+
+  <!-- rung 3: comparison -->
+  <rect x="80" y="166" width="490" height="58" rx="6" fill="#4797A8" fill-opacity="0.18" stroke="#004976" stroke-opacity="0.35"/>
+  <text class="rl" x="100" y="191">Comparison</text>
+  <text class="rs" x="100" y="211">&#8220;What is the difference between&#8230;?&#8221; &#8220;Which&#8230;?&#8221;</text>
+
+  <!-- rung 2: explanation -->
+  <rect x="80" y="234" width="490" height="58" rx="6" fill="#8F993E" fill-opacity="0.18" stroke="#004976" stroke-opacity="0.35"/>
+  <text class="rl" x="100" y="259">Explanation</text>
+  <text class="rs" x="100" y="279">&#8220;How does&#8230;?&#8221; &#8220;Why does&#8230;?&#8221;</text>
+
+  <!-- rung 1 (bottom): fact -->
+  <rect x="80" y="302" width="490" height="58" rx="6" fill="#97999B" fill-opacity="0.15" stroke="#004976" stroke-opacity="0.35"/>
+  <text class="rl" x="100" y="327">Fact</text>
+  <text class="rs" x="100" y="347">&#8220;What&#8230;?&#8221; &#8220;Who&#8230;?&#8221; &#8220;Where&#8230;?&#8221; &#8220;How many&#8230;?&#8221;</text>
+
+  <text class="rs" x="325" y="386" text-anchor="middle">Start at the bottom for quantity, then climb: the top rungs are where an expert teaches you something.</text>
+</svg>

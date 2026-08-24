@@ -19,7 +19,7 @@ const {
   NAVY, PLUM, GREY, OLIVE,
   toParas, P, body, bullet, label, H1, H2, H3, eyebrow, hr, pageBreak,
   box, slot, writeBox, notesPage, bold, gridBoxes, refTable, callout, makeDoc, Paragraph, TextRun, AlignmentType,
-  LOGO, image, iconLine, imgRun, icon, mdBlocks,
+  LOGO, image, iconLine, imgRun, icon, mdBlocks, eyebrowChip, noteBox, scribe,
 } = S;
 
 const ROOT = path.resolve(__dirname, '..', '..');
@@ -66,6 +66,12 @@ function blockChildren(b) {
     if (m.summary) c.push(P(toParas(m.summary).join(' '), { italics: true, size: 22, color: GREY }));
     const meta = [m.duration && `Timing: ${m.duration}`, m.grouping && `Grouping: ${m.grouping}`].filter(Boolean);
     if (meta.length) c.push(P(meta.join('   ·   '), { size: 20, color: GREY, after: 100 }));
+    // The subject brief: what a facilitator needs to KNOW to teach this block, not just how to run
+    // it. Offline this is the only place they can read it, so it comes before the practical detail.
+    if (m.educatorContent) c.push(...mdBlocks(m.educatorContent));
+    if (m.learnerTeaching) {
+      c.push(P(`The learners have this taught in their own book, on the \u201c${m.learnerTeaching.title}\u201d page \u2014 read it aloud to the group.`, { size: 20, italics: true, color: GREY, after: 100 }));
+    }
     if (m.facilitationNotes) { c.push(eyebrow('The one thing to get right')); c.push(...body(m.facilitationNotes)); }
     if (m.whatLearnersDo && m.whatLearnersDo.length) { c.push(eyebrow('What learners do')); m.whatLearnersDo.forEach((x) => c.push(bullet(x))); }
     if (m.materialsAndPreparation && m.materialsAndPreparation.length) { c.push(eyebrow('Prepare')); m.materialsAndPreparation.forEach((x) => c.push(bullet(x))); }
@@ -229,6 +235,43 @@ function workbookChildren(opts = {}) {
     c.push(pageBreak());
   };
 
+  // LEARN IT — the method, taught, before the learner is asked to use it. Its own page, not a header
+  // on the working page, so a learner can re-read the method while their own page is already filled
+  // in. Where the skill has right answers they are printed at the BACK of the book, so a learner can
+  // try it honestly and mark themselves. Collected here, emitted after the last activity page.
+  const withAnswers = [];
+  const learnIt = (slug) => {
+    const m = mat[slug];
+    const lt = m && m.learnerTeaching;
+    if (!lt) return;
+    c.push(eyebrowChip('learn it', m.title));
+    c.push(...bigTitle(lt.title, ''));
+    c.push(...mdBlocks(String(lt.readAloud || '').replace(/^\s*##\s+.*\n/, '')));
+    if (lt.words && lt.words.length) {
+      c.push(noteBox('New words:', lt.words.map((w) => `${w.term} — ${w.meaning}`)));
+    }
+    const t = lt.tryIt;
+    if (t) {
+      c.push(new Paragraph({ children: [new TextRun({ text: 'Try it yourself', bold: true, size: 23, color: PLUM })], spacing: { before: 200, after: 60 } }));
+      toParas(t.intro).forEach((x) => c.push(P(x, { size: 22, line: 300 })));
+      (t.items || []).forEach((it, i) => {
+        c.push(P(`${i + 1}.   ${it}`, { size: 22, line: 300, before: 80, after: 20 }));
+        if ((t.chooseFrom || []).length) {
+          c.push(new Paragraph({ children: t.chooseFrom.flatMap((o) => [
+            new TextRun({ text: '○  ', size: 22, color: PLUM }), new TextRun({ text: o + '      ', size: 22 }),
+          ]), indent: { left: 340 }, spacing: { after: 60, line: 280 } }));
+        }
+      });
+      if (t.then) toParas(t.then).forEach((x) => c.push(P(x, { size: 22, line: 300, before: 60 })));
+      if ((t.answers || []).length) {
+        c.push(P('The answers are at the back of your book. Try it first, then check.', { size: 20, italics: true, color: GREY, before: 80 }));
+        withAnswers.push({ m, t });
+      }
+    }
+    c.push(scribe());
+    c.push(pageBreak());
+  };
+
   // --- Cover ---
   if (!opts.embedded) {
     c.push(image(LOGO, 150, 77, { align: AlignmentType.CENTER, before: 300, after: 200 }));
@@ -363,6 +406,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Set your goal ---
+  learnIt('cb-ail-what-makes-a-good-goal');
   page('Set your goal', 'Is my goal a good goal?', 'Is my goal a good goal?', 'A good goal passes these four tests. Check your goal against each one. Keep this page — use it every time you set a goal.', 'cb-ail-good-goal-page');
   c.push(checkItem('target', 'Small  —  I can reach it soon, not in a far-off future.'));
   c.push(checkItem('mirror', 'Clear  —  I can tell when I have reached it.'));
@@ -379,6 +423,7 @@ function workbookChildren(opts = {}) {
   c.push(...fillLine('It could help (someone I care about):'));
   endPage();
 
+  learnIt('cb-ail-your-goal-steps');
   page('Set your goal', 'My steps', 'My steps', 'Draw your steps. Colour the first step you can reach.', 'cb-ail-my-steps-page');
   c.push(...slot('My goal — at the top…', 3));
   c.push(...slot('Step 3 — before that, I will…', 3));
@@ -422,6 +467,7 @@ function workbookChildren(opts = {}) {
   endPage();
 
   // --- Track and reflect ---
+  learnIt('cb-ail-seeking-and-using-feedback');
   page('Track and reflect', 'Feedback I got', 'Feedback I got', 'Ask one person: "what is one thing I could do better?" Listen, then decide what to do with it.', 'cb-ail-feedback-page');
   c.push(...fillLine('Who I asked:'));
   c.push(...slot('What they said was…', 4));
@@ -463,6 +509,21 @@ function workbookChildren(opts = {}) {
   if (missing.length) {
     throw new Error('Agency in Learning workbook has no page for these unit-plan activities:\n' + missing.join('\n'));
   }
+
+  // ANSWERS — at the back, so a learner can do each "Try it yourself" honestly and then check it
+  // themselves. Only skills with right answers appear; a generative task has no key.
+  if (withAnswers.length) {
+    c.push(...bigTitle('Answers \u2014 try it yourself', 'Do the "Try it yourself" on the Learn it page first, then look here. Getting one wrong is useful \u2014 go back and read that page again, and see why.'));
+    withAnswers.forEach(({ m, t }) => {
+      c.push(P(m.learnerTeaching.title, { size: 24, bold: true, color: NAVY, before: 160, after: 60 }));
+      (t.items || []).forEach((it, i) => {
+        c.push(P(`${i + 1}.   ${it}`, { size: 21, bold: true, before: 80, after: 30 }));
+        c.push(P(`${t.answers[i]}`, { size: 21, color: '3F4A34', after: 40 }));
+      });
+      c.push(hr());
+    });
+  }
+
   return c;
 }
 
