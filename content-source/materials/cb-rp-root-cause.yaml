@@ -82,6 +82,138 @@ learnerContent: |
 
   Now we can see a root cause, not just the surface. There is often more than one root. Check each one
   against our evidence — and remember, this is about the hills, never about blaming any person.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  The Five Whys is a simple tool with one real difficulty: it can slide from analysis into blame within
+  about three steps. In this context that matters more than usual, so the guard rails below are not
+  optional politeness — they are what makes the tool safe to use here.
+
+  ### What a root cause is
+
+  The surface problem is what you can see. The root cause is the thing that, if it changed, would stop
+  the surface problem coming back. Digging a drain treats the symptom; a drain has to be dug again every
+  year. Roots holding the slope treat the cause.
+
+  The test for having reached the root: **you cannot easily push past it**, and changing it would change
+  everything above it in the chain.
+
+  ### It is not always five
+
+  Five is a rough number, not a rule. Sometimes three whys reach something real; sometimes seven do.
+  Learners taught "five whys" will invent a fifth answer to fill the box. Tell them plainly that
+  stopping at three with an honest answer beats five with a made-up one.
+
+  ### The blame problem, and how to hold it
+
+  Ask "why?" enough times about deforestation in a camp and the chain will arrive at people: families
+  cut the trees. This is where the block can go wrong.
+
+  Two moves keep it safe:
+
+  1. **Keep asking why past the people.** "Families cut the trees" is not a root cause, it is a
+     midpoint. Why did they? There was no other fuel. Why? Fuel was not supplied and could not be
+     bought. Now you have something structural — and it is both truer and more useful than stopping at
+     the family.
+  2. **Ask about causes, not culprits.** Say it out loud at the start: *we are asking what caused this,
+     not who is at fault.* If a chain reaches a named person or a named group, stop and re-ask the
+     question about the situation instead.
+
+  Some learners' own families cut those trees. Some are still cutting them. A block that ends with
+  "our families destroyed the hills" has done harm and taught nothing.
+
+  ### Every step must rest on evidence
+
+  The commonest failure is a chain that is pure speculation and looks rigorous because it is drawn as
+  arrows. At each "why", ask: *what did we find that tells us this?* If nothing does, mark that link as
+  a guess — visibly — and note it as something to find out. A chain with two solid links and an honest
+  gap is better research than five confident inventions.
+
+  ## Before they leave this block
+
+  - One chain, drawn, with at least three links.
+  - Each link can be traced to a piece of evidence, or is honestly marked as a guess.
+  - The chain has been pushed PAST any point where it landed on people.
+  - Learners can say what a root cause is, and why treating one is different from treating a symptom.
+learnerTeaching:
+  title: "How to dig for the root cause"
+  readAloud: |
+    ## How to dig for the root cause
+
+    Most problems have another problem underneath them. If we only fix the top one, it comes back.
+
+    Think of a weed. If you pull off the leaves, it grows again. If you dig out the root, it does not.
+    Our job is to find the root.
+
+    ### Start with what we can see, then ask why
+
+    Take a problem the evidence shows us. Then ask **why?** — and keep asking.
+
+    - **The soil slides down when it rains.**
+    - → Why? The hill is bare.
+    - → Why? The trees were cut.
+    - → Why? Families needed wood to cook.
+    - → Why? There was no other fuel they could get.
+
+    Now we have something underneath. Fixing the drain does not stop the slide. Giving families another
+    fuel might.
+
+    ### How do we know we have reached the root?
+
+    Two signs:
+
+    - You cannot easily push past it.
+    - If that one thing changed, everything above it would change too.
+
+    ### It does not have to be five
+
+    People call this "the five whys", but five is only a guess at how many you might need. Three good
+    whys are better than five made-up ones. **If you do not know the next why, stop and say so.**
+
+    ### The most important rule: we ask what, not who
+
+    When you keep asking why, you will reach people. Families cut the trees. That is true.
+
+    **Do not stop there, and do not blame anyone.** Keep asking why. Why did they? Because they needed
+    to cook. Why did they use wood? Because there was nothing else. That is the real answer, and it is
+    fairer as well as truer.
+
+    We are looking for what caused this, not who is at fault. Some of us have family who cut those
+    trees. Some of us still need the wood. This is not about blame — it is about understanding.
+
+    ### Each step needs evidence
+
+    At every "why", ask: **what did WE find that tells us this?**
+
+    If we found something, good. If we are guessing, say so and mark it — a guess is fine as long as we
+    know it is a guess. An honest chain with a gap in it is better research than a confident chain we
+    made up.
+  words:
+    - term: root cause
+      meaning: the problem underneath the problem — the one that makes it keep coming back
+    - term: symptom
+      meaning: the part of a problem we can see, on the surface
+    - term: chain
+      meaning: the line of causes, each one underneath the last
+  tryIt:
+    intro: >-
+      Someone is digging for the root cause of "there is rubbish on the path". Is each step a good next
+      step, or a problem? Circle your answer, then check at the back of the book.
+    chooseFrom: ["good step", "problem"]
+    items:
+      - "There is rubbish on the path. → Why? Because people drop it."
+      - "Because people drop it. → Why? Because they are lazy and do not care."
+      - "Because there is nowhere to put it. → Why? Because there are no bins near the path."
+      - "Because there are no bins. → Why? I do not know. We would have to find out."
+    answers:
+      - "Good step. It is true and it follows from the problem. But it lands on people, so we must keep asking why — do not stop here."
+      - "Problem. This is blame, not a cause. \"Lazy\" is a judgement about people, and it is not something we found out. Re-ask it about the situation: why is dropping it the easiest thing to do?"
+      - "Good step. It has moved from people to the situation around them, which is where useful answers live."
+      - "Good step — and an honest one. Saying \"I do not know, we would have to find out\" is proper research. Mark it as a gap and move on."
+    then: >-
+      Now do it with one of OUR problems about the hills. Draw the chain going down. Mark any link where
+      we are guessing.
 worksheet:
   slug: cb-rp-our-root-cause
   note: "In the research book (student workbook): the 'Dig for the root cause' page — a chain of whys to draw. Print one per learner."

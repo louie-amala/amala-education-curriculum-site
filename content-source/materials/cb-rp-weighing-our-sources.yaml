@@ -135,6 +135,127 @@ learnerContent: |
 
   We do this for the source pack and for our own evidence, then mark how much weight each piece can bear
   — so we build our findings on evidence we can trust, not on a single shaky claim.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  Learners arrive believing that a source is either true or false, and that anything printed, official,
+  or said by an older person is true. This block replaces that with something more useful: **how much
+  weight can this piece bear?** Not true or false — how much can we build on it.
+
+  ### The three checks, and why they are these three
+
+  1. **Who said it, and how do they know?** The difference between someone who SAW something and someone
+     who HEARD about it is the single most useful distinction in the whole block. A person who watched
+     the slope come down is strong evidence about that slope. A person repeating what a neighbour said is
+     weak evidence about anything.
+  2. **Do they have a reason to shape the story?** Not "are they lying" — almost nobody is. But an
+     organisation reporting on its own project has a reason to tell the good half. Source D in the pack
+     is a company selling tree-planting; it is in there on purpose so learners have something real to
+     practise on. Teach this without cynicism: an interested source is not a worthless source, it is one
+     you check against another.
+  3. **Does anything else agree?** This is the strongest check and the one learners forget. One source
+     saying a thing is a claim. Two independent sources saying it, plus what we saw ourselves, is close
+     to knowledge. The word for this is triangulation, and it is worth naming.
+
+  ### The trap: "official" is not the same as "strong"
+
+  Learners will rank an agency report above their grandmother every time. Sometimes right, often not.
+  The grandmother who watched the hill for forty years is a primary source with direct observation; the
+  report may be repeating a number from somewhere else. Make this exact comparison out loud — it is the
+  moment the idea lands, and it also tells learners their own community's knowledge counts.
+
+  ### The trap in the other direction
+
+  Having taught scepticism, some learners will decide nothing can be trusted. Head this off: the point of
+  weighing is to know how much to lean on something, not to reject everything. A weak source can still
+  tell you what question to ask next.
+
+  ### Old is not automatically wrong
+
+  A 2021 study of how roots hold soil has not expired. A 2019 count of how many trees are standing has.
+  Teach the distinction: does this kind of fact go out of date?
+
+  ## Before they leave this block
+
+  - Every learner can say the three checks in their own words, without the page.
+  - The source pack has been ranked on a line, and learners can defend where they put each one.
+  - Their own interview evidence has been weighed too, not just the pack — this is the half that gets
+    skipped.
+  - At least one learner has said "but does anything else agree with it?" without being prompted.
+learnerTeaching:
+  title: "How to weigh a source"
+  readAloud: |
+    ## How to weigh a source
+
+    Not everything we are told is equally strong. A researcher does not ask "is this true or false?"
+    A researcher asks: **how much weight can this carry?**
+
+    Think of a bridge. Some planks can carry a person. Some can carry only a bird. You need to know
+    which is which before you step on it.
+
+    ### Check 1 — Who said it, and how do they know?
+
+    Ask how the person knows.
+
+    - **They saw it themselves.** Strong. "I watched the mud come down in the night."
+    - **Someone told them.** Weaker. "My neighbour said the mud came down."
+    - **They studied it carefully.** Strong, if they say how. "We measured this hill for two years."
+
+    Someone who SAW is stronger than someone who HEARD.
+
+    ### Check 2 — Do they have a reason to tell it one way?
+
+    This is not asking whether someone is lying. Most people are not.
+
+    But if a company sells trees, it will tell you the good things about trees. If an organisation
+    reports on its own work, it will tell you the parts that went well. That does not make them useless
+    — it means we check them against someone else.
+
+    ### Check 3 — Does anything else agree?
+
+    This is the strongest check of all.
+
+    - One source says it → it is a claim.
+    - Two sources that do not know each other say it → it is much stronger.
+    - Two sources AND what we saw with our own eyes → now we can build on it.
+
+    ### Careful: official does not always mean strong
+
+    A printed report is not automatically stronger than your grandmother. If she watched that hill for
+    forty years, she SAW it. The report may just be repeating a number from somewhere else.
+
+    Ask the same three questions of both.
+
+    ### And careful the other way
+
+    Weighing does not mean trusting nothing. A weak source can still be useful — it can show us what to
+    ask about next. We are working out how hard to lean on something, not throwing it away.
+  words:
+    - term: weigh
+      meaning: to work out how much we can trust something, and how much to lean on it
+    - term: source
+      meaning: anywhere our information comes from — a person, a book, a report, what we saw
+    - term: agree
+      meaning: when two different sources say the same thing
+  tryIt:
+    intro: >-
+      How much weight can each of these carry? Circle strong, medium, or weak — and be ready to say why.
+      Then check at the back of the book.
+    chooseFrom: ["strong", "medium", "weak"]
+    items:
+      - "An old woman who has lived on this hill since before the camps: \"there were big trees all the way up. I watched them go.\""
+      - "A tree-planting company's website: \"trees stop erosion completely.\""
+      - "A study by four scientists who measured the temperature of cut and uncut land for two years, and say who paid for it."
+      - "A boy in our group: \"my cousin said the whole hill is going to come down next monsoon.\""
+    answers:
+      - "Strong. She saw it herself, over a long time, and she has no reason to shape the story. This is exactly the kind of evidence people wrongly ignore because it is not printed."
+      - "Weak. They are selling trees, so they tell the good half — and \"completely\" is a warning sign. Useful for finding out what to check, not for building on."
+      - "Strong. They measured it, they say how, and they say who paid — which lets us judge for ourselves. Saying how you know is what makes a source strong."
+      - "Weak. He heard it from someone who heard it. Nobody saw it, and it is about the future, which nobody can see. Worth asking about — not worth building on."
+    then: >-
+      Now take one piece of evidence WE gathered and run the three checks on it. Be honest, even if it
+      is your own.
 worksheet:
   slug: cb-rp-can-we-trust-it
   note: "In the research book (student workbook): the 'Can we trust it?' page. Print one per learner."

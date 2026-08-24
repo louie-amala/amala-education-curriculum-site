@@ -122,6 +122,141 @@ learnerContent: |
   When the groups feel right, give each one a name — a theme. This is our analysis. Out of it come the
   patterns (what keeps coming up), where our sources agree or disagree, and the things that seem to cause
   each other. We carry these themes into the next step, where we ask what they mean.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  Sorting looks like tidying up. It is not — **the sorting IS the analysis.** This is the block where a
+  pile of separate answers becomes a small number of things the cohort can say. If you treat it as
+  admin, learners will produce neat piles that mean nothing.
+
+  ### What a theme actually is
+
+  A theme is **something that came up more than once, from more than one person.** Not a topic — a
+  claim. "Trees" is a topic and it is useless. "The hill got hotter after the trees went" is a theme:
+  you can put evidence under it, and you can disagree with it.
+
+  Test any proposed theme by asking: *could someone disagree with this?* If not, it is a topic. Push
+  again.
+
+  ### Why physical cards, and why the floor
+
+  One idea per card, moved around by hand, on the floor or a wall. This is not a compromise for a
+  cohort that cannot write essays — it is better than writing for everyone, and universities do it too.
+
+  - It makes every piece of evidence equal in size, so a quiet learner's card carries the same weight
+    as a loud learner's.
+  - It lets a group change its mind cheaply. Moving a card costs nothing; crossing out a paragraph
+    feels like failure.
+  - It shows the shape of the evidence at a glance — a big pile and three lonely cards tell you
+    something immediately.
+
+  ### The three things to watch for
+
+  1. **Sorting by question instead of by meaning.** Learners will re-sort the cards back into the four
+     sub-questions, because that is the shape they already know. Say plainly: we are not putting them
+     back where they came from, we are looking for what KEEPS COMING UP, wherever it came from.
+  2. **One loud learner's theme.** Watch who is moving the cards. Ask the quiet ones to place the last
+     card in each group.
+  3. **Throwing away the odd ones out.** The card that fits nowhere is often the most interesting thing
+     you have — the person who disagreed, the thing that happened once. Keep a "does not fit yet" pile,
+     visibly, and come back to it. Do not let it be tidied away.
+
+  ### Disagreement is a finding
+
+  When two sources say opposite things, learners will want to pick a winner. Resist it. "People
+  disagree about whether the planting is working" is a genuine, reportable finding — and often a more
+  honest one than a false consensus.
+
+  ### How many themes
+
+  Three to five. If a group has ten, they have not finished sorting. If they have one, push them to
+  split it.
+
+  ## Before they leave this block
+
+  - Three to five named themes, each a claim rather than a topic.
+  - Each theme has actual cards under it, and the group can say roughly how many people said it.
+  - The "does not fit" pile still exists and has been talked about, not binned.
+  - Any disagreement between sources has been kept AS a theme, not resolved by vote.
+learnerTeaching:
+  title: "How to find the patterns in what we found"
+  readAloud: |
+    ## How to find the patterns
+
+    We have a lot of separate answers. On their own they are just a pile. Our job now is to find what
+    KEEPS COMING UP — because something many people said is much stronger than something one person said.
+
+    ### First, one idea per card
+
+    Write or draw each piece of evidence on its own card. One idea, one card. If a card has two ideas
+    on it, cut it into two.
+
+    Then put them all on the floor where everyone can see them.
+
+    ### Then, move them into groups
+
+    Put together the cards that are saying a similar thing. Move them with your hands. If you change
+    your mind, move them again — that costs nothing, and changing your mind is what this is for.
+
+    Everyone moves cards. Not just the person talking most.
+
+    ### Then, name each group
+
+    This is the important part, and it is harder than it looks.
+
+    A name must be something you could **disagree with**.
+
+    - "Trees" — not a theme. It is a topic. Nobody can disagree with the word "trees".
+    - "The hill got hotter after the trees went" — a theme. Someone could say "no it did not", and
+      then we could check.
+
+    Test every name you make: **could someone argue with this?** If not, keep working on it.
+
+    ### Then, how many said it?
+
+    Under each theme, count the cards. Few, some, or many. A theme with nine cards is stronger than a
+    theme with one.
+
+    ### The cards that fit nowhere
+
+    Some cards will not go in any group. **Do not throw them away.** Put them in their own place where
+    you can see them.
+
+    The odd card is often the most interesting thing we have — the one person who said something
+    different, the thing that happened only once. Come back to it.
+
+    ### When two things disagree
+
+    Sometimes one source says the opposite of another. Do not vote on which is right.
+
+    "People disagree about whether the planting is working" is a real thing we found. Write it down as a
+    theme of its own. Honest is better than tidy.
+  words:
+    - term: theme
+      meaning: something that came up more than once, from more than one person
+    - term: pattern
+      meaning: something that keeps happening, or keeps being said
+    - term: sort
+      meaning: to put things into groups so we can see what they have in common
+  tryIt:
+    intro: >-
+      Is each of these a good theme name, or is it only a topic? Circle your answer. Then check at the
+      back of the book.
+    chooseFrom: ["a good theme", "only a topic"]
+    items:
+      - "Water"
+      - "The water runs off fast where there are no roots"
+      - "Firewood"
+      - "People disagree about whether the new planting is working"
+    answers:
+      - "Only a topic. Nobody can disagree with the word \"water\". Ask: what about the water? What did people actually say?"
+      - "A good theme. Someone could say \"no it does not\" — and then we could go and check. That is what makes it a theme."
+      - "Only a topic. Try again: what did people say ABOUT firewood? \"Families cut trees because there was no other fuel\" would be a theme."
+      - "A good theme. Disagreement is a real finding, and reporting it honestly is stronger than pretending everyone agreed."
+    then: >-
+      Now look at our own themes on the floor. Is each one something a person could argue with? Fix any
+      that are only topics.
 worksheet:
   slug: cb-rp-our-themes
   note: "In the research book (student workbook): the 'Our themes — what keeps coming up' page. Print one per learner."

@@ -87,6 +87,139 @@ learnerContent: |
   We put our answers in three areas and look at them together. This is about understanding, never about
   blaming anyone — people who did harm often had little choice, and the same people can be part of the
   answer. What we see here makes our insights deeper and fairer.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  This is the companion to the root-cause block and the two do different jobs. Root cause asks *what
+  chain of things produced this?* This asks *who is in this, and what do they believe?* — because most
+  real problems are not mechanical, they are human systems, and a solution that ignores the people in
+  them fails.
+
+  You do not have to run both. If you have time for one, choose by your cohort: root cause suits a
+  group that wants to explain; this suits a group that wants to act.
+
+  ### The three questions, and why these three
+
+  1. **Who or what has power here?** Power means the ability to make it better or worse. Include the
+     non-human — the monsoon has enormous power over these hills and no intentions at all. Naming that
+     early takes the heat out of the question.
+  2. **What do people believe or feel?** Beliefs drive behaviour more reliably than facts do. "The trees
+     are not ours to plant" and "we can care for our hills" produce completely different camps. This is
+     also the question learners are best placed to answer, because they live inside those beliefs.
+  3. **Who is helped, and who is hurt?** The same situation is not the same for everyone. Whoever is at
+     the bottom of the slope has a different problem from whoever is at the top. This question is what
+     stops a cohort designing something that helps people like themselves.
+
+  ### The trap: this can become a list of villains
+
+  Learners will name the people they are frustrated with, and the wall becomes an accusation. Two
+  guards:
+
+  - **Power is not blame.** A learner has power here too — that is the point of asking. Put the cohort
+    on the wall alongside everyone else, and put the monsoon there as well.
+  - **Beliefs are described, not judged.** "Some people think the trees are not theirs to plant" is a
+    finding. "Some people are selfish" is name-calling. Correct this the first time it happens.
+
+  ### Keep it about the hills, and stay clear of politics
+
+  Camp governance and the agencies working here are genuinely part of this system, and learners will
+  say so. Let the observable, community-level things be named — who does what, what people see
+  happening — and steer away from grievance about any named agency or authority. This is a research
+  block, not a complaints channel, and learners' safety matters more than completeness. Have your
+  step-back guidance to hand.
+
+  ### The payoff
+
+  The insight block that follows is noticeably better after this one. A cohort that has asked who is
+  hurt tends to produce insights about people rather than about soil, and those are the ones an audience
+  acts on.
+
+  ## Before they leave this block
+
+  - Three lists on the wall: power, beliefs, and helped/hurt.
+  - The cohort itself appears somewhere on the power list.
+  - At least one non-human thing appears on the power list.
+  - No name-calling has survived on the wall. Beliefs are written as beliefs.
+learnerTeaching:
+  title: "How to see the whole picture — power, beliefs, and who is hurt"
+  readAloud: |
+    ## How to see the whole picture
+
+    A problem is not only about soil and rain. It is about people — what they can do, what they
+    believe, and what happens to them. Three questions help us see the whole thing.
+
+    ### Question 1 — Who or what has power here?
+
+    Power means: **can they make it better or worse?**
+
+    Think widely. Families. People who cut wood. People who plant. Organisations working here. And
+    things that are not people at all — the monsoon has huge power over our hills, and it wants
+    nothing.
+
+    Put ourselves on this list too. We have some power. Not all of it, but some. That is worth
+    knowing.
+
+    ### Question 2 — What do people believe or feel?
+
+    What people believe changes what they do, more than facts do.
+
+    - "The trees are not ours to plant, we are only here for a while."
+    - "We can care for our hills."
+
+    Those two beliefs make two different places. Neither is stupid. Both make sense to the person
+    holding them.
+
+    **Describe what people believe. Do not call them names.**
+
+    - "Some people think the trees are not theirs to plant" — this is a finding.
+    - "Some people are selfish" — this is name-calling, and it teaches us nothing.
+
+    ### Question 3 — Who is helped, and who is hurt?
+
+    The same hill is not the same for everyone.
+
+    - Someone whose shelter is at the bottom of a bare slope.
+    - Someone who earns money cutting wood.
+    - Someone who has to walk further and further to find fuel.
+    - Children, who breathe the smoke.
+
+    Asking this stops us from fixing a problem only for people like us.
+
+    ### Stand back
+
+    Now look at all three lists together. Often something appears that nobody had noticed — a person
+    with power who is also being hurt, or a belief that explains what everyone is doing.
+
+    ### One rule for the whole block
+
+    We are trying to **understand**, not to blame. Understanding a person's reasons is not the same as
+    agreeing with them. And keep it about the hills and what we can see for ourselves.
+  words:
+    - term: power
+      meaning: being able to make something better or worse
+    - term: belief
+      meaning: something a person thinks is true, which changes what they do
+    - term: system
+      meaning: the people, things and beliefs that are all connected to one problem
+  tryIt:
+    intro: >-
+      A group is filling in their three lists. Is each one written well, or does it need fixing? Circle
+      your answer, then check at the back of the book.
+    chooseFrom: ["written well", "needs fixing"]
+    items:
+      - "Power: the monsoon rain."
+      - "Beliefs: the people who cut trees do not care about anybody."
+      - "Helped or hurt: the families whose shelters are below the bare slope are hurt most when it rains."
+      - "Power: us — we can plant, and we can tell people what we found."
+    answers:
+      - "Written well. The rain is not a person and has no intentions, but it has enormous power over our hills. Remembering the non-human things keeps the list honest."
+      - "Needs fixing. This is name-calling, not a belief. Try: \"some people believe there is no other fuel they can get\" — that is something we could check, and it explains more."
+      - "Written well. It is specific about WHO, and it says why. That is exactly what this question is for."
+      - "Written well — and easy to forget. We are part of this system, and naming our own power is the point of asking."
+    then: >-
+      Now look at our own three lists. Is anything on them name-calling instead of a belief? Fix it. And
+      check: are WE on the power list?
 worksheet:
   slug: cb-rp-looking-deeper-page
   note: "In the research book (student workbook): the 'Looking deeper — power, beliefs, who is helped and hurt' page. Print one per learner."

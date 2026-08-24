@@ -134,6 +134,135 @@ learnerContent: |
   can stand behind. If we cannot, it is our opinion — we keep it, but in its own place. Aim for a few
   clear insights, each backed by evidence. These are what our whole investigation has been building
   towards.
+
+educatorContent: |
+  ## What you need to know before you teach this
+
+  This is the block where a research project either produces something or does not. Everything before it
+  gathers; this is where the gathering becomes worth having. It is also the block most often taught
+  badly, because the difference it turns on is genuinely slippery and most of us have never had it named.
+
+  ### A finding is what the evidence says. An insight is what it MEANS.
+
+  A finding is a report. Anyone with the same evidence would write the same finding.
+
+  **Finding:** "Seven of the eleven people we asked said the hill floods more than it used to."
+
+  An insight is a judgement about what that implies, and why it matters. It goes beyond the evidence —
+  carefully, and while still pointing back at it.
+
+  **Insight:** "The flooding got worse after the trees went, so the water is not the real problem — the bare slope is. That means planting on the slope would do more than digging a bigger drain."
+
+  Notice what the insight has that the finding does not: a **so**, and a **because**. That is the whole
+  test, and it is the one to give learners.
+
+  ### The three ways this goes wrong
+
+  1. **Findings dressed as insights.** "Many people said the hills are hotter." That is still a report.
+     Ask: *so what? what does that mean for us?* — and keep asking until they add something.
+  2. **Opinions dressed as insights.** "People should stop cutting trees." That is a view they had before
+     the research. Ask: *which piece of our evidence made you think that?* If nothing, it is an opinion —
+     which is allowed, but it goes in a different pile.
+  3. **Overclaiming.** "Everyone in the camp thinks…" from eleven interviews. Teach the honest hedge:
+     *the people we asked*, *most of the people we asked*, *what we saw on one slope*. Precision about
+     how much you know is a researcher's virtue, not a weakness — and learners find that genuinely
+     surprising and rather freeing.
+
+  ### Why "because" is where the rigour lives
+
+  A learner can produce a fine-sounding insight with no evidence under it. The "because" is what stops
+  that. Insist on it every time: they must be able to point at the evidence log, the interview page, or
+  the source card that produced the claim. If they cannot point, it is not an insight yet.
+
+  ### The frame, and why it is not a crutch
+
+  *Many people said / I saw ___ , so I think ___ , because ___ .*
+
+  Some facilitators worry this makes it mechanical. It does the opposite: it makes the reasoning
+  visible, so a learner can see for themselves which of the three parts is missing. Keep the frame on
+  the wall all through this block.
+
+  ## Before they leave this block
+
+  - The cohort has a small number of insight statements — three or four is plenty. More is worse.
+  - Every one has a "so" and a "because", and the learner can point to the evidence for the "because".
+  - Statements that turned out to be opinions have been moved to a separate pile, not thrown away.
+  - Learners can say, out loud, the difference between a finding and an insight in their own words.
+learnerTeaching:
+  title: "How to find what our evidence MEANS"
+  readAloud: |
+    ## How to find what our evidence means
+
+    We have gathered a lot. Now we have to work out what it means. This is the most important thing we
+    will do, and it is the part only WE can do — nobody can do it for us.
+
+    ### A finding, and an insight
+
+    A **finding** is what our evidence says. It is a report.
+
+    **Finding:** "Seven of the eleven people we asked said the hill floods more than it used to."
+
+    An **insight** is what our evidence MEANS, and why it matters.
+
+    **Insight:** "The flooding got worse after the trees went, so the water is not the real problem — the bare slope is. That means planting on the slope would help more than digging a bigger drain."
+
+    ### The two little words
+
+    Look at the insight again. It has two words the finding does not have.
+
+    - **so** — what this means.
+    - **because** — the evidence it stands on.
+
+    Every insight needs both. If you cannot say "so", you have only a report. If you cannot say
+    "because", you have only an opinion.
+
+    ### Use this frame
+
+    **Many people said / I saw ______ , so I think ______ , because ______ .**
+
+    ### Be honest about how much we know
+
+    We asked a few people. We did not ask everyone. So we say:
+
+    - "The people we asked said…" — not "everyone says…"
+    - "On the slope we looked at…" — not "on all the hills…"
+
+    Saying exactly how much we know is what makes people trust us. It is not a weakness. A researcher
+    who says "we only asked eleven people" is stronger than one who pretends they asked a thousand.
+
+    ### Opinion is not the same as insight
+
+    "People should stop cutting trees" is an opinion. You might have thought it before we started.
+
+    An insight is something the EVIDENCE taught us. Ask yourself: which piece of what we found made me
+    think this? If the answer is nothing, it is an opinion. Keep it — but keep it in a different place.
+  words:
+    - term: finding
+      meaning: what our evidence says — a report of what we found
+    - term: insight
+      meaning: what our evidence MEANS, and why it matters
+    - term: opinion
+      meaning: what someone thinks, without evidence for it
+    - term: overclaim
+      meaning: to say we know more than our evidence really shows
+  tryIt:
+    intro: >-
+      Read each one. Is it a finding, an insight, or an opinion? Circle your answer. Then check at the
+      back of the book.
+    chooseFrom: ["finding", "insight", "opinion"]
+    items:
+      - "Nine of the fifteen people we asked remember trees on the hill when they were small."
+      - "The government should plant more trees."
+      - "The people we asked remember trees on the hill, so the hill has changed within one lifetime — which means it could change back, because grass and roots grow fast."
+      - "Everyone in the camp knows the hills are dangerous."
+    answers:
+      - "Finding. It reports what our evidence says. It is true and useful — but it does not tell us what it MEANS yet."
+      - "Opinion. It might be a good idea, but nothing we found tells us it is. There is no 'because'."
+      - "Insight. It has a 'so' (the hill changed in one lifetime) and a 'because' (grass and roots grow fast). It also stays honest — 'the people we asked'."
+      - "Overclaim. We did not ask everyone in the camp. Fix it: 'The people we asked said the hills are dangerous.'"
+    then: >-
+      Now take one thing WE found, and write it three ways: as a finding, then as an insight using the
+      frame, then say out loud how you would keep it honest.
 worksheet:
   slug: cb-rp-our-insights
   note: "In the research book (student workbook): the 'Our insights — what we found and why it matters' page. Print one per learner."
