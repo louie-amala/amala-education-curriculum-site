@@ -1,9 +1,9 @@
-/* Generate the Iceberg model artefact pair, the reference example for the worksheet/template split.
+/* Generate the Iceberg model artefact pair - the reference example for the worksheet/template split.
    Produces two real, printable Word files in public/downloads/:
      - iceberg-model-worksheet.docx : the GUIDED sheet. Explains the method, walks the four bands with
        their guiding prompts and fillable space, sets out the two passes (Take 1 / Take 2), and ends
        with the blank template embedded (so the worksheet "contains" the template).
-     - iceberg-model-template.docx  : the BLANK final product on its own, the four-band grid, no prompts.
+     - iceberg-model-template.docx  : the BLANK final product on its own - the four-band grid, no prompts.
    Content is kept faithful to content-source/materials/iceberg-model.yaml (learnerContent + the band
    prompts in educatorContent). Run:  node scripts/downloads/generate-iceberg.js
    Override output dir:  OUT_DIR=/tmp/pack node scripts/downloads/generate-iceberg.js */
@@ -67,32 +67,32 @@ function tag(text, color) {
 // ---------- Worksheet (guided) ----------
 function worksheetDoc() {
   const children = [
-    H1('Iceberg model, worksheet'),
+    H1('Iceberg model - worksheet'),
     P('A tool for looking beneath a problem: from what you can see at the surface down to the beliefs that hold it in place. Work down the four levels for the real problem you are exploring.', { color: GREY, after: 160 }),
 
     H2('How to use this'),
-    bullet('Fill in each level for your problem. Start at the top; do not worry if the lower levels are hard at first, that is normal.'),
+    bullet('Fill in each level for your problem. Start at the top; do not worry if the lower levels are hard at first - that is normal.'),
     bullet('Write down the questions each level raises, not only the answers.'),
-    bullet('Do this twice. Take 1 now, from what you already know. Take 2 after your research, come back and add what you learned in a different colour, so your growth is visible.'),
+    bullet('Do this twice. Take 1 now, from what you already know. Take 2 after your research - come back and add what you learned in a different colour, so your growth is visible.'),
 
     P('Problem I am exploring:', { bold: true, before: 200, after: 40 }),
     ...writeLines(2),
 
-    P('Take 1, from what I already know', { bold: true, color: TEAL, before: 200, after: 40 }),
+    P('Take 1 - from what I already know', { bold: true, color: TEAL, before: 200, after: 40 }),
   ];
   for (const b of BANDS) children.push(...bandBlock(b, b.name === 'Mental models' || b.name === 'Structure' ? 3 : 2));
 
   children.push(
     P('What is the most important thing I now understand about what lies beneath the surface?', { bold: true, before: 220, after: 60 }),
     ...writeLines(3),
-    P('Take 2, after my research (add in a different colour)', { bold: true, color: TEAL, before: 200, after: 60 }),
+    P('Take 2 - after my research (add in a different colour)', { bold: true, color: TEAL, before: 200, after: 60 }),
     P('Return to the four levels above and revise them with what your research showed. Then answer:', { size: 21, color: GREY, after: 80 }),
     P('What changed between Take 1 and Take 2, and how might it shape the kind of solution I build?', { bold: true, after: 60 }),
     ...writeLines(3),
 
     pageBreak(),
     H2('Blank template'),
-    P('The same four levels with no prompts, for your next problem, once you have done this once.', { italics: true, color: GREY, after: 120 }),
+    P('The same four levels with no prompts - for your next problem, once you have done this once.', { italics: true, color: GREY, after: 120 }),
     templateTable(),
   );
   return new Document({ sections: [{ properties: { page: LETTER }, children }] });
@@ -110,7 +110,7 @@ function templateTable() {
 // ---------- Template (blank final product) ----------
 function templateDoc() {
   return new Document({ sections: [{ properties: { page: LETTER }, children: [
-    H1('Iceberg model, template'),
+    H1('Iceberg model - template'),
     P('Problem:', { bold: true, after: 40 }),
     ...writeLines(1),
     P('Fill in each level, from the visible events at the tip down to the beliefs at the base.', { color: GREY, after: 140 }),

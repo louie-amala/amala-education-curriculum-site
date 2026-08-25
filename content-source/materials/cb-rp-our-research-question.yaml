@@ -10,8 +10,8 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "Make our research question our own"
 summary: >-
-  The whole cohort is given one research question, "What happens to our hills without trees, and what
-  changes when trees and plants grow back?", and makes it their own. They unpack what it is really asking,
+  The whole cohort is given one research question - "What happens to our hills without trees, and what
+  changes when trees and plants grow back?" - and makes it their own. They unpack what it is really asking,
   break it into four sub-questions (including what people are doing to help, and whether it is working),
   and decide which parts they answer by asking and looking, and which by the source pack.
 facilitationContext:
@@ -22,7 +22,7 @@ grouping: "Whole group to unpack; pairs for the sub-questions"
 whatLearnersDo:
 - Meet the research question the whole cohort will investigate, shown big in words and pictures.
 - Unpack what it is really asking, in plain, pictorial terms, until everyone understands it.
-- Break it into four sub-questions, before and now; a bare hill in rain and hot sun; what roots, grass, and trees do; and what people are doing to help, and whether it is working.
+- Break it into four sub-questions - before and now; a bare hill in rain and hot sun; what roots, grass, and trees do; and what people are doing to help, and whether it is working.
 - Decide which parts we answer by asking people and looking here (primary), and which the source pack will help with.
 - Capture the question and its four sub-questions, big on the wall and in every research book.
 materialsAndPreparation:
@@ -34,7 +34,7 @@ visuals:
 - kind: setup
   title: "One question, three things to find out"
   caption: >-
-    The given question, broken into the four sub-questions the cohort will actually go and find out. 
+    The given question, broken into the four sub-questions the cohort will actually go and find out -
     built up together as pictures on the wall.
   spec:
     type: zones
@@ -51,10 +51,10 @@ visuals:
       tone: neutral
       cards:
       - "what they do for us"
-    - label: "4. Who's helping, does it work?"
+    - label: "4. Who's helping - does it work?"
       tone: neutral
       cards:
-      - "planting, gas. Is it working?"
+      - "planting, gas - is it working?"
 - kind: example
   title: "How we'll answer each part"
   caption: >-
@@ -65,23 +65,23 @@ visuals:
     flow: across
     zones:
     - label: "Ask & look here"
-      sublabel: "primary, our own community"
+      sublabel: "primary - our own community"
       tone: known
       cards:
       - "Before & now: ask elders"
       - "See a slope in the rain"
     - label: "The source pack"
-      sublabel: "secondary, supplied reading"
+      sublabel: "secondary - supplied reading"
       tone: neutral
       cards:
       - "What roots do for soil"
       - "What science found"
 facilitationNotes: >-
   The one thing to get right: the question is given, but the framing work is real. The cohort does not
-  invent a question from nothing, one shared question keeps a single focus and suits this cohort, but
+  invent a question from nothing - one shared question keeps a single focus and suits this cohort - but
   making it theirs is genuine research work: unpacking what it asks, breaking it into the four
   sub-questions, and deciding what is answered by asking and looking versus by the source pack. Use
-  pictures and sentence frames throughout, and keep it hopeful. The last sub-question is about what
+  pictures and sentence frames throughout, and keep it hopeful - the last sub-question is about what
   people are already doing to help, and whether it is working, which learners answer both from the source
   pack and by asking and looking here. If a cohort adds a sub-question of its own, welcome it as long as
   it stays answerable here.
@@ -90,7 +90,7 @@ steps:
   duration: "40 min"
   guidance: >-
     Show the research question big, in words and a picture. Unpack it together in plain, pictorial terms:
-    what does "without trees" look like, what does "grow back" look like. Do not rush, the whole group
+    what does "without trees" look like, what does "grow back" look like. Do not rush - the whole group
     should understand what the question is really asking before moving on.
   keyPrompts:
   - "What is this question really asking us to find out?"
@@ -102,13 +102,13 @@ steps:
     they like now; (2) what happens to a bare hill when it rains and in the hot sun; (3) what do trees,
     grass, and roots do for the soil and for us; (4) what are people doing to help our hills, and is it
     working. Use the frame "Before, …; now, …" for the first. These four are what the cohort will actually
-    go and find out. The fourth keeps the tone hopeful, people are already acting, and it is one we can
+    go and find out. The fourth keeps the tone hopeful - people are already acting - and it is one we can
     both read about in the source pack and check by asking and looking here.
   keyPrompts:
   - "Before, our hills were …; now, they are …"
   - "What happens to a bare hill in the heavy rain? In the hot sun?"
   - "What do roots, grass, and trees do for the soil and for us?"
-  - "What are people doing to help our hills, and is it working?"
+  - "What are people doing to help our hills - and is it working?"
 - title: "Asking and looking, or the source pack?"
   duration: "30 min"
   guidance: >-
@@ -123,12 +123,12 @@ learnerContent: |
   ## Make our research question our own
 
   Our whole group shares one research question: what happens to our hills without trees, and what changes
-  when trees and plants grow back? We did not have to invent it, but we do make it our own. That means
+  when trees and plants grow back? We did not have to invent it - but we do make it our own. That means
   understanding exactly what it asks, and turning it into the real things we will go and find out.
 
-  Why are we finding this out? Because these hills are ours, what happens to them touches our safety, our
+  Why are we finding this out? Because these hills are ours - what happens to them touches our safety, our
   homes, and our health. When we understand a challenge with real evidence instead of guessing, we can
-  think clearly about it. And people are already working to help the hills, so we can also find out
+  think clearly about it. And people are already working to help the hills - so we can also find out
   whether what they are doing is working. Learning to find things out like this is a skill we can use for
   any challenge in our lives.
 
@@ -136,8 +136,8 @@ learnerContent: |
 
   - Before, our hills were …; now, they are … (what changed?)
   - What happens to a bare hill when the heavy rain comes, and in the hot sun?
-  - What do trees, grass, and roots do for the soil, and for us?
-  - What are people doing to help our hills, and is it working?
+  - What do trees, grass, and roots do for the soil - and for us?
+  - What are people doing to help our hills - and is it working?
 
   Then we decide, for each one, how we will find out: by asking people and looking around us here, or by
   reading the source pack. We keep our question and our four sub-questions big on the wall and in every
@@ -146,8 +146,8 @@ learnerContent: |
 educatorContent: |
   ## What you need to know before you teach this
 
-  The cohort is given its question rather than inventing one. That is a deliberate choice, one shared
-  focus, realistic for an A1-English oral group, and it does NOT make this block a formality. Owning
+  The cohort is given its question rather than inventing one. That is a deliberate choice - one shared
+  focus, realistic for an A1-English oral group - and it does NOT make this block a formality. Owning
   and unpacking a question is real framing work, and it is what evidences the first objective.
 
   ### Break the big question into things you can actually go and find out
@@ -166,9 +166,9 @@ educatorContent: |
 
   Learners need to see that different questions get answered different ways.
 
-  - "What were the hills like before?", ask people who were here. Nothing in the pack can tell us.
-  - "Why does a bare slope slide?", the pack. Nobody here measured it.
-  - "Are people helping, and is it working?". Both, and that is the interesting one.
+  - "What were the hills like before?" - ask people who were here. Nothing in the pack can tell us.
+  - "Why does a bare slope slide?" - the pack. Nobody here measured it.
+  - "Are people helping, and is it working?" - both, and that is the interesting one.
 
   Doing this sort now saves a fortnight later, because learners stop trying to interview their way to
   an answer that was in a source all along.
@@ -176,7 +176,7 @@ educatorContent: |
   ### Make it visible and keep it up
 
   The question and its four sub-questions go big on the wall, in words and pictures, and into every
-  research book. You will point at them constantly for the rest of the component, when evidence comes
+  research book. You will point at them constantly for the rest of the component - when evidence comes
   in, ask which sub-question it answers. Evidence that answers none of them is a signal to check
   whether the question has drifted.
 
@@ -211,8 +211,8 @@ learnerTeaching:
 
     Test it like this: **can I say who I would ask, or what I would look at?**
 
-    - "Why is the world getting hotter?": no. Who would you even ask?
-    - "What did this hill look like when my grandmother was young?": yes. You would ask her, and
+    - "Why is the world getting hotter?" - no. Who would you even ask?
+    - "What did this hill look like when my grandmother was young?" - yes. You would ask her, and
       people her age.
 
     If you cannot say who or what, the piece is still too big. Cut it again.
@@ -222,17 +222,17 @@ learnerTeaching:
     1. What were our hills like **before**, and what are they like **now**?
     2. What happens to a bare hill **when it rains**, and **in the hot sun**?
     3. What do **trees, grass and roots** do for the soil, and for us?
-    4. What are **people doing to help** our hills, and is it working?
+    4. What are **people doing to help** our hills - and is it working?
 
     ### Different questions, different ways of finding out
 
     Not every question is answered the same way. There are two ways, and you have to pick the right one.
 
-    - **Ask and look here**, for things only people here know. Nothing in any book can tell us what
+    - **Ask and look here** - for things only people here know. Nothing in any book can tell us what
       this hill looked like thirty years ago. Only someone who saw it can.
-    - **The source pack**, for things that have already been studied. Nobody here measured why a bare
+    - **The source pack** - for things that have already been studied. Nobody here measured why a bare
       slope slides, but scientists have.
-    - **Both**, question 4 is like this. We can look and ask around us, AND read what has been written.
+    - **Both** - question 4 is like this. We can look and ask around us, AND read what has been written.
 
     Working this out now saves us weeks. Otherwise you spend days asking people something that was in a
     source all along.
@@ -263,7 +263,7 @@ learnerTeaching:
     answers:
       - "Ask and look. Only people who were here can tell us. No book has this."
       - "Source pack. This has been studied and measured by people whose job it is. We could not measure it ourselves."
-      - "Ask and look. This is about our own place, right now. Go and see, and ask people who live there."
+      - "Ask and look. This is about our own place, right now - go and see, and ask people who live there."
       - "Source pack. Scientists measured this over years. We can use their number and then check it against what we feel here."
     then: >-
       Now take our four sub-questions and mark each one: ask and look, source pack, or both.
@@ -276,7 +276,7 @@ agencyContribution:
   - power-over-wellbeing-and-self-direction
   how: >-
     Taking a big question apart into the specific things you will go and find out, and deciding how to find
-    each one out, is how a researcher takes control of an inquiry. A way of thinking learners can turn on
+    each one out, is how a researcher takes control of an inquiry - a way of thinking learners can turn on
     any question that matters to their lives.
 principlesForegrounded: [authentic-challenges, builds-on-identities, collaboration]
 principleAlignment:
@@ -291,16 +291,16 @@ competencyDevelopment:
 - code: FSI1
   how: Owning and unpacking the given question and turning it into researchable sub-questions is the core framing move (objective 1).
 - code: FPS3
-  how: The sub-questions target the contributing factors, what a bare slope does in rain and heat, what roots and trees do for the soil.
+  how: The sub-questions target the contributing factors - what a bare slope does in rain and heat, what roots and trees do for the soil.
 objectiveIds: [research-project--o1]
 relatedSlugs: [cb-rp-our-question-page, cb-rp-community-mapping, cb-rp-what-we-already-know]
 provenanceNote: >-
   Authored framing activity for the Learning Bridge+ (Cox's Bazar) Research Project edition, from the
   "Make our research question our own" block of the unit plan. The research question and its four
-  sub-questions are given; the framing work, unpacking them and deciding primary versus source pack, is
+  sub-questions are given; the framing work - unpacking them and deciding primary versus source pack - is
   real and evidences objective 1. Fully offline, oral and visual first. Its printable page compiles into
   the Research Project student workbook.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

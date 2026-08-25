@@ -21,7 +21,7 @@ export default function Home() {
       <section className="bg-navy px-6 py-16 text-white">
         <div className="mx-auto max-w-5xl">
           <p className="font-heading text-sm uppercase tracking-widest text-aqua">
-            Amala. Education for Change
+            Amala - Education for Change
           </p>
           <h1 className="mt-4 font-heading text-4xl font-bold leading-tight sm:text-5xl">
             The Amala Curriculum
@@ -52,7 +52,7 @@ export default function Home() {
           <p className="mt-10 text-sm text-cool-grey">
             {publicProgrammes.length} programmes · {courses.length} courses · {areas.length} competency
             areas · {competencies.length} competencies · {principles.length} principles ·{" "}
-            {objectives} objectives · {links} competency links, all validated at build time.
+            {objectives} objectives · {links} competency links - all validated at build time.
           </p>
         </div>
       </section>

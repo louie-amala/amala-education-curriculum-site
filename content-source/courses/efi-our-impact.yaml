@@ -1,5 +1,5 @@
-# English for Impact. Unit 5 as a course. Source: LLL Course Guide, Unit 5 "Our Impact" (pp. 40–43).
-# Competency anchor (FLC3) is authored, see sourceIssues.
+# English for Impact - Unit 5 as a course. Source: LLL Course Guide, Unit 5 "Our Impact" (pp. 40–43).
+# Competency anchor (FLC3) is authored - see sourceIssues.
 id: efi-our-impact
 slug: efi-our-impact
 access: public
@@ -9,7 +9,7 @@ programmes: [english-for-impact]
 testimonial: null
 purpose: >-
   Our Impact is the final course in English for Impact. Learners use English as a tool for expressing
-  opinions, proposing solutions, and engaging with real-world issues. Communicating with purpose and
+  opinions, proposing solutions, and engaging with real-world issues - communicating with purpose and
   impact. They develop the language to express opinions, justify their thinking, and suggest actions
   using modal verbs, future forms, and connectors. Through research, discussion, and drafting supported
   by translanguaging, the course culminates in a persuasive speech about an issue they care about,
@@ -21,13 +21,13 @@ throughline:
     Agency for positive change is realised when a learner can move others to act. Our Impact develops
     Influential communication (FLC3): learners state an opinion, justify it with reasons, and structure
     an argument designed to persuade a real audience toward a solution. This is the fullest expression
-    of the voice the whole programme has been building, language turned into influence.
+    of the voice the whole programme has been building - language turned into influence.
   toObjectives: >-
     The three objectives move from the sounds and words of opinion and persuasion, to expressing
     opinions and proposing solutions with modals and future forms, and finally to researching,
     drafting, and delivering a persuasive speech. The persuasive-speech project foregrounds FLC3.
   develops: >-
-    Learners develop FLC3 by building a case, an opinion, reasons, and a proposed solution, on an
+    Learners develop FLC3 by building a case - an opinion, reasons, and a proposed solution - on an
     issue they care about, and shaping it for an audience through drafting and redrafting.
   demonstrates: >-
     Learners demonstrate FLC3 through a persuasive speech delivered at a public showcase, and its
@@ -39,7 +39,7 @@ requirements:
   cadence: ≈4–5 weeks
   liveIndependentSplit: 30 live / 20 independent
   notes: >-
-    About 50 hours of structured learning, roughly 30 facilitated (live) and 20 independent,
+    About 50 hours of structured learning - roughly 30 facilitated (live) and 20 independent -
     adaptable to pacing and instructional time. The culminating unit: by its
     end, learners are prepared to transition toward the B1 language level required for the GSD.
 
@@ -77,7 +77,7 @@ objectives:
       Research an issue you care about and deliver a persuasive speech.
     anchorContribution:
       develops: >-
-        Learners develop FLC3 by building a case, an opinion, reasons, and a proposed solution, on an
+        Learners develop FLC3 by building a case - an opinion, reasons, and a proposed solution - on an
         issue they care about, and shaping it for an audience through drafting and redrafting.
       demonstrates: >-
         A persuasive speech at a public showcase, and its written argument, demonstrate influential
@@ -88,7 +88,7 @@ objectives:
       - Draft and revise a persuasive speech, and present it to an authentic audience at a public speaking event or showcase.
     furtherDetails:
       concepts:
-        - Authentic project, Our Impact, Voices for Change, a persuasive action project.
+        - Authentic project - Our Impact, Voices for Change - a persuasive action project.
       activities:
         - A public speaking event or community showcase, demonstrating readiness for A2+ to B1-level communication.
     competencyEvidence:
@@ -102,7 +102,7 @@ principleMappings:
       - Learners choose a real community issue and develop a persuasive message proposing a solution, shared at a public showcase.
   - principle: responsible-action
     inThisCourse:
-      - Persuasion is reasoned and constructive, proposing solutions, not just criticising, and handled with care for the issue and audience.
+      - Persuasion is reasoned and constructive - proposing solutions, not just criticising - and handled with care for the issue and audience.
   - principle: connect-to-futures
     inThisCourse:
       - The opinion, modal, and future-tense language prepares learners for the academic communication of further study such as the GSD.
@@ -124,7 +124,7 @@ principleMappings:
   - principle: lifeworthy-competencies
     inThisCourse:
       - >-
-          The English being built, stating a position, giving reasons, acknowledging an objection, is the language of any application, interview, meeting or dispute.
+          The English being built - stating a position, giving reasons, acknowledging an objection - is the language of any application, interview, meeting or dispute.
       - >-
           Learners practise disagreeing without hostility, which transfers to every setting they will enter.
       - >-
@@ -148,7 +148,7 @@ principleMappings:
 designChecklist:
   - The course includes ~20–40 hours of learning experiences integrating phonics, grammar, reading, writing, and speaking.
   - Grammar, phonics, and vocabulary are connected to the unit outcomes and the persuasive-action project.
-  - Opportunities to generate evidence for Amala competencies, especially the anchor FLC3, are built into the persuasive-speech project.
+  - Opportunities to generate evidence for Amala competencies - especially the anchor FLC3 - are built into the persuasive-speech project.
 
 sourceIssues:
   - type: competency-mapping-authored

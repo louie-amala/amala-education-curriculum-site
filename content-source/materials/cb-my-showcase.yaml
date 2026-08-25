@@ -2,13 +2,13 @@
 # last week, instead of three separate closings.
 #
 # Why this exists. Each of the three taught components ended with its own sharing, and the week-by-week
-# map put all three in Week 10. The Research Project showcase, the "My Name, My Voice" card sharing,
+# map put all three in Week 10 - the Research Project showcase, the "My Name, My Voice" card sharing,
 # and the Agency in Learning celebration. Three audiences, three occasions, in one week, for a cohort
 # whose attendance is stop-start. Folding them into one event costs no extra hours (they already exist
 # in the three unit plans), evidences all three components at once, and is the only moment in the
 # programme where a learner's whole twelve weeks is visible in one place.
 #
-# The second reason is agency. The Research Project sharing is already required, learners must
+# The second reason is agency. The Research Project sharing is already required - learners must
 # communicate their findings to an audience they chose. What this adds is that the learner chooses and
 # invites at least ONE person themselves. That is a small thing to organise and a large thing to
 # experience: it is the difference between being shown to an audience and having an audience.
@@ -17,11 +17,11 @@ slug: cb-my-showcase
 access: partner
 edition: learning-bridge-coxs-bazar
 type: resource
-title: "Our showcase, one closing for the whole programme"
+title: "Our showcase - one closing for the whole programme"
 summary: >-
   The programme's single closing event, in the last week: learners present their group's research to an
   audience, introduce themselves in English, and name one way they have grown. Every learner invites at
-  least one person themselves, which is the point as much as the presenting is.
+  least one person themselves - which is the point as much as the presenting is.
 facilitationContext:
 - group
 primaryContext: group
@@ -36,7 +36,7 @@ learnerContent: |
   ### The three things
 
   1. **Our research.** With your group, you show what we found out about our hills and trees, and what
-     we think it means. You made this, a poster, a picture story, a talk, a role-play.
+     we think it means. You made this - a poster, a picture story, a talk, a role-play.
   2. **My voice.** You show your "My Name, My Voice" card and say your introduction in English. A few
      true words is a full success.
   3. **How I have grown.** You say or show one way you are different from the person who started this
@@ -47,11 +47,11 @@ learnerContent: |
   You choose one person to invite, and you invite them yourself.
 
   It can be anyone: someone at home, a neighbour, a friend, a teacher, someone who helped you with your
-  goal, someone you interviewed for our research. Think about who you would most like to see this, or
+  goal, someone you interviewed for our research. Think about who you would most like to see this - or
   who most needs to hear what we found out about the hills.
 
   Your facilitator will help you with what to say when you ask, and will give you something to hand
-  them with the day and the time on it. If the person you want cannot come, invite someone else, and
+  them with the day and the time on it. If the person you want cannot come, invite someone else - and
   if you would rather not invite anyone, that is allowed too, and nobody will ask you why.
 
   ### What to say when you invite someone
@@ -76,7 +76,7 @@ educatorContent: |
   Running them separately is three occasions to organise, three audiences to gather, and three chances
   for a learner to be absent for their own ending. Run once, together, they reinforce each other: the
   same person shows what their group found out, says who they are in English, and names how they have
-  grown. That is the whole programme in one learner, in one room, in one afternoon, and it is the only
+  grown. That is the whole programme in one learner, in one room, in one afternoon - and it is the only
   time anyone gets to see it whole.
 
   The hours are already in your plans. Take the Research Project's "Share our findings" block as the
@@ -90,7 +90,7 @@ educatorContent: |
 
   Do not do this for them. A facilitator who quietly invites everyone's families has organised a nice
   event and removed the only part of it that builds agency. The learner decides who, the learner asks,
-  and the learner hands over the invitation. Give them a slip of paper with the date and time on it, 
+  and the learner hands over the invitation. Give them a slip of paper with the date and time on it -
   they can draw on it, and it lets someone who cannot read still be told correctly by someone else.
 
   Practise the asking in a session beforehand, in pairs, the same way the English component practises
@@ -101,7 +101,7 @@ educatorContent: |
 
   - **Set the room so the work is on the walls before anyone arrives.** Guests who walk into a room of
     posters understand what happened here before a word is said.
-  - **Open by saying what the programme was for**, in one sentence, in the language everyone shares,
+  - **Open by saying what the programme was for** - in one sentence, in the language everyone shares -
     so the guests know what they are looking at.
   - **Groups first, then individuals.** The research presentations warm the room up; the personal
     cards are easier after that.
@@ -120,7 +120,7 @@ educatorContent: |
   - Think about who is being invited into the learning space, and clear it with your coordinator against
     NRC's Code of Conduct. Guests are not left alone with learners.
   - The research touches landslides and lost shelters. Some guests will have lost more than the
-    learners have. Keep the tone hopeful, the land is greening again, and be ready to step a
+    learners have. Keep the tone hopeful - the land is greening again - and be ready to step a
     conversation back.
   - A learner with nobody to invite must never be visible as the learner with nobody to invite. Talk to
     them privately beforehand, and offer a mentor, another facilitator, or a member of NRC staff as the
@@ -131,7 +131,7 @@ educatorContent: |
   This is dense evidence and it is your last chance to gather it. In one afternoon you see how a
   learner talks about their research and answers a question about it (FSI1), how they use their English
   with someone outside the learning space, and how they account for their own growth (FSL2). Take notes
-  the same day, not from memory a week later.
+  the same day - not from memory a week later.
 agencyContribution:
   indicators:
   - contribution-to-community
@@ -141,7 +141,7 @@ agencyContribution:
     A learner who chooses their audience and does the inviting has exercised agency over the event
     itself, not just performed inside one someone else arranged. Showing a community what you found out
     about a problem that affects them is an impactful contribution at exactly the scale a young person
-    can manage, and being seen doing it, by someone whose opinion matters to you, is often the first
+    can manage - and being seen doing it, by someone whose opinion matters to you, is often the first
     time a learner's own family understands what they are capable of. That recognition is what makes a
     next step feel available rather than presumptuous.
 principlesForegrounded:
@@ -165,7 +165,7 @@ principleAlignment:
 - principle: connect-to-futures
   how: >-
     A learner who has been seen to do something by the person they chose has a different conversation
-    about what they do next, with that person, and with themselves.
+    about what they do next - with that person, and with themselves.
 competencyCodes: [FSI1, FSL2, FLC3]
 competencyDevelopment:
 - code: FLC3

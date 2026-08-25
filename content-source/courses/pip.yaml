@@ -1,12 +1,12 @@
-# Intermediate extraction, mirrors spec §4.1 Course/Objective interfaces.
+# Intermediate extraction - mirrors spec §4.1 Course/Objective interfaces.
 # Source: "Personal Interest Project (PIP) Course Guide - 2025 Onwards"
 # Verbatim from source; issues recorded, not corrected.
 id: pip
 slug: pip
 access: public
 title: Personal Interest Project (PIP)
-strapline: null # not present in guide, to author
-programmes: [gsd] # to confirm against programme-level docs
+strapline: null            # not present in guide - to author
+programmes: [gsd]          # to confirm against programme-level docs
 testimonial:
   quote: >-
     The Personal Interest Project allowed me to explore topics I am passionate
@@ -31,9 +31,9 @@ purpose: >-
   taking action, adapting through feedback, and reflecting on what works and why.
 requirements:
   structuredHours: 50
-  durationWeeks: 40 # "PIP lasting at least 40 weeks"
+  durationWeeks: 40          # "PIP lasting at least 40 weeks"
   cadence: 40+ weeks
-  liveIndependentSplit: null # hours can include live and independent; no ratio stated
+  liveIndependentSplit: null   # hours can include live and independent; no ratio stated
   notes: >-
     Students can work as individuals or as a group; if working as a group, each
     group member must make their own final submission that reflects their
@@ -45,12 +45,12 @@ requirements:
     group is supported by a PIP mentor (typically a facilitator or educator from
     the delivery partner's team); mentors must meet with learners at least three
     times to discuss progress, challenges, and next steps, guide reflection,
-    provide feedback, and connect learners with relevant resources. Where
+    provide feedback, and connect learners with relevant resources - where
     appropriate a specialist or industry mentor may also be involved, provided
     safeguarding procedures are followed. Each learner makes a final PIP
     submission that clearly communicates what they did (a clear summary of the
     actions they took, steps they followed, and how their project unfolded), what
-    impact it had (evidence of progress, outcomes, or influence, personal,
+    impact it had (evidence of progress, outcomes, or influence - personal,
     academic, or community-based), and what they learned (reflections on new
     knowledge, skills, values, challenges, and next steps for growth or pathways).
     Acceptable formats include a slide deck, written report, portfolio, recorded
@@ -223,7 +223,7 @@ principleMappings:
   - principle: connect-to-futures
     inThisCourse:
       - >-
-          The project is chosen by the learner, so the choice itself is a statement about the future they are exploring. Facilitators treat it that way and ask what it is telling them.
+          The project is chosen by the learner, so the choice itself is a statement about the future they are exploring - facilitators treat it that way and ask what it is telling them.
       - >-
           Learners experience running something self-directed from start to finish, which is the closest rehearsal the programme offers for further study or self-employment.
       - >-
@@ -241,7 +241,7 @@ sourceIssues:
   - type: cross-course-copy-paste
     detail: >-
       Course Learning Design Checklist reads "Meets the time and contextualisation
-      requirements for the Social Entrepreneurship course", should reference the
+      requirements for the Social Entrepreneurship course" - should reference the
       Personal Interest Project (PIP). Same error appears in multiple guides.
   - type: missing-principle
     detail: >-

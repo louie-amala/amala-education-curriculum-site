@@ -10,9 +10,9 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "Can we trust it? Weighing our sources"
 summary: >-
-  Learners meet, in plain terms, how a researcher decides how far to trust a piece of evidence, who
+  Learners meet, in plain terms, how a researcher decides how far to trust a piece of evidence - who
   said it, how they know, whether other evidence agrees, and whether they might be mistaken or have a
-  reason to shape the story, and use it to weigh both their own primary evidence and the supplied
+  reason to shape the story - and use it to weigh both their own primary evidence and the supplied
   source pack, marking how much weight each piece can bear.
 facilitationContext:
 - group
@@ -21,8 +21,8 @@ primaryContext: group
 duration: "2 hours facilitated + 1 hour independent"
 grouping: "Whole group to model, then pairs; a short independent think between sessions"
 whatLearnersDo:
-- Meet the three checks a researcher makes of any source, leading with checking it against others.
-- Weigh the sources in the pack, some strong, one weak, and say which can carry more weight.
+- Meet the three checks a researcher makes of any source - leading with checking it against others.
+- Weigh the sources in the pack - some strong, one weak - and say which can carry more weight.
 - "Weigh their own primary evidence too: one person's strong opinion is not the same as a pattern across many."
 - Mark, in the research book, how much weight each piece of evidence can bear.
 materialsAndPreparation:
@@ -48,7 +48,7 @@ visuals:
 - kind: example
   title: "The line, weighed"
   caption: >-
-    There is no single right order, the reasons are the point. The strongest evidence is what many
+    There is no single right order - the reasons are the point. The strongest evidence is what many
     sources AND our own research agree on.
   spec:
     type: zones
@@ -66,28 +66,28 @@ visuals:
       - "a company selling trees"
       - "one person's opinion"
 facilitationNotes: >-
-  The one thing to get right is that trust is not yes-or-no. It is how much weight a piece of evidence
+  The one thing to get right is that trust is not yes-or-no - it is how much weight a piece of evidence
   can carry, and the way to judge that is to check a source against others, not just to study it on its
   own. Keep it plain and hands-on: the three checks, then a line on the floor from "trust more" to
-  "trust less", and learners place each source along it and say why. Lead with the third check, does it
-  agree with the other sources and with what we found?, because checking a source against others is the
+  "trust less", and learners place each source along it and say why. Lead with the third check - does it
+  agree with the other sources and with what we found? - because checking a source against others is the
   habit that matters most (and the one we can do offline). Use the pack's built-in weak source (the
   company's website) so the judging has something real to bite on. When you turn to the learners' own
-  primary evidence, keep it warm and general. No learner has to speak from their own life; weigh "what
+  primary evidence, keep it warm and general - no learner has to speak from their own life; weigh "what
   one person told us" and "what many people said" as examples, not anyone's story.
 steps:
 - title: "Three checks a researcher makes"
   duration: "30 min"
   guidance: >-
     Introduce, in plain terms, the three checks we make of any piece of evidence. One: who made it, and
-    why. Could they have a reason to tell the story one way (a company selling trees wants trees to
-    sound good)? Two: how do they know, do they show it (numbers, named people, a study), and is it
+    why - could they have a reason to tell the story one way (a company selling trees wants trees to
+    sound good)? Two: how do they know - do they show it (numbers, named people, a study), and is it
     still true? Three, the big one: does it agree with the OTHER sources, and with what we found by
-    asking and looking ourselves? A good researcher does not just study one source on its own, they
+    asking and looking ourselves? A good researcher does not just study one source on its own - they
     check it against others. These are the signals printed on the "Can we trust it?" card in our pack.
   keyPrompts:
   - "Who made this, and could they have a reason to tell it one way?"
-  - "Do they show how they know, and is it still true?"
+  - "Do they show how they know - and is it still true?"
   - "Does it agree with the other sources, and with what we found ourselves?"
 - title: "Weigh the source pack on a line"
   duration: "45 min"
@@ -95,7 +95,7 @@ steps:
     Make a line on the floor or wall, from "trust more" at one end to "trust less" at the other. In
     pairs, learners take a source from the pack, make the three checks, and place it on the line, saying
     why. Draw out why the company's website sits low (it sells trees and shows no proof) and why
-    the science and the UN sources sit higher. There is no single right order, the reasons are the point.
+    the science and the UN sources sit higher. There is no single right order - the reasons are the point.
   keyPrompts:
   - "Why does this source sit here and not further along?"
   - "Which source would you trust most for our question, and why?"
@@ -104,7 +104,7 @@ steps:
   guidance: >-
     Turn to the primary evidence the group gathered. Weigh it the same way, using general examples: one
     person's strong opinion is not the same as a pattern many people described; something we saw with our
-    own eyes on the hills carries real weight. Keep it general and warm. We are weighing kinds of
+    own eyes on the hills carries real weight. Keep it general and warm - we are weighing kinds of
     evidence, not anyone's personal story.
   keyPrompts:
   - "Did many people say this, or just one?"
@@ -113,27 +113,27 @@ steps:
   duration: "15 min"
   guidance: >-
     Learners go back to their evidence log and, on the "can we trust it?" sheet, mark for each piece how
-    much weight it can bear, a lot, some, or a little, with a word or a mark. This protects us later
+    much weight it can bear - a lot, some, or a little - with a word or a mark. This protects us later
     from building an insight on a single shaky claim.
 learnerContent: |
   ## How much can we trust it?
 
   Not every piece of evidence is equal. Some we can lean on hard; some we should treat with care. A
-  researcher does not just ask "is this true or false?", they ask "how much weight can this carry?"
+  researcher does not just ask "is this true or false?" - they ask "how much weight can this carry?"
 
   For every source, and for everything people told us, make three checks:
 
   - Who made it, and why? Could they have a reason to tell the story one way? (A company selling trees
     wants trees to sound good.)
-  - How do they know, and is it still true? Do they show where their facts come from, numbers, named
-    people, a study, or do they just say it?
+  - How do they know - and is it still true? Do they show where their facts come from - numbers, named
+    people, a study - or do they just say it?
   - Does it hold up? Does it agree with the OTHER sources, and with what WE found by asking and looking?
 
-  The third check matters most. One source on its own, even a good one, is only a start. One person's
+  The third check matters most. One source on its own - even a good one - is only a start. One person's
   strong opinion is not the same as a pattern many people described; something we saw ourselves on the
   hills carries real weight. The strongest evidence is what many sources AND our own research agree on.
 
-  We do this for the source pack and for our own evidence, then mark how much weight each piece can bear,
+  We do this for the source pack and for our own evidence, then mark how much weight each piece can bear -
   so we build our findings on evidence we can trust, not on a single shaky claim.
 
 educatorContent: |
@@ -141,7 +141,7 @@ educatorContent: |
 
   Learners arrive believing that a source is either true or false, and that anything printed, official,
   or said by an older person is true. This block replaces that with something more useful: **how much
-  weight can this piece bear?** Not true or false, how much can we build on it.
+  weight can this piece bear?** Not true or false - how much can we build on it.
 
   ### The three checks, and why they are these three
 
@@ -149,7 +149,7 @@ educatorContent: |
      who HEARD about it is the single most useful distinction in the whole block. A person who watched
      the slope come down is strong evidence about that slope. A person repeating what a neighbour said is
      weak evidence about anything.
-  2. **Do they have a reason to shape the story?** Not "are they lying", almost nobody is. But an
+  2. **Do they have a reason to shape the story?** Not "are they lying" - almost nobody is. But an
      organisation reporting on its own project has a reason to tell the good half. Source D in the pack
      is a company selling tree-planting; it is in there on purpose so learners have something real to
      practise on. Teach this without cynicism: an interested source is not a worthless source, it is one
@@ -162,7 +162,7 @@ educatorContent: |
 
   Learners will rank an agency report above their grandmother every time. Sometimes right, often not.
   The grandmother who watched the hill for forty years is a primary source with direct observation; the
-  report may be repeating a number from somewhere else. Make this exact comparison out loud. It is the
+  report may be repeating a number from somewhere else. Make this exact comparison out loud - it is the
   moment the idea lands, and it also tells learners their own community's knowledge counts.
 
   ### The trap in the other direction
@@ -180,7 +180,7 @@ educatorContent: |
 
   - Every learner can say the three checks in their own words, without the page.
   - The source pack has been ranked on a line, and learners can defend where they put each one.
-  - Their own interview evidence has been weighed too, not just the pack. This is the half that gets
+  - Their own interview evidence has been weighed too, not just the pack - this is the half that gets
     skipped.
   - At least one learner has said "but does anything else agree with it?" without being prompted.
 learnerTeaching:
@@ -194,7 +194,7 @@ learnerTeaching:
     Think of a bridge. Some planks can carry a person. Some can carry only a bird. You need to know
     which is which before you step on it.
 
-    ### Check 1: Who said it, and how do they know?
+    ### Check 1 - Who said it, and how do they know?
 
     Ask how the person knows.
 
@@ -204,15 +204,15 @@ learnerTeaching:
 
     Someone who SAW is stronger than someone who HEARD.
 
-    ### Check 2: Do they have a reason to tell it one way?
+    ### Check 2 - Do they have a reason to tell it one way?
 
     This is not asking whether someone is lying. Most people are not.
 
     But if a company sells trees, it will tell you the good things about trees. If an organisation
-    reports on its own work, it will tell you the parts that went well. That does not make them useless.
-    It means we check them against someone else.
+    reports on its own work, it will tell you the parts that went well. That does not make them useless -
+    it means we check them against someone else.
 
-    ### Check 3: Does anything else agree?
+    ### Check 3 - Does anything else agree?
 
     This is the strongest check of all.
 
@@ -229,18 +229,18 @@ learnerTeaching:
 
     ### And careful the other way
 
-    Weighing does not mean trusting nothing. A weak source can still be useful. It can show us what to
+    Weighing does not mean trusting nothing. A weak source can still be useful - it can show us what to
     ask about next. We are working out how hard to lean on something, not throwing it away.
   words:
     - term: weigh
       meaning: to work out how much we can trust something, and how much to lean on it
     - term: source
-      meaning: anywhere our information comes from, a person, a book, a report, what we saw
+      meaning: anywhere our information comes from - a person, a book, a report, what we saw
     - term: agree
       meaning: when two different sources say the same thing
   tryIt:
     intro: >-
-      How much weight can each of these carry? Circle strong, medium, or weak, and be ready to say why.
+      How much weight can each of these carry? Circle strong, medium, or weak - and be ready to say why.
       Then check at the back of the book.
     chooseFrom: ["strong", "medium", "weak"]
     items:
@@ -250,9 +250,9 @@ learnerTeaching:
       - "A boy in our group: \"my cousin said the whole hill is going to come down next monsoon.\""
     answers:
       - "Strong. She saw it herself, over a long time, and she has no reason to shape the story. This is exactly the kind of evidence people wrongly ignore because it is not printed."
-      - "Weak. They are selling trees, so they tell the good half, and \"completely\" is a warning sign. Useful for finding out what to check, not for building on."
-      - "Strong. They measured it, they say how, and they say who paid, which lets us judge for ourselves. Saying how you know is what makes a source strong."
-      - "Weak. He heard it from someone who heard it. Nobody saw it, and it is about the future, which nobody can see. Worth asking about, not worth building on."
+      - "Weak. They are selling trees, so they tell the good half - and \"completely\" is a warning sign. Useful for finding out what to check, not for building on."
+      - "Strong. They measured it, they say how, and they say who paid - which lets us judge for ourselves. Saying how you know is what makes a source strong."
+      - "Weak. He heard it from someone who heard it. Nobody saw it, and it is about the future, which nobody can see. Worth asking about - not worth building on."
     then: >-
       Now take one piece of evidence WE gathered and run the three checks on it. Be honest, even if it
       is your own.
@@ -264,15 +264,15 @@ agencyContribution:
   - control-of-future-pathways
   - power-over-wellbeing-and-self-direction
   how: >-
-    Learning to weigh how far a claim can be trusted, who said it, how they know, whether other
-    evidence agrees, is a skill learners carry into every decision that shapes their lives, so they act
+    Learning to weigh how far a claim can be trusted - who said it, how they know, whether other
+    evidence agrees - is a skill learners carry into every decision that shapes their lives, so they act
     on evidence rather than on whoever spoke loudest.
 principlesForegrounded: [feedback-and-data, responsible-action, authentic-challenges]
 principleAlignment:
 - principle: feedback-and-data
   how: Learners weigh each piece of evidence against the others and against what they saw themselves, rather than accepting any of it whole.
 - principle: responsible-action
-  how: Judging how much weight a claim can bear is what stops an insight, and later an action, from resting on a single shaky source.
+  how: Judging how much weight a claim can bear is what stops an insight - and later an action - from resting on a single shaky source.
 - principle: authentic-challenges
   how: The sources and the primary evidence are about a real, local challenge, so the judging matters and is not an exercise.
 competencyCodes: [FSI1, FPS2, FPS3]
@@ -280,7 +280,7 @@ competencyDevelopment:
 - code: FSI1
   how: Weighing evidence is part of conducting the investigation, not a separate skill bolted on.
 - code: FPS2
-  how: The whole activity is the "evaluating sources" strand, deciding how far each source can be trusted before relying on it.
+  how: The whole activity is the "evaluating sources" strand - deciding how far each source can be trusted before relying on it.
 - code: FPS3
   how: Asking whether a source might be mistaken or have a reason to shape the story surfaces the factors that make evidence stronger or weaker.
 objectiveIds: [research-project--o3]
@@ -294,4 +294,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

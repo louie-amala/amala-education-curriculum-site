@@ -8,7 +8,7 @@ export default function CoursesIndex() {
   const gsd = getProgramme("gsd");
 
   // Component-based programmes (e.g. Learning Bridge) deliver some components as full courses.
-  // Public programmes only throughout this page, a password-protected programme must not be
+  // Public programmes only throughout this page - a password-protected programme must not be
   // named here, even though the courses it shares with a public programme are themselves public.
   const componentProgrammes = publicProgrammes
     .filter((p) => p.components.some((c) => c.courseSlug))

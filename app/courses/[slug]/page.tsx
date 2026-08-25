@@ -69,11 +69,11 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
       {course.testimonial && (
         <blockquote className="mt-6 border-l-4 border-gold bg-gold/5 p-4 text-dark-navy">
           <p className="italic">“{course.testimonial.quote}”</p>
-          <footer className="mt-2 text-sm text-cool-grey">, {course.testimonial.attribution}</footer>
+          <footer className="mt-2 text-sm text-cool-grey">- {course.testimonial.attribution}</footer>
         </blockquote>
       )}
 
-      {/* Throughline. Agency → anchor competency → objectives */}
+      {/* Throughline - agency → anchor competency → objectives */}
       {course.throughline && (
         <section className="mt-8 rounded-lg border border-navy/15 bg-navy/[0.03] p-5">
           <h2 className="font-heading text-xl font-semibold text-dark-navy">Course throughline</h2>
@@ -123,7 +123,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
         </section>
       )}
 
-      {/* Key concepts, professional learning for the facilitator. Curated glossary terms; the
+      {/* Key concepts - professional learning for the facilitator. Curated glossary terms; the
           depth (definition, "in depth", further reading) lives on each term page. */}
       {keyConcepts.length > 0 && (
         <section className="mt-10 rounded-lg border border-teal/25 bg-teal/[0.04] p-5">
@@ -144,7 +144,7 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
         </section>
       )}
 
-      {/* Competencies, anchored layout when the course has a throughline, else a flat map */}
+      {/* Competencies - anchored layout when the course has a throughline, else a flat map */}
       {anchor ? (
         <section className="mt-10">
           <h2 className="font-heading text-xl font-semibold text-dark-navy">Competencies</h2>
@@ -303,11 +303,11 @@ export default async function CoursePage({ params }: { params: Promise<{ slug: s
                   {obj.anchorContribution ? (
                     <div className="mt-2 space-y-2 text-sm">
                       <p>
-                        <span className="font-semibold text-navy">Develops, </span>
+                        <span className="font-semibold text-navy">Develops - </span>
                         <span className="text-dark-navy/90">{obj.anchorContribution.develops}</span>
                       </p>
                       <p>
-                        <span className="font-semibold text-navy">Demonstrates. </span>
+                        <span className="font-semibold text-navy">Demonstrates - </span>
                         <span className="text-dark-navy/90">{obj.anchorContribution.demonstrates}</span>
                       </p>
                     </div>

@@ -30,7 +30,7 @@ deliveryAdaptations:
     Workable but weaker: a learner alone tends to give idealised study advice rather than the honest
     truth of how they learn. The workbook picture-clock and prompts carry it; ask them to test one
     finding against a real recent day before they trust it.
-duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort, the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 40-60 min noticing task over two days"
+duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort - the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 40-60 min noticing task over two days"
 grouping: "Individual reflection, then same-gender pairs; works with 10-35 learners"
 whatLearnersDo:
 - Notice when and where you actually learn best, and when you struggle.
@@ -45,7 +45,7 @@ visuals:
 - kind: example
   title: "What helps me learn"
   caption: >-
-    A learner's own picture of the conditions they learn best in, theirs to name and carry into every
+    A learner's own picture of the conditions they learn best in - theirs to name and carry into every
     goal they set.
   spec:
     type: zones
@@ -141,7 +141,7 @@ educatorContent: |
 
   ### It is about conditions, not "learning styles"
 
-  Be clear in your own mind: this is not about visual, auditory or kinaesthetic learners. That idea
+  Be clear in your own mind: this is not about visual, auditory or kinaesthetic learners - that idea
   does not hold up, and teaching to a supposed style does not help anyone.
 
   What this block is actually about is **conditions**: when in the day a learner can concentrate, where
@@ -155,7 +155,7 @@ educatorContent: |
   many, none of that is available or true.
 
   So ask about what actually happened, not what should: when did you last concentrate well on
-  something? Where were you? Who was there? The answer is often surprising, while walking, while
+  something? Where were you? Who was there? The answer is often surprising - while walking, while
   cooking, with a younger sibling nearby, late at night, in a crowd.
 
   Model it with your own honest answer first, including a slightly unimpressive one.
@@ -169,7 +169,7 @@ educatorContent: |
   ### It has to become a decision
 
   A block that ends with self-knowledge and no action was a nice conversation. End with each learner
-  naming one condition they will actually use when they plan their slot. That is the handover into the
+  naming one condition they will actually use when they plan their slot - that is the handover into the
   time block.
 
   ## Before they leave this block
@@ -183,7 +183,7 @@ learnerTeaching:
     ## How to notice how you learn best
 
     Later in this course you will make a plan. That plan will only work if it fits how you actually
-    learn, so first you need to know how you actually learn.
+    learn - so first you need to know how you actually learn.
 
     ### Do not answer what SOUNDS right
 
@@ -200,7 +200,7 @@ learnerTeaching:
     - **When** was it? Morning, afternoon, night?
     - **Where** were you?
     - **Who** was around? Anyone? Nobody?
-    - **What were you doing** with your body, sitting, walking, cooking, carrying?
+    - **What were you doing** with your body - sitting, walking, cooking, carrying?
 
     People's honest answers are often surprising. Some people think best while walking. Some while
     doing something with their hands. Some late at night when the shelter is finally quiet. Some with a
@@ -292,4 +292,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

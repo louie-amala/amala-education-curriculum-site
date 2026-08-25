@@ -1,12 +1,12 @@
-# Intermediate extraction, mirrors spec §4.1 Course/Objective interfaces.
+# Intermediate extraction - mirrors spec §4.1 Course/Objective interfaces.
 # Source: "Social Entrepreneurship Course Guide - 2025 Onwards.txt"
 # Verbatim from source; issues recorded, not corrected.
 id: social-entrepreneurship
 slug: social-entrepreneurship
 access: public
 title: Social Entrepreneurship
-strapline: null # not present in guide, to author
-programmes: [gsd] # to confirm against programme-level docs
+strapline: null            # not present in guide - to author
+programmes: [gsd]          # to confirm against programme-level docs
 testimonial:
   quote: >-
     The Social Entrepreneurship course was very inspiring and practical. It helped
@@ -23,9 +23,9 @@ purpose: >-
   but also creates livelihoods and purpose.
 requirements:
   structuredHours: 100
-  durationWeeks: 10 # "minimum of 10 weeks"
+  durationWeeks: 10          # "minimum of 10 weeks"
   cadence: 10+ weeks
-  liveIndependentSplit: null # not stated in guide
+  liveIndependentSplit: null   # not stated in guide
   notes: >-
     Structured learning should include both live sessions (individual and/or group)
     and independent learning (individual and/or group tasks).
@@ -40,7 +40,7 @@ objectives:
       - Build their understanding of primary and secondary research methods.
       - Conduct research to identify contributing factors to the chosen challenge.
       - Communicate findings clearly to peers and wider audiences.
-    furtherDetails: # raw seeds → future concepts/tools/activities (NOT yet authored materials)
+    furtherDetails:            # raw seeds → future concepts/tools/activities (NOT yet authored materials)
       concepts:
         - Case studies of "wicked problems" to introduce complexity thinking.
       activities:
@@ -90,7 +90,7 @@ objectives:
       (social enterprise) concept (product and/or service) that directly or
       indirectly attempts to address a social or environmental challenge.
     supportedTo:
-      - Create documentation that explains and supports their enterprise concept (e.g. pitch deck, business plan).
+      - Create documentation that explains and supports their enterprise concept (e.g., pitch deck, business plan).
       - Build an evidence base for the effectiveness of their concept.
       - Identify and engage potential supporters, partners, or investors.
       - Practise persuasive communication tailored to different audiences.
@@ -159,7 +159,7 @@ principleMappings:
       - >-
           Learners test their idea against what it would actually take to run it, so the future they are imagining is costed rather than hoped for.
       - >-
-          Facilitators connect learners with people running enterprises locally, and are honest about the routes that do not require starting a venture. Working inside one, or bringing the mindset to employment.
+          Facilitators connect learners with people running enterprises locally, and are honest about the routes that do not require starting a venture - working inside one, or bringing the mindset to employment.
       - >-
           Learners leave with a concrete next step for their idea, or a clear-eyed decision not to pursue it, which is an equally good outcome.
 designChecklist:

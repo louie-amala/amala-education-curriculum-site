@@ -10,23 +10,23 @@ skill:
   label: Set a clear, meaningful learning goal
   description: >-
     Turn a vague wish into a specific, achievable goal a learner genuinely cares about, broken into
-    trackable milestones. Judging goal quality for themselves rather than being told.
+    trackable milestones - judging goal quality for themselves rather than being told.
 summary: >-
   The defining move of the cycle: learners turn an area they want to grow in into one clear, meaningful
   learning goal, tested against what makes a goal good and broken into milestones they can track.
 agencyNote: >-
-  Choosing your own goal is the moment a learner takes the wheel, deciding what their learning is for,
+  Choosing your own goal is the moment a learner takes the wheel - deciding what their learning is for,
   rather than waiting to be told. A goal grounded in what genuinely matters to them is one they will
   actually pursue.
 anchorContribution:
   develops: >-
-    Learners develop the defining move of FSL2, establishing clear objectives for their own learning
-    and growth, by building the judgement to tell a strong goal from a weak one, then turning a vague
+    Learners develop the defining move of FSL2 - establishing clear objectives for their own learning
+    and growth - by building the judgement to tell a strong goal from a weak one, then turning a vague
     aspiration into a specific, achievable goal broken into trackable milestones.
   demonstrates: >-
     Assess this from the goal a learner produces: one or more clearly stated, milestoned goals connected
     to what matters to them. Look for a goal that is specific and reachable, that the learner can say why
-    it matters, and that is broken into steps they could track. The core evidence of FSL2.
+    it matters, and that is broken into steps they could track - the core evidence of FSL2.
 competencyDevelopment:
   - code: FSL1
     how: >-
@@ -48,7 +48,7 @@ plan:
       facilitatedHours: 0.25
       guidance: >-
         Open by returning to the areas to grow in each learner's profile from the previous skill. The
-        goal is not invented from nothing. It comes from something the learner already named they wanted
+        goal is not invented from nothing - it comes from something the learner already named they wanted
         to grow in, which is what keeps it genuinely theirs.
     - title: Learn what makes a good goal
       kind: activity
@@ -66,7 +66,7 @@ plan:
       guidance: >-
         Now learners draft one or two real goals from their profile, sharpen them against the tests with
         a partner, and break each into a few trackable milestones. Guard the goal being the learner's own
-        and genuinely mattering to them, a goal set to please the facilitator will not be pursued.
+        and genuinely mattering to them - a goal set to please the facilitator will not be pursued.
       independentTask: Tell one person your goal and why it matters to you.
     - title: Commit your goal
       kind: consolidation
@@ -74,4 +74,4 @@ plan:
       guidance: >-
         Have each learner write their committed goal and its milestones into their journal, and pick one
         first step. The milestoned goal is the assessable evidence for this skill and the thing the next
-        skill turns into deliberate action. Confirm it is not fixed forever. It will be revisited.
+        skill turns into deliberate action. Confirm it is not fixed forever - it will be revisited.

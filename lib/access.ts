@@ -2,7 +2,7 @@
  * Shared-password gate for non-public content (currently the Learning Bridge+ Cox's Bazar / NRC
  * programme, tagged `access: partner` in content-source).
  *
- * Edge-safe: no node:crypto, no fs. Middleware.ts imports this, and middleware runs on the edge.
+ * Edge-safe: no node:crypto, no fs - middleware.ts imports this, and middleware runs on the edge.
  * The paths it covers come from lib/protected-paths.generated.ts, which is derived from the
  * content tags by scripts/generate-protected-paths.js at build time.
  *
@@ -16,7 +16,7 @@ export const UNLOCK_PATH = "/unlock";
 /** How long an unlock lasts before the password is asked for again. */
 export const SESSION_DAYS = 30;
 
-const protectedSet = new Set<string>([...PROTECTED_PAGES,...PROTECTED_DOWNLOADS]);
+const protectedSet = new Set<string>([...PROTECTED_PAGES, ...PROTECTED_DOWNLOADS]);
 
 /** True if this URL is behind the gate. Trailing slashes and index forms are normalised. */
 export function isProtectedPath(pathname: string): boolean {
@@ -34,7 +34,7 @@ const encoder = new TextEncoder();
 
 async function hmacKey(password: string): Promise<CryptoKey> {
   // The signing key is derived from the password itself, so rotating the password invalidates
-  // every cookie already issued, which is the behaviour you want from a rotation.
+  // every cookie already issued - which is the behaviour you want from a rotation.
   return crypto.subtle.importKey(
     "raw",
     encoder.encode(`amala-lb-nrc-gate:${password}`),

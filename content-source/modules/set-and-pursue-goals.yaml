@@ -1,4 +1,4 @@
-# Competency module for FSL2 "Set and pursue goals", the general (non-contextualised) sequencing layer
+# Competency module for FSL2 "Set and pursue goals" - the general (non-contextualised) sequencing layer
 # for the Agency in Learning material library, mirroring how FSI1 uses investigating-real-world-issues.
 # Groups the generic ail-* materials into the four skills of the self-directed learning cycle. It is a
 # cross-cutting competency path (materials -> skill -> competency); it does NOT replace the
@@ -13,7 +13,7 @@ grain: competency
 title: Set and pursue goals
 competencyCode: FSL2
 summary: >-
-  The full self-directed learning cycle of FSL2, broken into the four skills that make it up. 
+  The full self-directed learning cycle of FSL2, broken into the four skills that make it up -
   understanding yourself as a learner, setting a clear and meaningful goal, planning and taking
   deliberate steps, and tracking progress, using feedback, and reflecting on growth. Run the skill
   modules in order for one full, guided goal cycle; a learning journal, started early, runs through all
@@ -21,8 +21,8 @@ summary: >-
 agencyNote: >-
   Setting and pursuing your own goals is the engine of agency: it is the point at which a learner stops
   waiting to be told what to learn and takes hold of their own growth and the future it builds towards.
-  Running a full cycle on a real goal of their own, deciding what to grow, taking deliberate steps, and
-  seeing the progress, is self-direction made concrete rather than talked about.
+  Running a full cycle on a real goal of their own - deciding what to grow, taking deliberate steps, and
+  seeing the progress - is self-direction made concrete rather than talked about.
 # How the whole module develops and demonstrates FSL2 (the four skills below each carry their own).
 anchorContribution:
   develops: >-

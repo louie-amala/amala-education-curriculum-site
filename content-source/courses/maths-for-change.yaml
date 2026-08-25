@@ -1,12 +1,12 @@
-# Intermediate extraction, mirrors spec §4.1 Course/Objective interfaces.
+# Intermediate extraction - mirrors spec §4.1 Course/Objective interfaces.
 # Source: "Maths for Change Course Guide - 2025 Onwards.txt"
 # Verbatim from source; issues recorded, not corrected.
 id: maths-for-change
 slug: maths-for-change
 access: public
 title: Maths for Change
-strapline: null # not present in guide, to author
-programmes: [gsd] # to confirm against programme-level docs
+strapline: null            # not present in guide - to author
+programmes: [gsd]          # to confirm against programme-level docs
 testimonial:
   quote: >-
     I can apply all the mathematical expression and numerical literacy to my
@@ -25,9 +25,9 @@ purpose: >-
   to influence positive change.
 requirements:
   structuredHours: 100
-  durationWeeks: 10 # "minimum of 10 weeks"
+  durationWeeks: 10          # "minimum of 10 weeks"
   cadence: 10+ weeks
-  liveIndependentSplit: null # not stated in guide
+  liveIndependentSplit: null   # not stated in guide
   notes: >-
     Structured learning should include both live sessions (individual and/or
     group) and independent learning (individual and/or group tasks).
@@ -41,7 +41,7 @@ objectives:
       - Apply mathematical thinking to everyday tasks such as budgeting, scheduling, measurement, and comparison.
       - Explore how accuracy (getting a result that is correct and precise), estimation (approximating a result to make quick judgments or checks), and reasonableness (evaluating whether a result is logical and realistic) contribute to sound decision making.
       - Reflect on how practising mathematical skills increases confidence, independence, and resourcefulness.
-    furtherDetails: # raw seeds → future concepts/tools/activities (NOT yet authored materials)
+    furtherDetails:            # raw seeds → future concepts/tools/activities (NOT yet authored materials)
       concepts: []
       activities:
         - Learners could plan and monitor personal or group budgets for real or simulated projects.
@@ -109,7 +109,7 @@ principleMappings:
     inThisCourse:
       - Learners connect mathematics to real experiences, decisions, and challenges in their lives and communities.
       - Educators design examples and problems rooted in relevant local contexts, such as income, transport, energy, or resource use.
-      - Learning experiences highlight that mathematical knowledge is not neutral, it reflects cultural, social, and historical ways of understanding the world.
+      - Learning experiences highlight that mathematical knowledge is not neutral - it reflects cultural, social, and historical ways of understanding the world.
   - principle: collaboration
     inThisCourse:
       - Learners co-design projects and investigations that use mathematics to address meaningful problems.
@@ -117,17 +117,17 @@ principleMappings:
       - Facilitators model collaborative problem-solving, encouraging learners to explain reasoning and learn from different approaches.
   - principle: lifeworthy-competencies
     inThisCourse:
-      - Learners build confidence in using mathematical tools to plan, reason, and evaluate. Skills essential in study, work, and life.
+      - Learners build confidence in using mathematical tools to plan, reason, and evaluate - skills essential in study, work, and life.
       - The course fosters persistence, accuracy, and curiosity alongside creativity and ethical reflection.
       - Learners see mathematics as a universal language for analysing systems, making fair decisions, and communicating ideas effectively.
   - principle: authentic-challenges
     inThisCourse:
-      - Learners apply mathematics to investigate and propose solutions to real issues, from budgeting and sustainability to equality of access or environmental change.
+      - Learners apply mathematics to investigate and propose solutions to real issues - from budgeting and sustainability to equality of access or environmental change.
       - They use quantitative reasoning to test ideas, model outcomes, and make evidence-based recommendations.
       - Facilitators guide learners to reflect on both the strengths and limitations of mathematical models in complex social and environmental contexts.
   - principle: responsible-action
     inThisCourse:
-      - Learners explore how data can reveal, or conceal, fairness, justice, and inequality.
+      - Learners explore how data can reveal - or conceal - fairness, justice, and inequality.
       - Activities promote ethical data use, transparency, and critical awareness of bias in measurement, sampling, and interpretation.
       - Facilitators model integrity in reasoning and communication, emphasising responsibility in presenting quantitative information.
   - principle: recognise-communicate-growth
@@ -149,7 +149,7 @@ principleMappings:
   - principle: connect-to-futures
     inThisCourse:
       - >-
-          Learners see where the mathematics they are doing is required, further study, trades, budgeting, enterprise, data work, and what level each of those actually asks for.
+          Learners see where the mathematics they are doing is required - further study, trades, budgeting, enterprise, data work - and what level each of those actually asks for.
       - >-
           Facilitators address maths anxiety as a pathway issue, because a learner who believes they cannot do maths will rule out routes long before anyone assesses them.
       - >-
@@ -165,7 +165,7 @@ sourceIssues:
   - type: cross-course-copy-paste
     detail: >-
       Course Learning Design Checklist intro reads "Meets the time and
-      contextualisation requirements for the Social Entrepreneurship course", 
+      contextualisation requirements for the Social Entrepreneurship course" -
       should reference Maths for Change. Same error appears in multiple guides.
   - type: missing-principle
     detail: >-
@@ -175,7 +175,7 @@ sourceIssues:
     detail: >-
       ATS1 cited as "Analyse and interpret data" (objectives 2 and 3); the
       authoritative title is "Analyze and Interpret Data". Orthographic variant
-      (British spelling / capitalisation), preserved as written, not corrected.
+      (British spelling / capitalisation) - preserved as written, not corrected.
   - type: miscited-competency
     detail: >-
       APS2 cited as "Evidence-informed decision making" (all three objectives);
@@ -184,7 +184,7 @@ sourceIssues:
   - type: miscited-competency
     detail: >-
       FTS1 cited as "Utilising technology" (objectives 1 and 3); the
-      authoritative title is "Utilising Technology" (capital T). Case variant, 
+      authoritative title is "Utilising Technology" (capital T). Case variant -
       preserved as written, not corrected.
   - type: strapline-missing
     detail: No strapline in source; needs authoring.

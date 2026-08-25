@@ -2,12 +2,12 @@
      - lb-coxs-bazar-mentoring-guide.docx   (the whole component, for the facilitator/mentor)
      - lb-coxs-bazar-mentor-record.docx     (one page per learner, for the twelve weeks)
 
-   Mentoring was named as a component and as "the spine of wellbeing support" but had no pack at all. 
+   Mentoring was named as a component and as "the spine of wellbeing support" but had no pack at all -
    343 words in the Educator Guide and a pointer to a website a facilitator in a CBLF cannot reach.
 
    Like the other component generators, this exports children builders so generate-lb-guides.js can
    compose Part 2 (the guide) and Part 9C (the record) from exactly the same content the standalone
-   files carry. They cannot drift.
+   files carry - they cannot drift.
 
    Everything is rendered from the authored YAML: units/coxs-bazar-mentoring-and-wellbeing.yaml and
    the cb-mn-* materials.
@@ -105,7 +105,7 @@ function arcChildren() {
   return c;
 }
 
-// The programme's own mentoring context, by role area. Held here rather than restated, so the guide
+// The programme's own mentoring context, by role area - held here rather than restated, so the guide
 // and the programme page cannot say different things.
 function contextChildren() {
   const men = programme.mentoring;
@@ -141,7 +141,7 @@ function guideChildren(opts = {}) {
   if (!opts.embedded) {
     c.push(...body(unit.summary));
   }
-  // What the component is working towards, before how it is run. The equivalent of the course guide
+  // What the component is working towards, before how it is run - the equivalent of the course guide
   // the three taught components render.
   c.push(...componentGuideChildren(unit));
   c.push(pageBreak());
@@ -150,7 +150,7 @@ function guideChildren(opts = {}) {
   c.push(mini('Mentoring and assessment'));
   c.push(...body(unit.assessmentNote));
   c.push(callout('Before you take a single learner', [
-    'Know NRC’s Code of Conduct, and the MHPSS and protection referral pathway. The actual name of the person you hand a concern to, written down and to hand.',
+    'Know NRC’s Code of Conduct, and the MHPSS and protection referral pathway - the actual name of the person you hand a concern to, written down and to hand.',
     'You are a mentor, not a counsellor. You notice, you steady, and you refer.',
     'Agree your caseload size, your pairing for gender and language, and where your records live, with your coordinator.',
   ], PLUM));
@@ -168,7 +168,7 @@ function guide() {
   c.push(P("Learning Bridge+ (Cox's Bazar)", { size: 22, bold: true, color: OLIVE, after: 20 }));
   c.push(new Paragraph({ children: [new TextRun({ text: 'Mentoring and Wellbeing', bold: true, size: 52, color: NAVY })], spacing: { after: 40 } }));
   c.push(P('Mentor Guide', { size: 30, bold: true, color: PLUM, after: 200 }));
-  c.push(...printNotes('guide', ['If paper is short, print "Safeguarding and referral" and "The ten-minute conversation" first, those two you need in your hand.']));
+  c.push(...printNotes('guide', ['If paper is short, print "Safeguarding and referral" and "The ten-minute conversation" first - those two you need in your hand.']));
   c.push(...contents('The sections of this guide, with the page each one starts on. Word fills the numbers in when this file is opened.'));
   c.push(...guideChildren());
   c.push(P('This guide is part of a fully offline, editable pack. Not for redistribution outside the programme.', { size: 18, color: GREY, before: 240 }));
@@ -177,7 +177,7 @@ function guide() {
 
 // ============================================================ THE MENTOR'S RECORD
 // One page per learner, for twelve weeks. Deliberately thin: continuity and pattern, nothing else.
-// What is NOT on it matters as much as what is, see cb-mn-mentor-record.
+// What is NOT on it matters as much as what is - see cb-mn-mentor-record.
 
 const line = (label, width = '____________________________') =>
   new Paragraph({
@@ -223,7 +223,7 @@ function recordChildren() {
   c.push(P('Flag key:   ! = watch this   → = referred (write the date)', { size: 19, color: GREY, after: 120 }));
   c.push(weekTable(12));
   c.push(P('Read the WHOLE page every few weeks, not just the last row. The pattern is the point, and it is invisible one row at a time.', { size: 20, italics: true, color: OLIVE, before: 160 }));
-  c.push(P('Bring this to the Week-6 and Week-12 judgements. What you saw and heard in mentoring is legitimate evidence, for a learner who cannot yet write, it may be your strongest.', { size: 20, italics: true, color: GREY, before: 60 }));
+  c.push(P('Bring this to the Week-6 and Week-12 judgements. What you saw and heard in mentoring is legitimate evidence - for a learner who cannot yet write, it may be your strongest.', { size: 20, italics: true, color: GREY, before: 60 }));
   return c;
 }
 

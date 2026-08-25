@@ -1,4 +1,4 @@
-# English for Impact resource. Part 3 §11a "Grammar Exercises" (Unit 1: My Voice).
+# English for Impact resource - Part 3 §11a "Grammar Exercises" (Unit 1: My Voice).
 # Source: The Language Learning Lab "English for Impact" Course Guide (pp. 54–61).
 # Note: Unit 1 is the only unit whose grammar exercises are built in the source; §11a for Units 2–5
 # is marked "in development" (see the course's sourceIssues).
@@ -8,8 +8,8 @@ access: public
 type: resource
 title: "Unit 1 (My Voice): Grammar Exercises"
 summary: >-
-  A set of eight practice exercises for Unit 1, the verb "to be", subject pronouns, and simple
-  sentences, moving from controlled practice (sentence building, choosing the correct form) to
+  A set of eight practice exercises for Unit 1 - the verb "to be", subject pronouns, and simple
+  sentences - moving from controlled practice (sentence building, choosing the correct form) to
   freer, personal use (guided writing, speaking, and reflection).
 facilitationContext: [group, independent]
 primaryContext: independent
@@ -18,13 +18,13 @@ materialsAndPreparation:
 - Sentence-frame and vocabulary support from Unit 1 (see the Grammar Progression) so learners can complete the freer tasks.
 facilitationNotes: |
   These eight exercises give focused practice in the Unit 1 grammar: the verb "to be", subject
-  pronouns, and building simple sentences. They are sequenced from controlled to freer use, start
+  pronouns, and building simple sentences. They are sequenced from controlled to freer use - start
   with sentence building and form choice, then move to word order, guided writing, speaking, and
   reflection. Exercises 6 (Ask and Answer) and 7 (Find Someone Who…) are spoken, interactive tasks;
   use them to get learners using the language with each other, not just on paper.
 
   Keep feedback strength-based and focused on 1–3 targets (here: the correct form of "to be", correct
-  pronouns, and complete sentences). Errors are expected, model the correct form and move on. The
+  pronouns, and complete sentences). Errors are expected - model the correct form and move on. The
   source notes these worksheets should be supplemented with additional practice for learners to
   acquire the grammar securely.
 learnerContent: |
@@ -92,7 +92,7 @@ learnerContent: |
 
   ### Exercise 5: My Identity (Guided Writing)
 
-  Write one complete sentence for each prompt. Example. Write your name. → My name is Nina.
+  Write one complete sentence for each prompt. Example - Write your name. → My name is Nina.
 
   - Write your name. ______
   - Write your age. ______
@@ -107,7 +107,7 @@ learnerContent: |
 
   ### Exercise 6: Ask and Answer (Speaking Practice)
 
-  Work with a partner. Ask and answer the questions. Try to answer in complete sentences. Example. Are you happy today? → Yes, I am happy today. Are you?
+  Work with a partner. Ask and answer the questions. Try to answer in complete sentences. Example - Are you happy today? → Yes, I am happy today. Are you?
 
   - What is your name?
   - How old are you?
@@ -122,7 +122,7 @@ learnerContent: |
 
   ### Exercise 7: Find Someone Who… (Class Activity)
 
-  Walk around the class. Ask your classmates questions. Write a name for each. Example, is vegetarian → Nina. Find someone who:
+  Walk around the class. Ask your classmates questions. Write a name for each. Example - is vegetarian → Nina. Find someone who:
 
   - is from another country → ______
   - is over 20 years old → ______
@@ -156,10 +156,10 @@ educatorContent: |
   personal writing), then 6–7 (spoken interaction), closing with 8 (reflection and "I can…"
   statements that feed learners' growth tracking).
 
-  Answer guidance for the controlled items: Ex 2, 1 am, 2 is, 3 are, 4 are, 5 is, 6 are, 7 is, 8 am,
-  9 are, 10 is. Ex 3, 1 she, 2 he, 3 we, 4 he/she, 5 they, 6 you, 7 she, 8 they, 9 they, 10 I. Ex 4
+  Answer guidance for the controlled items: Ex 2 - 1 am, 2 is, 3 are, 4 are, 5 is, 6 are, 7 is, 8 am,
+  9 are, 10 is. Ex 3 - 1 she, 2 he, 3 we, 4 he/she, 5 they, 6 you, 7 she, 8 they, 9 they, 10 I. Ex 4
   answers are complete "to be" sentences in SVO order (e.g. 2 *I am from Indonesia.*). Exercises 5–8
-  are open and personal, assess for clear communication and correct use of the target structures,
+  are open and personal - assess for clear communication and correct use of the target structures,
   not perfection.
 agencyContribution:
   indicators: [control-of-future-pathways]
@@ -171,7 +171,7 @@ principlesForegrounded: [lifeworthy-competencies, builds-on-identities]
 principleAlignment:
 - principle: lifeworthy-competencies
   how: >-
-    The exercises build foundational sentence-level English, a skill learners reuse in every later
+    The exercises build foundational sentence-level English - a skill learners reuse in every later
     unit and beyond the course.
 - principle: builds-on-identities
   how: >-
@@ -182,7 +182,7 @@ competencyDevelopment:
 - code: FLC3
   how: >-
     Practising the sentence patterns for introducing oneself supports learners in communicating basic
-    personal information clearly, the first step of being understood in English.
+    personal information clearly - the first step of being understood in English.
 objectiveIds: [efi-my-voice--o2]
 relatedSlugs: [efi-mv-to-be-and-pronouns, efi-mv-introduce-yourself, efi-grammar-progression]
 sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, §11a"]
@@ -193,4 +193,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

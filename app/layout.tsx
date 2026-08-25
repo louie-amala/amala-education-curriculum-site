@@ -3,9 +3,9 @@ import "./globals.css";
 import { SiteFooter, SiteHeader } from "@/components/SiteHeader";
 
 export const metadata: Metadata = {
-  title: { default: "Amala Curriculum", template: "%s, Amala Curriculum" },
+  title: { default: "Amala Curriculum", template: "%s - Amala Curriculum" },
   description:
-    "A design tool with the curriculum built in, understand, navigate, and design transformative learning.",
+    "A design tool with the curriculum built in - understand, navigate, and design transformative learning.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

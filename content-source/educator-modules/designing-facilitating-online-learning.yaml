@@ -1,4 +1,4 @@
-# Placeholder, resources to be added. See designing-facilitating-group-learning.yaml for the full pattern.
+# Placeholder - resources to be added. See designing-facilitating-group-learning.yaml for the full pattern.
 id: edmod-dfol
 slug: designing-facilitating-online-learning
 access: public
@@ -7,5 +7,5 @@ category: delivery-mode
 requirement: Required when a programme is delivered fully online.
 status: in-development
 summary: >-
-  Adapting group-based facilitation for a fully online cohort, presence, participation, and the tools
+  Adapting group-based facilitation for a fully online cohort - presence, participation, and the tools
   and routines that make remote delivery work. Resources coming soon.

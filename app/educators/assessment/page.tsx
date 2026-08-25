@@ -9,7 +9,7 @@ export default function AssessmentPage() {
       functionKey="assessor"
       functionLabel="Assessor of competencies"
       title="The assessor&rsquo;s moves"
-      intro="The competency lives in the person, not the artefact. Assessing well means building the fullest possible picture of what a learner can really do, then judging it fairly against the proficiency scale. These moves are the assessor's craft, how to seek evidence, how to make the judgement, and the tools that draw evidence out."
+      intro="The competency lives in the person, not the artefact. Assessing well means building the fullest possible picture of what a learner can really do, then judging it fairly against the proficiency scale. These moves are the assessor's craft - how to seek evidence, how to make the judgement, and the tools that draw evidence out."
       notice={
         <p className="rounded-lg border-l-4 border-plum bg-plum/5 p-4 text-sm text-dark-navy/90">
           <span className="font-semibold text-plum">The principle underneath these moves:</span> a

@@ -1,4 +1,4 @@
-# Educator training module, "Designing and facilitating group-based learning" (DFGBL).
+# Educator training module - "Designing and facilitating group-based learning" (DFGBL).
 # The first authored module. Content is extracted from the DFGBL source pack (session slides,
 # trainer + participant guides, Course Planning Guide, and sign-off guide). The five resource files
 # are hosted under /public/downloads/ and linked in `resources` below.
@@ -12,8 +12,8 @@ status: available
 
 summary: >-
   The core module for anyone facilitating an Amala course. Across three live sessions and independent
-  work, educators plan the first 10 hours of their own course, grounded in their learners and context,
-  their course objectives, and Amala's nine transformative education principles, and leave with a
+  work, educators plan the first 10 hours of their own course - grounded in their learners and context,
+  their course objectives, and Amala's nine transformative education principles - and leave with a
   living plan they keep building.
 
 forWho: >-
@@ -22,8 +22,8 @@ forWho: >-
   sense of their learners and context).
 
 outcome: >-
-  By the end of the training you will have planned the first 10 hours of your Amala course, grounded
-  in the transformative education principles and your course objectives, and have an honest
+  By the end of the training you will have planned the first 10 hours of your Amala course - grounded
+  in the transformative education principles and your course objectives - and have an honest
   pre-delivery reflection on where you are and what comes next.
 
 format: >-
@@ -40,7 +40,7 @@ hours:
     output is 10 hours of course planned.
 
 deliverable:
-  title: Your Course Planning Guide, first 10 hours planned
+  title: Your Course Planning Guide - first 10 hours planned
   detail: >-
     You work in the Course Planning Guide throughout the training and beyond. By the end you submit it
     showing the first 10 hours of your course plan (Section 4), grounded in your context and learners
@@ -79,8 +79,8 @@ sessions:
       - time: "0:00–0:30"
         title: Welcome and refresher
         detail: >-
-          Overview of the training and planner. A brief refresher on Amala's model, agency for
-          positive change, and the nine transformative education principles.
+          Overview of the training and planner. A brief refresher on Amala's model - agency for
+          positive change - and the nine transformative education principles.
       - time: "0:30–0:55"
         title: Sharing context and learners
         detail: >-
@@ -108,7 +108,7 @@ sessions:
           Share your principle-led ideas in pairs. Which principle was most generative? Which was
           hardest to apply in your context?
       - time: "0:35–1:20"
-        title: Peer feedback, first 5 hours
+        title: Peer feedback - first 5 hours
         detail: Structured peer feedback on your first 5 hours of planning, using the feedback protocol.
       - time: "1:20–1:40"
         title: Revision time
@@ -125,9 +125,9 @@ sessions:
         title: Check-in
         detail: How are you feeling about your plan?
       - time: "0:10–0:55"
-        title: Peer feedback, full 10-hour plan
+        title: Peer feedback - full 10-hour plan
         detail: >-
-          Same protocol as Session 2. As a listener, also consider the plan as a whole. Where the
+          Same protocol as Session 2. As a listener, also consider the plan as a whole - where the
           principles are most alive, whether the arc is coherent, and what might be missing.
       - time: "0:55–1:15"
         title: Revision time
@@ -156,27 +156,27 @@ independentWork:
     hours: "~2 hours"
     when: Before Session 2
     tasks:
-      - title: Complete Section 3, transformative education principles
+      - title: Complete Section 3 - transformative education principles
         hours: "~45 min"
         detail: >-
           For each of the nine principles, generate opportunities and activity ideas for your specific
-          context. Treat it as a brainstorm. There are no wrong answers.
-      - title: Begin Section 4, plan the first 5 hours of your course
+          context. Treat it as a brainstorm - there are no wrong answers.
+      - title: Begin Section 4 - plan the first 5 hours of your course
         hours: "~1 hr 15 min"
         detail: >-
-          Plan at least 5 hours before Session 2. The first few hours set the tone, think about how
+          Plan at least 5 hours before Session 2. The first few hours set the tone - think about how
           you will build safety and surface learner knowledge. Submit your planner before Session 2.
   - label: Independent Work 2
     afterSession: 2
     hours: "~3 hours"
     when: Before Session 3
     tasks:
-      - title: Complete Section 4, plan hours 6–10
+      - title: Complete Section 4 - plan hours 6–10
         hours: "~2 hrs"
         detail: >-
           Apply the feedback you received. Check which objectives appear across the 10 hours, and
           where the principles are visible in how you have designed activities.
-      - title: Complete Section 5, pre-delivery reflection
+      - title: Complete Section 5 - pre-delivery reflection
         hours: "~1 hr"
         detail: >-
           Answer all six reflection questions honestly. Come to Session 3 ready to share one thing you
@@ -185,7 +185,7 @@ independentWork:
 signOff:
   intro: >-
     Sign-off is how a trainer confirms an educator has met the standard for this module. It is judged
-    from what the educator submits. There is no observed teaching at this stage. A pass means the
+    from what the educator submits - there is no observed teaching at this stage. A pass means the
     educator holds the module, which travels with them across Amala programmes.
   submits:
     - The first 10 hours of their course plan (Section 4), grounded in their context and learners (Section 1).
@@ -205,7 +205,7 @@ signOff:
         in the course.
   threshold: >-
     All three criteria Met is a pass. If any criterion is Not yet, the trainer gives specific written
-    feedback and the educator has one resit. A revised submission, with no follow-up call. If the
+    feedback and the educator has one resit - a revised submission, with no follow-up call. If the
     resit is still Not yet, the educator re-enrols on a future cohort.
 
 resources:
@@ -228,7 +228,7 @@ resources:
     file: /downloads/dfgbl-participant-guide.docx
     format: DOCX
     audience: participant
-    note: The participant's companion to the training, what to expect and do in each session.
+    note: The participant's companion to the training - what to expect and do in each session.
   - label: Course Planning Guide (workbook)
     file: /downloads/dfgbl-course-planning-guide.docx
     format: DOCX

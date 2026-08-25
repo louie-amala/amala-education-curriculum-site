@@ -1,5 +1,5 @@
 # Student worksheet (resource) for the activity cb-rp-design-our-questions. Thin per §3: what the sheet
-# is and how the learner uses it. Ships no file of its own, its printable version compiles into the
+# is and how the learner uses it. Ships no file of its own - its printable version compiles into the
 # Research Project student workbook, where it is a four-page spread: the "How to ask a good question"
 # teaching page, then the questions page (grouped by our four sub-questions, with the follow-up and a
 # four-point check for each), the short survey page with its tally and faces, and the who we will ask
@@ -12,8 +12,8 @@ type: resource
 title: "Our questions to ask"
 summary: >-
   The learner's pages for the questions they will ask their community: the teaching page on how to ask a
-  good question, then their own questions grouped under our four sub-questions about the hills, each
-  with the follow-up they will use and a four-point check, plus their short survey with its tally, and
+  good question, then their own questions grouped under our four sub-questions about the hills - each
+  with the follow-up they will use and a four-point check - plus their short survey with its tally, and
   the five different kinds of people they will ask.
 facilitationContext:
 - group
@@ -24,7 +24,7 @@ learnerContent: |
 
   These pages hold everything you need to ask your community well.
 
-  The first page teaches you how to ask a good question, the four kinds of question, how to fix a
+  The first page teaches you how to ask a good question - the four kinds of question, how to fix a
   leading one, how to follow up an answer, and how a survey is different from an interview. Read it
   again any time, even after our session. It stays in your book.
 
@@ -48,7 +48,7 @@ agencyContribution:
   - control-of-future-pathways
   how: >-
     Holding their own list of questions, the learner carries the enquiry they helped shape into the
-    community. Deciding what gets asked, rather than reading someone else's script.
+    community - deciding what gets asked, rather than reading someone else's script.
 objectiveIds: [research-project--o2]
 relatedSlugs: [cb-rp-design-our-questions, cb-rp-practise-interviewing, cb-rp-go-and-gather, cb-rp-asking-permission]
 provenanceNote: >-
@@ -59,4 +59,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

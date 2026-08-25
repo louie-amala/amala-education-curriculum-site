@@ -1,4 +1,4 @@
-# Amala content-source, extraction notes
+# Amala content-source - extraction notes
 
 This directory is the **intermediate, human-readable dataset** extracted from Amala's source
 documents. It is the migration source for the eventual MDX + Zod content in the Next.js app
@@ -10,14 +10,14 @@ Golden rule during extraction: **source values are preserved verbatim; problems 
 
 ```
 framework/
-  areas.yaml 7 competency areas (id, title, gloss, description, competencyIds)
-  competencies.yaml 47 competencies (id, code, areaId, creditLevel, title, goal)
-  proficiency-scale.yaml 5 levels (none/theorist/practitioner/reflective/expert), GPA, descriptors
+  areas.yaml              7 competency areas (id, title, gloss, description, competencyIds)
+  competencies.yaml       47 competencies (id, code, areaId, creditLevel, title, goal)
+  proficiency-scale.yaml  5 levels (none/theorist/practitioner/reflective/expert), GPA, descriptors
 foundations/
-  principles.yaml 9 principles, each with designLooksLike + workingWhen markers
-  agency.yaml agency-for-positive-change definition, 3 indicators, rationale
+  principles.yaml         9 principles, each with designLooksLike + workingWhen markers
+  agency.yaml             agency-for-positive-change definition, 3 indicators, rationale
 courses/
-  <slug>.yaml 12 courses, each with objectives → competencyEvidence, principleMappings
+  <slug>.yaml             12 courses, each with objectives → competencyEvidence, principleMappings
 ```
 
 Generated directly from source (zero transcription error): `framework/*` (from the Competency
@@ -28,7 +28,7 @@ VS14). Extracted per-guide: `courses/*`.
 
 - Competency Framework & Proficiency Scale spreadsheet (2025 cohorts) → framework/
 - Amala Learning Foundations, Draft VS14 (PDF) → foundations/
-- 12 Course Guides (2025 Onwards,.docx) → courses/
+- 12 Course Guides (2025 Onwards, .docx) → courses/
 
 ## Confirmed against source
 
@@ -39,28 +39,28 @@ VS14). Extracted per-guide: `courses/*`.
 
 ## Open issues / decisions for Louie
 
-1. **Principle 7. RESOLVED (2026-08-24).** The 2025 course guides map only **8** principles, omitting
+1. **Principle 7 - RESOLVED (2026-08-24).** The 2025 course guides map only **8** principles, omitting
    *"Learners connect their learning to the futures they are building"* (connect-to-futures). The
    decision was to author them: all 12 affected courses now carry a connect-to-futures mapping, written
    from each course's own purpose rather than from a template. The five English for Impact courses were
    also missing other principles (16 mappings in total); those are authored too, and every course now
-   maps all 9. These are **authored, not extracted**. The guides had nothing to transcribe.
+   maps all 9. These are **authored, not extracted** - the guides had nothing to transcribe.
 
 2. **Systemic checklist copy-paste error.** Multiple course guides' design checklist reads
    *"Meets the time and contextualisation requirements for the **Social Entrepreneurship** course"*
    regardless of the actual course. Confirm intended text per course. (Logged per-course.)
 
-3. **Mis-cited competency in Living Peacefully. CORRECTED (2026-08-24).** Objective 1 cited
+3. **Mis-cited competency in Living Peacefully - CORRECTED (2026-08-24).** Objective 1 cited
    *"FTS3 – Science Communication"*. FTS3 = "Gather and organise data"; Science communication = ATS2.
-   Corrected to **ATS2**, because the objective's own condition, "use their understanding of basic
-   neuroscience to positively influence the behaviour of others", restates ATS2's goal almost word for
+   Corrected to **ATS2**, because the objective's own condition - "use their understanding of basic
+   neuroscience to positively influence the behaviour of others" - restates ATS2's goal almost word for
    word, so the CODE was the transcription error rather than the title. Note ATS2 is Advanced, cited in
    a Foundational objective set: stretch evidence, worth confirming against the source guide if it can
    be found. Reasoning recorded in the course's `sourceIssues`.
 
    The **cosmetic title drift** (12 cases: "Analyse"/"Analyze", "Evidence-informed"/"Evidence informed",
    a stray "(F)") is also resolved: every `citedTitle` is now aligned to the framework. Those titles were
-   never rendered, the site reads from the framework, so they produced only build noise. Each course's
+   never rendered - the site reads from the framework - so they produced only build noise. Each course's
    `sourceIssues` still records what the guide actually said.
 
 4. **`observableBehaviours` are NOT in any source.** The spreadsheet holds only the generic scale +
@@ -75,7 +75,7 @@ Automated pass over `courses/*.yaml` against `framework/competencies.yaml`:
 
 - **12 courses, 40 objectives, 190 competency-evidence links.** All files parse as valid YAML.
 - **Every cited competency code resolves against the 47.** No dangling codes.
-- Every course maps **8 principles** (all missing connect-to-futures), consistent with issue #1.
+- Every course maps **8 principles** (all missing connect-to-futures) - consistent with issue #1.
 - Hours: 10 courses at 100h; PIP and Pathways at 50h.
 
 Consolidated `sourceIssues` across the corpus:
@@ -83,23 +83,23 @@ Consolidated `sourceIssues` across the corpus:
 | Type | Count | Meaning |
 | --- | --- | --- |
 | miscited-competency | 13 | but only **1 genuine** (see below); the rest are title-wording drift |
-| strapline-missing | 12 | no strapline in any guide, author later |
+| strapline-missing | 12 | no strapline in any guide - author later |
 | cross-course-copy-paste | 11 | "Social Entrepreneurship" checklist line (correct only in the SE guide) |
 | missing-principle | 11 | connect-to-futures absent everywhere |
 | programme-membership-to-confirm | 11 | `programmes: [gsd]` placeholder pending programme docs |
 | other / typo / naming / wording | 5 | see per-file sourceIssues |
 
-**Miscited competencies, the important distinction:**
+**Miscited competencies - the important distinction:**
 - **Genuine wrong competency (1):** Living Peacefully cites `FTS3 – Science Communication`. FTS3 =
   "Gather and organise data"; Science communication = ATS2. This is the real error class.
-- **Cosmetic title drift (12):** the code is correct; only the transcribed title differs, e.g.
+- **Cosmetic title drift (12):** the code is correct; only the transcribed title differs - e.g.
   "Analyse"/"Analyze", "Engaging"/"Engage", "decision-making"/"decision making", a stray "(F)".
   On the site these vanish automatically because titles render from the framework, not the guide.
 
 One garbled source clause preserved verbatim: Economics for Positive Change, objective 1, FPS3
-condition reads "If learners have problems in local economic activity." (incomplete), flag for review.
+condition reads "If learners have problems in local economic activity." (incomplete) - flag for review.
 
-## Facilitation-materials source inventory (for the authoring phase, NOT yet processed)
+## Facilitation-materials source inventory (for the authoring phase - NOT yet processed)
 
 Provided as authoring inspiration; held for the facilitation-materials workstream:
 
@@ -111,14 +111,14 @@ Provided as authoring inspiration; held for the facilitation-materials workstrea
   case-study cards/worksheets, and per-week (1–10) activity decks/docs (BaFa BaFa, cultural iceberg, etc.).
 - **Economics for Positive Change** (`~/Downloads/Economics for positive change/`): course planner;
   Resources/ with artefact + evidencing templates, per-week (1–9) decks/docs, and importantly a
-  **`_TEMPLATE_ Glossary of Terms.xlsx`**. A first source for the glossary layer.
+  **`_TEMPLATE_ Glossary of Terms.xlsx`** - a first source for the glossary layer.
 
 Shape observed: each course runs on a weekly planner + reusable **artefact templates** (learner-facing
 task scaffolds) paired with **evidencing templates** (assessment capture). This maps onto the spec's
 Activity + Asset model, and the artefact/evidence pairing is a strong real-world signal for how the
 educator/learner dual-face and the assessment layer should work.
 
-### Peacebuilding. PROCESSED (2026-08)
+### Peacebuilding - PROCESSED (2026-08)
 
 Source: the 2025 Changemaker Course Planner (65pp) plus `~/Downloads/Resources/` (161 files: per-week
 activity docs, simulations, case studies, protocols, a term list, 21 evidencing-opportunity templates,
@@ -138,7 +138,7 @@ Arun Gandhi account.
 
 Provenance traced during that pass:
 - **Jah and Kay** descends from "Aid to Minorians" / "Minoria-Majoria" (Intercultural Sourcebook,
-  Hoopes and Ventura eds.; Kohls and Knight, Developing Intercultural Awareness). Intercultural Press.
+  Hoopes and Ventura eds.; Kohls and Knight, Developing Intercultural Awareness) - Intercultural Press.
 - **Choose your Engineer** is Kopin's "The apprentice" (Malta), free slide deck and educator notes.
 - **Tower of Arzenia** adapts page 53 of the University of Houston "Diversity Activities Resource
   Guide", withdrawn when UH closed its Center for Diversity and Inclusion in 2023; page unverified.
@@ -146,7 +146,7 @@ Provenance traced during that pass:
 - **Paper Factory** remains unidentified. Transboundary-water negotiation genre; a published ancestor
   is likely.
 
-### YPAR Hub team-building and oppression plans. PROCESSED (2026-08)
+### YPAR Hub team-building and oppression plans - PROCESSED (2026-08)
 
 Source: ten "Get Started" lesson plans from UC Berkeley's [YPAR Hub](https://yparhub.berkeley.edu/getting-started)
 (eight from Team Building, two from Understanding Oppression), supplied August 2026. Extracted into
@@ -194,7 +194,7 @@ Building Community Support, and YPAR Basics.
 
 A `rights` block records whether a material may be published (docs/MATERIALS_STANDARD.md §12). On
 2026-08-24, 267 materials whose `sourceRefs` point only at Amala's own course materials or at other
-content in this repo were classified `amala-own` in bulk, from that provenance. **not** from an
+content in this repo were classified `amala-own` in bulk, from that provenance - **not** from an
 individual reading. The `basis` on each says so, and says to correct it if third-party expression turns
 up on the page.
 
@@ -209,7 +209,7 @@ are the only remaining content-graph warning, and that warning should stay until
   `se-start-your-social-enterprise-guide` (all from Start-your-social-enterprise-guide-1.pdf).
 - Reproduces third-party sources under per-source terms already settled inside it, but the material
   itself is untagged: `cb-rp-secondary-source-pack`.
-- Cite research but the expression is ours, probably `own-expression`, needs confirming:
+- Cite research but the expression is ours - probably `own-expression`, needs confirming:
   `cb-mv-facilitator-playbook`, `cb-mv-practice-everywhere`.
 - Amala PIP/PN/Pathways resources whose sourceRefs are filenames rather than named Amala documents, so
   the heuristic could not confirm them: the 12 `pip-*`, 4 remaining `pn-*`, and `pathways-journal`.
@@ -217,13 +217,13 @@ are the only remaining content-graph warning, and that warning should stay until
 
 ## Still needed to complete the content set
 
-- **GSD programme structure. DONE.** `programmes/gsd.yaml` now holds the 5 streams × 2 courses,
+- **GSD programme structure - DONE.** `programmes/gsd.yaml` now holds the 5 streams × 2 courses,
   PIP + Pathways as ongoing components, graduation criteria, accreditation (NEASC + CIS), target
   learners, and per-course end-of-course tasks. The `programme-membership-to-confirm` flag on each
   course is now resolved: all 12 GSD course guides belong to the GSD. Stream membership is owned by
   gsd.yaml (courses do not hardcode it). **The curriculum skeleton is now complete.** (There are now
-  14 courses in total, the 12 GSD guides plus the two authored Learning Bridge courses below.)
-- **Learning Bridge. DONE.** `programmes/learning-bridge.yaml` holds the preparatory programme
+  14 courses in total - the 12 GSD guides plus the two authored Learning Bridge courses below.)
+- **Learning Bridge - DONE.** `programmes/learning-bridge.yaml` holds the preparatory programme
   (ages 14–16) from the "Learning Bridge Programme Overview for Delivery Partners" document. Unlike
   the GSD, it is **component-based, not course-based**: its components (Research Project, Agency in
   Learning, Mentoring and Wellbeing, and optional English Language Development) are not GSD
@@ -232,22 +232,22 @@ are the only remaining content-graph warning, and that warning should stay until
   structure. Two versions: Learning Bridge and Learning Bridge+ (adds formal assessment, Amala
   moderation, and certification). Open item: the two assessed competencies (Investigate Real World
   Issues, Set and Pursue Goals) are named in the source but not yet cross-linked to framework codes.
-- **Research Project course. DONE (authored).** `courses/research-project.yaml` is the first
+- **Research Project course - DONE (authored).** `courses/research-project.yaml` is the first
   **authored** course (all others are verbatim source extractions). It is designed backward from the
   anchor competency **FSI1 "Investigate real-world issues"**, with an explicit `throughline` (agency
   for positive change → FSI1 → the objectives) rendered on the course page. It is the Learning Bridge
   Research Project component (linked via `component.courseSlug`) and covers all **9** principles
   (including connect-to-futures, which the legacy GSD guides omit). The supplied draft was largely a
   Social Entrepreneurship copy; see the file's `sourceIssues`.
-- **Agency in Learning course. DONE (authored).** `courses/agency-in-learning.yaml`, the second
-  authored Learning Bridge course, anchored on **FSL2 "Set and pursue goals"**. The other LB+
+- **Agency in Learning course - DONE (authored).** `courses/agency-in-learning.yaml`, the second
+  authored Learning Bridge course, anchored on **FSL2 "Set and pursue goals"** - the other LB+
   certificated competency (Research Project is the vehicle for FSI1). Same pattern: `throughline`
   (agency → FSL2 → objectives), a 4-objective self-directed-learning arc (understand yourself → set
   goals → plan & act → track/reflect), all 9 principles, linked from the LB component. No dedicated
   source guide existed; authored from the Learning Bridge Programme Overview's component description.
-- **Facilitation materials**, the large authoring lift. Course guides name ~40-60 concepts/tools/
+- **Facilitation materials** - the large authoring lift. Course guides name ~40-60 concepts/tools/
   activities (captured per objective under `furtherDetails.concepts` / `.activities`) but contain none
   of their content. The Social Entrepreneurship planners + workbook + concept PDFs (iceberg, leverage
   points, wicked problems) are provided as authoring inspiration.
-- **Glossary terms**, not yet sourced.
-- **Assessment examples**. Phase 4; illustrative-first.
+- **Glossary terms** - not yet sourced.
+- **Assessment examples** - Phase 4; illustrative-first.

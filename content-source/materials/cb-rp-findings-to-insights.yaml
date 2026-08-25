@@ -10,8 +10,8 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "From findings to insights"
 summary: >-
-  The analytical heart of the course. Learners move from findings, what the evidence says, to insights.
-  What it means and why it matters for the hills and the people who live on them, and what could be
+  The analytical heart of the course. Learners move from findings - what the evidence says - to insights -
+  what it means and why it matters for the hills and the people who live on them, and what could be
   done. They draft a small number of clear insight statements, each one backed by evidence, and learn to
   tell an evidence-backed claim from an opinion.
 facilitationContext:
@@ -24,16 +24,16 @@ whatLearnersDo:
 - Hear, with an example, the difference between a finding and an insight.
 - Take a theme and ask what it means, why it matters, and what could be done about it.
 - Draft a few clear insight statements, each one they can point to the evidence for.
-- Sort each statement into "the evidence shows this" or "this is our opinion", and keep them apart.
+- Sort each statement into "the evidence shows this" or "this is our opinion" - and keep them apart.
 materialsAndPreparation:
 - The "our themes" pages from the sorting activity, and the evidence log.
 - The "our insights" sheet from the research book (one per learner or group).
-- Two labels or spaces for sorting statements, "the evidence shows this" and "this is our opinion".
+- Two labels or spaces for sorting statements - "the evidence shows this" and "this is our opinion".
 visuals:
 - kind: example
   title: "From a finding to an insight"
   caption: >-
-    A finding is what the evidence says; an insight is what it means and why it matters, and often, what
+    A finding is what the evidence says; an insight is what it means and why it matters - and often, what
     could be done. Every insight must point back to evidence.
   spec:
     type: zones
@@ -56,7 +56,7 @@ visuals:
   title: "Evidence, or opinion?"
   caption: >-
     Sort each draft statement: can we point to the evidence for it? If yes, it is a claim we can stand
-    behind. If no, it is opinion. Kept, but in its own place, so we do not mix the two.
+    behind. If no, it is opinion - kept, but in its own place, so we do not mix the two.
   spec:
     type: zones
     zones:
@@ -74,7 +74,7 @@ facilitationNotes: >-
   The one thing to get right is the difference between a finding and an insight, so model it plainly: a
   finding is what the evidence says ("many people said the rain washes the soil away"); an insight is
   what it means and why it matters ("bare hills lose their soil in the rain, so bringing back plants
-  would protect our homes"). Every insight must point back to evidence, if we cannot, it is an opinion,
+  would protect our homes"). Every insight must point back to evidence - if we cannot, it is an opinion,
   and opinions go in their own place, not thrown away. Keep the tone warm and hopeful: the "what could be
   done" part is where learners see their investigation could lead somewhere, but no learner has to speak
   from their own loss. Aim for a few strong insight statements, not many weak ones.
@@ -83,7 +83,7 @@ steps:
   duration: "30 min"
   guidance: >-
     Show the difference with one clear example from the group's own evidence. A finding is what the
-    evidence says. An insight is what that means and why it matters, and often, what could be done. Say
+    evidence says. An insight is what that means and why it matters - and often, what could be done. Say
     both out loud so the group hears the move from one to the other.
   keyPrompts:
   - "What does the evidence say? (that is our finding)"
@@ -96,12 +96,12 @@ steps:
     done about it. They draft a clear insight statement, and note which evidence it stands on.
   keyPrompts:
   - "Why does this matter for our hills and for people's homes?"
-  - "What could be done, and what evidence makes us say so?"
+  - "What could be done - and what evidence makes us say so?"
 - title: "Evidence, or opinion?"
   duration: "25 min"
   guidance: >-
     Take each draft statement and ask the group: can we point to the evidence for this? If yes, it is an
-    evidence-backed claim. If no, it is our opinion. Still worth keeping, but in its own place, so we do
+    evidence-backed claim. If no, it is our opinion - still worth keeping, but in its own place, so we do
     not mix the two. This is what keeps our insights honest.
   keyPrompts:
   - "Which piece of evidence backs this up?"
@@ -120,7 +120,7 @@ learnerContent: |
   A **finding** is what the evidence says. For example: many people told us the rain washes the soil down
   the bare hill, and our sources say the same.
 
-  An **insight** goes further. It says what the finding means and why it matters, and often, what could
+  An **insight** goes further. It says what the finding means and why it matters - and often, what could
   be done. For example: bare hills lose their soil when the rain comes, so bringing back grass and trees
   would hold the soil and help protect our homes.
 
@@ -131,7 +131,7 @@ learnerContent: |
   - What could be done about it?
 
   Then, for every insight, ask one more: can we point to the evidence for it? If we can, it is a claim we
-  can stand behind. If we cannot, it is our opinion. We keep it, but in its own place. Aim for a few
+  can stand behind. If we cannot, it is our opinion - we keep it, but in its own place. Aim for a few
   clear insights, each backed by evidence. These are what our whole investigation has been building
   towards.
 
@@ -148,10 +148,10 @@ educatorContent: |
 
   **Finding:** "Seven of the eleven people we asked said the hill floods more than it used to."
 
-  An insight is a judgement about what that implies, and why it matters. It goes beyond the evidence, 
+  An insight is a judgement about what that implies, and why it matters. It goes beyond the evidence -
   carefully, and while still pointing back at it.
 
-  **Insight:** "The flooding got worse after the trees went, so the water is not the real problem. The bare slope is. That means planting on the slope would do more than digging a bigger drain."
+  **Insight:** "The flooding got worse after the trees went, so the water is not the real problem - the bare slope is. That means planting on the slope would do more than digging a bigger drain."
 
   Notice what the insight has that the finding does not: a **so**, and a **because**. That is the whole
   test, and it is the one to give learners.
@@ -159,13 +159,13 @@ educatorContent: |
   ### The three ways this goes wrong
 
   1. **Findings dressed as insights.** "Many people said the hills are hotter." That is still a report.
-     Ask: *so what? what does that mean for us?*, and keep asking until they add something.
+     Ask: *so what? what does that mean for us?* - and keep asking until they add something.
   2. **Opinions dressed as insights.** "People should stop cutting trees." That is a view they had before
-     the research. Ask: *which piece of our evidence made you think that?* If nothing, it is an opinion. 
+     the research. Ask: *which piece of our evidence made you think that?* If nothing, it is an opinion -
      which is allowed, but it goes in a different pile.
   3. **Overclaiming.** "Everyone in the camp thinks…" from eleven interviews. Teach the honest hedge:
      *the people we asked*, *most of the people we asked*, *what we saw on one slope*. Precision about
-     how much you know is a researcher's virtue, not a weakness, and learners find that genuinely
+     how much you know is a researcher's virtue, not a weakness - and learners find that genuinely
      surprising and rather freeing.
 
   ### Why "because" is where the rigour lives
@@ -176,7 +176,7 @@ educatorContent: |
 
   ### The frame, and why it is not a crutch
 
-  *Many people said / I saw ___, so I think ___, because ___.*
+  *Many people said / I saw ___ , so I think ___ , because ___ .*
 
   Some facilitators worry this makes it mechanical. It does the opposite: it makes the reasoning
   visible, so a learner can see for themselves which of the three parts is missing. Keep the frame on
@@ -184,7 +184,7 @@ educatorContent: |
 
   ## Before they leave this block
 
-  - The cohort has a small number of insight statements, three or four is plenty. More is worse.
+  - The cohort has a small number of insight statements - three or four is plenty. More is worse.
   - Every one has a "so" and a "because", and the learner can point to the evidence for the "because".
   - Statements that turned out to be opinions have been moved to a separate pile, not thrown away.
   - Learners can say, out loud, the difference between a finding and an insight in their own words.
@@ -194,7 +194,7 @@ learnerTeaching:
     ## How to find what our evidence means
 
     We have gathered a lot. Now we have to work out what it means. This is the most important thing we
-    will do, and it is the part only WE can do. Nobody can do it for us.
+    will do, and it is the part only WE can do - nobody can do it for us.
 
     ### A finding, and an insight
 
@@ -204,28 +204,28 @@ learnerTeaching:
 
     An **insight** is what our evidence MEANS, and why it matters.
 
-    **Insight:** "The flooding got worse after the trees went, so the water is not the real problem. The bare slope is. That means planting on the slope would help more than digging a bigger drain."
+    **Insight:** "The flooding got worse after the trees went, so the water is not the real problem - the bare slope is. That means planting on the slope would help more than digging a bigger drain."
 
     ### The two little words
 
     Look at the insight again. It has two words the finding does not have.
 
-    - **so**, what this means.
-    - **because**, the evidence it stands on.
+    - **so** - what this means.
+    - **because** - the evidence it stands on.
 
     Every insight needs both. If you cannot say "so", you have only a report. If you cannot say
     "because", you have only an opinion.
 
     ### Use this frame
 
-    **Many people said / I saw ______, so I think ______, because ______.**
+    **Many people said / I saw ______ , so I think ______ , because ______ .**
 
     ### Be honest about how much we know
 
     We asked a few people. We did not ask everyone. So we say:
 
-    - "The people we asked said…", not "everyone says…"
-    - "On the slope we looked at…", not "on all the hills…"
+    - "The people we asked said…" - not "everyone says…"
+    - "On the slope we looked at…" - not "on all the hills…"
 
     Saying exactly how much we know is what makes people trust us. It is not a weakness. A researcher
     who says "we only asked eleven people" is stronger than one who pretends they asked a thousand.
@@ -235,10 +235,10 @@ learnerTeaching:
     "People should stop cutting trees" is an opinion. You might have thought it before we started.
 
     An insight is something the EVIDENCE taught us. Ask yourself: which piece of what we found made me
-    think this? If the answer is nothing, it is an opinion. Keep it, but keep it in a different place.
+    think this? If the answer is nothing, it is an opinion. Keep it - but keep it in a different place.
   words:
     - term: finding
-      meaning: what our evidence says, a report of what we found
+      meaning: what our evidence says - a report of what we found
     - term: insight
       meaning: what our evidence MEANS, and why it matters
     - term: opinion
@@ -253,33 +253,33 @@ learnerTeaching:
     items:
       - "Nine of the fifteen people we asked remember trees on the hill when they were small."
       - "The government should plant more trees."
-      - "The people we asked remember trees on the hill, so the hill has changed within one lifetime, which means it could change back, because grass and roots grow fast."
+      - "The people we asked remember trees on the hill, so the hill has changed within one lifetime - which means it could change back, because grass and roots grow fast."
       - "Everyone in the camp knows the hills are dangerous."
     answers:
-      - "Finding. It reports what our evidence says. It is true and useful, but it does not tell us what it MEANS yet."
+      - "Finding. It reports what our evidence says. It is true and useful - but it does not tell us what it MEANS yet."
       - "Opinion. It might be a good idea, but nothing we found tells us it is. There is no 'because'."
-      - "Insight. It has a 'so' (the hill changed in one lifetime) and a 'because' (grass and roots grow fast). It also stays honest, 'the people we asked'."
+      - "Insight. It has a 'so' (the hill changed in one lifetime) and a 'because' (grass and roots grow fast). It also stays honest - 'the people we asked'."
       - "Overclaim. We did not ask everyone in the camp. Fix it: 'The people we asked said the hills are dangerous.'"
     then: >-
       Now take one thing WE found, and write it three ways: as a finding, then as an insight using the
       frame, then say out loud how you would keep it honest.
 worksheet:
   slug: cb-rp-our-insights
-  note: "In the research book (student workbook): the 'Our insights, what we found and why it matters' page. Print one per learner."
+  note: "In the research book (student workbook): the 'Our insights - what we found and why it matters' page. Print one per learner."
 agencyContribution:
   indicators:
   - contribution-to-community
   - power-over-wellbeing-and-self-direction
   how: >-
-    Moving from what the evidence says to what it means and what could be done, and standing each claim
-    on evidence, is how learners turn an investigation into understanding they can act on and share, so
+    Moving from what the evidence says to what it means and what could be done - and standing each claim
+    on evidence - is how learners turn an investigation into understanding they can act on and share, so
     they can speak to a challenge in their community with something solid behind them.
 principlesForegrounded: [feedback-and-data, responsible-action, authentic-challenges]
 principleAlignment:
 - principle: feedback-and-data
   how: Every insight must point back to the evidence, and claims that cannot are kept apart as opinion.
 - principle: responsible-action
-  how: Working out what the evidence means and what could be done, without overclaiming beyond it, is the honest basis for acting on the challenge.
+  how: Working out what the evidence means and what could be done - without overclaiming beyond it - is the honest basis for acting on the challenge.
 - principle: authentic-challenges
   how: The insights are about the real hills the learners live on and the people whose homes they are, so what they mean genuinely matters.
 competencyCodes: [FSI1, ATS1, FPS3]
@@ -287,18 +287,18 @@ competencyDevelopment:
 - code: FSI1
   how: Drawing conclusions from the evidence is the culminating analytical work of the investigation.
 - code: ATS1
-  how: Moving from findings to insights is interpreting the analysed data, saying what it means.
+  how: Moving from findings to insights is interpreting the analysed data - saying what it means.
 - code: FPS3
   how: Asking what could be done and why surfaces the contributing factors behind the challenge, backed by evidence.
 objectiveIds: [research-project--o3]
 relatedSlugs: [cb-rp-our-insights, cb-rp-sort-and-theme, cb-rp-weighing-our-sources]
 provenanceNote: >-
   Authored for the Learning Bridge+ (Cox's Bazar) Research Project edition. The analytical heart of the
-  "Evaluate evidence and develop insights" phase (objective 3), moving from findings to a few clear,
+  "Evaluate evidence and develop insights" phase (objective 3) - moving from findings to a few clear,
   evidence-backed insight statements and separating claims from opinion. Fully offline, oral and visual
   first, warm and hopeful in tone. Its printable "our insights" sheet compiles into the Research Project
   student workbook.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

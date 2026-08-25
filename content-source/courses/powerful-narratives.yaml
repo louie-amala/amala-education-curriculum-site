@@ -1,12 +1,12 @@
-# Intermediate extraction, mirrors spec §4.1 Course/Objective interfaces.
+# Intermediate extraction - mirrors spec §4.1 Course/Objective interfaces.
 # Source: "Powerful Narratives Course Guide - 2025 Onwards.txt"
 # Verbatim from source; issues recorded, not corrected.
 id: powerful-narratives
 slug: powerful-narratives
 access: public
 title: Powerful Narratives
-strapline: null # not present in guide, to author
-programmes: [gsd] # to confirm against programme-level docs
+strapline: null            # not present in guide - to author
+programmes: [gsd]          # to confirm against programme-level docs
 testimonial:
   quote: >-
     This course is among the most remarkable I've ever taken. It's insightful, and
@@ -23,8 +23,8 @@ purpose: >-
   Through this process, they develop critical awareness of narrative power and the
   skills to use it ethically and effectively to foster change.
 requirements:
-  structuredHours: 100 # "at least 100 hours of structured learning"
-  durationWeeks: 10 # "minimum of 10 weeks"
+  structuredHours: 100       # "at least 100 hours of structured learning"
+  durationWeeks: 10          # "minimum of 10 weeks"
   cadence: 10+ weeks
   liveIndependentSplit: null # not stated in this guide
   notes: >-
@@ -57,7 +57,7 @@ objectives:
       - Identify how personal, cultural, and societal stories shape beliefs, values, and identities.
       - Examine how narratives can empower or marginalise, unite or divide.
       - Reflect on how their own assumptions and experiences shape the stories they tell and believe.
-    furtherDetails: # raw seeds → future concepts/tools/activities (NOT yet authored materials)
+    furtherDetails:            # raw seeds → future concepts/tools/activities (NOT yet authored materials)
       concepts:
         - Narrative frameworks such as the hero's journey, framing theory, and narrative bias to understand how structure shapes impact.
       activities:
@@ -121,25 +121,25 @@ principleMappings:
     inThisCourse:
       - Learners' stories are grounded in their lived experiences, identities, and perspectives.
       - Educators invite learners to share personal, cultural, and community narratives that shape who they are and how they see the world.
-      - Activities acknowledge that storytelling can be vulnerable, emotional, and powerful, and that every voice carries value and meaning.
+      - Activities acknowledge that storytelling can be vulnerable, emotional, and powerful - and that every voice carries value and meaning.
   - principle: collaboration
     inThisCourse:
       - Learners share stories within supportive groups and co-create shared spaces for listening and reflection.
       - Community members, mentors, or guest storytellers may be invited to share experiences that broaden learners' perspectives.
-      - Facilitators model active listening, empathy, and curiosity. Demonstrating the qualities of ethical storytelling and audience engagement.
+      - Facilitators model active listening, empathy, and curiosity - demonstrating the qualities of ethical storytelling and audience engagement.
   - principle: lifeworthy-competencies
     inThisCourse:
       - Learners build confidence and skill in communication, critical thinking, and self-expression.
-      - Learners practise crafting messages that are authentic, ethical, and impactful. Valuable across education, leadership, and work contexts.
+      - Learners practise crafting messages that are authentic, ethical, and impactful - valuable across education, leadership, and work contexts.
       - The course nurtures empathy, discernment, and storytelling as tools for influence and positive change.
   - principle: authentic-challenges
     inThisCourse:
-      - Learners explore how stories contribute to conflict or misunderstanding, and how they can be reimagined to promote fairness, inclusion, or hope.
+      - Learners explore how stories contribute to conflict or misunderstanding - and how they can be reimagined to promote fairness, inclusion, or hope.
       - They apply storytelling to raise awareness, inspire action, or build bridges around community challenges.
       - Facilitators guide learners to test and refine stories with real audiences, reflecting on the impact of their narratives.
   - principle: responsible-action
     inThisCourse:
-      - Learners discuss ethical storytelling, including issues of representation, consent, and truth.
+      - Learners discuss ethical storytelling - including issues of representation, consent, and truth.
       - Activities encourage careful consideration of whose stories are told, by whom, and for what purpose.
       - Facilitators model respect, attribution, and sensitivity when handling personal or community narratives.
   - principle: recognise-communicate-growth
@@ -161,7 +161,7 @@ principleMappings:
   - principle: connect-to-futures
     inThisCourse:
       - >-
-          Learners see where narrative skill leads, journalism, campaigning, teaching, film, community media, advocacy, and what a first piece of work in each looks like.
+          Learners see where narrative skill leads - journalism, campaigning, teaching, film, community media, advocacy - and what a first piece of work in each looks like.
       - >-
           Facilitators name the transfer: being able to shape a story for an audience is what an application, an interview and a pitch all rest on.
       - >-
@@ -180,7 +180,7 @@ sourceIssues:
   - type: cross-course-copy-paste
     detail: >-
       Design checklist reads "Meets the time and contextualisation requirements for the
-      Social Entrepreneurship course", should reference Powerful Narratives. Same error
+      Social Entrepreneurship course" - should reference Powerful Narratives. Same error
       appears in multiple guides.
   - type: missing-principle
     detail: >-

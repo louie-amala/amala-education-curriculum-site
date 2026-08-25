@@ -92,7 +92,7 @@ steps:
       This is where the analysis happens, so give it more time than feels comfortable.
       Model an insight built openly from three or four notes, then ask learners to write
       several of their own using sentence starters such as "A lot of people mentioned
-      ... which might tell us that..." or "It seems like a key issue is... because
+      ... which might tell us that ..." or "It seems like a key issue is ... because
       ...". Every insight must point at the specific notes behind it. Where sources
       disagree, the disagreement goes into the insight rather than being smoothed away.
     keyPrompts:
@@ -234,4 +234,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

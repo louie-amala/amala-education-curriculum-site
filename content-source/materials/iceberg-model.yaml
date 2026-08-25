@@ -90,7 +90,7 @@ downloads:
     file: /downloads/iceberg-model-template.docx
     format: Word
     role: template
-    note: The four levels with no prompts, the clean sheet, for a learner who has done it once and is applying it to a new problem.
+    note: The four levels with no prompts - the clean sheet, for a learner who has done it once and is applying it to a new problem.
 objectiveIds: [social-entrepreneurship--o1]
 relatedSlugs: [systems-thinking-iceberg-model, problem-tree, stakeholder-community-mapping, leverage-points]
 sourceRefs: ["iceberg-graphics-questions.pdf", "planner-new.txt"]

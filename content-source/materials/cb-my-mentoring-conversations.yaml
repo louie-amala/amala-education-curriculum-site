@@ -5,11 +5,11 @@
 # one, and so the goal set in Agency in Learning stays alive between sessions.
 #
 # NOT a record of what a learner disclosed. It records only what the LEARNER chooses to carry
-# forward, their next step. The educator's light paper record stays with the educator. This
+# forward - their next step. The educator's light paper record stays with the educator. This
 # separation is deliberate: the learner's book travels home with them, so it must never be a place a
 # disclosure is written down.
 #
-# Belongs to no single unit, it spans all 12 weeks. Its printable version compiles into the
+# Belongs to no single unit - it spans all 12 weeks. Its printable version compiles into the
 # programme-wide student workbook (Part 4), not into a component workbook.
 id: cb-my-mentoring-conversations
 slug: cb-my-mentoring-conversations
@@ -18,7 +18,7 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "My mentoring conversations"
 summary: >-
-  The learner's page for their 1:1 mentoring: who their mentor is, and, for each conversation, the one
+  The learner's page for their 1:1 mentoring: who their mentor is, and - for each conversation - the one
   step they agreed to take next, marked when it is done. Carried across the whole programme so each
   conversation starts from the last one rather than from nothing, and so a return after absence picks
   up where the learner is.
@@ -46,7 +46,7 @@ learnerContent: |
   ## What goes on this page, and what does not
 
   Only the step you choose to take next goes here. What you talk about with your mentor does not go on
-  this page. If you talk about something hard, that stays between you and your mentor. You do not have
+  this page. If you talk about something hard, that stays between you and your mentor - you do not have
   to write it anywhere, and no one will ask you to.
 
   You never have to share this page with the group. You do not have to write: a drawing or a mark is a
@@ -67,8 +67,8 @@ educatorContent: |
   conversations into one continuous relationship, and it is what keeps the Agency in Learning goal alive
   between sessions.
 
-  Keep disclosures off this page. This book goes home with the learner. Your own light paper record,
-  what you noticed, what concerned you, stays with you, held under NRC's policy. Nothing a learner tells
+  Keep disclosures off this page. This book goes home with the learner. Your own light paper record -
+  what you noticed, what concerned you - stays with you, held under NRC's policy. Nothing a learner tells
   you in confidence is written in their book. If something surfaces that needs referral, follow NRC's
   MHPSS and protection referral pathway: notice, steady, refer. You are not a counsellor, you never
   promise secrecy, and you do not write it down here.
@@ -79,15 +79,15 @@ educatorContent: |
   After an absence, do not work back through the empty rows. Re-anchor the goal, agree one small step,
   and fill the next row. A return is progress, not a fresh start.
 
-  What learners record here, the steps they set themselves, and how they adjust when a step does not
-  work, is evidence for the Set and Pursue Goals (FSL2) judgement. Read it alongside their learning book
+  What learners record here - the steps they set themselves, and how they adjust when a step does not
+  work - is evidence for the Set and Pursue Goals (FSL2) judgement. Read it alongside their learning book
   when you assess at Week 6 and Week 12.
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction
   - control-of-future-pathways
   how: >-
-    The learner, not the mentor, decides and records the next step, so the mentoring relationship builds
+    The learner, not the mentor, decides and records the next step - so the mentoring relationship builds
     a habit of self-direction rather than dependence. Keeping only the step, and never the conversation,
     also makes the page safe to own: the learner controls what is written about them, which in a context
     where much is decided for them is itself an experience of agency.
@@ -101,4 +101,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

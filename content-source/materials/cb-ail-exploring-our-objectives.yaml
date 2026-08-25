@@ -32,7 +32,7 @@ deliveryAdaptations:
     Weak alone: a learner cannot ask questions or hear others' approaches, which is the point. If it
     must be independent, give the four pictures and words and ask the learner to say aloud, to a family
     member, how they might try each one, then bring their questions to the next session.
-duration: "About 2 to 2.5 hours in the unit plan (generous for this oral/visual, translated cohort, the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a short task at home"
+duration: "About 2 to 2.5 hours in the unit plan (generous for this oral/visual, translated cohort - the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a short task at home"
 grouping: "Whole group, then same-gender pairs or small groups; works with 10-35 learners"
 whatLearnersDo:
 - Meet the four things this course helps you do, shown as four simple pictures.
@@ -43,7 +43,7 @@ materialsAndPreparation:
 - The four objective picture cards (in the [Picture Cards pack](/downloads/agency-in-learning-picture-cards.pdf)), big enough for the group to see.
 - "The key words ready to say and show: goal, plan, step, feedback, reflect, progress, each with a plain meaning."
 - The student workbook, with a page for the four objectives and space to mark or draw an approach to each.
-- "Sensitivity: talking about why learning matters can raise hard feelings about the future. Keep it about the learning learners can steer now, which can be for themselves or the people they care about, and away from dwelling on far-off futures that feel blocked; let anyone stay quiet."
+- "Sensitivity: talking about why learning matters can raise hard feelings about the future. Keep it about the learning learners can steer now - which can be for themselves or the people they care about - and away from dwelling on far-off futures that feel blocked; let anyone stay quiet."
 visuals:
 - kind: setup
   title: "The four things we will learn"
@@ -97,14 +97,14 @@ steps:
   guidance: |
     Take each objective and draw out why it matters in a learner's own life. In a place where much is
     decided for you, your own learning is something you can direct, and these four are how you do it.
-    Ask learners, in same-gender pairs, to say which one matters most to them and why, for themselves
-    and for the people they care about, then hear a few. Keep it about the learning they can steer,
+    Ask learners, in same-gender pairs, to say which one matters most to them and why - for themselves
+    and for the people they care about - then hear a few. Keep it about the learning they can steer,
     rather than dwelling on far-off futures that feel blocked.
   keyPrompts:
   - Why might it help you to choose your own learning goal, rather than be told what to learn?
   - Which of these four would make the biggest difference to you right now?
   watchOuts:
-  - The talk drifts to futures that feel blocked and learners deflate; gently bring it back to the learning they can steer now, which can still be for their family or community, rather than to far-off things outside their control, which is the whole point of the course.
+  - The talk drifts to futures that feel blocked and learners deflate; gently bring it back to the learning they can steer now - which can still be for their family or community - rather than to far-off things outside their control, which is the whole point of the course.
 - title: "The words we will use"
   duration: "30 min"
   guidance: |
@@ -151,7 +151,7 @@ educatorContent: |
   ### Talk less in the second half
 
   The first half is you laying out the four things the course will do. The second half is learners
-  saying how they would go about each one, and that is the part that matters. How a learner describes
+  saying how they would go about each one - and that is the part that matters. How a learner describes
   approaching a goal tells you, in about a minute, whether they have ever done it before, and therefore
   how much you will need to lead each later phase.
 
@@ -174,14 +174,14 @@ educatorContent: |
   ### Expect low expectations, and do not argue with them
 
   Some learners will say they are not good at learning, or that this is not for people like them. Do not
-  contradict it. You have no evidence yet and neither do they. Note who said it, and let the growth
+  contradict it - you have no evidence yet and neither do they. Note who said it, and let the growth
   block and their own goal do the work.
 
   ### The learner pages for this are already in the book
 
   The front of the My Learning Book already carries "this book is yours", "what is in this book" and the
   four learning steps, with a page for why each one matters to the learner. Use those pages rather than
-  adding anything, the book should not repeat itself.
+  adding anything - the book should not repeat itself.
 
   ## Before they leave this block
 
@@ -189,7 +189,7 @@ educatorContent: |
   - You have heard every learner say something about how they would approach one of them.
   - You have a rough sense of which learners have set and pursued a goal before, and which have not.
 learnerTeachingNotNeeded: >-
-  Orientation, not a method. The learner pages for it are already at the front of the My Learning Book, "this book is yours", "what is in this book", and the four learning steps with a page for why each matters. A Learn it page here would repeat the book's own front matter.
+  Orientation, not a method. The learner pages for it are already at the front of the My Learning Book - "this book is yours", "what is in this book", and the four learning steps with a page for why each matters. A Learn it page here would repeat the book's own front matter.
 worksheet:
   slug: cb-ail-our-four-steps-page
   note: "In the learner's book (My Learning Book): the 'Our four learning steps, and why they matter to me' page. Print one per learner."
@@ -200,7 +200,7 @@ agencyContribution:
   how: >-
     Understanding what the course will help them do, why it matters, and how they might approach it lets
     learners begin with intention rather than waiting to be led. Seeing the path as theirs, and being
-    asked how they would travel it, hands the direction of their learning to them from the first phase. 
+    asked how they would travel it, hands the direction of their learning to them from the first phase -
     and naming what this learning is FOR is the first time many learners connect what they do here with
     where they are trying to get to.
 principlesForegrounded:
@@ -256,4 +256,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

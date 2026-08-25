@@ -10,7 +10,7 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "Assessing the goal work (FSL2)"
 summary: >-
-  The educator's guide to judging each learner's proficiency in Set and pursue goals (FSL2), the anchor
+  The educator's guide to judging each learner's proficiency in Set and pursue goals (FSL2) - the anchor
   competency and one of the two certificated Learning Bridge+ competencies: what the competency looks
   like across the cycle, where the evidence lives, why Week 6 will look low, and how to judge.
 facilitationContext:
@@ -20,7 +20,7 @@ primaryContext: group
 educatorContent: |
   ## What is assessed, and how
 
-  This component develops and demonstrates one anchor competency: FSL2, Set and pursue goals. "the
+  This component develops and demonstrates one anchor competency: FSL2, Set and pursue goals - "the
   learner can establish clear objectives for learning and growth and take deliberate steps to make
   progress towards them." On Learning Bridge+ this is one of the two certificated competencies, and
   Practitioner is the readiness bar for the accredited secondary pathway.
@@ -30,18 +30,18 @@ educatorContent: |
 
   Assess at two points, and record both on the FSL2 assessment record:
 
-  - **Week 6, supported (formative)**. A first, provisional judgement, made with Amala's support and
+  - **Week 6, supported (formative)** - a first, provisional judgement, made with Amala's support and
     calibration. A checkpoint and a rehearsal.
-  - **Week 12, final (summative)**. The judgement that informs the readiness decision, and that Amala
+  - **Week 12, final (summative)** - the judgement that informs the readiness decision, and that Amala
     moderates a sample of.
 
   Do not over-assess. Two considered judgements, built from evidence gathered over time, are worth far
-  more than repeated testing, which this cohort does not need, and which many will find frightening.
+  more than repeated testing - which this cohort does not need, and which many will find frightening.
 
   ## Read this before Week 6: most learners will look low, and that is correct
 
   By Week 6 a learner has usually understood themselves as a learner, chosen a goal, and made a plan.
-  The goal-pursuit blocks, where they actually take tracked steps between sessions, mostly fall in
+  The goal-pursuit blocks - where they actually take tracked steps between sessions - mostly fall in
   Weeks 7 to 11.
 
   So **expect a lot of Theorist at Week 6**: "can say what goal they would set and what steps they would
@@ -56,17 +56,17 @@ educatorContent: |
 
   Look for the whole cycle, not one artefact. A learner at Practitioner or above:
 
-  - **Knows themselves as a learner** well enough for the goal to be a real fit. They can say why they
+  - **Knows themselves as a learner** well enough for the goal to be a real fit - they can say why they
     chose this and not something else.
   - **Sets a goal that is genuinely theirs**, small enough to be reachable and clear enough to know when
     it is reached.
   - **Breaks it into steps** and can point to the first one.
-  - **Takes deliberate steps between sessions**, and marks them. However small the steps are.
+  - **Takes deliberate steps between sessions**, and marks them - however small the steps are.
   - **Adapts when a step does not work.** This is the one people undervalue. In this context plans get
     broken by fires, illness, and weeks kept indoors; a learner who chose a smaller step and carried on
     is showing more of the competency than one whose plan was never tested.
-  - **Seeks and uses feedback**, asks for it, and can say what they did with it.
-  - **Can account for it afterwards**, what helped, what did not, what they would do differently.
+  - **Seeks and uses feedback** - asks for it, and can say what they did with it.
+  - **Can account for it afterwards** - what helped, what did not, what they would do differently.
 
   ## Where the evidence lives
 
@@ -75,14 +75,14 @@ educatorContent: |
 
   | Where | What it evidences |
   |---|---|
-  | The My Learning Book, profile, goal, steps, action plan | That the goal is theirs, and why they chose it |
+  | The My Learning Book - profile, goal, steps, action plan | That the goal is theirs, and why they chose it |
   | The "My weekly steps" pages | Steps actually taken, and how they adapted when one did not work |
-  | The opening check-ins each session | The rationale. The part a workbook never captures |
+  | The opening check-ins each session | The rationale - the part a workbook never captures |
   | The growth path, marked at the start and again at the end | Movement over time, in the learner's own reckoning |
   | The feedback page, and what changed after it | Seeking and using feedback |
   | Mentoring conversations | What a learner will say 1:1 that they will not say in a group |
   | The showcase | How they account for their own growth, unprompted, to an audience |
-  | The learner's growth self-check (programme workbook, Part 4) | Their own reading of where they are, and the gap between it and yours, which is the conversation to have |
+  | The learner's growth self-check (programme workbook, Part 4) | Their own reading of where they are - and the gap between it and yours, which is the conversation to have |
 
   ## Making the judgement
 
@@ -92,7 +92,7 @@ educatorContent: |
     separate Theorist from Practitioner and Practitioner from Reflective. Ask, and listen.
   - **A goal not reached is not a fail.** Practitioner is "attempted, with a clear rationale". A learner
     who set a real goal, took real steps, and did not get there is a Practitioner.
-  - **Expert rarely comes from this component alone**, it needs two genuinely different scenarios. A
+  - **Expert rarely comes from this component alone** - it needs two genuinely different scenarios. A
     learner who set a second goal and carried through an improvement from the first can reach it.
   - **Do not let literacy decide the grade.** A learner who cannot write can be a Reflective
     Practitioner. If your evidence is thin because your learner does not write, the gap is in your
@@ -108,7 +108,7 @@ agencyContribution:
   how: >-
     Assessment here decides whether a young person is judged ready for an accredited secondary place, so
     getting it right is directly about their access to a future. Judging the whole cycle rather than a
-    written artefact is also what stops literacy standing in for capability, which, in a largely
+    written artefact is also what stops literacy standing in for capability - which, in a largely
     pre-literate cohort, is the difference between measuring agency and measuring schooling.
 principlesForegrounded:
 - recognise-communicate-growth
@@ -119,7 +119,7 @@ relatedSlugs: [cb-ail-running-this-offline, cb-ail-safeguarding-and-protection, 
 provenanceNote: >-
   Authored for the Learning Bridge+ (Cox's Bazar) edition as the Agency in Learning sibling of
   cb-rp-assessing-the-research, which had no equivalent. The levels and descriptors are Amala's
-  Competency Framework and Proficiency Scale (framework/proficiency-scale.yaml), the same ladder the
+  Competency Framework and Proficiency Scale (framework/proficiency-scale.yaml) - the same ladder the
   printable record uses, so the two cannot describe different things.
 rights:
   status: amala-own

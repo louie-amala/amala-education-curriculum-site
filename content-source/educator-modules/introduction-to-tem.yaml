@@ -1,7 +1,7 @@
-# Educator training module, "Introduction to Amala's transformative education model" (Module 1, the
+# Educator training module - "Introduction to Amala's transformative education model" (Module 1, the
 # foundation module every educator takes). Content extracted from the module slide deck. Uses the
 # site's canonical nine transformative education principles (see /foundations), framed as design and
-# facilitation. Sign-off is by attendance. There is no submitted assessment.
+# facilitation. Sign-off is by attendance - there is no submitted assessment.
 id: edmod-intro-tem
 slug: introduction-to-tem
 access: public
@@ -14,20 +14,20 @@ summary: >-
   The grounding every Amala educator shares. In one live session you explore what makes an experience
   transformative, the thinkers behind transformative education, Amala's definition of transformation as
   agency for positive change, and the nine principles that turn that definition into design and
-  facilitation, then plan how to put them to work in your own programme.
+  facilitation - then plan how to put them to work in your own programme.
 
 forWho: >-
-  Every Amala educator, whatever they go on to deliver. No prior knowledge is assumed. This is the
+  Every Amala educator, whatever they go on to deliver. No prior knowledge is assumed - this is the
   first module in the qualification and the foundation the others build on.
 
 outcome: >-
   By the end you will understand Amala's vision of transformative education and its definition, know the
   thinking behind it, and have begun applying the nine transformative education principles to your own
-  programme. With a short action plan for two or three ideas you want to try.
+  programme - with a short action plan for two or three ideas you want to try.
 
 format: >-
   One live session of about 2 hours in five parts, followed by two short independent tasks in your
-  workbook. Programme-agnostic. It is about the model, not any one programme's administration.
+  workbook. Programme-agnostic - it is about the model, not any one programme's administration.
 
 hours:
   synchronous: 2
@@ -35,13 +35,13 @@ hours:
   total: 4
   note: A ~2-hr live session (five parts) plus ~2 hrs of independent work (action planning and reflection).
 
-# A foundation module, no submitted deliverable. What participants produce lives in their workbook.
+# A foundation module - no submitted deliverable. What participants produce lives in their workbook.
 deliverable:
-  title: Your workbook, applied principles and an action plan
+  title: Your workbook - applied principles and an action plan
   detail: >-
     You work in the module workbook throughout: unpacking and applying the nine principles to your
     programme, then an action plan for two or three ideas you want to try, and a closing reflection.
-    The workbook is yours to keep. It is not marked, and sign-off is by attendance.
+    The workbook is yours to keep - it is not marked, and sign-off is by attendance.
 
 # The four module outcomes shown on the overview slide.
 workbookSections:
@@ -67,15 +67,15 @@ sessions:
       - time: "Part 1 · 15 min"
         title: Exploring transformative experiences
         detail: >-
-          Reflect individually on an experience in your own life that felt transformative, what
+          Reflect individually on an experience in your own life that felt transformative - what
           happened, what made it transformative, and what it tells you about designing transformative
           learning for the young people you work with.
       - time: "Part 2 · 10–15 min"
         title: Theoretical foundations
         detail: >-
-          The thinkers behind transformative education. Jack Mezirow (critical reflection can shift our
+          The thinkers behind transformative education - Jack Mezirow (critical reflection can shift our
           frames of reference) and Paulo Freire (education can develop critical consciousness so learners
-          transform their own realities), and how their ideas resonate with your own experience.
+          transform their own realities) - and how their ideas resonate with your own experience.
       - time: "Part 3 · 15 min"
         title: Understanding Amala's model
         detail: >-
@@ -83,7 +83,7 @@ sessions:
           change, and transformative education is the ecosystem of people, relationships and experiences
           that nurture the potential and power of learners. Reflect on what this looks like in your programme.
       - time: "Part 4 · 15 min"
-        title: Student stories, principles in action
+        title: Student stories - principles in action
         detail: >-
           Watch the student story videos and capture what you noticed, why it matters (which principle it
           reflects), and the questions it raises for your programme.
@@ -92,7 +92,7 @@ sessions:
         detail: >-
           Meet Amala's nine transformative education principles as a design and facilitation tool. Unpack
           them (what connects to what you knew, what extends your thinking, what is still challenging),
-          then apply each to your programme. How it could contribute to transformative outcomes, and
+          then apply each to your programme - how it could contribute to transformative outcomes, and
           ideas for putting it into practice.
 
 independentWork:
@@ -114,13 +114,13 @@ independentWork:
 
 signOff:
   intro: >-
-    This is a foundation module with no submitted assessment. Sign-off is simply by attendance, the
+    This is a foundation module with no submitted assessment. Sign-off is simply by attendance - the
     module gives every educator a shared grounding in the model, rather than assessing a deliverable.
   criteria:
     - title: Attended the session
       met: The educator took part in the live session, or an agreed catch-up covering the same material.
   threshold: >-
-    Attendance is the whole requirement. There is no judged submission and no resit. An educator who
+    Attendance is the whole requirement - there is no judged submission and no resit. An educator who
     misses the session joins a later one. A pass means the educator holds the module, which travels with
     them across Amala programmes.
 
@@ -134,7 +134,7 @@ resources:
     file: /downloads/tem-trainer-guide.docx
     format: DOCX
     audience: trainer
-    note: Facilitation for the session, a timed agenda, prompts for each part, and the video links.
+    note: Facilitation for the session - a timed agenda, prompts for each part, and the video links.
   - label: Module sign-off guide
     file: /downloads/tem-sign-off-guide.docx
     format: DOCX
@@ -144,12 +144,12 @@ resources:
     file: /downloads/tem-participant-guide.docx
     format: DOCX
     audience: participant
-    note: The participant's guide to the module, the arc, the five parts, and the independent tasks.
+    note: The participant's guide to the module - the arc, the five parts, and the independent tasks.
   - label: Workbook
     file: /downloads/tem-workbook.docx
     format: DOCX
     audience: participant
-    note: What participants work in, the principle-application tables, the action-planning template with a worked example, and the reflections.
+    note: What participants work in - the principle-application tables, the action-planning template with a worked example, and the reflections.
 
 sourceNotes:
   - Extracted from the Introduction to Amala's Transformative Education Model slide deck.

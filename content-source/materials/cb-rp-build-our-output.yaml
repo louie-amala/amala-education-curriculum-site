@@ -1,6 +1,6 @@
 # Contextualised, fully offline PRACTICE for the Research Project component of Learning Bridge+ (Cox's
-# Bazar). Phase 5 "Communicate findings". Learners build their chosen output, structuring findings and
-# insights into a clear, honest, evidence-based account a non-expert can follow, and rehearse presenting
+# Bazar). Phase 5 "Communicate findings". Learners build their chosen output - structuring findings and
+# insights into a clear, honest, evidence-based account a non-expert can follow - and rehearse presenting
 # and answering questions. Much of the making is in independent hours. Central evidence for FSI1.
 id: cb-rp-build-our-output
 slug: cb-rp-build-our-output
@@ -19,15 +19,15 @@ primaryContext: independent
 duration: "2 hours facilitated + 3 hours independent"
 grouping: "Small teams making; whole group for feedback and rehearsal"
 whatLearnersDo:
-- Build the output they planned, a poster, a talk with pictures, a role-play or story, a simple infographic.
+- Build the output they planned - a poster, a talk with pictures, a role-play or story, a simple infographic.
 - Structure findings and insights so a non-expert can follow them, with the evidence shown for each claim.
-- Show the limits of the evidence honestly, for example, "we only spoke to a few people", rather than overclaiming.
+- Show the limits of the evidence honestly - for example, "we only spoke to a few people" - rather than overclaiming.
 - Rehearse presenting, and practise answering the questions an audience might ask.
 - Give and act on feedback, checking no names of the people we spoke to appear anywhere.
 materialsAndPreparation:
 - Each team's plan from "Choose our format and our audience".
 - The evidence log and the cohort's insight statements, to check each claim against.
-- Simple making materials, paper, pens, and whatever the chosen format needs; a space to rehearse.
+- Simple making materials - paper, pens, and whatever the chosen format needs; a space to rehearse.
 - The building page from the research book (one per learner).
 visuals:
 - kind: setup
@@ -46,7 +46,7 @@ facilitationNotes: >-
   The one thing to get right: this is where findings become something another person can follow and
   trust. Most of the making happens in the independent hours; use session time to give and act on
   feedback and to rehearse, not to make from scratch. Hold two lines throughout. First, honesty: every
-  claim in the output must stand on the evidence log, and the limits must be shown, not hidden. Help
+  claim in the output must stand on the evidence log, and the limits must be shown, not hidden - help
   learners say "we only spoke to a few people" with pride, not apology. Second, safety: no learner is
   pushed to present in a way that is unsafe for them, and no names of people they spoke to go in. What
   learners build here, and how they talk about it, is central evidence for the FSI1 assessment.
@@ -55,7 +55,7 @@ steps:
   duration: "40 min"
   guidance: >-
     Teams start building from their plan. Keep coming back to the question: for each thing the output
-    says, where is the evidence? Structure it so a non-expert, someone who was not on the project, can
+    says, where is the evidence? Structure it so a non-expert - someone who was not on the project - can
     follow it from start to finish. Much of this making continues in the independent hours.
   keyPrompts:
   - "Would someone who was not with us understand this?"
@@ -64,13 +64,13 @@ steps:
   duration: "40 min"
   guidance: >-
     Teams show their first version to another team. Feedback focuses on whether a non-expert can follow
-    it and whether every claim is backed by evidence. Draw out where they should show the limits, what
-    the evidence does NOT tell us, and help them say it plainly rather than overclaiming.
+    it and whether every claim is backed by evidence. Draw out where they should show the limits - what
+    the evidence does NOT tell us - and help them say it plainly rather than overclaiming.
   keyPrompts:
   - "What claim here needs its evidence shown more clearly?"
   - "What are we NOT sure of, and how will we say so honestly?"
   watchOuts:
-  - "Watch for overclaiming, a big statement the evidence cannot carry. Bring it back to what we actually found."
+  - "Watch for overclaiming - a big statement the evidence cannot carry. Bring it back to what we actually found."
 - title: "Rehearse and answer questions"
   duration: "40 min"
   guidance: >-
@@ -89,13 +89,13 @@ learnerContent: |
 
   - Can a person who was not on our project follow this from start to finish?
   - For each thing we say, where is our evidence for it?
-  - What does our evidence NOT tell us, and are we saying that honestly? It is good research to say
+  - What does our evidence NOT tell us - and are we saying that honestly? It is good research to say
     "we only spoke to a few people". It is not a weakness.
 
   Then rehearse. Practise presenting, and practise answering questions people might ask. Practise saying
   the one thing you most want people to understand.
 
-  Everyone should have a part that feels safe for them, no one has to present in a way that is not safe.
+  Everyone should have a part that feels safe for them - no one has to present in a way that is not safe.
   And never use the names of the people we spoke to.
 
 educatorContent: |
@@ -108,20 +108,20 @@ educatorContent: |
 
   Give learners a shape, or they will produce a pile.
 
-  1. **What we found**, the evidence, plainly.
-  2. **What we think it means**, the insight, with its "so" and its "because".
-  3. **Why it matters to you, the person listening**. The part that makes an audience act.
+  1. **What we found** - the evidence, plainly.
+  2. **What we think it means** - the insight, with its "so" and its "because".
+  3. **Why it matters to you, the person listening** - the part that makes an audience act.
 
   Most groups do the first, some do the second, almost none do the third without being told.
 
-  ### Honest about limits is a strength: teach it that way
+  ### Honest about limits is a strength - teach it that way
 
   Learners assume that admitting a limit weakens their work. The opposite is true, and it is worth
   making the case explicitly: a group that says "we only asked eleven people" is believed more than one
   that implies they asked everybody, because an audience can tell when a claim is too big.
 
   Build one line into every output: **what we could not find out, or how few people we asked.** Not as
-  an apology. As part of the finding. This is the same honest-hedging move taught in the insights
+  an apology - as part of the finding. This is the same honest-hedging move taught in the insights
   block, now made public.
 
   ### Rehearsing the questions is the highest-value part
@@ -131,7 +131,7 @@ educatorContent: |
 
   So rehearse it: have another group ask three questions, including one hard one. The three that come
   up in real life are always some version of *how do you know? · who told you? · what about the people
-  who disagree?* Prepare answers for those, and prepare the answer "we do not know. That is something
+  who disagree?* Prepare answers for those, and prepare the answer "we do not know - that is something
   we would need to find out", which is a correct and impressive answer that learners will not believe
   is allowed until you tell them.
 
@@ -144,19 +144,19 @@ educatorContent: |
   ### Everyone has a part
 
   Groups will let the confident one do the talking. Assign parts so every learner has something they
-  say or show at the showcase, including the learners who will only manage one sentence. That is
+  say or show at the showcase - including the learners who will only manage one sentence. That is
   their evidence too.
 
   ## Before they leave this block
 
-  - An output with all three parts, in order. Found, means, why it matters to you.
+  - An output with all three parts, in order - found, means, why it matters to you.
   - One honest line about a limit, in the output itself.
   - Rehearsed answers to "how do you know?" and at least one hard question.
   - Every learner in the group has a part.
 learnerTeaching:
   title: "How to build something people will follow and believe"
   readAloud: |
-    ## How to build something people will follow: and believe
+    ## How to build something people will follow - and believe
 
     You know what you found. The person listening does not. Everything here is about crossing that gap.
 
@@ -164,11 +164,11 @@ learnerTeaching:
 
     **1. What we found.** The evidence. Plainly.
 
-    **2. What we think it means.** Your insight, with the "so" and the "because".
+    **2. What we think it means.** Your insight - with the "so" and the "because".
 
     **3. Why it matters to YOU, the person listening.**
 
-    Most groups do the first one. Some do the second. Almost nobody does the third, and the third is
+    Most groups do the first one. Some do the second. Almost nobody does the third - and the third is
     the one that makes someone actually do something.
 
     ### Say the most important thing FIRST
@@ -193,7 +193,7 @@ learnerTeaching:
     believe them? Neither does anyone else. A researcher who says exactly how much they know sounds
     like someone who checked.
 
-    ### Get ready for questions: this is the real test
+    ### Get ready for questions - this is the real test
 
     Making the poster is not the hard part. Answering questions is.
 
@@ -211,11 +211,11 @@ learnerTeaching:
 
     ### Everyone has a part
 
-    Do not let one person do all the talking. Every one of you should have something you say or show, 
+    Do not let one person do all the talking. Every one of you should have something you say or show -
     even if it is one sentence. It is your research too.
   words:
     - term: output
-      meaning: the thing you make to share what you found, a poster, a talk, a play
+      meaning: the thing you make to share what you found - a poster, a talk, a play
     - term: limit
       meaning: what your research could not find out, said honestly
     - term: overclaim
@@ -228,12 +228,12 @@ learnerTeaching:
     items:
       - "Everyone in the camp knows the hills are dangerous."
       - "We asked eleven people. Nine of them remember trees on this slope."
-      - "Someone asks how we know, and we say: we do not know that part. It is something we would need to find out."
+      - "Someone asks how we know, and we say: we do not know that part - it is something we would need to find out."
       - "We are sure the planting is working."
     answers:
       - "Weak. You did not ask everyone. An audience notices a claim that is too big, and then doubts the rest. Say \"the people we asked\"."
       - "Strong. It says exactly how many, and exactly what they said. Anyone can check it, which is why they will believe it."
-      - "Strong, and it is what real researchers say. Admitting a gap makes everything else you said more believable, not less."
+      - "Strong - and it is what real researchers say. Admitting a gap makes everything else you said more believable, not less."
       - "Weak, unless you can show the evidence. \"We are sure\" is a feeling. What did you find that shows it? Say that instead."
     then: >-
       Now look at your own output. Where is your honest line about what you could not find out? If there
@@ -241,7 +241,7 @@ learnerTeaching:
 worksheet:
   slug: cb-rp-build-our-output-sheet
   note: >-
-    In the research book (student workbook): the "Building our output, our main message and our
+    In the research book (student workbook): the "Building our output - our main message and our
     evidence" page. Print one per learner.
 agencyContribution:
   indicators:
@@ -250,11 +250,11 @@ agencyContribution:
   - power-over-wellbeing-and-self-direction
   how: >-
     Learners turn what they found into something their community can follow and trust, and practise
-    presenting and defending it honestly. Building the voice to be heard on issues that affect them.
+    presenting and defending it honestly - building the voice to be heard on issues that affect them.
 principlesForegrounded: [recognise-communicate-growth, responsible-action, connect-to-futures]
 principleAlignment:
 - principle: recognise-communicate-growth
-  how: Learners make their findings usable by others and rehearse presenting them, communicating what they learned.
+  how: Learners make their findings usable by others and rehearse presenting them - communicating what they learned.
 - principle: responsible-action
   how: Every claim must stand on the evidence, and the limits are shown honestly rather than overclaimed.
 - principle: connect-to-futures
@@ -277,4 +277,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

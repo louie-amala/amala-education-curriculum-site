@@ -28,7 +28,7 @@ deliveryAdaptations:
   how: >-
     Weaker alone, since a learner has no one to check their verdicts. If independent, use the workbook
     picture-prompts of the tests and ask them to say one improved goal aloud to a family member.
-duration: "About 1.5 hours in the unit plan (generous for this oral/visual, translated cohort, the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task"
+duration: "About 1.5 hours in the unit plan (generous for this oral/visual, translated cohort - the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task"
 grouping: "Individual judging, then same-gender pairs or small groups; works with 10-35 learners"
 whatLearnersDo:
 - "Learn the tests of a good goal: small enough to reach, clear so you can tell when it is done, it matters to you (and maybe to people you care about), and it has a by-when."
@@ -67,7 +67,7 @@ visuals:
 - kind: example
   title: "A weak goal made strong"
   caption: >-
-    ‘Get better at English’ fails the tests, not clear, no by-when. Sharpened, it passes all four.
+    ‘Get better at English’ fails the tests - not clear, no by-when. Sharpened, it passes all four.
   spec:
     type: zones
     flow: across
@@ -166,7 +166,7 @@ educatorContent: |
   ### The trap: goals set to please you
 
   Learners who have been in school know what an adult wants to hear. You will get "study hard every
-  day" and "be a good student", said with real sincerity. They are not lying. They are answering the
+  day" and "be a good student", said with real sincerity. They are not lying - they are answering the
   question they think you asked.
 
   The tell is that the learner cannot say WHY, or says why in the same borrowed words. Ask "what would
@@ -177,25 +177,25 @@ educatorContent: |
 
   This edition deliberately reframes goal-setting around what is within a learner's control, and this
   block is where that gets enforced. "Get a place at the secondary school" is not a goal a learner can
-  set, it depends on a decision someone else makes. "Be able to introduce myself in English" is. If a
+  set - it depends on a decision someone else makes. "Be able to introduce myself in English" is. If a
   learner reaches for the blocked thing, do not correct them and do not endorse it: ask what the first
   step towards it would be that is theirs to take, and let the goal be that step.
 
   ### Teach judgement on other people's goals first
 
-  Learners cannot yet judge their own, nobody can, at the start. So the sequence is: learn the tests,
+  Learners cannot yet judge their own - nobody can, at the start. So the sequence is: learn the tests,
   judge examples that are not theirs, fix a weak one together, and only then turn the tests on their
   own rough goal. Skipping to their own goal is the commonest way this block fails.
 
   Use example goals close to your learners' real lives, not textbook ones. Include at least one that
-  fails only ONE test. Those are the useful ones, because a goal that fails all four teaches nothing.
+  fails only ONE test - those are the useful ones, because a goal that fails all four teaches nothing.
 
   ## Before they leave this block
 
   - Every learner can say the four tests without the page in front of them.
   - They have judged at least four goals that are not their own, and said which test each one fails.
   - They have fixed a weak goal out loud, as a group.
-  - They have run the tests on one rough goal of their own, the goal itself comes next session, so it
+  - They have run the tests on one rough goal of their own - the goal itself comes next session, so it
     does not have to be finished, only tested.
 learnerTeaching:
   title: "How to tell a good goal from a weak one"
@@ -203,29 +203,29 @@ learnerTeaching:
     ## How to tell a good goal from a weak one
 
     You are going to choose a goal of your own. Before you do, you need to be able to tell a good goal
-    from a weak one, because a weak goal wastes weeks, and it makes you feel it was your fault.
+    from a weak one - because a weak goal wastes weeks, and it makes you feel it was your fault.
 
     A good goal passes four tests.
 
-    ### Test 1: Is it small enough to reach?
+    ### Test 1 - Is it small enough to reach?
 
     Small enough that you could finish it in the weeks we have.
 
-    - "Learn English": too big. That takes years.
-    - "Say five true sentences about myself in English": small enough.
+    - "Learn English" - too big. That takes years.
+    - "Say five true sentences about myself in English" - small enough.
 
     A big wish is not a bad thing. But a goal is a piece of it you can actually reach.
 
-    ### Test 2: Is it clear? Will you KNOW when it is done?
+    ### Test 2 - Is it clear? Will you KNOW when it is done?
 
     You must be able to tell whether you have done it.
 
-    - "Get better at reading": how would you know? Better than what?
-    - "Read the words on the signs near my shelter": you will know. You either can or you cannot.
+    - "Get better at reading" - how would you know? Better than what?
+    - "Read the words on the signs near my shelter" - you will know. You either can or you cannot.
 
     Ask yourself: **how will I know I have done it?**
 
-    ### Test 3: Does it matter to ME?
+    ### Test 3 - Does it matter to ME?
 
     This is the most important one, and the easiest to get wrong.
 
@@ -235,7 +235,7 @@ learnerTeaching:
     Ask yourself: **what would be different for me if I did this?** If you cannot answer, it is not
     your goal yet. Choose again.
 
-    ### Test 4: Is there a by-when?
+    ### Test 4 - Is there a by-when?
 
     A goal with no time is always about to start. Say when: by the end of this course, in four weeks,
     by the time the rains come.
@@ -244,7 +244,7 @@ learnerTeaching:
 
     Some things are decided by other people. Whether you get a place somewhere is not yours to decide.
 
-    So make your goal the part that IS yours. Not "get into the school", but "be able to introduce
+    So make your goal the part that IS yours. Not "get into the school" - but "be able to introduce
     myself in English". You can do that one. Nobody has to say yes first.
   words:
     - term: goal
@@ -264,12 +264,12 @@ learnerTeaching:
       - "I want to study hard every day and be a good student."
       - "I want to get a place at the secondary school next year."
     answers:
-      - "Fails Test 2. It is not clear. Better at what? How would you know? Ask: what would I be able to DO?"
+      - "Fails Test 2 - it is not clear. Better at what? How would you know? Ask: what would I be able to DO?"
       - "A good goal. It is small, it is clear (you can tell), and it has a by-when. Whether it passes Test 3 only YOU can say."
-      - "Fails Test 3, and probably Test 2. It sounds like the answer a teacher wants. What would actually be different for you? Answer that, and you will find your real goal."
-      - "Fails the last rule. It is not yours to decide. Someone else decides who gets a place. Make your goal the part you CAN decide: what would you need to be able to do to be ready?"
+      - "Fails Test 3 - and probably Test 2. It sounds like the answer a teacher wants. What would actually be different for you? Answer that, and you will find your real goal."
+      - "Fails the last rule - it is not yours to decide. Someone else decides who gets a place. Make your goal the part you CAN decide: what would you need to be able to do to be ready?"
     then: >-
-      Now take one rough goal of your own and run all four tests on it. It does not have to pass yet, 
+      Now take one rough goal of your own and run all four tests on it. It does not have to pass yet -
       that is what next session is for.
 worksheet:
   slug: cb-ail-good-goal-page
@@ -332,4 +332,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

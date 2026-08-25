@@ -1,4 +1,4 @@
-# English for Impact, programme (spec §4.1 Programme).
+# English for Impact - programme (spec §4.1 Programme).
 # Source: The Language Learning Lab "English for Impact" A1/A2 Course Guide (April 2026).
 # Modelled as a PROGRAMME whose five units are each a full course (efi-my-voice … efi-our-impact),
 # sequenced A1 → A2+. This replaces the earlier single standalone "english-for-impact" course; the
@@ -13,11 +13,11 @@ tagline: >-
   A2+ level.
 summary: >-
   English for Impact supports older multilingual learners (ages 14–25) to develop English rapidly and
-  meaningfully, from a beginner A1 start toward a strong A2+ level. A foundation for further academic
+  meaningfully, from a beginner A1 start toward a strong A2+ level - a foundation for further academic
   pathways such as the Global Secondary Diploma, which requires B1. It is built on the belief that
   learners already bring rich knowledge, life experience, and linguistic resources, and that language
   is learned best when it is purposeful and connected to real life. The programme runs as five
-  spiralling courses, My Voice, My Story, Our Stories, Our World, Our Impact, that widen a learner's
+  spiralling courses - My Voice, My Story, Our Stories, Our World, Our Impact - that widen a learner's
   circle of communication from introducing themselves to persuading an audience. Each course
   culminates in an authentic project with a real purpose and audience. Translanguaging, a
   strength-based and growth-oriented stance, and trauma-sensitive practice run throughout, so learners
@@ -27,7 +27,7 @@ minDurationWeeks: 10
 totalStructuredHoursMin: 250
 liveFacilitatedHoursMin: 150
 structure: >-
-  Five sequential courses of about 50 hours each, roughly 30 facilitated (live) and 20 independent,
+  Five sequential courses of about 50 hours each - roughly 30 facilitated (live) and 20 independent -
   spiralling from A1- to A2+, for about 250 hours of structured learning in total. This sits within the
   200–250 hours typically needed to reach A2+ from a beginner start. Pacing is flexible: a shorter,
   more intensive model is ambitious, while spreading each course over about five weeks allows more
@@ -39,11 +39,11 @@ streams:
   - id: units
     title: "The five units (My Voice → Our Impact)"
     courses:
-      - { courseId: efi-my-voice, position: "Unit 1 · A1-", exampleProductTask: "My Voice, My Name, a personal identity artifact" }
-      - { courseId: efi-my-story, position: "Unit 2 · A1", exampleProductTask: "The Moment That Shaped Me, a personal narrative" }
-      - { courseId: efi-our-stories, position: "Unit 3 · A1+ → A2-", exampleProductTask: "Our Stories Magazine, an interview & peer biography" }
-      - { courseId: efi-our-world, position: "Unit 4 · A2", exampleProductTask: "Our World Newspaper, a news article" }
-      - { courseId: efi-our-impact, position: "Unit 5 · A2+", exampleProductTask: "Our Impact, Voices for Change. A persuasive speech" }
+      - { courseId: efi-my-voice,    position: "Unit 1 · A1-",        exampleProductTask: "My Voice, My Name - a personal identity artifact" }
+      - { courseId: efi-my-story,    position: "Unit 2 · A1",         exampleProductTask: "The Moment That Shaped Me - a personal narrative" }
+      - { courseId: efi-our-stories, position: "Unit 3 · A1+ → A2-",  exampleProductTask: "Our Stories Magazine - an interview & peer biography" }
+      - { courseId: efi-our-world,   position: "Unit 4 · A2",         exampleProductTask: "Our World Newspaper - a news article" }
+      - { courseId: efi-our-impact,  position: "Unit 5 · A2+",        exampleProductTask: "Our Impact, Voices for Change - a persuasive speech" }
 
 studentGains:
   - The confidence and English to introduce themselves, tell their story, and speak to an audience.
@@ -61,13 +61,13 @@ sourceNotes:
     Authored from the English for Impact Course Guide (The Language Learning Lab, April 2026). The
     guide presents one language course of five units; it is modelled here as a programme of five
     courses so each unit carries its full plan. Competency anchoring per course is authored (a CEFR
-    language course cites no Amala competency codes), see each course's sourceIssues.
+    language course cites no Amala competency codes) - see each course's sourceIssues.
   - >-
     The programme's first unit, My Voice, also backs the optional "English Language Development"
     component of the standard Learning Bridge programme (see programmes/learning-bridge.yaml): that
     50-hour component is delivered through the My Voice course guide and its materials. Learners who
     need to progress further toward the B1 required for the GSD continue through the later English for
-    Impact units. This is a cross-listing. My Voice's home programme remains English for Impact.
+    Impact units. This is a cross-listing - My Voice's home programme remains English for Impact.
   - >-
     The course assumes strong Home Language literacy, so it is not suitable as-is for low-literacy,
     oral/visual-first contexts (e.g. the Cox's Bazar Learning Bridge edition) without adaptation.

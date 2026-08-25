@@ -84,7 +84,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         )}
       </p>
 
-      {/* Student worksheet, the learner-facing sheet for this activity, surfaced prominently */}
+      {/* Student worksheet - the learner-facing sheet for this activity, surfaced prominently */}
       {m.worksheet &&
         (() => {
           const ws = getMaterial(m.worksheet.slug);
@@ -107,7 +107,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
           );
         })()}
 
-      {/* Resources and tools for this activity, surfaced at the top so educators do not have to go
+      {/* Resources and tools for this activity - surfaced at the top so educators do not have to go
           digging. A step that says "use the question ladder" is no use unless the ladder is one click
           away, so any tool named in relatedSlugs is listed here alongside the learner-facing sheets. */}
       {m.type !== "resource" &&
@@ -118,7 +118,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
               .filter((r): r is NonNullable<typeof r> => r != null && r.type === type);
           const resources = pick("resource");
           const tools = m.type === "activity" ? pick("tools-approaches") : [];
-          const used = [...resources,...tools];
+          const used = [...resources, ...tools];
           if (used.length === 0) return null;
           const heading =
             resources.length === 0
@@ -174,7 +174,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </figure>
       )}
 
-      {/* Not reproduced here, the original belongs to someone else, so this page describes the method
+      {/* Not reproduced here - the original belongs to someone else, so this page describes the method
           and sends the educator to the source. Sits high, next to the links, because it changes what a
           facilitator has to do before the session. See RightsSchema in lib/schema.ts. */}
       {m.rights?.status === "linked-not-reproduced" && (
@@ -210,7 +210,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </section>
       )}
 
-      {/* Understand it, the educator-facing explanation of what this is and how it works, lifted to
+      {/* Understand it - the educator-facing explanation of what this is and how it works, lifted to
           lead so a facilitator understands the material before the running detail and, lower down, the
           curriculum mapping. See MATERIALS_STANDARD.md §11 (reading order). */}
       {m.educatorContent && (
@@ -244,7 +244,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </section>
       )}
 
-      {/* Activity-wide "how to set it up" diagrams. A schematic so an educator can picture the
+      {/* Activity-wide "how to set it up" diagrams - a schematic so an educator can picture the
           arrangement at a glance. "Example" (what-good-looks-like) visuals render after the steps. */}
       {m.visuals.some((v) => v.kind === "setup") && (
         <section className="mt-6">
@@ -290,7 +290,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
           );
         })()}
 
-      {/* Running this in different settings, the delivery-mode axis */}
+      {/* Running this in different settings - the delivery-mode axis */}
       {m.deliveryAdaptations.length > 0 && (
         <section className="mt-8">
           <h2 className="font-heading text-xl font-semibold text-dark-navy">
@@ -382,7 +382,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </section>
       )}
 
-      {/* "What it looks like when it's working", the finished-output visual(s), placed after the flow
+      {/* "What it looks like when it's working" - the finished-output visual(s), placed after the flow
           so an educator can check what they're steering toward. */}
       {m.visuals.some((v) => v.kind === "example") && (
         <section className="mt-8">
@@ -403,7 +403,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </section>
       )}
 
-      {/* "Learn it", the method taught to the learner before they do it. In a fully offline component
+      {/* "Learn it" - the method taught to the learner before they do it. In a fully offline component
           this is the textbook half of the learner book; it compiles into the component workbook as the
           first page of each activity spread (Learn it → Like this → Your turn). */}
       {m.learnerTeaching && (
@@ -479,7 +479,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         </section>
       )}
 
-      {/* How this fits the curriculum. The agency/principles/competency mapping. Demoted below the
+      {/* How this fits the curriculum - the agency/principles/competency mapping. Demoted below the
           teaching content on purpose (MATERIALS_STANDARD.md §11): it is justification for the designer
           and moderator, read after an educator can already understand and run the material. */}
       <section className="mt-10">
@@ -633,7 +633,7 @@ export default async function MaterialPage({ params }: { params: Promise<{ slug:
         )}
       </section>
 
-      {/* Provenance and rights, editorial metadata, demoted to the foot of the page. It answers
+      {/* Provenance and rights - editorial metadata, demoted to the foot of the page. It answers
           "where did this come from and may we publish it", which is a question for designers and
           moderators rather than for the person about to run the session. */}
       {(m.rights || m.provenanceNote || (m.sourceRefs && m.sourceRefs.length > 0)) && (

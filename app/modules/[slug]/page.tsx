@@ -81,7 +81,7 @@ export default async function ModulePage({ params }: { params: Promise<{ slug: s
             href={`/competencies/${comp.code.toLowerCase()}`}
             className="font-mono text-xs font-semibold text-cool-grey hover:text-navy hover:underline"
           >
-            {comp.code}, {comp.title}
+            {comp.code} - {comp.title}
           </Link>
         )}
       </div>
@@ -216,7 +216,7 @@ export default async function ModulePage({ params }: { params: Promise<{ slug: s
         </section>
       )}
 
-      {/* Skill module WITH a plan: the mini scheme of work, the materials sequenced with the
+      {/* Skill module WITH a plan: the mini scheme of work - the materials sequenced with the
           connective guidance that links them into a coherent learning journey. */}
       {!isCompetency && mod.plan && mod.plan.steps.length > 0 && (
         <section className="mt-10">
@@ -347,7 +347,7 @@ export default async function ModulePage({ params }: { params: Promise<{ slug: s
               href={`/competencies/${comp.code.toLowerCase()}`}
               className="font-medium text-navy hover:underline"
             >
-              {comp.code}, {comp.title}
+              {comp.code} - {comp.title}
             </Link>
             . See the competency page for the proficiency scale and the courses that develop and
             demonstrate it.

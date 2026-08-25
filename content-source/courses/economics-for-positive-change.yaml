@@ -1,12 +1,12 @@
-# Intermediate extraction, mirrors spec §4.1 Course/Objective interfaces.
+# Intermediate extraction - mirrors spec §4.1 Course/Objective interfaces.
 # Source: "Economics for Positive Change Course Guide - 2025 Onwards.txt"
 # Verbatim from source; issues recorded, not corrected.
 id: economics-for-positive-change
 slug: economics-for-positive-change
 access: public
 title: Economics for Positive Change
-strapline: null # not present in guide, to author
-programmes: [gsd] # placeholder, programme membership to confirm
+strapline: null            # not present in guide - to author
+programmes: [gsd]          # placeholder - programme membership to confirm
 testimonial:
   quote: >-
     I've always been curious about economics, but I never had the opportunity to
@@ -25,7 +25,7 @@ purpose: >-
   regeneration.
 requirements:
   structuredHours: 100
-  durationWeeks: 10 # "minimum of 10 weeks"
+  durationWeeks: 10          # "minimum of 10 weeks"
   cadence: 10+ weeks
   liveIndependentSplit: null # not stated in guide
   notes: >-
@@ -114,7 +114,7 @@ principleMappings:
     inThisCourse:
       - Learners connect global economic ideas to their own communities, livelihoods, and lived experiences.
       - Educators use local examples of production, exchange, and care to ground systems thinking.
-      - Activities acknowledge and value diverse economic practices, including informal, household, cooperative, and community-based forms of exchange.
+      - Activities acknowledge and value diverse economic practices - including informal, household, cooperative, and community-based forms of exchange.
   - principle: collaboration
     inThisCourse:
       - Learners collaborate with peers and community members to map and understand their local economies.
@@ -149,14 +149,14 @@ principleMappings:
     inThisCourse:
       - Facilitators establish norms for respectful dialogue about sensitive topics such as inequality, privilege, and resource use.
       - Learners engage with diverse worldviews about value, success, and wellbeing in open and non-judgmental ways.
-      - Activities foster trust, inclusion, and curiosity. Helping learners feel safe to challenge dominant economic ideas and imagine alternatives.
+      - Activities foster trust, inclusion, and curiosity - helping learners feel safe to challenge dominant economic ideas and imagine alternatives.
 
   - principle: connect-to-futures
     inThisCourse:
       - >-
-          Learners connect economic reasoning to decisions they will actually make, earning, saving, pricing, borrowing, and the terms of work they may be offered.
+          Learners connect economic reasoning to decisions they will actually make - earning, saving, pricing, borrowing, and the terms of work they may be offered.
       - >-
-          Facilitators surface the pathways this thinking opens: enterprise, cooperatives, finance, policy, community organising, and what a first step towards each looks like from here.
+          Facilitators surface the pathways this thinking opens: enterprise, cooperatives, finance, policy, community organising - and what a first step towards each looks like from here.
       - >-
           Learners are supported to name one economic decision in their own life or household that they now approach differently, and what they will do about it next.
 designChecklist:
@@ -170,12 +170,12 @@ sourceIssues:
   - type: cross-course-copy-paste
     detail: >-
       Course Learning Design Checklist intro reads "Meets the time and
-      contextualisation requirements for the Social Entrepreneurship course", should
+      contextualisation requirements for the Social Entrepreneurship course" - should
       reference Economics for Positive Change. Same error appears in multiple guides.
   - type: missing-principle
     detail: >-
       Guide lists 8 principles and omits connect-to-futures ("connect learning to the
-      futures they are building"), no inThisCourse mapping present.
+      futures they are building") - no inThisCourse mapping present.
   - type: miscited-competency
     detail: >-
       Objective 1 cites "FSL3 – Engaging in continuous learning"; authoritative title
@@ -187,13 +187,13 @@ sourceIssues:
       Cited value preserved, not corrected.
   - type: other
     detail: >-
-      Objective 2 cites "FSI3 – Pilot sustainable solutions(F)", the trailing "(F)"
+      Objective 2 cites "FSI3 – Pilot sustainable solutions(F)" - the trailing "(F)"
       (credit-level marker) is appended to the title in the source. Code FSI3 and
       title "Pilot sustainable solutions" are otherwise correct. Preserved verbatim.
   - type: other
     detail: >-
       Objective 1, FPS3 condition reads "If learners have problems in local economic
-      activity.". Appears garbled/incomplete in the source (likely "identify problems").
+      activity." - appears garbled/incomplete in the source (likely "identify problems").
       Preserved verbatim.
   - type: strapline-missing
     detail: No strapline in source; needs authoring.

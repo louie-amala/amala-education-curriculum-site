@@ -1,5 +1,5 @@
-# English for Impact. Unit 3 as a course. Source: LLL Course Guide, Unit 3 "Our Stories" (pp. 32–35).
-# Competency anchor (FUS2) is authored, see sourceIssues.
+# English for Impact - Unit 3 as a course. Source: LLL Course Guide, Unit 3 "Our Stories" (pp. 32–35).
+# Competency anchor (FUS2) is authored - see sourceIssues.
 id: efi-our-stories
 slug: efi-our-stories
 access: public
@@ -18,7 +18,7 @@ throughline:
   anchorCompetency: FUS2
   fromAgency: >-
     Agency is exercised with and among other people. To contribute to a community, a learner must be
-    able to understand others. To ask about their lives, listen, and represent them faithfully. Our
+    able to understand others - to ask about their lives, listen, and represent them faithfully. Our
     Stories develops Understanding other people (FUS2): by interviewing a peer and telling their story
     accurately and respectfully, learners practise the attention to another person that connection and
     collaboration depend on.
@@ -28,7 +28,7 @@ throughline:
     biography. The interview-and-biography project foregrounds FUS2.
   develops: >-
     Learners develop FUS2 by asking a peer about their life, listening for what matters, and
-    representing their story accurately and respectfully. Attending closely to someone other than
+    representing their story accurately and respectfully - attending closely to someone other than
     themselves.
   demonstrates: >-
     Learners demonstrate FUS2 through a conducted interview and a magazine-style biography that
@@ -40,7 +40,7 @@ requirements:
   cadence: ≈4–5 weeks
   liveIndependentSplit: 30 live / 20 independent
   notes: >-
-    About 50 hours of structured learning, roughly 30 facilitated (live) and 20 independent,
+    About 50 hours of structured learning - roughly 30 facilitated (live) and 20 independent -
     adaptable to pacing and instructional time. This unit bridges A1 to A2,
     with interviews and collaborative work at its centre.
 
@@ -79,7 +79,7 @@ objectives:
     anchorContribution:
       develops: >-
         Learners develop FUS2 by asking a peer about their life, listening for what matters, and
-        representing their story accurately and respectfully. Attending closely to someone else.
+        representing their story accurately and respectfully - attending closely to someone else.
       demonstrates: >-
         A conducted interview and a magazine-style biography demonstrate understanding of another
         person: their life represented clearly and respectfully for an audience.
@@ -89,7 +89,7 @@ objectives:
       - Draft and revise a magazine-style biography, and present information about their partner with increasing clarity and confidence.
     furtherDetails:
       concepts:
-        - Authentic project, Our Stories Magazine, an interview and biography of a peer.
+        - Authentic project - Our Stories Magazine - an interview and biography of a peer.
       activities:
         - Publication of a class magazine, Our Stories, with an optional speaking extension (read-aloud or podcast).
     competencyEvidence:
@@ -103,7 +103,7 @@ principleMappings:
       - Learners' interviews surface peers' identities, experiences, and communities as the content of their writing.
   - principle: collaboration
     inThisCourse:
-      - The course runs on pair and group work, interviews, role-plays, and a co-produced class magazine.
+      - The course runs on pair and group work - interviews, role-plays, and a co-produced class magazine.
   - principle: responsible-action
     inThisCourse:
       - Learners handle a peer's story with care and consent, representing them faithfully and respectfully.
@@ -149,7 +149,7 @@ principleMappings:
 designChecklist:
   - The course includes ~20–40 hours of learning experiences integrating phonics, grammar, reading, writing, and speaking.
   - Grammar, phonics, and vocabulary are connected to the unit outcomes and the interview-and-biography project.
-  - Opportunities to generate evidence for Amala competencies, especially the anchor FUS2, are built into the interview project.
+  - Opportunities to generate evidence for Amala competencies - especially the anchor FUS2 - are built into the interview project.
 
 sourceIssues:
   - type: competency-mapping-authored

@@ -11,7 +11,7 @@ type: activity
 title: "Share our findings, and look back"
 summary: >-
   The warm, celebratory close of the course: learners share what they found with the audience they chose
-  and answer questions about it, no one forced to present in a way that is unsafe for them, then look
+  and answer questions about it - no one forced to present in a way that is unsafe for them - then look
   back through their research book and their growth path, and name one way they have grown as a researcher.
 facilitationContext:
 - group
@@ -20,7 +20,7 @@ primaryContext: group
 duration: "2.5 hours facilitated + 3 hours independent"
 grouping: "Whole group for the sharing; individual for the looking-back and the growth mark"
 whatLearnersDo:
-- Share their research output with the real audience they chose, in the way they chose. Showing, telling, or with a friend beside them.
+- Share their research output with the real audience they chose, in the way they chose - showing, telling, or with a friend beside them.
 - Answer questions from the audience about what they found and what it means.
 - Look back through their research book, from the very first page, and see how far the work has come.
 - Return to the "Where I am as a researcher" growth path they marked at the start, mark where they are now, and name one way they have moved from guessing to finding out.
@@ -34,7 +34,7 @@ visuals:
 - kind: setup
   title: "Share with the audience we chose"
   caption: >-
-    A celebration, not an exam. No one is made to stand and speak alone if that is not safe for them, 
+    A celebration, not an exam. No one is made to stand and speak alone if that is not safe for them -
     showing, telling from a seat, or sharing alongside a friend are all real ways to share.
   spec:
     type: groups
@@ -68,20 +68,20 @@ visuals:
       - "further along the path"
 facilitationNotes: >-
   The one thing to get right: this is a celebration, not an exam. Every learner has grown, and the day is
-  for showing that, warmly and together. No one is forced to present in a way that is unsafe for them, 
+  for showing that, warmly and together. No one is forced to present in a way that is unsafe for them -
   showing without speaking, telling from their seat, or having a friend speak alongside are all real ways
   to share. On Learning Bridge+, this is also the point where you gather and record the evidence of each
   learner's growth in investigating real-world issues (FSI1): their question and plan, their evidence log,
   how they made sense of what they found, their output, and how they answer questions about it. Gather
   this across the whole course from the research book, not from the final output alone, and make the
-  judgement against Amala's proficiency scale, by your own reading of the whole picture, not a mark
+  judgement against Amala's proficiency scale, by your own reading of the whole picture - not a mark
   scored off one performance.
 steps:
 - title: "Share our findings"
   duration: "60 min"
   guidance: >-
     Hold the sharing warmly. Each learner or group shares their output with the audience they chose, in
-    the way they chose. Showing a drawing or model, telling the one thing they most want people to
+    the way they chose - showing a drawing or model, telling the one thing they most want people to
     understand, or being alongside a friend who speaks with them. Make it safe: no one is made to stand
     and speak alone if that is not safe for them. Celebrate each sharing before moving to the next.
   keyPrompts:
@@ -93,7 +93,7 @@ steps:
   duration: "30 min"
   guidance: >-
     Invite the audience to ask gentle, real questions, and help learners answer them. How a learner
-    responds, pointing back to their evidence, saying what they are still not sure about, is some of the
+    responds - pointing back to their evidence, saying what they are still not sure about - is some of the
     richest evidence of how they have grown as a researcher, so give it time and warmth. Rephrase or
     translate questions where needed so no learner is caught out by the English.
   keyPrompts:
@@ -102,7 +102,7 @@ steps:
 - title: "Look back through our research book"
   duration: "30 min"
   guidance: >-
-    Each learner turns through their research book from the very first page, their first thoughts about
+    Each learner turns through their research book from the very first page - their first thoughts about
     the hills, their question, their evidence log, what they worked out, their output. Give them quiet
     time to see the whole journey. Draw out, gently, how much is there now that was not there on the first
     day.
@@ -113,14 +113,14 @@ steps:
   duration: "30 min"
   guidance: >-
     Bring back the "Where I am as a researcher" growth path each learner marked at the start. Each learner
-    marks where they feel they are now, sees the distance from their first mark, and names, by drawing and
-    speaking, one way they have moved from guessing to finding out. This is theirs to keep, and yours to
+    marks where they feel they are now, sees the distance from their first mark, and names - by drawing and
+    speaking - one way they have moved from guessing to finding out. This is theirs to keep, and yours to
     read as evidence of growth.
   keyPrompts:
   - "Look at the mark you made on the first day. Where are you now?"
   - "Name one way you have moved from guessing to finding out."
 closing: >-
-  Close the course the way it deserves, with warmth and pride. Every learner started somewhere on the
+  Close the course the way it deserves - with warmth and pride. Every learner started somewhere on the
   path and every learner has moved. Name that out loud, together: we did not guess about our hills, we
   went and found out, and we shared it. Send them off knowing they are researchers now, and that this is a
   way of finding out they can carry into anything they want to understand.
@@ -130,13 +130,13 @@ learnerContent: |
   Today we share what we found out about our hills with the people we chose, and we celebrate the work we
   did together.
 
-  You can share in the way that is right for you, showing your drawing or model, telling the one thing
+  You can share in the way that is right for you - showing your drawing or model, telling the one thing
   you most want people to understand, or having a friend beside you. There is no wrong way to share.
 
   Then we look back. Turn through your research book, from the very first page. See how far you have come
   since the first day, when we only wondered about our hills.
 
-  Last, look again at the growth path you marked at the start. "Where I am as a researcher". Mark where
+  Last, look again at the growth path you marked at the start - "Where I am as a researcher". Mark where
   you are now, and name one way you have grown: how you moved from guessing to finding out. You are a
   researcher now.
 
@@ -144,14 +144,14 @@ educatorContent: |
   ## What you need to know before you teach this
 
   Two things happen here and both need protecting: the sharing itself, and the looking back. Time runs
-  out at the end of a course, and the reflection is what gets cut, which is precisely the part that
+  out at the end of a course, and the reflection is what gets cut - which is precisely the part that
   carries the assessment evidence.
 
   ### The sharing is the programme showcase
 
   In this edition this block is the spine of the single closing event, with the My Voice cards and the
   growth statements folded in, and guests each learner invited themselves. See the showcase guidance.
-  Plan it with your coordinator well ahead, invitations have to go out.
+  Plan it with your coordinator well ahead - invitations have to go out.
 
   ### Answering questions is the assessment, more than the poster
 
@@ -165,7 +165,7 @@ educatorContent: |
   the research book from page one, in order. The pages argue better than any question.
 
   Then the growth path they marked at the start, marked again with a different mark, so both are
-  visible. Name the movement out loud, from guessing to finding out.
+  visible. Name the movement out loud - from guessing to finding out.
 
   ### The three questions that produce real answers
 
@@ -178,7 +178,7 @@ educatorContent: |
   ### Nobody presents in a way that is unsafe for them
 
   Same-gender grouping, presenting with a group rather than alone, showing rather than speaking,
-  presenting to a partner or a mentor only. All full successes. Say so before the day, not on it.
+  presenting to a partner or a mentor only - all full successes. Say so before the day, not on it.
 
   ## Before they leave this block
 
@@ -191,7 +191,7 @@ learnerTeaching:
   readAloud: |
     ## How to look back
 
-    We have shared what we found. Now we look back at ourselves, and this is not a small thing at the
+    We have shared what we found. Now we look back at ourselves - and this is not a small thing at the
     end of the course. It is part of the work.
 
     ### Why look back at all
@@ -214,7 +214,7 @@ learnerTeaching:
 
     Find the page where you marked what a researcher does, right at the beginning of the course.
 
-    Mark it again, with a different mark, so you can see both.
+    Mark it again - with a different mark, so you can see both.
 
     Look at the two marks together. That distance is yours, and nobody can take it off you.
 
@@ -223,11 +223,11 @@ learnerTeaching:
     Answer these out loud, or by drawing:
 
     1. **What can I do now that I could not do at the start?**
-    2. **What was hard, and what did I DO about it?**
+    2. **What was hard - and what did I DO about it?**
     3. **What would I still like to find out?**
 
     The second one matters most. Anyone can have an easy week. What shows you have really become a
-    researcher is what you did when it went wrong, when someone said no, when the rain stopped you,
+    researcher is what you did when it went wrong - when someone said no, when the rain stopped you,
     when the evidence did not agree.
 
     ### The thing you are taking with you
@@ -252,12 +252,12 @@ agencyContribution:
   - contribution-to-community
   how: >-
     Learners share findings about a real, shared challenge with an audience of their choosing, and read
-    their own growth as researchers. Seeing that finding out for themselves, rather than guessing, is a
+    their own growth as researchers - seeing that finding out for themselves, rather than guessing, is a
     power they can carry into any question that matters to their lives and community.
 principlesForegrounded: [recognise-communicate-growth, connect-to-futures, safe-spaces]
 principleAlignment:
 - principle: recognise-communicate-growth
-  how: The whole close is about seeing and naming growth, learners revisit their starting mark, look back through their research book, and name for themselves how far they have moved.
+  how: The whole close is about seeing and naming growth - learners revisit their starting mark, look back through their research book, and name for themselves how far they have moved.
 - principle: connect-to-futures
   how: Learners leave knowing that finding out carefully, rather than guessing, is a way of working they can carry into any future question or challenge they care about.
 - principle: safe-spaces
@@ -265,9 +265,9 @@ principleAlignment:
 competencyCodes: [FSI1, FSL1]
 competencyDevelopment:
 - code: FSI1
-  how: Sharing the output and answering questions about it is the final act of the investigation, and, with the whole research book, is the evidence the educator reads to judge each learner's proficiency in investigating real-world issues.
+  how: Sharing the output and answering questions about it is the final act of the investigation, and - with the whole research book - is the evidence the educator reads to judge each learner's proficiency in investigating real-world issues.
 - code: FSL1
-  how: Learners look back over their own journey and their starting growth-path mark, and name honestly how they have grown as researchers. Self-reflection on their own learning.
+  how: Learners look back over their own journey and their starting growth-path mark, and name honestly how they have grown as researchers - self-reflection on their own learning.
 objectiveIds: []
 relatedSlugs: [cb-rp-researcher-growth-path, cb-rp-what-good-research-looks-like, cb-rp-how-i-have-grown, cb-rp-meet-our-challenge, cb-rp-set-up-research-book]
 provenanceNote: >-
@@ -281,4 +281,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

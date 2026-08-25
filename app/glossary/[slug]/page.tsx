@@ -116,7 +116,7 @@ export default async function TermPage({ params }: { params: Promise<{ slug: str
         </section>
       )}
 
-      {/* Explored in. Generated from the reverse index */}
+      {/* Explored in - generated from the reverse index */}
       {(explored.competencies.length > 0 ||
         explored.materials.length > 0 ||
         explored.courses.length > 0) && (

@@ -4,7 +4,7 @@ access: public
 type: educator-move
 title: "Quick checks: exit tickets and hinge questions"
 summary: >-
-  Fast, whole-group checks that tell you whether to move on or reteach. A hinge question at the pivot
+  Fast, whole-group checks that tell you whether to move on or reteach - a hinge question at the pivot
   of a lesson, an exit ticket at the end.
 tags:
   - id: learning-facilitation
@@ -24,8 +24,8 @@ educatorContent: |
   Two quick tools give you a whole-group read fast. A hinge question is a well-designed multiple-choice
   question placed at a lesson's pivot point: its answer options are built so that each wrong choice
   reveals a particular misconception, so the spread of answers tells you in seconds whether to move on,
-  reteach, or regroup. An exit ticket is a short task learners complete before they leave, a question
-  tied to the lesson's intention, jotted on scrap paper and handed in, which you read afterwards to plan
+  reteach, or regroup. An exit ticket is a short task learners complete before they leave - a question
+  tied to the lesson's intention, jotted on scrap paper and handed in - which you read afterwards to plan
   the next session. Both are low-effort, high-information, and keep your next move grounded in what
   learners actually understood rather than what you hoped they did.
 steps:
@@ -58,7 +58,7 @@ agencyContribution:
     - power-over-wellbeing-and-self-direction
   how: >-
     Regular quick checks mean teaching adapts to where learners actually are, so they are neither left
-    behind nor held back. The conditions under which they can keep making progress themselves.
+    behind nor held back - the conditions under which they can keep making progress themselves.
 principleAlignment:
   - principle: feedback-and-data
     how: >-
@@ -67,11 +67,11 @@ relatedSlugs:
   - cf-make-thinking-visible
   - cf-examples-non-examples
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook - Course Facilitator Playbook"
 provenanceNote: >-
   Generalised from the Playbook's "Use exit tickets" and "Ask hinge questions" techniques (Wiliam &
   Leahy, 2015) in Making Learning and Thinking Visible.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

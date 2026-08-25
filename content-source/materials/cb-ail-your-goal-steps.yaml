@@ -28,7 +28,7 @@ deliveryAdaptations:
   how: >-
     Workable: the workbook ladder carries the steps. Ask the learner to say their first step to someone
     at home and take it before the next session, since a first step with no witness is easily dropped.
-duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort, the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus taking the first step during the week"
+duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort - the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus taking the first step during the week"
 grouping: "Individual laddering, then same-gender pairs; works with 10-35 learners"
 whatLearnersDo:
 - See that a goal is easier when it is broken into small steps.
@@ -43,7 +43,7 @@ visuals:
 - kind: example
   title: "My goal, broken into steps"
   caption: >-
-    A big goal split into small rungs, with the first step, small enough for a day or two, chosen and
+    A big goal split into small rungs, with the first step - small enough for a day or two - chosen and
     coloured in.
   spec:
     type: zones
@@ -125,7 +125,7 @@ educatorContent: |
   ## What you need to know before you teach this
 
   A goal on a page does nothing. This is the block that turns it into something a learner can start on
-  Thursday. Everything after it, the action plan, the weekly steps, the whole between-session engine,
+  Thursday. Everything after it - the action plan, the weekly steps, the whole between-session engine -
   runs on what happens here.
 
   ### Why break a goal into steps at all
@@ -147,14 +147,14 @@ educatorContent: |
   Four or five steps is right. Ten means they are planning, not stepping. Two usually means the steps
   are still goals in disguise.
 
-  ### The first step is the one that matters: make it embarrassingly small
+  ### The first step is the one that matters - make it embarrassingly small
 
   This is the single most important judgement in the block, and facilitators consistently pitch it too
   high.
 
   A good first step is one the learner could do **today, without anyone's help, without anything they
   do not already have.** "Ask my neighbour to teach me three words" is a first step. "Practise English
-  for an hour every day" is not. It is a habit, and habits are not first steps.
+  for an hour every day" is not - it is a habit, and habits are not first steps.
 
   Learners will offer ambitious first steps because ambition feels like commitment. Push back warmly
   and specifically: *could you do that before we next meet, even if this week goes badly?* If the
@@ -164,7 +164,7 @@ educatorContent: |
 
   ### Ladders that go the wrong way
 
-  Watch for step ladders where the first rung is the hardest, a learner who puts "find someone to
+  Watch for step ladders where the first rung is the hardest - a learner who puts "find someone to
   teach me" at the bottom and "practise what they taught me" at the top has it upside down. Ask which
   one they could do first, and re-order.
 
@@ -179,7 +179,7 @@ educatorContent: |
   - A drawn ladder with four or five steps, in an order that makes sense.
   - A first step chosen and coloured, which the learner could genuinely do before the next session.
   - The first step said out loud to a partner.
-  - You have personally checked the first step of any learner you are unsure about. This is worth your
+  - You have personally checked the first step of any learner you are unsure about - this is worth your
     time more than anything else in the block.
 learnerTeaching:
   title: "How to break a goal into steps you can actually take"
@@ -193,7 +193,7 @@ learnerTeaching:
 
     Two reasons.
 
-    **A big thing is hard to start.** Not because you are lazy, because you cannot see where to put
+    **A big thing is hard to start.** Not because you are lazy - because you cannot see where to put
     your hand first. Steps give you somewhere to put your hand.
 
     **Steps are how you find out you are moving.** If your goal takes ten weeks and you have no steps,
@@ -204,8 +204,8 @@ learnerTeaching:
 
     A step is something you could **finish in one go, and know you had finished it**.
 
-    - "Learn to read": not a step. That is another goal.
-    - "Ask my neighbour to show me the letters in my name": a step. You can finish it. You will know.
+    - "Learn to read" - not a step. That is another goal.
+    - "Ask my neighbour to show me the letters in my name" - a step. You can finish it. You will know.
 
     Four or five steps is about right. If you have ten, they are too small. If you have two, they are
     probably still goals in disguise.
@@ -222,9 +222,9 @@ learnerTeaching:
 
     A good first step is one you could do **today**, on your own, with what you already have.
 
-    - "Practise English for an hour every day": this is not a first step. It is a habit, and habits
+    - "Practise English for an hour every day" - this is not a first step. It is a habit, and habits
       are hard to start.
-    - "Ask one person to teach me three words": this is a first step. You could do it this afternoon.
+    - "Ask one person to teach me three words" - this is a first step. You could do it this afternoon.
 
     Ask yourself honestly: **could I do this before we meet again, even if this week goes badly?**
 
@@ -245,7 +245,7 @@ learnerTeaching:
     - term: step
       meaning: something small you can finish in one go, on the way to your goal
     - term: first step
-      meaning: the one you will do first, small enough to do today
+      meaning: the one you will do first - small enough to do today
     - term: ladder
       meaning: your steps drawn in order, from the one you do first to the one you do last
   tryIt:
@@ -259,10 +259,10 @@ learnerTeaching:
       - "Become confident speaking English to strangers."
       - "Say my name in English to one person in my family tonight."
     answers:
-      - "Too big. This is a habit, not a step, and if you miss one evening it feels like you have already failed. Habits come later."
+      - "Too big. This is a habit, not a step - and if you miss one evening it feels like you have already failed. Habits come later."
       - "A good first step. You could do it today, it needs nothing you do not have, and you will know when it is done."
       - "Too big. This is not a step at all, it is a bigger goal than the one you started with. Ask: what is the smallest piece of this?"
-      - "A good first step. Small, today, one person, and you will know. This is exactly the right size, it may even feel too easy, which is fine."
+      - "A good first step. Small, today, one person, and you will know. This is exactly the right size - it may even feel too easy, which is fine."
     then: >-
       Now look at your own first step. Could you do it before we meet again, even if this week goes
       badly? If not, make it smaller.
@@ -278,7 +278,7 @@ agencyContribution:
     initiative. Breaking a goal into steps they control, and acting between sessions, is self-direction
     in practice: the learner, not circumstance, decides the next move in their own learning. And a
     learner who has proved to themselves that a step they chose actually moved them is a learner who can
-    believe a next step is worth taking, which is what makes a pathway feel reachable rather than given.
+    believe a next step is worth taking - which is what makes a pathway feel reachable rather than given.
 principlesForegrounded:
 - recognise-communicate-growth
 - responsible-action
@@ -329,4 +329,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

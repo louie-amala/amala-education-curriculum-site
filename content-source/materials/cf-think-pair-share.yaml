@@ -5,7 +5,7 @@ type: educator-move
 title: "Think, pair, share"
 summary: >-
   Pose a question, protect solo thinking time, let pairs rehearse, then share. Everyone thinks before
-  anyone speaks, and quieter learners get a run-up.
+  anyone speaks - and quieter learners get a run-up.
 tags:
   - id: learning-facilitation
     how: >-
@@ -14,7 +14,7 @@ tags:
   - id: learning-design
     how: >-
       When designing, build think-pair-share in wherever you want everyone thinking before anyone
-      speaks. Plan the question and the solo-then-pair beats into the sequence.
+      speaks - plan the question and the solo-then-pair beats into the sequence.
   - id: making-thinking-visible
   - id: questioning
 facilitationContext:
@@ -24,7 +24,7 @@ educatorContent: |
   Think-pair-share is a simple structure that gets everyone thinking before anyone speaks, and gives
   quieter learners a rehearsal before facing the whole room. Pose a question; give learners time to
   think on their own; let them talk it through with a partner; then select one or more to share their
-  own, or their partner's, thinking. The solo step means no one coasts on the group; the pair step
+  own - or their partner's - thinking. The solo step means no one coasts on the group; the pair step
   means the share is rehearsed and braver; and asking learners to voice a partner's idea rewards genuine
   listening. It pairs naturally with wait time and with choosing who answers.
 agencyContribution:
@@ -36,7 +36,7 @@ agencyContribution:
 principleAlignment:
   - principle: collaboration
     how: >-
-      The pair step makes thinking a shared act, learners build and test ideas with each other before
+      The pair step makes thinking a shared act - learners build and test ideas with each other before
       the whole group.
   - principle: safe-spaces
     how: >-
@@ -46,11 +46,11 @@ relatedSlugs:
   - cf-no-hands-up
   - cf-wait-time
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook - Course Facilitator Playbook"
 provenanceNote: >-
   Generalised from the Playbook's "Think-Pair-Share" technique (Wiliam & Leahy, 2015) in Making
   Learning and Thinking Visible.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

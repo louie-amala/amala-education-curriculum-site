@@ -9,7 +9,7 @@ parentModuleSlug: investigating-real-world-issues
 skill:
   label: Find and use credible secondary sources
   description: >-
-    Locate what others have already found out about the challenge, searching for and selecting
+    Locate what others have already found out about the challenge - searching for and selecting
     secondary sources, and recording them systematically so they can be weighed and cited later.
 summary: >-
   Standing on what is already known: finding secondary sources on the challenge and logging them so
@@ -19,7 +19,7 @@ agencyNote: >-
   insights are informed by more than what they can see from where they stand.
 anchorContribution:
   develops: >-
-    Learners develop the secondary-research side of FSI1, building on what is already known, by
+    Learners develop the secondary-research side of FSI1 - building on what is already known - by
     finding relevant sources on the challenge and recording them systematically for later evaluation.
   demonstrates: >-
     Assess this from an evidence log or annotated bibliography of secondary sources, with each
@@ -42,14 +42,14 @@ materialSlugs:
 plan:
   summary: >-
     Build on what others already know: find credible secondary sources on the challenge and log them
-    so they can be weighed alongside the primary data. A short skill, one core activity, framed and
+    so they can be weighed alongside the primary data. A short skill - one core activity, framed and
     consolidated so the evidence log is genuinely usable.
   steps:
     - title: Why go secondary
       kind: orientation
       facilitatedHours: 0.25
       guidance: >-
-        Frame secondary research as connecting the local challenge to wider knowledge, it
+        Frame secondary research as connecting the local challenge to wider knowledge - it
         contextualises the primary data learners are gathering and stops them relying only on what they
         can see from where they stand.
     - title: Find and log secondary sources

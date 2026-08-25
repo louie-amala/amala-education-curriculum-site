@@ -1,4 +1,4 @@
-# English for Impact. My Voice (Unit 1) resource. Model "about me" texts (reading input + writing model).
+# English for Impact - My Voice (Unit 1) resource. Model "about me" texts (reading input + writing model).
 # Source: LLL Course Guide Unit 1 (reading/writing focus). Provides the texts used by the reading activity.
 id: efi-mv-model-identity-texts
 slug: efi-mv-model-identity-texts
@@ -6,7 +6,7 @@ access: public
 type: resource
 title: "Model \"about me\" texts"
 summary: >-
-  Three short, A1-level texts in which people introduce themselves. Reading input pitched for
+  Three short, A1-level texts in which people introduce themselves - reading input pitched for
   beginners, and a clear model for learners' own writing and identity project. Educators can read,
   print, or adapt them with local names and places.
 facilitationContext: [group, independent]
@@ -15,24 +15,24 @@ materialsAndPreparation:
 - Print or display the texts, and adapt the names, countries, and details to fit your learners' context.
 - Pair each text with a simple picture of the person where possible.
 educatorContent: |
-  These texts are pitched at Unit 1, short sentences, high-frequency words, present simple and "to be",
+  These texts are pitched at Unit 1 - short sentences, high-frequency words, present simple and "to be",
   the identity vocabulary of the unit. Use them as reading input (see the "Reading: all about me"
   activity) and as models for writing and the identity project. Level them to your class by choosing the
   shorter or longer text, and localise the names and places so learners see people like themselves.
-  Encourage learners to notice the shape, name, then origin, then a few likes, and to reuse it with
+  Encourage learners to notice the shape - name, then origin, then a few likes - and to reuse it with
   their own true information. A good model is one of the strongest supports a beginning writer can have.
 learnerContent: |
-  ## Text 1: Sara
+  ## Text 1 - Sara
 
   My name is Sara. I am seventeen years old. I am from Syria. I live in a small town. I speak Arabic and
   a little English. I am a student. I like music and football. I do not like cold weather.
 
-  ## Text 2: Amir
+  ## Text 2 - Amir
 
   Hello. My name is Amir. I am from Afghanistan. I am twenty years old. I have a big family. I speak
   Dari and Pashto. I am learning English. I like cooking and stories. I want to be a teacher.
 
-  ## Text 3: Grace
+  ## Text 3 - Grace
 
   My name is Grace. I am nineteen. I am from Kenya. I live in Nairobi. I speak Swahili and English. I
   like drawing and music. My family is important to me. I am happy to learn new things.
@@ -49,13 +49,13 @@ agencyContribution:
   indicators: [control-of-future-pathways, power-over-wellbeing-and-self-direction]
   how: >-
     A clear model of a whole "about me" text gives a beginner both something they can read successfully
-    and a template they can follow to represent themselves in writing, turning a blank page into an
+    and a template they can follow to represent themselves in writing - turning a blank page into an
     achievable, self-owned task.
 principlesForegrounded: [builds-on-identities, lifeworthy-competencies]
 principleAlignment:
 - principle: builds-on-identities
   how: >-
-    The models show people introducing their own identities, names, origins, languages, likes, and are
+    The models show people introducing their own identities - names, origins, languages, likes - and are
     meant to be localised and then replaced with the learner's own true story.
 - principle: lifeworthy-competencies
   how: >-
@@ -77,4 +77,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

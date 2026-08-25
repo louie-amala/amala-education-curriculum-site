@@ -23,7 +23,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ code: string }> }): Promise<Metadata> {
   const { code } = await params;
   const c = getCompetencyByCode(code.toUpperCase());
-  return { title: c ? `${c.code}, ${c.title}` : "Competency" };
+  return { title: c ? `${c.code} - ${c.title}` : "Competency" };
 }
 
 export default async function CompetencyPage({ params }: { params: Promise<{ code: string }> }) {
@@ -135,7 +135,7 @@ export default async function CompetencyPage({ params }: { params: Promise<{ cod
           </h2>
           <p className="mt-1 max-w-2xl text-sm text-dark-navy/70">
             A module view of this competency: the same materials, regrouped into the specific skills
-            that make it up. A finer grain than a course.
+            that make it up - a finer grain than a course.
           </p>
           {competencyModulesForComp.map((mod) => {
             const skills = getSkillModulesFor(mod);

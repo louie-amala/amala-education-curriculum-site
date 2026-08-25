@@ -1,4 +1,4 @@
-# Competency module, the first test of the modules layer (see lib/schema.ts ModuleSchema).
+# Competency module - the first test of the modules layer (see lib/schema.ts ModuleSchema).
 # Groups the FSI1 materials at a finer grain than the Research Project course: the whole
 # competency "Investigate real-world issues" broken into the five skills that make it up.
 # It is a cross-cutting competency path (materials → skill → competency); it does NOT replace the
@@ -10,24 +10,24 @@ grain: competency
 title: Investigating real-world issues
 competencyCode: FSI1
 summary: >-
-  The full research cycle of FSI1, broken into the five skills that make it up. Framing a
+  The full research cycle of FSI1, broken into the five skills that make it up - framing a
   question, conducting primary research, conducting secondary research, evaluating evidence, and
   communicating insights. Work the skill modules in order for a first, guided investigation, or drop
   into a single skill to strengthen one part of the cycle.
 agencyNote: >-
   Investigating a real-world issue turns concern into understanding you can act on: it replaces
   assumption with evidence. A young person who investigates a challenge in their own community and
-  produces evidence-based insight is already making an impactful contribution, and building the
+  produces evidence-based insight is already making an impactful contribution - and building the
   capability to shape their own future pathways. Research is where agency begins.
 # How the whole module develops and demonstrates FSI1 (the five skills below each carry their own).
 anchorContribution:
   develops: >-
-    Learners develop FSI1 across the full arc of a real investigation, framing a question, conducting
-    primary and secondary research, weighing the evidence, and turning it into actionable insight,
+    Learners develop FSI1 across the full arc of a real investigation - framing a question, conducting
+    primary and secondary research, weighing the evidence, and turning it into actionable insight -
     practising each part of the cycle repeatedly, with growing independence, on one shared challenge.
   demonstrates: >-
-    The body of work the investigation produces, a research question and plan, an evidence log with
-    evaluated sources, organised data, an insights statement, and a final research output, together
+    The body of work the investigation produces - a research question and plan, an evidence log with
+    evaluated sources, organised data, an insights statement, and a final research output - together
     demonstrates the whole competency: not just that learners gathered information, but that they
     turned it into defensible, actionable insight. On Learning Bridge+, this is the primary evidence
     assessed for FSI1 against Amala's Proficiency Scale.

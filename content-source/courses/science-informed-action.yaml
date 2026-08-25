@@ -1,12 +1,12 @@
-# Intermediate extraction, mirrors spec §4.1 Course/Objective interfaces.
+# Intermediate extraction - mirrors spec §4.1 Course/Objective interfaces.
 # Source: "Science Informed Action Course Guide - 2025 Onwards.txt"
 # Verbatim from source; issues recorded, not corrected.
 id: science-informed-action
 slug: science-informed-action
 access: public
 title: Science Informed Action
-strapline: null # not present in guide, to author
-programmes: [gsd] # placeholder, to confirm against programme-level docs
+strapline: null            # not present in guide - to author
+programmes: [gsd]          # placeholder - to confirm against programme-level docs
 testimonial:
   quote: >-
     It gives the opportunity to understand the important concepts in science that
@@ -24,8 +24,8 @@ purpose: >-
   become more capable of questioning information, solving problems, and using
   evidence to create positive change.
 requirements:
-  structuredHours: 100 # "at least 100 hours of structured learning"
-  durationWeeks: 10 # "minimum of 10 weeks"
+  structuredHours: 100       # "at least 100 hours of structured learning"
+  durationWeeks: 10          # "minimum of 10 weeks"
   cadence: 10+ weeks
   liveIndependentSplit: null # not stated in this guide
   notes: >-
@@ -41,8 +41,8 @@ objectives:
       - Apply scientific reasoning to explain natural, environmental, and technological phenomena in everyday life.
       - Evaluate the reliability of scientific sources and distinguish evidence-based claims from misinformation or opinion.
       - Reflect on how scientific understanding helps explain uncertainty, change, and complexity in the natural world.
-    furtherDetails: # raw seeds → future concepts/tools/activities (NOT yet authored materials)
-      concepts: [] # guide names no distinct theories/frameworks for this objective
+    furtherDetails:            # raw seeds → future concepts/tools/activities (NOT yet authored materials)
+      concepts: []             # guide names no distinct theories/frameworks for this objective
       activities:
         - Conduct small-scale investigations using observation, fair testing, and data collection (e.g. plant growth, water filtration, material strength).
         - Mini scientific inquiries into phenomena relevant to learners' lives (e.g. food spoilage, water filtration, waste decomposition).
@@ -105,7 +105,7 @@ principleMappings:
   - principle: builds-on-identities
     inThisCourse:
       - Learners connect scientific ideas to their own experiences, questions, and observations of the world.
-      - Activities invite learners to explore how science relates to local contexts, such as food, health, water, energy, or climate.
+      - Activities invite learners to explore how science relates to local contexts - such as food, health, water, energy, or climate.
       - Facilitators acknowledge and respect community knowledge, showing how scientific and traditional understandings can complement each other.
   - principle: collaboration
     inThisCourse:
@@ -115,7 +115,7 @@ principleMappings:
   - principle: lifeworthy-competencies
     inThisCourse:
       - Learners build scientific reasoning skills they can apply to decisions about health, environment, and technology.
-      - The course nurtures curiosity, evidence-based thinking, and confidence in evaluating information. Skills essential for further study and everyday decision making.
+      - The course nurtures curiosity, evidence-based thinking, and confidence in evaluating information - skills essential for further study and everyday decision making.
       - Learners recognise how scientific literacy supports personal wellbeing and community resilience.
   - principle: authentic-challenges
     inThisCourse:
@@ -124,7 +124,7 @@ principleMappings:
       - Facilitators support learners to interpret results and apply findings to improve their projects or daily practices.
   - principle: responsible-action
     inThisCourse:
-      - Learners discuss ethical aspects of scientific work, such as consent, safety, and impact on people and the planet.
+      - Learners discuss ethical aspects of scientific work - such as consent, safety, and impact on people and the planet.
       - Activities highlight how science can be used responsibly to address problems without causing harm.
       - Facilitators model ethical decision making, especially in contexts involving experiments or data use.
   - principle: recognise-communicate-growth
@@ -146,7 +146,7 @@ principleMappings:
   - principle: connect-to-futures
     inThisCourse:
       - >-
-          Learners connect scientific reasoning to the pathways it opens, health, environment, agriculture, engineering, teaching, and to the everyday decisions where evidence beats assumption.
+          Learners connect scientific reasoning to the pathways it opens - health, environment, agriculture, engineering, teaching - and to the everyday decisions where evidence beats assumption.
       - >-
           Facilitators are explicit that the habit being built, checking a claim before acting on it, transfers to every pathway and to civic life.
       - >-
@@ -162,7 +162,7 @@ sourceIssues:
   - type: cross-course-copy-paste
     detail: >-
       Design checklist reads "Meets the time and contextualisation requirements for the
-      Social Entrepreneurship course", should reference Science Informed Action. Same
+      Social Entrepreneurship course" - should reference Science Informed Action. Same
       error appears in multiple guides.
   - type: missing-principle
     detail: >-

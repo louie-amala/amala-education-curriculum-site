@@ -1,5 +1,5 @@
 # Student worksheet (resource) for the activity cb-ail-finding-help-and-resources. Thin per §3: what the page is and how the
-# learner uses it. Ships no file of its own, its printable version compiles into the Agency in
+# learner uses it. Ships no file of its own - its printable version compiles into the Agency in
 # Learning student workbook ("My Learning Book"). Learning Bridge+ (Cox's Bazar) edition.
 id: cb-ail-who-can-help-page
 slug: cb-ail-who-can-help-page
@@ -16,8 +16,8 @@ primaryContext: independent
 learnerContent: |
   ## Who and what can help me
 
-  This page is yours. You can draw, write, or say your answer, someone will write it for you if you
-  ask, and nobody marks it right or wrong.
+  This page is yours. You can draw, write, or say your answer - someone will write it for you if you
+  ask - and nobody marks it right or wrong.
 
   - Say who you will ask, and what you will ask them for.
   - Name the thing that usually stops you, and the smaller step you will still take.
@@ -37,4 +37,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

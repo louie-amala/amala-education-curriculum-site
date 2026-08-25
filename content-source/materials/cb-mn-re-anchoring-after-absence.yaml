@@ -1,5 +1,5 @@
 # The conversation for a learner returning after an absence. The programme repeatedly promises that
-# "stop-start attendance never breaks the sequence" and that "a return after absence is progress", 
+# "stop-start attendance never breaks the sequence" and that "a return after absence is progress" -
 # and nowhere said how to actually run that conversation. In this context it is the single most
 # frequent mentoring situation there is.
 id: cb-mn-re-anchoring-after-absence
@@ -23,7 +23,7 @@ educatorContent: |
   work, a family event, a household that needed someone that day. Over twelve weeks, most learners will
   miss something, and some will miss a lot.
 
-  The programme's design assumes this, the sessions are modular, the workbooks carry the scaffold, and
+  The programme's design assumes this - the sessions are modular, the workbooks carry the scaffold, and
   every plan says a return is progress. But the moment that decides whether a learner actually comes
   back is the first ten minutes after they walk in. Get it wrong and they quietly stop coming.
 
@@ -40,7 +40,7 @@ educatorContent: |
 
   > "It's good to see you. I'm glad you're back."
 
-  That is the whole opening. Do not follow it with "where have you been?", not because you do not want
+  That is the whole opening. Do not follow it with "where have you been?" - not because you do not want
   to know, but because the honest answer may be one they cannot give in a room.
 
   **Ask once, privately, and let them decline.**
@@ -86,7 +86,7 @@ educatorContent: |
 
   **Say the thing about adapting, out loud.**
 
-  > "Plans getting broken and picked back up. That IS the skill. That is what this course is teaching."
+  > "Plans getting broken and picked back up - that IS the skill. That is what this course is teaching."
 
   Say it because it is true, and because a learner who thinks the absence disqualified them will not
   believe it unless someone says it.
@@ -98,7 +98,7 @@ educatorContent: |
   | Kind | What you see | What helps |
   |---|---|---|
   | **One-off** | A single week, an explanation offered easily, they return keen | The return conversation, and nothing more |
-  | **Practical and recurring** | Same day each week, work, childcare, a route that floods | Solve the logistics with your coordinator. A different day, a different time. Do not treat it as motivation |
+  | **Practical and recurring** | Same day each week, work, childcare, a route that floods | Solve the logistics with your coordinator - a different day, a different time. Do not treat it as motivation |
   | **Something else** | Vague reasons, drifting, arriving late and leaving early, a goal that has shrunk to nothing | Notice, do not push. Two short warm conversations beat one long one. Raise it with your coordinator if it continues, and read the quieter signals on the safeguarding page |
 
   The mistake is treating the second kind as the third. A learner missing Thursdays because they work
@@ -113,7 +113,7 @@ educatorContent: |
 
   **Be honest and specific about what is still possible.** Not "you can still catch up" if they cannot.
   Something like: "You will not finish everything. You can still set a goal and take real steps, and
-  that is what the assessment is about." Honest and hopeful, both. An unrealistic promise costs you the
+  that is what the assessment is about." Honest and hopeful, both - an unrealistic promise costs you the
   learner the week they discover it.
 
   And tell your coordinator. A learner in danger of dropping out is a programme matter, not just yours.
@@ -123,8 +123,8 @@ agencyContribution:
   - control-of-future-pathways
   how: >-
     Interrupted schooling teaches young people that education is something that happens to them and can
-    be taken away. A return conversation that re-anchors a goal the learner still owns, and treats the
-    interruption as something to adapt to rather than be disqualified by, is a direct challenge to
+    be taken away. A return conversation that re-anchors a goal the learner still owns - and treats the
+    interruption as something to adapt to rather than be disqualified by - is a direct challenge to
     that, and it is where the promise that a plan can be picked back up either becomes real or does not.
 principlesForegrounded:
 - safe-spaces
@@ -134,14 +134,14 @@ competencyDevelopment:
 - code: FSL2
   how: >-
     Adapting a plan when circumstances break it, and choosing a smaller next step rather than
-    abandoning the goal, is a core part of setting and pursuing goals, and in this context it is the
+    abandoning the goal, is a core part of setting and pursuing goals - and in this context it is the
     part learners will most often be assessed on.
 objectiveIds: []
 relatedSlugs: [cb-mn-the-conversation, cb-mn-running-mentoring-here, cb-mn-safeguarding-and-referral, cb-ail-assessing-the-goal-work, mentor-coach-through-challenges, mentor-track-progress-intervene-early]
 provenanceNote: >-
   Authored for the Learning Bridge+ (Cox's Bazar) edition. Makes runnable the promise the programme
-  makes in several places, that sessions are modular, that a return after absence is progress, and
-  that adapting a plan is the real skill, none of which previously had a conversation attached to it.
+  makes in several places - that sessions are modular, that a return after absence is progress, and
+  that adapting a plan is the real skill - none of which previously had a conversation attached to it.
 rights:
   status: amala-own
   note: Authored by Amala for this edition; no third-party content.

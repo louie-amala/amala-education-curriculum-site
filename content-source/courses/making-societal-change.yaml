@@ -1,12 +1,12 @@
-# Intermediate extraction, mirrors spec §4.1 Course/Objective interfaces.
+# Intermediate extraction - mirrors spec §4.1 Course/Objective interfaces.
 # Source: "Making Societal Change Course Guide - 2025 Onwards.docx"
 # Verbatim from source; issues recorded, not corrected.
 id: making-societal-change
 slug: making-societal-change
 access: public
 title: Making Societal Change
-strapline: null # not present in guide, to author
-programmes: [gsd] # to confirm against programme-level docs
+strapline: null            # not present in guide - to author
+programmes: [gsd]          # to confirm against programme-level docs
 testimonial:
   quote: >-
     Each person has a role in his society and it is better for him to work to
@@ -26,7 +26,7 @@ purpose: >-
   and economic transformation.
 requirements:
   structuredHours: 100
-  durationWeeks: 10 # "minimum of 10 weeks"
+  durationWeeks: 10          # "minimum of 10 weeks"
   cadence: 10+ weeks
   liveIndependentSplit: null # no specific live/independent split stated in guide
   notes: >-
@@ -44,8 +44,8 @@ objectives:
       - Analyse who benefits and who is disadvantaged within existing structures or policies.
       - Recognise the roles of power, privilege, and inequality in maintaining or challenging the status quo.
       - Reflect on their own position and relationship to these systems.
-    furtherDetails: # raw seeds → future concepts/tools/activities (NOT yet authored materials)
-      concepts: [] # no named theories/frameworks in this column
+    furtherDetails:            # raw seeds → future concepts/tools/activities (NOT yet authored materials)
+      concepts: []             # no named theories/frameworks in this column
       activities:
         - Relevant case studies of historical or current societal change (e.g. movements, reforms, international agreements).
         - System-mapping or power-mapping exercises to visualise relationships and influence.
@@ -159,7 +159,7 @@ principleMappings:
   - principle: connect-to-futures
     inThisCourse:
       - >-
-          Learners map the routes through which people actually change systems, organising, advocacy, media, law, public service, community leadership, and where each begins for someone in their position.
+          Learners map the routes through which people actually change systems - organising, advocacy, media, law, public service, community leadership - and where each begins for someone in their position.
       - >-
           Facilitators connect learners with people already doing this work, so a pathway is a person they have met rather than an abstraction.
       - >-
@@ -175,7 +175,7 @@ sourceIssues:
   - type: cross-course-copy-paste
     detail: >-
       Course Learning Design Checklist intro reads "Meets the time and
-      contextualisation requirements for the Social Entrepreneurship course", 
+      contextualisation requirements for the Social Entrepreneurship course" -
       should reference Making Societal Change. Same error appears in multiple guides.
   - type: missing-principle
     detail: >-

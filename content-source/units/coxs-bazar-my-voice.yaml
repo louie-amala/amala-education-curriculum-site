@@ -1,5 +1,5 @@
 # Unit plan (scheme of work) for the English Language Development component of Learning Bridge+
-# (Cox's Bazar), a fully offline, oral/visual-first, EMERGENT-LITERACY contextualisation of the
+# (Cox's Bazar) - a fully offline, oral/visual-first, EMERGENT-LITERACY contextualisation of the
 # "My Voice" course (English for Impact Unit 1). HOURS-BASED, not weeks: it sets out the full 50 hours
 # (30 in-person + 20 independent) so an educator can fit them into their own weekly schedule (minimum
 # 10 weeks). The key shift from the source course: it assumes NO prior reading in any language, leads
@@ -9,13 +9,13 @@
 id: coxs-bazar-my-voice
 slug: coxs-bazar-my-voice
 access: partner
-title: "My Voice. Cox's Bazar unit plan"
+title: "My Voice - Cox's Bazar unit plan"
 programmeSlug: learning-bridge-coxs-bazar
 componentTitle: English Language Development
 courseSlug: efi-my-voice
 summary: >-
-  The full 50-hour plan for delivering My Voice, the English Language Development component, compulsory
-  in this edition, fully offline in the Cox's Bazar camps, as an oral and visual first,
+  The full 50-hour plan for delivering My Voice - the English Language Development component, compulsory
+  in this edition - fully offline in the Cox's Bazar camps, as an oral and visual first,
   emergent-literacy course for a
   largely pre-literate cohort. It is set out in hours, not weeks, so you can fit it into your own
   timetable over a minimum of 10 weeks. Learners begin from their own name and voice: hearing and making
@@ -31,10 +31,10 @@ deliveryApproach: >-
   gate in front of it. The scaffold stays high the whole way through; what changes is ownership, not the
   amount of support. Early on the model is yours to give: a warm, talking-out-loud space, listening
   games, and everyone starting from the sound of their own name, with a worked example on every workbook
-  page. In the middle the words become the learner's own, they gather their own picture-words and fill
+  page. In the middle the words become the learner's own - they gather their own picture-words and fill
   the same sentence frames to say who they are, and practise them aloud in same-gender pairs, with
-  recognition and tracing coming before free writing. Later the learner owns the whole piece, they
-  choose what represents them, make their "My Name, My Voice" card, and share it, but the frames, the
+  recognition and tracing coming before free writing. Later the learner owns the whole piece - they
+  choose what represents them, make their "My Name, My Voice" card, and share it - but the frames, the
   worked examples, and the My Voice book are beside them at every step, and the support never withdraws.
   Never withdraw support as a test: some learners will speak long before they write, and that is success,
   not falling short. The workbook is built to hold the scaffold when you step back or a session is
@@ -56,7 +56,7 @@ assessmentNote: >-
   World Issues, live in the
   Agency in Learning and Research Project components). Assess English progress formatively, against the
   A1- Can-Do outcomes of the My Voice course and each learner's own growth, to inform the readiness
-  picture and the support a learner needs, not as a pass/fail gate. Gather evidence from across the
+  picture and the support a learner needs - not as a pass/fail gate. Gather evidence from across the
   whole component, not a single test: the growing My Voice book, the sounds and words a learner can hear
   and say, their spoken self-introduction, and the "My Name, My Voice" card and sharing. Judge against
   where each learner began: for someone who arrived with no reading, saying a short true introduction in
@@ -83,7 +83,7 @@ phases:
           read, write, or share anything they would rather keep private. Introduce the big idea in your
           own words and in the language you share with learners: everyone here already has a voice and
           things worth saying, and this course is about finding the English to say who you are. Make
-          mistakes welcome out loud, trying is the whole point. Set up the practice habit from day one:
+          mistakes welcome out loud - trying is the whole point. Set up the practice habit from day one:
           English grows fastest when it is used a little every day, everywhere, so introduce the "Practice
           everywhere" page in the My Voice book (where can I use my English, and who with?) and explain
           that each time you meet you will ask, warmly and without pressure, who they spoke English with.
@@ -152,7 +152,7 @@ phases:
         independentTask: "Play one sound game from today with someone at home, or build your name from letter shapes."
         flexNote: >-
           A bank of short, repeatable phonics games and emergent dictation that recycles the unit's
-          sounds. Dip into it in many later sessions too, not only here. Keep it playful and low-stakes.
+          sounds - dip into it in many later sessions too, not only here. Keep it playful and low-stakes.
       - title: "Words about me"
         kind: activity
         materialSlug: cb-mv-words-about-me
@@ -169,10 +169,11 @@ phases:
     lead: shared
     objectiveId: efi-my-voice--o2
     summary: >-
-      Learners turn their words into simple spoken sentences about themselves, I am, I am from, I like, practise the verb "to be", pronouns, and the frames through spoken and card games, introduce
+      Learners turn their words into simple spoken sentences about themselves - I am, I am from, I like -
+      practise the verb "to be", pronouns, and the frames through spoken and card games, introduce
       themselves and others aloud, and begin to write a little about themselves.
     blocks:
-      - title: "I am…, saying who you are"
+      - title: "I am… - saying who you are"
         kind: activity
         materialSlug: cb-mv-i-am-sentences
         facilitatedHours: 2
@@ -186,7 +187,7 @@ phases:
         independentTask: "Ask one person the questions from today (What is your name? Where are you from?) and answer them back."
         flexNote: >-
           Controlled-to-freer practice of the verb "to be", pronouns, and the simple sentence frames,
-          rebuilt as spoken and card games. An offline adaptation of the source's Unit 1 grammar exercises.
+          rebuilt as spoken and card games - an offline adaptation of the source's Unit 1 grammar exercises.
       - title: "Meeting people"
         kind: activity
         materialSlug: cb-mv-meeting-people-role-play
@@ -198,7 +199,7 @@ phases:
         facilitatedHours: 1
         independentHours: 2
         description: >-
-          The between-session engine, where fluency and confidence grow, and it runs on the "My practice
+          The between-session engine, where fluency and confidence grow - and it runs on the "My practice
           weeks" spread in the My Voice book, a scaffolded weekly loop the learner can use without you
           beside them. Each week the loop asks the learner to choose who they will speak English with and
           what they will say (from the frames they already know), do it, then record what happened, what
@@ -218,12 +219,12 @@ phases:
         facilitatedHours: 2
         independentHours: 1.5
         independentTask: "Copy or complete one sentence about yourself in your My Voice book, or say it aloud and draw it if writing is not yet comfortable."
-  - title: "My Name, My Voice. Make and share"
+  - title: "My Name, My Voice - make and share"
     lead: learner-led
     objectiveId: efi-my-voice--o3
     summary: >-
       Learners bring the unit together into a personal "My Name, My Voice" card that shows who they are,
-      rehearse a short spoken introduction of it, and share it with a warm audience, then look back at
+      rehearse a short spoken introduction of it, and share it with a warm audience - then look back at
       how far they have come.
     blocks:
       - title: "Make your My Name, My Voice card"
@@ -233,30 +234,30 @@ phases:
         independentHours: 1.5
         independentTask: "Finish decorating your card and practise saying your introduction aloud once at home."
         flexNote: >-
-          The authentic project. Learners choose what represents them, their name, meaningful
-          picture-words, a simple sentence, and make it visual first. Hold English expectations at A1-:
+          The authentic project. Learners choose what represents them - their name, meaningful
+          picture-words, a simple sentence - and make it visual first. Hold English expectations at A1-:
           a few true words and sentences plus images is a full success.
-      - title: "My Name, My Voice. Rehearse, share, and celebrate"
+      - title: "My Name, My Voice - rehearse, share, and celebrate"
         kind: consolidation
         facilitatedHours: 2
         independentHours: 1.5
         description: >-
           Close the course. Learners rehearse their introduction using the "My spoken introduction"
-          scaffold in the My Voice book, a ticked checklist of what to say (hello, my name is, I am from,
-          I like, thank you) with a worked example, in same-gender pairs first, which makes the sharing
+          scaffold in the My Voice book - a ticked checklist of what to say (hello, my name is, I am from,
+          I like, thank you) with a worked example - in same-gender pairs first, which makes the sharing
           far less frightening. Then they present their card to a warm audience. In this edition that
           audience is the one programme showcase (see cb-my-showcase), where the same learner also
           presents their group's research and names one way they have grown, in front of at least one
-          person they invited themselves, so rehearse with that room in mind. Wherever it happens the
+          person they invited themselves - so rehearse with that room in mind. Wherever it happens the
           rules are the same: applause, no correction during sharing, and one kind response from
           listeners. No
           one is ever forced to share, and presenting to just a partner or mentor still counts. Then
           learners look back with the structured "How my voice has grown" page: they revisit the "I can…"
-          self-check they marked at the start, mark where they are now, and complete the reflection stems,
-           at the start I could not ___, now I can ___, what helped me ___, what I want to keep learning
-          ___, so the growth is named, not just felt. On Learning Bridge+, this is the point to gather
-          the evidence of each learner's English progress and self-awareness (FUS1), from the My Voice
-          book, the spoken introduction, the card, and the structured reflection, to inform the formative
+          self-check they marked at the start, mark where they are now, and complete the reflection stems -
+          at the start I could not ___, now I can ___, what helped me ___, what I want to keep learning
+          ___ - so the growth is named, not just felt. On Learning Bridge+, this is the point to gather
+          the evidence of each learner's English progress and self-awareness (FUS1) - from the My Voice
+          book, the spoken introduction, the card, and the structured reflection - to inform the formative
           judgement and the support each learner needs next.
         independentTask: "Choose one way your English has grown to share, and one thing you want to keep learning after the course."
 downloads:
@@ -267,7 +268,7 @@ downloads:
   - label: Student My Voice book (workbook)
     file: /downloads/my-voice-student-workbook.docx
     format: Word
-    note: Visual-first learner pages, name, sounds, words about me, sentence frames, the My Name My Voice card, and the "I can…" check. Print one per learner. Editable.
+    note: Visual-first learner pages - name, sounds, words about me, sentence frames, the My Name My Voice card, and the "I can…" check. Print one per learner. Editable.
   - label: Letter & picture cards
     file: /downloads/my-voice-letter-and-picture-cards.docx
     format: Word
@@ -279,5 +280,5 @@ sourceNotes:
   - Activity times are generous (roughly 1.5 to 2 times a literate-group estimate) to reflect oral and visual delivery, drawing, translation, and a pre-literate starting point.
   - English Language Development is compulsory in this edition but is not one of the two formally graded Learning Bridge+ competencies; its assessment is formative, against the A1- Can-Do outcomes and each learner's own growth.
   - Two facilitator-facing resources underpin the unit. cb-mv-facilitator-playbook is the how-to for teaching beginner English to pre-literate learners, grounded in the English for Impact pedagogy plus LESLLA and SLA research. cb-mv-practice-everywhere builds English practice into Agency in Learning, mentoring, the Research Project, and daily life. The facilitator plan carries the playbook and the practice guidance at the front; the student workbook has a Practice everywhere page and practice log.
-  - The phonics and grammar scaffolding from the source PDF is carried by dedicated materials, two reference resources (cb-mv-phonics-progression and cb-mv-phonics-table) and two practice activities (cb-mv-sound-and-letter-practice and cb-mv-sentence-practice, the latter an offline adaptation of the source's Unit 1 grammar exercises).
+  - The phonics and grammar scaffolding from the source PDF is carried by dedicated materials - two reference resources (cb-mv-phonics-progression and cb-mv-phonics-table) and two practice activities (cb-mv-sound-and-letter-practice and cb-mv-sentence-practice, the latter an offline adaptation of the source's Unit 1 grammar exercises).
   - The offline resource pack (facilitator unit plan, visual My Voice book/workbook, picture and letter cards) is produced as editable files under public/downloads, mirroring the Agency in Learning pack. Slides were dropped in favour of a pack that assumes no screen at all; scripts/downloads/generate-slides.py is kept if they are ever asked for.

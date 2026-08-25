@@ -1,5 +1,5 @@
 # Student worksheet (resource) for the activity cb-ail-your-goal-steps. Thin per §3: what the page is and how the
-# learner uses it. Ships no file of its own, its printable version compiles into the Agency in
+# learner uses it. Ships no file of its own - its printable version compiles into the Agency in
 # Learning student workbook ("My Learning Book"). Learning Bridge+ (Cox's Bazar) edition.
 id: cb-ail-my-steps-page
 slug: cb-ail-my-steps-page
@@ -8,7 +8,7 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "My steps"
 summary: >-
-  The goal at the top and the steps down to one the learner can reach soon, the first step, coloured in.
+  The goal at the top and the steps down to one the learner can reach soon - the first step, coloured in.
 facilitationContext:
 - group
 - independent
@@ -16,12 +16,12 @@ primaryContext: independent
 learnerContent: |
   ## My steps
 
-  This page is yours. You can draw, write, or say your answer, someone will write it for you if you
-  ask, and nobody marks it right or wrong.
+  This page is yours. You can draw, write, or say your answer - someone will write it for you if you
+  ask - and nobody marks it right or wrong.
 
   - Write or draw your goal at the top.
   - Write or draw the steps that come before it.
-  - Colour the first step, the one you can reach soon.
+  - Colour the first step - the one you can reach soon.
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction
@@ -38,4 +38,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

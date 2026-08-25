@@ -51,7 +51,7 @@ const {
 // workbook page carries a persistent WORKED EXAMPLE and FRAMES, not empty space. modelBox renders a
 // tinted "Like this" example that stays on the page. Names/things are culturally apt and literacy-free.
 const { ShadingType } = require('docx');
-const TINT = 'FBF3E4'; // light gold, worked-example boxes
+const TINT = 'FBF3E4'; // light gold - worked-example boxes
 const MODEL_MARGINS = { top: 90, bottom: 90, left: 140, right: 140 };
 // The worked example. Now the shared accent-bar panel, so it matches the other packs and costs a
 // rule instead of a page of tint.
@@ -72,7 +72,7 @@ function facilitatorPlanChildren(opts = {}) {
     c.push(new Paragraph({ children: [new TextRun({ text: 'My Voice', bold: true, size: 52, color: NAVY })], spacing: { after: 40 } }));
     c.push(P('Facilitator Unit Plan & Guide', { size: 30, bold: true, color: PLUM, after: 40 }));
     c.push(P("Learning Bridge+ (Cox's Bazar)  ·  English Language Development", { size: 22, color: GREY, after: 200 }));
-    c.push(...printNotes('guide'),...contents('The phases of the unit and the reference sections, with the page each one starts on. Word fills the numbers in when this file is opened.'));
+    c.push(...printNotes('guide'), ...contents('The phases of the unit and the reference sections, with the page each one starts on. Word fills the numbers in when this file is opened.'));
   }
   c.push(...body(unit.summary));
   c.push(runs([
@@ -88,12 +88,12 @@ function facilitatorPlanChildren(opts = {}) {
   c.push(pageBreak());
   c.push(...courseGuideChildren(course, unit, competencies));
 
-  // How to teach this well. The facilitator playbook, up front (the method behind every activity)
+  // How to teach this well - the facilitator playbook, up front (the method behind every activity)
   const playbook = mat['cb-mv-facilitator-playbook'];
   if (playbook && playbook.educatorContent) {
     c.push(pageBreak());
     c.push(H1('How to teach this well'));
-    c.push(P('Read this before you start. It is the method behind every activity in the plan, the how, where each activity below gives you the what.', { size: 22, color: GREY }));
+    c.push(P('Read this before you start. It is the method behind every activity in the plan - the how, where each activity below gives you the what.', { size: 22, color: GREY }));
     c.push(...mdBlocks(playbook.educatorContent));
   }
   const practiceRes = mat['cb-mv-practice-everywhere'];
@@ -102,7 +102,7 @@ function facilitatorPlanChildren(opts = {}) {
     c.push(H1('Practice everywhere'));
     c.push(...mdBlocks(practiceRes.educatorContent));
   }
-  // "Before you start" and "Safeguarding and protection", the two reference sections the Research
+  // "Before you start" and "Safeguarding and protection" - the two reference sections the Research
   // Project and Agency in Learning parts carry, so a facilitator moving between the three components
   // finds the same things in the same order. The playbook above is the pedagogy; these are the kit,
   // the preparation, and the protection guidance.
@@ -120,12 +120,12 @@ function facilitatorPlanChildren(opts = {}) {
   }
   c.push(pageBreak());
   c.push(H2('How to use this plan'));
-  c.push(P('This plan is set out in hours, not weeks. Work through the phases in order; within a phase, the blocks build on each other. Each activity block below carries its full facilitation guidance inline, what learners do, what to prepare, the steps, the prompts, what to watch for, and how to run it with no materials. Deliver in the language you share with learners, from this plain-English guide. Times are generous on purpose: oral and visual work, drawing, and translation take longer than they look.', { size: 22 }));
+  c.push(P('This plan is set out in hours, not weeks. Work through the phases in order; within a phase, the blocks build on each other. Each activity block below carries its full facilitation guidance inline - what learners do, what to prepare, the steps, the prompts, what to watch for, and how to run it with no materials. Deliver in the language you share with learners, from this plain-English guide. Times are generous on purpose: oral and visual work, drawing, and translation take longer than they look.', { size: 22 }));
   c.push(pageBreak());
 
   unit.phases.forEach((ph, pi) => {
-    c.push(H1(`Phase ${pi + 1}, ${ph.title}`));
-    const meta = [`Lead: ${LEAD[ph.lead] || ph.lead || ', '}`];
+    c.push(H1(`Phase ${pi + 1} - ${ph.title}`));
+    const meta = [`Lead: ${LEAD[ph.lead] || ph.lead || '-'}`];
     const os = objStatement(ph.objectiveId);
     c.push(P(meta.join('   ·   '), { size: 20, color: GREY, italics: true, after: os ? 40 : 120 }));
     if (os) c.push(label('Course objective:', os));
@@ -144,23 +144,23 @@ function facilitatorPlanChildren(opts = {}) {
         if (m.materialsAndPreparation && m.materialsAndPreparation.length) { c.push(mini('Materials and preparation')); m.materialsAndPreparation.forEach((x) => c.push(bullet(x))); }
         // The subject brief: what a facilitator needs to KNOW to teach this block. Offline this is the
         // only place they can read it, so it comes before the practical detail.
-        // Where the learner's sheet lives, by number. They are holding a separate document.
+        // Where the learner's sheet lives, by number - they are holding a separate document.
         if (m.worksheet && m.worksheet.slug) {
           const idx = sheetIndex();
           const ws = mat[m.worksheet.slug];
           const no = idx.get(b.title) || idx.get(m.title) || (ws && idx.get(ws.title));
-          // Use the name as PRINTED in the book, not the material's own title. Otherwise the educator
+          // Use the name as PRINTED in the book, not the material's own title - otherwise the educator
           // is told to find a sheet under a name the learner's book does not use.
           const printed = SHEET_LIST.find((x) => x.n === no);
           const name = printed ? printed.heading : (ws ? ws.title : m.title);
           c.push(P(no
-            ? `LEARNER SHEET:  Sheet ${no}, \u201c${name}\u201d, in the My Voice book (a separate file, one per learner).`
-            : `LEARNER SHEET:  \u201c${name}\u201d, in the My Voice book (a separate file, one per learner).`,
+            ? `LEARNER SHEET:  Sheet ${no}, \u201c${name}\u201d - in the My Voice book (a separate file, one per learner).`
+            : `LEARNER SHEET:  \u201c${name}\u201d - in the My Voice book (a separate file, one per learner).`,
             { size: 20, bold: true, color: OLIVE, after: 100 }));
         }
         if (m.educatorContent) c.push(...mdBlocks(m.educatorContent));
         if (m.learnerTeaching) {
-          c.push(P(`The learners have this taught in their own book, on the \u201c${m.learnerTeaching.title}\u201d page, read it aloud to the group.`, { size: 20, italics: true, color: GREY, after: 100 }));
+          c.push(P(`The learners have this taught in their own book, on the \u201c${m.learnerTeaching.title}\u201d page - read it aloud to the group.`, { size: 20, italics: true, color: GREY, after: 100 }));
         }
         if (m.facilitationNotes) { c.push(mini('Facilitation notes')); c.push(...body(m.facilitationNotes)); }
         (m.steps || []).forEach((s, si) => {
@@ -181,12 +181,12 @@ function facilitatorPlanChildren(opts = {}) {
     if (pi < unit.phases.length - 1) c.push(pageBreak());
   });
 
-  // Appendix, phonics reference resources (not timed sessions; keep to hand)
+  // Appendix - phonics reference resources (not timed sessions; keep to hand)
   const resources = ['cb-mv-phonics-progression', 'cb-mv-phonics-table'].map((s) => mat[s]).filter(Boolean);
   if (resources.length) {
     c.push(pageBreak());
-    c.push(H1('Appendix, phonics reference'));
-    c.push(P('Two reference resources that sit behind the sounds phase. They are not timed sessions, keep them to hand and point back to them as you teach the sounds.', { size: 22, color: GREY }));
+    c.push(H1('Appendix - phonics reference'));
+    c.push(P('Two reference resources that sit behind the sounds phase. They are not timed sessions - keep them to hand and point back to them as you teach the sounds.', { size: 22, color: GREY }));
     for (const r of resources) {
       c.push(H2(r.title));
       if (r.summary) c.push(P(toParas(r.summary).join(' '), { italics: true, size: 21, color: GREY }));
@@ -214,7 +214,7 @@ const wbTitle = (t, sub) => [
 // the material bank is literally "incorporated into the downloadable workbook".
 // opts.embedded drops the branding half of the cover page (the big title and the "this book belongs
 // to" line), so the programme-wide student workbook (generate-lb-guides.js) carries these sheets
-// behind its own single cover. The "Set up your My Voice book" activity itself, draw yourself, is
+// behind its own single cover. The "Set up your My Voice book" activity itself - draw yourself - is
 // kept, because it is an activity in the unit, not decoration. Standalone download is unchanged.
 // Sheet numbers for the My Voice book, and the index the plan quotes. See generate-ail.js.
 let sheetSeq = 0;
@@ -243,7 +243,7 @@ function workbookChildren(opts = {}) {
     c.push(pageBreak());
   };
 
-  // LEARN IT. The method, taught, before the learner is asked to use it. Its own page, so a learner
+  // LEARN IT - the method, taught, before the learner is asked to use it. Its own page, so a learner
   // can re-read it while their own sheet is already filled in, and so someone who missed the session
   // still has the teaching. Answers, where a skill has right ones, go at the BACK of the book.
   const withAnswers = [];
@@ -255,7 +255,7 @@ function workbookChildren(opts = {}) {
     c.push(...wbTitle(lt.title, ''));
     c.push(...mdBlocks(String(lt.readAloud || '').replace(/^\s*##\s+.*\n/, '')));
     if (lt.words && lt.words.length) {
-      c.push(noteBox('New words:', lt.words.map((w) => `${w.term}, ${w.meaning}`)));
+      c.push(noteBox('New words:', lt.words.map((w) => `${w.term} - ${w.meaning}`)));
     }
     const t = lt.tryIt;
     if (t) {
@@ -293,7 +293,7 @@ function workbookChildren(opts = {}) {
   // learner can draw the answer instead and the rule reaches the column edge.
   const frames = (arr) => arr.forEach((t) => c.push(...writeBox(String(t).replace(/[_\s]+$/, '').trim(), 2)));
 
-  // Sheet list, in unit order. Also drives the contents page.
+  // Sheet list, in unit order - also drives the contents page.
   const SHEETS = [
     opts.embedded ? 'Set up your My Voice pages' : 'My Voice book (cover)', 'The "I can…" sheet',
     'Where I can practise', 'My practice weeks', 'Our classroom words', 'Listening: hello and names',
@@ -312,9 +312,9 @@ function workbookChildren(opts = {}) {
   } else {
     c.push(new Paragraph({ children: [new TextRun({ text: 'Set up your My Voice pages', bold: true, size: 32, color: NAVY })], spacing: { after: 120 } }));
   }
-  c.push(bold('Draw yourself, or write your name big:'));
+  c.push(bold('Draw yourself - or write your name big:'));
   c.push(box(3600));
-  // the cover has no worksheet page to close, so it takes a plain break. EndPage() would append a
+  // the cover has no worksheet page to close, so it takes a plain break - endPage() would append a
   // notes sheet for a page that does not exist
   c.push(pageBreak());
   // "How to use this book" rides with the printing notes rather than taking a fifth of a sheet on its
@@ -325,7 +325,7 @@ function workbookChildren(opts = {}) {
   c.push(P('There is one sheet for each activity in My Voice, and a page for your own notes after it. Your facilitator will tell you which sheet to use.', { size: BOOK, line: 300 }));
   c.push(modelBox([
     'Every page shows you an example at the top, like this one, so you always have something to copy.',
-    'You can draw or say every answer. Your facilitator can write it for you. Nothing here is a test.',
+    'You can draw or say every answer - your facilitator can write it for you. Nothing here is a test.',
   ], { label: 'How to use this book' }));
   if (!opts.embedded) c.push(...contents('The parts of your book, and the page each one starts on. Word fills the numbers in when this file is opened.'));
   else c.push(pageBreak());
@@ -335,7 +335,7 @@ function workbookChildren(opts = {}) {
   head('Mark where I am now', 'I can…', 'Your facilitator reads each line. Circle the face that is true for you today. There are no wrong answers.');
   c.push(modelBox([
     'yes, I can  =  :)        a little  =  :|        not yet  =  :(',
-    'Circle one face in the Start column now. At the end of the course you circle the End column, and see how you have grown.',
+    'Circle one face in the Start column now. At the end of the course you circle the End column - and see how you have grown.',
     '"Not yet" is a good answer at the start. It shows you what you will learn.',
   ]));
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 10 })], spacing: { after: 100 } }));
@@ -381,7 +381,7 @@ function workbookChildren(opts = {}) {
     circleLine('If I feel shy, I will:', 'practise with one person · practise at home first · ask my buddy');
     c.push(...writeBox('Next week I will…', 2));
   };
-  head('Say it to someone new', 'My practice weeks', 'Between our sessions, use your English. Fill in one week each time you practise. Bring it to show, we start each session with it.');
+  head('Say it to someone new', 'My practice weeks', 'Between our sessions, use your English. Fill in one week each time you practise. Bring it to show - we start each session with it.');
   c.push(modelBox([
     'Week 1',
     'This week I will speak English with:  FAMILY',
@@ -390,7 +390,7 @@ function workbookChildren(opts = {}) {
     'What happened:  I said hello to my mother. She smiled and said hello back.',
     'If I feel shy, I will:  practise at home first',
     'Next week I will:  say "my name is Nur" to my friend',
-  ], { label: 'Like this, one finished week' }));
+  ], { label: 'Like this - one finished week' }));
   c.push(P('There are four weeks below. Your facilitator can print more.', { size: 19, color: GREY, before: 120 }));
   // The first week rides with the worked example that shows how to fill it; the rest pair up two to a
   // sheet, and a notes page closes each sheet.
@@ -409,7 +409,7 @@ function workbookChildren(opts = {}) {
   // --- Our classroom words ---
   learnIt('cb-mv-classroom-language-and-warm-ups');
   head('The English of our classroom', 'Our classroom words', 'Your facilitator says each word. Draw a small picture in its box so you remember it, and say it aloud.');
-  c.push(modelBox(['hello  →  draw a hand waving  →  say: "hello"'], { label: 'Like this, one box' }));
+  c.push(modelBox(['hello  →  draw a hand waving  →  say: "hello"'], { label: 'Like this - one box' }));
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: 100 } }));
   c.push(labelBoxes(['hello', 'thank you', 'please', 'again, please', "I don't understand", 'may I…?'], 3, 2200));
   c.push(scribeNote());
@@ -438,7 +438,7 @@ function workbookChildren(opts = {}) {
 
   // --- My sounds and words (the learner's phonics-table tool: draw · English word · my word) ---
   learnIt('cb-mv-key-sounds-and-games');
-  head('Key sounds through games', 'My sounds and words', 'This is your own word collection, keep adding to it all course long. Draw a thing, write its English word, and add your own word.');
+  head('Key sounds through games', 'My sounds and words', 'This is your own word collection - keep adding to it all course long. Draw a thing, write its English word, and add your own word.');
   const swW = [5400, 2700, 2700];
   const swCell = (t, opts = {}) => new TableCell({ width: { size: opts.w, type: WidthType.DXA }, margins: opts.tint ? MODEL_MARGINS : undefined, shading: opts.tint ? { type: ShadingType.CLEAR, color: 'auto', fill: TINT } : undefined, children: [new Paragraph({ children: [new TextRun({ text: t, bold: opts.bold, italics: opts.italics, size: 20, color: opts.color || NAVY })] })] });
   const swRows = [
@@ -465,7 +465,7 @@ function workbookChildren(opts = {}) {
 
   // --- Words about me ---
   learnIt('cb-mv-words-about-me');
-  head('Words about me', 'Words about me', 'Draw in each box. Your facilitator helps with the English word. You choose what to show, a lighter, everyday thing is always fine.');
+  head('Words about me', 'Words about me', 'Draw in each box. Your facilitator helps with the English word. You choose what to show - a lighter, everyday thing is always fine.');
   c.push(modelBox(['My family:  draw your family, then say "mother", "brother".', 'Where I am from:  draw your place. You choose what to show.']));
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: 90 } }));
   const labelsRow = (a, b2) => new TableRow({ children: [a, b2].map((t) => new TableCell({ width: { size: 5400, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 22, color: PLUM })] }), new Paragraph('')] })) });
@@ -487,7 +487,7 @@ function workbookChildren(opts = {}) {
 
   // --- I can say who I am ---
   learnIt('cb-mv-i-am-sentences');
-  head('I am…, saying who you are', 'I can say who I am', 'Say each sentence out loud. Fill the ending with your own true words, write, trace, or say it and draw.');
+  head('I am… - saying who you are', 'I can say who I am', 'Say each sentence out loud. Fill the ending with your own true words - write, trace, or say it and draw.');
   c.push(modelBox([
     'I am Fatima.',
     'I am from Myanmar.',
@@ -520,7 +520,7 @@ function workbookChildren(opts = {}) {
     'Nur:    Hello! My name is Nur. What is your name?',
     'Anwar:  Hello Nur! My name is Anwar.',
     'Nur:    This is my friend, Fatima.',
-  ], { label: 'Like this, two people meeting' }));
+  ], { label: 'Like this - two people meeting' }));
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: 90 } }));
   c.push(labelBoxes(['Hello!', 'My name is…', 'What is your name?', 'This is my friend.'], 2, 2800));
   endPage();
@@ -537,8 +537,8 @@ function workbookChildren(opts = {}) {
 
   // --- My spoken introduction (a persistent scaffold for the presentation = spoken-intro evidence) ---
   head('Rehearse, share, and celebrate', 'My spoken introduction', 'This is what you will say when you share your card. Tick each part when you can say it. Practise with a partner first.');
-  c.push(modelBox(['Hello!   My name is Nur.   I am from Myanmar.   I like rice.   Thank you.'], { label: 'Like this, a whole introduction', size: 24 }));
-  c.push(new Paragraph({ children: [new TextRun({ text: 'My introduction, tick each part when you can say it:', size: 22, color: PLUM, bold: true })], spacing: { before: 180, after: 80 } }));
+  c.push(modelBox(['Hello!   My name is Nur.   I am from Myanmar.   I like rice.   Thank you.'], { label: 'Like this - a whole introduction', size: 24 }));
+  c.push(new Paragraph({ children: [new TextRun({ text: 'My introduction - tick each part when you can say it:', size: 22, color: PLUM, bold: true })], spacing: { before: 180, after: 80 } }));
   c.push(check('Hello!'));
   c.push(...writeBox('My name is…', 1));
   c.push(...writeBox('I am from…', 1));
@@ -550,8 +550,8 @@ function workbookChildren(opts = {}) {
 
   // --- My Name, My Voice card (a labelled TEMPLATE with a worked example, not a blank canvas) ---
   learnIt('cb-mv-design-my-name-my-voice');
-  head('Make your My Name, My Voice card', 'My Name, My Voice', 'Make your card. It has a place for everything, your name, a picture, and your words. You choose what to show.');
-  c.push(modelBox(['MY NAME:  Nur', '(a picture of Nur and a flower)', 'I am from Myanmar.    I like flowers.'], { label: 'Like this, a finished card' }));
+  head('Make your My Name, My Voice card', 'My Name, My Voice', 'Make your card. It has a place for everything - your name, a picture, and your words. You choose what to show.');
+  c.push(modelBox(['MY NAME:  Nur', '(a picture of Nur and a flower)', 'I am from Myanmar.    I like flowers.'], { label: 'Like this - a finished card' }));
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: 100 } }));
   const cardRow = (labelText, h, big) => new TableRow({ height: { value: h, rule: 'atLeast' }, children: [new TableCell({ width: { size: 10800, type: WidthType.DXA }, margins: MODEL_MARGINS, children: [new Paragraph({ children: [new TextRun({ text: labelText, bold: true, size: big ? 22 : 20, color: PLUM })] })] })] });
   c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [10800], rows: [
@@ -575,7 +575,7 @@ function workbookChildren(opts = {}) {
   c.push(box(2600, 'Draw, write or say what you can do now'));
   c.push(new Paragraph({ spacing: { before: 160, after: 40 }, children: [new TextRun({ text: 'What helped me?  (circle)  ', bold: true, size: 22, color: PLUM }), new TextRun({ text: 'practising  ·  my facilitator  ·  my buddy  ·  my family', size: 21, color: NAVY })] }));
   c.push(new Paragraph({ spacing: { before: 120, after: 40 }, children: [new TextRun({ text: 'I want to keep learning:  ', bold: true, size: 22, color: PLUM }), new TextRun({ text: '______________________________', size: 22, color: NAVY })] }));
-  c.push(new Paragraph({ spacing: { before: 180, after: 40 }, children: [new TextRun({ text: 'How far have I come?  Mark it:      start  •, •  now', size: 21, color: OLIVE })] }));
+  c.push(new Paragraph({ spacing: { before: 180, after: 40 }, children: [new TextRun({ text: 'How far have I come?  Mark it:      start  •----------------•  now', size: 21, color: OLIVE })] }));
   c.push(scribeNote());
 
   c.splice(sheetListAt, 0,
@@ -585,10 +585,10 @@ function workbookChildren(opts = {}) {
     pageBreak(),
   );
 
-  // ANSWERS. At the back, so a learner can try each self-check honestly and mark themselves.
+  // ANSWERS - at the back, so a learner can try each self-check honestly and mark themselves.
   if (withAnswers.length) {
     c.push(pageBreak());
-    c.push(...wbTitle('Answers, try it yourself', 'Do the "Try it yourself" on the Learn it page first, then look here. Getting one wrong is useful, go back and read that page again, and see why.'));
+    c.push(...wbTitle('Answers - try it yourself', 'Do the "Try it yourself" on the Learn it page first, then look here. Getting one wrong is useful - go back and read that page again, and see why.'));
     withAnswers.forEach(({ m, t }) => {
       c.push(P(m.learnerTeaching.title, { size: 24, bold: true, color: NAVY, before: 160, after: 60 }));
       (t.items || []).forEach((it, i) => {
@@ -615,8 +615,8 @@ function cardsChildren() {
     }
     return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: Array(cols).fill(colW), rows: trs });
   };
-  c.push(new Paragraph({ children: [new TextRun({ text: 'My Voice, letter & picture cards', bold: true, size: 34, color: NAVY })], spacing: { after: 60 } }));
-  c.push(P('Print and cut along the lines. Editable, change or add cards for your group.', { size: 20, color: GREY, after: 160 }));
+  c.push(new Paragraph({ children: [new TextRun({ text: 'My Voice - letter & picture cards', bold: true, size: 34, color: NAVY })], spacing: { after: 60 } }));
+  c.push(P('Print and cut along the lines. Editable - change or add cards for your group.', { size: 20, color: GREY, after: 160 }));
   c.push(H2('Alphabet cards'));
   const alpha = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map((u) => `${u} ${u.toLowerCase()}`);
   c.push(bigCellGrid(alpha, 4, 1500, (t) => [new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: t, bold: true, size: 56, color: NAVY })] })]));

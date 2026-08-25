@@ -1,5 +1,5 @@
 # Student worksheet (resource) for the activity cb-ail-exploring-our-objectives. Thin per §3: what the page is and how the
-# learner uses it. Ships no file of its own, its printable version compiles into the Agency in
+# learner uses it. Ships no file of its own - its printable version compiles into the Agency in
 # Learning student workbook ("My Learning Book"). Learning Bridge+ (Cox's Bazar) edition.
 id: cb-ail-our-four-steps-page
 slug: cb-ail-our-four-steps-page
@@ -8,7 +8,7 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "Our four learning steps, and why they matter to me"
 summary: >-
-  The four things this course helps the learner do, each with why it matters, and then the learner's own reasons and first steps for each one.
+  The four things this course helps the learner do, each with why it matters - and then the learner's own reasons and first steps for each one.
 facilitationContext:
 - group
 - independent
@@ -16,11 +16,11 @@ primaryContext: independent
 learnerContent: |
   ## Our four learning steps, and why they matter to me
 
-  This page is yours. You can draw, write, or say your answer, someone will write it for you if you
-  ask, and nobody marks it right or wrong.
+  This page is yours. You can draw, write, or say your answer - someone will write it for you if you
+  ask - and nobody marks it right or wrong.
 
   - Read (or hear) the four learning steps, and why each one matters.
-  - For each step, say or write **why it matters to you**. Your own reason, not ours.
+  - For each step, say or write **why it matters to you** - your own reason, not ours.
   - For each step, say or write **how you would start**.
 agencyContribution:
   indicators:
@@ -38,4 +38,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

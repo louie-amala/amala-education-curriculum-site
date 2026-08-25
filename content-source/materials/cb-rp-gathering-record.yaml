@@ -9,7 +9,7 @@ type: resource
 title: "What I found when I asked and looked"
 summary: >-
   The learner's gathering-record pages: one page per person interviewed, with the answers recorded
-  against the sub-question each one answers, plus a page for what the learner saw with their own eyes. 
+  against the sub-question each one answers, plus a page for what the learner saw with their own eyes -
   all in marks, drawings, and a few words, and without naming anyone.
 facilitationContext:
 - independent
@@ -20,7 +20,7 @@ learnerContent: |
 
   These are the pages where your evidence lives.
 
-  There is **one page for each person you ask**, three of them, because we each ask three people. On
+  There is **one page for each person you ask** - three of them, because we each ask three people. On
   each page, write or draw what the person said **next to the sub-question it answers**, so we can see
   later what we learned about each part of our question. Each page has room for:
 
@@ -28,17 +28,17 @@ learnerContent: |
   - What they said about each of our four sub-questions.
   - One thing that surprised you, or that you want to check.
 
-  Then there is a page for **what you saw with your own eyes**, a bare place and a green place, what
+  Then there is a page for **what you saw with your own eyes** - a bare place and a green place, what
   was different, and what that tells us about our question.
 
-  Remember: ask permission first, every time. If someone does not want to answer, that is fine. Thank
+  Remember: ask permission first, every time. If someone does not want to answer, that is fine - thank
   them and go on. Keep these pages in your research book so all our evidence stays in one place.
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction
   how: >-
     Keeping an honest, anonymous record of what they gathered and where it came from is how a researcher
-    builds evidence they can stand behind, and it protects the people who helped them.
+    builds evidence they can stand behind - and it protects the people who helped them.
 objectiveIds: [research-project--o2]
 relatedSlugs: [cb-rp-go-and-gather, cb-rp-source-pack-evidence-log]
 provenanceNote: >-
@@ -48,4 +48,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

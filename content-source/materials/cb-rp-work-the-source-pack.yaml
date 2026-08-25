@@ -10,7 +10,7 @@ type: activity
 title: "Working with our sources"
 summary: >-
   Learners read the supplied source pack about the trees on our hills, work out what each source tells
-  us about our research question, learn the words they need, and start an evidence log. The record of
+  us about our research question, learn the words they need, and start an evidence log - the record of
   what they found and where it came from.
 facilitationContext:
 - group
@@ -20,7 +20,7 @@ duration: "2 hours facilitated + 1.5 hours independent"
 grouping: "Whole group to model, then pairs; independent reading between sessions"
 whatLearnersDo:
 - Listen to and read a source at the level that suits them (the real article, the B1 version, or the A1/A2 version).
-- Work out what each source says about our question, and what it does not tell us.
+- Work out what each source says about our question - and what it does not tell us.
 - Learn and use the new words from each source, adding them to our word wall.
 - Write or draw what they found in their evidence log, with a note of which source it came from.
 materialsAndPreparation:
@@ -41,9 +41,9 @@ visuals:
       count: 8
       label: "pairs, each at their own reading level"
 - kind: example
-  title: "Our evidence log, from one source"
+  title: "Our evidence log - from one source"
   caption: >-
-    For each source, pull out what it tells us and what it does not, and always note which source it came
+    For each source, pull out what it tells us and what it does not - and always note which source it came
     from. Marks and drawings count.
   spec:
     type: zones
@@ -60,14 +60,14 @@ visuals:
       - "how many trees were lost"
 facilitationNotes: >-
   The one thing to get right: this is real reading and real research, not a worksheet to fill. Model how
-  a researcher reads a source before asking learners to, read one aloud together, and think out loud:
+  a researcher reads a source before asking learners to - read one aloud together, and think out loud:
   "What is this? Who made it? What does it tell us about our question? What does it not tell us?" Let
   learners choose the reading level that stretches them without defeating them, and read aloud for those
   still building fluency. Keep coming back to the research question so the reading stays purposeful.
   A good way to organise this: split into groups, each taking one of the four sub-questions and the
   sources listed for it in the pack's "Which sources for which question" index. Each group reads its own
   set, works out what those sources say about its sub-question, weighs them one against another, and then
-  teaches the rest of the cohort, so together the whole group covers all four sub-questions.
+  teaches the rest of the cohort - so together the whole group covers all four sub-questions.
 steps:
 - title: "Model reading one source"
   duration: "30 min"
@@ -106,10 +106,10 @@ learnerContent: |
   - What is this? Who made it?
   - What does it tell us about our question?
   - What does it NOT tell us?
-  - Can we trust it, and does it agree with our other sources and with what we saw ourselves?
+  - Can we trust it - and does it agree with our other sources and with what we saw ourselves?
 
-  Read the version that is right for you, the real article, the B1 version, or the simpler A1/A2
-  version, or listen while your teacher reads. Then write or draw what you found in your evidence log,
+  Read the version that is right for you - the real article, the B1 version, or the simpler A1/A2
+  version - or listen while your teacher reads. Then write or draw what you found in your evidence log,
   and always note which source it came from.
 
 educatorContent: |
@@ -117,7 +117,7 @@ educatorContent: |
 
   This is the only block that teaches reading a source, and it is the whole of the secondary-research
   half of the competency. There is no internet, so the pack IS the world's knowledge as far as this
-  investigation is concerned, which makes reading it well more important, not less.
+  investigation is concerned - which makes reading it well more important, not less.
 
   ### Reading a source is four questions, not comprehension
 
@@ -126,13 +126,13 @@ educatorContent: |
 
   1. **What is this?** A news report, a study, a company's page, someone's story.
   2. **Who made it, and how do they know?** Straight into the weighing they will do properly later.
-  3. **What does it tell us about OUR question?** Not "what does it say", what does it say *that we
+  3. **What does it tell us about OUR question?** Not "what does it say" - what does it say *that we
      need*. Most of any source is irrelevant to us, and skipping past that is a skill.
   4. **What does it NOT tell us?** The one learners never think to ask, and the most useful. A source
      about roots holding soil tells us nothing about whether anyone is planting here.
 
   Model all four out loud on one source before anyone reads in pairs. Think aloud, including the
-  hesitating. "hm, it says 4.5 degrees, but is that here or somewhere else?" That noise is the
+  hesitating - "hm, it says 4.5 degrees, but is that here or somewhere else?" That noise is the
   demonstration.
 
   ### Three reading levels, and how to use them without insult
@@ -141,7 +141,7 @@ educatorContent: |
   ACCESS, not the content: read aloud, let a learner take the level they can hold, and let the pictures
   carry meaning for anyone not yet reading fluently.
 
-  Two errors to avoid. Do not hand the simplest version to a learner who could stretch, the pack
+  Two errors to avoid. Do not hand the simplest version to a learner who could stretch - the pack
   climbs deliberately towards a B1 source at the end, and the stretch is part of what makes this
   component develop English. And do not announce who is getting which version.
 
@@ -160,7 +160,7 @@ educatorContent: |
   ### Groups can divide the work
 
   If time is short, a group takes one sub-question and its sources, then teaches the rest of the
-  cohort. Teaching it is a better test of understanding than reading it again, and it is also the most
+  cohort. Teaching it is a better test of understanding than reading it again - and it is also the most
   realistic thing in the block, because that is how research actually gets done.
 
   ## Before they leave this block
@@ -211,7 +211,7 @@ learnerTeaching:
     Every source comes three ways: the real article, an easier one, and a simplest one.
 
     Take the one you can hold today. There is no shame in any of them, and no prize for the hard one.
-    But if you can stretch, stretch. The English in these is meant to be a little above you, because
+    But if you can stretch, stretch - the English in these is meant to be a little above you, because
     that is how you get better at it.
 
     You can also just listen while someone reads it aloud. That is real reading too.
@@ -244,11 +244,11 @@ learnerTeaching:
       - "This source helps our question, even though it is not about our hills."
       - "Because it is not about Cox's Bazar, we should throw it away."
       - "This source tells us how many trees have been cut on our hills."
-      - "We should ask how they know, and they tell us: they measured it for two years."
+      - "We should ask how they know - and they tell us: they measured it for two years."
     answers:
-      - "True. It is about the same THING, what happens to land when trees go. We still have to check it against what we see here, but it helps."
+      - "True. It is about the same THING - what happens to land when trees go. We still have to check it against what we see here, but it helps."
       - "Not true. A source from somewhere else can still teach us how something works. Use it, and check it against our own evidence."
-      - "Not true, and this is the question 4 answer. It tells us about heat, not about our hills or how many trees went. Knowing that gap is useful."
+      - "Not true - and this is the question 4 answer. It tells us about heat, not about our hills or how many trees went. Knowing that gap is useful."
       - "True. They measured it, for a long time, and they say so. That is what makes a source strong."
     then: >-
       Now take one source from our pack and answer all four questions about it. Put what you find in
@@ -262,12 +262,12 @@ agencyContribution:
   - control-of-future-pathways
   how: >-
     Learners build understanding of a real challenge in their community from evidence rather than
-    assumption, and practise judging that evidence. The foundation for acting well on issues that
+    assumption, and practise judging that evidence - the foundation for acting well on issues that
     affect their lives.
 principlesForegrounded: [authentic-challenges, feedback-and-data, builds-on-identities]
 principleAlignment:
 - principle: authentic-challenges
-  how: The sources are about a real, local challenge, the hills the learners live on, not a hypothetical case.
+  how: The sources are about a real, local challenge - the hills the learners live on - not a hypothetical case.
 - principle: feedback-and-data
   how: Learners weigh what each source says against the others and against their own knowledge, rather than accepting it whole.
 competencyCodes: [FSI1, FTS3, FPS2]
@@ -288,4 +288,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

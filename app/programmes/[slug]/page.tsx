@@ -125,7 +125,7 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
           </section>
         )}
 
-        {/* The agency thread. What the whole programme is for, and what each part contributes to it.
+        {/* The agency thread - what the whole programme is for, and what each part contributes to it.
             Agency for positive change is Amala's required outcome (foundations/agency.yaml); before
             this block it was visible only on /foundations and on individual material pages, with
             nothing joining them at programme level. Placed directly above the components, so a reader
@@ -143,7 +143,7 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
               <p className="mt-3 max-w-3xl text-dark-navy/90">{prog.agencyThread.inThisProgramme}</p>
             )}
             <p className="mt-4 text-sm text-cool-grey">
-              Measured against the three indicators of agency, {" "}
+              Measured against the three indicators of agency -{" "}
               <Link href="/foundations" className="font-medium text-navy hover:underline">
                 see the Learning Foundations
               </Link>
@@ -318,7 +318,7 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
           </section>
         )}
 
-        {/* Mentoring and Wellbeing, programme-specific mentoring guidance, contextualising the
+        {/* Mentoring and Wellbeing - programme-specific mentoring guidance, contextualising the
             generic mentor moves by role area (e.g. the Cox's Bazar Learning Bridge+). */}
         {prog.mentoring && (
           <section id="mentoring" className="mt-12 scroll-mt-6">

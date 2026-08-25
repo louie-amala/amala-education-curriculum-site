@@ -10,22 +10,23 @@ skill:
   label: Plan and take deliberate steps towards a goal
   description: >-
     Turn a goal into an ordered action plan, protect the time to act on it, find the help and resources
-    it needs, and take real steps between sessions. Moving from intention to progress.
+    it needs, and take real steps between sessions - moving from intention to progress.
 summary: >-
   The "pursue" in the cycle: learners turn their goal into a small, ordered action plan, protect
   realistic time for it, find the help and resources it needs, and begin taking real steps between
-  sessions. Where most of a goal's progress actually happens.
+  sessions - where most of a goal's progress actually happens.
 agencyNote: >-
   Taking deliberate steps is where wanting becomes doing. Choosing the order, the time, and the help a
   goal needs, and acting between sessions, is self-direction in practice rather than intention alone.
 anchorContribution:
   develops: >-
-    Learners develop the "pursue" in FSL2, taking deliberate steps, by planning backwards from their
+    Learners develop the "pursue" in FSL2 - taking deliberate steps - by planning backwards from their
     goal into ordered steps, protecting realistic time to act, anticipating what could get in the way,
     finding the help and resources that move the goal forward, and taking steps between sessions.
   demonstrates: >-
     Assess this from the action plan a learner produces and the steps they actually take: an ordered
-    plan with a timed first step and an if-then for the likely obstacle, and evidence, in their journal, of consistent steps taken between sessions. Look for a learner moving from intention to real,
+    plan with a timed first step and an if-then for the likely obstacle, and evidence - in their journal -
+    of consistent steps taken between sessions. Look for a learner moving from intention to real,
     tracked progress, not a tidy plan that never starts.
 competencyDevelopment:
   - code: FSL3
@@ -41,7 +42,7 @@ materialSlugs:
   - ail-managing-time-and-priorities
   - ail-finding-help-and-resources
 
-# Mini scheme of work. The practice step is the heart of the skill, the between-session pursuit where
+# Mini scheme of work. The practice step is the heart of the skill - the between-session pursuit where
 # most progress and most of the independent hours live. Protect it and keep the check-ins going.
 plan:
   summary: >-
@@ -53,7 +54,7 @@ plan:
       kind: bridge
       facilitatedHours: 0.25
       guidance: >-
-        Open from the committed goal and its milestones. The plan is not a new thing. It is the goal
+        Open from the committed goal and its milestones. The plan is not a new thing - it is the goal
         broken into the next concrete, doable steps, so keep the goal visible and plan backwards from it.
     - title: Make an action plan
       kind: activity
@@ -61,8 +62,8 @@ plan:
       facilitatedHours: 1
       guidance: >-
         Turn the goal into a few ordered steps with a timed first step, and name what each step needs so
-        a missing thing is spotted now, not later. Include an if-then for the likely obstacle, if the
-        usual blocker happens, then the smaller thing the learner will do instead, the best-evidenced
+        a missing thing is spotted now, not later. Include an if-then for the likely obstacle - if the
+        usual blocker happens, then the smaller thing the learner will do instead - the best-evidenced
         way to make a plan survive contact with a real week.
       independentTask: Take your first small step, and note whether it happened and what got in the way.
     - title: Protect time and priorities
@@ -71,7 +72,7 @@ plan:
       facilitatedHours: 1
       guidance: >-
         Have learners map a real week and protect one small, realistic slot for their goal, then plan
-        what to drop if the week gets hard, the same if-then, applied to time, so a hard week costs
+        what to drop if the week gets hard - the same if-then, applied to time - so a hard week costs
         progress rather than wellbeing. A kept slot beats an ambitious timetable that collapses.
       independentTask: Keep your protected slot once this week, and note what threatened it.
     - title: Find help and resources
@@ -89,8 +90,8 @@ plan:
       independentHours: 3
       guidance: >-
         The heart of the skill. Across the sessions that follow, learners take real steps towards their
-        goal and record each in their journal, and every session opens with a short check-in. What step
+        goal and record each in their journal, and every session opens with a short check-in - what step
         did you take, what happened, what is next. A step taken, however small, is celebrated; when a
         step does not work, help the learner shrink it or choose another. Adapting the plan is part of
-        the skill, not a failure. This step holds most of the independent hours, protect it.
+        the skill, not a failure. This step holds most of the independent hours - protect it.
       independentTask: Keep taking small steps towards your goal, and record each one in your journal.

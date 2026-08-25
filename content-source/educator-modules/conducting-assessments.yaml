@@ -1,4 +1,4 @@
-# Educator training module, "Conducting Assessments of Competence". Content extracted from the module
+# Educator training module - "Conducting Assessments of Competence". Content extracted from the module
 # pack (participant, trainer guides & workbook, session slides, the 15-case bank in three editions,
 # and the reference calibration probes). Trains the repertoire the assessor moves document
 # (/educators/assessment).
@@ -18,11 +18,11 @@ summary: >-
 
 forWho: >-
   Educators who assess learners' competencies. It is about how to assess competence, whatever course
-  you teach, not the administration that comes with any one programme.
+  you teach - not the administration that comes with any one programme.
 
 outcome: >-
   By the end you will be able to judge competence against the proficiency scale from the evidence,
-  justify each judgement, and prepare to defend and revise it in moderation. Evidenced by a set of
+  justify each judgement, and prepare to defend and revise it in moderation - evidenced by a set of
   judged cases with reasoning and a moderation-prep note.
 
 format: >-
@@ -33,7 +33,7 @@ hours:
   synchronous: 4
   independent: 4
   total: 8
-  note: About 7–8 hrs total, ~1 hr pre-work, two 2-hr live sessions, and two independent phases of ~1.5–2 hrs each.
+  note: About 7–8 hrs total - ~1 hr pre-work, two 2-hr live sessions, and two independent phases of ~1.5–2 hrs each.
 
 deliverable:
   title: Level judgements with reasoning, and a moderation-prep note
@@ -49,7 +49,7 @@ sessions:
     durationHours: 2
     blocks:
       - title: The scale, level by level
-        detail: What separates each level from the one below, in particular the credit line at Practitioner, and the case where no level is awarded.
+        detail: What separates each level from the one below - in particular the credit line at Practitioner, and the case where no level is awarded.
       - title: What counts as evidence
         detail: What counts as evidence, and how the same evidence is weighed against the goal a competency names.
       - title: Model and practise
@@ -62,7 +62,7 @@ sessions:
       - title: Calibration in pairs and groups
         detail: Compare judgements on the same cases, defend your reasoning against the evidence, and work towards a shared view. That is the experience of moderation.
       - title: Where a judgement slips
-        detail: The common places judgements slip, over-awarding for effort, mistaking an attempt for an achievement, crediting reflection that belongs to the project rather than the competency.
+        detail: The common places judgements slip - over-awarding for effort, mistaking an attempt for an achievement, crediting reflection that belongs to the project rather than the competency.
 
 independentWork:
   - label: Pre-work
@@ -93,11 +93,11 @@ independentWork:
       - title: Judge the assessment cases
         detail: Your trainer provides the assessment set of five cases. For each, award a level and write your reasoning, tied to what the evidence shows across sources. You will not have the moderated decisions for these.
       - title: Write your moderation-prep note
-        detail: In a short note, set out how you would prepare to take these judgements into moderation, which were hardest, where you were least sure, and what evidence you would point to. Submit both.
+        detail: In a short note, set out how you would prepare to take these judgements into moderation - which were hardest, where you were least sure, and what evidence you would point to. Submit both.
 
 signOff:
   intro: >-
-    Sign-off is made from what you submit, your level and reasoning for each assessment case, and your
+    Sign-off is made from what you submit - your level and reasoning for each assessment case, and your
     moderation-prep note. There is no observed teaching and no interview. A pass means you hold the
     module, which travels with you across Amala programmes.
   submits:
@@ -115,12 +115,12 @@ signOff:
     to revise and resubmit.
 
 resources:
-  - label: Session 1 slides, the scale and the evidence
+  - label: Session 1 slides - the scale and the evidence
     file: /downloads/ca-slides-session-1.pptx
     format: PPTX
     audience: shared
     note: Used live in Session 1.
-  - label: Session 2 slides, calibration and moderation
+  - label: Session 2 slides - calibration and moderation
     file: /downloads/ca-slides-session-2.pptx
     format: PPTX
     audience: shared
@@ -129,43 +129,43 @@ resources:
     file: /downloads/ca-trainer-guide.docx
     format: DOCX
     audience: trainer
-    note: Facilitation for the two sessions, agendas, the calibration-and-moderation protocol, case-draw mechanics, and how to sign off.
-  - label: Case bank, trainer edition
+    note: Facilitation for the two sessions - agendas, the calibration-and-moderation protocol, case-draw mechanics, and how to sign off.
+  - label: Case bank - trainer edition
     file: /downloads/ca-case-bank-trainer.docx
     format: DOCX
     audience: trainer
     note: The cases with decisions, reasoning, and facilitation notes on where judgements slip. The trainer's copy.
-  - label: Calibration probe. Set and pursue goals (FSL2)
+  - label: Calibration probe - Set and pursue goals (FSL2)
     file: /downloads/ca-calibration-probe-fsl2.docx
     format: DOCX
     audience: trainer
-    note: Reference only, the development record used to calibrate the cases, not a delivery material.
-  - label: Calibration probe. Investigate real-world issues (FSI1)
+    note: Reference only - the development record used to calibrate the cases, not a delivery material.
+  - label: Calibration probe - Investigate real-world issues (FSI1)
     file: /downloads/ca-calibration-probe-fsi1.docx
     format: DOCX
     audience: trainer
-    note: Reference only, the development record used to calibrate the cases, not a delivery material.
-  - label: Calibration probe. Fostering connection and belonging (FLC2)
+    note: Reference only - the development record used to calibrate the cases, not a delivery material.
+  - label: Calibration probe - Fostering connection and belonging (FLC2)
     file: /downloads/ca-calibration-probe-flc2.docx
     format: DOCX
     audience: trainer
-    note: Reference only, the development record used to calibrate the cases, not a delivery material.
+    note: Reference only - the development record used to calibrate the cases, not a delivery material.
   - label: Participant guide
     file: /downloads/ca-participant-guide.docx
     format: DOCX
     audience: participant
-    note: The participant's guide to the module, the arc, what to do at each stage, and how sign-off works.
+    note: The participant's guide to the module - the arc, what to do at each stage, and how sign-off works.
   - label: Workbook
     file: /downloads/ca-workbook.docx
     format: DOCX
     audience: participant
-    note: The teaching and reference text, the framework, the proficiency scale, how assessment works at Amala, and a worked case. The pre-work reading.
-  - label: Case bank, educator edition
+    note: The teaching and reference text - the framework, the proficiency scale, how assessment works at Amala, and a worked case. The pre-work reading.
+  - label: Case bank - educator edition
     file: /downloads/ca-case-bank-educator.docx
     format: DOCX
     audience: participant
     note: The learner cases participants judge, with space to record a judgement.
-  - label: Case bank, educator edition with decisions
+  - label: Case bank - educator edition with decisions
     file: /downloads/ca-case-bank-educator-with-decisions.docx
     format: DOCX
     audience: participant

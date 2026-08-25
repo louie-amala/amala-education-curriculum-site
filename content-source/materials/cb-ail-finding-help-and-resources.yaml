@@ -31,7 +31,7 @@ deliveryAdaptations:
     Workable but weaker, because a learner alone misses the peer pooling that surfaces unfamiliar help.
     The workbook prompts and the reachability sort carry it, but ask them to check their map with at
     least one other person, who will usually name a helper they had not thought of.
-duration: "About 1.5 hours in the unit plan (generous for this oral/visual, translated cohort, the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task"
+duration: "About 1.5 hours in the unit plan (generous for this oral/visual, translated cohort - the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task"
 grouping: "Individual mapping, then same-gender pairs or small groups; works with 10-35 learners"
 whatLearnersDo:
 - Hold one goal you are working towards in mind as the thing help must move forward.
@@ -62,7 +62,7 @@ visuals:
 - kind: example
   title: "My helpers, sorted"
   caption: >-
-    Sorted, then one real ask chosen and rehearsed. ‘please can you help me with…’.
+    Sorted, then one real ask chosen and rehearsed - ‘please can you help me with…’.
   spec:
     type: zones
     cardStyle: drawing
@@ -164,7 +164,7 @@ educatorContent: |
   ## What you need to know before you teach this
 
   Learners stall on goals because they treat them as things to be reached alone. The shift this block
-  makes is from *what do I know* to *who and what could help me*, and then the harder part, actually
+  makes is from *what do I know* to *who and what could help me* - and then the harder part, actually
   asking.
 
   ### Reframe asking as a strategy, not a confession
@@ -173,21 +173,21 @@ educatorContent: |
   the researcher, the good student and the successful adult all ask constantly. Not asking is the
   weakness.
 
-  It is worth naming why this bites here. A young person who has had to be self-sufficient, running a
-  household, translating, earning, has learned that asking is risky or shameful. That is a rational
+  It is worth naming why this bites here. A young person who has had to be self-sufficient - running a
+  household, translating, earning - has learned that asking is risky or shameful. That is a rational
   adaptation, and it works against them in learning.
 
   ### Widen "resources" beyond people
 
   Learners will list people and stop. Push wider: a place (somewhere quiet, somewhere with light), a
-  thing (a book, a pencil, a radio, someone's phone), a time, and other learners in the group. Who are
+  thing (a book, a pencil, a radio, someone's phone), a time, and other learners in the group - who are
   the most under-used resource in the room.
 
   ### Sort by what is within reach
 
   A map with the head of an agency on it is not useful. Sort the map: who could I actually speak to,
   this week, without anyone's permission? That column is the one that matters, and it is usually
-  shorter and closer to home than learners expect. A sibling, a neighbour, the learner sitting beside
+  shorter and closer to home than learners expect - a sibling, a neighbour, the learner sitting beside
   them, their mentor.
 
   ### Practise the ask out loud, because that is what actually stops them
@@ -202,7 +202,7 @@ educatorContent: |
   ### The empty map
 
   Some learners' maps will be nearly empty, and that is a real thing rather than a failure of
-  imagination. Someone who would have helped is not here. Have entries ready to offer: you, their
+  imagination - someone who would have helped is not here. Have entries ready to offer: you, their
   mentor, another learner. Do it privately.
 
   ## Before they leave this block
@@ -220,7 +220,7 @@ learnerTeaching:
 
     So the question is not "can I do this by myself?" The question is **who and what could help me?**
 
-    ### Asking is not weakness: it is the skill
+    ### Asking is not weakness - it is the skill
 
     Some of us have learned to manage on our own, because we had to. That is something to be proud of.
     But in learning it works against you.
@@ -231,11 +231,11 @@ learnerTeaching:
 
     Learners always list people and stop. Think wider:
 
-    - **A person**, someone who can already do the thing.
-    - **A place**, somewhere quiet, somewhere with light.
-    - **A thing**, a book, a pencil, a radio, a paper with words on it.
-    - **A time**, a moment when someone is free to show you.
-    - **The people in this room**, the most forgotten help of all. Someone here can already do the
+    - **A person** - someone who can already do the thing.
+    - **A place** - somewhere quiet, somewhere with light.
+    - **A thing** - a book, a pencil, a radio, a paper with words on it.
+    - **A time** - a moment when someone is free to show you.
+    - **The people in this room** - the most forgotten help of all. Someone here can already do the
       thing you are trying to do.
 
     ### Then sort it: who can I actually reach?
@@ -244,18 +244,18 @@ learnerTeaching:
 
     Ask: **who could I actually speak to this week, without needing anyone's permission?**
 
-    That list is usually shorter and closer to home than you expect. A brother or sister, a neighbour,
+    That list is usually shorter and closer to home than you expect - a brother or sister, a neighbour,
     the person sitting next to you, your mentor. Those are the ones that matter.
 
-    ### Now the hard part: the ask itself
+    ### Now the hard part - the ask itself
 
     Most people find who to ask and then never ask. So practise the words.
 
     A good ask has three parts:
 
-    1. **What you want**, one small thing.
-    2. **Why them**, because they can already do it.
-    3. **How small it is**, so it is easy to say yes.
+    1. **What you want** - one small thing.
+    2. **Why them** - because they can already do it.
+    3. **How small it is** - so it is easy to say yes.
 
     "Can you show me how to write these three letters? It would only take a few minutes."
 
@@ -266,7 +266,7 @@ learnerTeaching:
     Ask for one thing. Then ask again another day.
   words:
     - term: resource
-      meaning: anything that could help you, a person, a place, a thing, or time
+      meaning: anything that could help you - a person, a place, a thing, or time
     - term: within reach
       meaning: something or someone you could actually get to this week
     - term: the ask
@@ -339,4 +339,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

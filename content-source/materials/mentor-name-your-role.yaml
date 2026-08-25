@@ -4,8 +4,8 @@ access: public
 type: educator-move
 title: "Name your role in the first conversation"
 summary: >-
-  In your first meeting, explain plainly what you are there to help with, and what you can and
-  cannot keep private, so a mentee knows how to use you.
+  In your first meeting, explain plainly what you are there to help with - and what you can and
+  cannot keep private - so a mentee knows how to use you.
 tags:
   - id: wellbeing
 facilitationContext:
@@ -13,8 +13,8 @@ facilitationContext:
 primaryContext: one-to-one-mentoring
 educatorContent: |
   The relationship only works if the mentee understands it. In your first meeting, say in plain
-  language what you are there for, their progress and their wellbeing, and that you are on their
-  side, and how you will work together: how often you will meet, that they can ask for a
+  language what you are there for - their progress and their wellbeing, and that you are on their
+  side - and how you will work together: how often you will meet, that they can ask for a
   conversation whenever they are stuck, and that preparing for meetings gets more out of them.
 
   Be clear and honest about confidentiality. Most of what they share stays between you, but there
@@ -25,22 +25,22 @@ educatorContent: |
 steps:
   - title: "Explain your role plainly"
     guidance: >-
-      In the first meeting, say what you are there for, their progress and their wellbeing, and that
-      you are on their side, in plain language.
+      In the first meeting, say what you are there for - their progress and their wellbeing, and that
+      you are on their side - in plain language.
   - title: "Agree how you'll work together"
     guidance: >-
       Set out how often you'll meet, that they can ask for a conversation whenever they're stuck, and
       that preparing gets more from your time.
   - title: "Be clear and honest about confidentiality"
     guidance: >-
-      Say what stays between you, and, honestly, what you may have to pass on to keep them or others
+      Say what stays between you, and - honestly - what you may have to pass on to keep them or others
       safe, and that you'll tell them when that happens.
   - title: "Capture their hopes, and revisit it"
     guidance: >-
       Note what the mentee wants from the relationship in their own words, and come back to the
-      agreement over time. A one-line reminder isn't the same as understanding.
+      agreement over time - a one-line reminder isn't the same as understanding.
 downloads:
-  - label: "First conversation, a mentoring agreement"
+  - label: "First conversation - a mentoring agreement"
     file: /downloads/mentor-first-conversation.docx
     format: Word
     role: template
@@ -67,7 +67,7 @@ relatedSlugs:
   - mentor-wellbeing-check-ins
   - mentor-coach-through-challenges
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Student Mentor Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook - Student Mentor Playbook"
 provenanceNote: >-
   Generalised from the Student Mentor Playbook's "Supporting the well-being of assigned students"
   (the guidance that a mentor explains their wellbeing role in the first meeting and fosters an open,
@@ -76,4 +76,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

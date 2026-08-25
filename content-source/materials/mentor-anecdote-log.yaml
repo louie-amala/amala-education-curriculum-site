@@ -13,20 +13,20 @@ facilitationContext:
 primaryContext: one-to-one-mentoring
 educatorContent: |
   At some point you will be asked to write a reference, a recommendation letter, or a testimonial for
-  a mentee, and the quality of it depends almost entirely on what you can remember. Memory is a poor
+  a mentee - and the quality of it depends almost entirely on what you can remember. Memory is a poor
   archive. The move is to keep a running log of anecdotes: the small, telling moments that show who a
-  mentee is. The time they led a group through a disagreement, stayed with a hard problem, supported
+  mentee is - the time they led a group through a disagreement, stayed with a hard problem, supported
   a struggling peer, spoke up when it was easier not to.
 
-  Jot them as they happen, with enough detail to be usable later. A specific, evidenced reference,
-  "when the group stalled, she was the one who…", carries far more weight than a page of adjectives,
+  Jot them as they happen, with enough detail to be usable later. A specific, evidenced reference -
+  "when the group stalled, she was the one who…" - carries far more weight than a page of adjectives,
   and you simply cannot reconstruct those moments months later. The log doubles as evidence for
   recognising growth, and as material for the pathways conversations where you help a mentee see
   strengths they take for granted.
 steps:
   - title: "Set up the log"
     guidance: >-
-      Keep a simple running table to hand, paper or digital, so capturing a moment takes seconds.
+      Keep a simple running table to hand - paper or digital - so capturing a moment takes seconds.
   - title: "Capture in the moment"
     guidance: >-
       Jot the specific, factual detail while it is fresh: what the mentee actually did, with enough
@@ -45,7 +45,7 @@ downloads:
     format: Word
     role: template
     note: >-
-      A running log sheet, date, what happened, what it shows, how you'll use it, with a worked
+      A running log sheet - date, what happened, what it shows, how you'll use it - with a worked
       example row and blank rows to print or copy.
 agencyContribution:
   indicators:
@@ -67,11 +67,11 @@ relatedSlugs:
   - mentor-pathways-conversations
   - mentor-open-doors
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Student Mentor Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook - Student Mentor Playbook"
 provenanceNote: >-
   Generalised from the Playbook's example approach: "the mentor is proactive in keeping a record of
   anecdotes of the student, in order to make writing recommendation letters and references easier."
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

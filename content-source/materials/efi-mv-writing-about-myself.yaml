@@ -1,4 +1,4 @@
-# English for Impact. My Voice (Unit 1) teaching activity. Writing focus.
+# English for Impact - My Voice (Unit 1) teaching activity. Writing focus.
 # Source: LLL Course Guide Unit 1 Writing focus (p. 26).
 id: efi-mv-writing-about-myself
 slug: efi-mv-writing-about-myself
@@ -6,8 +6,8 @@ access: public
 type: activity
 title: "Writing about myself"
 summary: >-
-  Learners write their first short personal statements in English, moving from single words to
-  phrases to simple sentences, using sentence frames and models to write a few true sentences about
+  Learners write their first short personal statements in English - moving from single words to
+  phrases to simple sentences - using sentence frames and models to write a few true sentences about
   who they are.
 facilitationContext: [group, independent]
 primaryContext: group
@@ -35,10 +35,10 @@ materialsAndPreparation:
 facilitationNotes: |
   Writing at A1 is building sentences from parts, not composing from blank. Give learners the frames
   and a clear model, and let them slot in their own true information. Teach the small mechanics as they
-  arise, a capital letter for names and the start of a sentence, a full stop at the end, but keep the
+  arise - a capital letter for names and the start of a sentence, a full stop at the end - but keep the
   emphasis on meaning: a true sentence a reader understands is the goal. Use the word→phrase→sentence
   build so learners see how a sentence grows. Welcome translanguaging in planning: a learner can think
-  or note in their Home Language, then write the English. Celebrate the finished few sentences, for
+  or note in their Home Language, then write the English. Celebrate the finished few sentences - for
   many this is the first thing they have written about themselves in English.
 steps:
 - title: "From word to phrase to sentence"
@@ -46,7 +46,7 @@ steps:
   guidance: |
     Show how a sentence grows: student → a student → I am a student. Do two or three together
     (Kenya → from Kenya → I am from Kenya; football → like football → I like football). Learners see
-    that they already have the pieces, the frame just puts them in order.
+    that they already have the pieces - the frame just puts them in order.
   keyPrompts:
   - What is the word? Now make it a phrase. Now a full sentence.
   - What goes at the start of the sentence? At the end?
@@ -57,7 +57,7 @@ steps:
 - title: "Write your own sentences"
   duration: "18–22 min"
   guidance: |
-    With the frames and word bank in view, learners write a few true sentences about themselves. Name,
+    With the frames and word bank in view, learners write a few true sentences about themselves - name,
     age, country, what they like. Circulate and help with spelling (point them to the Phonics Table)
     and with capitals and full stops, but do not rewrite their meaning. Encourage them to try one
     sentence without a frame if they are ready.
@@ -67,7 +67,7 @@ steps:
   watchOuts:
   - Copying a frame without making it true; check each learner's sentences are about them.
   adaptation: |
-    A learner who finds writing hard dictates their sentence to a partner or to you, then copies it. 
+    A learner who finds writing hard dictates their sentence to a partner or to you, then copies it -
     the composing counts even if the scribing is shared.
 - title: "Read it to a partner"
   duration: "10–12 min"
@@ -76,17 +76,17 @@ steps:
     the writer hears their own English. Partners can ask one friendly question ("What do you like?").
     Learners fix anything that did not sound right and keep their writing for the identity project.
   keyPrompts:
-  - Read your sentences to your partner, do they make sense?
+  - Read your sentences to your partner - do they make sense?
   - What is one thing you could add?
   watchOuts:
-  - Correcting a partner harshly; model kind, specific feedback ("I like this, maybe add a full stop here").
+  - Correcting a partner harshly; model kind, specific feedback ("I like this - maybe add a full stop here").
 closing: |
   A few learners read one sentence to the group. Confirm the writing is kept for the "My Name, My
   Voice" project. Mark the milestone: they have written true sentences about themselves in English.
 agencyContribution:
   indicators: [control-of-future-pathways, power-over-wellbeing-and-self-direction]
   how: >-
-    Writing about yourself, even a few sentences, is a durable act of self-representation: it can be
+    Writing about yourself - even a few sentences - is a durable act of self-representation: it can be
     kept, shown, and built on. Gaining the ability to put your own information into written English is
     a step toward the forms, applications, and study that further pathways require.
 principlesForegrounded: [builds-on-identities, lifeworthy-competencies, recognise-communicate-growth]
@@ -123,4 +123,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

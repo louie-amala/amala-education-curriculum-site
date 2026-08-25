@@ -48,7 +48,7 @@ visuals:
 - kind: setup
   title: "The path of getting better at goals"
   caption: >-
-    Not a test, a path everyone moves along. Learners find where they are now and name their next step.
+    Not a test - a path everyone moves along. Learners find where they are now and name their next step.
   spec:
     type: zones
     zones:
@@ -114,8 +114,8 @@ closing: |
 educatorContent: |
   ## What you need to know before you teach this
 
-  This is a map, not a test, and everything depends on learners believing that. It is run twice, here
-  at the start and again in the final phase, and the whole value is in the distance between the two
+  This is a map, not a test, and everything depends on learners believing that. It is run twice - here
+  at the start and again in the final phase - and the whole value is in the distance between the two
   marks.
 
   ### Why show learners the ladder at all
@@ -129,7 +129,7 @@ educatorContent: |
 
   The five steps are the learner-facing reading of Amala's proficiency scale for FSL2, in the first
   person and with the level names removed. Do not show learners the level names, the GPA values, or
-  where the readiness bar sits. They are for your record, not theirs. A learner who knows which rung
+  where the readiness bar sits. They are for your record, not theirs - a learner who knows which rung
   counts will mark that one.
 
   ### Nobody starts high, and say so first
@@ -137,14 +137,14 @@ educatorContent: |
   Mark it yourself, out loud, honestly, before you ask anyone else to. A learner low on the path is at
   the beginning, which is exactly where a course like this expects them to be.
 
-  Watch for the learner who marks themselves at the top on day one. That is usually not arrogance. It
+  Watch for the learner who marks themselves at the top on day one. That is usually not arrogance - it
   is either not understanding the ladder, or not trusting you enough to be honest. Either way, do not
   correct them. Note it, and let the final marking do the work.
 
   ### The mark is not evidence, the movement is
 
   A self-mark is not your judgement and should not feed it directly. What is useful is the GAP between
-  their mark and yours at Week 6, that gap is the conversation to have, and it usually shows you
+  their mark and yours at Week 6 - that gap is the conversation to have, and it usually shows you
   evidence you have not gathered.
 
   ## Before they leave this block
@@ -160,14 +160,14 @@ learnerTeaching:
     This whole course is about one skill: **setting a goal for yourself and going after it.**
 
     Like any skill, you can be a beginner at it and get better. So before we start, it helps to see
-    what getting better actually looks like. Otherwise you would not notice it happening.
+    what getting better actually looks like - otherwise you would not notice it happening.
 
     ### The path
 
     Here is the path people take. Read it from the bottom.
 
     1. **I am not sure how to set a goal for myself, or what to do about it.**
-    2. **I can say what goal I would set, and what steps I would take, but I have not done it yet.**
+    2. **I can say what goal I would set, and what steps I would take - but I have not done it yet.**
     3. **I set a goal of my own, and I took real steps towards it. I can say why I chose it.**
     4. **I reached a goal I set. I can say what helped, what did not, and what I would do differently.**
     5. **I have reached more than one goal, and I did the second one better because of the first.**
@@ -176,7 +176,7 @@ learnerTeaching:
 
     Mark the one that is most like you **today**. Not where you want to be. Today.
 
-    Almost everybody is near the bottom at the start. That is not a bad thing. It is what the
+    Almost everybody is near the bottom at the start. That is not a bad thing - it is what the
     beginning of a course looks like. If you were already at the top, there would be nothing here for
     you.
 
@@ -187,7 +187,7 @@ learnerTeaching:
     At the end of the course you will come back to this page and mark it again, with a different mark
     so you can see both.
 
-    That is the point of doing it now. Two marks show you the distance you moved, and that distance is
+    That is the point of doing it now. Two marks show you the distance you moved - and that distance is
     yours, and nobody can take it off you.
   words:
     - term: skill
@@ -254,4 +254,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

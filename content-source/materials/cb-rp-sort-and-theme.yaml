@@ -1,5 +1,5 @@
 # Contextualised, fully offline ANALYSIS activity for the Research Project component of Learning Bridge+
-# (Cox's Bazar). Learners physically group their evidence, cards, drawings, marks, into themes on the
+# (Cox's Bazar). Learners physically group their evidence - cards, drawings, marks - into themes on the
 # floor or wall and name each cluster; out of this come patterns, trends, and contributing factors. The
 # sorting IS the analysis. Evaluate evidence phase (objective 3). Oral and visual first; hands-on.
 id: cb-rp-sort-and-theme
@@ -9,9 +9,9 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "Sort and theme what we found"
 summary: >-
-  Learners organise all their evidence, primary and secondary, so that patterns can be seen: they
+  Learners organise all their evidence - primary and secondary - so that patterns can be seen: they
   physically group cards, drawings, and marks into themes on the floor or wall and name each cluster.
-  Out of this come the patterns, trends, and contributing factors. What many people said, where sources
+  Out of this come the patterns, trends, and contributing factors - what many people said, where sources
   agree or disagree, what keeps coming up.
 facilitationContext:
 - group
@@ -22,18 +22,18 @@ grouping: "Whole group around a shared floor or wall space; pairs to prepare car
 whatLearnersDo:
 - Turn each piece of evidence into a card, drawing, or mark that can be moved and grouped.
 - Physically group the cards into clusters on the floor or wall, moving them until the groups feel right.
-- Give each cluster a name, a theme, in words or a drawing.
+- Give each cluster a name - a theme - in words or a drawing.
 - "Notice the patterns: what keeps coming up, where sources agree or disagree, what seems to cause what."
 materialsAndPreparation:
 - The evidence log and the weighed evidence from the earlier activities.
-- Cards, paper scraps, or sticky notes, and pens. One idea per card.
+- Cards, paper scraps, or sticky notes, and pens - one idea per card.
 - A large clear floor or wall where the whole group can see and reach the cards.
 - The "our themes" sheet from the research book (one per learner), to record the clusters at the end.
 visuals:
 - kind: setup
   title: "One pile, spread on the floor"
   caption: >-
-    One idea per card, from the people we asked, from what we saw, from the sources. Spread them all
+    One idea per card - from the people we asked, from what we saw, from the sources. Spread them all
     where everyone can see and reach, then move them until the groups feel right. The moving is the thinking.
   spec:
     type: zones
@@ -50,7 +50,7 @@ visuals:
 - kind: example
   title: "Our themes, named"
   caption: >-
-    Once the clusters feel right, each gets a name, a theme, in a word or a drawing. The patterns are
+    Once the clusters feel right, each gets a name - a theme - in a word or a drawing. The patterns are
     what keeps coming up across the whole floor.
   spec:
     type: zones
@@ -70,37 +70,37 @@ visuals:
       - "new saplings planted"
       - "roots hold the soil"
 facilitationNotes: >-
-  The one thing to get right is that the sorting is the analysis, moving the cards around IS how the
+  The one thing to get right is that the sorting is the analysis - moving the cards around IS how the
   thinking happens, so resist doing it for them or rushing to tidy groups. Put one idea on each card so
   it can move freely, then let learners cluster and re-cluster on the floor where everyone can see and
   reach. Themes come from the group, not from you; a card that will not settle in one group is
-  interesting, not a problem. Draw out the patterns gently, "what keeps coming up?", "do these two
-  agree?", and let a theme's name be a drawing if that is clearer than a word.
+  interesting, not a problem. Draw out the patterns gently - "what keeps coming up?", "do these two
+  agree?" - and let a theme's name be a drawing if that is clearer than a word.
 steps:
 - title: "Turn our evidence into cards we can move"
   duration: "30 min"
   guidance: >-
-    In pairs, learners go through the evidence log and put each piece, from the people they asked, from
-    what they saw, and from the source pack, onto its own card, drawing, or mark. One idea per card, so
+    In pairs, learners go through the evidence log and put each piece - from the people they asked, from
+    what they saw, and from the source pack - onto its own card, drawing, or mark. One idea per card, so
     it can be moved and grouped. Keep a note on the card of where it came from.
   keyPrompts:
   - "What is the one thing this piece of evidence tells us?"
-  - "Where did it come from, a person, our own eyes, or a source?"
+  - "Where did it come from - a person, our own eyes, or a source?"
 - title: "Group the cards on the floor"
   duration: "50 min"
   guidance: >-
     Spread all the cards on the floor or wall where everyone can see. As a group, move cards that say a
-    similar thing close together, and cards that say different things apart. Move them again and again, 
+    similar thing close together, and cards that say different things apart. Move them again and again -
     the groups will change as you go. This moving-around is the analysis; take your time with it.
   keyPrompts:
   - "Which of these belong together? Why?"
-  - "Where do our sources and the people we asked agree, and where do they disagree?"
+  - "Where do our sources and the people we asked agree - and where do they disagree?"
 - title: "Name each theme"
   duration: "25 min"
   guidance: >-
-    Once the clusters feel right, give each one a name, a theme, in a word or a drawing. Ask what makes
+    Once the clusters feel right, give each one a name - a theme - in a word or a drawing. Ask what makes
     the cards in each group belong together. Notice the patterns and trends across the whole floor, and
-    the things that seem to cause each other. What a researcher calls contributing factors.
+    the things that seem to cause each other - what a researcher calls contributing factors.
   keyPrompts:
   - "What should we call this group?"
   - "What keeps coming up across the whole floor?"
@@ -112,27 +112,27 @@ steps:
 learnerContent: |
   ## Sort and theme what we found
 
-  We have a pile of evidence now, what people told us, what we saw on the hills, and what the sources
+  We have a pile of evidence now - what people told us, what we saw on the hills, and what the sources
   said. On its own, a pile does not tell us much. To see what it means, we sort it.
 
-  Put each piece of evidence on its own card, drawing, or mark. One idea each. Then spread them all out
+  Put each piece of evidence on its own card, drawing, or mark - one idea each. Then spread them all out
   on the floor or the wall, where everyone can see and reach. Move cards that say a similar thing close
   together. Move cards that say different things apart. Keep moving them until the groups feel right.
 
-  When the groups feel right, give each one a name. A theme. This is our analysis. Out of it come the
+  When the groups feel right, give each one a name - a theme. This is our analysis. Out of it come the
   patterns (what keeps coming up), where our sources agree or disagree, and the things that seem to cause
   each other. We carry these themes into the next step, where we ask what they mean.
 
 educatorContent: |
   ## What you need to know before you teach this
 
-  Sorting looks like tidying up. It is not, **the sorting IS the analysis.** This is the block where a
+  Sorting looks like tidying up. It is not - **the sorting IS the analysis.** This is the block where a
   pile of separate answers becomes a small number of things the cohort can say. If you treat it as
   admin, learners will produce neat piles that mean nothing.
 
   ### What a theme actually is
 
-  A theme is **something that came up more than once, from more than one person.** Not a topic. A
+  A theme is **something that came up more than once, from more than one person.** Not a topic - a
   claim. "Trees" is a topic and it is useless. "The hill got hotter after the trees went" is a theme:
   you can put evidence under it, and you can disagree with it.
 
@@ -142,13 +142,13 @@ educatorContent: |
   ### Why physical cards, and why the floor
 
   One idea per card, moved around by hand, on the floor or a wall. This is not a compromise for a
-  cohort that cannot write essays. It is better than writing for everyone, and universities do it too.
+  cohort that cannot write essays - it is better than writing for everyone, and universities do it too.
 
   - It makes every piece of evidence equal in size, so a quiet learner's card carries the same weight
     as a loud learner's.
   - It lets a group change its mind cheaply. Moving a card costs nothing; crossing out a paragraph
     feels like failure.
-  - It shows the shape of the evidence at a glance, a big pile and three lonely cards tell you
+  - It shows the shape of the evidence at a glance - a big pile and three lonely cards tell you
     something immediately.
 
   ### The three things to watch for
@@ -159,13 +159,13 @@ educatorContent: |
   2. **One loud learner's theme.** Watch who is moving the cards. Ask the quiet ones to place the last
      card in each group.
   3. **Throwing away the odd ones out.** The card that fits nowhere is often the most interesting thing
-     you have, the person who disagreed, the thing that happened once. Keep a "does not fit yet" pile,
+     you have - the person who disagreed, the thing that happened once. Keep a "does not fit yet" pile,
      visibly, and come back to it. Do not let it be tidied away.
 
   ### Disagreement is a finding
 
   When two sources say opposite things, learners will want to pick a winner. Resist it. "People
-  disagree about whether the planting is working" is a genuine, reportable finding, and often a more
+  disagree about whether the planting is working" is a genuine, reportable finding - and often a more
   honest one than a false consensus.
 
   ### How many themes
@@ -185,7 +185,7 @@ learnerTeaching:
     ## How to find the patterns
 
     We have a lot of separate answers. On their own they are just a pile. Our job now is to find what
-    KEEPS COMING UP, because something many people said is much stronger than something one person said.
+    KEEPS COMING UP - because something many people said is much stronger than something one person said.
 
     ### First, one idea per card
 
@@ -197,7 +197,7 @@ learnerTeaching:
     ### Then, move them into groups
 
     Put together the cards that are saying a similar thing. Move them with your hands. If you change
-    your mind, move them again. That costs nothing, and changing your mind is what this is for.
+    your mind, move them again - that costs nothing, and changing your mind is what this is for.
 
     Everyone moves cards. Not just the person talking most.
 
@@ -207,8 +207,8 @@ learnerTeaching:
 
     A name must be something you could **disagree with**.
 
-    - "Trees": not a theme. It is a topic. Nobody can disagree with the word "trees".
-    - "The hill got hotter after the trees went": a theme. Someone could say "no it did not", and
+    - "Trees" - not a theme. It is a topic. Nobody can disagree with the word "trees".
+    - "The hill got hotter after the trees went" - a theme. Someone could say "no it did not", and
       then we could check.
 
     Test every name you make: **could someone argue with this?** If not, keep working on it.
@@ -223,7 +223,7 @@ learnerTeaching:
     Some cards will not go in any group. **Do not throw them away.** Put them in their own place where
     you can see them.
 
-    The odd card is often the most interesting thing we have, the one person who said something
+    The odd card is often the most interesting thing we have - the one person who said something
     different, the thing that happened only once. Come back to it.
 
     ### When two things disagree
@@ -251,7 +251,7 @@ learnerTeaching:
       - "People disagree about whether the new planting is working"
     answers:
       - "Only a topic. Nobody can disagree with the word \"water\". Ask: what about the water? What did people actually say?"
-      - "A good theme. Someone could say \"no it does not\", and then we could go and check. That is what makes it a theme."
+      - "A good theme. Someone could say \"no it does not\" - and then we could go and check. That is what makes it a theme."
       - "Only a topic. Try again: what did people say ABOUT firewood? \"Families cut trees because there was no other fuel\" would be a theme."
       - "A good theme. Disagreement is a real finding, and reporting it honestly is stronger than pretending everyone agreed."
     then: >-
@@ -259,14 +259,14 @@ learnerTeaching:
       that are only topics.
 worksheet:
   slug: cb-rp-our-themes
-  note: "In the research book (student workbook): the 'Our themes, what keeps coming up' page. Print one per learner."
+  note: "In the research book (student workbook): the 'Our themes - what keeps coming up' page. Print one per learner."
 agencyContribution:
   indicators:
   - contribution-to-community
   - control-of-future-pathways
   how: >-
     Turning a pile of evidence into named patterns is how a researcher makes sense of a real community
-    challenge, a way of thinking learners can use again on any question that matters to them, so their
+    challenge - a way of thinking learners can use again on any question that matters to them, so their
     understanding rests on what the evidence shows, not on a first impression.
 principlesForegrounded: [feedback-and-data, authentic-challenges, responsible-action]
 principleAlignment:
@@ -283,15 +283,15 @@ competencyDevelopment:
 - code: ATS1
   how: Sorting and grouping the evidence is analysing and interpreting the data the group collected.
 - code: APS3
-  how: Naming the clusters is pattern identification, seeing what keeps coming up and where sources agree or disagree.
+  how: Naming the clusters is pattern identification - seeing what keeps coming up and where sources agree or disagree.
 objectiveIds: [research-project--o3]
 relatedSlugs: [cb-rp-our-themes, cb-rp-weighing-our-sources, cb-rp-findings-to-insights]
 provenanceNote: >-
   Authored for the Learning Bridge+ (Cox's Bazar) Research Project edition. The sorting-and-theming
   activity for the "Evaluate evidence and develop insights" phase (objective 3). Fully offline, oral and
-  visual first. Physically grouping cards on the floor or wall is the analysis. Its printable "our
+  visual first - physically grouping cards on the floor or wall is the analysis. Its printable "our
   themes" sheet compiles into the Research Project student workbook.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

@@ -2,7 +2,7 @@
  *
  * Why this exists: each component's part of the Educator Guide went straight from the summary into
  * "Before you start" and then the phases. A facilitator was told what to do, session by session, and
- * never told what the component was WORKING TOWARDS. No purpose, no objectives, no statement of the
+ * never told what the component was WORKING TOWARDS - no purpose, no objectives, no statement of the
  * competency the whole thing is built to develop. The objectives existed all along in the course YAML
  * (statement, anchorContribution, competencyEvidence) and were rendered only on the website.
  *
@@ -35,14 +35,14 @@ function courseGuideChildren(course, unit, competencies, opts = {}) {
   const th = course.throughline || {};
 
   c.push(H('What this component is for'));
-  c.push(P('Read this before the plan. It is what the sessions are working towards, the plan is how, this is why.', { size: 21, italics: true, color: GREY, after: 140 }));
+  c.push(P('Read this before the plan. It is what the sessions are working towards - the plan is how, this is why.', { size: 21, italics: true, color: GREY, after: 140 }));
 
   if (course.purpose) c.push(...body(course.purpose));
 
   // The anchor competency: the one thing the whole component is built to develop.
   const anchor = competencyLine(competencies, th.anchorCompetency);
   if (anchor) {
-    c.push(callout(`The competency this component builds: ${th.anchorCompetency}, ${anchor.title}`, [
+    c.push(callout(`The competency this component builds: ${th.anchorCompetency} - ${anchor.title}`, [
       anchor.goal,
       ...(th.fromAgency ? [`Why it matters: ${toText(th.fromAgency)}`] : []),
     ], PLUM));
@@ -75,7 +75,7 @@ function courseGuideChildren(course, unit, competencies, opts = {}) {
   if (unit) {
     const hours = unit.cadence
       ? unit.cadence
-      : `${unit.totalFacilitatedHours + unit.totalIndependentHours} hours, ${unit.totalFacilitatedHours}h in-person + ${unit.totalIndependentHours}h independent, over a minimum of 10 weeks`;
+      : `${unit.totalFacilitatedHours + unit.totalIndependentHours} hours - ${unit.totalFacilitatedHours}h in-person + ${unit.totalIndependentHours}h independent, over a minimum of 10 weeks`;
     c.push(mini('What it takes'));
     c.push(P(hours, { size: 22 }));
   }
@@ -85,7 +85,7 @@ function courseGuideChildren(course, unit, competencies, opts = {}) {
 
 /**
  * The same section for a COURSE-LESS component. Mentoring and Wellbeing has no course guide to render,
- * so its unit carries `purpose` and `aims` instead. Otherwise it would be the one component whose plan
+ * so its unit carries `purpose` and `aims` instead - otherwise it would be the one component whose plan
  * says what to do and never what it is working towards.
  */
 function componentGuideChildren(unit, opts = {}) {
@@ -96,7 +96,7 @@ function componentGuideChildren(unit, opts = {}) {
   if (!unit || (!unit.purpose && !(unit.aims || []).length)) return c;
 
   c.push(H('What this component is for'));
-  c.push(P('Read this before the plan. It is what the conversations are working towards, the plan is how, this is why.', { size: 21, italics: true, color: GREY, after: 140 }));
+  c.push(P('Read this before the plan. It is what the conversations are working towards - the plan is how, this is why.', { size: 21, italics: true, color: GREY, after: 140 }));
   if (unit.purpose) c.push(...body(unit.purpose));
 
   if ((unit.aims || []).length) {
@@ -111,7 +111,7 @@ function componentGuideChildren(unit, opts = {}) {
 
   if (unit.cadence) {
     c.push(mini('What it takes'));
-    c.push(P(`${unit.cadence}. It adds no hours of its own, it runs inside the in-person time the taught components already use.`, { size: 22 }));
+    c.push(P(`${unit.cadence}. It adds no hours of its own - it runs inside the in-person time the taught components already use.`, { size: 22 }));
   }
   return c;
 }

@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
   return res;
 }
 
-/** Only ever redirect to a path on this site. Never to whatever the form field happened to say. */
+/** Only ever redirect to a path on this site - never to whatever the form field happened to say. */
 function safeNext(value: string): string {
   return value.startsWith("/") && !value.startsWith("//") ? value : "/";
 }

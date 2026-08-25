@@ -1,4 +1,4 @@
-# English for Impact. My Voice (Unit 1) teaching activity. Grammar focus.
+# English for Impact - My Voice (Unit 1) teaching activity. Grammar focus.
 # Source: LLL Course Guide Unit 1 Grammar focus (p. 25). Practice layer: efi-unit1-grammar-exercises.
 id: efi-mv-to-be-and-pronouns
 slug: efi-mv-to-be-and-pronouns
@@ -7,7 +7,7 @@ type: activity
 title: "The verb \"to be\" and subject pronouns"
 summary: >-
   Learners build their first complete English sentences using the verb "to be" (am, is, are) and the
-  subject pronouns I, you, he, she, we, they. The pattern Subject + be + complement that lets them
+  subject pronouns I, you, he, she, we, they - the pattern Subject + be + complement that lets them
   say who and what they are.
 facilitationContext: [group, independent]
 primaryContext: group
@@ -25,7 +25,7 @@ deliveryAdaptations:
 duration: "45–60 min facilitated, plus the grammar exercises"
 grouping: "Whole group for the pattern, then pairs; works with 10–35 learners"
 whatLearnersDo:
-- Learn the forms of "to be". I am, you/we/they are, he/she/it is.
+- Learn the forms of "to be" - I am, you/we/they are, he/she/it is.
 - Match subject pronouns (I, you, he, she, we, they) to people and to the right form of "to be".
 - Build simple sentences with the pattern Subject + be + complement (I am a student. She is my friend.).
 - Meet the high-frequency verbs live, like, go, have to begin present-simple sentences (I live…, I like…).
@@ -35,14 +35,14 @@ materialsAndPreparation:
 - Your own true example sentences about yourself and people the learners know, to model the pattern.
 facilitationNotes: |
   This is the grammar that unlocks whole sentences, so keep the focus on building and using, not on
-  rules. Teach "to be" through real statements about real people, you, the learners, someone in the
-  room, so the pattern carries meaning from the start. The three forms (am / is / are) and matching
+  rules. Teach "to be" through real statements about real people - you, the learners, someone in the
+  room - so the pattern carries meaning from the start. The three forms (am / is / are) and matching
   them to pronouns is the main new work; conjugation takes repetition, so expect and forgive errors.
   Introduce the high-frequency verbs (live, like, go, have) lightly here as another way to make a
-  sentence about yourself. The deeper present-simple work comes in Unit 2. The grammar exercises are
+  sentence about yourself - the deeper present-simple work comes in Unit 2. The grammar exercises are
   the practice; use them after the pattern is clear, not as the teaching itself.
 steps:
-- title: "am, is, are. The verb \"to be\""
+- title: "am, is, are - the verb \"to be\""
   duration: "12–15 min"
   guidance: |
     Introduce the three forms with true statements: "I am a teacher. You are a student. She is my
@@ -52,7 +52,7 @@ steps:
   - Which form of "to be" goes with "I"? With "she"? With "they"?
   - Say a true sentence about someone here using "is" or "are".
   watchOuts:
-  - Dropping the verb ("I student"); gently insist on the "am/is/are", the verb is what makes it a full English sentence.
+  - Dropping the verb ("I student"); gently insist on the "am/is/are" - the verb is what makes it a full English sentence.
   adaptation: |
     Write the three forms and their pronouns large on shared paper as a reference learners can point to
     while they build sentences. No devices needed.
@@ -86,12 +86,12 @@ steps:
     then copy one later.
 closing: |
   Go round the room: each learner says one true sentence about themselves with "to be". Note how far
-  they have come, from single sounds and words to complete English sentences about who they are.
+  they have come - from single sounds and words to complete English sentences about who they are.
 agencyContribution:
   indicators: [control-of-future-pathways, power-over-wellbeing-and-self-direction]
   how: >-
     The verb "to be" is the hinge of the first complete sentences a learner can make. Being able to
-    state who and what you are, in full, correct sentences, is the point at which a beginner can
+    state who and what you are - in full, correct sentences - is the point at which a beginner can
     represent themselves in English rather than be limited to single words.
 principlesForegrounded: [builds-on-identities, lifeworthy-competencies, safe-spaces]
 principleAlignment:
@@ -126,4 +126,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

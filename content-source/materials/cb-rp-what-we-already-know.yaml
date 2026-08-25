@@ -1,6 +1,6 @@
 # Contextualised, fully offline FRAMING activity for the Research Project component of Learning Bridge+
-# (Cox's Bazar). Learners explore why the trees/hills matter to them and pool what they already know,
-# the hills before, the clearing, the mud when it rains, the heat, as real evidence, and build a shared
+# (Cox's Bazar). Learners explore why the trees/hills matter to them and pool what they already know -
+# the hills before, the clearing, the mud when it rains, the heat - as real evidence, and build a shared
 # "what we already know / what we still need to find out" wall. Frame the challenge phase (objective 1).
 # Oral and visual first; treats lived knowledge as evidence; warm, hopeful, safeguarding to hand.
 id: cb-rp-what-we-already-know
@@ -10,8 +10,8 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "What we already know"
 summary: >-
-  Learners explore why the trees on our hills matter to them, and pool what they already know, the hills
-  before, the clearing, the mud when it rains, the heat, treating their own knowledge as real evidence.
+  Learners explore why the trees on our hills matter to them, and pool what they already know - the hills
+  before, the clearing, the mud when it rains, the heat - treating their own knowledge as real evidence.
   Together they build a shared wall of what we already know and what we still need to find out.
 facilitationContext:
 - group
@@ -20,7 +20,7 @@ duration: "2 hours facilitated + 1 hour independent"
 grouping: "Whole group for the wall; pairs for talking and drawing"
 whatLearnersDo:
 - Say, in words or drawings, why the trees and hills matter to them and their families.
-- Pool what they already know about the hills, before, the clearing, the mud in the rain, the heat, as real evidence to start from.
+- Pool what they already know about the hills - before, the clearing, the mud in the rain, the heat - as real evidence to start from.
 - "Add their marks and drawings to a shared wall with two sides: what we already know, and what we still need to find out."
 - Notice, gently, which things we truly know and which we only assume, and put the assumed things on the "find out" side.
 materialsAndPreparation:
@@ -32,7 +32,7 @@ visuals:
   title: "The wall, before you start"
   caption: >-
     One big space, split down the middle with a simple symbol over each side. It starts almost empty;
-    learners fill it with marks and drawings. Nothing is written, a drawn card counts.
+    learners fill it with marks and drawings. Nothing is written - a drawn card counts.
   spec:
     type: zones
     flow: across
@@ -74,14 +74,14 @@ visuals:
 facilitationNotes: >-
   The one thing to get right: treat what learners already know as real evidence, not as chatter to get
   past. Their memory of the hills before, and of the mud and the heat, is data this investigation starts
-  from. Draw it out warmly, then help the group sort it: some things we truly know, some we only assume. 
+  from. Draw it out warmly, then help the group sort it: some things we truly know, some we only assume -
   the assumed ones are not wrong, they simply go on the "find out" side. Keep the tone hopeful, and let no
   learner be singled out for what they do or do not know.
 steps:
 - title: "Why our trees and hills matter"
   duration: "30 min"
   guidance: >-
-    In pairs, learners say or draw one reason the trees and hills matter to them and their families. 
+    In pairs, learners say or draw one reason the trees and hills matter to them and their families -
     shade, safety from the mud, somewhere green, wood, memory. Gather a few aloud. This roots the whole
     investigation in why it is worth doing, in the learners' own words.
   keyPrompts:
@@ -101,7 +101,7 @@ steps:
 - title: "Pool what we already know"
   duration: "50 min"
   guidance: >-
-    Draw out what the group already knows about the hills, how they looked before, how the trees were
+    Draw out what the group already knows about the hills - how they looked before, how the trees were
     cleared, the mud when the heavy rain comes, the heat on the bare slopes. Each thing goes up on the
     "what we already know" side as a mark or drawing. Treat every offering as evidence worth having;
     do not correct or teach yet.
@@ -112,7 +112,7 @@ steps:
   duration: "40 min"
   guidance: >-
     Look together at the "what we already know" side. Gently ask of a few things: do we truly know this,
-    or do we only think it? The things we only assume move across to "what we still need to find out", 
+    or do we only think it? The things we only assume move across to "what we still need to find out" -
     without singling anyone out. This wall stays up and the cohort adds to it all through the course.
   keyPrompts:
   - "How do we know this is true?"
@@ -122,7 +122,7 @@ learnerContent: |
 
   Before we go and find things out, we start with what we already carry. We have lived on these hills.
   We remember how they looked before, how the trees came down, the mud when the heavy rain comes, and the
-  heat on the bare ground. That memory is real evidence. It is where our research begins.
+  heat on the bare ground. That memory is real evidence - it is where our research begins.
 
   We put what we know on one side of our wall: "what we already know". Then we ask an honest question of
   each thing: do we truly know it, or do we only think it? The things we only think, we move to the other
@@ -133,13 +133,13 @@ learnerContent: |
 educatorContent: |
   ## What you need to know before you teach this
 
-  Two things happen here, and the second is the one that matters. Learners pool what they already know,
+  Two things happen here, and the second is the one that matters. Learners pool what they already know -
   and then they learn to separate what they KNOW from what they only THINK.
 
   ### Their own knowledge is data, not warm-up
 
   Say this and mean it. These learners have watched these hills. Their memory of trees, of the mud when
-  it rains, of the heat, is primary evidence about a real place over real time. The kind a visiting
+  it rains, of the heat, is primary evidence about a real place over real time - the kind a visiting
   researcher would have to work hard to get.
 
   Treat it as the investigation's starting evidence, not as chatter to get through before the real work.
@@ -149,12 +149,12 @@ educatorContent: |
 
   This is the intellectual content of the block. Take what has been pooled and sort it into two:
 
-  - **We know it**, someone saw it, or many people say the same thing.
-  - **We think it**. We have heard it, or it seems obvious, or everyone says so.
+  - **We know it** - someone saw it, or many people say the same thing.
+  - **We think it** - we have heard it, or it seems obvious, or everyone says so.
 
   "Everyone knows" is the phrase to listen for. It almost always marks a "we think it".
 
-  The point is not to embarrass anyone. Nothing moves to "we think it" because it is wrong, it moves
+  The point is not to embarrass anyone. Nothing moves to "we think it" because it is wrong - it moves
   because we have not checked it yet. Say that out loud. The "we think it" column is where the research
   questions come from; it is the useful column, not the shameful one.
 
@@ -169,7 +169,7 @@ educatorContent: |
 
   Sort the ideas, not the people. Once a claim is on the wall it belongs to the group, and whoever
   offered it should be able to see it moved without it being about them. Do not say "that was
-  Rashid's". If a learner argues for something being "known", do not overrule. Ask what would show us,
+  Rashid's". If a learner argues for something being "known", do not overrule - ask what would show us,
   and put that on the find-out side.
 
   ## Before they leave this block
@@ -193,12 +193,12 @@ learnerTeaching:
 
     Everything we say about our hills goes into one of two piles.
 
-    **WE KNOW IT**, somebody saw it, or many people say the same thing.
+    **WE KNOW IT** - somebody saw it, or many people say the same thing.
 
     - "There were trees on that slope. My grandmother saw them."
     - "The path floods every monsoon. We all walk through it."
 
-    **WE ONLY THINK IT**, we heard it, or it seems obvious, or everyone says so.
+    **WE ONLY THINK IT** - we heard it, or it seems obvious, or everyone says so.
 
     - "The hills will all come down next year."
     - "Nobody cares about the trees."
@@ -215,7 +215,7 @@ learnerTeaching:
 
     This is important, so read it twice.
 
-    Something goes in the THINK pile because **we have not checked it yet**, not because it is false.
+    Something goes in the THINK pile because **we have not checked it yet** - not because it is false.
     Plenty of things in that pile will turn out to be true.
 
     In fact the THINK pile is the better one. It is where our questions come from. If everything we
@@ -223,7 +223,7 @@ learnerTeaching:
 
     ### The best moment in the whole course
 
-    Sometimes, weeks from now, we will find real evidence for something in the THINK pile, and we will
+    Sometimes, weeks from now, we will find real evidence for something in the THINK pile - and we will
     move it across to KNOW.
 
     That is exactly what research is. Watch for it.
@@ -251,10 +251,10 @@ learnerTeaching:
     answers:
       - "We know it. Many of us have seen it, again and again. That is about as strong as evidence gets."
       - "We only think it. \"Everyone knows\" is the warning sign. Has anyone checked? That is a good thing to find out."
-      - "We know it, she saw it herself. One person's memory is not proof of everything, but a person who was there is real evidence."
+      - "We know it - she saw it herself. One person's memory is not proof of everything, but a person who was there is real evidence."
       - "We only think it. Nobody can see the future. Worth asking about; not something we know."
     then: >-
-      Now add two of your own to our wall, one for each pile. Be honest about which pile yours goes in.
+      Now add two of your own to our wall - one for each pile. Be honest about which pile yours goes in.
 worksheet:
   slug: cb-rp-what-we-know-page
   note: "In the research book (student workbook): the 'What we know / what we want to find out' page. Print one per learner."
@@ -264,14 +264,14 @@ agencyContribution:
   - power-over-wellbeing-and-self-direction
   how: >-
     Learners treat their own knowledge and lived experience of the hills as real evidence, and learn to
-    tell what they know from what they assume. The start of understanding a shared challenge well enough
+    tell what they know from what they assume - the start of understanding a shared challenge well enough
     to act on it, rather than repeating what they have been told.
 principlesForegrounded: [builds-on-identities, authentic-challenges, safe-spaces]
 principleAlignment:
 - principle: builds-on-identities
   how: The activity starts from what learners already know and feel about the hills they live on, valued as real evidence.
 - principle: authentic-challenges
-  how: The wall is built around a real, shared, local challenge, the trees on our hills, not a hypothetical case.
+  how: The wall is built around a real, shared, local challenge - the trees on our hills - not a hypothetical case.
 - principle: safe-spaces
   how: No learner has to speak from their own life; marks and drawings count, and the facilitator holds a warm tone with referral guidance to hand.
 competencyCodes: [FSI1, FPS3]
@@ -290,4 +290,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

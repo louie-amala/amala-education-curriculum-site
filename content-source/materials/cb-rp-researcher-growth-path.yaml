@@ -1,6 +1,6 @@
 # Student worksheet (resource) for the activity cb-rp-what-good-research-looks-like. Thin per §3: what
 # the sheet is and how the learner uses it. A simple visual self-check the learner marks now and again
-# at the end of the course (Phase 6, Showcase and reflect, reuses it). Ships no file of its own, its
+# at the end of the course (Phase 6, Showcase and reflect, reuses it). Ships no file of its own - its
 # printable version compiles into the Research Project student workbook. Learning Bridge+ (Cox's Bazar).
 id: cb-rp-researcher-growth-path
 slug: cb-rp-researcher-growth-path
@@ -10,7 +10,7 @@ type: resource
 title: "Where I am as a researcher"
 summary: >-
   A simple picture self-check the learner marks near the start of the course and again at the end: where
-  they feel they are on the path from guessing to finding out carefully and fairly, so they can see how
+  they feel they are on the path from guessing to finding out carefully and fairly - so they can see how
   they have grown.
 facilitationContext:
 - group
@@ -25,7 +25,7 @@ learnerContent: |
   You use this page twice:
 
   - Near the start of the course, you mark where you feel you are now. Near the start is a fine place to be.
-  - At the end of the course, you mark again, and you can see how far you have moved.
+  - At the end of the course, you mark again - and you can see how far you have moved.
 
   On the page there is room to:
 
@@ -52,4 +52,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

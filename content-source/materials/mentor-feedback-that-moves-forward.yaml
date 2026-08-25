@@ -4,7 +4,7 @@ access: public
 type: educator-move
 title: "Give feedback that moves the learner forward"
 summary: >-
-  Good mentor feedback isn't a verdict on the work, it's specific, honest and forward-looking, and
+  Good mentor feedback isn't a verdict on the work - it's specific, honest and forward-looking, and
   it leaves the mentee knowing what to do next.
 tags:
   - id: progress
@@ -14,11 +14,11 @@ primaryContext: one-to-one-mentoring
 educatorContent: |
   Feedback is where a lot of mentoring time goes, and where it is easily wasted. Feedback that moves
   a learner forward is specific rather than general ("your argument loses the reader here, because…"
-  not "be clearer"), honest rather than only kind, and forward-looking. It leaves the mentee knowing
+  not "be clearer"), honest rather than only kind, and forward-looking - it leaves the mentee knowing
   what to do next, not just how they did. Treat it as help, not a judgement: the mentee should come
   away with a concrete next action and the belief that they can act on it.
 
-  Balance is part of the craft, name what is working so it gets repeated, not only what is missing.
+  Balance is part of the craft - name what is working so it gets repeated, not only what is missing.
   Where you are assessing against criteria, be objective and show the mentee the standard, so your
   feedback develops their own eye for quality rather than keeping them dependent on yours. And close
   the loop: at the next meeting, check what they did with it, so feedback becomes a cycle rather than
@@ -32,8 +32,8 @@ agencyContribution:
 principleAlignment:
   - principle: feedback-and-data
     how: >-
-      Treating feedback as specific, forward-looking help, and closing the loop on what the learner
-      did with it, is this principle in practice.
+      Treating feedback as specific, forward-looking help - and closing the loop on what the learner
+      did with it - is this principle in practice.
   - principle: safe-spaces
     how: >-
       Framing feedback as help rather than a verdict is what makes it safe to receive honestly and
@@ -47,11 +47,11 @@ relatedSlugs:
   - mentor-coach-dont-rescue
   - mentor-track-progress-intervene-early
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Student Mentor Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook - Student Mentor Playbook"
 provenanceNote: >-
   Generalised from the Playbook's requirement to provide support and feedback that "moves the
   learner forward" and to be proactive in seeking out student work to give effective feedback on.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

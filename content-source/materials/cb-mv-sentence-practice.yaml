@@ -1,7 +1,7 @@
 # Contextualised, fully offline adaptation of efi-unit1-grammar-exercises and efi-mv-to-be-and-pronouns
 # for Learning Bridge+ (Cox's Bazar). The key shift from the sources: this is the controlled-to-freer
 # PRACTICE layer for the Unit 1 grammar (the verb "to be", subject pronouns, simple sentences), rebuilt
-# oral-first. The source's eight paper fill-in exercises become spoken and card-based tasks, choosing
+# oral-first. The source's eight paper fill-in exercises become spoken and card-based tasks - choosing
 # am/is/are by ear, matching a person to a pronoun with picture cards, building a sentence from word cards,
 # oral ask-and-answer, an oral mingle, and a spoken "I can say" close. Writing is optional throughout, with
 # a written version offered to those ready. Objective 2.
@@ -12,8 +12,8 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "Practising your sentences: am, is, are, and who is who"
 summary: >-
-  The practice that takes learners' first sentences from careful to easy, the verb "to be" (am, is, are),
-  the subject pronouns, and simple sentences about themselves, rebuilt spoken-first and offline. Learners
+  The practice that takes learners' first sentences from careful to easy - the verb "to be" (am, is, are),
+  the subject pronouns, and simple sentences about themselves - rebuilt spoken-first and offline. Learners
   choose am, is, or are by ear, match a person to a pronoun with picture cards, build a sentence from word
   cards, ask and answer in same-gender pairs, mingle to find someone who, and close by saying aloud what
   they can now say. Writing stays optional, offered to those ready, so no one is held back by the pencil.
@@ -25,7 +25,7 @@ primaryContext: group
 deliveryAdaptations:
 - context: group
   how: >-
-    As designed. This practice is made for the group, choosing am, is, or are aloud together, matching the
+    As designed. This practice is made for the group - choosing am, is, or are aloud together, matching the
     people in the room to pronouns, and the ask-and-answer and find-someone-who tasks all need other
     people to work. Hearing the same pattern used a dozen ways teaches it faster than any rule, and a room
     practising together gives a shy learner cover to find their voice. Use same-gender pairs and small
@@ -54,10 +54,10 @@ materialsAndPreparation:
 - Picture cards or drawn pictures of people and groups (a woman, a man, two friends, a family) for the pronoun matching, and the people in the room themselves.
 - The learner's picture-words from earlier My Voice sessions (their drawn words for name, place, and things they like), so the frames are filled with real words that are theirs.
 - The My Voice book and something to draw or trace with, for those who want to keep a written version.
-- "Sensitivity: the frame 'I am from ___' can touch displacement, loss, and separation. Offer the lighter road openly and often, a learner can name a smaller, safer place, or fill the frame with a colour, a food, or a thing they like instead. No one has to say where they are from, and choosing the easy word is never a failing."
+- "Sensitivity: the frame 'I am from ___' can touch displacement, loss, and separation. Offer the lighter road openly and often - a learner can name a smaller, safer place, or fill the frame with a colour, a food, or a thing they like instead. No one has to say where they are from, and choosing the easy word is never a failing."
 visuals:
 - kind: setup
-  title: "Find someone who, mingle"
+  title: "Find someone who - mingle"
   caption: >-
     In the final game the whole room mixes: learners move, ask and answer, and find someone for each
     prompt. You move among them.
@@ -69,7 +69,7 @@ visuals:
       count: 6
       label: "moving and mixing, asking and answering"
 - kind: example
-  title: "am, is, are. Who goes with which"
+  title: "am, is, are - who goes with which"
   caption: >-
     Match the person to the right word, then build a sentence from cards. Point at real people in the room
     to make it stick.
@@ -92,27 +92,27 @@ visuals:
       - "is"
       - "are"
 facilitationNotes: |
-  This is the practice layer that makes the Unit 1 grammar easy rather than merely met, the verb "to be",
+  This is the practice layer that makes the Unit 1 grammar easy rather than merely met - the verb "to be",
   the subject pronouns, and simple sentences. The sources it grows from are eight paper fill-in exercises
   for learners who can read and write. Here every one is rebuilt to be spoken and physical, because most
   learners are not yet reading in any language: choosing am, is, or are is done by ear about a real person
   in the room, not circled on a worksheet; matching a pronoun is done with picture-cards and pointing;
   building a sentence is done by laying word cards in order, not writing them; and the two spoken exercises
-  from the source, ask-and-answer and find-someone-who, carry straight over as the heart of the practice.
+  from the source - ask-and-answer and find-someone-who - carry straight over as the heart of the practice.
   Keep the verb attached to real, visible people, never to a rule, because the pattern sticks when it is
   about someone the learner can see. Expect "I from" and "I student" and do not pounce; say the whole
   sentence back warmly and let the correct shape soak in through repetition. Move from controlled to freer
-  across the steps, first choosing and matching, then building, then free use in pairs and the mingle,
+  across the steps - first choosing and matching, then building, then free use in pairs and the mingle -
   just as the source sequences it, but by mouth and by card. Writing is optional at every step: a learner
   ready to trace or copy a sentence into their My Voice book may, but no one waits on the pencil. Welcome
-  bridges to Rohingya, Chittagonian, Burmese, and Arabic. How is "I am" said in a language you already
+  bridges to Rohingya, Chittagonian, Burmese, and Arabic - how is "I am" said in a language you already
   have? A learner who can say and vary true sentences about who they are has crossed a real line.
 steps:
 - title: "Choose am, is, are, and match the pronoun"
   duration: "35-45 min"
   guidance: |
     Start with the controlled work, done aloud. Point to a real person and say a sentence with a gap for
-    the group to fill by ear, "Fatima ___ my friend" and the group says "is"; "I ___ a student" and they
+    the group to fill by ear - "Fatima ___ my friend" and the group says "is"; "I ___ a student" and they
     say "am"; "they ___ here" and they say "are". Keep it about people they can see, so the choice carries
     meaning. Then match people to pronouns with picture-cards: hold up a card of a woman and learners say
     "she", a man "he", two friends "we" or "they", and rebuild the sentence with the pronoun (Maria is my
@@ -133,7 +133,7 @@ steps:
   duration: "35-45 min"
   guidance: |
     Now build, without writing. Give out word cards for the small sentence set and have learners lay them
-    in order to make a true sentence. I / am / from / and then their own picture-word for a place; or I /
+    in order to make a true sentence - I / am / from / and then their own picture-word for a place; or I /
     am / a / and their word for what they are. Say a sentence and learners build it from the cards; then
     they build one that is true for them and say it aloud. This is the source's put-the-words-in-order
     exercise, done by hand with cards instead of on paper, so a learner who cannot write still feels a
@@ -153,9 +153,9 @@ steps:
   duration: "30-40 min"
   guidance: |
     Move to freer use. In same-gender pairs, learners ask and answer simple questions about themselves,
-    aiming for a whole-sentence answer. "What is your name?", "Where are you from?", "What do you like?".
+    aiming for a whole-sentence answer - "What is your name?", "Where are you from?", "What do you like?".
     Model a pair first with a confident learner or the mentor. Do not correct during the exchange; let the
-    pattern flow. This is the source's ask-and-answer speaking task, carried straight over. It needs no
+    pattern flow. This is the source's ask-and-answer speaking task, carried straight over - it needs no
     paper, only two people and the sentences they have been building.
   keyPrompts:
   - Ask your partner where they are from. Answer in a whole sentence.
@@ -170,11 +170,11 @@ steps:
 - title: "Find someone who, and mingle"
   duration: "25-35 min"
   guidance: |
-    Close the freer practice with a gentle mingle. Give the group a few simple things to find, someone who
-    likes rice, someone who is from the same place, someone with the same first sound in their name, and
+    Close the freer practice with a gentle mingle. Give the group a few simple things to find - someone who
+    likes rice, someone who is from the same place, someone with the same first sound in their name - and
     learners move around asking and answering to find them, using the sentences they now have. Keep it warm
     and unhurried, and keep the questions light and safe. This is the source's find-someone-who task,
-    rebuilt as a spoken mingle with nothing to write, so the grammar is used for a real purpose. Finding
+    rebuilt as a spoken mingle with nothing to write, so the grammar is used for a real purpose - finding
     something out about a real person.
   keyPrompts:
   - Find someone who likes the same food as you. Ask them.
@@ -188,10 +188,10 @@ steps:
     fresh partners in turn; the finding-out works the same without anyone crossing the space.
 closing: |
   Bring the group back and close with a spoken reflection. Go round and let a few learners say aloud what
-  they can now say, "I can say, I am Fatima; I am from my village; I like rice", and mark the milestone
+  they can now say - "I can say, I am Fatima; I am from my village; I like rice" - and mark the milestone
   plainly: the sentences that were careful work a few weeks ago now come easily, and you can ask and answer
   about who you are, in English, with other people. For any learner who wants it, offer the written version
-  now, trace or copy one sentence into the My Voice book, but no one waits on the pencil. Independent
+  now - trace or copy one sentence into the My Voice book - but no one waits on the pencil. Independent
   task: say your sentences to one person at home, ask them one question back in English, and, if you like,
   trace one sentence once in your book.
 agencyContribution:
@@ -201,7 +201,7 @@ agencyContribution:
   how: >-
     The verb "to be" is the hinge of the first whole sentences a learner can make, and practising them
     until they come easily is what turns a fragile first sentence into a reliable tool. Being able to state
-    who you are, ask about someone else, and be understood, without stalling, is the ground that speaking
+    who you are, ask about someone else, and be understood - without stalling - is the ground that speaking
     up, meeting people, and every later choice stands on, and it puts a beginner in charge of representing
     themselves in English on their own terms.
 principlesForegrounded:
@@ -217,13 +217,13 @@ principleAlignment:
 - principle: lifeworthy-competencies
   how: >-
     Building and varying a whole sentence from Subject plus "to be" plus a word of your own is the
-    structural foundation of all later speaking and writing, a pattern a learner reuses in every later
+    structural foundation of all later speaking and writing - a pattern a learner reuses in every later
     session and every conversation for the rest of their life; this practice is how it becomes automatic.
 - principle: safe-spaces
   how: >-
     Errors in the verb forms are met with the whole sentence said back warmly rather than correction, the
     "where I am from" frame can always be filled with a lighter everyday word, pairs and groups are
-    same-gender for anything said aloud, and every sentence is rehearsed quietly before the room hears it. 
+    same-gender for anything said aloud, and every sentence is rehearsed quietly before the room hears it -
     so learners take real risks with speech without fear of failing.
 competencyCodes:
 - FLC3
@@ -232,8 +232,8 @@ competencyDevelopment:
 - code: FLC3
   how: >-
     Practising clear, complete sentences with "to be" until they come easily is the means by which learners
-    move from being understood with effort to communicating basic personal information fluently, their
-    name, where they are from, what they like, and asking the same of others.
+    move from being understood with effort to communicating basic personal information fluently - their
+    name, where they are from, what they like - and asking the same of others.
 - code: FUS1
   how: >-
     The sentences learners practise are statements of their own identity, so drilling the frames doubles as
@@ -261,7 +261,7 @@ educatorContent: |
   | you · we · they · more than one | are |
 
   That is all of it. Do not add exceptions, do not mention the past, and do not use the words "verb",
-  "pronoun" or "conjugate". They add a second thing to learn and teach nothing about English.
+  "pronoun" or "conjugate" - they add a second thing to learn and teach nothing about English.
 
   ### Build it with the hands, not the eyes
 
@@ -274,11 +274,11 @@ educatorContent: |
 
   ### The error to expect, and what it means
 
-  "I is" and "he are" are the two you will hear. They are not carelessness. They are a learner
+  "I is" and "he are" are the two you will hear. They are not carelessness - they are a learner
   applying a pattern, which is a sign of progress.
 
   Fix by ear, not by rule: say the correct version once, warmly, and have them repeat it. "I am. Say
-  it. I am." Do not explain again. The ear settles this faster than the head.
+  it - I am." Do not explain again. The ear settles this faster than the head.
 
   ### Questions come from the same three words
 
@@ -317,8 +317,8 @@ learnerTeaching:
     ### The whole rule. It is short.
 
     - **I** → **am**
-    - **he, she, it** → **is** (also one person, one thing)
-    - **you, we, they** → **are** (also more than one)
+    - **he, she, it** → **is**   (also one person, one thing)
+    - **you, we, they** → **are**   (also more than one)
 
     That is the entire rule. There is no more of it.
 
@@ -331,7 +331,7 @@ learnerTeaching:
     Again. And again.
 
     Your ear will learn this faster than your head will. When "I is" starts to sound wrong to you, you
-    have got it, and that feeling of wrongness is worth more than remembering any rule.
+    have got it - and that feeling of wrongness is worth more than remembering any rule.
 
     ### Build sentences with the cards
 
@@ -347,12 +347,12 @@ learnerTeaching:
 
     This is the useful part. Move the first two cards around and you have a question:
 
-    - You **are** from camp four. → **Are** you from camp four?
-    - She **is** your sister. → **Is** she your sister?
+    - You **are** from camp four.  →  **Are** you from camp four?
+    - She **is** your sister.  →  **Is** she your sister?
 
     That is it. Same words, different order.
 
-    Now you can ASK as well as answer, and that is what a conversation is.
+    Now you can ASK as well as answer - and that is what a conversation is.
 
     ### If you make a mistake
 
@@ -378,8 +378,8 @@ learnerTeaching:
       - "We is learning English."
     answers:
       - "Needs fixing. \"I\" always goes with \"am\": I AM from Myanmar. Say it aloud three times."
-      - "Right. \"They\" goes with \"are\", and so does anything that is more than one."
-      - "Right, and it is a question. The \"is\" moved to the front. That is how you make any question with these words."
+      - "Right. \"They\" goes with \"are\" - and so does anything that is more than one."
+      - "Right - and it is a question. The \"is\" moved to the front. That is how you make any question with these words."
       - "Needs fixing. \"We\" goes with \"are\": we ARE learning English."
     then: >-
       Now build three true sentences about yourself from the cards. Then turn one of them into a
@@ -395,7 +395,7 @@ provenanceNote: >-
   Contextualised, fully offline, emergent-literacy adaptation of efi-unit1-grammar-exercises and
   efi-mv-to-be-and-pronouns for the Learning Bridge+ (Cox's Bazar) edition. The sources assume learners can
   read the frames and complete eight written controlled-practice exercises; this version rebuilds that
-  controlled-to-freer practice spoken-first and by card, choosing am, is, or are by ear, matching people
+  controlled-to-freer practice spoken-first and by card - choosing am, is, or are by ear, matching people
   to pronouns with picture-cards, building sentences from word cards, and carrying over the source's
   ask-and-answer and find-someone-who speaking tasks as a paired exchange and a spoken mingle, closing with
   a spoken "I can say" reflection. Writing is optional throughout, offered to those ready. Objective 2 of
@@ -403,4 +403,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

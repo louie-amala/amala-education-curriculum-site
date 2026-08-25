@@ -1,12 +1,12 @@
 # Student worksheet (resource) for the reading activity cb-rp-work-the-source-pack. Thin per §3: what
-# the sheet is and how the learner uses it. Ships no file of its own, its printable version compiles
+# the sheet is and how the learner uses it. Ships no file of its own - its printable version compiles
 # into the Research Project student workbook. Learning Bridge+ (Cox's Bazar) edition.
 id: cb-rp-source-pack-evidence-log
 slug: cb-rp-source-pack-evidence-log
 access: partner
 edition: learning-bridge-coxs-bazar
 type: resource
-title: "What our sources tell us, evidence log"
+title: "What our sources tell us - evidence log"
 summary: >-
   The learner's evidence log for the source pack: for each source they read, a space to record what it
   tells us about our question and which source it came from, so findings and their origin stay together.
@@ -17,7 +17,7 @@ primaryContext: independent
 learnerContent: |
   ## What our sources tell us
 
-  Use one row for each source you read. For each one, note, in words or drawings, what it tells us
+  Use one row for each source you read. For each one, note - in words or drawings - what it tells us
   about our question, and always write which source it came from, so we know where each finding came
   from.
 
@@ -35,7 +35,7 @@ agencyContribution:
   - control-of-future-pathways
   how: >-
     Keeping an honest record of what the evidence says, and where it came from, is how a researcher
-    builds a claim they can stand behind. A habit learners carry into any future investigation.
+    builds a claim they can stand behind - a habit learners carry into any future investigation.
 objectiveIds: [research-project--o2]
 relatedSlugs: [cb-rp-work-the-source-pack, cb-rp-secondary-source-pack]
 provenanceNote: >-
@@ -45,4 +45,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

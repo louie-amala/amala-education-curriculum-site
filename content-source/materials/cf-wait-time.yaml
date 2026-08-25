@@ -4,7 +4,7 @@ access: public
 type: educator-move
 title: "Build in wait time"
 summary: >-
-  After you ask, and after a learner answers, wait. A few seconds of silence lifts the quality of
+  After you ask - and after a learner answers - wait. A few seconds of silence lifts the quality of
   thinking and pulls in more voices. Resist filling it.
 tags:
   - id: learning-facilitation
@@ -19,7 +19,7 @@ facilitationContext:
 primaryContext: group
 educatorContent: |
   Wait time is the small, hard discipline of not filling the silence. Research on pausing 3–5 seconds
-  after asking a question, and again after a learner responds, links it to better-quality answers,
+  after asking a question - and again after a learner responds - links it to better-quality answers,
   more learners contributing, and a calmer climate. When a learner does not answer instantly, the urge
   to jump in is strong; resist it. The silence is where the thinking happens. It feels uncomfortable at
   first because we are used to a quick back-and-forth, but as learners get used to it the pauses do
@@ -29,7 +29,7 @@ agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction
   how: >-
-    Given time rather than rescued, learners do their own thinking, and more of them find they have
+    Given time rather than rescued, learners do their own thinking - and more of them find they have
     something to say.
 principleAlignment:
   - principle: safe-spaces
@@ -44,11 +44,11 @@ relatedSlugs:
   - cf-no-hands-up
   - cf-think-pair-share
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook - Course Facilitator Playbook"
 provenanceNote: >-
   Generalised from the Playbook's "Build in wait time" guidance (Wiliam & Leahy, 2015; Mary Budd Rowe's
   wait time) in Making Learning and Thinking Visible.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

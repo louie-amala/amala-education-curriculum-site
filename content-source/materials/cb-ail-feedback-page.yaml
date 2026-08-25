@@ -1,5 +1,5 @@
 # Student worksheet (resource) for the activity cb-ail-seeking-and-using-feedback. Thin per §3: what the page is and how the
-# learner uses it. Ships no file of its own, its printable version compiles into the Agency in
+# learner uses it. Ships no file of its own - its printable version compiles into the Agency in
 # Learning student workbook ("My Learning Book"). Learning Bridge+ (Cox's Bazar) edition.
 id: cb-ail-feedback-page
 slug: cb-ail-feedback-page
@@ -8,7 +8,7 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "Feedback I got"
 summary: >-
-  What one person said when asked what could be better, and what the learner decides to do with it. Keep it, hold it, or let it go.
+  What one person said when asked what could be better, and what the learner decides to do with it - keep it, hold it, or let it go.
 facilitationContext:
 - group
 - independent
@@ -16,8 +16,8 @@ primaryContext: independent
 learnerContent: |
   ## Feedback I got
 
-  This page is yours. You can draw, write, or say your answer, someone will write it for you if you
-  ask, and nobody marks it right or wrong.
+  This page is yours. You can draw, write, or say your answer - someone will write it for you if you
+  ask - and nobody marks it right or wrong.
 
   - Say who you asked.
   - Write or draw what they said.
@@ -38,4 +38,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

@@ -1,6 +1,6 @@
 # Contextualised, fully offline adaptation of efi-mv-writing-about-myself for Learning Bridge+
 # (Cox's Bazar). The key shift from the source: the source expects learners to write several true
-# sentences from frames; here writing is emergent, learners copy and complete a few personal words, and
+# sentences from frames; here writing is emergent - learners copy and complete a few personal words, and
 # only those who are ready attempt ONE simple scaffolded sentence. A clear oral/drawing alternative means
 # no one is excluded, and the words feed the identity artifact. Oral and visual first. Objective 2.
 id: cb-mv-writing-about-myself
@@ -10,7 +10,7 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "Writing a few of my own words"
 summary: >-
-  Learners put a few of their own words onto paper, copying and completing the words that matter to them,
+  Learners put a few of their own words onto paper - copying and completing the words that matter to them,
   and, for those ready, completing one simple sentence like "I am from ___". Anyone not yet writing works
   by drawing and saying instead, so no one is left out, and the words become the raw material for their
   identity artifact.
@@ -24,7 +24,7 @@ deliveryAdaptations:
   how: >-
     As designed. Learners copy and complete their own words at their own pace, with the facilitator
     circulating, kneeling beside people, and helping quietly. The group means learners at very different
-    stages, one tracing a single word, another completing a sentence, all work side by side without
+    stages - one tracing a single word, another completing a sentence - all work side by side without
     anyone being singled out. Reading a finished word aloud to a same-gender partner adds pride and a
     gentle check.
 - context: one-to-one-mentoring
@@ -42,14 +42,14 @@ duration: "2 hours facilitated across two sessions, plus independent copying"
 grouping: "Individual writing at mixed paces, with paired reading aloud; works with 10-35 learners"
 whatLearnersDo:
 - Copy and complete a few of their own personal words (their name, a place, a thing they like).
-- For those ready, complete one simple scaffolded sentence. A frame like "I am from ___".
+- For those ready, complete one simple scaffolded sentence - a frame like "I am from ___".
 - Draw and say their words instead, if they are not yet writing, so they take part fully.
 - Read or say a finished word or sentence aloud to a same-gender partner.
 materialsAndPreparation:
 - The learner's own picture-words from earlier in the unit (from cb-mv-words-about-me and their name page), so they copy words that are already theirs and meaningful.
-- One or two frames ready to complete, shown large and simple with a picture, for example "I am from ___", for learners who are ready to try a whole sentence.
+- One or two frames ready to complete, shown large and simple with a picture - for example "I am from ___" - for learners who are ready to try a whole sentence.
 - Paper or the My Voice book, and something to write with; for tracing, a finger in sand or dust works where pencils are scarce.
-- "Sensitivity: writing a place or a family word can touch loss and separation. Let learners choose lighter, everyday words, a colour, a food, a thing they like, and never require anyone to write down anything painful."
+- "Sensitivity: writing a place or a family word can touch loss and separation. Let learners choose lighter, everyday words - a colour, a food, a thing they like - and never require anyone to write down anything painful."
 visuals:
 - kind: example
   title: "Copy your words, then one sentence"
@@ -74,13 +74,13 @@ visuals:
       - "I am from my village"
 facilitationNotes: |
   Writing here is emergent, not the sentence-from-frames writing the source assumes. Most learners are
-  copying and completing a few words, not composing, and some are holding a pencil for the first time. 
+  copying and completing a few words, not composing, and some are holding a pencil for the first time -
   so the honest target is a few true words on paper that the learner owns, with one simple sentence as a
   stretch only for those who are ready. Never make writing the gate to taking part: a learner who draws
   their word and says it aloud has done the thinking that matters, and the scribing can come later or be
   shared. Recognition and copying come before free writing; let learners trace and copy their own
-  meaningful words many times before anything is expected from a blank space. Teach the tiny mechanics,
-  a capital for a name, a mark at the end, only as they arise, and never at the cost of a learner's
+  meaningful words many times before anything is expected from a blank space. Teach the tiny mechanics -
+  a capital for a name, a mark at the end - only as they arise, and never at the cost of a learner's
   willingness to try. Welcome planning in Rohingya, Chittagonian, Burmese, or Arabic, then help the
   learner put the English word on paper. Every word written is kept: these become the words for the
   "My Name, My Voice" artifact, so the work has a real destination.
@@ -89,14 +89,14 @@ steps:
   duration: "35-40 min"
   guidance: |
     Give each learner their own picture-words from earlier in the unit and let them copy the ones that
-    matter most, their name, a place, a thing they like, as many times as they wish. Recognition and
+    matter most - their name, a place, a thing they like - as many times as they wish. Recognition and
     copying come first: they are putting a word they already own onto paper, not inventing spelling.
     Circulate, kneel beside people, show a pencil grip quietly to anyone who needs it, and praise the
     effort rather than the neatness. For many this is the first time they have written a word about
     themselves.
   keyPrompts:
   - Which of your words do you want to write first? Copy it slowly.
-  - Point to the word, say it, then copy it again, which part is getting easier?
+  - Point to the word, say it, then copy it again - which part is getting easier?
   watchOuts:
   - Pushing for neat, correct letters too soon; at this stage the win is having a go at a word that is theirs, not handwriting, and neatness comes with time.
   - A learner who has never held a pencil feeling ashamed; show the grip quietly, let them trace with a finger first, and never make it a public moment.
@@ -106,7 +106,7 @@ steps:
 - title: "Complete one sentence, if you are ready"
   duration: "30-40 min"
   guidance: |
-    Offer a stretch for those ready: complete one simple sentence by filling a frame, "I am from ___",
+    Offer a stretch for those ready: complete one simple sentence by filling a frame - "I am from ___" -
     with one of their own words. Keep it to a single sentence, and keep it optional: this is a step up
     for learners steady on their words, not a hurdle for everyone. Help with the one new word and with a
     capital at the start and a mark at the end, but do not rewrite their meaning. A completed first
@@ -123,7 +123,7 @@ steps:
 - title: "Say it, and keep it"
   duration: "25-30 min"
   guidance: |
-    Learners show and say their words or sentence to a same-gender partner, reading it if they can, or
+    Learners show and say their words or sentence to a same-gender partner - reading it if they can, or
     saying it while pointing to the marks. The partner listens and offers one kind word. A learner who
     drew instead of writing shows their drawing and says the word aloud; they take part fully. Everyone
     keeps their words in the My Voice book, because these are the words their identity artifact will be
@@ -132,7 +132,7 @@ steps:
   - Show your partner your word or sentence and say it aloud.
   - Which of these words do you want to use for your name card later?
   watchOuts:
-  - A partner correcting harshly; model kind, specific praise, "I like your word for this", so sharing stays safe.
+  - A partner correcting harshly; model kind, specific praise - "I like your word for this" - so sharing stays safe.
   - A learner who only drew feeling less-than; make plain that drawing and saying the word is a full and real way to take part, and their words count the same.
   adaptation: |
     No partner or no quiet space? A learner shows and says their word to the facilitator instead; being
@@ -140,7 +140,7 @@ steps:
 closing: |
   Gather a few learners to hold up and say one word or sentence they wrote or drew today. Mark the
   milestone honestly: some of you copied your first words in English, and some completed your first whole
-  sentence. Both are real writing, and both are yours. Confirm the words are kept in the My Voice book
+  sentence - both are real writing, and both are yours. Confirm the words are kept in the My Voice book
   for the "My Name, My Voice" artifact to come. Independent task: at home, copy one of your words once
   more, and, if you are ready, complete one sentence; or draw one more word you want to use for your name
   card, and be ready to say it next session.
@@ -159,8 +159,8 @@ principlesForegrounded:
 principleAlignment:
 - principle: builds-on-identities
   how: >-
-    Learners copy and complete words that are already theirs, their name, their place, their likes,
-    planned in their Home Language(s) where it helps, so the writing is anchored in the learner's own
+    Learners copy and complete words that are already theirs - their name, their place, their likes,
+    planned in their Home Language(s) where it helps - so the writing is anchored in the learner's own
     identity from the first mark.
 - principle: safe-spaces
   how: >-
@@ -171,7 +171,7 @@ principleAlignment:
 - principle: recognise-communicate-growth
   how: >-
     Seeing their own words appear on paper, and keeping them in the My Voice book, lets learners see and
-    name a concrete gain, from no writing to a few true words that are theirs, and carry it forward
+    name a concrete gain - from no writing to a few true words that are theirs - and carry it forward
     into the artifact.
 competencyCodes:
 - FLC3
@@ -180,7 +180,7 @@ competencyDevelopment:
 - code: FLC3
   how: >-
     Copying and completing true words about oneself, and for some a first simple sentence, is the ground
-    floor of communicating personal information in writing. The very start of written English.
+    floor of communicating personal information in writing - the very start of written English.
 - code: FUS1
   how: >-
     Choosing which of their own words to write asks learners to reflect on and represent who they are,
@@ -213,7 +213,7 @@ educatorContent: |
   ### Scribing is real teaching, not a favour
 
   When you write a learner's words for them, say each word as you write it and let them watch. They see
-  their own speech become text, which is the Language Experience idea, and it is powerful precisely
+  their own speech become text - which is the Language Experience idea, and it is powerful precisely
   because the words are theirs.
 
   Then let them trace over it if they want to.
@@ -249,7 +249,7 @@ learnerTeaching:
 
     **1. Copy.** Your facilitator writes it, you copy it.
 
-    **2. Complete.** The start is printed, *I am from ______*, and you add your own word.
+    **2. Complete.** The start is printed - *I am from ______* - and you add your own word.
 
     **3. Say and draw.** You say your sentence out loud, draw it, and someone writes the words for you.
 
@@ -258,14 +258,14 @@ learnerTeaching:
     Read this carefully, because it matters.
 
     If you say a true sentence about yourself in English, **you have done the English.** All of it.
-    Writing is a separate skill, it is about your hand, and it arrives on its own timetable.
+    Writing is a separate skill - it is about your hand - and it arrives on its own timetable.
 
     Nobody in this room is doing a lesser version. Choose the route that fits you today, and change
     routes whenever you like.
 
     ### When someone writes for you, watch
 
-    Watch the words appear as they are said. Those are YOUR words on that paper, you made them, you
+    Watch the words appear as they are said. Those are YOUR words on that paper - you made them, you
     just did not hold the pencil.
 
     Then, if you want, trace over them.
@@ -274,14 +274,14 @@ learnerTeaching:
 
     Not yet. Not at all, in this block.
 
-    If someone can read it and understand you, it worked. Spelling gets tidy later, with practice, and
+    If someone can read it and understand you, it worked. Spelling gets tidy later, with practice - and
     people who worry about spelling write less, which means they get better slower.
 
     ### You choose what to say
 
     These sentences are about you, so you decide how much of yourself to put in them.
 
-    Something everyday, a food you like, a colour, something you can do, is a full and complete
+    Something everyday - a food you like, a colour, something you can do - is a full and complete
     answer. Nobody will ask why you chose it.
 
     And nothing you write will be read out unless you say yes.
@@ -299,11 +299,11 @@ sourceRefs:
 provenanceNote: >-
   Contextualised, fully offline adaptation of efi-mv-writing-about-myself for the Learning Bridge+
   (Cox's Bazar) edition. The source expects learners to build several true sentences from frames and
-  assumes Home-Language literacy; this version is rebuilt for emergent literacy, learners copy and
+  assumes Home-Language literacy; this version is rebuilt for emergent literacy - learners copy and
   complete a few personal words, only those ready attempt one simple scaffolded sentence, and a full
   oral/drawing alternative means no one is excluded. The words produced feed the "My Name, My Voice"
   identity artifact. Objective 2 of the My Voice unit.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

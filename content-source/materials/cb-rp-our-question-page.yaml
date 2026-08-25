@@ -1,5 +1,5 @@
 # Student worksheet (resource) for the framing activity cb-rp-our-research-question. Thin per §3: what the
-# sheet is and how the learner uses it. Ships no file of its own, its printable version compiles into the
+# sheet is and how the learner uses it. Ships no file of its own - its printable version compiles into the
 # Research Project student workbook. Learning Bridge+ (Cox's Bazar) edition.
 id: cb-rp-our-question-page
 slug: cb-rp-our-question-page
@@ -9,7 +9,7 @@ type: resource
 title: "Our research question and our four sub-questions"
 summary: >-
   The learner's page for the shared research question and its four sub-questions, in words and pictures,
-  with room to note how we will find each one out. By asking and looking, or from the source pack.
+  with room to note how we will find each one out - by asking and looking, or from the source pack.
 facilitationContext:
 - group
 - independent
@@ -25,7 +25,7 @@ learnerContent: |
   - Before, our hills were …; now, they are … (what changed?)
   - What happens to a bare hill in the heavy rain, and in the hot sun?
   - What do trees, grass, and roots do for the soil, and for us?
-  - What are people doing to help our hills, and is it working?
+  - What are people doing to help our hills - and is it working?
 
   Next to each one, mark how we will find it out: by asking people and looking around us here, or from the
   source pack (for the last one, we do both).
@@ -37,7 +37,7 @@ agencyContribution:
   - control-of-future-pathways
   how: >-
     Holding your research question and sub-questions where you can return to them keeps an inquiry on
-    course, a self-directed research habit learners can use well beyond this one challenge.
+    course - a self-directed research habit learners can use well beyond this one challenge.
 objectiveIds: [research-project--o1]
 relatedSlugs: [cb-rp-our-research-question, cb-rp-community-mapping]
 provenanceNote: >-
@@ -47,4 +47,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

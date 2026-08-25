@@ -18,7 +18,7 @@ tags:
       support individuals, or move on.
   - id: seeking-evidence
     how: >-
-      As an assessor, a sort is fast evidence of whether a learner grasps a concept's boundaries. Where
+      As an assessor, a sort is fast evidence of whether a learner grasps a concept's boundaries - where
       they place the awkward non-examples tells you more than a definition can.
   - id: checking-for-understanding
   - id: making-thinking-visible
@@ -27,16 +27,16 @@ facilitationContext:
 primaryContext: group
 educatorContent: |
   Asking learners to identify and sort examples and non-examples of something is a quick, powerful way
-  to find out what they actually know. Give them a mixed list, some genuine examples of the concept,
-  some near-misses, and ask them to sort it and say why. The near-misses do the work: a learner who
+  to find out what they actually know. Give them a mixed list - some genuine examples of the concept,
+  some near-misses - and ask them to sort it and say why. The near-misses do the work: a learner who
   can place the tricky non-example correctly, and explain the boundary, genuinely understands the
   concept; one who cannot has shown you exactly where to teach next. Use what the sort reveals to decide
-  your next move, support individuals, reteach to the whole group, or move on.
+  your next move - support individuals, reteach to the whole group, or move on.
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction
   how: >-
-    Sorting and justifying forces learners to make their own understanding explicit, and lets them
+    Sorting and justifying forces learners to make their own understanding explicit - and lets them
     catch the edge of a concept themselves, rather than being told whether they "got it".
 principleAlignment:
   - principle: feedback-and-data
@@ -47,11 +47,11 @@ relatedSlugs:
   - cf-make-thinking-visible
   - cf-quick-checks
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook - Course Facilitator Playbook"
 provenanceNote: >-
   Generalised from the Playbook's "Ask students to identify and name examples of non-examples of
   something" technique in Making Learning and Thinking Visible.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.

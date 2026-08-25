@@ -1,7 +1,7 @@
 # Contextualised, fully offline adaptation of efi-phonics-table and efi-phonics-table-student for Learning
 # Bridge+ (Cox's Bazar). The key shift from the sources: the sources are a print reference chart of all 44
 # English sounds, filled in by writing example words. Here it is cut down to the Unit 1 sounds only, and
-# rebuilt as a VISUAL, picture-led chart a pre-literate learner grows in their My Voice book. A drawn
+# rebuilt as a VISUAL, picture-led chart a pre-literate learner grows in their My Voice book - a drawn
 # picture, the English word, and the learner's OWN word or translation, sound by sound. No reading assumed;
 # a picture stands in for a word the learner cannot yet read. Objective 1.
 id: cb-mv-phonics-table
@@ -12,7 +12,7 @@ type: resource
 title: "The My Voice sound chart, and the one you grow yourself"
 summary: >-
   The reference sound chart for My Voice, and the model for the personal collection each learner grows in
-  their My Voice book. Each row is a target sound, an example English word, and a picture cue. With a
+  their My Voice book. Each row is a target sound, an example English word, and a picture cue - with a
   blank column for the learner's OWN word or translation. It is kept to the Unit 1 sounds (short a, o, u;
   s, t, l, m, n; hard "k"; the plosive pairs p, t, k, b, d, g), so a beginner meets a small, ownable set,
   not the full alphabet of English at once.
@@ -23,8 +23,8 @@ primaryContext: group
 deliveryAdaptations:
 - context: group
   how: >-
-    The teacher chart is shown large to the whole group, on the wall, on big paper, or drawn on the
-    ground, and referred back to as each sound is met in cb-mv-alphabet-and-first-sounds and
+    The teacher chart is shown large to the whole group - on the wall, on big paper, or drawn on the
+    ground - and referred back to as each sound is met in cb-mv-alphabet-and-first-sounds and
     cb-mv-key-sounds-and-games. In the group, a learner draws their own picture and adds their own word
     beside a neighbour doing the same, so the chart grows as a shared, visible record of what the room can
     now hear. Use same-gender pairs when learners compare and help each other.
@@ -33,36 +33,36 @@ deliveryAdaptations:
     This is where the chart comes into its own alone: the learner's own copy lives in their My Voice book
     and is added to a sound or two at a time, at the learner's pace. Because each row is a drawn picture,
     the English word, and the learner's own word, a learner who cannot yet read can still use and grow it
-    independently. The picture carries the meaning that text would carry for a reader.
+    independently - the picture carries the meaning that text would carry for a reader.
 materialsAndPreparation:
-- One large, visible teacher chart for the group, on the wall, on big paper, or drawn on the ground, showing the Unit 1 sounds with a picture and an example word for each.
+- One large, visible teacher chart for the group - on the wall, on big paper, or drawn on the ground - showing the Unit 1 sounds with a picture and an example word for each.
 - The My Voice book and something to draw with, so each learner can build and keep their own version, a sound at a time.
 - Picture cards, drawn pictures, or small everyday objects whose names carry the target sounds, to copy from and to spark the learner's own word.
-- "Sensitivity: the learner's own column is theirs to fill with any word that matters to them, and a picture is always enough. No one has to write, and no one has to choose a word that touches anything they would rather not share. A colour, a food, or a thing they like is always a fine choice."
+- "Sensitivity: the learner's own column is theirs to fill with any word that matters to them, and a picture is always enough - no one has to write, and no one has to choose a word that touches anything they would rather not share. A colour, a food, or a thing they like is always a fine choice."
 facilitationNotes: |
   The sources are a print reference of all 44 English sounds that literate learners fill in by writing
   example words. Two shifts make it work here. First, it is cut right down to the Unit 1 sounds only, so a
-  beginner meets a small, ownable set rather than the whole sound system of English at once. The rest of
+  beginner meets a small, ownable set rather than the whole sound system of English at once - the rest of
   the chart grows later, if a learner continues. Second, and more important, it is rebuilt to be visual
   and led by pictures, because most learners are not yet reading in any language: every row carries a
   drawn picture cue, so the meaning of a word is held by the drawing, not by text the learner cannot yet
   read. The teacher version is a reference to point back to as sounds are met; the learner version is the
-  real work, each learner grows their own chart in their My Voice book, a sound or two at a time, by
+  real work - each learner grows their own chart in their My Voice book, a sound or two at a time, by
   drawing the thing, copying or tracing the English word, and adding their own word or translation beside
   it. That own-word column is the heart of it: it hangs each new English sound on a word the learner
   already carries in Rohingya, Chittagonian, Burmese, or Arabic, which is how adults learn sound fastest.
-  Keep writing optional throughout, a picture and a spoken word are a complete row. The value is in the
+  Keep writing optional throughout - a picture and a spoken word are a complete row. The value is in the
   collecting and the connecting, so protect regular time to add to the chart and to look back over it, and
   treat a growing chart as visible proof of how much a learner's ear has caught.
 educatorContent: |
   ## The My Voice sound chart (teacher reference)
 
-  This is the reference chart for the sounds of Unit 1, the sounds worked in cb-mv-alphabet-and-first-sounds
+  This is the reference chart for the sounds of Unit 1 - the sounds worked in cb-mv-alphabet-and-first-sounds
   and cb-mv-key-sounds-and-games, in the order of cb-mv-phonics-progression. Show it large to the group and
   point back to it as each sound is met. Keep it to these sounds; the wider sound chart grows later, if
   learners continue into the rest of the English for Impact progression.
 
-  The last column is left blank on purpose. It is where each learner adds their OWN word or translation, 
+  The last column is left blank on purpose. It is where each learner adds their OWN word or translation -
   a word from Rohingya, Chittagonian, Burmese, or Arabic that carries the same sound, or an English word
   that matters to them. That column is the point of the whole chart.
 
@@ -86,32 +86,32 @@ educatorContent: |
 
   Notes for the facilitator:
 
-  - The plosive rows are laid out as pairs on purpose, pan/bat, tan/Dan, cap/gap, so the group can hear that same mouth, voice on or off, makes a different word. Use the hand-on-throat check.
+  - The plosive rows are laid out as pairs on purpose - pan/bat, tan/Dan, cap/gap - so the group can hear that same mouth, voice on or off, makes a different word. Use the hand-on-throat check.
   - The hard "k" row shows one sound with three spellings (c, k, ck). Teach the sound as one thing the ear hears; let the spellings be noticed gently as they turn up.
   - Swap any example word for one that matters more locally, as long as it keeps the target sound. The picture cue matters more than the exact word.
 learnerContent: |
   ## Your own sound chart, in your My Voice book
 
   Your sound chart is your own map of the sounds of English. You build it yourself, a sound or two at a
-  time, and you keep it in your My Voice book. You do not have to be able to read to use it, your
+  time, and you keep it in your My Voice book. You do not have to be able to read to use it - your
   drawings carry the meaning.
 
   For each sound you learn, make one row:
 
-  - Draw the thing. Draw a small picture of a word with that sound, a cat for short a, the sun for s, a pot for short o. The picture is the meaning.
-  - Add the English word. Copy or trace the English word next to your picture if you can. If you are not ready to write, that is fine. The picture is enough for now.
-  - Add your own word. Beside it, put a word of your own that has the same sound. A word from a language you already speak, or an English word that matters to you. Draw it or say it to your facilitator.
+  - Draw the thing. Draw a small picture of a word with that sound - a cat for short a, the sun for s, a pot for short o. The picture is the meaning.
+  - Add the English word. Copy or trace the English word next to your picture if you can. If you are not ready to write, that is fine - the picture is enough for now.
+  - Add your own word. Beside it, put a word of your own that has the same sound - a word from a language you already speak, or an English word that matters to you. Draw it or say it to your facilitator.
   - Say it out loud. Say the sound, the English word, and your own word aloud, so your ear and your mouth learn them together.
 
   Keep going. Each session, add the new sound or two to your chart. Over time your chart grows, and when
-  you look back you can see all the sounds your ear can now catch. A record of how far you have come.
+  you look back you can see all the sounds your ear can now catch - a record of how far you have come.
 agencyContribution:
   indicators:
   - control-of-future-pathways
   how: >-
     Reading and writing English is a gateway to further study, work, and dealing with the written world
-    alone. Building and owning a personal map of English sounds, in the learner's own pictures and their
-    own words, added to at their own pace, turns phonics from something done to a beginner into a tool
+    alone. Building and owning a personal map of English sounds - in the learner's own pictures and their
+    own words, added to at their own pace - turns phonics from something done to a beginner into a tool
     they make and keep. A learner who has assembled their own chart can go on catching and holding new
     sounds without a facilitator present, which is what carries them toward the reading their next steps
     will ask for.
@@ -123,7 +123,7 @@ principleAlignment:
 - principle: lifeworthy-competencies
   how: >-
     Hearing English sounds and holding a reference for them is the ground floor of decoding, spelling, and
-    clear speech. A foundation the learner reuses in every later session and beyond the classroom; the
+    clear speech - a foundation the learner reuses in every later session and beyond the classroom; the
     chart makes that foundation visible, pared to a set a beginner can actually own.
 - principle: builds-on-identities
   how: >-
@@ -133,7 +133,7 @@ principleAlignment:
 - principle: recognise-communicate-growth
   how: >-
     Because the same chart is added to across many sessions, a learner can look back and see how many
-    sounds they have collected and can now hear. A plain, visible record of their own progress that they
+    sounds they have collected and can now hear - a plain, visible record of their own progress that they
     hold in their own book.
 competencyCodes:
 - FLC3
@@ -141,7 +141,7 @@ competencyDevelopment:
 - code: FLC3
   how: >-
     A learner-owned, picture-led reference for the sounds of English supports the accurate hearing,
-    decoding, and pronunciation that let a learner read, write, and be understood. Begun by ear, before
+    decoding, and pronunciation that let a learner read, write, and be understood - begun by ear, before
     reading is even possible.
 objectiveIds:
 - efi-my-voice--o1
@@ -160,10 +160,10 @@ provenanceNote: >-
   reference chart of all 44 English sounds, filled in by writing example words and assuming Home-Language
   literacy; this version is cut down to the Unit 1 sounds only (short a, o, u; s, t, l, m, n; hard "k"; the
   plosive pairs p, t, k, b, d, g) and rebuilt as a visual, picture-led chart a pre-literate learner grows
-  in their My Voice book. A drawn picture, the English word, and the learner's own word or translation
+  in their My Voice book - a drawn picture, the English word, and the learner's own word or translation
   per sound, with writing kept optional. It keeps the sources' cumulative, learner-owned framing.
   Objective 1 of the My Voice unit.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material - if you find third-party expression on this page, correct the status.
