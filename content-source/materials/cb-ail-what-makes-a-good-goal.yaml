@@ -146,57 +146,58 @@ closing: |
 educatorContent: |
   ## What you need to know before you teach this
 
-  This is the block the rest of the component rests on. A learner with a weak goal will spend eight
-  weeks failing at something that was never reachable, and will conclude the failure was theirs. Most
-  of what looks like poor motivation later is a bad goal set here.
+  The rest of the component runs on the goal each learner sets here. If the goal is weak, a learner
+  spends eight weeks failing at something they were never going to reach, and decides that was their
+  fault. When a learner looks unmotivated in week nine, look back at the goal they set in week five.
 
-  ### The four tests, and what each is actually guarding against
+  ### The four tests, and what each one is for
 
-  1. **Small enough to reach.** Guards against a goal that is really an ambition. "Learn English" is a
-     wish; "say five true sentences about myself" is a goal. The test: could you finish this in the
+  1. **Small enough to reach.** Stops a learner setting an ambition instead of a goal. "Learn English"
+     is a wish. "Say five true sentences about myself" is a goal. Ask: could you finish this in the
      weeks we have?
-  2. **Clear enough to know when it is done.** Guards against a goal a learner can never tick.
-     "Get better at reading" has no finish line. "Read the words on the shop signs near my shelter"
-     does. The test: how will you KNOW?
-  3. **It matters to you.** Guards against the goal a learner thinks you want to hear. This is the
-     commonest failure in this block and the hardest to spot, because those goals sound excellent.
-  4. **It has a by-when.** Guards against the goal that is always about to start. The test: when will
+  2. **Clear enough to know when it is done.** Stops a learner setting something they can never tick
+     off. "Get better at reading" has no finish line. "Read the words on the shop signs near my
+     shelter" does. Ask: how will you know?
+  3. **It matters to you.** Stops a learner setting the goal they think you want. This is the most
+     common problem here, and the hardest to spot, because these goals sound good.
+  4. **It has a by-when.** Stops a learner setting something they never quite start. Ask: when will
      you have done it?
 
-  ### The trap: goals set to please you
+  ### Watch for goals set to please you
 
-  Learners who have been in school know what an adult wants to hear. You will get "study hard every
-  day" and "be a good student", said with real sincerity. They are not lying - they are answering the
+  Learners who have been in school know what adults want to hear. You will get "study hard every day"
+  and "be a good student", said sincerely. They are not being dishonest. They are answering the
   question they think you asked.
 
-  The tell is that the learner cannot say WHY, or says why in the same borrowed words. Ask "what would
-  be different for you if you did that?" and listen for something concrete. If nothing comes, the goal
-  is not theirs yet. Do not accept it because it is well-behaved.
+  You can tell because they cannot say why, or they say why in the same borrowed words. Ask "what
+  would be different for you if you did that?" and listen for something specific. If nothing comes,
+  the goal is not theirs yet. Do not accept a goal just because it sounds well-behaved.
 
-  ### The other trap: goals about things they do not control
+  ### Watch for goals that depend on other people
 
-  This edition deliberately reframes goal-setting around what is within a learner's control, and this
-  block is where that gets enforced. "Get a place at the secondary school" is not a goal a learner can
-  set - it depends on a decision someone else makes. "Be able to introduce myself in English" is. If a
-  learner reaches for the blocked thing, do not correct them and do not endorse it: ask what the first
-  step towards it would be that is theirs to take, and let the goal be that step.
+  This edition keeps goal-setting to what a learner can actually control, and this is the block where
+  you hold that line. "Get a place at the secondary school" depends on a decision someone else makes,
+  so it cannot be their goal. "Be able to introduce myself in English" can be.
+
+  If a learner reaches for the blocked thing, do not correct them and do not pretend it is possible.
+  Ask what the first step towards it would be that they could take themselves, and make that the goal.
 
   ### Teach judgement on other people's goals first
 
-  Learners cannot yet judge their own - nobody can, at the start. So the sequence is: learn the tests,
-  judge examples that are not theirs, fix a weak one together, and only then turn the tests on their
-  own rough goal. Skipping to their own goal is the commonest way this block fails.
+  Nobody can judge their own goal at the start, so do not ask them to. Work in this order: learn the
+  tests, judge examples that belong to nobody in the room, fix a weak one together, then look at their
+  own rough goal. Going straight to their own goal is the most common way this block fails.
 
-  Use example goals close to your learners' real lives, not textbook ones. Include at least one that
-  fails only ONE test - those are the useful ones, because a goal that fails all four teaches nothing.
+  Use examples close to your learners' real lives rather than textbook ones. Include at least one that
+  fails only one test. A goal that fails all four teaches nothing, because the answer is obvious.
 
   ## Before they leave this block
 
-  - Every learner can say the four tests without the page in front of them.
+  - Every learner can say the four tests without looking at the page.
   - They have judged at least four goals that are not their own, and said which test each one fails.
-  - They have fixed a weak goal out loud, as a group.
-  - They have run the tests on one rough goal of their own - the goal itself comes next session, so it
-    does not have to be finished, only tested.
+  - They have fixed a weak goal together, out loud.
+  - They have run the tests on one rough goal of their own. It does not have to be finished. They
+    choose their goal properly next session.
 learnerTeaching:
   title: "How to tell a good goal from a weak one"
   readAloud: |

@@ -74,8 +74,7 @@ steps:
     Ask each learner to choose one small slot in their real week, as little as twenty or thirty
     minutes, that they can genuinely protect for working towards their goal. Steer them away from grand
     timetables towards one slot they can actually keep. Have them mark where it sits, say what might
-    threaten it, and how they will guard it. Say aloud that one kept slot beats five hopeful ones that
-    never happen.
+    threaten it, and how they will guard it. Say aloud that one slot they actually keep is worth more than five they hope for.
   keyPrompts:
   - Which one slot could you realistically protect for your goal this week?
   - What is most likely to steal that slot, and how could you guard it?
@@ -106,8 +105,7 @@ steps:
 closing: |
   Ask two or three learners to say their protected slot and first step aloud, and one thing they will
   drop if the week gets hard. Say that the plan lives in their workbook and is meant to be adjusted,
-  not obeyed. Remind them that protecting time and wellbeing is a skill they are practising, and that a
-  small step kept every week beats a big plan kept for none. Independent task: keep your slot once this
+  not obeyed. Remind them that protecting time and wellbeing is a skill they are practising, and that a small step kept every week is worth more than a big plan kept for none. Independent task: keep your slot once this
   week, then mark in the workbook whether it happened and what threatened it.
 
 educatorContent: |
@@ -145,8 +143,8 @@ educatorContent: |
   sentences while walking or carrying. Practising sounds while cooking. Thinking through a research
   question while queuing.
 
-  For a learner whose whole week is accounted for, this is not a consolation prize - it may be the only
-  slot that exists. Teach it as a legitimate first choice, not a fallback.
+  For a learner whose whole week is accounted for this may be the only slot that exists. Teach it as
+  a first choice rather than a fallback.
 
   ### The priority idea, in one move
 

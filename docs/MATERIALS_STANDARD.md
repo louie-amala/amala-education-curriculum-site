@@ -148,8 +148,9 @@ this section as house policy pending re-research]
 
 ## 8. Writing style
 
-- UK English. **No em dashes**; use commas, colons, semicolons or parentheses.
-- Plain, direct prose. No AI-decorative language, no marketing tone.
+- UK English. **No em dashes.** Use a hyphen with spaces around it (` - `), or a comma, colon or
+  full stop. This rule pre-dated the Cox's Bazar pack and was broken 4,300 times before anyone
+  noticed, so treat it as load-bearing rather than cosmetic.
 - **`summary`: 15 to 35 words, one sentence** saying what learners do or what the thing is.
   [audit: current range 18-31]
 - Learner-facing text addresses the learner as "you". Educator-facing text addresses the facilitator
@@ -157,6 +158,31 @@ this section as house policy pending re-research]
 - Explanations of the spine (agency, principles, competencies) must be **specific to this material**.
   Restating what a principle or competency means is not an explanation of the link.
 - Prefer structure over prose wherever a facilitator will read it while facilitating. [judgement]
+
+### 8.1 Plain, not clever
+
+The reader is a facilitator with limited training, often working in a second language, often tired.
+Writing that performs costs them attention they need for the session. The failure mode is not padding
+or jargon; it is **mannered prose that reads as though it wants to be quoted**.
+
+Five habits to avoid, each with the fix:
+
+| Avoid | Why | Instead |
+|---|---|---|
+| **Antithesis as a punchline.** "The point of the first step is not progress. It is that the learner finds out they can move at all." | The shape carries the emphasis, so the reader has to unpack it to find the instruction. | State it once. "A very small first step shows the learner they can get started." |
+| **The epigram closing a paragraph.** "Most of what looks like poor motivation later is a bad goal set here." | It summarises rather than tells anyone what to do. | Turn it into an action. "When a learner looks unmotivated in week nine, look back at the goal they set in week five." |
+| **Diagnostic register.** "The tell is that…", "Guards against…", "X beats Y." | Positions the writer as the expert observer rather than addressing the reader. | "You can tell because…", "Stops…", "Do X rather than Y." |
+| **Headings that announce a discovery.** "The trap:", "The one thing that changes everything". | The facilitator is scanning for what to do, not reading an argument. | "Watch for…", "Before they leave this block". |
+| **Explaining why the advice is clever.** "This is not a concession to low literacy; it is better than writing for everyone." | Justifies the author to the reader. | Give the instruction and stop. Keep the reason only where it changes what someone does. |
+
+A short sentence after a long one is fine, and emphasis is fine. What is not fine is a sentence whose
+main job is to sound good.
+
+### 8.2 Where this bites hardest
+
+Learner-facing text is largely self-correcting: writing for A1 readers forces plain language anyway.
+The problem lives in **facilitator-facing prose** - `educatorContent`, the programme guides, and the
+narrative fields on courses and programmes. Check those hardest.
 
 ---
 

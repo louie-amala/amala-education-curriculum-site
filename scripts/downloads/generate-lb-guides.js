@@ -123,7 +123,7 @@ const ARC_ROWS = [
 // ---- The example week -------------------------------------------------------------------------
 // Used by both guides so the two timetables cannot drift. Deliberately concrete: THREE learning days
 // a week, THREE hours with you each day (one hour per component), and about TWO hours at home each
-// day. That is the whole weekly load - 9 in-person + 6 independent = 15 hours - laid out so an
+// day. That is the whole weekly load, 9 in-person + 6 independent = 15 hours, laid out so an
 // educator can see it, not infer it. Days are numbered, not named: each site places its own rest day.
 // The middle column is written in the second person for the educator's own guide, and in the third
 // for the coordinator's - the same table, addressed to the person actually holding it.
@@ -271,7 +271,7 @@ function coordinatorGuide() {
   c.push(numbered('Make the safeguarding pathway concrete at each site. Before any facilitator takes a mentoring caseload, make sure they know NRC’s Code of Conduct and the camp MHPSS and protection referral pathway - who to hand a concern to, and how.', 'setup'));
   c.push(numbered('Run diagnostic intake. Place each learner, check English proficiency where needed (the cohort is below B1, many not yet literate in any language), and pair each learner with a mentor.', 'setup'));
   c.push(numbered('Plan the closing showcase early. The programme ends with ONE shared event in the last week, not three separate ones: learners present their research, show their "My Name, My Voice" card, and name one way they have grown - and each learner invites at least one person themselves. You need a space that can hold guests, a date fixed early enough for invitations, and the guest arrangements cleared against NRC\u2019s Code of Conduct. Confirm the same-gender seating and grouping plan BEFORE invitations go out.', 'setup'));
-  c.push(numbered('Decide whether your sites will offer the optional significant adult meeting - a three-way conversation between a mentor, a learner, and one adult the learner chooses, best placed between Weeks 7 and 11. It is the fastest way to make a learner\u2019s growth visible to the people whose belief shapes what happens next, and it is genuinely demanding to organise. It is fine to run it for some learners and not others; it is not fine to run it where there is an open protection concern. Full guidance is in the Educator Guide, Part 2.3.', 'setup'));
+  c.push(numbered('Decide whether your sites will offer the optional significant adult meeting - a three-way conversation between a mentor, a learner, and one adult the learner chooses, best placed between Weeks 7 and 11. It is the fastest way to make a learner\u2019s growth visible to the people whose belief shapes what happens next, and it is genuinely demanding to organise. Run it for some learners and not others if that is what you can manage. Do not run it where there is an open protection concern. Full guidance is in the Educator Guide, Part 2.3.', 'setup'));
 
   c.push(H1('4. The programme structure and the 12-week rhythm'));
   c.push(P('The programme has three taught components plus ongoing mentoring, running side by side across the same weeks.', { size: 22 }));
@@ -299,7 +299,7 @@ function coordinatorGuide() {
 
   c.push(callout('Reading the Week-6 results', [
     'Expect most learners to sit at Theorist at Week 6. The goal-pursuit weeks in Agency in Learning, and the analysis and output weeks in the Research Project, both fall AFTER it - so Week 6 is measured before most of the evidence exists.',
-    'A low Week-6 picture is not a failing cohort. It is the checkpoint doing its job: it shows where to concentrate support across Weeks 7 to 11.',
+    'A low Week-6 picture does not mean the cohort is failing. It is the checkpoint doing its job, showing where to concentrate support across Weeks 7 to 11.',
     'The 70% measure is taken at Week 12, on the final judgement, and nowhere else.',
   ], OLIVE));
 
@@ -307,7 +307,7 @@ function coordinatorGuide() {
   c.push(H1('5. Coordinating assessment and moderation'));
   c.push(P('Assessment rests on educator judgement across varied evidence, not on a single test. Your role is to make that judgement possible and fair.', { size: 22 }));
   c.push(mini('Before Week 6'));
-  c.push(bullet('Check educators are gathering evidence as they teach - from workbooks, steps taken, the growth path, and what learners say and do - not leaving it to the end. Much of this evidence is oral and visual, because many learners are not yet literate; that is expected.'));
+  c.push(bullet('Check educators are gathering evidence as they teach - from workbooks, steps taken, the growth path, and what learners say and do - not leaving it to the end. Much of this evidence is oral and visual, because many learners are not yet literate, which is expected.'));
   c.push(bullet('Check each educator has the two assessment records (in Part 9 of their guide) copied, one per learner, and started.'));
   c.push(bullet('Schedule the Week-6 supported assessment with Amala, so educators make their first judgements with support and calibration.'));
   c.push(mini('Between Week 6 and Week 12'));
@@ -432,7 +432,7 @@ function educatorGuide() {
   c.push(P('Everything below is inside this guide except the Agency in Learning picture-card PDF, which stays on the USB. There are no slides - this pack assumes no screen, and every activity runs from paper, a wall, and your voice.', { size: 22 }));
   c.push(callout('How much to print, in order of preference', [
     'BEST - one learner book per learner. The book carries the teaching, the worked examples and the frames, and it is the evidence the assessment is made from. A learner who owns theirs can re-read a method after a missed session and take it home.',
-    'WORKABLE - one book shared between two or three learners, with each learner using an ordinary notebook for their own answers. You keep the teaching; you lose only the private page.',
+    'WORKABLE - one book shared between two or three learners, with each learner using an ordinary notebook for their own answers. Learners still see every page, they just cannot keep their own copy.',
     'THE FLOOR - one copy, displayed on a screen or held up, and everyone works in a notebook. Say the page title aloud each time so a learner\u2019s notebook still has a shape you can both follow.',
     'The books are Word files. If paper is short, NRC can cut pages before printing - start with the "My notes and drawings" pages, which an ordinary notebook does better.',
   ], PLUM));
@@ -490,7 +490,7 @@ function educatorGuide() {
   c.push(P(weekAdapt(), { size: 22 }));
 
   sec('1.4  The twelve weeks');
-  c.push(P('Ten weeks of delivery sit inside a twelve-week rhythm: five weeks of learning, a supported assessment, five more weeks, then the final assessment. Your coordinator holds the calendar; you hold the evidence.', { size: 22 }));
+  c.push(P('Ten weeks of delivery sit inside a twelve-week rhythm: five weeks of learning, a supported assessment, five more weeks, then the final assessment. Your coordinator holds the calendar. You hold the evidence.', { size: 22 }));
   c.push(twoCol(['When', 'What happens'], ARC_ROWS));
   c.push(callout('Five weeks, check in, five weeks, decide', [
     'Weeks 1–5 learn  →  Week 6 supported (provisional) judgement, with Amala  →  Weeks 7–11 learn  →  Week 12 final judgement, then Amala moderation.',
