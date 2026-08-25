@@ -225,13 +225,13 @@ function titleBlock(c, title, subtitle, blurb) {
 function partDivider(c, number, title, blurb, outline) {
   if (outline) outline.push({ level: 0, text: `Part ${number} - ${title}` });
   c.push(pageBreak());
-  c.push(P(`PART ${number}`, { size: 24, bold: true, color: OLIVE, before: 1800, after: 60 }));
+  c.push(P(`PART ${number}`, { size: 24, bold: true, color: OLIVE, before: 0, after: 60 }));
   c.push(new Paragraph({
     heading: S.HeadingLevel.HEADING_1,
     children: [new TextRun({ text: `Part ${number} - ${title}`, bold: true, size: 44, color: NAVY })],
     spacing: { after: 120 },
   }));
-  c.push(P(blurb, { size: 23, color: GREY }));
+  c.push(P(blurb, { size: 23, color: GREY, after: 240 }));
 }
 
 // ============================================================ COORDINATOR GUIDE
@@ -450,7 +450,6 @@ function educatorGuide() {
 
   // ---------------------------------------------------------------- PART 1
   part(1, 'Before you start', 'Your three roles, how delivery is rebuilt for this context, what a week could look like, and the rhythm of the twelve weeks.');
-  c.push(pageBreak());
 
   sec('1.0  What this programme is for');
   c.push(...agencyThreadChildren({
@@ -521,13 +520,11 @@ function educatorGuide() {
   // Composed from generate-mentoring.js, exactly as Parts 4-6 compose the taught components. Was 343
   // hand-written words for a component the programme calls "the spine of wellbeing support".
   part(2, 'Mentoring and wellbeing', 'The spine of wellbeing support: where a learner is known as a person, where distress is noticed early, and where the goals set in Agency in Learning are kept alive. It adds no hours - it runs inside the in-person time you already have.');
-  c.push(pageBreak());
   c.push(...embed(() => MN.guideChildren({ embedded: true })));
   c.push(P('The Research Project has its own, fuller safeguarding and protection guidance, because learners go out and speak to people in the community. It is in Part 6, and you should read it before that component starts.', { size: 22 }));
 
   // ---------------------------------------------------------------- PART 3
   part(3, 'Assessing the two competencies', 'Your judgement, across varied evidence, gathered as you teach - a supported judgement at Week 6 and a final one at Week 12.');
-  c.push(pageBreak());
 
   sec('3.1  What you are assessing');
   c.push(P('You are assessing two competencies against Amala’s Proficiency Scale. Assessment is your judgement across varied evidence - not a single test - and it is gathered as you teach.', { size: 22 }));
@@ -597,7 +594,6 @@ function educatorGuide() {
   // they print them. So this part is now a pointer, and the books ship as their own files alongside
   // this guide. The plan quotes SHEET NUMBERS, which is how an educator finds a page in them.
   part(7, 'The learner books - where they are, and what to print', 'The books are separate files, not reproduced here. This says which one is which, and how the plan points into them.');
-  c.push(pageBreak());
   c.push(P('Each learner needs their own book. The books are separate downloads, in the same place you got this guide - they are not printed inside it, because you deliver from this guide and you only ever print those.', { size: 22 }));
   c.push(twoCol(['The file', 'What is in it'], [
     ['Student Workbook - the whole programme in one book\n(lb-coxs-bazar-student-workbook.docx)', 'All three learner books in one, plus the mentoring page and the growth self-check. ONE print job per learner for the whole twelve weeks. Print this, or the three separate books below - not both.'],
@@ -614,7 +610,6 @@ function educatorGuide() {
 
   // ---------------------------------------------------------------- PART 8: the cards
   part(8, 'Cards to print and cut out', 'One set per group. Print on the heaviest paper you have, cut along the lines, and keep each set together.');
-  c.push(pageBreak());
   sec('8A  English - letter & picture cards');
   c.push(pageBreak());
   c.push(...embed(() => MV.cardsChildren()));
@@ -630,7 +625,6 @@ function educatorGuide() {
 
   // ---------------------------------------------------------------- PART 9: the records
   part(9, 'Records', 'Two assessment records, one per assessed competency, filled at Week 6 and again at Week 12 - plus the mentor’s record, one page per learner for the whole twelve weeks. Make one copy of each per learner and put their name on it.');
-  c.push(pageBreak());
   sec('9A  Agency in Learning - Set and pursue goals (FSL2)');
   c.push(...embed(() => AIL.rubricChildren()));
   c.push(pageBreak());
