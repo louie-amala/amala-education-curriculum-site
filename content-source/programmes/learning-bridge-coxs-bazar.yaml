@@ -180,6 +180,10 @@ agencyThread:
         translating, resolving disputes - are surfaced and recognised as capability, and where the
         next step towards a pathway is kept honest and near-term. Without it the three taught
         components are three courses; with it they are one person's development.
+  # FSL2 and FSI1 only: these are the two competencies formally graded on Learning Bridge+. English
+  # develops FUS1 and is assessed formatively, so it is deliberately not listed here - a third row
+  # reads as a third thing to assess. Rendered in the guides beside the assessment guidance rather
+  # than in the "what this is for" section, where competency codes arrive before they mean anything.
   byCompetency:
     - code: FSL2
       indicators:
@@ -201,16 +205,6 @@ agencyThread:
         instead of accepting what they are told - and when they produce evidence-based insight about a
         challenge in their own community and share it, they have already made an impactful
         contribution, at whatever scale they could manage.
-    - code: FUS1
-      indicators:
-        - power-over-wellbeing-and-self-direction
-        - control-of-future-pathways
-      how: >-
-        Developing self-awareness is where agency starts. As learners find the English to introduce
-        themselves and choose the words that represent them, they are naming their identity, strengths
-        and what matters to them. All later choice rests on that self-knowledge - you cannot direct a
-        life you cannot describe. Assessed formatively here, but it underwrites both graded
-        competencies.
   howWeSeeIt:
     - >-
       The two graded competencies are the formal measure, but they are not the whole of it. Agency

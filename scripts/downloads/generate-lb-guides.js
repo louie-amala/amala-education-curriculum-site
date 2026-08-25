@@ -67,6 +67,21 @@ const competencyTitle = (code) => {
 
 // The agency thread, as document children. `depth` picks the heading level so the same builder can
 // open the Coordinator Guide (H1 sections) and sit inside Part 1 of the Educator Guide (H2/H3).
+// The competency rows, rendered where competencies have already been introduced. In the "what this
+// programme is for" section they arrived before the reader had met a competency code at all, which
+// made them read as though they had come from nowhere.
+function agencyByCompetencyChildren(sub) {
+  const t = PROGRAMME.agencyThread;
+  if (!t || !t.byCompetency.length) return [];
+  const c = [sub('What developing these two competencies gives a learner')];
+  c.push(P('These are the two you assess. They are not only hoops for the readiness decision - each one is a piece of the agency the whole programme is for.', { size: 22 }));
+  c.push(twoCol(['Competency', 'How developing it builds agency'], t.byCompetency.map((r) => [
+    `${r.code} - ${competencyTitle(r.code)}`,
+    `${r.how}\n\nIndicators: ${r.indicators.map(indicatorLabel).join('  ·  ')}`,
+  ])));
+  return c;
+}
+
 function agencyThreadChildren({ heading, sub, full = true }) {
   const t = PROGRAMME.agencyThread;
   if (!t) return [];
@@ -82,13 +97,7 @@ function agencyThreadChildren({ heading, sub, full = true }) {
       `${r.how}\n\nIndicators: ${r.indicators.map(indicatorLabel).join('  ·  ')}`,
     ])));
   }
-  if (full && t.byCompetency.length) {
-    c.push(sub('What developing each competency contributes'));
-    c.push(twoCol(['Competency', 'How developing it builds agency'], t.byCompetency.map((r) => [
-      `${r.code} - ${competencyTitle(r.code)}`,
-      `${r.how}\n\nIndicators: ${r.indicators.map(indicatorLabel).join('  ·  ')}`,
-    ])));
-  }
+
   if (t.howWeSeeIt.length) {
     c.push(sub('How you see it - and how not to turn it into another test'));
     t.howWeSeeIt.forEach((x) => c.push(bullet(x)));
@@ -306,6 +315,7 @@ function coordinatorGuide() {
   c.push(pageBreak());
   c.push(H1('5. Coordinating assessment and moderation'));
   c.push(P('Assessment rests on educator judgement across varied evidence, not on a single test. Your role is to make that judgement possible and fair.', { size: 22 }));
+  c.push(...agencyByCompetencyChildren((t) => mini(t)));
   c.push(mini('Before Week 6'));
   c.push(bullet('Check educators are gathering evidence as they teach - from workbooks, steps taken, the growth path, and what learners say and do - not leaving it to the end. Much of this evidence is oral and visual, because many learners are not yet literate, which is expected.'));
   c.push(bullet('Check each educator has the two assessment records (in Part 9 of their guide) copied, one per learner, and started.'));
@@ -532,7 +542,8 @@ function educatorGuide() {
     ['Set and Pursue Goals (FSL2)', 'Agency in Learning - setting clear learning goals and taking deliberate steps toward them. Record in Part 9A.'],
     ['Investigate Real World Issues (FSI1)', 'The Research Project - researching a real challenge to develop actionable insights. Record in Part 9B.'],
   ]));
-  c.push(P('English is compulsory but is not one of the two graded competencies: its assessment is formative, against the A1 Can-Do outcomes and each learner’s own growth. The "I can…" sheet in the My Voice book (Part 7B) is how you track it.', { size: 22 }));
+  c.push(P('English is compulsory but is not one of the two graded competencies: its assessment is formative, against the A1 Can-Do outcomes and each learner’s own growth. The "I can…" sheet in the My Voice book is how you track it.', { size: 22 }));
+  c.push(...agencyByCompetencyChildren((t) => H3(t)));
 
   sec('3.2  Gather evidence as you go');
   c.push(P('Do not leave assessment to the end. Across the weeks, collect the evidence of each learner’s competency from:', { size: 22 }));
