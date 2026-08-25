@@ -134,11 +134,17 @@ function contextChildren() {
   return c;
 }
 
+const { componentGuideChildren } = require('./lib/course-guide');
+
 function guideChildren(opts = {}) {
   const c = [];
   if (!opts.embedded) {
     c.push(...body(unit.summary));
   }
+  // What the component is working towards, before how it is run — the equivalent of the course guide
+  // the three taught components render.
+  c.push(...componentGuideChildren(unit));
+  c.push(pageBreak());
   c.push(S.eyebrow ? S.eyebrow('How this component works') : mini('How this component works'));
   c.push(...body(unit.deliveryApproach));
   c.push(mini('Mentoring and assessment'));

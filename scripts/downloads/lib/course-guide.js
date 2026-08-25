@@ -83,4 +83,37 @@ function courseGuideChildren(course, unit, competencies, opts = {}) {
   return c;
 }
 
-module.exports = { courseGuideChildren };
+/**
+ * The same section for a COURSE-LESS component. Mentoring and Wellbeing has no course guide to render,
+ * so its unit carries `purpose` and `aims` instead — otherwise it would be the one component whose plan
+ * says what to do and never what it is working towards.
+ */
+function componentGuideChildren(unit, opts = {}) {
+  const H = opts.heading || ((t) => H1(t));
+  const Sub = opts.sub || ((t) => H2(t));
+  const Sub2 = opts.sub2 || ((t) => H3(t));
+  const c = [];
+  if (!unit || (!unit.purpose && !(unit.aims || []).length)) return c;
+
+  c.push(H('What this component is for'));
+  c.push(P('Read this before the plan. It is what the conversations are working towards — the plan is how, this is why.', { size: 21, italics: true, color: GREY, after: 140 }));
+  if (unit.purpose) c.push(...body(unit.purpose));
+
+  if ((unit.aims || []).length) {
+    c.push(Sub('What it is working towards'));
+    c.push(P('Five aims, and they are the same five things Amala\u2019s shared mentoring practice covers. The arc later in this guide is how they are reached across twelve weeks.', { size: 22, after: 120 }));
+    unit.aims.forEach((a, i) => {
+      c.push(Sub2(`${i + 1}.  ${a.aim}`));
+      if (a.how) c.push(P(`What you do:  ${toText(a.how)}`, { size: 21 }));
+      if (a.lookLike) c.push(P(`What it looks like when it is working:  ${toText(a.lookLike)}`, { size: 21, color: GREY }));
+    });
+  }
+
+  if (unit.cadence) {
+    c.push(mini('What it takes'));
+    c.push(P(`${unit.cadence}. It adds no hours of its own \u2014 it runs inside the in-person time the taught components already use.`, { size: 22 }));
+  }
+  return c;
+}
+
+module.exports = { courseGuideChildren, componentGuideChildren };

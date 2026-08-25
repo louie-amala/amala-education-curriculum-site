@@ -25,6 +25,59 @@ summary: >-
   mentoring relationship over twelve weeks has phases — getting known, keeping the goal alive, the
   week-6 checkpoint, surfacing growth, and an honest closing conversation — and which phase you are in
   changes what the conversation is for. It adds no hours to the timetable.
+# What this component is working towards. The three taught components state this by rendering their
+# course guide; mentoring has no course, so it carries the equivalent here. The five aims are the five
+# role areas Amala's shared mentoring practice covers (see the programme's `mentoring.areas`), written
+# as things this component is trying to achieve rather than as topics.
+purpose: >-
+  Mentoring and Wellbeing is what makes the programme add up to a person rather than three courses. It
+  is the only component that touches the same learner across all twelve weeks and all three of the
+  others: the place where a young person is known as an individual, where the goal set in Agency in
+  Learning stays alive between sessions, where distress is noticed early enough to act on, and where
+  the capability a learner already exercises in daily life is recognised as capability. It adds no
+  hours of its own — about ten minutes per learner, most weeks, inside the in-person time the taught
+  components already use.
+aims:
+  - aim: A learner is known as a person, and knows they are
+    how: >-
+      Short, regular 1:1 conversations that begin with a genuine check-in rather than a progress check,
+      with small enough caseloads that each learner is actually known, and pairing for gender and
+      language so a learner can speak freely.
+    lookLike: >-
+      A learner talks to you about something that is not the task. A learner who was silent in week one
+      is answering by week four.
+  - aim: Distress is noticed early, and referred — not counselled
+    how: >-
+      You watch the pattern across weeks rather than the answer in one conversation, keep a light record
+      so each conversation builds on the last, and know NRC's referral pathway before you take a single
+      learner.
+    lookLike: >-
+      You spot a change in how "fine" sounds, and act on it before it becomes a crisis. When something
+      surfaces, you already know who to hand it to.
+  - aim: The learning goal stays alive between sessions
+    how: >-
+      Every conversation picks up the step agreed last time, asks what got in the way without making it
+      a test, and ends with one new step small enough to actually happen — said by the learner, not by
+      you.
+    lookLike: >-
+      Steps are being taken between sessions, and a learner who missed a week is picked up rather than
+      restarted. The goal changes when it should, instead of being quietly abandoned.
+  - aim: The capability a learner already has is recognised as capability
+    how: >-
+      Asking about a day rather than about the learner, catching what they actually did — caring for
+      siblings, translating, earning, resolving a dispute — and naming it plainly, then naming it as the
+      competency.
+    lookLike: >-
+      A learner counts something they did not count before, and the goals they set afterwards get more
+      ambitious. You have evidence for the Set and Pursue Goals judgement that no workbook would show.
+  - aim: What comes next stays honest and within reach
+    how: >-
+      Keeping pathways conversations on the next controllable step rather than on futures that are
+      currently blocked, and — where a site can manage it — bringing an adult who matters into the
+      picture through the optional three-way meeting.
+    lookLike: >-
+      A learner leaves the final conversation holding something they can act on, whatever the readiness
+      decision was, rather than holding a verdict.
 totalFacilitatedHours: 0
 totalIndependentHours: 0
 cadence: "Ongoing · about 10 minutes per learner, most weeks"

@@ -151,6 +151,40 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
           </section>
         )}
 
+        {/* What this component is for. The three taught components state this by linking to their course;
+            a course-less component (Mentoring and Wellbeing) carries `purpose` and `aims` on the unit
+            itself, and this is where they render — the same content the printed guide opens with. */}
+        {(u.purpose || u.aims.length > 0) && (
+          <section className="mt-10">
+            <p className={`${eyebrow} text-plum`}>What this component is for</p>
+            {u.purpose && (
+              <div className="mt-2 text-[15px] leading-relaxed text-[#3C4655]"><Prose text={u.purpose} /></div>
+            )}
+            {u.aims.length > 0 && (
+              <>
+                <h2 className={`${headFont.className} mt-6 text-lg font-bold text-navy`}>What it is working towards</h2>
+                <ol className="mt-3 space-y-4">
+                  {u.aims.map((a, i) => (
+                    <li key={i} className="rounded-xl border border-[#E7E3DA] bg-white p-5">
+                      <p className={`${headFont.className} font-bold text-[#26303F]`}>
+                        <span className="text-orange">{i + 1}.</span> {a.aim}
+                      </p>
+                      <p className="mt-2 text-[15px] leading-relaxed text-[#3C4655]">
+                        <span className="font-semibold text-navy">What you do: </span>{a.how}
+                      </p>
+                      {a.lookLike && (
+                        <p className="mt-1 text-[15px] leading-relaxed text-[#6B7482]">
+                          <span className="font-semibold">What it looks like when it is working: </span>{a.lookLike}
+                        </p>
+                      )}
+                    </li>
+                  ))}
+                </ol>
+              </>
+            )}
+          </section>
+        )}
+
         {/* In this unit — overview */}
         <section className="mt-10">
           <p className={`${eyebrow} text-[#8A93A1]`}>In this unit</p>

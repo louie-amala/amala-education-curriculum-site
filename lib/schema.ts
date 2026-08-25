@@ -731,6 +731,20 @@ export const UnitSchema = z.object({
   // Total hours this component takes, split facilitated / independent (e.g. 30 + 20 = 50).
   totalFacilitatedHours: z.number(),
   totalIndependentHours: z.number(),
+  // For a COURSE-LESS component. The three taught components state what they are working towards by
+  // rendering their course guide (purpose, anchor competency, objectives). Mentoring and Wellbeing has
+  // no course, so it carries the equivalent here — otherwise it is the one component whose plan says
+  // what to do and never what it is for.
+  purpose: z.string().nullable().optional(),
+  aims: z
+    .array(z.object({
+      aim: z.string(),
+      // What the mentor is actually doing towards it.
+      how: z.string(),
+      // How you would know it is happening.
+      lookLike: z.string().nullable().optional(),
+    }))
+    .default([]),
   // For a component that is NOT time-bound — Mentoring and Wellbeing runs as regular conversations
   // folded into the other components' in-person time, so it adds no hours of its own. Such a unit sets
   // both totals to 0 and describes its rhythm here; the hours badge is replaced by this. Mirrors the
