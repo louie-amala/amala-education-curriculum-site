@@ -749,7 +749,7 @@ const FSI1_READING = {
   expert: 'A second, distinct investigation in which they carried through an improvement identified in the first.',
 };
 const scaleTable = () => {
-  const colW = [300, 2500, 5200, 2800];
+  const colW = scaleW([300, 2500, 5200, 2800]);
   const head = ['', 'Level', 'The learner (Amala’s scale)', 'In this component (FSI1)'];
   const rows = [new TableRow({ tableHeader: true, children: head.map((t, i) => new TableCell({
     width: { size: colW[i], type: WidthType.DXA },
@@ -770,7 +770,7 @@ function rubricChildren() {
   c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 44, color: NAVY })], spacing: { after: 40 } }));
   c.push(P('Assessment record - Investigate real-world issues (FSI1)', { size: 24, bold: true, color: PLUM, after: 40 }));
   c.push(P("Learning Bridge+ (Cox's Bazar)  ·  Facilitator - make one copy per learner", { size: 20, color: GREY, after: 160 }));
-  c.push(P('Judge each learner by your professional judgement against Amala’s proficiency scale, from evidence gathered across the whole research book - not from the final output alone. Full guidance is in the facilitator guide ("Assessing the investigation"). Tick the level and write one or two lines of evidence for why.', { size: 22, after: 120 }));
+  c.push(P('Judge each learner by your professional judgement against Amala’s proficiency scale, from evidence gathered wherever you saw it, not from the final output alone and not only from this component. Full guidance is in the facilitator guide ("Assessing the investigation"). Tick the level and write one or two lines of evidence for why.', { size: 22, after: 120 }));
   c.push(P('The scale is generic: one ladder, read against the goal FSI1 names - the learner can conduct primary and secondary research into challenges affecting people and the planet to develop actionable insights. Credit begins at Practitioner, which is also the readiness bar for the accredited secondary pathway. Expert needs two or more genuinely different scenarios, so it rarely comes from this component alone.', { size: 20, color: GREY, after: 160 }));
   c.push(P('Learner: ______________________________', { size: 22, after: 200 }));
   const point = (title) => {

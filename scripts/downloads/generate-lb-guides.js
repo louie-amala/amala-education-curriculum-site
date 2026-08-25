@@ -537,11 +537,16 @@ function educatorGuide() {
   part(3, 'Assessing the two competencies', 'Your judgement, across varied evidence, gathered as you teach - a supported judgement at Week 6 and a final one at Week 12.');
 
   sec('3.1  What you are assessing');
-  c.push(P('You are assessing two competencies against Amala’s Proficiency Scale. Assessment is your judgement across varied evidence - not a single test - and it is gathered as you teach.', { size: 22 }));
-  c.push(twoCol(['Competency', 'Where it is developed'], [
+  c.push(P('You are assessing two competencies against Amala’s Proficiency Scale. You are judging the COMPETENCY, not the component: has this learner demonstrated it, and at what proficiency? That judgement is yours, made across varied evidence gathered as you teach, and never from a single test.', { size: 22 }));
+  c.push(twoCol(['Competency', 'Which component is built to develop it'], [
     ['Set and Pursue Goals (FSL2)', 'Agency in Learning - setting clear learning goals and taking deliberate steps toward them. Record in Part 9A.'],
     ['Investigate Real World Issues (FSI1)', 'The Research Project - researching a real challenge to develop actionable insights. Record in Part 9B.'],
   ]));
+  c.push(callout('Evidence can come from anywhere', [
+    'Each component is built to develop one of the two competencies, but the evidence for a judgement is not confined to it. A learner may show Set and Pursue Goals in how they organised their part of the research, or in a mentoring conversation, or in something they did at home. A learner may show Investigate Real World Issues in a question they asked in an English session.',
+    'So collect it wherever you see it. If you only look inside the matching component, you will miss evidence, and you will most often miss it for the learners whose strongest work is spoken.',
+    'The two judgement points are Week 6 and Week 12. That is when you sit with the proficiency scale for that competency and decide where the learner sits on it. Everything before that is collecting.',
+  ], OLIVE));
   c.push(P('English is compulsory but is not one of the two graded competencies: its assessment is formative, against the A1 Can-Do outcomes and each learner’s own growth. The "I can…" sheet in the My Voice book is how you track it.', { size: 22 }));
   c.push(...agencyByCompetencyChildren((t) => H3(t)));
 
@@ -708,7 +713,7 @@ const bigFill = (lead) => new Paragraph({
 // learner who cannot read a rubric can still see the distance between their two marks. The steps are
 // the learner-facing reading of the same proficiency scale the educator records use.
 function twiceMarkedLadder(items) {
-  const colW = [1350, 1350, 8100];
+  const colW = S.scaleW([1350, 1350, 8100]);
   const headCell = (t) => new TableCell({
     width: { size: colW[0], type: WidthType.DXA },
     shading: { fill: 'F0ECE3' },
@@ -747,7 +752,7 @@ function twiceMarkedLadder(items) {
 // was talked about. The book goes home with the learner, so it must not be a place a disclosure is
 // recorded; the educator's own note stays with the educator, under NRC's policy.
 function mentoringRows(n) {
-  const colW = [1200, 7600, 2000];
+  const colW = S.scaleW([1200, 7600, 2000]);
   const head = ['Week', 'The one step I will take before we meet again', 'Done'];
   const rows = [new TableRow({ tableHeader: true, children: head.map((t, i) => new TableCell({
     width: { size: colW[i], type: WidthType.DXA },
@@ -919,7 +924,7 @@ function studentWorkbook() {
 // The twelve weeks as two rows of six, with the two "how I have grown" weeks starred. Visual on
 // purpose: a learner who cannot read the labels can still count to their week and see the stars.
 function weekStrip() {
-  const cols = 6, colW = Math.floor(10800 / cols);
+  const cols = 6, colW = Math.floor(S.COL / cols);
   const cell = (w) => {
     const starred = w === 6 || w === 12;
     return new TableCell({

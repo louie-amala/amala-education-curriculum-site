@@ -217,7 +217,7 @@ const ifThenFrame = () => [
 // A repeating weekly loop - the scaffold for the between-session pursuit. One row per week:
 // the step, whether it happened, and what got in the way. This replaces the blank sticker grid.
 const weeklySpread = (weeks) => {
-  const W = [900, 3900, 1500, 4500];
+  const W = S.scaleW([900, 3900, 1500, 4500]);
   const headCell = (t, i) => new TableCell({
     width: { size: W[i], type: WidthType.DXA }, shading: { fill: 'F0ECE3' },
     margins: { top: 60, bottom: 60, left: 120, right: 120 },
@@ -430,7 +430,7 @@ function workbookChildren(opts = {}) {
   page('Understand yourself', 'How I learn best', 'How I learn best', 'Mark when you learn best, and who and what helps you.', 'cb-ail-how-i-learn-page');
   c.push(new Table({
     width: { size: 100, type: WidthType.PERCENTAGE },
-    columnWidths: [3600, 3600, 3600],
+    columnWidths: S.scaleW([3600, 3600, 3600]),
     rows: [new TableRow({ children: [['sunrise', 'morning'], ['sun', 'midday'], ['moon', 'night']].map(([ic, t]) => new TableCell({
       width: { size: 3600, type: WidthType.DXA },
       margins: { top: 120, bottom: 120, left: 160, right: 160 },
@@ -596,7 +596,7 @@ const FSL2_READING = {
   expert: 'A second, distinct goal in which they carried through an improvement identified in the first.',
 };
 const scaleTable = () => {
-  const colW = [300, 2500, 5200, 2800];
+  const colW = S.scaleW([300, 2500, 5200, 2800]);
   const head = ['', 'Level', 'The learner (Amala\u2019s scale)', 'In this component (FSL2)'];
   const rows = [new TableRow({ tableHeader: true, children: head.map((t, i) => new TableCell({
     width: { size: colW[i], type: WidthType.DXA },

@@ -280,7 +280,7 @@ function workbookChildren(opts = {}) {
   };
 
   const labelBoxes = (items, cols, cellH) => {
-    const colW = Math.floor(10800 / cols);
+    const colW = Math.floor(COL / cols);
     const rows = [];
     for (let i = 0; i < items.length; i += cols) {
       const slice = items.slice(i, i + cols); while (slice.length < cols) slice.push('');
@@ -351,7 +351,7 @@ function workbookChildren(opts = {}) {
     new TableCell({ width: { size: 7200, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: it, size: 21 })] })] }),
     ...[0, 1].map(() => new TableCell({ width: { size: 1800, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: ':)   :|   :(', size: 20, color: GREY })] })] })),
   ] })));
-  c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [7200, 1800, 1800], rows: rowsC }));
+  c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: S.scaleW([7200, 1800, 1800]), rows: rowsC }));
   endPage();
 
   // --- Where I can practise (people/places, with a worked example) ---
@@ -439,7 +439,7 @@ function workbookChildren(opts = {}) {
   // --- My sounds and words (the learner's phonics-table tool: draw · English word · my word) ---
   learnIt('cb-mv-key-sounds-and-games');
   head('Key sounds through games', 'My sounds and words', 'This is your own word collection - keep adding to it all course long. Draw a thing, write its English word, and add your own word.');
-  const swW = [5400, 2700, 2700];
+  const swW = S.scaleW([5400, 2700, 2700]);
   const swCell = (t, opts = {}) => new TableCell({ width: { size: opts.w, type: WidthType.DXA }, margins: opts.tint ? MODEL_MARGINS : undefined, shading: opts.tint ? { type: ShadingType.CLEAR, color: 'auto', fill: TINT } : undefined, children: [new Paragraph({ children: [new TextRun({ text: t, bold: opts.bold, italics: opts.italics, size: 20, color: opts.color || NAVY })] })] });
   const swRows = [
     new TableRow({ children: ['Draw the thing', 'English word', 'My own word'].map((t, i) => swCell(t, { w: swW[i], tint: true, bold: true, color: OLIVE })) }),
@@ -470,7 +470,7 @@ function workbookChildren(opts = {}) {
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: 90 } }));
   const labelsRow = (a, b2) => new TableRow({ children: [a, b2].map((t) => new TableCell({ width: { size: 5400, type: WidthType.DXA }, children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 22, color: PLUM })] }), new Paragraph('')] })) });
   const drawRow = () => new TableRow({ height: { value: 2400, rule: 'atLeast' }, children: [0, 1].map(() => new TableCell({ width: { size: 5400, type: WidthType.DXA }, children: [new Paragraph('')] })) });
-  c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [5400, 5400], rows: [labelsRow('My family', 'Where I am from'), drawRow(), labelsRow('Things I like', 'Food I like'), drawRow()] }));
+  c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: S.scaleW([5400, 5400]), rows: [labelsRow('My family', 'Where I am from'), drawRow(), labelsRow('Things I like', 'Food I like'), drawRow()] }));
   c.push(new Paragraph({ spacing: { before: 200, after: 60 }, children: [new TextRun({ text: 'I am ', size: 24, color: NAVY }), new TextRun({ text: '____', size: 24, color: NAVY }), new TextRun({ text: ' years old.        I speak ', size: 24, color: NAVY }), new TextRun({ text: '____________', size: 24, color: NAVY })] }));
   c.push(scribeNote());
   endPage();
@@ -553,8 +553,8 @@ function workbookChildren(opts = {}) {
   head('Make your My Name, My Voice card', 'My Name, My Voice', 'Make your card. It has a place for everything - your name, a picture, and your words. You choose what to show.');
   c.push(modelBox(['MY NAME:  Nur', '(a picture of Nur and a flower)', 'I am from Myanmar.    I like flowers.'], { label: 'Like this - a finished card' }));
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: 100 } }));
-  const cardRow = (labelText, h, big) => new TableRow({ height: { value: h, rule: 'atLeast' }, children: [new TableCell({ width: { size: 10800, type: WidthType.DXA }, margins: MODEL_MARGINS, children: [new Paragraph({ children: [new TextRun({ text: labelText, bold: true, size: big ? 22 : 20, color: PLUM })] })] })] });
-  c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [10800], rows: [
+  const cardRow = (labelText, h, big) => new TableRow({ height: { value: h, rule: 'atLeast' }, children: [new TableCell({ width: { size: COL, type: WidthType.DXA }, margins: MODEL_MARGINS, children: [new Paragraph({ children: [new TextRun({ text: labelText, bold: true, size: big ? 22 : 20, color: PLUM })] })] })] });
+  c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [S.COL], rows: [
     cardRow('MY NAME  (write it BIG):', 1500, true),
     cardRow('A picture of me, or something that shows who I am:', 3200),
     cardRow('I am from ________________          I like ________________', 1200),
@@ -606,7 +606,7 @@ function workbookChildren(opts = {}) {
 function cardsChildren() {
   const c = [];
   const bigCellGrid = (items, cols, rowH, fmt) => {
-    const colW = Math.floor(10800 / cols);
+    const colW = Math.floor(COL / cols);
     const trs = [];
     for (let i = 0; i < items.length; i += cols) {
       const rowItems = items.slice(i, i + cols);

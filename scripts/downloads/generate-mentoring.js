@@ -189,7 +189,7 @@ const line = (label, width = '____________________________') =>
   });
 
 function weekTable(rows = 12) {
-  const colW = [900, 3600, 3400, 2100, 800];
+  const colW = S.scaleW([900, 3600, 3400, 2100, 800]);
   const head = ['Week', 'Step we agreed', 'What I noticed (facts, not diagnosis)', 'Last step happened?', 'Flag'];
   const trs = [new TableRow({ tableHeader: true, children: head.map((t, i) => new TableCell({
     width: { size: colW[i], type: WidthType.DXA },

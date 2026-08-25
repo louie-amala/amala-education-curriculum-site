@@ -13,6 +13,8 @@ const {
   Document, Packer, Paragraph, TextRun, AlignmentType,
   Table, TableRow, TableCell, WidthType, BorderStyle, PageBreak, HeadingLevel,
 } = require('docx');
+// The A4 text column and the width scaler, shared so the page width is defined in one place.
+const { scaleW } = require('./lib/docx-style');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const OUT = process.env.OUT_DIR ? path.resolve(process.env.OUT_DIR) : path.join(ROOT, 'public', 'downloads');
@@ -102,7 +104,7 @@ function worksheetDoc() {
 function templateTable() {
   return new Table({
     width: { size: 100, type: WidthType.PERCENTAGE },
-    columnWidths: [2600, 8200],
+    columnWidths: scaleW([2600, 8200]),
     rows: BANDS.map((b) => bandRow(b, 1600)),
   });
 }

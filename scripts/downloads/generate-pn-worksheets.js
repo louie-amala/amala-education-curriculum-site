@@ -12,6 +12,8 @@ const {
   Document, Packer, Paragraph, TextRun, AlignmentType,
   Table, TableRow, TableCell, WidthType, BorderStyle, PageBreak, HeadingLevel,
 } = require('docx');
+// The A4 text column and the width scaler, shared so the page width is defined in one place.
+const { scaleW } = require('./lib/docx-style');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const OUT = process.env.OUT_DIR ? path.resolve(process.env.OUT_DIR) : path.join(ROOT, 'public', 'downloads');
@@ -46,7 +48,7 @@ function reviewGrid() {
       cell([new Paragraph({ children: [new TextRun({ text: b, bold: true, size: 20, color: PLUM })] })]),
     ] }));
   }
-  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [5100, 5100], rows });
+  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: scaleW([5100, 5100]), rows });
 }
 function peerReviewDoc() {
   const oneSheet = () => [
@@ -81,7 +83,7 @@ function frameworkTable() {
     cell([new Paragraph({ children: [new TextRun({ text: k, bold: true, size: 22, color: NAVY })] })], 2200, 'F1EEF3'),
     cell([new Paragraph({ children: [new TextRun({ text: v, size: 20, color: GREY })] }), ...writeLines(2)], 8600),
   ] }));
-  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [2200, 8600], rows });
+  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: scaleW([2200, 8600]), rows });
 }
 const RUBRIC = [
   ['Description', 'Describes the provocation, outlines its main ideas, and says who produced it.'],
@@ -98,7 +100,7 @@ function rubricTable() {
     cell([new Paragraph({ children: [new TextRun({ text: k, bold: true, size: 22, color: NAVY })] })], 2600),
     cell([new Paragraph({ children: [new TextRun({ text: v, size: 20, color: GREY })] })], 8200),
   ] }));
-  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [2600, 8200], rows: [header, ...rows] });
+  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: scaleW([2600, 8200]), rows: [header, ...rows] });
 }
 function provocationDoc() {
   return new Document({ sections: [{ properties: { page: LETTER }, children: [

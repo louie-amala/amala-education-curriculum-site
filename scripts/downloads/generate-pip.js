@@ -16,6 +16,8 @@ const {
   Document, Packer, Paragraph, TextRun, AlignmentType,
   Table, TableRow, TableCell, WidthType, BorderStyle, PageBreak, HeadingLevel,
 } = require('docx');
+// The A4 text column and the width scaler, shared so the page width is defined in one place.
+const { scaleW } = require('./lib/docx-style');
 
 const ROOT = path.resolve(__dirname, '..', '..');
 const OUT = process.env.OUT_DIR ? path.resolve(process.env.OUT_DIR) : path.join(ROOT, 'public', 'downloads');
@@ -61,7 +63,7 @@ const KSAV_ROWS = {
   ],
 };
 
-function ksavColWidth() { return [3200, 3200, 3200]; }
+function ksavColWidth() { return scaleW([3200, 3200, 3200]); }
 function ksavHeaderRow() {
   return new TableRow({ tableHeader: true, children: KSAV_COLS.map((c, i) => cell([
     new Paragraph({ children: [new TextRun({ text: c.name, bold: true, size: 22, color: 'FFFFFF' })] }),
@@ -116,7 +118,7 @@ const CB_COLS = [
   { name: 'Global challenge', prompt: 'Challenges that, if left unaddressed, would cause problems for the world. For example: climate change, inequality, the loss of nature.' },
 ];
 function cbTable(guided) {
-  const widths = [3200, 3200, 3200];
+  const widths = scaleW([3200, 3200, 3200]);
   const header = new TableRow({ tableHeader: true, children: CB_COLS.map((c, i) => headCell(c.name, widths[i])) });
   const promptRow = guided ? new TableRow({ children: CB_COLS.map((c, i) => cell([new Paragraph({ children: [new TextRun({ text: c.prompt, size: 17, color: GREY })] })], widths[i])) }) : null;
   const writeRow = new TableRow({ height: { value: 4200, rule: 'atLeast' }, children: CB_COLS.map((c, i) => cell([new Paragraph({ children: [new TextRun({ text: '', size: 22 })] })], widths[i])) });
@@ -223,7 +225,7 @@ const RUBRIC = [
   { c: 'Critical thinking', p: 'The student evaluates the trustworthiness of the sources they used, and outlines findings and recommendations supported by evidence (from their investigation and/or the literature).' },
 ];
 function rubricDoc() {
-  const widths = [2400, 4200, 3000];
+  const widths = scaleW([2400, 4200, 3000]);
   const header = new TableRow({ tableHeader: true, children: [headCell('Criterion', widths[0]), headCell('Passing criteria', widths[1]), headCell('Facilitator comments', widths[2])] });
   const rows = [header];
   for (const r of RUBRIC) {
