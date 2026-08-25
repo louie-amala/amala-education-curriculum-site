@@ -278,7 +278,7 @@ function coordinatorGuide() {
   c.push(numbered('Distribute the offline pack. Every resource is supplied ready-made and editable, distributed physically by USB or hard drive. The Educator Guide is the single document a facilitator delivers from - it carries the unit plans, the learner books, the cards and the assessment records inside it - with the picture-card PDF alongside on the USB.', 'setup'));
   c.push(numbered('Agree with each site how the learner books will reach learners: one printed book each is best, one shared between two or three works, and a single displayed copy with learners using notebooks is the floor. The books carry the teaching and the worked examples, so what matters is that every learner can SEE them - not that every learner owns one. The books are editable Word files, so pages can be cut before printing if paper is short.', 'setup'));
   c.push(numbered('Make the safeguarding pathway concrete at each site. Before any facilitator takes a mentoring caseload, make sure they know NRC’s Code of Conduct and the camp MHPSS and protection referral pathway - who to hand a concern to, and how.', 'setup'));
-  c.push(numbered('Run diagnostic intake. Place each learner, check English proficiency where needed (the cohort is below B1, many not yet literate in any language), and pair each learner with a mentor.', 'setup'));
+  c.push(numbered('Run diagnostic intake. Place each learner, check English proficiency where needed (expect the cohort to be below B1, with a range of literacy levels), and pair each learner with a mentor.', 'setup'));
   c.push(numbered('Plan the closing showcase early. The programme ends with ONE shared event in the last week, not three separate ones: learners present their research, show their "My Name, My Voice" card, and name one way they have grown - and each learner invites at least one person themselves. You need a space that can hold guests, a date fixed early enough for invitations, and the guest arrangements cleared against NRC\u2019s Code of Conduct. Confirm the same-gender seating and grouping plan BEFORE invitations go out.', 'setup'));
   c.push(numbered('Decide whether your sites will offer the optional significant adult meeting - a three-way conversation between a mentor, a learner, and one adult the learner chooses, best placed between Weeks 7 and 11. It is the fastest way to make a learner\u2019s growth visible to the people whose belief shapes what happens next, and it is genuinely demanding to organise. Run it for some learners and not others if that is what you can manage. Do not run it where there is an open protection concern. Full guidance is in the Educator Guide, Part 2.3.', 'setup'));
 
@@ -471,15 +471,15 @@ function educatorGuide() {
   sec('1.1  Your three roles');
   c.push(P('In this programme one person holds three functions. They are not three jobs - they feed each other. What you notice as a mentor shapes how you facilitate; what you see in sessions is the evidence you assess from.', { size: 22 }));
   c.push(twoCol(['Role', 'What it means here'], [
-    ['Facilitator', 'You run the sessions - 3 hours in-person and 2 hours independent per week, per component - delivering oral and visual first, in the language you share with learners. Parts 4 to 6 are your session-by-session guidance.'],
+    ['Facilitator', 'You run the sessions - 3 hours in-person and 2 hours independent per week, per component - working in the language you share with learners, and in whatever mix of speaking, drawing and writing suits the group in front of you. Parts 4 to 6 are your session-by-session guidance.'],
     ['Mentor', 'You know each learner as a person through short 1:1 conversations. You keep their learning goals alive between sessions, notice when something is wrong, and refer. Part 2.'],
     ['Assessor', 'You gather evidence as you teach and make a judgement of each learner in the two assessed competencies - a supported one at Week 6, a final one at Week 12. Part 3.'],
   ]));
 
   sec('1.2  How we deliver here');
-  c.push(P('Three things are rebuilt for this context. Hold all three, in every session.', { size: 22 }));
   c.push(H3('Oral and visual first'));
-  c.push(P('Most learners are not yet literate in any language. Deliver from the plain-English guide in the language you use with learners; learners draw, colour, and speak rather than read and write. The materials are built for this - lean on the say-aloud guidance rather than assuming subject expertise.', { size: 22 }));
+  c.push(P('Expect many learners to be at an early stage of literacy, in any language, and expect a range within one group. Deliver from the plain-English guide in the language you use with learners, and let learners answer by drawing, marking or speaking as well as by writing.', { size: 22 }));
+  c.push(P('How far you lean on that is your call. You are the one who can see who is in front of you, and the intake will tell you more than this guide can. Where a learner can read and write, let them - the materials do not stop anyone going further, and nobody should be handed the drawing version because of an assumption about the group.', { size: 22 }));
   c.push(H3('Learning goals within the learner’s control'));
   c.push(P('Goal-setting is reframed around near-term learning goals the learner can actually act on, not futures that are currently blocked. Keep the conversation about the next controllable step - honest and hopeful.', { size: 22 }));
   c.push(H3('Modular, so stop-start attendance never breaks the sequence'));
