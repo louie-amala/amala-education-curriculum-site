@@ -6,7 +6,7 @@ slug: cb-rp-running-this-offline
 access: partner
 edition: learning-bridge-coxs-bazar
 type: resource
-title: "Running the Research Project offline — start here"
+title: "Running the Research Project offline, start here"
 summary: >-
   The facilitator's start-here for delivering the Research Project with no internet: what is in the pack,
   the kit you need, what to prepare for each phase, how to run it orally and visually, how to hold the
@@ -30,18 +30,18 @@ educatorContent: |
 
   You have four things, all editable and printable:
 
-  - The Facilitator Unit Plan and Guide (this pack) — the full plan with every session's guidance, the
+  - The Facilitator Unit Plan and Guide (this pack), the full plan with every session's guidance, the
     source pack, and the original articles behind it.
-  - The Student Workbook — the research book each learner keeps: the sources to read, the research word
+  - The Student Workbook, the research book each learner keeps: the sources to read, the research word
     bank, and a page for each step of the investigation.
-  - The picture-word cards — printable cards for the research words, to build the word wall.
+  - The picture-word cards, printable cards for the research words, to build the word wall.
   - This start-here, the safeguarding and protection guide, and the assessment guide (all in this pack).
 
   ## What you need (kit)
 
   - One printed research book (student workbook) per learner, and a few spare blank pages.
   - Pencils, and colours if you have them.
-  - A wall or floor you can use — for the "before and now" picture, the know / find-out wall, the
+  - A wall or floor you can use, for the "before and now" picture, the know / find-out wall, the
     community map, the theme sorting, and the trust line. Big paper or a cleared wall space works.
   - Cards you can move around: for sorting evidence into themes, and for the trust line. Cut paper is fine.
   - The picture-word cards, cut out, for the word wall.
@@ -49,33 +49,33 @@ educatorContent: |
 
   ## What to prepare, phase by phase
 
-  - Getting started: a picture — or a story you can tell — of the hills before the camps and now.
+  - Getting started: a picture, or a story you can tell, of the hills before the camps and now.
     Prepare the research books so learners can make them their own on day one.
   - Frame the challenge: wall space for the "what we know / what we want to find out" wall and the
     community map. Keep both up all course.
   - Plan and conduct research: practise the consent words with the group before anyone gathers. Agree,
-    with the group and the community, who it is safe and appropriate to speak to — and plan girls'
+    with the group and the community, who it is safe and appropriate to speak to, and plan girls'
     gathering carefully (see the safeguarding guide).
   - Evaluate evidence: cards for theme-sorting; a line on the floor for the trust line.
-  - Communicate findings: whatever the learners choose for their output — paper for a poster, space for a
+  - Communicate findings: whatever the learners choose for their output, paper for a poster, space for a
     role-play, and time to rehearse.
   - Showcase and reflect: a warm space and, if possible, the audience the learners chose to invite.
 
   ## Running it with no screen or internet
 
   - Everything is oral and visual first. Read sources aloud. Let learners answer in drawings, marks, and
-    a few words — neat writing is never required.
+    a few words. Neat writing is never required.
   - The Student Workbook is designed to be printed and written in by hand. The source cards come at three
     reading levels (a real article, a B1 version, a simpler A1/A2 version) so you can meet each learner.
   - The research book is the spine of the whole course. It carries each learner's question, evidence, and
     thinking from the first day to the last. A learner who misses a week can pick their book back up and
-    see where they were — so protect it, and keep coming back to it.
+    see where they were, so protect it, and keep coming back to it.
   - Times are generous on purpose. Oral and visual work, drawing, and translation take longer than they
     look. It is fine to take two sessions over one block.
 
   ## Pictures you will need to make
 
-  The course is visual, so a few simple pictures do a lot of work. You do not need an artist — a clear
+  The course is visual, so a few simple pictures do a lot of work. You do not need an artist, a clear
   drawing, or a real photo if you have one, is enough. Prepare:
 
   - The hills "before and now": one showing the hills full of trees, one showing bare slopes today.
@@ -85,12 +85,12 @@ educatorContent: |
     planting on a slope). These help learners who are not yet reading follow the source.
 
   If your programme has an illustrator, these are the images to commission; until then, draw them with
-  the group — making the picture is itself part of the learning.
+  the group. Making the picture is itself part of the learning.
 agencyContribution:
   indicators:
   - contribution-to-community
   how: >-
-    A facilitator who is set up to run the investigation well — orally, visually, safely, and offline —
+    A facilitator who is set up to run the investigation well, orally, visually, safely, and offline,
     is what lets learners actually carry out a real investigation into their own community, which is the
     whole point of the course.
 principlesForegrounded: [authentic-challenges, safe-spaces]
@@ -102,7 +102,7 @@ principleAlignment:
 competencyCodes: [FSI1]
 competencyDevelopment:
 - code: FSI1
-  how: Everything here exists so learners can conduct a genuine primary and secondary investigation offline — the anchor competency in action.
+  how: Everything here exists so learners can conduct a genuine primary and secondary investigation offline, the anchor competency in action.
 objectiveIds: []
 relatedSlugs: [cb-rp-safeguarding-and-protection, cb-rp-assessing-the-research, cb-rp-secondary-source-pack]
 downloads:
@@ -110,7 +110,7 @@ downloads:
   file: /downloads/research-project-picture-cards.docx
   format: Word
   role: explainer
-  note: "Printable cards for the research words, to build the word wall — a draw-box on each, plus blank cards for learners' own words."
+  note: "Printable cards for the research words, to build the word wall. A draw-box on each, plus blank cards for learners' own words."
 provenanceNote: >-
   Authored facilitator start-here for the Learning Bridge+ (Cox's Bazar) Research Project edition:
   consolidates the practical set-up (pack, kit, prep, offline delivery, the research-book spine, and the
@@ -118,4 +118,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

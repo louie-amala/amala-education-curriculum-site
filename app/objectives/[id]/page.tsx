@@ -18,7 +18,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
   const o = getObjectiveById(id);
-  return { title: o ? `Objective — ${o.course.title}` : "Objective" };
+  return { title: o ? `Objective, ${o.course.title}` : "Objective" };
 }
 
 export default async function ObjectivePage({ params }: { params: Promise<{ id: string }> }) {

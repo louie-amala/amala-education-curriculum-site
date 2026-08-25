@@ -4,7 +4,7 @@ access: public
 type: educator-move
 title: "Facilitate with trauma sensitivity"
 summary: >-
-  Some learners have experienced trauma. Facilitate so you do no harm — a safe, predictable space,
+  Some learners have experienced trauma. Facilitate so you do no harm, a safe, predictable space,
   real choice, and clear routes to further support.
 tags:
   - id: learning-facilitation
@@ -16,14 +16,14 @@ educatorContent: |
   Some learners on your programme may have experienced trauma, and good facilitation starts from "do
   no harm". Build a safe, predictable environment: communicate rules, expectations and the session
   agenda, and keep them consistent to reduce anxiety. Use trauma-sensitive language and give content
-  warnings before sensitive topics. Offer genuine choice — let a learner step back, opt out, or take
-  part differently, without having to explain — and build in check-ins, breaks and moments of
+  warnings before sensitive topics. Offer genuine choice, let a learner step back, opt out, or take
+  part differently, without having to explain, and build in check-ins, breaks and moments of
   self-care.
 
   Model empathy and active listening so emotions are validated and every voice is heard without
   judgement. Know your limits: hold clear routes to further support and referral (mental-health or
   counselling services appropriate to your context), and follow your setting's safeguarding policy.
-  Balance structure with flexibility — a clear agenda, delivered adaptably to the needs of the group
+  Balance structure with flexibility, a clear agenda, delivered adaptably to the needs of the group
   in the room.
 agencyContribution:
   indicators:
@@ -43,11 +43,11 @@ principleAlignment:
 relatedSlugs:
   - cf-charged-discussions
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook"
 provenanceNote: >-
   Generalised from the Playbook's "Trauma Sensitivity" section. The referral / safeguarding-policy
   deferral is emphasised so the move never substitutes for the setting's own policy.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

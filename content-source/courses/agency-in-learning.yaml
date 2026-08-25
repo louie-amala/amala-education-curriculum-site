@@ -1,4 +1,4 @@
-# Agency in Learning — course guide for the Learning Bridge programme.
+# Agency in Learning, course guide for the Learning Bridge programme.
 # AUTHORED (not a verbatim extraction): designed backward from the anchor competency
 # FSL2 "Set and pursue goals". No dedicated source guide was supplied; content is derived from the
 # Learning Bridge Programme Overview's description of the Agency in Learning component (self-directed
@@ -8,7 +8,7 @@ id: agency-in-learning
 slug: agency-in-learning
 access: public
 title: Agency in Learning
-strapline: Take hold of your own learning — set a goal, and make deliberate progress towards it.
+strapline: Take hold of your own learning, set a goal, and make deliberate progress towards it.
 programmes: [learning-bridge]
 testimonial: null
 
@@ -17,7 +17,7 @@ purpose: >-
   ownership of their own growth. Learners come to understand themselves as learners, set clear and
   meaningful goals, plan and take deliberate steps towards them, and track and reflect on their
   progress. It is the course through which learners develop and demonstrate the competency Set and
-  pursue goals (FSL2) — the engine of self-direction they will rely on across upper secondary
+  pursue goals (FSL2), the engine of self-direction they will rely on across upper secondary
   transformative education and beyond.
 
 # The narrative spine of the course: agency for positive change → FSL2 → the objectives.
@@ -28,7 +28,7 @@ throughline:
     decisions that improve one's own life and contribute to positive change in the community. Self-
     direction is its engine: agency is only real when a learner can decide what they want to grow
     towards and take deliberate steps to get there. Setting and pursuing goals (FSL2) is the
-    competency by which a learner takes hold of their own learning and future — turning intention
+    competency by which a learner takes hold of their own learning and future, turning intention
     into tracked, deliberate action. It maps directly onto two markers of agency: power over
     wellbeing and self-direction, and control of and access to future pathways. A learner who can
     set and pursue their own goals is a learner who can direct their own path.
@@ -36,15 +36,15 @@ throughline:
     The four objectives sequence the self-directed learning cycle so learners both develop and
     demonstrate FSL2: they come to understand themselves as learners, set clear and meaningful goals,
     plan and take deliberate steps, and track progress, use feedback, and reflect on their growth.
-    FSL2 is foregrounded in every objective; the supporting competencies — self-reflection, continuous
-    learning, managing time and wellbeing, using feedback, and adaptable thinking — are the
+    FSL2 is foregrounded in every objective; the supporting competencies, self-reflection, continuous
+    learning, managing time and wellbeing, using feedback, and adaptable thinking, are the
     scaffolding that makes the anchor competency demonstrable.
   develops: >-
     Learners develop FSL2 by running a full goal cycle on their own learning. They start by
     understanding themselves as learners, set clear and meaningful goals, plan and take deliberate
     steps between sessions, and track progress, use feedback, and adapt. Because this runs across the
     whole course and is supported by 1:1 mentoring, goal-setting becomes a practised habit rather
-    than a one-off exercise — learners move from goals set with support towards goals they set,
+    than a one-off exercise. Learners move from goals set with support towards goals they set,
     pursue, and revise independently.
   demonstrates: >-
     Learners demonstrate FSL2 through the artefacts of self-direction: a learner profile, written
@@ -56,7 +56,7 @@ throughline:
 
 requirements:
   structuredHours: 50
-  durationWeeks: 10          # "minimum of 10 weeks"
+  durationWeeks: 10 # "minimum of 10 weeks"
   cadence: 10+ weeks
   liveIndependentSplit: 30 live / 20 independent
   notes: >-
@@ -69,15 +69,15 @@ objectives:
       Understand yourself as a learner as the basis for setting goals.
     anchorContribution:
       develops: >-
-        Learners build the foundation FSL2 rests on — knowing where they are now — by identifying
+        Learners build the foundation FSL2 rests on, knowing where they are now, by identifying
         their strengths, interests, and areas for development, and reflecting on what helps and
         hinders their learning.
       demonstrates: >-
         A learner profile and an honest self-assessment show the self-knowledge that makes a
-        meaningful, realistic goal possible — the starting evidence for FSL2.
+        meaningful, realistic goal possible. The starting evidence for FSL2.
     supportedTo:
       - Identify their own strengths, interests, and areas for development as a learner.
-      - Reflect on past learning experiences — what has helped them learn and what has held them back.
+      - Reflect on past learning experiences, what has helped them learn and what has held them back.
       - Recognise the conditions, habits, and strategies that support their own learning.
       - Articulate what they want to grow in and why it matters to them.
     furtherDetails:
@@ -96,12 +96,12 @@ objectives:
       Set clear, meaningful learning goals.
     anchorContribution:
       develops: >-
-        Learners develop the defining move of FSL2 — establishing clear objectives for their own
-        learning and growth — by turning vague aspirations into specific, achievable goals broken
+        Learners develop the defining move of FSL2, establishing clear objectives for their own
+        learning and growth, by turning vague aspirations into specific, achievable goals broken
         into trackable milestones.
       demonstrates: >-
         One or more clearly written, milestoned goals, connected to what matters to the learner,
-        demonstrate that they can set clear objectives for their own growth — the core of FSL2.
+        demonstrate that they can set clear objectives for their own growth. The core of FSL2.
     supportedTo:
       - Distinguish a vague wish from a clear, specific goal.
       - Write goals that are specific, realistic, and achievable within the course.
@@ -110,7 +110,7 @@ objectives:
     furtherDetails:
       concepts:
         - What makes a goal clear and achievable (e.g. specific, time-bound, within reach).
-        - Milestones — breaking a goal into steps you can track.
+        - Milestones, breaking a goal into steps you can track.
       activities:
         - Drafting one or more personal learning goals and refining them with feedback.
         - Turning a broad aspiration into a specific goal with milestones.
@@ -123,7 +123,7 @@ objectives:
       Plan and take deliberate steps towards your goals.
     anchorContribution:
       develops: >-
-        Learners develop the "pursue" in FSL2 — taking deliberate steps — by planning backwards from
+        Learners develop the "pursue" in FSL2, taking deliberate steps, by planning backwards from
         a goal, finding learning experiences and resources that move it forward, and managing their
         time to act between sessions.
       demonstrates: >-
@@ -151,13 +151,13 @@ objectives:
       Track progress, use feedback, and reflect on your growth.
     anchorContribution:
       develops: >-
-        Learners develop the sustaining side of FSL2 — keeping progress on track over time — by
+        Learners develop the sustaining side of FSL2, keeping progress on track over time, by
         monitoring their goals and milestones, seeking and using feedback, and adapting their plans
         when circumstances or evidence change.
       demonstrates: >-
         A progress tracker or learning journal kept over the course, and an end-of-course reflection
-        on growth against the original goals, demonstrate sustained, self-directed pursuit of a goal
-        — the full arc of FSL2.
+        on growth against the original goals, demonstrate sustained, self-directed pursuit of a goal.
+        The full arc of FSL2.
     supportedTo:
       - Monitor their progress against their goals and milestones.
       - Seek out and make use of feedback from peers, mentors, and educators.
@@ -191,7 +191,7 @@ principleMappings:
       - A supportive learning community sustains each learner's individual journey.
   - principle: lifeworthy-competencies
     inThisCourse:
-      - Learners practise self-direction — goal-setting, planning, time management, and reflection.
+      - Learners practise self-direction, goal-setting, planning, time management, and reflection.
       - These are habits learners will reuse throughout study, work, and life, underpinning every other Amala programme.
   - principle: authentic-challenges
     inThisCourse:
@@ -207,7 +207,7 @@ principleMappings:
       - They reflect on what they have achieved and articulate how they have developed.
   - principle: connect-to-futures
     inThisCourse:
-      - Learners connect their goals to the futures they are building — further study, work, and personal aspirations.
+      - Learners connect their goals to the futures they are building, further study, work, and personal aspirations.
       - Goal-setting is framed as a lifelong tool for shaping one's own path.
   - principle: feedback-and-data
     inThisCourse:
@@ -224,7 +224,7 @@ designChecklist:
   - My course design is appropriate for my context (e.g. safe and meaningful goals, resource-optimised, culturally and linguistically accessible).
   - My course design is mostly aligned with Amala's principles for transformative education (and where it is not aligned, I have reflected on how I can improve alignment in the future).
   - Course design supports learners in making progress towards all of the course objectives.
-  - Opportunities for learners to generate and submit evidence that can be used to evaluate their proficiency in the Amala competencies — especially the anchor competency FSL2 — are built into the course design.
+  - Opportunities for learners to generate and submit evidence that can be used to evaluate their proficiency in the Amala competencies, especially the anchor competency FSL2, are built into the course design.
 
 sourceIssues:
   - type: authored-not-extracted

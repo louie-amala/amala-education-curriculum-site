@@ -12,7 +12,7 @@ definition: >-
 explainer: |
   The problem tree is a causal diagram with a built-in discipline. The issue goes in the trunk. Its
   **consequences** branch upwards. Its **causes** run downwards as roots, and each root is pressed
-  with the same question — *why?* — until that line of enquiry is exhausted. The repeated "why" is
+  with the same question. *why?*, until that line of enquiry is exhausted. The repeated "why" is
   the whole method: it is what carries analysis past the first plausible cause, which is usually a
   symptom of something else.
 
@@ -24,7 +24,7 @@ explainer: |
   In peacebuilding the tree pairs naturally with Galtung's
   [violence triangle](/glossary/violence-triangle): the visible incident sits in the trunk, and the
   deeper roots usually turn out to be structural or cultural. The prompts that get learners moving
-  are worth keeping to hand — what disagreements sit under this, what beliefs, what assumptions,
+  are worth keeping to hand, what disagreements sit under this, what beliefs, what assumptions,
   whose needs are in conflict?
 
   Like [needs-fears mapping](/glossary/needs-fears-mapping), it shows one face of a conflict. It is

@@ -1,6 +1,6 @@
 # Contextualised, fully offline ACTIVITY for the Research Project component of Learning Bridge+ (Cox's
-# Bazar). Learners meet the two ways a researcher finds things out — asking people and looking here
-# (primary), and the supplied source pack (secondary) — and then learn research ethics as the heart of
+# Bazar). Learners meet the two ways a researcher finds things out, asking people and looking here
+# (primary), and the supplied source pack (secondary), and then learn research ethics as the heart of
 # the work, practising the consent request aloud until it is natural. Plan and conduct research phase
 # (objective 2). Oral and visual first; safeguarding is central because learners will soon speak to
 # real community members.
@@ -11,8 +11,8 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "Two ways to find out, and being a fair and safe researcher"
 summary: >-
-  Learners meet the two ways a researcher finds things out — asking people and looking around us here,
-  and studying what others have already found out in our source pack — and then learn how to do it
+  Learners meet the two ways a researcher finds things out, asking people and looking around us here,
+  and studying what others have already found out in our source pack, and then learn how to do it
   fairly and safely: ask before you ask, explain why, let people say no or stop, use no names, and put
   no one at risk. They practise the consent request aloud until it feels natural.
 facilitationContext:
@@ -21,10 +21,10 @@ primaryContext: group
 duration: "2 hours facilitated + 0.5 hour independent"
 grouping: "Whole group to introduce, then pairs to practise the consent request"
 whatLearnersDo:
-- Meet, with pictures, the two ways a researcher finds things out — asking and looking here (primary), and the supplied source pack (secondary).
+- Meet, with pictures, the two ways a researcher finds things out. Asking and looking here (primary), and the supplied source pack (secondary).
 - "Learn the rules that keep everyone safe and treated fairly: ask first, explain why, let people stop, use no names, risk no one."
 - Practise saying the consent request aloud in pairs, in our own language, until it comes easily.
-- Talk through what to do if someone is upset, and who to tell — the referral routine.
+- Talk through what to do if someone is upset, and who to tell. The referral routine.
 materialsAndPreparation:
 - "Two simple pictures or symbols: one for asking-and-looking-here, one for the source pack, to show the two ways side by side."
 - The community map made earlier in the course, to point to the real people and places learners might ask.
@@ -34,20 +34,20 @@ visuals:
 - kind: setup
   title: "Two ways to find out"
   caption: >-
-    Show the two ways side by side, with pictures. Point to the community map — those are the real people
+    Show the two ways side by side, with pictures. Point to the community map. Those are the real people
     the first way will take us to.
   spec:
     type: zones
     cardStyle: drawing
     zones:
     - label: "Ask & look here"
-      sublabel: "primary — first-hand"
+      sublabel: "primary, first-hand"
       tone: known
       cards:
       - "what a neighbour remembers"
       - "a bare slope after rain"
     - label: "The source pack"
-      sublabel: "secondary — what others found"
+      sublabel: "secondary, what others found"
       tone: neutral
       cards:
       - "what science found"
@@ -56,7 +56,7 @@ visuals:
   title: "Our rules for asking"
   caption: >-
     The consent routine and rules, rehearsed aloud until they come easily. Asking well is a gift, not a
-    hurdle — and same-gender pairs where that keeps a learner safe.
+    hurdle, and same-gender pairs where that keeps a learner safe.
   spec:
     type: zones
     zones:
@@ -70,7 +70,7 @@ visuals:
       - "Put no one at risk"
 facilitationNotes: >-
   The one thing to get right: teach the ethics as the heart of the work, not a footnote at the end.
-  Learners are about to speak with real neighbours, so being fair and safe is not a rule bolted on — it
+  Learners are about to speak with real neighbours, so being fair and safe is not a rule bolted on. It
   is what makes them researchers people can trust. Practise the consent request out loud, in the
   learners' own language, until it is natural, so that when the moment comes it is already in their
   mouths. Same-gender pairs where that is what keeps girls safe. Keep it warm: most people are glad to
@@ -79,7 +79,7 @@ steps:
 - title: "Two ways a researcher finds out"
   duration: "40 min"
   guidance: >-
-    Show the two ways side by side, with pictures. One way is asking people and looking around us here —
+    Show the two ways side by side, with pictures. One way is asking people and looking around us here, 
     what a neighbour remembers, what a bare slope looks like after rain. The other way is studying what
     others have already found out, which for us lives in the supplied source pack. Point to the
     community map: those are the real people and places the first way will take us to.
@@ -91,7 +91,7 @@ steps:
   guidance: >-
     Teach the ethics simply and with feeling, one rule at a time, using little role-plays. Ask before
     you ask. Explain why you are asking. Let people say no, or stop whenever they want. Never use
-    anyone's name. Never put anyone — the person you ask, or yourself — at risk to get an answer. Show a
+    anyone's name. Never put anyone, the person you ask, or yourself, at risk to get an answer. Show a
     good version and a poor version of the same moment and let learners spot the difference.
   keyPrompts:
   - "What could you say so a person knows they can stop any time?"
@@ -104,7 +104,7 @@ steps:
   guidance: >-
     In pairs, learners practise the consent request in their own language until it comes easily: may I
     ask you some questions? It is for our group's project about our hills. You do not have to answer, and
-    you can stop any time. Swap roles, try it as a shy person, a busy person, someone who says no — and
+    you can stop any time. Swap roles, try it as a shy person, a busy person, someone who says no, and
     practise accepting a no warmly. This is the routine they will carry into every gathering session.
   keyPrompts:
   - "How did it feel to ask? How did it feel to be asked?"
@@ -119,7 +119,7 @@ educatorContent: |
   ### Consent is a moment, not a form
 
   There is nothing to sign and nothing to file. Consent here is: I say who I am, I say what I am doing
-  and why, I ask if it is all right, and I accept whatever answer I get — including a no in the middle,
+  and why, I ask if it is all right, and I accept whatever answer I get. Including a no in the middle,
   after they have already started. Model it in ten seconds, then have every learner say it aloud once in
   the language they will actually use. Saying it out loud is the whole point; reading it is not enough.
 
@@ -128,13 +128,13 @@ educatorContent: |
   Learners will not see why anonymity matters, because these are their neighbours. Give them the real
   reason in one sentence: what people say about the hills, about who cut trees, or about what agencies
   do can travel back to them, and we will not be the reason it does. So we record "an elder", not a
-  name. This is also why the gathering pages have no name column — they are built so the rule is easy
+  name. This is also why the gathering pages have no name column. They are built so the rule is easy
   to keep.
 
   ### The line learners will actually hit
 
   It is not consent. It is **pressing**: a shy answer, a learner who wants a better one, and one more
-  question. Name that out loud, and give them the alternative — thank them and go to the next person.
+  question. Name that out loud, and give them the alternative. Thank them and go to the next person.
   The second is asking about something painful. The trees touch landslides, lost shelters and lost
   people. Learners do not have to avoid the subject, but they never ask a person to tell their own loss,
   and if someone becomes upset they stop, stay kind, and tell you. Make sure they know they can, and
@@ -177,7 +177,7 @@ learnerTeaching:
 
     ### Being honest is part of being safe
 
-    We write down what people really said — not what we hoped. If only three people said something, we
+    We write down what people really said, not what we hoped. If only three people said something, we
     do not later say "everyone thinks this."
 
     Asking well is not a hurdle. Most people are glad someone asked them.
@@ -198,16 +198,16 @@ learnerTeaching:
     - "A man starts to cry when he talks about the flood. You keep asking, because his answer is good."
     - "You did not find anyone today. You write down what you think they would have said."
     answers:
-    - Not all right. She has told you she is busy — that is a no. Thank her, and go to the next person.
+    - Not all right. She has told you she is busy. That is a no. Thank her, and go to the next person.
     - "All right. That is exactly how we record it: what kind of person, and never a name."
     - Not all right. Stop asking. Stay kind, and tell your teacher afterwards.
     - Not all right. That is not evidence, it is a guess. Write down nothing, and try again another day.
     then: >-
       If one of your answers surprises you, read the five rules again.
 learnerContent: |
-  ## Two ways to find out — and doing it fairly and safely
+  ## Two ways to find out: and doing it fairly and safely
 
-  A researcher finds things out in two ways. One way is by asking people and looking around us here —
+  A researcher finds things out in two ways. One way is by asking people and looking around us here, 
   this is our own, first-hand finding out. The other way is by studying what other people have already
   found out, which for us is our source pack.
 
@@ -216,20 +216,20 @@ learnerContent: |
   - Ask first: "May I ask you some questions?"
   - Say why we are asking.
   - Let the person say no, or stop whenever they want.
-  - Use no names — we never say or write who told us.
-  - Keep everyone safe — we never put another person, or ourselves, at risk to get an answer.
+  - Use no names, we never say or write who told us.
+  - Keep everyone safe, we never put another person, or ourselves, at risk to get an answer.
 
   Asking well is a gift, not a hurdle. Most people are glad to be asked. If anyone is upset, we stop,
   and we tell our teacher.
 worksheet:
   slug: cb-rp-asking-permission
-  note: "In the research book (student workbook): the 'Asking permission' reminder page — the consent words in our own language and the rules to keep. Print one per learner."
+  note: "In the research book (student workbook): the 'Asking permission' reminder page, the consent words in our own language and the rules to keep. Print one per learner."
 agencyContribution:
   indicators:
   - contribution-to-community
   - power-over-wellbeing-and-self-direction
   how: >-
-    Learners learn to gather knowledge from their own community with care and consent — treating
+    Learners learn to gather knowledge from their own community with care and consent, treating
     neighbours as people with a right to say no, and holding their own safety too. This is the ethical
     ground of acting on a shared challenge without doing harm.
 principlesForegrounded: [responsible-action, safe-spaces, collaboration]
@@ -243,7 +243,7 @@ principleAlignment:
 competencyCodes: [FSI1, FLC1]
 competencyDevelopment:
 - code: FSI1
-  how: Knowing the two ways a researcher finds things out — primary and secondary — is the plan behind conducting the investigation.
+  how: Knowing the two ways a researcher finds things out, primary and secondary, is the plan behind conducting the investigation.
 - code: FLC1
   how: Asking consent, protecting names, and risking no one is ethical action put into practice at the heart of the research.
 objectiveIds: [research-project--o2]
@@ -256,4 +256,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

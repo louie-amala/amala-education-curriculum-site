@@ -4,13 +4,13 @@ access: public
 type: educator-move
 title: "Make learning and thinking visible"
 summary: >-
-  You can't support learning you can't see. The overarching move — surface what every learner knows
-  and thinks — with a family of specific techniques underneath it.
+  You can't support learning you can't see. The overarching move, surface what every learner knows
+  and thinks, with a family of specific techniques underneath it.
 tags:
   - id: learning-facilitation
     how: >-
       When facilitating, keep asking yourself "how do I know what they're thinking right now?" and reach
-      for a specific technique — no hands up, think-pair-share, wait time, a quick check — to find out.
+      for a specific technique, no hands up, think-pair-share, wait time, a quick check, to find out.
   - id: learning-design
     how: >-
       When designing, build moments to surface thinking into the plan rather than hoping it happens:
@@ -23,24 +23,24 @@ facilitationContext:
 primaryContext: group
 educatorContent: |
   You cannot see inside learners' heads, so you have to engineer situations that surface their
-  thinking — and make sharing half-formed ideas safe and normal. This is the overarching move; a family
+  thinking, and make sharing half-formed ideas safe and normal. This is the overarching move; a family
   of specific techniques sits underneath it, each its own move:
 
-  - Choose who answers (no hands up) — so you hear the whole group, not just the confident.
-  - Think, pair, share — everyone thinks and rehearses before anyone speaks.
-  - Build in wait time — a few seconds of silence lifts the quality and spread of answers.
-  - Examples and non-examples — a fast sort that reveals what learners really grasp.
-  - Quick checks: exit tickets and hinge questions — a whole-group read in seconds.
-  - Plan your questions — aimed at the learning, and free of the common traps.
+  - Choose who answers (no hands up), so you hear the whole group, not just the confident.
+  - Think, pair, share. Everyone thinks and rehearses before anyone speaks.
+  - Build in wait time, a few seconds of silence lifts the quality and spread of answers.
+  - Examples and non-examples, a fast sort that reveals what learners really grasp.
+  - Quick checks: exit tickets and hinge questions, a whole-group read in seconds.
+  - Plan your questions, aimed at the learning, and free of the common traps.
 
   Two habits run through all of them: interpret rather than evaluate (a wrong answer shows you where to
-  go next), and ask learners to justify their thinking. Other quick tools help too — sentence starters,
+  go next), and ask learners to justify their thinking. Other quick tools help too, sentence starters,
   getting thinking down on paper, concept sorts.
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction
   how: >-
-    When every learner's thinking is surfaced and valued — not just the confident few — each learner
+    When every learner's thinking is surfaced and valued, not just the confident few, each learner
     is positioned as an active participant in, and owner of, their own learning.
 principleAlignment:
   - principle: feedback-and-data
@@ -59,12 +59,12 @@ relatedSlugs:
   - cf-quick-checks
   - cf-plan-your-questions
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook, Course Facilitator Playbook"
 provenanceNote: >-
-  Generalised from the Playbook's "Making Learning and Thinking Visible" section — no-hands-up,
+  Generalised from the Playbook's "Making Learning and Thinking Visible" section, no-hands-up,
   think-pair-share, wait time, hinge questions, exit tickets, interpret-don't-evaluate, ask learners
   to justify (techniques from Wiliam & Leahy, 2015).
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

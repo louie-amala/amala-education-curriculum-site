@@ -9,7 +9,7 @@ parentModuleSlug: investigating-real-world-issues
 skill:
   label: Weigh evidence and turn it into actionable insight
   description: >-
-    Move from raw findings to insight — judging the credibility of sources, organising data so
+    Move from raw findings to insight, judging the credibility of sources, organising data so
     patterns show, and distilling a small number of clear, evidence-based, actionable insights.
 summary: >-
   The analytical heart of the cycle: evaluating how much to trust each source, then turning a pile of
@@ -19,7 +19,7 @@ agencyNote: >-
   and becomes someone whose conclusions can guide action.
 anchorContribution:
   develops: >-
-    Learners develop the analytical heart of FSI1 — moving from raw data to insight — by weighing
+    Learners develop the analytical heart of FSI1, moving from raw data to insight, by weighing
     source credibility, organising evidence so patterns show, and distilling actionable insights.
   demonstrates: >-
     Assess this from an evidence log annotated with credibility judgements, data sorted into themes or
@@ -60,7 +60,7 @@ plan:
       facilitatedHours: 0.25
       guidance: >-
         Bring together the primary data and the secondary evidence log from the previous two skills.
-        Learners cannot evaluate what they cannot see — get it all on the table first.
+        Learners cannot evaluate what they cannot see, get it all on the table first.
     - title: Evaluate the sources
       kind: activity
       materialSlug: evidence-log-and-source-evaluation
@@ -80,11 +80,11 @@ plan:
       materialSlug: dc-creating-insight-statements
       facilitatedHours: 1
       guidance: >-
-        Distil the patterns into a small number of clear, actionable insights — not a summary of
+        Distil the patterns into a small number of clear, actionable insights, not a summary of
         findings. Push learners to state what the evidence means and why it matters.
     - title: An evidenced insights statement
       kind: consolidation
       facilitatedHours: 0.25
       guidance: >-
-        Learners hold an insights statement backed by evaluated evidence and named patterns — the
+        Learners hold an insights statement backed by evaluated evidence and named patterns, the
         assessable outcome of this skill, and the message they will communicate next.

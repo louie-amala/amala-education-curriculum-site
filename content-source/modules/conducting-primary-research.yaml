@@ -10,18 +10,18 @@ parentModuleSlug: investigating-real-world-issues
 skill:
   label: Plan and conduct ethical primary research
   description: >-
-    Gather first-hand evidence from people and places — choosing a method, designing simple
+    Gather first-hand evidence from people and places, choosing a method, designing simple
     instruments (interviews, surveys, observation), and collecting data ethically, with consent,
     privacy, and the safety of participants front of mind.
 summary: >-
   Getting evidence straight from the community: planning the research, designing interview and survey
   instruments, and gathering data ethically from the people closest to the challenge.
 agencyNote: >-
-  Primary research puts learners in direct, respectful contact with their community — listening to
+  Primary research puts learners in direct, respectful contact with their community. Listening to
   people affected by the challenge and treating their perspectives as legitimate evidence.
 anchorContribution:
   develops: >-
-    Learners develop the core of FSI1 — actually conducting research — by choosing methods suited to
+    Learners develop the core of FSI1, actually conducting research, by choosing methods suited to
     their question, designing simple instruments, and gathering data ethically from community members.
   demonstrates: >-
     Assess this from a drafted and piloted interview guide or survey, a set of completed interviews,
@@ -33,8 +33,8 @@ anchorContribution:
 competencyDevelopment:
   - code: FTS3
     how: >-
-      Collecting and systematically recording primary data — interview notes, survey responses,
-      observations — builds and shows the ability to gather and organise data.
+      Collecting and systematically recording primary data, interview notes, survey responses,
+      observations, builds and shows the ability to gather and organise data.
   - code: FLC1
     how: >-
       Planning and running the research with informed consent, privacy, and participant safety in mind
@@ -48,7 +48,7 @@ materialSlugs:
 
 plan:
   summary: >-
-    Turn the research question into a plan and gather first-hand evidence — ethically. Learners plan,
+    Turn the research question into a plan and gather first-hand evidence, ethically. Learners plan,
     commit to ethical practice, then build and use the specific instruments (community interviews,
     surveys, expert interviews) their question needs.
   steps:
@@ -71,7 +71,7 @@ plan:
       facilitatedHours: 1
       guidance: >-
         Before designing any instrument, establish consent, privacy and do-no-harm. Doing this now
-        means ethics shapes the instruments rather than being bolted on afterwards — this is your FLC1
+        means ethics shapes the instruments rather than being bolted on afterwards. This is your FLC1
         evidence.
     - title: Interview the community
       kind: activity
@@ -79,7 +79,7 @@ plan:
       facilitatedHours: 1.5
       guidance: >-
         Use the stakeholder map to choose whom to interview, and run empathy interviews to hear from
-        people affected. This is learners' first real primary data — model good listening before they
+        people affected. This is learners' first real primary data, model good listening before they
         go solo.
       independentTask: Conduct one short interview with someone connected to the challenge.
     - title: Design a survey

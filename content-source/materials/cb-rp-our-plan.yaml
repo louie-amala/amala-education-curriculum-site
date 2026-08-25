@@ -1,15 +1,15 @@
 # Student worksheet (resource) for cb-rp-choose-format-and-audience. Thin per §3: what the sheet is and
-# how the learner uses it. Ships no file of its own — its printable version compiles into the Research
+# how the learner uses it. Ships no file of its own, its printable version compiles into the Research
 # Project student workbook. Learning Bridge+ (Cox's Bazar) edition. Phase 5 "Communicate findings".
 id: cb-rp-our-plan
 slug: cb-rp-our-plan
 access: partner
 edition: learning-bridge-coxs-bazar
 type: resource
-title: "Who we will tell, and how — our plan"
+title: "Who we will tell, and how. Our plan"
 summary: >-
   The learner's planning page for sharing what we found: who most needs to hear it, the one thing we want
-  them to understand, the format we will use, and — for each thing we say — where our evidence is and what
+  them to understand, the format we will use, and, for each thing we say, where our evidence is and what
   it does not tell us.
 facilitationContext:
 - group
@@ -18,7 +18,7 @@ primaryContext: independent
 learnerContent: |
   ## Who we will tell, and how
 
-  Before we build our output, we plan it. Fill this in — in words or drawings — with your team.
+  Before we build our output, we plan it. Fill this in, in words or drawings, with your team.
 
   The sheet has room for:
 
@@ -28,7 +28,7 @@ learnerContent: |
   - The format we will use (a poster, a talk with pictures, a role-play or story, a simple infographic)
     and why it fits.
   - For each thing we will say: where our evidence for it is in our evidence log.
-  - What our evidence does NOT tell us — the limits we will be honest about.
+  - What our evidence does NOT tell us, the limits we will be honest about.
   - How we will present in a way that is safe for everyone, using no names of the people we spoke to.
 
   Keep this plan in your research book. You will use it when you build your output.
@@ -38,7 +38,7 @@ agencyContribution:
   - power-over-wellbeing-and-self-direction
   how: >-
     Deciding who to reach and planning an honest message is how learners turn what they found into
-    something their community can use — a choice they own.
+    something their community can use, a choice they own.
 objectiveIds: [research-project--o4]
 relatedSlugs: [cb-rp-choose-format-and-audience, cb-rp-build-our-output]
 provenanceNote: >-
@@ -48,4 +48,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

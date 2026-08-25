@@ -5,7 +5,7 @@ type: educator-move
 title: "Contextualise your learning materials"
 summary: >-
   Learning sticks when it connects to learners' lives. Adapt materials to your cohort's context,
-  culture and community — and let learners contextualise for each other.
+  culture and community, and let learners contextualise for each other.
 tags:
   - id: learning-facilitation
     how: >-
@@ -20,11 +20,11 @@ facilitationContext:
 primaryContext: group
 educatorContent: |
   Learning is more likely when materials speak to learners' own experiences and environment. Start by
-  knowing your participants — their backgrounds, experiences and challenges — and adapt materials so
+  knowing your participants, their backgrounds, experiences and challenges, and adapt materials so
   they address local challenges, cultural norms and current events that actually affect the cohort.
   Prompt learners to connect the material to their own lives, thinking critically about how it applies
-  in their context, and integrate local resources — readings, examples, experts from the learners'
-  own communities — to make the learning practical and relatable.
+  in their context, and integrate local resources, readings, examples, experts from the learners'
+  own communities, to make the learning practical and relatable.
 
   Then step back and create space for learners to share their perspectives and contextualise the
   material for each other; often the richest localisation comes from the group, not the curriculum.
@@ -49,11 +49,11 @@ principleAlignment:
 relatedSlugs:
   - cf-learner-surveys
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook"
 provenanceNote: >-
   Generalised from the Playbook's "Contextualising Learning Materials" (know your participants, adapt
   materials, encourage personal reflection, integrate local resources, facilitate open dialogue).
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

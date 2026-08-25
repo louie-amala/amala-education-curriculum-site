@@ -9,21 +9,21 @@ parentModuleSlug: investigating-real-world-issues
 skill:
   label: Communicate actionable insights to an audience
   description: >-
-    Make insight usable by others — structuring findings into a clear, evidence-based account,
+    Make insight usable by others, structuring findings into a clear, evidence-based account,
     choosing a format that fits the audience, and presenting so people can act on what was found.
 summary: >-
-  Closing the loop: turning an investigation into something an audience can understand and act on — a
-  report, poster, presentation, or short video — and standing behind it.
+  Closing the loop: turning an investigation into something an audience can understand and act on, a
+  report, poster, presentation, or short video, and standing behind it.
 agencyNote: >-
   Insight only becomes change when others can act on it. Communicating findings to peers and
   community members is how a learner's research contributes back to the community it came from.
 anchorContribution:
   develops: >-
-    Learners develop the communicative dimension of FSI1 — making insight usable by others — by
+    Learners develop the communicative dimension of FSI1, making insight usable by others, by
     structuring findings into a clear, evidence-based account and tailoring it to a specific audience.
   demonstrates: >-
-    Assess this from a finished research output — a report, poster, infographic, presentation, or
-    short video — shared with a real audience, plus how the learner fields questions about it. Look
+    Assess this from a finished research output, a report, poster, infographic, presentation, or
+    short video, shared with a real audience, plus how the learner fields questions about it. Look
     for findings structured as a clear, evidence-based account, a format and language matched to the
     audience, and answers that stand behind the method and evidence when questioned.
 # Other competencies (from Research Project objective 4).
@@ -38,7 +38,7 @@ competencyDevelopment:
       thinking.
   - code: FSL1
     how: >-
-      Reflecting on the research process — naming what went well and what to do differently — builds
+      Reflecting on the research process, naming what went well and what to do differently, builds
       and shows self-reflection.
 materialSlugs:
   - rp-writing-a-research-report
@@ -47,7 +47,7 @@ materialSlugs:
 plan:
   summary: >-
     Make the insights usable by others: structure them into an evidence-based account, turn that into
-    a format that fits the audience, and share it — standing behind the method and evidence.
+    a format that fits the audience, and share it. Standing behind the method and evidence.
   steps:
     - title: Who needs to hear this
       kind: orientation
@@ -68,8 +68,8 @@ plan:
       materialSlug: challenge-research-report-and-presentation
       facilitatedHours: 1.5
       guidance: >-
-        Turn the account into the chosen output — report, poster, infographic, presentation or short
-        video — and present it to the audience. Rehearse fielding questions about the method and
+        Turn the account into the chosen output, report, poster, infographic, presentation or short
+        video, and present it to the audience. Rehearse fielding questions about the method and
         evidence.
       independentTask: Prepare your final output and practise presenting it.
     - title: Share, field questions, reflect
@@ -77,5 +77,5 @@ plan:
       facilitatedHours: 0.5
       guidance: >-
         Learners present to peers or community members, take questions, and reflect on how their
-        understanding of the challenge — and their skill as researchers — has grown. The shared output
+        understanding of the challenge, and their skill as researchers, has grown. The shared output
         plus their responses are the assessable evidence for this skill.

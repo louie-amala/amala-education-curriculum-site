@@ -1,4 +1,4 @@
-# Educator training module — "Teaching English as a Second Language". Content extracted from the
+# Educator training module, "Teaching English as a Second Language". Content extracted from the
 # module pack (participant, trainer & sign-off guides, session slides, Language Development Planning
 # Guide, and Language Development Workbook).
 id: edmod-teaching-esl
@@ -12,11 +12,11 @@ status: available
 summary: >-
   Developing your learners' English inside the learning they are already doing, at and around CEFR A1.
   Across three live sessions and independent planning, you produce a short scheme that builds English
-  into a piece of learning — then keep the planner to extend across your whole course.
+  into a piece of learning, then keep the planner to extend across your whole course.
 
 forWho: >-
   Educators developing their learners' English within a course, for learners at and around CEFR A1.
-  It is programme-agnostic — about how to develop English, whatever course you teach.
+  It is programme-agnostic, about how to develop English, whatever course you teach.
 
 outcome: >-
   By the end you will have produced a short scheme (three to six steps for a single piece of learning)
@@ -37,7 +37,7 @@ hours:
 deliverable:
   title: A short language-development scheme
   detail: >-
-    You complete one short scheme in Section 4 of the Planning Guide — three to six steps for a single
+    You complete one short scheme in Section 4 of the Planning Guide, three to six steps for a single
     piece of learning, showing the English developing inside it. That scheme, with Sections 1, 2 and 5,
     is what you submit for sign-off. Afterwards the planner is yours to extend across your whole course.
 
@@ -54,7 +54,7 @@ workbookSections:
     detail: The six approaches to developing English, applied to your context.
   - n: 4
     title: Your scheme
-    detail: Three to six steps for a piece of learning — what learners do, the English it builds, and the scaffold.
+    detail: Three to six steps for a piece of learning, what learners do, the English it builds, and the scaffold.
   - n: 5
     title: Knowing it's working
     detail: What you will look and listen for as evidence the English is developing, and what to do if it isn't yet.
@@ -71,7 +71,7 @@ sessions:
       - title: The lens for the module
         detail: What A1 looks like, the difference between a content objective and a language objective, and building English into the learning rather than teaching it apart.
       - title: Share your learners' English
-        detail: Share your learners' English with the group — hearing each other's contexts is one of the most useful parts of the training.
+        detail: Share your learners' English with the group, hearing each other's contexts is one of the most useful parts of the training.
       - title: Work through Section 2
         detail: With a partner, name the English learners need to take part in your course and write one or two aims, realistic for A1. You leave with a brief for Independent Work 1.
   - n: 2
@@ -104,7 +104,7 @@ independentWork:
         detail: How English fits your teaching, what A1 looks like, and writing a language objective as distinct from a content objective.
       - title: Complete Section 1 of the Planning Guide
         hours: "~30 min"
-        detail: Your learners and their English, including the A1 baseline — what they can already do and what the learning will ask of them.
+        detail: Your learners and their English, including the A1 baseline. What they can already do and what the learning will ask of them.
   - label: Independent Work 1
     afterSession: 1
     hours: "~2 hours"
@@ -115,7 +115,7 @@ independentWork:
         detail: For each of the six approaches, note ideas for your context, bringing the English back into your aims as ideas develop.
       - title: Begin Section 4 (draft your scheme)
         hours: "~1 hr 15 min"
-        detail: Using the six-step move, draft three to six steps — for each, what learners do, the English it builds, and the scaffold.
+        detail: Using the six-step move, draft three to six steps. For each, what learners do, the English it builds, and the scaffold.
   - label: Independent Work 2
     afterSession: 2
     hours: "~3 hours"
@@ -145,7 +145,7 @@ signOff:
       met: The English is drawn from learning that matters and connects to the wider learning rather than sitting apart.
   threshold: >-
     All three criteria Met is a pass. If any is Not yet, the trainer gives specific written feedback
-    and the educator has one resit — a revised submission, with no follow-up call. If the resit is
+    and the educator has one resit. A revised submission, with no follow-up call. If the resit is
     still Not yet, the educator re-enrols on a future cohort.
 
 resources:
@@ -158,7 +158,7 @@ resources:
     file: /downloads/tesl-trainer-guide.docx
     format: DOCX
     audience: trainer
-    note: Facilitation for the three sessions — agendas, prompts, and the feedback protocol.
+    note: Facilitation for the three sessions, agendas, prompts, and the feedback protocol.
   - label: Module sign-off guide
     file: /downloads/tesl-sign-off-guide.docx
     format: DOCX
@@ -168,7 +168,7 @@ resources:
     file: /downloads/tesl-participant-guide.docx
     format: DOCX
     audience: participant
-    note: The participant's guide to the module — the arc, what to do at each stage, and how sign-off works.
+    note: The participant's guide to the module, the arc, what to do at each stage, and how sign-off works.
   - label: Language Development Planning Guide
     file: /downloads/tesl-planning-guide.docx
     format: DOCX
@@ -178,7 +178,7 @@ resources:
     file: /downloads/tesl-workbook.docx
     format: DOCX
     audience: participant
-    note: The reference text — how English fits your teaching, what A1 looks like, and the approaches, with examples.
+    note: The reference text, how English fits your teaching, what A1 looks like, and the approaches, with examples.
 
 sourceNotes:
   - Extracted from the Teaching English as a Second Language module pack (participant, trainer & sign-off guides, session slides, Language Development Planning Guide, Language Development Workbook).

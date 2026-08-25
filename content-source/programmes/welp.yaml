@@ -1,7 +1,7 @@
-# Women's Entrepreneurship & Leadership Programme (WELP) — programme structure (spec §4.1 Programme).
+# Women's Entrepreneurship & Leadership Programme (WELP), programme structure (spec §4.1 Programme).
 # Source: "WELP Programme Overview" slides (Amala, 2026).
 #
-# The slides describe ONE funded instance — a 30-learner cohort in Kakuma Refugee Camp and Kalobeyei
+# The slides describe ONE funded instance, a 30-learner cohort in Kakuma Refugee Camp and Kalobeyei
 # Settlement, with an all-female team of a coordinator and two educators, and a set of instance M&E
 # targets (participation and income percentages, number of ventures funded, community members reached).
 # This entry models the REPEATABLE programme, so cohort size, specific location, team size, and
@@ -23,8 +23,7 @@ summary: >-
   equipping them with the skills, confidence, and resources to build sustainable livelihoods and
   transform their communities. At its heart is a social entrepreneurship course, wrapped in seed
   funding for the most promising ventures, mentorship from local female entrepreneurs, and the
-  practical support — a female-led learning space, childcare and transport stipends, and dignity kits
-  — that makes participation possible. It is delivered in partnership with a local refugee-led
+  practical support, a female-led learning space, childcare and transport stipends, and dignity kits, that makes participation possible. It is delivered in partnership with a local refugee-led
   organisation, strengthening that organisation's own capacity as the programme runs.
 targetContext: >-
   Female adolescents and young women, typically aged 16 to 25, who face barriers to education and
@@ -35,7 +34,7 @@ ageRange: "16–25"
 minDurationWeeks: 10
 
 studentGains:
-  - Essential entrepreneurial skills — financial literacy, leadership, problem-solving, and business development.
+  - Essential entrepreneurial skills, financial literacy, leadership, problem-solving, and business development.
   - The confidence, resources, and networks to start and sustain an income-generating business that meets a local need.
   - Connection to female role models and a mentorship network that inspires confidence and ambition.
   - Greater wellbeing, purpose, and readiness to take on leadership roles in their communities.
@@ -60,14 +59,14 @@ components:
   - title: Wraparound Support
     summary: >-
       A supportive learning environment paired with the practical support that removes barriers to
-      participation — transportation and childcare stipends, and dignity kits — so young women, including
+      participation, transportation and childcare stipends, and dignity kits, so young women, including
       mothers, can attend and stay engaged.
 
 # What it takes to deliver, and the design decisions that make the programme reach young women.
 delivery:
   - title: An all-female delivery team
     detail: >-
-      The programme must be delivered by an all-female team — a female programme coordinator and female
+      The programme must be delivered by an all-female team, a female programme coordinator and female
       educators. This is essential to reaching and retaining young women, particularly in contexts where
       mixed-gender delivery would limit their participation.
   - title: Delivered in partnership with a refugee-led organisation
@@ -92,7 +91,7 @@ outcomes:
   - title: Improved wellbeing and reduced barriers
     points:
       - Transport support, childcare, and dignity kits address the barriers that exclude young women from education, keeping participants engaged through to completion.
-      - Participants report increased wellbeing — more confidence, purpose, and readiness to engage in community development.
+      - Participants report increased wellbeing, more confidence, purpose, and readiness to engage in community development.
   - title: Reduced poverty and strengthened communities through employment and business creation
     points:
       - New businesses are established through the programme.
@@ -111,8 +110,8 @@ sourceNotes:
     The slides describe one funded instance (a 30-learner cohort in Kakuma Refugee Camp and Kalobeyei
     Settlement, an all-female team of one coordinator and two educators, and instance M&E targets). This
     entry generalises to the repeatable programme, so cohort size, specific location, team size, and
-    instance-specific targets — participation and income percentages, the number of ventures funded, and
-    the count of community members reached — are deliberately omitted.
+    instance-specific targets, participation and income percentages, the number of ventures funded, and
+    the count of community members reached, are deliberately omitted.
   - >-
     Structure below the pillar level (session plans, an hours breakdown, and assessment or certification)
     is not yet sourced. The 10-week duration is the length of the social entrepreneurship course as stated

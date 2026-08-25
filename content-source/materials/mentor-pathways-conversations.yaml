@@ -4,24 +4,24 @@ access: public
 type: educator-move
 title: "Hold regular pathways conversations"
 summary: >-
-  Don't leave futures to the final term. Talk regularly about where a mentee wants to go — further
-  study, work, or building something — and keep it realistic and theirs.
+  Don't leave futures to the final term. Talk regularly about where a mentee wants to go, further
+  study, work, or building something, and keep it realistic and theirs.
 tags:
   - id: pathways
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring
 educatorContent: |
-  Pathways — further education, employment, entrepreneurial ventures — are easier to reach when they
+  Pathways, further education, employment, entrepreneurial ventures, are easier to reach when they
   have been talked about all along, not raised in a panic at the end. Make them a regular thread in
   your mentoring: what is the mentee drawn to, what would a next step look like, what would it take.
 
   Two disciplines keep these conversations honest. Keep them the mentee's: your job is to help them
   identify and weigh options, not to install your ambitions for them. And keep them realistic without
-  narrowing — ground a pathway in what is actually accessible from their context while taking their
+  narrowing, ground a pathway in what is actually accessible from their context while taking their
   aspiration seriously, and help them see routes they may not know exist. Over time you are helping a
   mentee build a picture of where they are heading and why, so that the projects they choose and the
-  skills they build start to point somewhere. Note what you learn about their interests — it feeds
+  skills they build start to point somewhere. Note what you learn about their interests, it feeds
   the references you will write and the opportunities you will spot for them.
 agencyContribution:
   indicators:
@@ -36,7 +36,7 @@ principleAlignment:
       future rather than left abstract.
   - principle: collaboration
     how: >-
-      Keeping the pathway the mentee's — weighed together rather than prescribed — keeps ownership
+      Keeping the pathway the mentee's, weighed together rather than prescribed, keeps ownership
       where it belongs.
 competencyDevelopment:
   - code: ASL4
@@ -51,12 +51,12 @@ relatedSlugs:
   - mentor-anecdote-log
   - mentor-open-doors
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook, Student Mentor Playbook"
 provenanceNote: >-
   Generalised from the Playbook's "Supporting assigned students in identifying and actualising
-  pathways" — the guidance that a mentor regularly meets students to discuss pathway interests and
+  pathways", the guidance that a mentor regularly meets students to discuss pathway interests and
   strategise next steps, keeping options realistic.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

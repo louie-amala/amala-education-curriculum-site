@@ -1,4 +1,4 @@
-# English for Impact — My Voice (Unit 1) teaching activity. Language-focused practice: phonics + spelling.
+# English for Impact. My Voice (Unit 1) teaching activity. Language-focused practice: phonics + spelling.
 # Consolidation/spaced-review games for the sounds taught, plus CVC dictation (writing mechanics).
 id: efi-mv-phonics-games-and-dictation
 slug: efi-mv-phonics-games-and-dictation
@@ -7,14 +7,14 @@ type: activity
 title: "Phonics games and dictation"
 summary: >-
   A bank of short, repeatable games and dictation tasks to consolidate the sounds and spelling of the
-  unit — sound bingo, minimal-pair races, build-a-word, and simple dictation — so the phonics is
+  unit, sound bingo, minimal-pair races, build-a-word, and simple dictation, so the phonics is
   practised and recycled, not taught once and forgotten.
 facilitationContext: [group, independent]
 primaryContext: group
 deliveryAdaptations:
 - context: group
   how: >-
-    The games are made for the group — bingo, races, and team word-building bring energy and repetition.
+    The games are made for the group, bingo, races, and team word-building bring energy and repetition.
     Run one or two as a warm-up or consolidation in many sessions across the unit.
 - context: independent
   how: >-
@@ -33,10 +33,10 @@ materialsAndPreparation:
 - "Optional: a way to make teams for the races."
 facilitationNotes: |
   Phonics is learned through repetition, and these short games are how you get that repetition without
-  it feeling like drilling. Treat this as a bank to dip into across the unit — a ten-minute game at the
+  it feeling like drilling. Treat this as a bank to dip into across the unit, a ten-minute game at the
   start or end of many sessions does far more than one long phonics lesson. Keep every game tied to
   sounds and words already taught, so this is practice, not new input. Dictation is powerful and often
-  skipped: writing what they hear links sound to spelling and builds real writing mechanics — start with
+  skipped: writing what they hear links sound to spelling and builds real writing mechanics, start with
   single sounds, then CVC words, then a short familiar phrase. Keep it low-stakes: dictation is for
   learning, not testing, so let learners self-correct against a model afterwards.
 steps:
@@ -47,7 +47,7 @@ steps:
     (you say "pen" or "Ben" and teams point to or grab the right card). These revisit the vowel and
     plosive contrasts from the unit and keep the ear sharp. Fast, fun, repeatable.
   keyPrompts:
-  - Which sound did you hear — mark it.
+  - Which sound did you hear, mark it.
   - Did I say a word with /p/ or /b/?
   watchOuts:
   - Using sounds not yet taught; keep strictly to the unit's sounds so it is consolidation.
@@ -56,7 +56,7 @@ steps:
 - title: "Build a word"
   duration: "8–12 min"
   guidance: |
-    Learners build CVC and high-frequency words from letters/sounds — you say a word, they build it;
+    Learners build CVC and high-frequency words from letters/sounds, you say a word, they build it;
     or they change one sound to make a new word (sat → sit → sit → sun). In teams, race to build a word
     correctly. This links sounds to spelling in an active, memorable way.
   keyPrompts:
@@ -71,10 +71,10 @@ steps:
   guidance: |
     Dictate in three easy stages: a few single sounds, then a few CVC words, then one short familiar
     phrase ("I am a student."). Say each clearly, twice. Learners write, then check against your model
-    and fix their own. Praise close attempts — hearing and spelling is hard and improving is the point.
+    and fix their own. Praise close attempts, hearing and spelling is hard and improving is the point.
   keyPrompts:
   - Listen and write the sound… now the word… now the phrase.
-  - Check your writing against the model — what will you fix?
+  - Check your writing against the model, what will you fix?
   watchOuts:
   - Treating dictation as a test; keep it formative, with self-correction, so learners stay relaxed and learn from it.
 closing: |
@@ -84,7 +84,7 @@ agencyContribution:
   indicators: [control-of-future-pathways]
   how: >-
     Secure, automatic phonics and spelling free a learner to read and write without stalling on every
-    word — the reliable foundation that further study and everyday literacy depend on.
+    word. The reliable foundation that further study and everyday literacy depend on.
 principlesForegrounded: [lifeworthy-competencies, safe-spaces, feedback-and-data]
 principleAlignment:
 - principle: lifeworthy-competencies
@@ -114,4 +114,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

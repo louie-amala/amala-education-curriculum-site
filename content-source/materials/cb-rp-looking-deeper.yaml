@@ -1,16 +1,16 @@
 # Contextualised, fully offline ANALYSIS activity for the Research Project component of Learning Bridge+
 # (Cox's Bazar). A second way to analyse the evidence: look at the problem as a human system through
-# three lenses — who or what has power, what beliefs and attitudes shape it, and who benefits or suffers.
+# three lenses, who or what has power, what beliefs and attitudes shape it, and who benefits or suffers.
 # Evaluate evidence phase (objective 3). Oral and visual first; hands-on; warm, never blaming.
 id: cb-rp-looking-deeper
 slug: cb-rp-looking-deeper
 access: partner
 edition: learning-bridge-coxs-bazar
 type: activity
-title: "Who, what, and why — looking deeper"
+title: "Who, what, and why, looking deeper"
 summary: >-
   Another way to make sense of what we found: look at the problem as something people are part of, through
-  three questions — who or what has the power to change it, what beliefs and attitudes make it worse or
+  three questions, who or what has the power to change it, what beliefs and attitudes make it worse or
   better, and who or what is helped or hurt by it. This makes our insights deeper and fairer.
 facilitationContext:
 - group
@@ -18,17 +18,17 @@ primaryContext: group
 duration: "1.5 hours facilitated + 0.5 hour independent"
 grouping: "Whole group, with three areas on the wall or floor; pairs feed each one"
 whatLearnersDo:
-- Ask who or what has the power to make the problem worse or better — families, agencies, the government, and things like the monsoon and the hills themselves.
+- Ask who or what has the power to make the problem worse or better, families, agencies, the government, and things like the monsoon and the hills themselves.
 - Ask what people believe or feel that causes the problem, or that could help solve it.
 - Ask who or what is helped, and who or what is hurt, by the problem and by what is being done about it.
 - Stand back and notice what these three lenses show that the evidence alone did not.
 materialsAndPreparation:
-- Three areas marked on the wall or floor — one for each question — where cards and drawings can be placed.
+- Three areas marked on the wall or floor, one for each question, where cards and drawings can be placed.
 - The themes and evidence from the earlier analysis, and the community map, nearby.
 - Cards or scraps of paper to write or draw on and move around.
 facilitationNotes: >-
   The one thing to get right: keep it about understanding, not blaming. The point is to see the problem as
-  a system that people are part of — where power sits, what beliefs shape it, and who wins and loses —
+  a system that people are part of, where power sits, what beliefs shape it, and who wins and loses,
   because that is what makes an insight deep and fair rather than a simple "trees good, cutting bad". Take
   the three questions one at a time, each as a short round, building up cards in its area. Handle beliefs
   with special care: name attitudes gently and generally ("some people feel the trees are not theirs to
@@ -43,13 +43,13 @@ steps:
     heavy monsoon and the steep hills themselves. Some have a lot of power, some a little. This shows who
     could act, and who a solution depends on.
   keyPrompts:
-  - "Who can change this — even a little?"
+  - "Who can change this, even a little?"
   - "What has power here that is not a person (the rain, the hills)?"
 - title: "What do people believe or feel?"
   duration: "30 min"
   guidance: >-
     In the second area, name the beliefs and attitudes that make the problem worse or could make it
-    better — gently and generally. For example: "we had no other choice but to cut wood"; "the trees are
+    better. Gently and generally. For example: "we had no other choice but to cut wood"; "the trees are
     not ours to plant"; "looking after the hills is the agencies' job"; and, on the other side, "we can
     care for our own hills". Beliefs shape what people do, so they matter.
   keyPrompts:
@@ -58,26 +58,26 @@ steps:
 - title: "Who is helped, and who is hurt?"
   duration: "20 min"
   guidance: >-
-    In the third area, sort who or what is hurt by the problem — families on bare slopes, the women who
-    used to collect firewood, the animals whose home was cleared — and who is helped when things improve.
+    In the third area, sort who or what is hurt by the problem, families on bare slopes, the women who
+    used to collect firewood, the animals whose home was cleared, and who is helped when things improve.
     Notice who carries the most harm, and who a good solution should protect first.
   keyPrompts:
   - "Who suffers most from this problem?"
   - "Who is helped when the hills come back?"
-- title: "Stand back — what do we see now?"
+- title: "Stand back, what do we see now?"
   duration: "10 min"
   guidance: >-
     Look at all three areas together. What do power, beliefs, and who-wins-and-loses show us that the plain
-    evidence did not? Draw one or two things the group notices — these feed our insights.
+    evidence did not? Draw one or two things the group notices, these feed our insights.
   keyPrompts:
   - "What does looking deeper show that our evidence alone did not?"
 learnerContent: |
-  ## Who, what, and why — looking deeper
+  ## Who, what, and why, looking deeper
 
-  A problem is not just a thing that happens — it is something people are part of. To understand it deeply,
+  A problem is not just a thing that happens, it is something people are part of. To understand it deeply,
   we look at it through three questions:
 
-  - Who or what has power here? Who can make it worse or better — families, the agencies, the government,
+  - Who or what has power here? Who can make it worse or better, families, the agencies, the government,
     and things like the monsoon and the hills themselves?
   - What do people believe or feel? Some beliefs make the problem harder ("the trees are not ours to
     plant"); some could help ("we can care for our own hills").
@@ -85,14 +85,14 @@ learnerContent: |
     better?
 
   We put our answers in three areas and look at them together. This is about understanding, never about
-  blaming anyone — people who did harm often had little choice, and the same people can be part of the
+  blaming anyone. People who did harm often had little choice, and the same people can be part of the
   answer. What we see here makes our insights deeper and fairer.
 
 educatorContent: |
   ## What you need to know before you teach this
 
   This is the companion to the root-cause block and the two do different jobs. Root cause asks *what
-  chain of things produced this?* This asks *who is in this, and what do they believe?* — because most
+  chain of things produced this?* This asks *who is in this, and what do they believe?*, because most
   real problems are not mechanical, they are human systems, and a solution that ignores the people in
   them fails.
 
@@ -102,7 +102,7 @@ educatorContent: |
   ### The three questions, and why these three
 
   1. **Who or what has power here?** Power means the ability to make it better or worse. Include the
-     non-human — the monsoon has enormous power over these hills and no intentions at all. Naming that
+     non-human, the monsoon has enormous power over these hills and no intentions at all. Naming that
      early takes the heat out of the question.
   2. **What do people believe or feel?** Beliefs drive behaviour more reliably than facts do. "The trees
      are not ours to plant" and "we can care for our hills" produce completely different camps. This is
@@ -116,7 +116,7 @@ educatorContent: |
   Learners will name the people they are frustrated with, and the wall becomes an accusation. Two
   guards:
 
-  - **Power is not blame.** A learner has power here too — that is the point of asking. Put the cohort
+  - **Power is not blame.** A learner has power here too. That is the point of asking. Put the cohort
     on the wall alongside everyone else, and put the monsoon there as well.
   - **Beliefs are described, not judged.** "Some people think the trees are not theirs to plant" is a
     finding. "Some people are selfish" is name-calling. Correct this the first time it happens.
@@ -124,8 +124,8 @@ educatorContent: |
   ### Keep it about the hills, and stay clear of politics
 
   Camp governance and the agencies working here are genuinely part of this system, and learners will
-  say so. Let the observable, community-level things be named — who does what, what people see
-  happening — and steer away from grievance about any named agency or authority. This is a research
+  say so. Let the observable, community-level things be named, who does what, what people see
+  happening, and steer away from grievance about any named agency or authority. This is a research
   block, not a complaints channel, and learners' safety matters more than completeness. Have your
   step-back guidance to hand.
 
@@ -142,25 +142,25 @@ educatorContent: |
   - At least one non-human thing appears on the power list.
   - No name-calling has survived on the wall. Beliefs are written as beliefs.
 learnerTeaching:
-  title: "How to see the whole picture — power, beliefs, and who is hurt"
+  title: "How to see the whole picture, power, beliefs, and who is hurt"
   readAloud: |
     ## How to see the whole picture
 
-    A problem is not only about soil and rain. It is about people — what they can do, what they
+    A problem is not only about soil and rain. It is about people, what they can do, what they
     believe, and what happens to them. Three questions help us see the whole thing.
 
-    ### Question 1 — Who or what has power here?
+    ### Question 1: Who or what has power here?
 
     Power means: **can they make it better or worse?**
 
     Think widely. Families. People who cut wood. People who plant. Organisations working here. And
-    things that are not people at all — the monsoon has huge power over our hills, and it wants
+    things that are not people at all, the monsoon has huge power over our hills, and it wants
     nothing.
 
     Put ourselves on this list too. We have some power. Not all of it, but some. That is worth
     knowing.
 
-    ### Question 2 — What do people believe or feel?
+    ### Question 2: What do people believe or feel?
 
     What people believe changes what they do, more than facts do.
 
@@ -172,10 +172,10 @@ learnerTeaching:
 
     **Describe what people believe. Do not call them names.**
 
-    - "Some people think the trees are not theirs to plant" — this is a finding.
-    - "Some people are selfish" — this is name-calling, and it teaches us nothing.
+    - "Some people think the trees are not theirs to plant": this is a finding.
+    - "Some people are selfish": this is name-calling, and it teaches us nothing.
 
-    ### Question 3 — Who is helped, and who is hurt?
+    ### Question 3: Who is helped, and who is hurt?
 
     The same hill is not the same for everyone.
 
@@ -188,7 +188,7 @@ learnerTeaching:
 
     ### Stand back
 
-    Now look at all three lists together. Often something appears that nobody had noticed — a person
+    Now look at all three lists together. Often something appears that nobody had noticed, a person
     with power who is also being hurt, or a belief that explains what everyone is doing.
 
     ### One rule for the whole block
@@ -211,24 +211,24 @@ learnerTeaching:
       - "Power: the monsoon rain."
       - "Beliefs: the people who cut trees do not care about anybody."
       - "Helped or hurt: the families whose shelters are below the bare slope are hurt most when it rains."
-      - "Power: us — we can plant, and we can tell people what we found."
+      - "Power: us. We can plant, and we can tell people what we found."
     answers:
       - "Written well. The rain is not a person and has no intentions, but it has enormous power over our hills. Remembering the non-human things keeps the list honest."
-      - "Needs fixing. This is name-calling, not a belief. Try: \"some people believe there is no other fuel they can get\" — that is something we could check, and it explains more."
+      - "Needs fixing. This is name-calling, not a belief. Try: \"some people believe there is no other fuel they can get\". That is something we could check, and it explains more."
       - "Written well. It is specific about WHO, and it says why. That is exactly what this question is for."
-      - "Written well — and easy to forget. We are part of this system, and naming our own power is the point of asking."
+      - "Written well, and easy to forget. We are part of this system, and naming our own power is the point of asking."
     then: >-
       Now look at our own three lists. Is anything on them name-calling instead of a belief? Fix it. And
       check: are WE on the power list?
 worksheet:
   slug: cb-rp-looking-deeper-page
-  note: "In the research book (student workbook): the 'Looking deeper — power, beliefs, who is helped and hurt' page. Print one per learner."
+  note: "In the research book (student workbook): the 'Looking deeper, power, beliefs, who is helped and hurt' page. Print one per learner."
 agencyContribution:
   indicators:
   - contribution-to-community
   - control-of-future-pathways
   how: >-
-    Seeing a problem as a human system — where power sits, what beliefs shape it, and who wins and loses —
+    Seeing a problem as a human system, where power sits, what beliefs shape it, and who wins and loses,
     is how a young person moves from noticing a problem to understanding how change actually happens, which
     is the ground of real agency.
 principlesForegrounded: [responsible-action, builds-on-identities, authentic-challenges]
@@ -244,7 +244,7 @@ competencyDevelopment:
 - code: FSI1
   how: Analysing the problem through power, beliefs, and beneficiaries is part of interpreting the evidence to reach deep, actionable insight.
 - code: FPS3
-  how: The three lenses surface contributing factors — the people, attitudes, and forces that make the problem worse or better.
+  how: The three lenses surface contributing factors, the people, attitudes, and forces that make the problem worse or better.
 - code: ATS1
   how: Learners analyse and interpret their evidence through a structured critical lens rather than taking it at face value.
 objectiveIds: [research-project--o3]
@@ -258,4 +258,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

@@ -9,7 +9,7 @@ type: resource
 title: 'The "I can..." picture sheet'
 summary: >-
   A picture self-check sheet with a row of "I can..." pictures and three marks to circle for each one
-  (yes, a-little, not-yet) — marked once at the start of the unit and again at the end.
+  (yes, a-little, not-yet). Marked once at the start of the unit and again at the end.
 facilitationContext:
 - group
 - independent
@@ -20,7 +20,7 @@ materialsAndPreparation:
 facilitationNotes: >-
   Read each "I can..." picture aloud in the learners' language and let everyone circle their own mark
   privately at the same time, so it stays a low-stakes self-check and never a test. The power is in
-  marking it twice — near the start, then again at the end beside the first mark — so learners can see
+  marking it twice, near the start, then again at the end beside the first mark, so learners can see
   their own growth. This sheet is part of the downloadable Student My Voice book (workbook), so no
   separate download is needed.
 educatorContent: |
@@ -39,10 +39,10 @@ learnerContent: |
   ## Your "I can..." sheet
 
   This sheet is where you show how sure you feel about the things you are learning to do in English. You
-  do not read or write anything — you look at the pictures and circle a mark.
+  do not read or write anything, you look at the pictures and circle a mark.
 
   - Look at each little picture. Your facilitator will say what it means out loud.
-  - For each one, circle how sure you feel right now — yes I can, a-little, or not-yet.
+  - For each one, circle how sure you feel right now. Yes I can, a-little, or not-yet.
   - No one sees your marks but you. Not-yet is a fine mark to make.
   - Keep this sheet in your My Voice book. At the end of the unit you will mark it again, next to your first marks, and see how much you have grown.
 agencyContribution:
@@ -50,7 +50,7 @@ agencyContribution:
   - power-over-wellbeing-and-self-direction
   how: >-
     Marking their own learning in their own picture-marks, and seeing growth they made themselves, puts
-    a learner in charge of judging their own progress rather than waiting to be judged — quiet power over
+    a learner in charge of judging their own progress rather than waiting to be judged. Quiet power over
     how they see themselves as learners.
 principlesForegrounded:
 - recognise-communicate-growth
@@ -58,7 +58,7 @@ principlesForegrounded:
 principleAlignment:
 - principle: recognise-communicate-growth
   how: >-
-    The sheet exists so learners can recognise and name their own growth in picture-based marks — by
+    The sheet exists so learners can recognise and name their own growth in picture-based marks, by
     circling the same "I can..." pictures at the start and the end, they see for themselves exactly what
     changed.
 - principle: safe-spaces
@@ -71,7 +71,7 @@ competencyDevelopment:
 - code: FUS1
   how: >-
     Circling what they can and cannot yet do, and comparing the two markings across the unit, is direct
-    practice in self-awareness — the evidence a learner can look at their own learning honestly and see
+    practice in self-awareness. The evidence a learner can look at their own learning honestly and see
     themselves as changing and capable of more.
 objectiveIds:
 - efi-my-voice--o1
@@ -86,4 +86,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

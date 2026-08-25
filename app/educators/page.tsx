@@ -22,7 +22,7 @@ export default function EducatorsPage() {
         </div>
       </section>
 
-      {/* Track 1 — Qualification & training */}
+      {/* Track 1. Qualification & training */}
       <div className="mx-auto max-w-4xl px-6 pt-12">
         <p className="font-heading text-sm uppercase tracking-widest text-teal">
           Qualification &amp; training
@@ -51,7 +51,7 @@ export default function EducatorsPage() {
         </Link>
       </div>
 
-      {/* Track 2 — The craft & moves */}
+      {/* Track 2. The craft & moves */}
       <div className="mx-auto max-w-4xl px-6 py-12">
         <p className="font-heading text-sm uppercase tracking-widest text-terracotta">
           The craft &amp; moves

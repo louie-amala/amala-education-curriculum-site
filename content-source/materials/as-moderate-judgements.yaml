@@ -11,12 +11,12 @@ tags:
 educatorContent: |
   Assessment carries real consequences for learners, so it has to be consistent as well as considered:
   the same evidence should earn the same judgement whoever the assessor is. That consistency does not
-  happen by itself — it is built by moderating with colleagues.
+  happen by itself. It is built by moderating with colleagues.
 
   In practice: take a sample of judgements and the evidence behind them and look at them together.
   Where two assessors would decide differently, dig into why, and calibrate against a shared reading of
   the proficiency descriptors. Moderation also surfaces the biases a single assessor cannot see in
-  themselves — being swayed by presentation, by a learner they know well, or by effort rather than
+  themselves, being swayed by presentation, by a learner they know well, or by effort rather than
   proficiency. Treat it not as checking up on each other but as the shared discipline that makes every
   learner's result trustworthy.
 agencyContribution:
@@ -24,7 +24,7 @@ agencyContribution:
     - power-over-wellbeing-and-self-direction
   how: >-
     Consistent, moderated judgements mean a learner's recognition depends on what they can do, not on
-    who happened to assess them — which is what makes the whole system fair to trust.
+    who happened to assess them, which is what makes the whole system fair to trust.
 principleAlignment:
   - principle: feedback-and-data
     how: >-
@@ -38,7 +38,7 @@ relatedSlugs:
   - as-judge-against-the-scale
   - cf-deprivatise-practice
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook (Assessment)"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook (Assessment)"
 provenanceNote: >-
   Added as standard moderation practice to complete the making-judgements bucket. Extends the
   Playbook's call for objective assessment, and connects to its collaborative, de-privatised view of
@@ -46,4 +46,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

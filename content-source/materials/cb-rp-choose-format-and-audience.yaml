@@ -1,6 +1,6 @@
 # Contextualised, fully offline ACTIVITY for the Research Project component of Learning Bridge+ (Cox's
 # Bazar). Phase 5 "Communicate findings". Learners decide who most needs to hear what they found, and
-# choose a format that fits both the message and an oral, visual context — then plan what their output
+# choose a format that fits both the message and an oral, visual context, then plan what their output
 # will say and show and how it stands on the evidence. Oral and visual first; no single required output.
 id: cb-rp-choose-format-and-audience
 slug: cb-rp-choose-format-and-audience
@@ -9,8 +9,8 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "Choose our format and our audience"
 summary: >-
-  Learners decide who most needs to hear what they found — peers, families, the wider community, a camp
-  committee — and choose a format that fits both the message and an oral, visual context. They plan what
+  Learners decide who most needs to hear what they found, peers, families, the wider community, a camp
+  committee, and choose a format that fits both the message and an oral, visual context. They plan what
   their output will say and show, and how it will stand on the evidence.
 facilitationContext:
 - group
@@ -20,19 +20,19 @@ duration: "1.5 hours facilitated + 1 hour independent"
 grouping: "Whole group to think it through, then small teams by audience or format"
 whatLearnersDo:
 - Decide who most needs to hear what we found, and why it should matter to them.
-- Choose a format that fits the message and works when spoken and shown — a poster, a talk with pictures, a role-play or story, a simple infographic.
+- Choose a format that fits the message and works when spoken and shown, a poster, a talk with pictures, a role-play or story, a simple infographic.
 - Plan what the output will say and what it will show, and how each part stands on the evidence we gathered.
 - Agree a way to present that is safe for everyone, using no names of the people we spoke to.
 materialsAndPreparation:
 - The cohort's insight statements from the analysis phase, written or drawn big to see.
 - The evidence log, to check each part of the plan against what we actually found.
-- A few example formats to point to — a poster, a picture story, a short spoken talk with drawings.
+- A few example formats to point to, a poster, a picture story, a short spoken talk with drawings.
 - The planning page from the research book (one per learner or per team).
 visuals:
 - kind: setup
   title: "Who hears it, and how"
   caption: >-
-    Start from who most needs to hear what we found, then let the format follow — whatever we choose must
+    Start from who most needs to hear what we found, then let the format follow. Whatever we choose must
     work when spoken and shown, not only read.
   spec:
     type: zones
@@ -56,7 +56,7 @@ visuals:
 - kind: example
   title: "Our plan: each claim on its evidence"
   caption: >-
-    For each thing we say, we mark where our evidence for it comes from — and we plan to show the limits
+    For each thing we say, we mark where our evidence for it comes from, and we plan to show the limits
     honestly too ("we only spoke to a few people"). No names go in.
   spec:
     type: zones
@@ -74,18 +74,18 @@ visuals:
       - "many people + the science"
       - "we saw mud on the path"
 facilitationNotes: >-
-  The one thing to get right: match format to purpose and audience — there is no single required output.
+  The one thing to get right: match format to purpose and audience. There is no single required output.
   Start from who we want to reach and what we want them to understand, then let the format follow from
   that, not the other way round. Keep it oral and visual: whatever they choose must work when spoken and
-  shown, not only when read. Hold the honesty line early — the plan should show what we found AND its
+  shown, not only when read. Hold the honesty line early, the plan should show what we found AND its
   limits, so no one plans to overclaim. And make it safe: no learner is pushed toward a way of presenting
   that is unsafe for them, and no names of the people they spoke to go into any output.
 steps:
 - title: "Who most needs to hear this?"
   duration: "30 min"
   guidance: >-
-    Bring back our insight statements. Ask who most needs to hear what we found — our peers, our
-    families, the wider community, a camp committee — and why it should matter to them. Let learners
+    Bring back our insight statements. Ask who most needs to hear what we found, our peers, our
+    families, the wider community, a camp committee, and why it should matter to them. Let learners
     argue for different audiences; the choice shapes everything after it.
   keyPrompts:
   - "Who could do something with what we found?"
@@ -94,7 +94,7 @@ steps:
 - title: "Choose a format that fits"
   duration: "30 min"
   guidance: >-
-    Show a few formats and talk through which fits the message and the audience — a poster, a spoken
+    Show a few formats and talk through which fits the message and the audience, a poster, a spoken
     talk with pictures, a role-play or story, a simple infographic. Remind them it must work spoken and
     shown, not only read. There is no single right answer; a good fit is one the audience will follow and
     that lets us show our evidence.
@@ -107,7 +107,7 @@ steps:
   duration: "30 min"
   guidance: >-
     In teams, learners plan what their output will say and show, and mark against the evidence log where
-    each part comes from. Ask them to plan how they will show the limits honestly too — for example, that
+    each part comes from. Ask them to plan how they will show the limits honestly too, for example, that
     we only spoke to a few people. They agree a safe way to present and check no names go in.
   keyPrompts:
   - "For each thing we say, where is our evidence for it?"
@@ -130,19 +130,19 @@ learnerContent: |
   - a simple infographic
 
   Then plan it. For each thing you want to say, ask: where is our evidence for this? And be honest about
-  what we do NOT know — for example, "we only spoke to a few people". Never use the names of the people
+  what we do NOT know, for example, "we only spoke to a few people". Never use the names of the people
   we spoke to.
 
 educatorContent: |
   ## What you need to know before you teach this
 
-  Research that nobody hears is not finished. This block decides who hears it — and the order matters:
+  Research that nobody hears is not finished. This block decides who hears it, and the order matters:
   **audience first, then message, then format.** Learners will want to pick the format first, because
   making a poster is the fun part. A poster chosen before the audience will be aimed at nobody.
 
   ### Audience is a real decision, not a formality
 
-  Push for a specific answer. Not "the community" — WHO? The families on the slope below? The younger
+  Push for a specific answer. Not "the community". WHO? The families on the slope below? The younger
   children who will still be here in five years? The people who cut wood because there is nothing else?
 
   The test: **what do you want them to understand, that they do not understand now?** A learner who can
@@ -150,8 +150,8 @@ educatorContent: |
 
   ### Then let the format follow
 
-  There is no required output. What fits an oral, visual community — a poster, a spoken presentation
-  with pictures, a role-play, a story, a simple picture-chart — depends on who is listening and what
+  There is no required output. What fits an oral, visual community, a poster, a spoken presentation
+  with pictures, a role-play, a story, a simple picture-chart, depends on who is listening and what
   they need to grasp.
 
   Two useful pairings to offer: something that has to be FELT is often better as a story or a
@@ -161,13 +161,13 @@ educatorContent: |
   ### The constraint that helps: what have we actually got?
 
   Ask early what materials exist. A group planning something they cannot make will discover it in the
-  final week. Paper, colours, their bodies, their voices, the wall — that is the real list, and it is
+  final week. Paper, colours, their bodies, their voices, the wall. That is the real list, and it is
   enough.
 
   ### Connect it to the showcase now
 
   The sharing happens at the programme showcase, in front of guests each learner invited themselves.
-  Learners should be planning with that room in mind from this block, not discovering it at the end —
+  Learners should be planning with that room in mind from this block, not discovering it at the end. 
   it changes what they choose.
 
   ### Watch for the two failures
@@ -179,7 +179,7 @@ educatorContent: |
 
   ## Before they leave this block
 
-  - A named, specific audience — not "the community".
+  - A named, specific audience, not "the community".
   - One sentence saying what that audience should understand that they do not now.
   - A format chosen AFTER those two, that fits both the message and what can actually be made.
   - A rough plan of what it will say and show.
@@ -188,7 +188,7 @@ learnerTeaching:
   readAloud: |
     ## How to choose who to tell, and how
 
-    We have found things out. Now we have to tell someone — because research nobody hears is not
+    We have found things out. Now we have to tell someone, because research nobody hears is not
     finished.
 
     There is an order to this, and getting it the wrong way round wastes the work.
@@ -217,13 +217,13 @@ learnerTeaching:
 
     ### Only THEN: how?
 
-    Now — and only now — choose the shape.
+    Now, and only now, choose the shape.
 
-    - **A poster** — good for showing a comparison. Before and now. With roots and without.
-    - **A talk with pictures** — good when you want to explain something step by step.
-    - **A role-play** — good when you want people to FEEL it, not just know it.
-    - **A story** — good for something that happened to a person.
-    - **A picture-chart** — good for numbers, or for "many people said this".
+    - **A poster**, good for showing a comparison. Before and now. With roots and without.
+    - **A talk with pictures**, good when you want to explain something step by step.
+    - **A role-play**, good when you want people to FEEL it, not just know it.
+    - **A story**, good for something that happened to a person.
+    - **A picture-chart**, good for numbers, or for "many people said this".
 
     Ask: **which of these fits what I want them to understand?**
 
@@ -232,18 +232,18 @@ learnerTeaching:
 
     ### Be honest about what you can make
 
-    What do we actually have? Paper, colours, our voices, our bodies, the wall. That is enough — but
+    What do we actually have? Paper, colours, our voices, our bodies, the wall. That is enough, but
     plan for what exists, not for what you wish existed.
 
     ### Remember who will be in the room
 
     You will share this at our showcase, and each of us is inviting someone. So think about that room
-    now, while you are choosing — not at the end.
+    now, while you are choosing, not at the end.
   words:
     - term: audience
       meaning: the people you want to hear what you found
     - term: format
-      meaning: the shape you give it — a poster, a talk, a play, a story
+      meaning: the shape you give it, a poster, a talk, a play, a story
     - term: message
       meaning: the one thing you want people to understand
   tryIt:
@@ -259,10 +259,10 @@ learnerTeaching:
     answers:
       - "Wrong way round. The format came first, so it is aimed at nobody. Decide who, then what, then how."
       - "Good. Who, then what they should understand, then a format that shows a comparison. This is the right order."
-      - "Wrong way round — and too big. Which people in the community? What should they understand? Get specific first."
+      - "Wrong way round, and too big. Which people in the community? What should they understand? Get specific first."
       - "Good. They knew what they wanted people to FEEL, and chose a format that does feeling well. A poster would not do that."
     then: >-
-      Now do it for our research, in order. Who? What should they understand? Only then — how?
+      Now do it for our research, in order. Who? What should they understand? Only then, how?
 worksheet:
   slug: cb-rp-our-plan
   note: >-
@@ -274,7 +274,7 @@ agencyContribution:
   - power-over-wellbeing-and-self-direction
   how: >-
     Learners decide who in their community most needs to hear what they found and choose how to reach
-    them — taking control of how their own knowledge enters the world and who it can serve.
+    them, taking control of how their own knowledge enters the world and who it can serve.
 principlesForegrounded: [recognise-communicate-growth, responsible-action, authentic-challenges]
 principleAlignment:
 - principle: recognise-communicate-growth
@@ -282,23 +282,23 @@ principleAlignment:
 - principle: responsible-action
   how: Learners choose an audience who could act, and plan to represent the evidence and its limits honestly rather than overclaim.
 - principle: authentic-challenges
-  how: The findings being shared are about a real, shared challenge — the trees on the hills the learners live on.
+  how: The findings being shared are about a real, shared challenge. The trees on the hills the learners live on.
 competencyCodes: [FSI1, FLC3, FPS1]
 competencyDevelopment:
 - code: FSI1
   how: Communicating findings so others can use them is the final stage of investigating a real-world issue.
 - code: FLC3
-  how: Learners choose an audience and a format so the message lands — the core of communicating with influence.
+  how: Learners choose an audience and a format so the message lands, the core of communicating with influence.
 - code: FPS1
   how: Matching the format to the purpose and the audience, rather than defaulting to one output, is adaptable thinking.
 objectiveIds: [research-project--o4]
 relatedSlugs: [cb-rp-our-plan, cb-rp-build-our-output, cb-rp-build-our-output-sheet]
 provenanceNote: >-
   Authored for the Learning Bridge+ (Cox's Bazar) Research Project edition, Phase 5 "Communicate
-  findings" (objective 4). Fully offline, oral and visual first; no single required output — format
+  findings" (objective 4). Fully offline, oral and visual first; no single required output. Format
   follows audience and message. Its printable planning page compiles into the Research Project student
   workbook.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

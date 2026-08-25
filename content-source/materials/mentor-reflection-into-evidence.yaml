@@ -12,7 +12,7 @@ facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring
 educatorContent: |
-  Work on its own does not evidence a competency — the connection between the work and the skill has
+  Work on its own does not evidence a competency, the connection between the work and the skill has
   to be made, and made by the learner. Reflection is the tool. Use prompts that push past description
   into significance: not just "what did you do?" but "what did that show you can do?", "what was hard
   and how did you get through it?", "where else could you use this?".
@@ -20,7 +20,7 @@ educatorContent: |
   Help the mentee link a concrete piece of work or experience to the specific skill or standard your
   programme recognises, so they can claim it with evidence rather than assertion. Where you then
   verify that evidence against criteria, be objective and transparent: show the standard, say clearly
-  when something meets it and when it does not yet, and give the reason — a fair "not yet, because…"
+  when something meets it and when it does not yet, and give the reason. A fair "not yet, because…"
   is more useful than a generous "yes" the learner cannot learn from. The framework you assess
   against is your programme's; the move is helping learners see their own work through it.
 agencyContribution:
@@ -53,7 +53,7 @@ relatedSlugs:
   - mentor-build-evidence-habit
   - mentor-feedback-that-moves-forward
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Student Mentor Playbook"
 provenanceNote: >-
   Generalised from the Playbook's guidance that a mentor enables students to reflect on how their
   work demonstrates success indicators, and assesses work objectively against evaluation criteria.
@@ -61,4 +61,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

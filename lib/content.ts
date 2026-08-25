@@ -34,12 +34,12 @@ import {
 
 // Build-time content layer over content-source/. Every file is validated against its
 // Zod schema on load; cross-references are checked in validateGraph(). A failure throws,
-// which fails `next build` — the spec's core safeguard (§12).
+// which fails `next build`. The spec's core safeguard (§12).
 
 const ROOT = join(process.cwd(), "content-source");
 
 function readYaml(...segments: string[]): unknown {
-  return parse(readFileSync(join(ROOT, ...segments), "utf8"));
+  return parse(readFileSync(join(ROOT,...segments), "utf8"));
 }
 
 function listYaml(dir: string): string[] {
@@ -97,8 +97,8 @@ export const agency: Agency = parseWith(
   readYaml("foundations", "agency.yaml"),
 );
 // Content is read from disk once at module-eval time (outside Next's module graph), so the dev
-// server does NOT watch content-source: any content change — a new YAML file OR an edit to an
-// existing one — is only reflected after a code file changes and re-runs these loaders (or a restart).
+// server does NOT watch content-source: any content change, a new YAML file OR an edit to an
+// existing one, is only reflected after a code file changes and re-runs these loaders (or a restart).
 function loadMaterials(): FacilitationMaterial[] {
   if (!existsSync(join(ROOT, "materials"))) return [];
   return listYaml("materials").map((f) =>
@@ -284,7 +284,7 @@ export const libraryMaterials: FacilitationMaterial[] = materials.filter((m) => 
 
 // ---- access ----
 // Content tagged `access: staff` or `access: partner` sits behind the shared-password gate
-// (middleware.ts). It still loads and still builds a page — the gate is at request time — but it
+// (middleware.ts). It still loads and still builds a page, the gate is at request time, but it
 // must be kept out of anything public: listings, the search index, and cross-page links.
 export function isPublic(entity: { access?: string }): boolean {
   return (entity.access ?? "public") === "public";
@@ -293,7 +293,7 @@ export function isPublic(entity: { access?: string }): boolean {
 /** Programmes safe to list publicly. */
 export const publicProgrammes: Programme[] = programmes.filter(isPublic);
 
-// Educator moves — small, named, repeatable practices (the first set are mentor moves). Grouped by
+// Educator moves, small, named, repeatable practices (the first set are mentor moves). Grouped by
 // `mentorRole` on /educator-moves. Programme-agnostic, so they live in the generic library too.
 export const educatorMoves: FacilitationMaterial[] = libraryMaterials.filter(
   (m) => m.type === "educator-move",
@@ -613,7 +613,7 @@ export function validateGraph(): ValidationReport {
       for (const t of titles) {
         if (!covered.has(t)) {
           warnings.push(
-            `Programme "${prog.id}" component "${t}" has no agency-thread entry — the thread is incomplete.`,
+            `Programme "${prog.id}" component "${t}" has no agency-thread entry. The thread is incomplete.`,
           );
         }
       }
@@ -728,10 +728,10 @@ export function validateGraph(): ValidationReport {
     ) {
       errors.push(`Material "${m.slug}" diagram points to missing file "${m.diagram.src}".`);
     }
-    // Activity visuals: the `image` escape-hatch spec points at a file under public/ — check it exists,
+    // Activity visuals: the `image` escape-hatch spec points at a file under public/, check it exists,
     // mirroring the diagram check. Spec-drawn visuals (zones/groups) need no asset. Covers both the
     // material's own visuals and each step's.
-    for (const v of [...m.visuals, ...m.steps.flatMap((s) => s.visuals)]) {
+    for (const v of [...m.visuals,...m.steps.flatMap((s) => s.visuals)]) {
       if (
         v.spec.type === "image" &&
         v.spec.src.startsWith("/") &&
@@ -934,21 +934,21 @@ export function validateGraph(): ValidationReport {
   // ---- access: the gate's coverage must match the content tags ----
   // The middleware reads a generated manifest (it runs on the edge and cannot read
   // content-source/), so a stale manifest would quietly publish protected content. Fail the build
-  // instead — `npm run build` regenerates the manifest first, so this only fires if the generator
+  // instead, `npm run build` regenerates the manifest first, so this only fires if the generator
   // was not run or a route mapping is missing.
   const protectedProgrammeSlugs = new Set(programmes.filter((p) => !isPublic(p)).map((p) => p.slug));
 
   for (const unit of units) {
     if (protectedProgrammeSlugs.has(unit.programmeSlug) && isPublic(unit)) {
       errors.push(
-        `Unit "${unit.slug}" belongs to protected programme "${unit.programmeSlug}" but is access: public — it would be served to anyone.`,
+        `Unit "${unit.slug}" belongs to protected programme "${unit.programmeSlug}" but is access: public. It would be served to anyone.`,
       );
     }
   }
   for (const m of materials) {
     if (m.edition && protectedProgrammeSlugs.has(m.edition) && isPublic(m)) {
       errors.push(
-        `Material "${m.slug}" is an edition material of protected programme "${m.edition}" but is access: public — it would be served to anyone.`,
+        `Material "${m.slug}" is an edition material of protected programme "${m.edition}" but is access: public. It would be served to anyone.`,
       );
     }
   }
@@ -967,14 +967,14 @@ export function validateGraph(): ValidationReport {
     const missing = expectedPages.filter((p) => !PROTECTED_PAGES.includes(p));
     const extra = manifestPages.filter((p) => !expectedPages.includes(p));
     errors.push(
-      `lib/protected-paths.generated.ts is out of date — run \`npm run gen:protected-paths\`.` +
+      `lib/protected-paths.generated.ts is out of date. Run \`npm run gen:protected-paths\`.` +
         (missing.length ? ` Ungated: ${missing.join(", ")}.` : "") +
         (extra.length ? ` Gated but no longer protected: ${extra.join(", ")}.` : ""),
     );
   }
 
   // Downloads declared by protected content must be gated too, unless a public page also offers
-  // the same file (in which case gating it would break that page — see the generator).
+  // the same file (in which case gating it would break that page, see the generator).
   const publicDownloads = new Set<string>();
   const protectedDownloads = new Set<string>();
   const collect = (entity: { access?: string }, files: { file: string }[]) => {
@@ -987,7 +987,7 @@ export function validateGraph(): ValidationReport {
     if (publicDownloads.has(file)) continue;
     if (!PROTECTED_DOWNLOADS.includes(file)) {
       errors.push(
-        `Download "${file}" is offered only by protected content but is not gated — run \`npm run gen:protected-paths\`.`,
+        `Download "${file}" is offered only by protected content but is not gated. Run \`npm run gen:protected-paths\`.`,
       );
     }
   }
@@ -1055,7 +1055,7 @@ export function getSearchIndex(): SearchRecord[] {
       title: m.title,
       subtitle: clip(m.summary ?? ""),
       url: `/materials/${m.slug}`,
-      keywords: [m.type, m.toolsFacet, ...m.competencyCodes, ...courseTitles]
+      keywords: [m.type, m.toolsFacet,...m.competencyCodes,...courseTitles]
         .filter(Boolean)
         .join(" "),
     });
@@ -1091,7 +1091,7 @@ export function getSearchIndex(): SearchRecord[] {
       id: `competency:${c.code}`,
       kind: "Competency",
       kindLabel: "Competency",
-      title: `${c.code} — ${c.title}`,
+      title: `${c.code}, ${c.title}`,
       subtitle: clip(c.goal || c.title),
       url: `/competencies/${c.code.toLowerCase()}`,
       keywords: [c.code, c.areaId].join(" "),
@@ -1118,7 +1118,7 @@ export function getSearchIndex(): SearchRecord[] {
       title: t.term,
       subtitle: clip(t.definition),
       url: `/glossary/${t.slug}`,
-      keywords: [t.category, ...t.matchPhrases].join(" "),
+      keywords: [t.category,...t.matchPhrases].join(" "),
     });
   }
 
@@ -1153,7 +1153,7 @@ export function getSearchIndex(): SearchRecord[] {
     title: "Agency for positive change",
     subtitle: clip(agency.definition),
     url: "/foundations",
-    keywords: ["agency", ...agency.indicators.map((i) => i.label)].join(" "),
+    keywords: ["agency",...agency.indicators.map((i) => i.label)].join(" "),
   });
 
   return records;
@@ -1169,7 +1169,7 @@ if (report.errors.length > 0) {
 }
 // Warnings were computed and thrown away, so real drift sat unnoticed (e.g. a unit whose block hours
 // no longer summed to its declared total). Print the count on every build so drift is visible, and
-// the full list behind CONTENT_WARNINGS=1 — most of the standing warnings are the documented legacy
+// the full list behind CONTENT_WARNINGS=1. Most of the standing warnings are the documented legacy
 // source issues in content-source/NOTES.md, and printing 150 lines every build trains people to
 // ignore them. `next build` collects page data in several workers, hence the once-per-process guard.
 const WARNED = Symbol.for("amala.content.warned");

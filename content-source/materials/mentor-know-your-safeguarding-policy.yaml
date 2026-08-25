@@ -12,7 +12,7 @@ facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring
 educatorContent: |
-  Mentoring means working closely, often one-to-one, with young people — many of whom have lived
+  Mentoring means working closely, often one-to-one, with young people. Many of whom have lived
   through conflict, displacement or loss. That closeness is exactly why safeguarding comes first.
   Before you start, know your setting's safeguarding policy: what counts as a concern, who the
   designated safeguarding lead is, how and when you must report, what records you keep, and the
@@ -20,7 +20,7 @@ educatorContent: |
 
   These are not universal. A policy written for a school is not the one that fits a refugee camp,
   and a referral that is available to a mentee in one setting may not exist in another. This site
-  cannot give you that policy — your organisation must, and you must follow it at all times when
+  cannot give you that policy, your organisation must, and you must follow it at all times when
   working individually with students. Treat every other move in this bucket as how to hold the
   relationship well within that policy, never as a substitute for it. If you do not yet know your
   policy, that is the first thing to fix, before the next meeting.
@@ -33,13 +33,13 @@ agencyContribution:
 principleAlignment:
   - principle: safe-spaces
     how: >-
-      A genuinely safe space is one held by an adult who knows the policy and acts on it — not one
+      A genuinely safe space is one held by an adult who knows the policy and acts on it, not one
       that merely feels informal and friendly.
 relatedSlugs:
   - mentor-notice-and-respond
   - mentor-respond-to-disclosure
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Student Mentor Playbook"
 provenanceNote: >-
   Built out from the Student Mentor Playbook's minimum requirement to "adhere to the safeguarding
   policy at all times when working individually with students." Deliberately programme- and
@@ -47,4 +47,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

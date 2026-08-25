@@ -1,12 +1,12 @@
-# Intermediate extraction — mirrors spec §4.1 Course/Objective interfaces.
+# Intermediate extraction, mirrors spec §4.1 Course/Objective interfaces.
 # Source: "Peace Building Course Guide - 2025 Onwards.docx"
 # Verbatim from source; issues recorded, not corrected.
 id: peacebuilding
 slug: peacebuilding
 access: public
 title: Peacebuilding
-strapline: null            # not present in guide — to author
-programmes: [gsd]          # to confirm against programme-level docs
+strapline: null # not present in guide, to author
+programmes: [gsd] # to confirm against programme-level docs
 testimonial:
   quote: >-
     The Peace-building course taught me important skills to solve conflicts,
@@ -29,9 +29,9 @@ purpose: >-
   and influence positive change in their own contexts.
 requirements:
   structuredHours: 100
-  durationWeeks: 10          # "minimum of 10 weeks"
+  durationWeeks: 10 # "minimum of 10 weeks"
   cadence: 10+ weeks
-  liveIndependentSplit: ~60 live / ~40 independent   # from design checklist
+  liveIndependentSplit: ~60 live / ~40 independent # from design checklist
   notes: >-
     Structured learning includes both live sessions (individual and/or group) and
     independent learning (individual and/or group tasks).
@@ -91,7 +91,7 @@ objectives:
       - Listen to and consider multiple perspectives, especially those of people directly affected by violence.
       - Identify local actions and interactions that are contributing towards violence.
       - Reflect on how their own perspectives and experiences influence their understanding of violence.
-    furtherDetails:            # raw seeds → future concepts/tools/activities (NOT yet authored materials)
+    furtherDetails: # raw seeds → future concepts/tools/activities (NOT yet authored materials)
       concepts:
         - Beliefs around human nature and whether violence is inevitable
         - Complexity science applied to how violence emerges
@@ -229,7 +229,7 @@ principleMappings:
   - principle: connect-to-futures
     inThisCourse:
       - >-
-          Learners connect peacebuilding practice to the routes through which it is done — community mediation, civil society, education, humanitarian work, local leadership — and what an entry point looks like from where they are.
+          Learners connect peacebuilding practice to the routes through which it is done, community mediation, civil society, education, humanitarian work, local leadership, and what an entry point looks like from where they are.
       - >-
           Facilitators help learners see the transferable core: analysing a conflict, holding a difficult conversation, and building agreement are wanted far beyond peacebuilding roles.
       - >-
@@ -245,7 +245,7 @@ sourceIssues:
   - type: cross-course-copy-paste
     detail: >-
       Design checklist reads "Meets the time and contextualisation requirements for the
-      Social Entrepreneurship course" — should reference Peacebuilding. Same error appears
+      Social Entrepreneurship course", should reference Peacebuilding. Same error appears
       in multiple guides.
   - type: framework-mismatch
     detail: >-

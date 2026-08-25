@@ -250,8 +250,8 @@ export const ProgrammeSchema = z.object({
     .default([]),
   // ---- The agency thread -------------------------------------------------------------------------
   // Agency for positive change is the required outcome (foundations/agency.yaml). It was previously
-  // stated only at the two extremes — the foundations page, and the `agencyContribution` on each
-  // individual material — with nothing joining them, so no document a facilitator or coordinator
+  // stated only at the two extremes, the foundations page, and the `agencyContribution` on each
+  // individual material, with nothing joining them, so no document a facilitator or coordinator
   // actually holds said what the programme was ultimately for. This block is the join: the statement,
   // then one row per component and one per assessed competency, each naming the indicators it builds.
   // Rendered on the programme page AND generated into the Educator and Coordinator Guides.
@@ -289,7 +289,7 @@ export const ProgrammeSchema = z.object({
   versionComparison: z
     .array(z.object({ aspect: z.string(), detail: z.string() }))
     .default([]),
-  // "What it takes to deliver" — staffing, coordinator, training, assessment-time notes.
+  // "What it takes to deliver". Staffing, coordinator, training, assessment-time notes.
   delivery: z
     .array(
       z.object({
@@ -299,7 +299,7 @@ export const ProgrammeSchema = z.object({
       }),
     )
     .default([]),
-  // "What Amala provides" — support, resources, moderation.
+  // "What Amala provides". Support, resources, moderation.
   support: z
     .array(z.object({ title: z.string(), detail: z.string() }))
     .default([]),
@@ -409,23 +409,23 @@ export const MaterialTypeSchema = z.enum([
 ]);
 
 // ---- Educator-move tags ----
-// A move is tagged with one or more of these. AREA tags place the move under a function's bucket(s) —
+// A move is tagged with one or more of these. AREA tags place the move under a function's bucket(s), 
 // a move may sit under several (e.g. both learning-design and learning-facilitation, or spanning into
 // mentoring/assessment). PURPOSE tags are cross-cutting lenses for filtering (e.g.
 // checking-for-understanding), so a trainer can pull up every move that serves a purpose. Human labels
 // and metadata (kind, function, order) live in TAG_META (lib/ui.ts).
 export const EducatorTagSchema = z.enum([
-  // area tags — Mentor
+  // area tags, Mentor
   "wellbeing",
   "safeguarding",
   "progress",
   "recognising-growth",
   "pathways",
-  // area tags — Course facilitator
+  // area tags, Course facilitator
   "learning-design",
   "learning-facilitation",
   "improving-practice",
-  // area tags — Assessor
+  // area tags. Assessor
   "seeking-evidence",
   "making-judgements",
   "assessment-tools",
@@ -456,7 +456,7 @@ export const AREA_TAG_IDS = [
 
 // A single tag on a move, with an optional explanation of how the move relates to that tag. For a move
 // tagged both learning-design and learning-facilitation, the design-time and facilitation-time framing
-// differ — that is what `how` carries. A single-tag move needs no `how`: its own summary explains it.
+// differ. That is what `how` carries. A single-tag move needs no `how`: its own summary explains it.
 export const MoveTagSchema = z.object({
   id: EducatorTagSchema,
   how: z.string().nullable().optional(),
@@ -494,7 +494,7 @@ export const ActivityVisualSpecSchema = z.discriminatedUnion("type", [
     flow: z.enum(["none", "across"]).default("none"),
     // Label on the `flow: across` arrow (default "move"); e.g. "so…" for a finding→insight mapping.
     flowLabel: z.string().nullable().optional(),
-    // `drawing` renders cards as dashed "picture" cards — for oral/visual cohorts who draw, not write.
+    // `drawing` renders cards as dashed "picture" cards. For oral/visual cohorts who draw, not write.
     cardStyle: z.enum(["text", "drawing"]).default("text"),
   }),
   // A room-arrangement diagram: clusters of learners (individuals, pairs, small circles, stations),
@@ -534,7 +534,7 @@ export const ActivityStepSchema = z.object({
 // ---- "Try it yourself" ----
 // The self-serve rehearsal on a Learn it page. `items` are printed for the learner to attempt;
 // `chooseFrom` renders them as options to circle, so a learner who is not yet writing can still answer.
-// `answers` (when the skill HAS right answers — classifying, judging, spotting) are printed at the back
+// `answers` (when the skill HAS right answers, classifying, judging, spotting) are printed at the back
 // of the workbook, and the page points there. A generative or personal task has no key: give `intro`
 // and `then` only, and leave `items`/`answers` empty.
 export const TryItSchema = z.object({
@@ -544,14 +544,14 @@ export const TryItSchema = z.object({
   items: z.array(z.string()).default([]),
   // Must be empty, or the same length as `items` (checked in validateGraph).
   answers: z.array(z.string()).default([]),
-  // What to do once they have tried it — e.g. "now fix the leading one".
+  // What to do once they have tried it. E.g. "now fix the leading one".
   then: z.string().nullable().optional(),
 });
 
 // ---- Learner teaching ("Learn it") ----
 // The METHOD, taught to the learner, BEFORE they are asked to do it. A fully offline component has no
 // internet to look anything up in, so the learner book has to be a textbook as well as a workbook:
-// each activity's page in the component workbook becomes a spread — Learn it (this), then Like this
+// each activity's page in the component workbook becomes a spread. Learn it (this), then Like this
 // (the worked example), then Your turn (the slots to fill). Written oral- and visual-first for a
 // largely pre-literate cohort: short sentences, concrete examples, a good/poor contrast, graded to the
 // component's English level so a facilitator can read it aloud. `words` feed the word wall and the
@@ -566,7 +566,7 @@ export const LearnerTeachingSchema = z.object({
   // New words this teaching introduces, for the word wall and the picture-word cards.
   words: z.array(z.object({ term: z.string(), meaning: z.string() })).default([]),
   // A short rehearsal of the method the learner can do BY THEMSELVES, before the real task. It must
-  // never script the facilitator ("your teacher will read four questions aloud") — a facilitator may
+  // never script the facilitator ("your teacher will read four questions aloud"), a facilitator may
   // well want to run the group version differently, and a learner working alone, or catching up after a
   // missed session, has no facilitator at all. So the items are printed on the page, and where the skill
   // has right answers they are printed at the BACK of the workbook for the learner to check themselves.
@@ -593,8 +593,8 @@ export const FacilitationMaterialSchema = z.object({
     .array(z.object({ context: FacilitationContextSchema, how: z.string() }))
     .default([]),
   toolsFacet: z.enum(["analytical", "facilitation", "both"]).optional(),
-  // The tags this move carries — area tags (which function bucket(s) it appears under) and cross-cutting
-  // purpose tags — each with an optional per-move explanation (`how`) of the move in that context. An
+  // The tags this move carries, area tags (which function bucket(s) it appears under) and cross-cutting
+  // purpose tags, each with an optional per-move explanation (`how`) of the move in that context. An
   // educator-move must carry at least one AREA tag (enforced in validateGraph). See TAG_META (lib/ui.ts).
   tags: z.array(MoveTagSchema).default([]),
   // running detail (mainly activities)
@@ -611,7 +611,7 @@ export const FacilitationMaterialSchema = z.object({
   // activity in a unit-planned component this becomes the "Learn it" page of the workbook spread.
   learnerTeaching: LearnerTeachingSchema.nullable().optional(),
   // A deliberate opt-out from `learnerTeaching`, carrying the REASON. Some activities are procedural
-  // rather than methodical — setting up a book, an orientation — and a "Learn it" page there is padding
+  // rather than methodical, setting up a book, an orientation, and a "Learn it" page there is padding
   // that costs paper in a programme where paper is scarce. Set this instead, so the missing page reads
   // as a decision rather than a gap, and validateGraph() stops asking for it.
   learnerTeachingNotNeeded: z.string().nullable().optional(),
@@ -628,7 +628,7 @@ export const FacilitationMaterialSchema = z.object({
     .default([]),
   objectiveIds: z.array(z.string()).default([]),
   relatedSlugs: z.array(z.string()).default([]),
-  // The student worksheet for this activity — a `resource` material holding the learner-facing sheet.
+  // The student worksheet for this activity. A `resource` material holding the learner-facing sheet.
   // Rendered as a prominent callout on the activity page. Every activity that appears in a unit plan
   // should set this (validateGraph warns otherwise). The printable version is compiled into the
   // component's downloadable workbook, so the worksheet resource says so rather than shipping its own file.
@@ -733,7 +733,7 @@ export const UnitSchema = z.object({
   totalIndependentHours: z.number(),
   // For a COURSE-LESS component. The three taught components state what they are working towards by
   // rendering their course guide (purpose, anchor competency, objectives). Mentoring and Wellbeing has
-  // no course, so it carries the equivalent here — otherwise it is the one component whose plan says
+  // no course, so it carries the equivalent here. Otherwise it is the one component whose plan says
   // what to do and never what it is for.
   purpose: z.string().nullable().optional(),
   aims: z
@@ -745,7 +745,7 @@ export const UnitSchema = z.object({
       lookLike: z.string().nullable().optional(),
     }))
     .default([]),
-  // For a component that is NOT time-bound — Mentoring and Wellbeing runs as regular conversations
+  // For a component that is NOT time-bound. Mentoring and Wellbeing runs as regular conversations
   // folded into the other components' in-person time, so it adds no hours of its own. Such a unit sets
   // both totals to 0 and describes its rhythm here; the hours badge is replaced by this. Mirrors the
   // same xor on a programme component. Use one or the other, not both.
@@ -769,16 +769,16 @@ export type Unit = z.infer<typeof UnitSchema>;
 
 // ---- Modules (competency / skill modules) ----
 // A Module groups materials at a FINER grain than a course, around the development of one framework
-// competency. It is a cross-cutting path — materials → skill → competency — that sits alongside the
+// competency. It is a cross-cutting path, materials → skill → competency, that sits alongside the
 // existing material → objective → course edges, not a replacement for them. Two grains share one
-// schema (house style — cf. one ProgrammeSchema for course- and component-based programmes):
+// schema (house style, cf. one ProgrammeSchema for course- and component-based programmes):
 //   - grain "competency": develops a whole competency (e.g. FSI1); made of ordered skill modules.
 //   - grain "skill":       develops one specific skill of that competency (e.g. "Conduct primary
 //                          research"); made of ordered materials, and rolls up into a competency module.
 export const ModuleGrainSchema = z.enum(["skill", "competency"]);
 
 // A step in a module's learning sequence (its mini scheme of work). A step either RUNS a material
-// (materialSlug set) or is a CONNECTIVE block — orientation, bridge, consolidation, assessment — that
+// (materialSlug set) or is a CONNECTIVE block, orientation, bridge, consolidation, assessment, that
 // carries only `guidance`. The guidance is the connective tissue that turns a pile of materials into a
 // coherent sequence: why this step happens here, what it builds on, what to draw out, how it sets up
 // the next one. Modelled on UnitBlock but hours-light (a module is smaller than a programme component).
@@ -797,7 +797,7 @@ export const ModuleStepSchema = z.object({
   // The material this step runs, if any. Validated against the materials collection in validateGraph().
   // Connective steps (orientation/bridge/consolidation/assessment) leave it unset and rely on guidance.
   materialSlug: z.string().nullable().optional(),
-  // The connective narrative for this step — the reason it earns its place in the sequence.
+  // The connective narrative for this step. The reason it earns its place in the sequence.
   guidance: z.string(),
   // Optional light timings (modules are hours-light; set where useful). Totals are summed if omitted.
   facilitatedHours: z.number().nullable().optional(),
@@ -915,7 +915,7 @@ export type CompetencyEvidence = z.infer<typeof CompetencyEvidenceSchema>;
 // learner materials by competency) and from `educator-move` materials (the craft library). A module
 // here is a self-contained training a trainer delivers: an overview, a session-by-session structure,
 // a deliverable, sign-off criteria, and a set of downloadable trainer + participant resources.
-// Deliberately decoupled from programmes/qualification wiring for now — this is about getting the
+// Deliberately decoupled from programmes/qualification wiring for now. This is about getting the
 // modules and their resources onto the site so trainers can run them.
 
 export const EducatorModuleCategorySchema = z.enum(["foundation", "component", "delivery-mode"]);
@@ -928,12 +928,12 @@ export const EducatorResourceAudienceSchema = z.enum(["trainer", "participant", 
 export const EducatorResourceSchema = z.object({
   label: z.string(),
   file: z.string(), // path under /public, e.g. "/downloads/dfgbl-trainer-guide.docx"
-  format: z.string().nullable().optional(), // "DOCX", "PPTX" — the badge on the download link
+  format: z.string().nullable().optional(), // "DOCX", "PPTX". The badge on the download link
   audience: EducatorResourceAudienceSchema.default("shared"),
   note: z.string().nullable().optional(),
 });
 
-// One timed block within a live session, e.g. "0:30–0:55 — Sharing context and learners".
+// One timed block within a live session, e.g. "0:30–0:55. Sharing context and learners".
 export const EducatorModuleBlockSchema = z.object({
   time: z.string().nullable().optional(),
   title: z.string(),

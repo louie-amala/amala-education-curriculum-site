@@ -1,4 +1,4 @@
-// Colour-encoding for competency areas (Build Spec §9.1 — use colour to aid scannability).
+// Colour-encoding for competency areas (Build Spec §9.1, use colour to aid scannability).
 // Full class strings so Tailwind's scanner keeps them.
 export interface AreaStyle {
   text: string;
@@ -66,7 +66,7 @@ export const TAG_META: Record<string, TagMeta> = {
     function: "mentor",
     order: 0,
     blurb:
-      "Helping mentees feel safe, supported and able to raise concerns — and building their own tools for the challenges they face.",
+      "Helping mentees feel safe, supported and able to raise concerns, and building their own tools for the challenges they face.",
   },
   safeguarding: {
     label: "Safeguarding & referral",
@@ -90,7 +90,7 @@ export const TAG_META: Record<string, TagMeta> = {
     function: "mentor",
     order: 3,
     blurb:
-      "Helping mentees notice, name and evidence the skills they are developing — including from life outside the classroom.",
+      "Helping mentees notice, name and evidence the skills they are developing. Including from life outside the classroom.",
   },
   pathways: {
     label: "Pathways & futures",
@@ -107,7 +107,7 @@ export const TAG_META: Record<string, TagMeta> = {
     function: "course-facilitator",
     order: 0,
     blurb:
-      "Deciding what is worth learning and what success looks like — and designing a journey that gets learners there.",
+      "Deciding what is worth learning and what success looks like, and designing a journey that gets learners there.",
   },
   "learning-facilitation": {
     label: "Learning facilitation",
@@ -115,7 +115,7 @@ export const TAG_META: Record<string, TagMeta> = {
     function: "course-facilitator",
     order: 1,
     blurb:
-      "Running the room well — making thinking visible, handling difficulty with care, and meeting learners where they are.",
+      "Running the room well, making thinking visible, handling difficulty with care, and meeting learners where they are.",
   },
   "improving-practice": {
     label: "Improving learning design & facilitation",
@@ -123,7 +123,7 @@ export const TAG_META: Record<string, TagMeta> = {
     function: "course-facilitator",
     order: 2,
     blurb:
-      "Getting better together — opening your practice to colleagues and learners, and acting on what you find.",
+      "Getting better together, opening your practice to colleagues and learners, and acting on what you find.",
   },
   // ---- Area tags: Assessor ----
   "seeking-evidence": {
@@ -132,7 +132,7 @@ export const TAG_META: Record<string, TagMeta> = {
     function: "assessor",
     order: 0,
     blurb:
-      "Building the fullest possible picture of what a learner can do — by knowing them well, questioning them, and watching them work in real contexts.",
+      "Building the fullest possible picture of what a learner can do, by knowing them well, questioning them, and watching them work in real contexts.",
   },
   "making-judgements": {
     label: "Making the judgement",
@@ -140,7 +140,7 @@ export const TAG_META: Record<string, TagMeta> = {
     function: "assessor",
     order: 1,
     blurb:
-      "Bringing the evidence together to judge a competency against the proficiency scale — fairly, holistically, and with others.",
+      "Bringing the evidence together to judge a competency against the proficiency scale, fairly, holistically, and with others.",
   },
   "assessment-tools": {
     label: "Assessment tools",
@@ -148,7 +148,7 @@ export const TAG_META: Record<string, TagMeta> = {
     function: "assessor",
     order: 2,
     blurb:
-      "Structured ways to draw evidence out — competency reflections, showcases, portfolios and rubrics.",
+      "Structured ways to draw evidence out, competency reflections, showcases, portfolios and rubrics.",
   },
   // ---- Purpose tags (cross-cutting lenses) ----
   "making-thinking-visible": {
@@ -161,13 +161,13 @@ export const TAG_META: Record<string, TagMeta> = {
     label: "Checking for understanding",
     kind: "purpose",
     order: 1,
-    blurb: "Finding out, in the moment, whether learning has landed — so you know what to do next.",
+    blurb: "Finding out, in the moment, whether learning has landed, so you know what to do next.",
   },
   questioning: {
     label: "Questioning",
     kind: "purpose",
     order: 2,
-    blurb: "Using questions well — to reveal thinking, probe depth, and move learning forward.",
+    blurb: "Using questions well, to reveal thinking, probe depth, and move learning forward.",
   },
   feedback: {
     label: "Feedback",
@@ -193,7 +193,7 @@ export function tagMeta(id: string): TagMeta {
   return TAG_META[id] ?? { label: id, blurb: "", kind: "purpose", order: 99 };
 }
 
-// The ordered AREA tags belonging to one function — the buckets on that function's page.
+// The ordered AREA tags belonging to one function, the buckets on that function's page.
 export function functionAreas(fn: EducatorFunctionKey): { id: string; meta: TagMeta }[] {
   return Object.entries(TAG_META)
     .filter(([, m]) => m.kind === "area" && m.function === fn)
@@ -201,7 +201,7 @@ export function functionAreas(fn: EducatorFunctionKey): { id: string; meta: TagM
     .map(([id, meta]) => ({ id, meta }));
 }
 
-// All cross-cutting purpose tags, ordered — the options for the "filter by purpose" control.
+// All cross-cutting purpose tags, ordered. The options for the "filter by purpose" control.
 export const PURPOSE_TAGS: { id: string; meta: TagMeta }[] = Object.entries(TAG_META)
   .filter(([, m]) => m.kind === "purpose")
   .sort((a, b) => a[1].order - b[1].order)
@@ -222,7 +222,7 @@ export const EDUCATOR_FUNCTIONS: EducatorFunctionMeta[] = [
     key: "mentor",
     label: "Mentor",
     blurb:
-      "Walking alongside individual learners — supporting their academic progress and their wellbeing, and helping them recognise growth and reach their pathways.",
+      "Walking alongside individual learners, supporting their academic progress and their wellbeing, and helping them recognise growth and reach their pathways.",
     href: "/educators/mentoring",
     accent: "border-terracotta",
   },
@@ -230,7 +230,7 @@ export const EDUCATOR_FUNCTIONS: EducatorFunctionMeta[] = [
     key: "course-facilitator",
     label: "Course facilitator",
     blurb:
-      "Designing and facilitating learning — clarifying what success looks like, making thinking visible, and handling discussion and difficulty well.",
+      "Designing and facilitating learning, clarifying what success looks like, making thinking visible, and handling discussion and difficulty well.",
     href: "/educators/course-facilitation",
     accent: "border-teal",
   },
@@ -238,7 +238,7 @@ export const EDUCATOR_FUNCTIONS: EducatorFunctionMeta[] = [
     key: "assessor",
     label: "Assessor of competencies",
     blurb:
-      "Judging learners' competencies fairly and with evidence — getting to know learners, seeking evidence of proficiency, and making sound, moderated judgements.",
+      "Judging learners' competencies fairly and with evidence, getting to know learners, seeking evidence of proficiency, and making sound, moderated judgements.",
     href: "/educators/assessment",
     accent: "border-plum",
   },
@@ -257,7 +257,7 @@ export const EDUCATOR_MODULE_CATEGORY: Record<
   },
   component: {
     label: "Component modules",
-    blurb: "Tied to what a programme is made of — the training a specific component calls for.",
+    blurb: "Tied to what a programme is made of, the training a specific component calls for.",
     accent: "border-teal",
   },
   "delivery-mode": {
@@ -273,7 +273,7 @@ export const CONTEXT_LABEL: Record<string, string> = {
   independent: "Independent",
 };
 
-// Downloadable-artefact roles (Build Spec — worksheet/template distinction). The label is the group
+// Downloadable-artefact roles (Build Spec, worksheet/template distinction). The label is the group
 // heading a download renders under; `order` sets a stable reading order (explainer → worksheet →
 // example → template) so the guided sheet leads and the blank template trails. Untagged downloads
 // fall back to a generic group, ordered last.

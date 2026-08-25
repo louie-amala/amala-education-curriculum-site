@@ -4,32 +4,32 @@ access: public
 type: educator-move
 title: "Get to know the learner deeply"
 summary: >-
-  The competency lives in the person, not the artefact. The better you know a learner — over time and
-  across contexts — the better you can recognise and judge what they can really do.
+  The competency lives in the person, not the artefact. The better you know a learner, over time and
+  across contexts, the better you can recognise and judge what they can really do.
 tags:
   - id: seeking-evidence
 educatorContent: |
   Start from a principle: a competency lives in the person, not in any single piece of work. A
   polished artefact can hide a learner who cannot do it again unaided; a rough one can belong to a
-  learner who clearly can. So the ground of good assessment is knowing the learner well — over time,
+  learner who clearly can. So the ground of good assessment is knowing the learner well, over time,
   across tasks and contexts, not from one snapshot.
 
   Build that picture deliberately. Notice how they work, not just what they hand in; what they can do
   with support and without; where they are strong and where they coast. The mentor relationship,
   ongoing contact and your own records all feed this. The aim is that by the time you sit down to
-  judge a competency, you are not guessing from a single product — you are drawing on a rich,
+  judge a competency, you are not guessing from a single product. You are drawing on a rich,
   triangulated sense of what this person can actually do.
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction
   how: >-
     A learner assessed by someone who genuinely knows them is judged on what they can really do, not
-    on how one artefact happened to land — which is what makes recognition of their growth fair.
+    on how one artefact happened to land, which is what makes recognition of their growth fair.
 principleAlignment:
   - principle: builds-on-identities
     how: >-
-      Knowing the whole learner — how they work, what they bring, what they can do in different
-      contexts — treats their proficiency as something rooted in who they are, not in a single output.
+      Knowing the whole learner, how they work, what they bring, what they can do in different
+      contexts, treats their proficiency as something rooted in who they are, not in a single output.
   - principle: feedback-and-data
     how: >-
       An accumulated, triangulated picture of a learner is the data a sound judgement rests on, rather
@@ -38,7 +38,7 @@ relatedSlugs:
   - mentor-surface-skills-from-life
   - as-see-the-work-they-produce
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook (Assessment)"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook (Assessment)"
 provenanceNote: >-
   Frames the assessor function around the principle the user set: the competency is in the person, not
   the artefact. Draws on the Playbook's assessment section (triangulating evidence across methods) and
@@ -46,4 +46,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

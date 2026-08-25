@@ -12,11 +12,11 @@ facilitationContext:
   - group
 primaryContext: group
 educatorContent: |
-  It is easy to plan from activities — a nice task, then another. Backward design (Wiggins &
+  It is easy to plan from activities, a nice task, then another. Backward design (Wiggins &
   McTighe's "Understanding by Design") flips this: first decide what learners should understand and be
   able to do, then what evidence would show it, and only then design the activities and experiences
   that get them there. This keeps teaching and assessment aligned to the goal, and pushes for depth
-  over coverage — the big ideas of a subject rather than a tour of its surface.
+  over coverage. The big ideas of a subject rather than a tour of its surface.
 
   Project-based learning fits this well and fits Amala's model: learners engage in real, personally
   meaningful projects, which aligns with a constructivist view of learning and with building agency.
@@ -41,11 +41,11 @@ principleAlignment:
 relatedSlugs:
   - cf-learning-intentions-success-criteria
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook"
 provenanceNote: >-
   Generalised from the Playbook's "Understanding by Design" and "Project Based Learning" sections
   (Wiggins & McTighe; PBLWorks Gold Standard). Kept programme-agnostic.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

@@ -1,5 +1,5 @@
-# English for Impact — Unit 4 as a course. Source: LLL Course Guide, Unit 4 "Our World" (pp. 36–39).
-# Competency anchor (FSI1) is authored — see sourceIssues.
+# English for Impact. Unit 4 as a course. Source: LLL Course Guide, Unit 4 "Our World" (pp. 36–39).
+# Competency anchor (FSI1) is authored, see sourceIssues.
 id: efi-our-world
 slug: efi-our-world
 access: public
@@ -21,7 +21,7 @@ throughline:
     Agency for positive change begins with understanding the world you want to change. Before a learner
     can act on an issue, they must be able to find out about it. Our World develops Investigate
     real-world issues (FSI1): learners read and compare news sources, research a local or global issue,
-    and report what they find — the first, foundational form of inquiry that later action depends on.
+    and report what they find. The first, foundational form of inquiry that later action depends on.
   toObjectives: >-
     The three objectives move from the sounds and words of news and information, to describing and
     reporting events using present and past tenses, and finally to researching and writing a news
@@ -39,7 +39,7 @@ requirements:
   cadence: ≈4–5 weeks
   liveIndependentSplit: 30 live / 20 independent
   notes: >-
-    About 50 hours of structured learning — roughly 30 facilitated (live) and 20 independent —
+    About 50 hours of structured learning, roughly 30 facilitated (live) and 20 independent,
     adaptable to pacing and instructional time. An introduction to research
     and news writing; translanguaging supports reading and comparing sources.
 
@@ -88,7 +88,7 @@ objectives:
       - Collaboratively write news articles that report on real-world events, and share them with the community.
     furtherDetails:
       concepts:
-        - Authentic project — Our World Community Newspaper — an introduction to research and news writing.
+        - Authentic project, Our World Community Newspaper, an introduction to research and news writing.
       activities:
         - Publication of a class newspaper, Our World, with an optional speaking extension (a newscast or presentations).
     competencyEvidence:
@@ -116,7 +116,7 @@ principleMappings:
   - principle: responsible-action
     inThisCourse:
       - >-
-          Learners are taught to check a claim before reporting it, and to say where it came from — the same evidence habit the Research Project builds, arriving through English.
+          Learners are taught to check a claim before reporting it, and to say where it came from. The same evidence habit the Research Project builds, arriving through English.
       - >-
           Reporting on other people's situations is treated as carrying obligations: accuracy, permission, and not making someone's difficulty into material.
       - >-
@@ -148,7 +148,7 @@ principleMappings:
 designChecklist:
   - The course includes ~20–40 hours of learning experiences integrating phonics, grammar, reading, writing, and speaking.
   - Grammar, phonics, and vocabulary are connected to the unit outcomes and the news-writing project.
-  - Opportunities to generate evidence for Amala competencies — especially the anchor FSI1 — are built into the research project.
+  - Opportunities to generate evidence for Amala competencies, especially the anchor FSI1, are built into the research project.
 
 sourceIssues:
   - type: competency-mapping-authored

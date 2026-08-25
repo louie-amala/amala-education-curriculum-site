@@ -1,5 +1,5 @@
 # Contextualised, fully offline ORIENTATION activity for the Research Project component of Learning
-# Bridge+ (Cox's Bazar). Learners meet the shared challenge — the trees on the hills where they live —
+# Bridge+ (Cox's Bazar). Learners meet the shared challenge, the trees on the hills where they live,
 # through a picture/story of the hills before and now, react to it, and hear what the course will do.
 # Getting started phase. Oral and visual first; warm, hopeful tone; safeguarding to hand.
 id: cb-rp-meet-our-challenge
@@ -9,8 +9,8 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "Meet our challenge"
 summary: >-
-  Learners meet the one challenge the whole group will investigate — what is happening to the trees on
-  the hills where we live — through a picture and story of the hills before and now. They say what they
+  Learners meet the one challenge the whole group will investigate, what is happening to the trees on
+  the hills where we live, through a picture and story of the hills before and now. They say what they
   notice and wonder, and hear how the course will work.
 facilitationContext:
 - group
@@ -22,14 +22,14 @@ whatLearnersDo:
 - Say what they notice and what they already wonder about the trees, the bare slopes, the rain, the heat.
 - "Hear, in plain terms, what the course will do: make our question our own, gather evidence, work out what it means, and share it."
 materialsAndPreparation:
-- A picture (or a story you tell) of the hills before the camps and now — bare slopes, few trees.
+- A picture (or a story you tell) of the hills before the camps and now, bare slopes, few trees.
 - 'The research question written or drawn big to show at the end: "What happens to our hills without trees, and what changes when trees and plants grow back?"'
 - Step-back and referral guidance to hand, in case the talk touches a landslide or a lost shelter.
 visuals:
 - kind: setup
   title: "The hills, before and now"
   caption: >-
-    Show one picture, or a wall in two halves — the forested hills of before, the bare slopes of now.
+    Show one picture, or a wall in two halves. The forested hills of before, the bare slopes of now.
     Let learners look and react before you explain anything.
   spec:
     type: zones
@@ -50,7 +50,7 @@ visuals:
 - kind: example
   title: "Our wonder-wall"
   caption: >-
-    The wonderings gathered in step 2 — the first seeds of our research. No question is too small, and a
+    The wonderings gathered in step 2, the first seeds of our research. No question is too small, and a
     drawn one counts.
   spec:
     type: zones
@@ -64,7 +64,7 @@ visuals:
       - "Will the trees come back?"
       - "Why is it so hot now?"
 facilitationNotes: >-
-  The one thing to get right: keep the tone one of curiosity and hope — the land is greening again — not
+  The one thing to get right: keep the tone one of curiosity and hope, the land is greening again, not
   disaster. The trees are a safe subject, but they touch landslides and lost shelters, so no learner has
   to speak from their own life. Start from a picture or story, not a definition, and let learners react
   before you explain anything.
@@ -72,7 +72,7 @@ steps:
 - title: "The hills, before and now"
   duration: "40 min"
   guidance: >-
-    Show a picture, or tell a short story, of the hills before the camps — covered in forest — and now,
+    Show a picture, or tell a short story, of the hills before the camps, covered in forest, and now,
     bare in many places. Give learners time to look and react. Draw out what they notice, in their own
     words, without correcting or teaching yet.
   keyPrompts:
@@ -81,7 +81,7 @@ steps:
 - title: "What we wonder"
   duration: "40 min"
   guidance: >-
-    In pairs, learners say one thing they wonder about the trees and hills. Gather these together — they
+    In pairs, learners say one thing they wonder about the trees and hills. Gather these together. They
     are the first seeds of our research. Notice how personal the flooding or landslides are for the
     group; this tells you how much to lead later, and where to take care.
   keyPrompts:
@@ -103,17 +103,17 @@ learnerContent: |
   Together we are going to find out about this. Our question is: what happens to our hills without trees,
   and what changes when trees and plants grow back?
 
-  Why do we find this out? Because these hills are ours — what happens to them touches our safety, our
+  Why do we find this out? Because these hills are ours, what happens to them touches our safety, our
   homes, and our health. Understanding a real challenge with evidence, instead of guessing, is how we can
-  think clearly about it. And people are already working to help the hills — so we can also find out
+  think clearly about it. And people are already working to help the hills, so we can also find out
   whether what they do is working. Learning to find things out this way is a skill we can use for any
   challenge in our lives.
 
 educatorContent: |
   ## What you need to know before you teach this
 
-  This is the block that decides whether the cohort cares. Everything downstream — the quality of the
-  questions, whether pairs actually go out and gather — depends on whether the challenge feels like
+  This is the block that decides whether the cohort cares. Everything downstream, the quality of the
+  questions, whether pairs actually go out and gather, depends on whether the challenge feels like
   theirs in this session.
 
   ### Lead with the place, not the topic
@@ -125,11 +125,11 @@ educatorContent: |
   Their reactions are also your diagnostic. How personal the flooding and the landslides are for this
   group tells you how much to lead in the framing phase and where the protection risks sit.
 
-  ### Say why we are doing this — all three reasons
+  ### Say why we are doing this: all three reasons
 
   1. These hills are theirs, and what happens to them touches their safety, their homes, their health.
   2. Understanding a real thing with evidence lets you think clearly about it, instead of arguing.
-  3. People are already working on it — so we can also find out whether it is working, which is a
+  3. People are already working on it, so we can also find out whether it is working, which is a
      researcher's skill they can use on anything.
 
   ### Hold the tone: hopeful, not disaster
@@ -140,7 +140,7 @@ educatorContent: |
 
   ### The safeguarding, which is real here
 
-  The trees are a deliberately safe subject — but they touch landslides and lost shelters, and some
+  The trees are a deliberately safe subject, but they touch landslides and lost shelters, and some
   learners in the room will have lost family or a home to exactly that.
 
   So: no learner speaks from their own life unless they choose to; the everyday, observational version
@@ -150,7 +150,7 @@ educatorContent: |
   ### Listen more than you talk in the second half
 
   Once the challenge is on the table, the useful part is learners' own wondering. Write their questions
-  up — several will become the things they actually chase, and a learner who sees their own question on
+  up, several will become the things they actually chase, and a learner who sees their own question on
   the wall is a learner who turns up.
 
   ## Before they leave this block
@@ -170,7 +170,7 @@ agencyContribution:
   - power-over-wellbeing-and-self-direction
   how: >-
     Learners begin an investigation into a real challenge in their own community, starting from what
-    they already notice and care about — the first step in turning concern into understanding they can
+    they already notice and care about. The first step in turning concern into understanding they can
     act on.
 principlesForegrounded: [builds-on-identities, authentic-challenges, safe-spaces]
 principleAlignment:
@@ -193,4 +193,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

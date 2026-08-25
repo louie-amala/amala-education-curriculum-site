@@ -1,5 +1,5 @@
 # Student worksheet (resource) for the activity cb-ail-getting-better-at-goals. Thin per §3: what the page is and how the
-# learner uses it. Ships no file of its own — its printable version compiles into the Agency in
+# learner uses it. Ships no file of its own, its printable version compiles into the Agency in
 # Learning student workbook ("My Learning Book"). Learning Bridge+ (Cox's Bazar) edition.
 id: cb-ail-why-goals-page
 slug: cb-ail-why-goals-page
@@ -16,10 +16,10 @@ primaryContext: independent
 learnerContent: |
   ## Why goals, and where am I now?
 
-  This page is yours. You can draw, write, or say your answer — someone will write it for you if you
-  ask — and nobody marks it right or wrong.
+  This page is yours. You can draw, write, or say your answer, someone will write it for you if you
+  ask, and nobody marks it right or wrong.
 
-  - Read why setting your own goal matters — in the camp, and long after this course.
+  - Read why setting your own goal matters, in the camp, and long after this course.
   - Mark the step on the ladder most like you **now**. Mark it again at the end.
   - Say or write the one thing you most want to be able to do by the end, and your next step.
 agencyContribution:
@@ -38,4 +38,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

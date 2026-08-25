@@ -5,17 +5,17 @@ type: educator-move
 title: "Ask questions that reveal proficiency"
 summary: >-
   Questioning is one of the surest ways to see what a learner really understands. Probe, follow up,
-  and ask them to justify — so you assess the person, not a rehearsed answer.
+  and ask them to justify, so you assess the person, not a rehearsed answer.
 tags:
   - id: seeking-evidence
 educatorContent: |
-  You cannot see a competency directly, so you engineer situations that reveal it — and questioning is
+  You cannot see a competency directly, so you engineer situations that reveal it, and questioning is
   one of the most reliable. Both informally, in conversation, and formally (a viva-style verbal
   assessment), well-aimed questions surface what a learner genuinely understands and can do.
 
   Interpret rather than evaluate: a hesitant or wrong answer often tells you more than a fluent one,
-  because it shows the edge of what they can do. Ask them to justify and explain — "how did you work
-  that out?", "what would you do if…?" — and follow up to probe depth rather than accepting the first
+  because it shows the edge of what they can do. Ask them to justify and explain, "how did you work
+  that out?", "what would you do if…?", and follow up to probe depth rather than accepting the first
   answer. Where questioning is formal, agree the criteria and share questions in advance, and keep it
   proportionate. Questioning is also harder to fake than a product, which is part of why it is such
   good evidence of the person behind the work.
@@ -24,7 +24,7 @@ agencyContribution:
     - power-over-wellbeing-and-self-direction
   how: >-
     Being asked to explain and justify their thinking helps a learner articulate what they know and
-    can do — which both evidences proficiency and strengthens their ownership of it.
+    can do, which both evidences proficiency and strengthens their ownership of it.
 principleAlignment:
   - principle: feedback-and-data
     how: >-
@@ -37,11 +37,11 @@ relatedSlugs:
   - cf-make-thinking-visible
   - as-competency-showcase
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook (Assessment)"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook (Assessment)"
 provenanceNote: >-
   Generalised from the Playbook's assessment methods (Viva Voce; the questioning stance in "Making
-  Learning and Thinking Visible" — interpret don't evaluate, ask learners to justify).
+  Learning and Thinking Visible", interpret don't evaluate, ask learners to justify).
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

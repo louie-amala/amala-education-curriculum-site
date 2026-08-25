@@ -1,7 +1,7 @@
 # Student worksheet (resource) for the closing activity cb-rp-share-and-reflect. Thin per §3: what the
-# sheet is and how the learner uses it. The end-of-course reflection page in the research book — the
+# sheet is and how the learner uses it. The end-of-course reflection page in the research book, the
 # learner revisits the "Where I am as a researcher" growth path, names one way they have grown, and one
-# thing they would still like to find out. Ships no file of its own — its printable version compiles into
+# thing they would still like to find out. Ships no file of its own, its printable version compiles into
 # the Research Project student workbook. Learning Bridge+ (Cox's Bazar) edition.
 id: cb-rp-how-i-have-grown
 slug: cb-rp-how-i-have-grown
@@ -12,7 +12,7 @@ title: "How I have grown as a researcher"
 summary: >-
   The end-of-course reflection page: the learner looks back at their "Where I am as a researcher" growth
   path, marks where they are now, and names one way they have grown and one thing they would still like to
-  find out — in words or drawings.
+  find out. In words or drawings.
 facilitationContext:
 - group
 - independent
@@ -26,7 +26,7 @@ learnerContent: |
   On the page there is room to:
 
   - Look again at the growth path you marked on the first day, and mark where you are as a researcher now.
-  - Draw or write one way you have grown — one thing you can do now that you could not do at the start,
+  - Draw or write one way you have grown, one thing you can do now that you could not do at the start,
     like asking, looking closely, keeping a record, or checking whether something is true.
   - Draw or write one thing about our hills you would still like to find out.
 
@@ -38,7 +38,7 @@ agencyContribution:
   - power-over-wellbeing-and-self-direction
   how: >-
     Naming their own growth, and one thing they still want to find out, lets learners read and own how far
-    they have come as researchers — and see that finding out for themselves is a power they can keep
+    they have come as researchers, and see that finding out for themselves is a power they can keep
     using, on any question that matters to them.
 objectiveIds: []
 relatedSlugs: [cb-rp-share-and-reflect, cb-rp-researcher-growth-path, cb-rp-what-good-research-looks-like]
@@ -50,4 +50,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

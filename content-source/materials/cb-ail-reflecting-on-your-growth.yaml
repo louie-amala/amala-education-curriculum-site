@@ -31,7 +31,7 @@ deliveryAdaptations:
     Weakest fit, because learners alone tend to see only what they did not finish and there is no one to hold up
     the growth they discount. Give them the spoken prompts, ask them to turn through their actual workbook page
     by page, then show one piece of growth to a peer or the facilitator at the next session so it is witnessed.
-duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 20 min independent task done from the workbook"
+duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort, the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 20 min independent task done from the workbook"
 grouping: "Individual looking-back, then same-gender pairs or small groups; works with 10-35 learners"
 whatLearnersDo:
 - Turn through your workbook and find your goal and the marks you have made.
@@ -135,7 +135,7 @@ educatorContent: |
   ### Reflection must run on evidence, not on feeling
 
   Left to a feeling, learners in this cohort will under-report almost every time. Asked "have you
-  grown?", many will say not much — because the goal is not fully reached, or because a hard week is
+  grown?", many will say not much, because the goal is not fully reached, or because a hard week is
   freshest in the mind.
 
   So the mechanism is physical: turn back through the book, from page one, in order. The pages do the
@@ -146,7 +146,7 @@ educatorContent: |
 
   ### The three questions that produce real answers
 
-  Not "what did you learn?" — that gets a shrug or a platitude. Ask:
+  Not "what did you learn?". That gets a shrug or a platitude. Ask:
 
   1. **What can you do now that you could not do at the start?** Specific, and pointable-to.
   2. **What was hard, and what did you do about it?** This is the one that shows the competency, and
@@ -155,7 +155,7 @@ educatorContent: |
   3. **What do you still want to get better at?** This becomes the next goal, and it is the honest
      answer to a goal not fully reached.
 
-  ### A goal not reached is not a failure — say it out loud
+  ### A goal not reached is not a failure: say it out loud
 
   Many learners will not have reached their goal. Say plainly, to the group, before anyone shares:
   reaching the goal was never the test. Setting one, taking real steps, and adapting when a step did
@@ -170,7 +170,7 @@ educatorContent: |
     "You could not do this in week two. Can you now?"
   - **The learner who says everything changed.** Ask for the evidence, kindly. "Show me the page."
 
-  ### This is assessment evidence — take it down as they speak
+  ### This is assessment evidence: take it down as they speak
 
   What learners say here, in their own words, is among your strongest FSL2 evidence, especially the
   rationale. Write it down the same day. Do not rely on recall in Week 12.
@@ -181,14 +181,14 @@ educatorContent: |
   - Each can name one specific thing they can do now that they could not do at the start, and point to
     the page.
   - Each has said what was hard AND what they did about it.
-  - Each has one thing they still want to get better at — the seed of the next goal.
+  - Each has one thing they still want to get better at, the seed of the next goal.
   - You have their words written down.
 learnerTeaching:
   title: "How to see how far you have come"
   readAloud: |
     ## How to see how far you have come
 
-    You have been working for weeks. Now we look back — and this is not a small thing at the end. It is
+    You have been working for weeks. Now we look back, and this is not a small thing at the end. It is
     one of the most useful things you will do.
 
     ### Why we bother looking back
@@ -213,11 +213,11 @@ learnerTeaching:
     Answer these out loud, or by drawing. Point at the page each time.
 
     1. **What can I do now that I could not do at the start?**
-    2. **What was hard — and what did I DO about it?**
+    2. **What was hard, and what did I DO about it?**
     3. **What do I still want to get better at?**
 
     The second one matters most. Anyone can have an easy week. What shows you have really learned
-    something is what you did when it went wrong — when the step did not work, and you found a smaller
+    something is what you did when it went wrong, when the step did not work, and you found a smaller
     one, or a different one, and kept going.
 
     ### If you did not reach your goal
@@ -227,7 +227,7 @@ learnerTeaching:
     **Reaching the goal was never the test.**
 
     What this course was about is: did you set a goal of your own, did you take real steps, and did you
-    change your plan when something did not work. If you did those, you did this course — whether or not
+    change your plan when something did not work. If you did those, you did this course. Whether or not
     you got all the way there.
 
     A goal not reached is not a failure. It is usually just a goal that was slightly too big, which is
@@ -315,4 +315,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

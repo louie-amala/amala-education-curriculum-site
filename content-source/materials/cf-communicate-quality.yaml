@@ -14,7 +14,7 @@ tags:
   - id: learning-facilitation
     how: >-
       When facilitating, have learners rank the samples, construct criteria, and self-assess before
-      handing work in — using where they disagree to open a dialogue about what quality really is.
+      handing work in. Using where they disagree to open a dialogue about what quality really is.
   - id: feedback
   - id: reflection-self-assessment
 facilitationContext:
@@ -23,14 +23,14 @@ primaryContext: group
 educatorContent: |
   Some things about quality cannot be written down. Rather than relying on a rubric alone, communicate
   quality by showing it: share anonymous samples of work of varying quality and have learners rank and
-  discuss them — people are often better at spotting strengths and weaknesses in others' work than in
+  discuss them, people are often better at spotting strengths and weaknesses in others' work than in
   their own. Then push further: get learners to construct their own success criteria by comparing
   those samples, and to self-assess against them before handing work to you.
 
   Watch a trap: choose examples where the deep features (what really makes the work good) are not
   aligned with surface features (length, neatness), or learners will "succeed" by reading the wrong
-  signal. Rubrics still help lay out criteria — use them, but keep them general enough to apply across
-  tasks, and use them to open a dialogue ("here is where I would have scored it differently — why?")
+  signal. Rubrics still help lay out criteria, use them, but keep them general enough to apply across
+  tasks, and use them to open a dialogue ("here is where I would have scored it differently, why?")
   rather than to close one.
 agencyContribution:
   indicators:
@@ -50,7 +50,7 @@ principleAlignment:
 relatedSlugs:
   - cf-learning-intentions-success-criteria
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook"
 provenanceNote: >-
   Generalised from the same learning-design section (start with samples of work rather than rubrics;
   get students to construct their own success criteria; deep vs surface features; use rubrics
@@ -58,4 +58,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

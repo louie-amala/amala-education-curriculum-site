@@ -2,7 +2,7 @@
 # efi-phonics-table-student (the personal, growing phonics reference) and efi-mv-vocabulary-recycling-games
 # (how collected words are brought back through play). The key shift: the source Phonics Table is a written
 # grid a literate learner fills with sounds, spelling patterns, and words. Here almost no one reads or writes
-# yet, so it becomes a visual "My Voice book" — a book each learner grows all unit, collecting their name,
+# yet, so it becomes a visual "My Voice book". A book each learner grows all unit, collecting their name,
 # their sounds, and their own meaningful picture-words (drawn, with the word beside it, and their own
 # translation). It is their running record of learning and growth. Oral and visual first, no devices. Objective 1.
 id: cb-mv-my-voice-book
@@ -10,10 +10,10 @@ slug: cb-mv-my-voice-book
 access: partner
 edition: learning-bridge-coxs-bazar
 type: activity
-title: "My Voice book — the book of my sounds and words"
+title: "My Voice book, the book of my sounds and words"
 summary: >-
   Each learner sets up their own My Voice book: a visual, emergent-literacy version of the Phonics Table
-  that they grow all unit long, collecting their name, their sounds, and their meaningful picture-words —
+  that they grow all unit long, collecting their name, their sounds, and their meaningful picture-words. 
   each one drawn, with the English word beside it and the learner's own translation. It becomes the running
   record of everything they learn, and the source of the games that bring those words back again and again.
 facilitationContext:
@@ -36,27 +36,27 @@ deliveryAdaptations:
 - context: independent
   how: >-
     Strong for independent time, because the whole point of the book is that a learner keeps adding to it on
-    their own — a picture-word from their day, a sound they noticed. The collecting works alone; the
+    their own. A picture-word from their day, a sound they noticed. The collecting works alone; the
     recycling games need a partner, so the independent task is to add to the book, and the games are played
     back in the group.
 duration: "About 1.5 hours facilitated to set up and learn the routine, then grown across every session of the unit"
 grouping: "Whole group to set up, then same-gender pairs for sharing and games; works with 10-35 learners"
 whatLearnersDo:
-- Set up their own My Voice book, with their name and its first sound — carried over from the alphabet activity — as its first page.
-- Learn the routine for adding a picture-word — draw the thing, put the English word beside it, and add their own translation in a language or script they know.
-- Collect their first meaningful words — words from their own life that matter to them — rather than a fixed list.
+- Set up their own My Voice book, with their name and its first sound, carried over from the alphabet activity, as its first page.
+- Learn the routine for adding a picture-word, draw the thing, put the English word beside it, and add their own translation in a language or script they know.
+- Collect their first meaningful words, words from their own life that matter to them, rather than a fixed list.
 - Learn how the book feeds simple recycling games that bring their collected words back again and again, so the words stick.
 materialsAndPreparation:
-- A simple book or folded booklet for each learner — even a few sheets folded and held together — that they can keep, add to, and carry between sessions.
+- A simple book or folded booklet for each learner, even a few sheets folded and held together, that they can keep, add to, and carry between sessions.
 - Something to draw and write with, and something to draw on when pencils are short (a finger in sand or dust works for practising the shapes before they go in the book).
 - Your own My Voice book started as a model, with your name, one sound, and one or two picture-words, to show first.
 - Picture and word cards from "Words about me" to reuse in the recycling games, if you have them; the games also run on the learners' own book pages.
-- "Sensitivity: the words a learner chooses to collect can touch on home, family, and where they are from, which may carry loss or separation. Learners always choose their own words, and a lighter, everyday word — a food, a colour, a thing they like — is always welcome and always enough. No one has to explain why a word matters to them."
+- "Sensitivity: the words a learner chooses to collect can touch on home, family, and where they are from, which may carry loss or separation. Learners always choose their own words, and a lighter, everyday word, a food, a colour, a thing they like, is always welcome and always enough. No one has to explain why a word matters to them."
 visuals:
 - kind: setup
   title: "How to add a word: draw, name, translate"
   caption: >-
-    Every entry follows the same three steps, so the book becomes a routine learners own — a picture, the
+    Every entry follows the same three steps, so the book becomes a routine learners own. A picture, the
     English word, and their own language.
   spec:
     type: zones
@@ -77,7 +77,7 @@ visuals:
 - kind: example
   title: "A page of my Voice book"
   caption: >-
-    The book's spine: my name and its first sound, then picture-words I have collected — each drawn, named,
+    The book's spine: my name and its first sound, then picture-words I have collected. Each drawn, named,
     and translated.
   spec:
     type: zones
@@ -86,21 +86,21 @@ visuals:
     - label: "My Voice book"
       tone: positive
       cards:
-      - "Rashida — R, rrr"
+      - "Rashida. R, rrr"
       - "rice"
       - "my mother"
       - "blue"
 facilitationNotes: |
   This is the emergent-literacy rebuild of two source ideas at once: the personal Phonics Table that a
   learner grows across the course, and the recycling games that keep collected words alive. The source Table
-  is a written grid — sounds, spelling patterns, example words — that assumes a learner who can already read
+  is a written grid, sounds, spelling patterns, example words, that assumes a learner who can already read
   and write. Here it becomes a book that runs on drawing and voice: a learner who cannot yet write a word can
   still draw the thing, hear its sound, and own it. The three things to get right are these. First, the book
-  belongs to the learner — they choose the words, from their own life, so it fills with language that means
+  belongs to the learner. They choose the words, from their own life, so it fills with language that means
   something to them rather than a fixed list; that ownership is what makes them tend it. Second, every
   picture-word is a small bridge across languages: the drawing carries the meaning, the English word sits
   beside it, and the learner's own translation, in whatever language or script they know, ties the new word
-  to knowledge they already hold. Third, a collected word is not a learned word until it comes back — so the
+  to knowledge they already hold. Third, a collected word is not a learned word until it comes back, so the
   book is not a scrapbook but a working tool, fed straight into short, playful games that make learners
   retrieve their words again and again. Set the routine up carefully now, because the book grows across the
   whole unit and is where a learner will one day see just how much they have gathered.
@@ -108,14 +108,14 @@ steps:
 - title: "Meet and make your book"
   duration: "25-30 min"
   guidance: |
-    Show your own My Voice book first — your name on the first page with its first sound, and a couple of
-    picture-words — so learners see what theirs will become. Then help each learner make and open their own
+    Show your own My Voice book first, your name on the first page with its first sound, and a couple of
+    picture-words, so learners see what theirs will become. Then help each learner make and open their own
     book and set up its first page: their name and its first sound, carried straight over from the alphabet
     activity, so the book begins from who they are. Let them look at the empty pages not as a task but as
     space that is theirs to fill. For many this will be the first book they have ever owned; let that matter,
-    and let them make a mark of ownership on it — a drawing, a colour, a pattern.
+    and let them make a mark of ownership on it. A drawing, a colour, a pattern.
   keyPrompts:
-  - This is your book. The first page is you — your name, and the sound it starts with.
+  - This is your book. The first page is you, your name, and the sound it starts with.
   - What could you draw on the front so everyone knows this book is yours?
   - These empty pages are for the words you will collect. They are yours to fill.
   watchOuts:
@@ -125,61 +125,61 @@ steps:
     Where there are no booklets, a few sheets folded and pinned, or even a single sheet added to over time,
     becomes the book; where pencils are scarce, learners practise the shapes with a finger in sand or dust
     before committing them to the precious paper.
-- title: "Collect a picture-word — draw it, name it, translate it"
+- title: "Collect a picture-word, draw it, name it, translate it"
   duration: "30-35 min"
   guidance: |
-    Teach the routine for adding a word, which learners will repeat all unit. Take one meaningful word — a
-    thing from their own life — and do it together: first draw the thing, because the picture carries the
+    Teach the routine for adding a word, which learners will repeat all unit. Take one meaningful word, a
+    thing from their own life, and do it together: first draw the thing, because the picture carries the
     meaning with no reading needed; then put the English word beside the drawing; then add the learner's own
-    translation, in whatever language or script they know — Rohingya, Chittagonian, Burmese, Arabic from the
+    translation, in whatever language or script they know. Rohingya, Chittagonian, Burmese, Arabic from the
     madrasa. Say the word aloud as it goes in, so the sound joins the picture and the shape. Then let each
     learner add one or two words of their own choosing. Circulate, kneel beside people, and praise the
     collecting, not the neatness of the drawing or the letters.
   keyPrompts:
-  - Choose a word that matters to you. Now draw it — the picture holds the meaning.
+  - Choose a word that matters to you. Now draw it, the picture holds the meaning.
   - Say the English word aloud as you write it beside your drawing.
   - How would you say or write this word in a language you already know? Put that in too.
   watchOuts:
   - Pushing for neat writing or drawing; at this stage the win is choosing a word and getting it into the book, not handwriting or art. Neatness comes with time.
-  - A learner stuck for a word; steer them gently to their own everyday life — a food, a family member, a thing they like — since the best words are their own, not ones you supply.
+  - A learner stuck for a word; steer them gently to their own everyday life, a food, a family member, a thing they like, since the best words are their own, not ones you supply.
   adaptation: |
     The whole routine works with a stick in the dust as rehearsal before the book: draw the thing, say the
     word, then commit it to the page. If a learner cannot yet form the letters, they draw the picture and
     add the word by tracing or with a partner's or mentor's help, and still own the page.
-- title: "Bring the words back — recycling games from the book"
+- title: "Bring the words back, recycling games from the book"
   duration: "25-30 min"
   guidance: |
     Show learners that the book is not a place words go to rest but a store to play from, so they stick. Model
     two or three short games that run straight off their own picture-words, in same-gender pairs or small
     groups: a picture race, where you say a word and partners race to point to it in their books; a memory
     match, using their drawings and words; and a "who am I?" guessing game, where a learner gives clues from
-    their own words for a partner to guess. Keep the games short, playful, and about retrieval — make learners
+    their own words for a partner to guess. Keep the games short, playful, and about retrieval. Make learners
     recall a word, not just look at it again. Explain that a game like this will come back most sessions, so
     the words they collect keep returning.
   keyPrompts:
   - Say the word, then point to it in your book as fast as you can.
-  - Show your partner a picture-word — can they say the English word before you do?
+  - Show your partner a picture-word, can they say the English word before you do?
   - Give three clues from your own words. Which one am I thinking of?
   watchOuts:
   - The same quick learners winning every round; mix pairs, reward the group not individuals, and let everyone lead a round so no one is only ever losing.
   - Silent play where learners just look at pages; insist the words are said aloud, because it is retrieving and saying the word that fixes it, not seeing it again.
   adaptation: |
-    Every game here runs on the learners' own books and voices — no printed cards, board, power, or devices
+    Every game here runs on the learners' own books and voices, no printed cards, board, power, or devices
     needed. A game works equally on the floor of a shelter with books open, or with words drawn in the dust
     if a book is not to hand.
 closing: |
   Have a few learners hold up their book and show one picture-word they collected today, saying it aloud. Name
-  what the book is for: this is your own record of your English, and it will grow every week — by the end of
+  what the book is for: this is your own record of your English, and it will grow every week. By the end of
   the unit you will turn back to this first page and see how far you have come. Keep the book safe; it is
   where your learning lives. Independent task: before the next session, add one new picture-word to your My
-  Voice book — draw a thing from your day, put the English word beside it if you can, and be ready to show it
+  Voice book. Draw a thing from your day, put the English word beside it if you can, and be ready to show it
   to a partner.
 agencyContribution:
   indicators:
   - control-of-future-pathways
   how: >-
-    Building and owning a personal record of English — in the learner's own chosen words and drawings, added
-    to at their own pace — turns learning from something done to them into a tool they make and control. A
+    Building and owning a personal record of English, in the learner's own chosen words and drawings, added
+    to at their own pace, turns learning from something done to them into a tool they make and control. A
     learner who has assembled their own book of sounds and words has a reference they can keep improving from
     independently, and independent reading and writing are the gateway to the further study and work this
     programme is a bridge toward.
@@ -196,12 +196,12 @@ principleAlignment:
 - principle: recognise-communicate-growth
   how: >-
     Because the same book is added to across the whole unit, learners can turn back and see how much they
-    have collected and learned — a visible, tangible record of their own progress that they made themselves.
+    have collected and learned. A visible, tangible record of their own progress that they made themselves.
 - principle: lifeworthy-competencies
   how: >-
     Building and keeping a personal reference for sounds and words, and using retrieval games to make words
     stick, are foundational learning strategies a learner reuses in every later unit and across any future
-    study — the how of learning, not just the what.
+    study. The how of learning, not just the what.
 competencyCodes:
 - FLC3
 - FUS1
@@ -214,7 +214,7 @@ competencyDevelopment:
 - code: FUS1
   how: >-
     Choosing which words matter enough to collect, and turning back through the book to see how it has grown,
-    develops learners' awareness of themselves — what they value, what they can now do, and that they are
+    develops learners' awareness of themselves. What they value, what they can now do, and that they are
     someone whose learning is visibly growing.
 objectiveIds:
 - efi-my-voice--o1
@@ -238,12 +238,12 @@ educatorContent: |
   ### Show them it teaches, as well as records
 
   Turn to a "Learn it" page and say what it is: this teaches you how, it stays in your book, and you
-  can read it again any time — after the session, at home, or when you come back from a week away.
+  can read it again any time. After the session, at home, or when you come back from a week away.
 
   Most learners have never had a book that was theirs to keep. Say it, or they will treat it as a
   worksheet to hand in.
 
-  ### The word collection is the engine — start it today
+  ### The word collection is the engine: start it today
 
   Get one picture-word in on day one: draw a thing, say it, write the English word, add their own
   language if they want. That page should be visibly longer every week, and pointing learners back to
@@ -252,7 +252,7 @@ educatorContent: |
   ### Fix when it comes out, and where it lives
 
   One repeating moment each session, held even when the session overruns. Then ask out loud where books
-  will live between sessions, and offer the kept-at-the-centre option before anyone has to ask — some
+  will live between sessions, and offer the kept-at-the-centre option before anyone has to ask. Some
   learners cannot keep one dry or private at home, and nobody should have to explain that in front of
   the group.
 
@@ -286,4 +286,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

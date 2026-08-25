@@ -1,4 +1,4 @@
-# English for Impact — My Voice (Unit 1) teaching activity. OUTPUT (speaking+writing) via information gap.
+# English for Impact. My Voice (Unit 1) teaching activity. OUTPUT (speaking+writing) via information gap.
 # Source: LLL Course Guide Unit 1; CLT information-gap tasks. "Find someone who" (Ex 7) extended.
 id: efi-mv-class-survey
 slug: efi-mv-class-survey
@@ -6,8 +6,8 @@ access: public
 type: activity
 title: "Class survey: getting to know each other"
 summary: >-
-  Learners survey their classmates — asking a few set questions, recording the answers, and reporting
-  back what they found — a real information-gap task that combines speaking, listening, and writing
+  Learners survey their classmates, asking a few set questions, recording the answers, and reporting
+  back what they found, a real information-gap task that combines speaking, listening, and writing
   around the unit's identity language.
 facilitationContext: [group, independent]
 primaryContext: group
@@ -15,7 +15,7 @@ deliveryAdaptations:
 - context: group
   how: >-
     The natural home for a survey: learners move around asking classmates real questions and recording
-    real answers, then report to the group. The information gap — not knowing until you ask — makes the
+    real answers, then report to the group. The information gap, not knowing until you ask, makes the
     talk purposeful.
 - context: independent
   how: >-
@@ -29,12 +29,12 @@ whatLearnersDo:
 - Count and notice patterns (how many people are from the same country; the most popular like).
 - Report one or two findings to the group.
 materialsAndPreparation:
-- A simple survey chart (names down the side, questions across the top) — paper or the workbook.
+- A simple survey chart (names down the side, questions across the top). Paper or the workbook.
 - Agreed questions on display, and the sentence frames for asking and answering.
 - Your own quick model of asking one classmate and filling one row.
 facilitationNotes: |
   A survey is a genuine information-gap task: learners ask because they really do not know the answer,
-  which is what makes the speaking purposeful rather than a drill. It weaves all the strands together —
+  which is what makes the speaking purposeful rather than a drill. It weaves all the strands together, 
   asking (speaking), understanding replies (listening), recording (writing), and reporting (speaking
   again). Keep the questions few and known so the challenge is the interaction, not new language. Model
   filling one row so the chart is clear. Let learners choose what they are comfortable sharing. The
@@ -49,7 +49,7 @@ steps:
     Practise the questions once together so everyone can ask them clearly.
   keyPrompts:
   - What questions will we ask? How do we ask them?
-  - Watch me ask and write one answer — now you try one.
+  - Watch me ask and write one answer, now you try one.
   watchOuts:
   - Too many or unknown questions; keep to three or four the learners can already ask.
   adaptation: |
@@ -57,7 +57,7 @@ steps:
 - title: "Ask and record"
   duration: "15–20 min"
   guidance: |
-    Learners move around asking classmates and filling in their chart — aim for five or six people.
+    Learners move around asking classmates and filling in their chart, aim for five or six people.
     Circulate to keep it in English and to encourage full-sentence answers. The buzz of real questions
     and answers is the heart of the activity; let it run.
   keyPrompts:
@@ -79,7 +79,7 @@ steps:
   watchOuts:
   - Struggling with he/she is at this stage; keep report sentences simple and support them, since third-person is the next units' focus.
 closing: |
-  Draw together a couple of whole-class findings — where people are from, common likes. Note that they
+  Draw together a couple of whole-class findings, where people are from, common likes. Note that they
   used English for a real purpose: to find things out about each other and share them. This is what the
   language is for.
 agencyContribution:
@@ -92,11 +92,11 @@ principlesForegrounded: [collaboration, builds-on-identities, authentic-challeng
 principleAlignment:
 - principle: collaboration
   how: >-
-    The whole task is interactive and cooperative — everyone asks, answers, and contributes to a shared
+    The whole task is interactive and cooperative, everyone asks, answers, and contributes to a shared
     picture of the class.
 - principle: builds-on-identities
   how: >-
-    The survey content is learners' own identities — origins, languages, likes — and learners choose
+    The survey content is learners' own identities, origins, languages, likes, and learners choose
     what to share.
 - principle: authentic-challenges
   how: >-
@@ -122,4 +122,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

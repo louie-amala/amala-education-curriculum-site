@@ -1,4 +1,4 @@
-# Global Secondary Diploma (GSD) — programme structure (spec §4.1 Programme).
+# Global Secondary Diploma (GSD), programme structure (spec §4.1 Programme).
 # Sources: GSD Handbook (Requirements + Criteria for Award); GSD Explainer (overview,
 # accreditation, target learners, the stream diagram on p.6).
 # This programme OWNS the course→stream→role relationships. Courses do not hardcode their
@@ -28,8 +28,8 @@ targetContext: >-
 structure: >-
   A flexible, modular programme typically delivered over about 15 months. Learners engage in
   roughly 20 hours of facilitated and independent work per week. The programme comprises a
-  minimum of 1100 hours of structured learning — of which at least 660 hours are facilitated
-  live (in person or online) — across 10 Amala Changemaker Courses (two per subject stream),
+  minimum of 1100 hours of structured learning, of which at least 660 hours are facilitated
+  live (in person or online), across 10 Amala Changemaker Courses (two per subject stream),
   the Personal Interest Project, and the Pathways Programme.
 durationMonthsTypical: 15
 totalStructuredHoursMin: 1100
@@ -38,33 +38,33 @@ liveFacilitatedHoursMin: 660
 # 10 Changemaker Courses = 5 streams x 2 courses. Positions (course-1/course-2) from the
 # Explainer diagram; treat as layout position unless a delivery sequence is confirmed.
 # exampleProductTask = an EXAMPLE end-of-course demonstration task from the Handbook. These are
-# illustrative, NOT a GSD requirement — educators may use other tasks. null = "under construction".
+# illustrative, NOT a GSD requirement. Educators may use other tasks. null = "under construction".
 streams:
   - id: leadership-for-social-innovation
     title: Leadership for Social Innovation
     courses:
       - { courseId: social-entrepreneurship, position: course-1, exampleProductTask: "Final Pitch: Share Your Social Enterprise" }
-      - { courseId: ethical-leadership,       position: course-2, exampleProductTask: "Final Reflection: Ethical Leadership in Action" }
+      - { courseId: ethical-leadership, position: course-2, exampleProductTask: "Final Reflection: Ethical Leadership in Action" }
   - id: towards-sustainable-peace
     title: Towards Sustainable Peace
     courses:
-      - { courseId: peacebuilding,     position: course-1, exampleProductTask: "Peacebuilding Proposal" }
+      - { courseId: peacebuilding, position: course-1, exampleProductTask: "Peacebuilding Proposal" }
       - { courseId: living-peacefully, position: course-2, exampleProductTask: "Living Peacefully Reflection" }
   - id: active-participation-in-societies
     title: Active Participation in Societies
     courses:
-      - { courseId: making-societal-change,        position: course-1, exampleProductTask: null }   # "under construction"
+      - { courseId: making-societal-change, position: course-1, exampleProductTask: null } # "under construction"
       - { courseId: economics-for-positive-change, position: course-2, exampleProductTask: "Regenerative Economics Proposal" }
   - id: self-and-cultural-expression
     title: Self and Cultural Expression
     courses:
-      - { courseId: powerful-narratives,              position: course-1, exampleProductTask: null }
+      - { courseId: powerful-narratives, position: course-1, exampleProductTask: null }
       - { courseId: artistic-and-cultural-expression, position: course-2, exampleProductTask: null }
   - id: using-evidence-to-make-change
     title: Using Evidence to Make Change
     courses:
-      - { courseId: maths-for-change,          position: course-1, exampleProductTask: null }
-      - { courseId: science-informed-action,   position: course-2, exampleProductTask: null }
+      - { courseId: maths-for-change, position: course-1, exampleProductTask: null }
+      - { courseId: science-informed-action, position: course-2, exampleProductTask: null }
 
 ongoingComponents:
   - courseId: pip
@@ -77,7 +77,7 @@ ongoingComponents:
     graduationRequirement: true
 
 graduationCriteria:
-  - Complete two courses per subject stream — 10 Changemaker Courses total, equivalent to 1000 hours of structured learning.
+  - Complete two courses per subject stream, 10 Changemaker Courses total, equivalent to 1000 hours of structured learning.
   - Complete a Personal Interest Project, equivalent to 50 hours of structured learning.
   - Complete a Pathways course, equivalent to 50 hours of structured learning.
   - Achieve a minimum of Practitioner level in each of the Foundational competencies in the Amala Competency Framework and Proficiency Scale.
@@ -87,7 +87,7 @@ assessment:
     Foundational competencies are required for graduation (breadth); Advanced competencies are
     optional and let learners explore areas in more depth. Proficiency is demonstrated through a
     portfolio of evidence drawn from inside and outside the curriculum.
-  evidenceSources:            # aligns with FacilitationMaterial / AssessmentExample evidence model
+  evidenceSources: # aligns with FacilitationMaterial / AssessmentExample evidence model
     - Products (e.g. reports, slide decks, written reflections)
     - Performances (e.g. live demonstrations, presentations, community interactions)
     - Educator insights (based on the educator's understanding of a learner's progress)

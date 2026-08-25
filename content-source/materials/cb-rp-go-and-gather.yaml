@@ -19,22 +19,22 @@ primaryContext: independent
 duration: "1 hour facilitated + 3 hours independent"
 grouping: "Same-gender pairs for gathering; whole group for the check-in"
 whatLearnersDo:
-- Ask one or two people, or look at one or two places, from our community map — asking permission first, every time.
-- Compare a green place and a bare place — look at both and notice the differences (which is cooler, which has firm soil, where the water runs), the good and the bad of each.
+- Ask one or two people, or look at one or two places, from our community map. Asking permission first, every time.
+- Compare a green place and a bare place, look at both and notice the differences (which is cooler, which has firm soil, where the water runs), the good and the bad of each.
 - Record what they find in the research book, with marks, drawings, and a few words.
 - Bring what they found back to the group and share it in a warm check-in.
 materialsAndPreparation:
 - The community map (who and what we can safely learn from).
 - The interview or survey questions the group designed.
 - The gathering-record page in the research book, one per learner.
-- A gender-responsive gathering plan, so girls can take part safely — see the facilitation notes.
+- A gender-responsive gathering plan, so girls can take part safely. See the facilitation notes.
 - "An agreed safeguarding and referral pathway, set up with the programme before this block: who a facilitator turns to if a learner, or someone they speak to, becomes distressed or is at risk. Follow NRC's Code of Conduct and protection principles."
 visuals:
 - kind: setup
   title: "Gather in same-gender pairs"
   caption: >-
     Gathering happens mostly between sessions, in pairs, with the consent routine already practised. Plan
-    it so girls can take part safely — see the facilitation notes. You hold the check-in and the ethics line.
+    it so girls can take part safely, see the facilitation notes. You hold the check-in and the ethics line.
   spec:
     type: groups
     facilitator: true
@@ -45,7 +45,7 @@ visuals:
 - kind: example
   title: "A gathering record"
   caption: >-
-    What one learner found when they asked and looked — in marks, drawings, and a few words. We never
+    What one learner found when they asked and looked, in marks, drawings, and a few words. We never
     write anyone's name.
   spec:
     type: zones
@@ -61,11 +61,11 @@ facilitationNotes: >-
   The one thing to get right: protect this block and keep the ethics line, every time. Consent is always
   asked, no names are written, no one is pressed to answer, and no learner is ever sent anywhere unsafe
   to get evidence. Gathering happens mostly between sessions; open each session with a short, warm
-  check-in in same-gender pairs or the group — who did you speak to, what did you find, what got in the
-  way. When gathering is disrupted — by a fire, an illness, a week kept indoors — adapting the plan and
+  check-in in same-gender pairs or the group. Who did you speak to, what did you find, what got in the
+  way. When gathering is disrupted, by a fire, an illness, a week kept indoors, adapting the plan and
   picking it up again is part of the skill, not a failure.
 
-  Plan gathering so every learner can take part safely — this especially means girls. In this community,
+  Plan gathering so every learner can take part safely, this especially means girls. In this community,
   adolescent girls being seen in public, or approaching people they do not know, can be unsafe or not
   culturally accepted, so do not send girls out to gather the same way as boys. Arrange gathering that
   fits: girls gather from people in their own home and from women in their close networks, or gather
@@ -79,7 +79,7 @@ steps:
   guidance: >-
     Open with a warm check-in, in same-gender pairs or the whole group: who did you speak to, what did
     you find, what was hard. Celebrate what was gathered and gently solve problems together. Keep the
-    ethics line in view — remind the group of consent, no names, and staying safe.
+    ethics line in view, remind the group of consent, no names, and staying safe.
   keyPrompts:
   - "Who did you ask, and what did they say?"
   - "What got in the way, and how could we get around it?"
@@ -94,14 +94,14 @@ learnerContent: |
 
   Now we find things out for ourselves. In your pair, go to one or two people or places from our map.
   Always ask permission first: "May I ask you some questions?" If they say no, or want to stop, that is
-  fine — say thank you and stop.
+  fine. Say thank you and stop.
 
   Looking counts as much as asking. One good way to look: find a green place and a bare place, and
   compare them. Which is cooler? Where is the soil firm, and where does it wash away? What is good about
   each, and what is hard? The differences you see are real evidence.
 
   Do not write anyone's name. Never go anywhere that does not feel safe. Record what you find in your
-  research book — a drawing, a mark, a few words — and bring it back to share.
+  research book, a drawing, a mark, a few words, and bring it back to share.
 
 educatorContent: |
   ## What you need to know before you teach this
@@ -109,13 +109,13 @@ educatorContent: |
   The briefing happened in the rehearsal block before this one, so the half hour here is the check-in
   AFTER gathering, not a send-off before it. Do not let it slide back into preparation.
 
-  ### Protect the check-in — it is where the block actually works
+  ### Protect the check-in: it is where the block actually works
 
   Open every session that follows with a short, warm check-in in same-gender pairs or the group: who
   did you speak to, what did you find, what got in the way, what will you do differently. Ten minutes.
 
   That check-in is where a stuck pair gets unstuck, where you see the evidence accumulating, and where
-  you catch a pair who has not gone at all — which you will otherwise discover in week nine.
+  you catch a pair who has not gone at all, which you will otherwise discover in week nine.
 
   ### "They said no" is a success, and keep saying so
 
@@ -132,7 +132,7 @@ educatorContent: |
   ### Hold the ethics line every single time
 
   Consent every time. No names, ever. No pressure. No learner sent anywhere unsafe for a piece of
-  evidence. If gathering and safety pull against each other, safety wins — say that out loud, more than
+  evidence. If gathering and safety pull against each other, safety wins. Say that out loud, more than
   once.
 
   Girls gather differently: in their own home, from women in their close networks, or with a female
@@ -142,7 +142,7 @@ educatorContent: |
   ### When it gets disrupted
 
   Fires, illness, a week kept indoors. Adapting the plan and picking it back up is the skill, not a
-  setback — and a pair who lost their planned person needs the map, not encouragement. Have the
+  setback, and a pair who lost their planned person needs the map, not encouragement. Have the
   alternative ready.
 
   ## Before they leave for gathering
@@ -178,7 +178,7 @@ learnerTeaching:
 
     ### Write while they are talking, not after
 
-    This feels rude. It is not — and it is the difference between real evidence and a vague memory.
+    This feels rude. It is not, and it is the difference between real evidence and a vague memory.
 
     Mark your page while they are still speaking. A drawing and three words is enough. If you wait
     until you get home you will write what you *think* they said, which is not the same thing.
@@ -211,7 +211,7 @@ learnerTeaching:
 
     Fires, rain, illness, a week you cannot go out. It happens.
 
-    Picking it up again is part of the work. Tell your facilitator what happened and make a new plan —
+    Picking it up again is part of the work. Tell your facilitator what happened and make a new plan, 
     that is what a researcher does.
   words:
     - term: consent
@@ -228,7 +228,7 @@ agencyContribution:
   - contribution-to-community
   - power-over-wellbeing-and-self-direction
   how: >-
-    Learners gather real evidence from their own community, ethically and safely — the investigative
+    Learners gather real evidence from their own community, ethically and safely. The investigative
     heart of turning concern about a challenge into understanding they can act on.
 principlesForegrounded: [responsible-action, collaboration, authentic-challenges]
 principleAlignment:
@@ -245,7 +245,7 @@ competencyDevelopment:
 - code: FTS3
   how: Learners collect and record data systematically in their research book.
 - code: FLC1
-  how: Learners act ethically throughout — consent, privacy, and the safety of participants and themselves.
+  how: Learners act ethically throughout, consent, privacy, and the safety of participants and themselves.
 objectiveIds: [research-project--o2]
 relatedSlugs: [cb-rp-gathering-record, cb-rp-design-our-questions, cb-rp-two-ways-and-ethics, cb-rp-community-mapping]
 provenanceNote: >-
@@ -255,4 +255,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

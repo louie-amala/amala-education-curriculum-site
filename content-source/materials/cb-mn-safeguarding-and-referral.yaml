@@ -1,6 +1,6 @@
 # Safeguarding & referral resource for the Mentoring and Wellbeing component of Learning Bridge+
-# (Cox's Bazar). Mentoring is where disclosures actually happen — it is 1:1, it is trusted, and it asks
-# real questions — and the Educator Guide gave it three bullet points. Sibling of
+# (Cox's Bazar). Mentoring is where disclosures actually happen, it is 1:1, it is trusted, and it asks
+# real questions, and the Educator Guide gave it three bullet points. Sibling of
 # cb-rp-safeguarding-and-protection and cb-ail-safeguarding-and-protection.
 id: cb-mn-safeguarding-and-referral
 slug: cb-mn-safeguarding-and-referral
@@ -29,7 +29,7 @@ educatorContent: |
 
   1. **The referral pathway, written down and to hand.** The name of the person you hand a concern to,
      how to reach them, what happens out of hours, and what you do if you cannot reach them. Not "I
-     think it's the protection focal point" — the actual name, on paper, in your bag.
+     think it's the protection focal point", the actual name, on paper, in your bag.
   2. **NRC's Code of Conduct, read.** Including the parts about physical contact, being alone with a
      learner, transport, gifts, and contact outside the programme.
   3. **Your own limits, named.** You are a mentor, not a counsellor. Write that sentence somewhere you
@@ -64,13 +64,13 @@ educatorContent: |
   2. **Listen. Do not investigate.** It is not your job to establish what happened. Do not ask probing
      questions, do not ask for detail, do not ask "are you sure". Every extra question can damage a
      formal process later and makes the learner tell the story more times than they should have to.
-  3. **Do not promise secrecy** — see above. If they have already asked, say the line.
+  3. **Do not promise secrecy**, see above. If they have already asked, say the line.
   4. **Believe them, out loud.** "Thank you for telling me. I am glad you did." That is all.
   5. **Say what you will do next, in plain words.** "I am going to talk to ___, whose job it is to
      help. I will tell you when I have."
   6. **Do not leave them alone with it.** Stay a few minutes. Ask what would help right now.
   7. **Refer the same day.** Not tomorrow, not when it is convenient.
-  8. **Write down what was said, in the learner's own words**, as soon as you can — facts, not your
+  8. **Write down what was said, in the learner's own words**, as soon as you can. Facts, not your
      interpretation, and not on the learner's own page. Give it to the person you refer to.
 
   What you do **not** do: investigate, confront anyone, contact a family, promise an outcome, or handle
@@ -88,7 +88,7 @@ educatorContent: |
   - **Pressure to stop learning**, often falling on girls, and often not framed as a decision.
 
   For the last one in particular: it may not arrive as a disclosure at all. It arrives as attendance
-  quietly falling off. Notice absences and ask about them privately, kindly, and early — that
+  quietly falling off. Notice absences and ask about them privately, kindly, and early. That
   conversation is sometimes the only intervention that happens.
 
   ## The quieter signals
@@ -106,7 +106,7 @@ educatorContent: |
 
   ## Step back, do not step in
 
-  Much of what a mentoring conversation touches is painful without being a safeguarding matter — a
+  Much of what a mentoring conversation touches is painful without being a safeguarding matter. A
   death, a lost home, a family not all here. You do not have to fix it and you must not excavate it.
 
   1. Do not ask a second question.
@@ -118,7 +118,7 @@ educatorContent: |
   ## Afterwards, look after yourself
 
   Hearing this is heavy, and mentors in camp settings often carry the same displacement the learners
-  do. Do not hold a disclosure alone — that is what the referral is for, and it is for your sake as
+  do. Do not hold a disclosure alone. That is what the referral is for, and it is for your sake as
   well as theirs. Tell your coordinator when a conversation has affected you. A mentor running on empty
   stops noticing, and noticing is the job.
 agencyContribution:
@@ -126,8 +126,8 @@ agencyContribution:
   - power-over-wellbeing-and-self-direction
   how: >-
     A learner develops power over their own wellbeing partly by learning that saying something true is
-    safe and produces help rather than exposure. A mentor who holds the confidentiality line honestly —
-    including the limit on it — teaches that lesson; one who promises secrecy and breaks it, or who
+    safe and produces help rather than exposure. A mentor who holds the confidentiality line honestly,
+    including the limit on it, teaches that lesson; one who promises secrecy and breaks it, or who
     flinches, teaches the opposite to a whole cohort.
 principlesForegrounded:
 - safe-spaces
@@ -138,7 +138,7 @@ provenanceNote: >-
   Authored for the Learning Bridge+ (Cox's Bazar) edition. Contextualises Amala's mentor moves on
   responding to a disclosure and knowing your safeguarding policy for the camp setting, using the
   protection risks named in the programme's own mentoring block. It does not replace and cannot
-  override NRC's Code of Conduct, safeguarding policy, or MHPSS and protection referral pathways —
+  override NRC's Code of Conduct, safeguarding policy, or MHPSS and protection referral pathways. 
   where this page and NRC policy differ, NRC policy governs.
 rights:
   status: amala-own

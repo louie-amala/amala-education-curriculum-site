@@ -4,16 +4,16 @@ access: public
 type: educator-move
 title: "Choose who answers (no hands up)"
 summary: >-
-  Hands up only tells you who's confident. Ask, give thinking time, then choose who responds — so
+  Hands up only tells you who's confident. Ask, give thinking time, then choose who responds, so
   everyone stays ready to think, not just the usual few.
 tags:
   - id: learning-facilitation
     how: >-
       When facilitating, pose the question to everyone, give thinking time, then select who answers (at
-      random — names in a cup). Don't let "I don't know" end it ("if you did know, what would you say?").
+      random. Names in a cup). Don't let "I don't know" end it ("if you did know, what would you say?").
   - id: learning-design
     how: >-
-      When designing, plan to select rather than take volunteers — decide your key questions and how
+      When designing, plan to select rather than take volunteers. Decide your key questions and how
       you'll pick who answers, so participation isn't left to the confident few.
   - id: making-thinking-visible
   - id: checking-for-understanding
@@ -22,17 +22,17 @@ facilitationContext:
   - group
 primaryContext: group
 educatorContent: |
-  Generally, learners only put their hands up when they are already confident they have the answer — so
+  Generally, learners only put their hands up when they are already confident they have the answer, so
   "hands up" tells you which learners feel sure, not what the group knows. "No hands up" flips it: you
   pose the question, everyone has to be ready, and you choose who responds. Select at random (names in a
   cup, and put the name back so no one switches off after answering), give thinking time first, and
-  build a culture where getting it wrong is fine. Don't let "I don't know" close the exchange — offer a
+  build a culture where getting it wrong is fine. Don't let "I don't know" close the exchange, offer a
   way back in ("if you did know, what would you say?", or a couple of options to choose between).
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction
   how: >-
-    When anyone might be asked, every learner stays engaged in the thinking — participation becomes an
+    When anyone might be asked, every learner stays engaged in the thinking. Participation becomes an
     expectation they own, not a performance by the confident few.
 principleAlignment:
   - principle: feedback-and-data
@@ -48,11 +48,11 @@ relatedSlugs:
   - cf-think-pair-share
   - cf-wait-time
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook"
 provenanceNote: >-
   Generalised from the Playbook's "No hands up, except to ask a question" technique (Wiliam & Leahy,
   2015) in Making Learning and Thinking Visible.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

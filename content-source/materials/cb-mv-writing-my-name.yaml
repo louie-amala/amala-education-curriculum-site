@@ -1,5 +1,5 @@
 # Contextualised, fully offline adaptation of efi-mv-writing-about-myself for Learning Bridge+ (Cox's
-# Bazar), pitched far earlier — at EMERGENT literacy. The source has literate learners composing sentences
+# Bazar), pitched far earlier. At EMERGENT literacy. The source has literate learners composing sentences
 # from frames; this version is the very first physical act of writing: how to hold a pencil, how to form a
 # letter, and how to trace and copy your own name and a few key personal words. Recognition and tracing
 # come before any free writing, and for learners who have never held a pencil, finger-tracing in sand or
@@ -11,7 +11,7 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "Writing my name"
 summary: >-
-  Learners take their first physical steps in writing — how to hold a pencil, how to make a letter, and how
+  Learners take their first physical steps in writing, how to hold a pencil, how to make a letter, and how
   to trace and then copy their own name and a few key personal words into the My Voice book. Recognition
   and tracing come before free writing, air-writing and finger-tracing in sand come before the pencil, and
   the moment a learner writes their own name for the first time is celebrated as the real milestone it is.
@@ -31,7 +31,7 @@ deliveryAdaptations:
   how: >-
     The best fit for a learner who has never held a pencil, or who is ashamed to be seen struggling. A
     mentor can show the grip quietly, guide the hand through the first letters with no audience, and let the
-    learner trace their name as many times as they need at their own pace — which removes the shame that
+    learner trace their name as many times as they need at their own pace, which removes the shame that
     can otherwise stop a beginner from ever picking up a pencil.
 - context: independent
   how: >-
@@ -48,7 +48,7 @@ whatLearnersDo:
 - Write their own name for the first time, and keep it in the My Voice book as a real milestone.
 materialsAndPreparation:
 - Each learner's name written large and clear to trace over (write it big beforehand if you can), and one or two of their picture-words from the "Words about me" activity.
-- Something to trace with and in — the My Voice book and a pencil where there are pencils; and a tray of sand, dust on the ground, or a wetted finger on a surface where there are not.
+- Something to trace with and in, the My Voice book and a pencil where there are pencils; and a tray of sand, dust on the ground, or a wetted finger on a surface where there are not.
 - Space to air-write, so learners can make big letter shapes in the air with a whole arm before the small ones on paper.
 - Your own name ready to write slowly and large, so learners see how a letter is formed stroke by stroke.
 - "Sensitivity: for many learners this is the first time they have ever held a pencil, and being seen to struggle with it can bring deep shame. Show the grip quietly and one to one, never single out a learner's marks in front of others, let anyone who wishes trace with a finger before a pencil, and keep every word of praise for the effort and the try, not the neatness."
@@ -57,7 +57,7 @@ visuals:
   title: "Trace, then copy"
   caption: >-
     The hand learns the shape over a model, then makes it fresh underneath. A name written is a big first
-    win — celebrate it.
+    win, celebrate it.
   spec:
     type: zones
     cardStyle: drawing
@@ -76,50 +76,50 @@ visuals:
 facilitationNotes: |
   This activity is the first physical act of writing, pitched far earlier than the source it grows from:
   that source has literate learners composing sentences from frames, but here many learners have never held
-  a pencil, so the work is the hand itself — the grip, the first marks, the shape of a letter. Lead with
+  a pencil, so the work is the hand itself. The grip, the first marks, the shape of a letter. Lead with
   recognition and tracing, never free writing: a learner should be able to see and know their name, and
-  trace over it many times, well before they are asked to make it unaided. Start big and loose — air-writing
-  a letter with the whole arm, then a finger in sand or dust — before the small, controlled movement a
+  trace over it many times, well before they are asked to make it unaided. Start big and loose, air-writing
+  a letter with the whole arm, then a finger in sand or dust, before the small, controlled movement a
   pencil needs, because the big movement teaches the shape and the small one only follows. Build everything
   from the learner's own name and the picture-words they already own from earlier activities, because a
   learner will work hard on their own name when an abstract letter drill would defeat them, and writing your
   own name for the first time is a real, dignified milestone worth dwelling on. Guard against shame above
   all: the pencil is where a beginner most fears being seen to fail, so show the grip quietly, praise the
   effort not the neatness, and let no one's marks be a public moment. Welcome bridges to scripts learners
-  already know — Arabic from the madrasa, Burmese — as evidence that their hand can already make meaningful
+  already know, Arabic from the madrasa, Burmese, as evidence that their hand can already make meaningful
   marks. Go slow, and treat the first shaky name as the win it is.
 steps:
 - title: "Big shapes: the hand before the pencil"
   duration: "35-45 min"
   guidance: |
-    Start with the whole arm, not the pencil. Air-write a big letter shape — the first letter of your own
-    name — with your arm, and have learners copy the movement in the air with you. Then move to a finger in
+    Start with the whole arm, not the pencil. Air-write a big letter shape, the first letter of your own
+    name, with your arm, and have learners copy the movement in the air with you. Then move to a finger in
     sand, in dust on the ground, or wetted on a surface, making the same big shapes. Only when the shape
     feels familiar in the arm and the finger do you bring in the pencil, and then show the grip quietly,
     kneeling beside learners rather than announcing it. Keep it big, slow, and loose; the small, neat
     movement comes much later, and forcing it now only breeds shame.
   keyPrompts:
-  - Make this shape big in the air with me — follow my arm.
-  - Now the same shape with your finger in the sand — how does it feel?
+  - Make this shape big in the air with me, follow my arm.
+  - Now the same shape with your finger in the sand, how does it feel?
   - Which shapes does your hand already know from a script you have written before?
   watchOuts:
   - Going to the pencil and small letters too soon; the big arm and finger movements teach the shape, and a learner rushed to a pencil grips it in fear and learns the shape worse, not better.
   - A learner ashamed they have never held a pencil; show the grip quietly and one to one, let them stay with the finger and sand as long as they need, and never make it a public moment.
   adaptation: |
-    No pencils or paper at all are needed for this step — a finger in sand or dust, or a wetted finger on
+    No pencils or paper at all are needed for this step, a finger in sand or dust, or a wetted finger on
     any surface, teaches the hand the shapes just as well, and many learners are steadier starting there.
 - title: "See and trace your name"
   duration: "45-55 min"
   guidance: |
-    Give each learner their name written large and clear, and first let them simply look at it and point —
+    Give each learner their name written large and clear, and first let them simply look at it and point. 
     this is my name, this is its first letter, this is the sound it makes. Recognition comes before writing.
-    When they are ready, they trace over the name, as many times as they like and unhurried — with a pencil
+    When they are ready, they trace over the name, as many times as they like and unhurried. With a pencil
     in the My Voice book, or with a finger over the large name and in sand if pencils are short. For many
     this is the first time they have traced their own name, and it is worth dwelling on. Circulate, kneel
     beside people, and praise the effort and the trying, never the neatness.
   keyPrompts:
-  - Point to your name. Now point to its first letter — what sound does it make?
-  - Trace over it slowly with me — which part is getting easier?
+  - Point to your name. Now point to its first letter, what sound does it make?
+  - Trace over it slowly with me, which part is getting easier?
   - How does it feel to make the shape of your own name?
   watchOuts:
   - Pushing for neat, correct formation too soon; the win here is recognising the shape and having a go, and neatness comes only with time and repetition.
@@ -130,16 +130,16 @@ steps:
 - title: "Copy your name and your words"
   duration: "40-50 min"
   guidance: |
-    When tracing feels steady, learners move from tracing over the name to copying it beside the model —
+    When tracing feels steady, learners move from tracing over the name to copying it beside the model. 
     looking at their name and making it themselves, with the large version still there to check against.
     Then, for those ready, copy one or two of their key picture-words from the "Words about me" activity in
     the same way: look, then copy, with the word and its picture beside them. This is the bridge from
-    tracing to writing, and it stays supported — the model is always there. Celebrate the first name a
+    tracing to writing, and it stays supported. The model is always there. Celebrate the first name a
     learner writes by copying rather than tracing as the milestone it is.
   keyPrompts:
-  - Look at your name, then make it yourself just below — you can check against the big one.
+  - Look at your name, then make it yourself just below. You can check against the big one.
   - Which of your words would you like to copy next to its picture?
-  - You wrote your own name — how does that feel?
+  - You wrote your own name, how does that feel?
   watchOuts:
   - Taking the model away too soon and asking for free writing; the copy-from-a-model stage is where the hand learns, and free writing without the model belongs to a much later activity.
   - A learner discouraged that their copy is shaky; name that every writer's first name is shaky, show the one part that is going well, and keep the model there as long as they want it.
@@ -147,10 +147,10 @@ steps:
     A learner whose hand tires quickly copies just the first letter, or their name in sand rather than on
     paper; the act of copying from a model counts fully, however small, and can be built on next session.
 closing: |
-  Bring the group together and let any learner who wishes hold up their My Voice book and show their name —
+  Bring the group together and let any learner who wishes hold up their My Voice book and show their name, 
   traced or copied, however it looks. Put the written name into the book beside the sounds and picture-words
   already there, as proof of what the hand can now do. Name the win plainly and warmly: today you held a
-  pencil, made the shapes of letters, and wrote your own name — for many people the first time they have
+  pencil, made the shapes of letters, and wrote your own name. For many people the first time they have
   ever done so, and the beginning of writing in English. Independent task: trace or write your name once
   more at home, in a book or in the dust, and, if you can, show it to one person you live with.
 agencyContribution:
@@ -158,7 +158,7 @@ agencyContribution:
   - control-of-future-pathways
   how: >-
     Learning to hold a pencil, form letters, and write your own name is the first turn of the key that
-    unlocks writing — and writing is the gateway to the forms, applications, and study that further
+    unlocks writing, and writing is the gateway to the forms, applications, and study that further
     pathways require. For a learner who has never held a pencil, making the shapes of their own name for
     the first time is a real widening of the futures open to them, and a dignity no one can take back.
 principlesForegrounded:
@@ -169,14 +169,14 @@ principleAlignment:
 - principle: builds-on-identities
   how: >-
     Everything is built from the learner's own name and the picture-words they already own, so the first
-    thing a learner writes is themselves; bridges to scripts they have written before — Arabic from the
-    madrasa, Burmese — are welcomed as proof their hand can already make meaningful marks.
+    thing a learner writes is themselves; bridges to scripts they have written before, Arabic from the
+    madrasa, Burmese, are welcomed as proof their hand can already make meaningful marks.
 - principle: safe-spaces
   how: >-
     Handwriting is where a beginner most fears being seen to fail, so the activity is built to protect
     against shame: recognition before formation, tracing before copying, air-writing and sand before the
     pencil, the grip shown quietly one to one, no marks made a public moment, and praise for effort not
-    neatness — all so a learner dares to pick up a pencil at all.
+    neatness. All so a learner dares to pick up a pencil at all.
 - principle: lifeworthy-competencies
   how: >-
     Holding a pencil, forming letters, and writing your own name are the foundation beneath all later
@@ -187,8 +187,8 @@ competencyCodes:
 competencyDevelopment:
 - code: FLC3
   how: >-
-    Making the first physical marks of writing — the grip, the letter shapes, and tracing then copying
-    one's own name and key words — is the ground floor of being able to communicate in written English, the
+    Making the first physical marks of writing, the grip, the letter shapes, and tracing then copying
+    one's own name and key words, is the ground floor of being able to communicate in written English, the
     very start of turning known sounds and words into marks on a page.
 objectiveIds:
 - efi-my-voice--o1
@@ -206,14 +206,14 @@ educatorContent: |
 
   ### The hand needs teaching before the pencil does
 
-  An adult who has never held a pencil has undeveloped fine motor control — this is about muscles and
+  An adult who has never held a pencil has undeveloped fine motor control. This is about muscles and
   practice, not intelligence, and it is completely normal in this cohort.
 
   So start big and get smaller: shapes in the air with the whole arm, then in dust or on the ground
   with a finger, then large on paper, then normal size. Skipping to a pencil and a line produces
   cramped, frustrating work.
 
-  ### Trace, then copy, then write — do not jump
+  ### Trace, then copy, then write: do not jump
 
   Trace over the name you prepared. Then copy it underneath while looking at it. Then write it from
   memory. Each step is a separate achievement and each deserves saying so.
@@ -232,7 +232,7 @@ educatorContent: |
   ### Left hand, older learners, eyesight
 
   Let left-handed learners write with their left hand and sit where their arm is free. Watch for
-  learners holding the paper very close or very far — uncorrected long sight is common and looks like
+  learners holding the paper very close or very far, uncorrected long sight is common and looks like
   difficulty with the task. Tell your coordinator.
 
   ### Say what it means, out loud
@@ -270,9 +270,9 @@ learnerTeaching:
 
     ### Three steps, in order
 
-    1. **Trace** — go over the name your facilitator wrote for you.
-    2. **Copy** — write it underneath, looking at theirs.
-    3. **Write** — write it without looking.
+    1. **Trace**, go over the name your facilitator wrote for you.
+    2. **Copy**, write it underneath, looking at theirs.
+    3. **Write**, write it without looking.
 
     Each of those is a real achievement on its own. Do not rush from one to the next.
 
@@ -310,11 +310,11 @@ sourceRefs:
 provenanceNote: >-
   Contextualised, fully offline adaptation of efi-mv-writing-about-myself for the Learning Bridge+ (Cox's
   Bazar) edition, pitched far earlier than the source. Where the source has literate learners composing
-  personal sentences from frames, this version is rebuilt for emergent literacy — the first physical act of
+  personal sentences from frames, this version is rebuilt for emergent literacy. The first physical act of
   writing, no pencil experience assumed: the grip, letter formation, and tracing then copying one's own
   name and key picture-words, with air-writing and finger-tracing in sand as the first steps and recognition
   always before free writing. Objective 1 of the My Voice unit.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

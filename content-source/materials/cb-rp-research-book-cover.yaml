@@ -1,12 +1,12 @@
 # Student worksheet (resource) for the orientation activity cb-rp-set-up-research-book. Thin per §3:
-# what the sheet is and how the learner uses it. Ships no file of its own — its printable version
+# what the sheet is and how the learner uses it. Ships no file of its own, its printable version
 # compiles into the Research Project student workbook (the research book). Learning Bridge+ (Cox's Bazar).
 id: cb-rp-research-book-cover
 slug: cb-rp-research-book-cover
 access: partner
 edition: learning-bridge-coxs-bazar
 type: resource
-title: "My research book — cover and how I use it"
+title: "My research book, cover and how I use it"
 summary: >-
   The front of the learner's research book: a cover they make their own, and a simple "how I use my
   book" page that reminds them the book is theirs and works in drawings, marks, and a few words.
@@ -17,7 +17,7 @@ primaryContext: independent
 learnerContent: |
   ## My research book
 
-  This is the front of your book — the book you keep for the whole course.
+  This is the front of your book, the book you keep for the whole course.
 
   On the cover you can:
 
@@ -32,7 +32,7 @@ learnerContent: |
   - No one marks your book right or wrong. It is yours.
 
   Keep your book safe, and bring it every time the group meets. If it gets rained on or torn, that is
-  all right — the thinking inside it is what matters.
+  all right. The thinking inside it is what matters.
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction
@@ -48,4 +48,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

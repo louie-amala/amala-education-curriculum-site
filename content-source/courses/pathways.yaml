@@ -1,12 +1,12 @@
-# Intermediate extraction — mirrors spec §4.1 Course/Objective interfaces.
+# Intermediate extraction, mirrors spec §4.1 Course/Objective interfaces.
 # Source: "Pathways Course Guide - 2025 Onwards.txt"
 # Verbatim from source; issues recorded, not corrected.
 id: pathways
 slug: pathways
 access: public
 title: Pathways
-strapline: null            # not present in guide — to author
-programmes: [gsd]          # placeholder — programme membership to confirm
+strapline: null # not present in guide, to author
+programmes: [gsd] # placeholder, programme membership to confirm
 testimonial:
   quote: >-
     The Pathways Programme helps students explore their interests, develop
@@ -23,7 +23,7 @@ purpose: >-
   opportunities and constraints.
 requirements:
   structuredHours: 50
-  durationWeeks: null        # no fixed duration — interspersed throughout GSD
+  durationWeeks: null # no fixed duration, interspersed throughout GSD
   cadence: interspersed
   liveIndependentSplit: null # not stated as a ratio in the guide
   notes: >-
@@ -46,7 +46,7 @@ objectives:
       - Analyse contextual opportunities and constraints.
       - Revisit and refine their pathway choices over time.
       - Apply to pathway opportunities.
-    furtherDetails:            # raw seeds → future concepts/tools/activities (NOT yet authored materials)
+    furtherDetails: # raw seeds → future concepts/tools/activities (NOT yet authored materials)
       concepts: []
       activities:
         - Encourage learners to keep self-reflection journals to track evolving interests and goals.
@@ -66,7 +66,7 @@ objectives:
       Identify the skills required for particular pathways and work purposefully
       to develop them.
     supportedTo:
-      - Research the entry requirements and skill expectations for specific pathways (e.g., university programmes, job roles, vocational courses).
+      - Research the entry requirements and skill expectations for specific pathways (e.g. university programmes, job roles, vocational courses).
       - Compare these requirements with their current skillset to identify gaps.
       - Set realistic and ambitious goals for developing pathway-specific skills.
       - Engage in targeted practice and learning to build those skills over time.
@@ -123,7 +123,7 @@ objectives:
         - Guide learners to research and compare scholarships, training programmes, and community organisations.
         - Encourage learners to interview mentors, alumni, or community members about their pathway experiences.
         - Support learners to practise outreach (emails, messages, introductions) to build professional or academic connections.
-        - Provide opportunities for learners to contribute value to their networks (e.g., sharing information, offering peer support, volunteering).
+        - Provide opportunities for learners to contribute value to their networks (e.g. sharing information, offering peer support, volunteering).
         - Include reflection tasks where learners evaluate how they used and contributed to resources and networks.
     competencyEvidence:
       - { code: FR1, citedTitle: Identifying resources, condition: "If learners identify people, materials, and opportunities that can support their progress." }
@@ -146,7 +146,7 @@ objectives:
         - Guide learners to gather evidence such as CVs, personal statements, certificates, project work, or skills demonstrations.
         - Support learners to curate and structure their portfolio in digital or physical formats (including their social media presence).
         - Facilitate peer review or mentor feedback sessions to improve portfolio presentation.
-        - Encourage learners to adapt their portfolio for different applications (e.g., a university admission vs. a job application).
+        - Encourage learners to adapt their portfolio for different applications (e.g. a university admission vs. a job application).
         - Provide opportunities for learners to record short reflections explaining why specific evidence was included.
     competencyEvidence:
       - { code: FSL1, citedTitle: Self-reflection, condition: "If learners evaluate their own work and justify evidence selection." }
@@ -164,21 +164,21 @@ principleMappings:
   - principle: collaboration
     inThisCourse:
       - Learners interview mentors, alumni, or professionals about their pathway experiences.
-      - Guest speakers (e.g., employers, university representatives, entrepreneurs) share insights on opportunities and requirements.
+      - Guest speakers (e.g. employers, university representatives, entrepreneurs) share insights on opportunities and requirements.
       - Families or community members are invited to share perspectives on pathways and provide encouragement.
   - principle: lifeworthy-competencies
     inThisCourse:
       - Learners practise real-world skills such as CV writing, interviews, portfolio development, and presentations.
-      - They build pathway-specific skills (e.g., language proficiency, digital literacy) alongside broader transferable skills.
+      - They build pathway-specific skills (e.g. language proficiency, digital literacy) alongside broader transferable skills.
       - Facilitators connect skill development to future goals by linking tasks to real application processes.
   - principle: authentic-challenges
     inThisCourse:
-      - Learners map contextual barriers (e.g., legal restrictions, financial obstacles) and identify strategies to navigate them.
+      - Learners map contextual barriers (e.g. legal restrictions, financial obstacles) and identify strategies to navigate them.
       - Case studies and peer discussions highlight how others have overcome challenges to access pathways.
       - Learners practise problem-solving by identifying alternative routes or creative solutions when faced with constraints.
   - principle: responsible-action
     inThisCourse:
-      - Learners are encouraged to consider the ethical implications of pathway choices (e.g., fair work conditions, responsible entrepreneurship).
+      - Learners are encouraged to consider the ethical implications of pathway choices (e.g. fair work conditions, responsible entrepreneurship).
       - Discussions explore how pathways can align with personal values, community wellbeing, and sustainable futures.
       - Facilitators model ethical practice in how they guide learners to evaluate opportunities.
   - principle: recognise-communicate-growth
@@ -194,7 +194,7 @@ principleMappings:
   - principle: safe-spaces
     inThisCourse:
       - Group agreements promote respect, confidentiality, and encouragement.
-      - Sensitive topics (e.g., barriers to education, discrimination in employment) are explored with care.
+      - Sensitive topics (e.g. barriers to education, discrimination in employment) are explored with care.
       - Learners are supported to share personal aspirations at their own pace, with alternative ways to participate if they prefer.
 
   - principle: connect-to-futures
@@ -202,7 +202,7 @@ principleMappings:
       - >-
           The entire course is this principle: learners articulate the pathways they are working towards and test them against what is actually available to them.
       - >-
-          Learners build the artefacts a pathway requires — a CV, a statement, a portfolio, a practised interview — and leave holding them.
+          Learners build the artefacts a pathway requires, a CV, a statement, a portfolio, a practised interview, and leave holding them.
       - >-
           Facilitators keep aspiration and realism together, so a learner leaves with both a direction and a next step they can take this month.
 designChecklist:
@@ -217,7 +217,7 @@ sourceIssues:
   - type: cross-course-copy-paste
     detail: >-
       Design checklist intro reads "Meets the time and contextualisation
-      requirements for the Social Entrepreneurship course" — should reference
+      requirements for the Social Entrepreneurship course", should reference
       Pathways. Same error appears in multiple guides.
   - type: missing-principle
     detail: >-

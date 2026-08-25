@@ -63,7 +63,7 @@ export default async function UnlockPage({
           </form>
 
           <p className="mt-8 text-sm text-cool-grey">
-            Unlocking lasts 30 days on this browser. The rest of the curriculum site stays open —
+            Unlocking lasts 30 days on this browser. The rest of the curriculum site stays open, 
             only this programme is protected.
           </p>
         </>

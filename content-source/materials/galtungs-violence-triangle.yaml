@@ -3,7 +3,7 @@ slug: galtungs-violence-triangle
 access: public
 type: concept
 title: Galtung's violence triangle
-summary: A model of three connected forms of violence — direct, structural and cultural — where only the top is visible and the two hidden forms keep producing it.
+summary: A model of three connected forms of violence, direct, structural and cultural, where only the top is visible and the two hidden forms keep producing it.
 facilitationContext: [group, independent]
 primaryContext: group
 deliveryAdaptations:
@@ -24,25 +24,25 @@ educatorContent: |
 
   ## The three corners
 
-  - Direct violence — visible harm with a clear actor, act and victim: an attack, a threat, an act of humiliation. It is what most people mean by "violence".
-  - Structural violence — harm built into the way a society is organised: poverty, exclusion, or denial of rights that damages people with no single attacker. Galtung defined it as the gap between how well people could live and how well the structure actually lets them.
-  - Cultural violence — the beliefs, stories, religion, ideology or language used to make the other two forms look normal, natural or even right.
+  - Direct violence, visible harm with a clear actor, act and victim: an attack, a threat, an act of humiliation. It is what most people mean by "violence".
+  - Structural violence, harm built into the way a society is organised: poverty, exclusion, or denial of rights that damages people with no single attacker. Galtung defined it as the gap between how well people could live and how well the structure actually lets them.
+  - Cultural violence, the beliefs, stories, religion, ideology or language used to make the other two forms look normal, natural or even right.
 
   ## Why it is a triangle, not a list
 
-  The point of the model is the relationships between the corners, not the corners themselves. Cultural violence legitimises structural and direct violence; structural violence produces the grievances that erupt as direct violence. It is a cycle that keeps regenerating unless all three corners are addressed — which is exactly why stopping the fighting (achieving a negative peace) so often fails to last.
+  The point of the model is the relationships between the corners, not the corners themselves. Cultural violence legitimises structural and direct violence; structural violence produces the grievances that erupt as direct violence. It is a cycle that keeps regenerating unless all three corners are addressed, which is exactly why stopping the fighting (achieving a negative peace) so often fails to last.
 
-  The "waterline" in the diagram carries the second key idea: only direct violence is visible. Structural and cultural violence are normalised and easy to miss — they can look like "just how things are". Naming them is what lets learners see that a context with no open fighting can still be deeply violent.
+  The "waterline" in the diagram carries the second key idea: only direct violence is visible. Structural and cultural violence are normalised and easy to miss. They can look like "just how things are". Naming them is what lets learners see that a context with no open fighting can still be deeply violent.
 
   ## How to use it with learners
 
-  This is a concept for understanding a conflict, not for solving it yet. The teaching move that matters is direction of travel: learners will readily describe the direct violence, so your job is to keep pressing beneath it — "what systems allowed this?", "what beliefs made it acceptable?" — until the hidden corners are populated with evidence rather than assumption. Keep the completed triangle: it feeds directly into deciding where a peacebuilding idea should act, since a durable idea usually has to change something in the structural or cultural corner, not only the visible one.
+  This is a concept for understanding a conflict, not for solving it yet. The teaching move that matters is direction of travel: learners will readily describe the direct violence, so your job is to keep pressing beneath it. "what systems allowed this?", "what beliefs made it acceptable?". Until the hidden corners are populated with evidence rather than assumption. Keep the completed triangle: it feeds directly into deciding where a peacebuilding idea should act, since a durable idea usually has to change something in the structural or cultural corner, not only the visible one.
 
   Watch for two things: learners collapsing structural and cultural into each other (structure is how a system is arranged; culture is what makes that arrangement feel right), and learners treating the hidden corners as fixed facts rather than things that can be changed.
 learnerContent: |
-  When we see violence, we usually see only the visible part — someone hurting someone else. Galtung's triangle says that is just the tip. Two hidden forms sit underneath and keep it going:
+  When we see violence, we usually see only the visible part. Someone hurting someone else. Galtung's triangle says that is just the tip. Two hidden forms sit underneath and keep it going:
 
-  - Direct violence: the visible harm — an act, an actor, a victim.
+  - Direct violence: the visible harm, an act, an actor, a victim.
   - Structural violence: harm built into unfair systems, like poverty or exclusion, with no single attacker.
   - Cultural violence: the beliefs and stories that make the other two seem normal or deserved.
 
@@ -51,7 +51,7 @@ agencyContribution:
   indicators: [contribution-to-community]
   how: >-
     Seeing past the visible fighting to the systems and beliefs that keep producing it gives
-    learners an evidenced account of why violence persists in their community — the kind of
+    learners an evidenced account of why violence persists in their community, the kind of
     understanding that makes a contribution towards peace land on a real cause rather than a symptom.
 principlesForegrounded: [authentic-challenges, safe-spaces]
 principleAlignment:
@@ -69,7 +69,7 @@ competencyCodes: [FPS3, FUS3]
 competencyDevelopment:
   - code: FPS3
     how: >-
-      The structural corner is this competency directly — naming, with evidence, the systems and
+      The structural corner is this competency directly, naming, with evidence, the systems and
       relationships that contribute to violence rather than asserting a single cause.
   - code: FUS3
     how: >-
@@ -88,12 +88,12 @@ diagram:
     Only direct violence sits above the waterline. Structural and cultural violence are hidden, and
     keep producing the violence we see.
 links:
-  - label: "Galtung, J. — Violence, Peace, and Peace Research (1969)"
+  - label: "Galtung, J.. Violence, Peace, and Peace Research (1969)"
     url: https://journals.sagepub.com/doi/10.1177/002234336900600301
     note: Introduces direct and structural violence, and the negative/positive peace distinction.
-  - label: "Galtung, J. — Cultural Violence (1990)"
+  - label: "Galtung, J.. Cultural Violence (1990)"
     url: https://journals.sagepub.com/doi/10.1177/0022343390027003005
-    note: The later paper adding the third corner — culture as what legitimises violence.
+    note: The later paper adding the third corner, culture as what legitimises violence.
 sourceRefs: ["Peace Building Course Guide - 2025 Onwards.docx"]
 provenanceNote: >-
   Grounded in Johan Galtung's "Violence, Peace, and Peace Research" (1969) and "Cultural Violence"
@@ -102,4 +102,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

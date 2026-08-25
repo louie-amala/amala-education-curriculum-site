@@ -18,7 +18,7 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-6 py-4">
         <Link href="/" className="flex items-center gap-3">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/brand/amala-logo.png" alt="Amala — Education for change" width={82} height={42} className="h-10 w-auto" />
+          <img src="/brand/amala-logo.png" alt="Amala. Education for change" width={82} height={42} className="h-10 w-auto" />
           <span className="font-heading text-lg font-semibold text-cool-grey">Curriculum</span>
         </Link>
         <div className="flex flex-wrap items-center justify-end gap-x-4 gap-y-2 sm:gap-x-6">
@@ -53,7 +53,7 @@ export function SiteFooter() {
       <div className="mx-auto flex max-w-5xl flex-col gap-4 px-6 py-8 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex items-center gap-3">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/brand/amala-logo.png" alt="Amala — Education for change" width={70} height={36} className="h-9 w-auto" />
+          <img src="/brand/amala-logo.png" alt="Amala. Education for change" width={70} height={36} className="h-9 w-auto" />
           <p className="text-sm text-cool-grey">A design tool with the curriculum built in.</p>
         </div>
         <p className="text-xs text-cool-grey sm:text-right">

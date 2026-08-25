@@ -1,4 +1,4 @@
-# English for Impact resource — Part 3 §10c "Phonics Progression by Unit".
+# English for Impact resource. Part 3 §10c "Phonics Progression by Unit".
 # Source: The Language Learning Lab "English for Impact" Course Guide (pp. 49–50).
 id: efi-phonics-progression
 slug: efi-phonics-progression
@@ -7,7 +7,7 @@ type: resource
 title: "Phonics Progression by Unit"
 summary: >-
   The 10-part phonics sequence for English for Impact, mapped unit by unit with teaching notes. It
-  moves from the most common, useful sounds toward more complex and less predictable patterns —
+  moves from the most common, useful sounds toward more complex and less predictable patterns. 
   ordered to support early reading, writing, and communication rather than by the alphabet.
 facilitationContext: [group, independent]
 primaryContext: group
@@ -17,7 +17,7 @@ materialsAndPreparation:
 facilitationNotes: |
   This progression sequences phonics so instruction is always tied to the language learners are using
   in each unit. Sounds are introduced from most common and useful toward more complex and less
-  predictable — not in alphabetical order. Each part aligns to a unit, and learners record each new
+  predictable, not in alphabetical order. Each part aligns to a unit, and learners record each new
   sound in their own Phonics Table as they go. Teach patterns through use and lots of listening and
   speaking practice, not memorised rules.
 educatorContent: |
@@ -25,7 +25,7 @@ educatorContent: |
   parts 6–10 cover the A2 phonics (Units 3–5). Each part gives a focus question, the sounds
   introduced, and key teaching notes.
 
-  ## Unit 1 — My Voice (A1)
+  ## Unit 1: My Voice (A1)
 
   ### Part 1: The Alphabet & High-Frequency Sounds
 
@@ -36,20 +36,20 @@ educatorContent: |
   Teaching notes:
 
   - Double consonants (tt, ll, mm, nn) make the same sound.
-  - Teach final consonants clearly — "sock" vs "so" (very different meaning). Final sounds are essential for clarity in English.
+  - Teach final consonants clearly, "sock" vs "so" (very different meaning). Final sounds are essential for clarity in English.
 
   ### Part 2: Plosives (Stop Sounds)
 
   Focus: How do air and voice change the way we produce sounds?
 
-  Sounds: voiceless / strong air — /p/, /t/, /k/; voiced / use voice — /b/, /d/, /g/; same mouth shape, different voice.
+  Sounds: voiceless / strong air, /p/, /t/, /k/; voiced / use voice, /b/, /d/, /g/; same mouth shape, different voice.
 
   Teaching notes:
 
   - Plosives are made by stopping air, then releasing it.
   - Contrast plosive pairs: /p/ ↔ /b/ (pen/bat), /t/ ↔ /d/ (top/dog), /k/ ↔ /g/ (cat/go).
 
-  ## Unit 2 — My Story (A1)
+  ## Unit 2: My Story (A1)
 
   ### Part 3: Short Vowels & Core Patterns
 
@@ -59,7 +59,7 @@ educatorContent: |
 
   Teaching notes:
 
-  - Short e and i are often hard to hear and produce — use facial cues ("smile for short e!").
+  - Short e and i are often hard to hear and produce, use facial cues ("smile for short e!").
   - Emphasise that changing the vowel changes the word meaning.
   - Provide lots of repetition and listening practice.
 
@@ -67,28 +67,28 @@ educatorContent: |
 
   Focus: How can we manipulate sounds with breath?
 
-  Sounds: h, f, ff, v, s, ss, z, zz; sh, ch, j, w; th — /θ/ (thin) and /ð/ (this); x at the beginning, middle, and end of words.
+  Sounds: h, f, ff, v, s, ss, z, zz; sh, ch, j, w; th. /θ/ (thin) and /ð/ (this); x at the beginning, middle, and end of words.
 
   Teaching notes:
 
-  - Fricatives are long, continuous sounds — stretch them when modelling.
+  - Fricatives are long, continuous sounds. Stretch them when modelling.
   - Contrast voiceless vs voiced partners: /f/ ↔ /v/, /s/ ↔ /z/, /θ/ ↔ /ð/.
   - Encourage learners to feel vibration in the throat for voiced sounds (v, z, th in "this").
   - x makes three sounds: /z/, /gz/, and /ks/.
 
-  ## Unit 3 — Our Stories (A1 → A2)
+  ## Unit 3: Our Stories (A1 → A2)
 
   ### Part 5: Long Vowels
 
   Focus: How do vowel sounds change?
 
-  Sounds: long vowels a, e, i, o, u; silent-e pattern (bit → bite, hop → hope); vowel teams (ai, ay, ee, ea, oa); y as a vowel — long i (fly, sky) and long e (happy).
+  Sounds: long vowels a, e, i, o, u; silent-e pattern (bit → bite, hop → hope); vowel teams (ai, ay, ee, ea, oa); y as a vowel. Long i (fly, sky) and long e (happy).
 
   Teaching notes:
 
   - Introduce long vowels through clear contrasts with short vowels.
-  - Silent e is a high-impact pattern — teach early and revisit often.
-  - ea has multiple sounds — teach carefully.
+  - Silent e is a high-impact pattern, teach early and revisit often.
+  - ea has multiple sounds, teach carefully.
   - Encourage learners to notice patterns across words.
 
   ### Part 6: Expanding Patterns
@@ -100,11 +100,11 @@ educatorContent: |
   Teaching notes:
 
   - Soft c and g often appear before e, i, y (cent, city, cycle; germ, giraffe, gym).
-  - These are patterns, not strict rules — exceptions exist.
+  - These are patterns, not strict rules. Exceptions exist.
   - Teach silent letters as word patterns.
   - Align the -ing lesson with the present-progressive grammar focus.
 
-  ## Unit 4 — Our World (A2)
+  ## Unit 4: Our World (A2)
 
   ### Part 7: R-Controlled Vowels (Bossy R)
 
@@ -115,8 +115,8 @@ educatorContent: |
   Teaching notes:
 
   - "Bossy R" changes the vowel sound.
-  - er, ir, ur often sound the same — teach together.
-  - "our" has two pronunciations (our, sour, hour vs four, pour, your) — have learners notice and add words to a running list.
+  - er, ir, ur often sound the same. Teach together.
+  - "our" has two pronunciations (our, sour, hour vs four, pour, your). Have learners notice and add words to a running list.
 
   ### Part 8: Pronunciation of Past-Tense Verbs
 
@@ -131,17 +131,17 @@ educatorContent: |
   - If it ends in a voiced sound (/b/, /g/, vowels), use /d/ (played).
   - If it ends in /t/ or /d/, use /ɪd/ (wanted).
 
-  ## Unit 5 — Our Impact (A2+)
+  ## Unit 5: Our Impact (A2+)
 
   ### Part 9: Other Vowel Patterns
 
   Focus: How do vowel teams affect pronunciation?
 
-  Sounds: oo — long (moon) vs short (book); ow, ou (cow, out); oi, oy (coin, boy); aw, au (law, August).
+  Sounds: oo, long (moon) vs short (book); ow, ou (cow, out); oi, oy (coin, boy); aw, au (law, August).
 
   Teaching notes:
 
-  - These are patterns, not strict rules — exceptions exist.
+  - These are patterns, not strict rules. Exceptions exist.
   - Teach through examples and grouping.
   - Encourage learners to notice patterns across words.
   - Reinforce through reading and listening practice.
@@ -161,13 +161,13 @@ agencyContribution:
   indicators: [control-of-future-pathways]
   how: >-
     A clear, research-informed order for teaching English sounds lets educators build learners'
-    decoding step by step, so reading and writing — the gateway skills for further study — develop
+    decoding step by step, so reading and writing, the gateway skills for further study, develop
     reliably rather than by chance.
 principlesForegrounded: [lifeworthy-competencies, feedback-and-data]
 principleAlignment:
 - principle: lifeworthy-competencies
   how: >-
-    The progression builds the foundational literacy skills — decoding and spelling — that learners
+    The progression builds the foundational literacy skills, decoding and spelling, that learners
     reuse across every subject and beyond the classroom.
 - principle: feedback-and-data
   how: >-
@@ -189,4 +189,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

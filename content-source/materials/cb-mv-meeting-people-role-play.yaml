@@ -1,7 +1,7 @@
 # Contextualised, fully offline adaptation of efi-mv-role-play-meeting-people for Learning Bridge+
 # (Cox's Bazar). The key shift from the source: the source leans on a written model dialogue and situation
 # cards; here the whole exchange is oral, learned by ear from the facilitator's modelling and built on the
-# spoken frames from cb-mv-i-am-sentences. No reading or writing needed — just repeated, low-stakes
+# spoken frames from cb-mv-i-am-sentences. No reading or writing needed, just repeated, low-stakes
 # speaking in same-gender pairs to build fluency and confidence. Oral first, no devices. Objective 2.
 id: cb-mv-meeting-people-role-play
 slug: cb-mv-meeting-people-role-play
@@ -10,8 +10,8 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "Meeting someone new"
 summary: >-
-  Learners rehearse real first meetings out loud — greeting someone, introducing themselves, and
-  introducing a friend — using the spoken frames they already know. Lots of low-stakes practice in
+  Learners rehearse real first meetings out loud, greeting someone, introducing themselves, and
+  introducing a friend, using the spoken frames they already know. Lots of low-stakes practice in
   same-gender pairs turns the language into something they can really use, and builds the confidence to
   use it.
 facilitationContext:
@@ -29,7 +29,7 @@ deliveryAdaptations:
 - context: one-to-one-mentoring
   how: >-
     A safe first rehearsal for a learner who dreads speaking. The mentor plays the other person, going as
-    slowly as needed and letting the learner run the greeting again and again until it is comfortable —
+    slowly as needed and letting the learner run the greeting again and again until it is comfortable. 
     then, when they are ready, hand them into a same-gender pair in a group session so the exchange
     becomes real with a peer.
 - context: independent
@@ -43,10 +43,10 @@ grouping: "Same-gender pairs, rotating partners; works with 10-35 learners"
 whatLearnersDo:
 - Greet someone and answer a greeting out loud.
 - Introduce themselves using the spoken frames they already know.
-- Introduce another person — "this is my friend ___" — to a third person.
+- Introduce another person, "this is my friend ___", to a third person.
 - Meet several partners, so greeting and introducing become easy and unforced.
 materialsAndPreparation:
-- Your own greeting ready to model first — hello, your name, where you are from, one thing you like, goodbye — said warmly and slowly.
+- Your own greeting ready to model first, hello, your name, where you are from, one thing you like, goodbye, said warmly and slowly.
 - The frames from cb-mv-i-am-sentences fresh in mind (I am ___, I am from ___, I like ___), as the language learners bring to the meeting.
 - A trusted volunteer or a mentor to be your partner when you model the exchange, so learners see a real two-person meeting.
 - "Sensitivity: introducing yourself can invite questions about home and family. Keep the exchange short and light, and make clear a learner can share only their name and one small thing they like; nothing more is ever required."
@@ -65,7 +65,7 @@ visuals:
       label: "role-play pairs (rotating)"
     - size: 3
       count: 2
-      label: "threes — 'this is my friend'"
+      label: "threes, 'this is my friend'"
 - kind: example
   title: "Meeting someone new"
   caption: >-
@@ -89,11 +89,11 @@ visuals:
       - "I am Rashida."
       - "I am from my village."
 facilitationNotes: |
-  Role-play is where the unit's language becomes something a learner can actually use — meeting a
-  neighbour, a new classmate, a health worker — which is exactly what makes it worth the effort to them.
+  Role-play is where the unit's language becomes something a learner can actually use, meeting a
+  neighbour, a new classmate, a health worker, which is exactly what makes it worth the effort to them.
   Unlike a literate group that can read a model dialogue off the page, here the exchange is learned by
   ear: you model it, warmly and more than once, and learners copy the shape before they make it their
-  own. Keep the meeting short — a greeting, a name, one thing about yourself, a goodbye — because a
+  own. Keep the meeting short, a greeting, a name, one thing about yourself, a goodbye, because a
   beginner needs the safety of a small, known shape before improvising. The heart of the activity is
   repetition in same-gender pairs with different partners: that is where the fluency and the confidence
   grow, not in performing for the group. Value the meeting over the accuracy: if the two people
@@ -103,8 +103,8 @@ steps:
   duration: "30-35 min"
   guidance: |
     With a volunteer or mentor as your partner, act out a short first meeting so learners see and hear
-    the whole shape: "Hello. — Hello. What is your name? — I am ___. Where are you from? — I am from ___.
-    Nice to meet you. — Nice to meet you too." Do it two or three times. Then the whole group says it
+    the whole shape: "Hello.. Hello. What is your name?. I am ___. Where are you from?. I am from ___.
+    Nice to meet you.. Nice to meet you too." Do it two or three times. Then the whole group says it
     with you as a chorus, and learners try the whole little exchange in same-gender pairs, copying the
     shape before changing anything. Let them run it all the way through for flow, not perfectly.
   keyPrompts:
@@ -119,16 +119,16 @@ steps:
 - title: "Make it your own meeting"
   duration: "35-40 min"
   guidance: |
-    Now learners fill the meeting with their own true information — their own name, their own "I am from"
-    and "I like" — and practise it with a new same-gender partner, then swap roles so each plays both
+    Now learners fill the meeting with their own true information, their own name, their own "I am from"
+    and "I like", and practise it with a new same-gender partner, then swap roles so each plays both
     people. Encourage a warm greeting and goodbye around it. Rotate partners two or three times so the
     same short meeting is repeated with fresh faces and starts to feel easy.
   keyPrompts:
   - Use your own name and your own words this time.
-  - Now swap — you be the person being greeted.
+  - Now swap, you be the person being greeted.
   watchOuts:
   - Slipping back into reciting the model word for word; nudge learners to use their real answers so the meeting is genuine, not a recitation.
-  - "A partner pressing with questions a learner does not want — \"why did you leave?\", \"where is your family?\"; remind pairs that a meeting is short and friendly, and no one has to answer more than their name and one thing they like."
+  - "A partner pressing with questions a learner does not want, \"why did you leave?\", \"where is your family?\"; remind pairs that a meeting is short and friendly, and no one has to answer more than their name and one thing they like."
   adaptation: |
     No situation cards are needed; the plain "meeting a new classmate" scene works with nothing but two
     people and the words they already have.
@@ -136,11 +136,11 @@ steps:
   duration: "30-40 min"
   guidance: |
     Add one new move: introducing another person. In same-gender threes, one learner introduces their
-    partner to the third — "Hello. This is my friend Ayesha. She is from ___." — using the "she is / he
+    partner to the third. "Hello. This is my friend Ayesha. She is from ___.", using the "she is / he
     is" they met in cb-mv-i-am-sentences. This is a real, useful thing to be able to do, and it recycles
     the pronouns in a live exchange. Rotate so each learner both introduces and is introduced.
   keyPrompts:
-  - Introduce your friend to someone new — "This is my friend ___. She is from ___."
+  - Introduce your friend to someone new, "This is my friend ___. She is from ___."
   - Now let your friend introduce you.
   watchOuts:
   - He/she mixing up when introducing a friend; treat it as ordinary and let the repetition steady it, rather than stopping the meeting to correct.
@@ -150,8 +150,8 @@ steps:
     "this is my friend" move works just as well with a mimed third person.
 closing: |
   Recap the shape of a first meeting out loud together: greet, introduce yourself, introduce your friend,
-  say goodbye. Name what they can now do — meet someone new in English, something they will really use
-  outside the class — and note how much easier it felt by the last partner than the first. Independent
+  say goodbye. Name what they can now do, meet someone new in English, something they will really use
+  outside the class, and note how much easier it felt by the last partner than the first. Independent
   task: before the next session, greet one person and introduce yourself to them in English, even if it
   is just "Hello, I am ___", and be ready to tell the group how it went.
 agencyContribution:
@@ -175,7 +175,7 @@ principleAlignment:
     aloud is small and the success is frequent.
 - principle: builds-on-identities
   how: >-
-    Learners meet each other as themselves — their own name, their own place, their own likes — and
+    Learners meet each other as themselves, their own name, their own place, their own likes, and
     introduce real friends to real people, so the practice is built on who is actually in the room.
 - principle: lifeworthy-competencies
   how: >-
@@ -186,8 +186,8 @@ competencyCodes:
 competencyDevelopment:
 - code: FLC3
   how: >-
-    Greeting, introducing oneself, and introducing a friend in a real spoken exchange — repeated with
-    several partners until it flows — is direct practice in communicating clearly and confidently in
+    Greeting, introducing oneself, and introducing a friend in a real spoken exchange, repeated with
+    several partners until it flows, is direct practice in communicating clearly and confidently in
     real time.
 objectiveIds:
 - efi-my-voice--o2
@@ -226,7 +226,7 @@ educatorContent: |
 
   ### Then push it outside, with a small mission
 
-  End with one achievable spoken mission before the next session — greet one person in English. Small
+  End with one achievable spoken mission before the next session. Greet one person in English. Small
   enough to certainly happen. Then ask about it, warmly, at the start of the next session, and
   celebrate whoever did it.
 
@@ -247,26 +247,26 @@ learnerTeaching:
   readAloud: |
     ## How to meet someone in English
 
-    Saying sentences in this room is one thing. Saying them to a real person is another — and that is
+    Saying sentences in this room is one thing. Saying them to a real person is another, and that is
     the one that matters.
 
     ### The shape of a meeting
 
     Every meeting has the same six steps. Learn the shape, and you never have to wonder what comes next.
 
-    1. **Greet.**   "Hello."
-    2. **Say your name.**   "My name is ______ ."
-    3. **Ask theirs.**   "What is your name?"
-    4. **Say one thing.**   "I am from ______ ." or "I like ______ ."
-    5. **Thank them.**   "Thank you."
-    6. **Say goodbye.**   "Goodbye."
+    1. **Greet.** "Hello."
+    2. **Say your name.** "My name is ______."
+    3. **Ask theirs.** "What is your name?"
+    4. **Say one thing.** "I am from ______." or "I like ______."
+    5. **Thank them.** "Thank you."
+    6. **Say goodbye.** "Goodbye."
 
     That is a complete conversation in English. You already know every word in it.
 
     ### Introducing someone else
 
-    - **"This is my friend. This is ______ ."**
-    - **"He is from ______ ."**   /   **"She likes ______ ."**
+    - **"This is my friend. This is ______."**
+    - **"He is from ______."** / **"She likes ______."**
 
     To do that, you have to LISTEN to your friend first. That is part of it.
 
@@ -275,7 +275,7 @@ learnerTeaching:
     Do the whole thing with one partner. Then a different partner. Then another.
 
     By the fourth time it stops being frightening and starts being automatic. That is exactly what we
-    want — because when you meet someone for real, you want the words to come without thinking.
+    want, because when you meet someone for real, you want the words to come without thinking.
 
     **Being nervous the first time is not a sign you are not ready. It is a sign you have not done it
     enough times yet.**
@@ -291,12 +291,12 @@ learnerTeaching:
 
     ### It will feel strange, and then it will not
 
-    Speaking a new language out loud feels odd at first — for everybody, in every language.
+    Speaking a new language out loud feels odd at first. For everybody, in every language.
 
     That feeling goes away, but only by doing it. There is no way to think your way past it.
   words:
     - term: greet
-      meaning: what you say when you meet someone — hello
+      meaning: what you say when you meet someone, hello
     - term: introduce
       meaning: to tell someone who you are, or who your friend is
 worksheet:
@@ -308,11 +308,11 @@ sourceRefs:
 provenanceNote: >-
   Contextualised, fully offline adaptation of efi-mv-role-play-meeting-people for the Learning Bridge+
   (Cox's Bazar) edition. The source leans on a written model dialogue and situation cards and assumes
-  learners can read the frames; this version is rebuilt for emergent literacy — the exchange is modelled
+  learners can read the frames; this version is rebuilt for emergent literacy, the exchange is modelled
   and learned entirely by ear, built on the spoken frames from cb-mv-i-am-sentences, practised as
   repeated low-stakes speaking in same-gender pairs to build fluency and confidence, with no reading or
   writing needed. Objective 2 of the My Voice unit.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

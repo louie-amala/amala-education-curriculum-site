@@ -92,7 +92,7 @@ export default async function EducatorModulePage({
       </section>
 
       <div className="mx-auto max-w-4xl px-6 py-12">
-        {/* Resources — first, because trainers come here for them */}
+        {/* Resources. First, because trainers come here for them */}
         {m.resources.length > 0 && (
           <section className="rounded-xl border border-olive/30 bg-olive/[0.06] p-6">
             <h2 className="font-heading text-2xl font-semibold text-dark-navy">Resources to download</h2>
@@ -131,7 +131,7 @@ export default async function EducatorModulePage({
           </section>
         )}
 
-        {/* What it is — outcome, who it's for, format */}
+        {/* What it is, outcome, who it's for, format */}
         {(m.outcome || m.forWho || m.format) && (
           <section className="mt-10">
             <h2 className="font-heading text-2xl font-semibold text-dark-navy">About this module</h2>
@@ -262,7 +262,7 @@ export default async function EducatorModulePage({
 
             {m.signOff.criteria.length > 0 && (
               <div className="mt-5">
-                <h3 className={`${eyebrow} text-plum`}>Criteria — each judged Met or Not yet</h3>
+                <h3 className={`${eyebrow} text-plum`}>Criteria. Each judged Met or Not yet</h3>
                 <div className="mt-2 space-y-3">
                   {m.signOff.criteria.map((c) => (
                     <div key={c.title} className="rounded-lg border border-plum/15 bg-white p-4">

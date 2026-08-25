@@ -1,6 +1,6 @@
 # Contextualised, fully offline adaptation of efi-mv-can-do-checklist for Learning Bridge+ (Cox's Bazar).
 # The key shift from the source: the source is a written "I can now…" checklist that assumes learners can
-# read the statements and write their own reflection. This version is emergent-literacy first — it is an
+# read the statements and write their own reflection. This version is emergent-literacy first. It is an
 # ORAL, picture-based self-check, marked with thumbs, faces, or a mark, never written self-report. It is
 # marked once near the START of the unit (where am I now) and again at the END (what grew). It is a
 # development and reflection tool, not a test. Oral and visual first, no devices. Objective 1.
@@ -9,10 +9,10 @@ slug: cb-mv-i-can-checklist
 access: partner
 edition: learning-bridge-coxs-bazar
 type: resource
-title: "My 'I can…' check — where am I now, and what grew"
+title: "My 'I can…' check, where am I now, and what grew"
 summary: >-
   An oral, picture-based self-check where learners mark how sure they feel about each small thing they are
-  learning to do in English — using thumbs, faces, or a mark rather than written words. It is marked near
+  learning to do in English. Using thumbs, faces, or a mark rather than written words. It is marked near
   the start of the unit to see where each learner is now, and revisited at the end to let them see and own
   how far they have come. It is a tool for reflection and growth, never a test.
 facilitationContext:
@@ -24,7 +24,7 @@ deliveryAdaptations:
 - context: group
   how: >-
     As designed. The facilitator says each "I can…" picture aloud in the learners' language, and everyone
-    marks their own sheet privately at the same time — thumbs up, a middle face, or a not-yet mark. Marking
+    marks their own sheet privately at the same time. Thumbs up, a middle face, or a not-yet mark. Marking
     together keeps it low-stakes and stops it feeling like a public test; no one sees another's marks unless
     they choose to share. Use same-gender pairs if any talking-about-it is done aloud.
 - context: one-to-one-mentoring
@@ -39,25 +39,25 @@ deliveryAdaptations:
     If used independently, the learner keeps the picture sheet in their My Voice book and marks it with a
     helper at home; the marks are then talked through at the next session so the reflection still happens
     with support.
-duration: "About 1 hour facilitated, used in two short parts — roughly 25 minutes near the start of the unit and 25 minutes at the end"
+duration: "About 1 hour facilitated, used in two short parts. Roughly 25 minutes near the start of the unit and 25 minutes at the end"
 grouping: "Whole group, each marking their own sheet privately; a mentor route for anyone anxious; works with 10-35 learners"
 whatLearnersDo:
 - Meet a small set of picture "I can…" statements and learn what the marks (thumb up, middle, not-yet) mean.
-- Mark, near the start of the unit, how sure they feel about each one right now — no reading or writing needed.
+- Mark, near the start of the unit, how sure they feel about each one right now. No reading or writing needed.
 - Revisit the same pictures at the end of the unit and mark again, so they can see what has changed.
 - Notice and name one thing they can now do that they could not do before, and one thing to keep growing.
 materialsAndPreparation:
 - A picture "I can…" sheet for each learner, kept in their My Voice book, with a simple image for each thing they are learning to do (say my name, greet someone, hear first sounds, say a word about me, introduce myself).
-- A clear, agreed set of marks the whole group knows — a thumb up for yes-I-can, a flat hand or middle face for a-little, and a small dot or open circle for not-yet.
+- A clear, agreed set of marks the whole group knows. A thumb up for yes-I-can, a flat hand or middle face for a-little, and a small dot or open circle for not-yet.
 - Your own way of saying each "I can…" aloud in the learners' language, with a quick concrete example of each so it is never abstract.
-- "Sensitivity: this is a self-check, not a test, and it must never feel like one. Some learners carry shame about school and will mark themselves down harshly or fear being judged. Say plainly, before any marking, that not-yet marks are expected, private, and exactly what the first mark is for — so growth can be seen later. No marks are ever collected, compared, or shown to anyone."
+- "Sensitivity: this is a self-check, not a test, and it must never feel like one. Some learners carry shame about school and will mark themselves down harshly or fear being judged. Say plainly, before any marking, that not-yet marks are expected, private, and exactly what the first mark is for, so growth can be seen later. No marks are ever collected, compared, or shown to anyone."
 facilitationNotes: |
   The source is a written checklist a literate learner reads and fills in. Here almost no one can yet read
   the statements, so the whole thing is rebuilt to run by ear and by picture: you say each "I can…" aloud
   in the learners' language, learners look at a small picture that stands for it, and they mark how sure
   they feel with a thumb, a face, or a mark. Nothing is read; nothing is written. The single most important
   thing is that this is a development and reflection tool, not a test and not an assessment. Its power comes
-  entirely from being marked twice — once near the start, when almost everything is honestly "not yet", and
+  entirely from being marked twice, once near the start, when almost everything is honestly "not yet", and
   again at the end, when the learner can lay the two side by side and see, in their own marks, how much they
   have grown. So protect the start-of-unit marking even though it feels discouraging in the moment; the
   not-yet marks are what make the growth visible later. Keep every item small, true, and concrete, give an
@@ -68,14 +68,14 @@ steps:
   duration: "10-12 min"
   guidance: |
     Before any marking, walk through the picture sheet slowly. Say each "I can…" aloud in the learners'
-    language and give a quick, concrete example — "this one is: I can say my name and its first sound, like
+    language and give a quick, concrete example. "this one is: I can say my name and its first sound, like
     Fatima, fff". Then teach the three marks together as a game: everyone show me a thumb up, now a flat
     hand for a-little, now the not-yet mark. Make sure the not-yet mark is framed warmly and out loud as the
     normal, expected thing at the start. The aim of this step is only that everyone knows what the pictures
     mean and that marking is safe and private.
   keyPrompts:
   - This picture means "I can…". What do you think it shows? Let me say it for you.
-  - "Show me your three marks — yes, a-little, not-yet. All of them are fine."
+  - "Show me your three marks, yes, a-little, not-yet. All of them are fine."
   - Remember, no one sees your marks but you. Not-yet is the most useful mark of all today.
   watchOuts:
   - A learner treating it as a test and freezing or copying a neighbour; say clearly and more than once that there are no right answers and no one is checking, only themselves.
@@ -83,17 +83,17 @@ steps:
   adaptation: |
     No printed sheet is needed. The pictures can be drawn quickly on paper or on the ground, and learners
     can mark "yes / a-little / not-yet" with pebbles, folded fingers, or marks in the dust beside each
-    picture — the record just needs to be theirs and kept until the end of the unit.
+    picture. The record just needs to be theirs and kept until the end of the unit.
 - title: "Mark where I am now (start of unit)"
   duration: "10-13 min"
   guidance: |
     Now go item by item. Say each "I can…" aloud, wait, and let every learner mark their own sheet quietly
     at the same time. Keep the pace calm and even so no one feels rushed or watched. Do not gather or look
-    at the marks — this belongs to the learner. When you finish, have them keep the sheet safely in their My
+    at the marks, this belongs to the learner. When you finish, have them keep the sheet safely in their My
     Voice book, and tell them plainly what it is for: we will do this exact same check again at the end, and
     you will get to see for yourself what changed.
   keyPrompts:
-  - Listen to this one, then mark how sure you feel right now — yes, a-little, or not-yet.
+  - Listen to this one, then mark how sure you feel right now. Yes, a-little, or not-yet.
   - There is no hurry and no right answer; mark what is true for you today.
   - Keep this safe in your book. It is a photograph of today, so you can see how you grow.
   watchOuts:
@@ -107,7 +107,7 @@ steps:
   duration: "12-15 min"
   guidance: |
     At the end of the unit, bring out the same sheets. Run the identical check: say each "I can…" aloud and
-    let learners mark again, privately, beside their first mark. Then comes the real moment — have each
+    let learners mark again, privately, beside their first mark. Then comes the real moment, have each
     learner look at the two markings together and see the movement: items that were not-yet in week one and
     are now a-little or yes. This is the check doing its job. Move around, kneel beside people, and help
     those who cannot yet see their own progress to spot it in their own marks.
@@ -126,7 +126,7 @@ steps:
   duration: "8-10 min"
   guidance: |
     Close by having each learner, in a same-gender pair or with a mentor, say aloud one thing they can now
-    do that they could not at the start — a real, named win from their own sheet — and one thing they want
+    do that they could not at the start, a real, named win from their own sheet, and one thing they want
     to keep getting better at. Gather a few of these for the whole group so growth is witnessed and shared.
     Link it forward: this same habit of checking "where am I now, and what grew" is something they can keep
     using in every part of their learning.
@@ -137,8 +137,8 @@ steps:
   - A shy learner reluctant to claim a win aloud; let them say it quietly to a partner or mentor first, and never require public sharing.
 closing: |
   Bring the two markings together one last time and name the point plainly: you did not just learn some
-  English, you can now see your own learning, in your own marks, made by you. That noticing — where am I
-  now, and what grew — is a skill you keep for every subject and every year ahead. The marked sheet stays
+  English, you can now see your own learning, in your own marks, made by you. That noticing, where am I
+  now, and what grew, is a skill you keep for every subject and every year ahead. The marked sheet stays
   in the My Voice book as a lasting record of the growth. Independent task: at home, tell one person one
   thing you can now do in English that you could not do when the unit began.
 agencyContribution:
@@ -148,7 +148,7 @@ agencyContribution:
     Marking their own learning, in their own picture-marks, and seeing growth they made themselves, puts a
     learner in charge of judging their own progress rather than waiting to be judged. In a setting where
     much is decided for them and where school may have taught them to expect a verdict, quietly proving a
-    not-yet into a yes is real power over how they see themselves as learners — the self-belief that keeps
+    not-yet into a yes is real power over how they see themselves as learners. The self-belief that keeps
     them investing in their own growth.
 principlesForegrounded:
 - recognise-communicate-growth
@@ -187,7 +187,7 @@ relatedSlugs:
 educatorContent: |
   ## What you need to know before you teach this
 
-  A gentle, picture-based self-check, run twice — at the start and again at the end — and the whole
+  A gentle, picture-based self-check, run twice, at the start and again at the end, and the whole
   value is in the distance between the two marks.
 
   ### It is not a test, and it must not feel like one
@@ -200,7 +200,7 @@ educatorContent: |
   Most of the cohort is not reading fluently. Read all the lines before anyone marks anything, so
   learners are choosing between them rather than stopping at the first one they understood.
 
-  ### Listen hard — this is your best early diagnostic
+  ### Listen hard: this is your best early diagnostic
 
   It tells you, in one session, who arrives with some English and who is starting from nothing. That
   shapes your pairing and your pace for the whole unit. Take notes.
@@ -208,7 +208,7 @@ educatorContent: |
   ### Two marks on one page
 
   Use a tick the first time and a cross the second, or two colours. A learner who cannot read a rubric
-  can still see two marks and the distance between them — and for this cohort that visible distance is
+  can still see two marks and the distance between them, and for this cohort that visible distance is
   often the first evidence they have had that effort produces change.
 
   Do not let anyone erase the first mark. The first mark is the point.
@@ -242,7 +242,7 @@ learnerTeaching:
 
     Not what you wish. Not what you think you should say. What is true right now.
 
-    If almost everything is "not yet", that is completely fine — that is what the beginning of a course
+    If almost everything is "not yet", that is completely fine. That is what the beginning of a course
     looks like. If it was all "yes" already, there would be nothing here for you.
 
     ### Listen to all the lines first
@@ -254,7 +254,7 @@ learnerTeaching:
     At the end of the course you will find this page again and mark it a second time, with a different
     mark.
 
-    Then you will see both marks together — and the space between them is what you learned. Nobody can
+    Then you will see both marks together, and the space between them is what you learned. Nobody can
     take that off you, and you will be able to point at it.
 
     ### Do not rub out the first mark
@@ -264,7 +264,7 @@ learnerTeaching:
     The first mark is the whole point. Without it, you cannot see the distance.
   words:
     - term: not yet
-      meaning: I cannot do it today — and "yet" means it can change
+      meaning: I cannot do it today, and "yet" means it can change
 worksheet:
   slug: cb-mv-i-can-checklist-worksheet
   note: Included in the downloadable workbook as the I can self-check page.
@@ -275,10 +275,10 @@ provenanceNote: >-
   Contextualised, fully offline adaptation of efi-mv-can-do-checklist for the Learning Bridge+ (Cox's Bazar)
   edition. The source is a written "I can now…" checklist that assumes learners can read the statements and
   write a reflection; this version is rebuilt for emergent literacy as an oral, picture-based self-check
-  marked with thumbs, faces, or marks — never written self-report — and is marked once near the start of the
+  marked with thumbs, faces, or marks, never written self-report, and is marked once near the start of the
   unit and again at the end so learners can see and own their own growth. It is framed throughout as a
   development and reflection tool, not a test. Objective 1 of the My Voice unit.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

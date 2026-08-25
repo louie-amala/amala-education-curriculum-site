@@ -8,8 +8,8 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "The ten-minute conversation"
 summary: >-
-  The repeatable shape of one mentoring conversation — check in, pick up the last step, look at what is
-  in front of them, agree one next step — with the questions to ask, the five-second wait, what to do
+  The repeatable shape of one mentoring conversation, check in, pick up the last step, look at what is
+  in front of them, agree one next step, with the questions to ask, the five-second wait, what to do
   when a learner says nothing, and how to close.
 facilitationContext:
 - one-to-one-mentoring
@@ -20,7 +20,7 @@ educatorContent: |
   ## Why a fixed shape
 
   You are running three components, you have a caseload, and you are doing this while the rest of the
-  group works. Without a shape, mentoring becomes whatever there is time for — which in practice means
+  group works. Without a shape, mentoring becomes whatever there is time for, which in practice means
   progress-chasing with the learners who are already doing well.
 
   The shape below takes about ten minutes and works whether things are going well or badly. Learn it
@@ -28,7 +28,7 @@ educatorContent: |
 
   ## The four moves
 
-  **1. Check in — about two minutes. Always first.**
+  **1. Check in, about two minutes. Always first.**
 
   Not as a doorway to business. Actually ask, and actually wait.
 
@@ -39,18 +39,18 @@ educatorContent: |
   Ask the hard one before the good one. If you ask "what's been good" first, many learners will give you
   the good answer and close the door.
 
-  **2. Pick up the last step — about two minutes.**
+  **2. Pick up the last step, about two minutes.**
 
   Look at their mentoring page together. Last time you agreed one step.
 
   - "Last time you said you would ___. How did that go?"
 
   Whatever the answer, do not make it a test. If it happened, say so out loud and ask what helped. If it
-  did not, the only useful question is "what got in the way?" — asked with genuine curiosity, because
+  did not, the only useful question is "what got in the way?". Asked with genuine curiosity, because
   the answer is usually information you need. A learner who is punished for an honest "no" gives you a
   dishonest "yes" from then on, and you have lost the instrument.
 
-  **3. Look at what is in front of them — about four minutes.**
+  **3. Look at what is in front of them, about four minutes.**
 
   This is where you connect the components. Open whichever is live: their learning goal, their English
   practice, their part of the research, or something they raised in the check-in.
@@ -62,10 +62,10 @@ educatorContent: |
   That third question is the coaching move. Ask it before you offer anything. Most of the time the
   learner has already tried something, and hearing themselves say it is more useful than your idea.
 
-  **4. Agree one step — about two minutes. Always last.**
+  **4. Agree one step, about two minutes. Always last.**
 
   One step. Small enough that it will actually happen before you next meet. The learner says it, not
-  you — if you say it, it is your step.
+  you. If you say it, it is your step.
 
   - "So what is one thing you will do before we talk again?"
   - "Is that small enough? What would make it easier?"
@@ -100,11 +100,11 @@ educatorContent: |
 
   ## What to do with what you hear
 
-  - **Small and practical** — a step that was too big, a missing pencil, a clash with work at home:
+  - **Small and practical**, a step that was too big, a missing pencil, a clash with work at home:
     solve it or coach it, there and then.
-  - **A pattern you do not like** — withdrawal, a "fine" that has changed shape, three weeks of nothing
+  - **A pattern you do not like**, withdrawal, a "fine" that has changed shape, three weeks of nothing
     happening: note it, keep watching, and raise it with your coordinator if it continues.
-  - **Anything about safety, harm, or risk** — stop. Do not follow it, do not promise secrecy, close
+  - **Anything about safety, harm, or risk**. Stop. Do not follow it, do not promise secrecy, close
     the conversation calmly, and follow the referral pathway the same day. The safeguarding page has the
     words.
 
@@ -122,7 +122,7 @@ agencyContribution:
   how: >-
     The shape is built so the learner does the deciding: they say what got in the way, they say what
     they have already tried, and they name the next step. A mentor who supplies all three has produced
-    a plan the learner is following rather than one they are directing — the difference between support
+    a plan the learner is following rather than one they are directing, the difference between support
     and management, and the whole point of the component.
 principlesForegrounded:
 - safe-spaces
@@ -131,15 +131,15 @@ competencyCodes: [FSL2]
 competencyDevelopment:
 - code: FSL2
   how: >-
-    Every conversation runs one small loop of the competency — review the step taken, notice what got in
-    the way, adapt, commit to the next — which is the cycle Agency in Learning teaches, rehearsed weekly
+    Every conversation runs one small loop of the competency, review the step taken, notice what got in
+    the way, adapt, commit to the next, which is the cycle Agency in Learning teaches, rehearsed weekly
     with support.
 objectiveIds: []
 relatedSlugs: [cb-mn-running-mentoring-here, cb-mn-mentor-record, cb-mn-re-anchoring-after-absence, cb-my-mentoring-conversations, mentor-coach-dont-rescue, mentor-wellbeing-check-ins]
 provenanceNote: >-
   Authored for the Learning Bridge+ (Cox's Bazar) edition. The four moves are a contextualised, timed
-  reading of Amala's mentor moves — the wellbeing check-in, coaching rather than rescuing, and the
-  GROW-style check-in — compressed to what a facilitator can run in ten minutes while also teaching a
+  reading of Amala's mentor moves, the wellbeing check-in, coaching rather than rescuing, and the
+  GROW-style check-in, compressed to what a facilitator can run in ten minutes while also teaching a
   group, and adapted for an oral, multilingual, stop-start setting.
 rights:
   status: amala-own

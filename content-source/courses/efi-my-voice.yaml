@@ -1,10 +1,10 @@
-# English for Impact — Unit 1 as a course. Source: LLL Course Guide, Unit 1 "My Voice" (pp. 24–27).
-# Competency anchor (FUS1) is authored — see sourceIssues.
+# English for Impact. Unit 1 as a course. Source: LLL Course Guide, Unit 1 "My Voice" (pp. 24–27).
+# Competency anchor (FUS1) is authored, see sourceIssues.
 id: efi-my-voice
 slug: efi-my-voice
 access: public
 title: "My Voice"
-strapline: "Say who you are — your first words, sentences, and voice in English. (Unit 1 · A1-)"
+strapline: "Say who you are, your first words, sentences, and voice in English. (Unit 1 · A1-)"
 programmes: [english-for-impact, learning-bridge]
 testimonial: null
 purpose: >-
@@ -21,7 +21,7 @@ throughline:
     Agency for positive change begins with being able to say who you are and be understood. Voice is
     its precondition, and the first thing a learner voices is themselves. My Voice develops Developing
     self-awareness (FUS1): as learners find the English to introduce themselves and choose the words
-    that represent them, they are also naming their identity, strengths, and what matters to them —
+    that represent them, they are also naming their identity, strengths, and what matters to them. 
     the self-knowledge that all later participation and choice rests on.
   toObjectives: >-
     The three objectives move from the building blocks of English (sounds, letters, high-frequency
@@ -29,8 +29,8 @@ throughline:
     personal identity artifact. The language objectives are the means; the project is where
     self-awareness is expressed and shared, foregrounding FUS1.
   develops: >-
-    Learners develop FUS1 by turning attention to who they are and finding the English to express it —
-    their name, where they are from, what they like, and what they are good at — and reflecting on that
+    Learners develop FUS1 by turning attention to who they are and finding the English to express it,
+    their name, where they are from, what they like, and what they are good at, and reflecting on that
     identity as they choose what to represent in their artifact.
   demonstrates: >-
     Learners demonstrate FUS1 through a personal identity artifact and a spoken "My Name, My Voice"
@@ -42,7 +42,7 @@ requirements:
   cadence: ≈4–5 weeks
   liveIndependentSplit: 30 live / 20 independent
   notes: >-
-    About 50 hours of structured learning — roughly 30 facilitated (live) and 20 independent —
+    About 50 hours of structured learning, roughly 30 facilitated (live) and 20 independent,
     adaptable to pacing and instructional time. The first and most
     foundational unit: expect to spend time on the alphabet, sounds, and the confidence to speak.
 
@@ -51,7 +51,7 @@ objectives:
       Build the sounds, letters, and words to begin reading and writing in English.
     supportedTo:
       - Recognise and use the uppercase and lowercase letters of the English alphabet.
-      - Identify and produce key English sounds — short vowels (a, o, u) and common consonants (s, t, l, m, n; hard "k" sounds; plosives).
+      - Identify and produce key English sounds, short vowels (a, o, u) and common consonants (s, t, l, m, n; hard "k" sounds; plosives).
       - Read simple words (CVC and high-frequency words) and short phrases.
       - Understand and use high-frequency vocabulary related to personal identity (name, age, country, city, language).
     furtherDetails:
@@ -84,8 +84,8 @@ objectives:
       Create and present a personal identity artifact that shows who you are.
     anchorContribution:
       develops: >-
-        Learners develop FUS1 by choosing what represents them — meaningful words, places, and
-        interests from their own lives — and shaping it into an artifact, reflecting on their identity
+        Learners develop FUS1 by choosing what represents them, meaningful words, places, and
+        interests from their own lives, and shaping it into an artifact, reflecting on their identity
         and strengths as they do.
       demonstrates: >-
         A personal identity artifact and a "My Name, My Voice" presentation demonstrate self-awareness
@@ -96,7 +96,7 @@ objectives:
       - Present basic personal information to peers or a wider audience with growing confidence.
     furtherDetails:
       concepts:
-        - Authentic project — My Voice, My Name — a personal identity artifact with written and visual components.
+        - Authentic project, My Voice, My Name, a personal identity artifact with written and visual components.
       activities:
         - A "My Name, My Voice" sharing experience with peers or a wider audience.
     competencyEvidence:
@@ -110,7 +110,7 @@ principleMappings:
       - Learners choose what to represent in their artifact, so their English is built outward from who they are.
   - principle: lifeworthy-competencies
     inThisCourse:
-      - Learners build foundational literacy (decoding, spelling) and the confidence to speak — capabilities reused across every later unit and beyond.
+      - Learners build foundational literacy (decoding, spelling) and the confidence to speak. Capabilities reused across every later unit and beyond.
   - principle: safe-spaces
     inThisCourse:
       - A trauma-sensitive, low-pressure environment values communication over perfection; learners are never required to share more than they choose.
@@ -129,7 +129,7 @@ principleMappings:
       - >-
           Learners choose what represents them, which makes the task genuinely theirs rather than a form to complete.
       - >-
-          Being able to say who you are in English is not a rehearsal for a real challenge — for a learner who cannot yet do it, it is the challenge.
+          Being able to say who you are in English is not a rehearsal for a real challenge, for a learner who cannot yet do it, it is the challenge.
   - principle: collaboration
     inThisCourse:
       - >-
@@ -143,7 +143,7 @@ principleMappings:
       - >-
           Learners are taught to ask before repeating something about another person, and never to share a peer's work without agreement.
       - >-
-          Facilitators set the norm that nobody is laughed at for an accent, a home language, or a slow start — handled the first time, not the third.
+          Facilitators set the norm that nobody is laughed at for an accent, a home language, or a slow start. Handled the first time, not the third.
       - >-
           Every personal prompt has an everyday alternative, offered without comment, so no learner has to trade privacy for participation.
   - principle: feedback-and-data
@@ -157,7 +157,7 @@ principleMappings:
 designChecklist:
   - The course includes ~20–40 hours of learning experiences, integrating phonics, grammar, vocabulary, reading, writing, and speaking.
   - Grammar, phonics, and vocabulary are connected to the unit outcomes and the identity-artifact project.
-  - Opportunities to generate evidence for Amala competencies — especially the anchor FUS1 — are built into the project.
+  - Opportunities to generate evidence for Amala competencies, especially the anchor FUS1, are built into the project.
 
 sourceIssues:
   - type: competency-mapping-authored

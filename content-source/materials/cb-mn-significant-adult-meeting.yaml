@@ -2,8 +2,8 @@
 # three-way conversation between the mentor, the learner, and one adult who matters in the learner's
 # life.
 #
-# Deliberately optional. It takes real organisation — finding a time, a safe space, and an adult who
-# can come — and a site running at capacity may not manage it for every learner, or for any. It is
+# Deliberately optional. It takes real organisation, finding a time, a safe space, and an adult who
+# can come, and a site running at capacity may not manage it for every learner, or for any. It is
 # written so that a site can run it for two learners or for twenty without the programme depending on
 # it. What it must NOT become is a parents' evening: it is not a report on the learner, and the learner
 # is not discussed in the third person while sitting there.
@@ -17,7 +17,7 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "The significant adult meeting (optional)"
 summary: >-
-  An optional three-way conversation — mentor, learner, and one adult the learner chooses — in which the
+  An optional three-way conversation, mentor, learner, and one adult the learner chooses, in which the
   learner shows their own work and says what has changed for them, and the adult says what they have
   noticed. Organisationally demanding, and worth it: it is the fastest way to make a learner's growth
   visible to the people whose belief in them shapes what happens next.
@@ -36,7 +36,7 @@ learnerContent: |
 
   Someone whose opinion matters to you, and who is part of your life: a parent, an older brother or
   sister, an aunt or uncle, a grandparent, a guardian, a teacher, a religious leader, a neighbour who
-  has helped you. You choose. If you would rather not have this meeting at all, say so — nobody will
+  has helped you. You choose. If you would rather not have this meeting at all, say so. Nobody will
   ask you why, and nothing bad happens.
 
   ### What happens
@@ -44,7 +44,7 @@ learnerContent: |
   It takes about half an hour, and there are three parts:
 
   1. **You show your work.** Your book, your goal, your card, your part of our research. You do the
-     showing and the talking — your mentor is there to help if you get stuck, not to speak for you.
+     showing and the talking, your mentor is there to help if you get stuck, not to speak for you.
   2. **You say what has changed.** One thing you can do now that you could not do before.
   3. **They say what they have noticed.** The adult says what they have seen change in you at home or
      outside the learning space. Sometimes this is the surprising part.
@@ -57,7 +57,7 @@ learnerContent: |
   - Nothing you have told your mentor privately will be repeated. That stays between you and your
     mentor.
 educatorContent: |
-  ## Why bother — the case for the meeting
+  ## Why bother: the case for the meeting
 
   A learner's sense of what is possible for them is shaped less by their facilitator than by the adults
   they live among. In this context that is sharper than usual: schooling has been interrupted for
@@ -77,8 +77,8 @@ educatorContent: |
      matters, is what turns a learner's growth into something the people around them expect more of.
      That is often what decides whether learning continues after Week 12.
   4. **It gives the adult something to do.** Most significant adults want to help and do not know how.
-     The meeting ends with one concrete, small thing — protect this half hour, ask her about her goal
-     on Fridays — which is far more useful than general encouragement.
+     The meeting ends with one concrete, small thing, protect this half hour, ask her about her goal
+     on Fridays, which is far more useful than general encouragement.
 
   It is optional because it is genuinely demanding to organise: a time, a space, an adult who can
   travel, and a mentor with thirty spare minutes. Run it for the learners you can. Two well-run
@@ -86,7 +86,7 @@ educatorContent: |
 
   ## How to run it
 
-  **Before.** The learner chooses the adult, and the learner does the inviting — as with the showcase,
+  **Before.** The learner chooses the adult, and the learner does the inviting. As with the showcase,
   the choosing is part of the value. Agree with your coordinator where it happens and that it is a safe
   and appropriate space. Prepare the learner: which three things will you show, and what is the one
   change you will name? Ten minutes of preparation makes the difference between a proud half hour and a
@@ -103,7 +103,7 @@ educatorContent: |
   - *All three agree one thing* (about 5 minutes). One small, specific thing that would help the
     learner in the weeks ahead, that the adult can actually do.
 
-  **After.** Note what the adult said in your mentor record — it is evidence. The learner writes or
+  **After.** Note what the adult said in your mentor record. It is evidence. The learner writes or
   draws the agreed one thing on their mentoring page. Do not write anything about the meeting on the
   learner's own page beyond that: their book goes home.
 
@@ -115,8 +115,8 @@ educatorContent: |
      comparison with other learners. This meeting is about what changed, not about a mark.
   3. **Something private is repeated.** Anything a learner told you in confidence stays in confidence.
      Say this to the learner beforehand, in plain words, so they can relax into the meeting.
-  4. **The adult uses it to complain about the learner.** Redirect once, warmly and firmly — "what I'd
-     most like to hear is what you have seen her do well" — and if it continues, close the meeting
+  4. **The adult uses it to complain about the learner.** Redirect once, warmly and firmly, "what I'd
+     most like to hear is what you have seen her do well", and if it continues, close the meeting
      early and courteously. Then debrief the learner alone; do not leave them holding it.
   5. **It exposes a learner.** A learner with no adult to bring, or whose household would make the
      meeting unsafe, must never be visible as such. Offer it privately, take no for an answer without
@@ -143,7 +143,7 @@ agencyContribution:
     Whether a young person's learning continues is rarely their decision alone, and almost never
     decided by an assessment record. This meeting puts the learner in front of the person whose belief
     most shapes what they are permitted and expected to do next, speaking for themselves about their own
-    growth — which is agency over a pathway in the most direct sense available to them here. It also
+    growth, which is agency over a pathway in the most direct sense available to them here. It also
     makes visible the contributions they are already making at home, which the learner routinely
     undervalues and the adult routinely has not connected to the programme.
 principlesForegrounded:
@@ -154,7 +154,7 @@ principlesForegrounded:
 principleAlignment:
 - principle: recognise-communicate-growth
   how: >-
-    The learner narrates their own growth, with evidence in their hands, to an audience that matters —
+    The learner narrates their own growth, with evidence in their hands, to an audience that matters. 
     the most demanding and most motivating version of that skill the programme can offer.
 - principle: collaboration
   how: >-
@@ -167,7 +167,7 @@ principleAlignment:
 - principle: safe-spaces
   how: >-
     It is optional, the learner chooses who comes, confidences are never repeated, and the learner can
-    end it at any time — the conditions without which none of the rest would be safe to attempt.
+    end it at any time. The conditions without which none of the rest would be safe to attempt.
 competencyCodes: [FSL2, FUS1, FLC3]
 competencyDevelopment:
 - code: FSL2
@@ -182,8 +182,8 @@ objectiveIds: []
 relatedSlugs: [cb-my-mentoring-conversations, cb-my-showcase, cb-my-growth-across-the-programme, mentor-surface-skills-from-life, mentor-pathways-conversations, mentor-respond-to-disclosure]
 provenanceNote: >-
   Authored for the Learning Bridge+ (Cox's Bazar) edition, at Amala's request, as an optional addition
-  to the Mentoring and Wellbeing component. Draws on the existing mentor moves — surfacing skills from
-  life, pathways conversations, and responding to disclosure — rather than restating them. Kept optional
+  to the Mentoring and Wellbeing component. Draws on the existing mentor moves, surfacing skills from
+  life, pathways conversations, and responding to disclosure, rather than restating them. Kept optional
   because the organisational cost is real; written so a site can run it for some learners and not others
   without the programme depending on it.
 rights:

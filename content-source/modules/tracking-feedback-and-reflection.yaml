@@ -9,11 +9,11 @@ parentModuleSlug: set-and-pursue-goals
 skill:
   label: Track progress, use feedback, and reflect on growth
   description: >-
-    Keep progress on track over time — monitor the goal and milestones, seek and use feedback, adapt
+    Keep progress on track over time, monitor the goal and milestones, seek and use feedback, adapt
     when things change, and reflect on growth against the original goal, then set the next one.
 summary: >-
   The sustaining side of the cycle: learners turn their journal into a real tracking habit, seek and use
-  feedback, reflect on how they have grown against their original goal, and set the next goal — closing
+  feedback, reflect on how they have grown against their original goal, and set the next goal. Closing
   one cycle and opening the next.
 agencyNote: >-
   Tracking and reflecting is how a learner keeps steering rather than drifting: a record of their own
@@ -21,14 +21,14 @@ agencyNote: >-
   This is the habit that keeps a learner directing their own growth long after any course ends.
 anchorContribution:
   develops: >-
-    Learners develop the sustaining side of FSL2 — keeping progress on track over time — by monitoring
+    Learners develop the sustaining side of FSL2, keeping progress on track over time, by monitoring
     their goal and milestones in a journal, seeking and using feedback, adapting their plan when
     circumstances or evidence change, and reflecting on their growth against the original goal.
   demonstrates: >-
     Assess this from the journal a learner keeps over time and the reflection they produce at the end: a
     running record of steps taken and adjusted, feedback sought and acted on, and an honest, evidence-
     based account of how they have grown against their original goal. Together with the next goal they
-    set, this shows sustained, self-directed pursuit — the full arc of FSL2.
+    set, this shows sustained, self-directed pursuit. The full arc of FSL2.
 competencyDevelopment:
   - code: FSL1
     how: >-
@@ -47,12 +47,12 @@ materialSlugs:
   - ail-seeking-and-using-feedback
   - ail-reflecting-on-your-growth
 
-# Mini scheme of work. The consolidation step deliberately closes one cycle and opens the next —
+# Mini scheme of work. The consolidation step deliberately closes one cycle and opens the next, 
 # reflection seeds the next goal, so the self-directed learning cycle repeats rather than ends.
 plan:
   summary: >-
     Turn tracking into a habit, bring feedback in, then reflect on growth and set the next goal. This
-    skill runs alongside the pursuit from the previous one — the journal is kept, feedback gathered, and
+    skill runs alongside the pursuit from the previous one, the journal is kept, feedback gathered, and
     the reflection made from a real record built over time.
   steps:
     - title: Make tracking a habit
@@ -61,7 +61,7 @@ plan:
       facilitatedHours: 1
       guidance: >-
         Learners have kept a simple journal since the first skill; here they turn it into a deliberate
-        tracking practice — a light, habitual routine tied to a fixed trigger, kept against the goal and
+        tracking practice, a light, habitual routine tied to a fixed trigger, kept against the goal and
         milestones. Guard against perfectionism: a two-line honest entry a learner keeps beats a
         beautiful one they abandon.
       independentTask: Make a short journal entry each time you take a step, using a fixed trigger.
@@ -72,7 +72,7 @@ plan:
       guidance: >-
         Turn the goal outward. Learners ask a peer or mentor for one specific thing they could do better,
         listen without defending, and decide what to keep, hold, or leave. Feedback becomes data they
-        choose to act on, not a verdict — and acting on it is the evidence.
+        choose to act on, not a verdict, and acting on it is the evidence.
       independentTask: Ask one person for feedback on something you are working on, then try one change.
     - title: Keep tracking with feedback
       kind: practice
@@ -81,7 +81,7 @@ plan:
       guidance: >-
         Learners keep pursuing their goal, now using the feedback they gathered and adjusting steps when
         something is not working, and keep the journal and the short check-ins going. By the end most have
-        taken real, tracked steps towards a goal they set themselves — the evidence of self-directed
+        taken real, tracked steps towards a goal they set themselves. The evidence of self-directed
         learning.
       independentTask: Keep taking steps and recording them, and change your plan if a step is not working.
     - title: Reflect on your growth
@@ -91,14 +91,14 @@ plan:
       guidance: >-
         Have learners look back through their journal at how they have grown against their original goal,
         drawing on the real record rather than a general impression. Guard against both inflation and the
-        more common dismissal — help each learner see progress the evidence genuinely supports.
+        more common dismissal, help each learner see progress the evidence genuinely supports.
       independentTask: Look through your journal and name one way you have grown, ready to share it.
     - title: Reflect, and set your next goal
       kind: consolidation
       facilitatedHours: 0.5
       guidance: >-
         Close one cycle and open the next. Each learner names their growth against the original goal and
-        sets one goal to keep going with — so reflection seeds the next goal and the cycle repeats rather
+        sets one goal to keep going with, so reflection seeds the next goal and the cycle repeats rather
         than ends. The kept journal and the reflection are the assessable evidence for the whole
         competency; on Learning Bridge+, this is where FSL2 evidence is gathered against the proficiency
         scale.

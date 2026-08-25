@@ -5,7 +5,7 @@ type: educator-move
 title: "Coach mentees to build their own coping strategies"
 summary: >-
   When a mentee raises a challenge to their wellbeing, resist fixing it for them. Coach them to
-  build a strategy they own — and know when a challenge needs more than coaching.
+  build a strategy they own, and know when a challenge needs more than coaching.
 tags:
   - id: wellbeing
 facilitationContext:
@@ -15,13 +15,13 @@ educatorContent: |
   When a mentee brings a wellbeing challenge, the instinct is to solve it. Coaching is usually more
   useful: help them name the challenge, look honestly at where they are, weigh their options, and
   decide on a next step they choose. A strategy the mentee builds is one they can use again when you
-  are not there; a solution you hand over is not. Keep a few tools ready — ways to break a problem
-  down, to manage time and pressure, to ask for help — and offer them as options, not instructions.
+  are not there; a solution you hand over is not. Keep a few tools ready, ways to break a problem
+  down, to manage time and pressure, to ask for help, and offer them as options, not instructions.
 
   Two cautions. First, know the limit of coaching: some challenges are not for a mentee to "work
   through" alone, and recognising when something needs a referral rather than a strategy is part of
-  the job — that is where the safeguarding moves take over. Second, document what matters — the
-  challenge, what you agreed, what you are watching — so support is continuous and, if it has to be
+  the job. That is where the safeguarding moves take over. Second, document what matters, the
+  challenge, what you agreed, what you are watching, so support is continuous and, if it has to be
   escalated, the record is already there.
 agencyContribution:
   indicators:
@@ -52,7 +52,7 @@ relatedSlugs:
   - mentor-notice-and-respond
   - mentor-coach-dont-rescue
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Student Mentor Playbook"
 provenanceNote: >-
   Generalised from the Student Mentor Playbook's example approach (the mentor adapts a coaching role
   when a student raises a challenge, has a toolkit of strategies, and documents interactions). The
@@ -60,4 +60,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

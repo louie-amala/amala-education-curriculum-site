@@ -30,7 +30,7 @@ deliveryAdaptations:
     Weaker alone, because the learner loses the peer input that surfaces strengths they cannot see. The
     workbook page carries the strengths and areas; ask the learner to check their list with at least
     one person who knows them before treating it as settled.
-duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort — the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task at home"
+duration: "About 2 hours in the unit plan (generous for this oral/visual, translated cohort, the step timings below are the active teaching core; the rest is warm check-in, drawing, and translation), plus a 30 min independent task at home"
 grouping: "Individual reflection, then same-gender pairs or small groups; works with 10-35 learners"
 whatLearnersDo:
 - See what a strength as a learner is, and that an area to grow is normal, not a weakness to hide.
@@ -61,7 +61,7 @@ visuals:
 - kind: example
   title: "A filled strengths board"
   caption: >-
-    Filled by the learner, then added to by what their group sees in them — an honest picture to choose a
+    Filled by the learner, then added to by what their group sees in them. An honest picture to choose a
     goal from.
   spec:
     type: zones
@@ -151,14 +151,14 @@ educatorContent: |
   ## What you need to know before you teach this
 
   A learner cannot aim a goal well until they know what they already have. This block builds the
-  Learner Profile the goal will be chosen from — so a thin, dishonest answer here produces a thin,
+  Learner Profile the goal will be chosen from, so a thin, dishonest answer here produces a thin,
   dishonest goal three sessions later.
 
   ### The problem: this cohort systematically undercounts itself
 
   Ask what someone is good at and you will get very little. That is not modesty and it is not accurate.
   Several years of interrupted schooling teaches a young person that ability is the thing school
-  certifies — and school has mostly been unavailable. So the enormous amount they actually do sits
+  certifies, and school has mostly been unavailable. So the enormous amount they actually do sits
   outside the category "things I am good at": running a household, minding younger children,
   translating for adults, earning, negotiating at a stall, keeping a family fed on very little,
   resolving a dispute.
@@ -167,9 +167,9 @@ educatorContent: |
 
   ### Ask what they DID, never how good they are
 
-  "What are you good at?" gets nothing. "Tell me about yesterday — what did you do?" gets everything.
+  "What are you good at?" gets nothing. "Tell me about yesterday, what did you do?" gets everything.
 
-  Catch a verb and slow it down: *you took your sister to the health post — how did you work out where
+  Catch a verb and slow it down: *you took your sister to the health post, how did you work out where
   to go?* Then name it back plainly. Describing beats praising, and this cohort has good defences
   against praise.
 
@@ -179,7 +179,7 @@ educatorContent: |
   every evening for a month until he could count."
 
   This does two things. It makes the strength real to the learner, who will otherwise not quite believe
-  it. And it teaches the evidence habit the whole programme runs on — the same move they will use on
+  it. And it teaches the evidence habit the whole programme runs on, the same move they will use on
   their research and on their own growth at the end.
 
   ### The tone around "areas to grow" decides what you get
@@ -187,19 +187,19 @@ educatorContent: |
   If naming a weakness feels like admitting failure, learners will offer safe, vague ones and hide the
   real thing. Then they will set a goal about the safe one.
 
-  Frame an area to grow as **the place your next goal comes from** — the interesting part, the part
+  Frame an area to grow as **the place your next goal comes from**, the interesting part, the part
   worth spending the course on. Go first yourself, out loud, with something real and slightly
   uncomfortable of your own. Whatever you model is the level of honesty you will get back.
 
   Never use the word weakness. Never let learners rank each other.
 
-  ### The peer round is the most powerful part — protect it
+  ### The peer round is the most powerful part: protect it
 
   Hearing one or two strengths named by someone else lands differently from claiming your own, and
   many learners will write down something they would never have claimed.
 
   Structure it tightly so it cannot go wrong: everyone receives, everyone gives, same-gender groups
-  where that matters, one or two strengths each, and it must be about something the person has SEEN —
+  where that matters, one or two strengths each, and it must be about something the person has SEEN. 
   not a compliment. Nobody is skipped. Watch for the learner nobody speaks to and make sure you have
   something specific ready for them.
 
@@ -234,7 +234,7 @@ learnerTeaching:
 
     This is the important part.
 
-    Most of us think "good at things" means good at school things — reading, writing, numbers. So
+    Most of us think "good at things" means good at school things, reading, writing, numbers. So
     everything else we do gets left out.
 
     But look at what you actually do:
@@ -279,7 +279,7 @@ learnerTeaching:
     People often see something in us that we cannot see, because we are too close to it.
   words:
     - term: strength
-      meaning: something you can do well — with a real time it happened
+      meaning: something you can do well, with a real time it happened
     - term: area to grow
       meaning: something you want to get better at; where your next goal comes from
     - term: evidence
@@ -297,11 +297,11 @@ learnerTeaching:
     answers:
       - "Weak. Anyone can write it, and there is no time it happened. Ask: when? What did I actually do? Then write THAT."
       - "Strong. There is a real occasion, and you could prove it. This is what a strength looks like written down properly."
-      - "Weak — and it is not an area to grow either, it is just a judgement about yourself. An area to grow says what you want to be able to DO. Try: \"I want to be able to read the signs near my shelter.\""
-      - "Strong. A real thing, that really happens, that many people could not do. It did not happen in a classroom — and it still counts."
+      - "Weak, and it is not an area to grow either, it is just a judgement about yourself. An area to grow says what you want to be able to DO. Try: \"I want to be able to read the signs near my shelter.\""
+      - "Strong. A real thing, that really happens, that many people could not do. It did not happen in a classroom, and it still counts."
     then: >-
       Now write or draw two of your own strengths. For each one, say WHEN it happened. Then one area you
-      want to grow — the honest one, not the safe one.
+      want to grow, the honest one, not the safe one.
 worksheet:
   slug: cb-ail-good-at-page
   note: "In the learner's book (My Learning Book): the 'What I am good at' page. Print one per learner."
@@ -364,4 +364,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

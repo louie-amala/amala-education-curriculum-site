@@ -5,25 +5,25 @@ type: educator-move
 title: "Notice, record and refer a concern"
 summary: >-
   Spotting that something may be wrong is part of the role. Act within your policy: record what you
-  actually observed, factually, and refer — don't investigate.
+  actually observed, factually, and refer. Don't investigate.
 tags:
   - id: safeguarding
 facilitationContext:
   - one-to-one-mentoring
 primaryContext: one-to-one-mentoring
 educatorContent: |
-  Close, regular contact means a mentor is often the first to notice that something may be wrong — a
+  Close, regular contact means a mentor is often the first to notice that something may be wrong. A
   change in a mentee's mood, attendance, appearance, or the things they say. Noticing is part of the
   job; so is acting on it correctly. Follow your setting's policy, and let a few principles guide you
   within it.
 
   Record what you actually observed or were told, in plain factual language, as soon as you can,
   keeping what you saw separate from what you think it means. Refer through your policy's channel
-  promptly, rather than deciding alone what it amounts to — you are not the investigator, and waiting
+  promptly, rather than deciding alone what it amounts to. You are not the investigator, and waiting
   for certainty is how concerns get missed. Do not promise a mentee you will keep a safeguarding
   concern secret; you cannot, and you will already have said so when you named your role. Share on a
   need-to-know basis, with the designated lead, not more widely. When in doubt, ask your safeguarding
-  lead — a conversation is always better than a concern you sat on.
+  lead. A conversation is always better than a concern you sat on.
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction
@@ -39,7 +39,7 @@ relatedSlugs:
   - mentor-know-your-safeguarding-policy
   - mentor-respond-to-disclosure
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Student Mentor Playbook"
 provenanceNote: >-
   Generalised from the Student Mentor Playbook's requirement to "proactively identify and document
   any wellbeing issues... collaborating with the programme coordinator and/or manager to determine
@@ -48,4 +48,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

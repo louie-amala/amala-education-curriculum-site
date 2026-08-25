@@ -1,6 +1,6 @@
 # Contextualised, fully offline adaptation of efi-mv-phonics-games-and-dictation and efi-mv-plosive-sounds
-# for Learning Bridge+ (Cox's Bazar). The key shift from the sources: the practice is ORAL only — the ear,
-# the mouth, the body — with no reading and no dictation, because most learners are not yet reading in any
+# for Learning Bridge+ (Cox's Bazar). The key shift from the sources: the practice is ORAL only, the ear,
+# the mouth, the body, with no reading and no dictation, because most learners are not yet reading in any
 # language. Sounds are heard, sorted, and played with; letters and picture-words go into the My Voice book
 # only as a record of what was heard. Builds directly on cb-mv-alphabet-and-first-sounds. Objective 1.
 id: cb-mv-key-sounds-and-games
@@ -10,7 +10,7 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "Key sounds and sound games"
 summary: >-
-  Learners practise the key sounds of English through oral games only — no reading needed. They sort and
+  Learners practise the key sounds of English through oral games only, no reading needed. They sort and
   play with the short vowels (a, o, u), common consonants (s, t, l, m, n and hard "k"), and the plosive
   pairs (p/b, t/d, k/g), hearing that swapping one sound makes a different word. Clapping, movement, and
   listening games make the sounds automatic, and each learner keeps a picture-word for the sounds they own.
@@ -22,7 +22,7 @@ primaryContext: group
 deliveryAdaptations:
 - context: group
   how: >-
-    As designed. Sound games are made for the group — sorting into corners, clapping in a circle, and
+    As designed. Sound games are made for the group, sorting into corners, clapping in a circle, and
     minimal-pair listening races bring energy and the repetition that makes sounds stick. A room full of
     voices saying a sound together gives shy learners cover to join in, and hearing a neighbour catch the
     difference between pat and bat makes the point better than any explanation. Use same-gender pairs and
@@ -45,18 +45,18 @@ whatLearnersDo:
 - Hear and say the short vowel sounds (a, o, u) and common consonants (s, t, l, m, n and hard "k").
 - Sort words and pictures by their first sound in movement and listening games.
 - Hear how the plosive pairs (p/b, t/d, k/g) differ, and that swapping one sound makes a different word.
-- Add a sound and a picture-word for it to their My Voice book — a record of the sounds they now own.
+- Add a sound and a picture-word for it to their My Voice book, a record of the sounds they now own.
 materialsAndPreparation:
 - Picture cards, drawn pictures, or small everyday objects whose names carry the target sounds (a pot, a cat, a mat, a pen, a bag).
 - An open space to move in, so learners can walk or run to a "sound corner"; the sounds are marked by a card, a drawing, or just a spot on the ground.
 - The My Voice book, and something to draw with, for keeping a picture-word beside each sound.
 - Your own voice ready to say each sound clearly, and one or two example words that matter locally for each.
-- "Sensitivity: the games are light and playful by design, and that is a strength here — no one is asked to reveal anything about themselves. If a learner is anxious about making a wrong sound in front of others, let them play quietly beside you or a partner first; the game is a place to try, not a test."
+- "Sensitivity: the games are light and playful by design, and that is a strength here. No one is asked to reveal anything about themselves. If a learner is anxious about making a wrong sound in front of others, let them play quietly beside you or a partner first; the game is a place to try, not a test."
 visuals:
 - kind: setup
   title: "Sound corners"
   caption: >-
-    Name a corner for each sound. Learners say a word and walk to its corner — the sorting is in the feet,
+    Name a corner for each sound. Learners say a word and walk to its corner, the sorting is in the feet,
     not on paper.
   spec:
     type: zones
@@ -96,15 +96,15 @@ visuals:
       - "buzzy b"
 facilitationNotes: |
   This activity is where the sounds learners met by ear in the alphabet activity become automatic through
-  play. The sources it grows from assume learners can read and write — they use dictation and word-building
-  on paper — but here the practice is entirely oral, because most learners are not yet reading in any
+  play. The sources it grows from assume learners can read and write, they use dictation and word-building
+  on paper, but here the practice is entirely oral, because most learners are not yet reading in any
   language and some have never held a pencil. So drop every reading and writing task and keep only the ear,
   the mouth, and the body: a sound sorted into the right corner, a pair heard apart, a rhythm clapped. Lead
   with the short vowels and the everyday consonants first, then bring in the plosive pairs, because p and b
-  (and t and d, k and g) are made in the same place in the mouth and only the voice separates them — a
+  (and t and d, k and g) are made in the same place in the mouth and only the voice separates them. A
   hand on the throat lets a learner feel the buzz that tells them apart. Some languages learners already
   speak do not split these pairs, so expect mixing at first and treat it as normal, not as error. Welcome
-  every bridge to Rohingya, Chittagonian, Burmese, or Arabic — comparing an English sound to one they
+  every bridge to Rohingya, Chittagonian, Burmese, or Arabic. Comparing an English sound to one they
   already own is the fastest way in. Keep it fast, warm, and playful; ten minutes of a good sound game
   across many sessions does far more than one long lesson, and every sound said aloud is a win.
 steps:
@@ -120,7 +120,7 @@ steps:
   keyPrompts:
   - What is the first sound of this word? Walk to its corner.
   - Is there a sound like this in a language you already speak?
-  - Say it with me again, a little louder — which corner does it belong in?
+  - Say it with me again, a little louder, which corner does it belong in?
   watchOuts:
   - Rushing through too many sounds because sorting feels like progress; a learner who half-knows many sounds holds none, while one who truly owns six has a foundation. Add sounds slowly across the sessions.
   - Silent sorting; make sure learners say the sound aloud as they move, so the ear and the mouth stay joined.
@@ -132,13 +132,13 @@ steps:
   duration: "35-45 min"
   guidance: |
     Turn the sounds into rhythm and movement so they settle in the body. Clap once for each sound in a
-    short word as you say it slowly — c-a-t, three claps — and have the group clap and say with you. Play a
+    short word as you say it slowly, c-a-t, three claps, and have the group clap and say with you. Play a
     stand-up game: everyone stands when they hear a chosen sound in a word you call, and stays sitting when
     they do not. Keep the words to sounds already met. This is repetition that feels like play, and the
     movement helps learners who find sitting and listening hard to stay with it.
   keyPrompts:
   - How many sounds can you clap in this word? Say and clap it with me.
-  - Stand up when you hear the sound "sss" — did this word have it?
+  - Stand up when you hear the sound "sss", did this word have it?
   - Which sound is at the start, and which is at the end?
   watchOuts:
   - Losing the sound in the fun of the movement; every clap and every stand should be tied to a sound the learner is hearing, or it becomes exercise, not phonics.
@@ -149,37 +149,37 @@ steps:
 - title: "Hear the pairs: one sound, a new word"
   duration: "40-50 min"
   guidance: |
-    Bring in the plosive pairs — p and b, t and d, k and g — the sounds where the mouth is the same and
+    Bring in the plosive pairs, p and b, t and d, k and g, the sounds where the mouth is the same and
     only the voice changes. Have learners put a hand on their throat and feel the buzz on b, d, g and the
     quiet on p, t, k. Then play a listening game with minimal pairs said aloud (pat and bat, tan and Dan,
     cap and gap): say one word and, in same-gender pairs, learners point to the matching picture or object,
     or one partner holds each word and steps forward when theirs is called. Draw out the big idea by ear
     alone: in English, one small change of sound makes a different word, so these differences matter.
   keyPrompts:
-  - Put your hand on your throat — which sound buzzes, and which is quiet?
+  - Put your hand on your throat, which sound buzzes, and which is quiet?
   - Did I say "pat" or "bat"? How did your ear know?
-  - Same mouth shape — what is the only thing that changed?
+  - Same mouth shape, what is the only thing that changed?
   watchOuts:
   - Learners cannot yet hear a pair apart; this is expected, especially where their languages do not split these sounds. Name it as normal, use the throat-buzz check, and give patient repetition rather than correction.
   - Turning it into a lecture on the mouth; keep it a physical, playful listening game tied to real words, not a phonetics lesson.
   adaptation: |
     Hold a small strip of paper or a leaf in front of the mouth: it flutters for the strong-air voiceless
     sounds (p, t, k) and barely moves for the voiced ones (b, d, g). With no pictures, two learners each
-    become one word of a pair and step forward when you say theirs — a listening game with nothing but voices.
+    become one word of a pair and step forward when you say theirs. A listening game with nothing but voices.
 closing: |
   Bring the group back together and let a few learners say a sound they now feel sure of, with its
-  picture-word — "sss, like a snake". Each learner draws a picture-word for one or two sounds they have
+  picture-word. "sss, like a snake". Each learner draws a picture-word for one or two sounds they have
   owned today into their My Voice book, beside the sounds and name already there, so the book grows as a
   record of what their ear can now catch. Name the win plainly: today your ear and mouth got sharper, and
-  you can hear that one small sound can change a whole word — that is real progress in English. Independent
+  you can hear that one small sound can change a whole word. That is real progress in English. Independent
   task: choose one sound from your book, say it and its picture-word to one person at home, and listen for
   that sound in the words around you.
 agencyContribution:
   indicators:
   - control-of-future-pathways
   how: >-
-    Hearing and producing the sounds that carry meaning in English — especially the pairs where one small
-    change makes a new word — is what lets a learner be understood and understand others accurately. Built
+    Hearing and producing the sounds that carry meaning in English, especially the pairs where one small
+    change makes a new word, is what lets a learner be understood and understand others accurately. Built
     early and by ear, before reading is even possible, this gives a beginner reliable control over their
     own speaking and listening, and lays the ground for the reading and further study that widen the
     futures open to them.
@@ -192,7 +192,7 @@ principleAlignment:
   how: >-
     Everything here is a game, and a game is a place to try and get it wrong without shame. Mixing up a
     pair is named as normal and expected, no one has to reveal anything about themselves, and a shy learner
-    can play quietly beside a partner or the mentor first — so learners take risks with sound aloud without
+    can play quietly beside a partner or the mentor first, so learners take risks with sound aloud without
     fear of failing.
 - principle: lifeworthy-competencies
   how: >-
@@ -209,8 +209,8 @@ competencyCodes:
 competencyDevelopment:
 - code: FLC3
   how: >-
-    Distinguishing and producing the sound contrasts that change meaning in English — the short vowels, the
-    everyday consonants, and the voiced and voiceless plosive pairs — is the substance of being understood
+    Distinguishing and producing the sound contrasts that change meaning in English, the short vowels, the
+    everyday consonants, and the voiced and voiceless plosive pairs, is the substance of being understood
     and understanding others, the ground floor of communicating in English by ear before reading begins.
 objectiveIds:
 - efi-my-voice--o1
@@ -227,7 +227,7 @@ educatorContent: |
 
   ### What you are training
 
-  Not pronunciation — **discrimination**. Can a learner hear that "ship" and "sheep" are different
+  Not pronunciation, **discrimination**. Can a learner hear that "ship" and "sheep" are different
   words? Until they can hear the difference, they cannot reliably produce it, and correcting their
   mouth is wasted effort.
 
@@ -237,14 +237,14 @@ educatorContent: |
   ### The sounds this cohort will find hard, and why
 
   Expect difficulty with **/p/ vs /f/**, **/v/**, and the short vowels. These are hard because they do
-  not exist, or do not contrast, in learners' languages — not because anyone is inattentive.
+  not exist, or do not contrast, in learners' languages, not because anyone is inattentive.
 
   What helps is many short exposures over weeks. What does not help is explaining it again, or
   repeating it louder.
 
   ### Minimal pairs are the tool, but keep them meaningful
 
-  Two words that differ by one sound — ship/sheep, pan/fan — show that the sound CARRIES MEANING. That
+  Two words that differ by one sound, ship/sheep, pan/fan, show that the sound CARRIES MEANING. That
   is the point: it is not decoration, it changes what you said.
 
   Attach both words to real objects or pictures wherever you can. An abstract pair is a puzzle; a pair
@@ -259,7 +259,7 @@ educatorContent: |
   ### Do not turn it into phonetics
 
   No diagrams of the mouth, no talk of voiced and unvoiced. Say the sound, have them say it, play the
-  game. If a sound will not come after a few tries, leave it and come back next week — it often arrives
+  game. If a sound will not come after a few tries, leave it and come back next week. It often arrives
   on its own.
 
   ### Recycle relentlessly
@@ -279,13 +279,13 @@ learnerTeaching:
 
     In English, changing one small sound changes the whole word.
 
-    - **ship** — a boat.
-    - **sheep** — an animal.
+    - **ship**, a boat.
+    - **sheep**, an animal.
 
     One sound. Completely different thing.
 
-    - **pan** — for cooking.
-    - **fan** — for making air move.
+    - **pan**, for cooking.
+    - **fan**, for making air move.
 
     So the small sounds are not decoration. They carry the meaning.
 
@@ -294,7 +294,7 @@ learnerTeaching:
     Before you can SAY a sound, you have to be able to HEAR it.
 
     That is why we play listening games. When you point to the right picture, or stand on the right
-    side of the room, you are training your ear. That is the real work — even though it feels like
+    side of the room, you are training your ear. That is the real work, even though it feels like
     playing.
 
     ### Some sounds will feel strange in your mouth
@@ -302,7 +302,7 @@ learnerTeaching:
     Every language uses different sounds. English has some that your language does not.
 
     When a sound feels strange, that is not you being slow. Your mouth has simply never made that shape
-    before. Mouths learn — but they need many tries, spread over many days.
+    before. Mouths learn, but they need many tries, spread over many days.
 
     ### Little and often
 
@@ -317,7 +317,7 @@ learnerTeaching:
     Everyone in this room is finding some sound hard. It is just a different sound for each person.
   words:
     - term: sound
-      meaning: one small piece of a word — change it and the word changes
+      meaning: one small piece of a word, change it and the word changes
     - term: listen
       meaning: to pay attention with your ears, before you try to say it
 worksheet:
@@ -330,11 +330,11 @@ sourceRefs:
 provenanceNote: >-
   Contextualised, fully offline adaptation of efi-mv-phonics-games-and-dictation and efi-mv-plosive-sounds
   for the Learning Bridge+ (Cox's Bazar) edition. The sources assume learners are literate and use
-  dictation and word-building on paper; this version is rebuilt for emergent literacy — oral and visual
+  dictation and word-building on paper; this version is rebuilt for emergent literacy, oral and visual
   first, no reading or writing required, sound and body only, with picture-words kept in the My Voice book
   as a record. It keeps the sources' short vowels, common consonants, and voiced/voiceless plosive
   contrasts (pat/bat and the like). Objective 1 of the My Voice unit.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

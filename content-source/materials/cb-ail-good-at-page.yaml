@@ -1,5 +1,5 @@
 # Student worksheet (resource) for the activity cb-ail-strengths-and-areas-to-grow. Thin per §3: what the page is and how the
-# learner uses it. Ships no file of its own — its printable version compiles into the Agency in
+# learner uses it. Ships no file of its own, its printable version compiles into the Agency in
 # Learning student workbook ("My Learning Book"). Learning Bridge+ (Cox's Bazar) edition.
 id: cb-ail-good-at-page
 slug: cb-ail-good-at-page
@@ -8,7 +8,7 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "What I am good at"
 summary: >-
-  What the learner is already good at as a learner and what they want to get better at — and, for each
+  What the learner is already good at as a learner and what they want to get better at, and, for each
   one, the evidence: a time it actually happened.
 facilitationContext:
 - group
@@ -17,13 +17,13 @@ primaryContext: independent
 learnerContent: |
   ## What I am good at
 
-  This page is yours. You can draw, write, or say your answer — someone will write it for you if you
-  ask — and nobody marks it right or wrong.
+  This page is yours. You can draw, write, or say your answer, someone will write it for you if you
+  ask, and nobody marks it right or wrong.
 
   - Draw or write what you are good at.
   - For each one, give your evidence: a time it really happened, what you did, and what came of it.
   - Draw or write what you want to get better at.
-  - For each one, say what makes you say that — again, a time it happened.
+  - For each one, say what makes you say that. Again, a time it happened.
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction
@@ -40,4 +40,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

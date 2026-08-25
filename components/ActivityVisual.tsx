@@ -2,15 +2,15 @@ import type { ActivityVisual as Visual, ActivityVisualSpec } from "@/lib/schema"
 
 // Schematic diagrams that help an educator picture an activity: how to SET IT UP, and what the
 // finished OUTPUT looks like. Drawn from a compact YAML spec so every activity shares one visual
-// language (see ActivityVisualSchema in lib/schema.ts). Pure SVG — safe in a server component.
+// language (see ActivityVisualSchema in lib/schema.ts). Pure SVG, safe in a server component.
 
 const FONT = "system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif";
 
 // Tone → accent colour, by meaning rather than raw colour (matches tailwind.config.ts palette).
 const TONE: Record<string, string> = {
   neutral: "#004976", // navy
-  known: "#4797A8", // teal — what we already have
-  question: "#EF9600", // orange — what we still need to find out
+  known: "#4797A8", // teal, what we already have
+  question: "#EF9600", // orange, what we still need to find out
   positive: "#8F993E", // olive
   warn: "#BD472A", // terracotta
 };
@@ -51,7 +51,7 @@ function wrap(text: string, widthPx: number, fontPx: number, maxLines: number): 
   return lines.length ? lines : [""];
 }
 
-// A tiny "picture" glyph (hills) that marks a card as a drawing, not text — for oral/visual cohorts.
+// A tiny "picture" glyph (hills) that marks a card as a drawing, not text. For oral/visual cohorts.
 function PictureGlyph({ x, y, color }: { x: number; y: number; color: string }) {
   return (
     <g transform={`translate(${x} ${y})`} stroke={color} strokeWidth={1.3} fill="none">
@@ -77,7 +77,7 @@ function ZonesDiagram({ spec }: { spec: Extract<ActivityVisualSpec, { type: "zon
   const cardsTop = 62; // where the first card sits inside a panel
 
   // Uniform panel height from the busiest zone, so the sides line up.
-  const maxCards = Math.max(0, ...spec.zones.map((z) => z.cards.length));
+  const maxCards = Math.max(0,...spec.zones.map((z) => z.cards.length));
   const panelH = Math.max(120, cardsTop + maxCards * (CH + CG) + 6);
   const H = P + panelH + P;
 

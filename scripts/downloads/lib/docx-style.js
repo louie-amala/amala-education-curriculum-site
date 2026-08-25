@@ -34,16 +34,16 @@ const iconLine = (name, text, opts = {}) => new Paragraph({
 // Rebuilt (August 2026) for readability and print cost. Four constraints shaped every choice:
 //   1. ACCESSIBLE PRINT. Emergent readers, reading a second script. British Dyslexia Association
 //      style guide: 12-14pt body, ~1.5 line spacing, 60-70 characters a line, left-aligned, and NO
-//      italics or underlining (they make text run together) — emphasis is bold. Headings at least
+//      italics or underlining (they make text run together). Emphasis is bold. Headings at least
 //      20% larger than body.
 //   2. CHEAP TO PRINT. Every page is paper and toner, and the learner book is printed once PER
-//      LEARNER. So: A4 (not US Letter — nobody in Cox's Bazar prints Letter), designed for a mono
-//      laser and double-sided, no large filled panels (a tint over a page costs real toner — a rule
+//      LEARNER. So: A4 (not US Letter, nobody in Cox's Bazar prints Letter), designed for a mono
+//      laser and double-sided, no large filled panels (a tint over a page costs real toner, a rule
 //      costs almost none), no images, and nothing that only works in colour.
 //   3. GREYSCALE-SAFE. The brand colours survive for anyone who prints in colour, but no distinction
 //      EVER depends on hue: page types are told apart by size, weight, rule and position, because
 //      plum and olive are the same grey on a mono printer.
-//   4. NAVIGABLE. A fixed page architecture — locator strip, title, purpose line — so a facilitator
+//   4. NAVIGABLE. A fixed page architecture, locator strip, title, purpose line, so a facilitator
 //      or learner can find a page by flicking, plus a contents list Word fills with real page numbers.
 const NAVY = '1F3A5F', PLUM = '7A3B69', GREY = '5A6473', OLIVE = '6E7A2E', LINE = 'B9B3A6', RULE = '9A9384';
 
@@ -60,9 +60,9 @@ const COL = 11906 - 1418 - 1418; // 9070 twips of text column
 const scaleW = (ws) => { const t = ws.reduce((x, y) => x + y, 0); return ws.map((w) => Math.floor((w / t) * COL)); };
 
 // ---- type scale (half-points: 24 = 12pt) ----
-const NOTES_LINES = 22;  // lines in a full-page notes area — tuned so it fills one A4 sheet exactly
-const BOOK = 24;   // learner workbook body — BDA's 12pt floor
-const GUIDE = 22;  // facilitator reference body — 11pt, an adult reading a manual, not a learner
+const NOTES_LINES = 22;  // lines in a full-page notes area, tuned so it fills one A4 sheet exactly
+const BOOK = 24;   // learner workbook body, BDA's 12pt floor
+const GUIDE = 22;  // facilitator reference body. 11pt, an adult reading a manual, not a learner
 const LEAD_BOOK = 340;   // ~1.4 line spacing. 1.5 reads best; 1.4 buys back a page in eight.
 const LEAD_GUIDE = 300;  // ~1.25
 
@@ -72,7 +72,7 @@ const plain = (s) => String(s == null ? '' : s)
   .replace(/\*\*([^*]+)\*\*/g, '$1');
 const toParas = (s) => plain(s).trim().split(/\n\s*\n/).map((p) => p.replace(/\s*\n\s*/g, ' ').trim()).filter(Boolean);
 
-// NOTE ON ITALICS: opts.italics is accepted but deliberately ignored — the BDA guidance is explicit
+// NOTE ON ITALICS: opts.italics is accepted but deliberately ignored, the BDA guidance is explicit
 // that italics make text run together for the readers this pack is for. Callers asking for emphasis
 // get bold instead, so no call site had to change to get the accessibility win.
 const P = (text, opts = {}) => new Paragraph({
@@ -93,8 +93,8 @@ const label = (lab, text) => new Paragraph({
 // ---- outline levels ----
 // A heading carries two separate things: how big it LOOKS, and how deep it sits in the document
 // outline (which is what a contents page is built from). Inside the one-stop Educator Guide the
-// component packs are nested one level down — a component's phase is a section of a Part, not a peer
-// of it — but it should still look the same as it does in the standalone download. So the shift moves
+// component packs are nested one level down, a component's phase is a section of a Part, not a peer
+// of it, but it should still look the same as it does in the standalone download. So the shift moves
 // the outline level only; sizes never change.
 let HEADING_SHIFT = 0;
 const setHeadingShift = (n) => { HEADING_SHIFT = n || 0; };
@@ -121,7 +121,7 @@ const pageBreak = () => new Paragraph({ children: [new PageBreak()] });
 // either borderless or a single hairline.
 const NO_BORDERS = { top: { style: BorderStyle.NONE }, bottom: { style: BorderStyle.NONE }, left: { style: BorderStyle.NONE }, right: { style: BorderStyle.NONE }, insideHorizontal: { style: BorderStyle.NONE }, insideVertical: { style: BorderStyle.NONE } };
 const HAIRLINE = { top: { style: BorderStyle.SINGLE, size: 2, color: LINE }, bottom: { style: BorderStyle.SINGLE, size: 2, color: LINE }, left: { style: BorderStyle.SINGLE, size: 2, color: LINE }, right: { style: BorderStyle.SINGLE, size: 2, color: LINE }, insideHorizontal: { style: BorderStyle.SINGLE, size: 2, color: LINE }, insideVertical: { style: BorderStyle.SINGLE, size: 2, color: LINE } };
-// An accent bar down the left edge — the cheap-to-print replacement for a filled panel.
+// An accent bar down the left edge, the cheap-to-print replacement for a filled panel.
 const accentLeft = (color) => Object.assign({}, NO_BORDERS, { left: { style: BorderStyle.SINGLE, size: 18, color } });
 
 
@@ -131,7 +131,7 @@ const accentLeft = (color) => Object.assign({}, NO_BORDERS, { left: { style: Bor
 // ---- CAPTURE CONTROLS AND PAGE FURNITURE ----------------------------------
 // The workbook must scaffold a pre-literate learner who is alone with the page (facilitator stepped
 // back, or a session missed). So every page carries a persistent model and a structure to fill IN
-// PLACE — a worked example, sentence stems on a line, labelled slots, sort-mats, checklists — never a
+// PLACE, a worked example, sentence stems on a line, labelled slots, sort-mats, checklists, never a
 // bare "draw here" box. Literacy-free: draw/mark, or say it and the teacher scribes.
 
 // A standing line, so no learner is stuck because they cannot write.
@@ -140,7 +140,7 @@ const accentLeft = (color) => Object.assign({}, NO_BORDERS, { left: { style: Bor
 // lives once on the opening page and permanently in the page footer, so it costs nothing per page.
 const scribe = () => null;
 
-// "Like this:" — a shaded worked example that persists as a model (shaded so it does not read as a
+// "Like this:", a shaded worked example that persists as a model (shaded so it does not read as a
 // place to write). Lines are short and concrete; parenthesised bits are drawing cues.
 const example = (lines, labelText) => new Table({
   width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [COL], borders: accentLeft(OLIVE),
@@ -154,7 +154,7 @@ const example = (lines, labelText) => new Table({
   })] })],
 });
 
-// A shaded note box with its own label — the sibling of example(), for the teaching pages
+// A shaded note box with its own label. The sibling of example(), for the teaching pages
 // ("New words", "Try it first"). Shaded so it does not read as a place to write.
 const noteBox = (labelText, lines) => new Table({
   width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [COL], borders: accentLeft(NAVY),
@@ -168,7 +168,7 @@ const noteBox = (labelText, lines) => new Table({
   })] })],
 });
 
-// An authored activity visual (spec type "zones"), rendered FILLED for the facilitator guide — the
+// An authored activity visual (spec type "zones"), rendered FILLED for the facilitator guide. The
 // same diagram the site shows, so a facilitator working from paper sees the sort mat and the finished
 // output rather than a description of them. Only "zones" is rendered; other spec types are skipped.
 const visualTable = (v) => {
@@ -197,7 +197,7 @@ const stem = (text, opts = {}) => new Paragraph({
   tabStops: [{ type: TabStopType.RIGHT, position: COL, leader: LeaderType.UNDERSCORE }],
   spacing: { before: opts.before == null ? 100 : opts.before, after: opts.after == null ? 240 : opts.after, line: 300 },
 });
-// The lined area itself, without a label — so the same control can be a two-line answer slot or a
+// The lined area itself, without a label, so the same control can be a two-line answer slot or a
 // whole page of open space.
 const linedArea = (nLines) => new Table({
   width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [COL],
@@ -221,10 +221,10 @@ const linedArea = (nLines) => new Table({
 });
 
 // A WRITE BOX: an open area with feint lines inside it. The default capture control for anything a
-// learner might answer with a drawing — which, in a cohort largely not yet literate, is most things.
+// learner might answer with a drawing, which, in a cohort largely not yet literate, is most things.
 // A bare ruled line silently says "write words, on a line"; an empty box gives no help to someone who
 // IS writing in a second script. The feint lines do both: draw straight across them, or write on them.
-// Reserve stem() (a single ruled line) for genuinely short factual answers — a count, a place, a name.
+// Reserve stem() (a single ruled line) for genuinely short factual answers, a count, a place, a name.
 const writeBox = (labelText, nLines = 2) => [
   new Paragraph({
     children: [new TextRun({ text: plain(labelText), size: BOOK, bold: true, color: NAVY })],
@@ -252,7 +252,7 @@ const check = (text) => new Paragraph({ children: [
 ], spacing: { after: 120, line: 300 } });
 
 // A labelled slot to fill IN PLACE (a titled box tall enough to draw or write in).
-// A slot is a write box that carries its own label INSIDE the top of the box — for pages that repeat
+// A slot is a write box that carries its own label INSIDE the top of the box, for pages that repeat
 // the same shape several times and cannot afford a label line above each one. Same feint rules.
 const gap = (h = 90) => new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: h } });
 const slot = (labelText, nLines = 2) => [gap(), slotTable(labelText, nLines)];
@@ -283,7 +283,7 @@ const slotTable = (labelText, nLines = 2) => new Table({
 
 // An open capture area, sized in twips for callers that think in heights. Every one of these carries
 // the same feint guide lines as a write box: an unlined box quietly says "draw", and we do not mean
-// that — a learner may draw OR write in any of them, and one who is writing in a second script needs
+// that. A learner may draw OR write in any of them, and one who is writing in a second script needs
 // the baseline. Drawing across a feint line costs nothing.
 const box = (h, labelText) => {
   const n = Math.max(1, Math.round(h / 460));
@@ -302,7 +302,7 @@ const zones = (labels, h = 2600) => {
 
 // A tally mat: the learner writes or draws the answers people can choose into the column headers, then
 // puts one mark per person underneath. The columns are the ANSWERS to our question, not a fixed mood
-// scale — a survey can only be counted if the marks stand for the choices the question actually offers.
+// scale. A survey can only be counted if the marks stand for the choices the question actually offers.
 const tallyMat = (n = 3, hRaw = 3000) => {
   const h = hRaw;
   const w = Math.floor(COL / n);
@@ -329,14 +329,14 @@ const grid = (cols, colW, exampleRow, nRows) => {
 };
 
 // A whole page of open, lined space after every activity. The scaffolded pages ask for particular
-// things in particular slots — which is what makes them usable alone, but it also means there is
+// things in particular slots, which is what makes them usable alone, but it also means there is
 // nowhere to put anything the page did not ask for: a drawing that explains it better, a word worth
 // remembering, something an elder said that fits no box. This is that place. Deliberately unlabelled:
 // nothing here is asked for, so nothing here can be wrong.
 const notesPage = (activityTitle, br = true) => [
   eyebrow(activityTitle, br),
   title('My notes and drawings'),
-  P('Anything you want to keep from this step. Words, marks, or a drawing — it is your page, and no one marks it.', { size: BOOK, line: 300, after: 160 }),
+  P('Anything you want to keep from this step. Words, marks, or a drawing, it is your page, and no one marks it.', { size: BOOK, line: 300, after: 160 }),
   linedArea(NOTES_LINES),
 ];
 
@@ -350,7 +350,7 @@ const eyebrow = (t, br) => new Paragraph({
 });
 // A locator strip with a page-TYPE chip on the left. The chip is reversed (light text on a solid
 // block) so the two kinds of page are told apart at a glance, at arm's length, without reading the
-// words and without depending on colour — a solid block and an empty one look different in greyscale
+// words and without depending on colour. A solid block and an empty one look different in greyscale
 // and to someone who cannot yet read either label.
 const eyebrowChip = (chip, t, br) => new Paragraph({
   pageBreakBefore: !!br,
@@ -363,7 +363,7 @@ const eyebrowChip = (chip, t, br) => new Paragraph({
   keepNext: true,
 });
 // The part heading that opens each phase in the learner book. HEADING_1, so it is what the contents
-// page lists — the contents stays one short page of parts instead of thirty page titles.
+// page lists. The contents stays one short page of parts instead of thirty page titles.
 const partHead = (n, t, br) => new Paragraph({
   heading: lvl(1), keepNext: true, pageBreakBefore: !!br,
   children: [
@@ -501,7 +501,7 @@ const contents = (intro) => [
   P(intro, { size: GUIDE, color: GREY }),
   toc(),
   // Word fills a contents field on open. Some offline machines run LibreOffice, which leaves it blank
-  // until the field is refreshed — so say how, rather than shipping a page that looks broken.
+  // until the field is refreshed, so say how, rather than shipping a page that looks broken.
   P('If this page is empty, right-click here and choose "Update field" (in LibreOffice, press F9).', { size: 17, color: GREY, before: 200 }),
   pageBreak(),
 ];
@@ -510,16 +510,16 @@ const contents = (intro) => [
 // toner, and they need to know what is safe to drop.
 const printNotes = (kind, extra = [], br = false) => [
   H2('How to print this', br),
-  bullet('A4 paper, portrait. Do not let the printer "shrink to fit" — the writing lines are sized for A4.', 0, GUIDE),
+  bullet('A4 paper, portrait. Do not let the printer "shrink to fit", the writing lines are sized for A4.', 0, GUIDE),
   bullet('Black and white is fine. Nothing here needs colour to make sense.', 0, GUIDE),
   bullet('Print double-sided if you can. It halves the paper.', 0, GUIDE),
   ...(kind === 'book'
     ? [
-      bullet('One book per learner. This is the one thing worth spending the paper on — the learner writes in it and keeps it.', 0, GUIDE),
+      bullet('One book per learner. This is the one thing worth spending the paper on, the learner writes in it and keeps it.', 0, GUIDE),
       bullet('Cream or off-white paper is easier to read from than bright white, if you have it.', 0, GUIDE),
     ]
     : [
-      bullet('One copy per facilitator. It is a reference book — you will come back to it, so it is worth binding.', 0, GUIDE),
+      bullet('One copy per facilitator. It is a reference book, you will come back to it, so it is worth binding.', 0, GUIDE),
     ]),
   ...extra.map((t) => bullet(t, 0, GUIDE)),
   hr(),

@@ -1,4 +1,4 @@
-# English for Impact — My Voice (Unit 1) resource. A1 Can-Do self-assessment + project rubric.
+# English for Impact. My Voice (Unit 1) resource. A1 Can-Do self-assessment + project rubric.
 # Source: LLL Course Guide Unit 1 assessment (pp. 26-27) + §14g "I Can Now…" / §15b Can-Do checklists
 # (marked "in development" in the guide). Authored for Unit 1.
 id: efi-mv-can-do-checklist
@@ -18,7 +18,7 @@ materialsAndPreparation:
 educatorContent: |
   Use this at the end of Unit 1, after the project sharing. The "I can now…" checklist is a learner
   self-assessment: it helps learners recognise their growth in accessible language and feeds their
-  growth tracking. The rubric is deliberately strength-based and low-stakes — it describes where a
+  growth tracking. The rubric is deliberately strength-based and low-stakes, it describes where a
   learner is (getting started / developing / confident) rather than passing or failing them, in line
   with the course's focus on communication over perfection and progress over a fixed level.
 
@@ -34,31 +34,31 @@ educatorContent: |
 
   Clear communication:
 
-  - Getting started — shares a few words and needs support to be understood.
-  - Developing — introduces themselves in simple sentences that an audience can understand.
-  - Confident — introduces themselves clearly and adds extra true detail with growing ease.
+  - Getting started, shares a few words and needs support to be understood.
+  - Developing, introduces themselves in simple sentences that an audience can understand.
+  - Confident, introduces themselves clearly and adds extra true detail with growing ease.
 
   Target language (verb "to be", simple sentences):
 
-  - Getting started — uses single words or frames with a lot of support.
-  - Developing — uses "to be" and simple sentence frames to make mostly correct true sentences.
-  - Confident — makes correct simple sentences, sometimes without the frame.
+  - Getting started, uses single words or frames with a lot of support.
+  - Developing, uses "to be" and simple sentence frames to make mostly correct true sentences.
+  - Confident, makes correct simple sentences, sometimes without the frame.
 
   The artifact:
 
-  - Getting started — a few labelled words or pictures represent them.
-  - Developing — words, pictures, and simple sentences together represent who they are.
-  - Confident — a clear, personal artifact with several true sentences and meaningful images.
+  - Getting started, a few labelled words or pictures represent them.
+  - Developing, words, pictures, and simple sentences together represent who they are.
+  - Confident, a clear, personal artifact with several true sentences and meaningful images.
 
   Effort, participation, and growth:
 
-  - Getting started — takes part with encouragement.
-  - Developing — takes part, tries new language, and shows growth across the unit.
-  - Confident — takes risks with English, supports peers, and shows clear growth.
+  - Getting started, takes part with encouragement.
+  - Developing, takes part, tries new language, and shows growth across the unit.
+  - Confident, takes risks with English, supports peers, and shows clear growth.
 learnerContent: |
   ## I can now…
 
-  Tick what you can do. It is fine if some are not ticked yet — you will keep growing.
+  Tick what you can do. It is fine if some are not ticked yet. You will keep growing.
 
   - I can say the sounds of the letters and read simple words.
   - I can hear the difference between sounds like /p/ and /b/.
@@ -103,7 +103,7 @@ competencyDevelopment:
     themselves as learners and people.
 - code: FLC3
   how: >-
-    The checklist and rubric are anchored to communicating personal information clearly — the unit's
+    The checklist and rubric are anchored to communicating personal information clearly, the unit's
     core communicative aim.
 objectiveIds: [efi-my-voice--o3]
 relatedSlugs: [efi-mv-project-my-name-my-voice, efi-mv-introduce-yourself, efi-mv-writing-about-myself]
@@ -116,4 +116,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

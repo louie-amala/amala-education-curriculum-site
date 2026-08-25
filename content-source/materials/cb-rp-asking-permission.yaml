@@ -1,5 +1,5 @@
 # Student worksheet (resource) for the activity cb-rp-two-ways-and-ethics. Thin per §3: what the sheet
-# is and how the learner uses it. Ships no file of its own — its printable version compiles into the
+# is and how the learner uses it. Ships no file of its own, its printable version compiles into the
 # Research Project student workbook. A practice-and-reminder page the learner carries to every gathering
 # session: the consent words in our own language, and the rules. Learning Bridge+ (Cox's Bazar) edition.
 id: cb-rp-asking-permission
@@ -7,10 +7,10 @@ slug: cb-rp-asking-permission
 access: partner
 edition: learning-bridge-coxs-bazar
 type: resource
-title: "Asking permission — our reminder"
+title: "Asking permission, our reminder"
 summary: >-
   The learner's reminder page for asking fairly and safely: the consent words to say, in our own
-  language, and the rules to keep every time — ask first, use no names, people can stop. A page to
+  language, and the rules to keep every time. Ask first, use no names, people can stop. A page to
   practise from now and carry to every gathering session.
 facilitationContext:
 - group
@@ -29,9 +29,9 @@ learnerContent: |
   And the rules to keep every time:
 
   - Ask first, and say why.
-  - Use no names — never say or write who told you.
+  - Use no names, never say or write who told you.
   - Let the person stop whenever they want.
-  - Keep everyone safe — never put another person, or yourself, at risk.
+  - Keep everyone safe, never put another person, or yourself, at risk.
 
   There is space to write or draw the words in your own language, so they are ready in your mouth. Keep
   this page in your research book and look at it before every time you go to ask.
@@ -41,7 +41,7 @@ agencyContribution:
   - contribution-to-community
   how: >-
     Carrying the consent words and the rules keeps a learner steady and safe when they meet real people,
-    and keeps the people they ask respected — the habit of gathering knowledge without doing harm.
+    and keeps the people they ask respected. The habit of gathering knowledge without doing harm.
 objectiveIds: [research-project--o2]
 relatedSlugs: [cb-rp-two-ways-and-ethics, cb-rp-go-and-gather]
 provenanceNote: >-
@@ -51,4 +51,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

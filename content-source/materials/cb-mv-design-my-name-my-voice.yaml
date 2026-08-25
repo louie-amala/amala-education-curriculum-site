@@ -1,6 +1,6 @@
 # Contextualised, fully offline adaptation of efi-mv-project-my-name-my-voice for Learning Bridge+
 # (Cox's Bazar). The key shift from the source: the source is a written artifact plus a class showcase in
-# one activity; here it is VISUAL-first — each learner designs and decorates a "My Name, My Voice" name
+# one activity; here it is VISUAL-first, each learner designs and decorates a "My Name, My Voice" name
 # card / identity poster and rehearses a short SPOKEN introduction of it. The making and rehearsal live
 # here; the celebratory sharing is run as a connective block in the unit plan, so this material prepares
 # learners for it rather than duplicating it. Strongly protective. Oral and visual first. Objective 3.
@@ -12,8 +12,8 @@ type: activity
 title: "Design my name card, My Name My Voice"
 summary: >-
   The unit's authentic project, made visual first. Each learner designs and decorates a "My Name, My
-  Voice" name card or identity poster — their name written and decorated, a few chosen picture-words, and
-  maybe one simple sentence — then rehearses a short spoken introduction of it. Learners choose entirely
+  Voice" name card or identity poster, their name written and decorated, a few chosen picture-words, and
+  maybe one simple sentence, then rehearses a short spoken introduction of it. Learners choose entirely
   what to include, so the card can be as personal or as light as they wish.
 facilitationContext:
 - group
@@ -32,7 +32,7 @@ deliveryAdaptations:
     A supportive setting for a learner who is anxious about being seen, or who is behind on the writing.
     A mentor can help design the card at the learner's pace, take on the writing the learner cannot yet
     do while keeping the choices theirs, and rehearse the spoken introduction privately until it feels
-    safe — so that, if the learner chooses, joining the group sharing later is a step they are ready for.
+    safe, so that, if the learner chooses, joining the group sharing later is a step they are ready for.
 - context: independent
   how: >-
     A learner can design and decorate their card between sessions, drawing and writing at home, but the
@@ -42,15 +42,15 @@ deliveryAdaptations:
 duration: "3 hours facilitated across several sessions (planning, designing, rehearsing)"
 grouping: "Individual card, planned and rehearsed in same-gender pairs and small groups; works with 10-35 learners"
 whatLearnersDo:
-- Plan a "My Name, My Voice" card or poster — which words, pictures, and colours represent them.
+- Plan a "My Name, My Voice" card or poster, which words, pictures, and colours represent them.
 - Write and decorate their own name as the centre of the card.
 - Add a few chosen picture-words and, if they wish, one simple sentence.
 - Rehearse a short spoken introduction of their card with a same-gender partner, ready for the sharing.
 materialsAndPreparation:
-- Materials for making — paper or card, colours, pencils, and anything to decorate with; scraps and natural materials work where supplies are short.
+- Materials for making, paper or card, colours, pencils, and anything to decorate with; scraps and natural materials work where supplies are short.
 - The learner's own words, name page, and picture-words from earlier in the unit, so the card is built from work they already own.
-- Your own simple example card, made beforehand, to show what one can look like — kept modest, so no one feels theirs must be elaborate.
-- "Sensitivity: identity, home, family, and marriage can carry real pain here. Make it plain from the start that learners choose completely what to put on the card and what to say — a lighter, everyday focus (a colour, a food, a thing they like) is always welcome and always enough, and nothing personal is ever required or asked for."
+- Your own simple example card, made beforehand, to show what one can look like. Kept modest, so no one feels theirs must be elaborate.
+- "Sensitivity: identity, home, family, and marriage can carry real pain here. Make it plain from the start that learners choose completely what to put on the card and what to say, a lighter, everyday focus (a colour, a food, a thing they like) is always welcome and always enough, and nothing personal is ever required or asked for."
 visuals:
 - kind: setup
   title: "Make, then rehearse in pairs"
@@ -84,25 +84,25 @@ visuals:
       - "I like rice"
 facilitationNotes: |
   This is where the whole unit comes together and where learners feel its point: they use their new
-  English to show who they are, to real people. Made visual first, the card carries the meaning — a name
-  written large and decorated, a few chosen picture-words, perhaps one simple sentence — so a learner who
+  English to show who they are, to real people. Made visual first, the card carries the meaning, a name
+  written large and decorated, a few chosen picture-words, perhaps one simple sentence, so a learner who
   writes very little still makes something whole and proud. Keep ownership entirely with the learner: they
   choose what represents them and how much to reveal, and a card about a favourite colour and a food they
   love is a complete success, not a lesser one. Because identity here can touch displacement, loss,
-  separation, and marriage, hold the protective frame openly and often — say aloud that nothing personal
-  is required, that private things stay private, and that a lighter focus is always fine — and never let a
+  separation, and marriage, hold the protective frame openly and often, say aloud that nothing personal
+  is required, that private things stay private, and that a lighter focus is always fine, and never let a
   learner feel that sharing more is worth more. Model with your own modest card so the task is concrete
   and the bar is low. The making and the spoken rehearsal live here; the celebratory sharing is run as its
   own connective block in the unit plan, so your job is to get each learner's card made and their short
   introduction rehearsed and safe, ready for that moment when it comes.
 steps:
-- title: "Plan your card — you choose what goes on it"
+- title: "Plan your card, you choose what goes on it"
   duration: "40-50 min"
   guidance: |
     Show your own simple example card and explain the task: make something that shows who you are, with
     your name, a few pictures or words, and maybe one sentence. Before anything else, say clearly that
-    they choose everything that goes on it, and that a light, everyday card — a colour, a food, a thing
-    they like — is completely welcome. Learners plan on scrap paper or aloud with a partner, drawing on
+    they choose everything that goes on it, and that a light, everyday card, a colour, a food, a thing
+    they like, is completely welcome. Learners plan on scrap paper or aloud with a partner, drawing on
     their name page and picture-words from earlier in the unit. Reassure them that whatever they keep
     private stays private.
   keyPrompts:
@@ -110,7 +110,7 @@ steps:
   - Which of your words, pictures, and colours do you want on your card?
   - What do you want to keep just for yourself?
   watchOuts:
-  - "A learner feeling they must put something painful — home, family, marriage — on the card; say openly that a simple, everyday focus is completely fine, and that a lighter card is worth just as much."
+  - "A learner feeling they must put something painful, home, family, marriage, on the card; say openly that a simple, everyday focus is completely fine, and that a lighter card is worth just as much."
   - Comparing their plan to a neighbour's and feeling it must be grander; keep your own example modest and praise clear, honest choices over elaborate ones.
   adaptation: |
     With few materials, the card can be a single sheet with a decorated name and a couple of drawn,
@@ -118,12 +118,12 @@ steps:
 - title: "Write and decorate your name"
   duration: "45-55 min"
   guidance: |
-    The name is the heart of the card. Learners write their own name as large and bold as they like — or
-    trace and go over it if writing is still new — and decorate it with colours, patterns, and their
+    The name is the heart of the card. Learners write their own name as large and bold as they like, or
+    trace and go over it if writing is still new, and decorate it with colours, patterns, and their
     borders of choice. This is a visual, joyful step where even a learner with almost no writing makes
     something whole and theirs. Circulate and admire the decoration, not the neatness of the letters.
   keyPrompts:
-  - Make your name the biggest, boldest thing on the card — how do you want to decorate it?
+  - Make your name the biggest, boldest thing on the card. How do you want to decorate it?
   - Which colours and patterns feel like you?
   watchOuts:
   - Anxiety about neat letters spoiling the joy; the win here is a name proudly decorated and owned, so praise the effort and the design, and let tracing count fully.
@@ -134,13 +134,13 @@ steps:
 - title: "Add your words, and one sentence if you wish"
   duration: "35-45 min"
   guidance: |
-    Learners add a few of their chosen picture-words around the name, and — only if they are ready — one
+    Learners add a few of their chosen picture-words around the name, and, only if they are ready, one
     simple true sentence using a frame they know (I am from ___, I like ___). Keep the language at unit
     level: a decorated name and two or three meaningful words is a full card, and a single sentence is a
     stretch, never a requirement. Help with a word or a capital, but keep every choice the learner's own.
   keyPrompts:
   - Which two or three picture-words best show this part of you?
-  - Would you like to add one sentence — "I like ___" — or are your words enough?
+  - Would you like to add one sentence, "I like ___", or are your words enough?
   watchOuts:
   - Over-ambition in English that leaves a learner stuck and disheartened; steer them to what they can say and write well now, and celebrate it as complete.
   - A learner feeling a card with only words is not "enough"; make plain that a name and a few true words is a whole and worthy card, with no sentence needed.
@@ -151,14 +151,14 @@ steps:
   duration: "30-40 min"
   guidance: |
     Prepare the short spoken introduction that will go with the card at the sharing. Each learner
-    practises saying a few sentences — their name, one or two things they chose to show — in same-gender
+    practises saying a few sentences, their name, one or two things they chose to show, in same-gender
     pairs, glancing at their card and speaking, not reading stiffly. Rehearsing now, privately with a
     partner, is what makes the later sharing feel safe rather than frightening. Remind them that being
     understood, not being perfect, is the whole goal, and that they say only what they chose to put on
     the card.
   keyPrompts:
   - What two or three sentences will you say about your card?
-  - Practise with your partner — did they understand you? What felt easier the second time?
+  - Practise with your partner, did they understand you? What felt easier the second time?
   watchOuts:
   - Pressure building about the sharing to come; frame the rehearsal as friendly practice with one partner, and remind learners the sharing itself will be warm, applause-only, and never a test.
   - A learner rehearsing more than they are comfortable saying aloud; check the introduction matches what they actually chose to show, and let them keep it as short as they wish.
@@ -168,8 +168,8 @@ steps:
     is still real, and the choice stays theirs.
 closing: |
   Bring the making to a close by having a few willing learners hold up their card and say one thing they
-  chose to put on it. Do not run the full sharing here — that celebratory "My Name, My Voice" showcase is
-  its own connective block in the unit plan — but name what is ready: each learner now has a card that is
+  chose to put on it. Do not run the full sharing here, that celebratory "My Name, My Voice" showcase is
+  its own connective block in the unit plan, but name what is ready: each learner now has a card that is
   truly theirs and a short introduction rehearsed and safe. Remind them, warmly, that at the sharing they
   choose what to say and how much, and that a lighter card is always welcome. Independent task: keep your
   card safe, and practise saying your introduction once to a trusted person at home before the sharing, or
@@ -183,7 +183,7 @@ agencyContribution:
     Choosing what represents you and shaping it into a card, in your own words and images, is a real act
     of self-representation and voice: the learner decides how they are seen. Rehearsing the introduction
     gives them the means to be heard by others on their own terms, and preparing to share their card with
-    the group is a way of contributing their story to the community they are part of — while keeping full
+    the group is a way of contributing their story to the community they are part of, while keeping full
     control over what stays private.
 principlesForegrounded:
 - builds-on-identities
@@ -198,18 +198,18 @@ principleAlignment:
     from who the learner is.
 - principle: authentic-challenges
   how: >-
-    The card is made for a real audience and a real purpose — to introduce oneself and be known at the
-    sharing — not as an exercise for the facilitator alone, which is what gives the making and the
+    The card is made for a real audience and a real purpose, to introduce oneself and be known at the
+    sharing, not as an exercise for the facilitator alone, which is what gives the making and the
     rehearsal their meaning.
 - principle: safe-spaces
   how: >-
     Learners choose completely what to include and say, difficult history is never required and a lighter
     everyday focus is always welcome, the introduction is rehearsed privately in same-gender pairs before
-    any sharing, and a nervous learner can present to a small group — so representing oneself feels safe.
+    any sharing, and a nervous learner can present to a small group, so representing oneself feels safe.
 - principle: recognise-communicate-growth
   how: >-
-    The card gathers the whole unit's learning into one visible, kept piece — the name they can now write,
-    the words they now have, the sentences they can now say — letting learners see and name how far they
+    The card gathers the whole unit's learning into one visible, kept piece, the name they can now write,
+    the words they now have, the sentences they can now say, letting learners see and name how far they
     have come as they prepare to show it.
 competencyCodes:
 - FUS1
@@ -217,7 +217,7 @@ competencyCodes:
 competencyDevelopment:
 - code: FUS1
   how: >-
-    Deciding what represents them and shaping it into a card is sustained work of self-awareness — the
+    Deciding what represents them and shaping it into a card is sustained work of self-awareness, the
     project is the unit's main evidence of learners developing and choosing how to express their identity.
 - code: FLC3
   how: >-
@@ -234,7 +234,7 @@ educatorContent: |
   ## What you need to know before you teach this
 
   The authentic project the whole unit points at. A learner chooses what represents them and makes
-  something they will keep — and for many it is the first thing they have ever made in English.
+  something they will keep, and for many it is the first thing they have ever made in English.
 
   ### It is a making block, and the making is the point
 
@@ -252,7 +252,7 @@ educatorContent: |
 
   ### The learner chooses everything on it
 
-  What goes on the card is theirs — which is the agency of the block, and the reason it is the closing
+  What goes on the card is theirs, which is the agency of the block, and the reason it is the closing
   artefact. Do not correct their choices, do not suggest they add family if they have not, and do not
   redesign anyone's layout.
 
@@ -266,14 +266,14 @@ educatorContent: |
   Every learner leaves having said their introduction aloud at least twice, in a same-gender pair. A
   learner who makes a card and has never said the words will freeze at the showcase.
 
-  Point them at the "my spoken introduction" page — the ticked checklist of what to say — and let them
+  Point them at the "my spoken introduction" page, the ticked checklist of what to say, and let them
   practise from it.
 
   ### The showcase, and consent
 
   These are shown at the programme showcase, in front of guests the learners invited. Confirm before
   invitations go out that each learner is comfortable with theirs being seen, and offer the
-  alternatives — a partner, a mentor, only the person they invited. Do not photograph cards or learners
+  alternatives. A partner, a mentor, only the person they invited. Do not photograph cards or learners
   without NRC's consent process.
 
   ## Before they leave this block
@@ -286,7 +286,7 @@ learnerTeaching:
   readAloud: |
     ## Your My Name, My Voice card
 
-    This is the thing you make at the end. It says who you are, in English, in your own way — and you
+    This is the thing you make at the end. It says who you are, in English, in your own way, and you
     keep it.
 
     ### You choose everything on it
@@ -296,7 +296,7 @@ learnerTeaching:
     Most cards have:
 
     - **Your name**, written big.
-    - **A picture or two** — things that are you.
+    - **A picture or two**, things that are you.
     - **A few words** from your own collection.
     - **One sentence**, if you want one.
 
@@ -317,13 +317,13 @@ learnerTeaching:
     Do not put what you think looks good. Put what is true.
 
     A card with one honest picture on it is worth more than a crowded card of things you do not care
-    about — and when you speak about it, the true one will be much easier to talk about.
+    about, and when you speak about it, the true one will be much easier to talk about.
 
     ### Then practise saying it
 
     Making the card is only half of it. You will show it to people, so practise the words:
 
-    **Hello. My name is ______ . I am from ______ . I like ______ . Thank you.**
+    **Hello. My name is ______. I am from ______. I like ______. Thank you.**
 
     Use your "my spoken introduction" page. Say it to a partner. Then say it again. Then say it at home.
 
@@ -331,7 +331,7 @@ learnerTeaching:
 
     ### At the showcase
 
-    You will show your card to the people we invited — including the person YOU invited.
+    You will show your card to the people we invited, including the person YOU invited.
 
     If showing it to the whole room is too much, you can show it to a small group, or to your partner,
     or only to the person you invited. **All of those count fully**, and nobody will ask why.
@@ -349,12 +349,12 @@ sourceRefs:
 provenanceNote: >-
   Contextualised, fully offline adaptation of efi-mv-project-my-name-my-voice for the Learning Bridge+
   (Cox's Bazar) edition. The source combines a written identity artifact with a class showcase in one
-  activity and assumes Home-Language literacy; this version is rebuilt visual first for emergent literacy
-  — each learner designs and decorates a "My Name, My Voice" name card and rehearses a short spoken
+  activity and assumes Home-Language literacy; this version is rebuilt visual first for emergent literacy,
+  each learner designs and decorates a "My Name, My Voice" name card and rehearses a short spoken
   introduction, with strong protective framing throughout. The making and rehearsal live here; the
   celebratory sharing is run as a connective block in the unit plan, so this material prepares learners
   for it rather than duplicating it. Objective 3 of the My Voice unit.
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

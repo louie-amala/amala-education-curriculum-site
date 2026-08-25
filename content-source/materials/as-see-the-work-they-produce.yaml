@@ -4,20 +4,20 @@ access: public
 type: educator-move
 title: "Evaluate the work they produce"
 summary: >-
-  The things learners make are evidence too. Evaluate real products against clear criteria — and
+  The things learners make are evidence too. Evaluate real products against clear criteria, and
   triangulate, so a polished artefact doesn't stand in for the person.
 tags:
   - id: seeking-evidence
 educatorContent: |
-  Products — a report, an artefact, a plan, a piece of writing — are a natural source of evidence.
+  Products, a report, an artefact, a plan, a piece of writing, are a natural source of evidence.
   Set a task, be clear what it is meant to evidence, and evaluate what learners submit against the
   criteria. What you can assess depends on what you asked for: a report with an appended methodology
   and interview transcripts, for instance, can evidence a learner's ability to conduct primary
-  research. You can raise the quality of both the product and the learning by scaffolding the process
-  — templates, guidance, or building towards the product across several assignments.
+  research. You can raise the quality of both the product and the learning by scaffolding the process,
+  templates, guidance, or building towards the product across several assignments.
 
   One caution keeps this honest: a product can be produced with help, or with AI, that the learner
-  could not reproduce alone. That is exactly why product evaluation should not stand on its own —
+  could not reproduce alone. That is exactly why product evaluation should not stand on its own, 
   triangulate it with questioning and performance, so you are judging the person's proficiency, not
   the artefact's polish.
 agencyContribution:
@@ -30,7 +30,7 @@ agencyContribution:
 principleAlignment:
   - principle: feedback-and-data
     how: >-
-      Evaluating products against shared criteria produces concrete, actionable evidence — as long as
+      Evaluating products against shared criteria produces concrete, actionable evidence. As long as
       it is triangulated rather than trusted alone.
   - principle: lifeworthy-competencies
     how: >-
@@ -40,11 +40,11 @@ relatedSlugs:
   - as-observe-authentic-performance
   - as-portfolios-and-rubrics
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook (Assessment)"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook (Assessment)"
 provenanceNote: >-
   Generalised from the Playbook's "Product Evaluation" method (scaffold with templates/rubrics, build
   towards products, the AI/"cheat" caution that motivates triangulation).
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

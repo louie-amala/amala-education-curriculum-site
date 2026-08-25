@@ -70,7 +70,7 @@ steps:
     Give learners quiet, individual time to learn their topic from the assigned source and make notes
     on what it teaches about the science behind mental health and wellbeing. Ask each to prepare one
     clear key insight to teach the group, using a sentence starter such as "A key insight about
-    wellbeing is ..., and I think this because ...". The aim is one well-grounded point, not a full
+    wellbeing is... and I think this because...". The aim is one well-grounded point, not a full
     summary of the source.
   keyPrompts:
   - What is the one thing from your source that most changed how you think about mental health?
@@ -170,4 +170,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

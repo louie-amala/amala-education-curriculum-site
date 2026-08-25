@@ -1,12 +1,12 @@
 # Student worksheet (resource) for the activity cb-rp-findings-to-insights. Thin per §3: what the sheet
-# is and how the learner uses it. Ships no file of its own — its printable version compiles into the
+# is and how the learner uses it. Ships no file of its own, its printable version compiles into the
 # Research Project student workbook. Learning Bridge+ (Cox's Bazar) edition.
 id: cb-rp-our-insights
 slug: cb-rp-our-insights
 access: partner
 edition: learning-bridge-coxs-bazar
 type: resource
-title: "Our insights — what we found and why it matters"
+title: "Our insights, what we found and why it matters"
 summary: >-
   A page to draft the group's insight statements: for each one, what it means, why it matters, the
   evidence behind it, and whether it is an evidence-backed claim or an opinion.
@@ -15,14 +15,14 @@ facilitationContext:
 - independent
 primaryContext: independent
 learnerContent: |
-  ## Our insights — what we found and why it matters
+  ## Our insights, what we found and why it matters
 
-  Use this page to write our insights — the few clear things we now understand from all our evidence.
+  Use this page to write our insights, the few clear things we now understand from all our evidence.
   Write or draw one insight at a time.
 
   For each insight, the sheet has room for:
 
-  - What we found (the finding — what the evidence says).
+  - What we found (the finding, what the evidence says).
   - What it means and why it matters for our hills and the people who live on them.
   - What could be done about it.
   - The evidence behind it (which sources, or what people said, or what we saw).
@@ -36,7 +36,7 @@ agencyContribution:
   - power-over-wellbeing-and-self-direction
   how: >-
     Writing down what we found, why it matters, and the evidence behind it gives learners something solid
-    they can stand behind and share — the point where an investigation becomes a voice on a real
+    they can stand behind and share. The point where an investigation becomes a voice on a real
     community challenge.
 objectiveIds: [research-project--o3]
 relatedSlugs: [cb-rp-findings-to-insights, cb-rp-our-themes]
@@ -47,4 +47,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

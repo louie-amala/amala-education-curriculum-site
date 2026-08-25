@@ -1,5 +1,5 @@
 # Student worksheet (resource) for the activity cb-rp-practise-interviewing. Thin per §3. Ships no file
-# of its own — its printable version compiles into the Research Project student workbook as the "How to
+# of its own, its printable version compiles into the Research Project student workbook as the "How to
 # do the whole interview" teaching page and the "Are we ready to go?" readiness page a pair fills in
 # together before they gather. Learning Bridge+ (Cox's Bazar) edition.
 id: cb-rp-ready-to-gather
@@ -25,7 +25,7 @@ learnerContent: |
 
   - Tick what you are carrying: our questions, our follow-ups, our survey page and our marks, our asking
     words, our gathering page, something to write or draw with.
-  - Write or draw your **one most important question** — the one you will ask if the person only has a
+  - Write or draw your **one most important question**, the one you will ask if the person only has a
     moment.
   - Say who you will ask, where, and when.
   - Say **who you will ask instead**, if that person is not there.
@@ -36,7 +36,7 @@ agencyContribution:
   indicators:
   - control-of-future-pathways
   how: >-
-    Planning the encounter themselves — including what they will do when it does not go to plan — is
+    Planning the encounter themselves, including what they will do when it does not go to plan, is
     what lets a pair go out and act without a facilitator beside them.
 objectiveIds: [research-project--o2]
 relatedSlugs: [cb-rp-practise-interviewing, cb-rp-go-and-gather, cb-rp-asking-permission, cb-rp-our-questions-sheet]
@@ -47,4 +47,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

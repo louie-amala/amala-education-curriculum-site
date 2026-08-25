@@ -4,7 +4,7 @@ access: public
 type: educator-move
 title: "Help mentees open and walk through doors"
 summary: >-
-  Beyond talking about pathways, help mentees act — find real opportunities, apply well, and shape
+  Beyond talking about pathways, help mentees act. Find real opportunities, apply well, and shape
   their projects towards where they want to go.
 tags:
   - id: pathways
@@ -13,13 +13,13 @@ facilitationContext:
 primaryContext: one-to-one-mentoring
 educatorContent: |
   Talking about a pathway is not the same as reaching it. This move is the practical follow-through:
-  helping a mentee turn intention into action. Help them find real opportunities — courses, jobs,
-  funding, competitions, connections — including ones they would never find alone, and be honest that
+  helping a mentee turn intention into action. Help them find real opportunities, courses, jobs,
+  funding, competitions, connections, including ones they would never find alone, and be honest that
   part of your value is the doors your networks can open. Support the application itself: a strong
   personal statement, a practice interview, a proofread form, a deadline held.
 
   Use what you design together. When a pathway becomes real for a mentee, help them tailor their work
-  towards it — a learner set on nursing might choose a project on access to healthcare, so their
+  towards it. A learner set on nursing might choose a project on access to healthcare, so their
   portfolio starts building the case for where they are going. Where appropriate and requested, write
   the reference or recommendation, grounded in the anecdotes you have been collecting. Throughout,
   keep the mentee doing the walking: you hold the door, you do not carry them through it.
@@ -52,7 +52,7 @@ relatedSlugs:
   - mentor-anecdote-log
   - mentor-pathways-conversations
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Student Mentor Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Student Mentor Playbook"
 provenanceNote: >-
   Generalised from the Playbook's pathways section: supporting students to identify and apply for
   opportunities, producing references, and tailoring the programme (e.g. project choice) towards a
@@ -60,4 +60,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

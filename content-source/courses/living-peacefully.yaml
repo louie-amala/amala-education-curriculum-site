@@ -1,12 +1,12 @@
-# Intermediate extraction — mirrors spec §4.1 Course/Objective interfaces.
+# Intermediate extraction, mirrors spec §4.1 Course/Objective interfaces.
 # Source: "Living Peacefully Course Guide - 2025 Onwards.docx"
 # Verbatim from source; issues recorded, not corrected.
 id: living-peacefully
 slug: living-peacefully
 access: public
 title: Living Peacefully
-strapline: null            # not present in guide — to author
-programmes: [gsd]          # to confirm against programme-level docs
+strapline: null # not present in guide, to author
+programmes: [gsd] # to confirm against programme-level docs
 testimonial:
   quote: >-
     It provided valuable insights into how to manage stress, practice
@@ -22,9 +22,9 @@ purpose: >-
   can promote wellbeing and understanding across differences.
 requirements:
   structuredHours: 100
-  durationWeeks: 10          # "minimum of 10 weeks"
+  durationWeeks: 10 # "minimum of 10 weeks"
   cadence: 10+ weeks
-  liveIndependentSplit: null   # not stated in this guide
+  liveIndependentSplit: null # not stated in this guide
   notes: >-
     Structured learning should include both live sessions (individual and/or
     group) and independent learning (individual and/or group tasks).
@@ -92,7 +92,7 @@ objectives:
       activities:
         - Facilitate or co-facilitate activities that promote understanding and cooperation across difference.
         - Analyse examples of initiatives that have successfully strengthened relationships between divided groups.
-        - Design and implement a small collective action (e.g., art project, service activity, shared dialogue) that strengthens relationships and shared purpose.
+        - Design and implement a small collective action (e.g. art project, service activity, shared dialogue) that strengthens relationships and shared purpose.
         - Produce a reflection or presentation analysing the effects of their action on understanding and cooperation.
     competencyEvidence:
       - { code: FLC2, citedTitle: Fostering connection and belonging, condition: "If learners help create inclusive environments." }
@@ -147,7 +147,7 @@ principleMappings:
   - principle: connect-to-futures
     inThisCourse:
       - >-
-          Learners connect what they learn about their own responses and relationships to the settings they are heading into — study, work, family, community — where those responses will be tested.
+          Learners connect what they learn about their own responses and relationships to the settings they are heading into, study, work, family, community, where those responses will be tested.
       - >-
           Facilitators name the pathways this underwrites: any further education or employment depends on being able to work with people you did not choose.
       - >-
@@ -163,13 +163,13 @@ sourceIssues:
   - type: cross-course-copy-paste
     detail: >-
       Design checklist reads "Meets the time and contextualisation requirements for the
-      Social Entrepreneurship course" — should reference Living Peacefully. Same error
+      Social Entrepreneurship course", should reference Living Peacefully. Same error
       appears in multiple guides.
   - type: miscited-competency
     detail: >-
       Objective 1 cited "FTS3 - Science Communication". FTS3 is "Gather and organise data"; "Science
-      communication" is ATS2. CORRECTED to ATS2 (2026-08-24). The objective's own condition — "use
-      their understanding of basic neuroscience to positively influence the behaviour of others" —
+      communication" is ATS2. CORRECTED to ATS2 (2026-08-24). The objective's own condition, "use
+      their understanding of basic neuroscience to positively influence the behaviour of others",
       restates ATS2's goal almost word for word and has nothing to do with gathering or categorising
       data, so the CODE was the transcription error, not the title. Note that ATS2 is an Advanced
       competency cited in a Foundational objective set: that is stretch evidence, and worth confirming

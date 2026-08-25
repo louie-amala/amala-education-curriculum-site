@@ -9,10 +9,10 @@ parentModuleSlug: set-and-pursue-goals
 skill:
   label: Understand yourself as a learner as the basis for setting goals
   description: >-
-    Know where you are now — that ability grows with effort and strategy, what your strengths and areas
-    to grow are, and how you learn best — so a goal can be built from a real starting point.
+    Know where you are now, that ability grows with effort and strategy, what your strengths and areas
+    to grow are, and how you learn best, so a goal can be built from a real starting point.
 summary: >-
-  Where the cycle starts: learners build a learner profile — proof their ability can grow, a picture of
+  Where the cycle starts: learners build a learner profile, proof their ability can grow, a picture of
   their strengths and the areas they want to grow in, and an honest sense of how they learn best. It is
   the starting point their goal is built from.
 agencyNote: >-
@@ -21,13 +21,13 @@ agencyNote: >-
 # How this skill develops and demonstrates the module's main competency, FSL2.
 anchorContribution:
   develops: >-
-    Learners build the foundation FSL2 rests on — knowing where they are now — by seeing that ability
+    Learners build the foundation FSL2 rests on, knowing where they are now, by seeing that ability
     grows with effort and strategy, identifying their strengths and areas for development, and
     reflecting on what helps and hinders their own learning.
   demonstrates: >-
     Assess this from the learner profile a learner produces: a real example of getting better at
     something hard, a named set of strengths and areas to grow, and an honest account of how they learn
-    best. Look for self-knowledge that is specific and owned, not generic — the starting evidence that
+    best. Look for self-knowledge that is specific and owned, not generic. The starting evidence that
     makes a meaningful, realistic goal possible.
 # Other competencies this skill also develops and demonstrates (from Agency in Learning objective 1).
 competencyDevelopment:
@@ -41,7 +41,7 @@ materialSlugs:
   - ail-how-you-learn-best
 
 # Mini scheme of work: how to run the materials above as one sequence. The connective steps carry no
-# material — they set up the journal that runs through the whole cycle, and pull the three activities
+# material, they set up the journal that runs through the whole cycle, and pull the three activities
 # into a single learner profile.
 plan:
   summary: >-
@@ -53,7 +53,7 @@ plan:
       kind: orientation
       facilitatedHours: 0.25
       guidance: >-
-        Before the first activity, have each learner start a simple learning journal — a notebook or a
+        Before the first activity, have each learner start a simple learning journal. A notebook or a
         digital note. It is where the profile, the goal, the plan, and the progress will all live, so it
         becomes the running record a learner watches their own growth in. Keep the setup light; the habit
         is built properly in the tracking skill. It just needs to exist from day one.
@@ -65,7 +65,7 @@ plan:
       guidance: >-
         Open here, because a learner who believes ability is fixed has no reason to set a goal to grow.
         Root the belief in each learner's own real example of getting better at something hard, and the
-        concrete strategies that made it happen — not in positive thinking. This footing is what makes
+        concrete strategies that made it happen, not in positive thinking. This footing is what makes
         everything that follows worth attempting.
       independentTask: Tell one person about a time you got better at something hard, and what helped.
     - title: Name your strengths and areas to grow
@@ -74,7 +74,7 @@ plan:
       facilitatedHours: 1
       guidance: >-
         Now that growth feels possible, have learners take an honest look at what they are already good
-        at and what they want to grow in. The peer-strengths step matters — others often name strengths a
+        at and what they want to grow in. The peer-strengths step matters, others often name strengths a
         learner cannot see in themselves. These areas to grow are where the goal will come from.
       independentTask: Ask one or two people who know you well what you are good at as a learner.
     - title: Notice how you learn best
@@ -82,13 +82,13 @@ plan:
       materialSlug: ail-how-you-learn-best
       facilitatedHours: 1
       guidance: >-
-        Complete the profile with how each learner actually learns — when, where, and in what way they
+        Complete the profile with how each learner actually learns, when, where, and in what way they
         focus best, and what gets in the way. This is the self-knowledge that later makes a plan
         realistic rather than hopeful, so keep it concrete and evidence-based, not aspirational.
     - title: Pull it into a learner profile
       kind: consolidation
       facilitatedHours: 0.5
       guidance: >-
-        Have each learner gather the three pieces — growth example, strengths and areas to grow, and how
-        they learn best — into one learner profile in their journal. This profile is the assessable
+        Have each learner gather the three pieces, growth example, strengths and areas to grow, and how
+        they learn best, into one learner profile in their journal. This profile is the assessable
         evidence for this skill and the starting point the next skill builds a goal from.

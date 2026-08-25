@@ -12,7 +12,7 @@ export default function SearchPage() {
     <main className="mx-auto max-w-3xl px-6 py-12">
       <h1 className="font-heading text-3xl font-bold text-navy">Search</h1>
       <p className="mt-2 text-cool-grey">
-        Find anything in the curriculum — materials, courses, competencies, objectives, glossary
+        Find anything in the curriculum, materials, courses, competencies, objectives, glossary
         terms, programmes, and foundations.
       </p>
 

@@ -1,7 +1,7 @@
 # Contextualised, fully offline ACTIVITY for the Research Project component of Learning Bridge+ (Cox's
-# Bazar). Learners are TAUGHT how a research question works — open, closed, leading, two-in-one; asking
+# Bazar). Learners are TAUGHT how a research question works, open, closed, leading, two-in-one; asking
 # about experience rather than opinion; the three follow-ups and the five-second wait; interview versus
-# survey; who to ask — and then design the oral instruments they will use to gather primary evidence.
+# survey; who to ask, and then design the oral instruments they will use to gather primary evidence.
 # Plan and conduct research phase (objective 2). Oral and visual first; questions tie back to the four
 # sub-questions of our given research question.
 #
@@ -16,7 +16,7 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "Design our interview and survey questions"
 summary: >-
-  Learners learn how to ask a question that makes a person tell them what they know — and then design
+  Learners learn how to ask a question that makes a person tell them what they know, and then design
   the questions they will ask their community: a short set of oral interview questions and a very short
   survey, all tied to our four sub-questions about the hills. They learn open, closed and leading
   questions, how to follow up an answer, who to ask, and how to record answers with marks rather than
@@ -27,20 +27,20 @@ primaryContext: group
 duration: "3 hours facilitated + 1 hour independent"
 grouping: "Whole group for the teaching and the fishbowl, then pairs and small groups to draft, try and fix"
 whatLearnersDo:
-- Learn the four kinds of question — open, closed, leading, two-in-one — and which of them gives us real evidence.
+- Learn the four kinds of question, open, closed, leading, two-in-one, and which of them gives us real evidence.
 - Watch the facilitator interview someone in front of them, well and then badly, and name what made the difference.
-- Learn the three follow-ups — "tell me more", "why do you think that?", and waiting quietly — and practise the waiting.
+- Learn the three follow-ups, "tell me more", "why do you think that?", and waiting quietly, and practise the waiting.
 - Design a short set of oral interview questions, one or two for each of our four sub-questions about the hills.
-- Shape a very short oral survey — one or two closed questions asked of many people, each offering two or three answers to choose from — and record the answers as tally marks under the answer each person gave.
+- Shape a very short oral survey, one or two closed questions asked of many people, each offering two or three answers to choose from, and record the answers as tally marks under the answer each person gave.
 - Decide who to ask, choosing five different kinds of people rather than five people like themselves.
 - Try their questions on each other, notice what was confusing or leading, and fix them.
 materialsAndPreparation:
 - The research question and its four sub-questions, big on the wall (before/now; a bare hill in rain and hot sun; what roots, grass, and trees do; what people are doing to help and whether it is working).
-- The "our questions to ask" pages from the research book (one per learner) — the Learn it page, the questions page, the survey page, and the who we will ask page.
+- The "our questions to ask" pages from the research book (one per learner), the Learn it page, the questions page, the survey page, and the who we will ask page.
 - The eight question cards for the sort, printed from the picture-word cards file or written on scraps of paper (the cards and their answers are in the facilitator notes below).
-- A learner who is willing to be interviewed in front of the group for the fishbowl — ask them before the session, not on the spot.
+- A learner who is willing to be interviewed in front of the group for the fishbowl, ask them before the session, not on the spot.
 - Two columns marked on the wall or a board, for what a good interviewer does and what a poor one does.
-- The six question-starter words drawn big — what, when, who, where, how, why — plus "tell me about…".
+- The six question-starter words drawn big, what, when, who, where, how, why, plus "tell me about…".
 - "Marks agreed for recording survey answers: the answers the question offers, drawn as small pictures at the top of the tally page, and one tally mark per person underneath."
 visuals:
 - kind: setup
@@ -53,19 +53,19 @@ visuals:
     type: zones
     zones:
     - label: "Open question"
-      sublabel: "they tell us a lot — use these"
+      sublabel: "they tell us a lot, use these"
       tone: positive
       cards:
       - "What happens when it rains?"
       - "Tell me about the last big rain."
     - label: "Closed question"
-      sublabel: "yes or no — only for the survey"
+      sublabel: "yes or no, only for the survey"
       tone: neutral
       cards:
       - "Do the hills slide?"
       - "Is it hotter now?"
     - label: "Leading question"
-      sublabel: "we said the answer — never use these"
+      sublabel: "we said the answer, never use these"
       tone: warn
       cards:
       - "The rain ruins it, doesn't it?"
@@ -90,17 +90,17 @@ visuals:
       tone: neutral
       cards:
       - "what do roots do?"
-    - label: "Who is helping — is it working?"
+    - label: "Who is helping, is it working?"
       tone: neutral
       cards:
       - "who plants here? does it hold?"
 facilitationNotes: >-
   The one thing to get right: teach the method before they draft. This block used to be a drafting
-  block, and learners drafted what they already knew how to ask — which was mostly leading questions.
+  block, and learners drafted what they already knew how to ask, which was mostly leading questions.
   Teach the four kinds of question, model an interview in front of them, and only then set them to
   design. The second thing: questions come from our sub-questions, not from nowhere. Keep pointing back
-  to the wall — every question should help answer one of the four things we want to find out. Keep the
-  set short — a handful of good questions beats a long list. Trying questions on each other is how
+  to the wall, every question should help answer one of the four things we want to find out. Keep the
+  set short, a handful of good questions beats a long list. Trying questions on each other is how
   learners find the confusing ones before a real person does.
 steps:
 - title: "How a good question works"
@@ -111,7 +111,7 @@ steps:
     follow-ups including the five-second wait. Sort the eight prepared question cards together into
     open, closed and leading, saying each aloud and acting out how a person would reply. Then the
     fishbowl: interview one learner in front of the group for three minutes, using only the starter
-    words and the follow-ups — then do one minute badly on purpose, leading and interrupting. The group
+    words and the follow-ups, then do one minute badly on purpose, leading and interrupting. The group
     names what they saw in each; keep the two columns on the wall for the rest of the block.
   keyPrompts:
   - "Does this question let the person say anything, or does it expect one answer?"
@@ -125,7 +125,7 @@ steps:
     questions for each, and write or draw the follow-up they will use after it. Every question is
     checked against four things before it goes on the page: is it open, is it about one thing, is it
     short enough to say in one breath, and is it safe to ask. Move between groups and hand questions
-    back rather than fixing them yourself — "how would they answer that if they could not say yes or
+    back rather than fixing them yourself, "how would they answer that if they could not say yes or
     no?" does more than a correction.
   keyPrompts:
   - "Which sub-question does this help us answer?"
@@ -134,7 +134,7 @@ steps:
 - title: "Our short survey, and who we will ask"
   duration: "30 min"
   guidance: >-
-    Now the other instrument. Together, shape one or two closed questions we could ask many people — and
+    Now the other instrument. Together, shape one or two closed questions we could ask many people, and
     for each, the two or three answers people choose between, drawn as small pictures at the top of the
     tally page. Practise recording a few answers on the page so the marks are agreed before anyone goes
     out. Then each group names five different kinds of person they will ask, and why each one would know
@@ -150,7 +150,7 @@ steps:
     request they practised, and using their follow-ups. The partner says afterwards which question was
     confusing, too long, or pushed an answer. Each pair fixes at least one question and records on the
     page what they changed and why. Close by hearing one open question, its follow-up, and who will be
-    asked, from every pair — that is the check that they are ready to gather.
+    asked, from every pair. That is the check that they are ready to gather.
   keyPrompts:
   - "Which question was hard to understand? How can we say it more simply?"
   - "Did any question push you toward an answer? How can we open it up?"
@@ -159,14 +159,14 @@ educatorContent: |
   ## What you need to know before you teach this
 
   Learners are about to collect the only primary evidence this investigation will have. The quality of
-  that evidence is decided here, in the questions — not out in the community. So this is a teaching
+  that evidence is decided here, in the questions, not out in the community. So this is a teaching
   block, not a drafting block. Teach the method, model it in front of them, and only then let them
   design. If you set them straight to drafting they will write the questions they already know how to
   ask, and most of those will be leading.
 
   ### Why open versus leading is not about politeness
 
-  A leading question — "The rain ruins the bare slope, doesn't it?" — tells you what you already
+  A leading question, "The rain ruins the bare slope, doesn't it?". Tells you what you already
   believed. Learners then bring back "evidence" that is really their own opinion, handed back to them by
   a neighbour. Later, when they weigh their sources, they will have nothing to triangulate: every answer
   agrees, because every answer was suggested. Say that to the group in plain words. A leading question
@@ -174,7 +174,7 @@ educatorContent: |
 
   ### The one technique that changes everything: ask about experience
 
-  Beginners ask for opinions — "Is erosion a problem here?" — and people answer opinions with
+  Beginners ask for opinions, "Is erosion a problem here?", and people answer opinions with
   generalities. Ask instead about a specific thing the person saw or did: "Tell me about the last big
   rain. What did you see?" Concrete memory produces detail, places, times and numbers. Every time a
   learner's question drifts back to opinion, hand it back with one question of your own: "when did they
@@ -184,21 +184,21 @@ educatorContent: |
 
   A first answer is almost always short and polite. The information is in the second answer. Teach three
   moves and no more: "Tell me more", "Why do you think that?", and silence. Silence is the hardest to
-  teach and the strongest — most people fill a five-second pause with the thing they were deciding
+  teach and the strongest, most people fill a five-second pause with the thing they were deciding
   whether to say. Learners will break it out of nervousness, so rehearse counting to five explicitly,
   and let them feel how long it is.
 
   ### Interviews and surveys do opposite jobs
 
   An interview uses open questions on a few people to learn WHY. A survey uses closed questions on many
-  people to learn HOW MANY. Learners mix these up constantly — open questions in the survey, which
+  people to learn HOW MANY. Learners mix these up constantly, open questions in the survey, which
   cannot be counted, and yes/no questions in the interview, which produce nothing. Hold one line: if it
   cannot be answered with a mark, it does not belong in the survey.
 
   Because most of this cohort is not yet writing, the survey has to be recordable without writing. Teach
   one system and use it everywhere: decide the two or three answers the question offers, draw a small
   picture for each at the top of the tally page, then one mark per person underneath, tallied in fives.
-  The columns must be the ANSWERS TO OUR OWN QUESTION — this is the part learners get wrong. A fixed
+  The columns must be the ANSWERS TO OUR OWN QUESTION. This is the part learners get wrong. A fixed
   good/in-between/bad face scale cannot answer "where is it cooler, the bare hill or under the trees?";
   a survey whose marks do not stand for the choices the question offers cannot be counted at all. Faces
   are right only when the question really is about good and bad. Learners who can write may write;
@@ -207,7 +207,7 @@ educatorContent: |
   ### Sampling, in the honest version
 
   We are not teaching statistics. We are teaching variation: if you only ask people like yourself, you
-  learn one thing. Push each group to name five different kinds of person — an elder who remembers the
+  learn one thing. Push each group to name five different kinds of person, an elder who remembers the
   hills before, someone who works on them, a woman who walks that path for water or firewood, a young
   person, someone who lives below a slope. Say the targets out loud: three interviews each, ten survey
   marks per pair.
@@ -221,7 +221,7 @@ educatorContent: |
   The consent words were practised in the previous block and are used for real in the next one. Here,
   check every drafted question against three things: it does not ask for names, it does not ask about
   anyone's household or status, and it does not ask anything that could put the person answering at
-  risk. A question about who cut the trees is a protection matter, not a research one — redirect it to
+  risk. A question about who cut the trees is a protection matter, not a research one. Redirect it to
   the hills. Girls gather in same-gender pairs where that is what keeps them safe. Any question you are
   unsure about, cut it; there are always other questions.
 
@@ -243,17 +243,17 @@ educatorContent: |
   Read each aloud and let the group sort it. Print them from the picture-word cards file, or write them
   on scraps of paper.
 
-  - "What happens to this slope when it rains?" — OPEN
-  - "The rain ruins it, doesn't it?" — LEADING
-  - "Do the hills slide?" — CLOSED (fine for the survey, weak in an interview)
-  - "What were the hills like when you were young?" — OPEN
-  - "Trees are better, right?" — LEADING
-  - "Tell me about the last big rain." — OPEN, and the strongest kind: it asks about something they saw
-  - "Is it hotter now?" — CLOSED
-  - "Everyone wants the trees back, don't they?" — LEADING
+  - "What happens to this slope when it rains?". OPEN
+  - "The rain ruins it, doesn't it?". LEADING
+  - "Do the hills slide?". CLOSED (fine for the survey, weak in an interview)
+  - "What were the hills like when you were young?". OPEN
+  - "Trees are better, right?". LEADING
+  - "Tell me about the last big rain.". OPEN, and the strongest kind: it asks about something they saw
+  - "Is it hotter now?". CLOSED
+  - "Everyone wants the trees back, don't they?", LEADING
 
-  For the Try it rehearsal on the learner's page, use four of these — one open, one closed, two leading
-  — and finish by fixing a leading one aloud, together.
+  For the Try it rehearsal on the learner's page, use four of these, one open, one closed, two leading,
+  and finish by fixing a leading one aloud, together.
 
   ## The five errors you will see, and the fix for each
 
@@ -261,7 +261,7 @@ educatorContent: |
     or no?"
   - **An opinion question.** Ask: "when did they last see it? Ask about that."
   - **Two questions joined by 'and'.** Cut it in half.
-  - **A question the person cannot answer** — asking a child what the hills were like forty years ago.
+  - **A question the person cannot answer**, asking a child what the hills were like forty years ago.
     Ask: "who would actually know this?"
   - **A question about people rather than the hills.** Redirect to the issue; this is also a protection
     matter.
@@ -269,7 +269,7 @@ educatorContent: |
   ## Before they leave this block
 
   Every pair can say aloud: one open question, the follow-up they will use after it, and who they will
-  ask. If a pair cannot, they are not ready to gather — give them the extra time at the start of the
+  ask. If a pair cannot, they are not ready to gather. Give them the extra time at the start of the
   next block rather than sending them out.
 learnerTeaching:
   title: "How to ask a good question"
@@ -277,20 +277,20 @@ learnerTeaching:
     ## How to ask a good question
 
     We are going to ask people in our community. A good question makes a person tell us what they know.
-    A weak question makes them say only yes or no — or it puts our own words in their mouth.
+    A weak question makes them say only yes or no, or it puts our own words in their mouth.
 
     ### Four kinds of question
 
-    - **Open** — "What happens to this slope when it rains?" The person tells us a lot. Use these.
-    - **Closed** — "Do the hills slide?" The person says yes or no. Good only for our short survey, when we want to count.
-    - **Leading** — "The rain ruins it, doesn't it?" We already said the answer. The person only agrees. Never use these.
-    - **Two-in-one** — "What happens in the rain and in the hot sun?" The person answers one part and forgets the other. Cut it into two questions.
+    - **Open**, "What happens to this slope when it rains?" The person tells us a lot. Use these.
+    - **Closed**, "Do the hills slide?" The person says yes or no. Good only for our short survey, when we want to count.
+    - **Leading**, "The rain ruins it, doesn't it?" We already said the answer. The person only agrees. Never use these.
+    - **Two-in-one**, "What happens in the rain and in the hot sun?" The person answers one part and forgets the other. Cut it into two questions.
 
     ### How to fix a leading question
 
     Take the answer out. Then start again with one of these words:
 
-    **What · When · Who · Where · How · Why** — or **"Tell me about…"**
+    **What · When · Who · Where · How · Why**, or **"Tell me about…"**
 
     "The rain ruins it, doesn't it?" becomes "**What** happens here when it rains?"
 
@@ -305,7 +305,7 @@ learnerTeaching:
 
     Say it in one breath. If you cannot say it in one breath, it is too long.
 
-    ### After they answer — the three follow-ups
+    ### After they answer: the three follow-ups
 
     The first answer is short. The real answer comes next. Use these three:
 
@@ -322,11 +322,11 @@ learnerTeaching:
 
     ### An interview is not a survey
 
-    - **Interview** — a few people. Long answers. Open questions. We learn **why**.
-    - **Survey** — many people. One or two closed questions. We learn **how many**.
+    - **Interview**, a few people. Long answers. Open questions. We learn **why**.
+    - **Survey**, many people. One or two closed questions. We learn **how many**.
 
-    A survey question must offer people a small number of answers to choose from — usually two or three —
-    or there is nothing to count. "Where is it cooler — on the bare hill, or under the trees?" offers
+    A survey question must offer people a small number of answers to choose from, usually two or three,
+    or there is nothing to count. "Where is it cooler, on the bare hill, or under the trees?" offers
     three: *on the bare hill*, *the same*, *under the trees*.
 
     We do not need to write to record it. We can use marks:
@@ -335,7 +335,7 @@ learnerTeaching:
     - Then put ONE mark under the answer each person gives.
     - A tally is easiest: one mark for each person, and a line across every fifth mark, so we can count in fives.
 
-    If our question asks whether something is good or bad, the three answers can be three faces — a
+    If our question asks whether something is good or bad, the three answers can be three faces. A
     smiling face, a flat face and a sad face. Only then.
 
     ### Who to ask
@@ -358,7 +358,7 @@ learnerTeaching:
   - term: open question
     meaning: a question that lets a person tell us a lot
   - term: closed question
-    meaning: a question answered with yes or no, or one word — good for counting
+    meaning: a question answered with yes or no, or one word. Good for counting
   - term: leading question
     meaning: a question that already says the answer we want
   - term: follow-up
@@ -383,7 +383,7 @@ learnerTeaching:
     - Open. It lets the person tell us anything they saw. This is the kind we want.
     - Leading. It already says the answer, so the person can only agree with us.
     - Closed. They can only say yes or no. Fine for our short survey, weak in an interview.
-    - Open, and the strongest kind — it asks about something they really saw, on a day they remember.
+    - Open, and the strongest kind. It asks about something they really saw, on a day they remember.
     then: >-
       Now fix number 2. Take the answer out, and start again with What, When, Who, Where, How or Why.
 learnerContent: |
@@ -403,7 +403,7 @@ learnerContent: |
   - What do trees, grass, and roots do for the soil and for us?
   - What are people doing to help our hills, and is it working?
 
-  We also make a very short survey — one or two questions we ask many people, and record with a tally
+  We also make a very short survey, one or two questions we ask many people, and record with a tally
   mark or a face. And we decide who to ask, choosing five different kinds of people, so we do not only
   hear what people like us already think.
 
@@ -417,7 +417,7 @@ agencyContribution:
   - control-of-future-pathways
   how: >-
     Designing their own questions puts learners in charge of what their community investigation asks and
-    finds — the difference between running someone else's survey and shaping the enquiry themselves, a
+    finds, the difference between running someone else's survey and shaping the enquiry themselves, a
     skill they can turn on any question that matters to them.
 principlesForegrounded: [collaboration, authentic-challenges, feedback-and-data]
 principleAlignment:
@@ -437,8 +437,8 @@ objectiveIds: [research-project--o2]
 relatedSlugs: [cb-rp-two-ways-and-ethics, cb-rp-our-questions-sheet, cb-rp-practise-interviewing, cb-rp-go-and-gather, cb-rp-our-research-question]
 provenanceNote: >-
   Authored activity for the Learning Bridge+ (Cox's Bazar) Research Project edition. Learners are taught
-  how a research question works — open, closed and leading questions, asking about experience, the three
-  follow-ups, interview versus survey, and who to ask — and then design short, oral instruments tied to
+  how a research question works, open, closed and leading questions, asking about experience, the three
+  follow-ups, interview versus survey, and who to ask, and then design short, oral instruments tied to
   the four sub-questions of the given research question. Plan and conduct research phase (objective 2);
   fully offline, oral and visual first. Rebuilt (August 2026) as the first material carrying
   `learnerTeaching` and `educatorContent`, so the learner book teaches the method and the facilitator
@@ -447,4 +447,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

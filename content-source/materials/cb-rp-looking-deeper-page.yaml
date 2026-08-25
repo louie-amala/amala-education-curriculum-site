@@ -5,10 +5,10 @@ slug: cb-rp-looking-deeper-page
 access: partner
 edition: learning-bridge-coxs-bazar
 type: resource
-title: "Looking deeper — power, beliefs, who is helped and hurt"
+title: "Looking deeper, power, beliefs, who is helped and hurt"
 summary: >-
   The learner's page for the three deeper questions: who or what has power over the problem, what beliefs
-  and attitudes shape it, and who or what is helped or hurt — in words, marks, or drawings.
+  and attitudes shape it, and who or what is helped or hurt. In words, marks, or drawings.
 facilitationContext:
 - group
 - independent
@@ -19,19 +19,19 @@ learnerContent: |
   This page has three spaces, one for each deeper question about our problem. Fill each in words,
   drawings, or marks:
 
-  - Who or what has power? Who can make it worse or better — families, agencies, the government, the rain,
+  - Who or what has power? Who can make it worse or better, families, agencies, the government, the rain,
     the hills?
   - What do people believe or feel? Which beliefs make it harder, and which could help?
   - Who is helped, and who is hurt? Who suffers most, and who is helped when things get better?
 
   Then, at the bottom, note one thing looking deeper showed you that the plain evidence did not. Remember:
-  this is about understanding, never blaming. Keep this page in your research book — it feeds our insights.
+  this is about understanding, never blaming. Keep this page in your research book, it feeds our insights.
 agencyContribution:
   indicators:
   - contribution-to-community
   how: >-
     Recording who holds power, what beliefs shape a problem, and who is helped or hurt trains a learner to
-    see how change happens — understanding they can carry into acting on any challenge they care about.
+    see how change happens. Understanding they can carry into acting on any challenge they care about.
 objectiveIds: [research-project--o3]
 relatedSlugs: [cb-rp-looking-deeper, cb-rp-root-cause]
 provenanceNote: >-
@@ -41,4 +41,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

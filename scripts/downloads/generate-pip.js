@@ -99,7 +99,7 @@ function ksavWorksheet() {
 }
 function ksavTemplate() {
   return doc([
-    H1('Strengths and growth reflection — template'),
+    H1('Strengths and growth reflection, template'),
     P('Knowledge (what you know) · Skills (what you can do) · Attitudes and values (what you believe). For each, note a strength and an area you want to develop.', { color: GREY, after: 140 }),
     ksavTable(false),
     P('Conclusion: what project ideas are emerging from this reflection?', { bold: true, before: 200, after: 60 }),
@@ -141,7 +141,7 @@ function cbWorksheet() {
 }
 function cbTemplate() {
   return doc([
-    H1('Challenges brainstorm — template'),
+    H1('Challenges brainstorm, template'),
     P('Personal · Community · Global. List as many challenges as you can in each column.', { color: GREY, after: 140 }),
     cbTable(false),
     P('Conclusion: which challenges interest you most, and which are the right size to act on?', { bold: true, before: 200, after: 60 }),
@@ -179,7 +179,7 @@ function planWorksheet() {
 }
 function planTemplate() {
   const kids = [
-    H1('PIP plan — template'),
+    H1('PIP plan, template'),
     P('Complete each field. Update it as your project develops.', { color: GREY, after: 120 }),
   ];
   for (const f of PLAN_FIELDS) kids.push(...planField(f, false, f.name === 'People involved' ? 2 : 3));

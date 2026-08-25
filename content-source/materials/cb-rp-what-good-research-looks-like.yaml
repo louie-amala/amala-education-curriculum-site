@@ -1,5 +1,5 @@
 # Contextualised, fully offline ACTIVITY for the Research Project component of Learning Bridge+ (Cox's
-# Bazar). A short, warm introduction to the anchor competency — investigating real-world issues (FSI1) —
+# Bazar). A short, warm introduction to the anchor competency, investigating real-world issues (FSI1),
 # as a growth path, not a test. Learners meet, in plain and pictorial terms, what a researcher does, and
 # mark honestly where they feel they are now, to revisit at the end. Getting started phase.
 id: cb-rp-what-good-research-looks-like
@@ -9,7 +9,7 @@ edition: learning-bridge-coxs-bazar
 type: activity
 title: "What good research looks like"
 summary: >-
-  A short, warm introduction to what a researcher does — finding out for ourselves instead of guessing —
+  A short, warm introduction to what a researcher does, finding out for ourselves instead of guessing,
   as a growth path, not a test. Learners meet what good research looks like in pictures and plain words,
   and mark honestly where they feel they are now, to look back on at the end of the course.
 facilitationContext:
@@ -18,7 +18,7 @@ primaryContext: group
 duration: "0.5 hour facilitated"
 grouping: "Whole group, sitting together"
 whatLearnersDo:
-- Meet, in pictures and plain words, what a researcher does — asks, looks, finds out, and does not just guess.
+- Meet, in pictures and plain words, what a researcher does. Asks, looks, finds out, and does not just guess.
 - Hear that this is a path we all grow along over the course, not a test to pass today.
 - Mark honestly, on a simple picture scale, where they feel they are now as a researcher.
 - Keep that mark in their research book, to look at again at the end and see how they have moved.
@@ -30,7 +30,7 @@ visuals:
 - kind: example
   title: "What a researcher does"
   caption: >-
-    Shown in pictures and plain words — finding out for ourselves instead of guessing. This is a growth
+    Shown in pictures and plain words, finding out for ourselves instead of guessing. This is a growth
     path we all walk along, not a test to pass today.
   spec:
     type: zones
@@ -45,7 +45,7 @@ visuals:
       - "checks if it's true"
 facilitationNotes: >-
   The one thing to get right: this is a growth path, not a test. Say clearly, and more than once, that
-  marking "near the start" is not failing — it is exactly where a researcher begins, and the point is to
+  marking "near the start" is not failing. It is exactly where a researcher begins, and the point is to
   look back at the end and see how far we came. Keep it short, warm, and pictorial. Model your own honest
   mark first so learners see it is safe. This page comes back out at the very end of the course (Showcase
   and reflect), so keep it in the research book where it can be found.
@@ -55,7 +55,7 @@ steps:
   guidance: >-
     In pictures and plain words, show what a researcher does: they ask people, they look closely, they
     keep a record of what they find, and they check whether something is really true instead of just
-    guessing or repeating what people say. Keep it concrete and warm — a researcher is a person who
+    guessing or repeating what people say. Keep it concrete and warm, a researcher is a person who
     wants to find out, carefully and fairly.
   keyPrompts:
   - "What is the difference between guessing and finding out?"
@@ -63,20 +63,20 @@ steps:
 - title: "Where am I now?"
   duration: "15 min"
   guidance: >-
-    Show the simple picture scale of where a person can be on the path — from just starting out to
+    Show the simple picture scale of where a person can be on the path, from just starting out to
     finding out carefully and fairly on their own. Mark your own place honestly first, out loud, so
     learners see there is no wrong answer. Then each learner marks where they feel they are now, in
     their research book, and you remind them: we will look at this again at the end and see how we grew.
   keyPrompts:
   - "Where do you feel you are on this path today? There is no wrong answer."
-  - "Marking near the start is not failing — it is where every researcher begins."
+  - "Marking near the start is not failing. It is where every researcher begins."
 closing: >-
   Remind learners this mark is a beginning, not a judgement. We will come back to it on the last day of
   the course and see, together, how far we have moved from guessing to finding out.
 learnerContent: |
   ## What good research looks like
 
-  A researcher is a person who wants to find out — carefully and fairly — instead of guessing or just
+  A researcher is a person who wants to find out, carefully and fairly, instead of guessing or just
   repeating what people say.
 
   A researcher:
@@ -86,7 +86,7 @@ learnerContent: |
   - Checks whether something is really true before believing it.
 
   This is a path we all walk along over the course. No one starts at the end. Today you will mark where
-  you feel you are now — near the start is a fine place to be. At the end of the course we will look at
+  you feel you are now, near the start is a fine place to be. At the end of the course we will look at
   your mark again, and see together how far you have grown.
 
 educatorContent: |
@@ -99,7 +99,7 @@ educatorContent: |
 
   The five steps are the learner-facing reading of Amala's proficiency scale for FSI1, in the first
   person with the level names removed. Do not show learners the level names, the GPA values, or where
-  the readiness bar sits — a learner who knows which rung counts will mark that one.
+  the readiness bar sits. A learner who knows which rung counts will mark that one.
 
   ### Nobody starts high, and say so first
 
@@ -127,18 +127,18 @@ learnerTeaching:
 
     A researcher does four things:
 
-    - **Asks a clear question** — small enough to actually answer.
-    - **Goes and finds out** — asks people, looks carefully, reads what others found. Fairly and
+    - **Asks a clear question**, small enough to actually answer.
+    - **Goes and finds out**, asks people, looks carefully, reads what others found. Fairly and
       safely.
-    - **Weighs what they find** — how much can we trust this? Does anything else agree?
-    - **Says what it means** — and shares it with people who need to know.
+    - **Weighs what they find**, how much can we trust this? Does anything else agree?
+    - **Says what it means**, and shares it with people who need to know.
 
     ### The path
 
     Like any skill, you can be a beginner and get better. Here is the path. Read it from the bottom.
 
     1. **I am not sure how to find out about something. I would just guess.**
-    2. **I can say how I would find out — who I would ask, or where I would look — but I have not done
+    2. **I can say how I would find out, who I would ask, or where I would look, but I have not done
        it.**
     3. **I went and found out. I asked people or looked at sources, and I kept a record.**
     4. **I found out, and I can say what it means, and which of my sources I trust more, and why.**
@@ -148,7 +148,7 @@ learnerTeaching:
 
     Not where you want to be. Today.
 
-    Almost everyone is near the bottom at the start, and that is exactly right — it is the beginning of
+    Almost everyone is near the bottom at the start, and that is exactly right. It is the beginning of
     the course. If you were already at the top there would be nothing here for you.
 
     This is not a test. Nobody is marking it.
@@ -171,7 +171,7 @@ agencyContribution:
   - control-of-future-pathways
   - power-over-wellbeing-and-self-direction
   how: >-
-    Seeing research as a growth path they can move along — and judging honestly where they are now —
+    Seeing research as a growth path they can move along, and judging honestly where they are now,
     gives learners ownership of their own progress, rather than waiting to be marked right or wrong by
     someone else.
 principlesForegrounded: [feedback-and-data, safe-spaces, recognise-communicate-growth]
@@ -185,7 +185,7 @@ principleAlignment:
 competencyCodes: [FSI1, FSL1]
 competencyDevelopment:
 - code: FSI1
-  how: Learners meet the anchor competency — investigating real-world issues — as a concrete, pictorial picture of what a researcher does, setting the direction for the whole course.
+  how: Learners meet the anchor competency, investigating real-world issues, as a concrete, pictorial picture of what a researcher does, setting the direction for the whole course.
 - code: FSL1
   how: Learners reflect honestly on where they are as a researcher now, and set a baseline they will return to at the end to see how they have grown.
 objectiveIds: []
@@ -198,4 +198,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

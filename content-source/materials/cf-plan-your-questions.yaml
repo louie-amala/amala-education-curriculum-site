@@ -4,13 +4,13 @@ access: public
 type: educator-move
 title: "Plan your questions"
 summary: >-
-  Most questions get invented on the spot. Plan the key ones in advance — aimed at the learning,
-  short and clear — and sidestep the common traps.
+  Most questions get invented on the spot. Plan the key ones in advance, aimed at the learning,
+  short and clear, and sidestep the common traps.
 tags:
   - id: learning-design
     how: >-
       When designing, write your key questions in advance, aimed squarely at the learning intention and
-      short enough to understand — and design out the common errors (too many at once, only the
+      short enough to understand, and design out the common errors (too many at once, only the
       confident, answering your own question).
   - id: learning-facilitation
     how: >-
@@ -22,17 +22,17 @@ facilitationContext:
   - group
 primaryContext: group
 educatorContent: |
-  Questions are one of the best ways to find out what learners know — yet most are made up on the spot.
+  Questions are one of the best ways to find out what learners know, yet most are made up on the spot.
   Taking a little time to plan your key questions, so they are focused on the learning intention and
   short and clear enough to understand, pays off out of all proportion. Planning also lets you design out
   the common questioning errors: asking too many questions at once, answering your own question, only
   asking the confident learners, pitching a hard question too early, or asking in a way that feels
-  threatening. In the moment, interpret rather than evaluate — a wrong answer is information about where
-  to teach next — and ask learners to justify their answers, right or wrong, to surface their reasoning.
+  threatening. In the moment, interpret rather than evaluate, a wrong answer is information about where
+  to teach next, and ask learners to justify their answers, right or wrong, to surface their reasoning.
 steps:
   - title: "Tie each question to the learning"
     guidance: >-
-      Aim your key questions at the learning intention, not just the activity — what do you actually
+      Aim your key questions at the learning intention, not just the activity. What do you actually
       want this question to reveal?
   - title: "Keep them short and clear"
     guidance: >-
@@ -40,7 +40,7 @@ steps:
   - title: "Plan follow-ups and who you'll ask"
     guidance: >-
       Decide how you'll probe further and how you'll bring in more than the confident few (pair with
-      "Choose who answers"). Design out the common traps — too many at once, answering your own
+      "Choose who answers"). Design out the common traps, too many at once, answering your own
       question, only asking the sure.
   - title: "Interpret the answers"
     guidance: >-
@@ -52,8 +52,8 @@ downloads:
     format: Word
     role: template
     note: >-
-      A planning sheet for your key questions — the question, what a good answer reveals, and your
-      follow-up / who you'll ask — with a worked example and blank rows.
+      A planning sheet for your key questions, the question, what a good answer reveals, and your
+      follow-up / who you'll ask, with a worked example and blank rows.
 agencyContribution:
   indicators:
     - power-over-wellbeing-and-self-direction
@@ -69,7 +69,7 @@ relatedSlugs:
   - cf-make-thinking-visible
   - cf-no-hands-up
 sourceRefs:
-  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook — Course Facilitator Playbook"
+  - "AMALA Global Secondary Diploma (GSD) Educator Guide / Handbook. Course Facilitator Playbook"
 provenanceNote: >-
   Generalised from the Playbook's "Plan the questions you want to ask", "Avoid these common errors in
   questioning" (Brown & Wragg, 1993), and interpret/justify guidance in Making Learning and Thinking
@@ -77,4 +77,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

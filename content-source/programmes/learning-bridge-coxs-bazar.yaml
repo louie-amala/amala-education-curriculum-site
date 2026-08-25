@@ -1,4 +1,4 @@
-# Learning Bridge+ (Cox's Bazar) — a contextualised, fully offline edition of the Learning Bridge
+# Learning Bridge+ (Cox's Bazar), a contextualised, fully offline edition of the Learning Bridge
 # programme (spec §4.1 Programme; component-based shape, like learning-bridge.yaml).
 #
 # Context: authored for Amala's consultancy to the Norwegian Refugee Council (NRC) Bangladesh
@@ -37,8 +37,8 @@ targetContext: >-
   Community Based Learning Facilities (often a room in a teacher's shelter), no internet, and often
   no reliable power or learner devices.
 structure: >-
-  The programme keeps the Learning Bridge components. The taught components — Research Project, Agency
-  in Learning, and English Language Development — are each around 50 hours; in this edition English is
+  The programme keeps the Learning Bridge components. The taught components, Research Project, Agency
+  in Learning, and English Language Development, are each around 50 hours; in this edition English is
   compulsory, because the whole cohort enters below B1. Mentoring and Wellbeing runs alongside them as
   ongoing 1:1 mentoring rather than a fixed block of hours, and has its own unit plan and offline pack. Each taught
   component runs at a cadence of 3 hours in-person plus 2 hours independent per week across a minimum
@@ -46,7 +46,7 @@ structure: >-
   a midpoint formative assessment, a summative exit assessment, and Amala moderation. The Agency in
   Learning component is authored and offline-ready first, followed by the English Language Development
   component (a Cox's Bazar contextualisation of the My Voice course) and the Research Project, whose
-  shared local challenge — the trees on the hills where learners live — is now set. All artefacts are
+  shared local challenge, the trees on the hills where learners live, is now set. All artefacts are
   supplied as editable files for facilitators, distributed offline.
 ageRange: "14–24"
 minDurationWeeks: 10
@@ -66,7 +66,7 @@ downloads:
       For the NRC programme coordinator. How to set up sites and facilitators, run the 12-week rhythm,
       schedule the week-6 supported and week-12 final assessments, and coordinate safeguarding and Amala
       moderation. Editable.
-  - label: Educator Guide — the complete manual
+  - label: Educator Guide, the complete manual
     file: /downloads/lb-coxs-bazar-educator-guide.docx
     format: Word
     note: >-
@@ -76,35 +76,35 @@ downloads:
       full facilitator unit plan for all three taught components. Parts 7–9: the three learner books, the
       printable cards, and the two assessment records. The component packs below are the same content
       split into separate files, for when you only need one piece. Editable.
-  - label: My Learning Book — the Agency in Learning learner book
+  - label: My Learning Book, the Agency in Learning learner book
     file: /downloads/agency-in-learning-student-workbook.docx
     format: Word
     note: >-
       The learner book for Agency in Learning on its own, if you are printing the three components
-      separately rather than as one book. Opens with a numbered list of its sheets — the facilitator
+      separately rather than as one book. Opens with a numbered list of its sheets, the facilitator
       plan points into it by sheet number. Print one per learner. Editable.
-  - label: My Voice book — the English learner book
+  - label: My Voice book, the English learner book
     file: /downloads/my-voice-student-workbook.docx
     format: Word
     note: >-
       The learner book for English on its own. Opens with a numbered list of its sheets, which is how
       the facilitator plan refers to them. Print one per learner. Editable.
-  - label: Our Research Book — the Research Project learner book
+  - label: Our Research Book, the Research Project learner book
     file: /downloads/research-project-student-workbook.docx
     format: Word
     note: >-
-      The learner book for the Research Project on its own — the Learn it pages, the source cards, the
+      The learner book for the Research Project on its own, the Learn it pages, the source cards, the
       evidence log and the analysis pages. Opens with a numbered list of its sheets. Print one per
       learner. Editable.
-  - label: Student Workbook — one book per learner
+  - label: Student Workbook, one book per learner
     file: /downloads/lb-coxs-bazar-student-workbook.docx
     format: Word
     note: >-
-      Everything a learner needs for the whole twelve weeks, in one book to print and bind — so a site
+      Everything a learner needs for the whole twelve weeks, in one book to print and bind, so a site
       runs one print job per learner instead of three. Parts 1–3 are the three component learner books
       (My Learning Book, the My Voice book, Our Research Book); Part 4 is the learner's mentoring page and
       the growth self-check they fill at week 6 and again at week 12. Oral- and visual-first throughout:
-      drawing, marking and speaking are full answers. The group cards are not in it — they are one set per
+      drawing, marking and speaking are full answers. The group cards are not in it. They are one set per
       group, printed and cut up, so they stay in the Educator Guide and the component packs. Editable.
 
 
@@ -118,7 +118,7 @@ downloads:
 agencyThread:
   statement: >-
     Everything in this programme serves one outcome: that a young person leaves it with more agency
-    for positive change than they arrived with — more ability and will to make informed, intentional
+    for positive change than they arrived with, more ability and will to make informed, intentional
     decisions that improve their own life and contribute to their community. Readiness for accredited
     secondary education is the near-term form that agency takes here; it is the door this programme
     is trying to open, not the whole of what it is for.
@@ -126,9 +126,9 @@ agencyThread:
     Agency is hard-won in a camp, because so much of a young person's life is decided by other people.
     That is exactly why this edition reframes goal-setting around what is genuinely within a learner's
     control, and why it never asks a learner to plan for futures that are currently blocked. The three
-    taught components each take one part of the work — deciding and pursuing (Agency in Learning),
+    taught components each take one part of the work, deciding and pursuing (Agency in Learning),
     being understood and being heard (English), and understanding a real challenge well enough to act
-    on it (Research Project) — and mentoring is what holds the three together in one person's life
+    on it (Research Project), and mentoring is what holds the three together in one person's life
     across the twelve weeks. None of the four builds agency on its own; the programme is designed so
     that the same learner does all four at once.
   byComponent:
@@ -137,12 +137,12 @@ agencyThread:
         - power-over-wellbeing-and-self-direction
         - control-of-future-pathways
       how: >-
-        This is where a learner discovers that at least one thing — what they learn — is theirs to
+        This is where a learner discovers that at least one thing, what they learn, is theirs to
         direct. They run a full cycle on a goal they chose: understanding themselves as a learner,
         setting the goal, planning and taking real steps, using feedback, and seeing how far they came.
         That is self-direction made concrete. It reaches into pathways because the learner leaves with
-        a method they can point at any next step, and with evidence that their effort changed something
-        — which is what makes a future feel actionable rather than assigned.
+        a method they can point at any next step, and with evidence that their effort changed something,
+        which is what makes a future feel actionable rather than assigned.
     - component: English Language Development
       indicators:
         - control-of-future-pathways
@@ -151,7 +151,7 @@ agencyThread:
       how: >-
         Voice is the precondition for agency: you cannot act on a world you cannot be understood in.
         Starting from the sound of their own name, learners gain the English to say who they are, and
-        the confidence to say it to someone new. That is pathways in the most literal sense — English
+        the confidence to say it to someone new. That is pathways in the most literal sense. English
         below B1 is the specific barrier standing between this cohort and an accredited secondary
         place. It is self-direction because learners choose who to practise with and what to say about
         themselves, and it reaches into community because a learner who can introduce themselves and
@@ -164,7 +164,7 @@ agencyThread:
       how: >-
         You cannot act well on a challenge you do not understand. Learners investigate something real
         about the place they live, and produce evidence-based insight they share with an audience they
-        chose — which is itself a contribution to their community, not a rehearsal for one. It builds
+        chose, which is itself a contribution to their community, not a rehearsal for one. It builds
         self-direction because it replaces "what people say" with "what we found out", and pathways
         because investigating is a transferable move: a learner who has done it once on the hills can
         do it on anything that matters to them next.
@@ -177,8 +177,8 @@ agencyThread:
         Mentoring is the only place all three indicators are held together, in one learner's life,
         across the whole twelve weeks. It is where the goal set in Agency in Learning stays alive
         between sessions, where a learner is helped to notice and name their own state rather than
-        only endure it, where the skills they already use in camp life — caring for siblings,
-        translating, resolving disputes — are surfaced and recognised as capability, and where the
+        only endure it, where the skills they already use in camp life, caring for siblings,
+        translating, resolving disputes, are surfaced and recognised as capability, and where the
         next step towards a pathway is kept honest and near-term. Without it the three taught
         components are three courses; with it they are one person's development.
   byCompetency:
@@ -189,7 +189,7 @@ agencyThread:
       how: >-
         Set and pursue goals is the engine of agency: agency is only real when a learner can decide
         what they want to grow towards and take deliberate steps to get there. Developing it moves a
-        learner from having things decided for them to deciding one thing and following it through —
+        learner from having things decided for them to deciding one thing and following it through, 
         the smallest complete unit of self-direction there is. Because the method transfers, it is also
         how a learner takes hold of a pathway rather than waiting to be placed on one.
     - code: FSI1
@@ -199,7 +199,7 @@ agencyThread:
       how: >-
         Investigate real-world issues turns concern into understanding you can act on: it replaces
         assumption with evidence. Developing it gives a learner a way to find out for themselves
-        instead of accepting what they are told — and when they produce evidence-based insight about a
+        instead of accepting what they are told, and when they produce evidence-based insight about a
         challenge in their own community and share it, they have already made an impactful
         contribution, at whatever scale they could manage.
     - code: FUS1
@@ -209,7 +209,7 @@ agencyThread:
       how: >-
         Developing self-awareness is where agency starts. As learners find the English to introduce
         themselves and choose the words that represent them, they are naming their identity, strengths
-        and what matters to them. All later choice rests on that self-knowledge — you cannot direct a
+        and what matters to them. All later choice rests on that self-knowledge, you cannot direct a
         life you cannot describe. Assessed formatively here, but it underwrites both graded
         competencies.
   howWeSeeIt:
@@ -229,7 +229,7 @@ agencyThread:
     - >-
       Do not turn this into another thing to assess. Agency is what the programme is FOR; the two
       competency judgements are how it is graded. Recording movement in agency informs the readiness
-      picture and NRC's reporting — it is not a third grade.
+      picture and NRC's reporting. It is not a third grade.
 
 studentGains:
   - Self-directed learning habits, goal-setting, planning, tracking progress, and reflecting on growth, built to work for learners who are not yet reading fluently.
@@ -252,8 +252,8 @@ components:
       - Fully offline (printed materials and editable files, distributed via USB or hard drive)
   - title: Research Project
     summary: >-
-      Authored and offline-ready. The whole cohort investigates one shared local challenge — what is
-      happening to the trees on the hills where they live — from a research question they are given, and
+      Authored and offline-ready. The whole cohort investigates one shared local challenge, what is
+      happening to the trees on the hills where they live, from a research question they are given, and
       turns the evidence they gather into insights they share. Secondary research is done from a supplied,
       graded source pack because there is no internet. Each step is taught before it is done: the learner's
       research book carries a "Learn it" page ahead of every working page, and the facilitator unit plan
@@ -270,8 +270,8 @@ components:
       psychosocial support and referral pathways appropriate to the camp context. Not a fixed block of
       hours: about ten minutes per learner most weeks, folded into the in-person time the taught
       components already use, so it adds nothing to the timetable. It comes with a full unit plan built
-      as an arc rather than a sequence — getting known, keeping the goal alive, the week-6 checkpoint,
-      surfacing growth, and an honest closing conversation — plus a fixed ten-minute conversation shape,
+      as an arc rather than a sequence, getting known, keeping the goal alive, the week-6 checkpoint,
+      surfacing growth, and an honest closing conversation, plus a fixed ten-minute conversation shape,
       safeguarding and referral guidance, a mentor's record, and an optional three-way meeting between a
       mentor, a learner and an adult the learner chooses.
     cadence: Ongoing · about 10 minutes per learner, most weeks
@@ -279,7 +279,7 @@ components:
       - Fully offline (printed materials and editable files, distributed via USB or hard drive)
   - title: English Language Development
     summary: >-
-      Authored and offline-ready. A compulsory component in this edition — the whole cohort enters
+      Authored and offline-ready. A compulsory component in this edition, the whole cohort enters
       below B1, so every learner takes it. Delivered through a Cox's Bazar contextualisation of the My
       Voice course (English for Impact Unit 1), rebuilt as an oral and visual first, emergent-literacy
       course for a largely pre-literate cohort: learners begin from the sound of their own name, meet
@@ -302,7 +302,7 @@ mentoring:
   intro: >-
     In this programme, 1:1 mentoring is the spine of wellbeing support: it is where a learner is known
     as a person, where distress is noticed early, and where the learning goals set in Agency in
-    Learning are kept alive between sessions. Mentors here are not counsellors — they build the
+    Learning are kept alive between sessions. Mentors here are not counsellors, they build the
     relationship, notice concerns, and refer along NRC's pathways. The shared practice is the mentor
     moves on the Educators pages; the notes below say how those moves are held in the Cox's Bazar
     context, where displacement, protection risks, and interrupted schooling shape every conversation.
@@ -317,17 +317,17 @@ mentoring:
         Mentoring is folded into the weekly in-person time as short 1:1 or very small-group
         conversations, with no devices and no internet. Mentors keep a light paper record of what they
         notice so each conversation builds on the last, and the rhythm is designed to survive stop-start
-        attendance — you pick up where the learner is, not where the schedule says they should be.
+        attendance. You pick up where the learner is, not where the schedule says they should be.
     - title: Psychosocial support and referral
       detail: >-
         Mentoring is the first line when a learner is struggling, but the mentor's job is to notice,
-        steady, and refer — not to counsel. Know NRC's MHPSS and protection referral pathway before you
+        steady, and refer, not to counsel. Know NRC's MHPSS and protection referral pathway before you
         take a caseload, so that when something surfaces you already know who to hand it to and how.
     - title: Safeguarding and protection
       detail: >-
         All mentoring follows NRC's Code of Conduct and protection principles. No learner ever has to
-        share; mentors are given clear step-back guidance for sensitive ground — loss, family, marriage,
-        displacement — and the safeguarding moves never replace NRC's own policy and referral pathways.
+        share; mentors are given clear step-back guidance for sensitive ground, loss, family, marriage,
+        displacement, and the safeguarding moves never replace NRC's own policy and referral pathways.
   areas:
     - area: wellbeing
       contextNote: >-
@@ -337,8 +337,8 @@ mentoring:
     - area: safeguarding
       contextNote: >-
         Know NRC's safeguarding policy and the camp referral pathway before you mentor anyone.
-        Disclosures here may involve protection risks common in displacement — child marriage, family
-        separation, gender-based violence — so respond calmly, never promise secrecy, and refer.
+        Disclosures here may involve protection risks common in displacement, child marriage, family
+        separation, gender-based violence, so respond calmly, never promise secrecy, and refer.
     - area: progress
       contextNote: >-
         Mentoring keeps the learning goals set in Agency in Learning alive between sessions. Coach
@@ -346,8 +346,8 @@ mentoring:
         step down small, and treat a return after absence as progress, not a fresh start.
     - area: recognising-growth
       contextNote: >-
-        Surface the skills learners are already using in camp life — caring for siblings, translating,
-        running a stall, resolving disputes — and capture that growth orally and visually, since many
+        Surface the skills learners are already using in camp life, caring for siblings, translating,
+        running a stall, resolving disputes, and capture that growth orally and visually, since many
         learners are not yet literate. This evidence feeds the Set and Pursue Goals assessment.
     - area: pathways
       contextNote: >-

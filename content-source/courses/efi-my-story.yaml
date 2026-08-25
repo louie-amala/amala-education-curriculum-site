@@ -1,5 +1,5 @@
-# English for Impact — Unit 2 as a course. Source: LLL Course Guide, Unit 2 "My Story" (pp. 28–31).
-# Competency anchor (FLC2) is authored — see sourceIssues.
+# English for Impact. Unit 2 as a course. Source: LLL Course Guide, Unit 2 "My Story" (pp. 28–31).
+# Competency anchor (FLC2) is authored, see sourceIssues.
 id: efi-my-story
 slug: efi-my-story
 access: public
@@ -19,7 +19,7 @@ throughline:
   fromAgency: >-
     Agency grows in relationship with others. When a learner tells their own story and is heard, and
     when they listen to the stories of peers, a group becomes a community. My Story develops Fostering
-    connection and belonging (FLC2): sharing a meaningful personal narrative — and receiving others' —
+    connection and belonging (FLC2): sharing a meaningful personal narrative, and receiving others',
     is how learners build the trust and belonging that make a learning community, and their own voice
     within it, possible.
   toObjectives: >-
@@ -28,7 +28,7 @@ throughline:
     Author's Reading, where stories are shared and received, foregrounds FLC2.
   develops: >-
     Learners develop FLC2 by shaping a meaningful moment from their life into a story they choose to
-    share, and by listening to their peers' stories — building mutual recognition and belonging in the
+    share, and by listening to their peers' stories. Building mutual recognition and belonging in the
     group.
   demonstrates: >-
     Learners demonstrate FLC2 through a personal narrative and an Author's Reading: a story offered to
@@ -40,7 +40,7 @@ requirements:
   cadence: ≈4–5 weeks
   liveIndependentSplit: 30 live / 20 independent
   notes: >-
-    About 50 hours of structured learning — roughly 30 facilitated (live) and 20 independent —
+    About 50 hours of structured learning, roughly 30 facilitated (live) and 20 independent,
     adaptable to pacing and instructional time. Translanguaging is central:
     learners develop and organise ideas in their Home Language(s) before expressing them in English.
 
@@ -80,7 +80,7 @@ objectives:
     anchorContribution:
       develops: >-
         Learners develop FLC2 by shaping a meaningful moment from their life into a story they choose
-        to share, and by listening to peers' stories — building recognition and belonging in the group.
+        to share, and by listening to peers' stories. Building recognition and belonging in the group.
       demonstrates: >-
         A personal narrative and an Author's Reading demonstrate connection and belonging: a story
         offered to an audience, and the shared experience of hearing one another's lives.
@@ -90,7 +90,7 @@ objectives:
       - Share their story at an Author's Reading with peers or a wider audience, with optional submission to authentic platforms.
     furtherDetails:
       concepts:
-        - Authentic project — The Moment That Shaped Me — a personal narrative developed through translanguaging.
+        - Authentic project, The Moment That Shaped Me, a personal narrative developed through translanguaging.
       activities:
         - An Author's Reading; optional submission to student writing contests.
     competencyEvidence:
@@ -151,7 +151,7 @@ principleMappings:
 designChecklist:
   - The course includes ~20–40 hours of learning experiences integrating phonics, grammar, reading, writing, and speaking.
   - Grammar, phonics, and vocabulary are connected to the unit outcomes and the personal-narrative project.
-  - Opportunities to generate evidence for Amala competencies — especially the anchor FLC2 — are built into the Author's Reading.
+  - Opportunities to generate evidence for Amala competencies, especially the anchor FLC2, are built into the Author's Reading.
 
 sourceIssues:
   - type: competency-mapping-authored

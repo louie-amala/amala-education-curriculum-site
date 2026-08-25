@@ -32,7 +32,7 @@ for (const f of fs.readdirSync(path.join(CS, 'materials')).filter((f) => f.start
   const m = rd(path.join(CS, 'materials', f));
   mat[m.slug] = m;
 }
-// Amala's official proficiency scale — read from the framework so this record cannot drift from it.
+// Amala's official proficiency scale. Read from the framework so this record cannot drift from it.
 const scale = rd(path.join(CS, 'framework', 'proficiency-scale.yaml'));
 const objStatement = (oid) => {
   if (!oid) return null;
@@ -40,7 +40,7 @@ const objStatement = (oid) => {
   const o = course.objectives[n - 1];
   return o ? o.statement.trim() : null;
 };
-const LEAD = { 'facilitator-led': 'You model it first — support stays high', shared: 'Shared — you and the learners, support stays high', 'learner-led': 'Learners own it — support stays high' };
+const LEAD = { 'facilitator-led': 'You model it first, support stays high', shared: 'Shared, you and the learners, support stays high', 'learner-led': 'Learners own it, support stays high' };
 const KIND = { activity: 'Activity', practice: 'Practice', orientation: 'Orientation', consolidation: 'Consolidation', assessment: 'Assessment' };
 
 // ---- house style ----------------------------------------------------------
@@ -57,7 +57,7 @@ const {
   zones, tallyMat, grid, notesPage, box, mdBlocks, contents, printNotes, makeDoc,
 } = S;
 
-// Full original articles — facilitator reference only (Appendix B of the guide). Only sources whose
+// Full original articles. Facilitator reference only (Appendix B of the guide). Only sources whose
 // licence permits reproduction are held here; the others carry a note.
 const ORIGINALS = {
   B: {
@@ -136,15 +136,15 @@ function facilitatorPlanChildren(opts = {}) {
   c.push(H2('How this unit hands over control'));
   c.push(...body(unit.deliveryApproach));
   c.push(H2('How to use this plan'));
-  c.push(P('This plan is set out in hours, not weeks. Work through the phases in order; within a phase, the blocks build on each other. Each block carries its full guidance inline, and where a block teaches a research skill it opens with "What you need to know before you teach this" — the subject knowledge itself, so you do not have to find it elsewhere. The teaching the learners receive is printed in their own research book, on a "Learn it" page before each step; read it aloud to the group. Read "Before you start" and "Safeguarding and protection" first; the source pack the learners read is in Appendix A, the full original articles in Appendix B, and how to assess FSI1 in "Assessing the investigation". Deliver in the language you share with learners. Times are generous on purpose.', { size: 22 }));
+  c.push(P('This plan is set out in hours, not weeks. Work through the phases in order; within a phase, the blocks build on each other. Each block carries its full guidance inline, and where a block teaches a research skill it opens with "What you need to know before you teach this", the subject knowledge itself, so you do not have to find it elsewhere. The teaching the learners receive is printed in their own research book, on a "Learn it" page before each step; read it aloud to the group. Read "Before you start" and "Safeguarding and protection" first; the source pack the learners read is in Appendix A, the full original articles in Appendix B, and how to assess FSI1 in "Assessing the investigation". Deliver in the language you share with learners. Times are generous on purpose.', { size: 22 }));
 
-  if (!opts.embedded) c.push(...printNotes('guide', ['If paper is short, print the phase you are teaching now, plus "Before you start" and "Safeguarding and protection".']), ...contents('The phases of the unit and the reference sections, with the page each one starts on. Blocks are numbered inside each phase (3.2 is the second block of Phase 3). Word fills the numbers in when this file is opened.'));
+  if (!opts.embedded) c.push(...printNotes('guide', ['If paper is short, print the phase you are teaching now, plus "Before you start" and "Safeguarding and protection".']),...contents('The phases of the unit and the reference sections, with the page each one starts on. Blocks are numbered inside each phase (3.2 is the second block of Phase 3). Word fills the numbers in when this file is opened.'));
 
   // The course guide: what the component is working towards, before how it is run.
   c.push(pageBreak());
   c.push(...courseGuideChildren(course, unit, competencies));
 
-  // Before you start — facilitator resources the activity materials assume exist.
+  // Before you start. Facilitator resources the activity materials assume exist.
   const runOff = mat['cb-rp-running-this-offline'];
   if (runOff && runOff.educatorContent) { c.push(pageBreak()); c.push(H1('Before you start')); c.push(...mdBlocks(runOff.educatorContent)); }
   const safe = mat['cb-rp-safeguarding-and-protection'];
@@ -165,7 +165,7 @@ function facilitatorPlanChildren(opts = {}) {
       const m = b.materialSlug ? mat[b.materialSlug] : null;
       if (b.description) c.push(...body(b.description));
       if (m) {
-        // Where the learner's sheet lives, by number — they are holding a separate document.
+        // Where the learner's sheet lives, by number. They are holding a separate document.
         if (m.worksheet && m.worksheet.slug) {
           const idx = sheetIndex();
           const no = idx.get(m.worksheet.slug);
@@ -173,11 +173,11 @@ function facilitatorPlanChildren(opts = {}) {
           const wsm = mat[m.worksheet.slug];
           const name = printed ? printed.heading : (wsm ? wsm.title : m.worksheet.slug);
           c.push(P(no
-            ? `LEARNER SHEET:  Sheet ${no}, \u201c${name}\u201d \u2014 in Our Research Book (a separate file, one per learner).`
-            : `LEARNER SHEET:  \u201c${name}\u201d \u2014 in Our Research Book (a separate file, one per learner).`,
+            ? `LEARNER SHEET:  Sheet ${no}, \u201c${name}\u201d, in Our Research Book (a separate file, one per learner).`
+            : `LEARNER SHEET:  \u201c${name}\u201d, in Our Research Book (a separate file, one per learner).`,
             { size: 20, bold: true, color: OLIVE, after: 100 }));
         }
-        // Label the full write-up without naming the website's material bank — a facilitator in a
+        // Label the full write-up without naming the website's material bank, a facilitator in a
         // CBLF has no such thing, and the block heading already carries the activity's title.
         c.push(mini('The activity, in full'));
         // The subject brief: what the facilitator needs to KNOW to teach this block, not just how to
@@ -212,11 +212,11 @@ function facilitatorPlanChildren(opts = {}) {
     if (pi < unit.phases.length - 1) c.push(pageBreak());
   });
 
-  // Assessing FSI1 — the educator's assessment guide.
+  // Assessing FSI1, the educator's assessment guide.
   const assess = mat['cb-rp-assessing-the-research'];
   if (assess && assess.educatorContent) { c.push(pageBreak()); c.push(H1('Assessing the investigation (FSI1)')); c.push(...mdBlocks(assess.educatorContent)); }
 
-  // Appendix A — the source pack (facilitator copy: educator notes + all graded readings + word bank)
+  // Appendix A, the source pack (facilitator copy: educator notes + all graded readings + word bank)
   const pack = mat['cb-rp-secondary-source-pack'];
   if (pack) {
     c.push(pageBreak());
@@ -225,7 +225,7 @@ function facilitatorPlanChildren(opts = {}) {
     if (pack.learnerContent) { c.push(pageBreak()); c.push(H2('The source cards, as learners read them')); c.push(...mdBlocks(pack.learnerContent)); }
   }
 
-  // Appendix B — full original articles (facilitator reference only)
+  // Appendix B. Full original articles (facilitator reference only)
   c.push(pageBreak());
   c.push(H1('Appendix B - Full original articles (facilitator reference)'));
   c.push(P('The complete originals behind the graded source cards. For your reference and the strongest readers; the student workbook carries the graded versions only.', { size: 22, color: GREY }));
@@ -256,7 +256,7 @@ const evidenceGrid = (nRows) => grid(
 );
 
 // A full-width blank box for the learner to draw/mark/write in.
-// The repeating WEEKLY PURSUIT spread — a scaffolded self-regulation loop for between-session work.
+// The repeating WEEKLY PURSUIT spread, a scaffolded self-regulation loop for between-session work.
 const weeklySpread = (n, withExample) => {
   const c = [];
   c.push(new Paragraph({ children: [new TextRun({ text: `My research week ${n}`, bold: true, size: 23, color: PLUM })], spacing: { before: 160, after: 60 } }));
@@ -282,17 +282,17 @@ const weeklySpread = (n, withExample) => {
 // The page locator strip: where in the book am I. Small, letterspaced, above a hairline rule, so it
 // reads as furniture rather than content and stays findable when flicking through.
 const SUBQ = [
-  'Before, and now — what changed?',
+  'Before, and now. What changed?',
   'A bare hill in the rain and the hot sun',
   'What trees, grass and roots do for the soil and for us',
-  'What people are doing to help — and is it working?',
+  'What people are doing to help, and is it working?',
 ];
 
 const SCAFFOLD = {
   'cb-rp-my-first-thoughts': () => [
     example(['(a drawing of bare hills, brown mud)', 'I see:  bare hills.', 'I wonder:  will the trees come back?']),
-    bold('What I SEE on our hills — draw it:'), box(3600, 'Draw or write it here'),
-    ...writeBox('I wonder', 1), ...writeBox('I wonder', 1), scribe(),
+    bold('What I SEE on our hills, draw it:'), box(3600, 'Draw or write it here'),
+    ...writeBox('I wonder', 1),...writeBox('I wonder', 1), scribe(),
   ],
   'cb-rp-research-book-cover': () => [
     example(['My name / my mark', '(a small drawing of our hills)']),
@@ -302,12 +302,12 @@ const SCAFFOLD = {
     check('I can draw'), check('I can make marks'), check('I can use a few words'), check('No one marks my book right or wrong'),
   ],
   'cb-rp-researcher-growth-path': () => [
-    P('A researcher grows from guessing to finding out. Put a mark where you are — at the start, and again at the end.', { size: BOOK, line: 300 }),
-    example(['guess  —  ask  —  check  —  FIND OUT', '                        ○  (near the start)']),
+    P('A researcher grows from guessing to finding out. Put a mark where you are, at the start, and again at the end.', { size: BOOK, line: 300 }),
+    example(['guess,  ask,  check,  FIND OUT', '                        ○  (near the start)']),
     bold('At the START of our course:', { before: 100 }),
-    P('guess  —  ask  —  check  —  find out', { size: 30, color: NAVY, before: 120 }), box(1100, 'put a ○ where you are'),
+    P('guess,  ask,  check,  find out', { size: 30, color: NAVY, before: 120 }), box(1100, 'put a ○ where you are'),
     bold('At the END of our course:', { before: 140 }),
-    P('guess  —  ask  —  check  —  find out', { size: 30, color: NAVY, before: 120 }), box(1100, 'put a ✓ where you are now'),
+    P('guess,  ask,  check, find out', { size: 30, color: NAVY, before: 120 }), box(1100, 'put a ✓ where you are now'),
   ],
   'cb-rp-what-we-know-page': () => [
     example(['We know:  the hills were full of trees before.', 'We want to find out:  why the soil slides now.']),
@@ -317,23 +317,23 @@ const SCAFFOLD = {
   'cb-rp-our-community-map': () => [
     P('Draw a map of who and what is near our hills.', { size: BOOK, line: 300 }),
     example(['(a hut)  (an elder)  (a bare slope)  (someone planting)']),
-    box(6400, 'Our map — draw or write here'),
+    box(6400, 'Our map, draw or write here'),
     bold('Try to show on your map:'),
     check('Someone who remembers the forest'), check('A place that floods or slides'),
-    check('Someone who plants — or an agency helping'), check('A bare place, and a green place'),
+    check('Someone who plants, or an agency helping'), check('A bare place, and a green place'),
   ],
   'cb-rp-our-question-page': () => [
     bold('OUR QUESTION:', { color: PLUM }),
     P('What happens to our hills without trees, and what changes when trees and plants grow back?', { size: BOOK, line: 300, color: NAVY, after: 140 }),
-    bold('Our four sub-questions — for each, circle how we will find out:'),
-    ...['1.  Before, and now — what changed?', '2.  A bare hill in the rain and the hot sun', '3.  What trees, grass, and roots do for the soil and for us', '4.  What people are doing to help — and is it working?']
+    bold('Our four sub-questions, for each, circle how we will find out:'),
+    ...['1.  Before, and now. What changed?', '2.  A bare hill in the rain and the hot sun', '3.  What trees, grass, and roots do for the soil and for us', '4.  What people are doing to help, and is it working?']
       .flatMap((sq) => [P(sq, { size: BOOK, line: 300, before: 60 }), choices('We will:', ['ask & look', 'source pack', 'both'])]),
   ],
   'cb-rp-asking-permission': () => [
-    bold('Our asking words — say them every time:'),
+    bold('Our asking words, say them every time:'),
     example(['"May I ask you some questions?"', '"Thank you for helping me."']),
     ...slot('Our asking words, in our own language (draw or write):', 2),
-    bold('The rules — keep them every time:', { before: 80 }),
+    bold('The rules, keep them every time:', { before: 80 }),
     check('Ask first'), check('Say why I am asking'), check('They can say no, or stop'), check('No names'), check('Keep everyone safe'),
   ],
   // Four pages: our questions (one open question + its follow-up + the four checks, per sub-question),
@@ -364,7 +364,7 @@ const SCAFFOLD = {
     title('Our short survey'),
     P('A survey question is a small question we ask MANY people, so we can COUNT the answers. So the question must offer people a small number of answers to choose from.', { size: BOOK, line: 300 }),
     example([
-      'Our survey question:  "Where is it cooler — on the bare hill, or under the trees?"',
+      'Our survey question:  "Where is it cooler, on the bare hill, or under the trees?"',
       'The answers people can choose:   on the bare hill   /   the same   /   under the trees',
       'We asked 10 people:      | |         |         | | | |  | |',
       'Most people said:  under the trees.  That is 7 out of 10.',
@@ -410,7 +410,7 @@ const SCAFFOLD = {
     bold('What we are carrying:'),
     check('Our questions, and our follow-ups'), check('Our survey page, and our marks'),
     check('Our asking words'), check('Our gathering page'), check('Something to draw with'),
-    bold('Our ONE most important question — the one we ask if they only have a moment:', { before: 100 }),
+    bold('Our ONE most important question, the one we ask if they only have a moment:', { before: 100 }),
     box(800, ''),
     stem('Who we will ask'), stem('Where'), stem('When'),
     ...writeBox('If they are not there, we will ask', 2),
@@ -420,17 +420,17 @@ const SCAFFOLD = {
     scribe(),
   ],
   'cb-rp-can-we-trust-it': () => [
-    example(['Source:  the company website.', 'Who & why?  a company — it sells trees.', 'How do they know?  no proof shown.', 'Does it agree?  only a little  →  trust LESS.']),
+    example(['Source:  the company website.', 'Who & why?  a company, it sells trees.', 'How do they know?  no proof shown.', 'Does it agree?  only a little  →  trust LESS.']),
     bold('For each source, make the three checks:'),
     ...writeBox('Who made it, and why?', 2),
-    ...writeBox('How do they know — is it still true?', 2),
+    ...writeBox('How do they know, is it still true?', 2),
     ...writeBox('Does it agree with the other sources, and with what WE found?', 2),
     bold('How much can we trust it?', { before: 80 }), choices('', ['a lot', 'some', 'a little']),
   ],
   'cb-rp-our-themes': () => [
     example(['Theme:  "the bare hills are hotter."   ( MANY people said this )']),
     bold('Group what we found into themes. Name each, and how many said it:'),
-    ...[1, 2, 3].flatMap((n) => [bold(`Theme ${n}:`), ...writeBox('What keeps coming up', 2), choices('How many said it?', ['few', 'some', 'many'])]),
+    ...[1, 2, 3].flatMap((n) => [bold(`Theme ${n}:`),...writeBox('What keeps coming up', 2), choices('How many said it?', ['few', 'some', 'many'])]),
   ],
   'cb-rp-our-root-cause': () => [
     example(['The problem:  the soil slides when it rains.', '→ Why?  the hills are bare.', '→ Why?  the trees were cut.', '→ Why?  families needed wood.', '→ Why?  there was no other fuel.', 'ROOT CAUSE:  no other fuel, and many people arrived fast.']),
@@ -447,27 +447,27 @@ const SCAFFOLD = {
   'cb-rp-our-insights': () => [
     example(['Many people said the bare hills are hotter,', 'so I think shade matters,', 'because we felt it is cooler under a tree.']),
     bold('Write our insights. Use the frame, and point to our evidence:'),
-    ...[1, 2].flatMap((n) => [bold(`Insight ${n}:`), ...writeBox('Many people said / I saw', 2), ...writeBox('so I think', 1), ...writeBox('because (our evidence)', 1)]),
+    ...[1, 2].flatMap((n) => [bold(`Insight ${n}:`),...writeBox('Many people said / I saw', 2),...writeBox('so I think', 1),...writeBox('because (our evidence)', 1)]),
   ],
   'cb-rp-our-plan': () => [
     example(['Who:  our families.', 'How:  a poster with pictures.', 'One thing:  trees keep our hills safe.']),
     choices('Who most needs to hear this?', ['friends', 'families', 'community', 'camp leaders']),
     choices('How will we show it?', ['poster', 'talk with pictures', 'role-play', 'story']),
     ...writeBox('The ONE thing we want them to understand', 3),
-    ...writeBox('How we will show it — draw or write our plan', 3),
+    ...writeBox('How we will show it, draw or write our plan', 3),
   ],
   'cb-rp-build-our-output-sheet': () => [
     example(['Main message:  trees keep our hills safe.', 'Evidence:  elders remember; we saw bare hills slide; the science agrees.', 'Honest limit:  we only asked a few people.']),
     ...writeBox('Our main message (one thing)', 2),
-    ...writeBox('Our evidence for it — one, two, three', 3),
+    ...writeBox('Our evidence for it, one, two, three', 3),
     ...writeBox('An honest limit (we only ___)', 2),
     bold('Before we share:', { before: 60 }), check('We practised saying it'), check('We can answer questions about it'),
   ],
   'cb-rp-how-i-have-grown': () => [
     example(['My question was about our hills and trees.', 'I got to:  FIND OUT (I started by guessing).', 'What helped:  asking elders, and looking myself.', 'I would do differently:  ask more people.']),
     ...writeBox('My question was about', 2),
-    bold('I got to here as a researcher — put a ✓ on the path:'),
-    P('guess  —  ask  —  check  —  find out', { size: 30, color: NAVY, before: 120 }), box(1100, 'put a ✓ where you are now'),
+    bold('I got to here as a researcher, put a ✓ on the path:'),
+    P('guess,  ask,  check,  find out', { size: 30, color: NAVY, before: 120 }), box(1100, 'put a ✓ where you are now'),
     ...writeBox('What helped me', 1),
     ...writeBox('One way I have grown', 2),
     ...writeBox('What I would do differently next time', 1),
@@ -496,11 +496,11 @@ function workbookChildren(opts = {}) {
   const c = [];
   if (!opts.embedded) {
     c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 52, color: NAVY })], spacing: { after: 40 } }));
-    c.push(P('Student Workbook — Our Research Book', { size: 30, bold: true, color: PLUM, after: 40 }));
+    c.push(P('Student Workbook, Our Research Book', { size: 30, bold: true, color: PLUM, after: 40 }));
     c.push(P("The trees on our hills  ·  Learning Bridge+ (Cox's Bazar)", { size: BOOK, line: 300, color: GREY, after: 200 }));
   }
-  if (!opts.embedded) c.push(...printNotes('book', ['If you cannot print the whole book, print in this order: the Learn it pages and the pages the learners write on, then the source pack, then the answers page (one copy for the group is enough — it does not have to be in every book).']), ...contents('The parts of your book, and the page each one starts on. Word fills the numbers in when this file is opened.'));
-  c.push(P('This is your research book. It has the sources we read, a page for each week of our research, and pages for each step of our investigation. Before each step there is a LEARN IT page: it teaches you how to do that step — how to ask a good question, how to weigh a source, how to find what our evidence means. Read it again any time, even after our session; it stays in your book. Some Learn it pages end with a TRY IT YOURSELF — you can do it on your own, and the answers are at the back of this book, so you can check them yourself. Then comes an example, and then a place for you to add your own. You can draw, make marks, or use a few words — no neat writing needed.', { size: BOOK, line: 300 }));
+  if (!opts.embedded) c.push(...printNotes('book', ['If you cannot print the whole book, print in this order: the Learn it pages and the pages the learners write on, then the source pack, then the answers page (one copy for the group is enough, it does not have to be in every book).']),...contents('The parts of your book, and the page each one starts on. Word fills the numbers in when this file is opened.'));
+  c.push(P('This is your research book. It has the sources we read, a page for each week of our research, and pages for each step of our investigation. Before each step there is a LEARN IT page: it teaches you how to do that step, how to ask a good question, how to weigh a source, how to find what our evidence means. Read it again any time, even after our session; it stays in your book. Some Learn it pages end with a TRY IT YOURSELF, you can do it on your own, and the answers are at the back of this book, so you can check them yourself. Then comes an example, and then a place for you to add your own. You can draw, make marks, or use a few words, no neat writing needed.', { size: BOOK, line: 300 }));
   c.push(scribe());
 
   const sheetListAt = c.length;
@@ -512,7 +512,7 @@ function workbookChildren(opts = {}) {
     c.push(...mdBlocks(pack.learnerContent));
   }
 
-  // My research weeks — the between-session pursuit loop, scaffolded and printed several times.
+  // My research weeks. The between-session pursuit loop, scaffolded and printed several times.
   c.push(pageBreak());
   c.push(H1('My research weeks'));
   c.push(P('Between our meetings, I do one small step of our research. Each week, I fill one of these. The first one is done as an example.', { size: BOOK, line: 300 }));
@@ -527,7 +527,7 @@ function workbookChildren(opts = {}) {
       if (!m || !m.worksheet || !m.worksheet.slug) return;
       const ws = mat[m.worksheet.slug];
       if (!ws) return;
-      // LEARN IT — the method, taught, before the learner is asked to use it. Offline there is nothing
+      // LEARN IT, the method, taught, before the learner is asked to use it. Offline there is nothing
       // else to look it up in, so the research book has to be a textbook as well as a workbook. It is
       // its own page, not a header on the working page, so a learner can re-read the method while their
       // own page is already filled in.
@@ -546,9 +546,9 @@ function workbookChildren(opts = {}) {
         // drop the readAloud's own top-level heading; the page title already carries it
         c.push(...mdBlocks(String(lt.readAloud || '').replace(/^\s*##\s+.*\n/, '')));
         if (lt.words && lt.words.length) {
-          c.push(noteBox('New words for our word wall:', lt.words.map((w) => `${w.term} — ${w.meaning}`)));
+          c.push(noteBox('New words for our word wall:', lt.words.map((w) => `${w.term}, ${w.meaning}`)));
         }
-        // TRY IT YOURSELF — printed so a learner can do it alone, with the answers (where the skill has
+        // TRY IT YOURSELF. Printed so a learner can do it alone, with the answers (where the skill has
         // right answers) at the BACK of the book rather than on the page. It never says what the
         // facilitator will do: they may run the group version their own way, or not at all.
         if (lt.tryIt) {
@@ -565,7 +565,7 @@ function workbookChildren(opts = {}) {
           });
           if (t.then) c.push(...toParas(t.then).map((x) => P(x, { size: BOOK, line: 300, before: 60 })));
           if ((t.answers || []).length) {
-            c.push(P('The answers are at the back of your book, on the "Answers — try it yourself" page. Try it first, then check.', { size: 20, italics: true, color: GREY, before: 80 }));
+            c.push(P('The answers are at the back of your book, on the "Answers, try it yourself" page. Try it first, then check.', { size: 20, italics: true, color: GREY, before: 80 }));
           }
         }
         c.push(scribe());
@@ -578,19 +578,19 @@ function workbookChildren(opts = {}) {
       c.push(eyebrow(`Sheet ${n}  ·  ${m.title}`, head2.length === 0));
       c.push(title(ws.title));
       if (ws.slug === 'cb-rp-source-pack-evidence-log') {
-        c.push(P('For each source, write or draw what it tells us — the first row is done as an example.', { size: 20, color: GREY, after: 60 }));
+        c.push(P('For each source, write or draw what it tells us, the first row is done as an example.', { size: 20, color: GREY, after: 60 }));
         c.push(grid(['Which source', 'What it tells us', 'New words I met', 'Can I trust it?'], [1700, 4600, 2200, 2300],
-          ['Source B (FAO)', 'workers plant trees to hold the soil', 'crib wall, monsoon', 'a lot — UN, with numbers'], 6));
+          ['Source B (FAO)', 'workers plant trees to hold the soil', 'crib wall, monsoon', 'a lot. UN, with numbers'], 6));
       } else if (ws.slug === 'cb-rp-gathering-record') {
         // One page per interview, anchored to our four sub-questions, so the answers land against the
-        // question they answer instead of in one undifferentiated pile. Three pages — the target is
+        // question they answer instead of in one undifferentiated pile. Three pages, the target is
         // three interviews each. Then a page for what we saw with our own eyes.
         c.push(P('Use one page for each person you ask. Write or draw what they said, next to the sub-question it answers. Never write anyone\u2019s name.', { size: 20, color: GREY, after: 60 }));
         c.push(example([
           'Who I asked:  an elder, near the water point.    When:  Thursday, after school.',
           '1. Before & now  →  "there were big trees, and shade all the way up" (drew tall trees)',
           '2. Rain & hot sun  →  "the water comes down fast now, it takes the path away"',
-          'One thing that surprised me:  how fast the trees went — she said only a few years.',
+          'One thing that surprised me:  how fast the trees went, she said only a few years.',
         ]));
         for (let n = 1; n <= 3; n++) {
           if (n > 1) {
@@ -603,13 +603,13 @@ function workbookChildren(opts = {}) {
             new TextRun({ text: 'Who I asked (no names)  ', size: 21 }), new TextRun({ text: '____________________     ', size: 21, color: LINE }),
             new TextRun({ text: 'When  ', size: 21 }), new TextRun({ text: '____________________', size: 21, color: LINE }),
           ], spacing: { after: 120 } }));
-          SUBQ.forEach((sq, i) => c.push(...slot(`${i + 1}.  ${sq}  —  what they said (draw, mark, or write):`, 3)));
+          SUBQ.forEach((sq, i) => c.push(...slot(`${i + 1}.  ${sq}, what they said (draw, mark, or write):`, 3)));
           c.push(...writeBox('One thing that surprised me', 1));
           c.push(scribe());
         }
         c.push(eyebrow('Go and gather', true));
         c.push(title('What I saw with my own eyes'));
-        c.push(P('Not everything comes from asking. Go and look — at a bare place, and at a green place. What is different?', { size: BOOK, line: 300 }));
+        c.push(P('Not everything comes from asking. Go and look, at a bare place, and at a green place. What is different?', { size: BOOK, line: 300 }));
         c.push(grid(['The place', 'What I saw there', 'What it tells us about our question'], [2800, 4000, 4000],
           ['the bare slope by the path', 'cracks, and a channel the water cut', 'water runs fast where nothing holds it'], 4));
         c.push(scribe());
@@ -630,7 +630,7 @@ function workbookChildren(opts = {}) {
     pageBreak(),
   );
 
-  // ANSWERS — at the BACK, so a learner can try each "Try it yourself" honestly and then check it
+  // ANSWERS. At the BACK, so a learner can try each "Try it yourself" honestly and then check it
   // themselves. Only skills with right answers appear here; a generative task has no key.
   const withAnswers = [];
   unit.phases.forEach((ph) => ph.blocks.forEach((b) => {
@@ -640,8 +640,8 @@ function workbookChildren(opts = {}) {
   }));
   if (withAnswers.length) {
     c.push(pageBreak());
-    c.push(H1('Answers — try it yourself'));
-    c.push(P('Do the "Try it yourself" on the Learn it page first, then look here. Getting one wrong is useful — go back and read that page again, and see why.', { size: BOOK, line: 300 }));
+    c.push(H1('Answers, try it yourself'));
+    c.push(P('Do the "Try it yourself" on the Learn it page first, then look here. Getting one wrong is useful, go back and read that page again, and see why.', { size: BOOK, line: 300 }));
     withAnswers.forEach(({ m, t }) => {
       c.push(H2(m.learnerTeaching.title));
       t.items.forEach((it, i) => {
@@ -661,7 +661,7 @@ function workbookChildren(opts = {}) {
 }
 
 // ============================================================ PICTURE-WORD CARDS
-// Parse the programme word bank out of the source pack's learnerContent (bullets "term — meaning (Source X)").
+// Parse the programme word bank out of the source pack's learnerContent (bullets "term, meaning (Source X)").
 function wordBank() {
   const pack = mat['cb-rp-secondary-source-pack'];
   const lc = (pack && pack.learnerContent) || '';
@@ -673,9 +673,9 @@ function wordBank() {
     if (inWB && t.startsWith('## ')) break;
     if (inWB && t.startsWith('- ')) {
       const item = t.slice(2);
-      const parts = item.split(' — ');
+      const parts = item.split(', ');
       const term = parts[0].trim();
-      const meaning = parts.slice(1).join(' — ').replace(/\s*\(Sources?[^)]*\)\s*$/, '').trim();
+      const meaning = parts.slice(1).join(', ').replace(/\s*\(Sources?[^)]*\)\s*$/, '').trim();
       if (term) out.push({ term, meaning });
     }
   }
@@ -705,12 +705,12 @@ const cardCell = (term, meaning) => new TableCell({
 function cardsChildren() {
   const c = [];
   c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 44, color: NAVY })], spacing: { after: 40 } }));
-  c.push(P('Picture-word cards — our research words', { size: 26, bold: true, color: PLUM, after: 40 }));
+  c.push(P('Picture-word cards, our research words', { size: 26, bold: true, color: PLUM, after: 40 }));
   c.push(P("Learning Bridge+ (Cox's Bazar)  ·  The trees on our hills", { size: 20, color: GREY, after: 160 }));
   c.push(P('Print and cut out along the lines. Each card has a research word, what it means, and a space to draw it. Draw the picture together with the group, and build the cards into the word wall as the course goes. There are blank cards at the end for learners’ own words.', { size: 22, after: 160 }));
   const items = [
-    { term: 'Our hills — before', meaning: 'the hills full of trees, long ago (draw the forested hills)' },
-    { term: 'Our hills — now', meaning: 'the bare slopes today (draw the bare hills)' },
+    { term: 'Our hills, before', meaning: 'the hills full of trees, long ago (draw the forested hills)' },
+    { term: 'Our hills, now', meaning: 'the bare slopes today (draw the bare hills)' },
     ...wordBank(),
     ...teachingWords(),
     { term: '', meaning: '' }, { term: '', meaning: '' },
@@ -723,7 +723,7 @@ function cardsChildren() {
   const cardW = Math.floor(COL / 2);
   c.push(new Table({
     width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [cardW, cardW],
-    // dashed, because these are meant to be cut apart — the border is a cutting line, and saying so
+    // dashed, because these are meant to be cut apart. The border is a cutting line, and saying so
     // with the line itself beats a sentence telling people to cut carefully
     borders: {
       top: { style: BorderStyle.DASHED, size: 4, color: LINE },
@@ -739,12 +739,12 @@ function cardsChildren() {
 }
 
 // ============================================================ ASSESSMENT RECORD (facilitator, copy per learner)
-// The levels, GPA values and generic descriptors come from framework/proficiency-scale.yaml — Amala's
-// official scale — so the record can never drift from it. Only the FSI1 reading is written here.
+// The levels, GPA values and generic descriptors come from framework/proficiency-scale.yaml, Amala's
+// official scale, so the record can never drift from it. Only the FSI1 reading is written here.
 const FSI1_READING = {
   none: 'Cannot say what they would try to find out about the issue, or how, and why.',
-  theorist: 'Can say what they want to find out, who they would ask and what they would read, and why — but has not acted on it.',
-  practitioner: 'Actually investigated — asked and looked, and used the source pack — with reasons for how they went about it, even if it has not yet become an insight.',
+  theorist: 'Can say what they want to find out, who they would ask and what they would read, and why, but has not acted on it.',
+  practitioner: 'Actually investigated, asked and looked, and used the source pack, with reasons for how they went about it, even if it has not yet become an insight.',
   reflective: 'The research reached an evidence-backed insight they can communicate, and they can say what worked in how they investigated, what did not, and what they would do differently, with evidence.',
   expert: 'A second, distinct investigation in which they carried through an improvement identified in the first.',
 };
@@ -768,10 +768,10 @@ const scaleTable = () => {
 function rubricChildren() {
   const c = [];
   c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 44, color: NAVY })], spacing: { after: 40 } }));
-  c.push(P('Assessment record — Investigate real-world issues (FSI1)', { size: 24, bold: true, color: PLUM, after: 40 }));
-  c.push(P("Learning Bridge+ (Cox's Bazar)  ·  Facilitator — make one copy per learner", { size: 20, color: GREY, after: 160 }));
-  c.push(P('Judge each learner by your professional judgement against Amala’s proficiency scale, from evidence gathered across the whole research book — not from the final output alone. Full guidance is in the facilitator guide ("Assessing the investigation"). Tick the level and write one or two lines of evidence for why.', { size: 22, after: 120 }));
-  c.push(P('The scale is generic: one ladder, read against the goal FSI1 names — the learner can conduct primary and secondary research into challenges affecting people and the planet to develop actionable insights. Credit begins at Practitioner, which is also the readiness bar for the accredited secondary pathway. Expert needs two or more genuinely different scenarios, so it rarely comes from this component alone.', { size: 20, color: GREY, after: 160 }));
+  c.push(P('Assessment record, Investigate real-world issues (FSI1)', { size: 24, bold: true, color: PLUM, after: 40 }));
+  c.push(P("Learning Bridge+ (Cox's Bazar)  ·  Facilitator, make one copy per learner", { size: 20, color: GREY, after: 160 }));
+  c.push(P('Judge each learner by your professional judgement against Amala’s proficiency scale, from evidence gathered across the whole research book, not from the final output alone. Full guidance is in the facilitator guide ("Assessing the investigation"). Tick the level and write one or two lines of evidence for why.', { size: 22, after: 120 }));
+  c.push(P('The scale is generic: one ladder, read against the goal FSI1 names, the learner can conduct primary and secondary research into challenges affecting people and the planet to develop actionable insights. Credit begins at Practitioner, which is also the readiness bar for the accredited secondary pathway. Expert needs two or more genuinely different scenarios, so it rarely comes from this component alone.', { size: 20, color: GREY, after: 160 }));
   c.push(P('Learner: ______________________________', { size: 22, after: 200 }));
   const point = (title) => {
     c.push(H2(title));
@@ -779,10 +779,10 @@ function rubricChildren() {
     c.push(P('Evidence for the judgement (question & plan · evidence log & how they weighed sources · findings → insight · output & answering questions):', { size: 18, color: GREY, after: 40, before: 160 }));
     c.push(box(2200, ''));
   };
-  point('Midway (formative) — around the end of "Plan and conduct research"');
+  point('Midway (formative), around the end of "Plan and conduct research"');
   c.push(P('Provisional, made with Amala’s support and calibration: a checkpoint that tells you where to put your support next, not the final grade.', { size: 18, italics: true, color: GREY, before: 80 }));
   c.push(pageBreak());
-  point('End (summative) — at the showcase');
+  point('End (summative), at the showcase');
   c.push(P('This is the judgement that counts towards the certificated competency and the readiness decision.', { size: 18, italics: true, color: GREY, before: 80 }));
   c.push(P('Levels, GPA values and generic descriptors are Amala’s official Competency Framework and Proficiency Scale (cohorts starting 2025).', { size: 16, color: GREY, before: 200 }));
   return c.filter(Boolean);

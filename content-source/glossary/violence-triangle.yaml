@@ -7,18 +7,18 @@ matchPhrases:
 - galtung's violence triangle
 - violence triangle
 definition: >-
-  Johan Galtung's model showing three connected forms of violence — direct, structural, and
-  cultural — that reinforce one another.
+  Johan Galtung's model showing three connected forms of violence, direct, structural, and
+  cultural, that reinforce one another.
 explainer: |
   The violence triangle is a planning tool for seeing violence as a system rather than a set of
   isolated incidents. Galtung placed three forms at its corners:
 
-  - [Direct violence](/glossary/direct-violence) — visible harm by an identifiable actor.
-  - [Structural violence](/glossary/structural-violence) — harm built into unfair systems.
-  - [Cultural violence](/glossary/cultural-violence) — beliefs and narratives that justify the other two.
+  - [Direct violence](/glossary/direct-violence), visible harm by an identifiable actor.
+  - [Structural violence](/glossary/structural-violence), harm built into unfair systems.
+  - [Cultural violence](/glossary/cultural-violence), beliefs and narratives that justify the other two.
 
   The point of the triangle is the connections between the corners. Cultural violence legitimises
-  structural violence, which produces the grievances that erupt as direct violence — a cycle that
+  structural violence, which produces the grievances that erupt as direct violence. A cycle that
   keeps regenerating unless all three are addressed. Focusing only on the visible corner (stopping
   the fighting) leaves the engine running.
 
@@ -26,7 +26,7 @@ explainer: |
   what harm is visible, what structures produce it, and what beliefs make it seem acceptable?
   Working towards [positive peace](/glossary/positive-peace) means acting on all three.
 furtherReading:
-- title: "Galtung, J. — Violence, Peace, and Peace Research (1969)"
+- title: "Galtung, J.. Violence, Peace, and Peace Research (1969)"
   url: https://journals.sagepub.com/doi/10.1177/002234336900600301
   source: Journal of Peace Research
   note: Introduces direct and structural violence; cultural violence was added in Galtung's later work.

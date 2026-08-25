@@ -1,4 +1,4 @@
-# English for Impact — My Voice (Unit 1) teaching activity. Phonics Part 1.
+# English for Impact. My Voice (Unit 1) teaching activity. Phonics Part 1.
 # Source: LLL Course Guide Unit 1 phonics focus + Phonics Progression Part 1 (pp. 25, 49).
 # Approach grounded in LESLLA practice for older learners: oral first, a few sounds + one short vowel
 # at a time, decode CVC words, use meaningful words; these learners are literate in their Home
@@ -9,15 +9,15 @@ access: public
 type: activity
 title: "The alphabet and your first English sounds"
 summary: >-
-  Learners meet the English alphabet and their first sound–letter links — short vowels a, o, u and the
-  consonants s, t, l, m, n — and use them to read and build their first simple words, starting their
+  Learners meet the English alphabet and their first sound–letter links, short vowels a, o, u and the
+  consonants s, t, l, m, n, and use them to read and build their first simple words, starting their
   own Phonics Table.
 facilitationContext: [group, independent]
 primaryContext: group
 deliveryAdaptations:
 - context: group
   how: >-
-    As designed. Learners hear each sound, say it together, then find it in real words — ideally their
+    As designed. Learners hear each sound, say it together, then find it in real words. Ideally their
     own names and words they know. Keep the pace brisk: these learners already read and write in their
     Home Language(s), so the work is linking known ideas to new letters, not learning to read from zero.
 - context: independent
@@ -43,14 +43,14 @@ facilitationNotes: |
   learners say it back, then show the letter and find the sound in real words. Teach a few consonants
   with one short vowel so learners can immediately read whole words (s, t, l, m, n + short a give sat,
   mat, tan, lam…), which is far more motivating than letters in isolation. Use learners' own names and
-  familiar words wherever you can. Welcome translanguaging — comparing an English sound to one in a
+  familiar words wherever you can. Welcome translanguaging, comparing an English sound to one in a
   Home Language helps it stick. Keep it low-pressure and celebrate the first words read.
 steps:
-- title: "Meet the alphabet — by ear first"
+- title: "Meet the alphabet, by ear first"
   duration: "12–15 min"
   guidance: |
     Say the name and sound of each letter and have learners repeat, pointing to the letter as you go.
-    Do not drill all 26 to mastery — the aim is familiarity and the idea that letters carry sounds.
+    Do not drill all 26 to mastery, the aim is familiarity and the idea that letters carry sounds.
     Ask learners which letters look or sound like ones in their Home Language(s), and let them say so;
     those bridges speed everything up.
   keyPrompts:
@@ -67,7 +67,7 @@ steps:
   guidance: |
     Explain simply that vowels (a, e, i, o, u) open the mouth and are the centre of most words, and
     consonants are the sounds around them. Focus on the short sounds of a, o, u (as in ant, orange,
-    umbrella). Say each, have learners say it, and collect a couple of example words for each — adding
+    umbrella). Say each, have learners say it, and collect a couple of example words for each. Adding
     them to the Phonics Table.
   keyPrompts:
   - What is your mouth doing when you say this vowel?
@@ -81,11 +81,11 @@ steps:
   duration: "15–20 min"
   guidance: |
     Introduce the consonants s, t, l, m, n by sound. Then model blending: s–a–t → "sat". Have learners
-    build and read simple CVC words with letter tiles, cards, or writing — sat, mat, tan, lot, sun,
+    build and read simple CVC words with letter tiles, cards, or writing. Sat, mat, tan, lot, sun,
     nut. Keep every word real and sayable; act them out or picture them. Note the hard "k" sound
     (c, k, ck) if it comes up in a learner's name or word.
   keyPrompts:
-  - What sound comes first? Next? Last? Now say them together — what word is it?
+  - What sound comes first? Next? Last? Now say them together, what word is it?
   - Can you make another word by changing just the first sound?
   watchOuts:
   - Dropping the final consonant (saying "sa" for "sat"); English marks meaning at the end of words, so gently insist on the final sound (sun vs sup).
@@ -110,7 +110,7 @@ principleAlignment:
     to bridge from the languages and literacy they already have.
 - principle: safe-spaces
   how: >-
-    The activity is low-pressure and success-oriented — hear, say, build — with errors treated as a
+    The activity is low-pressure and success-oriented, hear, say, build, with errors treated as a
     normal part of learning, so beginners feel safe to try aloud.
 - principle: lifeworthy-competencies
   how: >-
@@ -121,7 +121,7 @@ competencyDevelopment:
 - code: FLC3
   how: >-
     Beginning to decode and pronounce English words is the ground floor of reading, writing, and
-    speaking so as to be understood — the start of communication in the new language.
+    speaking so as to be understood. The start of communication in the new language.
 objectiveIds: [efi-my-voice--o1]
 relatedSlugs: [efi-phonics-table, efi-phonics-table-student, efi-phonics-progression, efi-mv-plosive-sounds, efi-mv-words-about-me]
 sourceRefs: ["Amala_English for Impact A1-A2 Course Guide by The Language Learning Lab (April 25, 2026).pdf, Unit 1 phonics focus + §10c Part 1"]
@@ -133,4 +133,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

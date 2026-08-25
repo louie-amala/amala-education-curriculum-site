@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 function hrs(h: number): string {
-  if (h <= 0) return "—";
+  if (h <= 0) return ", ";
   if (h < 1) return `${Math.round(h * 60)} min`;
   return `${h}h`;
 }
@@ -96,19 +96,19 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-[#3C4655]">{u.summary}</p>
 
-        {/* A cadence-based component (Mentoring and Wellbeing) adds no hours of its own — it runs inside
-            the other components' in-person time — so it shows its rhythm instead of an hours badge. */}
+        {/* A cadence-based component (Mentoring and Wellbeing) adds no hours of its own, it runs inside
+            the other components' in-person time, so it shows its rhythm instead of an hours badge. */}
         <div className="mt-6 flex flex-wrap gap-2 text-sm">
           {u.cadence ? (
             <>
               <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 font-semibold text-navy">{u.cadence}</span>
-              <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 text-[#5A6473]">Runs alongside the taught components — no hours of its own</span>
+              <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 text-[#5A6473]">Runs alongside the taught components, no hours of its own</span>
             </>
           ) : (
             <>
               <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 font-semibold text-navy">{total} hours</span>
               <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 text-[#5A6473]">{u.totalFacilitatedHours}h in-person · {u.totalIndependentHours}h independent</span>
-              <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 text-[#5A6473]">Set out in hours — fit your own schedule</span>
+              <span className="rounded-full border border-[#E7E3DA] bg-white px-3.5 py-1.5 text-[#5A6473]">Set out in hours, fit your own schedule</span>
             </>
           )}
         </div>
@@ -153,7 +153,7 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
 
         {/* What this component is for. The three taught components state this by linking to their course;
             a course-less component (Mentoring and Wellbeing) carries `purpose` and `aims` on the unit
-            itself, and this is where they render — the same content the printed guide opens with. */}
+            itself, and this is where they render. The same content the printed guide opens with. */}
         {(u.purpose || u.aims.length > 0) && (
           <section className="mt-10">
             <p className={`${eyebrow} text-plum`}>What this component is for</p>
@@ -185,7 +185,7 @@ export default async function UnitPage({ params }: { params: Promise<{ slug: str
           </section>
         )}
 
-        {/* In this unit — overview */}
+        {/* In this unit, overview */}
         <section className="mt-10">
           <p className={`${eyebrow} text-[#8A93A1]`}>In this unit</p>
           <ol className="mt-3 divide-y divide-[#ECE8DF] overflow-hidden rounded-xl border border-[#E7E3DA] bg-white">

@@ -1,12 +1,12 @@
 # Student worksheet (resource) for the activity cb-rp-sort-and-theme. Thin per §3: what the sheet is and
-# how the learner uses it. Ships no file of its own — its printable version compiles into the Research
+# how the learner uses it. Ships no file of its own, its printable version compiles into the Research
 # Project student workbook. Learning Bridge+ (Cox's Bazar) edition.
 id: cb-rp-our-themes
 slug: cb-rp-our-themes
 access: partner
 edition: learning-bridge-coxs-bazar
 type: resource
-title: "Our themes — what keeps coming up"
+title: "Our themes, what keeps coming up"
 summary: >-
   A page to record the clusters the group made when sorting the evidence: each theme's name and the
   patterns inside it, so the analysis is kept for the step where we ask what it all means.
@@ -15,7 +15,7 @@ facilitationContext:
 - independent
 primaryContext: independent
 learnerContent: |
-  ## Our themes — what keeps coming up
+  ## Our themes: what keeps coming up
 
   After we sorted our cards into groups on the floor, use this page to keep the themes we found. Write or
   draw one theme at a time.
@@ -34,7 +34,7 @@ agencyContribution:
   - control-of-future-pathways
   how: >-
     Keeping a clear record of the patterns in the evidence is how a researcher holds on to their thinking
-    between steps — a habit that serves any future investigation.
+    between steps, a habit that serves any future investigation.
 objectiveIds: [research-project--o3]
 relatedSlugs: [cb-rp-sort-and-theme, cb-rp-findings-to-insights]
 provenanceNote: >-
@@ -44,4 +44,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.

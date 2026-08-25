@@ -1,6 +1,6 @@
 # The nine Learning Foundations principles (spec §5.2).
 # Source: Amala Learning Foundations, Draft VS14. Authoritative over the course guides,
-# which carry only 8 (they omit principle 7 — see NOTES.md).
+# which carry only 8 (they omit principle 7, see NOTES.md).
 # Each principle: generic markers from the Foundations. Per-course "inThisCourse"
 # mappings live on each course (from the course guides).
 - id: builds-on-identities
@@ -116,7 +116,7 @@
     plays in it.
   note: >-
     Not present as a distinct row in any 2025 course guide's principle table. Per-course
-    "inThisCourse" mappings therefore missing everywhere — see NOTES.md.
+    "inThisCourse" mappings therefore missing everywhere, see NOTES.md.
   designLooksLike:
     - Learners supported to articulate the pathways they are working towards
     - Explicit conversations about how competencies being developed transfer into further education, work, and enterprise
@@ -132,7 +132,7 @@
   statement: Learning is shaped by ongoing feedback and data.
   gloss: >-
     Programmes improve when they listen. Amala treats feedback and data as the engine of
-    continuous improvement — at the level of a single session, a single programme, and the
+    continuous improvement, at the level of a single session, a single programme, and the
     model as a whole.
   designLooksLike:
     - Input gathered from learners, educators, community members, and other stakeholders

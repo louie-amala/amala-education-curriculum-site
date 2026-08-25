@@ -1,6 +1,6 @@
 # Programme-level student worksheet (resource) for the Learning Bridge+ (Cox's Bazar) edition. The
-# LEARNER's side of the two assessment points. The programme protects two windows — a supported
-# judgement at Week 6 and a final one at Week 12 — but every artefact at those points was an educator
+# LEARNER's side of the two assessment points. The programme protects two windows, a supported
+# judgement at Week 6 and a final one at Week 12, but every artefact at those points was an educator
 # record (the FSL2 and FSI1 assessment records). Component-level growth pages exist for one competency
 # each (cb-ail-getting-better-at-goals for FSL2, cb-rp-how-i-have-grown for FSI1); nothing spanned both,
 # and nothing was filled at the same two moments the educator makes their judgement.
@@ -9,7 +9,7 @@
 # alongside the rest, and a conversation-starter at the Week-6 checkpoint.
 #
 # The five steps are the learner-facing reading of Amala's five-level Proficiency Scale
-# (framework/proficiency-scale.yaml), phrased in the first person and without the level names — so a
+# (framework/proficiency-scale.yaml), phrased in the first person and without the level names, so a
 # learner marks where they are without needing to read a rubric. Belongs to no single unit; its
 # printable version compiles into the programme-wide student workbook (Part 4).
 id: cb-my-growth-across-the-programme
@@ -17,10 +17,10 @@ slug: cb-my-growth-across-the-programme
 access: partner
 edition: learning-bridge-coxs-bazar
 type: resource
-title: "How I have grown — my whole programme"
+title: "How I have grown, my whole programme"
 summary: >-
-  The learner's own growth check across both assessed competencies — setting and pursuing goals, and
-  investigating a real issue — marked once in the middle of the programme and again at the end, on the
+  The learner's own growth check across both assessed competencies, setting and pursuing goals, and
+  investigating a real issue. Marked once in the middle of the programme and again at the end, on the
   same two weeks the educator makes their supported and final judgements. Two marks on one page, so a
   learner can see the distance they moved rather than only where they ended.
 facilitationContext:
@@ -31,7 +31,7 @@ learnerContent: |
   ## How I have grown
 
   You fill this page twice: once in the middle of the programme, and once at the end. Use a different
-  mark each time — a tick the first time and a cross the second, or two different colours — so you can
+  mark each time, a tick the first time and a cross the second, or two different colours, so you can
   see how far you moved between them.
 
   Your facilitator will read each line aloud. There are no wrong answers, and this page is not your
@@ -42,7 +42,7 @@ learnerContent: |
   Mark the one that is most like you now.
 
   - I am not sure how to set a goal for myself, or what to do about it.
-  - I can say what goal I would set, and what steps I would take — but I have not done it yet.
+  - I can say what goal I would set, and what steps I would take, but I have not done it yet.
   - I set a goal of my own, and I took real steps towards it. I can say why I chose it.
   - I reached a goal I set. I can say what helped me, what did not, and what I would do differently.
   - I have reached more than one goal, and I did the second one better because of what I learned in the
@@ -53,7 +53,7 @@ learnerContent: |
   Mark the one that is most like you now.
 
   - I am not sure how to find out about something. I would just guess.
-  - I can say how I would find out — who I would ask, or where I would look — but I have not done it yet.
+  - I can say how I would find out, who I would ask, or where I would look, but I have not done it yet.
   - I went and found out. I asked people or looked at sources, and I kept a record of what I found.
   - I found out, and I can say what my findings mean, and which of my sources I trust more, and why.
   - I have found out about more than one thing, and the second time I did it better because of what I
@@ -62,7 +62,7 @@ learnerContent: |
   ## What I can do now, that is mine
 
   These three are not about the courses. They are about you, and what you can change. Draw or mark
-  your answer, or say it out loud — a drawing is a full answer, and nobody marks this.
+  your answer, or say it out loud. A drawing is a full answer, and nobody marks this.
 
   - **Something I made better for someone else.** Anything, however small: something I helped with,
     taught someone, fixed, or spoke up about.
@@ -80,14 +80,14 @@ learnerContent: |
 
   You do not have to write. A drawing is a full answer.
 educatorContent: |
-  Run this twice, in the same weeks you make your own judgements — Week 6 and Week 12 — and run it
+  Run this twice, in the same weeks you make your own judgements, Week 6 and Week 12, and run it
   BEFORE you make each judgement, not after. At Week 6 it is one of the most useful things you will do:
   where a learner's self-mark and your provisional judgement disagree, that gap is exactly the
   conversation to have, and exactly the place to look for evidence you have not gathered yet.
 
   This is not the grade, and learners should be told so. The two assessment records (FSL2 for Agency
   in Learning, FSI1 for the Research Project) carry your judgement. This page is one more piece of
-  evidence alongside the workbooks, the steps actually taken, and what learners say and do — and it is
+  evidence alongside the workbooks, the steps actually taken, and what learners say and do, and it is
   often the piece that tells you *why* a learner did what they did.
 
   Read it aloud, line by line, in the language you share with learners. Most of the cohort is not yet
@@ -95,7 +95,7 @@ educatorContent: |
   stopping at the first line they understand. Let learners answer the "in my own words" section by
   speaking or drawing; scribe for them if they ask.
 
-  Two marks, one page — that is the point. Use a tick at Week 6 and a cross at Week 12, or two
+  Two marks, one page. That is the point. Use a tick at Week 6 and a cross at Week 12, or two
   colours. A learner who cannot read a rubric can still see two marks and the distance between them, and
   for many learners in this cohort that visible distance is the first evidence they have ever had that
   they are moving.
@@ -104,15 +104,14 @@ educatorContent: |
   against, in the first person and with the level names removed. Do not show learners the level names or
   the GPA values; they are for your record, not theirs.
 
-  If your cohort has not reached a ladder yet — for instance if the Research Project started later than
-  the other components — leave it blank and say so plainly, rather than asking learners to mark
+  If your cohort has not reached a ladder yet, for instance if the Research Project started later than
+  the other components, leave it blank and say so plainly, rather than asking learners to mark
   something they have not done.
 
   ## The three "what I can do now" lines
 
-  These three are the learner-facing reading of Amala's three indicators of agency for positive change
-  — contribution to community, control of future pathways, and power over wellbeing and self-direction
-  — in the order they appear on the page. Agency is what the whole programme is FOR, and until now the
+  These three are the learner-facing reading of Amala's three indicators of agency for positive change,
+   contribution to community, control of future pathways, and power over wellbeing and self-direction, in the order they appear on the page. Agency is what the whole programme is FOR, and until now the
   only thing recorded at Week 6 and Week 12 was competency. These three lines are how movement in it
   gets noticed in a cohort that is largely not yet literate: one plain question each, answerable by
   speaking or drawing.
@@ -122,7 +121,7 @@ educatorContent: |
   could not think of anything at Week 6 and names something real at Week 12 has moved, whatever their
   competency judgement says.
 
-  Expect the first line — something I made better for someone else — to be the hardest, and expect
+  Expect the first line, something I made better for someone else, to be the hardest, and expect
   learners to undervalue what they already do. Prompt from camp life if they are stuck: who do you help
   at home, who do you translate for, who asks you things. Their answer to that is legitimate evidence
   for the Set and Pursue Goals judgement too.
@@ -136,7 +135,7 @@ agencyContribution:
   how: >-
     Being able to see and name your own growth is the difference between being assessed and taking part in
     the assessment. Marking the same ladder twice makes progress visible to the learner themselves, not
-    only to the educator — and for a cohort whose schooling has been repeatedly interrupted, evidence that
+    only to the educator, and for a cohort whose schooling has been repeatedly interrupted, evidence that
     they moved is evidence that effort works, which is the ground everything else in the programme stands
     on.
 objectiveIds: []
@@ -144,7 +143,7 @@ relatedSlugs: [cb-ail-getting-better-at-goals, cb-ail-reflecting-on-your-growth,
 provenanceNote: >-
   Authored for the Learning Bridge+ (Cox's Bazar) edition. The five steps in each ladder are the
   learner-facing, first-person reading of Amala's five-level Proficiency Scale
-  (framework/proficiency-scale.yaml), read for FSL2 and FSI1 respectively — the same ladder the educator
+  (framework/proficiency-scale.yaml), read for FSL2 and FSI1 respectively. The same ladder the educator
   assessment records use, so the two cannot describe different things. Closes the gap that the two
   assessment windows had learner-facing growth pages for one competency each, and neither was tied to
   Week 6 and Week 12. Thin by design; its printable version compiles into the programme-wide student
@@ -152,4 +151,4 @@ provenanceNote: >-
 rights:
   status: amala-own
   basis: >-
-    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material — if you find third-party expression on this page, correct the status.
+    Descends only from Amala's own course materials or from other content in this repository, per this material's sourceRefs and provenanceNote. Classified in bulk from that provenance on 2026-08-24, not from an individual reading of the material. If you find third-party expression on this page, correct the status.
