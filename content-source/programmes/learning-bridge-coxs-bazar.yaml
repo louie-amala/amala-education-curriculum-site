@@ -76,6 +76,26 @@ downloads:
       full facilitator unit plan for all three taught components. Parts 7–9: the three learner books, the
       printable cards, and the two assessment records. The component packs below are the same content
       split into separate files, for when you only need one piece. Editable.
+  - label: My Learning Book — the Agency in Learning learner book
+    file: /downloads/agency-in-learning-student-workbook.docx
+    format: Word
+    note: >-
+      The learner book for Agency in Learning on its own, if you are printing the three components
+      separately rather than as one book. Opens with a numbered list of its sheets — the facilitator
+      plan points into it by sheet number. Print one per learner. Editable.
+  - label: My Voice book — the English learner book
+    file: /downloads/my-voice-student-workbook.docx
+    format: Word
+    note: >-
+      The learner book for English on its own. Opens with a numbered list of its sheets, which is how
+      the facilitator plan refers to them. Print one per learner. Editable.
+  - label: Our Research Book — the Research Project learner book
+    file: /downloads/research-project-student-workbook.docx
+    format: Word
+    note: >-
+      The learner book for the Research Project on its own — the Learn it pages, the source cards, the
+      evidence log and the analysis pages. Opens with a numbered list of its sheets. Print one per
+      learner. Editable.
   - label: Student Workbook — one book per learner
     file: /downloads/lb-coxs-bazar-student-workbook.docx
     format: Word

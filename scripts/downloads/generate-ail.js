@@ -71,6 +71,20 @@ function blockChildren(b) {
     if (meta.length) c.push(P(meta.join('   ·   '), { size: 20, color: GREY, after: 100 }));
     // The subject brief: what a facilitator needs to KNOW to teach this block, not just how to run
     // it. Offline this is the only place they can read it, so it comes before the practical detail.
+    // Where the learner's sheet for this block lives, by sheet number — the educator is holding a
+    // different document, so "the workbook page" was not enough to find it by.
+    if (m.worksheet && m.worksheet.slug) {
+      const idx = sheetIndex();
+      const ws = mat[m.worksheet.slug];
+      const no = idx.get(m.worksheet.slug) || (ws && idx.get(ws.title));
+      // The name as PRINTED in the book, so the educator and the learner are looking for the same thing.
+      const printed = SHEET_LIST.find((x) => x.n === no);
+      const name = printed ? printed.heading : (ws ? ws.title : m.worksheet.slug);
+      c.push(P(no
+        ? `LEARNER SHEET:  Sheet ${no}, \u201c${name}\u201d \u2014 in My Learning Book (a separate file, one per learner).`
+        : `LEARNER SHEET:  \u201c${name}\u201d \u2014 in My Learning Book (a separate file, one per learner).`,
+        { size: 20, bold: true, color: OLIVE, after: 100 }));
+    }
     if (m.educatorContent) c.push(...mdBlocks(m.educatorContent));
     if (m.learnerTeaching) {
       c.push(P(`The learners have this taught in their own book, on the \u201c${m.learnerTeaching.title}\u201d page \u2014 read it aloud to the group.`, { size: 20, italics: true, color: GREY, after: 100 }));
@@ -224,7 +238,14 @@ const weeklySpread = (weeks) => {
 // opts.embedded drops the cover page, so the programme-wide student workbook (generate-lb-guides.js)
 // can carry these pages behind its own single cover instead of a fourth one. The standalone
 // download passes nothing and is unchanged.
+// Sheet numbers for the learner book, and the index the facilitator plan quotes. Built by running the
+// workbook builder, so the number printed in the plan is by construction the number printed in the book.
+let sheetSeq = 0;
+const SHEET_NO = new Map();
+const SHEET_LIST = [];
+
 function workbookChildren(opts = {}) {
+  sheetSeq = 0; SHEET_NO.clear(); SHEET_LIST.length = 0;
   const c = [];
   // Every activity page is followed by a whole sheet of open, lined space. The scaffolded pages ask
   // for particular things in particular slots; this is where anything they did not ask for can go.
@@ -233,7 +254,11 @@ function workbookChildren(opts = {}) {
   const page = (phase, title, heading, instr, sheet) => {
     currentPage = heading;
     if (sheet) emitted.add(sheet);
-    c.push(eyebrowPair(phase, title));
+    const n = ++sheetSeq;
+    SHEET_NO.set(heading, n);
+    if (sheet && !SHEET_NO.has(sheet)) SHEET_NO.set(sheet, n);
+    SHEET_LIST.push({ n, heading, phase });
+    c.push(eyebrowPair(`Sheet ${n}  ·  ${phase}`, title));
     c.push(...bigTitle(heading, instr));
   };
   const endPage = () => {
@@ -291,6 +316,12 @@ function workbookChildren(opts = {}) {
     // the cover has no activity page to close, so it takes a plain break — endPage() would add a
     // notes sheet for a page that does not exist
     c.push(...S.printNotes('book', [], true), ...S.contents('The parts of your book, and the page each one starts on. Word fills the numbers in when this file is opened.'));
+  }
+  // A definitive, numbered list of the sheets, spliced in once they have all been emitted. The Word
+  // contents field lists headings and needs updating; this list is always right, and it is what the
+  // facilitator plan's "Sheet 7" refers to.
+  const sheetListAt = c.length;
+  {
   }
 
   // --- Getting started ---
@@ -526,6 +557,13 @@ function workbookChildren(opts = {}) {
     throw new Error('Agency in Learning workbook has no page for these unit-plan activities:\n' + missing.join('\n'));
   }
 
+  c.splice(sheetListAt, 0,
+    P('The sheets in this book', { size: 26, bold: true, color: NAVY, before: 200, after: 60 }),
+    P('Your facilitator will say a sheet number. Find it here.', { size: 20, color: GREY, after: 100 }),
+    ...SHEET_LIST.map((x) => P(`Sheet ${x.n}   ${x.heading}`, { size: 21, after: 20 })),
+    pageBreak(),
+  );
+
   // ANSWERS — at the back, so a learner can do each "Try it yourself" honestly and then check it
   // themselves. Only skills with right answers appear; a generative task has no key.
   if (withAnswers.length) {
@@ -599,7 +637,15 @@ function rubricChildren() {
 }
 
 // ============================================================ EXPORTS / WRITE
+// Build the sheet index by running the workbook builder once and discarding the output, so the plan
+// can quote sheet numbers even when it is rendered before the book (as in the Educator Guide).
+function sheetIndex() {
+  if (!SHEET_NO.size) workbookChildren();
+  return SHEET_NO;
+}
+
 module.exports = {
+  sheetIndex, SHEET_LIST,
   unit, mat, facilitatorPlanChildren, planFrontMatter, phaseChildren, blockChildren, workbookChildren,
   rubricChildren, scaleTable,
 };

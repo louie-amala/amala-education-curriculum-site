@@ -144,6 +144,20 @@ function facilitatorPlanChildren(opts = {}) {
         if (m.materialsAndPreparation && m.materialsAndPreparation.length) { c.push(mini('Materials and preparation')); m.materialsAndPreparation.forEach((x) => c.push(bullet(x))); }
         // The subject brief: what a facilitator needs to KNOW to teach this block. Offline this is the
         // only place they can read it, so it comes before the practical detail.
+        // Where the learner's sheet lives, by number — they are holding a separate document.
+        if (m.worksheet && m.worksheet.slug) {
+          const idx = sheetIndex();
+          const ws = mat[m.worksheet.slug];
+          const no = idx.get(b.title) || idx.get(m.title) || (ws && idx.get(ws.title));
+          // Use the name as PRINTED in the book, not the material's own title — otherwise the educator
+          // is told to find a sheet under a name the learner's book does not use.
+          const printed = SHEET_LIST.find((x) => x.n === no);
+          const name = printed ? printed.heading : (ws ? ws.title : m.title);
+          c.push(P(no
+            ? `LEARNER SHEET:  Sheet ${no}, \u201c${name}\u201d \u2014 in the My Voice book (a separate file, one per learner).`
+            : `LEARNER SHEET:  \u201c${name}\u201d \u2014 in the My Voice book (a separate file, one per learner).`,
+            { size: 20, bold: true, color: OLIVE, after: 100 }));
+        }
         if (m.educatorContent) c.push(...mdBlocks(m.educatorContent));
         if (m.learnerTeaching) {
           c.push(P(`The learners have this taught in their own book, on the \u201c${m.learnerTeaching.title}\u201d page \u2014 read it aloud to the group.`, { size: 20, italics: true, color: GREY, after: 100 }));
@@ -202,7 +216,13 @@ const wbTitle = (t, sub) => [
 // to" line), so the programme-wide student workbook (generate-lb-guides.js) carries these sheets
 // behind its own single cover. The "Set up your My Voice book" activity itself — draw yourself — is
 // kept, because it is an activity in the unit, not decoration. Standalone download is unchanged.
+// Sheet numbers for the My Voice book, and the index the plan quotes. See generate-ail.js.
+let sheetSeq = 0;
+const SHEET_NO = new Map();
+const SHEET_LIST = [];
+
 function workbookChildren(opts = {}) {
+  sheetSeq = 0; SHEET_NO.clear(); SHEET_LIST.length = 0;
   const c = [];
   // Shared page furniture, so the three learner books read as one when they are bound together.
   const eyebrow2 = (t, br) => eyebrow(t, br);
@@ -210,7 +230,11 @@ function workbookChildren(opts = {}) {
   let currentPage = null;
   const head = (activity, title, instr) => {
     currentPage = activity;
-    c.push(eyebrow2(activity));
+    const n = ++sheetSeq;
+    SHEET_NO.set(activity, n);
+    SHEET_NO.set(title, n);
+    SHEET_LIST.push({ n, heading: title });
+    c.push(eyebrow2(`Sheet ${n}  ·  ${activity}`));
     c.push(...wbTitle(title, instr));
   };
   const endPage = () => {
@@ -296,6 +320,7 @@ function workbookChildren(opts = {}) {
   // "How to use this book" rides with the printing notes rather than taking a fifth of a sheet on its
   // own; the live contents follows.
   if (!opts.embedded) c.push(...printNotes('book'));
+  const sheetListAt = c.length;
   c.push(H2(opts.embedded ? 'The sheets in this part' : 'How to use this book', opts.embedded));
   c.push(P('There is one sheet for each activity in My Voice, and a page for your own notes after it. Your facilitator will tell you which sheet to use.', { size: BOOK, line: 300 }));
   c.push(modelBox([
@@ -553,6 +578,13 @@ function workbookChildren(opts = {}) {
   c.push(new Paragraph({ spacing: { before: 180, after: 40 }, children: [new TextRun({ text: 'How far have I come?  Mark it:      start  •————————————————•  now', size: 21, color: OLIVE })] }));
   c.push(scribeNote());
 
+  c.splice(sheetListAt, 0,
+    P('The sheets in this book', { size: 26, bold: true, color: NAVY, before: 200, after: 60 }),
+    P('Your facilitator will say a sheet number. Find it here.', { size: 20, color: GREY, after: 100 }),
+    ...SHEET_LIST.map((x) => P(`Sheet ${x.n}   ${x.heading}`, { size: 21, after: 20 })),
+    pageBreak(),
+  );
+
   // ANSWERS — at the back, so a learner can try each self-check honestly and mark themselves.
   if (withAnswers.length) {
     c.push(pageBreak());
@@ -609,7 +641,12 @@ const FOOTER_TEXT = "My Voice  ·  Learning Bridge+ (Cox's Bazar)";
 const FOOTER_BOOK = 'My Voice Book  ·  you can draw or say your answer';
 const doc = (children, opts = {}) => makeDoc(children, { footerText: opts.footer || FOOTER_TEXT });
 
-module.exports = { unit, mat, facilitatorPlanChildren, workbookChildren, cardsChildren };
+function sheetIndex() {
+  if (!SHEET_NO.size) workbookChildren();
+  return SHEET_NO;
+}
+
+module.exports = { unit, mat, facilitatorPlanChildren, workbookChildren, cardsChildren, sheetIndex, SHEET_LIST };
 
 // ============================================================ WRITE
 async function main() {

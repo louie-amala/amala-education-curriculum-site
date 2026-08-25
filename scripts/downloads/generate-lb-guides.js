@@ -198,10 +198,10 @@ function weekMapTable() {
 const PACK_ROWS = [
   ['Educator Guide (this document)', 'You', 'One per educator. Everything below is inside it too — print the parts you need.'],
   ['Coordinator Guide', 'Your coordinator', 'One per coordinator. You do not need to print it.'],
-  ['Student Workbook (“My Learning Book”) — the whole programme in one book', 'Learners', 'One per learner — the simplest thing to print. It holds all three learner books below, plus the learner’s mentoring page and growth check. Print this OR the three separate books, not both.'],
-  ['Agency in Learning — student workbook (“My Learning Book”)', 'Learners', 'One per learner. Part 7A here. Already inside the Student Workbook above.'],
-  ['My Voice — student workbook (“My Voice book”)', 'Learners', 'One per learner. Part 7B here. Already inside the Student Workbook above.'],
-  ['Research Project — student workbook (“Our Research Book”)', 'Learners', 'One per learner. Part 7C here. Already inside the Student Workbook above.'],
+  ['Student Workbook (“My Learning Book”) — the whole programme in one book', 'Learners', 'One per learner — the simplest thing to print. A SEPARATE FILE, not inside this guide. It holds all three learner books, plus the learner’s mentoring page and growth check. Print this OR the three separate books, not both.'],
+  ['Agency in Learning — student workbook (“My Learning Book”)', 'Learners', 'One per learner. A SEPARATE FILE, not inside this guide. Already inside the Student Workbook above.'],
+  ['My Voice — student workbook (“My Voice book”)', 'Learners', 'One per learner. A SEPARATE FILE, not inside this guide. Already inside the Student Workbook above.'],
+  ['Research Project — student workbook (“Our Research Book”)', 'Learners', 'One per learner. A SEPARATE FILE, not inside this guide. Already inside the Student Workbook above.'],
   ['My Voice — letter & picture cards', 'The group', 'One set per group, printed and cut out. Part 8A here.'],
   ['Research Project — picture-word cards', 'The group', 'One set per group, printed and cut out. Part 8B here.'],
   ['Agency in Learning — picture cards (PDF)', 'The group', 'One set per group, printed and cut out. On the USB only — a PDF, so it is not reproduced in this guide.'],
@@ -414,7 +414,7 @@ function educatorGuide() {
 
   // ---------------------------------------------------------------- How to use this guide
   c.push(H1('How to use this guide'));
-  c.push(P('This is your complete manual. You should not need any other document to deliver Learning Bridge+ (Cox’s Bazar): the full plan for all three components, the learner books to print, the cards to cut out, and the assessment records are all inside it, in the order you will need them.', { size: 22 }));
+  c.push(P('This is your complete manual for DELIVERING the programme: the full plan for all four components, the cards to cut out, and the records are all inside it, in the order you will need them. The learner books are separate files — you print those, you do not read them from here — and Part 7 says which is which and how this plan points into them.', { size: 22 }));
   c.push(P('Read Parts 1 to 3 before you start — they take about an hour and they carry everything that is shared across the programme. After that you live in Parts 4 to 6, one part per component, session by session. Parts 7 to 9 are the things you print and hand out.', { size: 22 }));
   c.push(refTable(['Part', 'What is in it', 'When you use it'], [
     [{ lines: ['1'] }, { lines: ['Before you start — your three roles, how we deliver here, what a week could look like, the 12-week rhythm, and the week-by-week map of all three components.'] }, { lines: ['Read first.'], color: GREY }],
@@ -423,7 +423,7 @@ function educatorGuide() {
     [{ lines: ['4'] }, { lines: ['Agency in Learning — the full 50-hour plan, every session’s guidance inline.'] }, { lines: ['Every session.'], color: GREY }],
     [{ lines: ['5'] }, { lines: ['English (My Voice) — the full 50-hour plan, plus how to teach beginner English to pre-literate learners, and the phonics reference.'] }, { lines: ['Every session.'], color: GREY }],
     [{ lines: ['6'] }, { lines: ['Research Project — the full 50-hour plan, plus the source pack and the full original articles for your reference.'] }, { lines: ['Every session.'], color: GREY }],
-    [{ lines: ['7'] }, { lines: ['The three learner books, ready to print — one per learner, per component.'] }, { lines: ['Print before Week 1.'], color: GREY }],
+    [{ lines: ['7'] }, { lines: ['Where the learner books are — they are separate files, not printed inside this guide — and how the plan points into them by sheet number.'] }, { lines: ['Read once, before Week 1.'], color: GREY }],
     [{ lines: ['8'] }, { lines: ['The cards to print and cut out.'] }, { lines: ['Print before Week 1.'], color: GREY }],
     [{ lines: ['9'] }, { lines: ['The two assessment records — one copy per learner, per assessed competency.'] }, { lines: ['Copy before Week 1; fill at Weeks 6 and 12.'], color: GREY }],
   ], [800, 6400, 3600]));
@@ -592,24 +592,25 @@ function educatorGuide() {
   c.push(...embed(() => RP.facilitatorPlanChildren({ embedded: true })));
 
   // ---------------------------------------------------------------- PART 7: the learner books
-  part(7, 'The learner books — print one per learner', 'Three books, one per component. Print each learner a copy before Week 1, or work from one held-up copy and learners’ own notebooks.');
+  // The learner books used to be reproduced here in full — three books, ~37,000 words, inside a guide
+  // an educator reads to deliver from. They are a separate resource: the educator does not read them,
+  // they print them. So this part is now a pointer, and the books ship as their own files alongside
+  // this guide. The plan quotes SHEET NUMBERS, which is how an educator finds a page in them.
+  part(7, 'The learner books — where they are, and what to print', 'The books are separate files, not reproduced here. This says which one is which, and how the plan points into them.');
   c.push(pageBreak());
-  sec('7A  Agency in Learning — “My Learning Book”');
-  c.push(P('One visual-first page per activity: the Learner Profile pages, the goal, the plan, and the growth pages. It is the learner’s record of the whole component, and it is where most of your Set and Pursue Goals evidence comes from.', { size: 22, color: GREY }));
-  c.push(pageBreak());
-  c.push(...embed(() => AIL.workbookChildren({ embedded: true }), 2));
-
-  c.push(pageBreak());
-  sec('7B  English — the “My Voice book”');
-  c.push(P('One sheet per activity, in unit order: the name pages, the sound and word pages, the sentence frames, the My Name My Voice card, and the "I can…" sheet you mark at the start and again at the end.', { size: 22, color: GREY }));
-  c.push(pageBreak());
-  c.push(...embed(() => MV.workbookChildren({ embedded: true }), 2));
-
-  c.push(pageBreak());
-  sec('7C  Research Project — “Our Research Book”');
-  c.push(P('The source cards learners read (graded B1 and A1/A2 versions), the research word bank, and a page for each step of the investigation.', { size: 22, color: GREY }));
-  c.push(pageBreak());
-  c.push(...embed(() => RP.workbookChildren({ embedded: true }), 2));
+  c.push(P('Each learner needs their own book. The books are separate downloads, in the same place you got this guide — they are not printed inside it, because you deliver from this guide and you only ever print those.', { size: 22 }));
+  c.push(twoCol(['The file', 'What is in it'], [
+    ['Student Workbook — the whole programme in one book\n(lb-coxs-bazar-student-workbook.docx)', 'All three learner books in one, plus the mentoring page and the growth self-check. ONE print job per learner for the whole twelve weeks. Print this, or the three separate books below — not both.'],
+    ['My Learning Book\n(agency-in-learning-student-workbook.docx)', 'Agency in Learning: the Learn it pages, the Learner Profile, the goal, the plan, the weekly steps and the growth pages. Most of your Set and Pursue Goals evidence comes from here.'],
+    ['My Voice book\n(my-voice-student-workbook.docx)', 'English: the "I can…" check, the name and sound pages, the word collection, the sentence frames, the practice weeks and the My Name My Voice card.'],
+    ['Our Research Book\n(research-project-student-workbook.docx)', 'The Research Project: the Learn it pages, the source cards learners read, the evidence log, the gathering pages and the analysis pages.'],
+  ]));
+  c.push(callout('How the plan points into them', [
+    'Every block in Parts 4 to 6 that has a learner sheet names it like this: LEARNER SHEET: Sheet 7, "My steps".',
+    'Each learner book opens with "The sheets in this book" — a numbered list. Say the number, and learners can find it.',
+    'Sheet numbers are used rather than page numbers on purpose. The books are separate files, so Word cannot cross-reference into them — and every file here is yours to edit, so a page number would break the first time you cut a page. A sheet number survives that.',
+  ], OLIVE));
+  c.push(P('If you cut sheets from a learner book, the numbers of the sheets after it will shift. Renumber "The sheets in this book" at the front if you do, or tell learners which sheets you removed.', { size: 21, italics: true, color: GREY }));
 
   // ---------------------------------------------------------------- PART 8: the cards
   part(8, 'Cards to print and cut out', 'One set per group. Print on the heaviest paper you have, cut along the lines, and keep each set together.');

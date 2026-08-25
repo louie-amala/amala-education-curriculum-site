@@ -165,6 +165,18 @@ function facilitatorPlanChildren(opts = {}) {
       const m = b.materialSlug ? mat[b.materialSlug] : null;
       if (b.description) c.push(...body(b.description));
       if (m) {
+        // Where the learner's sheet lives, by number — they are holding a separate document.
+        if (m.worksheet && m.worksheet.slug) {
+          const idx = sheetIndex();
+          const no = idx.get(m.worksheet.slug);
+          const printed = SHEET_LIST.find((x) => x.n === no);
+          const wsm = mat[m.worksheet.slug];
+          const name = printed ? printed.heading : (wsm ? wsm.title : m.worksheet.slug);
+          c.push(P(no
+            ? `LEARNER SHEET:  Sheet ${no}, \u201c${name}\u201d \u2014 in Our Research Book (a separate file, one per learner).`
+            : `LEARNER SHEET:  \u201c${name}\u201d \u2014 in Our Research Book (a separate file, one per learner).`,
+            { size: 20, bold: true, color: OLIVE, after: 100 }));
+        }
         // Label the full write-up without naming the website's material bank — a facilitator in a
         // CBLF has no such thing, and the block heading already carries the activity's title.
         c.push(mini('The activity, in full'));
@@ -469,7 +481,18 @@ const SCAFFOLD = {
 // stems/slots to fill in place), in course order. Compiled from the unit + cb-rp materials.
 // opts.embedded drops the standalone cover and colophon so the programme-wide student workbook
 // (generate-lb-guides.js) can carry these pages behind its own single cover.
+// Sheet numbers for the research book, and the index the plan quotes. See generate-ail.js.
+let sheetSeq = 0;
+const SHEET_NO = new Map();
+const SHEET_LIST = [];
+
+function sheetIndex() {
+  if (!SHEET_NO.size) workbookChildren();
+  return SHEET_NO;
+}
+
 function workbookChildren(opts = {}) {
+  sheetSeq = 0; SHEET_NO.clear(); SHEET_LIST.length = 0;
   const c = [];
   if (!opts.embedded) {
     c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 52, color: NAVY })], spacing: { after: 40 } }));
@@ -480,6 +503,7 @@ function workbookChildren(opts = {}) {
   c.push(P('This is your research book. It has the sources we read, a page for each week of our research, and pages for each step of our investigation. Before each step there is a LEARN IT page: it teaches you how to do that step — how to ask a good question, how to weigh a source, how to find what our evidence means. Read it again any time, even after our session; it stays in your book. Some Learn it pages end with a TRY IT YOURSELF — you can do it on your own, and the answers are at the back of this book, so you can check them yourself. Then comes an example, and then a place for you to add your own. You can draw, make marks, or use a few words — no neat writing needed.', { size: BOOK, line: 300 }));
   c.push(scribe());
 
+  const sheetListAt = c.length;
   // The source pack, as learners read it (graded readings + word bank; no full originals)
   const pack = mat['cb-rp-secondary-source-pack'];
   if (pack && pack.learnerContent) {
@@ -548,7 +572,10 @@ function workbookChildren(opts = {}) {
       }
       const head2 = openPart();
       c.push(...head2);
-      c.push(eyebrow(`${m.title}`, head2.length === 0));
+      const n = ++sheetSeq;
+      SHEET_NO.set(ws.slug, n);
+      SHEET_LIST.push({ n, heading: ws.title });
+      c.push(eyebrow(`Sheet ${n}  ·  ${m.title}`, head2.length === 0));
       c.push(title(ws.title));
       if (ws.slug === 'cb-rp-source-pack-evidence-log') {
         c.push(P('For each source, write or draw what it tells us — the first row is done as an example.', { size: 20, color: GREY, after: 60 }));
@@ -595,6 +622,13 @@ function workbookChildren(opts = {}) {
       c.push(...notesPage(m.title));
     });
   });
+
+  c.splice(sheetListAt, 0,
+    P('The sheets in this book', { size: 26, bold: true, color: NAVY, before: 200, after: 60 }),
+    P('Your facilitator will say a sheet number. Find it here.', { size: 20, color: GREY, after: 100 }),
+    ...SHEET_LIST.map((x) => P(`Sheet ${x.n}   ${x.heading}`, { size: 21, after: 20 })),
+    pageBreak(),
+  );
 
   // ANSWERS — at the BACK, so a learner can try each "Try it yourself" honestly and then check it
   // themselves. Only skills with right answers appear here; a generative task has no key.
@@ -762,7 +796,7 @@ const FOOTER_GUIDE = "Research Project  ·  Learning Bridge+ (Cox's Bazar)";
 const FOOTER_BOOK = 'Our Research Book  ·  you can draw or say your answer';
 const doc = (children, opts = {}) => makeDoc(children, { footerText: opts.footer || FOOTER_GUIDE });
 
-module.exports = { unit, mat, facilitatorPlanChildren, workbookChildren, cardsChildren, rubricChildren };
+module.exports = { unit, mat, facilitatorPlanChildren, workbookChildren, cardsChildren, rubricChildren, sheetIndex, SHEET_LIST };
 
 // ============================================================ WRITE
 async function main() {
