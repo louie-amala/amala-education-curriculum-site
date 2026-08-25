@@ -31,6 +31,9 @@ const unit = rd(path.join(CS, 'units', 'coxs-bazar-agency-in-learning.yaml'));
 // Amala's official proficiency scale — read from the framework so the record cannot drift from it.
 const scale = rd(path.join(CS, 'framework', 'proficiency-scale.yaml'));
 const course = rd(path.join(CS, 'courses', 'agency-in-learning.yaml'));
+// The competency framework, for the anchor competency's official title and goal in the course guide.
+const competencies = rd(path.join(CS, 'framework', 'competencies.yaml'));
+const { courseGuideChildren } = require('./lib/course-guide');
 const mat = {};
 for (const f of fs.readdirSync(path.join(CS, 'materials')).filter((f) => f.startsWith('cb-ail-'))) {
   const m = rd(path.join(CS, 'materials', f));
@@ -142,6 +145,10 @@ function referenceSection(slug, heading) {
 function facilitatorPlanChildren() {
   return [
     ...planFrontMatter(),
+    // The course guide: what the component is working towards. Without it the plan says what to do,
+    // session by session, and never what any of it is for.
+    pageBreak(),
+    ...courseGuideChildren(course, unit, competencies),
     ...referenceSection('cb-ail-running-this-offline', 'Before you start'),
     ...referenceSection('cb-ail-safeguarding-and-protection', 'Safeguarding and protection'),
     pageBreak(),

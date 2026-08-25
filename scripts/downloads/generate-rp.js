@@ -24,6 +24,9 @@ const rd = (p) => yaml.parse(fs.readFileSync(p, 'utf8'));
 
 const unit = rd(path.join(CS, 'units', 'coxs-bazar-research-project.yaml'));
 const course = rd(path.join(CS, 'courses', 'research-project.yaml'));
+// The competency framework, for the anchor competency's official title and goal in the course guide.
+const competencies = rd(path.join(CS, 'framework', 'competencies.yaml'));
+const { courseGuideChildren } = require('./lib/course-guide');
 const mat = {};
 for (const f of fs.readdirSync(path.join(CS, 'materials')).filter((f) => f.startsWith('cb-rp-'))) {
   const m = rd(path.join(CS, 'materials', f));
@@ -136,6 +139,10 @@ function facilitatorPlanChildren(opts = {}) {
   c.push(P('This plan is set out in hours, not weeks. Work through the phases in order; within a phase, the blocks build on each other. Each block carries its full guidance inline, and where a block teaches a research skill it opens with "What you need to know before you teach this" — the subject knowledge itself, so you do not have to find it elsewhere. The teaching the learners receive is printed in their own research book, on a "Learn it" page before each step; read it aloud to the group. Read "Before you start" and "Safeguarding and protection" first; the source pack the learners read is in Appendix A, the full original articles in Appendix B, and how to assess FSI1 in "Assessing the investigation". Deliver in the language you share with learners. Times are generous on purpose.', { size: 22 }));
 
   if (!opts.embedded) c.push(...printNotes('guide', ['If paper is short, print the phase you are teaching now, plus "Before you start" and "Safeguarding and protection".']), ...contents('The phases of the unit and the reference sections, with the page each one starts on. Blocks are numbered inside each phase (3.2 is the second block of Phase 3). Word fills the numbers in when this file is opened.'));
+
+  // The course guide: what the component is working towards, before how it is run.
+  c.push(pageBreak());
+  c.push(...courseGuideChildren(course, unit, competencies));
 
   // Before you start — facilitator resources the activity materials assume exist.
   const runOff = mat['cb-rp-running-this-offline'];

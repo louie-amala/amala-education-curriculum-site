@@ -17,6 +17,9 @@ const rd = (p) => yaml.parse(fs.readFileSync(p, 'utf8'));
 
 const unit = rd(path.join(CS, 'units', 'coxs-bazar-my-voice.yaml'));
 const course = rd(path.join(CS, 'courses', 'efi-my-voice.yaml'));
+// The competency framework, for the anchor competency's official title and goal in the course guide.
+const competencies = rd(path.join(CS, 'framework', 'competencies.yaml'));
+const { courseGuideChildren } = require('./lib/course-guide');
 const mat = {};
 for (const f of fs.readdirSync(path.join(CS, 'materials')).filter((f) => f.startsWith('cb-mv-'))) {
   const m = rd(path.join(CS, 'materials', f));
@@ -81,6 +84,10 @@ function facilitatorPlanChildren(opts = {}) {
   c.push(...body(unit.deliveryApproach));
   c.push(H2('Assessing English progress'));
   c.push(...body(unit.assessmentNote));
+  // The course guide: what the component is working towards, before how it is taught.
+  c.push(pageBreak());
+  c.push(...courseGuideChildren(course, unit, competencies));
+
   // How to teach this well — the facilitator playbook, up front (the method behind every activity)
   const playbook = mat['cb-mv-facilitator-playbook'];
   if (playbook && playbook.educatorContent) {
