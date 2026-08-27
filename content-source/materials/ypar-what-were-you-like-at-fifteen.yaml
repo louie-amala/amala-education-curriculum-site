@@ -1,0 +1,245 @@
+id: ypar-what-were-you-like-at-fifteen
+slug: ypar-what-were-you-like-at-fifteen
+access: public
+type: activity
+title: "What were you like at fifteen? Pairing young people with the adults they work with"
+summary: >-
+  Adults and young people interview each other about the adults' own teenage years, and find the
+  common ground that makes a working partnership possible.
+facilitationContext: [group, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, and it needs adults in the room: the staff, volunteers or partners the young people
+      will actually be working with. Run without them it becomes a discussion about adults in general,
+      which is a different and much weaker session.
+  - context: one-to-one-mentoring
+    how: >-
+      Works well as an early mentoring conversation, and is one of the few structured ways for a mentor
+      to be the one answering questions. What is lost is the cross-group comparison, so the mentor
+      should be ready for the exchange to stay personal rather than becoming a finding.
+duration: 30 to 45 minutes.
+grouping: Pairs, ideally one adult and one young person, then whole group.
+materialsAndPreparation:
+  - "The questions, on paper or read aloud. Keep them visible during the pairs, because the pair will otherwise drift into small talk."
+  - "Adults. As many as you can get of the ones who will actually be working with this group. This is the real preparation and it is worth chasing."
+  - "A board for the whole-group notes."
+  - "A briefing for the adults beforehand: they are answering, at length and honestly, and this is not a session where they facilitate."
+whatLearnersDo:
+  - Interview an adult about what they were like, and what they cared about, at fifteen.
+  - Answer the same questions about themselves.
+  - Report one of their partner's stories back to the whole group.
+  - Draw out what the two generations in the room have in common and where they differ.
+educatorContent: |
+  ## What it is for
+
+  A youth-adult partnership requires the two sides to be able to see each other as people who have
+  something in common. This is the cheapest reliable way to produce that, and it works because it
+  inverts the usual direction: for thirty minutes the adult is the one being asked about their life
+  and the young person is the one asking.
+
+  Run it early, before the group has to negotiate anything with these adults.
+
+  ## Get the adults there, and brief them
+
+  The session is worth little without the actual adults. Chase them, and brief them beforehand on two
+  points:
+
+  - **You are answering, not facilitating.** The most common failure is an adult who turns their pair
+    into a session about the young person, out of professional habit.
+  - **Answer properly.** A guarded, tidy account of being fifteen produces a guarded, tidy
+    conversation. The adults who say something real about being lost, or angry, or excluded at that
+    age are the ones who change the room.
+
+  ## The question that carries the session
+
+  Most of the questions are warm-up. The one that does the work is: **what could the adults around you
+  have done to help you take part more?** It is the only question that produces something the group can
+  act on, and it is asked of the adults, about their own adults. Their answers are, in effect, a list of
+  what they should now be doing for the young people in front of them, arrived at by the adults
+  themselves rather than demanded of them.
+
+  Leave enough time to reach it. Facilitators routinely run out of time three questions earlier.
+
+  ## Adapt for these cohorts
+
+  The source asks about being fifteen in an assumed settled life: where you lived, what you wore, what
+  your community involvement was. For Amala's learners and often for their adults, the honest answers
+  may involve displacement, interrupted schooling and loss.
+
+  That is not a reason to avoid the activity. Handled carefully it is the reason it lands, because
+  adults in these settings frequently have histories closer to their learners' than either side
+  assumes. Two adjustments:
+
+  - **Offer the questions, do not require them.** Say at the start that either person may skip any
+    question without explaining.
+  - **Ask about what mattered, not about circumstances.** "What was important to you at fifteen" is
+    answerable by anyone; "where did you live" may not be.
+
+  Where learners are themselves fifteen or younger, they answer about their lives now.
+
+  ## Where it sits
+
+  Pairs with [objects, recipients, resources](/materials/ypar-how-adults-see-young-people) and
+  [where are we on the ladder](/materials/ypar-ladder-of-participation), which are analytical about
+  the same relationship. Run this one first: it is much easier to have the analytical conversation
+  with people you have already talked to properly.
+facilitationNotes: >-
+  The one thing to get right is reaching the last question, what could the adults around you have done
+  to help you take part more. Everything before it is preparation, and the answers to it are a list the
+  adults in the room have written for themselves about what they should now be doing. Brief the adults
+  in advance that they are answering rather than facilitating, and that a guarded answer produces a
+  guarded pair. Sensitivity: for both generations in Amala's settings, fifteen may involve displacement
+  or loss, so make skipping any question normal and unexplained from the start.
+steps:
+  - title: "Ask the adults to go back"
+    duration: 5 min
+    guidance: >-
+      Set the session up briefly, then ask the adults in the room to think themselves back to fifteen:
+      what they wore, who they spent time with, what they thought about the world. Give it a real
+      silence rather than a rhetorical one. Say plainly that anyone, adult or young person, may skip any
+      question without saying why.
+    keyPrompts:
+      - "Adults: fifteen. Who were you with, and what were you angry about?"
+    watchOuts:
+      - "The adults treat this as an icebreaker and stay light. Say directly that the session works in proportion to how honestly they answer."
+  - title: "Pair up across the two groups"
+    duration: 5 min
+    guidance: >-
+      Pair each young person with an adult, and avoid pairs who already know each other well; count
+      off rather than letting people choose. If the numbers are uneven, make threes rather than leaving
+      anyone with a peer, because a young person paired with a young person gets a different and much
+      thinner activity.
+    keyPrompts:
+      - "Anyone paired with someone they already know well? Put your hand up and we will swap you."
+    watchOuts:
+      - "Friends pair up and have the conversation they would have had anyway. Assign the pairs."
+      - "There are too few adults. Run threes with two young people to one adult rather than cancelling; it still works."
+  - title: "Ten minutes each way, one talking, one listening"
+    duration: 20 min
+    guidance: >-
+      One person answers for ten minutes while the other listens and asks, then swap. The strict swap
+      matters: without it the adult talks for the whole time out of habit. Move between pairs and, in
+      the second half, prompt any pair that has not reached the question about what adults could have
+      done differently.
+    keyPrompts:
+      - "What was important to you then? What did you think about a lot?"
+      - "Who were the adults who worked well with young people? What were they like?"
+      - "What could the adults around you have done to help you take part more?"
+    watchOuts:
+      - "The adult interviews the young person instead of answering. Interrupt the pair and restate the direction; this is the failure the whole design guards against."
+      - "A pair reaches something painful. Do not intervene unless asked; check in with both afterwards, separately."
+      - "Time runs out before the last question. Watch the clock and call it out to the room at the halfway point."
+  - title: "Report your partner's story, not your own"
+    duration: 10 min
+    guidance: >-
+      Back as a whole group, each person shares one thing about their partner, with the partner's
+      agreement. Asking people to speak for someone else rather than about themselves is what produces
+      careful listening, and it is noticeably different from a round of self-introductions. Note the
+      recurring themes on the board.
+    keyPrompts:
+      - "One thing about your partner that surprised you."
+      - "What did you two have most in common? What was most different?"
+    watchOuts:
+      - "Someone shares something their partner would rather they did not. Say at the start that each person checks with their partner before sharing anything."
+  - title: "Turn the last answers into a list"
+    duration: 10 min
+    guidance: >-
+      Collect the answers to the last question specifically: what could adults have done to help these
+      adults take part more, when they were young. Write them up as a list. Then ask the room what it
+      notices about it. The list is a description of what these adults could now do, produced by them,
+      and it usually needs no further comment.
+    keyPrompts:
+      - "What did the adults in this room say they needed from adults, when they were fifteen?"
+      - "Looking at this list: what would it mean to do these things here?"
+    watchOuts:
+      - "The list is collected and left as a nice moment. Keep it and put it beside the group's agreements; it is a commitment the adults made in their own words."
+closing: >-
+  Ask everyone, adults included, for one thing they learned from the conversation and one way it should
+  change how this group works together. Keep the list. When the group later negotiates who decides what,
+  the adults have already said, in their own words, what they wish adults had done for them.
+learnerContent: |
+  Today you get to ask the adults the questions.
+
+  You will be paired with an adult you do not know well, and you will interview each other about what
+  they were like at **fifteen**. What they cared about. What they were angry about. Who they spent
+  time with. What they thought about the world.
+
+  Ten minutes one way, then swap.
+
+  You can skip any question, and so can they. Nobody has to explain why.
+
+  There is one question at the end that matters more than the others, and it is for the adult:
+  **what could the adults around you have done to help you take part more?**
+
+  Listen carefully to that answer. It is a list of what adults could be doing for you, written by an
+  adult, about their own life.
+
+  At the end you will tell the group one thing about **your partner**, not about yourself. Check with
+  them first.
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Working with adults on equal terms requires believing it is possible, and many young people have no
+    evidence that it is. Half an hour in which an adult answers their questions honestly, and names what
+    they themselves needed at that age, supplies some. It also hands the group a list of commitments the
+    adults produced themselves, which is far more usable than one demanded of them.
+principlesForegrounded: [builds-on-identities, collaboration, safe-spaces]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      Both generations put their own histories into the room on their own terms, and the questions are
+      written so that a displaced or interrupted adolescence is as answerable as a settled one.
+  - principle: collaboration
+    how: >-
+      The partnership the rest of the work depends on is built here, before anything has to be
+      negotiated, which is the only point at which it is easy to build.
+  - principle: safe-spaces
+    how: >-
+      Skipping any question is normal and unexplained, sharing about a partner requires their
+      agreement, and the adults are briefed rather than ambushed.
+competencyCodes: [FUS2, FLC2, FUS1]
+competencyDevelopment:
+  - code: FUS2
+    how: >-
+      Learners get a detailed, first-hand account of an adult's inner life at their own age, which is
+      the most direct correction available to the assumption that adults were always as they are now.
+  - code: FLC2
+    how: >-
+      Reporting a partner's story back, accurately and with their permission, is a precise piece of
+      practice in listening well enough to represent someone.
+  - code: FUS1
+    how: >-
+      Answering the same questions about themselves, to somebody outside their own generation, asks
+      learners to describe their own present in terms they do not usually use.
+objectiveIds: [living-peacefully--o2]
+relatedSlugs:
+  - ypar-how-adults-see-young-people
+  - ypar-ladder-of-participation
+  - ypar-getting-to-know-each-other
+  - mentor-know-your-safeguarding-policy
+  - cf-listen-to-support-a-partner
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plan, in the Youth + Adults section. Free to download."
+  - label: "Institute for Community Research"
+    url: https://www.incommunityresearch.org/
+    note: "The organisation whose YPAR curriculum the source credits for this activity."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to the Institute for Community Research's YPAR Curriculum"
+  basis: >-
+    A paired life-history interview is a method rather than an expression. Every word here is written
+    from scratch, and the source's question sheet is not reproduced; the questions on this page are
+    rewritten so that a displaced or interrupted adolescence is as answerable as a settled one.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Youth + Adults > Flashback to Adult Partners' Younger Years lesson plan"
+  - "Credited in that plan to the Institute for Community Research's YPAR Curriculum"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Flashback to Adult Partners' Younger Years", supplied to Amala in
+  August 2026. The pairing structure and the closing question, which the source itself marks as the most
+  important one, are the source's. The adjustment of the questions away from settled-life assumptions,
+  the briefing for adults that they are answering rather than facilitating, and the step that turns the
+  final answers into a written list of commitments are Amala's.

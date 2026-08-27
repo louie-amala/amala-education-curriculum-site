@@ -1,0 +1,37 @@
+id: community-organising
+slug: community-organising
+access: public
+term: Community organising
+category: content
+matchPhrases:
+- community organising
+- community organizing
+- organising
+definition: >-
+  Bringing the people affected by a problem together so that their combined weight can win a change and
+  alter who holds power.
+explainer: |
+  Organising is the last of five common responses to a problem, after services, self-help, education and
+  advocacy. The five differ in what they change: the earlier ones relieve a problem and leave its cause
+  intact, and organising sets out to alter the arrangement that produces it.
+
+  The distinction that matters most, and is most often blurred, is between organising and
+  **advocacy**. In advocacy, somebody argues on behalf of the people affected. In organising, the people
+  affected act for themselves and their combination is the source of the pressure. The test is simply
+  who is doing the talking.
+
+  That distinction carries weight in refugee and displaced settings, where communities are advocated for
+  constantly and organise for themselves rarely. A piece of research designed, carried out and presented
+  by the young people it concerns is already closer to organising than most work done about them.
+
+  Organising is not automatically the right response. It is slow, it needs some safety to be possible,
+  and it can leave immediate needs unmet while it works. Most serious efforts run several of the five at
+  once. What organising uniquely offers is that, if it succeeds, the problem stops recurring.
+examples:
+- Families affected by the same shortage meeting, agreeing one ask, and putting it jointly to the body that decides
+nonExamples:
+- An organisation writing a report on behalf of a community and presenting it to a funder
+useInContext: >-
+  A group sorts everything it has done this year into the five ways of making change, then works out what
+  would move one action a single step further.
+relatedTermIds: []

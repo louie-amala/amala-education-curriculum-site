@@ -1,0 +1,234 @@
+id: ypar-seeking-allies
+slug: ypar-seeking-allies
+access: public
+type: activity
+title: "Seeking allies: who has to be with you"
+summary: >-
+  Learners try to win each other over to a cause in a fast lobbying game, then build the list of people
+  their own project needs, and what each is needed for.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The lobbying game needs a room full of people changing their minds in real time, and
+      the ally list is a group's shared asset that has to be argued into existence rather than drafted by
+      one person.
+duration: 60 to 75 minutes.
+grouping: Whole group moving for the game, then small groups for the ally map.
+materialsAndPreparation:
+  - "One small object per learner to hand out during the warm-up: a toothpick, a paper clip, a bean, a folded slip. Anything worthless."
+  - "One cause per learner, written on a slip. Write causes relevant to your learners rather than importing a list."
+  - "Large paper for the ally map, and somewhere to keep it for the rest of the project."
+  - "Space to move around freely."
+whatLearnersDo:
+  - Watch the facilitator try to make a worthless object desirable, and work out what made it spread.
+  - Argue for an assigned cause, then decide whether to abandon it for someone else's.
+  - Identify who their own project needs support from.
+  - For each ally, work out what is needed from them, when, how they will be approached and why they should care.
+educatorContent: |
+  ## The warm-up is the lesson
+
+  As learners arrive, press a worthless object on them, using a different tactic each time: give it as a
+  gift, act as though everyone has one, imply it is scarce, ask a confident learner first and let others
+  see. Then ask the questions: who took one because I asked, who took one after seeing others with one,
+  and why does seeing other people with something make us want it?
+
+  This is the mechanism the rest of the session runs on. Support gathers around visible support. A group
+  that understands that will approach its second ally differently from its first, and will think about
+  the order it approaches people in.
+
+  ## The lobbying rounds
+
+  Round one, three minutes: everyone argues for their assigned cause, to as many people as possible, and
+  must give reasons. Round two, five minutes: anyone convinced by someone else must abandon their cause
+  and join theirs. Stop when a few clusters have formed.
+
+  Do not tidy this. It is loud, and the clusters that form are usually about who argued well rather than
+  which cause was best, which is precisely the finding.
+
+  In the debrief, ask what actually convinced people, and ask directly whether anyone used pressure,
+  flattery or a bargain. Someone always has. That opens the real question, which is what a group is
+  willing to do to win support and where its own line is.
+
+  ## The ally map
+
+  Five columns, and the last one does the work.
+
+  - **Who.** Named specifically. Not "the centre" but the person in it.
+  - **What.** Approval, resources, access, information, a room, their name on something, or simply not
+    obstructing it. That last is a legitimate and often sufficient ask.
+  - **When.** At which point in the project. Allies approached at the wrong moment say no to a question
+    they would have said yes to later.
+  - **How.** In person, by phone, through someone else, in writing. And who in the group does it.
+  - **Why should they care.** In their terms. This is the same question that carries
+    [speaking to powerful people](/materials/ypar-speaking-to-powerful-people), and it is skipped just as
+    reliably here.
+
+  ## The point learners resist
+
+  Most groups spend their energy on whoever is most opposed to them. Say plainly: **you will not convert
+  your strongest opponent, and the time spent trying is time not spent consolidating the people who are
+  already sympathetic and doing nothing.** The list should be weighted towards the persuadable and the
+  already-willing.
+
+  ## Keep it alive
+
+  An ally map made once and filed is worthless. Put it on the wall, and review it briefly each week: who
+  has been approached, what did they say, who is new. The review is what turns it from an exercise into
+  the group's actual working relationship with the people around it.
+facilitationNotes: >-
+  The one thing to get right is the last column: why should this person care, in their own terms. Groups
+  fill the first four quickly and leave the fifth vague, and the fifth is the one that determines whether
+  an approach works. The second thing is to correct the instinct to focus on opponents; time spent on the
+  most hostile person is nearly always time taken from someone who was already willing and was never
+  asked. Keep the map visible and review it weekly, or it becomes an exercise rather than a working tool.
+steps:
+  - title: "Hand out something worthless, and see who takes it"
+    duration: 10 min
+    guidance: >-
+      As learners arrive, press the object on them using a different tactic each time. Once everyone is
+      settled, admit what you were doing and ask who took one because you asked, and who took one after
+      seeing others holding one. Land the mechanism: support gathers around visible support.
+    keyPrompts:
+      - "Why does seeing other people with something make you want it?"
+      - "Which of my tactics actually worked on you?"
+    watchOuts:
+      - "Learners feel tricked. Say what you were doing straight away and make it the group's finding rather than your demonstration."
+  - title: "Two rounds of lobbying"
+    duration: 15 min
+    guidance: >-
+      Hand out one cause each. Round one, three minutes, everyone argues theirs with reasons. Round two,
+      five minutes, anyone convinced must abandon their own and join. Let it get loud. Stop when clusters
+      form rather than when time is up.
+    keyPrompts:
+      - "Reasons, not just volume. Why should they agree with you?"
+      - "If someone convinced you, go and stand with them."
+    watchOuts:
+      - "Nobody abandons their cause, out of loyalty to the slip they were given. Say explicitly that switching is the point and that holding out is not a win."
+      - "A learner is left alone with nobody joining them. Join them yourself for the last minute; the exposure is not worth anything."
+  - title: "Debrief what actually convinced people"
+    duration: 10 min
+    guidance: >-
+      Ask what worked, and then ask directly whether anyone used pressure, a bargain or flattery. Someone
+      will have. Do not moralise; ask what the group thinks about it, and whether there is a line it
+      would not cross to win support. That question matters later, when the allies are real.
+    keyPrompts:
+      - "What argument actually moved you?"
+      - "Did anyone use something other than reasons? How well did it work?"
+      - "Is there a line we would not cross to get support?"
+    watchOuts:
+      - "The clusters are treated as proof that some causes are better. Point out that they mostly track who argued well, which is the more useful and less comfortable finding."
+  - title: "Build the list of who this project needs"
+    duration: 15 min
+    guidance: >-
+      Move to the group's own project. Brainstorm everyone who needs to be involved or informed: inside
+      the centre, in the community, and among whoever decides things. Push past the obvious three or four.
+      Name people, not institutions, wherever the group can.
+    keyPrompts:
+      - "Who could stop this if they wanted to?"
+      - "Who would be annoyed to find out about it afterwards?"
+    watchOuts:
+      - "The list is all senior figures. Ask who holds the keys, the room, the register, the transport; the people who can quietly block a project are rarely the most senior."
+  - title: "Fill the five columns, especially the last"
+    duration: 20 min
+    guidance: >-
+      In small groups, work the who, what, when, how and why for each ally. Move between groups and press
+      only on the last column, because it is the one that will be thin everywhere. Then combine into one
+      map on the wall and agree who makes the first approach to whom, and when.
+    keyPrompts:
+      - "Why should they care? Not why it matters to us."
+      - "What is the smallest thing you could ask them for first?"
+    watchOuts:
+      - "Every ask is large. A small first ask that gets a yes is worth more than a large one that gets a maybe, and it makes the second ask easier."
+      - "The group plans to spend its effort on the most opposed person. Say plainly that this rarely works and name who is being neglected instead."
+closing: >-
+  Fix the weekly review now: five minutes, who has been approached, what they said, who should be added.
+  Then ask each group for the single most important ally on the map and why. A group that agrees on that
+  one name has done most of the strategic thinking this activity exists for.
+learnerContent: |
+  Somebody is going to try to make you want a toothpick. Pay attention to whether it works, and why.
+
+  Then you get a cause to argue for. Three minutes to convince as many people as you can, with
+  **reasons**. Then a second round: if someone convinces you, you abandon your cause and join theirs.
+
+  Watch what happens. The causes that end up with the most people are usually not the best ones. They
+  are the ones argued best. That is worth knowing before you go looking for real support.
+
+  Then the real work: **who does your project actually need?**
+
+  For each person, five things:
+
+  - **Who** they are. A person, not an organisation.
+  - **What** you need from them. Approval? A room? Information? Or just for them not to block it, which
+    is a real and often sufficient ask.
+  - **When** you need it. Ask at the wrong time and you get a no to a question they would have said yes
+    to later.
+  - **How** you will approach them, and **who** in your group will do it.
+  - **Why should they care?** In their terms, not yours.
+
+  That last one is the one everyone leaves vague, and it is the one that decides the answer.
+
+  One more thing. Most groups spend all their energy on the person most against them. You will probably
+  not change their mind, and while you are trying, the people who already agreed with you are waiting to
+  be asked.
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: >-
+    Nothing a young person wants to change can be changed alone, and the skill of working out who is
+    needed, what for, and why they might agree, is the difference between an idea and a campaign. The map
+    is also durable: it is the group's first deliberate account of the relationships it depends on.
+principlesForegrounded: [collaboration, responsible-action, authentic-challenges]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The map is built around what each ally needs from the relationship as well as what the group needs
+      from them, which is what makes it a partnership rather than a list of targets.
+  - principle: responsible-action
+    how: >-
+      The debrief asks directly what tactics the group is willing to use, and where its line is, before
+      any of the allies are real people.
+  - principle: authentic-challenges
+    how: >-
+      The map is of the group's actual project and the actual people around it, and it is reviewed weekly
+      against what really happened when each was approached.
+competencyCodes: [ASL3, FLC3, FR1]
+competencyDevelopment:
+  - code: ASL3
+    how: >-
+      This is the competency's core content: identifying the relationships a piece of work depends on,
+      what each offers, and how to build and maintain them deliberately rather than by chance.
+  - code: FLC3
+    how: >-
+      The lobbying rounds are compressed practice at persuading a stranger with reasons, with immediate
+      feedback in the form of whether anyone joins.
+  - code: FR1
+    how: >-
+      The what column is an inventory of what the project needs and who holds it, which is resource
+      identification applied to people rather than materials.
+objectiveIds: [research-project--o4, making-societal-change--o3]
+relatedSlugs:
+  - ypar-speaking-to-powerful-people
+  - ypar-first-meeting-with-a-decision-maker
+  - ypar-who-decides-here
+  - ypar-who-is-my-community
+  - stakeholder-community-mapping
+  - dc-build-partnerships
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plan, in the Community Support section. Free to download."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to San Francisco Peer Resources"
+  basis: >-
+    The lobbying game and the five-column ally sheet are methods rather than expressions. Every word here
+    is written from scratch and none of the source's wording or issue list is reproduced.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Community Support > Seeking Allies lesson plan"
+  - "Credited in that plan to San Francisco Peer Resources"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Seeking Allies", supplied to Amala in August 2026. The toothpick
+  warm-up, the two lobbying rounds and the five-column ally worksheet are the source's. The instruction
+  to ask what tactics the group is willing to use, the advice about small first asks, the note that the
+  people who can block a project are rarely the most senior, and the weekly review are Amala's.

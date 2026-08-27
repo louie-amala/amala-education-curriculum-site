@@ -1,0 +1,249 @@
+id: ypar-first-meeting-with-a-decision-maker
+slug: ypar-first-meeting-with-a-decision-maker
+access: public
+type: activity
+title: "The first meeting with a decision-maker"
+summary: >-
+  The group prepares and runs a genuine introductory meeting with the person whose support the project
+  will need later, before it needs anything from them.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group only, and it involves a real visitor. The whole point is that the group, collectively, is
+      introduced to somebody who will matter to it later, and that the meeting belongs to the learners
+      rather than to the facilitator.
+duration: 50 to 60 minutes, of which the visitor is present for about 20.
+grouping: Whole group, with named individuals holding parts of the agenda.
+materialsAndPreparation:
+  - "The visitor, invited well in advance and briefed to arrive for the last twenty minutes. Tell them the purpose is an introduction, not a request."
+  - "The group's agreements, already made and already in use. This activity does not work in a group that has not yet established how it treats each other."
+  - "The questions the group wants to ask, agreed and written before the day, and shared with the visitor beforehand if they would like them."
+  - "Chairs arranged in a circle before the visitor arrives, with no back row."
+  - "A named lead and a named reserve for every part of the agenda, in case somebody is absent."
+whatLearnersDo:
+  - Decide what they want this person to understand about the group and the project.
+  - Agree an agenda, with named people responsible for each part.
+  - Rehearse against the ways a real visit goes wrong.
+  - Run the meeting, and review what they learned about the person.
+educatorContent: |
+  ## Who the visitor should be
+
+  Not necessarily the most senior person. The test the source offers is a good one, and it generalises:
+  **if this project causes a problem, who hears about it first? If it succeeds, who is best placed to
+  say so to people who matter?** Usually that is the same person, and usually it is the head of the
+  centre or the equivalent, but in some settings it is a community leader, a camp committee member or an
+  agency focal point.
+
+  ## Why it is an introduction and not an ask
+
+  Groups want to use the meeting. Do not let them. The purpose is to establish a relationship before
+  anything is needed from it, so that the later conversation, the one in
+  [speaking to powerful people](/materials/ypar-speaking-to-powerful-people), happens between people who
+  have met. A first meeting that opens with a demand converts a potential ally into someone who
+  associates the group with being asked for things.
+
+  Say this explicitly, twice, because it is counter-intuitive and the group will drift back to it.
+
+  Equally: not an ambush. If the group has grievances about this person's institution, this is not the
+  meeting for them, and letting it become that meeting will cost them the relationship and possibly the
+  project. Say that too, and mean it kindly; the grievances may be entirely justified.
+
+  ## The rehearsal
+
+  Play the visitor yourself and go wrong in ordinary ways: arrive ten minutes late, take a call and step
+  out, arrive with your own agenda ("what I would really like you to look at is..."), answer a question
+  at great length so the plan runs out of time. Each of these is common and each has a specific recovery
+  the group can practise: who steps in, who keeps time, who brings it back.
+
+  ## The conduct question
+
+  The source supplies a list of tips. Build yours with the group instead, for the same reason as in
+  [speaking to powerful people](/materials/ypar-speaking-to-powerful-people): what reads as respectful
+  attention varies sharply across the settings Amala works in, and some learners are navigating two sets
+  of expectations at once. The source's own question about code-switching is worth asking directly, and
+  it is a better discussion than a list.
+
+  ## The review
+
+  Run it twice: briefly before, on what each learner finds hardest about the plan, and properly
+  afterwards. The after-review should include what the group learned **about the person**, not only how
+  it performed. That is half the value of the meeting and groups forget to collect it.
+
+  ## Where it sits
+
+  After [seeking allies](/materials/ypar-seeking-allies), which identifies who this person is, and
+  [who decides here](/materials/ypar-who-decides-here), which establishes what they actually control.
+  Before [speaking to powerful people](/materials/ypar-speaking-to-powerful-people), which is the
+  meeting where something is asked for.
+facilitationNotes: >-
+  The one thing to get right is that this meeting asks for nothing. Groups will try to use it, and a
+  first meeting that opens with a demand turns a potential ally into someone who associates the group
+  with being asked. Say so twice. It is equally not an ambush: if the group has grievances about this
+  person's institution, acknowledge that they may be entirely justified and that this is not the meeting
+  for them. Rehearse the ordinary failures, lateness, interruptions, a visitor with their own agenda,
+  because those are what actually happen.
+steps:
+  - title: "Establish what the group already knows about this person"
+    duration: 10 min
+    guidance: >-
+      Ask when learners last dealt with this person, what happened, and how they would describe them.
+      Take the negative answers as readily as the positive ones. A group that has only ever met this
+      person in a disciplinary context needs that on the table before it plans a friendly meeting.
+    keyPrompts:
+      - "When did you last speak to them? What was it about?"
+      - "From what you know, what are they like?"
+    watchOuts:
+      - "The answers are hostile and the plan proceeds as though they were not. Name it: we are choosing to start this relationship differently, and here is why that is worth doing."
+  - title: "Decide what you want them to understand"
+    duration: 10 min
+    guidance: >-
+      Two questions: what should this person think about this group afterwards, and what should they
+      understand about the work? Keep the answers few and concrete. Then say plainly that the meeting
+      asks for nothing, and say why. Expect an argument and let it happen; the reasoning has to be theirs.
+    keyPrompts:
+      - "What is the one thing they should walk away thinking about this group?"
+      - "Why might it be worth not asking for anything today?"
+    watchOuts:
+      - "The group wants to raise a grievance. Acknowledge that it may be fair, explain what raising it now would cost, and agree when it will be raised instead."
+  - title: "Build the conduct list, and talk about code-switching"
+    duration: 10 min
+    guidance: >-
+      Ask what helps and what damages a meeting like this, and take their answers before adding
+      anything. Then ask the direct question: how much do you have to change how you speak in this room,
+      and how do you feel about that? It is a real question with no tidy answer and learners have a lot
+      to say about it.
+    keyPrompts:
+      - "What would damage this in the first minute?"
+      - "How much do you have to change how you talk in front of this person? Is that all right?"
+    watchOuts:
+      - "The facilitator supplies a list of meeting conventions as universal. Ask first, add second, and let the disagreement about formality stand."
+  - title: "Agree the agenda with names against it"
+    duration: 10 min
+    guidance: >-
+      Build a simple agenda: an opening that includes the visitor, questions for them, a short account of
+      what the group is doing, and an invitation for their questions. Put a name and a reserve against
+      each part. The reserve is not bureaucracy; someone will be absent, and a group that has to
+      improvise in front of a visitor loses its composure.
+    keyPrompts:
+      - "Who is leading that part, and who covers if they are not here?"
+      - "What do we actually want to know about them?"
+    watchOuts:
+      - "The questions for the visitor are all about the institution. Include some about the person; the meeting is meant to build a relationship, and people answer questions about themselves more warmly."
+  - title: "Rehearse the ways it goes wrong"
+    duration: 10 min
+    guidance: >-
+      Play the visitor and go wrong in the ordinary ways: late, interrupted by a call, arriving with your
+      own agenda, answering at length. After each, ask who should step in and how. Keep it short and do
+      it twice rather than once at length.
+    keyPrompts:
+      - "I have just taken a call and walked out. What happens in this room now?"
+      - "I have started telling you what I want you to research. Who answers, and what do they say?"
+    watchOuts:
+      - "The rehearsal becomes a comedy. Let one laugh and then run it straight; the recoveries are the useful part."
+  - title: "Hold the meeting, then review both halves"
+    duration: 20 min plus 10 min review
+    guidance: >-
+      Step back and let the group run it. Take notes rather than intervening, and resist rescuing an
+      awkward silence for at least a few seconds; someone usually fills it. Afterwards review two things
+      separately: how the group did, and what it learned about the person.
+    keyPrompts:
+      - "What did we find out about them that we did not know?"
+      - "What would we do differently next time we meet an adult ally?"
+    watchOuts:
+      - "The facilitator takes over when a learner falters. Wait; taking over in front of the visitor undoes the point of the meeting."
+      - "The review covers only performance. What was learned about the person is half the value; ask for it explicitly."
+closing: >-
+  Agree the next contact before the group disperses: what this person will hear from the group next, and
+  when. A relationship established and then left alone for four months is not a relationship. Add the
+  date to the ally map.
+learnerContent: |
+  Somebody is coming to meet you. Probably the person who runs this place, or whoever would hear about
+  it first if your project caused a problem, and who could speak up for it if it went well.
+
+  Here is the strange part: **you are not going to ask them for anything.**
+
+  That is deliberate. Later on you will need something from this person. It goes much better if by then
+  you have already met, and if their impression of you is not "the group that wants things".
+
+  It is also not the meeting for complaints, even fair ones. If you have those, we will find the right
+  moment for them, and this is not it.
+
+  So before they arrive, decide:
+
+  - What should they think about this group afterwards?
+  - What should they understand about what you are doing?
+  - What do **you** want to find out about **them**?
+
+  Then the agenda, with a name against every part, and a reserve in case somebody is away.
+
+  We will rehearse the things that actually go wrong: they arrive late, they take a call, they turn up
+  with their own idea of what you should be researching. Who steps in? Who brings it back?
+
+  One question worth being honest about: **how much do you have to change how you speak in front of
+  someone like this?** There is no right answer, and it is worth saying out loud how you feel about it.
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: >-
+    Building a relationship with someone powerful before you need something from them is how influence
+    actually works, and it is almost never taught. A group that has done it once, deliberately, has a
+    transferable method for every institution it will later need something from.
+principlesForegrounded: [collaboration, connect-to-futures, safe-spaces]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The meeting is designed as the opening of a working relationship on both sides, including questions
+      the group wants answered about the visitor, rather than a presentation to an audience.
+  - principle: connect-to-futures
+    how: >-
+      Learners practise a form of professional relationship-building they will need for work, study and
+      any dealing with an institution, and they see it produce something.
+  - principle: safe-spaces
+    how: >-
+      Grievances are acknowledged as possibly justified and given a proper later home rather than being
+      suppressed, and the code-switching question is opened honestly rather than answered for learners.
+competencyCodes: [ASL3, FLC3, FLC2]
+competencyDevelopment:
+  - code: ASL3
+    how: >-
+      The activity is the deliberate opening of a relationship the project will depend on, including
+      agreeing the next contact, which is network-building practised rather than described.
+  - code: FLC3
+    how: >-
+      Learners have to convey what their work is and why it matters, briefly, to someone with limited
+      time and their own priorities, and they can see immediately whether it landed.
+  - code: FLC2
+    how: >-
+      The agenda is built so the visitor is included rather than presented at, and the named-role
+      structure means the meeting is carried by the whole group rather than its most confident members.
+objectiveIds: [research-project--o4]
+relatedSlugs:
+  - ypar-speaking-to-powerful-people
+  - ypar-seeking-allies
+  - ypar-who-decides-here
+  - pb-class-agreements
+  - pathways-networking-and-personal-pitch
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plan, in the Community Support section. Free to download."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to San Francisco Peer Resources"
+  basis: >-
+    Preparing a group for an introductory meeting is a method rather than an expression. Every word here
+    is written from scratch; the source's tips list and sample agenda are not reproduced.
+  note: >-
+    Do not import the source's conduct tips as universal advice. The page deliberately builds that list
+    with the group, and opens the code-switching question rather than answering it.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Community Support > Engaging Your School Principal lesson plan"
+  - "Credited in that plan to San Francisco Peer Resources"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Engaging Your School Principal", supplied to Amala in August 2026. The
+  core judgements are the source's and are good: identify the person by asking who would hear the
+  complaints and who could broadcast the success, make the first meeting an introduction rather than a
+  request, and rehearse it. The role is generalised from a United States school principal to whoever
+  holds that position in the setting, the conduct list is built with the group rather than supplied, and
+  the requirement to agree the next contact before dispersing is Amala's.

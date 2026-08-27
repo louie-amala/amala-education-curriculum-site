@@ -1,0 +1,261 @@
+id: ypar-ladder-of-participation
+slug: ypar-ladder-of-participation
+access: public
+type: activity
+title: "Where are we on the ladder? Assessing our own participation"
+summary: >-
+  The group places itself on a ladder of youth participation, decides where it wants to be, and
+  writes a plan for the distance between the two.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Group only. The output is one group's honest assessment of itself plus a plan it has agreed, and
+      neither can be produced by a facilitator or an individual on the group's behalf.
+duration: 45 to 60 minutes.
+grouping: Whole group standing on a physical ladder or line, then small groups for the plan.
+materialsAndPreparation:
+  - "The rungs written out, one per sheet, laid on the floor or taped along a wall as a ladder or line. Symbols alongside the words if the group does not read fluently."
+  - "Space for everyone to stand on or beside a rung."
+  - "Paper for the plan, and somewhere permanent to keep it."
+  - "Your own honest placement, decided in advance, and the reasons for it."
+  - "No-resource route: name the rungs aloud and use a line on the ground. Nothing needs printing."
+whatLearnersDo:
+  - Build a shared definition of what it means for young people to be genuinely involved.
+  - Learn a ladder of participation, from decoration to youth-initiated shared decisions.
+  - Stand on the rung they think this group is actually on, and say why.
+  - Agree the rung the group wants to reach, and write a plan for getting there.
+educatorContent: |
+  ## The ladder
+
+  Use these rungs, from lowest to highest. They are written for Amala's settings; adapt the wording,
+  not the order.
+
+  1. **Decoration.** Young people appear in photographs, at an opening, on a poster. They add
+     legitimacy to something they had no part in.
+  2. **Tokenism.** Young people are asked to speak, but the topic, the framing and the audience are
+     chosen for them, and nothing follows from what they say.
+  3. **Assigned but informed.** Young people are given a real role in something adults designed, and
+     they understand why they are doing it and who decided.
+  4. **Consulted and informed.** Adults design and run it, young people are genuinely asked, their
+     views change the outcome, and they are told how.
+  5. **Adult-initiated, shared decisions.** Adults start it; decisions are then made together.
+  6. **Youth-initiated and directed.** Young people decide what the thing is and run it; adults
+     support when asked.
+  7. **Youth-initiated, shared decisions.** Young people start it and choose to bring adults in as
+     partners on decisions.
+
+  The top rung is the highest deliberately: choosing to share power with adults, from a position of
+  holding it, is a stronger act than either holding it alone or being handed a share of it.
+
+  This ladder descends from Roger Hart's ladder of children's participation (UNICEF, 1992), the
+  standard reference in this field, and the rung names here are Amala's own wording of it. The chart
+  in the source lesson plan is supplied as an image and its own lineage is not stated, so we have
+  gone to the underlying reference rather than copying it. [to verify: the source chart's exact
+  provenance]
+
+  ## What to protect
+
+  **Honesty above ambition.** A group that places itself at rung 6 when it is at rung 3 has produced
+  nothing usable. Your job is to keep asking for the decision that proves the placement. The question
+  is always the same: name one thing this group decided that adults did not decide first.
+
+  **The gap is the point, not the failure.** Almost every group lands lower than it expected. That is
+  the normal result and it is the raw material for the plan. Say so before the placement rather than
+  after, or the low result reads as an indictment of the facilitator and the group will be polite
+  instead of accurate.
+
+  **Higher is not automatically right.** Some settings cannot go above rung 5, for reasons of
+  safeguarding, funding or law. Say which those are, at the start, and let the group aim at the
+  rungs that are genuinely available. A plan aimed at an impossible rung teaches learners that
+  planning is decorative.
+
+  ## Where it sits
+
+  Follows [objects, recipients, resources](/materials/ypar-how-adults-see-young-people), which
+  supplies the frame this makes precise. Pairs well with
+  [agreeing how we will decide](/materials/ypar-agreeing-how-we-decide): a group that has just placed
+  itself on a rung is unusually motivated to write its own decision procedure.
+visuals:
+  - kind: setup
+    title: "The ladder laid out along the floor"
+    caption: >-
+      Learners stand on the rung they think the group is actually on. The spread across rungs is the
+      finding: a group that disagrees with itself about where it stands has something worth discussing.
+    spec:
+      type: zones
+      cardStyle: text
+      flow: across
+      flowLabel: "aim"
+      zones:
+        - label: "Decoration"
+          tone: warn
+          cards: ["We were in the photo"]
+        - label: "Consulted"
+          tone: neutral
+          cards: ["They asked us"]
+        - label: "Shared decisions"
+          tone: positive
+          cards: ["We decided together"]
+facilitationNotes: >-
+  The one thing to get right is that the placement is evidenced, not felt. Every claim about a rung has
+  to be backed by naming a decision and who made it, or the group produces a flattering answer and the
+  plan built on it is worthless. Say before you begin that most groups land lower than they expect and
+  that this is normal, so the honest answer does not feel like an accusation. Be clear about which
+  rungs are actually available here and which are ruled out by safeguarding, funding or law.
+steps:
+  - title: "Build a definition before showing the ladder"
+    duration: 10 min
+    guidance: >-
+      Do not put the ladder up yet. Ask the group what it would mean for young people to be genuinely
+      involved in a piece of work, and write their answers. This matters because the ladder that
+      arrives afterwards then reads as a sharpening of what they already said rather than as an adult
+      framework being applied to them.
+    keyPrompts:
+      - "What would it look like if young people were really involved in this, not just present?"
+      - "What is the difference between being asked and being listened to?"
+    watchOuts:
+      - "The group produces the answer it thinks is wanted. Ask for a case from their own experience where involvement was real, and one where it was not."
+  - title: "Walk the ladder"
+    duration: 10 min
+    guidance: >-
+      Lay the rungs out and walk the group along them, giving each one an example rather than a
+      definition. Examples land and definitions do not. Ask for one example of each from their own
+      lives as you go, and note that the bottom two are common and usually well intentioned, which
+      keeps the frame analytical rather than accusatory.
+    keyPrompts:
+      - "Where have you seen this rung happen?"
+      - "Why is the top rung above the one where young people run it alone?"
+    watchOuts:
+      - "Learners hear the bottom rungs as an attack on adults they like. Say plainly that decoration and tokenism are usually well meant, which is exactly why they need naming."
+      - "The rungs are read out as text in a group that does not read fluently. Use examples and symbols and check understanding rung by rung."
+  - title: "Stand where the group actually is"
+    duration: 10 min
+    guidance: >-
+      Ask everyone to stand on the rung they believe this group is on today. Then go along the line
+      and ask, for each cluster, the only question that matters: name one decision this group made
+      that adults had not already made. Let the spread stand; a group divided across three rungs is
+      telling you something accurate about itself.
+    keyPrompts:
+      - "Name one decision this group actually made."
+      - "You two are three rungs apart. What is each of you looking at?"
+    watchOuts:
+      - "Learners place the group high to be kind to the facilitator. Ask for the decision, every time, and accept the silence when there is not one."
+      - "The result is low and the room deflates. You warned them this was likely; say it again, and move straight to the next step, which is the useful one."
+  - title: "Choose the rung you are aiming at"
+    duration: 10 min
+    guidance: >-
+      Ask where the group wants to be by the end of the project, and be explicit about which rungs are
+      available. Aim for one rung, not four. The most common failure here is ambition: a group that
+      commits to moving from 3 to 6 in a term will not, and the failure will teach it that this kind
+      of planning is decorative.
+    keyPrompts:
+      - "One rung up. Which one, and by when?"
+      - "Which rungs are actually open to us, given what this programme has to answer for?"
+    watchOuts:
+      - "The group aims at a rung that is ruled out. Say why now, plainly, rather than letting the plan fail later."
+  - title: "Write the plan, with names on it"
+    duration: 15 min
+    guidance: >-
+      In small groups, work out what specifically has to change to move one rung: which decision
+      transfers, to whom, by when, and what the adults stop doing. That last part is usually missing
+      and is usually the whole thing. Combine into one plan the group agrees, and put a name and a
+      date against each item.
+    keyPrompts:
+      - "Which decision moves, and who makes it instead?"
+      - "What do the adults have to stop doing for that to be real?"
+    watchOuts:
+      - "The plan lists aspirations rather than transfers of a specific decision. Push for the decision; everything else is decoration."
+      - "The plan is agreed and never revisited. Set the date now for when the group re-places itself on the ladder."
+closing: >-
+  Put the ladder and the plan on the wall together, and fix a date to stand on the ladder again. The
+  second placement is worth more than the first, because a group that can see itself move has evidence
+  that the plan did something, and a group that has not moved has an honest conversation to have.
+learnerContent: |
+  There is a ladder for how involved young people really are in something.
+
+  At the bottom: you are **in the photograph**. Next: you are **asked to speak**, but somebody else
+  chose the topic and nothing happens afterwards. Higher up: you are **genuinely consulted**, and you
+  are told how what you said changed things. Higher still: **decisions get made together**. At the
+  top: **you start the thing**, and you choose to bring adults in as partners.
+
+  Today you place this group on it. Not where it should be. Where it is.
+
+  There is one rule, and it applies to everybody including the facilitator: **name a decision.** If
+  you think this group is high on the ladder, name one thing this group decided that the adults had
+  not already decided. If you cannot, it is lower than you think.
+
+  Most groups land lower than they expected. That is normal and it is not an insult to anyone. It is
+  the reason for the next part, which is choosing **one rung** to move up, and writing down exactly
+  what has to change.
+
+  Including what the adults have to stop doing. That part usually matters most.
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    The group audits its own power, names a specific increase it wants, and writes a plan to get it.
+    That sequence, assess honestly then act on the gap, is the whole shape of agency practised on the
+    learners' own conditions rather than on a case study, and the result is checkable later.
+principlesForegrounded: [collaboration, feedback-and-data, responsible-action]
+principleAlignment:
+  - principle: collaboration
+    how: >-
+      The plan requires both sides to change, and it names what the adults stop doing, so shared power
+      is treated as a negotiated arrangement rather than a gift.
+  - principle: feedback-and-data
+    how: >-
+      Placement must be justified by a named decision, and the group re-places itself later, which
+      turns a discussion into a before-and-after measurement of its own influence.
+  - principle: responsible-action
+    how: >-
+      Being explicit about which rungs are closed, and why, keeps the plan aimed at change that can
+      actually happen rather than at a gesture.
+competencyCodes: [ALC1, ALC2, FSL2]
+competencyDevelopment:
+  - code: ALC1
+    how: >-
+      The group works out precisely what has to move for its own members to lead, which is the
+      practical content of empowering others rather than the sentiment of it.
+  - code: ALC2
+    how: >-
+      Agreeing a shared, evidenced judgement about the group's own position, across genuine
+      disagreement, is collaborative decision-making about the hardest available subject: themselves.
+  - code: FSL2
+    how: >-
+      The output is a goal with a named rung, a date and specific transfers of decision-making, and it
+      is reviewed against evidence later, which is the full goal cycle applied collectively.
+objectiveIds: [making-societal-change--o2]
+relatedSlugs:
+  - ypar-how-adults-see-young-people
+  - ypar-who-decides-here
+  - ypar-agreeing-how-we-decide
+  - ypar-what-were-you-like-at-fifteen
+  - ypar-forms-of-decision-making
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plan, in the Youth + Adults section. Free to download."
+  - label: "Hart, R. (1992), Children's Participation: From Tokenism to Citizenship (UNICEF Innocenti)"
+    url: https://www.unicef-irc.org/publications/100-childrens-participation-from-tokenism-to-citizenship.html
+    note: "The ladder of participation in its original form, and still the standard reference. Worth reading before running this."
+rights:
+  status: own-expression
+  holder: "Roger Hart / UNICEF Innocenti for the ladder; the lesson framing comes from the UC Berkeley YPAR Hub, credited there to Youth in Focus (Youth REP: Step by Step)"
+  basis: >-
+    A ladder of participation is a published model, and models are ideas rather than expression. The
+    rung names and every other word here are Amala's own wording written for Amala's settings, and the
+    originating reference is credited and linked rather than reproduced.
+  note: >-
+    The source lesson plan's chart is supplied as an image and its own lineage is not stated, so this
+    page works from Hart's published ladder instead. Do not paste the source chart in.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Youth + Adults > Continuum of Youth Participation and Engagement lesson plan"
+  - "Credited in that plan to Youth in Focus, Youth Research Evaluation and Planning: Step by Step"
+  - "Hart, R. (1992), Children's Participation: From Tokenism to Citizenship, UNICEF Innocenti Essays No. 4"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Continuum of Youth Participation and Engagement", supplied to Amala in
+  August 2026. The source is a short plan built around a chart supplied only as an image, so the rungs
+  here are written from Hart's published ladder rather than copied. The evidence rule (name a decision),
+  the one-rung limit, the requirement to say which rungs are closed, and the re-placement date are
+  Amala's.

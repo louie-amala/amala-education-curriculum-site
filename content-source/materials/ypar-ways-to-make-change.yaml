@@ -1,0 +1,281 @@
+id: ypar-ways-to-make-change
+slug: ypar-ways-to-make-change
+access: public
+type: tools-approaches
+title: "Five ways to make change"
+summary: >-
+  Services, self-help, education, advocacy and organising: a ladder of responses to any problem,
+  ordered by whether they relieve it or change what causes it.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+toolsFacet: analytical
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. Groups generate examples in each category for a shared problem and then compare,
+      and the comparison is what shows that the same problem admits five quite different responses.
+  - context: independent
+    how: >-
+      A learner can apply the five categories alone to their own project idea and will get a sharper
+      idea out of it. What is lost is the range of examples, so ask them to fill all five categories
+      before choosing, rather than stopping at the first that fits.
+  - context: one-to-one-mentoring
+    how: >-
+      Useful with a learner whose project has quietly become a service. The frame lets a mentor ask
+      what would have to change for the problem to stop recurring, without dismissing what the learner
+      has built.
+duration: 45 to 60 minutes to teach. Ongoing once the group is using it.
+grouping: Whole group to teach, threes to fives to apply.
+materialsAndPreparation:
+  - "The five categories written up where everyone can see them, with room to write under each."
+  - "One problem the group knows well to work on. Their own research topic is best; a shared local problem works if the topic is not yet chosen."
+  - "Paper for each small group."
+  - "A list of what this programme or group has actually done so far, for the honest sorting at the end."
+whatLearnersDo:
+  - Learn five kinds of action that can be taken about any problem.
+  - Generate at least two examples in each category for one real problem.
+  - Sort what their own group has already done into the five.
+  - Work out what would move a given action further towards changing the conditions.
+educatorContent: |
+  ## The five
+
+  Ordered from those that accept the existing arrangement of power to those that challenge it.
+
+  1. **Services.** Supplying what people need directly: food, clothing, shelter, money, care.
+  2. **Self-help.** The people affected organise to help each other.
+  3. **Education.** Making the issue understood, particularly by the people it affects.
+  4. **Advocacy.** Someone argues the case on behalf of the people affected.
+  5. **Organising.** The people affected combine, and use their collective weight to win a change and
+     to alter who holds power.
+
+  The order is the tool. Any problem can be met at any of the five, and a response at level 1 can be
+  urgent, skilful and completely necessary while leaving the cause exactly as it was.
+
+  ## What this frame is not
+
+  It is not a ranking of moral worth, and it will be misread as one unless you say otherwise. Services
+  keep people alive. In the settings Amala works in, services are frequently the only thing standing
+  between a family and disaster, and a learner whose parent works in food distribution should not leave
+  this session thinking that work is the low rung of a ladder.
+
+  The honest statement is: **all five are legitimate, and only the higher ones change why the problem
+  keeps happening.** A group doing only services will still be doing them in ten years. A group doing
+  only organising may leave people unhelped while it works. Most real efforts need several at once.
+
+  ## The two questions that make it useful
+
+  **Which of the five is this?** Applied to their own project, this is often uncomfortable. Groups
+  routinely discover that a project they described as changing something is a service.
+
+  **What would move it one step?** This is the productive question. Not "abandon the service" but
+  "what would take this from education to advocacy?" Usually the answer is small and specific: name
+  the decision-maker, ask for something particular, bring the people affected into the room rather
+  than speaking for them.
+
+  ## The distinction that gets missed
+
+  Advocacy and organising look similar and differ in who speaks. In advocacy, someone argues on behalf
+  of the affected. In organising, the affected argue for themselves and their combination is the
+  source of the pressure. That difference matters especially in Amala's contexts, where refugee and
+  displaced communities are advocated for constantly and organise for themselves rarely. A research
+  project run by young people about their own community, presented by them, is already closer to the
+  fifth category than most work done about them.
+
+  ## Where it sits
+
+  Use it after [rescue or go upstream](/materials/ypar-rescue-or-go-upstream), which makes the
+  argument as a story before the categories arrive. It pairs with
+  [changemaker or changestopper](/materials/ypar-changemaker-or-changestopper), which handles the
+  prior question of whether the problem is even being located in the right place.
+visuals:
+  - kind: example
+    title: "The same problem, five different responses"
+    caption: >-
+      Left to right: responses that accept how power is arranged, then responses that challenge it.
+      All five are legitimate. Only the right-hand ones change why the problem keeps happening.
+    spec:
+      type: zones
+      cardStyle: text
+      flow: across
+      flowLabel: "moves towards changing the cause"
+      zones:
+        - label: "Services"
+          sublabel: "Meet the need"
+          tone: neutral
+          cards: ["Hand out water"]
+        - label: "Education"
+          sublabel: "Make it understood"
+          tone: neutral
+          cards: ["Show the test results"]
+        - label: "Advocacy"
+          sublabel: "Argue the case"
+          tone: positive
+          cards: ["Put it to the agency"]
+        - label: "Organising"
+          sublabel: "Combine and win it"
+          tone: positive
+          cards: ["Affected families ask together"]
+facilitationNotes: >-
+  The one thing to get right is that this is not a ranking of moral worth. Say so early and mean it:
+  services keep people alive, and in Amala's settings a learner's own family may depend on them. The
+  claim is narrower and harder to argue with, which is that only the later categories change why a
+  problem keeps happening. The productive question is never "is this good enough" but "what would move
+  this one step", and the answer is usually small and specific.
+steps:
+  - title: "Ask what has been tried about a problem they know"
+    duration: 10 min
+    guidance: >-
+      Take one real problem and ask what anyone has done about it: agencies, families, the group
+      itself, anyone. Write everything up unsorted. Do not introduce the categories yet. A list drawn
+      from what learners have actually seen makes the five categories arrive as an explanation rather
+      than as a lesson.
+    keyPrompts:
+      - "Who has tried to do something about this? What did they do?"
+      - "Did it help? Did the problem stop?"
+    watchOuts:
+      - "The list is all services, which is common and accurate. Do not correct it; it becomes the finding once the categories go up."
+  - title: "Give the five, and place the list"
+    duration: 10 min
+    guidance: >-
+      Put the five categories up in order and explain each in a sentence with an example. Say clearly,
+      before anyone can infer otherwise, that this is not a ranking of worth. Then sort the group's
+      existing list into the five. The distribution is usually heavily weighted to the first two, and
+      that is the observation to sit with rather than to comment on.
+    keyPrompts:
+      - "Where does that one go, and why there?"
+      - "What is the difference between someone arguing for you and you arguing for yourselves?"
+    watchOuts:
+      - "Learners read the order as good to bad and become defensive about work their families do. State the distinction explicitly: all five are legitimate, only the later ones change the cause."
+      - "Advocacy and organising get merged. Use the who-speaks test, which is the whole difference."
+  - title: "Fill all five for one problem"
+    duration: 15 min
+    guidance: >-
+      In small groups, take one problem and invent at least two responses in every category, including
+      the ones that feel unnatural. Requiring all five is the discipline: groups that are allowed to
+      stop early stop at whichever category they were already thinking in, which defeats the exercise.
+    keyPrompts:
+      - "You have three services and nothing else. What would education look like here?"
+      - "Who would have to combine, for the last one?"
+    watchOuts:
+      - "A group leaves organising blank because it seems impossible. Ask who is affected and what they would want, then ask what those people together could ask for."
+      - "Examples become unrealistic and grand. Ask what could be done by this group, this term, with what it has."
+  - title: "Sort your own work honestly"
+    duration: 10 min
+    guidance: >-
+      List what this group or programme has actually done and sort it. This is the uncomfortable step
+      and the valuable one. Do not soften a result that comes out weighted to the first two categories;
+      say plainly that this is normal and that the next question is the useful one.
+    keyPrompts:
+      - "Where does our own work actually sit?"
+      - "Is there anything here that changes why the problem happens?"
+    watchOuts:
+      - "The facilitator defends the programme. Let the finding stand; a group that sees an honest answer here trusts the frame everywhere else."
+  - title: "Move one thing one step"
+    duration: 10 min
+    guidance: >-
+      Choose one action the group is already doing and work out what would move it one category. Keep
+      it concrete: who would have to be told, who would have to ask instead of you, what specific thing
+      would be requested. One real step beats a plan to reorganise everything.
+    keyPrompts:
+      - "What would take this from education to advocacy?"
+      - "Who is affected, and what would it take for them to ask rather than us?"
+    watchOuts:
+      - "The group decides to abandon a service in favour of organising. That is rarely right and can cost real people something; the frame is about adding, not replacing."
+closing: >-
+  Keep the five on the wall next to the group's research question. Every time the group decides what to
+  do with what it has found, the question is which of the five this is, and whether one step further is
+  available. That single habit is most of what this tool is for.
+learnerContent: |
+  There are five things anyone can do about a problem.
+
+  1. **Services.** Give people what they need. Food, money, shelter, care.
+  2. **Self-help.** The people affected organise to help each other.
+  3. **Education.** Make people understand the issue, especially the people it happens to.
+  4. **Advocacy.** Someone argues the case for the people affected.
+  5. **Organising.** The people affected join together and use their weight to win a change.
+
+  This is **not** a list from bad to good. Services keep people alive, and someone you know probably
+  depends on them. All five are real work.
+
+  But only the later ones change **why the problem keeps happening**. A group that only ever does the
+  first one will still be doing it in ten years.
+
+  Two questions to carry:
+
+  - **Which of the five is this?** Ask it about your own project. The answer is often not what you
+    assumed.
+  - **What would move it one step?** Not abandon it. Move it. Usually the answer is small: name who
+    decides, ask for something specific, or get the people affected into the room instead of speaking
+    for them.
+
+  That last one is the difference between number 4 and number 5. **Who is doing the talking?**
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Amala's whole claim is that education should leave learners able to change something. This frame is
+    the most direct instrument for that: it shows that any problem admits five different responses, that
+    the choice between them is a choice, and that the responses which alter the cause are the ones where
+    the people affected act for themselves rather than being acted for.
+principlesForegrounded: [responsible-action, authentic-challenges, lifeworthy-competencies]
+principleAlignment:
+  - principle: responsible-action
+    how: >-
+      Learners have to weigh urgency against cause, and the frame refuses the easy answer in both
+      directions: it will not let a service be mistaken for a change, and it will not let organising be
+      used to dismiss people's immediate needs.
+  - principle: authentic-challenges
+    how: >-
+      The categories are filled against a real problem the group knows and then turned on the group's
+      own work, where the answer has consequences for what it does next.
+  - principle: lifeworthy-competencies
+    how: >-
+      Reading any campaign, charity or programme by which of the five it is doing is a durable analytical
+      habit, and it applies to the organisations that operate around Amala's learners every day.
+competencyCodes: [FSI2, APS4, FLC1]
+competencyDevelopment:
+  - code: FSI2
+    how: >-
+      Requiring two ideas in every category forces solution-generation beyond the first plausible
+      response, which is where most groups stop.
+  - code: APS4
+    how: >-
+      Each category is analysed for what it changes and what it leaves intact, which is exactly the
+      comparison of candidate solutions the competency describes.
+  - code: FLC1
+    how: >-
+      The advocacy and organising distinction is an ethical one about who is permitted to speak for
+      whom, and learners apply it to work that is done about their own communities.
+objectiveIds: [making-societal-change--o2, research-project--o4]
+relatedSlugs:
+  - ypar-rescue-or-go-upstream
+  - ypar-changemaker-or-changestopper
+  - ypar-speaking-to-powerful-people
+  - ypar-seeking-allies
+  - problem-tree
+  - leverage-points
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plan, in the YPAR Basics section. Free to download."
+  - label: "School of Unity and Liberation (SOUL)"
+    url: https://www.schoolofunityandliberation.org/
+    note: "The political-education organisation the source credits for this framework."
+rights:
+  status: own-expression
+  holder: "School of Unity and Liberation (SOUL), by way of San Francisco Peer Resources and the UC Berkeley YPAR Hub"
+  basis: >-
+    A five-category taxonomy of responses to a problem is an idea rather than an expression. Every word
+    on this page, including all category descriptions and examples, is written from scratch, and the
+    originating organisation is credited and linked.
+  note: >-
+    Do not paste in the source's chart or its worked example. The insistence that this is not a ranking
+    of moral worth is a deliberate Amala addition; do not edit it out.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > YPAR Basics > Community Organizing lesson plan, and its 'Ways to Make Change' handout"
+  - "Credited in that plan to San Francisco Peer Resources, adapted from SOUL (School of Unity and Liberation)"
+provenanceNote: >-
+  The five-category frame comes from SOUL by way of the YPAR Hub's "Community Organizing" lesson plan,
+  supplied to Amala in August 2026. The categories and their ordering along an accepts/challenges axis
+  are the source's. The explicit statement that this is not a ranking of moral worth, the who-speaks
+  test separating advocacy from organising, the note on how that distinction lands for communities that
+  are advocated for constantly and organise rarely, and the move-one-step method are Amala's.

@@ -1,0 +1,257 @@
+id: ypar-speaking-to-powerful-people
+slug: ypar-speaking-to-powerful-people
+access: public
+type: activity
+title: "Speaking to powerful people"
+summary: >-
+  Learners prepare a real ask on a six-question sheet, then rehearse it against a facilitator playing
+  the four ways powerful people actually deflect.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The rehearsal needs an audience, because half the learning happens to the learners
+      watching somebody else's meeting go wrong. It also needs a facilitator willing to be difficult
+      in role, which is not a thing a learner can do for themselves.
+duration: 60 to 90 minutes.
+grouping: Groups of three or four, each preparing and running one meeting.
+materialsAndPreparation:
+  - "The six preparation questions written up where everyone can see them, and paper for each group to answer them on."
+  - "Scenarios: use the group's own real upcoming meetings if it has them, and invented ones only if it does not. See the note below."
+  - "A chair and a table, so the rehearsal has the shape of a meeting rather than a presentation."
+  - "Your own preparation for the four roles below. Decide in advance which group gets which, and do not tell them."
+whatLearnersDo:
+  - Work out what they are asking for, why it should matter to the person they are asking, and what they will settle for.
+  - Decide who leads, who supports, and how they will end the meeting.
+  - Run the meeting against a facilitator playing a difficult but realistic figure.
+  - Watch other groups' meetings and work out what did and did not move the person.
+educatorContent: |
+  ## The six questions
+
+  This is the whole method, and it is worth more than the roleplay.
+
+  1. **What are you asking for?** Specifically. Not "something should be done".
+  2. **Why does it matter to you?**
+  3. **What evidence backs it up?**
+  4. **Why should it matter to this person?** This is the question groups skip and the one that
+     decides the meeting.
+  5. **What will you settle for?** Decided in advance, in the room, before anyone is under pressure.
+  6. **Who leads, and how do you know the meeting is over?**
+
+  Question 4 is the pivot. A group that can only say why something matters to them is making a
+  complaint. A group that can say why it matters to the person opposite, in that person's own terms,
+  their budget, their reputation, their reporting line, their own stated goals, is negotiating.
+  Spend the preparation time here.
+
+  Question 5 prevents the commonest failure: a group offered eighty per cent of what it wanted, with
+  no agreed position, either refuses out of momentum or accepts something worthless. Decide the floor
+  before you walk in.
+
+  ## Play it properly
+
+  You play the person in power, and you should be difficult in a realistic way rather than hostile. Four
+  archetypes, and every one of them is more common than open refusal:
+
+  - **Too busy.** You check your phone, you are late, you have eleven minutes, you keep half-listening.
+  - **Too nice.** Warm, encouraging, deeply interested, agrees to nothing. This is the one that fools
+    groups completely; they leave delighted and with nothing.
+  - **Defensive.** Every point gets "yes, but here is why that will not work."
+  - **Sympathetic and powerless.** Genuinely on their side; cannot do anything; the decision sits above
+    them.
+
+  Give the "too nice" role to a confident group. They will leave the meeting believing they won, and
+  the moment in the debrief when somebody asks what exactly was agreed is the most useful thing in the
+  session.
+
+  ## What to protect in the debrief
+
+  Ask the group that just presented how it felt, briefly, then move to specifics: did you get what you
+  needed, what did the person actually commit to, what would you do differently. Then ask the watchers,
+  who see more. Land on the four-question test: was the ask specific, was there evidence, was there a
+  reason for them to care, was there a next step in writing.
+
+  ## Context and safety
+
+  Adapt the advice about conduct rather than importing it. Firm handshakes, sitting up straight and
+  direct eye contact read differently across the contexts Amala works in, and advice that is correct in
+  one setting is a liability in another. Ask the group what respect looks like when they meet someone
+  senior, and build the list from their answers.
+
+  Be careful, too, about which real meetings this rehearses. In some settings, a group of young people
+  making demands of an official carries risk. Work out with the group who is safe to approach and
+  through whom, and treat that as part of the preparation rather than an afterthought.
+
+  ## Where it sits
+
+  Follows [who decides here](/materials/ypar-who-decides-here), which tells the group who is worth
+  meeting, and [seeking allies](/materials/ypar-seeking-allies), which tells them who is likely to help.
+  It is the rehearsal before the real thing in
+  [first meeting with a decision-maker](/materials/ypar-first-meeting-with-a-decision-maker).
+facilitationNotes: >-
+  The one thing to get right is question 4: why should this matter to the person you are asking? A group
+  that cannot answer it is rehearsing a complaint, and no amount of confident delivery will fix that.
+  Hold the preparation there until each group has a real answer in the other person's terms. When you
+  play the role, be difficult in the four realistic ways rather than hostile; open refusal is rare and
+  rehearsing against it teaches the wrong reflex. Build the conduct advice from the group rather than
+  importing it, because what reads as respect varies sharply between the contexts Amala works in.
+steps:
+  - title: "Work out what power is and who has it here"
+    duration: 10 min
+    guidance: >-
+      Ask what power is, then move quickly to the specific version: who has power over the thing this
+      group is working on? Write the roles up. This is a short step and its job is to make the
+      rehearsal concrete rather than general, so do not let the definition discussion run.
+    keyPrompts:
+      - "Who could actually change this if they decided to?"
+      - "Who do they answer to?"
+    watchOuts:
+      - "The discussion becomes an abstract debate about power. Cut it and ask for names of roles connected to the group's own topic."
+  - title: "Build the conduct list from the group"
+    duration: 10 min
+    guidance: >-
+      Ask what they already know about meeting someone senior: what helps, what damages it. Take their
+      answers first and add only what is missing. Expect and welcome disagreement about eye contact,
+      directness and formality; that disagreement is accurate, because the answer genuinely differs
+      between settings and some learners will be operating across two of them.
+    keyPrompts:
+      - "What does respect look like when you meet someone important, where you are from?"
+      - "What would damage this meeting in the first thirty seconds?"
+    watchOuts:
+      - "The facilitator delivers a list of Western meeting conventions as universal advice. Ask first; add second; name the differences that come up rather than resolving them."
+  - title: "Answer the six questions"
+    duration: 20 min
+    guidance: >-
+      Each group takes a scenario and works the six questions on paper. Move between groups and press
+      on question 4 in every one of them, because every group will have skipped it. Then check
+      question 5 is a real floor and not a restatement of the ask, and that question 6 has actual
+      names attached.
+    keyPrompts:
+      - "Why should this matter to them? In their words, not yours."
+      - "They offer you half. Do you take it? Decide now, not in the meeting."
+    watchOuts:
+      - "Question 4 is answered with a moral claim (because it is the right thing). That is true and it is not an answer; ask what this person is measured on."
+      - "Everyone in the group intends to speak. Assign one lead and one support, or the meeting fragments."
+  - title: "Run the meetings in role"
+    duration: 25 min
+    guidance: >-
+      Each group gets about five minutes with you in role, in front of everyone. Stay in role through
+      the awkwardness rather than rescuing them, and end the meeting the way that archetype would,
+      including ending it early if you are the busy one. Give the "too nice" role to the most
+      confident group.
+    keyPrompts:
+      - "I have got about ten minutes, sorry, go ahead."
+      - "That is really interesting. Leave it with me."
+    watchOuts:
+      - "The facilitator softens because the group is struggling. The struggle is the content; stay in role and let the debrief do the repair."
+      - "A learner is genuinely distressed rather than challenged. Break role, end the meeting, and check in."
+      - "The group that met the 'too nice' figure celebrates. Do not correct them in the moment; ask in the debrief what was actually agreed."
+  - title: "Debrief on what moved, and what was agreed"
+    duration: 15 min
+    guidance: >-
+      Presenters first and briefly, then the watchers, who saw more. Then apply the test to each
+      meeting: was the ask specific, was there evidence, was there a reason for them to care, and did
+      anyone leave with a next step. Finish by naming which archetype each learner found hardest,
+      because that is the one they need to rehearse again.
+    keyPrompts:
+      - "What did that person actually commit to? Say the words they used."
+      - "Which of the four was hardest to deal with, and why that one?"
+    watchOuts:
+      - "The debrief becomes praise for confident speakers. Confidence is not the variable being taught; keep returning to the four-part test."
+closing: >-
+  Ask each group for the one sentence they would change in their opening. Keep the six questions
+  visible for the rest of the project: they are the preparation sheet for every real meeting the group
+  goes into, and the group should fill one in before each one.
+learnerContent: |
+  You are going to practise asking someone powerful for something.
+
+  Six questions first. Answer them before you think about what to say.
+
+  1. **What are you asking for?** Exactly.
+  2. **Why does it matter to you?**
+  3. **What evidence backs it up?**
+  4. **Why should it matter to them?**
+  5. **What will you settle for?**
+  6. **Who is leading, and how will you know the meeting is over?**
+
+  Number 4 is the one people skip and it decides everything. If all you can say is why it matters to
+  you, you are making a complaint. If you can say why it matters to **them**, in their terms, what
+  they are judged on, what they have already said they want, you are negotiating.
+
+  Number 5 matters too. Decide your floor before you walk in, because in the room, under pressure,
+  people either refuse a good offer out of stubbornness or accept a worthless one to be polite.
+
+  Then you meet the powerful person. They will not shout at you. Real ones rarely do. They will be
+  **too busy**, or **too nice and agree to nothing**, or **defensive**, or **on your side but unable
+  to help**. Those four are what you will actually meet.
+
+  Afterwards, one question about your meeting: **what did they actually commit to?** Say the words
+  they used. If you cannot, you did not get anything, however well it went.
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: >-
+    Research changes nothing until somebody with the power to act hears it and agrees to something.
+    This is the skill that converts findings into change, and it is one that young people are almost
+    never taught and frequently need: the ability to walk into a room with an adult who holds the
+    decision, ask precisely, and leave with a commitment.
+principlesForegrounded: [authentic-challenges, lifeworthy-competencies, feedback-and-data]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The four archetypes are how people with power actually behave, and rehearsing against evasive
+      warmth rather than open hostility prepares learners for the meeting they will really get.
+  - principle: lifeworthy-competencies
+    how: >-
+      The six questions work for a job interview, a loan application, a housing office and a funder, not
+      only for a research project, and learners keep the sheet.
+  - principle: feedback-and-data
+    how: >-
+      Question 3 makes evidence a condition of the ask, and the closing test asks what was actually
+      committed to rather than how the meeting felt.
+competencyCodes: [FLC3, ALC4, FUS2]
+competencyDevelopment:
+  - code: FLC3
+    how: >-
+      This is influential communication under the conditions that make it hard: limited time, an
+      uninterested listener, and a specific outcome required. The test is behavioural, whether the
+      person committed to anything.
+  - code: ALC4
+    how: >-
+      Answering question 4 requires learners to construct a reason grounded in what the other person
+      cares about, which is the difference between inspiring somebody and telling them they are wrong.
+  - code: FUS2
+    how: >-
+      The preparation is an exercise in modelling another person's position, pressures and incentives,
+      and the four archetypes give learners a vocabulary for what they are meeting.
+objectiveIds: [research-project--o4, making-societal-change--o3]
+relatedSlugs:
+  - ypar-first-meeting-with-a-decision-maker
+  - ypar-who-decides-here
+  - ypar-seeking-allies
+  - ypar-ways-to-make-change
+  - dc-delivering-effective-presentations
+  - pathways-networking-and-personal-pitch
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plan, in the Community Support and Youth + Adults sections. Free to download."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to San Francisco Peer Resources"
+  basis: >-
+    The six-question preparation structure and the four archetypes are method rather than expression.
+    Every word here is written from scratch; the source's own sheet and its United States school
+    scenarios are not reproduced.
+  note: >-
+    Do not import the source's conduct list (firm handshake, sit up straight, direct eye contact) as
+    universal advice. The page deliberately builds that list from the group instead, because it varies
+    across the settings Amala works in.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Community Support and Youth + Adults > Speaking to Powerful People lesson plan"
+  - "Credited in that plan to San Francisco Peer Resources"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Speaking to Powerful People", supplied to Amala in August 2026. The
+  six preparation questions and the four archetypes of the person in power are the source's and are the
+  reason the material is worth carrying. The conduct list is deliberately not imported but built from
+  the group, the scenarios are the group's own real meetings rather than the source's United States
+  school examples, and the closing test, what did they actually commit to, is Amala's.

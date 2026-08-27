@@ -1,0 +1,46 @@
+id: adultism
+slug: adultism
+access: public
+term: Adultism
+category: content
+matchPhrases:
+- adultism
+- adultist
+definition: >-
+  The assumption that adults are better than young people and entitled to act on them without their
+  agreement, built into how institutions ordinarily run.
+explainer: |
+  Adultism is not the same as an adult behaving badly. It names a default: that a young person's account
+  of their own life is provisional until an adult confirms it, and that decisions about young people are
+  properly made by adults among themselves.
+
+  It is mostly invisible because it is mostly well intentioned. The adults who run schools, clinics,
+  camps and programmes generally mean well, and the arrangement is rarely defended out loud because it is
+  rarely noticed. The reliable test is not attitude but decisions: what does a young person here actually
+  decide, and what would be different if they were not consulted at all?
+
+  Two things follow that matter for research. First, young people carry knowledge about their own
+  conditions that adults do not have and cannot easily get, so an adultist arrangement is not only unfair
+  but inaccurate. Second, young people absorb it: a person told for years that their judgement is not
+  yet reliable will often say so themselves, and will discount what they know.
+
+  It intersects with other structures rather than sitting apart from them. A young woman, a young person
+  without documents, and a young person who is the only one of their group in a room each meet it
+  differently, and often alongside something else.
+
+  Related: [youth-adult partnership](/glossary/youth-adult-partnership) names the arrangement that
+  deliberately works against it, and [tokenism](/glossary/tokenism) names the version where young people
+  are present but decide nothing.
+furtherReading:
+- title: "Hart, R. (1992), Children's Participation: From Tokenism to Citizenship"
+  url: https://www.unicef-irc.org/publications/100-childrens-participation-from-tokenism-to-citizenship.html
+  source: UNICEF Innocenti Essays No. 4
+  note: The ladder of participation, and still the clearest account of the difference between being present and having influence.
+examples:
+- A review meeting about why girls are leaving a programme, attended entirely by staff
+nonExamples:
+- An adult declining a request from young people and explaining the constraint that produced the decision
+useInContext: >-
+  Learners map who actually makes each decision in an institution they belong to, and find the routes to
+  influencing the ones that matter to them.
+relatedTermIds: [youth-adult-partnership, tokenism]

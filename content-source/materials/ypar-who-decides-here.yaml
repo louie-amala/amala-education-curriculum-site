@@ -1,0 +1,246 @@
+id: ypar-who-decides-here
+slug: ypar-who-decides-here
+access: public
+type: activity
+title: "Who decides here? Mapping the decisions in an institution"
+summary: >-
+  Learners list the decisions made in a place they belong to, work out who actually makes each one,
+  and find the routes to influence the ones that matter to them.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed, in groups of four or five holding a set of role cards. The sorting has to be
+      argued: learners disagree about who really decides, and the disagreement is where the accurate
+      map comes from. One learner alone produces a confident wrong answer with nobody to check it.
+duration: 60 to 75 minutes.
+grouping: Whole group to build the list, then groups of four or five to sort.
+materialsAndPreparation:
+  - "One set of role cards per small group. Write the roles for the institution you are actually mapping: learners, teachers, head of centre, committee, parents, elders, the agency that funds it, the authority above that. Do not use a generic set."
+  - "Whatever public information exists about the institution: enrolment numbers, an organisation chart, a budget summary, a rules sheet, an annual report. Post it around the room beforehand."
+  - "Paper and pens, and wall space."
+  - "Your own honest knowledge of who decides what, so you can correct a map that is badly wrong without simply supplying the answers."
+whatLearnersDo:
+  - Read whatever information exists about the institution and note what is there and what is missing.
+  - Brainstorm the decisions that get made in it, from trivial to significant.
+  - Sort each decision to whoever actually makes it, and argue about the hard cases.
+  - For decisions they do not make, work out how they could influence them.
+educatorContent: |
+  ## What this is for
+
+  Young people usually know that decisions are made about them and rarely know by whom. The map this
+  produces has two uses: it is an honest picture of where power sits, and it is a directory. In a
+  research project, the people on this map are the ones to interview, and the ones with the power to
+  act on findings.
+
+  Run it on an institution the learners genuinely belong to: their learning centre, their school, the
+  camp or neighbourhood administration. A generic map teaches nothing.
+
+  ## The warm-up does real work
+
+  The three questions, what did you decide for yourself as a small child, then a few years ago, then
+  now, look like a settling exercise and are not. They establish that the boundary between what you
+  decide and what is decided for you moves over time and is therefore not natural. Everything after
+  that rests on it.
+
+  ## The information stage: what is missing is the finding
+
+  Learners walk the room reading whatever documents exist, and write two columns: what information is
+  here, and what they make of it. The question that opens the discussion is not what did you learn but
+  **what is not here**. Institutions publish what they are measured on. What is absent is usually what
+  nobody is accountable for, and it is often exactly what the learners care about.
+
+  ## The sort
+
+  Read out a decision; each group places it with whoever makes it. Do not settle disputes too quickly:
+  the argument about whether a rule is set by the centre or by the funder is the most educational part,
+  and the honest answer is often "several people, in a sequence".
+
+  Two things to draw out:
+
+  - **Distance.** The decisions that shape a learner's day most are frequently made furthest away.
+  - **The gap between formal and real.** The person with the authority on the chart is not always the
+    person who decides in practice. Ask who in this place gets a decision changed by asking.
+
+  ## The step people skip
+
+  For every decision a group does not make, ask **how could you influence it, and who would you have
+  to reach?** Without this the session ends in a well-evidenced account of powerlessness, which is
+  worse than not running it. Some answers will be "we could not", and saying so honestly is fine, as
+  long as the ones that are reachable have been found.
+
+  ## Context caution
+
+  In some settings, mapping who holds power and how to influence them carries real risk for learners
+  and for the partner organisation. Keep the map on the institution the learners are in, write roles
+  rather than names, and never ask a learner to name an authority they would rather not. See
+  [rights and power](/materials/ypar-rights-and-power), which carries the same caution at a wider
+  scale.
+facilitationNotes: >-
+  The one thing to get right is finishing on routes rather than on the map. A well-made map of who
+  decides everything about you, left there, teaches learners exactly how little they hold. The final
+  step, working out how each decision could be influenced and by whom, is what turns it into a plan and
+  it is the step that gets cut when time runs short. Protect it. Write roles rather than names
+  throughout, and never require a learner to name a real authority.
+steps:
+  - title: "Trace what you have decided for yourself over time"
+    duration: 10 min
+    guidance: >-
+      Three questions in turn: as a small child, what did you decide and what was decided for you? A
+      few years ago? Now? Take answers for each before moving on. The point lands on its own, which is
+      that the line moves, so it is a line somebody draws rather than a fact of nature. Do not state
+      the point; ask what they notice.
+    keyPrompts:
+      - "What do you decide now that you did not decide three years ago?"
+      - "Who moved that line?"
+    watchOuts:
+      - "A learner's answer opens something about family control that the session cannot hold. Take it without probing and follow up individually afterwards."
+  - title: "Read the room and note what is missing"
+    duration: 15 min
+    guidance: >-
+      Learners walk around whatever information you have posted and fill two columns: what is here,
+      and what they think about it. Then discuss. Lead with what is absent rather than what is
+      present, because that is the question that produces the useful list and the one nobody asks
+      themselves.
+    keyPrompts:
+      - "What is not in any of this?"
+      - "If you had to decide about this place using only what is on these walls, what would you be missing?"
+    watchOuts:
+      - "There is almost no published information. That is a finding, not a failure of preparation. Say so and ask what it means that so little is written down."
+      - "Learners treat the documents as authoritative. Ask who wrote each one and what they were trying to show."
+  - title: "List the decisions that get made here"
+    duration: 10 min
+    guidance: >-
+      As a whole group, brainstorm decisions made in this institution and write them all up. Push for
+      range: what time things start, what is taught, what food there is, who is admitted, who is
+      employed, how money is spent, what the rules are. A list of only trivial decisions produces a
+      trivial map.
+    keyPrompts:
+      - "Something that was decided about you this week."
+      - "What is the biggest decision anyone makes about this place?"
+    watchOuts:
+      - "The list stays small and local. Offer three or four bigger examples yourself to widen the range, then stop."
+  - title: "Sort each decision to whoever really makes it"
+    duration: 20 min
+    guidance: >-
+      Read decisions out one at a time; each group places its card. Take the disagreements seriously
+      and let groups argue. Where the real answer is a sequence of people, say so, because that is
+      how institutions work and learners rarely see it. Correct a map that is plainly wrong, but ask
+      first what made them think it.
+    keyPrompts:
+      - "Who decides that, really? Not who announces it."
+      - "Who had to agree before that could happen?"
+    watchOuts:
+      - "Groups place everything with the most senior role. Ask who would have to be consulted first, and the map immediately becomes more accurate."
+      - "The formal chart is treated as the truth. Ask who here actually gets things changed by asking, which is often a different person."
+  - title: "Find the route to the ones that matter"
+    duration: 15 min
+    guidance: >-
+      Pick three decisions the group cares about and does not make. For each, ask who would have to be
+      reached, what would move them, and what the group could realistically do. Be honest where the
+      answer is that they could not shift it. Keep the map: in a research project these are the people
+      to interview and the people who could act on what is found.
+    keyPrompts:
+      - "Who would you have to reach to change that?"
+      - "What would make that person want to?"
+    watchOuts:
+      - "The session ends on the map. That teaches powerlessness with evidence attached; always run this step, even if only for one decision."
+      - "The group proposes an approach that would put someone at risk in this context. Say so plainly and work out a safer route with them."
+closing: >-
+  Keep the map on the wall for the rest of the project. When the group later chooses who to interview,
+  who to invite, and who should hear the findings, the answer is already on it, in the group's own
+  handwriting, with the routes to each person marked.
+learnerContent: |
+  Decisions get made about you every day in this place. Today you work out **who makes them**.
+
+  First, three questions about your own life: what did you decide for yourself as a small child? A few
+  years ago? Now? Notice that the line moved. Somebody moves it.
+
+  Then you will look at whatever this place has written down about itself, and answer a question most
+  people never ask: **what is missing from it?**
+
+  Then the map. Every decision you can think of, sorted to whoever really makes it. Not who announces
+  it. Who decides it.
+
+  Two things usually surprise people. The decisions that affect your day the most are often made
+  furthest away from you. And the person in charge on paper is not always the person who can actually
+  change something if you ask them.
+
+  The last part matters most. For the decisions you care about and do not make: **who would you have
+  to reach, and what would make them listen?** Some of them you will not be able to shift, and it is
+  worth saying so honestly. But some you can, and you will not find out which unless you look.
+
+  You never have to name a real person you would rather not name. Write the role.
+agencyContribution:
+  indicators: [contribution-to-community, control-of-future-pathways]
+  how: >-
+    Influence requires knowing where to push, and most young people have never been shown the shape of
+    an institution they spend their days inside. The map converts a diffuse sense that things are
+    decided elsewhere into a specific list of who and how, which is the difference between resentment
+    and a plan.
+principlesForegrounded: [authentic-challenges, feedback-and-data, responsible-action]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The institution mapped is one the learners actually belong to and the decisions are ones that
+      have really been made about them, so the analysis has consequences rather than illustrating a
+      point.
+  - principle: feedback-and-data
+    how: >-
+      Learners work from whatever the institution has actually published, and the strongest finding is
+      usually about what it does not publish, which is a lesson about evidence they can reuse
+      everywhere.
+  - principle: responsible-action
+    how: >-
+      The routes step is bounded by honesty about what is reachable and by a check on whether an
+      approach would put anyone at risk, so the plan stays real.
+competencyCodes: [FPS3, FSI1, ASL3]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Sorting decisions to their real owners, including the ones that pass through several hands, is
+      structural analysis of a system, done on a system the learner is inside and can check.
+  - code: FSI1
+    how: >-
+      The finished map is a research asset: it names who to interview about the challenge and who has
+      the standing to act on what the group finds.
+  - code: ASL3
+    how: >-
+      The routes step is explicitly about which relationships would have to exist for the group to have
+      influence, and who would have to be reached through whom.
+objectiveIds: [making-societal-change--o1, research-project--o1]
+relatedSlugs:
+  - ypar-how-adults-see-young-people
+  - ypar-ladder-of-participation
+  - ypar-rights-and-power
+  - ypar-seeking-allies
+  - ypar-speaking-to-powerful-people
+  - stakeholder-community-mapping
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plan, in the Youth + Adults section. Free to download, and written for a United States school district."
+  - label: "YELL: A Handbook for Program Staff, Teachers, and Community Leaders (John W. Gardner Center, Stanford)"
+    url: https://gardnercenter.stanford.edu/project/free-handbook-guide-your-own-student-research-team
+    note: "The free handbook the YPAR Hub Youth + Adults plans draw on."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to Stanford's John W. Gardner Center (YELL) and San Francisco Peer Resources"
+  basis: >-
+    Mapping decisions to decision-makers is a method rather than an expression. Every word here is
+    written from scratch, and the source's United States school-district role list and decision
+    examples are replaced rather than reproduced.
+  note: >-
+    Do not restore the source's role set (school site council, district, state and federal government).
+    It does not describe the institutions Amala's learners belong to.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Youth + Adults > Data and Adultism in Decision-Making lesson plan"
+  - "Credited in that plan to Stanford University's Youth Engaged in Leadership and Learning (YELL) curriculum and San Francisco Peer Resources"
+provenanceNote: >-
+  Adapted from the YPAR Hub's "Data and Adultism in Decision-Making", supplied to Amala in August 2026.
+  The three-stage structure, read the data, list the decisions, sort them to decision-makers, is the
+  source's, as is the closing question about influencing decisions you do not make. The roles and
+  decisions are relocated from a United States school district to whatever institution the learners
+  actually belong to, and the routes step is promoted from a closing question to a protected step,
+  because without it the session documents powerlessness and stops.

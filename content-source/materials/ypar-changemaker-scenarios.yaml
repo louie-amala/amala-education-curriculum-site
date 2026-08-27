@@ -1,0 +1,181 @@
+id: ypar-changemaker-scenarios
+slug: ypar-changemaker-scenarios
+access: public
+type: resource
+title: "Changemaker scenarios: four situations to read two ways"
+summary: >-
+  Four short, invented situations for the changemaker activity, each with the three questions a group
+  answers and the test to apply to every remedy it proposes.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      Cut into four and give one to each group, or read aloud. Every scenario is written to work in more
+      than one setting, so the same sheet suits a learning centre, a camp and a town.
+materialsAndPreparation:
+  - "One scenario per small group, cut out or read aloud. Nothing else is needed."
+  - "If your group does not read fluently, read each scenario twice and let groups keep a facilitator nearby for the questions."
+facilitationNotes: >-
+  These are the scenarios for [changemaker or changestopper](/materials/ypar-changemaker-or-changestopper);
+  the running guidance is on that page. They are invented and deliberately unresolved: each one contains a
+  person who did something, so a group cannot reach the structural reading by simply declaring the person
+  blameless. Swap in a situation from your own setting if you have a better one, but keep two features:
+  nobody in it is a villain, and more than one institution is touching it.
+learnerContent: |
+  ## How to use these
+
+  Take one scenario. Answer the three questions. Then prepare two short performances of it: one
+  changestopper, one changemaker.
+
+  Every scenario has three questions:
+
+  1. **Who is the changestopper here, and who do they blame?**
+  2. **What would a changemaker say is underneath it?**
+  3. **Name three changes an institution could make.** For each one, say which body would have to do it.
+
+  Then test each of your three changes:
+
+  > Does this change things for **everyone** in that position, or does it help **one person** and leave
+  > the arrangement standing?
+
+  Both are worth doing. Only one of them is an institutional change.
+
+  ---
+
+  ## 1. The late arrival
+
+  Amina lives an hour's walk from the learning centre, on the far side of a road that floods. She takes
+  her two younger brothers to their school first, because there is nobody else to do it. She arrives at
+  the centre late most mornings.
+
+  The register is marked at the start. After three late marks the rule is that a learner is sent home
+  for the day. Amina has been sent home twice this month. She is now behind, and last week she did not
+  come at all.
+
+  Her teacher says she is not committed.
+
+  ---
+
+  ## 2. The unused equipment
+
+  An agency delivered a set of tablets to the centre eight months ago, with a training day for staff.
+  Two of the staff who were trained have since left. The tablets are in a locked cupboard because there
+  is nowhere secure to charge them and the centre was told it is responsible if they are damaged.
+
+  A visitor asks why nobody is using them, and is told that the teachers here are not confident with
+  technology.
+
+  ---
+
+  ## 3. The girls who stopped coming
+
+  A class of thirty started in January. By April, eleven of the fourteen girls had stopped attending.
+  The walk is long and part of it is unlit. The centre's one latrine is shared. Two families said they
+  needed their daughters at home; one said she was old enough to be married.
+
+  At a review meeting, someone says the families in this community do not value girls' education.
+
+  ---
+
+  ## 4. The rejected form
+
+  Yusuf spent two weeks getting the documents together for a scholarship. The form had to be submitted
+  online, in a language he reads slowly, by a date he found out about nine days beforehand from another
+  learner. The nearest reliable connection is a shop that charges by the hour. His application was
+  submitted incomplete and was rejected without comment.
+
+  The scholarship office notes that very few applicants from his area apply, and concludes there is
+  little demand.
+educatorContent: |
+  ## What each scenario is built to do
+
+  All four are invented and all four are constructed so that the person in them did something, which
+  blocks the lazy route to the structural reading. Amina really is late. Yusuf really did submit an
+  incomplete form. A group cannot reach the changemaker account by declaring anyone blameless; it has
+  to trace what shaped the options.
+
+  Each also touches more than one institution, so the third question has real answers.
+
+  - **The late arrival.** A rule that is reasonable in general and produces exactly the wrong outcome
+    for the learner it most affects. Institutions in play: the centre's attendance policy, whoever
+    maintains the road, the brothers' school and its start time, and whatever does or does not exist for
+    a household with no other adult.
+  - **The unused equipment.** Useful against the assumption that a resource is a solution. Institutions:
+    the agency's design of the donation, the training that assumed staff would stay, the liability rule,
+    and the absence of power infrastructure.
+  - **The girls who stopped coming.** The one that most needs care, and the most valuable. The stated
+    explanation, that families do not value girls' education, is common, sincerely believed, and
+    unfalsifiable as posed. The changemaker reading finds lighting, latrines, distance, timing and
+    household labour, all addressable. Facilitate this so it does not become either an attack on
+    families or a denial that early marriage happens; both are dead ends. See the note below.
+  - **The rejected form.** Shows how a system generates the evidence that justifies it: few apply, so
+    demand is judged low, so nothing is done to make applying easier. Institutions: the scholarship
+    office, the notification route, the language requirement, the assumption of connectivity.
+
+  ## Running scenario 3
+
+  Use it with a group that has already run one of the others, so the method is established before the
+  subject is charged. Two boundaries worth setting: the question is what would have to change for a
+  family to send its daughter, not whether the families are right; and no learner should be asked to
+  speak for their own family. In a mixed-gender group, watch whether the young women are being asked to
+  explain themselves, and structure the discussion so they are not.
+
+  ## Writing your own
+
+  Better than any of these if you can. Two rules: nobody in it is a villain, and more than one
+  institution is touching it. A scenario with a clear villain teaches learners to look for villains,
+  which is a changestopper habit wearing different clothes.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Each scenario ends in three named changes and a body that would have to make each one, so learners
+    finish with an addressable target rather than an explanation. The sheet exists to convert the
+    analysis into something a person could actually go and ask for.
+principlesForegrounded: [authentic-challenges, safe-spaces]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The situations are the ordinary friction of the settings Amala works in, rather than dramatic
+      cases, and none of them resolves neatly.
+  - principle: safe-spaces
+    how: >-
+      The scenarios are invented so that no learner's own history is the group's case study, and the
+      one that touches gender carries explicit boundaries for how to run it.
+competencyCodes: [FPS3, AUS1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Each scenario requires naming several institutions touching a single outcome, which is the
+      practice the competency describes, at a scale a group can hold.
+  - code: AUS1
+    how: >-
+      Three of the four contain a stated explanation that is a stereotype about a group, and the work is
+      to test it against what is actually in the situation.
+objectiveIds: [making-societal-change--o1]
+relatedSlugs:
+  - ypar-changemaker-or-changestopper
+  - ypar-ways-to-make-change
+  - problem-tree
+  - pn-danger-of-a-single-story
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The lesson plan these scenarios replace the handouts for, in the YPAR Basics section."
+rights:
+  status: amala-own
+  basis: >-
+    Written by Amala in August 2026. The activity structure they serve comes from the YPAR Hub by way of
+    San Francisco Peer Resources; the four scenarios, the notes on each and the guidance for writing more
+    are original.
+  note: >-
+    The scenarios are invented. Never edit them to present the people or organisations in them as real,
+    and keep the boundaries on scenario 3.
+sourceRefs:
+  - "Written to replace the situation sheets in the YPAR Hub (UC Berkeley) Institutional Change lesson plan"
+provenanceNote: >-
+  Authored by Amala in August 2026. The source lesson plan ships three situation sheets and two skits set
+  in United States high schools, turning on school discipline, policing and liquor laws; none of it
+  travels to Amala's settings, and none is reproduced. These four are written from scratch around the
+  frictions Amala's learners actually meet, and each is deliberately built so the person in it did
+  something, which is what stops a group reaching the structural reading by declaring everyone blameless.

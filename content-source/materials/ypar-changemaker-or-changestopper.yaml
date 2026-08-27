@@ -1,0 +1,265 @@
+id: ypar-changemaker-or-changestopper
+slug: ypar-changemaker-or-changestopper
+access: public
+type: activity
+title: "Changemaker or changestopper: where do you put the blame?"
+summary: >-
+  Learners perform two readings of the same situation, one blaming the person in it and one tracing it
+  to an institution, and learn to notice which one they reach for first.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The two readings have to be performed by different people and heard back to back;
+      the contrast is the teaching. A learner working alone writes both and hears neither, which loses
+      most of it.
+duration: 45 to 60 minutes.
+grouping: Pairs or fours to prepare, whole group to watch and discuss.
+materialsAndPreparation:
+  - "The scenarios: see the [changemaker scenarios](/materials/ypar-changemaker-scenarios) sheet."
+  - "Two demonstration readings prepared, so the group sees the shape before attempting it."
+  - "A board with two columns."
+  - "No-resource route: this needs nothing but the scenarios, which can be read aloud."
+whatLearnersDo:
+  - "Watch two readings of one situation: one that blames the person, one that traces the cause."
+  - Prepare and perform both readings of a scenario of their own.
+  - Identify which institution each problem connects to, and what could change there.
+  - Notice which reading they personally reach for first.
+educatorContent: |
+  ## The two figures
+
+  A **changestopper** looks at a situation and blames the person in it. A **changemaker** looks at the
+  same situation and traces it to an institution or an arrangement that produced it.
+
+  The essential framing, which the source gets right and which is easy to lose: **most people move
+  between the two.** These are not two kinds of person, they are two readings that everyone reaches
+  for at different moments. Introduced as character types, the activity turns into a competition to
+  demonstrate the correct politics, and learners perform the right answer rather than noticing their
+  own reflex.
+
+  ## Why the changestopper reading is so available
+
+  Worth naming directly, because learners ask. Blaming the person is quicker, requires no research, and
+  imposes no obligation on the observer: if the problem is somebody's character, there is nothing for
+  me to do. It also flatters whoever is doing the reading. Ask the group why it is easier, and they
+  will produce this themselves, which is much better than being told.
+
+  ## The trap to avoid
+
+  There is a way of running this that makes it useless: treating any structural explanation as correct
+  and any mention of individual choice as changestopping. Learners see through it immediately. People
+  do make choices; the changemaker reading does not deny that, it asks what shaped the range of choices
+  available. Where a learner insists that someone was responsible for their own situation, do not
+  overrule them. Ask what would have had to be different for the other option to have been realistic.
+
+  ## The step past the analysis
+
+  The scenarios end with "name three institutional changes that could happen here", and that step is
+  what stops this being a session in which learners get skilled at describing why nothing is anyone's
+  fault. Insist on three, insist that they name a body or an arrangement, and then apply the test
+  offered in the source: does this change conditions for everyone in this position, or does it help one
+  person while leaving the arrangement intact? Both are worth doing. Only one of them is institutional.
+
+  ## Sensitivity
+
+  These scenarios are about people being punished, excluded and stopped, and learners will recognise
+  themselves in some of them. Two consequences: use the invented scenarios rather than asking learners
+  to supply cases from their own lives, and let anyone take a non-performing role. When a learner does
+  volunteer their own experience, take it seriously, do not make it the group's case study, and follow
+  up privately.
+
+  ## Where it sits
+
+  Before [five ways to make change](/materials/ypar-ways-to-make-change), which asks what to do once
+  the cause has been located. Alongside the [problem tree](/materials/problem-tree) and
+  [our root cause](/materials/cb-rp-root-cause), which do the same work analytically rather than
+  through performance.
+visuals:
+  - kind: example
+    title: "Two readings of one situation"
+    caption: >-
+      Same event, two accounts. The right-hand column is not more sympathetic; it is looking at a
+      different level, and it produces something to act on.
+    spec:
+      type: zones
+      cardStyle: text
+      flow: across
+      flowLabel: "same event"
+      zones:
+        - label: "Changestopper"
+          sublabel: "Blames the person"
+          tone: warn
+          cards: ["She is always late", "He does not try"]
+        - label: "Changemaker"
+          sublabel: "Traces the cause"
+          tone: positive
+          cards: ["One bus, twice a day", "Nobody was ever taught"]
+facilitationNotes: >-
+  The one thing to get right is that these are two readings, not two kinds of person, and that everyone
+  uses both. Framed as character types the session becomes a competition to display correct politics and
+  nobody examines their own reflex. Do not treat every mention of individual choice as changestopping;
+  ask instead what would have had to be different for another choice to be realistic. Sensitivity: the
+  scenarios involve punishment and exclusion and some learners will recognise themselves, so use the
+  invented cases rather than asking for real ones, and offer a non-performing role.
+steps:
+  - title: "Name three institutions that shape your life"
+    duration: 5 min
+    guidance: >-
+      Ask each learner for three institutions that affect them: a school, a clinic, an agency, a camp
+      administration, a police force, a bank. Write them up. The word is abstract until it has a list
+      under it, and the list is what the rest of the session refers back to.
+    keyPrompts:
+      - "Something that has rules you did not agree to and cannot easily change: what is it?"
+    watchOuts:
+      - "Learners name individual people. Ask who that person works for, and what would happen if they left; the institution is what remains."
+  - title: "Demonstrate the two readings"
+    duration: 10 min
+    guidance: >-
+      Perform, or have volunteers perform, two short readings of the same simple situation. Then ask
+      what was different. Draw out that both are looking at the same event: one stops at the person and
+      one keeps going. Put the two column headings up and put the demonstration into them.
+    keyPrompts:
+      - "Same event. What was different about how they saw it?"
+      - "Which institution did the second one connect it to?"
+    watchOuts:
+      - "The changestopper reading is played as stupid or cruel. Play it as reasonable and ordinary, because that is what it is; a caricature lets everyone off."
+  - title: "Prepare and perform your scenario"
+    duration: 20 min
+    guidance: >-
+      Small groups take a scenario, answer the three questions on it, and prepare both readings as a
+      short performance. Move between groups pressing on the third question, the institutional changes,
+      because groups will do the diagnosis happily and skip the remedy.
+    keyPrompts:
+      - "Who does the changestopper blame? Name them."
+      - "What would the changemaker say is underneath it?"
+      - "Three changes. Which body would have to do each one?"
+    watchOuts:
+      - "A group produces one change and stalls. Ask who else is involved in the situation; there is always more than one institution touching it."
+      - "The changemaker reading becomes a speech rather than a scene. Ask them to show somebody noticing, not somebody lecturing."
+  - title: "Watch, then locate the institution each time"
+    duration: 15 min
+    guidance: >-
+      Each group performs both readings. After each, run the same short set of questions and write the
+      institution named into the second column. By the fourth scenario the room can usually predict the
+      shape, which is the point at which the frame has been learned rather than heard.
+    keyPrompts:
+      - "According to each of them, what caused this?"
+      - "Is there another institution this could connect to?"
+      - "How would each of them try to solve it?"
+    watchOuts:
+      - "The discussion drifts into whether the person in the scenario was to blame. Redirect: the question is not whether they made choices but what shaped the choices available."
+  - title: "Ask why the first reading is easier, and test the remedies"
+    duration: 10 min
+    guidance: >-
+      Ask directly why blaming the person comes more easily, and let the group answer. Then test the
+      remedies collected on the board: for each, does this change conditions for everyone in that
+      position, or help one person and leave the arrangement standing? Say clearly that both are worth
+      doing and only one is institutional.
+    keyPrompts:
+      - "Why is it easier to be a changestopper?"
+      - "Does that change the conditions, or does it help one person?"
+    watchOuts:
+      - "Learners conclude that helping an individual is worthless. Correct it directly; the distinction is about what a remedy does, not about which is worth doing."
+closing: >-
+  Ask each learner for one honest sentence: where in their own life do they reach for the changestopper
+  reading first? Take answers or let them keep it private. The habit this activity is trying to build is
+  noticing the reflex, and that only starts when somebody catches themselves in it.
+learnerContent: |
+  Two people look at the same situation.
+
+  The **changestopper** blames the person in it. *She is always late. He does not try. They brought it
+  on themselves.*
+
+  The **changemaker** looks at the same thing and asks what put them there. *There is one bus and it
+  runs twice a day. Nobody ever taught him. The rule was written by people it will never apply to.*
+
+  Neither of these is a type of person. **Everybody does both**, depending on the day and who they are
+  looking at. That is the useful part.
+
+  Here is a question worth sitting with: **why is the first one easier?**
+
+  Partly because it is faster, and needs no research. And partly because if the problem is somebody's
+  character, then there is nothing for you to do about it.
+
+  You will perform both readings of a situation. Then, for your scenario, name **three changes an
+  institution could make**. Then test each one:
+
+  > Does this change things for everyone in that position, or does it help one person and leave
+  > everything else as it was?
+
+  Both are worth doing. Only one of them changes the situation.
+
+  One question for yourself at the end, and you can keep the answer private: **where do you reach for
+  the changestopper reading first?**
+agencyContribution:
+  indicators: [contribution-to-community, power-over-wellbeing-and-self-direction]
+  how: >-
+    Where a person locates a problem determines what they think can be done about it, and a young
+    person who has been told their circumstances are their own fault has usually absorbed the
+    changestopper reading about themselves. Learning to run the second reading is simultaneously an
+    analytical skill and a release: it identifies something to act on, and it puts the responsibility
+    somewhere it can actually be moved.
+principlesForegrounded: [authentic-challenges, responsible-action, safe-spaces]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The scenarios are ordinary situations of the kind learners meet, and the remedies must name a real
+      body that would have to act, so the analysis ends in something addressable.
+  - principle: responsible-action
+    how: >-
+      The final test separates a remedy that changes conditions from one that helps an individual, and
+      insists that both are legitimate, which keeps the analysis honest rather than doctrinaire.
+  - principle: safe-spaces
+    how: >-
+      Invented scenarios carry the material rather than learners' own histories, non-performing roles
+      are available, and a learner who does recognise themselves is not turned into the case study.
+competencyCodes: [FPS3, APS3, AUS1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      Each scenario is an exercise in tracing an outcome back past the person it happened to, to the
+      arrangements that produced it, and naming which body owns each one.
+  - code: APS3
+    how: >-
+      Running four scenarios in sequence surfaces the pattern: different events, the same handful of
+      institutions, and learners start predicting the connection before it is drawn.
+  - code: AUS1
+    how: >-
+      Victim-blaming is where stereotype and structural disadvantage meet, and the activity gives
+      learners a repeatable way to interrupt it in their own thinking rather than only in others'.
+objectiveIds: [making-societal-change--o1, research-project--o3]
+relatedSlugs:
+  - ypar-changemaker-scenarios
+  - ypar-ways-to-make-change
+  - ypar-rescue-or-go-upstream
+  - problem-tree
+  - cb-rp-root-cause
+  - pn-iceberg-of-othering
+worksheet:
+  slug: ypar-changemaker-scenarios
+  note: "The four scenarios and the three questions each group answers, plus the test to apply to every remedy."
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plan, in the YPAR Basics section. Free to download."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to San Francisco Peer Resources"
+  basis: >-
+    The changemaker and changestopper pairing is a teaching device rather than an expression. Every word
+    here is written from scratch, and the source's skits and situation sheets, which are set in United
+    States high schools, are replaced rather than reproduced.
+  note: >-
+    Do not import the source's scenarios. They turn on American school discipline, policing and liquor
+    laws, and they do not travel.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > YPAR Basics > Institutional Change lesson plan"
+  - "Credited in that plan to San Francisco Peer Resources"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Institutional Change", supplied to Amala in August 2026. The two
+  figures, the performance structure and the closing test distinguishing institutional from individual
+  remedies are the source's. The scenarios are replaced entirely (see
+  [changemaker scenarios](/materials/ypar-changemaker-scenarios)); the insistence that these are two
+  readings rather than two kinds of person, the caution against treating any mention of individual
+  choice as changestopping, and the sensitivity handling are Amala's.

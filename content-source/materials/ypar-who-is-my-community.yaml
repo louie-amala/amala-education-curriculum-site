@@ -1,0 +1,236 @@
+id: ypar-who-is-my-community
+slug: ypar-who-is-my-community
+access: public
+type: activity
+title: "Who is my community? And who decides that"
+summary: >-
+  Learners work out which communities they belong to, how they can tell when they are outside one, and
+  who gets to say that a community has a problem.
+facilitationContext: [group]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The definitions have to collide: learners hold genuinely different ideas of what a
+      community is, and hearing several is what prevents the group researching "the community" as though
+      it were one settled thing with one opinion.
+duration: 60 to 75 minutes.
+grouping: Threes to sixes for the discussion, individual for the drawing, whole group for the gallery walk.
+materialsAndPreparation:
+  - "Paper and something to draw with, one sheet per learner."
+  - "Two large overlapping circles drawn on each sheet, or drawn by learners themselves, which is quicker and works just as well."
+  - "Wall space for a gallery walk. The drawings must be looked at together rather than passed around."
+  - "A board for the group's definitions."
+whatLearnersDo:
+  - Say how they define community, and which ones they belong to.
+  - Work out who decides membership, and who counts as an expert on a community.
+  - Draw two communities they belong to and what the two share.
+  - Walk the gallery and find what the group's communities have in common.
+educatorContent: |
+  ## Why this is not a warm-up
+
+  A research project about "the community" will otherwise proceed on the assumption that there is one,
+  that it agrees with itself, and that the learners are inside it. All three are usually false, and the
+  third is often the most consequential: a young person researching their own camp or neighbourhood may
+  be inside it in one sense and firmly outside the parts of it that hold power.
+
+  The questions that do the work are the ones about authority:
+
+  - **Who decides who belongs?**
+  - **Who counts as an expert on a community?**
+  - **Who decides when there is a problem in a community?**
+
+  That last one is the direct precursor to the research question. Somebody has already decided what
+  counts as a problem here, and it is worth knowing who before the group inherits their framing.
+
+  ## The finding to reach
+
+  Two people can live in the same place and belong to different communities, and can disagree completely
+  about what needs to change there. Communities also have rules nobody has written down, and the reliable
+  sign that you are outside one is that you do not know what they are.
+
+  For displaced learners this is rarely abstract. Many belong to several communities at once, some of
+  them left behind, some of them not chosen, and some of which do not regard them as members. Let that
+  complexity into the room rather than tidying it: a learner who says they do not belong anywhere has
+  said something true and important, and the answer is not to reassure them out of it.
+
+  ## The drawing
+
+  Two overlapping circles: one community in each, what they share in the middle. Drawing rather than
+  writing matters here, because it produces detail that a list does not, and because it keeps the
+  activity open to learners who do not write fluently.
+
+  Do not require that one circle be the learning centre. Let learners choose both. Which two a person
+  picks is itself information.
+
+  ## The gallery walk
+
+  This is the part that converts private reflection into a group finding. Learners look for connections
+  across the drawings: what recurs, what appears only once, what seems good about a community and what
+  looks like it needs changing. The last two questions are where the group's research interests start
+  becoming visible.
+
+  ## Where it sits
+
+  Before [seeking allies](/materials/ypar-seeking-allies) and any community mapping, and before the
+  research question is fixed. It pairs with
+  [community mapping and empathy interviews](/materials/community-mapping-and-empathy-interviews), which
+  maps the community outward; this one establishes who is doing the mapping and from where.
+facilitationNotes: >-
+  The one thing to get right is the authority questions: who decides who belongs, who counts as an expert,
+  and who decides that there is a problem. Without them this is a pleasant identity exercise; with them it
+  is the groundwork for not researching a community as though it were a single thing with a single view.
+  Sensitivity: for displaced learners, belonging is complicated and sometimes painful, and a learner who
+  says they belong nowhere has said something true. Let it stand rather than reassuring them out of it,
+  and follow up privately.
+steps:
+  - title: "Collect definitions before agreeing one"
+    duration: 10 min
+    guidance: >-
+      Ask how each person defines community and which ones they think they belong to. Write the
+      definitions up as given and do not reconcile them. The differences are the material: some learners
+      will define community by place, some by language, some by faith, some by who would help them in
+      trouble.
+    keyPrompts:
+      - "How would you finish this: a community is..."
+      - "Which ones are you part of?"
+    watchOuts:
+      - "The group converges on one tidy definition. Push back with a case that does not fit it, and leave the disagreement standing."
+  - title: "Ask the authority questions in small groups"
+    duration: 15 min
+    guidance: >-
+      In groups of three to six, work through who makes up a community, who decides who is in it, whether
+      you have to live somewhere to belong, who counts as an expert on it, and who decides when there is a
+      problem in it. Move between groups and press on the last two, which are the ones that matter for the
+      research and the ones groups skate over.
+    keyPrompts:
+      - "Who decides whether you belong?"
+      - "Who counts as an expert on your community? Who says so?"
+      - "Who decides that something here is a problem?"
+    watchOuts:
+      - "The last question is answered abstractly. Ask who decided that the thing your project is about is a problem, and whether the people affected agree."
+  - title: "Talk about being outside"
+    duration: 10 min
+    guidance: >-
+      Ask when they have clearly been outside a community, how they could tell, and what someone would
+      have to know to belong. Draw out that the rules are usually unwritten and that not knowing them is
+      the signal. Handle this gently; for some learners the honest answer involves being made unwelcome.
+    keyPrompts:
+      - "How could you tell you were outside?"
+      - "What would someone have to know to fit in here?"
+    watchOuts:
+      - "A learner describes being excluded in a way that quietens the room. Acknowledge it plainly, do not probe, and move on at their pace."
+      - "The discussion becomes about a group present in the room. Redirect to the mechanism rather than the instance, and follow up afterwards."
+  - title: "Draw two communities and what they share"
+    duration: 15 min
+    guidance: >-
+      Two overlapping circles, one community in each, shared things in the middle. Say explicitly that
+      drawing ability is irrelevant and that words in the circles are equally fine. Let learners choose
+      both communities rather than requiring one to be the centre.
+    keyPrompts:
+      - "What is in the middle? What do both of them have?"
+      - "What is in one and could never be in the other?"
+    watchOuts:
+      - "A learner cannot think of two. Offer smaller ones: a family, a football team, the people you sit with. Everyone belongs to more than one."
+  - title: "Gallery walk and find the pattern"
+    duration: 15 min
+    guidance: >-
+      Put every drawing up and have the group walk them in silence first, then discuss. Ask what recurs
+      across the group, what appears only once, what looks positive and what looks like it needs
+      changing. Write the last two lists; they are the beginning of the group's research interests.
+    keyPrompts:
+      - "What is in nearly everybody's drawing?"
+      - "What does somebody's drawing show that needs changing?"
+    watchOuts:
+      - "The walk becomes commentary on individuals' art. Ask for patterns across drawings, not judgements of any one."
+      - "The two lists are generated and lost. Keep them; they feed directly into choosing what to research."
+closing: >-
+  Close on the question the project will inherit: who has already decided what counts as a problem in the
+  community we are about to research, and do the people living there agree? Keep that question visible.
+  It is the difference between investigating a community and investigating somebody's opinion of it.
+learnerContent: |
+  You belong to more than one community. Most people do.
+
+  Today you work out which ones, and then some harder questions:
+
+  - **Who decides who belongs?**
+  - Do you have to live somewhere to be part of it?
+  - **Who counts as an expert on a community?** Who decided that?
+  - **Who decides when there is a problem in a community?**
+
+  That last one matters most for what we are about to do. Somebody has already decided what counts as a
+  problem where you live. It is worth knowing who, before we start researching it.
+
+  You will also think about being **outside** a community. How could you tell? Usually it is that there
+  are rules nobody wrote down and you do not know them.
+
+  Then you will draw two circles: a community in each, and what they share in the middle. It does not
+  have to be a good drawing, and words are fine.
+
+  All the drawings go on the wall and you look for what the group has in common.
+
+  One last thing. Some of you belong to communities you did not choose, or have left, or that do not
+  count you as a member. If your honest answer is that you do not really belong anywhere, that is a real
+  answer and you are allowed to give it.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    Acting on a community requires knowing which one you mean, whether you are inside it, and whose
+    account of its problems you have inherited. Learners who have asked those questions research
+    differently: they check whose definition of the problem they are using, which is the difference
+    between working with a community and working on one.
+principlesForegrounded: [builds-on-identities, authentic-challenges, safe-spaces]
+principleAlignment:
+  - principle: builds-on-identities
+    how: >-
+      The communities examined are the learners' own, defined in their own terms, and the design allows
+      for belonging to several at once or to none securely.
+  - principle: authentic-challenges
+    how: >-
+      The authority questions are the real methodological problem of community research, faced before the
+      question is chosen rather than discovered afterwards.
+  - principle: safe-spaces
+    how: >-
+      Exclusion and non-belonging are treated as answerable truths rather than problems to be talked out
+      of, and the discussion is steered away from becoming about a group present in the room.
+competencyCodes: [FUS3, FSI1, FUS1]
+competencyDevelopment:
+  - code: FUS3
+    how: >-
+      Learners examine the unwritten rules that mark membership, using cases where they were outside,
+      which is a precise and personal route into how cultures signal belonging.
+  - code: FSI1
+    how: >-
+      Establishing who defines the problem, and whose expertise counts, is a methodological decision that
+      shapes the whole investigation, taken deliberately here rather than by default.
+  - code: FUS1
+    how: >-
+      Naming which communities you belong to, and how securely, is self-knowledge of the kind displaced
+      young people rarely get a structured occasion to articulate.
+objectiveIds: [research-project--o1]
+relatedSlugs:
+  - ypar-seeking-allies
+  - ypar-who-decides-here
+  - community-mapping-and-empathy-interviews
+  - stakeholder-community-mapping
+  - pb-identities-in-your-community
+  - pb-identity-charts
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plan, in the Community Support section. Free to download."
+rights:
+  status: own-expression
+  holder: "UC Berkeley YPAR Hub; credited by the source to San Francisco Peer Resources"
+  basis: >-
+    A Venn diagram of one's own communities is a common teaching method. Every word here is written from
+    scratch and none of the source's wording or its handout is reproduced.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > Community Support > Who is My Community? lesson plan"
+  - "Credited in that plan to San Francisco Peer Resources"
+provenanceNote: >-
+  Rewritten from the YPAR Hub's "Who is My Community?", supplied to Amala in August 2026. The discussion
+  questions, including the three about authority, and the two-circle drawing with a gallery walk are the
+  source's. The handling of non-belonging for displaced learners, the removal of the requirement that one
+  circle be the school, and the closing question about whose definition of the problem the project is
+  inheriting are Amala's.

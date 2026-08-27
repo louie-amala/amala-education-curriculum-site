@@ -1,0 +1,270 @@
+id: ypar-rescue-or-go-upstream
+slug: ypar-rescue-or-go-upstream
+access: public
+type: case-study
+title: "The people in the river: rescue, or go upstream?"
+summary: >-
+  A short parable in which a village exhausts itself saving people from a river, and a few ask what is
+  happening further up, used to open the argument about relief and cause.
+facilitationContext: [group, independent, one-to-one-mentoring]
+primaryContext: group
+deliveryAdaptations:
+  - context: group
+    how: >-
+      As designed. The parable is read, then the room splits into three parties and argues from inside
+      their positions. The argument is what makes it land; read and discussed politely it becomes a
+      fable with an obvious moral and teaches nothing.
+  - context: independent
+    how: >-
+      Reads and works alone, and suits a task between sessions. What is lost is having to argue the
+      rescuers' case, which is the position most learners privately hold, so ask a learner working
+      alone to write the rescuers' strongest argument before answering anything else.
+  - context: one-to-one-mentoring
+    how: >-
+      A useful short piece with a learner whose project keeps growing in effort and not in effect. The
+      question is gentle and hard: is this rescue work, and if so, who is upstream?
+duration: 45 to 60 minutes.
+grouping: Whole group for the reading, three parties for the argument, whole group to debrief.
+materialsAndPreparation:
+  - "The parable below, read aloud or copied. Reading it aloud works better and costs nothing."
+  - "The three party briefs, one per group."
+  - "A board for the debrief."
+  - "A decision about which real situation you will connect it to at the end, made in advance."
+whatLearnersDo:
+  - Read a parable about a village overwhelmed by a problem it did not cause.
+  - "Argue from inside one of three positions: rescue, go upstream, or the person causing it."
+  - Work out which strategy changes the conditions and which sustains them.
+  - Apply the distinction to their own research topic.
+educatorContent: |
+  ## What the parable is doing
+
+  The structure is old and widely retold: people keep appearing in a river; the village organises to
+  pull them out; eventually someone asks who is putting them in. This version places a named cause
+  upstream so the third party can be played, which is what makes it argue rather than merely illustrate.
+
+  The move that surprises groups is not "go upstream is better". It is the discovery, when the third
+  group answers honestly, that **the person causing the problem prefers the rescue effort.** It occupies
+  the village, it makes the harm look like misfortune rather than a decision, and it lets them fund a
+  little of it and be thanked. That realisation reframes generosity as something that can be used, and
+  it is the point of running this rather than simply asserting that root causes matter.
+
+  ## Protect the rescuers' case
+
+  The one thing that ruins this session is letting the rescue position be a straw man. It is not. People
+  are being hurt now, the rescue works, and everyone who leaves to go upstream is one fewer pair of hands
+  for someone bleeding today. Brief that group to argue it properly, and if they under-argue it, argue it
+  yourself in the debrief.
+
+  In Amala's contexts this is not abstract. Learners live in places sustained by relief operations, and
+  some of their families work in them. A session that concludes that humanitarian work is a distraction
+  would be both wrong and offensive. The conclusion to reach is the harder one: **the balance is a choice,
+  and it is usually made by default rather than decided.**
+
+  ## The question that lands it
+
+  After the three groups report, ask: **who benefits from the village staying busy?** Then ask whether
+  anything in their own situation works that way. Take whatever comes and do not push it towards a
+  particular answer; in these settings learners have their own well-informed views about aid, and this
+  is a place to hear them rather than to steer them.
+
+  ## Where it sits
+
+  Immediately before [five ways to make change](/materials/ypar-ways-to-make-change), which turns the
+  argument into a usable set of categories. Also pairs with the
+  [problem tree](/materials/problem-tree) and
+  [changemaker or changestopper](/materials/ypar-changemaker-or-changestopper).
+learnerContent: |
+  ## The people in the river
+
+  *This is a story, retold. It is not about any real place.*
+
+  A village sat beside a river. One morning a woman washing clothes saw a person struggling in the
+  water, and pulled them out. She carried them home and cared for them, and thought no more of it.
+
+  The next day there were two. The day after, five. Then a dozen every morning.
+
+  The village organised. They built a rescue post on the bank and took turns watching. They learned to
+  swim out with ropes. They set aside a house for the injured and another for those with nowhere to go.
+  People became skilled at it, and proud of it, and it took most of the day. Children were taught the
+  rope work as soon as they were strong enough.
+
+  A charity heard about the village and came to help. They brought boats, and blankets, and a person
+  who was good at treating cold and shock, and eventually a great net stretched across the river to
+  catch people before they reached the rapids. It worked well. For a while, almost nobody drowned.
+
+  Then the net broke, in the night, and the morning was very bad.
+
+  After that the rescue work never stopped. It was simply what the village did.
+
+  Three months later, at a meeting, a few villagers stood up. They had walked upstream, they said, past
+  the bend where nobody usually goes. There is a man up there. He owns the land above the gorge, and he
+  wants the valley empty so he can build on it, and he has been putting people in the water.
+
+  They proposed that the village go up the mountain together and make him stop.
+
+  The headman and the elders disagreed. If people leave, who watches the bank? Who pulls out tomorrow's
+  dozen? We cannot spare a single pair of hands.
+
+  The village split in two.
+
+  ## Your group
+
+  You will be given one of three parts. Discuss and choose someone to argue for you.
+
+  **The villagers who want to go upstream**
+  1. What is your plan?
+  2. Why do you think it will work?
+  3. How does this end if your plan is followed?
+  4. What are the risks? What are the gains?
+
+  **The villagers who want to keep the rescue going**
+  1. What is your plan?
+  2. Why do you think it will work?
+  3. How does this end if your plan is followed?
+  4. What are the risks? What are the gains?
+
+  **The man on the mountain and his friends**
+  1. Which of the two village groups could you work with more easily?
+  2. Which of them threatens you more, and why?
+  3. What is your strategy for dealing with each?
+facilitationNotes: >-
+  The one thing to get right is that the rescue position is argued properly rather than set up to lose.
+  People are being hurt now and the rescue works; a session that treats relief as foolish is both wrong
+  and, for learners whose families depend on relief operations, insulting. The finding to reach is that
+  the man on the mountain prefers the village busy, which reframes the choice as one that is usually made
+  by default rather than decided. Sensitivity: learners in these settings have direct experience of aid
+  and strong views about it, so the closing discussion is for hearing them, not steering them.
+steps:
+  - title: "Read it aloud, without preamble"
+    duration: 10 min
+    guidance: >-
+      Read the parable to the group, or have learners read sections in turn. Do not introduce a theme
+      beforehand and do not pause to comment. Say only that it is a story and not about any real place.
+      A group told what to notice will notice that and nothing else.
+    keyPrompts:
+      - "Anything you want repeated before we go on?"
+    watchOuts:
+      - "The facilitator signals the moral in the framing. Read it flat; the story does the work."
+  - title: "Split into the three parties and prepare"
+    duration: 15 min
+    guidance: >-
+      Three groups, one brief each, ten minutes to prepare and choose a spokesperson. Go to the rescue
+      group and make sure they are arguing it seriously; that group tends to assume it is meant to lose.
+      Go to the third group and press them to answer question one honestly, because their answer is the
+      hinge of the whole session.
+    keyPrompts:
+      - "Rescuers: what happens tomorrow morning if half of you leave?"
+      - "Upstream: how long will your plan take, and who is pulling people out meanwhile?"
+      - "You on the mountain: which of these two groups is more useful to you?"
+    watchOuts:
+      - "The rescue group under-argues, assuming it is the wrong answer. Coach them; their case is genuinely strong."
+      - "The third group plays a cartoon villain. Ask what they would actually do, which is quieter and much more instructive: fund the rescue, praise the villagers, stay away from the meeting."
+  - title: "Hear the three cases"
+    duration: 15 min
+    guidance: >-
+      Each spokesperson argues, in the order rescue, upstream, then the man on the mountain last. That
+      order matters: hearing the third answer after both village positions is what produces the moment
+      the session exists for. Do not comment between speakers.
+    keyPrompts:
+      - "So which village group suits you better? Say it plainly."
+    watchOuts:
+      - "The third group is heard first or second and the effect is lost. Keep the order."
+  - title: "Ask who benefits from the village staying busy"
+    duration: 10 min
+    guidance: >-
+      Put the question to the whole room and let it sit. Draw out that the rescue is genuinely good and
+      genuinely useful to the person causing the harm, and that these are not in contradiction. Then ask
+      what it would take to do both: keep people alive and change why they are in the water.
+    keyPrompts:
+      - "Who benefits from the village staying busy?"
+      - "Can you do both? What would that actually take?"
+    watchOuts:
+      - "The group concludes that rescue work is pointless. Correct it directly; the finding is about balance and about who chooses it, not about relief being wasted."
+  - title: "Turn it on the group's own situation"
+    duration: 10 min
+    guidance: >-
+      Ask whether anything they know works like this, and then specifically: in your own research topic,
+      what is the rescue and what is upstream? Take answers and write them. This is a place to listen
+      rather than to lead, particularly where learners are describing organisations that operate around
+      them.
+    keyPrompts:
+      - "In our topic: what is the rescue, and what is upstream?"
+      - "Who has walked up the river, and what did they find?"
+    watchOuts:
+      - "The discussion becomes a criticism of a named organisation the partner works with. Keep it on mechanisms rather than named bodies, and follow up privately if something needs raising."
+      - "Learners are cynical about aid in a way that shuts the topic down. That view has usually been earned; acknowledge it and ask what would have to be different."
+closing: >-
+  Close on the balance rather than the answer: nobody is proposing that the village stop pulling people
+  out. The question the group carries forward is what proportion of its own effort goes to relieving the
+  problem and what proportion to changing why it happens, and whether anyone has ever actually decided
+  that.
+agencyContribution:
+  indicators: [contribution-to-community]
+  how: >-
+    The parable installs a question that keeps working long after the session: is this rescue, and who
+    is upstream? For learners whose communities are heavily served and rarely consulted, the discovery
+    that a rescue effort can be genuinely valuable and simultaneously useful to whoever causes the harm
+    is a durable analytical tool rather than a slogan.
+principlesForegrounded: [authentic-challenges, responsible-action, safe-spaces]
+principleAlignment:
+  - principle: authentic-challenges
+    how: >-
+      The dilemma is real and unresolved: people are being hurt now, and the cause is untouched. The
+      session refuses to make either half of that go away.
+  - principle: responsible-action
+    how: >-
+      Learners have to weigh immediate need against long-term cause and decide a balance, which is the
+      judgement every real change effort actually faces.
+  - principle: safe-spaces
+    how: >-
+      The setting is invented, so learners can argue about relief and its limits without anyone's own
+      village, camp or family situation being the case under discussion.
+competencyCodes: [FPS3, APS4, FLC1]
+competencyDevelopment:
+  - code: FPS3
+    how: >-
+      The parable is a compact lesson in distinguishing a symptom from a cause, and the third party
+      makes visible how a system can sustain the conditions that generate the symptom.
+  - code: APS4
+    how: >-
+      Two strategies are argued against each other on their merits, risks and likely endings, which is
+      solution analysis conducted as a live disagreement rather than a written comparison.
+  - code: FLC1
+    how: >-
+      The closing question is an ethical one about where effort ought to go when both options help
+      somebody, and it is answered by the group rather than supplied.
+objectiveIds: [making-societal-change--o1, research-project--o3]
+relatedSlugs:
+  - ypar-ways-to-make-change
+  - ypar-changemaker-or-changestopper
+  - problem-tree
+  - cb-rp-root-cause
+  - systems-thinking-iceberg-model
+  - leverage-points
+links:
+  - label: "YPAR Hub: Getting Started (UC Berkeley)"
+    url: https://yparhub.berkeley.edu/getting-started
+    note: "The original lesson plan, in the YPAR Basics section, which carries the version of this parable we worked from. Free to download."
+  - label: "School of Unity and Liberation (SOUL)"
+    url: https://www.schoolofunityandliberation.org/
+    note: "The political-education organisation the source credits for the story and the framework that follows it."
+rights:
+  status: own-expression
+  holder: "The parable is a long-retold teaching story with no single author; the version we worked from is credited by the YPAR Hub to San Francisco Peer Resources, adapted from SOUL"
+  basis: >-
+    The upstream parable is old and widely retold, and its structure is an idea rather than an
+    expression. The telling on this page is written from scratch, in a different setting, with
+    different characters. None of the source's wording is reproduced.
+  note: >-
+    Do not replace this telling with the source's version, which is set in a named Swiss village with a
+    named millionaire and is that author's expression rather than ours.
+sourceRefs:
+  - "YPAR Hub (UC Berkeley), Get Started > YPAR Basics > Community Organizing lesson plan, and its 'Raining Rocks' story"
+  - "Credited in that plan to San Francisco Peer Resources, adapted from SOUL (School of Unity and Liberation)"
+provenanceNote: >-
+  Rewritten from the parable carried in the YPAR Hub's "Community Organizing" lesson plan, supplied to
+  Amala in August 2026, where it appears as a story about falling rocks and a named millionaire. The
+  three-party structure and the question about which village group the antagonist prefers are the
+  source's and are why the material is worth carrying. The telling here is Amala's own, relocated to a
+  river, and the instruction to argue the rescue case properly, together with the note on how this lands
+  with learners whose communities are sustained by relief operations, is Amala's.

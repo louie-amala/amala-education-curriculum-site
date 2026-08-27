@@ -1,0 +1,40 @@
+id: youth-adult-partnership
+slug: youth-adult-partnership
+access: public
+term: Youth-adult partnership
+category: content
+matchPhrases:
+- youth-adult partnership
+- youth-adult partnerships
+- youth and adult partnership
+definition: >-
+  An arrangement in which several young people and several adults deliberate and act together over time,
+  sharing decisions and responsibility for the work.
+explainer: |
+  The definition has parts worth keeping, because each rules out something that gets called partnership
+  and is not: **several** young people and **several** adults, **deliberating and acting** together,
+  **over a sustained period**, through **shared work**, with shared decisions and shared accountability.
+
+  One young person on a committee of adults is not a partnership. A consultation that ends when the
+  advice is given is not one either. And a partnership is not the same as adults withdrawing: the
+  arrangement assumes both sides bring something the work needs.
+
+  The organising principle is that **roles are assigned by motivation, skill and connections rather than
+  by age**. That is the practical test. In a real partnership you will find an adult doing something
+  because they are the one who knows how, and a young person doing something else for the same reason,
+  and neither allocation follows from who is older.
+
+  Both sides usually have to learn it. Adults have to stop filling silences and finishing tasks; young
+  people have to take on responsibility that has real consequences, which is not obviously attractive
+  and is often declined at first.
+
+  Related: [adultism](/glossary/adultism) is the default it works against, and
+  [tokenism](/glossary/tokenism) is what it is most often mistaken for.
+examples:
+- A research group where young people set the question and an adult secures the funding, both reporting to the same meeting
+nonExamples:
+- A youth advisory board that gives advice to a staff team which then decides
+useInContext: >-
+  A group places itself on a ladder of participation, agrees the rung it is aiming at, and writes down
+  which specific decisions will move and what the adults will stop doing.
+relatedTermIds: [adultism, tokenism]
