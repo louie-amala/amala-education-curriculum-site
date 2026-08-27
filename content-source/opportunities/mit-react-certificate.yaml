@@ -1,0 +1,63 @@
+id: mit-react-certificate
+slug: mit-react-certificate
+access: public
+kind: employment
+subKind: work-readiness
+title: MIT ReACT computer and data science certificate
+provider: { name: MIT Refugee Action Hub, type: university }
+summary: >-
+  A year-long online certificate in computer and data science for displaced
+  learners, combining MIT coursework with work-readiness training and
+  introductions to employers.
+whoItIsFor: >-
+  Displaced learners with strong maths and English who want a technical
+  qualification recognised beyond their host country.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["Secondary education, and strong maths"]
+  documents:
+    required: ["Proof of displacement or refugee status"]
+    passportRequired: false
+    note: "[to verify] Confirm the current documentary requirements."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "spring, for a cohort starting later in the year"
+    note: "Cohort-based, roughly annual. Check the current call."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B2, reason: "MIT coursework is demanding academic English" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Course fees", "Mentoring and work-readiness training"]
+    fundingExcludes: ["Your own device", "Your own internet data"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "A year of video coursework needs real bandwidth. Cost it locally before applying."
+eligibility:
+  status: [refugee, asylum-seeker, displaced]
+  nationalities: any
+  residingIn: { resolved: false, countries: [], sourceUrl: "https://react.mit.edu/", note: "Confirm which countries the current cohort serves." }
+  ageRange: { min: 18, max: null }
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  duration: "About one year"
+  timeCommitment: part-time
+needs: { connectivity: stable-internet, device: computer, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "MIT ReACT certificate in computer and data science", recognisedBy: "MIT" }
+  leadsTo: ["Technical employment", "Remote and freelance work"]
+howToApply:
+  online: { url: "https://react.mit.edu/", note: null }
+  offline: null
+  steps: ["Check when the next cohort opens.", "Prepare evidence of your maths and English.", "Apply online."]
+support: [mentoring]
+preparedBy: [pathways-producing-a-cv, pathways-producing-a-personal-statement]
+competencyCodes: [FSL3, ASL1]
+objectiveIds: [pathways--o2]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "react.mit.edu and Na'amal partner descriptions (read 27 August 2026)"

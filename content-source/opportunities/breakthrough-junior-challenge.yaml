@@ -1,0 +1,74 @@
+id: breakthrough-junior-challenge
+slug: breakthrough-junior-challenge
+access: public
+kind: fellowships-competitions
+subKind: competition
+title: Breakthrough Junior Challenge
+provider:
+  name: Breakthrough Prize Foundation
+  type: ngo
+summary: >-
+  A global science video competition. Make a two-minute video explaining one idea
+  in life sciences, physics or maths. The winner receives a US$250,000
+  post-secondary scholarship.
+whoItIsFor: >-
+  Anyone aged 13 to 18, anywhere in the world. You enter on your own, and you do
+  not need a school or an organisation to put you forward.
+applicant:
+  appliedBy: learner
+requirements:
+  qualifications: []
+  documents:
+    required: []
+    passportRequired: false
+    note: "No documents are required to enter."
+  deadline:
+    type: annual-cycle
+    date: 2026-09-15
+    opensAround: "the northern spring"
+    note: "Closes 15 September at 23:59 Pacific Time."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: null, reason: "The video and entry are in English" }]
+  cost:
+    toApply: free
+    toParticipate: free
+    fundingIncludes: []
+    fundingExcludes: []
+eligibility:
+  status: [any]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open worldwide." }
+  ageRange: { min: 13, max: 18 }
+  ageNote: "You must be at least 13, and not older than 18 on 1 October 2026."
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  timeCommitment: "Self-paced — the work is making one two-minute video"
+needs:
+  connectivity: stable-internet
+  device: own-phone
+  rightToWorkRequired: false
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["A US$250,000 post-secondary scholarship for the winner"]
+howToApply:
+  online: { url: "https://breakthroughjuniorchallenge.org/", note: "Submit the entry form and video online." }
+  offline: null
+  steps:
+    - "Choose one idea in life sciences, physics or maths that you can explain well."
+    - "Film a video of no more than two minutes."
+    - "Submit the form and the video before 15 September."
+support: []
+preparedBy: [pathways-networking-and-personal-pitch]
+competencyCodes: [FSL3]
+objectiveIds: [pathways--o3]
+safetyNote: >-
+  You need a phone or camera and enough internet to upload a video. Check you can
+  do that before you spend time filming.
+verification:
+  status: unverified
+  reviewEveryDays: 30
+source: "breakthroughjuniorchallenge.org rules page (read 27 August 2026)"

@@ -1,0 +1,67 @@
+id: inkomoko-business-support
+slug: inkomoko-business-support
+access: public
+kind: entrepreneurship
+subKind: business-training
+title: Inkomoko business training and finance
+provider: { name: Inkomoko, type: ngo }
+summary: >-
+  Business advice, training and loans for refugee and host-community entrepreneurs
+  in East and Central Africa — including inside Kakuma and Dadaab.
+whoItIsFor: >-
+  Anyone running or starting a business in a displacement-affected area Inkomoko
+  works in. You do not need to leave the camp to take part.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["A business, or a serious plan to start one"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "Requirements are set locally. Ask at the nearest office."
+  deadline: { type: rolling, note: "Cohorts run through the year. Ask locally when the next one starts." }
+  language:
+    ofDelivery: [en, sw]
+    required: []
+  cost:
+    toApply: free
+    toParticipate: free
+    fundingIncludes: ["Training", "Business advisory", "Access to loans and finance"]
+    fundingExcludes: ["Loans are repayable — this is finance, not a grant"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: >-
+        Understand the loan terms before taking one. Ask about the interest rate
+        and what happens if the business does not work out.
+eligibility:
+  status: [refugee, host-community, displaced]
+  nationalities: any
+  residingIn:
+    resolved: true
+    countries: [kenya, rwanda, ethiopia, south-sudan, chad]
+    place: "Includes Kakuma, Kalobeyei and Dadaab"
+  gender: any
+delivery:
+  mode: in-person
+  location: { country: null, place: "Local Inkomoko offices" }
+  relocation: none
+  timeCommitment: part-time
+needs: { connectivity: none-needed, device: none, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "Business training completion", recognisedBy: "Inkomoko" }
+  leadsTo: ["A growing business", "Access to further finance"]
+howToApply:
+  online: { url: "https://www.inkomoko.com/where-we-work", note: "Find your nearest office." }
+  offline: "Go to the Inkomoko office nearest you and ask about the next training cohort."
+  steps:
+    - "Find your nearest Inkomoko office."
+    - "Ask about the next business training cohort."
+    - "Complete the training before applying for finance."
+support: [mentoring]
+safetyNote: >-
+  This includes loans. A loan must be paid back. Talk it through with an adult
+  you trust before you borrow anything.
+preparedBy: [pathways-exploring-a-career-focus, pathways-outlining-ambitions]
+competencyCodes: [FR1, FR2, AR1]
+objectiveIds: [pathways--o1, pathways--o4]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "inkomoko.com (read 27 August 2026)"

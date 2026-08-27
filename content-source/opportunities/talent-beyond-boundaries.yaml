@@ -1,0 +1,68 @@
+id: talent-beyond-boundaries
+slug: talent-beyond-boundaries
+access: public
+kind: employment
+subKind: skilled-work-abroad
+title: Talent Beyond Boundaries Talent Catalog
+provider: { name: Talent Beyond Boundaries, type: ngo }
+summary: >-
+  A free catalogue that connects skilled refugees with employers in Australia,
+  Belgium, Canada, Germany, Ireland, Italy, Portugal, the UK and the USA — with
+  a work visa as part of the move.
+whoItIsFor: >-
+  Refugees and displaced people with work skills or a trade. You register once,
+  then apply to jobs employers post. It is free, always.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["Skills, a trade or work experience an employer is hiring for"]
+  documents:
+    required: ["Whatever you have to evidence your skills and status"]
+    passportRequired: false
+    note: >-
+      A passport or travel document is usually needed later, for the visa stage
+      rather than to register. Ask early what your destination requires.
+  deadline: { type: rolling, note: "Registration is always open; individual jobs have their own closing dates." }
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B1, reason: "Most listed roles need working English" }]
+  cost:
+    toApply: free
+    toParticipate: free
+    fundingIncludes: []
+    fundingExcludes: []
+eligibility:
+  status: [refugee, asylum-seeker, displaced]
+  nationalities: any
+  residingIn: { resolved: true, countries: [jordan, lebanon, kenya], note: "TBB works directly with displaced people in Jordan and Lebanon, and runs hiring events in Kenya. Registration is open more widely." }
+  gender: any
+delivery:
+  mode: in-person
+  location: { country: null, place: "Australia, Belgium, Canada, Germany, Ireland, Italy, Portugal, UK, USA" }
+  relocation: third-country
+  visaSupport: true
+  visaNote: "The route is a skilled work visa. The final decision rests with the destination government."
+  timeCommitment: full-time
+needs: { connectivity: low-bandwidth, device: own-phone, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["A skilled job abroad with a work visa", "Permanent settlement in some destinations"]
+howToApply:
+  online: { url: "https://www.talentbeyondboundaries.org/talentcatalog/tc-opportunities", note: "Register in the Talent Catalog, then apply to specific opportunities." }
+  offline: "TBB has offices in Jordan and Lebanon."
+  steps:
+    - "Register in the Talent Catalog and list your skills honestly."
+    - "Watch for opportunities that match your trade."
+    - "Apply to a specific opportunity when one fits."
+support: [visa]
+supportNote: "Registration and TBB's services are free of charge for all candidates."
+integrityContact:
+  statement: "Registration and all TBB services are free of charge for candidates."
+  reportTo: null
+safetyNote: >-
+  Nobody should ever charge you to join this catalogue or to be put forward for a
+  job. If someone asks you for money, it is not Talent Beyond Boundaries.
+preparedBy: [pathways-producing-a-cv, pathways-interview-star-method, pathways-identifying-your-references]
+competencyCodes: [FR1, AR1]
+objectiveIds: [pathways--o3, pathways--o4]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "talentbeyondboundaries.org and UNHCR Jordan labour mobility pages (read 27 August 2026)"

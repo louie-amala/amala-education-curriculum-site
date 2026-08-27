@@ -1,0 +1,64 @@
+id: inkomoko-fast-youth
+slug: inkomoko-fast-youth
+access: public
+kind: entrepreneurship
+subKind: accelerator
+title: FAST — young entrepreneurs programme
+provider: { name: Inkomoko, type: ngo }
+summary: >-
+  An accelerator for youth-led enterprises that deliberately prioritises young
+  women, refugees, displaced people and young people living with disabilities.
+whoItIsFor: >-
+  Young people already running a business who want it to grow. The programme is
+  designed so that being a refugee or a young woman helps rather than hinders.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["A youth-led enterprise already trading"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "Ask locally what evidence of the business is needed."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "announced by cohort"
+    note: "Ask your nearest Inkomoko office when the next FAST cohort opens."
+  language:
+    ofDelivery: [en, sw]
+    required: []
+  cost:
+    toApply: free
+    toParticipate: free
+    fundingIncludes: ["Acceleration support", "Business advisory"]
+    fundingExcludes: ["[to verify] Confirm whether any grant or loan is included, and on what terms"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "Confirm locally whether travel to sessions falls to the entrepreneur."
+eligibility:
+  status: [refugee, displaced, host-community]
+  nationalities: any
+  residingIn: { resolved: true, countries: [kenya, rwanda, ethiopia, south-sudan, chad] }
+  ageRange: { min: 18, max: 35 }
+  gender: any
+  otherConditions:
+    - "Priority for young women, refugees, forcibly displaced people and young people with disabilities"
+delivery:
+  mode: in-person
+  location: { country: null, place: "Local Inkomoko offices" }
+  relocation: none
+  timeCommitment: part-time
+needs: { connectivity: none-needed, device: none, rightToWorkRequired: false, disabilityInclusion: "Young people with disabilities are a priority group." }
+outcome:
+  certificate: { awarded: false }
+  placesAvailable: null
+  leadsTo: ["A larger business", "Jobs for other people"]
+howToApply:
+  online: { url: "https://www.inkomoko.com/", note: null }
+  offline: "Ask at your nearest Inkomoko office."
+  steps: ["Ask when the next FAST cohort opens.", "Prepare a clear account of your business.", "Apply locally."]
+support: [mentoring]
+preparedBy: [pathways-outlining-ambitions, pathways-networking-and-personal-pitch]
+competencyCodes: [FSL2, AR1]
+objectiveIds: [pathways--o1]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "Inkomoko FAST programme descriptions (read 27 August 2026)"

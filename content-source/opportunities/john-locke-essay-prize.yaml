@@ -1,0 +1,65 @@
+id: john-locke-essay-prize
+slug: john-locke-essay-prize
+access: public
+kind: fellowships-competitions
+subKind: competition
+title: John Locke Institute Global Essay Prize
+provider: { name: John Locke Institute, type: ngo }
+summary: >-
+  A global essay competition open to anyone under 19, free to enter at the main
+  deadline. It is genuinely open — and genuinely demanding.
+whoItIsFor: >-
+  Students under 19 who can write a researched academic essay in English with
+  proper referencing. Be honest with yourself about that bar before you start.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: []
+  documents:
+    required: []
+    passportRequired: false
+    note: "No documents needed to enter."
+  deadline:
+    type: annual-cycle
+    date: 2026-05-31
+    opensAround: "the start of the year"
+    note: "Entry is free at the main deadline of 31 May. Late entry carries a fee."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: C1, reason: "A researched academic essay with referencing" }]
+  cost:
+    toApply: free
+    toParticipate: free
+    fundingIncludes: []
+    fundingExcludes: []
+eligibility:
+  status: [any]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open in more than 150 countries." }
+  ageRange: { min: null, max: 18 }
+  ageNote: "You must be under 19 at the main submission deadline."
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  timeCommitment: "Self-paced — one essay"
+needs: { connectivity: low-bandwidth, device: computer, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "Commendation or prize", recognisedBy: "John Locke Institute" }
+  leadsTo: ["Evidence of academic writing for university applications"]
+howToApply:
+  online: { url: "https://www.johnlockeinstitute.com/essay-competition", note: "Register and submit online." }
+  offline: null
+  steps:
+    - "Read the question list and choose one you can research."
+    - "Write and reference the essay carefully."
+    - "Submit before the main deadline, when entry is free."
+support: []
+safetyNote: >-
+  Entry is free only at the main deadline. Submitting late costs money — do not
+  let a late fee take you by surprise.
+preparedBy: [pathways-producing-a-personal-statement]
+competencyCodes: [FSL3, ASL1]
+objectiveIds: [pathways--o3]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "johnlockeinstitute.com essay competition page (read 27 August 2026)"

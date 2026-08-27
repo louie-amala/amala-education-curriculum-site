@@ -1,0 +1,65 @@
+id: zayed-global-high-schools
+slug: zayed-global-high-schools
+access: public
+kind: fellowships-competitions
+subKind: competition
+title: Zayed Sustainability Prize — Global High Schools
+provider: { name: Zayed Sustainability Prize, type: ngo }
+summary: >-
+  US$100,000 for a secondary school to run a student-led sustainability project.
+  The school applies, not the student.
+whoItIsFor: >-
+  Secondary schools anywhere in the world, and the students whose idea it is.
+  If you have a project idea, bring it to your school.
+applicant:
+  appliedBy: institution
+  note: "The school submits the entry. Students drive the project."
+requirements:
+  qualifications: []
+  documents:
+    required: ["School details and a project proposal"]
+    passportRequired: false
+  deadline:
+    type: annual-cycle
+    date: 2026-06-22
+    opensAround: "February"
+    note: "The 2027 cycle ran to June 2026 and is now closed. Expect the next call around February."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B1, reason: "The submission is in English" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Up to US$100,000 for the winning school's project"]
+    fundingExcludes: ["Costs of preparing the submission"]
+    estimatedUnfundedCost: { status: needs-research, note: "Preparing a strong submission takes staff time. Plan for it." }
+eligibility:
+  status: [any]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open worldwide, across six world regions." }
+  ageRange: { min: 11, max: 18 }
+  gender: any
+  otherConditions: ["The applicant must be a secondary school"]
+delivery:
+  mode: in-person
+  location: { country: null, place: "Your own school and community" }
+  relocation: none
+  duration: "A school year project"
+  timeCommitment: part-time
+needs: { connectivity: low-bandwidth, device: shared-phone, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["A funded project in your own school and community"]
+howToApply:
+  online: { url: "https://zayedsustainabilityprize.com/", note: "Submissions are made by the school." }
+  offline: null
+  steps:
+    - "Develop the project idea with other students."
+    - "Bring it to an educator or facilitator at your school."
+    - "The school submits the entry when the cycle opens."
+support: []
+preparedBy: [pathways-networking-and-personal-pitch]
+competencyCodes: [ALC2, FSL2]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "zayedsustainabilityprize.com and 2027 cycle announcements (read 27 August 2026)"

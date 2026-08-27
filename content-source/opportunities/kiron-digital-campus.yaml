@@ -1,0 +1,56 @@
+id: kiron-digital-campus
+slug: kiron-digital-campus
+access: public
+kind: further-education
+subKind: short-course
+title: Kiron Digital Campus
+provider: { name: Kiron Open Higher Education, type: ngo }
+summary: >-
+  Free online courses and skills training for refugees and migrants, with
+  subsidised certificates. Some courses can be downloaded and studied offline.
+whoItIsFor: >-
+  Anyone who can show refugee status and wants to study without paying fees.
+  If your internet is poor, ask about the offline courses.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: []
+  documents:
+    required: ["Proof of refugee status"]
+    passportRequired: false
+    note: "Kiron exists partly because ordinary universities demand documents many refugees cannot get."
+  deadline: { type: rolling, note: "Always open — study at your own pace." }
+  language:
+    ofDelivery: [en, de]
+    required: []
+  cost:
+    toApply: free
+    toParticipate: free
+    fundingIncludes: ["Course access", "Certificate costs are subsidised"]
+    fundingExcludes: ["Your own device", "Your own internet data"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "Free to study, but the data is not. Check local data costs before recommending."
+eligibility:
+  status: [refugee, asylum-seeker, displaced]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open worldwide." }
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  timeCommitment: "Self-paced"
+needs: { connectivity: low-bandwidth, device: computer, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "Course certificates", recognisedBy: "Kiron and its partners" }
+  leadsTo: ["Credits and evidence towards further study", "Skills for work"]
+howToApply:
+  online: { url: "https://www.kiron.ngo/campus", note: "Register with proof of status." }
+  offline: "Ask about downloadable offline courses if your connection is unreliable."
+  steps: ["Register on the Kiron Campus.", "Upload proof of refugee status.", "Choose a study track."]
+support: []
+preparedBy: [pathways-producing-a-portfolio]
+competencyCodes: [FSL3]
+objectiveIds: [pathways--o2]
+verification: { status: unverified, reviewEveryDays: 180 }
+source: "kiron.ngo campus pages (read 27 August 2026)"

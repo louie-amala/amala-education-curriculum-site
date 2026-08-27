@@ -1,0 +1,53 @@
+id: wes-gateway-program
+slug: wes-gateway-program
+access: public
+kind: guidance-support
+subKind: credential-recognition
+title: WES Gateway Program — credential assessment without full documents
+provider: { name: World Education Services, type: ngo }
+summary: >-
+  An assessment of your qualifications for use in the USA and Canada, designed
+  for displaced people who cannot produce complete academic documents.
+whoItIsFor: >-
+  People in the USA or Canada whose education was interrupted by conflict or
+  displacement and who have limited proof of what they studied.
+applicant: { appliedBy: referral }
+requirements:
+  qualifications: ["Study completed in a country of education you were displaced from"]
+  documents:
+    required: []
+    passportRequired: false
+    alternativesAccepted: "Built specifically to evaluate incomplete or partial documentary evidence."
+  deadline: { type: rolling, note: "No deadline." }
+  language:
+    ofDelivery: [en, fr]
+    required: []
+  cost:
+    toApply: free
+    toParticipate: free
+    fundingIncludes: ["The assessment itself, at no cost to eligible applicants"]
+    fundingExcludes: []
+eligibility:
+  status: [refugee, asylum-seeker, displaced]
+  nationalities: any
+  residingIn: { resolved: true, countries: [usa, canada], note: "USA and Canada only." }
+  gender: any
+delivery:
+  mode: online
+  location: { country: null, place: "USA and Canada" }
+  relocation: none
+  timeCommitment: "An application and assessment process"
+needs: { connectivity: low-bandwidth, device: own-phone, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "WES credential evaluation", recognisedBy: "US and Canadian employers and institutions" }
+  leadsTo: ["University applications", "Professional job applications"]
+howToApply:
+  online: { url: "https://www.wes.org/partners/gateway-program/", note: null }
+  offline: "Settlement agencies can refer you."
+  steps: ["Check you are in the USA or Canada.", "Gather whatever documents you do have.", "Apply through the Gateway Program."]
+support: []
+preparedBy: [pathways-requirements-for-accessing-pathways]
+competencyCodes: [FR1]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 180 }
+source: "wes.org Gateway Program materials (read 27 August 2026)"

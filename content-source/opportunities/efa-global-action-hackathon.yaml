@@ -1,0 +1,142 @@
+id: efa-global-action-hackathon
+slug: efa-global-action-hackathon
+access: public
+kind: fellowships-competitions
+subKind: competition
+title: EFA Global Action Hackathon 2026
+provider:
+  name: English for All
+  type: ngo
+summary: >-
+  A four-week online hackathon where teams of secondary students from
+  non-English-speaking countries use English to design a climate action project
+  together. The 2026 edition focuses on SDG 13, Climate Action.
+whoItIsFor: >-
+  Groups of 4 to 6 students aged 14 to 18, working with one educator. The
+  educator enters the team. You cannot enter on your own.
+
+# Who actually submits the application. The schema assumed the learner.
+applicant:
+  appliedBy: educator          # learner | educator | team-with-educator | institution
+  note: >-
+    An educator must submit the application on behalf of the team. A learner who
+    finds this opportunity needs to bring it to an educator or facilitator.
+    EFA's own form names this role "teacher".
+
+# Team-entry opportunities. The schema only had individual eligibility.
+team:
+  required: true
+  minMembers: 4
+  maxMembers: 6
+  adultLead: "One educator per team, who submits and leads"
+
+requirements:
+  qualifications: []           # none stated
+  documents:
+    required: []               # none stated for students
+    passportRequired: false
+    alternativesAccepted: null
+    note: "No documents are asked of students. The educator supplies school details."
+  deadline:
+    type: fixed
+    date: 2026-08-31
+    note: "Annual cycle; applications opened 1 August 2026."
+  language:
+    ofDelivery: [en]
+    levelRequired: null        # NOT STATED — the educator self-assesses A1-C2; no minimum is set
+    proofRequired: none
+    note: >-
+      No minimum English level is published. Sessions run in English, so a team
+      needs enough English to take part in a live discussion.
+  cost:
+    toApply: free              # [to verify] no fee is mentioned on either page; not explicitly stated
+    applicationFee: null
+    paidTo: null
+    toParticipate: free
+    fundingIncludes: []
+
+# A multi-stage timeline. One `deadline` + `startDate` could not hold this.
+keyDates:
+  - { label: "Applications close", date: 2026-08-31 }
+  - { label: "Results announced", date: 2026-09-14 }
+  - { label: "Kickoff", date: 2026-09-26 }
+  - { label: "Weekly sessions", date: 2026-10-03, note: "Four Saturdays, to 24 October" }
+  - { label: "Project implementation", date: 2026-11-02, note: "To 27 November" }
+  - { label: "Celebration", date: 2026-12-12 }
+
+eligibility:
+  status: [any]                # no refugee-specific eligibility; open by country
+  nationalities: any
+  residingIn:
+    resolved: false            # a real, common state the schema had no room for
+    sourceUrl: "https://englishforallorg.com/hackathon-apply.html"
+    note: >-
+      Open to 44 countries, listed only in a linked Google Doc. WHETHER OUR
+      CONTEXTS ARE ELIGIBLE IS UNCONFIRMED. Must be resolved before publishing.
+  ageRange: { min: 14, max: 18 }
+  ageNote: "A student who turns 19 is not eligible."
+  gender: any
+  otherConditions:
+    - "Students must be from a non-English-speaking country."
+    - "The team must represent a school and a locality."
+
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  visaSupport: false
+  duration: "4 weeks of sessions, then 4 weeks of project implementation"
+  timeCommitment: "About 2 hours each Saturday on Zoom, plus team work in the week"
+  startDate: 2026-09-26
+
+needs:
+  connectivity: stable-internet   # live Zoom sessions — decisive in low-connectivity contexts
+  device: computer
+  rightToWorkRequired: false
+  childcareProvided: false
+  disabilityInclusion: null
+
+outcome:
+  certificate: { awarded: true, title: "Recognition certificate", recognisedBy: "English for All" }
+  placesAvailable: null
+  leadsTo: ["A funded climate project in your own community"]
+
+howToApply:
+  online:
+    url: "https://englishforallorg.com/hackathon-apply.html"
+    note: "The educator submits through EFA's application platform."
+  offline: null                # no offline route — a real barrier, stated plainly
+  contact: { name: "English for All", email: "hackathon@englishforallorg.com", phone: null }
+  steps:
+    - "A learner brings the opportunity to an educator or facilitator — students cannot apply themselves."
+    - "The educator forms a team of 4 to 6 students aged 14 to 18."
+    - "The educator checks the eligibility list to confirm the country is included."
+    - "The educator submits the application before 31 August. EFA's form calls this role 'teacher'."
+
+support: [grant, mentoring, certificate]
+supportNote: "The winning team receives a $500 USD Action Grant to implement their project."
+
+# What personal data the application asks for, and about whom. Safeguarding-relevant.
+dataRequested:
+  aboutStudents: ["Names and roster details"]
+  aboutEducator: ["Name", "Email", "Phone", "Date of birth", "Gender", "Ethnicity", "Teaching history"]
+  note: >-
+    The form asks for a student roster and detailed personal data about the
+    educator. Partners should check this against their own data protection and
+    safeguarding policy before submitting learners' names to a third party.
+
+preparedBy:
+  - pathways-networking-and-personal-pitch
+  - cb-rp-design-our-questions
+competencyCodes: []            # to author
+objectiveIds: [pathways--o1]
+
+safetyNote: >-
+  Your educator applies for this, not you. Ask them to look at it with you.
+
+verification:
+  status: unverified           # NOT yet checked by Amala — must not publish as verified
+  lastVerified: null
+  verifiedBy: null
+  reviewEveryDays: 30
+source: "https://englishforallorg.com/hackathon.html (read 27 August 2026)"

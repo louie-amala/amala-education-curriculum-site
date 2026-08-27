@@ -1,0 +1,61 @@
+id: startup-refugees-fund
+slug: startup-refugees-fund
+access: public
+kind: entrepreneurship
+subKind: grant
+title: Startup Refugees business grant
+provider: { name: Startup Refugees, type: ngo }
+summary: >-
+  A grant for newcomer entrepreneurs in Finland who have been through a Startup
+  Refugees course. The next round is for women.
+whoItIsFor: >-
+  Newcomers in Finland running or planning a business, who have taken part in a
+  Startup Refugees entrepreneurship course or business development programme.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["Participation in a Startup Refugees course or business development programme"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "Ask the programme what evidence of the business is needed."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "autumn 2026, for the women's round"
+    note: "The next application period, dedicated to women, opens in autumn 2026."
+  language:
+    ofDelivery: [en, fi]
+    required: []
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["A business grant"]
+    fundingExcludes: ["[to verify] Confirm what the grant may and may not be spent on"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "Confirm the grant amount and what it can be used for."
+eligibility:
+  status: [refugee, asylum-seeker, displaced]
+  nationalities: any
+  residingIn: { resolved: true, countries: [finland], note: "Finland only." }
+  gender: women
+  otherConditions: ["The next round is dedicated to women"]
+delivery:
+  mode: in-person
+  location: { country: finland }
+  relocation: none
+  timeCommitment: part-time
+needs: { connectivity: low-bandwidth, device: own-phone, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["A registered business in Finland"]
+howToApply:
+  online: { url: "https://www.startuprefugeesfund.com/apply-grant/", note: null }
+  offline: null
+  steps: ["Take part in a Startup Refugees course first.", "Watch for the autumn round.", "Apply with your business plan."]
+support: []
+preparedBy: [pathways-outlining-ambitions]
+competencyCodes: [FSL2, FR2]
+objectiveIds: [pathways--o1]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "startuprefugeesfund.com (read 27 August 2026)"

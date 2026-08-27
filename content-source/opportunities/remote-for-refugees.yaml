@@ -1,0 +1,61 @@
+id: remote-for-refugees
+slug: remote-for-refugees
+access: public
+kind: employment
+subKind: remote-work
+title: Remote for Refugees
+provider: { name: Remote.com, type: company }
+summary: >-
+  A scheme that removes the cost and paperwork for companies hiring refugees into
+  remote roles. Employers opt in — you do not apply to the scheme itself.
+whoItIsFor: >-
+  Refugees looking for remote work, and — just as much — the employers and
+  partners who might hire them. Share it with an employer who is hiring.
+applicant:
+  appliedBy: third-party
+  note: >-
+    There is no learner application. A company enrols, and can then hire refugee
+    talent without the usual employment-of-record costs.
+requirements:
+  qualifications: ["Whatever the individual remote role requires"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "Set by the hiring employer, not by the scheme."
+  deadline:
+    type: fixed
+    date: 2026-12-31
+    note: "The promotion is open to qualifying companies until 31 December 2026."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B1, reason: "Most listed remote roles work in English" }]
+  cost: { toApply: free, toParticipate: free, fundingIncludes: [], fundingExcludes: [] }
+eligibility:
+  status: [refugee]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Remote roles, subject to where the employer can legally hire." }
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  timeCommitment: full-time
+needs: { connectivity: stable-internet, device: computer, rightToWorkRequired: true }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["Long-term skilled remote employment"]
+howToApply:
+  online: { url: "https://remote.com/remote-for-refugees", note: "Aimed at employers." }
+  offline: null
+  steps:
+    - "Share this with an employer, NGO or partner who hires remote staff."
+    - "Search remote job boards for the roles those companies post."
+support: []
+safetyNote: >-
+  This scheme is for employers. You cannot apply to it directly, so treat anyone
+  who offers to enrol you for a fee as a fraud.
+preparedBy: [pathways-producing-a-cv]
+competencyCodes: [FR1]
+objectiveIds: [pathways--o3]
+verification: { status: unverified, reviewEveryDays: 30 }
+source: "remote.com/remote-for-refugees (read 27 August 2026)"

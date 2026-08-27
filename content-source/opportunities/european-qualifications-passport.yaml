@@ -1,0 +1,49 @@
+id: european-qualifications-passport
+slug: european-qualifications-passport
+access: public
+kind: guidance-support
+subKind: credential-recognition
+title: European Qualifications Passport for Refugees
+provider: { name: Council of Europe, type: government }
+summary: >-
+  The European scheme that assesses refugees' qualifications through a structured
+  interview when documents are missing. The model the UNESCO passport was built on.
+whoItIsFor: >-
+  Refugees in participating European countries who cannot produce the certificates
+  for what they studied.
+applicant: { appliedBy: referral }
+requirements:
+  qualifications: ["Study at upper secondary level or above"]
+  documents:
+    required: []
+    passportRequired: false
+    alternativesAccepted: "Designed for applicants with missing or incomplete documents."
+  deadline: { type: rolling, note: "Assessment sessions run periodically in participating countries." }
+  language:
+    ofDelivery: [en]
+    required: []
+    supportProvided: "Interpretation is provided where needed."
+  cost: { toApply: free, toParticipate: free, fundingIncludes: ["The assessment"], fundingExcludes: ["Travel to the assessment session"] }
+eligibility:
+  status: [refugee, asylum-seeker]
+  nationalities: any
+  residingIn: { resolved: false, countries: [], sourceUrl: "https://www.coe.int/en/web/education/recognition-of-refugees-qualifications", note: "Participating European countries only. Confirm which." }
+  gender: any
+delivery:
+  mode: in-person
+  location: { country: null, place: "Participating European countries" }
+  relocation: none
+needs: { connectivity: none-needed, device: none, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "European Qualifications Passport for Refugees", recognisedBy: "Participating national authorities" }
+  leadsTo: ["University applications", "Job applications", "Formal recognition of prior study"]
+howToApply:
+  online: { url: "https://www.coe.int/en/web/education/recognition-of-refugees-qualifications", note: null }
+  offline: "Ask the national education authority or a refugee support organisation where you live."
+  steps: ["Check whether your country runs the scheme.", "Ask to be booked into an assessment session.", "Attend the interview."]
+support: []
+preparedBy: [pathways-requirements-for-accessing-pathways]
+competencyCodes: [FR1]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 180 }
+source: "Council of Europe EQPR pages and OECD OPSI listing (read 27 August 2026)"

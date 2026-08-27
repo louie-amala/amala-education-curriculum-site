@@ -1,0 +1,64 @@
+id: edu-syria-jordan
+slug: edu-syria-jordan
+access: public
+kind: further-education
+subKind: vocational-technical
+title: EDU-SYRIA / EDU-JORDAN scholarships
+provider: { name: German Jordanian University, EU-funded, type: university }
+summary: >-
+  EU-funded scholarships in Jordan for Syrian refugees and Jordanians in need —
+  technical degrees, vocational diplomas and on-the-job training placements.
+whoItIsFor: >-
+  Syrian refugees living in Jordan who hold a UNHCR asylum-seeker card, and
+  Jordanians receiving charitable aid.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["Tawjihi or equivalent, depending on the track"]
+  documents:
+    required: ["UNHCR asylum-seeker card", "School certificates"]
+    passportRequired: false
+    note: "The UNHCR card is the key document — without it this route is closed."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "announced per academic year"
+    note: "Calls are announced per academic year. Check the EDU-SYRIA site for the current one."
+  language:
+    ofDelivery: [ar, en]
+    required: []
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Tuition", "[to verify] Confirm whether living costs are included"]
+    fundingExcludes: ["[to verify] Confirm transport and living costs with the programme office"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "Confirm with the programme office what a student still pays for."
+eligibility:
+  status: [refugee, asylum-seeker, host-community]
+  nationalities: [syria, jordan]
+  residingIn: { resolved: true, countries: [jordan], note: "You must be living in Jordan." }
+  gender: any
+delivery:
+  mode: in-person
+  location: { country: jordan, place: "Al Hussein Technical University, Luminus and partner institutions" }
+  relocation: in-country
+  duration: "Six months to three years depending on the track"
+  timeCommitment: full-time
+needs: { connectivity: low-bandwidth, device: none, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "Technical degree, BTEC Level 5 diploma or training certificate", recognisedBy: "Jordanian institutions" }
+  leadsTo: ["Employment in the Jordanian labour market"]
+howToApply:
+  online: { url: "https://edu-syria.eu/category/scholarship-opportunities/", note: "Current calls are posted here." }
+  offline: "Ask at the German Jordanian University or a partner institution."
+  steps:
+    - "Check which track fits you — technical degree, vocational diploma or on-job training."
+    - "Make sure your UNHCR card is valid."
+    - "Apply when the call for your track opens."
+support: [tuition]
+preparedBy: [pathways-requirements-for-accessing-pathways, pathways-exploring-a-career-focus]
+competencyCodes: [FR1, FR2]
+objectiveIds: [pathways--o1]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "edu-syria.eu and German Jordanian University announcements (read 27 August 2026)"

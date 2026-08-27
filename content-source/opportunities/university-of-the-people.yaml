@@ -1,0 +1,63 @@
+id: university-of-the-people
+slug: university-of-the-people
+access: public
+kind: further-education
+subKind: online-degree
+title: University of the People — tuition-free online degrees
+provider: { name: University of the People, type: university }
+summary: >-
+  An accredited, non-profit online university with no tuition fees. You pay only
+  an assessment fee per course, and refugee students can apply to have it waived.
+whoItIsFor: >-
+  Anyone who has finished secondary school, has a computer and internet, and can
+  study in English. You do not need to leave where you live.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["Completed secondary school"]
+  documents:
+    required: ["Secondary school certificate or equivalent"]
+    passportRequired: false
+    note: "[to verify] Confirm what is accepted where the original certificate is lost."
+  deadline: { type: rolling, note: "Several intakes a year — check current start dates." }
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B2, reason: "Degree study is in English" }]
+  cost:
+    toApply: free
+    toParticipate: fee
+    fundingIncludes: ["No tuition fees"]
+    fundingExcludes: ["Per-course assessment fees", "Your own device and internet"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: >-
+        Tuition-free is not cost-free: assessment fees are charged per course.
+        Confirm the current fee and whether the refugee waiver applies to you.
+eligibility:
+  status: [any]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open worldwide." }
+  ageRange: { min: 16, max: null }
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  duration: "Two years for an associate degree, four for a bachelor's"
+  timeCommitment: part-time
+needs: { connectivity: stable-internet, device: computer, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "Accredited associate or bachelor's degree", recognisedBy: "US accreditation" }
+  leadsTo: ["Graduate employment", "Further study"]
+howToApply:
+  online: { url: "https://www.uopeople.edu/", note: "Apply online at any intake." }
+  offline: null
+  steps:
+    - "Check you can meet the English requirement."
+    - "Apply online with your secondary certificate."
+    - "Ask about scholarships or fee waivers for refugee students before you enrol."
+support: []
+preparedBy: [pathways-requirements-for-accessing-pathways]
+competencyCodes: [FSL3, FR2]
+objectiveIds: [pathways--o2]
+verification: { status: unverified, reviewEveryDays: 180 }
+source: "uopeople.edu (read 27 August 2026)"

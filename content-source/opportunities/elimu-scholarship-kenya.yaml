@@ -1,0 +1,103 @@
+id: elimu-scholarship-kenya
+slug: elimu-scholarship-kenya
+access: public
+kind: funding
+subKind: scholarship
+title: Elimu Scholarship — senior school, Kenya
+provider:
+  name: Kenya Ministry of Education / Jomo Kenyatta Foundation
+  type: government
+summary: >-
+  A Kenyan government scholarship covering three years of senior school — fees,
+  transport, a school kit and pocket money. Refugee learners in Kakuma,
+  Kalobeyei and Dadaab are explicitly eligible.
+whoItIsFor: >-
+  Learners finishing junior school and joining senior school, who need help
+  paying for it. You can apply if you live in Kakuma, Kalobeyei or Dadaab and
+  learn in a UNHCR-supported camp school or a nearby public junior school.
+applicant:
+  appliedBy: learner
+requirements:
+  qualifications:
+    - "Refugee boys: achievement levels 5-8 (meeting to exceeding expectation)"
+    - "Refugee girls: achievement level 4 (approaching expectation) and above"
+  documents:
+    required: ["Completed application form", "Supporting documents named on the form"]
+    passportRequired: false
+    note: "[to verify] Confirm the exact supporting documents with the Camp Manager's office."
+  deadline:
+    type: annual-cycle
+    date: 2025-12-23
+    opensAround: "December"
+    note: >-
+      The last published round closed on 23 December 2025 at 5.00pm for learners
+      joining senior school in 2026. Expect the next call around December.
+  language:
+    ofDelivery: [en]
+    required: []
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes:
+      - "School fees for three years"
+      - "Transport to and from school"
+      - "School kit (shopping)"
+      - "Pocket money"
+    fundingExcludes:
+      - "[to verify] Confirm whether any items are excluded — the announcement does not say"
+    estimatedUnfundedCost:
+      status: needs-research
+      note: >-
+        The award reads as comprehensive, but confirm with JKF whether uniform,
+        exam or boarding extras fall to the family.
+eligibility:
+  status: [refugee, host-community]
+  nationalities: any
+  residingIn:
+    resolved: true
+    countries: [kenya]
+    place: "Kakuma, Kalobeyei and Dadaab camps"
+  gender: any
+  otherConditions:
+    - "Learning in a UNHCR-supported school in the camps, or a nearby public junior school"
+    - "Assessed as needy and vulnerable"
+delivery:
+  mode: in-person
+  location: { country: kenya, place: "Senior schools" }
+  relocation: in-country
+  duration: "Three years"
+  timeCommitment: full-time
+needs:
+  connectivity: none-needed
+  device: none
+  rightToWorkRequired: false
+outcome:
+  certificate: { awarded: true, title: "Senior school completion", recognisedBy: "Kenya Ministry of Education" }
+  leadsTo: ["University or college entry", "Technical and vocational training"]
+howToApply:
+  online:
+    url: "https://scholarship.jkf.co.ke"
+    note: "Forms can also be downloaded from the Ministry of Education or JKF websites."
+  offline: >-
+    Refugee learners collect the form from the office of the Camp Manager, or
+    the UNHCR offices in Kakuma and Dadaab. Completed forms go back to the
+    Sub-County Director of Education or the Camp Manager.
+  contact:
+    name: "Jomo Kenyatta Foundation"
+    email: "elimu@jkf.co.ke"
+    phone: "0800724695 (toll free), 0723286993"
+  steps:
+    - "Collect a form from the Camp Manager's office or the UNHCR office."
+    - "Complete it with your supporting documents."
+    - "Return it to the Sub-County Director of Education or the Camp Manager before the deadline."
+support: [tuition, travel, materials, stipend]
+preparedBy: [pathways-requirements-for-accessing-pathways]
+competencyCodes: [FR1, FR2]
+objectiveIds: [pathways--o1]
+verification:
+  status: unverified
+  reviewEveryDays: 90
+source: >-
+  Ministry of Education 2026 Elimu Scholarship announcement, as reported by The Star,
+  Kenya Times, Radio47 and Breaking Kenya News (read 27 August 2026). Primary PDF not
+  yet read — confirm with JKF before treating as verified.

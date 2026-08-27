@@ -1,0 +1,80 @@
+id: unesco-qualifications-passport
+slug: unesco-qualifications-passport
+access: public
+kind: guidance-support
+subKind: credential-recognition
+title: UNESCO Qualifications Passport
+provider:
+  name: UNESCO
+  type: un-agency
+summary: >-
+  An assessment that recognises what you have studied even when your certificates
+  are lost or incomplete, based on a questionnaire and an interview. Valid for
+  five years.
+whoItIsFor: >-
+  Anyone who finished, or partly finished, upper secondary school or above and
+  cannot prove it because the documents are gone. This exists precisely for
+  people whose papers were left behind.
+applicant:
+  appliedBy: referral
+  note: "You are assessed through a participating country's process rather than applying to a deadline."
+requirements:
+  qualifications: ["Completed or partly completed study at upper secondary level or above"]
+  documents:
+    required: []
+    passportRequired: false
+    alternativesAccepted: >-
+      Designed for people with insufficient or missing documents. Bring whatever
+      you have; the assessment does not depend on it.
+  deadline:
+    type: rolling
+    date: null
+    note: "No deadline. Availability depends on whether your country runs the scheme."
+  language:
+    ofDelivery: []
+    required: []
+    note: "The interview is conducted with interpretation where needed."
+  cost:
+    toApply: free
+    toParticipate: free
+    fundingIncludes: []
+    fundingExcludes: ["Travel to the interview location"]
+eligibility:
+  status: [refugee, asylum-seeker, stateless, displaced]
+  nationalities: any
+  residingIn:
+    resolved: false
+    countries: []
+    sourceUrl: "https://www.unesco.org/en/emergencies/qualifications-passport"
+    note: "Runs only in participating countries. Confirm whether yours takes part."
+  gender: any
+delivery:
+  mode: in-person
+  location: { country: null, place: "Participating countries" }
+  relocation: none
+  duration: "An interview and assessment; the document is valid five years"
+needs:
+  connectivity: none-needed
+  device: none
+  rightToWorkRequired: false
+outcome:
+  certificate:
+    awarded: true
+    title: "UNESCO Qualifications Passport"
+    recognisedBy: "Participating national authorities and institutions"
+  leadsTo: ["University applications", "Job applications", "Formal recognition of prior study"]
+howToApply:
+  online: { url: "https://www.unesco.org/en/emergencies/qualifications-passport", note: null }
+  offline: "Ask UNHCR or the national education authority whether the scheme runs where you live."
+  steps:
+    - "Check whether the country you live in takes part."
+    - "Ask UNHCR or the education authority how to be assessed."
+    - "Complete the questionnaire and the interview."
+support: []
+preparedBy: [pathways-requirements-for-accessing-pathways]
+competencyCodes: [FR1]
+objectiveIds: [pathways--o4]
+verification:
+  status: unverified
+  reviewEveryDays: 180
+source: "unesco.org Qualifications Passport pages (read 27 August 2026)"
