@@ -8,7 +8,7 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "My Learning Book - the cover"
 summary: >-
-  The front of the learner's own book: their name or mark, where they are from, and the promise that nothing in it is marked right or wrong.
+  The front of the learner's own book: their name or mark, where they are from, and the promise that nothing in it is graded right or wrong.
 facilitationContext:
 - group
 - independent
@@ -17,11 +17,11 @@ learnerContent: |
   ## My Learning Book - the cover
 
   This page is yours. You can draw, write, or say your answer - someone will write it for you if you
-  ask - and nobody marks it right or wrong.
+  ask - and nobody grades it right or wrong.
 
   - Put your name, or your own mark, on the front.
   - Say where you are from.
-  - Read the promise: you can draw, write, or say every answer, and nobody marks this book.
+  - Read the promise: you can draw, write, or say every answer, and nobody grades this book.
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction

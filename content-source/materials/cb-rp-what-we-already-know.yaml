@@ -179,7 +179,7 @@ educatorContent: |
   - Learners can say why "everyone knows" is not the same as knowing.
   - The find-out column has something in it that the cohort actually wants to find out.
 learnerTeaching:
-  title: "How to tell what we KNOW from what we only THINK"
+  title: "How to tell what we KNOW from what we THINK we know"
   readAloud: |
     ## What we know, and what we only think
 
@@ -195,7 +195,7 @@ learnerTeaching:
 
     **WE KNOW IT** - somebody saw it, or many people say the same thing.
 
-    - "There were trees on that slope. My grandmother saw them."
+    - "There were trees on that slope. An elder in my family saw them."
     - "The path floods every monsoon. We all walk through it."
 
     **WE ONLY THINK IT** - we heard it, or it seems obvious, or everyone says so.
@@ -246,7 +246,7 @@ learnerTeaching:
     items:
       - "The path by the water point floods every monsoon. We walk through it every year."
       - "Everyone knows the tree planting is a waste of money."
-      - "My grandmother says there were big trees on that slope when she was young."
+      - "An elder in my family says there were big trees on that slope when they were young."
       - "The whole hill is going to come down next year."
     answers:
       - "We know it. Many of us have seen it, again and again. That is about as strong as evidence gets."

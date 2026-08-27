@@ -336,7 +336,7 @@ const grid = (cols, colW, exampleRow, nRows) => {
 const notesPage = (activityTitle, br = true) => [
   eyebrow(activityTitle, br),
   title('My notes and drawings'),
-  P('Anything you want to keep from this step. Words, marks, or a drawing - it is your page, and no one marks it.', { size: BOOK, line: 300, after: 160 }),
+  P('Anything you want to keep from this step. Words, drawings, or scribbles - it is your page, and no one grades it.', { size: BOOK, line: 300, after: 160 }),
   linedArea(NOTES_LINES),
 ];
 
@@ -510,8 +510,13 @@ const contents = (intro) => [
 // toner, and they need to know what is safe to drop.
 const printNotes = (kind, extra = [], br = false) => [
   H2('How to print this', br),
+  // A learner book is written to the learner throughout. These notes are the one page that is not, so
+  // they say whose page they are - otherwise printing instructions read as things the learner must do.
+  ...(kind === 'book'
+    ? [P('This page is for whoever prints the book. Learners do not need to read it.', { size: GUIDE, italics: true, color: GREY, after: 100 })]
+    : []),
   bullet('A4 paper, portrait. Do not let the printer "shrink to fit" - the writing lines are sized for A4.', 0, GUIDE),
-  bullet('Black and white is fine. Nothing here needs colour to make sense.', 0, GUIDE),
+  bullet('Black and white is fine - the book can still be read and used without printing in colour.', 0, GUIDE),
   bullet('Print double-sided if you can. It halves the paper.', 0, GUIDE),
   ...(kind === 'book'
     ? [
@@ -522,6 +527,14 @@ const printNotes = (kind, extra = [], br = false) => [
       bullet('One copy per facilitator. It is a reference book - you will come back to it, so it is worth binding.', 0, GUIDE),
     ]),
   ...extra.map((t) => bullet(t, 0, GUIDE)),
+  hr(),
+];
+
+// The learner's own first page, in the learner's own voice - the counterpart to printNotes, which is
+// the only page in a learner book addressed to somebody else.
+const learnerWelcome = (what) => [
+  P('This book is yours', { size: 26, bold: true, color: NAVY, after: 60 }),
+  P(`This is your book. Write in it, draw in it, and keep it. ${what}`, { size: BOOK, line: 300, after: 100 }),
   hr(),
 ];
 
@@ -537,7 +550,7 @@ const makeDoc = (children, opts = {}) => new Document({
 });
 
 module.exports = {
-  BRAND, LOGO, icon, imgRun, image, iconLine, pageFooter, toc, contents, printNotes, plain,
+  BRAND, LOGO, icon, imgRun, image, iconLine, pageFooter, toc, contents, printNotes, learnerWelcome, plain,
   NAVY, PLUM, GREY, OLIVE, LINE, RULE, PAGE, COL, scaleW, BOOK, GUIDE, LEAD_BOOK, LEAD_GUIDE,
   NO_BORDERS, HAIRLINE, accentLeft, setHeadingShift,
   toParas, P, runs, body, bullet, numbered, label, H1, H2, H3, mini, hr, pageBreak,

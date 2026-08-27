@@ -562,7 +562,7 @@ function educatorGuide() {
   c.push(P('After the first five weeks of learning, make a first, provisional judgement of each learner against the Proficiency Scale. You do this with Amala’s support and calibration - it is a checkpoint and a rehearsal, not the final grade. Use what it surfaces: which learners you have thin evidence on, where your judgement felt uncertain, which competency needs more attention in the next block.', { size: 22 }));
   c.push(callout('Most learners will look low at Week 6 - that is expected', [
     'By Week 6 a learner has usually SET a goal and made a plan, but the goal-pursuit weeks are still ahead: most of the tracked steps happen in Weeks 7 to 11. So expect a lot of Theorist on Set and Pursue Goals at Week 6, and treat it as normal, not as a warning sign.',
-    'The same is true of the Research Project. At Week 6 most groups are still gathering; the weighing, the insights and the output - where Investigate Real World Issues really shows - come afterwards.',
+    'The same is true of the Research Project. At Week 6 most groups are still gathering; the checking, the insights and the output - where Investigate Real World Issues really shows - come afterwards.',
     'Judge what is in front of you honestly and record it. Week 6 tells you where to put your support, not whether the cohort is going to pass.',
   ], OLIVE));
   c.push(H3('Week 12 - final assessment'));
@@ -815,7 +815,7 @@ function studentWorkbook() {
   c.push(P('1.  You do not have to write.', { size: 24, bold: true, color: PLUM, before: 160 }));
   c.push(P('Drawing is a full answer. A mark is a full answer. You can say your answer out loud and ask someone to write it for you.', { size: 23 }));
   c.push(P('2.  There are no wrong answers here.', { size: 24, bold: true, color: PLUM, before: 160 }));
-  c.push(P('No one marks these pages right or wrong. They are for you to think with, and to look back on.', { size: 23 }));
+  c.push(P('No one grades these pages right or wrong. They are for you to think with, and to look back on.', { size: 23 }));
   c.push(P('3.  You never have to share.', { size: 24, bold: true, color: PLUM, before: 160 }));
   c.push(P('You choose what you show and what you keep to yourself. If a question is hard, leave it and come back, or leave it empty.', { size: 23 }));
   c.push(callout('If you miss some weeks', [

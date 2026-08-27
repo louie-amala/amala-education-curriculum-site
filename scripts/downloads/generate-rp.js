@@ -54,7 +54,7 @@ const {
   plain, toParas, P, runs, body, bullet, label, H1, H2, H3, mini, hr, pageBreak,
   eyebrow, eyebrowChip, partHead, title, bold,
   scribe, example, noteBox, visualTable, stem, ruled, linedArea, writeBox, choices, check, slot,
-  zones, tallyMat, grid, notesPage, box, mdBlocks, contents, printNotes, makeDoc,
+  zones, tallyMat, grid, notesPage, box, mdBlocks, contents, printNotes, learnerWelcome, makeDoc,
 } = S;
 
 // Full original articles - facilitator reference only (Appendix B of the guide). Only sources whose
@@ -111,7 +111,7 @@ const ORIGINALS = {
     ref: 'Food and Agriculture Organization of the United Nations (FAO), "Restoring degraded land in Rohingya refugee camps in Cox’s Bazar, Bangladesh." openknowledge.fao.org. Reproducible for educational/non-commercial use with attribution.',
     text: [
       'Through planting on degraded slopes and the shift to LPG, agencies report that green cover in and around the camps has increased (about 43% between 2018 and 2024) and that landslide frequency has fallen from the early years as slope-stabilisation and afforestation took hold.',
-      'The fuller picture is that forest cover inside the camps fell drastically after the 2017 influx (from over half the land to almost none), so recovery is partial and ongoing. Effectiveness claims here come from the organisations delivering the work and should be weighed against independent evidence and local observation.',
+      'The fuller picture is that forest cover inside the camps fell drastically after the 2017 influx (from over half the land to almost none), so recovery is partial and ongoing. Effectiveness claims here come from the organisations delivering the work and should be checked against independent evidence and local observation.',
     ],
   },
   K: { ref: 'One Tree Planted, "How trees improve soil quality." onetreeplanted.org.', note: 'Tree-planting charity, rights reserved - not reproduced. Cite and summarise only. Strengthens sub-question 3 (what trees do for the soil and for us).' },
@@ -261,12 +261,12 @@ const weeklySpread = (n, withExample) => {
   const c = [];
   c.push(new Paragraph({ children: [new TextRun({ text: `My research week ${n}`, bold: true, size: 23, color: PLUM })], spacing: { before: 160, after: 60 } }));
   if (withExample) c.push(example([
-    'This week I will:  ask my grandmother what the hills looked like before.',
+    'This week I will:  ask an elder in my family what the hills looked like before.',
     'Did I do it?  ( ✓ ) yes.',
-    'What happened:  she said there used to be big trees and shade.',
+    'What happened:  they said there used to be big trees and shade.',
     'What got in the way:  nothing this time.',
-    'If I cannot find her, then I will:  ask another elder.',
-    'Next week I will:  draw what she told me for our wall.',
+    'If I cannot find them, then I will:  ask another elder.',
+    'Next week I will:  draw what they told me for our wall.',
   ]));
   c.push(stem('This week I will'));
   c.push(choices('Did I do it?', ['yes', 'not yet']));
@@ -299,7 +299,7 @@ const SCAFFOLD = {
     ...writeBox('My name, or my own mark:', 1),
     bold('A drawing of our hills:'), box(6200, 'Draw or write it here'),
     bold('How I use my book:'),
-    check('I can draw'), check('I can make marks'), check('I can use a few words'), check('No one marks my book right or wrong'),
+    check('I can draw'), check('I can make marks'), check('I can use a few words'), check('No one grades my book right or wrong'),
   ],
   'cb-rp-researcher-growth-path': () => [
     P('A researcher grows from guessing to finding out. Put a mark where you are - at the start, and again at the end.', { size: BOOK, line: 300 }),
@@ -499,8 +499,8 @@ function workbookChildren(opts = {}) {
     c.push(P('Student Workbook - Our Research Book', { size: 30, bold: true, color: PLUM, after: 40 }));
     c.push(P("The trees on our hills  ·  Learning Bridge+ (Cox's Bazar)", { size: BOOK, line: 300, color: GREY, after: 200 }));
   }
-  if (!opts.embedded) c.push(...printNotes('book', ['If you cannot print the whole book, print in this order: the Learn it pages and the pages the learners write on, then the source pack, then the answers page (one copy for the group is enough - it does not have to be in every book).']), ...contents('The parts of your book, and the page each one starts on. Word fills the numbers in when this file is opened.'));
-  c.push(P('This is your research book. It has the sources we read, a page for each week of our research, and pages for each step of our investigation. Before each step there is a LEARN IT page: it teaches you how to do that step - how to ask a good question, how to weigh a source, how to find what our evidence means. Read it again any time, even after our session; it stays in your book. Some Learn it pages end with a TRY IT YOURSELF - you can do it on your own, and the answers are at the back of this book, so you can check them yourself. Then comes an example, and then a place for you to add your own. You can draw, make marks, or use a few words - no neat writing needed.', { size: BOOK, line: 300 }));
+  if (!opts.embedded) c.push(...printNotes('book', ['If you cannot print the whole book, print in this order: the Learn it pages and the pages the learners write on, then the source pack, then the answers page (one copy for the group is enough - it does not have to be in every book).']), ...learnerWelcome('Nobody else writes in it, and nobody grades it.'));
+  c.push(P('This is your research book. It has the sources we read, a page for each week of our research, and pages for each step of our investigation. Before each step there is a LEARN IT page: it teaches you how to do that step - how to ask a good question, how to check a source, how to find what our evidence means. Read it again any time, even after our session; it stays in your book. Some Learn it pages end with a TRY IT YOURSELF - you can do it on your own, and the answers are at the back of this book, so you can check them yourself. Then comes an example, and then a place for you to add your own. You can draw, make marks, or use a few words - no neat writing needed.', { size: BOOK, line: 300 }));
   c.push(scribe());
 
   const sheetListAt = c.length;
@@ -776,7 +776,7 @@ function rubricChildren() {
   const point = (title) => {
     c.push(H2(title));
     c.push(scaleTable());
-    c.push(P('Evidence for the judgement (question & plan · evidence log & how they weighed sources · findings → insight · output & answering questions):', { size: 18, color: GREY, after: 40, before: 160 }));
+    c.push(P('Evidence for the judgement (question & plan · evidence log & how they checked sources · findings → insight · output & answering questions):', { size: 18, color: GREY, after: 40, before: 160 }));
     c.push(box(2200, ''));
   };
   point('Midway (formative) - around the end of "Plan and conduct research"');

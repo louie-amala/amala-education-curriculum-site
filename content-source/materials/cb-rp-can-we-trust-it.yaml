@@ -1,4 +1,4 @@
-# Student worksheet (resource) for the activity cb-rp-weighing-our-sources. Thin per §3: what the sheet
+# Student worksheet (resource) for the activity cb-rp-checking-our-sources. Thin per §3: what the sheet
 # is and how the learner uses it. Ships no file of its own - its printable version compiles into the
 # Research Project student workbook. Uses the source pack's three corroboration-led checks.
 # Learning Bridge+ (Cox's Bazar) edition.
@@ -9,8 +9,8 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "Can we trust it?"
 summary: >-
-  A simple page for weighing one piece of evidence - the three checks a researcher makes of any source
-  (leading with checking it against others), and a place to mark how much weight it can bear.
+  A simple page for checking one piece of evidence - the three checks a researcher makes of any source
+  (leading with checking it against others), and a place to mark how much we can lean on it.
 facilitationContext:
 - group
 - independent
@@ -26,10 +26,10 @@ learnerContent: |
   - Who made it, and why? (could they have a reason to tell it one way?)
   - How do they know - and is it still true? (do they show it, or just say it?)
   - Does it hold up? (does it agree with the other sources, and with what WE found?)
-  - How much weight can it bear? (a lot, some, or a little)
+  - How much can we lean on it? (a lot, some, or a little)
 
   The third check matters most: the strongest evidence is what many sources AND our own research agree
-  on. Keep these pages in your research book. They show your teacher how you are learning to weigh
+  on. Keep these pages in your research book. They show your teacher how you are learning to check
   evidence like a researcher.
 agencyContribution:
   indicators:
@@ -38,10 +38,10 @@ agencyContribution:
     Learning to ask how far a claim can be trusted, and to record that judgement, is a habit learners
     carry into any future decision that rests on what someone told them.
 objectiveIds: [research-project--o3]
-relatedSlugs: [cb-rp-weighing-our-sources, cb-rp-secondary-source-pack]
+relatedSlugs: [cb-rp-checking-our-sources, cb-rp-secondary-source-pack]
 provenanceNote: >-
   Authored worksheet resource for the Learning Bridge+ (Cox's Bazar) Research Project edition, paired to
-  cb-rp-weighing-our-sources. Uses the three corroboration-led checks from the supplied source pack.
+  cb-rp-checking-our-sources. Uses the three corroboration-led checks from the supplied source pack.
   Thin by design; its printable version compiles into the Research Project student workbook rather than
   shipping its own file.
 rights:

@@ -37,7 +37,7 @@ summary: >-
   are given: "What happens to our hills without trees, and what changes when trees and plants grow
   back?" Learners make that question their own, gather evidence through primary research in their
   community and through a supplied pack of secondary sources about how trees, soil, rain, and heat
-  work, weigh what they find, and turn it into insights they share. Because there is no internet, all
+  work, check what they find, and turn it into insights they share. Because there is no internet, all
   secondary sources are supplied ready-made. Times are deliberately generous, because oral and visual
   delivery with drawing and translation takes longer than it first appears.
 totalFacilitatedHours: 30
@@ -47,7 +47,7 @@ deliveryApproach: |-
   is to move learners from doing research to being researchers - and the way we get there is to keep the
   SUPPORT constant while shifting who OWNS the work, from the facilitator's example to the learner's own.
 
-  We do not withdraw the scaffold as the work gets harder. If anything, the hardest steps - weighing
+  We do not withdraw the scaffold as the work gets harder. If anything, the hardest steps - checking
   evidence, reaching an insight, reflecting on how we have grown - need the most support, so that is
   where the workbook scaffolds hardest. Early on you model each move first: introduce the challenge and
   the given question, show how to take a question apart, read a source aloud. Then learners take each
@@ -79,7 +79,7 @@ assessmentNote: >-
   issues (FSI1), is judged by the educator against Amala's proficiency scale at two points: midway
   (formative) and at the end (summative). It is not marked from the final output alone. Gather evidence
   from across the whole investigation: the research question and plan they framed, the interview and
-  survey questions they designed, how they weighed their sources (their evidence log), how they moved
+  survey questions they designed, how they checked their sources (their evidence log), how they moved
   from raw findings to insight, and the final research output and how they answer questions about it.
   A learner who gathered evidence but could not turn it into an insight, and one who reached a
   defensible insight, are showing different proficiency, even with a similar-looking poster. Do not
@@ -337,13 +337,13 @@ phases:
     lead: shared
     objectiveId: research-project--o3
     summary: >-
-      Learners move from a pile of evidence to a small number of clear, actionable insights: they weigh
+      Learners move from a pile of evidence to a small number of clear, actionable insights: they check
       how far each source can be trusted, sort and theme what they gathered, and work out what it all
       means for the challenge.
     blocks:
-      - title: "Can we trust it? Weighing our sources"
+      - title: "Can we trust it? Checking our sources"
         kind: activity
-        materialSlug: cb-rp-weighing-our-sources
+        materialSlug: cb-rp-checking-our-sources
         facilitatedHours: 2
         independentHours: 1
         description: >-
@@ -351,7 +351,7 @@ phases:
           it, how do they know, does other evidence agree, and could they be mistaken or have a reason
           to shape the story. They apply this to both their primary evidence (one person's strong
           opinion is not the same as a pattern across many) and the source pack, marking in their
-          evidence log how much weight each piece can bear. This is the "evaluating sources"
+          evidence log how much we can lean on each piece. This is the "evaluating sources"
           strand, and it protects learners from building an insight on a single shaky claim.
         independentTask: "Think of something you were told about our challenge, and ask yourself: how does that person know it is true?"
       - title: "Sort and theme what we found"

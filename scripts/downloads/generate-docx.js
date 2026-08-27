@@ -43,7 +43,7 @@ const {
   plain, toParas, P, runs, body, bullet, label, H1, H2, H3, mini, hr, pageBreak,
   eyebrow, title, bold, example, noteBox, stem, ruled, linedArea, writeBox, choices, check, slot,
   zones, grid, notesPage, box, writeLine, gridBoxes, mdTable, mdBlocks,
-  contents, printNotes, makeDoc, eyebrowChip, scribe,
+  contents, printNotes, learnerWelcome, makeDoc, eyebrowChip, scribe,
 } = S;
 
 // ---- scaffolding helpers (worked examples, stems, standing scribe note) ----
@@ -319,7 +319,7 @@ function workbookChildren(opts = {}) {
   c.push(pageBreak());
   // "How to use this book" rides with the printing notes rather than taking a fifth of a sheet on its
   // own; the live contents follows.
-  if (!opts.embedded) c.push(...printNotes('book'));
+  if (!opts.embedded) c.push(...printNotes('book'), ...learnerWelcome('Nobody else writes in it, and nobody grades it.'));
   const sheetListAt = c.length;
   c.push(H2(opts.embedded ? 'The sheets in this part' : 'How to use this book', opts.embedded));
   c.push(P('There is one sheet for each activity in My Voice, and a page for your own notes after it. Your facilitator will tell you which sheet to use.', { size: BOOK, line: 300 }));
@@ -327,8 +327,10 @@ function workbookChildren(opts = {}) {
     'Every page shows you an example at the top, like this one, so you always have something to copy.',
     'You can draw or say every answer - your facilitator can write it for you. Nothing here is a test.',
   ], { label: 'How to use this book' }));
-  if (!opts.embedded) c.push(...contents('The parts of your book, and the page each one starts on. Word fills the numbers in when this file is opened.'));
-  else c.push(pageBreak());
+  // No auto-Contents in a learner book: "The sheets in this book" above is the list learners and
+  // facilitators actually use (the facilitator calls a sheet number), and a Word TOC field renders
+  // blank in LibreOffice until someone refreshes it - a bad page to hand a learner offline.
+  c.push(pageBreak());
 
   // --- The "I can…" sheet ---
   learnIt('cb-mv-i-can-checklist');
@@ -375,7 +377,9 @@ function workbookChildren(opts = {}) {
   const weekBlock = () => {
     c.push(new Paragraph({ spacing: { before: 40, after: 40 }, children: [new TextRun({ text: 'Week ', bold: true, size: 24, color: NAVY }), new TextRun({ text: '________', size: 24, color: NAVY })] }));
     circleLine('This week I will speak English with:', 'family · friend · neighbour · my mentor · my buddy');
-    circleLine('I will say:', 'hello · my name is ___ · I am from ___ · I like ___');
+    // "…" not "___": this is a circle-one line, and the blanks read as somewhere to write when there
+    // is no room to. The writing space for this week is the box below.
+    circleLine('I will say:', 'hello · my name is… · I am from… · I like…');
     circleLine('Did I?', ':) yes        :| a little        :( not yet');
     c.push(...writeBox('What happened? Who did I speak to? (draw or say)', 3));
     circleLine('If I feel shy, I will:', 'practise with one person · practise at home first · ask my buddy');
@@ -411,14 +415,19 @@ function workbookChildren(opts = {}) {
   head('The English of our classroom', 'Our classroom words', 'Your facilitator says each word. Draw a small picture in its box so you remember it, and say it aloud.');
   c.push(modelBox(['hello  →  draw a hand waving  →  say: "hello"'], { label: 'Like this - one box' }));
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: 100 } }));
-  c.push(labelBoxes(['hello', 'thank you', 'please', 'again, please', "I don't understand", 'may I…?'], 3, 2200));
+  // Every box here is a phrase the Learn it page facing this one has just taught - "may I…?" used to
+  // sit in this grid without ever appearing there.
+  c.push(labelBoxes(['hello', 'thank you', 'please', 'again, please', 'please slow down', "I don't understand"], 3, 2200));
   c.push(scribeNote());
   endPage();
 
   // --- Listening: hello and names ---
   learnIt('cb-mv-listening-hello-and-names');
-  head('Listening: hello and names', 'Listening: hello and names', 'Listen. Point to and mark what you hear. No writing needed.');
-  c.push(labelBoxes(['a wave = hello', 'a hand up = my name', 'two people = hello to you', 'a face I know'], 2, 2900));
+  head('Listening: hello and names', 'Listening: hello and names', 'Your facilitator says one thing. Point to the box that matches it, then put a mark in that box. Listen only - no writing, no speaking.');
+  // Each box is now one thing the learner can HEAR, so pointing at a box is an answer. The old set
+  // mixed gestures ("a wave = hello") with meanings ("two people = hello to you") and the learner
+  // could not tell what they were being asked to match.
+  c.push(labelBoxes(['"hello"', '"my name is…"', '"what is your name?"', 'a name I know'], 2, 2900));
   endPage();
 
   // --- My name ---
@@ -434,6 +443,19 @@ function workbookChildren(opts = {}) {
   for (let i = 0; i < 7; i++) c.push(writeLine());
   c.push(new Paragraph({ spacing: { before: 220, after: 80 }, children: [new TextRun({ text: 'My name starts with the sound ', size: 22, color: NAVY }), new TextRun({ text: '_____', size: 22, color: NAVY }), new TextRun({ text: '   (say it, then write the letter)', size: 19, italics: true, color: GREY })] }));
   c.push(box(1500));
+  endPage();
+
+  // --- My writing practice ---
+  // Follows "My name" directly. It used to sit six sheets later, so the book asked learners to trace
+  // their name, went away for six sheets, then taught "how to write your own name" as if for the
+  // first time. The teaching now lands next to the page it teaches.
+  learnIt('cb-mv-writing-my-name');
+  head('Writing my name', 'My writing practice', 'Copy the word your facilitator writes for you at the start of each line. Take your time.');
+  c.push(modelBox(['Your facilitator writes a word at the start of the line. You copy it along the line:', 'Nur          Nur          Nur          Nur']));
+  c.push(new Paragraph({ children: [new TextRun({ text: 'My name', bold: true, size: 22, color: PLUM })], spacing: { before: 160, after: 80 } }));
+  for (let i = 0; i < 5; i++) c.push(writeLine());
+  c.push(new Paragraph({ children: [new TextRun({ text: 'My words', bold: true, size: 22, color: PLUM })], spacing: { before: 200, after: 80 } }));
+  for (let i = 0; i < 11; i++) c.push(writeLine());
   endPage();
 
   // --- My sounds and words (the learner's phonics-table tool: draw · English word · my word) ---
@@ -475,22 +497,12 @@ function workbookChildren(opts = {}) {
   c.push(scribeNote());
   endPage();
 
-  // --- My writing practice ---
-  learnIt('cb-mv-writing-my-name');
-  head('Writing my name', 'My writing practice', 'Copy the word your facilitator writes for you at the start of each line. Take your time.');
-  c.push(modelBox(['Your facilitator writes a word at the start of the line. You copy it along the line:', 'Nur          Nur          Nur          Nur']));
-  c.push(new Paragraph({ children: [new TextRun({ text: 'My name', bold: true, size: 22, color: PLUM })], spacing: { before: 160, after: 80 } }));
-  for (let i = 0; i < 5; i++) c.push(writeLine());
-  c.push(new Paragraph({ children: [new TextRun({ text: 'My words', bold: true, size: 22, color: PLUM })], spacing: { before: 200, after: 80 } }));
-  for (let i = 0; i < 11; i++) c.push(writeLine());
-  endPage();
-
   // --- I can say who I am ---
   learnIt('cb-mv-i-am-sentences');
   head('I am… - saying who you are', 'I can say who I am', 'Say each sentence out loud. Fill the ending with your own true words - write, trace, or say it and draw.');
   c.push(modelBox([
     'I am Fatima.',
-    'I am from Myanmar.',
+    'I am from Camp 4.',
     'I like rice.',
     'I am good at drawing.',
   ], { label: 'Like this', size: 24 }));
@@ -503,7 +515,7 @@ function workbookChildren(opts = {}) {
   learnIt('cb-mv-sentence-practice');
   head('Sentence practice', 'Building sentences', 'Put the word cards together to make a true sentence about you. Then say it out loud.');
   c.push(modelBox([
-    '[ I ]   [ am from ]   [ Myanmar ]   →   "I am from Myanmar."',
+    '[ I ]   [ am from ]   [ Camp 4 ]   →   "I am from Camp 4."',
     'Choose by ear:   I  am  ·  she  is  ·  we  are',
   ]));
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: 90 } }));
@@ -528,7 +540,7 @@ function workbookChildren(opts = {}) {
   // --- Writing a little about myself ---
   learnIt('cb-mv-writing-about-myself');
   head('Writing a little about myself', 'Writing a little about myself', 'Copy or finish a sentence about you. If writing is not comfortable yet, say it and draw it.');
-  c.push(modelBox(['My name is Nur.', 'I am from Myanmar.'], { label: 'Like this', size: 24 }));
+  c.push(modelBox(['My name is Nur.', 'I am from Camp 4.'], { label: 'Like this', size: 24 }));
   c.push(new Paragraph({ children: [new TextRun({ text: 'Now you:', size: 22, color: PLUM, bold: true })], spacing: { before: 160, after: 20 } }));
   frames(['My name is ________________________', 'I am from ________________________']);
   c.push(box(3000, 'Draw or write one thing about you'));
@@ -537,7 +549,7 @@ function workbookChildren(opts = {}) {
 
   // --- My spoken introduction (a persistent scaffold for the presentation = spoken-intro evidence) ---
   head('Rehearse, share, and celebrate', 'My spoken introduction', 'This is what you will say when you share your card. Tick each part when you can say it. Practise with a partner first.');
-  c.push(modelBox(['Hello!   My name is Nur.   I am from Myanmar.   I like rice.   Thank you.'], { label: 'Like this - a whole introduction', size: 24 }));
+  c.push(modelBox(['Hello!   My name is Nur.   I am from Camp 4.   I like rice.   Thank you.'], { label: 'Like this - a whole introduction', size: 24 }));
   c.push(new Paragraph({ children: [new TextRun({ text: 'My introduction - tick each part when you can say it:', size: 22, color: PLUM, bold: true })], spacing: { before: 180, after: 80 } }));
   c.push(check('Hello!'));
   c.push(...writeBox('My name is…', 1));
@@ -551,7 +563,7 @@ function workbookChildren(opts = {}) {
   // --- My Name, My Voice card (a labelled TEMPLATE with a worked example, not a blank canvas) ---
   learnIt('cb-mv-design-my-name-my-voice');
   head('Make your My Name, My Voice card', 'My Name, My Voice', 'Make your card. It has a place for everything - your name, a picture, and your words. You choose what to show.');
-  c.push(modelBox(['MY NAME:  Nur', '(a picture of Nur and a flower)', 'I am from Myanmar.    I like flowers.'], { label: 'Like this - a finished card' }));
+  c.push(modelBox(['MY NAME:  Nur', '(a picture of Nur and a flower)', 'I am from Camp 4.    I like flowers.'], { label: 'Like this - a finished card' }));
   c.push(new Paragraph({ children: [new TextRun({ text: '', size: 8 })], spacing: { after: 100 } }));
   const cardRow = (labelText, h, big) => new TableRow({ height: { value: h, rule: 'atLeast' }, children: [new TableCell({ width: { size: COL, type: WidthType.DXA }, margins: MODEL_MARGINS, children: [new Paragraph({ children: [new TextRun({ text: labelText, bold: true, size: big ? 22 : 20, color: PLUM })] })] })] });
   c.push(new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [S.COL], rows: [
@@ -566,7 +578,7 @@ function workbookChildren(opts = {}) {
   head('Rehearse, share, and celebrate', 'How my voice has grown', 'Look back at your first "I can" page. See how far you have come. Draw or say each answer.');
   c.push(modelBox([
     'At the start I could NOT:  say my name in English.',
-    'Now I CAN:  say "My name is Nur. I am from Myanmar."',
+    'Now I CAN:  say "My name is Nur. I am from Camp 4."',
     'What helped me:  practising with my family.',
     'I want to keep learning:  to write my words.',
   ]));

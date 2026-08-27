@@ -43,7 +43,7 @@ steps:
     it is private unless we choose to share, and it is mostly drawings and marks, not neat writing.
   keyPrompts:
   - "What do you think we will keep in a book like this?"
-  - "Whose book is this? (Yours - no one marks it right or wrong.)"
+  - "Whose book is this? (Yours - no one grades it right or wrong.)"
 - title: "Make the cover our own"
   duration: "30 min"
   guidance: >-
@@ -78,7 +78,7 @@ learnerContent: |
   - Marks and small signs that mean something to you.
   - A few words, when a word helps.
 
-  No one marks your book right or wrong. It is yours. Keep it safe, and bring it every time we meet.
+  No one grades your book right or wrong. It is yours. Keep it safe, and bring it every time we meet.
 
 educatorContent: |
   ## What you need to know before you teach this
@@ -143,7 +143,7 @@ principleAlignment:
 - principle: builds-on-identities
   how: The book is made theirs from the first page - their name or mark, their drawings - so it belongs to them, not to the course.
 - principle: safe-spaces
-  how: The book is private unless the learner chooses to share, and no one marks it right or wrong; no neat writing or reading is required.
+  how: The book is private unless the learner chooses to share, and no one grades it right or wrong; no neat writing or reading is required.
 - principle: recognise-communicate-growth
   how: Learners keep and control their own record of the investigation, and can pick it back up after a missed session.
 competencyCodes: [FSI1]

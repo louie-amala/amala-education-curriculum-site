@@ -19,7 +19,7 @@ primaryContext: group
 duration: "2 hours facilitated + 1.5 hours independent"
 grouping: "Whole group to model, then pairs; independent reading between sessions"
 whatLearnersDo:
-- Listen to and read a source at the level that suits them (the real article, the B1 version, or the A1/A2 version).
+- Listen to and read a source at the level that suits them (the original article, the B1 version, or the A1/A2 version).
 - Work out what each source says about our question - and what it does not tell us.
 - Learn and use the new words from each source, adding them to our word wall.
 - Write or draw what they found in their evidence log, with a note of which source it came from.
@@ -66,7 +66,7 @@ facilitationNotes: >-
   still building fluency. Keep coming back to the research question so the reading stays purposeful.
   A good way to organise this: split into groups, each taking one of the four sub-questions and the
   sources listed for it in the pack's "Which sources for which question" index. Each group reads its own
-  set, works out what those sources say about its sub-question, weighs them one against another, and then
+  set, works out what those sources say about its sub-question, checks them one against another, and then
   teaches the rest of the cohort - so together the whole group covers all four sub-questions.
 steps:
 - title: "Model reading one source"
@@ -108,7 +108,7 @@ learnerContent: |
   - What does it NOT tell us?
   - Can we trust it - and does it agree with our other sources and with what we saw ourselves?
 
-  Read the version that is right for you - the real article, the B1 version, or the simpler A1/A2
+  Read the version that is right for you - the original article, the B1 version, or the simpler A1/A2
   version - or listen while your teacher reads. Then write or draw what you found in your evidence log,
   and always note which source it came from.
 
@@ -125,7 +125,7 @@ educatorContent: |
   and it is these four, in this order:
 
   1. **What is this?** A news report, a study, a company's page, someone's story.
-  2. **Who made it, and how do they know?** Straight into the weighing they will do properly later.
+  2. **Who made it, and how do they know?** Straight into the checking they will do properly later.
   3. **What does it tell us about OUR question?** Not "what does it say" - what does it say *that we
      need*. Most of any source is irrelevant to us, and skipping past that is a skill.
   4. **What does it NOT tell us?** The one learners never think to ask, and the most useful. A source
@@ -137,7 +137,7 @@ educatorContent: |
 
   ### Three reading levels, and how to use them without insult
 
-  Every source has the real article, a B1 version, and a simplest A1/A2 version. Differentiate the
+  Every source has the original article, a B1 version, and a simplest A1/A2 version. Differentiate the
   ACCESS, not the content: read aloud, let a learner take the level they can hold, and let the pictures
   carry meaning for anyone not yet reading fluently.
 
@@ -208,11 +208,11 @@ learnerTeaching:
 
     ### About the three versions
 
-    Every source comes three ways: the real article, an easier one, and a simplest one.
+    Every source comes three ways: the original article, an easier one, and a simplest one.
 
-    Take the one you can hold today. There is no shame in any of them, and no prize for the hard one.
-    But if you can stretch, stretch - the English in these is meant to be a little above you, because
-    that is how you get better at it.
+    Use the version that is most helpful for you today. They are all useful, and there is no prize for
+    using the hardest one. But if you can stretch, stretch - the English is meant to be a little above
+    you, because that is how you get better at it.
 
     You can also just listen while someone reads it aloud. That is real reading too.
 
@@ -269,7 +269,7 @@ principleAlignment:
 - principle: authentic-challenges
   how: The sources are about a real, local challenge - the hills the learners live on - not a hypothetical case.
 - principle: feedback-and-data
-  how: Learners weigh what each source says against the others and against their own knowledge, rather than accepting it whole.
+  how: Learners check what each source says against the others and against their own knowledge, rather than accepting it whole.
 competencyCodes: [FSI1, FTS3, FPS2]
 competencyDevelopment:
 - code: FSI1

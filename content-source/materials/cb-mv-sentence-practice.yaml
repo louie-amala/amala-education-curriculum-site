@@ -334,6 +334,8 @@ learnerTeaching:
 
     ### Build sentences with the cards
 
+    Your facilitator gives out the word cards. You do not have to make them.
+
     Take a **who** card, then an **am/is/are** card, then one of your own words:
 
     - **I** + **am** + *from camp four*
@@ -358,8 +360,8 @@ learnerTeaching:
     You will say "I is" sometimes. Everybody does at the start, and it means you are learning a
     pattern, not that you are failing.
 
-    Just say the right one after it and carry on. Do not stop and worry. People who worry about
-    mistakes speak less, and people who speak less learn slower.
+    Just say the right one after it and carry on. Do not stop and worry. Nobody in this room minds a
+    mistake, and every one you make is a pattern you are still learning.
   words:
     - term: am / is / are
       meaning: the three words that join a person to what they are
@@ -371,12 +373,12 @@ learnerTeaching:
       book.
     chooseFrom: ["right", "needs fixing"]
     items:
-      - "I is from Myanmar."
+      - "I is from Camp 4."
       - "They are my friends."
       - "Is she your teacher?"
       - "We is learning English."
     answers:
-      - "Needs fixing. \"I\" always goes with \"am\": I AM from Myanmar. Say it aloud three times."
+      - "Needs fixing. \"I\" always goes with \"am\": I AM from Camp 4. Say it aloud three times."
       - "Right. \"They\" goes with \"are\" - and so does anything that is more than one."
       - "Right - and it is a question. The \"is\" moved to the front. That is how you make any question with these words."
       - "Needs fixing. \"We\" goes with \"are\": we ARE learning English."

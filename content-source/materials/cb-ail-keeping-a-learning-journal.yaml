@@ -131,7 +131,7 @@ educatorContent: |
 
   Most learners do not read or write fluently. Say clearly, once, and then never again in a way that
   singles anyone out: a drawing is a full entry, a single mark is a full entry, and someone else can
-  write your words down for you if you ask. Nobody marks these pages and nobody reads them aloud.
+  write your words down for you if you ask. Nobody grades these pages and nobody reads them aloud.
 
   Do one live, together, in the session. The first mark is the hardest and it should not happen alone.
 
@@ -162,7 +162,7 @@ educatorContent: |
   - Every learner knows where their book will live between sessions, and nobody has had to ask for the
     kept-at-the-centre option in front of others.
 learnerTeachingNotNeeded: >-
-  Procedural: how to use and look after the book. The book's own front matter already tells the learner it is theirs, that a drawing is a full answer, and that nobody marks it. A separate Learn it page would be padding.
+  Procedural: how to use and look after the book. The book's own front matter already tells the learner it is theirs, that a drawing is a full answer, and that nobody grades it. A separate Learn it page would be padding.
 worksheet:
   slug: cb-ail-learning-book-cover
   note: "In the learner's book (My Learning Book): the 'My Learning Book - the cover' page. Print one per learner."
