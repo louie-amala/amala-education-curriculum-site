@@ -50,6 +50,11 @@ const CONNECTIVITY_OPTIONS = [
   { value: "low-bandwidth", label: "Works on low bandwidth" },
 ];
 
+const STAGE_OPTIONS = [
+  { value: "existing", label: "For a project you have started" },
+  { value: "new", label: "New ideas welcome" },
+];
+
 const SORTS = [
   { value: "closing", label: "Closing soonest" },
   { value: "checked", label: "Recently checked" },
@@ -69,7 +74,20 @@ export function OpportunitiesBrowser({ items }: { items: Opportunity[] }) {
   const [cost, setCost] = useState("all");
   const [docs, setDocs] = useState("all");
   const [conn, setConn] = useState("all");
+  const [stage, setStage] = useState("all");
+  const [subKind, setSubKind] = useState("all");
   const [sort, setSort] = useState("closing");
+
+  // Sub-categories are the working grain: with a dozen funding entries, "scholarship" and
+  // "project grant" are different questions. Options follow whichever category is selected.
+  const subKinds = useMemo(() => {
+    const set = new Set<string>();
+    for (const o of items) {
+      if (kind !== "all" && o.kind !== kind) continue;
+      if (o.subKind) set.add(o.subKind);
+    }
+    return [...set].sort();
+  }, [items, kind]);
 
   const countries = useMemo(() => {
     const set = new Set<string>();
@@ -81,6 +99,9 @@ export function OpportunitiesBrowser({ items }: { items: Opportunity[] }) {
     const tokens = query.toLowerCase().split(/\s+/).filter(Boolean);
     const rows = items.filter((o) => {
       if (kind !== "all" && o.kind !== kind) return false;
+      if (subKind !== "all" && o.subKind !== subKind) return false;
+      if (stage === "existing" && !o.forExistingProjects) return false;
+      if (stage === "new" && o.forExistingProjects) return false;
       if (mode !== "all" && o.delivery.mode !== mode) return false;
       if (where !== "all") {
         const r = o.eligibility.residingIn;
@@ -144,11 +165,13 @@ export function OpportunitiesBrowser({ items }: { items: Opportunity[] }) {
       const db = b.requirements.deadline.date ?? "9999";
       return da.localeCompare(db);
     });
-  }, [items, query, kind, mode, where, deadline, cost, docs, conn, sort, now]);
+  }, [items, query, kind, subKind, stage, mode, where, deadline, cost, docs, conn, sort, now]);
 
   const reset = () => {
     setQuery("");
     setKind("all");
+    setSubKind("all");
+    setStage("all");
     setMode("all");
     setWhere("all");
     setDeadline("all");
@@ -158,7 +181,7 @@ export function OpportunitiesBrowser({ items }: { items: Opportunity[] }) {
   };
 
   const anyFilter =
-    query || [kind, mode, where, deadline, cost, docs, conn].some((v) => v !== "all");
+    query || [kind, subKind, stage, mode, where, deadline, cost, docs, conn].some((v) => v !== "all");
 
   return (
     <div>
@@ -178,7 +201,24 @@ export function OpportunitiesBrowser({ items }: { items: Opportunity[] }) {
         </div>
 
         <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          <Select label="Category" value={kind} onChange={setKind} all="All categories" options={KIND_OPTIONS} />
+          <Select
+            label="Category"
+            value={kind}
+            onChange={(v) => {
+              setKind(v);
+              setSubKind("all");
+            }}
+            all="All categories"
+            options={KIND_OPTIONS}
+          />
+          <Select
+            label="Type"
+            value={subKind}
+            onChange={setSubKind}
+            all="All types"
+            options={subKinds.map((k) => ({ value: k, label: titleCase(k) }))}
+          />
+          <Select label="Project stage" value={stage} onChange={setStage} all="Any stage" options={STAGE_OPTIONS} />
           <Select
             label="Where you live"
             value={where}
@@ -231,6 +271,7 @@ function OpportunityRow({ opportunity: o, now }: { opportunity: Opportunity; now
 
   const chips: string[] = [];
   if (o.subKind) chips.push(titleCase(o.subKind));
+  if (o.forExistingProjects) chips.push("For a project you have started");
   chips.push(MODE_LABEL[o.delivery.mode] ?? o.delivery.mode);
   if (o.requirements.cost.toParticipate === "funded") chips.push("Funded");
   if (o.requirements.documents.passportRequired === false) chips.push("No passport needed");

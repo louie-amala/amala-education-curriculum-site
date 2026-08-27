@@ -1,0 +1,69 @@
+id: afsc-global-voices-for-peace
+slug: afsc-global-voices-for-peace
+access: public
+kind: funding
+subKind: project-grant
+title: Global Voices for Peace small seed grants
+provider: { name: American Friends Service Committee, type: ngo }
+summary: >-
+  Around US$10,000 to US$15,000 for community-led work that builds dialogue,
+  solidarity and peaceful participation. Restricted to the Global South, and
+  feminist, grassroots and youth movements are encouraged to apply.
+whoItIsFor: >-
+  Groups in the Global South already doing peacebuilding or civic work. This is a
+  substantial grant, so expect a more demanding application.
+forExistingProjects: true
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["A community-led initiative already working on peace, dialogue or civic participation"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "[to verify] Confirm whether a registered organisation or a fiscal host is required."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "mid-year"
+    note: "The 2026 call was announced in July. Check for the current round."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B2, reason: "A substantial written application" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["A grant of roughly US$10,000 to US$15,000"]
+    fundingExcludes: ["[to verify] Confirm what the grant may not fund"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "Larger grants usually carry reporting duties. Confirm what is expected before accepting."
+eligibility:
+  status: [any]
+  nationalities: any
+  residingIn:
+    resolved: false
+    countries: []
+    sourceUrl: "https://afsc.org/"
+    note: "Restricted to partners in the Global South. Confirm the eligible country list."
+  gender: any
+  otherConditions: ["Feminist groups, grassroots organisations and youth movements are particularly encouraged"]
+delivery:
+  mode: in-person
+  location: { country: null, place: "Your own community" }
+  relocation: none
+  duration: "Project-length"
+  timeCommitment: part-time
+needs: { connectivity: low-bandwidth, device: computer, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  placesAvailable: 10
+  leadsTo: ["A substantially funded peacebuilding project"]
+howToApply:
+  online: { url: "https://afsc.org/", note: "[to verify] Resolve the live application URL for the current round." }
+  offline: null
+  steps: ["Check whether your country is eligible.", "Prepare a clear account of the work already underway.", "Apply when the round opens."]
+support: []
+preparedBy: [ail-making-an-action-plan]
+competencyCodes: [ALC2, FR2]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "AFSC Global Voices for Peace 2026 listings (read 27 August 2026)"

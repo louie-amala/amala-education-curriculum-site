@@ -1191,6 +1191,11 @@ export const OpportunitySchema = z.object({
   summary: z.string(),
   // Plain language, readable aloud by a mentor. Distinct from `summary`, which may be denser.
   whoItIsFor: z.string().nullable().optional(),
+  // True when this exists to continue work the applicant has ALREADY started. A facet rather than a
+  // sub-category, because it cuts across kinds - a grant, an accelerator and a mentorship can all
+  // want an existing project. It is the question an Amala learner asks the week after a Research
+  // Project or a showcase ends: what can I do with the thing I just built?
+  forExistingProjects: z.boolean().default(false),
   applicant: z
     .object({ appliedBy: AppliedBySchema, note: z.string().nullable().optional() })
     .default({ appliedBy: "learner" }),
