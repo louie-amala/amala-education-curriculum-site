@@ -11,6 +11,7 @@ summary: >-
 whoItIsFor: >-
   Secondary schools anywhere in the world, and the students whose idea it is.
   If you have a project idea, bring it to your school.
+forExistingProjects: true
 applicant:
   appliedBy: institution
   note: "The school submits the entry. Students drive the project."

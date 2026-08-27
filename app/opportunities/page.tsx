@@ -25,8 +25,9 @@ export default function OpportunitiesIndex() {
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-white/85">
             Real things you can apply for — further education, work, enterprise, funding,
-            competitions and support. Filtered by what actually decides whether you can apply:
-            where you live, which documents you have, what it costs, and what you need to take part.
+            competitions and support, including grants to keep going a project you have already
+            started. Filtered by what actually decides whether you can apply: where you live, which
+            documents you have, what it costs, and what you need to take part.
           </p>
           <p className="mt-4 max-w-2xl text-sm text-white/70">
             This list is curated and incomplete. It is the companion to the{" "}

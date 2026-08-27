@@ -1,0 +1,62 @@
+id: peace-first-grants
+slug: peace-first-grants
+access: public
+kind: funding
+subKind: project-grant
+title: Peace First youth project grants
+provider: { name: Peace First, type: ngo }
+summary: >-
+  Grants and coaching for young people leading change in their own communities —
+  education, climate, mental health, equity, peacebuilding. No registered
+  organisation needed.
+whoItIsFor: >-
+  Young people anywhere in the world running a project that tackles a problem
+  they can see around them. Individuals and informal groups are welcome.
+forExistingProjects: true
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["A project idea addressing a community problem"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "You do not need to belong to a registered organisation."
+  deadline: { type: rolling, note: "Applications open in rounds through the year. Check the grants page." }
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B1, reason: "The application and coaching are in English" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["A project grant", "Coaching and a community of young changemakers"]
+    fundingExcludes: ["[to verify] Confirm the current grant ceiling and what it may fund"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "Confirm the grant amount for the current round before planning around it."
+eligibility:
+  status: [any]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open to young people anywhere in the world." }
+  ageRange: { min: 13, max: 25 }
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  timeCommitment: "Your own project"
+needs: { connectivity: low-bandwidth, device: shared-phone, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["A funded project", "Coaching and a peer network"]
+howToApply:
+  online: { url: "https://peacefirst.org/grants/", note: null }
+  offline: null
+  steps:
+    - "Describe the problem you are tackling and what you will do about it."
+    - "Check when the current round closes."
+    - "Apply online."
+support: [mentoring]
+preparedBy: [ail-making-an-action-plan, final-showcase-pitch]
+competencyCodes: [FSL2, ALC2]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "peacefirst.org/grants (read 27 August 2026)"

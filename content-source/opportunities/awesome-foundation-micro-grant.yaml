@@ -1,0 +1,60 @@
+id: awesome-foundation-micro-grant
+slug: awesome-foundation-micro-grant
+access: public
+kind: funding
+subKind: micro-grant
+title: Awesome Foundation micro-grant
+provider: { name: The Awesome Foundation, type: community }
+summary: >-
+  US$1,000, no strings, for an idea worth doing. Local chapters award one grant a
+  month. There is no reporting requirement and no organisation needed.
+whoItIsFor: >-
+  Individuals, groups and organisations anywhere. The application is short. If
+  you have a project and need a small amount to keep it moving, start here.
+forExistingProjects: true
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["An idea or project you want to carry out"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "No documents. No registered organisation required."
+  deadline: { type: rolling, note: "Chapters award a grant every month, so there is always a next round." }
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: A2, reason: "The application form is short and in English" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["US$1,000, with no reporting requirement"]
+    fundingExcludes: ["Anything above US$1,000"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "Work out what US$1,000 genuinely covers before you build a plan around it."
+eligibility:
+  status: [any]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Chapters exist worldwide; some fund any location." }
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  timeCommitment: "Your own project"
+needs: { connectivity: low-bandwidth, device: shared-phone, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["A funded next step for your project"]
+howToApply:
+  online: { url: "https://www.awesomefoundation.org/", note: "Find a chapter and submit the short form." }
+  offline: null
+  steps:
+    - "Find a chapter that funds your location or your kind of project."
+    - "Describe the idea in a few sentences."
+    - "Submit — and apply to more than one chapter if the first says no."
+support: []
+preparedBy: [ail-making-an-action-plan, pathways-networking-and-personal-pitch]
+competencyCodes: [FSL2, FR1]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "awesomefoundation.org (read 27 August 2026)"

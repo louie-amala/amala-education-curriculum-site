@@ -1,0 +1,62 @@
+id: global-youth-empowerment-fund
+slug: global-youth-empowerment-fund
+access: public
+kind: funding
+subKind: project-grant
+title: Global Youth Empowerment Fund
+provider: { name: Global Youth Mobilization, with the European Union, type: ngo }
+summary: >-
+  Up to €5,000 for youth-led projects tackling social, environmental or
+  educational problems in their own communities.
+whoItIsFor: >-
+  Young leaders running a project that is already underway or ready to start.
+  One of the larger youth grants that does not require an institution behind you.
+forExistingProjects: true
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["A youth-led project addressing a community challenge"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "[to verify] Confirm what evidence of the project or group is required."
+  deadline:
+    type: annual-cycle
+    date: 2026-03-31
+    opensAround: "early in the year"
+    note: "The 2026 round closed on 31 March. Expect a similar window next year."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B1, reason: "The application is in English" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Up to €5,000 for the project"]
+    fundingExcludes: ["Costs of preparing the application", "Anything above the ceiling"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "Confirm whether the grant is paid up front or in arrears — that changes what you can start."
+eligibility:
+  status: [any]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open worldwide." }
+  ageRange: { min: 15, max: 30 }
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  timeCommitment: "Your own project"
+needs: { connectivity: low-bandwidth, device: shared-phone, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["A funded community project"]
+howToApply:
+  online: { url: "https://globalyouthmobilization.org/", note: "[to verify] Resolve the live application URL for the current round." }
+  offline: null
+  steps: ["Write up the project and its budget.", "Watch for the annual call early in the year.", "Apply online."]
+support: []
+preparedBy: [ail-making-an-action-plan, final-showcase-pitch]
+competencyCodes: [FSL2, FR2]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "Opportunities for Youth listings of the 2026 Youth Empowerment Fund (read 27 August 2026)"

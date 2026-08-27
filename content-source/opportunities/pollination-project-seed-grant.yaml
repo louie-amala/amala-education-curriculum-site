@@ -1,0 +1,63 @@
+id: pollination-project-seed-grant
+slug: pollination-project-seed-grant
+access: public
+kind: funding
+subKind: micro-grant
+title: The Pollination Project seed grant
+provider: { name: The Pollination Project, type: ngo }
+summary: >-
+  Up to US$500 for an early-stage, volunteer-led project making social or
+  environmental change. They award one grant every day, and you do not need to
+  be a registered organisation.
+whoItIsFor: >-
+  Anyone running a grassroots project, including individuals and informal groups.
+  Youth-led projects are explicitly welcome. This is probably the lowest barrier
+  to a first grant anywhere on this board.
+forExistingProjects: true
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["An early-stage project you are already working on, run by volunteers"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "You do not need to be a registered organisation."
+  deadline: { type: rolling, note: "Rolling — one grant is awarded every day." }
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B1, reason: "The application is in English" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Up to US$500", "Capacity-building workshops", "Help finding further resources"]
+    fundingExcludes: ["Anything above US$500", "[to verify] Confirm what the grant may not be spent on"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "A US$500 grant will not cover a large project. Plan what it realistically pays for."
+eligibility:
+  status: [any]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open worldwide — grants have reached 120 countries." }
+  gender: any
+  otherConditions: ["The project must be volunteer-led and early stage"]
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  timeCommitment: "Your own project, at your own pace"
+needs: { connectivity: low-bandwidth, device: shared-phone, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["A funded first stage for your project", "A network of grassroots changemakers"]
+howToApply:
+  online: { url: "https://thepollinationproject.org/", note: "Apply through the 'Apply for Funding' section." }
+  offline: null
+  steps:
+    - "Write down clearly what your project does and who it helps."
+    - "Work out exactly what US$500 would pay for."
+    - "Apply online — there is no deadline to wait for."
+support: [mentoring]
+preparedBy: [ail-making-an-action-plan, final-showcase-pitch]
+competencyCodes: [FSL2, FR2]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "thepollinationproject.org (read 27 August 2026)"

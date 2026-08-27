@@ -206,7 +206,17 @@ export function eligibleWhereLabel(o: Opportunity): string {
   return head + (named.length > 3 ? `${named.slice(0, 3).join(", ")} +${named.length - 3}` : named.join(", "));
 }
 
+// Country slugs that title-casing gets wrong.
+const NAME_OVERRIDES: Record<string, string> = {
+  usa: "USA",
+  uk: "UK",
+  drc: "DRC",
+  "south-sudan": "South Sudan",
+};
+
 export function titleCase(slug: string): string {
+  const override = NAME_OVERRIDES[slug];
+  if (override) return override;
   return slug
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))

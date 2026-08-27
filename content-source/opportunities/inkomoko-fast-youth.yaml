@@ -11,6 +11,7 @@ summary: >-
 whoItIsFor: >-
   Young people already running a business who want it to grow. The programme is
   designed so that being a refugee or a young woman helps rather than hinders.
+forExistingProjects: true
 applicant: { appliedBy: learner }
 requirements:
   qualifications: ["A youth-led enterprise already trading"]

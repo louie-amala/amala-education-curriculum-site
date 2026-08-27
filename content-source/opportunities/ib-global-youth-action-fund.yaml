@@ -1,0 +1,78 @@
+id: ib-global-youth-action-fund
+slug: ib-global-youth-action-fund
+access: public
+kind: funding
+subKind: project-grant
+title: IB Global Youth Action Fund
+provider: { name: International Baccalaureate, type: ngo }
+summary: >-
+  Up to US$3,000, plus mentoring and training in project management and
+  budgeting, for a student-led project addressing a Sustainable Development Goal.
+  You do not have to be an IB student.
+whoItIsFor: >-
+  Secondary students aged 12 to 19, anywhere in the world, who have started a
+  project and want to grow it — or have a new idea ready to build. An educator
+  at your school has to sponsor the application.
+forExistingProjects: true
+applicant:
+  appliedBy: learner
+  note: >-
+    You apply, but you need a recommendation from a sponsor at your school, so
+    bring it to an educator or facilitator early.
+requirements:
+  qualifications: ["A project idea, or a project already running, linked to an SDG"]
+  documents:
+    required:
+      - "A school sponsor recommendation"
+      - "A pitch deck of no more than 8 slides"
+      - "A video pitch of no more than 3 minutes"
+    passportRequired: false
+    note: "No identity documents are asked for — the requirements are all about the project."
+  deadline:
+    type: annual-cycle
+    date: 2026-01-30
+    opensAround: "January"
+    note: "The 2026 window ran 12 to 30 January. Expect the next call around January."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B1, reason: "The pitch deck and video are in English" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Up to US$3,000 for the project", "Mentorship", "Training in project management, budgeting and social entrepreneurship"]
+    fundingExcludes: ["The cost of making the pitch deck and video", "Anything above the grant ceiling"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: >-
+        Making a three-minute video needs a camera or phone and enough data to
+        upload it. Check that is possible before a learner commits.
+eligibility:
+  status: [any]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open to students globally. You do not need to attend an IB World School." }
+  ageRange: { min: 12, max: 19 }
+  gender: any
+  otherConditions: ["Enrolled at a secondary school that can sponsor you"]
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  timeCommitment: "Runs alongside school"
+needs: { connectivity: stable-internet, device: own-phone, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["A funded and mentored project", "A network of student awardees worldwide"]
+howToApply:
+  online: { url: "https://ibo.org/news/news-about-the-ib/global-youth-action-fund/", note: "Applications go through a Submittable portal." }
+  offline: null
+  steps:
+    - "Choose the Sustainable Development Goal your project addresses."
+    - "Ask an educator or facilitator at your school to sponsor you."
+    - "Build a pitch deck of 8 slides or fewer and film a 3-minute pitch."
+    - "Submit through the portal during the January window."
+support: [mentoring]
+preparedBy: [final-showcase-pitch, ail-making-an-action-plan, pathways-networking-and-personal-pitch]
+competencyCodes: [FSL2, ALC2]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "ibo.org Global Youth Action Fund pages and 2026 call listings (read 27 August 2026)"

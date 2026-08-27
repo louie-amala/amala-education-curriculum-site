@@ -1,0 +1,68 @@
+id: youth4climate-call-for-solutions
+slug: youth4climate-call-for-solutions
+access: public
+kind: funding
+subKind: project-grant
+title: Youth4Climate Call for Solutions
+provider: { name: Youth4Climate, with UNDP and the Italian government, type: un-agency }
+summary: >-
+  Up to US$30,000 in seed funding for youth-led climate projects, to be completed
+  within two years. One of the largest youth project grants available.
+whoItIsFor: >-
+  People aged 18 to 29, and youth-led organisations, with a climate project ready
+  to scale. The size of the grant means the bar is high.
+forExistingProjects: true
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["A climate action project, ideally already showing results"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "[to verify] Confirm whether a registered organisation is required to receive funds."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "announced annually"
+    note: "Check the Youth4Climate site for the current call."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B2, reason: "A detailed project and budget submission" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Up to US$30,000 in seed funding"]
+    fundingExcludes: ["[to verify] Confirm eligible and ineligible costs"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: >-
+        Grants of this size usually need a bank account and audited reporting.
+        Check that is possible where you are before you apply.
+eligibility:
+  status: [any]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open worldwide." }
+  ageRange: { min: 18, max: 29 }
+  gender: any
+delivery:
+  mode: in-person
+  location: { country: null, place: "Your own community" }
+  relocation: none
+  duration: "Projects must complete within 24 months"
+  timeCommitment: part-time
+needs: { connectivity: stable-internet, device: computer, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["A substantially funded climate project"]
+howToApply:
+  online: { url: "https://www.youth4climate.info/", note: null }
+  offline: null
+  steps:
+    - "Check the current call is open and you are within the age range."
+    - "Prepare the project plan and a two-year budget."
+    - "Apply online."
+support: []
+preparedBy: [ail-making-an-action-plan, final-showcase-pitch]
+competencyCodes: [FSL2, FR2, ALC2]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "Youth4Climate 2026 call listings (read 27 August 2026)"
