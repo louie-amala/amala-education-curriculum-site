@@ -25,7 +25,7 @@ whatLearnersDo:
 - Give each cluster a name - a theme - in words or a drawing.
 - "Notice the patterns: what keeps coming up, where sources agree or disagree, what seems to cause what."
 materialsAndPreparation:
-- The evidence log and the weighed evidence from the earlier activities.
+- The evidence log and the checked evidence from the earlier activities.
 - Cards, paper scraps, or sticky notes, and pens - one idea per card.
 - A large clear floor or wall where the whole group can see and reach the cards.
 - The "our themes" sheet from the research book (one per learner), to record the clusters at the end.
@@ -284,7 +284,7 @@ competencyDevelopment:
 - code: APS3
   how: Naming the clusters is pattern identification - seeing what keeps coming up and where sources agree or disagree.
 objectiveIds: [research-project--o3]
-relatedSlugs: [cb-rp-our-themes, cb-rp-weighing-our-sources, cb-rp-findings-to-insights]
+relatedSlugs: [cb-rp-our-themes, cb-rp-checking-our-sources, cb-rp-findings-to-insights]
 provenanceNote: >-
   Authored for the Learning Bridge+ (Cox's Bazar) Research Project edition. The sorting-and-theming
   activity for the "Evaluate evidence and develop insights" phase (objective 3). Fully offline, oral and

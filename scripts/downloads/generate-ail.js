@@ -315,7 +315,7 @@ function workbookChildren(opts = {}) {
     c.push(P('This book is yours. Each page shows you an example and what to do, so you can keep going even between sessions.', { size: 22, color: GREY, before: 120 }));
     // the cover has no activity page to close, so it takes a plain break - endPage() would add a
     // notes sheet for a page that does not exist
-    c.push(...S.printNotes('book', [], true), ...S.contents('The parts of your book, and the page each one starts on. Word fills the numbers in when this file is opened.'));
+    c.push(...S.printNotes('book', [], true), ...S.learnerWelcome('Nobody else writes in it, and nobody grades it.'));
   }
   // A definitive, numbered list of the sheets, spliced in once they have all been emitted. The Word
   // contents field lists headings and needs updating; this list is always right, and it is what the
@@ -376,14 +376,16 @@ function workbookChildren(opts = {}) {
   ]));
   c.push(P('Nobody starts good at this. Here is how people grow at it - each step is a bit further along than the one before.', { size: 22, before: 200 }));
   c.push(P('Mark the one most like you NOW. At the end of the course, come back and mark it again.', { size: 20, color: GREY }));
+  // Numbered to match the ladder on the Learn it page facing this one - a learner told they are
+  // "near number 1" needs the numbers to be here too, or the two pages do not line up.
   [
     'I am not sure how to set a goal or work towards one yet.',
     'I can say how I would set a goal and take steps towards it.',
     'I have set a goal and taken real steps, and I can say why.',
     'I reached a goal, and I can say what helped and what I would do better.',
     'I keep reaching goals, and I keep getting better at it.',
-  ].forEach((t) => c.push(tickLine(t)));
-  c.push(...fillLine('What makes me say that is where I am - a time it happened', 2));
+  ].forEach((t, i) => c.push(tickLine(`${i + 1}.  ${t}`)));
+  c.push(...fillLine('Why I say that - an example of a time it happened', 2));
   c.push(...fillLine('The one thing I most want to be able to do by the end', 2));
   c.push(...fillLine('My next step', 2));
   endPage();

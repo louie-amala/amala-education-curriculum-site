@@ -178,7 +178,69 @@ Five habits to avoid, each with the fix:
 A short sentence after a long one is fine, and emphasis is fine. What is not fine is a sentence whose
 main job is to sound good.
 
-### 8.2 Where this bites hardest
+### 8.2 Words with a fixed meaning
+
+These came out of the NRC review of the three Cox's Bazar learner books (August 2026). Each was
+flagged by more than one reviewer, or flagged repeatedly, which is why they are rules rather than
+edits. They apply to **every** document in the pack, the Educator Guide included. [judgement]
+
+| Never | Always | Why |
+|---|---|---|
+| "mark" / "marking" for assessment - "nobody is marking it", "no one marks your book" | **grade / grading** | The learner books also ask learners to *make marks* on the page, so one word carried both senses in the same sentence. "Mark" as a physical mark on paper is fine and still used ("put a mark where you are"). |
+| "the **real** article" for the ungraded source | **the original article** | The three versions are *original / easier / simplest*. "Real" implies the B1 and A1/A2 versions are fake, one paragraph before we tell learners it is fine to use them. |
+| "weigh" / "weighing" a source; "how much weight can it bear" | **check** a source; **how much can we lean on it** | The unit already taught "the three checks a researcher makes" and asked "can we trust it?" - two metaphors competing for one idea. Reviewers could not parse "weigh". |
+| "Read it from the bottom"; "near the bottom / at the top" of a growth ladder | **number 1 … number 5** | A leftover from a ladder that used to render descending. Number the rungs, refer to them by number, and number them on every page that shows the ladder - a learner told they are "near number 1" needs the numbers to be on the page they tick. |
+| "there would be nothing here for you" | **"nothing new here for you to learn"** | Reads as *you do not belong here* rather than *you would not be learning anything*. |
+
+**Worked examples in a learner book use they/them and do not assume a particular relative.** "Ask my
+grandmother what the hills looked like" became "ask an elder in my family". A worked example is
+handed to every learner; one that presumes a living grandmother excludes some of them silently. A
+first-person *sample answer* describing one person's life may stay specific - the test is whether the
+text is telling the learner what to do.
+
+**Do not characterise a community as poor unless the poverty is load-bearing** for the research
+question. Two source summaries said "workers from poor villages" where the point was that the
+planters were local and paid.
+
+**Attribute a text's stance to a person, not to the text.** "The story is proud of them" →
+"The writer is proud of them". It also does teaching work: naming a person behind a source is the
+source-checking move the Research Project is built on.
+
+**Do not print a politically loaded self-description in a sentence frame.** The My Voice model
+introduction said "I am from Myanmar"; for Rohingya learners, both the country name and the claim of
+origin are contested. Model answers use a neutral local place ("I am from Camp 4") and leave the
+learner's own answer to the learner.
+
+**One page in a learner book is addressed to somebody else - say so on it.** The printing notes are
+for whoever prints. They now open with "This page is for whoever prints the book. Learners do not
+need to read it", and are followed by a learner welcome in the second person. Everything else in a
+learner book speaks to the learner.
+
+**A learner book navigates by sheet number, not page number.** Learner books carry "The sheets in
+this book" and no Word table of contents: the facilitator calls a sheet number aloud, and a TOC field
+renders blank in LibreOffice until someone refreshes it. Guides keep their contents page.
+
+**A learner page describes value, it does not schedule the session.** The learner book said "You
+will hear one or two strengths from people in your group" - which scripts the facilitator, and is
+simply untrue for the same material delivered one-to-one or independently, both of which it supports.
+Write what the learner gains and make it conditional ("if you get the chance to hear what your group -
+or your mentor - sees in you"), so the page is true in every delivery context and leaves the running
+of it to the facilitator.
+
+**Where a group activity exposes a learner to peers, the learner page says what is off limits.** The
+peer round is strengths only, and the facilitator plan insisted on that - but only the facilitator was
+ever told. The learner now reads "It is strengths only. Nobody will be naming your areas to grow for
+you." In a protection-sensitive context, the person being exposed should know the boundary too.
+
+**Do not use "fail" or "failure" as an answer option in a learner self-check.** "Is each of these a
+good if-then, or will it fail?" became "or would it not work?". The learner is judging the technique,
+not themselves, and the checks sit in a book that repeatedly promises nothing here is a test.
+
+**Every option printed on a page must have been taught on a page before it.** "may I…?" appeared in
+an exercise grid having never been introduced; the fix was to print only phrases the facing Learn it
+page teaches.
+
+### 8.3 Where this bites hardest
 
 Learner-facing text is largely self-correcting: writing for A1 readers forces plain language anyway.
 The problem lives in **facilitator-facing prose** - `educatorContent`, the programme guides, and the

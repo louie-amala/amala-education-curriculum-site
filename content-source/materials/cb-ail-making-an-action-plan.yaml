@@ -247,12 +247,12 @@ learnerTeaching:
 
     Point at the first one.
 
-    ### 2. Say when - a by-when
+    ### 2. Say when you will do it by
 
     Put a time on your first step. By Thursday. Before the next session. This week.
 
-    Nobody is checking, and nothing bad happens if you miss it. The by-when is just so that "soon"
-    turns into something you can notice. Noticing you missed it is useful. It is not failing.
+    Nobody is checking, and nothing bad happens if you miss it. The by-when is just so you know when
+    to expect progress. Noticing you missed it is useful. It is not failing.
 
     ### 3. For each step, ask: what does this need?
 
@@ -296,7 +296,7 @@ learnerTeaching:
 
     ### Say it out loud
 
-    Tell your partner your first step and your if–then. Out loud, to a person. It makes it real.
+    Tell your partner - someone else in your group - your first step and your if–then. Out loud, to a person. It makes it real.
   words:
     - term: action plan
       meaning: your steps, in order, with when you will do them and what they need
@@ -306,19 +306,19 @@ learnerTeaching:
       meaning: deciding now what you will do instead when the usual thing stops you
   tryIt:
     intro: >-
-      Is each of these a good if–then, or will it fail? Circle your answer, then check at the back of
+      Is each of these a good if–then, or would it not work? Circle your answer, then check at the back of
       the book.
-    chooseFrom: ["good if–then", "will fail"]
+    chooseFrom: ["good if–then", "would not work"]
     items:
       - "If I am busy, then I will try harder."
       - "If there is no light in the evening, then I will practise my words while I walk to the water point in the morning."
       - "If I feel too shy to speak English to a stranger, then I will say it to my sister instead."
       - "If I miss a day, then I will do double the next day."
     answers:
-      - "Will fail. \"Try harder\" is not a plan - it is the same thing with more effort, decided by a tired person in a bad moment. What SMALLER thing could you do instead?"
+      - "Would not work. \"Try harder\" is not a plan - it is the same thing with more effort, decided by a tired person in a bad moment. What SMALLER thing could you do instead?"
       - "Good. The obstacle is real and specific, and the \"then\" is smaller and happens somewhere else. This will survive the week."
       - "Good. It keeps the step alive at a size you can manage, and speaking to one trusted person counts fully."
-      - "Will fail. Double is bigger, not smaller - so a bad day turns into a harder day, and then you stop. Try: \"if I miss a day, then I will do one small thing the next day and carry on.\""
+      - "Would not work. Double is bigger, not smaller - so a bad day turns into a harder day, and then you stop. Try: \"if I miss a day, then I will do one small thing the next day and carry on.\""
     then: >-
       Now write or draw your own if–then. Use the REAL thing that stops you, and make the "then"
       genuinely smaller.

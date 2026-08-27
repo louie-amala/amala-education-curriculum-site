@@ -24,7 +24,7 @@ whatLearnersDo:
 - Keep that mark in their research book, to look at again at the end and see how they have moved.
 materialsAndPreparation:
 - The "Where I am as a researcher" growth-path page from the research book (one per learner).
-- "Simple pictures or actions that show what a researcher does: asking, looking closely, keeping a record, weighing whether something is true."
+- "Simple pictures or actions that show what a researcher does: asking, looking closely, keeping a record, checking whether something is true."
 - Your own honest mark, ready to show, so learners see it is safe to say "I am near the start".
 visuals:
 - kind: example
@@ -103,7 +103,7 @@ educatorContent: |
 
   ### Nobody starts high, and say so first
 
-  Mark it yourself, out loud, honestly, before you ask anyone else to. A learner near the bottom is at
+  Mark it yourself, out loud, honestly, before you ask anyone else to. A learner near number 1 is at
   the beginning, which is where a course like this expects them to be. Do not correct a learner who
   marks themselves high; note it, and let the final marking do the work.
 
@@ -123,19 +123,19 @@ learnerTeaching:
   readAloud: |
     ## What a researcher does
 
-    This whole course grows one skill: **finding things out properly, instead of guessing.**
+    This course grows one skill: **finding things out properly, instead of guessing.**
 
     A researcher does four things:
 
     - **Asks a clear question** - small enough to actually answer.
     - **Goes and finds out** - asks people, looks carefully, reads what others found. Fairly and
       safely.
-    - **Weighs what they find** - how much can we trust this? Does anything else agree?
+    - **Checks what they find** - how much can we trust this? Do other sources agree?
     - **Says what it means** - and shares it with people who need to know.
 
     ### The path
 
-    Like any skill, you can be a beginner and get better. Here is the path. Read it from the bottom.
+    Like any skill, you can be a beginner and get better. Here is the path. It starts at number 1 and grows to number 5.
 
     1. **I am not sure how to find out about something. I would just guess.**
     2. **I can say how I would find out - who I would ask, or where I would look - but I have not done
@@ -148,9 +148,9 @@ learnerTeaching:
 
     Not where you want to be. Today.
 
-    Almost everyone is near the bottom at the start, which is what the beginning of a course looks like. If you were already at the top there would be nothing here for you.
+    Almost everyone is near number 1 at the start, which is what the beginning of a course looks like. If you were already at number 5 there would be nothing new here for you to learn.
 
-    This is not a test. Nobody is marking it.
+    This is not a test. Nobody is grading it.
 
     ### You will mark it again at the end
 
@@ -171,7 +171,7 @@ agencyContribution:
   - power-over-wellbeing-and-self-direction
   how: >-
     Seeing research as a growth path they can move along - and judging honestly where they are now -
-    gives learners ownership of their own progress, rather than waiting to be marked right or wrong by
+    gives learners ownership of their own progress, rather than waiting to be graded right or wrong by
     someone else.
 principlesForegrounded: [feedback-and-data, safe-spaces, recognise-communicate-growth]
 principleAlignment:
@@ -180,7 +180,7 @@ principleAlignment:
 - principle: safe-spaces
   how: The self-check is framed as a growth path, not a test; marking "near the start" is named as normal, so no one is exposed or judged.
 - principle: recognise-communicate-growth
-  how: Learners judge their own place on the path and own their progress across the course, rather than receiving a mark from outside.
+  how: Learners judge their own place on the path and own their progress across the course, rather than receiving a grade from outside.
 competencyCodes: [FSI1, FSL1]
 competencyDevelopment:
 - code: FSI1

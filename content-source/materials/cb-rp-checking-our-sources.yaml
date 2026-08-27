@@ -1,19 +1,19 @@
 # Contextualised, fully offline ANALYSIS activity for the Research Project component of Learning Bridge+
 # (Cox's Bazar). Learners meet, in plain terms, how a researcher decides how far to trust a source, and
-# apply it to BOTH their primary evidence and the supplied source pack, marking how much weight each
-# piece can bear. Evaluate evidence phase (objective 3). Uses the source pack's corroboration-led three
+# apply it to BOTH their primary evidence and the supplied source pack, marking how much they can lean
+# on each piece. Evaluate evidence phase (objective 3). Uses the source pack's corroboration-led three
 # checks. Oral and visual first; hands-on; warm tone; no learner speaks from their own life.
-id: cb-rp-weighing-our-sources
-slug: cb-rp-weighing-our-sources
+id: cb-rp-checking-our-sources
+slug: cb-rp-checking-our-sources
 access: partner
 edition: learning-bridge-coxs-bazar
 type: activity
-title: "Can we trust it? Weighing our sources"
+title: "Can we trust it? Checking our sources"
 summary: >-
   Learners meet, in plain terms, how a researcher decides how far to trust a piece of evidence - who
   said it, how they know, whether other evidence agrees, and whether they might be mistaken or have a
-  reason to shape the story - and use it to weigh both their own primary evidence and the supplied
-  source pack, marking how much weight each piece can bear.
+  reason to shape the story - and use it to check both their own primary evidence and the supplied
+  source pack, marking how much they can lean on each piece.
 facilitationContext:
 - group
 - independent
@@ -22,9 +22,9 @@ duration: "2 hours facilitated + 1 hour independent"
 grouping: "Whole group to model, then pairs; a short independent think between sessions"
 whatLearnersDo:
 - Meet the three checks a researcher makes of any source - leading with checking it against others.
-- Weigh the sources in the pack - some strong, one weak - and say which can carry more weight.
-- "Weigh their own primary evidence too: one person's strong opinion is not the same as a pattern across many."
-- Mark, in the research book, how much weight each piece of evidence can bear.
+- Check the sources in the pack - some strong, one weak - and say which we can lean on more.
+- "Check their own primary evidence too: one person's strong opinion is not the same as a pattern across many."
+- Mark, in the research book, how much we can lean on each piece of evidence.
 materialsAndPreparation:
 - The supplied secondary source pack (cb-rp-secondary-source-pack) and its printed "Can we trust it?" cards.
 - The evidence log from earlier in the course, with what learners have gathered so far.
@@ -46,7 +46,7 @@ visuals:
       tone: warn
       cards: []
 - kind: example
-  title: "The line, weighed"
+  title: "The line, checked"
   caption: >-
     There is no single right order - the reasons are the point. The strongest evidence is what many
     sources AND our own research agree on.
@@ -66,14 +66,14 @@ visuals:
       - "a company selling trees"
       - "one person's opinion"
 facilitationNotes: >-
-  The one thing to get right is that trust is not yes-or-no - it is how much weight a piece of evidence
-  can carry, and the way to judge that is to check a source against others, not just to study it on its
+  The one thing to get right is that trust is not yes-or-no - it is how far we can lean on a piece of
+  evidence, and the way to judge that is to check a source against others, not just to study it on its
   own. Keep it plain and hands-on: the three checks, then a line on the floor from "trust more" to
   "trust less", and learners place each source along it and say why. Lead with the third check - does it
   agree with the other sources and with what we found? - because checking a source against others is the
   habit that matters most (and the one we can do offline). Use the pack's built-in weak source (the
   company's website) so the judging has something real to bite on. When you turn to the learners' own
-  primary evidence, keep it warm and general - no learner has to speak from their own life; weigh "what
+  primary evidence, keep it warm and general - no learner has to speak from their own life; check "what
   one person told us" and "what many people said" as examples, not anyone's story.
 steps:
 - title: "Three checks a researcher makes"
@@ -89,7 +89,7 @@ steps:
   - "Who made this, and could they have a reason to tell it one way?"
   - "Do they show how they know - and is it still true?"
   - "Does it agree with the other sources, and with what we found ourselves?"
-- title: "Weigh the source pack on a line"
+- title: "Check the source pack on a line"
   duration: "45 min"
   guidance: >-
     Make a line on the floor or wall, from "trust more" at one end to "trust less" at the other. In
@@ -99,27 +99,27 @@ steps:
   keyPrompts:
   - "Why does this source sit here and not further along?"
   - "Which source would you trust most for our question, and why?"
-- title: "Weigh our own evidence too"
+- title: "Check our own evidence too"
   duration: "30 min"
   guidance: >-
-    Turn to the primary evidence the group gathered. Weigh it the same way, using general examples: one
+    Turn to the primary evidence the group gathered. Check it the same way, using general examples: one
     person's strong opinion is not the same as a pattern many people described; something we saw with our
-    own eyes on the hills carries real weight. Keep it general and warm - we are weighing kinds of
+    own eyes is strong evidence. Keep it general and warm - we are checking kinds of
     evidence, not anyone's personal story.
   keyPrompts:
   - "Did many people say this, or just one?"
   - "Did we see it ourselves, or were we told it?"
-- title: "Mark how much weight each piece can bear"
+- title: "Mark how much we can lean on each piece"
   duration: "15 min"
   guidance: >-
     Learners go back to their evidence log and, on the "can we trust it?" sheet, mark for each piece how
-    much weight it can bear - a lot, some, or a little - with a word or a mark. This protects us later
+    much we can lean on it - a lot, some, or a little - with a word or a mark. This protects us later
     from building an insight on a single shaky claim.
 learnerContent: |
   ## How much can we trust it?
 
   Not every piece of evidence is equal. Some we can lean on hard; some we should treat with care. A
-  researcher does not just ask "is this true or false?" - they ask "how much weight can this carry?"
+  researcher does not just ask "is this true or false?" - they ask "how much can we lean on this?"
 
   For every source, and for everything people told us, make three checks:
 
@@ -131,9 +131,9 @@ learnerContent: |
 
   The third check matters most. One source on its own - even a good one - is only a start. One person's
   strong opinion is not the same as a pattern many people described; something we saw ourselves on the
-  hills carries real weight. The strongest evidence is what many sources AND our own research agree on.
+  hills is strong evidence. The strongest evidence is what many sources AND our own research agree on.
 
-  We do this for the source pack and for our own evidence, then mark how much weight each piece can bear -
+  We do this for the source pack and for our own evidence, then mark how much we can lean on each piece -
   so we build our findings on evidence we can trust, not on a single shaky claim.
 
 educatorContent: |
@@ -141,7 +141,7 @@ educatorContent: |
 
   Learners arrive believing that a source is either true or false, and that anything printed, official,
   or said by an older person is true. This block replaces that with something more useful: **how much
-  weight can this piece bear?** Not true or false - how much can we build on it.
+  can we lean on this piece?** Not true or false - how much can we build on it.
 
   ### The three checks, and why they are these three
 
@@ -158,15 +158,15 @@ educatorContent: |
 
   ### Watch for "official" being read as "strong"
 
-  Learners will rank an agency report above their grandmother every time. Sometimes right, often not.
-  The grandmother who watched the hill for forty years is a primary source with direct observation; the
+  Learners will rank an agency report above their own elders every time. Sometimes right, often not.
+  The elder who watched the hill for forty years is a primary source with direct observation; the
   report may be repeating a number from somewhere else. Make this exact comparison out loud - it is the
   moment the idea lands, and it also tells learners their own community's knowledge counts.
 
   ### Watch for the opposite problem
 
   Having taught scepticism, some learners will decide nothing can be trusted. Head this off: the point of
-  weighing is to know how much to lean on something, not to reject everything. A weak source can still
+  checking is to know how much to lean on something, not to reject everything. A weak source can still
   tell you what question to ask next.
 
   ### Old is not automatically wrong
@@ -178,16 +178,16 @@ educatorContent: |
 
   - Every learner can say the three checks in their own words, without the page.
   - The source pack has been ranked on a line, and learners can defend where they put each one.
-  - Their own interview evidence has been weighed too, not just the pack - this is the half that gets
+  - Their own interview evidence has been checked too, not just the pack - this is the half that gets
     skipped.
   - At least one learner has said "but does anything else agree with it?" without being prompted.
 learnerTeaching:
-  title: "How to weigh a source"
+  title: "How to check a source"
   readAloud: |
-    ## How to weigh a source
+    ## How to check a source
 
     Not everything we are told is equally strong. A researcher does not ask "is this true or false?"
-    A researcher asks: **how much weight can this carry?**
+    A researcher asks: **how much can we lean on this?**
 
     Think of a bridge. Some planks can carry a person. Some can carry only a bird. You need to know
     which is which before you step on it.
@@ -220,17 +220,17 @@ learnerTeaching:
 
     ### Careful: official does not always mean strong
 
-    A printed report is not automatically stronger than your grandmother. If she watched that hill for
-    forty years, she SAW it. The report may just be repeating a number from somewhere else.
+    A printed report is not automatically stronger than an elder in your family. If they watched that
+    hill for forty years, they SAW it. The report may just be repeating a number from somewhere else.
 
     Ask the same three questions of both.
 
     ### And careful the other way
 
-    Weighing does not mean trusting nothing. A weak source can still be useful - it can show us what to
+    Checking does not mean trusting nothing. A weak source can still be useful - it can show us what to
     ask about next. We are working out how hard to lean on something, not throwing it away.
   words:
-    - term: weigh
+    - term: check
       meaning: to work out how much we can trust something, and how much to lean on it
     - term: source
       meaning: anywhere our information comes from - a person, a book, a report, what we saw
@@ -238,7 +238,7 @@ learnerTeaching:
       meaning: when two different sources say the same thing
   tryIt:
     intro: >-
-      How much weight can each of these carry? Circle strong, medium, or weak - and be ready to say why.
+      How much can we lean on each of these? Circle strong, medium, or weak - and be ready to say why.
       Then check at the back of the book.
     chooseFrom: ["strong", "medium", "weak"]
     items:
@@ -262,21 +262,21 @@ agencyContribution:
   - control-of-future-pathways
   - power-over-wellbeing-and-self-direction
   how: >-
-    Learning to weigh how far a claim can be trusted - who said it, how they know, whether other
+    Learning to check how far a claim can be trusted - who said it, how they know, whether other
     evidence agrees - is a skill learners carry into every decision that shapes their lives, so they act
     on evidence rather than on whoever spoke loudest.
 principlesForegrounded: [feedback-and-data, responsible-action, authentic-challenges]
 principleAlignment:
 - principle: feedback-and-data
-  how: Learners weigh each piece of evidence against the others and against what they saw themselves, rather than accepting any of it whole.
+  how: Learners check each piece of evidence against the others and against what they saw themselves, rather than accepting any of it whole.
 - principle: responsible-action
-  how: Judging how much weight a claim can bear is what stops an insight - and later an action - from resting on a single shaky source.
+  how: Judging how far a claim can be leant on is what stops an insight - and later an action - from resting on a single shaky source.
 - principle: authentic-challenges
   how: The sources and the primary evidence are about a real, local challenge, so the judging matters and is not an exercise.
 competencyCodes: [FSI1, FPS2, FPS3]
 competencyDevelopment:
 - code: FSI1
-  how: Weighing evidence is part of conducting the investigation, not a separate skill bolted on.
+  how: Checking evidence is part of conducting the investigation, not a separate skill bolted on.
 - code: FPS2
   how: The whole activity is the "evaluating sources" strand - deciding how far each source can be trusted before relying on it.
 - code: FPS3
