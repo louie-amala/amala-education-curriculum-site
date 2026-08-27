@@ -1,0 +1,60 @@
+id: visa-everywhere-pioneers
+slug: visa-everywhere-pioneers
+access: public
+kind: entrepreneurship
+subKind: accelerator
+title: Visa Everywhere Pioneers — refugee women entrepreneurs
+provider: { name: Visa, type: company }
+summary: >-
+  Grants, mentorship and business support for women entrepreneurs with a refugee
+  background who are building a business in Europe. Thirty winners are selected.
+whoItIsFor: >-
+  Women with a refugee background whose business is based in Europe. If you are
+  not in Europe, this one is not open to you — that limit is stated here so you
+  do not spend time finding out.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["A business trading in Europe"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "Not stated — ask before applying."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "spring"
+    note: "Announced annually. Check for the current round."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B1, reason: "The programme runs in English" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Grant funding", "Mentorship", "Capacity building"]
+    fundingExcludes: ["[to verify] Confirm what the grant covers"]
+    estimatedUnfundedCost: { status: needs-research, note: "Confirm the award terms." }
+eligibility:
+  status: [refugee, displaced]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Europe only. Confirm the exact country list for the current round." }
+  gender: women
+delivery:
+  mode: hybrid
+  location: { country: null, place: "Europe" }
+  relocation: none
+  timeCommitment: part-time
+needs: { connectivity: stable-internet, device: computer, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  placesAvailable: 30
+  leadsTo: ["A funded and mentored business"]
+howToApply:
+  online: { url: "https://www.visa.co.uk/", note: "[to verify] Resolve the live application URL for the current round before publishing." }
+  offline: null
+  steps: ["Check your business is based in an eligible European country.", "Watch for the annual call.", "Apply with your business plan."]
+support: [mentoring]
+preparedBy: [pathways-networking-and-personal-pitch]
+competencyCodes: [FSL2, AR1]
+objectiveIds: [pathways--o1]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "Opportunities for Youth listing of Visa Everywhere Pioneers 2026 (read 27 August 2026)"

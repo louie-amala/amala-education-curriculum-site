@@ -1,0 +1,62 @@
+id: olympic-refuge-fellowship
+slug: olympic-refuge-fellowship
+access: public
+kind: fellowships-competitions
+subKind: fellowship
+title: Olympic Refuge Foundation Lived Experience Fellowship
+provider: { name: Olympic Refuge Foundation, type: ngo }
+summary: >-
+  A part-time, remote, paid fellowship for adults with lived experience of
+  displacement, with two mentors and a monthly stipend.
+whoItIsFor: >-
+  Adults who have personally experienced displacement and want their experience
+  to shape policy and practice. You work from where you already live.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["Lived experience of displacement"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "[to verify] Confirm what evidence, if any, is required."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "mid-year"
+    note: "[to verify] The 2026-27 deadline could not be confirmed - the listing page returned an error. Confirm before publishing."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B2, reason: "The fellowship works in English" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Monthly stipend of US$150 to US$730", "Two mentors", "Professional development"]
+    fundingExcludes: ["Your own device and internet"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "Remote fellowship work needs reliable internet. Cost that locally."
+eligibility:
+  status: [refugee, asylum-seeker, displaced]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Fellows work remotely from their country of residence." }
+  ageRange: { min: 18, max: null }
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  duration: "September 2026 to August 2027"
+  timeCommitment: "About 10 to 20 hours a week"
+needs: { connectivity: stable-internet, device: computer, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["Policy and advocacy experience", "A professional network"]
+howToApply:
+  online: { url: "https://olympics.com/ioc/olympic-refuge-foundation", note: "[to verify] Resolve the live application URL." }
+  offline: null
+  steps: ["Check whether the current round is open.", "Prepare an account of your experience and what you want to change.", "Apply online."]
+support: [stipend, mentoring]
+preparedBy: [pathways-producing-a-personal-statement, pathways-networking-and-personal-pitch]
+competencyCodes: [FSL1, ALC2]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 30 }
+source: "Opportunities for Youth listing (read 27 August 2026); provider page not reachable at time of writing"

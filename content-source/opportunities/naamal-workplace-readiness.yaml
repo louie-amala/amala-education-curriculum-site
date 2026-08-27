@@ -1,0 +1,61 @@
+id: naamal-workplace-readiness
+slug: naamal-workplace-readiness
+access: public
+kind: employment
+subKind: work-readiness
+title: Na'amal Workplace Readiness Programme
+provider: { name: Na'amal, type: ngo }
+summary: >-
+  Training in the skills needed to work remotely — communicating online, managing
+  your own time, working with a distributed team — plus mentorship and
+  introductions to employers.
+whoItIsFor: >-
+  Refugees who want to work remotely and need the working habits as much as the
+  technical skills. Delivered with technical training partners.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: []
+  documents:
+    required: []
+    passportRequired: false
+    note: "Not stated — ask before you apply."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "cohorts run through the year"
+    note: "Cohort-based. Ask Na'amal when the next intake opens."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B1, reason: "Remote work training is delivered in English" }]
+  cost:
+    toApply: free
+    toParticipate: free
+    fundingIncludes: ["Training", "Mentorship"]
+    fundingExcludes: ["Your own device", "Your own internet data"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "Remote-work training assumes you can get online reliably. Cost that honestly."
+eligibility:
+  status: [refugee, asylum-seeker, displaced]
+  nationalities: any
+  residingIn: { resolved: false, countries: [], sourceUrl: "https://naamal.org/", note: "Confirm which countries the current cohorts serve." }
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  timeCommitment: part-time
+needs: { connectivity: stable-internet, device: computer, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "Programme completion", recognisedBy: "Na'amal and partners" }
+  leadsTo: ["Remote and freelance work", "Introductions to employers"]
+howToApply:
+  online: { url: "https://naamal.org/", note: null }
+  offline: null
+  steps: ["Check when the next cohort opens.", "Apply online.", "Complete the programme and use the mentorship."]
+support: [mentoring]
+preparedBy: [pathways-producing-a-cv, pathways-networking-and-personal-pitch]
+competencyCodes: [FSL3, ASL1]
+objectiveIds: [pathways--o3]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "naamal.org and partner descriptions (read 27 August 2026)"

@@ -1,0 +1,52 @@
+id: unhcr-complementary-pathways-kenya
+slug: unhcr-complementary-pathways-kenya
+access: public
+kind: guidance-support
+subKind: information-service
+title: UNHCR Kenya — education and immigration opportunities abroad
+provider: { name: UNHCR Kenya, type: un-agency }
+summary: >-
+  The official list of complementary pathways open from Kakuma and Dadaab —
+  which scholarships and labour routes are running, and when each opens.
+whoItIsFor: >-
+  Refugees in Kenya who want to know which routes abroad genuinely exist right
+  now, from a source that is not trying to sell them anything.
+applicant:
+  appliedBy: referral
+  note: "This is an information service. Individual opportunities on it have their own deadlines."
+requirements:
+  qualifications: []
+  documents:
+    required: []
+    passportRequired: false
+  deadline: { type: rolling, note: "The page is updated as calls open and close." }
+  language:
+    ofDelivery: [en]
+    required: []
+  cost: { toApply: free, toParticipate: free, fundingIncludes: [], fundingExcludes: [] }
+eligibility:
+  status: [refugee, asylum-seeker]
+  nationalities: any
+  residingIn: { resolved: true, countries: [kenya], place: "Kakuma, Kalobeyei and Dadaab" }
+  gender: any
+delivery:
+  mode: online
+  location: { country: kenya }
+  relocation: none
+needs: { connectivity: low-bandwidth, device: shared-phone, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["Scholarships such as WUSC, UNICORE, Mastercard and Habesha", "Labour mobility routes"]
+howToApply:
+  online: { url: "https://help.unhcr.org/kenya/kakuma/education-opportunities-abroad/", note: null }
+  offline: "Ask at the UNHCR office or the Camp Manager's office."
+  steps: ["Check the page or ask at the office for what is currently open.", "Note the deadlines.", "Prepare your documents before a call opens."]
+support: []
+safetyNote: >-
+  This is the official source. If someone offers you a route abroad that is not
+  listed here, check it with UNHCR before you give them anything.
+preparedBy: [pathways-strategy-for-identifying-opportunities, pathways-opportunity-database]
+competencyCodes: [FR1, AR1]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "help.unhcr.org/kenya complementary pathways pages (read 27 August 2026)"

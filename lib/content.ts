@@ -10,6 +10,7 @@ import {
   CourseSchema,
   EducatorModuleSchema,
   FacilitationMaterialSchema,
+  OpportunitySchema,
   GlossaryTermSchema,
   ModuleSchema,
   PrincipleSchema,
@@ -24,6 +25,7 @@ import {
   type EducatorModule,
   type FacilitationMaterial,
   type GlossaryTerm,
+  type Opportunity,
   type Module,
   type Objective,
   type Principle,
@@ -127,6 +129,13 @@ function loadModules(): Module[] {
   );
 }
 
+function loadOpportunities(): Opportunity[] {
+  if (!existsSync(join(ROOT, "opportunities"))) return [];
+  return listYaml("opportunities").map((f) =>
+    parseWith(OpportunitySchema, `opportunities/${f}`, readYaml("opportunities", f)),
+  );
+}
+
 function loadEducatorModules(): EducatorModule[] {
   if (!existsSync(join(ROOT, "educator-modules"))) return [];
   return listYaml("educator-modules").map((f) =>
@@ -141,6 +150,14 @@ export const glossaryTerms: GlossaryTerm[] = loadGlossary();
 export const units: Unit[] = loadUnits();
 export const modules: Module[] = loadModules();
 export const educatorModules: EducatorModule[] = loadEducatorModules();
+export const opportunities: Opportunity[] = loadOpportunities();
+
+/** Generic board view: edition-scoped entries keep their page but stay out of the shared board. */
+export const boardOpportunities: Opportunity[] = opportunities.filter((o) => !o.edition);
+
+export function getOpportunity(slug: string) {
+  return opportunities.find((o) => o.slug === slug);
+}
 
 // ---- objectives as addressable entities (id = `<courseId>--o<n>`) ----
 export interface ObjectiveEntity {
@@ -527,6 +544,15 @@ export function getExploredIn(term: GlossaryTerm): ExploredIn {
 export interface ValidationReport {
   errors: string[];
   warnings: string[];
+}
+
+
+/**
+ * Build-time date, used ONLY for validation warnings. Never for anything rendered: a static build
+ * freezes it, so open/closed state is computed in the browser instead.
+ */
+function todayISO(): string {
+  return new Date().toISOString().slice(0, 10);
 }
 
 export function validateGraph(): ValidationReport {
@@ -931,6 +957,20 @@ export function validateGraph(): ValidationReport {
     }
   }
 
+  // ---- educator modules: prerequisite modules must exist ----
+  // A trainer module gates entry on holding other modules; a typo'd slug would silently render a
+  // prerequisite the educator can never satisfy.
+  const educatorModuleBySlug = new Map(educatorModules.map((e) => [e.slug, e]));
+  for (const em of educatorModules) {
+    for (const req of em.prerequisites?.modules ?? []) {
+      if (!educatorModuleBySlug.has(req)) {
+        errors.push(`Educator module "${em.slug}" requires unknown module "${req}".`);
+      } else if (req === em.slug) {
+        errors.push(`Educator module "${em.slug}" lists itself as a prerequisite.`);
+      }
+    }
+  }
+
   // ---- access: the gate's coverage must match the content tags ----
   // The middleware reads a generated manifest (it runs on the edge and cannot read
   // content-source/), so a stale manifest would quietly publish protected content. Fail the build
@@ -989,6 +1029,66 @@ export function validateGraph(): ValidationReport {
       errors.push(
         `Download "${file}" is offered only by protected content but is not gated - run \`npm run gen:protected-paths\`.`,
       );
+    }
+  }
+
+  // ---- Pathway opportunities ----
+  // These expire and they carry money, so the rules here are stricter than elsewhere: the failure
+  // modes are a learner applying to something closed, or being blindsided by a cost.
+  const opportunityMaterialSlugs = new Set(materials.map((m) => m.slug));
+  for (const o of opportunities) {
+    for (const slug of o.preparedBy) {
+      if (!opportunityMaterialSlugs.has(slug)) {
+        errors.push(`Opportunity "${o.slug}" names unknown preparedBy material "${slug}".`);
+      }
+    }
+    for (const code of o.competencyCodes) {
+      if (!competencyByCode.has(code)) {
+        errors.push(`Opportunity "${o.slug}" cites unknown competency code "${code}".`);
+      }
+    }
+    for (const oid of o.objectiveIds) {
+      if (!objectiveById.has(oid)) {
+        errors.push(`Opportunity "${o.slug}" names unknown objective "${oid}".`);
+      }
+    }
+    if (o.edition && !programmeSlugs.has(o.edition)) {
+      errors.push(`Opportunity "${o.slug}" names unknown edition "${o.edition}".`);
+    }
+    // A fee with no named recipient is exactly the shape of a scam. Do not let one publish.
+    if (o.requirements.cost.applicationFee && !o.requirements.cost.paidTo) {
+      errors.push(
+        `Opportunity "${o.slug}" sets an applicationFee without cost.paidTo. Name the official body the fee goes to.`,
+      );
+    }
+    // "Fully funded" that hides what it does not cover is the trap this board exists to close.
+    if (o.requirements.cost.toParticipate === "funded" && o.requirements.cost.fundingExcludes.length === 0) {
+      errors.push(
+        `Opportunity "${o.slug}" is funded but lists no cost.fundingExcludes. Say what the award does NOT cover.`,
+      );
+    }
+    if (
+      o.requirements.cost.toParticipate === "funded" &&
+      !o.requirements.cost.estimatedUnfundedCost
+    ) {
+      warnings.push(
+        `Opportunity "${o.slug}" is funded but has no cost.estimatedUnfundedCost - a learner cannot judge whether they could take it up.`,
+      );
+    }
+    // Whether OUR contexts are eligible is the most decisive fact on the card. Never publish it unresolved.
+    if (!o.eligibility.residingIn.resolved) {
+      warnings.push(
+        `Opportunity "${o.slug}" has unresolved residingIn - confirm which countries are eligible before publishing.`,
+      );
+    }
+    const d = o.requirements.deadline;
+    if (d.type === "fixed" && d.date && d.date < todayISO() && !d.opensAround) {
+      warnings.push(
+        `Opportunity "${o.slug}" has a fixed deadline in the past (${d.date}) and no opensAround - it will read as dead.`,
+      );
+    }
+    if (o.verification.status === "verified" && !o.verification.lastVerified) {
+      errors.push(`Opportunity "${o.slug}" claims verified but has no verification.lastVerified date.`);
     }
   }
 

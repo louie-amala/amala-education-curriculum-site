@@ -6,6 +6,7 @@ const NAV = [
   { href: "/courses", label: "Courses" },
   { href: "/modules", label: "Modules" },
   { href: "/materials", label: "Materials" },
+  { href: "/opportunities", label: "Opportunities" },
   { href: "/educators", label: "Educators" },
   { href: "/competencies", label: "Competencies" },
   { href: "/foundations", label: "Foundations" },
@@ -15,13 +16,13 @@ const NAV = [
 export function SiteHeader() {
   return (
     <header className="border-b border-cool-grey/20 bg-white">
-      <div className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-6 py-4">
-        <Link href="/" className="flex items-center gap-3">
+      <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-x-4 gap-y-2 px-6 py-4">
+        <Link href="/" className="flex shrink-0 items-center gap-3">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/brand/amala-logo.png" alt="Amala - Education for change" width={82} height={42} className="h-10 w-auto" />
           <span className="font-heading text-lg font-semibold text-cool-grey">Curriculum</span>
         </Link>
-        <div className="flex flex-wrap items-center justify-end gap-x-4 gap-y-2 sm:gap-x-6">
+        <div className="flex basis-full flex-wrap items-center justify-end gap-x-4 gap-y-2 sm:gap-x-6 lg:basis-auto">
           <nav aria-label="Primary">
             <ul className="flex flex-wrap gap-4 text-sm font-medium text-dark-navy sm:gap-6">
               {NAV.map((item) => (

@@ -1,0 +1,85 @@
+id: technovation-girls
+slug: technovation-girls
+access: public
+kind: fellowships-competitions
+subKind: competition
+title: Technovation Girls
+provider:
+  name: Technovation
+  type: ngo
+summary: >-
+  A global technology competition where teams of girls build an app or AI project
+  to solve a problem in their own community, supported by a mentor. There is no
+  selection process — every team that registers takes part.
+whoItIsFor: >-
+  Girls, and young people who are transgender, non-binary or gender
+  non-conforming, aged 8 to 18. You work in a team with a mentor. Nobody is
+  turned away at the start.
+applicant:
+  appliedBy: team-with-educator
+  note: "Students and mentors register themselves. There is no application to pass."
+team:
+  required: true
+  minMembers: 1
+  maxMembers: 5
+  adultLead: "One mentor per team"
+requirements:
+  qualifications: []
+  documents:
+    required: []
+    passportRequired: false
+    note: "No documents are required to register."
+  deadline:
+    type: annual-cycle
+    date: 2026-04-20
+    opensAround: "August"
+    note: >-
+      Registration ran 13 August 2025 to 18 March 2026; projects were due
+      20 April 2026. Expect the next season to open around August.
+  language:
+    ofDelivery: [en]
+    required: []
+    supportProvided: "Curriculum materials are available in several languages."
+  cost:
+    toApply: free
+    toParticipate: free
+    fundingIncludes: []
+    fundingExcludes: []
+eligibility:
+  status: [any]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open worldwide." }
+  ageRange: { min: 8, max: 18 }
+  gender: women
+  otherConditions:
+    - "Open to girls, and to transgender, non-binary and gender non-conforming young people"
+delivery:
+  mode: hybrid
+  location: null
+  relocation: none
+  duration: "One season, roughly August to April"
+  timeCommitment: "Team work across the season, at your own pace"
+needs:
+  connectivity: low-bandwidth
+  device: shared-phone
+  rightToWorkRequired: false
+  childcareProvided: false
+outcome:
+  certificate: { awarded: true, title: "Participation and judging feedback", recognisedBy: "Technovation" }
+  leadsTo: ["Technology skills", "A finished project for a portfolio"]
+howToApply:
+  online: { url: "https://technovationchallenge.org/get-involved/students/", note: "Students and mentors register directly." }
+  offline: null
+  steps:
+    - "Find a mentor — an educator, facilitator or another adult who will support the team."
+    - "Form a team and register on the Technovation site."
+    - "Work through the curriculum and build the project."
+    - "Submit before the season deadline."
+support: [mentoring]
+preparedBy: [pathways-producing-a-portfolio]
+competencyCodes: [FSL2, ALC2]
+objectiveIds: [pathways--o2]
+verification:
+  status: unverified
+  reviewEveryDays: 90
+source: "technovationchallenge.org competition and eligibility pages (read 27 August 2026)"

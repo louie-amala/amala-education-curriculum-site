@@ -1,0 +1,198 @@
+id: habesha-protection-scholarship-kenya
+slug: habesha-protection-scholarship-kenya
+access: public
+kind: further-education
+subKind: vocational-technical
+title: "Habesha Protection Scholarship — Complementary Pathways, Kenya"
+provider:
+  name: "USCRI Latin America and the Caribbean / Habesha Project"
+  type: ngo
+summary: >-
+  A funded place on a two-year Higher Technical University Degree (TSU) in
+  Aguascalientes, Mexico, for refugees and asylum seekers living in Kakuma
+  Refugee Camp, with a student visa, flights, a monthly allowance and a route to
+  permanent residency in Mexico.
+whoItIsFor: >-
+  Young people aged 18 to 23 living in Kakuma who finished secondary school, are
+  registered with UNHCR, and want to study Information Technology, Business or
+  Engineering. There are only two places.
+
+applicant:
+  appliedBy: learner
+  note: null
+
+requirements:
+  qualifications:
+    - "KCSE or equivalent secondary certificate, and KCPE or equivalent primary certificate"
+    - "Minimum C+ in previous academic performance (7 on the Mexican scale)"
+  documents:
+    required:
+      - "Birth certificate (original and scanned)"
+      - "UNHCR Proof of Registration"
+      - "Valid Kenyan Government Refugee ID"
+      - "KCSE or equivalent (original and scanned)"
+      - "KCPE or equivalent (original and scanned)"
+      - "High school transcript (original and scanned)"
+      - "Recent photograph, white background"
+      - "Cover letter, 500 words"
+      - "Academic and personal essay"
+    passportRequired: false
+    alternativesAccepted: null
+    note: >-
+      All documents must be legible and uploaded as PDFs. Selected candidates
+      must hold the ORIGINAL documents for revalidation in Mexico — obtaining
+      certified originals takes time and money, so start early.
+  deadline:
+    type: annual-cycle
+    date: 2026-05-31           # 23:59 Kenya time — CLOSED as of 27 Aug 2026
+    opensAround: "May"
+    note: "The 2026 call ran 1–31 May. Expect the next call around May."
+  language:
+    # Two different languages, two different roles. One `levelRequired` could not hold this.
+    ofDelivery: [es]
+    required:
+      - { language: en, level: B1, reason: "Eligibility requirement for applying" }
+    supportProvided: >-
+      A first year of intensive Spanish (CIAEC) to reach B2 before degree
+      coursework begins. You do not need Spanish to apply.
+    proofRequired: none
+  cost:
+    toApply: free
+    applicationFee: null
+    paidTo: null
+    toParticipate: funded
+    fundingIncludes:
+      - "100% academic scholarship (monthly tuition)"
+      - "Flight to Mexico, fully covered"
+      - "Local travel, covered or reimbursed"
+      - "Monthly allowance up to 9,000 MXN for one year (rent, food, transport)"
+      - "Health insurance through IMSS"
+      - "Loan of a laptop"
+      - "Spanish language classes"
+      - "Legal and migration support (INM and COMAR)"
+      - "Visa application support"
+    # What a "100% scholarship" does NOT cover. Required whenever toParticipate is `funded`.
+    fundingExcludes:
+      - "University registration fees"
+      - "Books"
+      - "Degree/graduation (titulación) costs"
+      - "Relocation of any family members"
+      - "Obtaining and certifying original documents for revalidation"
+    # What the learner would still have to find, so they can decide before applying.
+    estimatedUnfundedCost:
+      status: needs-research     # needs-research | estimated | confirmed
+      amount: null
+      currency: MXN
+      basis: null
+      note: >-
+        The provider states these costs "will have to be absorbed by the selected
+        candidates" but gives no figures. ASK USCRI FOR TYPICAL AMOUNTS BEFORE
+        PUBLISHING. Do not guess: a wrong number either scares off a learner who
+        could go, or strands one who cannot.
+
+# Risks the provider itself discloses. Quoted, not our judgement. Distinct from safetyNote.
+risksDisclosed:
+  - >-
+    Students must apply for asylum in Mexico to obtain permanent residency, and
+    the provider states plainly that "refugee recognition is not ensured".
+  - >-
+    The monthly allowance is guaranteed for one year only. A second year "will be
+    considered upon the availability of funds".
+
+eligibility:
+  status: [refugee, asylum-seeker]
+  nationalities: any
+  residingIn:
+    resolved: true
+    countries: [kenya]
+    place: "Kakuma Refugee Camp"
+    sourceUrl: null
+    note: "Open to all nationalities. No country-of-origin quotas."
+  ageRange: { min: 18, max: 23 }
+  gender: any
+  # A family-status bar. Excludes many young women in particular. Must be shown, not buried.
+  maritalStatus: "Single and without children"
+  otherConditions:
+    - "Recognised as a refugee in Kenya"
+    - "Currently facing significant barriers to university education"
+    - "Currently lacking effective protection in the country of asylum"
+
+delivery:
+  mode: in-person
+  location: { country: mexico, place: "Aguascalientes" }
+  relocation: third-country
+  visaSupport: true
+  visaNote: >-
+    A student visa is provided. The final decision rests with the Mexican
+    Ministry of Foreign Affairs, not the provider.
+  duration: "1 year intensive Spanish, then the TSU degree"
+  timeCommitment: full-time
+  startDate: null
+
+needs:
+  connectivity: stable-internet   # the application form and PDF uploads are online
+  device: computer
+  rightToWorkRequired: false
+  childcareProvided: false
+  disabilityInclusion: >-
+    The provider states a commitment to non-discrimination including on disability.
+
+outcome:
+  certificate:
+    awarded: true
+    title: "Higher Technical University Degree (TSU) — equivalent to an Associate Degree"
+    recognisedBy: "Universidad Tecnológica del Norte de Aguascalientes / Universidad Tecnológica El Retoño"
+  placesAvailable: 2             # show this prominently — two places for all of Kakuma
+  leadsTo:
+    - "Employment in Mexico in IT, Business or Engineering"
+    - "A route to permanent residency in Mexico"
+
+howToApply:
+  online:
+    url: "https://refugees.org/"   # the call links to a form; resolve the live URL before publishing
+    note: "Online application form, documents uploaded as PDFs."
+  offline: null
+  contact:
+    name: "USCRI Latin America and the Caribbean"
+    email: "convocatorias@refugees.org"
+    phone: null
+  steps:
+    - "Gather and scan every required document, and secure the originals."
+    - "Write the 500-word cover letter and the academic and personal essay."
+    - "Submit the online form during the May application window."
+    - "If shortlisted: document review, then a competencies interview, then a protection and vulnerability interview."
+  selectionNote: >-
+    Assessed on competencies (50%), international protection needs (30%),
+    academic performance (15%) and vocational orientation (5%).
+
+# A published channel for reporting corruption in the application process. A strong
+# legitimacy signal, and worth surfacing next to the safety notice.
+integrityContact:
+  statement: "All stages of the application process are entirely free of charge."
+  reportTo: "azuniga@refugees.org"
+
+support: [stipend, travel, accommodation-allowance, device, health-insurance, legal-support, visa]
+supportNote: "Monthly allowance up to 9,000 MXN; laptop on loan; IMSS health cover."
+
+# The provider forbids using generative AI for the cover letter and essay, treating it as plagiarism.
+applicationRules:
+  - "You MUST NOT use generative AI tools to write the cover letter or the essay."
+
+preparedBy:
+  - pathways-producing-a-personal-statement
+  - pathways-producing-cover-letters
+  - pathways-requirements-for-accessing-pathways
+  - pathways-identifying-your-references
+competencyCodes: [FSL2, FSL3, FPS1, AR3]
+objectiveIds: [pathways--o1, pathways--o2]
+
+safetyNote: >-
+  This scholarship means moving to Mexico and applying for asylum there. Talk it
+  through with an adult you trust before you apply.
+
+verification:
+  status: unverified
+  lastVerified: null
+  verifiedBy: null
+  reviewEveryDays: 90
+source: "USCRI/Habesha 'Complementary Pathways Habesha Protection Scholarship 2026 Kenya' PDF, read 27 August 2026"

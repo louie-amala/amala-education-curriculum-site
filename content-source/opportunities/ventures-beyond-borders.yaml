@@ -1,0 +1,54 @@
+id: ventures-beyond-borders
+slug: ventures-beyond-borders
+access: public
+kind: entrepreneurship
+subKind: accelerator
+title: Ventures Beyond Borders bootcamp
+provider: { name: Ventures Beyond Borders, type: ngo }
+summary: >-
+  A bootcamp for founders with lived experience of displacement, ending in a
+  pitch for investment of up to US$100,000.
+whoItIsFor: >-
+  Anyone with experience of forced displacement who has a business idea. You are
+  selected on the idea and on resilience, adaptability and creativity — not on
+  qualifications.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: []
+  documents:
+    required: []
+    passportRequired: false
+    note: "Not stated — ask before applying."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "announced per cohort"
+    note: "Bootcamps run in cohorts. Check the site for the current call."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B1, reason: "The bootcamp and pitch are in English" }]
+  cost: { toApply: free, toParticipate: free, fundingIncludes: ["Bootcamp place"], fundingExcludes: [] }
+eligibility:
+  status: [refugee, asylum-seeker, displaced]
+  nationalities: any
+  residingIn: { resolved: false, countries: [], sourceUrl: "https://venturesbeyondborders.com/", note: "Confirm which countries the current cohort accepts." }
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  timeCommitment: part-time
+needs: { connectivity: stable-internet, device: computer, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["Investment of up to US$100,000", "Investor networks"]
+howToApply:
+  online: { url: "https://venturesbeyondborders.com/", note: null }
+  offline: null
+  steps: ["Check when the next bootcamp opens.", "Prepare your idea clearly.", "Apply and prepare to pitch."]
+support: [mentoring]
+preparedBy: [pathways-networking-and-personal-pitch, pathways-outlining-ambitions]
+competencyCodes: [FPS1, AR3]
+objectiveIds: [pathways--o1]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "venturesbeyondborders.com (read 27 August 2026)"

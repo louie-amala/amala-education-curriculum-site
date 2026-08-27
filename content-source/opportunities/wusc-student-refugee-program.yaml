@@ -1,0 +1,76 @@
+id: wusc-student-refugee-program
+slug: wusc-student-refugee-program
+access: public
+kind: funding
+subKind: scholarship
+title: WUSC Student Refugee Program — study and settle in Canada
+provider: { name: World University Service of Canada, type: ngo }
+summary: >-
+  A programme that combines a scholarship with permanent residence in Canada:
+  students arrive as permanent residents and study at a Canadian campus.
+whoItIsFor: >-
+  Refugee students in the countries where WUSC recruits, who have completed
+  secondary school. Selection is competitive and the places are few.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["Completed secondary school with strong results"]
+  documents:
+    required: ["Secondary certificate", "UNHCR registration"]
+    passportRequired: false
+    note: "Travel documents are arranged as part of the resettlement process."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "announced locally, often early in the year"
+    note: "Recruitment happens in specific camps and countries. Ask locally."
+  language:
+    ofDelivery: [en, fr]
+    required: [{ language: en, level: B2, reason: "Canadian university study" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Tuition", "Living costs in the first year", "Travel to Canada", "Permanent residence on arrival"]
+    fundingExcludes: ["Living costs after the first year, which taper", "Costs for family members, who are not included"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: >-
+        Support tapers after year one. Understand what you will be expected to
+        cover in years two and three before you accept.
+eligibility:
+  status: [refugee]
+  nationalities: any
+  residingIn:
+    resolved: false
+    countries: []
+    sourceUrl: "https://wusc.ca/"
+    note: "WUSC recruits from a defined set of camps and countries. Confirm whether yours is included."
+  ageRange: { min: 17, max: 25 }
+  gender: any
+delivery:
+  mode: in-person
+  location: { country: canada, place: "Canadian universities and colleges" }
+  relocation: third-country
+  visaSupport: true
+  visaNote: "Students arrive as permanent residents, not on a student visa."
+  duration: "The length of the degree"
+  timeCommitment: full-time
+needs: { connectivity: low-bandwidth, device: none, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "Canadian degree or diploma", recognisedBy: "The awarding institution" }
+  leadsTo: ["A degree", "Permanent residence in Canada"]
+howToApply:
+  online: { url: "https://wusc.ca/", note: null }
+  offline: "Recruitment runs locally. Ask UNHCR or the WUSC local committee where you live."
+  steps:
+    - "Find out whether WUSC recruits where you live."
+    - "Prepare your secondary results and UNHCR registration."
+    - "Apply during the local recruitment window."
+support: [tuition, travel, stipend, visa]
+safetyNote: >-
+  This changes your legal status and moves you permanently. Talk it through with
+  an adult you trust, and take time over the decision.
+preparedBy: [pathways-producing-a-personal-statement, pathways-interview-star-method]
+competencyCodes: [FR1, AR3]
+objectiveIds: [pathways--o1]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "wusc.ca and UNHCR Kenya complementary pathways pages (read 27 August 2026)"

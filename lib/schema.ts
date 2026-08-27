@@ -918,7 +918,7 @@ export type CompetencyEvidence = z.infer<typeof CompetencyEvidenceSchema>;
 // Deliberately decoupled from programmes/qualification wiring for now - this is about getting the
 // modules and their resources onto the site so trainers can run them.
 
-export const EducatorModuleCategorySchema = z.enum(["foundation", "component", "delivery-mode"]);
+export const EducatorModuleCategorySchema = z.enum(["foundation", "component", "delivery-mode", "trainer"]);
 
 // The audience a downloadable resource serves, so the page can group trainer-only artefacts
 // (trainer guide, sign-off guide) apart from what participants receive (participant guide, workbook)
@@ -972,6 +972,43 @@ export const EducatorModuleSignOffSchema = z.object({
   threshold: z.string().nullable().optional(), // the pass rule + resit policy
 });
 
+// Modules that gate entry on already holding others. The rule is per-person rather than a fixed
+// list - which modules you need depends on which you intend to train - so the prose `rule` leads and
+// `modules` names only what is required of everyone.
+export const EducatorModulePrerequisitesSchema = z.object({
+  rule: z.string(),
+  modules: z.array(z.string()).default([]), // educatorModule slugs, resolved in validateGraph()
+  note: z.string().nullable().optional(),
+  // Where the rule bends, and where it does not. Kept apart from `rule` so the part that is absolute
+  // and the part that is waivable can never be read as one negotiable paragraph.
+  discretion: z.string().nullable().optional(),
+});
+
+// What passing grants, where that is more than "you hold this module" - the trainer module's pass
+// extends to every module the educator already holds, and to any they take later.
+export const EducatorModuleQualificationSchema = z.object({
+  grants: z.string(),
+  scope: z.string().nullable().optional(),
+});
+
+// Supervised practice, for a module whose sign-off rests on observed delivery rather than on a
+// submission. Sits between the live sessions and sign-off.
+export const EducatorModulePracticumSchema = z.object({
+  title: z.string().nullable().optional(),
+  summary: z.string(),
+  supervisor: z.string().nullable().optional(), // who observes, and how that is bootstrapped
+  stages: z
+    .array(
+      z.object({
+        title: z.string(),
+        hours: z.string().nullable().optional(),
+        detail: z.string().nullable().optional(),
+      }),
+    )
+    .default([]),
+  evidence: z.array(z.string()).default([]), // what is filed afterwards
+});
+
 export const EducatorModuleSchema = z.object({
   id: z.string(),
   slug: z.string(),
@@ -989,6 +1026,7 @@ export const EducatorModuleSchema = z.object({
     .object({
       synchronous: z.number().nullable().optional(),
       independent: z.number().nullable().optional(),
+      practicum: z.number().nullable().optional(),
       total: z.number().nullable().optional(),
       note: z.string().nullable().optional(),
     })
@@ -1002,8 +1040,11 @@ export const EducatorModuleSchema = z.object({
   workbookSections: z
     .array(z.object({ n: z.number().nullable().optional(), title: z.string(), detail: z.string().nullable().optional() }))
     .default([]),
+  prerequisites: EducatorModulePrerequisitesSchema.nullable().optional(),
+  qualification: EducatorModuleQualificationSchema.nullable().optional(),
   sessions: z.array(EducatorModuleSessionSchema).default([]),
   independentWork: z.array(EducatorModuleIndependentWorkSchema).default([]),
+  practicum: EducatorModulePracticumSchema.nullable().optional(),
   signOff: EducatorModuleSignOffSchema.nullable().optional(),
   resources: z.array(EducatorResourceSchema).default([]),
   sourceNotes: z.array(z.string()).default([]),
@@ -1013,4 +1054,289 @@ export type EducatorModuleCategory = z.infer<typeof EducatorModuleCategorySchema
 export type EducatorResourceAudience = z.infer<typeof EducatorResourceAudienceSchema>;
 export type EducatorResource = z.infer<typeof EducatorResourceSchema>;
 export type EducatorModuleSession = z.infer<typeof EducatorModuleSessionSchema>;
+export type EducatorModulePracticum = z.infer<typeof EducatorModulePracticumSchema>;
 export type EducatorModule = z.infer<typeof EducatorModuleSchema>;
+
+// ---- Pathway opportunities -----------------------------------------------------------------------
+// A live, external thing a learner can act on: a scholarship, course, job, grant, competition or
+// support service. Unlike every other collection here, these EXPIRE - so the schema carries deadline,
+// verification and funding-gap machinery the rest of the content does not need.
+// See docs/PATHWAY-OPPORTUNITIES-PLAN.md.
+
+export const OpportunityKindSchema = z.enum([
+  "further-education",
+  "employment",
+  "entrepreneurship",
+  "funding",
+  "fellowships-competitions",
+  "guidance-support",
+]);
+
+/** Who actually submits. Assuming "the learner" was the first thing a real listing broke. */
+export const AppliedBySchema = z.enum([
+  "learner",
+  "educator",
+  "team-with-educator",
+  "institution",
+  "third-party", // an employer opts in; the learner never applies
+  "referral", // a service you are sent to rather than apply for
+]);
+
+export const DeliveryModeSchema = z.enum(["online", "in-person", "hybrid", "by-post-or-phone"]);
+export const RelocationSchema = z.enum(["none", "in-country", "third-country"]);
+export const ConnectivitySchema = z.enum(["none-needed", "low-bandwidth", "stable-internet"]);
+export const DeviceSchema = z.enum(["none", "shared-phone", "own-phone", "computer"]);
+export const DeadlineTypeSchema = z.enum(["fixed", "rolling", "annual-cycle", "unknown"]);
+export const VerificationStatusSchema = z.enum(["verified", "reported", "unverified"]);
+export const LanguageLevelSchema = z.enum(["A1", "A2", "B1", "B2", "C1", "C2"]);
+
+export const OpportunityDeadlineSchema = z.object({
+  type: DeadlineTypeSchema,
+  date: z.string().nullable().optional(), // ISO yyyy-mm-dd
+  // So a CLOSED recurring entry stays useful: "opens around May - start getting documents certified".
+  opensAround: z.string().nullable().optional(),
+  note: z.string().nullable().optional(),
+});
+
+export const OpportunityCostSchema = z.object({
+  toApply: z.enum(["free", "fee"]).default("free"),
+  applicationFee: z.string().nullable().optional(),
+  // Required when applicationFee is set. A fee with no named recipient is the shape of a scam.
+  paidTo: z.string().nullable().optional(),
+  toParticipate: z.enum(["free", "fee", "funded"]).default("free"),
+  fundingIncludes: z.array(z.string()).default([]),
+  // Required when toParticipate is `funded`. A learner can read a list; they cannot read an absence.
+  fundingExcludes: z.array(z.string()).default([]),
+  estimatedUnfundedCost: z
+    .object({
+      status: z.enum(["needs-research", "estimated", "confirmed"]),
+      amount: z.string().nullable().optional(),
+      currency: z.string().nullable().optional(),
+      basis: z.string().nullable().optional(), // how the figure was reached; an estimate without one is a rumour
+      note: z.string().nullable().optional(),
+    })
+    .nullable()
+    .optional(),
+});
+
+export const OpportunityRequirementsSchema = z.object({
+  qualifications: z.array(z.string()).default([]),
+  documents: z
+    .object({
+      required: z.array(z.string()).default([]),
+      passportRequired: z.boolean().nullable().optional(),
+      alternativesAccepted: z.string().nullable().optional(),
+      note: z.string().nullable().optional(),
+    })
+    .default({ required: [] }),
+  deadline: OpportunityDeadlineSchema,
+  language: z
+    .object({
+      ofDelivery: z.array(z.string()).default([]),
+      // The level you must ALREADY have to apply - which may be a different language from delivery.
+      required: z
+        .array(
+          z.object({
+            language: z.string(),
+            level: LanguageLevelSchema.nullable().optional(),
+            reason: z.string().nullable().optional(),
+          }),
+        )
+        .default([]),
+      supportProvided: z.string().nullable().optional(),
+      proofRequired: z.string().nullable().optional(),
+      note: z.string().nullable().optional(),
+    })
+    .default({ ofDelivery: [], required: [] }),
+  cost: OpportunityCostSchema,
+});
+
+export const OpportunityEligibilitySchema = z.object({
+  status: z.array(z.string()).default([]), // refugee | asylum-seeker | stateless | displaced | host-community | any
+  nationalities: z.union([z.literal("any"), z.array(z.string())]).default("any"),
+  residingIn: z.object({
+    // `false` when the provider hides the list behind a link. An entry may not go live unresolved.
+    resolved: z.boolean(),
+    countries: z.array(z.string()).default([]),
+    place: z.string().nullable().optional(),
+    sourceUrl: z.string().nullable().optional(),
+    note: z.string().nullable().optional(),
+  }),
+  ageRange: z
+    .object({ min: z.number().nullable().optional(), max: z.number().nullable().optional() })
+    .nullable()
+    .optional(),
+  ageNote: z.string().nullable().optional(),
+  gender: z.enum(["any", "women", "men"]).default("any"),
+  // e.g. "Single and without children" - a real bar that falls hardest on young women. Never bury it.
+  maritalStatus: z.string().nullable().optional(),
+  otherConditions: z.array(z.string()).default([]),
+});
+
+export const OpportunitySchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  access: AccessSchema.optional(),
+  edition: z.string().optional(),
+  kind: OpportunityKindSchema,
+  subKind: z.string().nullable().optional(),
+  title: z.string(),
+  provider: z.object({
+    name: z.string(),
+    type: z
+      .enum(["un-agency", "ngo", "university", "employer", "government", "company", "community"])
+      .nullable()
+      .optional(),
+  }),
+  summary: z.string(),
+  // Plain language, readable aloud by a mentor. Distinct from `summary`, which may be denser.
+  whoItIsFor: z.string().nullable().optional(),
+  applicant: z
+    .object({ appliedBy: AppliedBySchema, note: z.string().nullable().optional() })
+    .default({ appliedBy: "learner" }),
+  team: z
+    .object({
+      required: z.boolean().default(false),
+      minMembers: z.number().nullable().optional(),
+      maxMembers: z.number().nullable().optional(),
+      adultLead: z.string().nullable().optional(),
+    })
+    .nullable()
+    .optional(),
+  requirements: OpportunityRequirementsSchema,
+  keyDates: z
+    .array(
+      z.object({
+        label: z.string(),
+        date: z.string().nullable().optional(),
+        note: z.string().nullable().optional(),
+      }),
+    )
+    .default([]),
+  eligibility: OpportunityEligibilitySchema,
+  delivery: z.object({
+    mode: DeliveryModeSchema,
+    location: z
+      .object({ country: z.string().nullable().optional(), place: z.string().nullable().optional() })
+      .nullable()
+      .optional(),
+    relocation: RelocationSchema.default("none"),
+    visaSupport: z.boolean().default(false),
+    visaNote: z.string().nullable().optional(),
+    duration: z.string().nullable().optional(),
+    timeCommitment: z.string().nullable().optional(),
+    startDate: z.string().nullable().optional(),
+  }),
+  // What a learner must HAVE to take part at all. Named `needs` rather than `access` so it does not
+  // collide with the top-level publish-access field.
+  needs: z
+    .object({
+      connectivity: ConnectivitySchema.nullable().optional(),
+      device: DeviceSchema.nullable().optional(),
+      rightToWorkRequired: z.boolean().nullable().optional(),
+      childcareProvided: z.boolean().nullable().optional(),
+      disabilityInclusion: z.string().nullable().optional(),
+    })
+    .nullable()
+    .optional(),
+  outcome: z
+    .object({
+      certificate: z
+        .object({
+          awarded: z.boolean().default(false),
+          title: z.string().nullable().optional(),
+          recognisedBy: z.string().nullable().optional(),
+        })
+        .nullable()
+        .optional(),
+      placesAvailable: z.number().nullable().optional(),
+      leadsTo: z.array(z.string()).default([]),
+    })
+    .nullable()
+    .optional(),
+  howToApply: z.object({
+    online: z
+      .object({ url: z.string(), note: z.string().nullable().optional() })
+      .nullable()
+      .optional(),
+    // First-class, not a footnote: in a camp the real route is an office, a phone or a named person.
+    offline: z.string().nullable().optional(),
+    contact: z
+      .object({
+        name: z.string().nullable().optional(),
+        email: z.string().nullable().optional(),
+        phone: z.string().nullable().optional(),
+      })
+      .nullable()
+      .optional(),
+    steps: z.array(z.string()).default([]),
+    selectionNote: z.string().nullable().optional(),
+  }),
+  support: z.array(z.string()).default([]),
+  supportNote: z.string().nullable().optional(),
+  applicationRules: z.array(z.string()).default([]),
+  // Risks the PROVIDER discloses, quoted. Not our warning - theirs.
+  risksDisclosed: z.array(z.string()).default([]),
+  // Required when the prize is credit towards the organiser's own paid product (see plan finding 5).
+  providerInterest: z.string().nullable().optional(),
+  integrityContact: z
+    .object({ statement: z.string().nullable().optional(), reportTo: z.string().nullable().optional() })
+    .nullable()
+    .optional(),
+  dataRequested: z
+    .object({
+      aboutStudents: z.array(z.string()).default([]),
+      aboutEducator: z.array(z.string()).default([]),
+      note: z.string().nullable().optional(),
+    })
+    .nullable()
+    .optional(),
+  // One programme run in many countries with different deadlines and contacts (DAFI, WUSC, UNICORE).
+  instances: z
+    .array(
+      z.object({
+        country: z.string(),
+        place: z.string().nullable().optional(),
+        deadline: OpportunityDeadlineSchema.nullable().optional(),
+        contact: z
+          .object({
+            name: z.string().nullable().optional(),
+            email: z.string().nullable().optional(),
+            phone: z.string().nullable().optional(),
+          })
+          .nullable()
+          .optional(),
+        howToApply: z
+          .object({
+            url: z.string().nullable().optional(),
+            offline: z.string().nullable().optional(),
+          })
+          .nullable()
+          .optional(),
+        note: z.string().nullable().optional(),
+      }),
+    )
+    .default([]),
+  // Curriculum wiring - the same fields the rest of the graph uses.
+  preparedBy: z.array(z.string()).default([]),
+  competencyCodes: z.array(z.string()).default([]),
+  objectiveIds: z.array(z.string()).default([]),
+  // ADDS to the standing safety notice; never replaces it.
+  safetyNote: z.string().nullable().optional(),
+  verification: z.object({
+    status: VerificationStatusSchema,
+    lastVerified: z.string().nullable().optional(),
+    verifiedBy: z.string().nullable().optional(),
+    reviewEveryDays: z.number().default(90),
+  }),
+  source: z.string().nullable().optional(),
+});
+
+export type OpportunityKind = z.infer<typeof OpportunityKindSchema>;
+export type AppliedBy = z.infer<typeof AppliedBySchema>;
+export type DeliveryMode = z.infer<typeof DeliveryModeSchema>;
+export type Connectivity = z.infer<typeof ConnectivitySchema>;
+export type DeviceNeed = z.infer<typeof DeviceSchema>;
+export type DeadlineType = z.infer<typeof DeadlineTypeSchema>;
+export type VerificationStatus = z.infer<typeof VerificationStatusSchema>;
+export type Opportunity = z.infer<typeof OpportunitySchema>;

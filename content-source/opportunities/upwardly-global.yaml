@@ -1,0 +1,49 @@
+id: upwardly-global
+slug: upwardly-global
+access: public
+kind: employment
+subKind: job-support
+title: Upwardly Global — professional rehiring support
+provider: { name: Upwardly Global, type: ngo }
+summary: >-
+  Free coaching, CV help and employer introductions for refugees and immigrants
+  with professional qualifications who are rebuilding a career in the USA.
+whoItIsFor: >-
+  People already living in the USA with work authorisation, who had a profession
+  before they were displaced and want to return to it.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["A professional qualification or career history from your home country"]
+  documents:
+    required: ["Work authorisation in the USA"]
+    passportRequired: false
+    note: "Work authorisation is the gate here. Without it this route is closed."
+  deadline: { type: rolling, note: "Always open." }
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B2, reason: "Professional job search in the US labour market" }]
+  cost: { toApply: free, toParticipate: free, fundingIncludes: ["Coaching", "CV and interview support"], fundingExcludes: [] }
+eligibility:
+  status: [refugee, asylum-seeker, displaced]
+  nationalities: any
+  residingIn: { resolved: true, countries: [usa], note: "USA only. Included so the limit is visible rather than discovered late." }
+  gender: any
+delivery:
+  mode: hybrid
+  location: { country: usa }
+  relocation: none
+  timeCommitment: "Flexible"
+needs: { connectivity: stable-internet, device: computer, rightToWorkRequired: true }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["Professional employment in the USA"]
+howToApply:
+  online: { url: "https://www.upwardlyglobal.org/", note: null }
+  offline: null
+  steps: ["Check you have US work authorisation.", "Register online.", "Work with a coach on your CV and applications."]
+support: [mentoring]
+preparedBy: [pathways-producing-a-cv, pathways-interview-star-method]
+competencyCodes: [FR2, ASL1]
+objectiveIds: [pathways--o3]
+verification: { status: unverified, reviewEveryDays: 180 }
+source: "upwardlyglobal.org (read 27 August 2026)"

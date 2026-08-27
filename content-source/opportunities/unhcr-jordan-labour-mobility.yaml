@@ -1,0 +1,55 @@
+id: unhcr-jordan-labour-mobility
+slug: unhcr-jordan-labour-mobility
+access: public
+kind: guidance-support
+subKind: information-service
+title: UNHCR Jordan — labour mobility pathways
+provider: { name: UNHCR Jordan, type: un-agency }
+summary: >-
+  The official guidance on skilled work routes abroad from Jordan, including how
+  UNHCR works with Talent Beyond Boundaries to connect refugees with employers.
+whoItIsFor: >-
+  Refugees in Jordan with a trade or profession who want to know which legal work
+  routes abroad exist, and how to get into them without paying a broker.
+applicant:
+  appliedBy: referral
+  note: "An information and referral service, not an application with a deadline."
+requirements:
+  qualifications: ["A trade, profession or work experience"]
+  documents:
+    required: []
+    passportRequired: false
+    note: "Travel documents become relevant at the visa stage of any specific route."
+  deadline: { type: rolling, note: "Guidance is available at any time." }
+  language:
+    ofDelivery: [ar, en]
+    required: []
+  cost: { toApply: free, toParticipate: free, fundingIncludes: [], fundingExcludes: [] }
+eligibility:
+  status: [refugee, asylum-seeker]
+  nationalities: any
+  residingIn: { resolved: true, countries: [jordan] }
+  gender: any
+delivery:
+  mode: hybrid
+  location: { country: jordan }
+  relocation: third-country
+  visaSupport: true
+  visaNote: "Individual routes carry work visas. Decisions rest with destination governments."
+needs: { connectivity: low-bandwidth, device: shared-phone, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: false }
+  leadsTo: ["Skilled work abroad with a visa"]
+howToApply:
+  online: { url: "https://help.unhcr.org/jordan/en/labor-mobility-pathways/", note: null }
+  offline: "Ask at the UNHCR office in Jordan."
+  steps: ["Read the official guidance.", "Register with the routes it names, such as the Talent Catalog.", "Never pay anyone to be put forward."]
+support: []
+safetyNote: >-
+  Legal labour routes never charge you. Anyone asking for money to get you a job
+  abroad is running a scam, and some of those scams end in trafficking.
+preparedBy: [pathways-strategy-for-identifying-opportunities, pathways-producing-a-cv]
+competencyCodes: [FR1, AR1]
+objectiveIds: [pathways--o4]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "help.unhcr.org/jordan labour mobility pathways pages (read 27 August 2026)"

@@ -1,0 +1,75 @@
+id: coursera-for-refugees
+slug: coursera-for-refugees
+access: public
+kind: further-education
+subKind: short-course
+title: Coursera for Refugees — free courses and certificates
+provider:
+  name: Coursera, through UNHCR
+  type: company
+summary: >-
+  Free access to online courses with free certificates, for refugees, asylum
+  seekers and stateless people. There is no deadline — you start when you are
+  ready.
+whoItIsFor: >-
+  Anyone registered as a refugee, asylum seeker or stateless person who has a
+  device and enough internet to study online.
+applicant:
+  appliedBy: learner
+requirements:
+  qualifications: []
+  documents:
+    required: ["Proof of refugee, asylum-seeker or stateless status"]
+    passportRequired: false
+    note: "Access is arranged through UNHCR or a partner organisation."
+  deadline:
+    type: rolling
+    date: null
+    note: "Always open."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B1, reason: "Most courses are taught in English" }]
+    supportProvided: "Some courses offer subtitles in other languages."
+  cost:
+    toApply: free
+    toParticipate: free
+    fundingIncludes: ["Course access", "Certificate on passing"]
+    fundingExcludes: ["Your own device", "Your own internet data"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: >-
+        The course is free but the data is not. Work out the local cost of the
+        data needed to watch video lectures before recommending this.
+eligibility:
+  status: [refugee, asylum-seeker, stateless]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open worldwide, subject to UNHCR arrangements." }
+  gender: any
+delivery:
+  mode: online
+  location: null
+  relocation: none
+  duration: "Four to six weeks for a basic course"
+  timeCommitment: "Self-paced"
+needs:
+  connectivity: stable-internet
+  device: own-phone
+  rightToWorkRequired: false
+outcome:
+  certificate: { awarded: true, title: "Course certificate", recognisedBy: "Coursera and the partner university" }
+  leadsTo: ["Evidence of study for a CV or portfolio"]
+howToApply:
+  online: { url: "https://www.coursera.org/", note: "Access is granted through UNHCR or a partner." }
+  offline: "Ask your local UNHCR office or education partner how to get an access code."
+  steps:
+    - "Ask UNHCR or your education partner for access."
+    - "Choose a course that matches a pathway you are aiming at."
+    - "Complete it and download the certificate for your portfolio."
+support: []
+preparedBy: [pathways-producing-a-portfolio, pathways-producing-a-cv]
+competencyCodes: [FSL3]
+objectiveIds: [pathways--o2]
+verification:
+  status: unverified
+  reviewEveryDays: 180
+source: "UNHCR help pages and Coursera for Refugees partner pages (read 27 August 2026)"

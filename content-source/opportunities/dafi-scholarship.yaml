@@ -1,0 +1,97 @@
+id: dafi-scholarship
+slug: dafi-scholarship
+access: public
+kind: funding
+subKind: scholarship
+title: DAFI Tertiary Scholarship Programme
+provider:
+  name: UNHCR
+  type: un-agency
+summary: >-
+  UNHCR's scholarship for refugees to study an undergraduate degree in their
+  country of asylum. It runs in around 50 countries, and each country office sets
+  its own deadline and application route.
+whoItIsFor: >-
+  Refugees who have finished secondary school and want to study for a degree in
+  the country they are living in now. Ask your local UNHCR office when the call
+  opens where you are.
+applicant:
+  appliedBy: learner
+requirements:
+  qualifications:
+    - "Completed secondary school with results meeting the university's entry requirements"
+  documents:
+    required: ["Proof of registration with UNHCR", "Secondary school certificate"]
+    passportRequired: false
+    alternativesAccepted: "[to verify] Practice on lost certificates varies by country office."
+    note: "Requirements are set per country. Confirm locally."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "mid-year — the date varies by country"
+    note: >-
+      There is no single global deadline. See the country instances below, and
+      confirm with your local UNHCR office.
+  language:
+    ofDelivery: []
+    required: []
+    note: "Depends on the university and country."
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Tuition", "Study materials", "Living allowance", "Transport"]
+    fundingExcludes:
+      - "[to verify] Confirm locally — coverage varies by country office"
+    estimatedUnfundedCost:
+      status: needs-research
+      note: >-
+        Coverage varies by country. Ask the local UNHCR education focal point
+        what a student is still expected to pay for.
+keyDates: []
+eligibility:
+  status: [refugee, asylum-seeker]
+  nationalities: any
+  residingIn:
+    resolved: false
+    countries: []
+    sourceUrl: "https://www.unhcr.org/dafi-scholarships"
+    note: >-
+      DAFI runs in around 50 countries but not all of them, and eligibility is
+      set locally. Resolve the country list before treating this as live.
+  ageRange: null
+  gender: any
+delivery:
+  mode: in-person
+  location: { country: null, place: "Universities in your country of asylum" }
+  relocation: none
+  visaSupport: false
+  duration: "The length of the degree"
+  timeCommitment: full-time
+needs:
+  connectivity: low-bandwidth
+  device: none
+  rightToWorkRequired: false
+outcome:
+  certificate: { awarded: true, title: "Undergraduate degree", recognisedBy: "The awarding university" }
+  leadsTo: ["Graduate employment", "Postgraduate study"]
+howToApply:
+  online: { url: "https://www.unhcr.org/dafi-scholarships", note: "The global page; apply through your country office." }
+  offline: "Ask at your local UNHCR office or education partner for the current call."
+  steps:
+    - "Find out whether DAFI runs in the country you live in."
+    - "Ask your local UNHCR office when the call opens and what it requires."
+    - "Prepare your secondary certificate and UNHCR registration early."
+instances:
+  - country: rwanda
+    deadline: { type: annual-cycle, date: 2026-08-07, opensAround: "July" }
+    contact: { name: "UNHCR Rwanda" }
+    howToApply: { url: "https://help.unhcr.org/rwanda/", offline: null }
+    note: "The 2026/2027 call ran to 7 August 2026."
+support: [tuition, stipend, materials, travel]
+preparedBy: [pathways-requirements-for-accessing-pathways, pathways-producing-a-personal-statement]
+competencyCodes: [FR1, FR2]
+objectiveIds: [pathways--o1]
+verification:
+  status: unverified
+  reviewEveryDays: 90
+source: "UNHCR DAFI programme pages and UNHCR Rwanda 2026/27 call (read 27 August 2026)"

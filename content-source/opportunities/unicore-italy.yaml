@@ -1,0 +1,78 @@
+id: unicore-italy
+slug: unicore-italy
+access: public
+kind: funding
+subKind: scholarship
+title: UNICORE — University Corridors for Refugees, Italy
+provider: { name: UNHCR with Italian universities, type: un-agency }
+summary: >-
+  A funded master's degree at one of 37 Italian universities, with a study visa,
+  travel, accommodation and living costs — a legal route out of the country of
+  asylum through education.
+whoItIsFor: >-
+  Refugees with a bachelor's degree who want to study a master's in Italy. This
+  is a complementary pathway: it moves you, legally, with a visa.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["A bachelor's degree recognised for master's entry in Italy"]
+  documents:
+    required: ["Degree certificate and transcript", "Refugee status documentation"]
+    passportRequired: false
+    note: "[to verify] Confirm travel-document requirements for the visa stage."
+  deadline:
+    type: annual-cycle
+    date: 2026-04-17
+    opensAround: "March"
+    note: "The 2026 call ran 2 March to 17 April 2026, for courses starting September 2026."
+  language:
+    ofDelivery: [en, it]
+    required: [{ language: en, level: B2, reason: "Most UNICORE courses are taught in English" }]
+    supportProvided: "Italian language support is usually provided after arrival."
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Tuition", "Travel to Italy", "Accommodation", "Living costs", "Study visa support"]
+    fundingExcludes: ["Document legalisation and translation", "Costs for family members, who are not covered"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: >-
+        Legalising and translating a degree certificate can be expensive and slow.
+        Start that before the call opens, not after.
+keyDates:
+  - { label: "Applications open", date: 2026-03-02 }
+  - { label: "Applications close", date: 2026-04-17 }
+  - { label: "Courses begin", date: 2026-09-01, note: "September 2026" }
+eligibility:
+  status: [refugee]
+  nationalities: any
+  residingIn:
+    resolved: false
+    countries: []
+    sourceUrl: "https://help.unhcr.org/kenya/2026/02/17/unicore-2026-call-for-applications/"
+    note: "UNICORE runs from a specific set of countries of asylum, which changes each year. Confirm before publishing."
+  gender: any
+delivery:
+  mode: in-person
+  location: { country: italy, place: "37 participating universities" }
+  relocation: third-country
+  visaSupport: true
+  visaNote: "A study visa is part of the pathway. The final decision rests with the Italian authorities."
+  duration: "Two years"
+  timeCommitment: full-time
+needs: { connectivity: stable-internet, device: computer, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "Italian master's degree", recognisedBy: "The awarding university" }
+  leadsTo: ["A master's degree", "Legal residence in Italy while studying"]
+howToApply:
+  online: { url: "https://www.unhcr.org/", note: "Applications go through the UNICORE portal." }
+  offline: "Ask your local UNHCR office whether your country of asylum takes part this year."
+  steps:
+    - "Check whether the country you live in is included this year."
+    - "Get your degree certificate legalised and translated early."
+    - "Apply through the UNICORE portal during the March–April window."
+support: [tuition, travel, accommodation-allowance, stipend, visa]
+preparedBy: [pathways-producing-a-personal-statement, pathways-requirements-for-accessing-pathways]
+competencyCodes: [FR1, FR2, AR3]
+objectiveIds: [pathways--o1]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "UNHCR Kenya UNICORE 2026 call for applications (read 27 August 2026)"

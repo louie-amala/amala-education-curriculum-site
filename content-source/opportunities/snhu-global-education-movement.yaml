@@ -1,0 +1,64 @@
+id: snhu-global-education-movement
+slug: snhu-global-education-movement
+access: public
+kind: further-education
+subKind: online-degree
+title: SNHU Global Education Movement degrees — Kakuma
+provider: { name: Southern New Hampshire University, with JRS Kenya, type: university }
+summary: >-
+  An accredited US bachelor's degree studied from Kakuma, with a learning centre,
+  connectivity and in-person support provided on site.
+whoItIsFor: >-
+  Refugees in Kakuma who have finished secondary school. The programme supplies
+  the computers and the internet, so you do not need your own.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["Completed secondary school"]
+  documents:
+    required: ["Secondary school certificate", "Proof of registration with UNHCR"]
+    passportRequired: false
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "announced locally by JRS"
+    note: "Intakes are announced in Kakuma. Ask JRS Kenya when the next call opens."
+  language:
+    ofDelivery: [en]
+    required: [{ language: en, level: B2, reason: "The degree is taught and assessed in English" }]
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Tuition", "Access to a learning centre with computers and internet", "On-site academic support"]
+    fundingExcludes: ["[to verify] Confirm locally what students are still expected to provide"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "Ask JRS Kenya what a student pays for, if anything."
+eligibility:
+  status: [refugee, asylum-seeker]
+  nationalities: any
+  residingIn: { resolved: true, countries: [kenya], place: "Kakuma", note: "Delivered in Kakuma." }
+  gender: any
+delivery:
+  mode: hybrid
+  location: { country: kenya, place: "Kakuma learning centre" }
+  relocation: none
+  duration: "Competency-based — you progress at your own pace"
+  timeCommitment: full-time
+needs: { connectivity: none-needed, device: none, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "US bachelor's or associate degree", recognisedBy: "Southern New Hampshire University (accredited)" }
+  leadsTo: ["Graduate employment", "Further study"]
+howToApply:
+  online: { url: "https://www.snhu.edu/about-us/global-education-movement", note: null }
+  offline: "Ask at the JRS office in Kakuma when the next intake opens."
+  contact: { name: "JRS Kenya" }
+  steps:
+    - "Ask JRS in Kakuma when applications open."
+    - "Prepare your secondary certificate and UNHCR registration."
+    - "Apply through the local intake process."
+support: [tuition, device]
+preparedBy: [pathways-requirements-for-accessing-pathways, pathways-producing-a-personal-statement]
+competencyCodes: [FSL3, FR2]
+objectiveIds: [pathways--o1]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "JRS Kenya / SNHU Global Education Movement announcements (read 27 August 2026)"

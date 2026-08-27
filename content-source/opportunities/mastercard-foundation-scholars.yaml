@@ -1,0 +1,70 @@
+id: mastercard-foundation-scholars
+slug: mastercard-foundation-scholars
+access: public
+kind: funding
+subKind: scholarship
+title: Mastercard Foundation Scholars Program
+provider: { name: Mastercard Foundation, type: ngo }
+summary: >-
+  Comprehensive scholarships at more than 60 partner universities in Africa and
+  beyond. Each university runs its own intake, so you apply to the university,
+  not to the Foundation.
+whoItIsFor: >-
+  Academically strong young people who could not otherwise afford university.
+  The usual age limit of 28 is extended to 32 for refugees, displaced people and
+  people living with a disability.
+applicant: { appliedBy: learner }
+requirements:
+  qualifications: ["Strong secondary results meeting the partner university's entry requirements"]
+  documents:
+    required: ["Secondary certificate and transcripts", "Evidence of financial need"]
+    passportRequired: false
+    note: "Requirements are set by each partner university."
+  deadline:
+    type: annual-cycle
+    date: null
+    opensAround: "varies by university"
+    note: "There is no single deadline. Each partner university publishes its own."
+  language:
+    ofDelivery: [en, fr]
+    required: []
+  cost:
+    toApply: free
+    toParticipate: funded
+    fundingIncludes: ["Tuition", "Accommodation", "Books and materials", "Living stipend"]
+    fundingExcludes: ["Costs of applying to and travelling for interviews", "[to verify] Confirm per-university"]
+    estimatedUnfundedCost:
+      status: needs-research
+      note: "Coverage is generous but set per university. Confirm with the one you apply to."
+eligibility:
+  status: [any, refugee, displaced]
+  nationalities: any
+  residingIn: { resolved: true, countries: [], note: "Open widely, but each partner university sets its own catchment." }
+  ageRange: { min: 17, max: 32 }
+  ageNote: "28 or younger at application, extended to 32 for refugees, displaced people and people with a disability."
+  gender: any
+  otherConditions: ["Demonstrated financial need", "Commitment to giving back to your community"]
+delivery:
+  mode: in-person
+  location: { country: null, place: "Partner universities in Africa, North America and Europe" }
+  relocation: in-country
+  visaSupport: false
+  duration: "The length of the degree"
+  timeCommitment: full-time
+needs: { connectivity: low-bandwidth, device: none, rightToWorkRequired: false }
+outcome:
+  certificate: { awarded: true, title: "University degree", recognisedBy: "The awarding university" }
+  leadsTo: ["A degree", "An alumni network across Africa"]
+howToApply:
+  online: { url: "https://mastercardfdn.org/en/what-we-do/our-programs/mastercard-foundation-scholars-program/", note: "Find a partner university, then apply to it." }
+  offline: null
+  steps:
+    - "Choose partner universities that teach what you want to study."
+    - "Check each one's own deadline and entry requirements."
+    - "Apply to the university, naming the Scholars Program."
+support: [tuition, accommodation-allowance, stipend, materials]
+preparedBy: [pathways-producing-a-personal-statement, pathways-prioritising-pathway-opportunities]
+competencyCodes: [FR1, FR2]
+objectiveIds: [pathways--o1]
+verification: { status: unverified, reviewEveryDays: 90 }
+source: "Mastercard Foundation Scholars Program pages and partner guides (read 27 August 2026)"
