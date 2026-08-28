@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AccountMenu } from "@/components/AccountMenu";
 import { HeaderSearch } from "@/components/HeaderSearch";
 
 const NAV = [
@@ -35,6 +36,7 @@ export function SiteHeader() {
             </ul>
           </nav>
           <HeaderSearch />
+          <AccountMenu />
         </div>
       </div>
     </header>
