@@ -13,10 +13,24 @@ import { COOKIE_NAME, UNLOCK_PATH, gatePassword, isProtectedPath, verifyToken } 
 
 const NOINDEX = "noindex, nofollow, noarchive";
 
+// The Cloud Run service answers on its own *.run.app hostname as well as on whatever domain is
+// pointed at it. That hostname serves a byte-identical copy of the site, so left alone it would
+// compete with the canonical domain in search results. Nothing there is secret — the gate below
+// is what protects partner content — but only the canonical host should be indexable.
+function isNonCanonicalHost(request: NextRequest) {
+  const host = request.headers.get("host") ?? "";
+  return host.endsWith(".run.app");
+}
+
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
-  if (!isProtectedPath(pathname)) return NextResponse.next();
+  if (!isProtectedPath(pathname)) {
+    if (!isNonCanonicalHost(request)) return NextResponse.next();
+    const res = NextResponse.next();
+    res.headers.set("X-Robots-Tag", NOINDEX);
+    return res;
+  }
 
   const password = gatePassword();
 
