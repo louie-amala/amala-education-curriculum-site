@@ -1,5 +1,6 @@
-/* Generate the three programme-level Learning Bridge+ (Cox's Bazar) documents:
+/* Generate the four programme-level Learning Bridge+ (Cox's Bazar) documents:
      - lb-coxs-bazar-coordinator-guide.docx   (for the NRC programme coordinator)
+     - lb-coxs-bazar-trainer-guide.docx       (for NRC's master educators, who induct the facilitators)
      - lb-coxs-bazar-educator-guide.docx      (for the facilitator / educator)
      - lb-coxs-bazar-student-workbook.docx    (for the learner)
 
@@ -47,6 +48,13 @@ const OUT = process.env.OUT_DIR ? path.resolve(process.env.OUT_DIR) : path.join(
 // from their authored YAML, so the printed page and the site page cannot drift.
 const yaml = require('yaml');
 const readMaterial = (slug) => yaml.parse(fs.readFileSync(path.join(CS, 'materials', `${slug}.yaml`), 'utf8'));
+// Educator module titles, so the Trainer Guide names a module the way the module names itself
+// rather than de-slugging it into "Introduction to tem".
+const readEducatorModule = (slug) => {
+  try {
+    return yaml.parse(fs.readFileSync(path.join(CS, 'educator-modules', `${slug}.yaml`), 'utf8'));
+  } catch { return null; }
+};
 const PROGRAMME_PAGES = ['cb-my-mentoring-conversations', 'cb-my-growth-across-the-programme'].map(readMaterial);
 // Programme-level, belonging to no one component: the single closing showcase. (The optional
 // significant adult meeting belongs to Mentoring, and arrives with MN.guideChildren().)
@@ -264,8 +272,9 @@ function coordinatorGuide() {
 
   c.push(H1('2. Who does what'));
   c.push(twoCol(['Role', 'Responsibility'], [
-    ['Amala', 'Remote technical consultant. Contextualises the curriculum, supplies ready-made offline resources, trains facilitators and you (the coordinator), supports the Week-6 assessment, and moderates the final judgements. Amala does not deliver in the camps.'],
+    ['Amala', 'Remote technical consultant. Contextualises the curriculum, supplies ready-made offline resources, trains your master educators and you (the coordinator), supports the Week-6 assessment, and moderates the final judgements. Amala does not train facilitators directly and does not deliver in the camps.'],
     ['You (coordinator)', 'Lead implementation on the ground. Set up sites and materials, recruit and support facilitators, hold the calendar and the two assessment windows, keep safeguarding pathways live, and be the bridge between the camps and Amala.'],
+    ['Master educators', 'Your own experienced educators, qualified by Amala to train. They induct the facilitators before a cohort starts, using the Trainer Guide. Two of them can cover a cohort.'],
     ['Educators', 'Deliver the programme. Each educator holds three functions - they facilitate the sessions, mentor learners 1:1, and assess the competencies. Everything they need is in the Educator Guide.'],
     ['NRC', 'Owns the programme, employs and manages staff, and owns the Code of Conduct, safeguarding, and MHPSS/protection referral pathways.'],
   ]));
@@ -275,6 +284,7 @@ function coordinatorGuide() {
   c.push(P('Work through this before Week 1. Most of it you do once per site, then maintain.', { size: 22 }));
   c.push(numbered('Confirm the sites (CBLFs) and the space each offers. A CBLF is often a room in a teacher’s shelter - plan for no internet, and often no reliable power or learner devices.', 'setup'));
   c.push(numbered('Confirm facilitators. Plan for female facilitators and same-gender grouping wherever girls’ participation depends on it, and match language so learners can take part in the language they use at home. Keep mentor caseloads small enough that each learner is genuinely known.', 'setup'));
+  c.push(numbered('Induct the facilitators before Week 1. Two inductions, about 7 hours in total, delivered by your master educators from the Trainer Guide: the programme and the Educator Guide, then assessment. Facilitators hold the portable training modules BEFORE induction - induction covers only what does not transfer. Book it far enough ahead that nobody starts a cohort uninducted, and see the Trainer Guide for what to do about a facilitator who joins mid-cohort.', 'setup'));
   c.push(numbered('Distribute the offline pack. Every resource is supplied ready-made and editable, distributed physically by USB or hard drive. The Educator Guide is the single document a facilitator delivers from - it carries the unit plans, the learner books, the cards and the assessment records inside it - with the picture-card PDF alongside on the USB.', 'setup'));
   c.push(numbered('Agree with each site how the learner books will reach learners: one printed book each is best, one shared between two or three works, and a single displayed copy with learners using notebooks is the floor. The books carry the teaching and the worked examples, so what matters is that every learner can SEE them - not that every learner owns one. The books are editable Word files, so pages can be cut before printing if paper is short.', 'setup'));
   c.push(numbered('Make the safeguarding pathway concrete at each site. Before any facilitator takes a mentoring caseload, make sure they know NRC’s Code of Conduct and the camp MHPSS and protection referral pathway - who to hand a concern to, and how.', 'setup'));
@@ -331,7 +341,7 @@ function coordinatorGuide() {
     ['Set and Pursue Goals', 'The Agency in Learning component. The ability to set clear objectives for learning and growth and take deliberate steps toward them.'],
     ['Investigate Real World Issues', 'The Research Project component. The ability to research challenges affecting people and the planet to develop actionable insights.'],
   ]));
-  c.push(P('Note: the Research Project is contextualised around a single shared local challenge, which is being agreed with NRC and the community. Until it is finalised, early cohorts may reach the final assessment in Set and Pursue Goals first; confirm the assessed scope for your cohort with Amala.', { size: 21, italics: true, color: GREY }));
+  c.push(P('Note: the Research Project is contextualised around a single shared local challenge, agreed with NRC - what is happening to the trees on the hills where learners live. The whole cohort investigates the same question, and the unit is built around it, so both competencies are assessed in every cohort.', { size: 21, italics: true, color: GREY }));
 
   c.push(H2('The grade scale'));
   c.push(twoCol(['Grade', 'Requirement'], [
@@ -352,6 +362,7 @@ function coordinatorGuide() {
   c.push(mini('Once per cohort, before Week 1'));
   c.push(bullet('Sites confirmed; offline packs distributed and checked at each site.'));
   c.push(bullet('Facilitators confirmed, with female facilitators and same-gender grouping where needed, and language matched.'));
+  c.push(bullet('Facilitators hold the required training modules, and both inductions are delivered and recorded before Week 1.'));
   c.push(bullet('Safeguarding and referral pathway concrete and briefed at every site.'));
   c.push(bullet('Diagnostic intake complete; learners placed and paired with mentors.'));
   c.push(bullet('Week-6 and Week-12 assessment windows on the calendar; Week-6 support booked with Amala.'));
@@ -364,6 +375,167 @@ function coordinatorGuide() {
 
   c.push(P('This guide is part of a fully offline, editable pack for Learning Bridge+ (Cox’s Bazar). Not for redistribution outside the programme.', { size: 18, color: GREY, before: 240 }));
   return makeDoc(c, { footerText: "Coordinator Guide  ·  Learning Bridge+ (Cox's Bazar)" });
+}
+
+
+// ============================================================ TRAINER GUIDE
+// For NRC's master educators, who induct the facilitators. Amala trains the master educators (the
+// ttt-cb workshop pack); the master educators run the inductions; the facilitators deliver.
+//
+// The STRUCTURE of each induction - title, hours, purpose, what a facilitator can do afterwards,
+// what it draws on, the trap - is rendered from programmes/learning-bridge-coxs-bazar.yaml, so this
+// guide, the site, and the master educators' workshop packs cannot say different things.
+//
+// The SHAPE below - how the hours are actually spent - is authored here, because there is nowhere in
+// the programme schema for it and inventing a field would be worse than owning the split honestly.
+// checkInductionShapes() fails the run if an induction is added, removed or renamed in the YAML
+// without its shape being updated, so the two halves cannot drift apart silently.
+const INDUCTION_SHAPES = {
+  'IND-1': {
+    forTitle: 'The programme, your three roles, and the Educator Guide',
+    blocks: [
+      ['20 min', 'What the programme is for. The agency thread, in your own words, not read off the page - a young person leaves with more agency than they came with. Then the four components and the two assessed competencies. End by asking each facilitator to say it back in one sentence.'],
+      ['20 min', 'The three roles. Facilitate, mentor, assess - the same person doing all three, all the way through. Draw out that mentoring adds no hours: it runs inside the in-person time they already have.'],
+      ['25 min', 'The week. Three learning days, three hours each, one hour per component, about two hours at home between days. Put the week-by-week map in front of them and walk one real week of it.'],
+      ['45 min', 'THE READING. Hand out the Educator Guide and give them the clock. Nine parts: what is in each one. Then protected, silent reading time - at least half an hour of it - with a task: find the block you would teach on your first Monday, and read it properly. This is the block people cut when they run late. Do not cut it.'],
+      ['30 min', 'Questions, and finding things. Take every question the reading produced. Then set a find-it round: name a thing, they race to the page. "Where is the mentor record?" "Where are the picture cards?" "Where does the plan tell you which sheet number?" They should be finding anything inside a minute by the end.'],
+      ['40 min', 'Run a block on each other. In pairs, from the printed unit plan only, ten minutes each, then swap. Badly is fine. Then do one again, better. This is what makes the rest of it stick.'],
+    ],
+    close: 'They leave holding the Educator Guide, having read part of it, having taught from it once, and able to find anything in it.',
+  },
+  'IND-2': {
+    forTitle: 'Assessment on Learning Bridge+',
+    blocks: [
+      ['20 min', 'What is assessed, and what is not. The two competencies, and where the evidence for each actually comes from in the programme - workbooks, steps taken, the growth path, what learners say and do. Say plainly that much of it is oral and visual, because many learners are not yet literate, and that this is expected rather than a problem to be solved.'],
+      ['30 min', 'The Proficiency Scale, read not memorised. Put the scale in front of them and work down it together. Do not teach it as vocabulary - the words only mean something against real work.'],
+      ['50 min', 'Judging real evidence, and disagreeing. Give the group the same piece of learner evidence and have them place it on the scale independently, then show their hands at once. Where they disagree, make them argue it out and say why it sits there rather than one step up. The disagreement is the training. Do not resolve it too quickly, and do not resolve it with your own authority - resolve it against the scale.'],
+      ['30 min', 'Completing the record. Part 9 of the Educator Guide, one per learner. Each facilitator completes a record for the evidence they just judged. Check the reasons they write, not the boxes they tick - a judgement with no reason cannot be moderated.'],
+      ['25 min', 'The two points, and the grades. What is different about the week-6 supported assessment and the week-12 final one. Then the Pass / Merit / Distinction boundaries, and what a learner actually has to show for each.'],
+      ['25 min', 'Moderation, and what happens when Amala disagrees. What moderation is, when it happens, and what to bring. Make it ordinary: bringing a case and changing your mind is the system working, not a failure. Practise defending one judgement out loud.'],
+    ],
+    close: 'They leave having judged real evidence, argued about it, completed a record, and defended a judgement out loud.',
+  },
+};
+
+// Fails the build rather than shipping a guide that describes an induction the programme no longer
+// has, or omits one it has gained.
+function checkInductionShapes(inductions) {
+  const problems = [];
+  inductions.forEach((ind) => {
+    const shape = INDUCTION_SHAPES[ind.id];
+    if (!shape) problems.push(`${ind.id} ("${ind.title}") has no shape in INDUCTION_SHAPES`);
+    else if (shape.forTitle !== ind.title) problems.push(`${ind.id} was renamed to "${ind.title}" but its shape still describes "${shape.forTitle}"`);
+  });
+  Object.keys(INDUCTION_SHAPES).forEach((id) => {
+    if (!inductions.some((i) => i.id === id)) problems.push(`INDUCTION_SHAPES has ${id}, which is no longer in the programme YAML`);
+  });
+  if (problems.length) throw new Error(`Trainer Guide is out of step with the programme YAML:\n  - ${problems.join('\n  - ')}`);
+}
+
+function trainerGuide() {
+  const q = PROGRAMME.qualification || {};
+  const inductions = q.inductions || [];
+  checkInductionShapes(inductions);
+
+  const c = [];
+  titleBlock(c, 'Trainer Guide', 'Inducting the facilitators');
+  c.push(P('This guide is for NRC’s master educators - the people who induct the facilitators before a cohort starts. It says what induction covers, what it deliberately does not, how to run the two inductions, and how you know a facilitator is ready to start. It is a companion to the Educator Guide, which is what facilitators deliver from, and to the Coordinator Guide, which is how the cohort around them is run.', { size: 22 }));
+  c.push(hr());
+
+  c.push(H1('1. Where induction sits'));
+  c.push(P('Three layers, and it is worth being clear which one you are in. Amala trains you. You induct the facilitators. The facilitators deliver to learners. Amala does not train facilitators directly and is not in the camps.', { size: 22 }));
+  c.push(twoCol(['Layer', 'Who does it'], [
+    ['Training the trainers', 'Amala, remotely - the workshop where you planned the induction you own.'],
+    ['Inducting the facilitators', 'You. This guide.'],
+    ['Delivering the programme', 'The facilitators, from the Educator Guide.'],
+  ]));
+  if (q.intro) c.push(P(q.intro, { size: 22 }));
+
+  c.push(H2('Induction is short on purpose'));
+  c.push(P('There are two inductions, about seven hours in total. That is deliberate, and it only works because most of what a facilitator needs is carried somewhere else.', { size: 22 }));
+  c.push(twoCol(['What', 'Where it is carried'], [
+    ['The craft - facilitating, mentoring, assessing', 'The portable training modules below. A facilitator holds these BEFORE induction. They transfer: an educator who holds Being a mentor holds it wherever they go next.'],
+    ['The component detail - what to teach, in what order', 'The Educator Guide. It is a complete manual, not a summary, and induction teaches them to use it rather than replacing it.'],
+    ['NRC’s Code of Conduct, and the camp MHPSS and protection referral pathway', 'The coordinator, made concrete at each site. NOT you, and not this guide - the pathway is site-specific and has to carry real names and real numbers.'],
+    ['What does not transfer - this programme, in this context', 'Induction. That is all it is for.'],
+  ]));
+  c.push(callout('Check this before you plan a date', [
+    'Facilitators hold the required training modules already. Induction assumes it, and does not teach the craft.',
+    'The coordinator has made the safeguarding and referral pathway concrete at this site. A generic diagram is worse than nothing, because it will be believed.',
+    'You have enough printed Educator Guides for everyone to hold one, and to keep it.',
+  ], PLUM));
+
+  if ((q.requiredModules || []).length) {
+    c.push(H2('What a facilitator holds before induction'));
+    c.push(P('These are portable training modules, held before induction begins. If someone does not hold them, induction is not the place to fix it - tell the coordinator.', { size: 22 }));
+    q.requiredModules.forEach((m) => {
+      const mod = readEducatorModule(m);
+      c.push(bullet(mod && mod.title ? String(mod.title).replace(/^"|"$/g, '') : String(m)));
+    });
+  }
+
+  c.push(pageBreak());
+  c.push(H1('2. The two inductions'));
+  if (q.inductionSummary) c.push(P(q.inductionSummary, { size: 22 }));
+  c.push(P('For each one: what it is for, what a facilitator can do afterwards, a shape for the hours, and the way it usually goes wrong. The shape is a starting point - you planned this, and you may know your facilitators better than the shape does. What is not negotiable is the list of things a facilitator can do at the end.', { size: 22 }));
+
+  inductions.forEach((ind, i) => {
+    const shape = INDUCTION_SHAPES[ind.id];
+    if (i) c.push(pageBreak());
+    c.push(H2(`${ind.id}  ${ind.title}`));
+    c.push(P(`SUGGESTED LENGTH: ${ind.hours || 'not set'}${ind.reviews ? `   ·   YOU WORK FROM: ${ind.reviews}` : ''}`, { size: 19, bold: true, color: OLIVE, after: 80 }));
+    if (ind.purpose) c.push(P(ind.purpose, { size: 23, color: NAVY, after: 60 }));
+    if (ind.note) c.push(P(ind.note, { size: 22 }));
+
+    c.push(mini('After this induction, a facilitator can'));
+    (ind.able || []).forEach((a) => c.push(bullet(a)));
+
+    c.push(mini('A shape for the hours'));
+    c.push(refTable(['Time', 'What happens'], shape.blocks, [1500, 9300]));
+    c.push(P(shape.close, { size: 21, color: OLIVE, bold: true, before: 100 }));
+
+    if ((ind.drawsOn || []).length) {
+      c.push(mini('What it draws on'));
+      (ind.drawsOn || []).forEach((d) => c.push(bullet(d)));
+    }
+    if (ind.trap) c.push(callout('The trap', [ind.trap], PLUM));
+  });
+
+  c.push(pageBreak());
+  c.push(H1('3. How you know a facilitator is ready'));
+  c.push(P('Induction is not assessed and nobody passes or fails it. But you are the last person who sees a facilitator before they stand in front of learners, so somebody has to be able to say they are ready - and that is you.', { size: 22 }));
+  c.push(P('The test is the list under each induction: what a facilitator can DO afterwards. Not what they were told, and not what they nodded at. Watch for these three, which are the ones that actually predict a hard first week.', { size: 22 }));
+  c.push(twoCol(['Watch for', 'What to do about it'], [
+    ['They cannot find things in the Educator Guide.', 'The most common one, and the easiest to miss because nobody admits it. Run the find-it round again. A facilitator who cannot find the block they are teaching will improvise, and improvising is exactly what this pack exists to make unnecessary.'],
+    ['They agreed with every judgement in the assessment induction.', 'Usually politeness, not agreement. Ask them to argue the opposite case out loud. If they cannot, they will not push back at moderation either, and their judgements will drift towards whoever spoke first.'],
+    ['They talk about learners who "cannot" do things.', 'Worth stopping for. Drawing, marking and speaking are full answers on this programme; a facilitator who reads low literacy as low ability will under-record evidence all the way to week 12. Go back to the oral-and-visual evidence examples.'],
+  ]));
+  c.push(callout('If someone is not ready', [
+    'Say so, to the coordinator, before the cohort starts. Not to spare them - to spare the learners a facilitator who is guessing.',
+    'It is almost never the whole induction that needs repeating. Name the one thing, and give them the block again.',
+  ], OLIVE));
+
+  c.push(H1('4. The record'));
+  c.push(P('Keep it light, and keep it. The coordinator needs to be able to say, for any facilitator in front of any learner, that they were inducted and when.', { size: 22 }));
+  c.push(refTable(['Facilitator', 'IND-1 date', 'IND-2 date', 'Ready to start?  (and if not, the one thing)'], [
+    ['', '', '', ''], ['', '', '', ''], ['', '', '', ''], ['', '', '', ''], ['', '', '', ''], ['', '', '', ''],
+  ], [3000, 1800, 1800, 4200]));
+
+  c.push(H1('5. Somebody joins mid-cohort'));
+  c.push(P('It will happen - staff turnover in the camps is a fact of the context, not an exception to plan around. Attendance is stop-start for learners, and it is stop-start for facilitators too.', { size: 22 }));
+  c.push(bullet('Run IND-1 before they take a session. Never skip it: it is the one that makes the Educator Guide usable, and a facilitator without it will be improvising in front of a group in their first week.'));
+  c.push(bullet('IND-2 can wait, but only until the assessment window is in sight. Run it before the week-6 supported assessment, not during it.'));
+  c.push(bullet('Pair them with a facilitator who has been there since Week 1, for their first two weeks. This is worth more than anything you can say in a room.'));
+  c.push(bullet('Tell the coordinator what you cut and when you will run it, so the record stays honest.'));
+
+  c.push(H1('6. After induction'));
+  c.push(P('Induction is not the end of your involvement, and the first two weeks are where it either lands or does not.', { size: 22 }));
+  c.push(bullet('Sit in on one session per facilitator in the first fortnight. Not to judge them - to see which parts of the guide they are actually using, and which they have quietly stopped opening.'));
+  c.push(bullet('Take the questions that arrive in week two seriously. They are the real ones. The questions asked in the induction room are mostly about the programme; the questions asked in week two are about the learners in front of them.'));
+  c.push(bullet('Feed what you see back to the coordinator, and to Amala. If several facilitators are stuck on the same thing, that is a curriculum problem, not a training problem, and Amala should hear about it.'));
+
+  c.push(P('This guide is part of a fully offline, editable pack for Learning Bridge+ (Cox’s Bazar). Not for redistribution outside the programme.', { size: 18, color: GREY, before: 240 }));
+  return makeDoc(c, { footerText: "Trainer Guide  ·  Learning Bridge+ (Cox's Bazar)" });
 }
 
 // ---- the contents page ------------------------------------------------------------------------
@@ -947,6 +1119,7 @@ async function main() {
   fs.mkdirSync(OUT, { recursive: true });
   const jobs = [
     ['lb-coxs-bazar-coordinator-guide.docx', coordinatorGuide()],
+    ['lb-coxs-bazar-trainer-guide.docx', trainerGuide()],
     ['lb-coxs-bazar-educator-guide.docx', educatorGuide()],
     ['lb-coxs-bazar-student-workbook.docx', studentWorkbook()],
   ];

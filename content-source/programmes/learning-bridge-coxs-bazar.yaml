@@ -66,6 +66,13 @@ downloads:
       For the NRC programme coordinator. How to set up sites and facilitators, run the 12-week rhythm,
       schedule the week-6 supported and week-12 final assessments, and coordinate safeguarding and Amala
       moderation. Editable.
+  - label: Trainer Guide - inducting the facilitators
+    file: /downloads/lb-coxs-bazar-trainer-guide.docx
+    format: Word
+    note: >-
+      For NRC's master educators, who induct the facilitators before a cohort starts. What induction
+      covers and what it deliberately does not, a shape for each of the two inductions, how you know a
+      facilitator is ready, the record, and what to do when someone joins mid-cohort. Editable.
   - label: Educator Guide - the complete manual
     file: /downloads/lb-coxs-bazar-educator-guide.docx
     format: Word
@@ -108,13 +115,95 @@ downloads:
       group, printed and cut up, so they stay in the Educator Guide and the component packs. Editable.
 
 
-# ---- The agency thread ---------------------------------------------------------------------------
-# Agency for positive change is Amala's required outcome (foundations/agency.yaml), and it was stated
-# here only implicitly. This block is the spine made explicit: what the programme is for, what each
-# component contributes to it, what developing each assessed competency contributes, and how movement
-# is actually noticed in a cohort that is largely oral and pre-literate. It renders on the programme
-# page and is generated into both the Educator Guide (§1.0) and the Coordinator Guide (§1), so the
-# people delivering the programme are told what it is ultimately for.
+# ---- Who is qualified to deliver this ------------------------------------------------------------
+# Two different things, deliberately kept apart. The modules are PORTABLE - held by the person and
+# carried to whatever they deliver next. The inductions are PROGRAMME-SPECIFIC - this programme's
+# tools, records, cadence and rules - and transfer nowhere. Together they are what an NRC facilitator
+# needs before they run a cohort.
+#
+# The inductions are being planned now, one owner each, by NRC's master educators. Until each one is
+# authored, this block is the brief they plan from - see docs/NRC-MASTER-EDUCATOR-WORKSHOP-PLAN.md.
+qualification:
+  intro: >-
+    A facilitator is ready to deliver Learning Bridge+ in Cox's Bazar when they hold the training
+    modules below and have completed the programme inductions. The modules are portable: an educator
+    who holds Being a mentor holds it wherever they go next. The inductions are specific to this
+    programme and this context, and do not transfer.
+  requiredModules:
+    - introduction-to-tem
+    - safeguarding
+    - designing-facilitating-group-learning
+    - being-a-mentor
+    - teaching-english-second-language
+    - conducting-assessments
+  inductionSummary: >-
+    Two inductions, delivered by NRC's master educators, who are qualified to train through Amala's
+    train-the-trainer module. Each has one named owner planning it. They are deliberately short: the
+    craft of facilitating, mentoring and assessing is carried by the portable modules above, which a
+    facilitator holds before induction begins, and the Educator Guide carries the component detail -
+    so induction covers only what does not transfer. Two things sit outside it and belong to the
+    coordinator: NRC's Code of Conduct, and the camp MHPSS and protection referral pathway, made
+    concrete at each site before any facilitator takes a mentoring caseload.
+  inductions:
+    - id: IND-1
+      title: The programme, your three roles, and the Educator Guide
+      hours: "3-4 hrs"
+      reviews: "The Educator Guide, all nine parts - read in the room, not beforehand"
+      note: >-
+        What the programme is for, the agency thread, the four components, the two assessed
+        competencies, and the weekly rhythm - 3 hours in person plus 2 independent, across at least
+        10 weeks. Then the Educator Guide itself: what is in each of its nine parts, protected time to
+        read it, and the questions that come out of reading it.
+      purpose: >-
+        A facilitator can say what Learning Bridge+ is for, name what it is ultimately building, run
+        the weekly rhythm without asking anyone, and find anything they need in the Educator Guide.
+      able:
+        - >-
+          Say what the programme is for in their own words - a young person leaves with more agency
+          than they came with - and name the four components.
+        - "Name the two formally assessed competencies: Set and Pursue Goals, and Investigate Real World Issues."
+        - >-
+          Describe the week: 3 hours in person plus 2 independent, across a minimum of 10 weeks, with
+          mentoring folded into the in-person time.
+        - Say what is in each of the nine parts of the Educator Guide, and find anything in it inside a minute.
+        - Run a block straight from the facilitator unit plan, using only what is printed.
+        - Use the learner book by sheet number - the plan points into it that way.
+        - Say what NRC does and what Amala does, including what moderation is and when it happens.
+      drawsOn:
+        - The Educator Guide - Part 1 for the agency thread and the three roles, Parts 4-6 for the unit plans, Parts 7-8 for the learner books and cards
+        - The programme page on the Amala site
+      trap: >-
+        The easy version of this is a briefing about Amala, followed by "read the guide at home".
+        Nobody reads it at home. The reading happens in the room, on the clock, and every block ends
+        with something the facilitator can do on their first Monday.
+    - id: IND-2
+      title: Assessment on Learning Bridge+
+      hours: "3-4 hrs"
+      reviews: "Educator Guide Part 9 - the two assessment records - and the Proficiency Scale"
+      note: >-
+        Judging the two assessed competencies against the Proficiency Scale at the week-6 supported
+        and week-12 final points, completing the records, the Pass / Merit / Distinction boundaries,
+        and bringing a case to Amala moderation.
+      purpose: >-
+        A facilitator can judge the two assessed competencies against the Proficiency Scale at week 6
+        and week 12, complete the records, and bring a case to moderation.
+      able:
+        - Name the two assessed competencies and say where the evidence for each actually comes from in the programme.
+        - Place a real piece of learner evidence on the Proficiency Scale, and say why it sits there rather than one step up.
+        - Say what is different about the week-6 supported assessment and the week-12 final one.
+        - Complete the assessment record for a learner.
+        - Explain the grade boundaries - Pass, Merit, Distinction - and what a learner has to show for each.
+        - Bring a case to Amala moderation and defend a judgement, or change it.
+      drawsOn:
+        - Educator Guide Part 9 (the two assessment records)
+        - The Proficiency Scale
+        - "The programme's grading block: Pass / Merit / Distinction"
+        - MOD-C, Conducting assessments of competence, for the underlying craft
+      trap: >-
+        Teaching the scale as vocabulary. Facilitators have to judge real or realistic evidence in the
+        room, and disagree with each other about it. The disagreement is the training - not the slide
+        that resolves it.
+
 agencyThread:
   statement: >-
     Everything in this programme serves one outcome: that a young person leaves it with more agency
@@ -368,7 +457,7 @@ delivery:
   - title: Facilitators and learning spaces
     detail: >-
       Delivery is in Community Based Learning Facilities, often a room in a teacher's shelter, by
-      NRC-recruited facilitators trained by Amala (remotely, plus a pre-rollout session). Materials
+      NRC-recruited facilitators, inducted by NRC's own master educators. Materials
       are designed to be run by facilitators with limited training, carried by strong say-aloud
       guidance rather than assumed subject expertise. Plan for female facilitators and same-gender
       grouping where girls' participation depends on it.
@@ -382,9 +471,10 @@ support:
   - title: Amala's role
     detail: >-
       Amala is the remote technical consultant to NRC: it contextualises the curriculum, supplies
-      ready-made offline resources, trains facilitators and the programme coordinator, and moderates
-      assessment. NRC leads implementation, recruits and manages facilitators, and delivers in the
-      camps.
+      ready-made offline resources, trains NRC's master educators and the programme coordinator, and
+      moderates assessment. Amala does not train facilitators directly and does not deliver in the
+      camps: NRC's master educators induct the facilitators, and NRC leads implementation, recruits and
+      manages facilitators, and delivers.
   - title: Resources
     detail: >-
       Ready-made, editable, fully offline resources. The Educator Guide is the single document a
