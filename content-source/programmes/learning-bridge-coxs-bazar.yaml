@@ -103,6 +103,14 @@ downloads:
       The learner book for the Research Project on its own - the Learn it pages, the source cards, the
       evidence log and the analysis pages. Opens with a numbered list of its sheets. Print one per
       learner. Editable.
+  - label: The English Check - the full pack
+    file: /downloads/cb-en-check-admin-guide.docx
+    format: Word
+    note: >-
+      How to run the baseline and endline check of English proficiency: the two days, the marking, the
+      record sheet, and what to put in a report. The four other files in the pack - Form A, Form B, the
+      marking pack, and the record and profile sheets - are on the English Check page
+      (materials/cb-en-check), which is also where the instrument is explained. Editable.
   - label: Student Workbook - one book per learner
     file: /downloads/lb-coxs-bazar-student-workbook.docx
     format: Word
@@ -369,7 +377,10 @@ components:
       sentences, and make and share a personal "My Name, My Voice" card. Comes with a full week-by-week
       unit plan, and dovetails with the learning goals set in Agency in Learning. English progress is
       assessed formatively, against A1- Can-Do outcomes, not as one of the two formally graded
-      competencies.
+      competencies. Alongside that, the English Check (materials/cb-en-check) measures proficiency
+      itself - a 45-minute offline reading, writing and speaking check taken once before teaching
+      starts and once in the final week, reported as three separate steps on a scale running from
+      below-A1 to B1, so a site can show whether English measurably improved.
     structuredHours: 50
     facilitatedHours: 30
     independentHours: 20
