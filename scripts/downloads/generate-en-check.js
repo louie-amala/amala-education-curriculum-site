@@ -1,11 +1,12 @@
 /* Generate the English Check pack - the baseline/endline proficiency instrument for the English
    Language Development component of Learning Bridge+ (Cox's Bazar):
 
-     cb-en-check-form-a.docx        (learner booklet, baseline - keys stripped)
-     cb-en-check-form-b.docx        (learner booklet, endline - keys stripped)
-     cb-en-check-marking-pack.docx  (facilitator only: both keys, mark schemes, marking sheet, card)
-     cb-en-check-admin-guide.docx   (how to run it)
-     cb-en-check-record-sheets.docx (class record sheet + learner profile sheet)
+     cb-en-check-baseline.docx        (the paper, first session - answers stripped)
+     cb-en-check-endline.docx         (the paper, final week - answers stripped)
+     cb-en-check-marking-pack.docx    (facilitator only: both answer keys and tick schemes)
+     cb-en-check-guide.docx           (the complete guide - coordinator and facilitator)
+     cb-en-check-learner-profile.docx (the learner's own "what I can do" sheet)
+     cb-en-check-record-sheet.csv     (the class spreadsheet, with live formulas)
 
    RENDERED from the planning docs in docs/, which are the single source of truth for every item,
    key and conversion table. Nothing here re-types content: edit the markdown, re-run this.
@@ -232,43 +233,80 @@ const write = async (name, children) => {
   console.log(`  ${name}  ${(buf.length / 1024).toFixed(0)} kB`);
 };
 
+// The coordinator's spreadsheet. Written as CSV rather than xlsx because the repo has no
+// spreadsheet library and does not need one: Excel and Google Sheets both evaluate a leading "="
+// on import, so the level and change columns arrive live. The facilitator only ever enters the raw
+// scores - every level is calculated, so nobody looks up a table and nobody mistypes a level.
+const BANDS = { reading: [39, 28, 17], writing: [23, 14, 7], speaking: [14, 9, 4] };
+const level = (cell, [b1, a2, a1]) =>
+  `=IF(${cell}="","",IF(${cell}>=${b1},"B1",IF(${cell}>=${a2},"A2",IF(${cell}>=${a1},"A1","Pre-A1"))))`;
+const change = (a, b) => `=IF(OR(${a}="",${b}=""),"",${b}-${a})`;
+
+const recordCsv = (rows = 30) => {
+  const q = (v) => `"${String(v).replace(/"/g, '""')}"`;
+  const head = ['Learner',
+    'Reading raw (start) /45', 'Reading CEFR (start)', 'Reading raw (end) /45', 'Reading CEFR (end)', 'Reading change',
+    'Writing raw (start) /30', 'Writing CEFR (start)', 'Writing raw (end) /30', 'Writing CEFR (end)', 'Writing change',
+    'Speaking raw (start) /16', 'Speaking CEFR (start)', 'Speaking raw (end) /16', 'Speaking CEFR (end)', 'Speaking change',
+    'Notes'];
+  const out = [
+    ['THE ENGLISH CHECK - class record'].map(q).join(','),
+    ['Class:,,Facilitator:,,Baseline date:,,Endline date:'].join(''),
+    [''].join(''),
+    ['Enter the RAW scores only. The CEFR and change columns calculate themselves.'].map(q).join(','),
+    ['Reading /45: Pre-A1 0-16, A1 17-27, A2 28-38, B1 39-45   |   Writing /30: Pre-A1 0-6, A1 7-13, A2 14-22, B1 23-30   |   Speaking /16: Pre-A1 0-3, A1 4-8, A2 9-13, B1 14-16'].map(q).join(','),
+    ['Never average the three. A learner is often a level higher in speaking than in writing.'].map(q).join(','),
+    [''].join(''),
+    head.map(q).join(','),
+  ];
+  for (let i = 0; i < rows; i++) {
+    const r = i + 9; // header row is 8
+    out.push([
+      '', '', level(`B${r}`, BANDS.reading), '', level(`D${r}`, BANDS.reading), change(`B${r}`, `D${r}`),
+      '', level(`G${r}`, BANDS.writing), '', level(`I${r}`, BANDS.writing), change(`G${r}`, `I${r}`),
+      '', level(`L${r}`, BANDS.speaking), '', level(`N${r}`, BANDS.speaking), change(`L${r}`, `N${r}`),
+      '',
+    ].map(q).join(','));
+  }
+  return out.join('\n') + '\n';
+};
+
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
-  const A = splitForm(read('ENGLISH-ASSESSMENT-FORM-A.md'));
-  const B = splitForm(read('ENGLISH-ASSESSMENT-FORM-B.md'));
-  const sheets = read('ENGLISH-ASSESSMENT-SHEETS.md');
+  const base = splitForm(read('ENGLISH-ASSESSMENT-BASELINE.md'));
+  const end = splitForm(read('ENGLISH-ASSESSMENT-ENDLINE.md'));
 
-  await write('cb-en-check-form-a.docx', [
-    ...cover('Form A', 'The booklet each learner works in at the start of the course.',
-      'Print one per learner. Write each learner’s own name into it before the sitting, everywhere the page says [learner’s name]. This booklet contains no answers.'),
-    ...blocks(stripInternal(A.booklet), S.BOOK),
+  await write('cb-en-check-baseline.docx', [
+    ...cover('Baseline', 'Sit this in the first session, before any teaching.',
+      'One per learner. Write each learner\u2019s own name into it beforehand, everywhere the page says [learner\u2019s name] \u2014 three tasks depend on it. This paper contains no answers.'),
+    ...blocks(stripInternal(base.booklet), S.BOOK),
   ]);
 
-  await write('cb-en-check-form-b.docx', [
-    ...cover('Form B', 'The booklet each learner works in in the final week.',
-      'Same tasks, same order, different content - so nobody sits the same paper twice. Six slots are deliberately identical to Form A. This booklet contains no answers.'),
-    ...blocks(stripInternal(B.booklet), S.BOOK),
+  await write('cb-en-check-endline.docx', [
+    ...cover('Endline', 'Sit this in the final week of the course.',
+      'Same tasks in the same order as the baseline, with different content, so nobody sits the same questions twice. One per learner. This paper contains no answers.'),
+    ...blocks(stripInternal(end.booklet), S.BOOK),
   ]);
 
   await write('cb-en-check-marking-pack.docx', [
-    ...cover('Marking pack', 'Keys, mark schemes, the marking sheet and the conversion card.',
-      'FOR THE FACILITATOR ONLY. Never print this into a learner booklet and never leave it where learners can read it - they sit these same tasks again at the end of the course.'),
-    ...blocks(A.marking), pageBreak(),
-    ...blocks(B.marking), pageBreak(),
-    ...blocks(section(sheets, 'The conversion card')), pageBreak(),
-    ...blocks(section(sheets, 'The marking sheet')),
+    ...cover('Marking pack', 'The answers and the tick schemes, for both papers.',
+      'FOR THE FACILITATOR ONLY. Never print this into a learner\u2019s paper and never leave it where learners can read it \u2014 they sit these same tasks again at the end of the course.'),
+    ...blocks(base.marking), pageBreak(),
+    ...blocks(end.marking),
   ]);
 
-  await write('cb-en-check-admin-guide.docx', [
-    ...cover('How to run it', 'The full administration guide.',
-      'Written for a facilitator who does not know the CEFR, and who does not need to.'),
+  await write('cb-en-check-guide.docx', [
+    ...cover('The complete guide', 'For the coordinator and the facilitator.',
+      'Part A is the coordinator\u2019s: what to print, the record spreadsheet, and how to read the results. Part B is the facilitator\u2019s: running it, marking it, and what to do with it.'),
     ...blocks(read('ENGLISH-ASSESSMENT-ADMIN-GUIDE.md')),
   ]);
 
-  await write('cb-en-check-record-sheets.docx', [
-    ...cover('Record and profile sheets', 'The class record sheet, and the learner’s own profile.',
-      'The class record sheet is one per class, filled in twice. The profile sheet is one per learner and is given to them - read it through together.'),
-    ...blocks(section(sheets, 'The class record sheet')), pageBreak(),
-    ...blocks(section(sheets, 'The learner profile sheet')),
+  await write('cb-en-check-learner-profile.docx', [
+    ...cover('What I can do in English', 'The learner\u2019s own sheet.',
+      'One per learner, given to them at the end of the course. Read it through together \u2014 most learners at this level cannot read it alone, and that is fine.'),
+    ...blocks(read('ENGLISH-ASSESSMENT-PROFILE.md'), S.BOOK),
   ]);
+
+  fs.writeFileSync(path.join(OUT, 'cb-en-check-record-sheet.csv'), recordCsv());
+  console.log('  cb-en-check-record-sheet.csv');
 })();

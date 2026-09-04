@@ -14,10 +14,10 @@ edition: learning-bridge-coxs-bazar
 type: resource
 title: "The English Check - measuring progress at the start and the end"
 summary: >-
-  A 45-minute offline reading, writing and speaking check, taken once before teaching starts and once in
-  the final week, that places each learner on a 1-10 step ladder from below-A1 to B1 and shows whether
-  they moved. Two parallel forms so nobody sits the same paper twice. Marked by counting, not judging -
-  a facilitator does not need to know the CEFR to use it.
+  The assessment itself, in two papers: a baseline sat in the first session before any teaching, and an
+  endline sat in the final week. Same tasks, different content. One paper for the whole class, three
+  parts - Reading, Writing, Speaking - marked by counting, and turned into a CEFR level by the class
+  spreadsheet. Fully offline.
 facilitationContext:
 - group
 - independent
@@ -42,117 +42,88 @@ facilitationNotes: |
   Keep the three results apart. A learner is routinely several steps higher in speaking than in writing,
   and that gap is the most useful thing the sheet will tell you. Never average them into one level.
 educatorContent: |
+  ## Where the assessment is
+
+  The two papers are the first two downloads on this page: **the baseline**, sat in the first session
+  before any teaching, and **the endline**, sat in the final week. They are the same tasks in the same
+  order with different content, so nobody sits the same questions twice. Everything else here explains
+  how to run and mark them.
+
   ## What it is
 
-  Twice in the course - once before teaching starts, once in the final week - learners do a short set of
-  reading and writing tasks, and, if there is time, a six-minute talk with the facilitator. It is marked
-  by **counting**, not judging. Each learner ends on a **step from 1 to 10** in reading, in writing, and
-  in speaking. The gain is the end number minus the start number.
+  One paper, sat by the whole class on paper, in three parts:
 
-  It is not a pass or fail and it is not a gate. English is not one of the two competencies formally
-  graded on Learning Bridge+, and nothing about a learner's place on the programme depends on this.
+  | | | Marks | Time |
+  |---|---|---|---|
+  | **Part 1 - Reading** | 12 tasks, from letters to a short article | 45 | 28 min |
+  | **Part 2 - Writing** | 6 tasks, from your own name to a letter | 30 | 22 min |
+  | **Part 3 - Speaking** | five prompts, one to one - **optional** | 16 | 6 min |
 
-  ## The steps
+  There is no routing and there are no separate booklets. Tasks run easiest first, and a learner who
+  cannot do a task leaves it and moves on. **Most learners will not finish every part, and that is
+  expected** - a blank is information, not failure.
 
-  | Step | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-  |---|---|---|---|---|---|---|---|---|---|---|
-  | Level | below Pre-A1.1 | Pre-A1.1 | Pre-A1.2 | Pre-A1.3 | A1.1 | A1.2 | A2.1 | A2.2 | B1 | above this check |
+  ## The levels
 
-  Only the whole levels - Pre-A1, A1, A2, B1 - are CEFR levels. The halves are Amala's, because a
-  50-hour course moves a learner about half a CEFR level and a whole-level scale would show nothing.
-  Each step is defined by what a learner can observably do, never by a share of the marks. The ladder
-  stops at B1 because B1 is the entry requirement for the Global Secondary Diploma, and because a band
-  no marker on the ground can apply reliably produces numbers that only look like measurement.
+  Four: **Pre-A1 · A1 · A2 · B1**. Each part gets its own level, and they are never combined - a
+  learner is routinely a level higher in speaking than in writing, and that difference is the useful
+  part.
 
-  Write the **number** on the record sheet. The level names are for the report.
+  | | Pre-A1 | A1 | A2 | B1 |
+  |---|---|---|---|---|
+  | Reading /45 | 0-16 | 17-27 | 28-38 | 39-45 |
+  | Writing /30 | 0-6 | 7-13 | 14-22 | 23-30 |
+  | Speaking /16 | 0-3 | 4-8 | 9-13 | 14-16 |
 
-  ## What is in the check
+  The ladder starts below A1 because the CEFR assumes literacy even at A1, and a cohort that is largely
+  not yet reading in any language sits underneath the framework rather than at the bottom of it. It
+  stops at B1 because that is the level the Global Secondary Diploma requires.
 
-  | Part | Time | Who |
-  |---|---|---|
-  | **0G - Foundations, group mode** | 10 min, whole class | everyone |
-  | **0 - Foundations, one to one** | 8 min | only where a second adult can hold the room, or a class under 12 |
-  | **1 - Core** | 12 min, whole class | everyone who did not stop at Part 0 |
-  | **2A - Lower booklet** | 18 min, whole class | everyone |
-  | **2B - Reach booklet** | 20 min | the few who scored 15+ on Part 1, on another day |
-  | **3 - The talk** | 6 min, one to one | everyone, or a random sample |
+  **The raw score is what shows progress, not the level.** Fifty hours moves a beginner a long way
+  inside a level and rarely across one: a learner going from 12 to 24 on Reading has gained a great
+  deal and is "A1" at both ends. The class spreadsheet holds both numbers for exactly that reason, and
+  a rise of four or more marks on a part counts as a real move.
 
-  Part 0 tests only what the component actually teaches: the taught sounds (s, t, l, m, n, the short
-  vowels a, o, u, and the hard k sound), the learner's own name, and the three frames. The plosive pairs
-  are not tested, because they come last in the phonics sequence. The only English this component puts in
-  front of learners **in print** is their name and the frames, so those are the only words the reading
-  task uses.
+  ## Timing, which is the one thing that cannot flex
 
-  ## How the two days run
+  The baseline is sat in the **first session, before any teaching**. A learner who sits it in the fifth
+  session has already had five sessions of English and their "before" number is wrong. The endline is
+  sat in the **final week**.
 
-  Both sittings are one day each, not spread out.
+  ## The speaking part is optional
 
-  1. **Everyone together for the paper parts** - about 40 minutes, you leading from the front. No
-     supervision problem: the whole class is doing the same thing with you in the room.
-  2. **Everyone except the talk sample goes home.** On these two days nobody is missing any teaching,
-     which is what makes this work.
-  3. **The talk sample, by appointment** - 10:00, 10:08, 10:16, given out beforehand. About an hour, with
-     nobody waiting and nobody to supervise. Ten learners told to *wait* is a supervision problem; ten
-     learners each told a *time* is not.
+  Take whichever of these is possible - all three are fine:
 
-  If the group must arrive and leave together, give the waiting learners the picture-word and drawing
-  pages of the My Voice book. Never frame practice - "I am ___" is the language the talk measures, and
-  drilling it ten minutes beforehand shows up as a gain that is really just warm-up.
+  - the whole class, one at a time, before the programme starts;
+  - some learners, however many fit, chosen at random beforehand and spoken with again at the end;
+  - nobody, in which case say so in the report.
 
-  Cleanest of all where it is possible: do the baseline talks at registration, one learner at a time as
-  they enrol. No class to supervise yet, and no teaching has happened.
-
-  ## Choosing your mode
-
-  | | One-to-one time, class of 25 | Use it when |
-  |---|---|---|
-  | **Standard** | about 1 hour per sitting | The normal choice - Part 0G with the class, talk sampled |
-  | **Full** | over 5 hours per sitting | A second adult, or a class under 12 |
-  | **Paper only** | none | Nobody at all can sit with a learner |
-
-  Whatever mode you use at the start, **use the same mode at the end**. Part 0 and Part 0G are marked on
-  different tables, and swapping them makes a learner look like they improved when they did not.
-
-  If only one one-to-one part can survive, **keep the talk**. This component leads with the ear and the
-  voice and treats writing as something that grows out of speaking. Speaking is very probably where your
-  learners gained most, and a paper-only result will make the course look weaker than it was.
-
-  If the talk is sampled: at least 10 learners or 4 in every 10, whichever is more, drawn **at random
-  before the baseline**, and the same learners again at the end. Choosing who to assess means choosing
-  the confident speakers.
+  If it can be run, it is worth running. This component leads with the ear and the voice and treats
+  writing as something that grows out of speaking, so speaking is very probably where learners gain
+  most - and a paper-only result will understate the course.
 
   ## Marking
 
-  Everything is on the marking sheet, in the order you mark it. You are counting, not judging - every
-  writing task is a list of tick boxes. Two facilitators counting the same page should reach the same
-  number; if you are deciding how *good* something is, you have left the sheet.
+  Counting, not judging. Every writing task is a list of tick boxes: read what the learner wrote, tick
+  what is there, count the ticks. Two facilitators marking the same page should reach the same number.
 
   - Spelling is not marked unless a tick box says so. If you can read it, it counts.
-  - Accent is not marked. You are asking whether they got the word.
   - What a learner chooses to write is never wrong. "I like rice" is as full an answer as "I am Nur".
-  - A blank is a zero, not a mistake. Do not chase it.
-  - Mark the whole class one task at a time - all the question 8s, then all the question 9s. Faster and
-    more consistent than working learner by learner.
-  - If you are unsure between two ticks, do not tick. Undercounting is consistent; guessing is not.
+  - Mark the whole class one task at a time, not one learner at a time.
+  - If you are unsure between two ticks, do not tick.
 
-  Then use the conversion card to turn each total into a step number.
+  The facilitator records three raw totals and nothing else. The class spreadsheet turns them into
+  levels by formula, so nobody looks up a table and nobody mistypes a level.
 
-  ## Reading the result
+  ## Context and its limits
 
-  **A gain** is the step number going up by 1 or more, or the raw Part 1 score going up by 4 or more. A
-  rise of 1 or 2 raw marks is not a gain - it is the ordinary wobble of a different day and a different
-  mood.
+  Part 1 tests only what this component teaches - the taught sounds, the learner's own name, and the
+  three frames. The plosive pairs come last in the phonics sequence, so no decoding task uses b, d, g
+  or p. Content is drawn from block and shelter life, water, the health post, the learning centre, the
+  weather, small work and family. Repatriation, violence, fire, loss of family, boat journeys and camp
+  politics are excluded without exception, "I am from ___" is never a required answer, and every
+  writing and speaking prompt offers a lighter everyday choice that counts as a full answer.
 
-  Six slots are identical in both forms (the anchors). If the class moved on those as much as on
-  everything else, look at how the two sittings were run before believing the result.
-
-  Say in any report that this check measures reading, writing and speaking and **does not measure
-  listening**; that the three are reported separately and not averaged; and, where the talk was sampled,
-  how many learners were assessed and that they were chosen at random before the course began.
-
-  The most valuable use is not the report. A learner on step 3 who lost every mark on sounding out needs
-  phonics; one on step 6 whose note gave no reason needs "because". The marking sheet tells you what to
-  teach next, and it tells you that immediately, not at the end of the course.
 learnerContent: |
   ## What I can do in English
 
@@ -237,43 +208,54 @@ relatedSlugs:
 - cb-mv-i-am-sentences
 - cb-mv-my-voice-book
 downloads:
-- label: The English Check - Form A (baseline)
-  file: /downloads/cb-en-check-form-a.docx
+- label: The assessment - BASELINE paper
+  file: /downloads/cb-en-check-baseline.docx
   format: Word
   role: worksheet
   note: >-
-    The booklet each learner works in at the start of the course - Parts 0, 0G, 1, 2A, 2B and the talk
-    script. Print one per learner. Write each learner's own name in it before the sitting. Editable.
-- label: The English Check - Form B (endline)
-  file: /downloads/cb-en-check-form-b.docx
+    The paper itself, sat in the first session before any teaching. Parts 1 and 2 are done by the whole
+    class on paper; Part 3, the speaking prompts, is optional. Print one per learner and write each
+    learner's own name into it beforehand - three tasks depend on it. Contains no answers. Editable.
+- label: The assessment - ENDLINE paper
+  file: /downloads/cb-en-check-endline.docx
   format: Word
   role: worksheet
   note: >-
-    The final-week booklet. Same tasks, same order, different content - so nobody sits the same paper
-    twice. Six slots are deliberately identical to Form A. Print one per learner. Editable.
-- label: The English Check - marking pack
+    The paper sat in the final week. The same tasks in the same order as the baseline with different
+    content, so nobody sits the same questions twice. Five tasks are deliberately identical in both.
+    Print one per learner. Contains no answers. Editable.
+- label: Marking pack - the answers for both papers
   file: /downloads/cb-en-check-marking-pack.docx
   format: Word
   role: template
   note: >-
-    Answer keys for both forms, the tick-box mark schemes, the marking sheet, and the conversion card.
-    For the facilitator only - never goes in a learner booklet. Print the conversion card once per
-    marker and laminate it. Editable.
-- label: The English Check - how to run it
-  file: /downloads/cb-en-check-admin-guide.docx
+    Answer keys and the tick-box schemes for the baseline and the endline. For the facilitator only -
+    never print it into a learner's paper, and never leave it where learners can read it, because they
+    sit the same tasks again at the end of the course. Editable.
+- label: The complete guide - coordinator and facilitator
+  file: /downloads/cb-en-check-guide.docx
   format: Word
   role: explainer
   note: >-
-    The full administration guide: what to do the fortnight before, how the two days run, marking, the
-    class record sheet, what to put in a report, and what to do when something goes wrong. Written for a
-    facilitator who does not know the CEFR. Editable.
-- label: The English Check - record and profile sheets
-  file: /downloads/cb-en-check-record-sheets.docx
-  format: Word
+    Part A is the coordinator's: what to print, the record spreadsheet, how to read the results, and
+    what to put in a report. Part B is the facilitator's: running it, marking it, and what to do with
+    what it shows. Written for someone who does not know the CEFR. Editable.
+- label: Class record spreadsheet
+  file: /downloads/cb-en-check-record-sheet.csv
+  format: Spreadsheet
   role: template
   note: >-
-    The class record sheet (one per class, filled in twice) and the learner profile sheet (one per
-    learner, given to them). Editable.
+    Open in Excel or Google Sheets. The coordinator enters the raw scores only; the CEFR level and the
+    change between the two sittings calculate themselves. Reading, writing and speaking have their own
+    columns and are never averaged.
+- label: Learner profile - what I can do in English
+  file: /downloads/cb-en-check-learner-profile.docx
+  format: Word
+  role: worksheet
+  note: >-
+    One per learner, given to them at the end and read through together. "I can" statements in plain
+    language, and four lines for the learner to name their own growth. Never show a learner a CEFR
+    level. Editable.
 sourceRefs:
 - units/coxs-bazar-my-voice.yaml
 - efi-my-voice.yaml
