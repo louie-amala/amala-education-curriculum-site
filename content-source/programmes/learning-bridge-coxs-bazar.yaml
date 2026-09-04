@@ -103,15 +103,49 @@ downloads:
       The learner book for the Research Project on its own - the Learn it pages, the source cards, the
       evidence log and the analysis pages. Opens with a numbered list of its sheets. Print one per
       learner. Editable.
-  - label: The English Check - the complete guide
+  - label: English assessment - the BASELINE paper
+    file: /downloads/cb-en-check-baseline.docx
+    format: Word
+    note: >-
+      The English assessment itself, sat in the first session before any teaching. One paper for the
+      whole class in three parts - Reading, Writing, and an optional Speaking section. Print one per
+      learner and write each learner's own name into it beforehand; three tasks depend on it. Contains
+      no answers. Editable.
+  - label: English assessment - the ENDLINE paper
+    file: /downloads/cb-en-check-endline.docx
+    format: Word
+    note: >-
+      The same assessment sat in the final week - the same tasks in the same order with different
+      content, so nobody sits the same questions twice. Comparing the two is what shows whether English
+      improved. Print one per learner. Contains no answers. Editable.
+  - label: English assessment - marking pack (answers)
+    file: /downloads/cb-en-check-marking-pack.docx
+    format: Word
+    note: >-
+      The answer keys and tick-box schemes for both papers. For the facilitator only - never print it
+      into a learner's paper and never leave it where learners can read it, because they sit the same
+      tasks again at the end. Editable.
+  - label: English assessment - the complete guide
     file: /downloads/cb-en-check-guide.docx
     format: Word
     note: >-
-      How to run the baseline and endline assessment of English proficiency. Part A is the
-      coordinator's - what to print, the record spreadsheet, and how to read the results; Part B is the
-      facilitator's - running it, marking it, and what to do with what it shows. The papers themselves,
-      the marking pack, the class spreadsheet and the learner profile sheet are on the English Check
-      page (materials/cb-en-check). Editable.
+      How to run the baseline and endline. Part A is the coordinator's - what to print, the record
+      spreadsheet, and how to read and report the results; Part B is the facilitator's - running it,
+      marking it, and what to do with what it shows. Written for someone who does not know the CEFR.
+      Editable.
+  - label: English assessment - class record spreadsheet
+    file: /downloads/cb-en-check-record-sheet.csv
+    format: Spreadsheet
+    note: >-
+      Open in Excel or Google Sheets. Enter the raw scores only; the CEFR level and the change between
+      the two sittings calculate themselves. Reading, writing and speaking have their own columns and
+      are never averaged.
+  - label: English assessment - learner profile sheet
+    file: /downloads/cb-en-check-learner-profile.docx
+    format: Word
+    note: >-
+      One per learner, given to them at the end of the course and read through together. "I can"
+      statements in plain language, and four lines for the learner to name their own growth. Editable.
   - label: Student Workbook - one book per learner
     file: /downloads/lb-coxs-bazar-student-workbook.docx
     format: Word
