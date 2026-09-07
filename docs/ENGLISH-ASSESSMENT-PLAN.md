@@ -18,8 +18,8 @@ paper, marked by counting.
 The programme summary says learners are below B1, **many are not yet literate in any language**, and
 My Voice is built as emergent literacy, targeting A1−.
 
-So the instrument is thick at the bottom and thin at the top. Its easiest task is circling a letter
-you hear; its hardest is a 150-word article and a 100-word letter. Everyone sits all of it and
+So the instrument is thick at the bottom and thin at the top. Its easiest task is circling the letter
+that matches the one in the box; its hardest is a 150-word article and a 100-word letter. Everyone sits all of it and
 leaves what they cannot do.
 
 ### Why the levels run Pre-A1 to B1
@@ -46,6 +46,25 @@ score already carries the fine detail, and inventing sub-bands on top of it woul
 cannot defend.
 
 ## What the design refuses to do
+
+**No pictures.** An earlier draft matched words to line drawings, which is the standard way to test
+a pre-literate learner. The drawings were not good enough — a fluent reader could not reliably tell
+one from another — and an ambiguous picture measures the drawing, not the learner. Rather than ship
+them, the bottom of the paper was rebuilt on **print discrimination**: circle the letter, then the
+word, that matches the one in the box. No picture, no voice, no ambiguity.
+
+**Nothing read aloud.** An earlier draft had the facilitator saying sounds and words to the whole
+class. It complicated the sitting for the one adult in the room and made the result depend on how
+clearly they spoke. Everything is now on the page.
+
+**Nothing written into a paper beforehand.** Three tasks used to need each learner's own name
+written in by the facilitator — twenty-five little jobs before every sitting, and a task that fails
+silently if one is missed. Gone.
+
+The cost of those three decisions, stated plainly: **decoding is no longer measured.** Whether a
+learner can sound a word out can only be judged by listening to them read, and this paper does not
+listen. Print discrimination is a real Pre-A1 skill and it is what the paper now reports; phonics
+progress lives in the component's formative assessment, where the phonics progression already sits.
 
 **No routing.** An earlier draft split learners into a lower and a higher booklet on their Part 1
 score. That required marking twenty-five papers mid-session with a class in the room, which no
@@ -74,8 +93,7 @@ and the guide asks that a report says which was done.
 
 ## Content safety
 
-Part 1 tests only the taught sounds, the learner's own name and the three frames; the plosive pairs
-come last in the phonics sequence, so no decoding task uses b, d, g or p. Content is drawn from camp
+Part 1 uses only the letters and word shapes the component teaches. Content is drawn from camp
 life. Repatriation, violence, fire, loss of family, boat journeys and camp politics are excluded
 without exception; "I am from ___" is never a required answer, because the component's own materials
 flag that it can touch displacement and separation; every writing and speaking prompt offers a

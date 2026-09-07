@@ -1,76 +1,57 @@
 # The English Check — ENDLINE
 
-**Take this in the final week of the course.** The baseline paper is the same tasks in the same
-order with different content — see `ENGLISH-ASSESSMENT-BASELINE.md`.
+**Sit this in the final week of the course.** The baseline paper is the same tasks in the same order
+with different content — see `ENGLISH-ASSESSMENT-BASELINE.md`.
 
 _Answers and mark schemes are at the end and print separately. They never go in a learner's paper._
 
-Learner name ______________________  Block ________  Date ________  Facilitator ______________
+Learner name ______________________  Block ________  Date ________
 
 > **Say this before you start, in the language you share:** "This is not an exam. Nobody passes and
 > nobody fails. It shows me what you have learned. Some parts will be too hard — leave those and go on.
 > You can stop whenever you like."
 
-**Most learners will not finish every part. That is expected.**
+**Everything is on the page. Nothing is read out.** Give out the papers, say the sentence above,
+and let learners work. **Most learners will not finish every part, and that is expected.**
 
 ---
 
 # PART 1 — READING
 
-_About 28 minutes. Read every instruction aloud in the language you share. Do not translate the
-questions themselves._
+_About 25 minutes._
 
-## 1.1 — Circle the letter you hear _(10 marks)_
+## 1.1 — Circle the same letter _(6 marks)_
 
-_Facilitator: say each **sound**, not the letter name. Say each one twice. "Circle the letter that
-says /s/."_
+Look at the letter in the box. Circle the same letter in the line.
 
 [big]
-| | m | o | S | u | a |
-|---|---|---|---|---|---|
-| | n | T | L | c | t |
+| m | o · m · t · a |
+|---|---|
+| o | c · n · o · s |
+| u | u · l · a · t |
+| c | t · s · c · n |
+| l | a · l · o · m |
+| s | n · u · s · c |
 
-Order to say: **/m/ · /o/ · /s/ · /u/ · /a/ · /n/ · /t/ ("the big one") · /l/ · /k/ · /t/ ("the
-small one")**
+## 1.2 — Circle the same word _(4 marks)_
 
-## 1.2 — Circle your name _(1 mark)_
-
-_Facilitator: write the learner's own name in the first box before the session._
+Look at the word in the box. Circle the same word in the line.
 
 [big]
-|  |  |  |  |
-|---|---|---|---|
-| _[learner's name]_ | Rashid | Anwara | Jubair |
+| cat | tac · cta · cat |
+|---|---|
+| cot | cot · toc · cto |
+| nut | tun · nun · nut |
+| from | form · from · four |
 
-## 1.3 — Circle the word you hear _(5 marks)_
+## 1.3 — Circle the word that does not belong _(4 marks)_
 
-_Say each word twice, in this order:_ **like · from · am · I · _[learner's name]_**
+1. rice · fish · bread · school
+2. one · two · book · three
+3. morning · evening · night · water
+4. mother · brother · market · sister
 
-| | | | | |
-|---|---|---|---|---|
-| 1. | lake | look | like | live |
-| 2. | form | four | for | from |
-| 3. | an | on | am | in |
-| 4. | is | it | a | I |
-| 5. | _[learner's name]_ | Rashid | Anwara | Jubair |
-
-## 1.4 — Circle the word that is written correctly _(3 marks)_
-
-| Picture | | | |
-|---|---|---|---|
-| [pic:cat] | tac | cat | cta |
-| [pic:cot] | toc | cto | cot |
-| [pic:nut] | tun | nut | nun |
-
-## 1.5 — Words and pictures _(4 marks)_
-
-Draw a line from each word to its picture. There are two pictures you will not use.
-
-Words: **cat · mat · cot · can**
-
-Pictures: sun · cot · can · nut · cat · mat
-
-## 1.6 — Signs _(3 marks)_
+## 1.4 — Signs _(3 marks)_
 
 Write the letter of the correct meaning next to each sign. There are two meanings you will not use.
 
@@ -82,7 +63,7 @@ Write the letter of the correct meaning next to each sign. There are two meaning
 | | D. You can buy food here. |
 | | E. Go quickly. |
 
-## 1.7 — Choose the word _(4 marks)_
+## 1.5 — Choose the word _(4 marks)_
 
 Write one word from the box in each gap. There are three words you will not use.
 
@@ -93,7 +74,7 @@ Write one word from the box in each gap. There are three words you will not use.
 3. In the evening I ____________ my English book.
 4. We ____________ rice on the fire.
 
-## 1.8 — About Karim _(2 marks)_
+## 1.6 — About Karim _(2 marks)_
 
 > My name is Karim. I am nineteen years old. I live in Camp 4 with my father and my sister. I go to
 > the learning centre in the morning. I like football and English.
@@ -101,7 +82,7 @@ Write one word from the box in each gap. There are three words you will not use.
 1. How old is Karim? ____________
 2. Who does Karim live with? ____________________________
 
-## 1.9 — A message _(3 marks)_
+## 1.7 — A message _(3 marks)_
 
 > Hello Karim. I am going to the health post at 10 o'clock tomorrow. Can you come with me? My
 > brother is busy. Please answer me. — Ayub
@@ -110,7 +91,7 @@ Write one word from the box in each gap. There are three words you will not use.
 2. What time is Ayub going? ____________
 3. Who is busy? ____________
 
-## 1.10 — A notice _(4 marks)_
+## 1.8 — A notice _(4 marks)_
 
 > **LEARNING CENTRE — NOTICE**
 >
@@ -128,7 +109,7 @@ Write one word from the box in each gap. There are three words you will not use.
 4. When the wind is strong, classes may:
  A) begin late  B) finish early  C) move to Friday  D) stop
 
-## 1.11 — A timetable _(3 marks)_
+## 1.9 — A timetable _(3 marks)_
 
 | | 9 – 10 | 10 – 11 | 11 – 12 |
 |---|---|---|---|
@@ -142,7 +123,7 @@ Write one word from the box in each gap. There are three words you will not use.
 2. What is the class on Monday at 11 – 12? ____________
 3. You want English **and** Drawing on the same day. Which day? ____________
 
-## 1.12 — Ayub's card _(3 marks)_
+## 1.10 — Ayub's card _(3 marks)_
 
 _This part is harder. If it is too hard, leave it and go on to Part 2._
 
@@ -242,14 +223,10 @@ matters. The learner may pass on anything._
 |---|---|---|
 | **Warm-up** _(not scored)_ | "Hello. My name is ___. What is your name?" | 30s |
 | **1. About you** | your name · your age, or how long you have been here · who you live with. **Do not ask where they are from.** | 90s |
-| **2. The picture** | "What can you see? Tell me about this picture." | 90s |
+| **2. This place** | "Tell me about this place. What can you see here?" | 90s |
 | **3. Questions** | "What do you do in the evening?" · "What food do you like?" · "Tell me about your friend." | 90s |
 | **4. Tell me more** _(only if 3 was easy)_ | "Tell me about something you would like to learn." Then once: "Why?" | 60s |
 | **5. Close** _(not scored)_ | "Thank you. You spoke English with me today." | 15s |
-
-The endline picture:
-
-Pictures: scene-shop
 
 ---
 ---
@@ -258,24 +235,22 @@ Pictures: scene-shop
 
 **Print separately. Never give this to learners.**
 
-## Part 1 — Reading _( /45 )_
+## Part 1 — Reading _( /36 )_
 
 | Task | Answers | Marks |
 |---|---|---|
-| **1.1** | 1 per letter correctly circled | /10 |
-| **1.2** | own name | /1 |
-| **1.3** | 1. like · 2. from · 3. am · 4. I · 5. own name | /5 |
-| **1.4** | cat · cot · nut | /3 |
-| **1.5** | cat → **5th** · mat → **6th** · cot → **2nd** · can → **3rd** | /4 |
-| **1.6** | 1. **C** · 2. **A** · 3. **B** | /3 |
-| **1.7** | 1. help · 2. walk · 3. study · 4. cook | /4 |
-| **1.8** | 1. nineteen / 19 · 2. his father and his sister | /2 |
-| **1.9** | 1. Ayub · 2. 10 o'clock · 3. his brother | /3 |
-| **1.10** | 1. 8 o'clock · 2. Friday · 3. **A** · 4. **B** | /4 |
-| **1.11** | 1. five / every day · 2. Maths · 3. Monday | /3 |
-| **1.12** | 1. **B** · 2. only one set of tools and four people needed them · 3. competing | /3 |
+| **1.1** | m · o · u · c · l · s | /6 |
+| **1.2** | cat · cot · nut · from | /4 |
+| **1.3** | 1. school · 2. book · 3. water · 4. market | /4 |
+| **1.4** | 1. **C** · 2. **A** · 3. **B** | /3 |
+| **1.5** | 1. help · 2. walk · 3. study · 4. cook | /4 |
+| **1.6** | 1. nineteen / 19 · 2. his father and his sister | /2 |
+| **1.7** | 1. Ayub · 2. 10 o'clock · 3. his brother | /3 |
+| **1.8** | 1. 8 o'clock · 2. Friday · 3. **A** · 4. **B** | /4 |
+| **1.9** | 1. five / every day · 2. Maths · 3. Monday | /3 |
+| **1.10** | 1. **B** · 2. only one set of tools and four people needed them · 3. competing | /3 |
 
-**READING TOTAL ___ / 45** → 0–16 **Pre-A1** · 17–27 **A1** · 28–38 **A2** · 39–45 **B1**
+**READING TOTAL ___ / 36** → 0–12 **Pre-A1** · 13–21 **A1** · 22–30 **A2** · 31–36 **B1**
 
 ## Part 2 — Writing _( /30 )_
 
@@ -317,5 +292,5 @@ Confidence note _(not scored)_: ________________________________________________
 
 ## Shared tasks
 
-**1.2 · 1.3 · 2.1 · 2.2 · 2.3** are identical in the baseline paper. Each is a skill, not a fact, so
-sitting it twice cannot manufacture a gain.
+**2.1 · 2.2 · 2.3** are identical in the baseline paper. Each is a skill, not a fact, so sitting it
+twice cannot manufacture a gain.

@@ -26,9 +26,8 @@ two competencies formally graded on Learning Bridge+.
 | **Endline** | Final week | `cb-en-check-endline.docx` |
 
 Same tasks, same order, same marks — different content, so nobody sits the same questions twice.
-Five tasks are deliberately identical in both (writing your own name, copying a frame, filling in a
-form, and two circling tasks): each is a skill rather than a fact, so repeating it cannot
-manufacture a gain.
+Three tasks are deliberately identical in both — writing your own name, copying a frame, and filling
+in a form — because each is a skill rather than a fact, so repeating it cannot manufacture a gain.
 
 **The baseline must come before teaching starts.** A learner who sits it in the fifth session has
 already had five sessions of English, and their "before" number is wrong. This is the one piece of
@@ -38,22 +37,22 @@ timing that cannot flex.
 
 | | How many | Notes |
 |---|---|---|
-| Baseline paper | one per learner | Write each learner's own name into it beforehand, everywhere it says [learner's name] |
+| Baseline paper | one per learner | Nothing to prepare — hand it out as printed |
 | Endline paper | one per learner | Same, in the final week |
 | Marking pack | one per marker | **Never** goes to a learner — it holds the answers |
 | Class record spreadsheet | one per class | You keep this; see below |
 | Learner profile sheet | one per learner | Given to the learner at the end |
 
-Check the pictures survive photocopying. If one comes out grey and hard to see, draw it again by
-hand — the pictures are load-bearing for the learners who cannot yet read.
+Check the photocopies are crisp. The first two tasks ask a learner to tell one letter or one word
+from another, so a faint or smudged copy makes them unanswerable.
 
 ## The record spreadsheet
 
 You hold this, not the facilitator. One row per learner, with six numbers per skill:
 
-| Reading raw (start) | Reading CEFR (start) | Reading raw (end) | Reading CEFR (end) | Change |
+| Reading raw (start) /36 | Reading CEFR (start) | Reading raw (end) /36 | Reading CEFR (end) | Change |
 |---|---|---|---|---|
-| 12 | _auto_ | 24 | _auto_ | _auto_ |
+| 10 | _auto_ | 19 | _auto_ | _auto_ |
 
 The facilitator gives you the **raw scores** only. The CEFR level and the change are calculated by
 formula, so nobody has to look up a table and nobody can transcribe a level wrongly.
@@ -65,7 +64,7 @@ useful thing the sheet will tell you.
 ## Reading the results
 
 **The raw score is what shows progress, not the level.** Fifty hours moves a beginner a long way
-inside a level and rarely across one. A learner going from 12 to 24 on Reading has made real gains
+inside a level and rarely across one. A learner going from 10 to 19 on Reading has made real gains
 and is "A1" at both ends. If you report only levels, that learner looks static.
 
 So report both, and treat a rise of **4 or more marks on a part** as a real move. One or two marks
@@ -94,9 +93,8 @@ numbers only — is what is kept.
 **The week before**
 
 - [ ] Print: one baseline paper per learner, one marking pack per marker, the record spreadsheet.
-- [ ] Write each learner's own name into their paper where it says [learner's name]. Ten seconds
-      each, and it cannot be skipped — three tasks depend on it.
-- [ ] Check the photocopied pictures are clear.
+- [ ] Check the photocopies are crisp — the first two tasks depend on small differences between
+      letters and words.
 - [ ] If the speaking part is running with a sample, choose the learners **at random** — names in a
       bag. Not the confident ones. The same learners are spoken with again at the end.
 
@@ -112,7 +110,7 @@ numbers only — is what is kept.
 
 ## Running it
 
-The whole class sits the paper together, on paper. About 50 minutes for Parts 1 and 2. You can split
+The whole class sits the paper together, on paper. About 47 minutes for Parts 1 and 2. You can split
 it across two days — Part 1 one day, Part 2 the next — as long as you split it the same way at the
 end of the course.
 
@@ -125,11 +123,12 @@ Say it in the language you share, at both sittings.
 
 ### While they work
 
-- Read every instruction aloud in the language you share. **Do not translate the questions
-  themselves** — the questions are what is being measured.
-- Some tasks need you to read aloud: circling the letter you hear, and circling the word you hear.
-  Say each sound and each word **twice**, and go slowly.
-- Do not help, even when it is hard to watch.
+**Nothing is read out.** Hand out the papers, say the sentence above, and let the class work. Every
+task is answered from what is printed on the page.
+
+- You may explain an instruction in the language you share if someone is stuck on what to do. **Do
+  not translate the questions themselves** — the questions are what is being measured.
+- Do not help with answers, even when it is hard to watch.
 - **Most learners will not finish every part. That is expected.** The paper runs from very easy to
   quite hard on purpose, so every learner meets something they can do. A learner who leaves the last
   reading text and the letter blank has still given you a full result.
@@ -173,9 +172,14 @@ coordinator. The spreadsheet turns them into levels.
 
 This is the most useful part and it works immediately, not at the end of the course.
 
-Look at the marking sheet, not the level. A learner who lost every mark on task 1.4 needs sounding
-out. One whose note in 2.5 gave no reason needs "because". One who filled the form but wrote nothing
-in 2.4 needs sentence frames, not more vocabulary.
+Look at the marking sheet, not the level. A learner who lost every mark on 1.1 and 1.2 is not yet
+reading print at all and needs the alphabet and letter shapes. One whose note in 2.5 gave no reason
+needs "because". One who filled the form but wrote nothing in 2.4 needs sentence frames, not more
+vocabulary.
+
+One thing this paper does **not** tell you: whether a learner can sound a word out. Decoding can
+only be heard, and nothing here is read aloud. Judge phonics from your ordinary teaching, against
+the phonics progression.
 
 At the end of the course, give each learner their profile sheet and read it through with them. Fill
 the first two lines from their two papers, in their words — "at the start you could write your name;
@@ -184,7 +188,7 @@ them and can only discourage.
 
 ## Do not
 
-- **Do not translate the questions.** Instructions yes, questions no.
+- **Do not translate the questions.** Explaining an instruction is fine; the questions are not.
 - **Do not help during the tasks.**
 - **Do not let learners see the marking pack.** They sit the same tasks again later.
 - **Do not sit the baseline after teaching has started.**

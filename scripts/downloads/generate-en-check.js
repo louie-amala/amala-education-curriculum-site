@@ -8,6 +8,10 @@
      cb-en-check-learner-profile.docx (the learner's own "what I can do" sheet)
      cb-en-check-record-sheet.csv     (the class spreadsheet, with live formulas)
 
+   There are no pictures and nothing is read aloud: every task is answered from what is printed on
+   the page, so a facilitator hands the papers out and lets the class work. That rules out testing
+   phonics here - decoding needs a voice - and the component's formative assessment covers it.
+
    RENDERED from the planning docs in docs/, which are the single source of truth for every item,
    key and conversion table. Nothing here re-types content: edit the markdown, re-run this.
 
@@ -40,62 +44,6 @@ const clean = (md) => md
   .replace(/(^|\s)_(?=\S)/gm, '$1').replace(/(?<=\S)_(?=\s|$)/gm, '')
   .replace(/`/g, '')
   .replace(/— /g, '— ');
-
-// ---- pictures ----------------------------------------------------------------
-// The forms name their pictures rather than embedding them, because the markdown in docs/ is the
-// source both the site and these files read. Here the names become the drawings, from
-// public/brand/en-check (see generate-en-check-pictures.js).
-//
-// Two rules the layout has to keep. Pictures are NEVER captioned - the learner is matching a written
-// word to a picture, and a caption hands them the answer. And they are printed in the order the
-// markdown gives, which is deliberately not the order of the words: position must not be a clue.
-const PIC = path.join(ROOT, 'public', 'brand', 'en-check');
-const picFile = (name) => path.join(PIC, `${name.trim().replace(/\s+/g, '-')}.png`);
-
-const picStrip = (names) => {
-  const list = names.map((n) => (n === 'water tap' ? 'tap' : n));
-  list.forEach((n) => { if (!fs.existsSync(picFile(n))) throw new Error(`No picture drawn for "${n}"`); });
-  if (list.length === 1) {
-    const scene = list[0].startsWith('scene-');
-    return [image(picFile(list[0]), scene ? 420 : 92, scene ? 273 : 92, { after: 200 })];
-  }
-  // A numbered row so a learner can draw a line to a picture and a marker can say which one it was.
-  const w = Math.floor(S.COL / list.length);
-  return [new Table({
-    width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: list.map(() => w), borders: S.HAIRLINE,
-    rows: [
-      new TableRow({ children: list.map((n) => new TableCell({
-        width: { size: w, type: WidthType.DXA }, margins: { top: 120, bottom: 60, left: 60, right: 60 },
-        children: [image(picFile(n), 74, 74, { alignment: AlignmentType.CENTER, after: 0 })],
-      })) }),
-      new TableRow({ children: list.map((_, i) => new TableCell({
-        width: { size: w, type: WidthType.DXA }, margins: { top: 0, bottom: 100, left: 60, right: 60 },
-        children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: String(i + 1), bold: true, size: 20, color: GREY })] })],
-      })) }),
-    ],
-  }), P('', { after: 120 })];
-};
-
-// The group-mode spelling task puts a picture in the first column of a table: [pic:mat].
-const picTable = (rows) => {
-  const cells = rows.map((r) => r.replace(/^\||\|$/g, '').split('|').map((c) => c.trim()));
-  const kept = cells.filter((r) => !r.every((c) => c === '' || /^:?-+:?$/.test(c)));
-  const n = Math.max(...kept.map((r) => r.length));
-  const w = Math.floor(S.COL / n);
-  return new Table({
-    width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: Array(n).fill(w), borders: S.HAIRLINE,
-    rows: kept.map((r, ri) => new TableRow({ children: Array.from({ length: n }, (_, ci) => {
-      const raw = r[ci] || '';
-      const m = raw.match(/^\[pic:([a-z-]+)\]$/);
-      return new TableCell({
-        width: { size: w, type: WidthType.DXA }, margins: { top: 90, bottom: 90, left: 120, right: 120 },
-        children: m
-          ? [image(picFile(m[1]), 62, 62, { alignment: AlignmentType.CENTER, after: 0 })]
-          : [new Paragraph({ children: [new TextRun({ text: raw, bold: ri === 0, size: 21, color: ri === 0 ? NAVY : undefined })], spacing: { line: 300 } })],
-      });
-    }) })),
-  });
-};
 
 // Split on horizontal rules so each block renders separately with a printed rule between, and hand
 // picture lines and picture tables to the renderers above instead of to mdBlocks.
@@ -154,23 +102,6 @@ const render = (md, size) => {
       big = false;
       continue;
     }
-    const pics = t.match(/^Pictures:\s*(.+)$/);
-    if (pics) { flush(); out.push(...picStrip(pics[1].split('·'))); continue; }
-    if (t.startsWith('|') && t.includes('[pic:')) {
-      // The header and rule of this table are already in buf. Take them back before flushing, or the
-      // table renders twice - once headerless, once whole.
-      const rws = [];
-      let j = i;
-      while (j >= 0 && lines[j].trim().startsWith('|')) j--;
-      j++;
-      while (j < lines.length && lines[j].trim().startsWith('|')) { rws.push(lines[j].trim()); j++; }
-      // the table may have started before this line - drop anything already buffered from it
-      while (buf.length && buf[buf.length - 1].trim().startsWith('|')) buf.pop();
-      flush();
-      out.push(picTable(rws), P('', { after: 120 }));
-      i = j - 1;
-      continue;
-    }
     buf.push(lines[i]);
   }
   flush();
@@ -198,6 +129,11 @@ const stripInternal = (md) => md
   .filter((para) => !/anchor/i.test(para))
   .join('\n\n');
 
+// The markdown opens with a title and a note pointing at the other paper - written for someone
+// reading the file, not for a learner holding the paper. The docx cover already carries all of it,
+// so a booklet starts at the first PART heading.
+const fromFirstPart = (md) => md.slice(md.indexOf('\n# PART 1'));
+
 // Everything before "# MARKING PACK" is what a learner sees. Everything after is what they must not.
 const splitForm = (md) => {
   const marker = '\n# MARKING PACK';
@@ -218,12 +154,25 @@ const section = (md, heading) => {
   return lines.slice(start, end).join('\n');
 };
 
+// The name/block/date line and the sentence the facilitator says. On the cover, where they belong -
+// and where they cannot merge into the first task.
+const openerRows = [
+  P('Learner name ______________________     Block ____________     Date ____________',
+    { size: S.BOOK, after: 260 }),
+  S.callout('Say this before you start, in the language you share', [
+    '"This is not an exam. Nobody passes and nobody fails. Some parts will be too hard \u2014 leave those and go on. You can stop whenever you like."',
+  ]),
+  P('Everything is on the page and nothing is read out. Hand out the papers, say the sentence above, and let learners work. Most learners will not finish every part, and that is expected.',
+    { size: 20, color: GREY, after: 200 }),
+];
+
 const cover = (t, sub, note) => [
   image(LOGO, 118, 60, { after: 420 }),
   new Paragraph({ children: [new TextRun({ text: 'THE ENGLISH CHECK', bold: true, size: 20, color: GREY, characterSpacing: 40 })], spacing: { after: 160 } }),
   new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 52, color: NAVY })], spacing: { after: 180 } }),
   new Paragraph({ children: [new TextRun({ text: sub, size: 24, color: GREY })], spacing: { after: 320 } }),
-  ...(note ? [P(note, { size: 20, color: GREY })] : []),
+  ...(note ? [P(note, { size: 20, color: GREY, after: 320 })] : []),
+  ...(t === 'Baseline' || t === 'Endline' ? openerRows : []),
   pageBreak(),
 ];
 
@@ -237,7 +186,7 @@ const write = async (name, children) => {
 // spreadsheet library and does not need one: Excel and Google Sheets both evaluate a leading "="
 // on import, so the level and change columns arrive live. The facilitator only ever enters the raw
 // scores - every level is calculated, so nobody looks up a table and nobody mistypes a level.
-const BANDS = { reading: [39, 28, 17], writing: [23, 14, 7], speaking: [14, 9, 4] };
+const BANDS = { reading: [31, 22, 13], writing: [23, 14, 7], speaking: [14, 9, 4] };
 const level = (cell, [b1, a2, a1]) =>
   `=IF(${cell}="","",IF(${cell}>=${b1},"B1",IF(${cell}>=${a2},"A2",IF(${cell}>=${a1},"A1","Pre-A1"))))`;
 const change = (a, b) => `=IF(OR(${a}="",${b}=""),"",${b}-${a})`;
@@ -245,7 +194,7 @@ const change = (a, b) => `=IF(OR(${a}="",${b}=""),"",${b}-${a})`;
 const recordCsv = (rows = 30) => {
   const q = (v) => `"${String(v).replace(/"/g, '""')}"`;
   const head = ['Learner',
-    'Reading raw (start) /45', 'Reading CEFR (start)', 'Reading raw (end) /45', 'Reading CEFR (end)', 'Reading change',
+    'Reading raw (start) /36', 'Reading CEFR (start)', 'Reading raw (end) /36', 'Reading CEFR (end)', 'Reading change',
     'Writing raw (start) /30', 'Writing CEFR (start)', 'Writing raw (end) /30', 'Writing CEFR (end)', 'Writing change',
     'Speaking raw (start) /16', 'Speaking CEFR (start)', 'Speaking raw (end) /16', 'Speaking CEFR (end)', 'Speaking change',
     'Notes'];
@@ -254,7 +203,7 @@ const recordCsv = (rows = 30) => {
     ['Class:,,Facilitator:,,Baseline date:,,Endline date:'].join(''),
     [''].join(''),
     ['Enter the RAW scores only. The CEFR and change columns calculate themselves.'].map(q).join(','),
-    ['Reading /45: Pre-A1 0-16, A1 17-27, A2 28-38, B1 39-45   |   Writing /30: Pre-A1 0-6, A1 7-13, A2 14-22, B1 23-30   |   Speaking /16: Pre-A1 0-3, A1 4-8, A2 9-13, B1 14-16'].map(q).join(','),
+    ['Reading /36: Pre-A1 0-12, A1 13-21, A2 22-30, B1 31-36   |   Writing /30: Pre-A1 0-6, A1 7-13, A2 14-22, B1 23-30   |   Speaking /16: Pre-A1 0-3, A1 4-8, A2 9-13, B1 14-16'].map(q).join(','),
     ['Never average the three. A learner is often a level higher in speaking than in writing.'].map(q).join(','),
     [''].join(''),
     head.map(q).join(','),
@@ -278,14 +227,14 @@ const recordCsv = (rows = 30) => {
 
   await write('cb-en-check-baseline.docx', [
     ...cover('Baseline', 'Sit this in the first session, before any teaching.',
-      'One per learner. Write each learner\u2019s own name into it beforehand, everywhere the page says [learner\u2019s name] \u2014 three tasks depend on it. This paper contains no answers.'),
-    ...blocks(stripInternal(base.booklet), S.BOOK),
+      'One per learner. Nothing to prepare and nothing to read out \u2014 hand them out and let the class work. This paper contains no answers.'),
+    ...blocks(fromFirstPart(stripInternal(base.booklet)), S.BOOK),
   ]);
 
   await write('cb-en-check-endline.docx', [
     ...cover('Endline', 'Sit this in the final week of the course.',
       'Same tasks in the same order as the baseline, with different content, so nobody sits the same questions twice. One per learner. This paper contains no answers.'),
-    ...blocks(stripInternal(end.booklet), S.BOOK),
+    ...blocks(fromFirstPart(stripInternal(end.booklet)), S.BOOK),
   ]);
 
   await write('cb-en-check-marking-pack.docx', [

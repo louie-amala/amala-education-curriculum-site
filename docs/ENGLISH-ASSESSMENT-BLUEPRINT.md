@@ -12,11 +12,15 @@ cannot.
 
 | | | Marks | Time |
 |---|---|---|---|
-| **Part 1 — Reading** | 12 tasks, Pre-A1 → B1 | 45 | 28 min |
+| **Part 1 — Reading** | 10 tasks, Pre-A1 → B1 | 36 | 25 min |
 | **Part 2 — Writing** | 6 tasks, Pre-A1 → B1 | 30 | 22 min |
 | **Part 3 — Speaking** | 5 prompts, one to one | 16 | 6 min |
 
 Parts 1 and 2 are done by the whole class together, on paper. **Part 3 is optional** — see the plan.
+
+**Nothing is read aloud and there are no pictures.** Every task is answered from what is printed on
+the page. The facilitator hands out the papers, says one sentence, and lets the class work. Nothing
+has to be written into a paper beforehand.
 
 ## The levels
 
@@ -26,7 +30,7 @@ that difference is the useful part.
 
 | | Pre-A1 | A1 | A2 | B1 |
 |---|---|---|---|---|
-| **Reading /45** | 0–16 | 17–27 | 28–38 | 39–45 |
+| **Reading /36** | 0–12 | 13–21 | 22–30 | 31–36 |
 | **Writing /30** | 0–6 | 7–13 | 14–22 | 23–30 |
 | **Speaking /16** | 0–3 | 4–8 | 9–13 | 14–16 |
 
@@ -34,25 +38,30 @@ that difference is the useful part.
 inside a level and rarely across one. A learner going from 12 to 24 on Reading has made real gains
 and is still "A1" at both ends. The record sheet holds both numbers for exactly this reason.
 
-## Part 1 — Reading (45 marks)
+## Part 1 — Reading (36 marks)
 
 | Task | What it is | Level | Marks |
 |---|---|---|---|
-| **1.1** | Circle the letter you hear — 10 taught sounds, read aloud by the facilitator | Pre-A1 | 10 |
-| **1.2** | Circle your own name among four | Pre-A1 | 1 |
-| **1.3** | Circle the word you hear — five rounds, four options each | Pre-A1 | 5 |
-| **1.4** | Circle the correctly spelled word for a picture, three options | Pre-A1 | 3 |
-| **1.5** | Match four words to four of six pictures | A1 | 4 |
-| **1.6** | Match three signs to five meanings | A1 | 3 |
-| **1.7** | Gap-fill from a word box — four gaps, seven words | A1→A2 | 4 |
-| **1.8** | 35-word text about a person, two short answers | A2 | 2 |
-| **1.9** | 25-word message, three short answers | A2 | 3 |
-| **1.10** | 70-word notice, two short answers and two multiple choice | A2 | 4 |
-| **1.11** | Timetable, three questions including one needing two pieces of information | A2 | 3 |
-| **1.12** | 150-word text, gist, inference and vocabulary in context | B1 | 3 |
+| **1.1** | Circle the letter that matches the one in the box — six rows, four options each | Pre-A1 | 6 |
+| **1.2** | Circle the word that matches the one in the box — four rows, three close options | Pre-A1 | 4 |
+| **1.3** | Circle the word that does not belong — four sets of four | A1 | 4 |
+| **1.4** | Match three signs to five meanings | A1 | 3 |
+| **1.5** | Gap-fill from a word box — four gaps, seven words | A1→A2 | 4 |
+| **1.6** | 35-word text about a person, two short answers | A2 | 2 |
+| **1.7** | 25-word message, three short answers | A2 | 3 |
+| **1.8** | 70-word notice, two short answers and two multiple choice | A2 | 4 |
+| **1.9** | Timetable, three questions including one needing two pieces of information | A2 | 3 |
+| **1.10** | 150-word text, gist, inference and vocabulary in context | B1 | 3 |
 
-Multiple choice accounts for 4 of 45 marks. Everything else is matching, circling or short answer,
+Multiple choice accounts for 3 of 36 marks. Everything else is matching, circling or short answer,
 so guessing pays little.
+
+**What the bottom of the paper can and cannot see.** 1.1 and 1.2 are print discrimination — can this
+learner tell one letter or word from another on a page. That is a real and reportable Pre-A1 skill,
+and it needs no picture and no voice. What it cannot see is **decoding**: whether a learner can
+sound a word out. Decoding can only be assessed by listening to someone read, so it is not measured
+here at all. The component's own formative assessment covers it, and the phonics progression is
+where it belongs.
 
 ## Part 2 — Writing (30 marks)
 
@@ -76,12 +85,9 @@ Confidence is noted but not scored.
 
 ## What the content may and may not contain
 
-**Sounds and words.** Part 1 tests only what the component teaches: the taught sounds
-(s · t · l · m · n, the short vowels a · o · u, and the hard k sound), the learner's own name, and
-the three frames "I am ___", "I am from ___", "I like ___". The plosive pairs (p/b, t/d, k/g) come
-last in the phonics sequence, so **no task may use b, d, g or p in a decoding item**. The only
-English this component puts in front of learners in print is their name and the frames, so 1.3 tests
-exactly those words.
+**Letters and words.** 1.1 and 1.2 use only letters and word shapes the component teaches — the
+taught letters (s · t · l · m · n · a · o · u · c) and short words built from them. 2.2 uses the
+taught frame "I am ___".
 
 **Text length.** A1 items ≤20 words · A2 texts 25–90 · B1 text 150–200.
 
@@ -97,18 +103,14 @@ own materials flag that it can touch displacement and separation. Every writing 
 offers a choice, and one option is always safely everyday. Every scenario must work for a young
 woman answering in a same-gender group.
 
-**Pictures** are line drawings, black and white, never captioned, and printed in a different order
-from the words they match — position must not be a clue.
-
 ## Two papers that mean the same thing
 
 Form A (start of course) and Form B (final week) share this blueprint: same tasks, same order, same
 levels, same domains, same marks. Only the content differs.
 
 - **Domains do not vary between the forms.** Otherwise a gain cannot be told from a lucky topic.
-- **Six tasks are identical in both** — 1.2, 1.5 (first two words), 2.1, 2.2, 2.3 — because each is a
-  skill rather than a fact, so sitting it twice cannot manufacture a gain. Task 1.3 is identical too,
-  unavoidably: the component only ever prints five English words.
+- **Three tasks are identical in both** — 2.1, 2.2 and 2.3 — because each is a skill rather than a
+  fact, so sitting it twice cannot manufacture a gain.
 - **Report a gain on the raw score.** A rise of 1 or 2 marks is ordinary day-to-day variation; 4 or
   more on a part is a real move.
 
@@ -119,7 +121,8 @@ Run before either form is printed. Form B is rewritten if any line fails.
 - [ ] Same tasks, same order, same marks.
 - [ ] Same level and same domain per task.
 - [ ] Text lengths within ±10%, task for task.
-- [ ] The six shared tasks are literally identical.
-- [ ] No b, d, g or p in a decoding item; no word above the vocabulary ceiling.
+- [ ] The three shared tasks are literally identical.
+- [ ] No word above the vocabulary ceiling for its level.
+- [ ] Nothing on the paper needs reading aloud, a picture, or anything written in beforehand.
 - [ ] Exclusion list clean; every prompt offers a choice.
 - [ ] Two readers who did not write the form agree on every answer.
