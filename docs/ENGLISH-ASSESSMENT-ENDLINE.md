@@ -156,18 +156,18 @@ _This part is harder. If it is too hard, leave it and go on to Part 2._
 
 _About 22 minutes._
 
-## 2.1 — Write your name _(3 marks)_
+## 2.1 — Write your name _(2 marks)_
 
 _______________________________
 
-## 2.2 — Copy this and finish it _(4 marks)_
+## 2.2 — Copy this and finish it _(3 marks)_
 
 _Like this:_ **I am Nur.**  _or_  **I like rice.**
 
 [big]
 I am _______________
 
-## 2.3 — Fill in the form _(6 marks)_
+## 2.3 — Fill in the form _(4 marks)_
 
 | | |
 |---|---|
@@ -180,7 +180,7 @@ I am _______________
 | A phone number we can use | |
 | Today's date | |
 
-## 2.4 — Five sentences about you _(4 marks)_
+## 2.4 — Five sentences about you _(3 marks)_
 
 _Like this:_ **I am Karim. I am 19. I like football. I live in Camp 4. I go to the learning centre.**
 
@@ -192,7 +192,7 @@ Write five true sentences about yourself. You choose what to write.
 4. ____________________________________________
 5. ____________________________________________
 
-## 2.5 — A note to your teacher _(6 marks)_
+## 2.5 — A note to your teacher _(4 marks)_
 
 Your friend was not at class today. Write a note to your friend. Write about 40 words.
 
@@ -200,7 +200,7 @@ Say three things: **what you did in class · what the homework is · when you wi
 
 _(Six ruled lines)_
 
-## 2.6 — A letter _(7 marks)_
+## 2.6 — A letter _(4 marks)_
 
 _This part is harder. If it is too hard, leave it._
 
@@ -208,9 +208,9 @@ Write a letter to a friend about a time you helped someone, or a time someone he
 
 Say three things: **what happened · what you did · how you felt afterwards.**
 
-Write 100–120 words.
+Write about 80 words.
 
-_(Fourteen ruled lines)_
+_(Ten ruled lines)_
 
 ---
 
@@ -252,30 +252,30 @@ matters. The learner may pass on anything._
 
 **READING TOTAL ___ / 36** → 0–12 **Pre-A1** · 13–21 **A1** · 22–30 **A2** · 31–36 **B1**
 
-## Part 2 — Writing _( /30 )_
+## Part 2 — Writing _( /20 )_
 
 **Tick what is there. Do not judge quality — count.**
 
-**2.1 Write your name /3** ☐ attempted ☐ recognisable as their name ☐ accurate
+**One mark per tick. Twenty ticks in all.**
 
-**2.2 Copy and finish /4** ☐ letters formed ☐ in the right order ☐ spaced as words ☐ readable by
+**2.1 Write your name /2** ☐ attempted ☐ recognisable as their name
+
+**2.2 Copy and finish /3** ☐ letters formed and in the right order ☐ spaced as words ☐ readable by
 someone who does not know the learner
 _The word they choose to end with is never wrong._
 
-**2.3 The form /6** ☐ six or more boxes attempted ☐ all eight attempted ☐ name legible ☐ numbers
-written as numerals ☐ every answer in the right box ☐ a stranger could use this form
+**2.3 The form /4** ☐ six or more boxes attempted ☐ all eight attempted ☐ every answer in the right
+box ☐ a stranger could use this form
 
-**2.4 Five sentences /4** ☐ five attempted ☐ each has a verb ☐ "I am" or "I like" used correctly in
-three or more ☐ all five understandable without help
+**2.4 Five sentences /3** ☐ five attempted ☐ each has a verb ☐ all five understandable without help
 
-**2.5 The note /6** ☐ says what they did in class ☐ says what the homework is ☐ says when they will see them
-☐ opens or closes like a note ☐ thirty words or more ☐ readable without reading twice
+**2.5 The note /4** ☐ all three things said ☐ thirty words or more ☐ opens or closes like a note
+☐ readable without reading twice
 
-**2.6 The letter /7** ☐ says what happened ☐ says what they did ☐ says how they felt
-☐ ninety words or more ☐ uses "and", "but" or "because" ☐ sentences in a sensible order ☐ no error
-stops the reader
+**2.6 The letter /4** ☐ all three things said ☐ sixty words or more ☐ uses "and", "but" or "because"
+☐ readable throughout
 
-**WRITING TOTAL ___ / 30** → 0–6 **Pre-A1** · 7–13 **A1** · 14–22 **A2** · 23–30 **B1**
+**WRITING TOTAL ___ / 20** → 0–4 **Pre-A1** · 5–9 **A1** · 10–15 **A2** · 16–20 **B1**
 
 ## Part 3 — Speaking _( /16 )_
 

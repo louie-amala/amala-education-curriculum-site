@@ -13,7 +13,7 @@ cannot.
 | | | Marks | Time |
 |---|---|---|---|
 | **Part 1 — Reading** | 10 tasks, Pre-A1 → B1 | 36 | 25 min |
-| **Part 2 — Writing** | 6 tasks, Pre-A1 → B1 | 30 | 22 min |
+| **Part 2 — Writing** | 6 tasks, Pre-A1 → B1 | 20 | 20 min |
 | **Part 3 — Speaking** | 5 prompts, one to one | 16 | 6 min |
 
 Parts 1 and 2 are done by the whole class together, on paper. **Part 3 is optional** — see the plan.
@@ -31,7 +31,7 @@ that difference is the useful part.
 | | Pre-A1 | A1 | A2 | B1 |
 |---|---|---|---|---|
 | **Reading /36** | 0–12 | 13–21 | 22–30 | 31–36 |
-| **Writing /30** | 0–6 | 7–13 | 14–22 | 23–30 |
+| **Writing /20** | 0–4 | 5–9 | 10–15 | 16–20 |
 | **Speaking /16** | 0–3 | 4–8 | 9–13 | 14–16 |
 
 **The raw score is what shows progress, not the level.** Fifty hours moves a beginner a long way
@@ -63,19 +63,21 @@ sound a word out. Decoding can only be assessed by listening to someone read, so
 here at all. The component's own formative assessment covers it, and the phonics progression is
 where it belongs.
 
-## Part 2 — Writing (30 marks)
+## Part 2 — Writing (20 marks)
 
 | Task | What it is | Level | Marks |
 |---|---|---|---|
-| **2.1** | Write your own name | Pre-A1 | 3 |
-| **2.2** | Copy the frame "I am ___" and finish it | Pre-A1 | 4 |
-| **2.3** | Complete an eight-field registration form | A1 | 6 |
-| **2.4** | Write five true sentences about yourself | A1 | 4 |
-| **2.5** | Write a short note, about 40 words, three content points given | A2 | 6 |
-| **2.6** | Write a letter, 100–120 words, three content points given | B1 | 7 |
+| **2.1** | Write your own name | Pre-A1 | 2 |
+| **2.2** | Copy the frame "I am ___" and finish it | Pre-A1 | 3 |
+| **2.3** | Complete an eight-field registration form | A1 | 4 |
+| **2.4** | Write five true sentences about yourself | A1 | 3 |
+| **2.5** | Write a short note, about 40 words, three content points given | A2 | 4 |
+| **2.6** | Write a letter, about 80 words, three content points given | B1 | 4 |
 
-Every writing task is marked by **counting ticks**, never by judging quality. The tick boxes are on
-the marking sheet.
+**One mark per tick, twenty ticks in all.** Writing is marked by counting, never by judging quality.
+The count is deliberately coarse: this instrument exists to show whether English improved, not to
+grade an essay, and a marker who has to weigh how *good* a sentence is will not agree with the
+marker next to them.
 
 ## Part 3 — Speaking (16 marks, optional)
 

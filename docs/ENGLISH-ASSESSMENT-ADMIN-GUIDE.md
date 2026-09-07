@@ -110,7 +110,7 @@ numbers only — is what is kept.
 
 ## Running it
 
-The whole class sits the paper together, on paper. About 47 minutes for Parts 1 and 2. You can split
+The whole class sits the paper together, on paper. About 45 minutes for Parts 1 and 2. You can split
 it across two days — Part 1 one day, Part 2 the next — as long as you split it the same way at the
 end of the course.
 
@@ -152,9 +152,10 @@ with "Thank you. You spoke English with me today."
 
 Everything is in the marking pack, in the order you mark it.
 
-**You are counting, not judging.** Every writing task is a list of tick boxes: read what the learner
-wrote, tick what is there, count the ticks. Two facilitators counting the same page should reach the
-same number. If you find yourself deciding how *good* something is, you have left the sheet.
+**You are counting, not judging.** Every writing task is a list of tick boxes — twenty ticks across
+the whole of Part 2, one mark each. Read what the learner wrote, tick what is there, count the
+ticks. Two facilitators counting the same page should reach the same number. If you find yourself
+deciding how *good* something is, you have left the sheet.
 
 - **Spelling is not marked** unless a tick box says so. If you can read it, it counts.
 - **Accent is not marked.**

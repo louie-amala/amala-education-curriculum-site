@@ -186,7 +186,7 @@ const write = async (name, children) => {
 // spreadsheet library and does not need one: Excel and Google Sheets both evaluate a leading "="
 // on import, so the level and change columns arrive live. The facilitator only ever enters the raw
 // scores - every level is calculated, so nobody looks up a table and nobody mistypes a level.
-const BANDS = { reading: [31, 22, 13], writing: [23, 14, 7], speaking: [14, 9, 4] };
+const BANDS = { reading: [31, 22, 13], writing: [16, 10, 5], speaking: [14, 9, 4] };
 const level = (cell, [b1, a2, a1]) =>
   `=IF(${cell}="","",IF(${cell}>=${b1},"B1",IF(${cell}>=${a2},"A2",IF(${cell}>=${a1},"A1","Pre-A1"))))`;
 const change = (a, b) => `=IF(OR(${a}="",${b}=""),"",${b}-${a})`;
@@ -195,7 +195,7 @@ const recordCsv = (rows = 30) => {
   const q = (v) => `"${String(v).replace(/"/g, '""')}"`;
   const head = ['Learner',
     'Reading raw (start) /36', 'Reading CEFR (start)', 'Reading raw (end) /36', 'Reading CEFR (end)', 'Reading change',
-    'Writing raw (start) /30', 'Writing CEFR (start)', 'Writing raw (end) /30', 'Writing CEFR (end)', 'Writing change',
+    'Writing raw (start) /20', 'Writing CEFR (start)', 'Writing raw (end) /20', 'Writing CEFR (end)', 'Writing change',
     'Speaking raw (start) /16', 'Speaking CEFR (start)', 'Speaking raw (end) /16', 'Speaking CEFR (end)', 'Speaking change',
     'Notes'];
   const out = [
@@ -203,7 +203,7 @@ const recordCsv = (rows = 30) => {
     ['Class:,,Facilitator:,,Baseline date:,,Endline date:'].join(''),
     [''].join(''),
     ['Enter the RAW scores only. The CEFR and change columns calculate themselves.'].map(q).join(','),
-    ['Reading /36: Pre-A1 0-12, A1 13-21, A2 22-30, B1 31-36   |   Writing /30: Pre-A1 0-6, A1 7-13, A2 14-22, B1 23-30   |   Speaking /16: Pre-A1 0-3, A1 4-8, A2 9-13, B1 14-16'].map(q).join(','),
+    ['Reading /36: Pre-A1 0-12, A1 13-21, A2 22-30, B1 31-36   |   Writing /20: Pre-A1 0-4, A1 5-9, A2 10-15, B1 16-20   |   Speaking /16: Pre-A1 0-3, A1 4-8, A2 9-13, B1 14-16'].map(q).join(','),
     ['Never average the three. A learner is often a level higher in speaking than in writing.'].map(q).join(','),
     [''].join(''),
     head.map(q).join(','),
