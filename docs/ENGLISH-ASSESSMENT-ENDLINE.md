@@ -53,15 +53,25 @@ Look at the word in the box. Circle the same word in the line.
 
 ## 1.4 — Signs _(3 marks)_
 
-Write the letter of the correct meaning next to each sign. There are two meanings you will not use.
+Read the five meanings. Then write the letter of the right meaning beside each sign. You will not
+use two of them.
 
-| Sign | Meaning |
+> A. Clean your hands here.
+>
+> B. Stand in a line.
+>
+> C. Do not come in today.
+>
+> D. You can buy food here.
+>
+> E. Go quickly.
+
+[answers]
+| Sign | Write the letter |
 |---|---|
-| 1. **CLOSED TODAY** ____ | A. Clean your hands here. |
-| 2. **WASH YOUR HANDS** ____ | B. Stand in a line. |
-| 3. **QUEUE HERE** ____ | C. Do not come in today. |
-| | D. You can buy food here. |
-| | E. Go quickly. |
+| CLOSED TODAY | |
+| WASH YOUR HANDS | |
+| QUEUE HERE | |
 
 ## 1.5 — Choose the word _(4 marks)_
 
@@ -174,6 +184,7 @@ Copy the words **I am** and then write one true thing about yourself.
 
 ## 2.3 — Fill in the form _(4 marks)_
 
+[form]
 | | |
 |---|---|
 | Name | |

@@ -139,6 +139,18 @@ const render = (md, size) => {
     const lines_m = t.match(/^\[lines:(\d+)\]$/);
     if (lines_m) { flush(); out.push(S.linedArea(Number(lines_m[1])), P('', { after: 160 })); continue; }
 
+    // A table the learner writes into.
+    if (t === '[answers]' || t === '[form]') {
+      const kind = t === '[form]' ? 'form' : 'answers';
+      flush();
+      i++;
+      const rws = [];
+      while (i < lines.length && lines[i].trim().startsWith('|')) { rws.push(lines[i].trim()); i++; }
+      i--;
+      out.push(fillTable(rws, kind), P('', { after: 180 }));
+      continue;
+    }
+
 
     // A quoted block is a thing to read: put it in a panel, not in the prose.
     if (t.startsWith('>')) {
@@ -243,6 +255,37 @@ const openerRows = [
   P('Everything is on the page and nothing is read out. Hand out the papers, say the sentence above, and let learners work. Most learners will not finish every part, and that is expected.',
     { size: 20, color: GREY, after: 200 }),
 ];
+
+// A table a learner writes INTO. The answer column is narrow and the rows are tall, so the empty
+// cell reads as a box to write in rather than a cell somebody forgot to fill. [answers] puts the
+// answer column on the right and narrow; [form] puts the label on the left and narrow.
+const fillTable = (rows, kind) => {
+  const cells = rows.map((r) => r.replace(/^\||\|$/g, '').split('|').map((c) => c.trim()));
+  const kept = cells.filter((r) => !r.every((c) => c === '' || /^:?-+:?$/.test(c)));
+  const widths = kind === 'form'
+    ? [Math.round(S.COL * 0.38), Math.round(S.COL * 0.62)]
+    : [Math.round(S.COL * 0.74), Math.round(S.COL * 0.26)];
+  return new Table({
+    width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: widths, borders: S.HAIRLINE,
+    rows: kept.map((r, ri) => new TableRow({
+      height: { value: ri === 0 ? 400 : 640, rule: 'atLeast' },
+      children: widths.map((w, ci) => new TableCell({
+        width: { size: w, type: WidthType.DXA },
+        margins: { top: 110, bottom: 110, left: 160, right: 160 },
+        verticalAlign: 'center',
+        children: [new Paragraph({
+          children: [new TextRun({
+            text: (r[ci] || '').replace(/\*\*/g, ''),
+            bold: ri === 0,
+            size: ri === 0 ? 19 : S.BOOK,
+            color: ri === 0 ? NAVY : undefined,
+          })],
+          spacing: { line: 300 },
+        })],
+      })),
+    })),
+  });
+};
 
 const cover = (t, sub, note) => [
   image(LOGO, 118, 60, { after: 420 }),

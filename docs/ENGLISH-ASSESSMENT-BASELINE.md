@@ -53,15 +53,25 @@ Look at the word in the box. Circle the same word in the line.
 
 ## 1.4 — Signs _(3 marks)_
 
-Write the letter of the correct meaning next to each sign. There are two meanings you will not use.
+Read the five meanings. Then write the letter of the right meaning beside each sign. You will not
+use two of them.
 
-| Sign | Meaning |
+> A. You can get water here.
+>
+> B. Do not go in.
+>
+> C. This place is open in the day.
+>
+> D. Wash your hands.
+>
+> E. Wait outside.
+
+[answers]
+| Sign | Write the letter |
 |---|---|
-| 1. **OPEN 9 – 4** ____ | A. You can get water here. |
-| 2. **NO ENTRY** ____ | B. Do not go in. |
-| 3. **WATER HERE** ____ | C. This place is open in the day. |
-| | D. Wash your hands. |
-| | E. Wait outside. |
+| OPEN 9 – 4 | |
+| NO ENTRY | |
+| WATER HERE | |
 
 ## 1.5 — Choose the word _(4 marks)_
 
@@ -175,6 +185,7 @@ Copy the words **I am** and then write one true thing about yourself.
 
 ## 2.3 — Fill in the form _(4 marks)_
 
+[form]
 | | |
 |---|---|
 | Name | |
