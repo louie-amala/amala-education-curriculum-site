@@ -68,7 +68,7 @@ where it belongs.
 | Task | What it is | Level | Marks |
 |---|---|---|---|
 | **2.1** | Write your own name | Pre-A1 | 2 |
-| **2.2** | Copy the frame "I am ___" and finish it | Pre-A1 | 3 |
+| **2.2** | Write "I am" and finish the sentence about yourself | Pre-A1 | 3 |
 | **2.3** | Complete an eight-field registration form | A1 | 4 |
 | **2.4** | Write five true sentences about yourself | A1 | 3 |
 | **2.5** | Write a short note, about 40 words, three content points given | A2 | 4 |
@@ -90,6 +90,11 @@ Confidence is noted but not scored.
 **Letters and words.** 1.1 and 1.2 use only letters and word shapes the component teaches — the
 taught letters (s · t · l · m · n · a · o · u · c) and short words built from them. 2.2 uses the
 taught frame "I am ___".
+
+**Layout.** Anything a learner reads — a text, a notice, a word bank, a worked example — sits in a
+light grey panel with a hairline border, pale enough to survive black-and-white photocopying.
+Anything a learner writes gets the bordered, faintly ruled box the student workbook uses, sized to
+the answer. Every numbered question is on its own line, with its options on the line below.
 
 **Text length.** A1 items ≤20 words · A2 texts 25–90 · B1 text 150–200.
 

@@ -158,14 +158,19 @@ _About 22 minutes._
 
 ## 2.1 — Write your name _(2 marks)_
 
-_______________________________
+Write your name here.
 
-## 2.2 — Copy this and finish it _(3 marks)_
+[lines:1]
 
-_Like this:_ **I am Nur.**  _or_  **I like rice.**
+## 2.2 — Finish the sentence about yourself _(3 marks)_
 
-[big]
-I am _______________
+Copy the words **I am** and then write one true thing about yourself.
+
+> I am Nur.
+>
+> I like rice.
+
+[lines:2]
 
 ## 2.3 — Fill in the form _(4 marks)_
 
@@ -182,15 +187,13 @@ I am _______________
 
 ## 2.4 — Five sentences about you _(3 marks)_
 
-_Like this:_ **I am Karim. I am 19. I like football. I live in Camp 4. I go to the learning centre.**
+Like this:
+
+> I am Karim. I am 19. I like football. I live in Camp 4. I go to the learning centre.
 
 Write five true sentences about yourself. You choose what to write.
 
-1. ____________________________________________
-2. ____________________________________________
-3. ____________________________________________
-4. ____________________________________________
-5. ____________________________________________
+[lines:5]
 
 ## 2.5 — A note to your teacher _(4 marks)_
 
@@ -198,7 +201,7 @@ Your friend was not at class today. Write a note to your friend. Write about 40 
 
 Say three things: **what you did in class · what the homework is · when you will see them.**
 
-_(Six ruled lines)_
+[lines:6]
 
 ## 2.6 — A letter _(4 marks)_
 
@@ -210,7 +213,7 @@ Say three things: **what happened · what you did · how you felt afterwards.**
 
 Write about 80 words.
 
-_(Ten ruled lines)_
+[lines:10]
 
 ---
 
@@ -260,9 +263,9 @@ matters. The learner may pass on anything._
 
 **2.1 Write your name /2** ☐ attempted ☐ recognisable as their name
 
-**2.2 Copy and finish /3** ☐ letters formed and in the right order ☐ spaced as words ☐ readable by
+**2.2 Finish the sentence /3** ☐ wrote "I am" ☐ added at least one word of their own ☐ readable by
 someone who does not know the learner
-_The word they choose to end with is never wrong._
+_What they choose to write about themselves is never wrong._
 
 **2.3 The form /4** ☐ six or more boxes attempted ☐ all eight attempted ☐ every answer in the right
 box ☐ a stranger could use this form

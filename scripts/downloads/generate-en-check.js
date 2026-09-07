@@ -39,7 +39,6 @@ const read = (f) => fs.readFileSync(path.join(DOCS, f), 'utf8');
 // emphasis, blockquotes and rules that mdBlocks does not read. Flatten them rather than teaching
 // mdBlocks new syntax: the docx has its own typography and does not need the source's.
 const clean = (md) => md
-  .replace(/^\s*>\s?/gm, '')            // blockquote markers - the box is drawn by the style, not the text
   .replace(/\*\*(.+?)\*\*/g, '$1')
   .replace(/(^|\s)_(?=\S)/gm, '$1').replace(/(?<=\S)_(?=\s|$)/gm, '')
   .replace(/`/g, '')
@@ -71,6 +70,50 @@ const bigLine = (text) => new Paragraph({
   spacing: { before: 200, after: 260, line: 400 },
 });
 
+// A reading text, a notice or a word bank, in a light grey panel with a hairline border. The fill is
+// deliberately pale: these are photocopied in black and white, and anything darker turns the text to
+// mush by the third copy. The border does the work; the grey only says "this is the thing to read".
+const PANEL = 'EDEBE6';
+const isHeading = (t) => t.length <= 60 && /^[A-Z0-9 ,.'\u2019\u2014\u2013:-]+$/.test(t) && /[A-Z]{2}/.test(t);
+const isWordBank = (t) => t.includes(' \u00b7 ') && !/[.?!]$/.test(t);
+
+const quoteBox = (rawLines, size) => {
+  const paras = [];
+  let cur = [];
+  rawLines.forEach((l) => {
+    if (!l.trim()) { if (cur.length) { paras.push(cur.join(' ')); cur = []; } }
+    else cur.push(l.trim());
+  });
+  if (cur.length) paras.push(cur.join(' '));
+
+  const kids = paras.map((t, idx) => {
+    const last = idx === paras.length - 1;
+    if (isHeading(t)) {
+      return new Paragraph({
+        children: [new TextRun({ text: t, bold: true, size: 21, color: NAVY, characterSpacing: 20 })],
+        spacing: { after: last ? 0 : 170 },
+      });
+    }
+    if (isWordBank(t)) {
+      return new Paragraph({
+        alignment: AlignmentType.CENTER,
+        children: [new TextRun({ text: t, bold: true, size: (size || S.BOOK) + 4 })],
+        spacing: { after: last ? 0 : 140, line: 360 },
+      });
+    }
+    return P(t, { size: size || S.BOOK, after: last ? 0 : 150, line: 340 });
+  });
+
+  return [new Table({
+    width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [S.COL], borders: S.HAIRLINE,
+    rows: [new TableRow({ children: [new TableCell({
+      width: { size: S.COL, type: WidthType.DXA }, shading: { fill: PANEL },
+      margins: { top: 200, bottom: 200, left: 240, right: 220 },
+      children: kids,
+    })] })],
+  }), P('', { after: 160 })];
+};
+
 const render = (md, size) => {
   const out = [];
   const lines = clean(md).replace(/\r/g, '').split('\n');
@@ -90,6 +133,41 @@ const render = (md, size) => {
   for (let i = 0; i < lines.length; i++) {
     const t = lines[i].trim();
     if (t === '[big]') { flush(); big = true; continue; }
+
+    // An answer area: the same bordered, faintly ruled box the student workbook uses, so a learner
+    // sees a place to write rather than a run of underscores.
+    const lines_m = t.match(/^\[lines:(\d+)\]$/);
+    if (lines_m) { flush(); out.push(S.linedArea(Number(lines_m[1])), P('', { after: 160 })); continue; }
+
+
+    // A quoted block is a thing to read: put it in a panel, not in the prose.
+    if (t.startsWith('>')) {
+      flush();
+      const qs = [];
+      while (i < lines.length && lines[i].trim().startsWith('>')) {
+        qs.push(lines[i].trim().replace(/^>\s?/, ''));
+        i++;
+      }
+      i--;
+      out.push(...quoteBox(qs, size));
+      continue;
+    }
+
+    // Every numbered item gets its own line. mdBlocks only knows "-" bullets, so without this a run
+    // of questions is glued into one paragraph and the paper becomes unreadable.
+    if (/^\d+\.\s/.test(t)) {
+      flush();
+      out.push(P(t, { size: size || GUIDE, after: 170, line: 330 }));
+      continue;
+    }
+
+    // The options line under a multiple-choice stem: its own line, indented under the question.
+    if (/^[A-D]\)\s/.test(t)) {
+      flush();
+      out.push(P(t, { size: size || GUIDE, after: 170, line: 330, indent: { left: 340 } }));
+      continue;
+    }
+
     if (big && t) {
       if (t.startsWith('|')) {
         const rws = [];
