@@ -224,23 +224,9 @@ Say three things: **what happened · what you did · how you felt afterwards.**
 
 Write about 80 words.
 
-[lines:10]
+[lines:8]
 
 ---
-
-# PART 3 — SPEAKING
-
-_Optional. Six minutes, one learner at a time, in a quiet corner. Same-gender pairing where it
-matters. The learner may pass on anything._
-
-| | What you say | Time |
-|---|---|---|
-| **Warm-up** _(not scored)_ | "Hello. My name is ___. What is your name?" | 30s |
-| **1. About you** | your name · your age, or how long you have been here · who you live with. **Do not ask where they are from.** | 90s |
-| **2. This place** | "Tell me about this place. What can you see here?" | 90s |
-| **3. Questions** | "What do you do in the evening?" · "What food do you like?" · "Tell me about your friend." | 90s |
-| **4. Tell me more** _(only if 3 was easy)_ | "Tell me about something you would like to learn." Then once: "Why?" | 60s |
-| **5. Close** _(not scored)_ | "Thank you. You spoke English with me today." | 15s |
 
 ---
 ---
@@ -292,6 +278,28 @@ box ☐ a stranger could use this form
 **WRITING TOTAL ___ / 20** → 0–4 **Pre-A1** · 5–9 **A1** · 10–15 **A2** · 16–20 **B1**
 
 ## Part 3 — Speaking _( /16 )_
+
+### The script
+
+_Optional. Six minutes, one learner at a time, in a quiet corner. Same-gender pairing where it
+matters._
+
+| | What you say | Time |
+|---|---|---|
+| **Warm-up** _(not scored)_ | "Hello. My name is ___. What is your name?" | 30s |
+| **1. About you** | "How old are you?" · "How long have you been here?" · "Who do you live with?" | 90s |
+| **2. This place** | "Tell me about this place. What can you see here?" | 90s |
+| **3. Questions** | "What do you do in the evening?" · "What food do you like?" · "Tell me about your friend." | 90s |
+| **4. Tell me more** _(only if 3 was easy)_ | "Tell me about something you would like to learn." Then once: "Why?" | 60s |
+| **5. Close** _(not scored)_ | "Thank you. You spoke English with me today." | 15s |
+
+> **Two rules for the facilitator — do not read these out.**
+>
+> Never ask a learner where they are from. It can touch displacement, loss and separation, and
+> nothing in this check needs it.
+>
+> A learner may pass on any question. A pass is not a zero — move on warmly and score what you did
+> hear.
 
 | | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|

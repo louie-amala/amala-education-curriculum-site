@@ -16,7 +16,9 @@ cannot.
 | **Part 2 — Writing** | 6 tasks, Pre-A1 → B1 | 20 | 20 min |
 | **Part 3 — Speaking** | 5 prompts, one to one | 16 | 6 min |
 
-Parts 1 and 2 are done by the whole class together, on paper. **Part 3 is optional** — see the plan.
+Parts 1 and 2 are the learner's paper, done by the whole class together. **Part 3 is optional, and
+its script lives in the marking pack, not in the learner's paper** — a learner holding the prompts
+can rehearse them, and printing them per learner wastes a page each.
 
 **Nothing is read aloud and there are no pictures.** Every task is answered from what is printed on
 the page. The facilitator hands out the papers, says one sentence, and lets the class work. Nothing

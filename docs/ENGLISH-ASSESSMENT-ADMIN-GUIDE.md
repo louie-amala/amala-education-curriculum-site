@@ -37,9 +37,9 @@ timing that cannot flex.
 
 | | How many | Notes |
 |---|---|---|
-| Baseline paper | one per learner | Nothing to prepare — hand it out as printed |
+| Baseline paper | one per learner | Parts 1 and 2 only, about 7 pages. Nothing to prepare — hand it out as printed |
 | Endline paper | one per learner | Same, in the final week |
-| Marking pack | one per marker | **Never** goes to a learner — it holds the answers |
+| Marking pack | one per marker | **Never** goes to a learner — it holds the answers, and the speaking script |
 | Class record spreadsheet | one per class | You keep this; see below |
 | Learner profile sheet | one per learner | Given to the learner at the end |
 
@@ -144,9 +144,11 @@ Take whichever of these you can manage — all three are fine:
 - **Nobody.** Then say so in the report, and note that a paper-only result understates a course
   that teaches the ear and the voice first.
 
-Six minutes each, in a quiet corner, same-gender pairing where it matters. Follow the script, ask,
-then **wait** — count five seconds before you help. A learner may pass on anything. Always finish
-with "Thank you. You spoke English with me today."
+Six minutes each, in a quiet corner, same-gender pairing where it matters. **The script is in the
+marking pack, not in the learner's paper** — a learner holding the questions can rehearse them.
+Follow it, ask, then **wait** — count five seconds before you help. A learner may pass on anything.
+Never ask where a learner is from. Always finish with "Thank you. You spoke English with me
+today."
 
 ## Marking
 

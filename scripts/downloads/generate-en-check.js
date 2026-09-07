@@ -49,7 +49,7 @@ const clean = (md) => md
 // A learner who cannot yet read is being asked to LOOK at these - a letter to point to, a word to
 // sound out, their own name among four. At body size they are unusable. A [big] line in the markdown
 // makes the block that follows it print at the size the task actually needs.
-const BIGPT = 52;
+const BIGPT = 44;
 const bigTable = (rows) => {
   const cells = rows.map((r) => r.replace(/^\||\|$/g, '').split('|').map((c) => c.trim()));
   const kept = cells.filter((r) => !r.every((c) => c === '' || /^:?-+:?$/.test(c)));
@@ -57,7 +57,7 @@ const bigTable = (rows) => {
   const w = Math.floor(S.COL / n);
   return new Table({
     width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: Array(n).fill(w), borders: S.HAIRLINE,
-    rows: kept.map((r) => new TableRow({ height: { value: 900, rule: 'atLeast' }, children: Array.from({ length: n }, (_, ci) => new TableCell({
+    rows: kept.map((r) => new TableRow({ height: { value: 620, rule: 'atLeast' }, children: Array.from({ length: n }, (_, ci) => new TableCell({
       width: { size: w, type: WidthType.DXA }, margins: { top: 140, bottom: 140, left: 80, right: 80 },
       verticalAlign: 'center',
       children: [new Paragraph({ alignment: AlignmentType.CENTER, children: [new TextRun({ text: (r[ci] || '').replace(/\*\*/g, ''), size: BIGPT })] })],
@@ -108,10 +108,10 @@ const quoteBox = (rawLines, size) => {
     width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: [S.COL], borders: S.HAIRLINE,
     rows: [new TableRow({ children: [new TableCell({
       width: { size: S.COL, type: WidthType.DXA }, shading: { fill: PANEL },
-      margins: { top: 200, bottom: 200, left: 240, right: 220 },
+      margins: { top: 140, bottom: 140, left: 220, right: 200 },
       children: kids,
     })] })],
-  }), P('', { after: 160 })];
+  }), P('', { after: 100 })];
 };
 
 const render = (md, size) => {
@@ -137,7 +137,7 @@ const render = (md, size) => {
     // An answer area: the same bordered, faintly ruled box the student workbook uses, so a learner
     // sees a place to write rather than a run of underscores.
     const lines_m = t.match(/^\[lines:(\d+)\]$/);
-    if (lines_m) { flush(); out.push(S.linedArea(Number(lines_m[1])), P('', { after: 160 })); continue; }
+    if (lines_m) { flush(); out.push(S.linedArea(Number(lines_m[1])), P('', { after: 100 })); continue; }
 
     // A table the learner writes into.
     if (t === '[answers]' || t === '[form]') {
@@ -147,7 +147,7 @@ const render = (md, size) => {
       const rws = [];
       while (i < lines.length && lines[i].trim().startsWith('|')) { rws.push(lines[i].trim()); i++; }
       i--;
-      out.push(fillTable(rws, kind), P('', { after: 180 }));
+      out.push(fillTable(rws, kind), P('', { after: 120 }));
       continue;
     }
 
@@ -169,14 +169,14 @@ const render = (md, size) => {
     // of questions is glued into one paragraph and the paper becomes unreadable.
     if (/^\d+\.\s/.test(t)) {
       flush();
-      out.push(P(t, { size: size || GUIDE, after: 170, line: 330 }));
+      out.push(P(t, { size: size || GUIDE, after: 110, line: 300 }));
       continue;
     }
 
     // The options line under a multiple-choice stem: its own line, indented under the question.
     if (/^[A-D]\)\s/.test(t)) {
       flush();
-      out.push(P(t, { size: size || GUIDE, after: 170, line: 330, indent: { left: 340 } }));
+      out.push(P(t, { size: size || GUIDE, after: 130, line: 300, indent: { left: 340 } }));
       continue;
     }
 
@@ -185,7 +185,7 @@ const render = (md, size) => {
         const rws = [];
         while (i < lines.length && lines[i].trim().startsWith('|')) { rws.push(lines[i].trim()); i++; }
         i--;
-        out.push(bigTable(rws), P('', { after: 120 }));
+        out.push(bigTable(rws), P('', { after: 90 }));
       } else {
         out.push(bigLine(t));
       }
@@ -268,7 +268,7 @@ const fillTable = (rows, kind) => {
   return new Table({
     width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: widths, borders: S.HAIRLINE,
     rows: kept.map((r, ri) => new TableRow({
-      height: { value: ri === 0 ? 400 : 640, rule: 'atLeast' },
+      height: { value: ri === 0 ? 340 : 560, rule: 'atLeast' },
       children: widths.map((w, ci) => new TableCell({
         width: { size: w, type: WidthType.DXA },
         margins: { top: 110, bottom: 110, left: 160, right: 160 },
@@ -294,7 +294,9 @@ const cover = (t, sub, note) => [
   new Paragraph({ children: [new TextRun({ text: sub, size: 24, color: GREY })], spacing: { after: 320 } }),
   ...(note ? [P(note, { size: 20, color: GREY, after: 320 })] : []),
   ...(t === 'Baseline' || t === 'Endline' ? openerRows : []),
-  pageBreak(),
+  // A learner paper is printed per learner, so a cover page is a page per learner. The papers run
+  // straight on from the header; only the facilitator documents get a page of their own.
+  ...(t === 'Baseline' || t === 'Endline' ? [] : [pageBreak()]),
 ];
 
 const write = async (name, children) => {
