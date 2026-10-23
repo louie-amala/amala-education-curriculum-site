@@ -28,12 +28,13 @@ educatorContent: |
   You judge by your own professional judgement against Amala's proficiency scale, built from evidence
   gathered across the whole component. Not from the workbook alone, and never from a test.
 
-  Assess at two points, and record both on the FSL2 assessment record:
+  Assess at two points, each on a fresh Competency Assessment Record - one sheet for both competencies,
+  given to the learner with a next step once you have talked it through:
 
-  - **Week 6, supported (formative)** - a first, provisional judgement, made with Amala's support and
-    calibration. A checkpoint and a rehearsal.
-  - **Week 12, final (summative)** - the judgement that informs the readiness decision, and that Amala
-    moderates a sample of.
+  - **Week 6, supported (formative)** - a first, provisional judgement, then moderated with your master
+    educator and the other facilitators. A checkpoint and a rehearsal.
+  - **Week 12, final (summative)** - the judgement that informs the readiness decision, confirmed only
+    after moderation.
 
   Do not over-assess. Two considered judgements, built from evidence gathered over time, are worth far
   more than repeated testing - which this cohort does not need, and which many will find frightening.
@@ -44,8 +45,8 @@ educatorContent: |
   The goal-pursuit blocks - where they actually take tracked steps between sessions - mostly fall in
   Weeks 7 to 11.
 
-  So **expect a lot of Theorist at Week 6**: "can say what goal they would set and what steps they would
-  take, and why, but has not acted on it yet." That is not a failing cohort and it is not a warning
+  So **expect a lot of Theorist at Week 6**: "has set a goal and can explain the steps they would
+  take" - with no real action yet. That is not a failing cohort and it is not a warning
   sign. It is the sequence doing what it was designed to do. Judge what is in front of you honestly,
   record it, and use it for what it is for: seeing which learners you have thin evidence on, and where
   to put your support in the second block.
@@ -89,17 +90,19 @@ educatorContent: |
   - **Gather as you teach, not at the end.** Keep a running note per learner. Ten seconds after a check-in is worth more than an hour of recall in Week 12.
   - **Rationale is half the competency.** "I chose this because…" and "it did not work so I…" are what
     separate Theorist from Practitioner and Practitioner from Reflective. Ask, and listen.
-  - **A goal not reached is not a fail.** Practitioner is "attempted, with a clear rationale". A learner
-    who set a real goal, took real steps, and did not get there is a Practitioner.
-  - **Expert rarely comes from this component alone** - it needs two genuinely different scenarios. A
-    learner who set a second goal and carried through an improvement from the first can reach it.
+  - **A goal not reached is not a fail.** Practitioner is "has set a goal, taken steps towards it, and
+    can explain why they chose those steps". And a learner can reach Reflective Practitioner without
+    fully reaching the goal, if the goal was clear and they made real progress. Do not reward easy
+    goals over ambitious ones.
   - **Do not let literacy decide the grade.** A learner who cannot write can be a Reflective
     Practitioner. If your evidence is thin because your learner does not write, the gap is in your
     evidence-gathering, not in their competency.
   - **Where your judgement and the learner's self-check disagree**, that gap is the most useful thing on
     your desk. Have the conversation, then judge.
 
-  The printable record, with the scale and the "in this component" reading of each level, is in Part 9A.
+  The four levels, written for FSL2, with what you might see or hear a learner at each one do or say,
+  are in Educator Guide Part 3.5 and in "What Might You See or Hear?". They are the same words as on the
+  Competency Assessment Record. Expert Practitioner is not used on Learning Bridge+.
 agencyContribution:
   indicators:
   - power-over-wellbeing-and-self-direction
@@ -117,9 +120,9 @@ objectiveIds: []
 relatedSlugs: [cb-ail-running-this-offline, cb-ail-safeguarding-and-protection, cb-rp-assessing-the-research, cb-my-growth-across-the-programme, cb-ail-getting-better-at-goals]
 provenanceNote: >-
   Authored for the Learning Bridge+ (Cox's Bazar) edition as the Agency in Learning sibling of
-  cb-rp-assessing-the-research, which had no equivalent. The levels and descriptors are Amala's
-  Competency Framework and Proficiency Scale (framework/proficiency-scale.yaml) - the same ladder the
-  printable record uses, so the two cannot describe different things.
+  cb-rp-assessing-the-research, which had no equivalent. The levels it quotes are Amala's Proficiency
+  Scale written in the language of FSL2, as authored once in `grading` on the programme
+  (learning-bridge-coxs-bazar.yaml) and printed on the Competency Assessment Record (October 2026).
 rights:
   status: amala-own
   note: Authored by Amala for this edition; no third-party content.

@@ -112,8 +112,8 @@ versionComparison:
       (formative) and end of programme (summative).
   - aspect: Moderation
     detail: >-
-      Not applicable on Learning Bridge. Learning Bridge+ includes three moderation sessions
-      facilitated or conducted by Amala staff.
+      Not applicable on Learning Bridge. Learning Bridge+ includes three case-based moderation
+      sessions, facilitated by Amala staff, to which every educator brings one case.
   - aspect: Educator training
     detail: >-
       20 hours on Learning Bridge (10 live, 10 independent). 28 hours on Learning Bridge+ (14 live,
@@ -180,7 +180,8 @@ support:
       Amala Trainer (early calibration feedback, then preparation for summative assessment), and one
       summative session conducted by two Amala-trained moderators, who reach a formal decision on the
       validity of the assessment process and, where necessary, moderate decisions up or down before
-      results are released to students.
+      results are released to students. Every session is case-based: each educator brings one case,
+      and the group judges it blind against the Proficiency Scale. See "How moderation works" below.
 
 # Grading applies to Learning Bridge+ only. Students are assessed against Amala's Proficiency Scale.
 grading:
@@ -208,6 +209,163 @@ grading:
     Educators receive feedback to support these students in continuing to develop. Formal assessment
     also introduces students and educators to Amala's competency-based assessment model, building
     familiarity with the approach they will encounter throughout upper secondary programmes.
+
+
+# How moderation works on Learning Bridge+. The GENERAL model: an Amala staff member facilitates, the
+# educators are the assessors, and every assessor brings one case. Editions contextualise it by
+# filling the same fields for their own context (see learning-bridge-coxs-bazar.yaml, where NRC's
+# master educators facilitate and bring a case of their own up to Amala). Rendered on the programme
+# page and into the Moderation Guide by scripts/downloads/generate-moderation.js.
+moderation:
+  intro: >-
+    A judgement is only fair if it is consistent: the same evidence should earn the same level
+    whoever assessed it. Moderation is how Learning Bridge+ makes that true. It is case-based. A
+    moderation facilitator runs the session, and every educator who assesses brings one case - one
+    learner, one competency, one judgement, with the evidence behind it. The group judges each case
+    blind against the Proficiency Scale before hearing the assessor's level, argues out any
+    difference against the descriptors, and decides. What the group learns from one case is then
+    carried back across every judgement it touches.
+  roles:
+    - role: Moderation facilitator
+      who: Usually an Amala Trainer. At the summative session, an Amala-trained moderator, with a second moderator alongside.
+      does: >-
+        Runs the session and holds the protocol: keeps each assessor's level hidden until everyone
+        has judged, makes every disagreement resolve against the descriptors rather than against
+        anyone's seniority, and keeps the moderation record. Judges blind alongside everyone else.
+        At the summative session, the two moderators also decide whether the assessment process was
+        valid and results can be released.
+    - role: Assessors
+      who: The educators who made the judgements - facilitators and mentors who assess.
+      does: >-
+        Each brings one case and presents its evidence. Judges every other case blind, argues for
+        their reading, and changes their mind when the scale says they should. Afterwards, rechecks
+        their own judgements wherever a case was changed.
+    - role: Programme coordinator
+      who: The partner's coordinator.
+      does: >-
+        Schedules the sessions inside the assessment windows, makes sure every assessor arrives with
+        a case, and holds results until every recheck is in.
+  sessions:
+    - when: After the midpoint (formative) assessment
+      title: Early calibration
+      facilitatedBy: An Amala Trainer
+      purpose: >-
+        The first time the group compares judgements. Expect wide spreads and treat them as the
+        point: this is where a shared reading of the scale is built, early enough for it to change how
+        evidence is gathered in the second block.
+    - when: Before the summative assessment
+      title: Preparing for the final judgement
+      facilitatedBy: An Amala Trainer
+      purpose: >-
+        Each educator brings a learner they are unsure how they will judge at the end. The session
+        sharpens the boundaries that decide grades - Theorist or Practitioner, Practitioner or
+        Reflective Practitioner - and names any evidence still worth gathering while there is time.
+    - when: After the summative assessment, before results are released
+      title: Summative moderation
+      facilitatedBy: Two Amala-trained moderators
+      purpose: >-
+        The formal session. Cases are judged as before; the moderators then decide whether the
+        assessment process was valid, and, where necessary, moderate decisions up or down. No result
+        is released until this session and every recheck it produces are complete.
+  theCase:
+    intro: >-
+      One learner, one competency, one judgement. One case each is enough, because the session is
+      not checking every judgement - it is checking how each assessor reads the scale, and the
+      recheck carries that back across everything else they judged.
+    choose:
+      - The judgement you were least sure of - not the one you are proudest of. A case everyone agrees on in a minute teaches the group nothing.
+      - Where you can, one that sits near a boundary that changes a grade - Theorist or Practitioner, Practitioner or Reflective Practitioner.
+      - A different learner from the case you brought last time, and where you can, the other competency.
+    bring:
+      - "The evidence, as it is: workbook pages, what the learner made, notes of what they said and did. Oral and visual evidence counts exactly as it would in the room."
+      - The assessment record, with your level and the reason you gave for it, tied to the descriptor.
+      - One sentence on where you were least sure, and what would have moved you up or down.
+      - The learner identified by first name or a code only. The case is about the judgement, not the person.
+  running:
+    - step: Set up
+      time: 10 min
+      detail: >-
+        The Proficiency Scale in front of everyone. Two rules said out loud: disagreements are settled
+        against the descriptors, not by who is most senior; and changing your mind is the system
+        working, not a failure.
+    - step: Present the evidence
+      time: 3 min per case
+      detail: >-
+        The assessor shows what the learner did, said and made - the evidence only. Not their level,
+        and not how they feel about the learner.
+    - step: Judge blind
+      time: 2 min
+      detail: >-
+        Everyone, the facilitator included, privately decides a level. Then everyone shows at once -
+        written on a card, or held up on fingers. Nobody can wait to see where the others land.
+    - step: Argue it out
+      time: 7 min
+      detail: >-
+        If the levels spread, the people at either end argue first, each pointing to the descriptor
+        and the piece of evidence that puts it there. The assessor speaks last: their level, and their
+        reason.
+    - step: Decide and record
+      time: 3 min
+      detail: >-
+        The group decides - confirmed, changed, or more evidence needed - and the facilitator writes
+        the decision and a one-line reason tied to the descriptor. If it changed, a recheck is
+        flagged for the assessor.
+    - step: Close
+      time: 10 min
+      detail: >-
+        What showed up across the cases: a descriptor the group was reading differently, a kind of
+        evidence being over- or under-weighted. The agreed reading is written down, and every recheck
+        gets a date.
+  facilitatorRules:
+    - Hold the protocol, not the verdict. Your level goes on the table blind with everyone else's, and gets argued with like everyone else's.
+    - Never resolve a disagreement with your own authority. Resolve it against the descriptor, and make the group say which words in it decide the case.
+    - Keep each assessor's level hidden until everyone has judged. Once a level is spoken, the room anchors to it.
+    - Ask the quiet ones first. People who always agree have usually not yet disagreed out loud.
+    - "Watch for the three slips: being swayed by presentation rather than proficiency, by knowing the learner, or by effort rather than what the learner can now do."
+    - Write it down as you go. The record is the evidence the session happened and what it decided.
+  outcomes:
+    - outcome: Confirmed
+      meaning: The group places the evidence where the assessor did.
+      then: The judgement stands. Nothing more to do.
+    - outcome: Changed
+      meaning: The group places it at a different level, and can say which descriptor puts it there.
+      then: >-
+        The level on the record changes, with the reason. The assessor then rechecks every other
+        judgement they made in that competency that rested on the same reading.
+    - outcome: More evidence needed
+      meaning: The evidence cannot support any level with confidence.
+      then: >-
+        At a formative session, the assessor gathers it in the next block of learning. At the
+        summative session, the assessor looks for evidence that already exists - no new tasks - and
+        if it is not there, the judgement is made on the evidence as it stands.
+  recheck: >-
+    One case each is a sample, not the whole cohort. What makes it count is the recheck. When a case
+    is changed, the assessor goes back through their other judgements in that competency and asks
+    whether they applied the reading the group just corrected. Anything that moves is recorded with a
+    reason, and the facilitator sees the list before results are confirmed.
+  records:
+    - name: Case sheet
+      who: Each assessor, one per session
+      what: The case they are bringing - learner, competency, their level and reason, where they were least sure.
+    - name: Moderation record
+      who: The facilitator, one per session
+      what: Every case taken, the levels shown blind, the decision and its reason, and the rechecks flagged.
+    - name: Recheck list
+      who: Each assessor whose case was changed
+      what: Every judgement they rechecked, what moved, and why. Returned to the facilitator by the agreed date.
+  trap: >-
+    The session turns into the facilitator marking the cases while the educators watch. It feels
+    efficient, and it teaches nobody anything: the next round of judgements will be no more
+    consistent than the last. The moderation is in the blind judging and the argument. If the
+    educators are not doing both, it is not happening.
+  guide:
+    label: Moderation Guide
+    file: /downloads/lb-moderation-guide.docx
+    format: Word
+    note: >-
+      How Learning Bridge+ moderation runs: who does what, the three sessions, choosing and preparing
+      your case, a running order for the session, what a session can decide, and the recheck. With
+      the case sheet, the moderation record and the recheck list to print. Editable.
 
 sourceNotes:
   - Source is the "Learning Bridge Programme Overview for Delivery Partners" document.

@@ -32,8 +32,6 @@ for (const f of fs.readdirSync(path.join(CS, 'materials')).filter((f) => f.start
   const m = rd(path.join(CS, 'materials', f));
   mat[m.slug] = m;
 }
-// Amala's official proficiency scale - read from the framework so this record cannot drift from it.
-const scale = rd(path.join(CS, 'framework', 'proficiency-scale.yaml'));
 const objStatement = (oid) => {
   if (!oid) return null;
   const n = parseInt(oid.split('--o')[1], 10);
@@ -738,55 +736,9 @@ function cardsChildren() {
   return c.filter(Boolean);
 }
 
-// ============================================================ ASSESSMENT RECORD (facilitator, copy per learner)
-// The levels, GPA values and generic descriptors come from framework/proficiency-scale.yaml - Amala's
-// official scale - so the record can never drift from it. Only the FSI1 reading is written here.
-const FSI1_READING = {
-  none: 'Cannot say what they would try to find out about the issue, or how, and why.',
-  theorist: 'Can say what they want to find out, who they would ask and what they would read, and why - but has not acted on it.',
-  practitioner: 'Actually investigated - asked and looked, and used the source pack - with reasons for how they went about it, even if it has not yet become an insight.',
-  reflective: 'The research reached an evidence-backed insight they can communicate, and they can say what worked in how they investigated, what did not, and what they would do differently, with evidence.',
-  expert: 'A second, distinct investigation in which they carried through an improvement identified in the first.',
-};
-const scaleTable = () => {
-  const colW = scaleW([300, 2500, 5200, 2800]);
-  const head = ['', 'Level', 'The learner (Amala’s scale)', 'In this component (FSI1)'];
-  const rows = [new TableRow({ tableHeader: true, children: head.map((t, i) => new TableCell({
-    width: { size: colW[i], type: WidthType.DXA },
-    children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 18, color: NAVY })] })],
-  })) })];
-  for (const lv of scale.levels) {
-    const title = lv.title + (lv.creditAwarded ? '' : '  (no credit)') + `\nGPA ${lv.gpa.toFixed(1)}`;
-    const cells = ['☐', title, lv.genericDescriptor, FSI1_READING[lv.id] || ''];
-    rows.push(new TableRow({ height: { value: 900, rule: 'atLeast' }, cantSplit: true, children: cells.map((t, i) => new TableCell({
-      width: { size: colW[i], type: WidthType.DXA },
-      children: String(t).split('\n').map((line, j) => new Paragraph({ children: [new TextRun({ text: line, size: i === 0 ? 26 : 17, bold: i === 1 && j === 0, color: i === 1 ? NAVY : (i === 3 ? GREY : undefined) })] })),
-    })) }));
-  }
-  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: colW, rows });
-};
-function rubricChildren() {
-  const c = [];
-  c.push(new Paragraph({ children: [new TextRun({ text: 'Research Project', bold: true, size: 44, color: NAVY })], spacing: { after: 40 } }));
-  c.push(P('Assessment record - Investigate real-world issues (FSI1)', { size: 24, bold: true, color: PLUM, after: 40 }));
-  c.push(P("Learning Bridge+ (Cox's Bazar)  ·  Facilitator - make one copy per learner", { size: 20, color: GREY, after: 160 }));
-  c.push(P('Judge each learner by your professional judgement against Amala’s proficiency scale, from evidence gathered wherever you saw it, not from the final output alone and not only from this component. Full guidance is in the facilitator guide ("Assessing the investigation"). Tick the level and write one or two lines of evidence for why.', { size: 22, after: 120 }));
-  c.push(P('The scale is generic: one ladder, read against the goal FSI1 names - the learner can conduct primary and secondary research into challenges affecting people and the planet to develop actionable insights. Credit begins at Practitioner, which is also the readiness bar for the accredited secondary pathway. Expert needs two or more genuinely different scenarios, so it rarely comes from this component alone.', { size: 20, color: GREY, after: 160 }));
-  c.push(P('Learner: ______________________________', { size: 22, after: 200 }));
-  const point = (title) => {
-    c.push(H2(title));
-    c.push(scaleTable());
-    c.push(P('Evidence for the judgement (question & plan · evidence log & how they checked sources · findings → insight · output & answering questions):', { size: 18, color: GREY, after: 40, before: 160 }));
-    c.push(box(2200, ''));
-  };
-  point('Midway (formative) - around the end of "Plan and conduct research"');
-  c.push(P('Provisional, made with Amala’s support and calibration: a checkpoint that tells you where to put your support next, not the final grade.', { size: 18, italics: true, color: GREY, before: 80 }));
-  c.push(pageBreak());
-  point('End (summative) - at the showcase');
-  c.push(P('This is the judgement that counts towards the certificated competency and the readiness decision.', { size: 18, italics: true, color: GREY, before: 80 }));
-  c.push(P('Levels, GPA values and generic descriptors are Amala’s official Competency Framework and Proficiency Scale (cohorts starting 2025).', { size: 16, color: GREY, before: 200 }));
-  return c.filter(Boolean);
-}
+// The per-competency assessment record (rubricChildren / scaleTable) was retired in October 2026:
+// both competencies are now recorded on one Competency Assessment Record, rendered from `grading`
+// in the programme YAML by generate-assessment.js.
 
 
 // A document wrapper around a children array. The children builders above are exported so the
@@ -796,7 +748,7 @@ const FOOTER_GUIDE = "Research Project  ·  Learning Bridge+ (Cox's Bazar)";
 const FOOTER_BOOK = 'Our Research Book  ·  you can draw or say your answer';
 const doc = (children, opts = {}) => makeDoc(children, { footerText: opts.footer || FOOTER_GUIDE });
 
-module.exports = { unit, mat, facilitatorPlanChildren, workbookChildren, cardsChildren, rubricChildren, sheetIndex, SHEET_LIST };
+module.exports = { unit, mat, facilitatorPlanChildren, workbookChildren, cardsChildren, sheetIndex, SHEET_LIST };
 
 // ============================================================ WRITE
 async function main() {
@@ -804,7 +756,6 @@ async function main() {
   const jobs = [
     ['research-project-facilitator-unit-plan.docx', doc(facilitatorPlanChildren())],
     ['research-project-student-workbook.docx', doc(workbookChildren(), { footer: FOOTER_BOOK })],
-    ['research-project-assessment-rubric.docx', doc(rubricChildren())],
     ['research-project-picture-cards.docx', doc(cardsChildren())],
   ];
   for (const [name, d] of jobs) {

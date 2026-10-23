@@ -624,6 +624,10 @@ export function validateGraph(): ValidationReport {
         errors.push(`Programme "${prog.id}" download "${d.label}" points to missing file "${d.file}".`);
       }
     }
+    const modGuide = prog.moderation?.guide;
+    if (modGuide?.file.startsWith("/") && !existsSync(join(process.cwd(), "public", modGuide.file))) {
+      errors.push(`Programme "${prog.id}" moderation guide points to missing file "${modGuide.file}".`);
+    }
     // The agency thread must stay pinned to the things it claims to join: every component it names
     // must exist, every component must be covered, and every competency code must resolve.
     if (prog.agencyThread) {

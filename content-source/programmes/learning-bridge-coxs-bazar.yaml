@@ -64,8 +64,8 @@ downloads:
     format: Word
     note: >-
       For the NRC programme coordinator. How to set up sites and facilitators, run the 12-week rhythm,
-      schedule the week-6 supported and week-12 final assessments, and coordinate safeguarding and Amala
-      moderation. Editable.
+      schedule the week-6 supported and week-12 final assessments and the moderation round that follows
+      each, and coordinate safeguarding. Editable.
   - label: Trainer Guide - inducting the facilitators
     file: /downloads/lb-coxs-bazar-trainer-guide.docx
     format: Word
@@ -73,6 +73,34 @@ downloads:
       For NRC's master educators, who induct the facilitators before a cohort starts. What induction
       covers and what it deliberately does not, a shape for each of the two inductions, how you know a
       facilitator is ready, the record, and what to do when someone joins mid-cohort. Editable.
+  - label: Moderation Guide - for master educators
+    file: /downloads/lb-coxs-bazar-moderation-guide.docx
+    format: Word
+    note: >-
+      For NRC's master educators, who run moderation with the facilitators at Week 6 and Week 12 and
+      each bring a case to Amala. The session protocol, choosing a case, what a session can decide,
+      the recheck, the case call with Amala, and the records to print. Editable.
+  - label: Competency Assessment Record
+    file: /downloads/lb-coxs-bazar-assessment-record.docx
+    format: Word
+    note: >-
+      The record for both assessed competencies, FSI1 and FSL2, on one sheet. One per learner at Week 6
+      and again at Week 12: circle the level, write what you saw or heard, and give one next step. The
+      learner keeps it; you keep a copy or photo. Editable.
+  - label: What Might You See or Hear? - judging the levels
+    file: /downloads/lb-coxs-bazar-what-might-you-see-or-hear.docx
+    format: Word
+    note: >-
+      The educator guide to the record: each level of FSI1 and FSL2 in the language of the competency,
+      what a learner at that level might do or say, the watch-outs, and how to write the "Why this
+      level?" and "Next step" boxes. The same content is in Educator Guide Parts 3.5 and 3.6. Editable.
+  - label: Educator Guide - amended pages (October 2026)
+    file: /downloads/lb-coxs-bazar-educator-guide-assessment-amendment.docx
+    format: Word
+    note: >-
+      For educators already holding a printed Educator Guide: the replacement Part 3 (assessment), the
+      "Assessing…" sections of Parts 4 and 6, and Parts 9A and 9B, after the levels were rewritten in
+      the language of each competency and the two records became one. Editable.
   - label: Educator Guide - the complete manual
     file: /downloads/lb-coxs-bazar-educator-guide.docx
     format: Word
@@ -80,8 +108,8 @@ downloads:
       Everything a facilitator needs, in one document. Part 1–3: your three roles, how to deliver offline
       and oral- and visual-first, what a week could look like, the week-by-week map, mentoring and
       safeguarding, and how the supported (week 6) and final (week 12) assessments work. Parts 4–6: the
-      full facilitator unit plan for all three taught components. Parts 7–9: the three learner books, the
-      printable cards, and the two assessment records. The component packs below are the same content
+      full facilitator unit plan for all three taught components. Parts 7–9: where the learner books are,
+      the printable cards, and the records (the Competency Assessment Record is its own download). The component packs below are the same content
       split into separate files, for when you only need one piece. Editable.
   - label: My Learning Book - the Agency in Learning learner book
     file: /downloads/agency-in-learning-student-workbook.docx
@@ -211,7 +239,7 @@ qualification:
         - Say what is in each of the nine parts of the Educator Guide, and find anything in it inside a minute.
         - Run a block straight from the facilitator unit plan, using only what is printed.
         - Use the learner book by sheet number - the plan points into it that way.
-        - Say what NRC does and what Amala does, including what moderation is and when it happens.
+        - Say what NRC does and what Amala does, including what moderation is, who runs it, and when it happens.
       drawsOn:
         - The Educator Guide - Part 1 for the agency thread and the three roles, Parts 4-6 for the unit plans, Parts 7-8 for the learner books and cards
         - The programme page on the Amala site
@@ -222,11 +250,11 @@ qualification:
     - id: IND-2
       title: Assessment on Learning Bridge+
       hours: "3-4 hrs"
-      reviews: "Educator Guide Part 9 - the two assessment records - and the Proficiency Scale"
+      reviews: "The Competency Assessment Record, and Educator Guide Part 3 - the levels in the language of each competency"
       note: >-
         Judging the two assessed competencies against the Proficiency Scale at the week-6 supported
         and week-12 final points, completing the records, the Pass / Merit / Distinction boundaries,
-        and bringing a case to Amala moderation.
+        and bringing a case to moderation - run by a master educator after each assessment point.
       purpose: >-
         A facilitator can judge the two assessed competencies against the Proficiency Scale at week 6
         and week 12, complete the records, and bring a case to moderation.
@@ -236,10 +264,12 @@ qualification:
         - Say what is different about the week-6 supported assessment and the week-12 final one.
         - Complete the assessment record for a learner.
         - Explain the grade boundaries - Pass, Merit, Distinction - and what a learner has to show for each.
-        - Bring a case to Amala moderation and defend a judgement, or change it.
+        - Choose and prepare a moderation case, present its evidence without giving the level away, and defend the judgement - or change it.
+        - Say what a recheck is, and do one when a case is changed.
       drawsOn:
-        - Educator Guide Part 9 (the two assessment records)
-        - The Proficiency Scale
+        - The Competency Assessment Record, and the moderation case sheet (Educator Guide Part 9B)
+        - "Educator Guide Parts 3.5 and 3.6: the levels in the language of each competency, what you might see or hear, and how to write the record"
+        - The Moderation Guide - the session protocol facilitators will take part in
         - "The programme's grading block: Pass / Merit / Distinction"
         - MOD-C, Conducting assessments of competence, for the underlying craft
       trap: >-
@@ -518,9 +548,10 @@ support:
     detail: >-
       Amala is the remote technical consultant to NRC: it contextualises the curriculum, supplies
       ready-made offline resources, trains NRC's master educators and the programme coordinator, and
-      moderates assessment. Amala does not train facilitators directly and does not deliver in the
-      camps: NRC's master educators induct the facilitators, and NRC leads implementation, recruits and
-      manages facilitators, and delivers.
+      moderates the moderators: NRC's master educators run moderation with the facilitators, and each
+      brings a case to Amala after every round. Amala does not train facilitators directly and does not
+      deliver in the camps: NRC's master educators induct the facilitators, and NRC leads
+      implementation, recruits and manages facilitators, and delivers.
   - title: Resources
     detail: >-
       Ready-made, editable, fully offline resources. The Educator Guide is the single document a
@@ -530,24 +561,209 @@ support:
       is written to run from paper, a wall, and your voice.
 
 # Grading applies as the certificated Learning Bridge+ tier.
+#
+# The levels are Amala's Proficiency Scale REWRITTEN IN THE LANGUAGE OF EACH COMPETENCY - one short
+# descriptor per level, plus what you might see or hear a learner at that level do or say. This is
+# the LB+ standard (adopted October 2026 from the "Competency Assessment Record" and "What Might You
+# See or Hear?" tools): it is easier for a new educator to judge against than the generic ladder.
+# Expert Practitioner is deliberately absent - it is not achievable within the programme timeframe.
+# Authored ONCE here and rendered into the Competency Assessment Record and the "What Might You See
+# or Hear?" guide (scripts/downloads/generate-assessment.js) and Educator Guide Part 3
+# (generate-lb-guides.js), so the record an educator fills and the guide they read cannot disagree.
 grading:
   intro: >-
     As the Learning Bridge+ tier, students are formally assessed in two competencies against Amala's
-    Proficiency Scale, supporting the readiness decision for transition to accredited secondary
-    education. Assessment rests on educator judgement across varied evidence, with case-based
-    moderation.
+    Proficiency Scale, written here in the language of each competency, supporting the readiness
+    decision for transition to accredited secondary education. Assessment rests on educator judgement
+    across varied evidence, with case-based moderation run by NRC's master educators and checked by
+    Amala.
+  levelsNote: >-
+    Expert Practitioner is not used on Learning Bridge+, as it is not achievable within the programme
+    timeframe.
+  remember:
+    - title: These are examples, not a checklist.
+      detail: >-
+        "Two interviews plus one article" does not equal Practitioner. The question is always: does
+        the evidence match the level description?
+    - title: Spoken evidence counts fully.
+      detail: >-
+        A learner who explains their thinking to you in a conversation, or who you watch doing the
+        work, meets the level just as much as one who writes it down. Record what you saw or heard on
+        the sheet.
+    - title: Assess the learner, not the product.
+      detail: >-
+        A neat poster or report is not the evidence. What the learner did, and how they explain it, is.
   assessedCompetencies:
-    - title: Set and Pursue Goals
-      description: >-
-        The ability to establish clear objectives for learning and growth and take deliberate steps
-        to make progress towards them. Developed and demonstrated through the Agency in Learning
-        component.
     - title: Investigate Real World Issues
+      code: FSI1
+      statement: >-
+        The learner can conduct primary and secondary research into challenges affecting people and
+        the planet to develop actionable insights.
       description: >-
         The ability to conduct primary and secondary research into challenges affecting people and
         the planet to develop actionable insights. Developed through the Research Project component
         (authored in this edition around the shared challenge of the trees on the hills where
         learners live).
+      terms:
+        - term: Primary research
+          meaning: >-
+            Finding out new information first-hand: talking to community members, asking a group the
+            same questions, watching and counting (for example, how many people queue at a water
+            point), mapping an area, or taking photos.
+        - term: Secondary research
+          meaning: >-
+            Using information someone else has gathered: asking a knowledgeable person what is already
+            known, using a printed report, leaflet or poster, a radio programme, or material the
+            educator brings in.
+        - term: An actionable insight
+          meaning: >-
+            A finding that points to something someone could do. "Girls miss school" is a finding.
+            "Girls in our block miss about three days a month because there is no private latrine near
+            the learning centre, so a screened latrine could help" is an actionable insight.
+      levels:
+        - level: No level awarded
+          descriptor: Has no plan for how to research a challenge.
+          seeOrHear:
+            - The learner names a problem but cannot say how they would find out more about it.
+            - They say "I would ask someone" but cannot say who, what they would ask, or why.
+        - level: Theorist
+          descriptor: Can explain how they would research a challenge using primary and secondary research.
+          seeOrHear:
+            - A plan that names a challenge, a question, and at least one primary and one secondary way of finding out.
+            - 'A reason for those choices, for example: "I will ask shop owners because they know why prices went up. I will ask the camp health worker what is already known."'
+            - No research has happened yet, or only a small start.
+        - level: Practitioner
+          credit: true
+          descriptor: Has done primary and secondary research into a challenge and can explain why they chose those methods.
+          seeOrHear:
+            - "Signs that research actually happened: interview notes or drawings, a tally from observing, photos, or the learner telling you clearly who they spoke to and what they found."
+            - Both primary and secondary research used, even if one is small.
+            - The learner can explain why they chose those people, questions or sources.
+            - They try to say what they found, but it may be a general statement ("many people have no work") rather than something someone could act on.
+        - level: Reflective Practitioner
+          credit: true
+          descriptor: >-
+            Has used their research to reach an insight someone could act on, and can say what worked,
+            what did not and what they would change in how they researched.
+          seeOrHear:
+            - At least one insight that is specific, comes from their own research, and points to a possible action.
+            - 'The learner can show where the insight came from: "Seven of the ten women I spoke to said…"'
+            - 'They reflect on how they researched, not on the topic. For example: "I only spoke to men because they were at the market, so I missed what women think. Next time I would go to the clinic in the morning."'
+            - Their reflection points to something real from their own research, not a general comment like "I could have done more."
+      watchOut:
+        - >-
+          Doing the research is Practitioner. To reach Reflective Practitioner, the learner needs an
+          insight someone could act on and a reflection on their research approach. A learner who did
+          lots of research but ends with a description of the problem is still a Practitioner.
+      nextSteps:
+        - level: Theorist
+          notUseful: Do more research.
+          useful: Talk to three people affected by the problem and ask each of them the same two questions.
+        - level: Practitioner
+          notUseful: Make your findings better.
+          useful: 'Look at what people told you and finish this sentence: "Because of what I found, someone could…"'
+        - level: Reflective Practitioner
+          notUseful: Keep it up.
+          useful: "Next time you investigate a problem, fix the thing you said went wrong: speak to women as well as men."
+    - title: Set and Pursue Goals
+      code: FSL2
+      statement: >-
+        The learner can establish clear objectives for learning and growth and take deliberate steps to
+        make progress towards them.
+      description: >-
+        The ability to establish clear objectives for learning and growth and take deliberate steps
+        to make progress towards them. Developed and demonstrated through the Agency in Learning
+        component.
+      terms:
+        - term: A clear goal
+          meaning: >-
+            Says what the learner wants to achieve, by when, and how they will know. "Improve my
+            English" is not clear. "Be able to introduce myself and my project in English at the
+            showcase" is clear.
+        - term: Deliberate steps
+          meaning: >-
+            Actions the learner chose because they lead towards the goal: practising ten new words each
+            evening with a sibling, asking the educator to listen to a practice, setting aside time each
+            week.
+        - term: Progress
+          meaning: A visible change from where the learner started, even if they have not fully reached the goal.
+      levels:
+        - level: No level awarded
+          descriptor: Cannot name a goal or how to work towards it.
+          seeOrHear:
+            - The learner cannot name something they want to achieve.
+            - They name a wish ("I want a good life") with no idea how to move towards it.
+        - level: Theorist
+          descriptor: Has set a goal and can explain the steps they would take.
+          seeOrHear:
+            - 'A goal that is fairly clear, and a plan of steps, for example: "I want to read a short story in English by the end of the course. I will practise every night and ask my cousin to test me."'
+            - The learner can explain why those steps would help.
+            - No real action yet, or one start that was not followed up.
+        - level: Practitioner
+          credit: true
+          descriptor: Has set a goal, taken steps towards it, and can explain why they chose those steps.
+          seeOrHear:
+            - The learner set a goal earlier and can still tell you what it is.
+            - "Signs of action: a simple tracker or tally, you or a peer seeing them practise, regular attendance at the activity they planned."
+            - They can explain why they chose those steps.
+            - Progress may be patchy, the goal may still be vague, or the steps may have drifted away from the goal.
+        - level: Reflective Practitioner
+          credit: true
+          descriptor: >-
+            Has made clear progress towards a clear goal, and can say what worked, what did not and what
+            they would change in how they pursued it.
+          seeOrHear:
+            - 'A clear goal and real progress against it: "In Week 2 I could say my name. Now I can talk for one minute."'
+            - 'They reflect on how they set and worked towards the goal, for example: "My goal was too big, so I stopped when I fell behind. I should have set a small target each week." "Practising with my friend worked better than practising alone."'
+            - Their reflection is backed by something specific from what they did.
+      watchOut:
+        - >-
+          Progress, not perfection. A learner can reach Reflective Practitioner without fully reaching
+          their goal, if the goal was clear and they made real progress. Do not reward easy goals over
+          ambitious ones.
+        - >-
+          Reflection on the goal, not on themselves. "I learnt I am a hard worker" is about the learner,
+          not about how they pursued the goal. On its own it does not show Reflective Practitioner.
+      nextSteps:
+        - level: Theorist
+          notUseful: Work on your goal.
+          useful: This week, do the first step of your plan (practise ten words each evening) and tick it off each day.
+        - level: Practitioner
+          notUseful: Be more reflective.
+          useful: At the end of each week, tell a friend one thing that helped you practise and one thing that stopped you.
+        - level: Reflective Practitioner
+          notUseful: Set a harder goal.
+          useful: "Set your next goal using what you learnt: a small target each week, with a practice partner."
+  # How to write the two boxes on the record. Shared by both competencies.
+  writing:
+    whyIntro: >-
+      Write what you saw or heard, not a judgement. The learner and the moderator should both be able
+      to read it and understand the level.
+    whyExamples:
+      - notUseful: Good effort, worked hard.
+        useful: >-
+          Interviewed 5 neighbours about water access and used the NGO leaflet. Explained why she chose
+          them. Findings still general: "water is a problem".
+      - notUseful: Reflected well.
+        useful: >-
+          Said his goal was too big and he stopped practising in Week 4. Now sets a weekly target. Can
+          introduce himself in English for one minute (I observed this).
+    nextStepIntro: "The next step is the part of the sheet most useful to the learner. A good next step:"
+    nextStepRules:
+      - Is one action, not a list.
+      - "Moves them towards the next level. Read the next column on the sheet and ask: what is the one thing missing?"
+      - "Is something they can actually do with what they have: no internet, no special materials."
+      - Uses words they can remember when you say it to them out loud.
+    alreadyTop: >-
+      Reflective Practitioner is the top level on Learning Bridge+, but the next step still matters.
+      Point them to using their own improvement in a new situation: a new problem to investigate, or a
+      new goal. This is how learners grow beyond the course.
+    handover: >-
+      When you give the sheet to the learner, talk it through with them in the language they
+      understand best. Tell them their level, why, and their next step.
+  record:
+    label: Competency Assessment Record
+    file: /downloads/lb-coxs-bazar-assessment-record.docx
   scale:
     - grade: Pass
       requirement: Practitioner in both competencies.
@@ -559,6 +775,212 @@ grading:
     The programme's headline success measure, agreed with NRC, is that at least 70% of learners who
     complete the programme demonstrate the competencies required to enrol in the accredited secondary
     education pathway, as measured by the summative exit assessment.
+
+# How moderation works in this edition. Contextualises the general Learning Bridge+ model
+# (learning-bridge.yaml) for a programme Amala cannot be in the room for: NRC's master educators
+# facilitate moderation with the facilitators, and each master educator then brings one case of
+# their own to Amala, who moderates the moderators. Rendered on the programme page and into the
+# Moderation Guide by scripts/downloads/generate-moderation.js; the Coordinator, Trainer and
+# Educator Guides point into it rather than restating it.
+moderation:
+  intro: >-
+    A judgement is only fair if it is consistent: the same evidence should earn the same level
+    whoever assessed it. Moderation is how this programme makes that true, and it is case-based. Each
+    master educator runs a moderation session with the facilitators they look after. Every facilitator
+    brings one case - one learner, one competency, one judgement, with the evidence behind it - and the
+    group judges it blind against the Proficiency Scale before hearing the facilitator's level. Then
+    each master educator brings one case of their own to Amala. That is how a standard Amala cannot
+    hold in the room is still held.
+  contextNote: >-
+    On Learning Bridge+ generally, an Amala Trainer facilitates moderation. Here Amala is a remote
+    technical consultant and does not work with facilitators directly, so NRC's master educators
+    facilitate it, and Amala moderates them: after every session, each master educator brings a case
+    to a call with Amala. There are two rounds, one at each assessment point, rather than three.
+  roles:
+    - role: Moderation facilitator
+      who: An NRC master educator, for the facilitators they inducted and support.
+      does: >-
+        Runs the session and holds the protocol: keeps each facilitator's level hidden until everyone
+        has judged, makes every disagreement resolve against the descriptors, and keeps the
+        moderation record. Judges blind alongside everyone else. Then brings one case from the
+        session to Amala.
+    - role: Assessors
+      who: The facilitators - each one assesses the learners they teach and mentor.
+      does: >-
+        Each brings one case and presents its evidence. Judges every other case blind, argues for
+        their reading, and changes their mind when the scale says they should. Afterwards, rechecks
+        their own judgements wherever a case was changed.
+    - role: Amala
+      who: Remote, by phone or video.
+      does: >-
+        Moderates the moderators. Runs a case call with all the master educators after each round,
+        using the same protocol, and checks that each of them is holding the standard. Does not
+        regrade learners, and does not join the facilitators' sessions.
+    - role: Programme coordinator
+      who: NRC's coordinator.
+      does: >-
+        Schedules the sessions and the Amala call inside each assessment window, makes sure every
+        facilitator arrives with a case and every master educator's evidence reaches Amala ahead of
+        the call, and holds results until every recheck is in.
+  sessions:
+    - when: Week 6, after the supported assessment
+      title: Formative moderation, then the case call with Amala
+      facilitatedBy: Each master educator, with their facilitators; then Amala, with the master educators
+      purpose: >-
+        The first time facilitators compare judgements, and the first time master educators run the
+        session. Expect wide spreads and expect most learners to sit at Theorist - the goal-pursuit and
+        analysis weeks come after Week 6. Levels set here are provisional. What matters is the shared
+        reading of the scale, early enough to change how evidence is gathered in Weeks 7 to 11.
+    - when: Week 12, after the final assessment, before results are confirmed
+      title: Summative moderation, then the case call with Amala
+      facilitatedBy: Each master educator, with their facilitators; then Amala, with the master educators
+      purpose: >-
+        The session that counts. Cases are judged as at Week 6, but decisions are final. No result is
+        confirmed, and no readiness decision made, until both the session and the Amala call have
+        happened and every recheck they produced is in.
+  theCase:
+    intro: >-
+      One learner, one competency, one judgement. One case each is enough, because the session is
+      not checking every judgement - it is checking how each facilitator reads the scale, and the
+      recheck carries that back across everything else they judged.
+    choose:
+      - The judgement you were least sure of - not the one you are proudest of. A case everyone agrees on in a minute teaches the group nothing.
+      - Where you can, one that sits near a boundary that changes a grade - Theorist or Practitioner, Practitioner or Reflective Practitioner.
+      - At Week 12, a different learner from your Week-6 case, and where you can, the other competency.
+    bring:
+      - "The evidence, as it is: the learner's book open at the right pages, what they drew or made, and your notes of what they said and did. Much of the evidence here is oral and visual, because many learners are not yet literate - it counts exactly as written work does."
+      - Your Competency Assessment Record for that learner (the copy or photo you kept), with your level and what you wrote in "Why this level?".
+      - "Your case sheet (Educator Guide Part 9B): where you were least sure, and what would have moved you up or down."
+      - The learner identified by first name or a code only. The case is about the judgement, not the person - and some of it will travel to Amala.
+  running:
+    - step: Set up
+      time: 10 min
+      detail: >-
+        The Proficiency Scale in front of everyone, read aloud in the language the group works in.
+        Two rules said out loud: disagreements are settled against the descriptors, not by who is most
+        senior; and changing your mind is the system working, not a failure.
+    - step: Present the evidence
+      time: 3 min per case
+      detail: >-
+        The facilitator shows what the learner did, said and made - the evidence only. Not their
+        level, and not how they feel about the learner.
+    - step: Judge blind
+      time: 2 min
+      detail: >-
+        Everyone, the master educator included, privately decides a level. Then everyone shows at once
+        - written on a card, or held up on fingers (1 Theorist, 2 Practitioner, 3 Reflective
+        Practitioner, a closed fist for No Level Awarded). Nobody can wait to see where the others
+        land.
+    - step: Argue it out
+      time: 7 min
+      detail: >-
+        If the levels spread, the people at either end argue first, each pointing to the descriptor
+        and the piece of evidence that puts it there. The facilitator whose case it is speaks last:
+        their level, and their reason.
+    - step: Decide and record
+      time: 3 min
+      detail: >-
+        The group decides - confirmed, changed, or more evidence needed - and the master educator
+        writes the decision and a one-line reason tied to the descriptor. If it changed, a recheck is
+        flagged.
+    - step: Close, and choose the case for Amala
+      time: 15 min
+      detail: >-
+        What showed up across the cases: a descriptor the group was reading differently, a kind of
+        evidence being over- or under-weighted. The agreed reading is written down, and every recheck
+        gets a date. Then the master educator picks the case they will take to Amala, and says which
+        one, and why, before the group leaves.
+  facilitatorRules:
+    - Hold the protocol, not the verdict. Your level goes on the table blind with everyone else's, and gets argued with like everyone else's.
+    - Never resolve a disagreement with your own authority. Resolve it against the descriptor, and make the group say which words in it decide the case.
+    - Keep each facilitator's level hidden until everyone has judged. Once a level is spoken, the room anchors to it.
+    - Ask the quiet ones first. A facilitator who agreed with everything in the assessment induction will agree with everything here unless you make room for them not to.
+    - "Watch for the three slips: being swayed by presentation rather than proficiency, by knowing the learner, or by effort rather than what the learner can now do. Here, add a fourth: reading a learner who cannot write as a learner who cannot do."
+    - Keep a group to eight facilitators at most. With more, run two sessions - nine cases at fifteen minutes each is too long to stay sharp.
+    - Write it down as you go. The record is what you take to Amala, and the evidence the session happened.
+  outcomes:
+    - outcome: Confirmed
+      meaning: The group places the evidence where the facilitator did.
+      then: The judgement stands. Nothing more to do.
+    - outcome: Changed
+      meaning: The group places it at a different level, and can say which descriptor puts it there.
+      then: >-
+        The level on the record changes, with the reason. The facilitator then rechecks every other
+        judgement they made in that competency that rested on the same reading.
+    - outcome: More evidence needed
+      meaning: The evidence cannot support any level with confidence.
+      then: >-
+        At Week 6, the facilitator gathers it in Weeks 7 to 11 - this is the most useful thing Week 6
+        can tell them. At Week 12, they look for evidence that already exists - no new tasks - and if
+        it is not there, the judgement is made on the evidence as it stands.
+  recheck: >-
+    One case each is a sample, not the whole cohort. What makes it count is the recheck. When a case
+    is changed, the facilitator goes back through their other judgements in that competency and asks
+    whether they applied the reading the group just corrected. Anything that moves is recorded with a
+    reason, and the master educator sees the list before results are confirmed. The same rule runs
+    one level up: when Amala changes a master educator's case, the master educator rechecks the
+    decisions from their session that rested on the same reading.
+  facilitatorCase:
+    intro: >-
+      After every session, each master educator brings one case of their own to Amala. It is the same
+      protocol, one level up: the master educators judge each other's cases blind, with Amala, and
+      argue them out against the scale. It is how Amala checks that every master educator is holding
+      the standard, without being in the room where the judgements were made.
+    when: >-
+      Within a week of the sessions. At Week 6, before Weeks 7 to 11 are well under way, so anything
+      it changes still changes the teaching. At Week 12, before any result is confirmed.
+    format: >-
+      One call, all the master educators together, facilitated by Amala - about twenty minutes a case.
+      Evidence travels as photographs, sent to Amala and the other master educators at least two days
+      before the call, so a dropped connection never loses a case. If the line will not hold video,
+      the call runs as voice over the photographs everyone already has.
+    choose:
+      - The hardest case decided in your session - ideally one the group changed, or one it argued about for the whole seven minutes.
+      - Not the facilitator's original judgement on its own, but the decision your session reached. It is your moderation that is being checked, not their assessing.
+    bring:
+      - Photographs of the evidence, and the facilitator's case sheet.
+      - The facilitator's original level and reason, the levels your group showed blind, and the decision you recorded, with its reason.
+      - Your moderation record for the whole session, so Amala can see what else was decided and on what reading.
+    ifDisagree: >-
+      If Amala and the other master educators place the case differently, the call's decision stands
+      for that case. You then recheck every decision from your session that rested on the same
+      reading, ask the facilitators concerned to recheck their own judgements the same way, and send
+      Amala and the coordinator the list of what moved before results are confirmed. Amala does not
+      regrade the rest of the cohort; you do, with what the call made clear.
+  facilitatorPreparation:
+    intro: >-
+      Master educators are trained to run moderation by Amala, and they learn it the way the
+      facilitators will: by doing it.
+    steps:
+      - Before Week 6, a 90-minute remote session with Amala. Amala runs the protocol on two cases with the master educators as the assessors; then each master educator facilitates one round while the others play the assessors and Amala watches the protocol, not the verdict.
+      - Before that session, each master educator reads this guide and judges the practice cases they are sent, so the session is spent on facilitating, not on learning the scale.
+      - The Week-6 round is the practicum. The case call with Amala afterwards reviews how each session ran as well as the case itself.
+      - By Week 12, a master educator runs the session without support. If the Week-6 call showed one of them was not yet holding the protocol, Amala joins the start of their Week-12 session remotely where connectivity allows.
+  records:
+    - name: Case sheet
+      who: Each facilitator, one per session (Educator Guide Part 9B)
+      what: The case they are bringing - learner, competency, their level and reason, where they were least sure.
+    - name: Moderation record
+      who: Each master educator, one per session
+      what: Every case taken, the levels shown blind, the decision and its reason, and the rechecks flagged. Goes to Amala with the master educator's own case.
+    - name: Recheck list
+      who: Each facilitator whose case was changed - and each master educator whose case Amala changed
+      what: Every judgement rechecked, what moved, and why. Returned to the master educator (or to Amala) and the coordinator by the agreed date.
+  trap: >-
+    The session turns into the master educator marking the cases while the facilitators watch. It
+    feels efficient and respectful of rank, and it teaches nobody anything: the Week-12 judgements
+    will be no more consistent than the Week-6 ones, and the case that reaches Amala will be the
+    master educator's reading, not the group's. The moderation is in the blind judging and the
+    argument. If the facilitators are not doing both, it is not happening.
+  guide:
+    label: Moderation Guide - for master educators
+    file: /downloads/lb-coxs-bazar-moderation-guide.docx
+    format: Word
+    note: >-
+      For NRC's master educators, who run moderation with the facilitators at Week 6 and Week 12 and
+      each bring a case to Amala. Who does what, choosing and preparing a case, a running order for
+      the session, what a session can decide, the recheck, the case call with Amala, and the records
+      to print. Editable.
 
 sourceNotes:
   - Contextualised edition of the Learning Bridge programme (see programmes/learning-bridge.yaml); components and competencies are shared, delivery and sequencing are rebuilt for the Cox's Bazar context.

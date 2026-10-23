@@ -119,6 +119,12 @@ const MV = require('./generate-docx');
 const RP = require('./generate-rp');
 // Mentoring is a component like the others now, with its own generator and children builders.
 const MN = require('./generate-mentoring');
+// Moderation: the case sheet the Educator Guide carries as Part 9D is the one the Moderation Guide
+// prints. The process itself is rendered from PROGRAMME.moderation below, never re-typed.
+const MOD = require('./generate-moderation');
+// Assessment: Part 3.5 and 3.6 are the same levels and writing guidance the Competency Assessment
+// Record and the "What Might You See or Hear?" guide print, rendered from PROGRAMME.grading.
+const ASSESS = require('./generate-assessment');
 
 // The three taught components, in the order the guide presents them. Drives the week-by-week map.
 const COMPONENTS = [AIL, MV, RP];
@@ -130,11 +136,11 @@ const COMPONENTS = [AIL, MV, RP];
 const ARC_ROWS = [
   ['Before Week 1', 'Diagnostic intake. Each learner is placed and, where needed, English proficiency is checked (below B1). Learners are paired with a mentor.'],
   ['Weeks 1–5', 'First block of learning. Educators deliver the component sessions and begin gathering evidence of each learner’s competency as they go - from workbooks, steps taken, and what learners say and do.'],
-  ['Week 6', 'Supported (formative) assessment. Educators make a first, provisional judgement of each learner against the Proficiency Scale - with Amala’s support and calibration. This is a rehearsal and a checkpoint, not the final grade.'],
+  ['Week 6', 'Supported (formative) assessment. Educators make a first, provisional judgement of each learner against the Proficiency Scale. Then moderation: each master educator runs a session where every facilitator brings one case, and each master educator brings one case of their own to a call with Amala. This is a rehearsal and a checkpoint, not the final grade.'],
   ['Weeks 7–11', 'Second block of learning. Educators keep building the competencies and keep gathering evidence, guided by what Week 6 surfaced about each learner. The optional significant adult meetings, where a site is running them, sit in this block.'],
   ['Last week of delivery', 'The showcase. One shared closing event for all three components, with guests the learners invited themselves. Fix the date early - invitations have to go out.'],
   ['Week 12', 'Final (summative) assessment. Educators make their final judgement of each learner in the two assessed competencies, against the Proficiency Scale.'],
-  ['After Week 12', 'Amala moderation. Amala reviews a sample of judgements against the evidence to confirm they are consistent and fair, and the readiness decision is confirmed.'],
+  ['After Week 12', 'Moderation, as at Week 6 - a session with the master educator, one case per facilitator, then each master educator’s case to Amala. Results are confirmed, and the readiness decision made, only once every recheck is in.'],
 ];
 
 // ---- The example week -------------------------------------------------------------------------
@@ -222,9 +228,11 @@ const PACK_ROWS = [
   ['My Voice - letter & picture cards', 'The group', 'One set per group, printed and cut out. Part 8A here.'],
   ['Research Project - picture-word cards', 'The group', 'One set per group, printed and cut out. Part 8B here.'],
   ['Agency in Learning - picture cards (PDF)', 'The group', 'One set per group, printed and cut out. On the USB only - a PDF, so it is not reproduced in this guide.'],
-  ['Agency in Learning - assessment record (FSL2)', 'You', 'One copy per learner. Part 9A here.'],
-  ['Research Project - assessment record (FSI1)', 'You', 'One copy per learner. Part 9B here.'],
+  ['Competency Assessment Record - both competencies on one sheet', 'You, then the learner', 'Two per learner: one at Week 6, one at Week 12. A SEPARATE FILE, not inside this guide - see Part 9A. The learner keeps it; you keep a copy or photo.'],
+  ['What Might You See or Hear? - the guide to judging the levels', 'You', 'Already inside this guide as Parts 3.5 and 3.6. Also a separate file, if you want it on its own.'],
   ['Mentor’s record', 'You', 'One copy per learner on your mentoring caseload. Part 9C here.'],
+  ['Moderation case sheet', 'You', 'One per moderation session - two in all, at Week 6 and Week 12. Part 9B here.'],
+  ['Moderation Guide', 'Your master educator', 'For the master educators who run moderation. You do not need to print it - Part 3.4 tells you what you need.'],
 ];
 
 function titleBlock(c, title, subtitle, blurb) {
@@ -272,9 +280,9 @@ function coordinatorGuide() {
 
   c.push(H1('2. Who does what'));
   c.push(twoCol(['Role', 'Responsibility'], [
-    ['Amala', 'Remote technical consultant. Contextualises the curriculum, supplies ready-made offline resources, trains your master educators and you (the coordinator), supports the Week-6 assessment, and moderates the final judgements. Amala does not train facilitators directly and does not deliver in the camps.'],
+    ['Amala', 'Remote technical consultant. Contextualises the curriculum, supplies ready-made offline resources, trains your master educators and you (the coordinator), and moderates the moderators: after each assessment point, every master educator brings a case to a call with Amala. Amala does not train facilitators directly and does not deliver in the camps.'],
     ['You (coordinator)', 'Lead implementation on the ground. Set up sites and materials, recruit and support facilitators, hold the calendar and the two assessment windows, keep safeguarding pathways live, and be the bridge between the camps and Amala.'],
-    ['Master educators', 'Your own experienced educators, qualified by Amala to train. They induct the facilitators before a cohort starts, using the Trainer Guide. Two of them can cover a cohort.'],
+    ['Master educators', 'Your own experienced educators, qualified by Amala to train. They induct the facilitators before a cohort starts, using the Trainer Guide, and they run moderation with those facilitators at Week 6 and Week 12, using the Moderation Guide. Two of them can cover a cohort.'],
     ['Educators', 'Deliver the programme. Each educator holds three functions - they facilitate the sessions, mentor learners 1:1, and assess the competencies. Everything they need is in the Educator Guide.'],
     ['NRC', 'Owns the programme, employs and manages staff, and owns the Code of Conduct, safeguarding, and MHPSS/protection referral pathways.'],
   ]));
@@ -313,8 +321,8 @@ function coordinatorGuide() {
   c.push(P('Around that weekly learning, hold this assessment rhythm: five weeks of learning, a supported assessment, five more weeks, then the final assessment. Your job is to protect the two assessment windows and keep them on the calendar.', { size: 22 }));
   c.push(twoCol(['When', 'What happens'], ARC_ROWS));
   c.push(callout('The two assessment points, in one line', [
-    'Week 6 - supported assessment: a first, provisional judgement, made with Amala’s support. A checkpoint and a rehearsal.',
-    'Week 12 - final assessment: the educators’ final judgement of the two competencies, which Amala then moderates.',
+    'Week 6 - supported assessment: a first, provisional judgement, then moderation with the master educators, who each take a case to Amala. A checkpoint and a rehearsal.',
+    'Week 12 - final assessment: the educators’ final judgement of the two competencies, moderated the same way before any result is confirmed.',
   ], OLIVE));
 
   c.push(callout('Reading the Week-6 results', [
@@ -329,13 +337,23 @@ function coordinatorGuide() {
   c.push(...agencyByCompetencyChildren((t) => mini(t)));
   c.push(mini('Before Week 6'));
   c.push(bullet('Check educators are gathering evidence as they teach - from workbooks, steps taken, the growth path, and what learners say and do - not leaving it to the end. Much of this evidence is oral and visual, because many learners are not yet literate, which is expected.'));
-  c.push(bullet('Check each educator has the two assessment records (in Part 9 of their guide) copied, one per learner, and started.'));
-  c.push(bullet('Schedule the Week-6 supported assessment with Amala, so educators make their first judgements with support and calibration.'));
+  c.push(bullet('Check each educator has two Competency Assessment Records per learner printed - one for Week 6, one for Week 12 - and is keeping a running note of evidence per learner.'));
+  c.push(bullet('Book both moderation rounds now: for Week 6 and for Week 12, a session for each master educator with their facilitators, and one call with Amala for all the master educators within a week of the sessions.'));
+  c.push(mini('At Week 6, and again at Week 12'));
+  c.push(bullet('Educators make their judgement of each learner in the two competencies against the Proficiency Scale, and complete the records.'));
+  c.push(bullet('Check every facilitator arrives at moderation with ONE case - the judgement they were least sure of - on the case sheet in Part 9B of their guide, with the evidence.'));
+  c.push(bullet('Make sure each master educator’s photographed evidence and moderation record reach Amala at least two days before the call.'));
+  c.push(bullet('Collect the rechecks. Hold results until every recheck from the sessions and from the Amala call is in, then confirm them. At Week 12, that is when the readiness decision is made - not before.'));
   c.push(mini('Between Week 6 and Week 12'));
-  c.push(bullet('Feed back what Week 6 surfaced: which learners need more evidence, where educators’ judgements were uncertain, which competency needs more attention in the second block.'));
-  c.push(mini('At Week 12'));
-  c.push(bullet('Educators make their final judgement of each learner in the two competencies against the Proficiency Scale. Collect the judgements and the evidence behind them.'));
-  c.push(bullet('Hand a sample to Amala for moderation - a case-based review that confirms judgements are consistent and fair before the readiness decision is confirmed.'));
+  c.push(bullet('Feed back what Week 6 surfaced: which learners need more evidence, where facilitators’ judgements were uncertain or changed at moderation, which competency needs more attention in the second block.'));
+  const mod = PROGRAMME.moderation || {};
+  if (mod.intro) {
+    c.push(H2('How moderation works'));
+    c.push(P(mod.intro, { size: 22 }));
+    if ((mod.roles || []).length) c.push(refTable(['Role', 'Who', 'What they do'], mod.roles.map((r) => [r.role, r.who, r.does]), [2000, 3000, 5800]));
+    if (mod.recheck) c.push(callout('Why one case each is enough', [mod.recheck], OLIVE));
+    c.push(P('The full process - the session protocol, the case call with Amala, and the records - is in the Moderation Guide, which your master educators work from.', { size: 21, color: GREY }));
+  }
 
   c.push(H2('The two assessed competencies'));
   c.push(twoCol(['Competency', 'Developed through'], [
@@ -366,12 +384,12 @@ function coordinatorGuide() {
   c.push(bullet('Facilitators hold the required training modules, and both inductions are delivered and recorded before Week 1.'));
   c.push(bullet('Safeguarding and referral pathway concrete and briefed at every site.'));
   c.push(bullet('Diagnostic intake complete; learners placed and paired with mentors.'));
-  c.push(bullet('Week-6 and Week-12 assessment windows on the calendar; Week-6 support booked with Amala.'));
+  c.push(bullet('Week-6 and Week-12 assessment windows on the calendar, each with its moderation sessions and its Amala case call booked.'));
   c.push(mini('Through the cohort'));
   c.push(bullet('Evidence being gathered continuously, not left to the end.'));
   c.push(bullet('Attendance is stop-start by nature - pick learners up where they are; a return after absence is progress, not a fresh start.'));
-  c.push(bullet('Week-6 supported assessment run with Amala; findings fed back to educators.'));
-  c.push(bullet('Week-12 final assessment collected; sample handed to Amala for moderation.'));
+  c.push(bullet('Week-6 supported assessment and moderation run; every recheck in; findings fed back to educators.'));
+  c.push(bullet('Week-12 final assessment and moderation run; every recheck in before results are confirmed and the readiness decision made.'));
   c.push(bullet('Track the cohort against the 70% readiness measure.'));
 
   c.push(P('This guide is part of a fully offline, editable pack for Learning Bridge+ (Cox’s Bazar). Not for redistribution outside the programme.', { size: 18, color: GREY, before: 240 }));
@@ -410,11 +428,11 @@ const INDUCTION_SHAPES = {
       ['20 min', 'What is assessed, and what is not. The two competencies, and where the evidence for each actually comes from in the programme - workbooks, steps taken, the growth path, what learners say and do. Say plainly that much of it is oral and visual, because many learners are not yet literate, and that this is expected rather than a problem to be solved.'],
       ['30 min', 'The Proficiency Scale, read not memorised. Put the scale in front of them and work down it together. Do not teach it as vocabulary - the words only mean something against real work.'],
       ['50 min', 'Judging real evidence, and disagreeing. Give the group the same piece of learner evidence and have them place it on the scale independently, then show their hands at once. Where they disagree, make them argue it out and say why it sits there rather than one step up. The disagreement is the training. Do not resolve it too quickly, and do not resolve it with your own authority - resolve it against the scale.'],
-      ['30 min', 'Completing the record. Part 9 of the Educator Guide, one per learner. Each facilitator completes a record for the evidence they just judged. Check the reasons they write, not the boxes they tick - a judgement with no reason cannot be moderated.'],
+      ['30 min', 'Completing the record. The Competency Assessment Record, with Educator Guide Parts 3.5 and 3.6 beside it. Each facilitator completes a record for the evidence they just judged, including the next step. Check the reasons they write, not the boxes they tick - a judgement with no reason cannot be moderated.'],
       ['25 min', 'The two points, and the grades. What is different about the week-6 supported assessment and the week-12 final one. Then the Pass / Merit / Distinction boundaries, and what a learner actually has to show for each.'],
-      ['25 min', 'Moderation, and what happens when Amala disagrees. What moderation is, when it happens, and what to bring. Make it ordinary: bringing a case and changing your mind is the system working, not a failure. Practise defending one judgement out loud.'],
+      ['25 min', 'Moderation, as they will meet it. You are the person who will run it with them, so say so. One case each, the judgement they were least sure of; then run one round of the real protocol on the record they just completed - evidence shown without the level, everyone judges blind, show at once, argue it against the scale. Make it ordinary: changing your mind is the system working, not a failure. End on the recheck.'],
     ],
-    close: 'They leave having judged real evidence, argued about it, completed a record, and defended a judgement out loud.',
+    close: 'They leave having judged real evidence, argued about it, completed a record, and been through one round of the moderation they will bring a case to at Week 6.',
   },
 };
 
@@ -440,7 +458,7 @@ function trainerGuide() {
 
   const c = [];
   titleBlock(c, 'Trainer Guide', 'Inducting the facilitators');
-  c.push(P('This guide is for NRC’s master educators - the people who induct the facilitators before a cohort starts. It says what induction covers, what it deliberately does not, how to run the two inductions, and how you know a facilitator is ready to start. It is a companion to the Educator Guide, which is what facilitators deliver from, and to the Coordinator Guide, which is how the cohort around them is run.', { size: 22 }));
+  c.push(P('This guide is for NRC’s master educators - the people who induct the facilitators before a cohort starts. It says what induction covers, what it deliberately does not, how to run the two inductions, and how you know a facilitator is ready to start. It ends with the other thing you do for your facilitators: running their moderation at Week 6 and Week 12. It is a companion to the Educator Guide, which is what facilitators deliver from, and to the Coordinator Guide, which is how the cohort around them is run.', { size: 22 }));
   c.push(hr());
 
   c.push(H1('1. Where induction sits'));
@@ -535,6 +553,31 @@ function trainerGuide() {
   c.push(bullet('Take the questions that arrive in week two seriously. They are the real ones. The questions asked in the induction room are mostly about the programme; the questions asked in week two are about the learners in front of them.'));
   c.push(bullet('Feed what you see back to the coordinator, and to Amala. If several facilitators are stuck on the same thing, that is a curriculum problem, not a training problem, and Amala should hear about it.'));
 
+  // Running moderation. The process is rendered from PROGRAMME.moderation; the Moderation Guide
+  // carries it in full, with the records.
+  const M = PROGRAMME.moderation;
+  if (M) {
+    c.push(pageBreak());
+    c.push(H1('7. Running moderation'));
+    c.push(P('After each assessment point you run moderation with the facilitators you inducted, and then you bring a case of your own to Amala. Amala is not in the room where the judgements are made, so you are how the standard is held there. Everything you need is in the Moderation Guide; this is what to expect.', { size: 22 }));
+    (M.sessions || []).forEach((s) => c.push(bullet(`${s.when}: ${s.title.toLowerCase()}.`)));
+    if ((M.facilitatorRules || []).length) {
+      c.push(mini('When you are facilitating'));
+      M.facilitatorRules.forEach((t) => c.push(bullet(t)));
+    }
+    if (M.facilitatorCase) {
+      c.push(mini('Your case to Amala'));
+      c.push(P(M.facilitatorCase.intro, { size: 22 }));
+      c.push(callout('If Amala places it differently', [M.facilitatorCase.ifDisagree], OLIVE));
+    }
+    if (M.facilitatorPreparation) {
+      c.push(mini('How you get ready'));
+      c.push(P(M.facilitatorPreparation.intro, { size: 22 }));
+      M.facilitatorPreparation.steps.forEach((t) => c.push(bullet(t)));
+    }
+    if (M.trap) c.push(callout('The trap', [M.trap], PLUM));
+  }
+
   c.push(P('This guide is part of a fully offline, editable pack for Learning Bridge+ (Cox’s Bazar). Not for redistribution outside the programme.', { size: 18, color: GREY, before: 240 }));
   return makeDoc(c, { footerText: "Trainer Guide  ·  Learning Bridge+ (Cox's Bazar)" });
 }
@@ -577,6 +620,100 @@ function contentsPage(outline) {
   return c;
 }
 
+// ---- Part 3: assessing the two competencies ----------------------------------------------------
+// Its own function because it ships twice: inside the Educator Guide, and on its own as the Part 3
+// amendment (October 2026, when the levels were rewritten in the language of each competency) - so
+// educators holding an older printed guide can be handed exactly the pages that changed.
+function assessmentPartChildren(c, sec) {
+  sec('3.1  What you are assessing');
+  c.push(P('You are assessing two competencies against Amala’s Proficiency Scale, written for each competency in its own language (3.5). You record both on one sheet, the Competency Assessment Record (9A). You are judging the COMPETENCY, not the component: has this learner demonstrated it, and at what proficiency? That judgement is yours, made across varied evidence gathered as you teach, and never from a single test.', { size: 22 }));
+  c.push(twoCol(['Competency', 'Which component is built to develop it'], [
+    ['Investigate Real World Issues (FSI1)', 'The Research Project - researching a real challenge to develop actionable insights.'],
+    ['Set and Pursue Goals (FSL2)', 'Agency in Learning - setting clear learning goals and taking deliberate steps toward them.'],
+  ]));
+  c.push(callout('Evidence can come from anywhere', [
+    'Each component is built to develop one of the two competencies, but the evidence for a judgement is not confined to it. A learner may show Set and Pursue Goals in how they organised their part of the research, or in a mentoring conversation, or in something they did at home. A learner may show Investigate Real World Issues in a question they asked in an English session.',
+    'So collect it wherever you see it. If you only look inside the matching component, you will miss evidence, and you will most often miss it for the learners whose strongest work is spoken.',
+    'The two judgement points are Week 6 and Week 12. That is when you sit with the levels for each competency (3.5) and decide where the learner sits. Everything before that is collecting.',
+  ], OLIVE));
+  c.push(P('English is compulsory but is not one of the two graded competencies: its assessment is formative, against the A1 Can-Do outcomes and each learner’s own growth. The "I can…" sheet in the My Voice book is how you track it.', { size: 22 }));
+  c.push(P('Alongside that, you sit the English Check twice: the BASELINE paper in the first session before any English teaching, and the ENDLINE paper in the final week. It is one paper for the whole class, about 45 minutes, in three parts - Reading, Writing and an optional Speaking section. Nothing is read out, there are no pictures, and nothing has to be written into a paper beforehand: hand them out, say that it is not an exam and that hard parts can be left, and let learners work. Most learners will not finish every part, and that is expected.', { size: 22 }));
+  c.push(P('You mark it by counting, not judging - the writing tasks are twenty tick boxes, one mark each - and you pass three raw totals to the coordinator, who holds the spreadsheet that turns them into levels. Look at the marking sheet rather than the level when you plan: it tells you what to teach next. It does not tell you whether a learner can sound a word out, because nothing is read aloud; judge phonics from your own teaching against the phonics progression. See the English Check guide for the detail.', { size: 22 }));
+  c.push(...agencyByCompetencyChildren((t) => H3(t)));
+
+  sec('3.2  Gather evidence as you go');
+  c.push(P('Do not leave assessment to the end. Across the weeks, collect the evidence of each learner’s competency from:', { size: 22 }));
+  c.push(numbered('Their workbook - the Learner Profile, goal, plan, growth pages, and the research book pages they build.', 'evidence'));
+  c.push(numbered('The steps they actually take toward a goal, and how they adjust when a step does not work.', 'evidence'));
+  c.push(numbered('Their growth path - where they started and how they have moved.', 'evidence'));
+  c.push(numbered('What they say and do - in sessions and in mentoring. Much of your strongest evidence is oral and visual, because many learners are not yet literate. That is expected; record it.', 'evidence'));
+
+  sec('3.3  The two assessment points');
+  c.push(H3('Week 6 - supported assessment'));
+  c.push(P('After the first five weeks of learning, make a first, provisional judgement of each learner against the Proficiency Scale. It is supported: you take one case to moderation with your master educator and the other facilitators, and it is a checkpoint and a rehearsal, not the final grade. Use what it surfaces: which learners you have thin evidence on, where your judgement felt uncertain or was changed, which competency needs more attention in the next block.', { size: 22 }));
+  c.push(callout('Most learners will look low at Week 6 - that is expected', [
+    'By Week 6 a learner has usually SET a goal and made a plan, but the goal-pursuit weeks are still ahead: most of the tracked steps happen in Weeks 7 to 11. So expect a lot of Theorist on Set and Pursue Goals at Week 6, and treat it as normal, not as a warning sign.',
+    'The same is true of the Research Project. At Week 6 most groups are still gathering; the checking, the insights and the output - where Investigate Real World Issues really shows - come afterwards.',
+    'Judge what is in front of you honestly and record it. Week 6 tells you where to put your support, not whether the cohort is going to pass.',
+  ], OLIVE));
+  c.push(H3('Week 12 - final assessment'));
+  c.push(P('After the next five weeks, make your final judgement of each learner in the two competencies, against the same scale and on the fuller body of evidence. Then moderation, exactly as at Week 6 - and this time the decisions are final. No result is confirmed until moderation and every recheck it produces are done.', { size: 22 }));
+  c.push(H3('The record'));
+  c.push(P('At each point, fill one Competency Assessment Record per learner: circle one level for each competency, write why in the box below it, and write one next step. It is a separate file (see 9A), so print two per learner - one for Week 6 and one for Week 12. Then talk the sheet through with the learner, in the language they understand best, and give it to them. Keep a copy or a photo first: it is your evidence at moderation. 3.6 says how to write the two boxes.', { size: 22 }));
+  c.push(P('Do not over-assess: two considered judgements, built from evidence gathered over time, are worth more than repeated testing.', { size: 22 }));
+
+  // Moderation, as a facilitator meets it - rendered from PROGRAMME.moderation, the same block the
+  // Moderation Guide and the programme page render, so the three cannot drift.
+  const M = PROGRAMME.moderation;
+  if (M) {
+    sec('3.4  Moderation - bringing your case');
+    c.push(P(M.intro, { size: 22 }));
+    c.push(mini('Which case to bring'));
+    c.push(P(M.theCase.intro, { size: 22 }));
+    (M.theCase.choose || []).forEach((t) => c.push(bullet(t)));
+    c.push(mini('What to bring with it'));
+    (M.theCase.bring || []).forEach((t) => c.push(bullet(t)));
+    c.push(mini('What happens in the session'));
+    c.push(refTable(['Step', 'Time', 'What happens'], (M.running || []).map((r) => [r.step, r.time || '', r.detail]), [2100, 1400, 7300]));
+    c.push(mini('What the session can decide'));
+    c.push(refTable(['Decision', 'What it means', 'What happens next'], (M.outcomes || []).map((o) => [o.outcome, o.meaning, o.then]), [1900, 3700, 5200]));
+    if (M.recheck) c.push(callout('The recheck', [M.recheck], OLIVE));
+  }
+  sec('3.5  The levels, in the language of each competency');
+  c.push(P('The levels are Amala’s Proficiency Scale rewritten in the language of each competency: one short description per level, then examples of what you might see or hear a learner at that level do or say. They are the same words as on the Competency Assessment Record, so what you read here is what you circle there. Credit begins at Practitioner, which is also the readiness bar for the accredited secondary pathway.', { size: 22 }));
+  c.push(...ASSESS.levelsChildren({ h1: (t) => H3(t), h2: (t) => mini(t) }));
+  c.push(H3('The grade the two levels produce'));
+  c.push(twoCol(['Grade', 'Requirement'], (PROGRAMME.grading.scale || []).map((g) => [g.grade, g.requirement])));
+
+  c.push(pageBreak());
+  sec('3.6  Writing the record');
+  c.push(...ASSESS.writingChildren({ h2: (t) => H3(t) }));
+
+  sec('3.7  A few things that make this work');
+  c.push(bullet('Deliver in the language you share with learners, from the plain-English guide. Times in the plans are generous on purpose - oral work, drawing, and translation take longer than they look.'));
+  c.push(bullet('Let learners draw and speak. Reading and writing are not the point of most activities; showing the thinking is.'));
+  c.push(bullet('Coach, don’t rescue. Re-anchor the goal, break the next step down, and let the learner take it.'));
+  c.push(bullet('A return after absence is progress. Pick the learner up where they are.'));
+  c.push(bullet('Short of paper, or no printer? Share one book between two or three learners, or display one copy, and let learners work in ordinary notebooks. Say the page title aloud so their notebook keeps the same shape.'));
+  c.push(bullet('When something sensitive surfaces: step back, stay calm, do not promise secrecy, and refer.'));
+
+}
+
+// 9A: the record is a separate file, not reproduced in the guide. Shared with the amendment for the
+// same reason as Part 3.
+function recordPointerChildren(c, sec) {
+  sec('9A  The Competency Assessment Record - a separate file');
+  c.push(P('The record is a separate file - lb-coxs-bazar-assessment-record.docx, in the same place you got this guide - so it can be printed on its own. One sheet per learner per assessment point: print two per learner, one for Week 6 and one for Week 12.', { size: 22 }));
+  c.push(twoCol(['On the sheet', 'Where this guide covers it'], [
+    ['The learner, the centre, you, the date, and which assessment point', 'Part 3.3'],
+    ['One level circled for each competency, from the same descriptions as Part 3.5', 'Part 3.5'],
+    ['"Why this level?" and "Next step for the learner", for each competency', 'Part 3.6'],
+    ['After moderation: confirmed, or changed and why', 'Part 3.4'],
+    ['Your signature, and a tick once it is on the Amala assessment spreadsheet', 'Your coordinator'],
+  ]));
+  c.push(callout('Before you hand it over', ['Talk the sheet through with the learner, in the language they understand best: their level, why, and their next step. Keep a copy or a photo - the learner keeps the sheet.'], OLIVE));
+}
+
 // ============================================================ EDUCATOR GUIDE
 // Build a component pack's children one outline level down, so its headings nest under the Part
 // that carries them instead of competing with it. `embedded: true` also drops each pack's own cover,
@@ -608,7 +745,7 @@ function educatorGuide() {
     [{ lines: ['6'] }, { lines: ['Research Project - the full 50-hour plan, plus the source pack and the full original articles for your reference.'] }, { lines: ['Every session.'], color: GREY }],
     [{ lines: ['7'] }, { lines: ['Where the learner books are - they are separate files, not printed inside this guide - and how the plan points into them by sheet number.'] }, { lines: ['Read once, before Week 1.'], color: GREY }],
     [{ lines: ['8'] }, { lines: ['The cards to print and cut out.'] }, { lines: ['Print before Week 1.'], color: GREY }],
-    [{ lines: ['9'] }, { lines: ['The two assessment records - one copy per learner, per assessed competency.'] }, { lines: ['Copy before Week 1; fill at Weeks 6 and 12.'], color: GREY }],
+    [{ lines: ['9'] }, { lines: ['Records - where the Competency Assessment Record is (a separate file), your moderation case sheet, and the mentor’s record.'] }, { lines: ['Print before Week 1; fill the assessment record at Weeks 6 and 12.'], color: GREY }],
   ], [800, 6400, 3600]));
 
   c.push(H2('What to print, and for whom'));
@@ -675,7 +812,7 @@ function educatorGuide() {
   c.push(P('Ten weeks of delivery sit inside a twelve-week rhythm: five weeks of learning, a supported assessment, five more weeks, then the final assessment. Your coordinator holds the calendar. You hold the evidence.', { size: 22 }));
   c.push(twoCol(['When', 'What happens'], ARC_ROWS));
   c.push(callout('Five weeks, check in, five weeks, decide', [
-    'Weeks 1–5 learn  →  Week 6 supported (provisional) judgement, with Amala  →  Weeks 7–11 learn  →  Week 12 final judgement, then Amala moderation.',
+    'Weeks 1–5 learn  →  Week 6 supported (provisional) judgement, then moderation  →  Weeks 7–11 learn  →  Week 12 final judgement, then moderation.',
   ], OLIVE));
 
   sec('1.5  The week-by-week map');
@@ -695,7 +832,7 @@ function educatorGuide() {
   c.push(bullet('You know NRC’s Code of Conduct and the camp referral pathway - who you hand a concern to, and how. Do not take a mentoring caseload without this.'));
   c.push(bullet('Learner books printed - one per learner if you can, one per two or three if you cannot, or a plan for displaying one copy. Agree which with your coordinator before Week 1.'));
   c.push(bullet('Cards printed and cut out (Part 8).'));
-  c.push(bullet('Assessment records copied, one per learner (Part 9), with learners’ names on them.'));
+  c.push(bullet('Competency Assessment Records printed - two per learner, one for Week 6 and one for Week 12 (a separate file; see Part 9A).'));
   c.push(bullet('You have skimmed Part 4 Phase 1 and Part 5 Phase 1, so you know how the first sessions open.'));
   c.push(bullet('You know which learners are on your mentoring caseload, and you have agreed the weekly timetable with your coordinator.'));
 
@@ -709,59 +846,7 @@ function educatorGuide() {
   // ---------------------------------------------------------------- PART 3
   part(3, 'Assessing the two competencies', 'Your judgement, across varied evidence, gathered as you teach - a supported judgement at Week 6 and a final one at Week 12.');
 
-  sec('3.1  What you are assessing');
-  c.push(P('You are assessing two competencies against Amala’s Proficiency Scale. You are judging the COMPETENCY, not the component: has this learner demonstrated it, and at what proficiency? That judgement is yours, made across varied evidence gathered as you teach, and never from a single test.', { size: 22 }));
-  c.push(twoCol(['Competency', 'Which component is built to develop it'], [
-    ['Set and Pursue Goals (FSL2)', 'Agency in Learning - setting clear learning goals and taking deliberate steps toward them. Record in Part 9A.'],
-    ['Investigate Real World Issues (FSI1)', 'The Research Project - researching a real challenge to develop actionable insights. Record in Part 9B.'],
-  ]));
-  c.push(callout('Evidence can come from anywhere', [
-    'Each component is built to develop one of the two competencies, but the evidence for a judgement is not confined to it. A learner may show Set and Pursue Goals in how they organised their part of the research, or in a mentoring conversation, or in something they did at home. A learner may show Investigate Real World Issues in a question they asked in an English session.',
-    'So collect it wherever you see it. If you only look inside the matching component, you will miss evidence, and you will most often miss it for the learners whose strongest work is spoken.',
-    'The two judgement points are Week 6 and Week 12. That is when you sit with the proficiency scale for that competency and decide where the learner sits on it. Everything before that is collecting.',
-  ], OLIVE));
-  c.push(P('English is compulsory but is not one of the two graded competencies: its assessment is formative, against the A1 Can-Do outcomes and each learner’s own growth. The "I can…" sheet in the My Voice book is how you track it.', { size: 22 }));
-  c.push(P('Alongside that, you sit the English Check twice: the BASELINE paper in the first session before any English teaching, and the ENDLINE paper in the final week. It is one paper for the whole class, about 45 minutes, in three parts - Reading, Writing and an optional Speaking section. Nothing is read out, there are no pictures, and nothing has to be written into a paper beforehand: hand them out, say that it is not an exam and that hard parts can be left, and let learners work. Most learners will not finish every part, and that is expected.', { size: 22 }));
-  c.push(P('You mark it by counting, not judging - the writing tasks are twenty tick boxes, one mark each - and you pass three raw totals to the coordinator, who holds the spreadsheet that turns them into levels. Look at the marking sheet rather than the level when you plan: it tells you what to teach next. It does not tell you whether a learner can sound a word out, because nothing is read aloud; judge phonics from your own teaching against the phonics progression. See the English Check guide for the detail.', { size: 22 }));
-  c.push(...agencyByCompetencyChildren((t) => H3(t)));
-
-  sec('3.2  Gather evidence as you go');
-  c.push(P('Do not leave assessment to the end. Across the weeks, collect the evidence of each learner’s competency from:', { size: 22 }));
-  c.push(numbered('Their workbook - the Learner Profile, goal, plan, growth pages, and the research book pages they build.', 'evidence'));
-  c.push(numbered('The steps they actually take toward a goal, and how they adjust when a step does not work.', 'evidence'));
-  c.push(numbered('Their growth path - where they started and how they have moved.', 'evidence'));
-  c.push(numbered('What they say and do - in sessions and in mentoring. Much of your strongest evidence is oral and visual, because many learners are not yet literate. That is expected; record it.', 'evidence'));
-
-  sec('3.3  The two assessment points');
-  c.push(H3('Week 6 - supported assessment'));
-  c.push(P('After the first five weeks of learning, make a first, provisional judgement of each learner against the Proficiency Scale. You do this with Amala’s support and calibration - it is a checkpoint and a rehearsal, not the final grade. Use what it surfaces: which learners you have thin evidence on, where your judgement felt uncertain, which competency needs more attention in the next block.', { size: 22 }));
-  c.push(callout('Most learners will look low at Week 6 - that is expected', [
-    'By Week 6 a learner has usually SET a goal and made a plan, but the goal-pursuit weeks are still ahead: most of the tracked steps happen in Weeks 7 to 11. So expect a lot of Theorist on Set and Pursue Goals at Week 6, and treat it as normal, not as a warning sign.',
-    'The same is true of the Research Project. At Week 6 most groups are still gathering; the checking, the insights and the output - where Investigate Real World Issues really shows - come afterwards.',
-    'Judge what is in front of you honestly and record it. Week 6 tells you where to put your support, not whether the cohort is going to pass.',
-  ], OLIVE));
-  c.push(H3('Week 12 - final assessment'));
-  c.push(P('After the next five weeks, make your final judgement of each learner in the two competencies, against the same scale and on the fuller body of evidence. Amala then moderates a sample - reviewing judgements against the evidence - to confirm they are consistent and fair before the readiness decision is confirmed.', { size: 22 }));
-  c.push(P('Fill the record in Part 9 at both points. Do not over-assess: two considered judgements, built from evidence gathered over time, are worth more than repeated testing.', { size: 22 }));
-
-  sec('3.4  The scale, and the grade it produces');
-  c.push(P('One ladder, read against the goal each competency names. Credit begins at Practitioner, which is also the readiness bar for the accredited secondary pathway. Expert needs two or more genuinely different scenarios, so it rarely comes from one component alone.', { size: 22 }));
-  c.push(P('Below is the ladder with its right-hand column read for Set and Pursue Goals. The same ladder, read for Investigate Real World Issues, is on the Research Project record in Part 9B.', { size: 21, color: GREY }));
-  c.push(AIL.scaleTable());
-  c.push(H3('The grade scale'));
-  c.push(twoCol(['Grade', 'Requirement'], [
-    ['Pass', 'Practitioner in both competencies.'],
-    ['Merit', 'Reflective Practitioner in one competency, Practitioner in the other.'],
-    ['Distinction', 'Reflective Practitioner in both competencies.'],
-  ]));
-
-  sec('3.5  A few things that make this work');
-  c.push(bullet('Deliver in the language you share with learners, from the plain-English guide. Times in the plans are generous on purpose - oral work, drawing, and translation take longer than they look.'));
-  c.push(bullet('Let learners draw and speak. Reading and writing are not the point of most activities; showing the thinking is.'));
-  c.push(bullet('Coach, don’t rescue. Re-anchor the goal, break the next step down, and let the learner take it.'));
-  c.push(bullet('A return after absence is progress. Pick the learner up where they are.'));
-  c.push(bullet('Short of paper, or no printer? Share one book between two or three learners, or display one copy, and let learners work in ordinary notebooks. Say the page title aloud so their notebook keeps the same shape.'));
-  c.push(bullet('When something sensitive surfaces: step back, stay calm, do not promise secrecy, and refer.'));
+  assessmentPartChildren(c, sec);
 
   // ---------------------------------------------------------------- PARTS 4–6: the unit plans
   part(4, 'Agency in Learning', 'The full 50-hour plan - 30 hours in-person, 20 independent. Develops Set and Pursue Goals (FSL2), one of the two assessed competencies.');
@@ -815,22 +900,65 @@ function educatorGuide() {
   c.push(P('Every picture the Agency in Learning activities suggest, ready to print and cut out. This one is a PDF, so it is not reproduced here - print it from agency-in-learning-picture-cards.pdf on the USB. If you cannot print it, every activity tells you how to draw the picture on paper or on the ground instead.', { size: 22 }));
 
   // ---------------------------------------------------------------- PART 9: the records
-  part(9, 'Records', 'Two assessment records, one per assessed competency, filled at Week 6 and again at Week 12 - plus the mentor’s record, one page per learner for the whole twelve weeks. Make one copy of each per learner and put their name on it.');
-  sec('9A  Agency in Learning - Set and pursue goals (FSL2)');
-  c.push(...embed(() => AIL.rubricChildren()));
-  c.push(pageBreak());
-  sec('9B  Research Project - Investigate real-world issues (FSI1)');
-  c.push(...embed(() => RP.rubricChildren()));
+  part(9, 'Records', 'Where the Competency Assessment Record is - a separate file, filled at Week 6 and again at Week 12 - then the moderation case sheet you bring to each moderation session, and the mentor’s record, one page per learner for the whole twelve weeks.');
+  recordPointerChildren(c, sec);
+  if (PROGRAMME.moderation) {
+    c.push(pageBreak());
+    sec('9B  Moderation - your case sheet');
+    c.push(...MOD.caseSheetChildren(PROGRAMME.moderation, { heading: null, assessor: 'facilitator' }));
+  }
   c.push(pageBreak());
   sec('9C  Mentoring - the mentor’s record');
   c.push(...embed(() => MN.recordChildren()));
 
   c.push(pageBreak());
-  c.push(P('This guide is the complete, fully offline, editable pack for Learning Bridge+ (Cox’s Bazar) educators. Levels, GPA values and generic descriptors are Amala’s official Competency Framework and Proficiency Scale (cohorts starting 2025). Reproduced articles in Part 6 are used with attribution under educational / non-commercial permission. Not for redistribution outside the programme.', { size: 18, color: GREY, before: 240 }));
+  c.push(P('This guide is the complete, fully offline, editable pack for Learning Bridge+ (Cox’s Bazar) educators. The assessment levels are Amala’s Proficiency Scale (cohorts starting 2025), rewritten in the language of each competency for Learning Bridge+. Reproduced articles in Part 6 are used with attribution under educational / non-commercial permission. Not for redistribution outside the programme.', { size: 18, color: GREY, before: 240 }));
   c.splice(contentsAt, 0, ...contentsPage(outline));
   return makeDoc(c, { footerText: "Educator Guide  ·  Learning Bridge+ (Cox's Bazar)", updateFields: true });
 }
 
+
+
+// ============================================================ PART 3 AMENDMENT
+// The amended pages on their own, for educators already holding a printed Educator Guide: Part 3
+// (assessment) and Part 9A (where the record now is). Built from the same functions as the guide, so
+// the amendment cannot say anything the guide does not.
+function assessmentAmendment() {
+  const c = [];
+  const sec = (title) => c.push(H2(title));
+  titleBlock(c, 'Educator Guide - amended pages', 'Part 3 (assessment), the assessing sections of Parts 4 and 6, and Parts 9A-9B - October 2026');
+  c.push(callout('What changed, and what to do', [
+    'The assessment levels are now written in the language of each competency, with examples of what you might see or hear a learner at each level do or say. They replace the generic proficiency-scale table and the two per-competency records.',
+    'Expert Practitioner is not used on Learning Bridge+, and the GPA values are gone from the educator materials.',
+    'There is now ONE record for both competencies - the Competency Assessment Record, a separate file. You fill one per learner at Week 6 and again at Week 12, give it to the learner with a next step, and keep a copy or photo.',
+    'Replace Part 3 of your printed guide with the pages below, and Parts 9A and 9B with the pages at the end. Stop using the old records that were in 9A and 9B. The mentor’s record (9C) is unchanged.',
+    'Part 3 also now includes moderation (3.4): at Week 6 and Week 12 you bring one case to a session your master educator runs, on the case sheet in 9B.',
+    'The short "Assessing…" sections near the end of Part 4 (Agency in Learning) and Part 6 (Research Project) are replaced too - they are included here, after Part 3.',
+    'Smaller changes, not reprinted here: 1.4 (the twelve weeks now show moderation after Week 6 and Week 12) and 1.7 (print two Competency Assessment Records per learner).',
+  ], PLUM));
+  c.push(pageBreak());
+  c.push(H1('Part 3 - Assessing the two competencies'));
+  assessmentPartChildren(c, sec);
+  // The two component assessment sections in Parts 4 and 6 changed with Part 3 - rendered from the
+  // same materials the component plans embed.
+  [['cb-ail-assessing-the-goal-work', 'Part 4 - Assessing the goal work (FSL2)'],
+   ['cb-rp-assessing-the-research', 'Part 6 - Assessing the investigation (FSI1)']].forEach(([slug, heading]) => {
+    const m = readMaterial(slug);
+    c.push(pageBreak());
+    c.push(H1(heading));
+    c.push(P('Replaces the section of the same name near the end of the component plan.', { size: 21, italics: true, color: GREY }));
+    c.push(...embed(() => mdBlocks(m.educatorContent)));
+  });
+  c.push(pageBreak());
+  c.push(H1('Part 9 - records'));
+  recordPointerChildren(c, sec);
+  if (PROGRAMME.moderation) {
+    c.push(pageBreak());
+    sec('9B  Moderation - your case sheet');
+    c.push(...MOD.caseSheetChildren(PROGRAMME.moderation, { heading: null, assessor: 'facilitator' }));
+  }
+  return makeDoc(c, { footerText: "Educator Guide, amended Parts 3 and 9A-9B (Oct 2026)  ·  Learning Bridge+ (Cox's Bazar)" });
+}
 
 // ============================================================ STUDENT WORKBOOK
 // One book per learner for the whole twelve weeks, so a site prints one job instead of three.
@@ -1124,6 +1252,7 @@ async function main() {
     ['lb-coxs-bazar-coordinator-guide.docx', coordinatorGuide()],
     ['lb-coxs-bazar-trainer-guide.docx', trainerGuide()],
     ['lb-coxs-bazar-educator-guide.docx', educatorGuide()],
+    ['lb-coxs-bazar-educator-guide-assessment-amendment.docx', assessmentAmendment()],
     ['lb-coxs-bazar-student-workbook.docx', studentWorkbook()],
   ];
   for (const [name, doc] of jobs) {

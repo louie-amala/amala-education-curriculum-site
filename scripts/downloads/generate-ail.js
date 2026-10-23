@@ -28,8 +28,6 @@ const OUT = process.env.OUT_DIR ? path.resolve(process.env.OUT_DIR) : path.join(
 const rd = (p) => yaml.parse(fs.readFileSync(p, 'utf8'));
 
 const unit = rd(path.join(CS, 'units', 'coxs-bazar-agency-in-learning.yaml'));
-// Amala's official proficiency scale - read from the framework so the record cannot drift from it.
-const scale = rd(path.join(CS, 'framework', 'proficiency-scale.yaml'));
 const course = rd(path.join(CS, 'courses', 'agency-in-learning.yaml'));
 // The competency framework, for the anchor competency's official title and goal in the course guide.
 const competencies = rd(path.join(CS, 'framework', 'competencies.yaml'));
@@ -586,57 +584,9 @@ function workbookChildren(opts = {}) {
 function workbook() { return makeDoc(workbookChildren()); }
 
 
-// ============================================================ ASSESSMENT RECORD (FSL2)
-// Sibling of the Research Project's FSI1 record (generate-rp.js). The levels, GPA values and generic
-// descriptors come from framework/proficiency-scale.yaml - Amala's official scale - so this record
-// can never drift from it. Only the FSL2 reading of each level is written here.
-const FSL2_READING = {
-  none: 'Cannot say what goal they would set for their own learning, or what they would do about it, and why.',
-  theorist: 'Can say what goal they would set and what steps they would take towards it, and why - but has not acted on it.',
-  practitioner: 'Actually set a goal of their own and took deliberate steps towards it, with a clear rationale - even if the goal is not yet reached.',
-  reflective: 'Reached the goal they set, and can say what helped, what did not, and what they would do differently next time, pointing to evidence in their learning book.',
-  expert: 'A second, distinct goal in which they carried through an improvement identified in the first.',
-};
-const scaleTable = () => {
-  const colW = S.scaleW([300, 2500, 5200, 2800]);
-  const head = ['', 'Level', 'The learner (Amala\u2019s scale)', 'In this component (FSL2)'];
-  const rows = [new TableRow({ tableHeader: true, children: head.map((t, i) => new TableCell({
-    width: { size: colW[i], type: WidthType.DXA },
-    children: [new Paragraph({ children: [new TextRun({ text: t, bold: true, size: 18, color: NAVY })] })],
-  })) })];
-  for (const lv of scale.levels) {
-    const title = lv.title + (lv.creditAwarded ? '' : '  (no credit)') + `\nGPA ${lv.gpa.toFixed(1)}`;
-    const cells = ['\u2610', title, lv.genericDescriptor, FSL2_READING[lv.id] || ''];
-    rows.push(new TableRow({ height: { value: 900, rule: 'atLeast' }, cantSplit: true, children: cells.map((t, i) => new TableCell({
-      width: { size: colW[i], type: WidthType.DXA },
-      children: String(t).split('\n').map((line, j) => new Paragraph({ children: [new TextRun({ text: line, size: i === 0 ? 26 : 17, bold: i === 1 && j === 0, color: i === 1 ? NAVY : (i === 3 ? GREY : undefined) })] })),
-    })) }));
-  }
-  return new Table({ width: { size: 100, type: WidthType.PERCENTAGE }, columnWidths: colW, rows });
-};
-
-function rubricChildren() {
-  const c = [];
-  c.push(P('Agency in Learning', { size: 44, bold: true, color: NAVY, after: 40 }));
-  c.push(P('Assessment record - Set and pursue goals (FSL2)', { size: 24, bold: true, color: PLUM, after: 40 }));
-  c.push(P("Learning Bridge+ (Cox's Bazar)  \u00b7  Facilitator - make one copy per learner", { size: 20, color: GREY, after: 160 }));
-  c.push(P('Judge each learner by your professional judgement against Amala\u2019s proficiency scale, from evidence gathered across the whole component - not from one artefact. Much of your strongest evidence is oral and visual, because many learners are not yet literate; that is expected, so record what you saw and heard. Tick the level and write one or two lines of evidence for why.', { size: 22, after: 120 }));
-  c.push(P('The scale is generic: one ladder, read against the goal FSL2 names - the learner can establish clear objectives for learning and growth and take deliberate steps to make progress towards them. Credit begins at Practitioner, which is also the readiness bar for the accredited secondary pathway. Expert needs two or more genuinely different scenarios, so it rarely comes from this component alone.', { size: 20, color: GREY, after: 160 }));
-  c.push(P('Learner: ______________________________', { size: 22, after: 200 }));
-  const point = (title) => {
-    c.push(H2(title));
-    c.push(scaleTable());
-    c.push(P('Evidence for the judgement (the goal they set and why \u00b7 the steps actually taken \u00b7 how they adjusted when a step did not work \u00b7 the growth path, before and now \u00b7 what they said in check-ins and the final sharing):', { size: 18, color: GREY, after: 40, before: 160 }));
-    c.push(box(2200, ''));
-  };
-  point('Week 6 - supported (formative) judgement');
-  c.push(P('Provisional, made with Amala\u2019s support and calibration: a checkpoint that tells you where to put your support next, not the final grade.', { size: 18, italics: true, color: GREY, before: 80 }));
-  c.push(pageBreak());
-  point('Week 12 - final (summative) judgement');
-  c.push(P('This is the judgement that counts towards the certificated competency and the readiness decision. Amala moderates a sample of these against the evidence.', { size: 18, italics: true, color: GREY, before: 80 }));
-  c.push(P('Levels, GPA values and generic descriptors are Amala\u2019s official Competency Framework and Proficiency Scale (cohorts starting 2025).', { size: 16, color: GREY, before: 200 }));
-  return c;
-}
+// The per-competency assessment record (rubricChildren / scaleTable) was retired in October 2026:
+// both competencies are now recorded on one Competency Assessment Record, rendered from `grading`
+// in the programme YAML by generate-assessment.js.
 
 // ============================================================ EXPORTS / WRITE
 // Build the sheet index by running the workbook builder once and discarding the output, so the plan
@@ -649,7 +599,6 @@ function sheetIndex() {
 module.exports = {
   sheetIndex, SHEET_LIST,
   unit, mat, facilitatorPlanChildren, planFrontMatter, phaseChildren, blockChildren, workbookChildren,
-  rubricChildren, scaleTable,
 };
 
 async function main() {
@@ -657,7 +606,6 @@ async function main() {
   const jobs = [
     ['agency-in-learning-facilitator-unit-plan.docx', facilitatorPlan()],
     ['agency-in-learning-student-workbook.docx', workbook()],
-    ['agency-in-learning-assessment-record.docx', makeDoc(rubricChildren())],
   ];
   for (const [name, doc] of jobs) {
     const buf = await Packer.toBuffer(doc);

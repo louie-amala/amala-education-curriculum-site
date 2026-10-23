@@ -558,6 +558,132 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
           </section>
         )}
 
+        {/* How judgements are moderated (Learning Bridge+). The same `moderation` block renders the
+            Moderation Guide (scripts/downloads/generate-moderation.js), so page and guide agree. */}
+        {prog.moderation && (
+          <section id="moderation" className="mt-12 scroll-mt-6">
+            <h2 className="font-heading text-2xl font-semibold text-navy">How moderation works</h2>
+            <p className="mt-3 max-w-3xl text-dark-navy">{prog.moderation.intro}</p>
+            {prog.moderation.contextNote && (
+              <p className="mt-4 max-w-3xl rounded-lg border-l-4 border-olive bg-olive/5 p-4 text-sm text-dark-navy/90">
+                {prog.moderation.contextNote}
+              </p>
+            )}
+            {prog.moderation.guide && (
+              <a
+                href={prog.moderation.guide.file}
+                download
+                className="group mt-5 inline-flex max-w-3xl items-start gap-3 rounded-xl border border-cool-grey/25 bg-white p-3.5 shadow-sm transition hover:border-navy/40"
+              >
+                <span className="mt-0.5 rounded-lg bg-navy px-2 py-1 font-heading text-[10px] font-bold uppercase tracking-wide text-white">
+                  {prog.moderation.guide.format ?? "File"}
+                </span>
+                <span className="min-w-0">
+                  <span className="block font-semibold text-navy group-hover:underline">{prog.moderation.guide.label}</span>
+                  {prog.moderation.guide.note && (
+                    <span className="mt-0.5 block text-[13px] leading-snug text-cool-grey">{prog.moderation.guide.note}</span>
+                  )}
+                </span>
+              </a>
+            )}
+
+            {prog.moderation.roles.length > 0 && (
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                {prog.moderation.roles.map((r) => (
+                  <div key={r.role} className="rounded-lg border border-cool-grey/20 bg-white p-5 shadow-sm">
+                    <h3 className="font-heading font-semibold text-dark-navy">{r.role}</h3>
+                    <p className="mt-1 text-[13px] text-plum">{r.who}</p>
+                    <p className="mt-2 text-sm text-cool-grey">{r.does}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {prog.moderation.sessions.length > 0 && (
+              <>
+                <h3 className="mt-8 font-heading text-lg font-semibold text-navy">When it happens</h3>
+                <ol className="mt-3 space-y-2.5">
+                  {prog.moderation.sessions.map((s) => (
+                    <li key={s.title} className="rounded-lg bg-aqua/5 p-4">
+                      <p className="font-heading text-xs font-bold uppercase tracking-wide text-olive">{s.when}</p>
+                      <p className="mt-1 font-semibold text-dark-navy">{s.title}</p>
+                      <p className="mt-1 text-sm text-cool-grey">{s.purpose}</p>
+                    </li>
+                  ))}
+                </ol>
+              </>
+            )}
+
+            <h3 className="mt-8 font-heading text-lg font-semibold text-navy">The case</h3>
+            <p className="mt-2 max-w-3xl text-sm text-dark-navy/90">{prog.moderation.theCase.intro}</p>
+            <div className="mt-4 grid gap-4 sm:grid-cols-2">
+              {[
+                ["Which one to bring", prog.moderation.theCase.choose],
+                ["What to bring with it", prog.moderation.theCase.bring],
+              ].map(([heading, items]) => (
+                <div key={heading as string} className="rounded-lg border border-cool-grey/20 bg-white p-5 shadow-sm">
+                  <h4 className="font-heading text-sm font-semibold text-dark-navy">{heading as string}</h4>
+                  <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm text-cool-grey">
+                    {(items as string[]).map((t) => (
+                      <li key={t}>{t}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+
+            {prog.moderation.running.length > 0 && (
+              <>
+                <h3 className="mt-8 font-heading text-lg font-semibold text-navy">Running the session</h3>
+                <dl className="mt-3 divide-y divide-cool-grey/20 overflow-hidden rounded-lg border border-cool-grey/20 bg-white shadow-sm">
+                  {prog.moderation.running.map((r) => (
+                    <div key={r.step} className="grid gap-1 p-4 sm:grid-cols-4 sm:gap-4">
+                      <dt className="font-heading text-sm font-semibold text-plum">
+                        {r.step}
+                        {r.time && <span className="block font-normal text-[12px] text-cool-grey">{r.time}</span>}
+                      </dt>
+                      <dd className="text-sm text-cool-grey sm:col-span-3">{r.detail}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </>
+            )}
+
+            {prog.moderation.outcomes.length > 0 && (
+              <>
+                <h3 className="mt-8 font-heading text-lg font-semibold text-navy">What a session can decide</h3>
+                <div className="mt-3 grid gap-4 sm:grid-cols-3">
+                  {prog.moderation.outcomes.map((o) => (
+                    <div key={o.outcome} className="rounded-lg border-l-4 border-navy border-y border-r border-cool-grey/20 bg-white p-4 shadow-sm">
+                      <h4 className="font-heading font-semibold text-dark-navy">{o.outcome}</h4>
+                      <p className="mt-1 text-sm text-dark-navy/90">{o.meaning}</p>
+                      <p className="mt-2 text-sm text-cool-grey">{o.then}</p>
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
+            {prog.moderation.recheck && (
+              <p className="mt-4 max-w-3xl rounded-lg bg-olive/5 p-4 text-sm text-dark-navy/90">
+                <span className="font-semibold text-olive">The recheck. </span>
+                {prog.moderation.recheck}
+              </p>
+            )}
+
+            {prog.moderation.facilitatorCase && (
+              <>
+                <h3 className="mt-8 font-heading text-lg font-semibold text-navy">The facilitator&apos;s case to Amala</h3>
+                <p className="mt-2 max-w-3xl text-sm text-dark-navy/90">{prog.moderation.facilitatorCase.intro}</p>
+                <dl className="mt-3 max-w-3xl space-y-2 text-sm">
+                  <div><dt className="inline font-semibold text-navy">When. </dt><dd className="inline text-cool-grey">{prog.moderation.facilitatorCase.when}</dd></div>
+                  <div><dt className="inline font-semibold text-navy">How. </dt><dd className="inline text-cool-grey">{prog.moderation.facilitatorCase.format}</dd></div>
+                  <div><dt className="inline font-semibold text-navy">If Amala places it differently. </dt><dd className="inline text-cool-grey">{prog.moderation.facilitatorCase.ifDisagree}</dd></div>
+                </dl>
+              </>
+            )}
+          </section>
+        )}
+
         {/* Graduation criteria (course-based programme) */}
         {prog.graduationCriteria.length > 0 && (
           <section className="mt-12">

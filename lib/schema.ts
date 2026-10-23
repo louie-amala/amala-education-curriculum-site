@@ -312,14 +312,114 @@ export const ProgrammeSchema = z.object({
   grading: z
     .object({
       intro: z.string().nullable().optional(),
+      // The scale written in the language of each competency (Learning Bridge+ Cox's Bazar). Optional:
+      // a programme that grades against the generic ladder leaves `levels` empty. Rendered into the
+      // Competency Assessment Record and Educator Guide Part 3 (scripts/downloads/generate-assessment.js).
+      levelsNote: z.string().nullable().optional(),
+      remember: z.array(z.object({ title: z.string(), detail: z.string() })).default([]),
       assessedCompetencies: z
-        .array(z.object({ title: z.string(), description: z.string() }))
+        .array(
+          z.object({
+            title: z.string(),
+            code: z.string().nullable().optional(),
+            statement: z.string().nullable().optional(),
+            description: z.string(),
+            terms: z.array(z.object({ term: z.string(), meaning: z.string() })).default([]),
+            levels: z
+              .array(
+                z.object({
+                  level: z.string(),
+                  credit: z.boolean().default(false),
+                  descriptor: z.string(),
+                  seeOrHear: z.array(z.string()).default([]),
+                }),
+              )
+              .default([]),
+            watchOut: z.array(z.string()).default([]),
+            nextSteps: z
+              .array(z.object({ level: z.string(), notUseful: z.string(), useful: z.string() }))
+              .default([]),
+          }),
+        )
         .default([]),
+      writing: z
+        .object({
+          whyIntro: z.string(),
+          whyExamples: z.array(z.object({ notUseful: z.string(), useful: z.string() })).default([]),
+          nextStepIntro: z.string(),
+          nextStepRules: z.array(z.string()).default([]),
+          alreadyTop: z.string().nullable().optional(),
+          handover: z.string().nullable().optional(),
+        })
+        .nullable()
+        .optional(),
+      record: DownloadSchema.nullable().optional(), // the printable record the levels are judged on
       scale: z
         .array(z.object({ grade: z.string(), requirement: z.string() }))
         .default([]),
       note: z.string().nullable().optional(),
     })
+    .optional(),
+  // How assessment judgements are moderated (Learning Bridge+). Case-based: a moderation facilitator
+  // runs the session and every assessor brings ONE case. Authored once here and rendered both on the
+  // programme page and into the Moderation Guide (scripts/downloads/generate-moderation.js), so the
+  // two cannot drift. An edition contextualises the general model by filling the same fields for its
+  // own context; `facilitatorCase` is the extra tier for when the facilitator is not Amala staff and
+  // brings a case of their own up to Amala.
+  moderation: z
+    .object({
+      intro: z.string(),
+      contextNote: z.string().nullable().optional(), // how this edition differs from the general model
+      roles: z
+        .array(z.object({ role: z.string(), who: z.string(), does: z.string() }))
+        .default([]),
+      sessions: z
+        .array(
+          z.object({
+            when: z.string(),
+            title: z.string(),
+            purpose: z.string(),
+            facilitatedBy: z.string().nullable().optional(),
+          }),
+        )
+        .default([]),
+      theCase: z.object({
+        intro: z.string(),
+        choose: z.array(z.string()).default([]), // which judgement to bring
+        bring: z.array(z.string()).default([]), // what to bring with it
+      }),
+      running: z
+        .array(z.object({ step: z.string(), time: z.string().nullable().optional(), detail: z.string() }))
+        .default([]),
+      facilitatorRules: z.array(z.string()).default([]),
+      outcomes: z
+        .array(z.object({ outcome: z.string(), meaning: z.string(), then: z.string() }))
+        .default([]),
+      // What turns one case per assessor into a check on the whole cohort.
+      recheck: z.string().nullable().optional(),
+      facilitatorCase: z
+        .object({
+          intro: z.string(),
+          when: z.string(),
+          format: z.string(),
+          choose: z.array(z.string()).default([]),
+          bring: z.array(z.string()).default([]),
+          ifDisagree: z.string(),
+        })
+        .nullable()
+        .optional(),
+      // How the people facilitating moderation are made ready to, where they are not Amala staff.
+      facilitatorPreparation: z
+        .object({ intro: z.string(), steps: z.array(z.string()).default([]) })
+        .nullable()
+        .optional(),
+      records: z
+        .array(z.object({ name: z.string(), who: z.string(), what: z.string() }))
+        .default([]),
+      trap: z.string().nullable().optional(),
+      guide: DownloadSchema.nullable().optional(), // the printable Moderation Guide
+    })
+    .nullable()
     .optional(),
   // Programme-specific mentoring guidance (e.g. the Mentoring and Wellbeing component). Contextualises
   // the generic mentor moves (/educators/mentoring) for this programme rather than duplicating them:

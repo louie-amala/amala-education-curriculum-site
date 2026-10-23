@@ -135,7 +135,6 @@ export const PROTECTED_PAGES: readonly string[] = [
 // page are deliberately left open.
 export const PROTECTED_DOWNLOADS: readonly string[] = [
   "/downloads/agency-in-learning-action-plan.docx",
-  "/downloads/agency-in-learning-assessment-record.docx",
   "/downloads/agency-in-learning-facilitator-unit-plan.docx",
   "/downloads/agency-in-learning-feedback.docx",
   "/downloads/agency-in-learning-getting-better-at-goals.docx",
@@ -157,16 +156,19 @@ export const PROTECTED_DOWNLOADS: readonly string[] = [
   "/downloads/cb-en-check-learner-profile.docx",
   "/downloads/cb-en-check-marking-pack.docx",
   "/downloads/cb-en-check-record-sheet.csv",
+  "/downloads/lb-coxs-bazar-assessment-record.docx",
   "/downloads/lb-coxs-bazar-coordinator-guide.docx",
+  "/downloads/lb-coxs-bazar-educator-guide-assessment-amendment.docx",
   "/downloads/lb-coxs-bazar-educator-guide.docx",
   "/downloads/lb-coxs-bazar-mentor-record.docx",
   "/downloads/lb-coxs-bazar-mentoring-guide.docx",
+  "/downloads/lb-coxs-bazar-moderation-guide.docx",
   "/downloads/lb-coxs-bazar-student-workbook.docx",
   "/downloads/lb-coxs-bazar-trainer-guide.docx",
+  "/downloads/lb-coxs-bazar-what-might-you-see-or-hear.docx",
   "/downloads/my-voice-facilitator-unit-plan.docx",
   "/downloads/my-voice-letter-and-picture-cards.docx",
   "/downloads/my-voice-student-workbook.docx",
-  "/downloads/research-project-assessment-rubric.docx",
   "/downloads/research-project-facilitator-unit-plan.docx",
   "/downloads/research-project-picture-cards.docx",
   "/downloads/research-project-student-workbook.docx"
