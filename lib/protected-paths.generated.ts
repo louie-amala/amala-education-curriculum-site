@@ -163,6 +163,8 @@ export const PROTECTED_DOWNLOADS: readonly string[] = [
   "/downloads/lb-coxs-bazar-mentor-record.docx",
   "/downloads/lb-coxs-bazar-mentoring-guide.docx",
   "/downloads/lb-coxs-bazar-moderation-guide.docx",
+  "/downloads/lb-coxs-bazar-moderation-protocol.docx",
+  "/downloads/lb-coxs-bazar-moderation-template.docx",
   "/downloads/lb-coxs-bazar-student-workbook.docx",
   "/downloads/lb-coxs-bazar-trainer-guide.docx",
   "/downloads/lb-coxs-bazar-what-might-you-see-or-hear.docx",

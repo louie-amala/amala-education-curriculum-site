@@ -418,6 +418,85 @@ export const ProgrammeSchema = z.object({
         .default([]),
       trap: z.string().nullable().optional(),
       guide: DownloadSchema.nullable().optional(), // the printable Moderation Guide
+      // The steps an assessment period runs through, in order (Cox's Bazar: assess, moderate, the
+      // Amala session, share the learning, assess everyone). No dates: each iteration sets its own.
+      cycle: z
+        .array(z.object({ title: z.string(), who: z.string(), detail: z.string() }))
+        .default([]),
+      // Moderating as a group rather than one-to-one, where an edition recommends it.
+      groupVariant: z.string().nullable().optional(),
+      // The template a moderation discussion is captured on. `kind`: text = lines to write on,
+      // level = circle a level, choice = circle one of `options`.
+      template: z
+        .object({
+          intro: z.string(),
+          fields: z
+            .array(
+              z.object({
+                label: z.string(),
+                prompt: z.string().nullable().optional(),
+                kind: z.enum(["text", "level", "choice"]).default("text"),
+                lines: z.number().int().optional(),
+                options: z.array(z.string()).default([]),
+                guidance: z.string().nullable().optional(), // what a good entry looks like (the guide, not the form)
+                example: z.string().nullable().optional(), // the worked example's entry for this box
+              }),
+            )
+            .default([]),
+          exampleIntro: z.string().nullable().optional(),
+          afterSession: z.object({ label: z.string(), prompt: z.string() }).nullable().optional(),
+        })
+        .nullable()
+        .optional(),
+      templateFile: DownloadSchema.nullable().optional(),
+      // How the facilitators of moderation carry what was learned back to every assessor - steps, and
+      // an agenda for a follow-up session.
+      sharing: z
+        .object({
+          intro: z.string(),
+          steps: z.array(z.string()).default([]),
+          agenda: z
+            .array(z.object({ step: z.string(), time: z.string().nullable().optional(), detail: z.string() }))
+            .default([]),
+          tip: z.string().nullable().optional(),
+        })
+        .nullable()
+        .optional(),
+      // The protocol for the session in which Amala moderates the facilitators of moderation (Cox's
+      // Bazar: the master educators), with the record Amala writes afterwards.
+      amalaProtocol: z
+        .object({
+          intro: z.string(),
+          purpose: z.array(z.string()).default([]),
+          roles: z.array(z.object({ role: z.string(), does: z.string() })).default([]),
+          before: z.array(z.string()).default([]),
+          running: z
+            .array(z.object({ step: z.string(), time: z.string().nullable().optional(), detail: z.string() }))
+            .default([]),
+          probes: z.array(z.string()).default([]),
+          rules: z.array(z.string()).default([]),
+          after: z.array(z.string()).default([]),
+          summary: z
+            .object({
+              intro: z.string(),
+              fields: z
+                .array(
+                  z.object({
+                    label: z.string(),
+                    prompt: z.string().nullable().optional(),
+                    kind: z.enum(["text", "level", "choice"]).default("text"),
+                    lines: z.number().int().optional(),
+                    options: z.array(z.string()).default([]),
+                  }),
+                )
+                .default([]),
+            })
+            .nullable()
+            .optional(),
+        })
+        .nullable()
+        .optional(),
+      protocolFile: DownloadSchema.nullable().optional(),
     })
     .nullable()
     .optional(),

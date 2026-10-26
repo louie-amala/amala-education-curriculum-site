@@ -569,22 +569,28 @@ export default async function ProgrammePage({ params }: { params: Promise<{ slug
                 {prog.moderation.contextNote}
               </p>
             )}
-            {prog.moderation.guide && (
-              <a
-                href={prog.moderation.guide.file}
-                download
-                className="group mt-5 inline-flex max-w-3xl items-start gap-3 rounded-xl border border-cool-grey/25 bg-white p-3.5 shadow-sm transition hover:border-navy/40"
-              >
-                <span className="mt-0.5 rounded-lg bg-navy px-2 py-1 font-heading text-[10px] font-bold uppercase tracking-wide text-white">
-                  {prog.moderation.guide.format ?? "File"}
-                </span>
-                <span className="min-w-0">
-                  <span className="block font-semibold text-navy group-hover:underline">{prog.moderation.guide.label}</span>
-                  {prog.moderation.guide.note && (
-                    <span className="mt-0.5 block text-[13px] leading-snug text-cool-grey">{prog.moderation.guide.note}</span>
-                  )}
-                </span>
-              </a>
+            {[prog.moderation.guide, prog.moderation.templateFile, prog.moderation.protocolFile].some(Boolean) && (
+              <ul className="mt-5 grid max-w-3xl gap-2.5">
+                {[prog.moderation.guide, prog.moderation.templateFile, prog.moderation.protocolFile]
+                  .filter((d): d is NonNullable<typeof d> => Boolean(d))
+                  .map((d) => (
+                    <li key={d.file}>
+                      <a
+                        href={d.file}
+                        download
+                        className="group flex items-start gap-3 rounded-xl border border-cool-grey/25 bg-white p-3.5 shadow-sm transition hover:border-navy/40"
+                      >
+                        <span className="mt-0.5 rounded-lg bg-navy px-2 py-1 font-heading text-[10px] font-bold uppercase tracking-wide text-white">
+                          {d.format ?? "File"}
+                        </span>
+                        <span className="min-w-0">
+                          <span className="block font-semibold text-navy group-hover:underline">{d.label}</span>
+                          {d.note && <span className="mt-0.5 block text-[13px] leading-snug text-cool-grey">{d.note}</span>}
+                        </span>
+                      </a>
+                    </li>
+                  ))}
+              </ul>
             )}
 
             {prog.moderation.roles.length > 0 && (

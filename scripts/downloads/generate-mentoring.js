@@ -6,7 +6,7 @@
    343 words in the Educator Guide and a pointer to a website a facilitator in a CBLF cannot reach.
 
    Like the other component generators, this exports children builders so generate-lb-guides.js can
-   compose Part 2 (the guide) and Part 9C (the record) from exactly the same content the standalone
+   compose Part 2 (the guide) and Part 9B (the record) from exactly the same content the standalone
    files carry - they cannot drift.
 
    Everything is rendered from the authored YAML: units/coxs-bazar-mentoring-and-wellbeing.yaml and

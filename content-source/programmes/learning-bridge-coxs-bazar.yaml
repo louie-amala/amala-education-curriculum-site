@@ -77,9 +77,22 @@ downloads:
     file: /downloads/lb-coxs-bazar-moderation-guide.docx
     format: Word
     note: >-
-      For NRC's master educators, who run moderation with the facilitators at Week 6 and Week 12 and
-      each bring a case to Amala. The session protocol, choosing a case, what a session can decide,
-      the recheck, the case call with Amala, and the records to print. Editable.
+      For NRC's master educators, who moderate assessments with educators in each assessment period
+      and bring them to a session with Amala. The five steps of each period, choosing what to
+      moderate, running a moderation discussion, filling in the template box by box with a worked
+      example, and preparing for the session with Amala. Editable.
+  - label: Moderation protocol - the session with Amala
+    file: /downloads/lb-coxs-bazar-moderation-protocol.docx
+    format: Word
+    note: >-
+      For the Amala Education Programmes team and the master educators: how the moderation session runs - before,
+      during and after - with the question bank and the session summary record. Editable.
+  - label: Moderation template
+    file: /downloads/lb-coxs-bazar-moderation-template.docx
+    format: Word
+    note: >-
+      One per moderation discussion - one educator, one learner, one competency. Filled in by the
+      master educator during the discussion, and sent to Amala before the moderation session. Editable.
   - label: Competency Assessment Record
     file: /downloads/lb-coxs-bazar-assessment-record.docx
     format: Word
@@ -99,7 +112,7 @@ downloads:
     format: Word
     note: >-
       For educators already holding a printed Educator Guide: the replacement Part 3 (assessment), the
-      "Assessing…" sections of Parts 4 and 6, and Parts 9A and 9B, after the levels were rewritten in
+      "Assessing…" sections of Parts 4 and 6, and Part 9A, after the levels were rewritten in
       the language of each competency and the two records became one. Editable.
   - label: Educator Guide - the complete manual
     file: /downloads/lb-coxs-bazar-educator-guide.docx
@@ -254,22 +267,22 @@ qualification:
       note: >-
         Judging the two assessed competencies against the Proficiency Scale at the week-6 supported
         and week-12 final points, completing the records, the Pass / Merit / Distinction boundaries,
-        and bringing a case to moderation - run by a master educator after each assessment point.
+        and what happens in moderation - run by a master educator in each assessment period.
       purpose: >-
         A facilitator can judge the two assessed competencies against the Proficiency Scale at week 6
-        and week 12, complete the records, and bring a case to moderation.
+        and week 12, complete the records, and take part in moderation.
       able:
         - Name the two assessed competencies and say where the evidence for each actually comes from in the programme.
         - Place a real piece of learner evidence on the Proficiency Scale, and say why it sits there rather than one step up.
         - Say what is different about the week-6 supported assessment and the week-12 final one.
         - Complete the assessment record for a learner.
         - Explain the grade boundaries - Pass, Merit, Distinction - and what a learner has to show for each.
-        - Choose and prepare a moderation case, present its evidence without giving the level away, and defend the judgement - or change it.
-        - Say what a recheck is, and do one when a case is changed.
+        - Take part in a moderation discussion - show the evidence, explain the judgement, and change it when the level description says so.
+        - Update a record changed by moderation, and check other learners judged the same way.
       drawsOn:
-        - The Competency Assessment Record, and the moderation case sheet (Educator Guide Part 9B)
+        - The Competency Assessment Record
         - "Educator Guide Parts 3.5 and 3.6: the levels in the language of each competency, what you might see or hear, and how to write the record"
-        - The Moderation Guide - the session protocol facilitators will take part in
+        - The Moderation Guide - the moderation discussion facilitators will take part in
         - "The programme's grading block: Pass / Merit / Distinction"
         - MOD-C, Conducting assessments of competence, for the underlying craft
       trap: >-
@@ -548,8 +561,8 @@ support:
     detail: >-
       Amala is the remote technical consultant to NRC: it contextualises the curriculum, supplies
       ready-made offline resources, trains NRC's master educators and the programme coordinator, and
-      moderates the moderators: NRC's master educators run moderation with the facilitators, and each
-      brings a case to Amala after every round. Amala does not train facilitators directly and does not
+      moderates the moderators: NRC's master educators moderate assessments with the educators, and
+      bring them to a moderation session with Amala in each assessment period. Amala does not train facilitators directly and does not
       deliver in the camps: NRC's master educators induct the facilitators, and NRC leads
       implementation, recruits and manages facilitators, and delivers.
   - title: Resources
@@ -777,210 +790,589 @@ grading:
     education pathway, as measured by the summative exit assessment.
 
 # How moderation works in this edition. Contextualises the general Learning Bridge+ model
-# (learning-bridge.yaml) for a programme Amala cannot be in the room for: NRC's master educators
-# facilitate moderation with the facilitators, and each master educator then brings one case of
-# their own to Amala, who moderates the moderators. Rendered on the programme page and into the
-# Moderation Guide by scripts/downloads/generate-moderation.js; the Coordinator, Trainer and
-# Educator Guides point into it rather than restating it.
+# (learning-bridge.yaml) for a programme Amala cannot be in the room for. Each assessment period runs
+# the same five steps: a first set of assessments; moderation discussions between a master educator
+# and an educator, one per competency per learning centre, captured on the moderation template; a
+# moderation session with Amala; the learning shared back with every educator; then every learner
+# assessed. Built from Amala's October 2026 process for NRC, with the discussion shaped by the
+# University of Melbourne NMIS case-based moderation guidelines (opportunity, evidence, confidence,
+# and where views differ and why). Rendered on the programme page and into the Moderation Guide and
+# the moderation template by scripts/downloads/generate-moderation.js; the Educator, Coordinator and
+# Trainer Guides render from it rather than restating it. No dates live here - each iteration sets
+# its own.
 moderation:
   intro: >-
     A judgement is only fair if it is consistent: the same evidence should earn the same level
-    whoever assessed it. Moderation is how this programme makes that true, and it is case-based. Each
-    master educator runs a moderation session with the facilitators they look after. Every facilitator
-    brings one case - one learner, one competency, one judgement, with the evidence behind it - and the
-    group judges it blind against the Proficiency Scale before hearing the facilitator's level. Then
-    each master educator brings one case of their own to Amala. That is how a standard Amala cannot
-    hold in the room is still held.
+    whoever assessed it. Moderation is how this programme makes that true. In each assessment period,
+    every educator makes a first set of assessments. Master educators then hold moderation
+    discussions with educators - one assessment, of one learner, in one competency, talked through
+    against the level descriptions - and capture each one on the moderation template. They bring the
+    templates to a moderation session with Amala, take what they learn back to every educator, and
+    only then are the rest of the learners assessed. The point is not to catch mistakes. It is to
+    build a shared reading of the levels, early enough to change the assessments still to come.
   contextNote: >-
-    On Learning Bridge+ generally, an Amala Trainer facilitates moderation. Here Amala is a remote
-    technical consultant and does not work with facilitators directly, so NRC's master educators
-    facilitate it, and Amala moderates them: after every session, each master educator brings a case
-    to a call with Amala. There are two rounds, one at each assessment point, rather than three.
+    On Learning Bridge+ generally, an Amala Trainer facilitates moderation with the educators. Here
+    Amala does not work with educators directly, so NRC's master educators hold the moderation
+    discussions, and Amala moderates the master educators in a session after each round. There are
+    two assessment periods, formative (Week 6) and summative (Week 12), and the same five steps run in
+    each.
   roles:
-    - role: Moderation facilitator
-      who: An NRC master educator, for the facilitators they inducted and support.
+    - role: Master educator
+      who: An NRC master educator, for the learning centres and educators they support.
       does: >-
-        Runs the session and holds the protocol: keeps each facilitator's level hidden until everyone
-        has judged, makes every disagreement resolve against the descriptors, and keeps the
-        moderation record. Judges blind alongside everyone else. Then brings one case from the
-        session to Amala.
-    - role: Assessors
-      who: The facilitators - each one assesses the learners they teach and mentor.
+        Makes sure every educator makes a first set of assessments. Holds at least one moderation
+        discussion per competency for each learning centre, and captures each on the template. Brings
+        the templates to the moderation session with Amala, then shares what was learned with every
+        educator before the rest of the learners are assessed.
+    - role: Educators
+      who: The educators who teach and mentor the learners, and assess them.
       does: >-
-        Each brings one case and presents its evidence. Judges every other case blind, argues for
-        their reading, and changes their mind when the scale says they should. Afterwards, rechecks
-        their own judgements wherever a case was changed.
+        Assess learners on the Competency Assessment Record, with "What Might You See or Hear?" beside
+        them. Take part in moderation discussions - showing the evidence, explaining the judgement, and
+        changing it when the level descriptions say they should. Then assess the rest of their learners
+        with what was learned.
     - role: Amala
-      who: Remote, by phone or video.
+      who: A member of the Amala Education Programmes team, online.
       does: >-
-        Moderates the moderators. Runs a case call with all the master educators after each round,
-        using the same protocol, and checks that each of them is holding the standard. Does not
-        regrade learners, and does not join the facilitators' sessions.
+        Reads the completed templates ahead of the session, then runs a moderation session with the
+        master educators: which cases would we place the same, which would we not, and what that means
+        for every educator. Does not regrade learners, and does not join the discussions with
+        educators.
     - role: Programme coordinator
       who: NRC's coordinator.
       does: >-
-        Schedules the sessions and the Amala call inside each assessment window, makes sure every
-        facilitator arrives with a case and every master educator's evidence reaches Amala ahead of
-        the call, and holds results until every recheck is in.
+        Puts each assessment period, the moderation discussions and the Amala session in the calendar,
+        makes sure templates reach Amala ahead of the session, and confirms results only when every
+        learner has been assessed and every change from moderation is on their record.
+  # The five steps of each assessment period, in order. Dates are set per iteration, not here.
+  cycle:
+    - title: A first set of assessments
+      who: Every educator
+      detail: >-
+        Every educator assesses at least one learner in both competencies, on the Competency
+        Assessment Record. Choose learners you know well and have good evidence for. These are the
+        assessments the moderation discussions are drawn from.
+    - title: Moderation discussions
+      who: Master educators, with educators
+      detail: >-
+        For each learning centre, at least one moderation discussion per competency, each captured on
+        the moderation template. Where you can, the second competency is discussed with a different
+        educator and a different learner. In each one, one educator presents their case and the
+        rationale for the level they awarded, then answers questions. These happen in person, at the
+        learning centre, and are best done with the centre's other educators in the room, so everyone
+        learns from it. Print the template and fill it in by hand if that is easier.
+    - title: The moderation session with Amala
+      who: Master educators, with a member of the Amala Education Programmes team
+      detail: >-
+        An online session - a video call - with all the master educators together. Send your completed
+        templates ahead (a clear photo of a handwritten template is fine), then bring them, and your
+        understanding of each discussion, to the session. It is spent on the cases that teach the most,
+        and on what every educator needs to hear.
+    - title: Share the learning
+      who: Master educators, with every educator
+      detail: >-
+        Soon after the Amala session, and before the rest of the learners are assessed, hold a short
+        follow-up session with the educators at each centre, in person. Share what came out of the
+        discussions and the Amala session, and practise it together. See "Making the most of the
+        session with Amala".
+    - title: Every learner assessed
+      who: Every educator
+      detail: >-
+        Assess every learner in both competencies. Talk each record through with the learner, in the
+        language they understand best, give them the sheet with their level and their next step, and
+        keep a copy or photo. If moderation changed your view of a learner you had already assessed,
+        update their record first.
   sessions:
-    - when: Week 6, after the supported assessment
-      title: Formative moderation, then the case call with Amala
-      facilitatedBy: Each master educator, with their facilitators; then Amala, with the master educators
+    - when: Formative - around Week 6
+      title: The formative assessment period
+      facilitatedBy: Master educators, then Amala with the master educators
       purpose: >-
-        The first time facilitators compare judgements, and the first time master educators run the
-        session. Expect wide spreads and expect most learners to sit at Theorist - the goal-pursuit and
-        analysis weeks come after Week 6. Levels set here are provisional. What matters is the shared
-        reading of the scale, early enough to change how evidence is gathered in Weeks 7 to 11.
-    - when: Week 12, after the final assessment, before results are confirmed
-      title: Summative moderation, then the case call with Amala
-      facilitatedBy: Each master educator, with their facilitators; then Amala, with the master educators
+        The first time the levels are used for real, and the first round of moderation. Expect wide
+        differences, and expect most learners to sit at Theorist - the goal-pursuit and analysis weeks
+        come after Week 6. Levels here are provisional. What matters is the shared reading of the
+        levels, and that it reaches every educator before the second block of learning.
+    - when: Summative - Week 12
+      title: The summative assessment period
+      facilitatedBy: Master educators, then Amala with the master educators
       purpose: >-
-        The session that counts. Cases are judged as at Week 6, but decisions are final. No result is
-        confirmed, and no readiness decision made, until both the session and the Amala call have
-        happened and every recheck they produced is in.
+        The same five steps, and this time the levels are final. Moderate educators you did not
+        moderate at the formative period where you can. Results are confirmed, and the readiness
+        decision made, only after the Amala session and once every change from moderation is on the
+        learner's record.
+  # What gets moderated, and what an educator brings to the discussion.
   theCase:
     intro: >-
-      One learner, one competency, one judgement. One case each is enough, because the session is
-      not checking every judgement - it is checking how each facilitator reads the scale, and the
-      recheck carries that back across everything else they judged.
+      One moderation discussion is about one assessment: one educator, one learner, one competency.
+      The minimum is one discussion per competency for every learning centre you support. That is a
+      sample, not a check on every learner - what makes it count is that what you learn reaches every
+      educator before the rest are assessed.
     choose:
-      - The judgement you were least sure of - not the one you are proudest of. A case everyone agrees on in a minute teaches the group nothing.
-      - Where you can, one that sits near a boundary that changes a grade - Theorist or Practitioner, Practitioner or Reflective Practitioner.
-      - At Week 12, a different learner from your Week-6 case, and where you can, the other competency.
+      - At least one discussion per competency for each learning centre - more if you have time.
+      - Where you can, a different educator and a different learner for the second competency.
+      - The assessments the educator was least sure of, or that sit near a boundary - Theorist or Practitioner, Practitioner or Reflective Practitioner. More is learned from these than from the clear ones.
+      - At the summative period, educators you did not moderate at the formative period, where you can.
+      - "Anything that looks odd across a centre - most learners at one level, or a level that surprised you - is worth a discussion. Write down why you chose it: that is the first box on the template."
     bring:
-      - "The evidence, as it is: the learner's book open at the right pages, what they drew or made, and your notes of what they said and did. Much of the evidence here is oral and visual, because many learners are not yet literate - it counts exactly as written work does."
-      - Your Competency Assessment Record for that learner (the copy or photo you kept), with your level and what you wrote in "Why this level?".
-      - "Your case sheet (Educator Guide Part 9B): where you were least sure, and what would have moved you up or down."
-      - The learner identified by first name or a code only. The case is about the judgement, not the person - and some of it will travel to Amala.
+      - The learner's Competency Assessment Record, with the level and what was written in "Why this level?".
+      - "The evidence, as it is: the learner's book open at the right pages, what they drew or made, notes of what they said and did. Spoken and visual evidence counts exactly as written work does."
+      - Nothing new. Moderation uses the evidence the educator already has - no new tasks for the learner.
+      - The learner identified by their SL or student ID.
+  # The moderation discussion itself: a master educator and an educator, about one assessment.
   running:
-    - step: Set up
-      time: 10 min
-      detail: >-
-        The Proficiency Scale in front of everyone, read aloud in the language the group works in.
-        Two rules said out loud: disagreements are settled against the descriptors, not by who is most
-        senior; and changing your mind is the system working, not a failure.
-    - step: Present the evidence
-      time: 3 min per case
-      detail: >-
-        The facilitator shows what the learner did, said and made - the evidence only. Not their
-        level, and not how they feel about the learner.
-    - step: Judge blind
+    - step: Set it up
       time: 2 min
       detail: >-
-        Everyone, the master educator included, privately decides a level. Then everyone shows at once
-        - written on a card, or held up on fingers (1 Theorist, 2 Practitioner, 3 Reflective
-        Practitioner, a closed fist for No Level Awarded). Nobody can wait to see where the others
-        land.
-    - step: Argue it out
-      time: 7 min
+        Say what this is for: understanding how levels are being decided, so a level means the same
+        thing at every centre. It is case-based, not consensus-based - nobody has to agree, and it is
+        not checking up on the educator. Note on the template why you chose this case.
+    - step: The educator presents their case
+      time: 10 min
       detail: >-
-        If the levels spread, the people at either end argue first, each pointing to the descriptor
-        and the piece of evidence that puts it there. The facilitator whose case it is speaks last:
-        their level, and their reason.
-    - step: Decide and record
-      time: 3 min
+        One educator, uninterrupted: the learner's story, the context and the opportunity the learner
+        had, the evidence - what the learner did, said and made - and the level they awarded, with
+        their rationale. Let them finish before anyone asks anything.
+    - step: Questions
+      time: 12 min
       detail: >-
-        The group decides - confirmed, changed, or more evidence needed - and the master educator
-        writes the decision and a one-line reason tied to the descriptor. If it changed, a recheck is
-        flagged.
-    - step: Close, and choose the case for Amala
-      time: 15 min
+        The master educator asks questions first, then other educators in the room if they have them.
+        Which words in the level description does each piece of evidence match? What in the next level
+        has not been seen? Was it seen, or reported? Did the learner have a fair chance to show it?
+    - step: The moderator's view
+      time: 5 min
       detail: >-
-        What showed up across the cases: a descriptor the group was reading differently, a kind of
-        evidence being over- or under-weighted. The agreed reading is written down, and every recheck
-        gets a date. Then the master educator picks the case they will take to Amala, and says which
-        one, and why, before the group leaves.
+        The master educator gives their own level and the reason for it. If it differs from the
+        educator's, explore why - the evidence, the opportunity, or reading the level description
+        differently. If it is the same, say which words in the level description decide it.
+    - step: Capture
+      time: 5 min
+      detail: >-
+        Fill in the rest of the template together: the educator's confidence, the suggested
+        improvements, one thing every educator should hear, and anything to raise in the session with
+        Amala.
+  groupVariant: >-
+    It is best done with the centre's other educators in the room. Everyone learns from hearing one
+    educator explain their reasoning and answer questions, and it makes moderation something
+    colleagues do together rather than something done to one person. For the first discussion at a
+    centre, choose a confident educator to present. If it is not possible to have others in the room -
+    for practical or logistical reasons - a one-to-one discussion is fine.
   facilitatorRules:
-    - Hold the protocol, not the verdict. Your level goes on the table blind with everyone else's, and gets argued with like everyone else's.
-    - Never resolve a disagreement with your own authority. Resolve it against the descriptor, and make the group say which words in it decide the case.
-    - Keep each facilitator's level hidden until everyone has judged. Once a level is spoken, the room anchors to it.
-    - Ask the quiet ones first. A facilitator who agreed with everything in the assessment induction will agree with everything here unless you make room for them not to.
-    - "Watch for the three slips: being swayed by presentation rather than proficiency, by knowing the learner, or by effort rather than what the learner can now do. Here, add a fourth: reading a learner who cannot write as a learner who cannot do."
-    - Keep a group to eight facilitators at most. With more, run two sessions - nine cases at fifteen minutes each is too long to stay sharp.
-    - Write it down as you go. The record is what you take to Amala, and the evidence the session happened.
+    - Let the educator present the whole case before anyone asks anything. It is their case and their rationale.
+    - Hold the conversation, not the verdict. Your level is a view to be explored against the level descriptions, not a ruling.
+    - It is case-based, not consensus-based. Where views differ, explore why against the level description - you do not have to end up agreeing, and seniority never settles it.
+    - Bring the other educators in. Invite their questions, and keep the focus on the case, not the person.
+    - Ask about the opportunity before the level. A low level can simply mean the learner never had a fair chance to show it.
+    - Test the level both ways. Name the evidence for this level, and name what in the next level's description has not been seen. A reason that only argues one way is not finished.
+    - Ask whether it was seen or reported. What a learner tells you they did at home counts, but say which it is, and look for something the educator saw.
+    - A level describes what the learner can do now. Never set it lower to push the learner or higher to encourage them - that makes the level untrue, which is a bigger problem than a wrong one.
+    - One discussion is not a pattern. Do not decide an educator is harsh or generous from one case; note it, and look again across more assessments.
+    - Not every difference is a mistake. A learner can genuinely show more in one setting than another. The difference to remove is two people reading the same level description differently.
+    - "Watch for the slips: being swayed by a neat product rather than what the learner did, by knowing the learner, by effort rather than what the learner can now do - and reading a learner who cannot write as a learner who cannot do."
+    - Write it down as you go. The template is what you take to Amala, and what you share back with educators.
   outcomes:
-    - outcome: Confirmed
-      meaning: The group places the evidence where the facilitator did.
-      then: The judgement stands. Nothing more to do.
-    - outcome: Changed
-      meaning: The group places it at a different level, and can say which descriptor puts it there.
+    - outcome: The educator keeps their level
+      meaning: Having heard the questions and the moderator's view, the educator still judges the evidence the same way.
+      then: The level stands. It is the educator's judgement; the discussion is on the template either way.
+    - outcome: The educator revises their level
+      meaning: The discussion shows the evidence sits at a different level, against the words of the level description.
       then: >-
-        The level on the record changes, with the reason. The facilitator then rechecks every other
-        judgement they made in that competency that rested on the same reading.
+        The educator changes the level on the record, with the reason, before the sheet goes to the
+        learner - and checks any other learners they judged the same way.
     - outcome: More evidence needed
       meaning: The evidence cannot support any level with confidence.
       then: >-
-        At Week 6, the facilitator gathers it in Weeks 7 to 11 - this is the most useful thing Week 6
-        can tell them. At Week 12, they look for evidence that already exists - no new tasks - and if
-        it is not there, the judgement is made on the evidence as it stands.
+        At the formative period, the educator gathers it in the next block of learning. At the
+        summative period, they look for evidence that already exists - no new tasks - and if it is not
+        there, the level is decided on the evidence as it stands.
   recheck: >-
-    One case each is a sample, not the whole cohort. What makes it count is the recheck. When a case
-    is changed, the facilitator goes back through their other judgements in that competency and asks
-    whether they applied the reading the group just corrected. Anything that moves is recorded with a
-    reason, and the master educator sees the list before results are confirmed. The same rule runs
-    one level up: when Amala changes a master educator's case, the master educator rechecks the
-    decisions from their session that rested on the same reading.
+    One discussion per competency per centre is a sample. What makes it count is what happens next:
+    when a level changes, the educator checks every other learner they judged the same way, and what
+    was learned is shared with every educator before the rest of the learners are assessed. The same
+    runs one level up: when the Amala session reads a case differently, the master educator takes it
+    back to the educator, and shares it with every educator.
+  # The moderation session with Amala, after the discussions in each period.
   facilitatorCase:
     intro: >-
-      After every session, each master educator brings one case of their own to Amala. It is the same
-      protocol, one level up: the master educators judge each other's cases blind, with Amala, and
-      argue them out against the scale. It is how Amala checks that every master educator is holding
-      the standard, without being in the room where the judgements were made.
+      After the moderation discussions, master educators bring their completed templates to a
+      moderation session with a member of the Amala Education Programmes team. It is where Amala checks that the
+      levels are being read the same way across every centre and every master educator, without being
+      in the room where the assessments were made.
     when: >-
-      Within a week of the sessions. At Week 6, before Weeks 7 to 11 are well under way, so anything
-      it changes still changes the teaching. At Week 12, before any result is confirmed.
+      After the moderation discussions and before the rest of the learners are assessed, so what it
+      changes still reaches every educator in time. At the summative period, always before results
+      are confirmed.
     format: >-
-      One call, all the master educators together, facilitated by Amala - about twenty minutes a case.
-      Evidence travels as photographs, sent to Amala and the other master educators at least two days
-      before the call, so a dropped connection never loses a case. If the line will not hold video,
-      the call runs as voice over the photographs everyone already has.
+      Online: a video call with all the master educators together and a member of the Amala Education
+      Programmes team. Join from somewhere quiet with a reliable connection, and have your templates in
+      front of you. Send your templates - a clear photo of each page is fine, including handwritten
+      ones - at least two days ahead, so Amala can read them all. The session
+      is spent on a selection - the biggest differences, the lowest confidence, a strong example - and
+      on what came up across the templates. If the connection will not hold video, the session carries
+      on as a voice call over templates everyone already has. The full running order is in the moderation protocol.
     choose:
-      - The hardest case decided in your session - ideally one the group changed, or one it argued about for the whole seven minutes.
-      - Not the facilitator's original judgement on its own, but the decision your session reached. It is your moderation that is being checked, not their assessing.
+      - Bring every template you completed. Amala reads them all.
+      - Be ready to talk through any of them - especially the ones where you and the educator differed, or the educator was not confident.
     bring:
-      - Photographs of the evidence, and the facilitator's case sheet.
-      - The facilitator's original level and reason, the levels your group showed blind, and the decision you recorded, with its reason.
-      - Your moderation record for the whole session, so Amala can see what else was decided and on what reading.
+      - Your completed templates, sent ahead.
+      - Your understanding of each discussion - what the educator said, and why you landed where you did.
+      - What you think every educator needs to hear.
     ifDisagree: >-
-      If Amala and the other master educators place the case differently, the call's decision stands
-      for that case. You then recheck every decision from your session that rested on the same
-      reading, ask the facilitators concerned to recheck their own judgements the same way, and send
-      Amala and the coordinator the list of what moved before results are confirmed. Amala does not
-      regrade the rest of the cohort; you do, with what the call made clear.
+      If the session reads a case differently, take that back to the educator, one-to-one, before the
+      follow-up session. The level stays their judgement: they decide whether to revise it, and if they
+      do, they check any other learners they judged the same way. Then share what was learned with
+      every educator. Amala does not regrade learners.
   facilitatorPreparation:
     intro: >-
-      Master educators are trained to run moderation by Amala, and they learn it the way the
-      facilitators will: by doing it.
+      Master educators are trained to moderate by Amala before the first assessment period, and they
+      learn it the way the educators will: by doing it.
     steps:
-      - Before Week 6, a 90-minute remote session with Amala. Amala runs the protocol on two cases with the master educators as the assessors; then each master educator facilitates one round while the others play the assessors and Amala watches the protocol, not the verdict.
-      - Before that session, each master educator reads this guide and judges the practice cases they are sent, so the session is spent on facilitating, not on learning the scale.
-      - The Week-6 round is the practicum. The case call with Amala afterwards reviews how each session ran as well as the case itself.
-      - By Week 12, a master educator runs the session without support. If the Week-6 call showed one of them was not yet holding the protocol, Amala joins the start of their Week-12 session remotely where connectivity allows.
+      - Read this guide, and "What Might You See or Hear?", before the training.
+      - In the training, Amala runs a moderation discussion with you as the educator; then you run one with another master educator while Amala watches the conversation, not the verdict. Then fill a template from it.
+      - The formative period is the practice that counts. The Amala session afterwards looks at how each discussion ran, as well as the levels.
   records:
-    - name: Case sheet
-      who: Each facilitator, one per session (Educator Guide Part 9B)
-      what: The case they are bringing - learner, competency, their level and reason, where they were least sure.
-    - name: Moderation record
-      who: Each master educator, one per session
-      what: Every case taken, the levels shown blind, the decision and its reason, and the rechecks flagged. Goes to Amala with the master educator's own case.
-    - name: Recheck list
-      who: Each facilitator whose case was changed - and each master educator whose case Amala changed
-      what: Every judgement rechecked, what moved, and why. Returned to the master educator (or to Amala) and the coordinator by the agreed date.
+    - name: Moderation template
+      who: The master educator, one per moderation discussion
+      what: The learner, the opportunity, the evidence, both levels, where you differed and why, the educator's confidence, the outcome, and what to share. Goes to Amala ahead of the session.
+    - name: Competency Assessment Record
+      who: The educator, one per learner per assessment period
+      what: The level for each competency, why, and the learner's next step - changed if moderation changed it. The learner keeps it; the educator keeps a copy or photo.
+    - name: Session summary
+      who: Amala, one per moderation session
+      what: The cases discussed and how each was read, the patterns across all the templates, the agreed readings of the level descriptions, and the actions - who, what, by when. Sent to the master educators after the session.
+  # The moderation template - one per moderation discussion. Rendered as its own download and at the
+  # back of the Moderation Guide. `kind`: text (lines to write on), level (circle a level), choice
+  # (circle one of `options`).
+  template:
+    intro: >-
+      One per moderation discussion: one educator, one learner, one competency. Fill it in during the
+      discussion, with the educator - write what was said, in plain words. Printed and filled in by
+      hand is fine. Before the online session with Amala, send a clear photo of each page.
+    exampleIntro: >-
+      An illustrative example, not a real learner: how a filled-in template might read after a Week 6
+      discussion about Set and Pursue Goals. Notice how the evidence is tied to the words of the level
+      descriptions, and how the difference is traced to where it came from.
+    fields:
+      - label: Why this assessment
+        prompt: Why did you choose it? For example, the educator was unsure, it sits near a boundary, or it surprised you.
+        kind: text
+        lines: 2
+        guidance: >-
+          One or two sentences. Choosing well is half the value: a clear case where everyone agrees
+          teaches nobody anything.
+        example: >-
+          The educator placed her at Reflective Practitioner at Week 6, which is unusual - most of the
+          centre is at Theorist or Practitioner. Worth checking what Reflective Practitioner is being
+          read as.
+      - label: The learner's story
+        prompt: Bring the learner to life - their interests, what motivates them, what they find hard and are good at, and who supports them.
+        kind: text
+        lines: 5
+        guidance: >-
+          A short paragraph in the educator's own words. It is not evidence for the level; it tells
+          everyone reading the template who this learner is, and what might affect the chance they had
+          to show the competency.
+        example: >-
+          She is 16 and looks after her younger brothers in the mornings, so she sometimes arrives late.
+          She missed two weeks in the rains when the family's shelter was damaged. She is quiet in the
+          group but talks easily one-to-one, and she loves drawing - her learning book is full of
+          pictures. She cannot yet read much. Her cousin, who is at school, helps her with English in the
+          evenings.
+      - label: Context and opportunity
+        prompt: Where did the evidence come from? Did the learner have a fair chance to show this competency? Did the educator see it, or was it reported?
+        kind: text
+        lines: 4
+        guidance: >-
+          Name the session or setting (an Agency in Learning session, a mentoring conversation, the
+          Research Project, something at home). Say whether the learner had a real chance to show the
+          competency - and if not, why not. Say plainly which evidence the educator saw, and which the
+          learner reported.
+        example: >-
+          Evidence from the Agency in Learning sessions in Weeks 2 to 5 (setting the goal and the steps)
+          and two mentoring conversations. She missed the first "My weekly steps" week. The tally on her
+          steps page is her own record; the educator saw her practise once, in a check-in, and heard her
+          introduce herself in English.
+      - label: The evidence
+        prompt: What did the learner do, say or make? For each piece, which words in the level description does it match? Then - which words in the next level's description have not been seen?
+        kind: text
+        lines: 6
+        guidance: >-
+          The most important box. Write what happened, not a judgement ("drew her goal and three steps",
+          not "good work"). Tie each piece to words in the level description. Then test the other way:
+          name what in the next level up has not been seen. Spoken and drawn evidence counts exactly as
+          written work does.
+        example: >-
+          Set a clear goal - "say my name and my family in English at the showcase" - and drew it, with
+          three steps. Tally shows practice on 4 of 6 evenings in Week 5. In mentoring she said "I
+          practise with my cousin because she knows English from school" - so she can explain why she
+          chose that step. Matches Practitioner: "has set a goal, taken steps towards it, and can explain
+          why they chose those steps." Not yet seen for Reflective Practitioner: she has not said what
+          worked, what did not, or what she would change in how she is pursuing it.
+      - label: The educator's level
+        prompt: And their reason - what they wrote in "Why this level?".
+        kind: level
+        lines: 2
+        guidance: Copy it from the Competency Assessment Record, with the reason they gave.
+        example: >-
+          Reflective Practitioner. "She works very hard and never gives up, even after missing two
+          weeks."
+      - label: The moderator's level
+        prompt: Your own level, from the evidence you heard, and why.
+        kind: level
+        lines: 2
+        guidance: Your view, with the reason for it. It sits beside the educator's level - it does not replace it.
+        example: Practitioner - she has set a goal, taken steps and can say why, but has not yet said what worked or what she would change.
+      - label: The learner's own view (optional)
+        prompt: Only if you have it - from their growth self-check, or if the educator asked them. Where do they place themselves, and what did they say?
+        kind: text
+        lines: 3
+        guidance: >-
+          Optional, and worth having. Where a learner's view and the educator's are far apart, that gap
+          is a conversation in its own right.
+        example: On her self-check she marked "I can do my steps and say why" - closest to Practitioner.
+      - label: The educator's confidence
+        prompt: How sure is the educator that this level shows what the learner can really do - and why?
+        kind: choice
+        options: [Not very, Reasonably, Very]
+        lines: 1
+        guidance: Tick one, and write why in a line. What the educator says when asked is often more telling than the tick.
+        example: Reasonably - "I know her well from mentoring, but most of what I have is what she told me."
+      - label: The moderator's level and the educator's - why?
+        prompt: If they were different, why - the evidence, the context and opportunity, or reading the level description differently? If they were the same, which words in the level description decide it?
+        kind: text
+        lines: 4
+        guidance: >-
+          Write this whether the levels were the same or not. Where they were the same, the words that
+          decided it are useful to every educator. Where they differed, not every difference is a
+          mistake - a learner can show more in one setting than another. The difference to look for is
+          two people reading the same level description differently. Watch for a level set to motivate,
+          effort read as competency, and knowing the learner well.
+        example: >-
+          Reading the level description differently. The educator was rewarding effort and coming back
+          after missing two weeks. Reflective Practitioner needs the learner to say what worked, what did
+          not and what she would change - and she has not done that yet. The educator decided to revise
+          the level to Practitioner, and to check the two other learners she had placed at Reflective
+          Practitioner.
+      - label: Suggested improvements
+        prompt: What will the educator do differently in assessing? What could the programme change to make assessing easier or more consistent - the record, the guidance, training? And is there anything that would give learners a better chance to show this competency?
+        kind: text
+        lines: 3
+        guidance: >-
+          Three kinds: for the educator's assessing (not the learner's next step - that goes on the
+          record); for how the programme supports assessing - the record, the guidance, the training;
+          and for the learning itself, where learners have little chance to show the competency. Name
+          who will act.
+        example: >-
+          Educator: in check-ins, ask "what helped you practise, and what stopped you?" - that is where
+          reflection shows. Assessing: "What Might You See or Hear?" could say more plainly that effort
+          alone is not reflection. Learning: the "getting better at goals" sessions come after Week 6, so
+          Reflective Practitioner at Week 6 should be rare.
+      - label: For every educator
+        prompt: One thing from this discussion that every educator should hear.
+        kind: text
+        lines: 2
+        guidance: Write it as you would say it in the meeting with educators.
+        example: >-
+          Effort is not reflection. Reflective Practitioner needs the learner to say what worked, what did
+          not, and what they would change.
+      - label: For the session with Amala
+        prompt: What you want to ask or discuss.
+        kind: text
+        lines: 2
+        guidance: A real question, if you have one. "Nothing" is a fine answer.
+        example: >-
+          If a learner's only evidence of steps is her own tally, and the educator saw her practise once,
+          is that enough for Practitioner?
+  # The protocol for the moderation session between Amala and the master educators. Rendered as its
+  # own download (lb-coxs-bazar-moderation-protocol.docx), with the session summary record.
+  amalaProtocol:
+    intro: >-
+      The protocol for the online moderation session between a member of the Amala Education
+      Programmes team and the master educators, in each assessment period. The master educators' templates are the material.
+      The session checks that the level descriptions are being read the same way across every centre
+      and every master educator, and that what the master educators take back to educators is right.
+      Amala moderates the moderation: it does not regrade learners.
+    purpose:
+      - A shared reading of the level descriptions across every centre and every master educator.
+      - A check on the master educators' moderation - how each discussion ran, as well as where it landed.
+      - Clear messages for the master educators to take back to every educator.
+      - What the templates show about the programme itself - where learners do not get a fair chance to show a competency.
+    roles:
+      - role: Amala moderator
+        does: A member of the Amala Education Programmes team. Reads every template beforehand, runs the session, holds the protocol, and writes the session summary.
+      - role: Master educators
+        does: Send their templates ahead. In the session, present their cases - the educator's level and rationale, and their own - and ask questions about each other's.
+      - role: Note-taker (optional)
+        does: A second Amala person, where possible, so the moderator can listen. Otherwise the moderator notes as they go.
+    before:
+      - Templates arrive at least two days before the session. Most will be handwritten and photographed - check every page is readable, and ask again for any that are not. Chase any that are missing; a centre with no template is a gap in the sample.
+      - Send the video-call link with the session time, and agree a fall-back - a voice call - if a connection drops.
+      - Read every template. For each, note whether the educator and master educator agreed, the educator's confidence, and where any difference came from.
+      - Look across them. Are some centres or master educators placing most learners at one level? Is one level description being read in different ways? One template is not a pattern; three may be.
+      - Choose four to six cases for the session - the biggest differences, the lowest confidence, a case that shows a shared misreading, and one strong example of a discussion done well.
+      - Prepare one question for each chosen case, from the question bank below.
+      - Send the master educators the list of chosen cases the day before, so whoever presents each one is ready.
+    running:
+      - step: Open
+        time: 5 min
+        detail: >-
+          What the session is for, and the two rules: differences are settled against the level
+          descriptions, not by seniority; and changing your mind is the system working.
+      - step: What the templates show
+        time: 10 min
+        detail: >-
+          The moderator's overview: how many templates, from which centres and competencies, how often
+          educator and master educator agreed, and the patterns noticed. No names attached to patterns
+          about harshness or generosity - those need more cases.
+      - step: Present a case
+        time: 5 min per case
+        detail: >-
+          The master educator presents the case, uninterrupted: the learner's story, the context and
+          opportunity, the evidence, the educator's level and rationale, their own level and why, and
+          how the discussion with the educator went.
+      - step: Questions
+        time: 6 min per case
+        detail: >-
+          The moderator asks the prepared question first, then the other master educators ask theirs.
+          Which words in the level description does the evidence match? What in the next level has not
+          been seen? Was it seen or reported?
+      - step: Amala's view
+        time: 4 min per case
+        detail: >-
+          The moderator gives their own reading of the case and why. Where it differs, explore why -
+          the evidence, the opportunity, or reading the level description differently. Nobody has to
+          end up agreeing. Close on what the master educator takes back to the educator.
+      - step: Across the cases
+        time: 15 min
+        detail: >-
+          What came up more than once - a level description read differently, a kind of evidence being
+          missed or over-weighted, an opportunity the programme does not give learners. Put each into a
+          sentence every master educator can repeat to educators.
+      - step: Actions and close
+        time: 10 min
+        detail: >-
+          Each master educator says what they will take back, to whom, and by when. Note any changes to
+          learners' records, and anything for the programme.
+    probes:
+      - Which words in the level description does this evidence match?
+      - What in the next level's description has not been seen?
+      - Did the learner have a session that was built to draw out this competency, or did the evidence come from somewhere else?
+      - Was this seen by the educator, or reported by the learner?
+      - How confident was the educator - and what did they say when asked why?
+      - Is the difference about the evidence, the opportunity, or how the level description is read?
+      - Was the level set to push or encourage the learner, rather than to describe what they can do now?
+      - Would you place a learner who said this the same as one who wrote it?
+      - How did the discussion with the educator go - who did most of the talking?
+    rules:
+      - "Hold the conversation, not the verdict. It is case-based, not consensus-based: your reading is a view to be explored against the level descriptions, not a ruling, and the session does not have to end in agreement."
+      - Let the master educator present the whole case before anyone asks anything.
+      - Check the moderation, not the educator. The question is whether the master educator's discussion reached a sound reading - and whether they will take the right message back.
+      - Do not regrade learners. Where a case is read differently, the master educator takes it back to the educator, who changes the record.
+      - One case is not a pattern. Track levels across more templates and periods before concluding that anyone is harsh or generous.
+      - Keep it to time. Cases not discussed still get a written comment in the session summary.
+    after:
+      - Within two working days, send the session summary to every master educator and the coordinator.
+      - Master educators hold a follow-up session with the educators at each centre before the rest of the learners are assessed, and make sure changed records are updated. The summary should give them what they need for it - the agreed messages in plain sentences.
+      - Give a short written comment on every template not discussed in the session.
+      - Keep the templates and summaries for the period. Look at them again at the summative period, to see whether the readings held and whether any pattern has become real.
+      - Pass anything about the programme - for example a competency learners have little chance to show before Week 6 - to whoever owns the curriculum.
+    summary:
+      intro: One per moderation session, written by the Amala moderator and sent to every master educator and the coordinator within two working days.
+      fields:
+        - label: Templates received
+          prompt: How many, from which centres, for which competency. Any centre with none.
+          kind: text
+          lines: 2
+        - label: Cases discussed
+          prompt: For each - master educator, centre, competency, the educator's level, the master educator's level, the moderator's reading, and what goes back to the educator.
+          kind: text
+          lines: 6
+        - label: Across the templates
+          prompt: What came up more than once.
+          kind: text
+          lines: 3
+        - label: Agreed readings
+          prompt: Each in a sentence a master educator can repeat to educators.
+          kind: text
+          lines: 3
+        - label: Actions
+          prompt: What, who, by when - including records to change.
+          kind: text
+          lines: 3
+        - label: For the programme
+          prompt: Anything the templates showed about the curriculum or the assessment design.
+          kind: text
+          lines: 2
+        - label: Templates not discussed
+          prompt: A short comment on each.
+          kind: text
+          lines: 3
+  protocolFile:
+    label: Moderation protocol - the session with Amala
+    file: /downloads/lb-coxs-bazar-moderation-protocol.docx
+    format: Word
+    note: >-
+      For the Amala Education Programmes team and the master educators: how the moderation session runs - before,
+      during and after - with the question bank and the session summary record. Editable.
+  # Making the most of the Amala session: how master educators carry what was learned back to
+  # every educator (step 4 of the cycle).
+  sharing:
+    intro: >-
+      The session with Amala is only worth the time if what is learned reaches every educator before
+      the rest of the learners are assessed. That is the master educator's job, and it works best as a
+      short follow-up session at each centre, in person, soon after the Amala session.
+    steps:
+      - Straight after the Amala session, write down the two or three messages you will take back, in sentences you can say to educators. The session summary will help, but do not wait for it if it is late.
+      - Talk first, one-to-one, to any educator whose case the session read differently. They should hear it from you before the group does, and decide whether to revise the level on their record.
+      - Then hold the follow-up session with all the educators at the centre - within a few days, and before they assess the rest of their learners.
+      - Afterwards, check the changes have happened - records revised where an educator decided to, and the messages used in the assessments that follow.
+      - Keep your notes. At the summative period, look back at what came up at the formative period, and choose cases that show whether it has changed.
+    agenda:
+      - step: What came out of the session
+        time: 10 min
+        detail: >-
+          The two or three messages, said plainly - for example a level description people were
+          reading differently, or a kind of evidence being missed. Show the words in the level
+          description on the Competency Assessment Record.
+      - step: One case, walked through
+        time: 15 min
+        detail: >-
+          Take one case from the moderation discussions - with the educator's agreement, and ideally
+          presented by them - and talk through what the session made of it. Keep it about the case,
+          not the person.
+      - step: Practise together
+        time: 15 min
+        detail: >-
+          Each educator brings one learner they are about to assess. In pairs, one describes the
+          evidence and the other asks the questions from the moderation discussion: which words does it
+          match, what in the next level has not been seen, was it seen or reported?
+      - step: What changes
+        time: 5 min
+        detail: >-
+          Each educator says one thing they will do differently in the assessments still to come.
+    tip: >-
+      If you cannot get everyone together, do it in smaller groups or one-to-one - but do not skip the
+      practice. Hearing the messages changes little; using them on a real learner changes how people
+      assess.
   trap: >-
-    The session turns into the master educator marking the cases while the facilitators watch. It
-    feels efficient and respectful of rank, and it teaches nobody anything: the Week-12 judgements
-    will be no more consistent than the Week-6 ones, and the case that reaches Amala will be the
-    master educator's reading, not the group's. The moderation is in the blind judging and the
-    argument. If the facilitators are not doing both, it is not happening.
+    The discussion turns into the master educator telling the educator the right level. It feels
+    efficient and respectful of rank, and it teaches nobody anything: the next assessments will be no
+    more consistent than these, and the template that reaches Amala shows the master educator's view,
+    not the conversation. The moderation is in the educator explaining their evidence and both of you
+    reasoning against the level descriptions. Ask more than you tell.
   guide:
     label: Moderation Guide - for master educators
     file: /downloads/lb-coxs-bazar-moderation-guide.docx
     format: Word
     note: >-
-      For NRC's master educators, who run moderation with the facilitators at Week 6 and Week 12 and
-      each bring a case to Amala. Who does what, choosing and preparing a case, a running order for
-      the session, what a session can decide, the recheck, the case call with Amala, and the records
-      to print. Editable.
+      For NRC's master educators. The five steps of each assessment period, choosing what to moderate,
+      how to run a moderation discussion, what it can decide, the moderation session with Amala,
+      sharing the learning with educators, and the moderation template to print. Editable.
+  templateFile:
+    label: Moderation template
+    file: /downloads/lb-coxs-bazar-moderation-template.docx
+    format: Word
+    note: >-
+      One per moderation discussion - one educator, one learner, one competency. Filled in by the
+      master educator during the discussion, and sent to Amala before the moderation session. Editable.
 
 sourceNotes:
   - Contextualised edition of the Learning Bridge programme (see programmes/learning-bridge.yaml); components and competencies are shared, delivery and sequencing are rebuilt for the Cox's Bazar context.
