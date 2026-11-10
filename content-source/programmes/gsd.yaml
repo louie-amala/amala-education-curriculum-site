@@ -100,3 +100,164 @@ sourceNotes:
   - The Handbook table and the Explainer diagram order the two courses within a stream differently; positions above follow the Explainer diagram.
   - exampleProductTask values are illustrative example demonstration tasks, NOT GSD requirements. Seven are "under construction" in the Handbook (null above); five are named.
   - Learning Bridge is a separate programme (not the GSD) and is not yet sourced.
+
+# Programme-level downloads, rendered near the top of the programme page.
+downloads:
+  - label: Case-based moderation template
+    file: /downloads/gsd-moderation-template.docx
+    format: DOCX
+    note: >-
+      One per case - one educator, one learner, one competency. The presenting educator fills in Part A
+      before the session; Parts B and C are filled in during it. Type straight into the boxes, or print.
+
+# The case-based moderation template. Not rendered on the page (the schema ignores it); generated into
+# /downloads/gsd-moderation-template.docx by scripts/downloads/generate-gsd-moderation.js. `kind`:
+# text (a box to type in), level (tick a level, then a box), choice (tick one of `options`, then a box).
+moderationTemplate:
+  title: Case-based moderation template
+  about:
+    heading: What case-based moderation is
+    paras:
+      - >-
+        Case-based moderation is how GSD educators build a shared understanding of what each level of
+        the Proficiency Scale looks like. It is developmental: it exists to grow educators' judgement,
+        not to check whether a decision was right.
+      - >-
+        In each session, an educator presents a case: their judgement of one learner's level in one
+        competency, with the evidence and reasoning behind it. Colleagues ask questions to understand
+        how the judgement was reached, and the discussion tests that reasoning against the words of the
+        level descriptors. The level stays the judgement of the educator who knows the learner.
+      - >-
+        A case is not a piece of work to be marked. Proficiency lives in the learner, not the artefact,
+        so a case brings everything the educator knows: what the learner demonstrated, where, how the
+        educator knows, and who the learner is.
+      - >-
+        Over time, this makes decisions more consistent across educators and sites. That consistency is
+        what lets learners, partners and anyone recognising the GSD trust our assessment model.
+      - >-
+        A good case is one there is something to learn from: a judgement near a boundary, one the
+        educator was unsure of, one that surprised them, or one the site wants to look at.
+  howTo:
+    heading: How to use it
+    items:
+      - The presenting educator fills in Part A before the session.
+      - The facilitator fills in Parts B and C during the session, with the educator.
+      - Moderation is case-based, not consensus-based. The level is the judgement of the educator who knows the learner; the room asks questions and gives advice, it does not decide.
+      - Identify the learner by their Toddle/MTC ID, never by name.
+      - Educators can share links to the learner's work if it helps the discussion.
+      - The completed template goes into the site's moderation record and to Amala.
+  header:
+    - Site / partner
+    - Date
+    - Presenting educator
+    - Facilitator of the case-based moderation
+    - Educators attending
+    - Learner ID
+    - Competency (code and title)
+    - Competency goal
+  parts:
+    - title: "Part A: prepared by the presenting educator"
+      fields:
+        - label: Why this case?
+          prompt: >-
+            Why is it being moderated? You may have been asked to bring it. Or you may have chosen it
+            because you were unsure, it sits on a boundary (especially Theorist/Practitioner, where
+            credit is decided), it surprised you, or it would be useful for everyone to see.
+          guidance: If you were asked to bring it, say so, and add anything about it you think the room should notice.
+          kind: text
+          lines: 3
+        - label: The learner
+          prompt: >-
+            Help the room get to know the learner: their interests, what motivates them, what they find
+            hard and what they are good at, who supports them, and anything about their life and
+            circumstances that helps explain where they are.
+          guidance: This is not evidence for the level. It is so everyone discussing the case understands the learner and their context.
+          kind: text
+          lines: 5
+        - label: What level?
+          kind: level
+        - label: Your rationale
+          prompt: >-
+            Why this level? Tie your reasons to the words of the level descriptor, and be specific about
+            where and how the learner demonstrated the competency. For example, if you say they achieved
+            the goal described by the competency, say:
+          bullets:
+            - "Where: which course, PIP, Pathways, a mentoring conversation, or outside the curriculum."
+            - "What they were doing: the task or situation, and what they actually did, said or made."
+            - "How you know: whether you saw or heard it yourself, or the learner reported it."
+          after: >-
+            Then say what from the next level up you have not yet seen the learner demonstrate. Share
+            links to their work if it helps the room.
+          guidance: >-
+            Write what happened, not a verdict: "drafted a goal with three milestones in the PIP planning
+            phase", not "strong plan". If you are claiming Expert Practitioner, name each scenario.
+          kind: text
+          lines: 10
+        - label: Your confidence
+          prompt: How sure are you that this level reflects what the learner can really do?
+          kind: choice
+          options: [Not very, Reasonably, Very]
+          boxLabel: Why?
+          lines: 2
+        - label: The learner's own view (optional)
+          prompt: From a self-assessment or a conversation - where do they place themselves, and what did they say?
+          kind: text
+          lines: 3
+    - title: "Part B: in the session"
+      fields:
+        - label: Questions and answers
+          prompt: The main questions the room asked, and the presenting educator's answers.
+          guidance: >-
+            The aim is to understand the judgement and the evidence behind it, not to second-guess it.
+            The presenting educator knows the learner; the room does not.
+          kind: text
+          lines: 6
+        - label: What the discussion brought out
+          prompt: >-
+            Did the rationale hold up against the words of the level descriptor? Where questions came up,
+            were they about:
+          bullets:
+            - "The evidence: what the learner demonstrated, and whether it was seen or reported."
+            - "The context: whether the learner had a real chance to demonstrate the competency."
+            - "The reading of the descriptor: whether people understood the same words differently."
+          after: Which words of the descriptor turned out to decide it?
+          guidance: >-
+            Watch for levels set to motivate, effort read as competency, a polished artefact read as
+            proficiency, and how well the educator knows the learner.
+          kind: text
+          lines: 6
+    - title: "Part C: outcome and learning"
+      fields:
+        - label: The decision
+          kind: choice
+          options: [The level stands, The educator chose to revise it]
+          guidance: >-
+            The level is the educator's judgement, because they know the learner. The room asks questions
+            and gives advice; it does not decide.
+          boxLabel: "If revised: the new level, and why. Any other notes on the decision."
+          lines: 2
+        - label: Toddle and MTC updated?
+          kind: choice
+          options: [Yes, Not needed, Pending]
+          boxLabel: "If pending: who will do it, and by when"
+          lines: 1
+        - label: Improvements
+          prompt: Name who acts on each.
+          boxes:
+            - label: "The educator's assessing"
+              prompt: What they will do differently in gathering evidence or making judgements.
+              lines: 2
+            - label: The site
+              prompt: Anything that would make assessing easier or more consistent, such as recording practice, guidance, or how cases are chosen.
+              lines: 2
+            - label: Learning design and facilitation
+              prompt: Anything to think about when designing and facilitating future learning, such as opportunities to demonstrate this competency, how tasks are set up, or where evidence could be gathered more naturally.
+              lines: 2
+        - label: For every educator
+          prompt: One thing from this case every GSD educator should hear, written as you would say it.
+          kind: text
+          lines: 2
+        - label: For Amala
+          prompt: A question, a descriptor that needs clarifying, or a pattern. "Nothing" is a fine answer.
+          kind: text
+          lines: 2
