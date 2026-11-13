@@ -107,8 +107,9 @@ downloads:
     file: /downloads/gsd-moderation-template.docx
     format: DOCX
     note: >-
-      One per case - one educator, one learner, one competency. The presenting educator fills in Part A
-      before the session; Parts B and C are filled in during it. Type straight into the boxes, or print.
+      One per case - one educator, one learner, one competency. The educator bringing the case fills in
+      Part A before the session; colleagues read it, then ask questions. Parts B and C are filled in
+      during the session. Type straight into the boxes, or print.
 
 # The case-based moderation template. Not rendered on the page (the schema ignores it); generated into
 # /downloads/gsd-moderation-template.docx by scripts/downloads/generate-gsd-moderation.js. `kind`:
@@ -123,10 +124,11 @@ moderationTemplate:
         the Proficiency Scale looks like. It is developmental: it exists to grow educators' judgement,
         not to check whether a decision was right.
       - >-
-        In each session, an educator presents a case: their judgement of one learner's level in one
-        competency, with the evidence and reasoning behind it. Colleagues ask questions to understand
-        how the judgement was reached, and the discussion tests that reasoning against the words of the
-        level descriptors. The level stays the judgement of the educator who knows the learner.
+        In each session, an educator brings a case: their judgement of one learner's level in one
+        competency, with the evidence and reasoning behind it, written up in Part A of this template.
+        Colleagues read it first, then ask questions to understand how the judgement was reached, and
+        the discussion tests that reasoning against the words of the level descriptors. The level stays
+        the judgement of the educator who knows the learner.
       - >-
         A case is not a piece of work to be marked. Proficiency lives in the learner, not the artefact,
         so a case brings everything the educator knows: what the learner demonstrated, where, how the
@@ -140,7 +142,8 @@ moderationTemplate:
   howTo:
     heading: How to use it
     items:
-      - The presenting educator fills in Part A before the session.
+      - The educator bringing the case fills in Part A before the session. Write it so that a colleague who does not know the learner can follow it - Part A is all they will have to go on.
+      - In the session, everyone reads Part A first. The educator does not present it; the session moves straight to questions.
       - The facilitator fills in Parts B and C during the session, with the educator.
       - Moderation is case-based, not consensus-based. The level is the judgement of the educator who knows the learner; the room asks questions and gives advice, it does not decide.
       - Identify the learner by their Toddle/MTC ID, never by name.
@@ -149,14 +152,14 @@ moderationTemplate:
   header:
     - Site / partner
     - Date
-    - Presenting educator
+    - Educator bringing the case
     - Facilitator of the case-based moderation
     - Educators attending
     - Learner ID
     - Competency (code and title)
     - Competency goal
   parts:
-    - title: "Part A: prepared by the presenting educator"
+    - title: "Part A: prepared by the educator bringing the case"
       fields:
         - label: Why this case?
           prompt: >-
@@ -206,10 +209,10 @@ moderationTemplate:
     - title: "Part B: in the session"
       fields:
         - label: Questions and answers
-          prompt: The main questions the room asked, and the presenting educator's answers.
+          prompt: Once everyone has read Part A - the main questions the room asked, and the educator's answers.
           guidance: >-
             The aim is to understand the judgement and the evidence behind it, not to second-guess it.
-            The presenting educator knows the learner; the room does not.
+            The educator knows the learner; the room only has what they read.
           kind: text
           lines: 6
         - label: What the discussion brought out
